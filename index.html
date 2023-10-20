@@ -8,6 +8,9 @@
          body { max-width: 50em; margin: 0 auto; padding: 0 1rem;
              font-family: Tahoma, Verdana, Arial, sans-serif;
              line-height: 1.5}
+         .heading {display: flex;align-items:baseline; flex-wrap:wrap;}
+         .heading * {margin-right: .5em; margin-bottom:0}
+         h4 {margin-bottom: .5rem}
          ul { padding-bottom: 1rem}
          li { padding-bottom: .5rem; list-style-type: none}
          li p {margin: 0.5rem 0}
@@ -21,19 +24,18 @@
         </style>
     </head>
     <body>
-        <h2>Facundo Olano</h2>
+        <div class="heading">
+            <h2>Facundo Olano</h2>
+            <span>
+                <a href="#projects">projects</a>
+                <a href="https://blog.olano.dev">blog</a>
+                <a href="https://www.linkedin.com/in/facundoolano/">resume</a>
+                <a href="mailto:facundo.olano@gmail.com">contact</a>
+            </span>
+        </div>
         <p>I'm a software engineer from Argentina.</p>
 
-        <h4 id="contact">Contact</h3>
-            <ul>
-                <li>facundo.olano@gmail.com</li>
-            <li><a href="https://blog.olano.dev">blog</a></li>
-            <li><a href="https://hachyderm.io/@facundoolano">mastodon</a></li>
-            <li><a href="https://www.linkedin.com/in/facundoolano/">resume</a></li>
-        </ul>
-
-        <h4 id="open-source">Open source projects</h3>
-            <ul>
+            <h4 id="projects">Projects </h4>
                 <li><span class="date">2023</span> <a href="https://github.com/facundoolano/feedi">feedi</a>
                     <p>A personal news feed and mastodon client.</p>
                     <hr/>
@@ -98,6 +100,5 @@
                 <li><span class="date">2011</span> <a href="https://github.com/facundoolano/alephuba">Aleph UBA</a>
                     <p>A file-sharing web application for college students. </p>
                 </li>
-            </ul>
     </body>
 </html>
