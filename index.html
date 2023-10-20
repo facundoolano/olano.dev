@@ -9,7 +9,7 @@
              font-family: Tahoma, Verdana, Arial, sans-serif;
              line-height: 1.5}
          ul { padding-bottom: 1rem}
-         li { padding-bottom: .5rem}
+         li { padding-bottom: .5rem; list-style-type: none}
          li p {margin: 0.5rem 0}
          .date {color: gray; }
          a {color: dodgerblue;text-decoration: none}
@@ -19,19 +19,21 @@
     <body>
         <h2>Facundo Olano</h2>
         <p>I'm a software engineer from Argentina.</p>
-        <ul>
-            <li>contact: facundo.olano@gmail.com</li>
+
+        <h4 id="contact">Contact</h3>
+            <ul>
+                <li>facundo.olano@gmail.com</li>
             <li><a href="https://blog.olano.dev">blog</a></li>
             <li><a href="https://hachyderm.io/@facundoolano">mastodon</a></li>
             <li><a href="https://www.linkedin.com/in/facundoolano/">resume</a></li>
         </ul>
 
-        <p>Open source work:
+        <h4 id="open-source">Open source projects</h3>
             <ul>
                 <li><span class="date">2023</span> <a href="https://github.com/facundoolano/feedi">feedi</a>
-                    <p>A personal news feed and Mastodon client.</p></li>
+                    <p>A personal news feed and mastodon client.</p></li>
                 <li><span class="date">2022</span> <a href="https://github.com/facundoolano/software-papers">software-papers</a>
-                    <p>A curated list of papers for Software Engineers. I wrote about this project <a href="https://facundoolano.github.io/2022-07-12-dr-von-neumann-o-como-aprendi-a-dejar-de-preocuparme-y-amar-los-papers/">here</a>.</p>
+                    <p>A curated list of papers for software engineers. I wrote about this project <a href="https://facundoolano.github.io/2022-07-12-dr-von-neumann-o-como-aprendi-a-dejar-de-preocuparme-y-amar-los-papers/">here</a>.</p>
                 </li>
                 <li><span class="date">2022</span> <a href="https://github.com/AdRoll/rustenstein">Rustenstein 3D</a>
                     <p>A Wolfenstein 3D port to Rust. I wrote about this project <a href="https://tech.nextroll.com/blog/dev/2022/02/02/rustenstein.html">here</a>.</p>
@@ -79,6 +81,5 @@
                     <p>A file-sharing web application for college students. </p>
                 </li>
             </ul>
-        </p>
     </body>
 </html>
