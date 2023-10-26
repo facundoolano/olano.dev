@@ -1,0 +1,57 @@
+html { color-scheme: light dark; overflow-y: scroll;}
+body { max-width: 50em; margin: 0 auto; padding: 0 1rem;
+       width: auto;
+       font-family: Tahoma, Verdana, Arial, sans-serif;
+       line-height: 1.5;
+       padding-bottom: 3rem;
+     }
+nav {margin: 1rem 0 2rem;         text-align: center;}
+nav a { color: unset}
+nav * {margin-right: .5em; margin-bottom:0}
+
+a {color: dodgerblue;text-decoration: none}
+a:hover {text-decoration: underline}
+
+
+.projects-index {
+    .date {color: gray; }
+
+    ul { padding-bottom: 1rem}
+    li { padding-bottom: .5rem; list-style-type: none}
+    li p {margin: 0.5rem 0}
+
+    hr {
+        border: 0;
+        border-top:1px solid whitesmoke;
+    }
+}
+
+.blog-index {
+    article { padding-bottom: .5rem;}
+
+    font-size: 1.1rem;
+    a {
+        color: unset;
+    }
+    .date { color: silver}
+}
+
+.layout-post {
+    font-size: 1.15rem;
+    line-height: 1.6;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    text-rendering: optimizelegibility !important;
+    letter-spacing: .03em;
+
+    .org-center, .text-center {
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 2rem;
+    }
+}

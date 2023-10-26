@@ -5,41 +5,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>olano.dev</title>
-        <style>
-         html { color-scheme: light dark; overflow-y: scroll;}
-         body { max-width: 50em; margin: 0 auto; padding: 0 1rem;
-             width: auto;
-             font-family: Tahoma, Verdana, Arial, sans-serif;
-             line-height: 1.5;
-             padding-bottom: 3rem;
-         }
-         nav {margin: 1rem 0 2rem}
-         nav a { color: unset}
-         nav * {margin-right: .5em; margin-bottom:0}
-         h4 {margin-bottom: .5rem}
-         ul { padding-bottom: 1rem}
-         li { padding-bottom: .5rem; list-style-type: none}
-         li p {margin: 0.5rem 0}
-         .date {color: gray; }
-         a {color: dodgerblue;text-decoration: none}
-         a:hover {text-decoration: underline}
-         hr {
-             border: 0;
-             border-top:1px solid whitesmoke;
-         }
-
-         .blog {
-             font-size: 1.1rem;
-             a {
-                 color: unset;
-             }
-             .date { color: silver}
-         }
-
-         .org-center, .text-center {
-             text-align: center;
-         }
-        </style>
+        <link rel="stylesheet" href="/assets/css/main.css">
     </head>
     <body>
         <nav>
@@ -48,6 +14,8 @@
             {% endfor %}
         </nav>
 
-        {{ content }}
+        <div class="content layout-{{ page.layout }}">
+            {{ content }}
+        </div>
     </body>
 </html>

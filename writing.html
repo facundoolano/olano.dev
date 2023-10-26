@@ -3,18 +3,19 @@ layout: default
 title: writing
 ---
 
-<div class="blog">
+<div class="blog-index">
 {% for post in site.posts %}
 
-    <li>
+    <article>
 
-        {% if post.favorite %} ⭐ {% endif %} <a href="{{ post.url }}">{{ post.title }}</a>
+        {% if post.favorite %} ⭐ {% endif %} {% if post.translation %} 🇬🇧 {% endif %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
         <br/>
         <small>
             <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
             <span class="date">{{ post.tags|join:', ' }}</span>
         </small>
 
-    </li>
+    </article>
 {% endfor %}
 </div>
