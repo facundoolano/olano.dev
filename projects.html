@@ -2,6 +2,12 @@
 layout: default
 title: projects
 ---
+<p>
+    Here's a list of open-source stuff I worked on, some in my free time and some as part of various jobs.
+</p>
+
+<br/>
+
 {% for project in site.data.projects %}
 <li><span class="date">{{ project.date }}</span> <a href="{{ project.url }}">{{project.name}}</a>
     <p>{{ project.description | markdownify }}</p>
