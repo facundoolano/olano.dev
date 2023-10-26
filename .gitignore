@@ -1,0 +1,8 @@
+# project
+_site
+
+# general
+.DS_Store
+
+Gemfile.lock
+
