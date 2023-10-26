@@ -1,12 +1,10 @@
 ---
 layout: default
+title: projects
 ---
-
-<h3 id="projacts">Projects </h3>
-
 {% for project in site.data.projects %}
 <li><span class="date">{{ project.date }}</span> <a href="{{ project.url }}">{{project.name}}</a>
     <p>{{ project.description | markdownify }}</p>
-    <hr/>
+    {% unless forloop.last %}<hr/>{% endunless %}
 </li>
 {% endfor %}
