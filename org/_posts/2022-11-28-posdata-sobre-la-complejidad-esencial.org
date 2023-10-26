@@ -1,0 +1,112 @@
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+#+BEGIN_EXPORT html
+---
+layout: post
+title: "Posdata sobre la complejidad esencial"
+date: 2022-11-28
+tags: [⭐, software]
+thumbnail-img: assets/img/tarpit.png
+cover-img: assets/img/labrea.jpg
+excerpt: "Librado a su voluntad, el ingeniero de software simplifica las organizaciones y sus sistemas al punto de disolverlos, al punto de que algunos de ellos dejan de existir. El software es la navaja de Ockham, la topadora que arrasa con la complejidad del mundo."
+---
+#+END_EXPORT
+
+* Definiciones
+
+En 1986, Fred Brooks publica /No Silver Bullet/, su ensayo fundacional de la Ingeniería de Software. Toda la teoría y práctica que vino después de alguna manera elabora o dialoga con aquel ensayo. Brooks empieza por distinguir entre esencia ---las dificultades inherentes a la resolución de problemas mediante programas de computadora--- y accidente ---las dificultades que surgen al implementar esos programas en un lenguaje particular, con restricciones específicas de tiempo y espacio. Su tesis es que, al momento en que el ensayo fue escrito, ya se obtuvieron todos los beneficios esperables de reducir las dificultades accidentales ---gracias a las mejoras en el acceso a las computadoras, la capacidad del hardware y la expresividad de los nuevos lenguajes de programación--- y que la única esperanza para mejorar significativamente la productividad en el desarrollo de software es atacar la esencia.
+
+Si bien para Brooks la complejidad es uno de varios aspectos esenciales del software, el folklore condensó las ideas de su ensayo en la distinción entre /complejidad/ esencial y /complejidad/ accidental del software. Esta separación resulta útil para razonar sobre los problemas y la implementación de sus soluciones, pero no es obvio dónde trazar la línea entre uno y otro tipo de complejidad. En /Out of the Tar Pit/, Moseley y Marks nos dan una definición más precisa:
+
+- La *complejidad esencial* es inherente a, y la escencia de, el problema (según lo ven los usuarios o clientes).
+- La *complejidad accidental* es todo lo demás ---complejidad de la que el equipo de desarrollo no tendría que ocuparse en el mundo ideal (por ejemplo, la que surge de problemas de performance o de  limitaciones de lenguaje e infraestructura).
+
+Con esta definición más restringida, se invierte la propuesta de /No Silver Bullet/: no solo tiene sentido intentar reducir la complejidad accidental, sino que esta es la única que se puede reducir sin modificar el problema. Vale la pena notar también que, en este marco, un poco de complejidad accidental es necesaria e incluso útil si pretendemos implementar una solución al problema en el mundo real.
+
+#+BEGIN_CENTER
+\ast{} \ast{} \ast{}
+ #+END_CENTER
+
+La reducción de la complejidad y su contracara, la búsqueda de la simplicidad, tienen ecos y variaciones en casi toda la literatura y el folklore del desarrollo de software. Fernando Corbató habla de enfatizar la simplicidad y la elegancia para evitar que el software se nos vaya de las manos; la filosofía UNIX, según Eric Raymond, es la de /Keep it simple, stupid/; /The Pragmatic Programmer/ trata de destilar la esencia del diseño de software al establecer que "un buen diseño es aquel más fácil de cambiar que uno malo"; en una línea parecida, John Ousterhout define la complejidad en términos de la dificultad de entender y modificar un sistema, y presenta técnicas para medirla en implementaciones concretas[fn:2]. Saša Jurić plantea ideas similares y las pone en práctica con mucha destreza en una reciente charla de ElixirConf.[fn:3]
+
+Rich Hickey, autor de Clojure, apela a la etimología para eliminar la subjetividad de la discusión en su charla /Simple Made Easy/. Habla primero de lo /fácil/: lo que es cercano, accesible, que está al alcance, que no requiere esfuerzo; la facilidad de algo es una cualidad subjetiva: lo que es fácil para alguien puede ser difícil para otra persona. La simplicidad, en cambio, es una cualidad objetiva; algo es simple[fn:1] cuando no hay entrelazamiento, enredo de partes, complicaciones. El nivel de entrelazamiento, /la complejidad/, no depende del observador. La propuesta de Hickey para el desarrollo de software es preferir lo simple a lo fácil; elegir no los lenguajes, las herramientas, los diseños que mejor conocemos sino los que producen implementaciones más modulares, menos enredadas. Hickey, además, propone hablar de complejidad /incidental/ en vez de /accidental/, eliminando la connotación de casualidad o percance: esta complejidad no es imprevista, es autoinfligida, consecuencia de nuestras decisiones.
+
+* Discusión
+
+De alguna manera, las ideas de todos estos autores son equivalentes: cada una puede reducirse a la otra. Elegancia, claridad, facilidad de cambio, son todas formas de la simplicidad según la define Rich Hickey; escribir software simple es minimizar la complejidad; minimizar la complejidad es reducir la complejidad accidental y /administrar/ la esencial. Decimos administrar porque existe cierto consenso en que hay una parte del problema que es irreducible y que tenemos que convivir con ella. Tanto Brooks como  Moseley establecen que la complejidad esencial excede al software, es impuesta por los requerimientos del usuario o el cliente, parte del problema a resolver:
+
+#+begin_quote
+Much of the complexity [the software engineer] must master is arbitrary complexity, forced without rhyme or reason by the many human institutions and systems to which his interfaces must conform. (...) In many cases the software must conform because it has most recently come to the scene. In others it must conform because it is perceived as the most conformable. But in all cases, much complexity comes from conformation to other interfaces; this cannot be simplified out by any redesign of the software alone.
+#+end_quote
+
+En la variante pesimista, el cliente no sabe lo que necesita y parte del trabajo es ayudar a descubrirlo, pero sigue estando fuera del dominio de decisión del ingeniero. En lo que sigue, propongo cuestionar este supuesto, plantearnos el objetivo de reducir o incluso eliminar la complejidad esencial, aunque nos cueste saltar el cerco del software. El propio Brooks, hablando de la creciente adopción de programas de uso masivo (/off the shelf/), admite esta posibilidad:
+
+#+begin_quote
+The buyer of a $2-million machine in 1960 felt that he could afford $250,000 more for a customized payroll program, one that slipped easily and nondisruptively into the computer-hostile social environment. Buyers of $50,000 office machines today [1986] cannot conceivably afford customized payroll programs; so they adapt their payroll procedures to the packages available. Computers are now so commonplace, if not yet so beloved, that the adaptations are accepted as a matter of course.
+#+end_quote
+
+Consideremos cómo el software y su preponderancia sobre el mundo cambiaron en las tres décadas siguientes a la publicación del ensayo. Hoy nos parece menos ambiciosa la propuesta de exigirle a los usuarios que modifiquen sus hábitos, a las instituciones que adapten sus procesos a las posibilidades del software disponible. Es algo que sucede de hecho, porque la digitalización dejó de ser un privilegio y dejó de ser una opción.
+
+Si reconocemos que el software tiene la capacidad de cambiar a las organizaciones y redefinir los términos del problema que resuelve, entonces la complejidad esencial ya no es un supuesto inamovible, pasa a ser "territorio en disputa". En una retrospectiva que publica 9 años después del ensayo original, Brooks recoge el testimonio que mejor sintetiza esta idea:
+
+#+begin_quote
+In my experience most of the complexities which are encountered in systems work are symptoms of organizational malfunctions. Trying to model this reality with equally complex programs is actually to conserve the mess instead of solving the problems.
+#+end_quote
+
+Desde este punto de vista, podemos simplificar la ecuación anterior. En lugar de reducir la complejidad /accidental/ y administrar la complejidad /esencial/, la responsabilidad del ingeniero de software comprometido con su trabajo es la de /eliminar todo tipo de complejidad/.
+
+#+BEGIN_CENTER
+\ast{} \ast{} \ast{}
+ #+END_CENTER
+
+En general, ante la posibilidad de simplifcar un elemento complejo ---en un sistema, en una organización--- podemos encontrarnos con que:
+
+- Se trata de complejidad accidental y podemos reducirla.
+- Se trata de complejidad esencial y tenemos que mantenerla.
+- Se trata de complejidad esencial pero podría sacrificarse, redefiniendo la especificación del problema.
+- El conocimiento se perdió, el cliente o la autoridad no tiene información para decidir si la complejidad es necesaria, o sencillamente no hay tal autoridad.
+
+Son los últimos dos casos los que nos interesan.
+
+A modo de ejemplo, consideremos el mantenimiento de software /legacy/. En este tipo de proyectos es común que la única especificación del sistema sea ni más ni menos que su implementación actual, incluyendo bugs y áreas desconocidas. Cualquier aspecto observable del sistema es un requerimiento funcional /de facto/, parte de la complejidad esencial; cualquier cambio, una redefinición del problema. ¿Cómo abordar la tarea de mantenimiento en esta situación?
+
+La forma conservadora es tomar el sistema, tal como existe, como la verdad absoluta y limitarse a refactorizarlo, según la definición estricta de la palabra: modificar la estructura del código sin cambiar su comportamiento. La alternativa "disruptiva" es cuestionar incluso el comportamiento observable del sistema; aprovechar las áreas desconocidas o inexplicables en su potencial de simplificación. En su libro /Kill It with Fire/, Marianne Bellotti usa esta idea en el contexto de la modernización de sistemas:
+
+#+begin_quote
+When organizations stop aiming for perfection and accept that all systems will occasionally fail, they stop letting their technology rot for fear of change and invest in responding faster to failure. (...) When we encountered systems that had been forgotten and we couldn't figure out what they were doing, we would usually just turn them off and see what happened. (...) When we turned off a system, we waited for someone to complain. That person was either the system owner or the owner of a downstream dependency, but either way, we ended the experiment with more information about what the system was doing than we started with. (...) If no one complained, we tended to just leave the system off and move on.
+
+(...) Having a part of a system that no one understands is a weakness, so avoiding the issue for fear of breaking things should not be considered the safer choice. Using failure as a tool to make systems and the organizations that run them stronger is one of the foundational concepts behind resilience engineering. (...) That's why the second reason to break things on purpose is to verify that what an organization believes about its system is actually true. Resilience engineering tests ---also called /failure drills/---look to trigger failure strategically so that the true behavior of the system can be documented and verified.
+#+end_quote
+
+Aunque la justificación sea mejorar la resiliencia, tanto documentar como sacar de circulación un sistema olvidado no es ni más ni menos que reducir la complejidad de la organización. El extremo de este método es imaginar implementaciones más simples de los sistemas y plantear una estrategia ---mostrar evidencia, ejercer influencias, convencer--- para que los procesos de la organización converjan a esas implementaciones[fn:4].
+
+#+BEGIN_CENTER
+\ast{} \ast{} \ast{}
+ #+END_CENTER
+
+Reducir la complejidad es la misión del ingeniero de software y es una misión no negociable. Es una misión distinta y, a veces, contrapuesta a la de los grupos con los que debe colaborar y los que financian su trabajo. No se trata de una búsqueda purista o moralista, sino utilitarista: un efecto secundario del método que produce software de mejor calidad.
+
+Si reconocemos que el software ejerce poder sobre la sociedad, los constructores de software tenemos que asumir la responsabilidad de usar ese poder en forma consciente. Poner en cuestión las costumbres, los procesos, las instituciones, combatir la inercia y la burocracia. Librado a su voluntad, el ingeniero de software simplifica las organizaciones y sus sistemas al punto de disolverlos, al punto de que algunos de ellos dejan de existir. El software es la navaja de Ockham, la topadora que arrasa con la complejidad del mundo. Reducir la complejidad esencial, que vive fuera del software, es efectivamente modificar el mundo, es un uso /político/ del software.
+
+* Fuentes
+
+- [[http://www.cs.unc.edu/techreports/86-020.pdf][No Silver Bullet: Essence and Accidents of Software Engineering]]. Brooks (1987).
+- [[https://dl.acm.org/doi/pdf/10.1145/114669.114686][On Building Systems That Will Fail]]. Corbató (1991).
+- 'No Silver Bullet' Refired. Brooks (1993).
+- [[https://www.catb.org/~esr/writings/taoup/html/][The Art of Unix Programming]]. Raymond (2003).
+- [[http://curtclifton.net/papers/MoseleyMarks06a.pdf][Out of the Tar Pit]]. Moseley, Marks (2006).
+- [[https://www.infoq.com/presentations/Simple-Made-Easy/][Simple Made Easy]]. Hickey (2011).
+- The Pragmatic Programmer, 20th Anniversary Edition. Thomas, Hunt (2019).
+- Kill It with Fire: Manage Aging Computer Systems (and Future Proof Modern Ones). Bellotti (2021).
+- A Philosophy of Software Design, 2nd Edition. Ousterhout (2021).
+- [[https://www.youtube.com/watch?v=6sNmJtoKDCo][Clarity]]. Jurić (2021).
+
+* Footnotes
+
+[fn:4] Esta idea es similar a la "[[https://martinfowler.com/bliki/ConwaysLaw.html][maniobra inversa de Conway]]".
+
+[fn:3] Jurić encuentra problemático el uso de palabras como "calidad", "mantenibilidad" o "legibilidad", porque son vagas y sujetas a interpretación; lamentablemente su solución es usar otra palabra ---claridad--- que, si bien pone en énfasis en la comunicación, es tan subjetiva y sujeta a interpretación como las demás.
+
+[fn:2] Por ejemplo, la /profundidad/ de un módulo medida como la relación entre el tamaño de la interfaz y el tamaño de la implementación, y la complejidad total del sistema medida como la suma de la de complejidad de cada componente ponderada por la frecuencia con la que los desarrolladores tienen que dedicarle tiempo a ese componente.
+
+[fn:1] Hablamos acá de simple en contraposición a complejo, no a múltiple.

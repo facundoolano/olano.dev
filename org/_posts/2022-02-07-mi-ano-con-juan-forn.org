@@ -1,0 +1,50 @@
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+#+BEGIN_EXPORT html
+---
+layout: post
+title: "Mi año con Juan Forn"
+date: 2022-02-07
+tags: [literatura, libros, memorias]
+thumbnail-img: assets/img/forn.jpg
+---
+#+END_EXPORT
+
+** Buenos Aires
+
+Durante muchos años, mis lecturas fueron de clásicos universales que compraba en las librerías de Corrientes, de algún autor que pescaba en la tele o en el cine y después iba a buscar al Parque Rivadavia, de las colecciones de Borges, Bioy o Sabato que salían con los diarios. Recién empecé a salir de esa lógica y a comprar libros nuevos (y caros) cuando conocí a Bolaño, mi droga de acceso a la literatura contemporánea. Por unos años, los libritos coloridos de Anagrama fueron para mí sinónimo de calidad; todavía no me afectaban demasiado esas traducciones terriblemente españolas de autores extranjeros. Después de fascinarme con /Los Detectives Salvajes/, con los cuentos y con /2666/, probé con /Entre Paréntesis/, una colección de ensayos de Bolaño que me llenó de nombres y proyectos de lectura.
+
+Era tal mi nivel de desorientación que mi primer contacto con autores argentinos /vivos/ fue a través de una antología de Anagrama: /Buenos Aires/, editada por Juan Forn. Bolaño la menciona un par de veces en /Entre Paréntesis/, hablando de César Aira y de Alan Pauls. Esa fue la primera vez que supe algo de Juan Forn. En el prólogo, escrito en 1991 en un tono como enojado, muy distinto al que conocí en sus textos recientes, cuenta que el proyecto del libro era tender un puente entre España y Latinoamérica, cuyas respectivas literaturas se venían ignorando olímpicamente desde hacía décadas. Lo que, visto con ojos actuales, parece rarísimo, siendo que es común ver autores españoles en las librerías, que hay  argentinos que publican directo en Anagrama (Piglia, Kohan, Enríquez) y  latinoaméricanos que nos llegan por esa editorial (Zambra, Nettel).
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="../assets/img/anagrama.jpg" width="250px">
+</div>
+#+END_EXPORT
+
+También en ese prólogo, Forn pinta con crudeza el destino de todo lector de una antología: que le resulte despareja, que, en el mejor de los casos, se fascine con algunos de los autores y salga a buscar sus libros, que deteste algunos otros y se encargue de evitarlos y que, por último, se olvide de todos los demás. Y eso fue exactamente lo que me pasó a mí: me gustaron los textos de Fogwill, Fresán y Pauls y con los años los seguí leyendo; a Piglia y a Aira, por muchos intentos que hice, nunca les encontré la vuelta. Y de Juan Forn ---que incluyó su propio cuento, /Nadar de noche/, que me gustó pero no me fascinó--- me olvidé sin culpa. Años después, cuando una colección del autor llegó a las mesas de saldo de Corrientes, me acordé de aquel cuento que me había gustado y compré el libro homónimo que lo contiene pero, hasta el día de hoy, sigo sin leerlo.
+
+** Villa Gesell
+
+Forn se murió a mediados del 2021 y por esos días circuló [[http://revistaanfibia.com/cronica/los-viernes-forn/][una entrevista muy linda]] que Damián Huergo le había hecho unos años atrás para Revista Anfibia. Leyendo esa entrevista me enteré de unos cuantos detalles de su vida: que ejecutó la idea mítica de irse a vivir a la playa, a Villa Gesell, para alejarse del estrés de la ciudad; que en los noventa se destacó como editor antes que como escritor y que fundó el suplemento Radar de Página12; que durante muchos años publicó la contratapa del diario de los viernes, un género propio, mezcla de cuento, ensayo y biografía, del que muchos coinciden que es lo mejor de su obra. Forn era un lector crónico, leía de todo y todo lo metabolizaba en esos textos que ensayaba leyéndoselos primero a los vecinos de Gesell, antes de mandarlos para el diario.
+
+La entrevista me gustó tanto que me puse a buscar alguna de las muchas recopilaciones de aquellas contratapas y encontré /El hombre que fue viernes/ en esa misma colección en la que estaba /Nadar de Noche/. Durante varias semanas lo tuve en la mesa de luz, ideal para leer algo antes de rendirme al sueño o temprano a la mañana, antes de levantarme. Empecé sin ninguna expectativa y me terminó fascinando; es un libro que me renovó el amor por la lectura, que me dejaba lleno de alegría cada vez que terminaba un texto.
+Podía encontrarme con la historia de un escritor argentino o de un ignoto jardinero japonés, un matemático húngaro o una fotógrafa estadounidense, vidas condensadas en tres o cuatro párrafos, reducidas a un par de anécdotas esenciales e inolvidables. No tengo dudas de que Forn condimentaba, que retocaba esas biografías para ajustarlas al formato y encajar mejor el golpe, porque la verdad es para los escribanos; para la literatura lo que importa siempre es contar la mejor historia posible.
+
+** Mar de las Pampas
+Para las vacaciones de invierno del año pasado, ya vacunados y con los casos de Covid en baja, nos animamos a hacer el primer viaje en casi dos años, a Mar de las Pampas. Estando allá, me enteré de que era ahí y no en Villa Gesell donde había estado viviendo Forn. En la puerta de varios negocios había una cajita de madera con ejemplares del Chasqui, el diario del pueblo, cuya [[https://www.elchasquidemardelaspampas.com.ar/_files/ugd/ede84d_f7b156830fef49b09b9398ad8e88d600.pdf][última edición]] estaba dedicada al recuerdo del escritor. Varias veces quisimos comprarlo durante esos días que estuvimos en Mar de las Pampas pero, cada vez que pasábamos cerca de una de las cajitas de madera, nos faltaba el billete de diez pesos que había que dejar para llevárselo. Lo terminamos comprando a último momento, después de los alfajores para regalar, mientras esperábamos el colectivo a la terminal.
+
+Mi novia y yo nos turnamos para leerlo en el micro de vuelta. Fue una lectura rara, intimista; familiares, amigos cercanos y vecinos le dedicaban palabras de despedida, contaban anécdotas, recordaban vicios y rutinas. Hablaban de la persona, no del escritor. Yo me imaginaba esa cotidianeidad entre los árboles y la arena que había estado caminando todos esos días. Varias de las notas contaban que Forn venía trabajando en un libro, que estaba entusiasmado, que iba a ser la edición definitiva de las columnas de los viernes. Les había mostrado la tapa del libro, que se iba a llamar /Yo recordaré por ustedes/: una foto de una silla en el aire, como levantando vuelo. Forn  murió unos días después de entregarlo a la imprenta.
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="../assets/img/forn.jpg">
+</div>
+<br/>
+#+END_EXPORT
+
+** Buenos Aires
+
+Faltaban todavía unas semanas para que el libro salga a la venta. Cuando lo compré fue derecho a la mesa de luz. /Yo recordaré por ustedes/ es un libro más largo que /El hombre que fue viernes/, y está organizado con un criterio geográfico: los primeros textos tienen lugar en China o Japón, los siguientes en Rusia, en Europa de este a oeste, cruzan el Atlántico hasta los Estados Unidos y van bajando por América hasta culminar en la Argentina. Y, de alguna manera, esa organización geográfica esconde también una cronología, más allá de que casi siempre se mantenga en el siglo XX, porque en Asia las culturas son milenarias, Europa es el Viejo Mundo, y en Latinoamérica siempre parece que estamos empezando. En alguno de los últimos textos, incluso, se cuela una referencia a la pandemia.
+
+Porque es más largo y porque arranca tan lejos, y como ya conocía buena parte de los textos, lo leí con menos avidez que al libro anterior: me llevó meses. Pero a medida que iba haciendo el camino de Estados Unidos a México, de ahí a Brasil y a Chile, a Uruguay, el libro me imponía una lectura más precipitada, el libro se me venía encima, y como los textos tocaban territorios más cercanos, más seguido iba asomando la vida del autor. Imposible no sentir el libro adelgazar, no contar las páginas que quedaban, no pensar en que después de esas no iba a venir ninguna más. Y que esos últimos textos, más personales, /La ceremonia del Adiós/, que habla de la muerte, /Y el mar,/ un autorretrato, son como despedidas. Que lo que iba a ser el epílogo de un libro terminó siendo, involuntariamente, el epílogo de una vida.

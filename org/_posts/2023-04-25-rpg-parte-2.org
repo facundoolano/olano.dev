@@ -1,0 +1,101 @@
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+#+BEGIN_EXPORT html
+---
+layout: post
+title: "RPG parte 2"
+date: 2023-04-25 11:49:20
+tags: [videojuegos]
+---
+#+END_EXPORT
+
+** III
+
+Era natural, sobre todo considerando el alto grado de correlación entre dedicar los fines de semana a rolear en un sótano y saber programar <o entre tener a disposición una computadora y gustar del D&D>, que se aprovechen las computadoras para reducir el tedio de tiros de dados, consultas a libros de reglas y cálculo de estadísticas. Y entonces los primeros embriones de cRPGs, juegos de rol computarizados, eran eso: apenas aparatosas calculadoras.
+
+Si bien <a diferencia de lo que pasaba con los juegos de guerra y simulación> harían falta décadas para que las computadoras y las consolas pudieran competir con la vasta experiencia creativa de las sesiones de calabozos y dragones,
+
+PLATO
+unix, rogue
+
+[considerar la posibilidad de partir acá]
+
+trinity, wizardry + ultima
+(bard's tale y M&M ?)
+(richard garriott, el figuretti de la historia de los videojuegos)
+
+describir los dos estilos
+
+** IV
+
+90s decline and revival
+la movida pasó de las computadoras a las consolas y de occidente a oriente
+los primeros jrpgs datan de los 80, de computadoras primitivas
+los jrpgs fueron género bandera de la famicon y el gameboy, pero sobre todo de super nintendo y de la primera playstation. square y enix
+cruce con el anime
+simplificacion del sistema, no hace falta conocer reglas de d&d, conocer sistemas de clases ni diseñar personajes antes de empezar a jugar
+otras caracteristicas notables?
+mención honorable para pokemon
+
+** V
+- MUDs, ultima online & contemporary online rpgs
+
+  muds acá? o mejor junto con unix/plato?
+(hablar brevemente de online gaming, con lo que pueda conseguir en crpg y en replay. aprovechar eso de que WoW decían que es el final de la historia para decir que por lo menos es el final de este post
+
+* Tasks
+** DONE post outline
+   CLOSED: [2023-04-21 Fri 16:47]
+
+** DONE leer it's all a game
+   CLOSED: [2023-04-20 Thu 11:36]
+
+** DONE releer its all a game [2]
+   CLOSED: [2023-04-23 Sun 19:40]
+
+** TODO releer crpg book
+
+*** DONE prussia [1]
+    CLOSED: [2023-04-22 Sat 12:56]
+*** DONE what is an old school crpg? [1]
+    CLOSED: [2023-04-22 Sat 12:56]
+*** DONE plato [3]
+    CLOSED: [2023-05-04 Thu 19:25]
+*** TODO jrpgs
+*** TODO muds
+
+** DONE releer digital antic
+   CLOSED: [2023-04-29 Sat 11:53]
+*** DONE https://www.filfre.net/2011/07/the-rise-of-experiential-games/ [1]
+    CLOSED: [2023-04-22 Sat 12:56]
+*** DONE https://www.filfre.net/2011/07/dungeons-and-dragons/ [2]
+    CLOSED: [2023-04-23 Sun 19:40]
+*** DONE https://www.filfre.net/2011/08/defining-the-crpg/ [3]
+    CLOSED: [2023-04-26 Wed 11:28]
+*** DONE https://www.filfre.net/2011/08/from-the-tabletop-to-the-computer/ [3]
+    CLOSED: [2023-04-26 Wed 11:28]
+*** DONE https://www.filfre.net/2011/08/the-first-crpgs/ [3]
+    CLOSED: [2023-04-29 Sat 11:53]
+*** DONE lord british [3]
+    CLOSED: [2023-04-29 Sat 11:53]
+
+** DONE leer sobre rogue
+   CLOSED: [2023-05-04 Thu 19:25]
+
+** TODO leer capitulos relevantes de replay
+*** TODO 5. biggest eureka [3]
+*** TODO 11. macintosh
+*** TODO 12. a tool to sell soft
+*** TODO 13. i could have sworn (nes)
+*** TODO 23. mud
+*** TODO 24. second lives
+*** TODO 26. all access gaming
+
+** TODO releer jrpg book
+*** TODO what is a jrpg
+*** TODO a history of rpgs in japan
+*** TODO anime
+
+** DONE leer if50 dnd [3]
+   CLOSED: [2023-05-04 Thu 19:25]
+** TODO leer if50 MUD

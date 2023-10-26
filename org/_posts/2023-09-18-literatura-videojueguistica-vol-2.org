@@ -1,0 +1,96 @@
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+#+BEGIN_EXPORT html
+---
+layout: post
+title: "Literatura videojueguística vol. 2"
+date: 2023-09-18
+tags: [videojuegos, libros]
+thumbnail-img: assets/img/vol2/tomorrow.webp
+excerpt: Un nuevo compendio de libros sobre videojuegos seguido de un comentario del último documental de DoubleFine.
+---
+#+END_EXPORT
+
+Hace casi dos años me permití un [[file:../2021-10-12-literatura-videojueguistica/][compendio de libros sobre videojuegos]] que venía leyendo o acumulando. Acabo de terminar otro y me parece una buena excusa para actualizar aquella lista.
+
+#+BEGIN_EXPORT html
+<br/>
+<div class="text-center">
+ <img src="../assets/img/vol2/tomorrow.webp" width="320">
+</div>
+#+END_EXPORT
+
+El libro en cuestión es [[https://gabriellezevin.com/tomorrowx3/][/Tomorrow, and Tomorrow, and Tomorrow/]] de Gabrielle Zevin, una novela que sigue la trayectoria de dos amigos que crecen jugando y se reencuentran de adultos para formar una sociedad creativa. Lo que es decir que no es un libro /sobre videojuegos/ sino /sobre personas/ que diseñan videojuegos; la autora se cuida de no caer en el regodeo nostálgico ni en el /fanservice/: no pone al medio por encima de otras formas de expresión creativa (la música, la literatura, el teatro) sino que lo usa como recurso para explicar a sus personajes, primero como jugadores y después como diseñadores.
+
+Los roles de los protagonistas están claramente inspirados en [[file:../2020-08-28-maestros-de-la-fatalidad/][/Masters of Doom/]]: el genio técnico y el artista /frontman/ que al principio se complementan y al final no se pueden ni ver (con el condimento de que Carmack acá es mujer y hay tensión romántica entre los dos). La novela es entretenida ---aunque el argumento a veces roza con el melodrama--- pero creo que su mayor mérito es tomarse en serio el diseño de videojuegos como disciplina artística y como oficio: como una actividad a la que ciertos trabajadores obsesivos están dispuestos a dedicarle la vida.
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="../assets/img/vol2/buscaminas.webp" width="400">
+</div>
+#+END_EXPORT
+
+Sigo con autores y editoriales de los que ya había hablado en este blog.
+
+Fabien Sanglard, aquel de los [[https://fabiensanglard.net/gebb/index.html][/libros negros/]] sobre los motores del /Wolfenstein 3D/ y /Doom/, [[https://fabiensanglard.net/cpsb/index.html][sumó otro]] sobre el CP-System que usaban los clásicos arcades de Capcom. Como bonus track, Sanglard [[https://fabiensanglard.net/joy/index.html][comparte también]] su catálogo de libros sobre la historia de la computación y los videojuegos.
+
+[[https://bossfightbooks.com/][Boss Fight Books]] sigue publicando por "temporadas" su serie de libros sobre juegos clásicos, con títulos elegidos por la comunidad y financiados por Kickstarter. De la última temporada hay dos que parecen prometedores: el de [[https://bossfightbooks.com/collections/books/products/day-of-the-tentacle-by-bob-mackey][/Day of the Tentacle/]] ---porque todo [[file:../2022-08-09-llegando-los-monos/][lo que salió de LucasArts]] vale oro y hay que estudiarlo--- y el del [[https://bossfightbooks.com/products/minesweeper-by-kyle-orland][/Buscaminas/]] ---porque lo que puede parecer un minijuego, apenas un /accesorio/ del sistema operativo, es clave de una historia de Windows, de Microsoft, de la computación personal como la conocimos en la década del 90.
+
+Jimmy Maher, el [[https://filfre.net/][anticuario digital]] que es referencia habitual de este blog (y de este post), continúa con su minucioso repaso de la historia de los juegos de computadora; acaba de [[https://www.filfre.net/the-digital-antiquarian-e-book-library/][recopilar en ebook]] las entradas correspondientes a 1996 (año de /Broken Sword/, /Tomb Raider/ y /Diablo/).
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="../assets/img/vol2/50years.jpg" width="320">
+</div>
+#+END_EXPORT
+
+Una tarea parecida a la del anticuario digital se propuso Aaron A. Reed en [[https://if50.substack.com/][en su blog sobre juegos de texto]]: durante 2021, publicó cada semana el análisis de un juego notable, uno por cada año desde 1971. Además de clásicos como /Adventure/ y /Zork,/ eligió rarezas como el primer libro de /Elige tu propia aventura/ y /Monster Island/, que se jugaba con papel y lápiz, por correo. Al blog de Reed le siguió una campaña de Kickstarter para publicar los textos revisados y ampliados en [[https://www.kickstarter.com/projects/aaronareed/50-years-of-text-games][forma de libro]].
+
+Para recuentos históricos de primerísima mano, Jordan Mechner publicó ediciones anotadas de sus diarios del período en que desarrolló [[https://www.jordanmechner.com/en/books/the-making-of-karateka/][/Karateka/]] y [[https://www.jordanmechner.com/en/books/journals/][/Prince of Persia/]], y una [[https://www.jordanmechner.com/en/library/1993-journals/][versión online]] de los que corresponden a /Prince of Persia 2/ y /The Last Express/. Claro que las /saudades/ del niño rico que no se decidía entre programar videojuegos y escribir guiones de cine pueden ser demasiado para el lector casual, en cuyo caso las partes más interesantes de su experiencia se pueden encontrar en un [[https://www.filfre.net/2016/10/how-jordan-mechner-made-a-different-sort-of-interactive-movie-or-the-virtues-of-restraint/][post del anticuario digital]], en [[https://arstechnica.com/video/watch/war-stories-how-prince-of-persia-defeated-apple-ii-s-memory-limitations][este video]] de Ars Technica y en [[file:../2023-06-16-del-videojuego-como-puzzle/][otro post]] de este blog.
+
+En /Stay Awhile and Listen/, David L. Craddock escribe la historia de Blizzard, la empresa partida en dos de la que salieron /Warcraft/ y /Diablo/. Según las reseñas, el [[https://www.goodreads.com/book/show/18743934-stay-awhile-and-listen][primer libro]] es olvidable pero [[https://www.goodreads.com/book/show/52651926-stay-awhile-and-listen][el segundo]], que se ocupa de la producción de /Diablo 2/ ---acaso el mayor hit de Blizzard--- combina la estructura casi novelística de /Masters of Doom/ y los post-mortems caóticos de /Blood, sweat and pixels/.
+
+Para una lectura más liviana (y en nuestro idioma), los editores de [[https://revistareplay.com.ar/][/Replay/]] nos atraen con el recuerdo de la generación de 8 y 16 bits, para encajar mejor el /cross a la mandíbula/ de la nostalgia que es revivir aquella sensación de pasar por el quiosco de diarios y ver que salió el nuevo número de tu revista preferida.
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="../assets/img/vol2/amiga.jpg" width="320">
+</div>
+#+END_EXPORT
+
+Una perspectiva distinta ofrecen quienes estudian (en mayor o menor detalle técnico) el hardware de computadoras personales y consolas de videojuegos. Algo de eso hacen los autores de la serie [[https://mitpress.mit.edu/search-result-list/?series=mit148-platform-studies][/Platform Studies/]] de MIT Press: nos explican cómo las particularidades tecnológicas influyeron en el proceso creativo y las formas que adoptó el software en cada sistema.
+
+En [[https://mitpress.mit.edu/9780262535694/the-future-was-here/][/The Future Was Here/]], quién sino Jimmy Maher nos explica la Commodore Amiga, la computadora más sofisticada de los ochenta, la que realizó el ideal multimedia una década antes de que la palabra se pusiera de moda pero que igual perdió contra la muy inferior PC de IBM.
+
+[[https://mitpress.mit.edu/9780262534543/i-am-error/][/I Am Error/]] nos dice por qué una complicada consola de 8 bits era el hogar necesario para Mario y Zelda y por qué esos juegos eran necesarios para que una empresa de naipes del siglo XIX conquistara Japón y Estados Unidos, resucitara una industria zombie  y se convirtiera en dueño exclusivo del mercado de consolas.
+
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="../assets/img/vol2/procedural.jpg" width="320">
+</div>
+#+END_EXPORT
+
+Una novedad en mis excursiones fueron los libros de /diseño/. [[https://mitpress.mit.edu/9780262240451/rules-of-play/][/Rules of Play/]] hace un estudio teórico de la disciplina del diseño de juegos en general (no sólo electrónicos) pero es un libro denso, de interés académico. Es el libro acompañante de los mismos autores, la antología [[https://mitpress.mit.edu/9780262195362/the-game-design-reader/][/The Game Desgin Reader/]], el que puede resultar de interés general. Se trata de una colección anotada de textos que no solo cubre un amplio campo temático sino que visita géneros y tonos muy variados: desde el ensayo filosófico y el artículo académico hasta la reseña periodística y el /F.A.Q./ amateur.
+
+Para un enfoque práctico encontré [[https://paranoidproductions.com/][/Game Design: Theory & Practice/]]. Aunque la mitad del libro se extiende sobre técnica y método ---de difícil interés para quien no pretenda hacer juegos---, incluye también una selección de entrevistas a diseñadores célebres (para los estándares del 2004, cuando se publicó la segunda edición): Steve Meretzky, Sid Meier, Jordan Mechner, Will Wright.
+
+Una rareza sumamente interesante es [[https://www.routledge.com/Procedural-Generation-in-Game-Design/Short-Adams/p/book/9781498799195][/Procedural Generation in Game Design/]], una colección de ensayos sobre el nicho en el que se basan juegos como /Dwarf Fortress/ y /Minecraft/. El libro cubre todas las formas de generación automática de contenido: arte, audio, escenarios, incluso historia. Aunque a simple vista pueda parecer poco más que una técnica para economizar esfuerzos (y ciertamente así es en sus aplicaciones más burdas, que apenas buscan extender la duración de los juegos), el libro muestra que se trata más bien de una herramienta para aumentar el alcance del diseñador; que, bien usada, permite acceder a géneros y experiencias de juego inaccesibles por otros medios. Los mismos autores publicaron una [[https://www.routledge.com/Procedural-Storytelling-in-Game-Design/Short-Adams/p/book/9781138595309]["secuela"]] enfocada en la generación de contenido narrativo.
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="../assets/img/vol2/psycho.jpg" width="320">
+</div>
+#+END_EXPORT
+
+Cierro con dos excepciones.
+
+La primera, [[https://www.goodreads.com/book/show/31451009-it-s-all-a-game][/It's All a Game/]], es una historia de los juegos de mesa de Tristan Donovan, a quien ya le debíamos [[https://www.goodreads.com/book/show/8343159-replay][otra sobre videojuegos]]. Cada capítulo trata un título o un género en particular, desde ajedrez hasta /Catan/: la vida de los autores, el contexto social y económico en que fueron concebidos, cómo se popularizaron, cómo fueron olvidados y volvieron a estar de moda. Los lazos entre tableros y computadoras van más allá del árbol genealógico: hubo una mutua influencia durante la segunda mitad del siglo XX. Algo de eso conté [[file:../2023-04-27-de-von-bismarck-a-tolkien/][en otro post]], para el que el libro de Donovan fue la principal referencia.
+
+La otra excepción no es un libro sino un documental. [[https://www.doublefine.com/dftv/psychodyssey][/PsychOdyssey/]] podría pasar como la "segunda temporada" de [[https://www.doublefine.com/dftv/double-fine-adventure][/Double Fine Adventure/]], aquella serie que muestra la campaña de Kickstarter y el proceso de producción de lo que sería /Broken Age/, el [[file:../2022-09-26-llegando-los-monos/][retorno de Tim Schafer]] a las aventuras gráficas. Pero pensar /PsychOdyssey/ como una segunda parte es no hacerle justicia: con 32 capítulos y más de 20 horas, es más largo, más crudo, muchísimo más profundo y más valioso que su antecesor.
+
+El documental sigue el día a día de los empleados de DoubleFine durante el desarrollo de  /Psychonauts 2/, la secuela del clásico de culto que había sido el primer juego de Schafer después de salir de LucasArts. La producción arrancó en 2015, después de la publicación de /Broken Age/, y se extendió (con muchas turbulencias) hasta el 2022. /PsychOdyssey/ funciona como un /Gran Hermano/ de los videojuegos, nos muestra que hacer uno combina lo más difícil del desarrollo de software y la producción cinematográfica, es prueba fehaciente de aquella máxima de Jason Schreier de que es todo un milagro que /cualquier/ videojuego llegue a terminarse. Y ni hablar si se trata de un bebé de Tim Schafer.
+
+Durante esos casi ocho años, vamos a ver a una empresa independiente tratando de armar un juego triple-A /de autor/, en el que cada nivel es un mundo, casi un juego en sí mismo. En el medio renuncian viejos empleados, llegan otros nuevos (algunos de los cuales también se van a ir); Schafer sufre un bloqueo de escritor que demora la producción; el Project Manager traído de afuera choca contra la cultura de la empresa, se pone al equipo en contra y termina despedido; el proyecto se queda sin dirección por varios meses; el CEO de la empresa que financiaba la producción resulta ser un estafador y desaparece del radar; DoubleFine se queda sin fondos y al borde del cierre y es finalmente rescatada por una adquisición de Microsoft. Y cuando todo parece estabilizarse y el equipo se encamina hacia la recta final, surge esa pequeñísima complicación que fue la pandemia.
+
+PsychOdyssey es un canto al videjuego como forma de arte, a las computadoras como medio de expresión, un estudio de la producción de software, una reflexión sobre el proceso creativo y el trabajo en equipo, un pequeño milagro audiovisual que no podía pasar desapercibido por este blog.

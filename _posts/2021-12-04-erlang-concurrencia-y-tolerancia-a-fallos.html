@@ -1,0 +1,627 @@
+---
+layout: post
+title: "Erlang: concurrencia y tolerancia a fallos"
+date: 2021-12-04
+tags: [programación, software]
+thumbnail-img: assets/img/erlang/erlang.png
+---
+
+<p>
+<i>Lo que sigue es una transcripción de una clase de la materia</i> <a href="https://concurrentes-fiuba.github.io/Inicio.html">Técnicas de programación concurrente</a> <i>de la Facultad de Ingeniería de la U.B.A. La mayoría del contenido —imágenes e ideas— se lo robé a Fred Hebert, particularmente del artículo</i> <a href="https://ferd.ca/the-zen-of-erlang.html">The Zen of Erlang</a> <i>y del libro</i> <a href="https://learnyousomeerlang.com/">Learn you some Erlang for great good</a>. <i>Las slides y el código fuente se pueden encontrar <a href="https://github.com/facundoolano/presentations/tree/master/concurrentes-erlang">acá</a>.</i>
+</p>
+
+<div class="text-center">
+ <img src="../assets/img/erlang/squid.png" width="320">
+</div>
+
+<div id="outline-container-orge2325cd" class="outline-2">
+<h2 id="orge2325cd">Introducción</h2>
+<div class="outline-text-2" id="text-orge2325cd">
+<p>
+Podemos empezar con un poco de información barata y decir que Erlang es un lenguaje de programación desarrollado por Joe Armstrong y equipo en un laboratorio de Ericsson en los años '80. Fue diseñado para cumplir con requerimientos específicos de las aplicaciones de telefonía de la empresa: aplicaciones <a href="https://en.wikipedia.org/wiki/Real-time_computing#Criteria_for_real-time_computing"><i>soft real-time</i></a> y tolerantes a fallas. La plataforma fue publicada como Open Source en el '98 y su diseño, que originalmente apuntaba a un caso de uso "de nicho",
+resultó encajar muy bien con las aplicaciones altamente concurrentes que se masificaron en la década siguiente.
+</p>
+
+<p>
+Hay varios atributos que lo hacen único o notorio (además de su famosamente extraña sintaxis): es un lenguaje funcional, concurrente, distribuido, observable. Pero lo importante es que la elección de cada uno de esos elementos obedece al objetivo de implementar sistemas tolerantes a fallas. El lenguaje no sigue un modelo teórico específico sino que nació y evolucionó a partir del uso en la industria, lo que explica muchas de sus decisiones de diseño y, en algunos casos, inconsistencias.
+</p>
+
+<p>
+Erlang es funcional o, si se prefiere, declarativo, pero no pretende ser puro: para usarlo efectivamente no hace falta saber sobre mónadas o cálculo lambda; y así como, por citar un ejemplo, las variables son inmutables y la memoria de un proceso está aislada de la de los demás, la plataforma provee varias herramientas para romper esas reglas cuando la implementación lo requiere.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga9f44f6" class="outline-2">
+<h2 id="orga9f44f6">Sintaxis</h2>
+<div class="outline-text-2" id="text-orga9f44f6">
+<p>
+Empecemos con un ejemplo sencillo para tener una idea general de la sintaxis de Erlang:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang"><span style="color: #808080;">-module</span>(example1).
+
+<span style="color: #808080;">-export</span>([<span style="color: #6434A3;">list_increase/1</span>]).
+
+<span style="color: #8D8D84;">%% </span><span style="color: #8D8D84; font-style: italic;">Incrementar en 1 todos los elementos de la lista.</span>
+<span style="color: #006699;">list_increase</span>(<span style="color: #BA36A5;">List</span>) -&gt;
+    <span style="color: #6434A3;">list_increase</span>(<span style="color: #BA36A5;">List</span>, []).
+
+<span style="color: #006699;">list_increase</span>([<span style="color: #BA36A5;">N</span> | <span style="color: #BA36A5;">Rest</span>], <span style="color: #BA36A5;">Result</span>) -&gt;
+    <span style="color: #6434A3;">list_increase</span>(<span style="color: #BA36A5;">Rest</span>, [<span style="color: #BA36A5;">N</span> + 1 | <span style="color: #BA36A5;">Result</span>]);
+
+<span style="color: #006699;">list_increase</span>([], <span style="color: #BA36A5;">Result</span>) -&gt;
+    <span style="color: #6434A3;">lists</span>:<span style="color: #6434A3;">reverse</span>(<span style="color: #BA36A5;">Result</span>).
+</pre>
+</div>
+
+<p>
+Por empezar, se declara el nombre de un módulo, <code>example1</code>, y se lista una única función como exportada (pública): <code>list_increase/1</code>, donde el <code>/1</code> indica la aridad (cantidad de parámetros que recibe). Como está exportada, esta función puede llamarse calificándola con el nombre del módulo que la contiene: <code>example1:list_increase([1, 2, 3])</code>.
+Noten que hay una segunda función con el mismo nombre pero diferente aridad, <code>list_instances/2</code>, que realiza el trabajo de construir la lista del resultado.
+</p>
+
+<p>
+En Erlang no hay sentencias imperativas como <code>for</code> o <code>while</code> para procesar una colección; la manera básica de iterar es llamando funciones recursivamente. La recursividad es una herramienta muy común pero para casos sencillos como el anterior es más frecuente usar funciones de alto orden:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang"><span style="color: #808080;">-module</span>(example2).
+
+<span style="color: #808080;">-export</span>([<span style="color: #6434A3;">list_increase/1</span>]).
+
+<span style="color: #8D8D84;">%% </span><span style="color: #8D8D84; font-style: italic;">Incrementar en 1 todos los elementos de la lista.</span>
+<span style="color: #006699;">list_increase</span>(<span style="color: #BA36A5;">List</span>) -&gt;
+    <span style="color: #6434A3;">lists</span>:<span style="color: #6434A3;">map</span>(<span style="color: #0000FF;">fun</span>(<span style="color: #BA36A5;">N</span>) -&gt;<span style="color: #006699;"> </span><span style="color: #BA36A5;">N</span> + 1 <span style="color: #0000FF;">end</span>, <span style="color: #BA36A5;">List</span>).
+</pre>
+</div>
+
+<p>
+En este caso <code>lists:map/2</code> recibe una función como parámetro, que aplica a cada elemento de la lista para construir el resultado. Otra opción es usar comprensiones de listas:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang"><span style="color: #808080;">-module</span>(example3).
+
+<span style="color: #808080;">-export</span>([<span style="color: #6434A3;">list_increase/1</span>]).
+
+<span style="color: #8D8D84;">%% </span><span style="color: #8D8D84; font-style: italic;">Incrementar en 1 todos los elementos de la lista.</span>
+<span style="color: #006699;">list_increase</span>(<span style="color: #BA36A5;">List</span>) -&gt;
+    [<span style="color: #BA36A5;">N</span> + 1 <span style="color: #0000FF;">||</span> <span style="color: #BA36A5;">N</span> <span style="color: #0000FF;">&lt;-</span> <span style="color: #BA36A5;">List</span>].
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd0fc6f5" class="outline-2">
+<h2 id="orgd0fc6f5">Concurrencia</h2>
+<div class="outline-text-2" id="text-orgd0fc6f5">
+<p>
+Erlang implementa el <a href="https://en.wikipedia.org/wiki/Actor_model">modelo de actores</a>, es decir que los programas consisten en un conjunto de procesos livianos que se ejecutan concurrentemente (y, si se dispone de más de un núcleo, en paralelo), sin estado compartido y comunicándose exclusivamente a través de pasaje de mensajes. Cada proceso tiene un identificador que se usa como la "dirección" para enviarle mensajes; los mensajes se acumulan en un <i>mailbox</i> del que el proceso puede leer asincrónicamente.
+</p>
+
+<p>
+A diferencia de otras implementaciones —<a href="https://akka.io/">Akka</a> en la JVM, <a href="https://github.com/actix/actix">Actix</a> en Rust—, en el caso de Erlang no se trata de una biblioteca o framework sino que es la propia Virtual Machine la que provee el soporte para este tipo de concurrencia. En efecto, en Erlang no se ejecuta un programa secuencialmente con una función <code>main</code> sino que se inicia el runtime del lenguaje con determinadas aplicaciones &#x2014;consistiendo cada una de ellas, a su vez, en un conjunto de procesos iniciales.
+</p>
+
+<p>
+En la siguiente sesión de shell vemos las primitivas básicas de concurrencia. <code>self/0</code> devuelve el identificador del proceso actual:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang">&gt; <span style="color: #BA36A5;">ParentPid</span> = <span style="color: #006FE0;">self</span>().
+&lt;0.84.0&gt;
+</pre>
+</div>
+
+<p>
+<code>spawn/1</code> inicia un nuevo proceso y ejecuta en él la función pasada como parámetro:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang">&gt; <span style="color: #006FE0;">spawn</span>(<span style="color: #0000FF;">fun</span>() -&gt;
+          <span style="color: #8D8D84;">%% </span><span style="color: #8D8D84; font-style: italic;">Enviar un mensaje al proceso de la shell</span>
+          <span style="color: #BA36A5;">ParentPid</span> ! {<span style="color: #006FE0;">self</span>(), <span style="color: #008000;">"hello world!"</span>}
+        <span style="color: #0000FF;">end</span>).
+&lt;0.88.0&gt;
+</pre>
+</div>
+
+<p>
+Noten que la función es un closure que incluye una copia de la variable <code>ParentPid</code>, asignada en el proceso padre. La expresión <code>receive</code> bloquea la ejecución hasta que el proceso recibe un mensaje que coincida con el patrón indicado, en este caso una tupla de dos elementos <code>{From, Message}</code>:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang">&gt; <span style="color: #0000FF;">receive</span>
+    {<span style="color: #BA36A5;">From</span>, <span style="color: #BA36A5;">Message</span>} -&gt;
+      <span style="color: #8D8D84;">%% </span><span style="color: #8D8D84; font-style: italic;">Imprimir el valor recibido por stdout</span>
+      <span style="color: #6434A3;">io</span>:<span style="color: #6434A3;">format</span>(<span style="color: #008000;">"Received: ~p from ~p \n"</span>, [<span style="color: #BA36A5;">Message</span>, <span style="color: #BA36A5;">From</span>])
+  <span style="color: #0000FF;">end</span>.
+<span style="color: #BA36A5;">Received</span>: hello world! from &lt;0.88.0&gt;
+ok
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb67df92" class="outline-2">
+<h2 id="orgb67df92">Ejemplo: servidor de cálculos</h2>
+<div class="outline-text-2" id="text-orgb67df92">
+<p>
+El tipo más común de proceso es aquel que funciona como un servidor: el que espera a recibir un mensaje (un pedido o request) de otro proceso cliente, hace alguna tarea en base al mensaje &#x2014;posiblemente modificando su estado interno&#x2014;, envía una respuesta y vuelve a esperar. Supongamos un servidor que mantiene un número como su estado interno y expone una interfaz para operar sobre ese número:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang"><span style="color: #808080;">-module</span>(calc_server).
+
+<span style="color: #808080;">-export</span>([<span style="color: #6434A3;">start/0</span>, <span style="color: #6434A3;">add/2</span>, <span style="color: #6434A3;">divide/2</span>, <span style="color: #6434A3;">get/1</span>]).
+
+<span style="color: #006699;">start</span>() -&gt;<span style="color: #006699;"> </span><span style="color: #006FE0;">spawn</span>(<span style="color: #0000FF;">fun</span>() -&gt;<span style="color: #006699;"> </span><span style="color: #6434A3;">loop</span>(0) <span style="color: #0000FF;">end</span>).
+</pre>
+</div>
+
+<p>
+El módulo <code>calc_server</code> expone una función <code>start/0</code> para iniciar el servidor. Esta función crea un proceso y llama por primera vez al loop interno, con <code>0</code> como estado inicial. Las funciones <code>add/2</code> y <code>divide/2</code> permiten modificar ese número:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang"><span style="color: #006699;">add</span>(<span style="color: #BA36A5;">ServerPid</span>, <span style="color: #BA36A5;">N</span>) -&gt;
+    <span style="color: #BA36A5;">ServerPid</span> ! {add, <span style="color: #BA36A5;">N</span>},
+    ok.
+
+<span style="color: #006699;">divide</span>(<span style="color: #BA36A5;">ServerPid</span>, <span style="color: #BA36A5;">N</span>) -&gt;
+    <span style="color: #BA36A5;">ServerPid</span> ! {divide, <span style="color: #BA36A5;">N</span>},
+    ok.
+</pre>
+</div>
+
+<p>
+Noten que esta interfaz es asíncrona: las operaciones se envían al servidor pero no se espera una respuesta, es decir, no se recibe el valor resultante de aplicar la operación sobre el estado del servidor. Para eso se usa otra función, <code>get/1</code>:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang"><span style="color: #006699;">get</span>(<span style="color: #BA36A5;">ServerPid</span>) -&gt;
+    <span style="color: #BA36A5;">ServerPid</span> ! {get, <span style="color: #006FE0;">self</span>()},
+    <span style="color: #0000FF;">receive</span>
+        {calc_server_result, <span style="color: #BA36A5;">Value</span>} -&gt;
+            <span style="color: #BA36A5;">Value</span>
+    <span style="color: #0000FF;">after</span> 1000 -&gt;
+            timeout
+    <span style="color: #0000FF;">end</span>.
+</pre>
+</div>
+
+<p>
+Después de enviar el pedido como <code>{get, self()}</code>, el cliente espera hasta un segundo por una respuesta y si no la recibe devuelve el átomo <code>timeout</code>. Por último, la función recursiva <code>loop/1</code> implementa el proceso servidor:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang"><span style="color: #006699;">loop</span>(<span style="color: #BA36A5;">Acc</span>) -&gt;
+    <span style="color: #BA36A5;">NewAcc</span> =
+        <span style="color: #0000FF;">receive</span>
+            {get, <span style="color: #BA36A5;">ClientPid</span>} -&gt;
+                <span style="color: #BA36A5;">ClientPid</span> ! {calc_server_result, <span style="color: #BA36A5;">Acc</span>},
+                <span style="color: #BA36A5;">Acc</span>;
+            {add, <span style="color: #BA36A5;">N</span>} -&gt;<span style="color: #006699;"> </span><span style="color: #BA36A5;">Acc</span> + <span style="color: #BA36A5;">N</span>;
+            {divide, <span style="color: #BA36A5;">N</span>} -&gt;<span style="color: #006699;"> </span><span style="color: #BA36A5;">Acc</span> / <span style="color: #BA36A5;">N</span>
+        <span style="color: #0000FF;">end</span>,
+    <span style="color: #6434A3;">loop</span>(<span style="color: #BA36A5;">NewAcc</span>).
+</pre>
+</div>
+
+<p>
+Veamos cómo funciona este servidor desde la shell de Erlang:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang">Eshell <span style="color: #BA36A5;">V12</span>.0.3  (abort with ^<span style="color: #BA36A5;">G</span>)
+1&gt; <span style="color: #6434A3;">c</span>(calc_server).
+{ok,calc_server}
+2&gt; <span style="color: #BA36A5;">ServerPid</span> = <span style="color: #6434A3;">calc_server</span>:<span style="color: #6434A3;">start</span>().
+&lt;0.90.0&gt;
+3&gt; <span style="color: #6434A3;">calc_server</span>:<span style="color: #006FE0;">get</span>(<span style="color: #BA36A5;">ServerPid</span>).
+0
+4&gt; <span style="color: #6434A3;">calc_server</span>:<span style="color: #6434A3;">add</span>(<span style="color: #BA36A5;">ServerPid</span>, 1).
+ok
+5&gt; <span style="color: #6434A3;">calc_server</span>:<span style="color: #6434A3;">add</span>(<span style="color: #BA36A5;">ServerPid</span>, 1).
+ok
+6&gt; <span style="color: #6434A3;">calc_server</span>:<span style="color: #006FE0;">get</span>(<span style="color: #BA36A5;">ServerPid</span>).
+2
+7&gt; <span style="color: #6434A3;">calc_server</span>:<span style="color: #6434A3;">divide</span>(<span style="color: #BA36A5;">ServerPid</span>, 2).
+ok
+8&gt; <span style="color: #6434A3;">calc_server</span>:<span style="color: #006FE0;">get</span>(<span style="color: #BA36A5;">ServerPid</span>).
+1.0
+9&gt; <span style="color: #6434A3;">calc_server</span>:<span style="color: #6434A3;">divide</span>(<span style="color: #BA36A5;">ServerPid</span>, 0).
+ok
+=<span style="color: #BA36A5;">ERROR</span> <span style="color: #BA36A5;">REPORT</span>==== 22-<span style="color: #BA36A5;">Nov</span>-2021::12:09:14.684986 ===
+<span style="color: #BA36A5;">Error</span> in process &lt;0.90.0&gt; with exit value:
+{badarith,[{calc_server,loop,1,[{file,<span style="color: #008000;">"calc_server.erl"</span>},{line,35}]}]}
+
+10&gt; <span style="color: #6434A3;">calc_server</span>:<span style="color: #006FE0;">get</span>(<span style="color: #BA36A5;">ServerPid</span>).
+timeout
+</pre>
+</div>
+
+<p>
+¿Qué pasó al final? Enviamos una operación errónea cuyo manejo no fue previsto en la implementación del servidor.
+Como resultado el proceso del servidor termina con un error y, cuando intentamos otro pedido usando su identificador,
+la operación resulta en un timeout, porque el proceso ya no existe.
+</p>
+
+<p>
+Más adelante vamos a ver cómo mitigar este tipo de problemas, pero antes hay que hacer algunas observaciones sobre el uso de procesos y el funcionamiento de la Virtual Machine de Erlang.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5f67137" class="outline-2">
+<h2 id="org5f67137">Los procesos como elemento de diseño</h2>
+<div class="outline-text-2" id="text-org5f67137">
+<p>
+Una parte fundamental del diseño de software es la modularización: organizar el programa en componentes, decidir su granularidad, qué conocimiento debe ser expuesto en las interfaces y cuál encapsulado en las implementaciones. Vimos que Erlang tiene módulos similares a los de Python y otros lenguajes, que cumplen un rol no muy distinto al de las clases de Java, con su interfaz pública y su implementación privada. Pero la separación en procesos es también una forma de modularización y una parte crucial del diseño en Erlang es definir qué lógica y estado son contenidos en cada proceso y qué tipo de mensajes componen su interfaz.
+</p>
+
+<p>
+Si miramos el diseño de una aplicación Erlang a alto nivel, podríamos decir que los procesos efectivamente se parecen a objetos, especialmente según la idea original propuesta por Alan Kay en Smalltalk, donde el énfasis se ponía más en el pasaje de mensajes que en las jerarquías de clases. Pero en la práctica, por más livianos que sean los procesos de Erlang, uno no los usaría tan granularmente como a clases de Smalltalk o Java: si implemento una lista enlazada, puede tener sentido una clase Lista y otra Nodo, pero difícilmente sea útil que cada uno de los nodos sea un proceso en Erlang.
+</p>
+
+<p>
+Entonces, ¿cómo encontrar la granuralidad adecuada para los procesos? La respuesta surge, otra vez, de la tolerancia a fallos: para separar nuestro programa en procesos tenemos que pensar qué componentes tienen que estar aislados unos de otros: cuáles fallan juntos y aquellos cuya falla no debería afectar al resto. En lugar del <i>encapsular lo que puede cambiar</i> de la programación orientada a objetos, tenemos un <i>encapsular lo que puede crashear</i>.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org1f4cf36" class="outline-2">
+<h2 id="org1f4cf36">Virtual Machine</h2>
+<div class="outline-text-2" id="text-org1f4cf36">
+<p>
+Como dije en la introducción, Erlang no es la única implementación del modelo de actores pero se destaca de otras por estar embebida en el diseño del runtime del lenguaje. La virtual machine de Erlang realiza <a href="https://en.wikipedia.org/wiki/Preemption_(computing)"><i>preemptive scheduling</i></a> (planificación "preemptiva"), lo que la acerca más a un sistema operativo que a la concurrencia colaborativa de otros lenguajes de programación; esto significa que hay un componente del runtime, el planificador o <i>scheduler</i>, que asegura que todos los procesos tengan un acceso equitativo a los recursos de la CPU. Su funcionamiento puede pensarse así:
+</p>
+
+<ol class="org-ol">
+<li>El runtime de Erlang ejecuta un scheduler por cada núcleo de CPU disponible.</li>
+<li>Cada vez que se inicia un proceso, se lo pone en la cola de ejecución de alguno de los schedulers.</li>
+<li>El scheduler toma un proceso de su cola de ejecución y le asigna un número de "reducciones", algo así como créditos de CPU.</li>
+<li>Cada operación que realiza el proceso (enviar un mensaje, ejecutar una función, abrir un archivo, recolectar la basura en memoria, etc.) consume una cantidad específica de reducciones, que aproxima la cantidad de trabajo de CPU que requiere la tarea.</li>
+<li>Cuando el proceso consume todas sus reducciones, el scheduler interrumpe la ejecución y pasa al siguiente proceso de su cola.</li>
+</ol>
+
+<p>
+Desde luego que todo ese trabajo realizado por los schedulers tiene un costo y es por eso que Erlang puede ser considerado "lento" en comparación a otros lenguajes, si observamos la ejecución de tareas aisladas. Pero este comportamiento es intencional y es lo que hace a Erlang único en su especie: el objetivo no es hacer el uso más eficiente posible de los recursos sino garantizar su reparto equitativo entre los procesos. Esto es clave en el caso de uso para el que Erlang fue diseñado: sistemas estables, tolerantes a fallas, que degradan elegantemente. En otras palabras, Erlang prioriza latencia sobre rendimiento (<i>throughput</i>): lo más importante no es que las operaciones se ejecuten rápido en promedio sino que la varianza de la latencia se mantenga baja, incluso en situaciones de alta demanda. Lo que el scheduler garantiza es que un proceso que realiza trabajo intensivo no bloquee al resto de los procesos. Esto implica que Erlang suele ser inadecuado para tareas de CPU intensas (criptografía, procesamiento de imágenes) pero ideal para aplicaciones de mucha concurrencia, como servidores web o de chat.
+</p>
+
+<p>
+El modelo de memoria sigue un razonamiento parecido: cada proceso tiene su propio espacio de memoria y se ocupa de su <i>garbage collection</i>, consumiendo reducciones de CPU; si bien más costoso que el de un recolector global, este esquema garantiza que los procesos que usan mucha memoria no van a entorpecer el trabajo de los demás. Lo interesante es que, si se diseña y configura bien el programa, muchos procesos van a nacer, realizar su trabajo y morir sin necesidad de llegar a hacer nunca una sola recolección de basura.
+</p>
+
+<p>
+Vimos que cada proceso tiene su propio espacio de memoria, aislado del resto, y que toda comunicación se realiza copiando los datos de un <i>heap</i> al otro en la forma de mensajes. Esto elimina los <a href="https://en.wikipedia.org/wiki/Race_condition#Data_race">data races</a> y simplifica la implementación de los sistemas y su manejo de errores. Pero dijimos que Erlang es un lenguaje pragmático y por eso complementa ese método con varias herramientas para guardar y compartir estado global de manera eficiente y segura: las <a href="http://erlang.org/doc/man/ets.html">ETS</a> (erlang term storage, algo así como un Redis embebido en la plataforma), <a href="https://www.erlang.org/doc/man/mnesia.html">Mnesia</a> (una base de datos distribuida) y los <a href="https://www.erlang.org/doc/man/persistent_term.html">persistent terms</a> (un espacio global de memoria optimizado para leer datos sin copiarlos al proceso).
+</p>
+</div>
+</div>
+
+<div id="outline-container-org72b24c7" class="outline-2">
+<h2 id="org72b24c7">Concurrencia robusta</h2>
+<div class="outline-text-2" id="text-org72b24c7">
+<p>
+Hablamos mucho de tolerancia a fallas pero todavía no dijimos nada específico sobre el manejo de errores. En Erlang existen elementos similares a los de otros lenguajes (excepciones, señales de terminación) pero más interesantes son las herramientas para el manejo de errores a nivel de procesos. Voy a detenerme en tres:
+</p>
+
+<ul class="org-ul">
+<li>Los <a href="https://www.erlang.org/doc/reference_manual/processes.html#links">links</a> vinculan dos procesos de forma que cuando cualquiera de ellos termina en error, se envía una señal de terminación al otro. Conceptualmente, esto indica que ambos procesos están fuertemente relacionados en sus modos de error.</li>
+<li>Las <a href="https://www.erlang.org/doc/man/erlang.html#process_flag_trap_exit">traps</a> cambian la configuración de un link para que, al terminar un proceso en error, se "capture" la señal de terminación hacia el otro proceso y se la convierta en un mensaje en su mailbox.</li>
+<li>Los <a href="https://www.erlang.org/doc/reference_manual/processes.html#monitors">monitors</a> configuran a un proceso para que reciba un mensaje cuando el otro termina. Es un vínculo unidireccional, sin implicaciones en sus modos de error.</li>
+</ul>
+
+<p>
+Valiéndonos de estas herramientas, podemos mejorar el ejemplo del <code>calc_server</code> introduciendo otro proceso "supervisor", encargado de reiniciar el servidor cuando el primero termina en error.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang"><span style="color: #808080;">-module</span>(calc_sup).
+<span style="color: #808080;">-export</span>([<span style="color: #6434A3;">start_calc_server/0</span>]).
+
+<span style="color: #006699;">start_calc_server</span>() -&gt;
+    <span style="color: #006FE0;">spawn</span>(<span style="color: #0000FF;">fun</span>() -&gt;<span style="color: #006699;"> </span><span style="color: #6434A3;">restarter</span>() <span style="color: #0000FF;">end</span>).
+
+<span style="color: #006699;">restarter</span>() -&gt;
+    <span style="color: #BA36A5;">ServerPid</span> = <span style="color: #6434A3;">calc_server2</span>:<span style="color: #6434A3;">start_link</span>(),
+    <span style="color: #006FE0;">process_flag</span>(trap_exit, true),
+
+    <span style="color: #0000FF;">receive</span>
+        {<span style="color: #008000;">'EXIT'</span>, <span style="color: #BA36A5;">ServerPid</span>, <span style="color: #BA36A5;">_</span>} -&gt;
+            <span style="color: #6434A3;">io</span>:<span style="color: #6434A3;">format</span>(<span style="color: #008000;">"Supervisor: restarting calc_server \n"</span>),
+            <span style="color: #6434A3;">restarter</span>()
+    <span style="color: #0000FF;">end</span>.
+</pre>
+</div>
+
+<p>
+El supervisor tiene como única tarea mantener al servidor corriendo; al igual que este, se lo implementa como una función recursiva a la espera de mensajes entrantes. El llamado <code>calc_server2:start_link()</code> inicia el servidor en un nuevo proceso con un link al supervisor, es decir que el supervisor va a recibir señales de terminación cuando el servidor muera, mientras que <code>process_flag(trap_exit, true)</code> es un trap, es decir que esas señales de terminación van a ser convertidas en mensajes. El <code>receive</code> que sigue espera por esos mensajes y vuelve a ejecutar la función, de manera que un nuevo proceso servidor se inicie para reemplazar al que acaba de morir.
+</p>
+
+<p>
+Veamos cómo cambia el código del servidor para soportar este nuevo escenario:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang"><span style="color: #808080;">-module</span>(calc_server2).
+<span style="color: #808080;">-export</span>([<span style="color: #6434A3;">start_link/0</span>, <span style="color: #6434A3;">add/1</span>, <span style="color: #6434A3;">divide/1</span>, <span style="color: #6434A3;">get/0</span>]).
+
+<span style="color: #006699;">start_link</span>() -&gt;
+    <span style="color: #BA36A5;">Pid</span> = <span style="color: #006FE0;">spawn_link</span>(<span style="color: #0000FF;">fun</span>() -&gt;<span style="color: #006699;"> </span><span style="color: #6434A3;">loop</span>(0) <span style="color: #0000FF;">end</span>),
+    <span style="color: #006FE0;">register</span>(calc_server, <span style="color: #BA36A5;">Pid</span>),
+    <span style="color: #BA36A5;">Pid</span>.
+</pre>
+</div>
+
+<p>
+La interfaz es muy parecida, solo con cambios en la aridad de las funciones. Como dijimos antes, <code>start_link</code> inicia un proceso servidor enlazado con el proceso que ejecuta la función (en este caso el supervisor); el enlace se crea usando la primitiva <code>spawn_link</code> en vez de <code>spawn</code>. La principal diferencia en esta implementación es el llamado a     <code>register(calc_server, Pid)</code>; esta instrucción le otorga el nombre global <code>calc_server</code> al nuevo proceso de manera de poder mandarle mensajes usando ese nombre en lugar de su Pid. Esto nos sirve porque el Pid del servidor cambia cada vez que el supervisor crea uno nuevo. En consecuencia, las operaciones del servidor ya no necesitan recibir un Pid sino que usan el nombre global internamente:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang"><span style="color: #006699;">add</span>(<span style="color: #BA36A5;">N</span>) -&gt;
+    calc_server ! {add, <span style="color: #BA36A5;">N</span>},
+    ok.
+
+<span style="color: #006699;">divide</span>(<span style="color: #BA36A5;">N</span>) -&gt;
+    calc_server ! {divide, <span style="color: #BA36A5;">N</span>},
+    ok.
+
+<span style="color: #006699;">get</span>() -&gt;
+    calc_server ! {get, <span style="color: #006FE0;">self</span>()},
+    <span style="color: #0000FF;">receive</span>
+        {calc_server_result, <span style="color: #BA36A5;">Value</span>} -&gt;
+            <span style="color: #BA36A5;">Value</span>
+    <span style="color: #0000FF;">after</span> 1000 -&gt;
+            timeout
+    <span style="color: #0000FF;">end</span>.
+</pre>
+</div>
+
+<p>
+La implementación de la función <code>loop</code> del servidor es idéntica a la interior. Veamos cómo funcionan estos módulos en otra sesión de shell:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang">Eshell <span style="color: #BA36A5;">V12</span>.0.3  (abort with ^<span style="color: #BA36A5;">G</span>)
+1&gt; <span style="color: #6434A3;">c</span>(calc_server2).
+{ok,calc_server2}
+2&gt; <span style="color: #6434A3;">c</span>(calc_sup).
+{ok,calc_sup}
+3&gt; <span style="color: #6434A3;">calc_sup</span>:<span style="color: #6434A3;">start_calc_server</span>().
+&lt;0.95.0&gt;
+4&gt; <span style="color: #6434A3;">calc_server2</span>:<span style="color: #006FE0;">get</span>().
+0
+5&gt; <span style="color: #6434A3;">calc_server2</span>:<span style="color: #6434A3;">add</span>(10).
+ok
+6&gt; <span style="color: #6434A3;">calc_server2</span>:<span style="color: #6434A3;">divide</span>(10).
+ok
+7&gt; <span style="color: #6434A3;">calc_server2</span>:<span style="color: #006FE0;">get</span>().
+1.0
+8&gt; <span style="color: #6434A3;">calc_server2</span>:<span style="color: #6434A3;">divide</span>(0).
+<span style="color: #BA36A5;">Supervisor</span>: restarting calc_server
+=<span style="color: #BA36A5;">ERROR</span> <span style="color: #BA36A5;">REPORT</span>==== 22-<span style="color: #BA36A5;">Nov</span>-2021::17:34:10.182832 ===
+<span style="color: #BA36A5;">Error</span> in process &lt;0.96.0&gt; with exit value:
+{badarith,[{calc_server2,loop,1,[{file,<span style="color: #008000;">"calc_server2.erl"</span>},{line,44}]}]}
+
+ok
+9&gt; <span style="color: #6434A3;">calc_server2</span>:<span style="color: #006FE0;">get</span>().
+0
+</pre>
+</div>
+
+<p>
+Noten que, cuando forzamos un error al dividir por cero, hay un crash del servidor, igual que antes, pero esta vez el supervisor lo reemplaza con un nuevo proceso. Al llamar <code>calc_server2:get</code> después del error ya no recibimos un timeout sino la respuesta del nuevo proceso.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf73796d" class="outline-2">
+<h2 id="orgf73796d">OTP y Behaviors</h2>
+<div class="outline-text-2" id="text-orgf73796d">
+<p>
+Erlang provee un mecanismo de reuso de código llamado <a href="https://www.erlang.org/doc/design_principles/des_princ.html#behaviours"><i>behaviors</i></a>. Los behaviors son  similares a las clases abstractas en programación orientada a objetos, particularmente al patrón <a href="https://en.wikipedia.org/wiki/Template_method_pattern"><i>template method</i></a>: permiten implementar casos frecuentes de procesos separando la parte genérica (el módulo del behavior) y la parte específica (un módulo de callbacks). El servidor y el supervisor que vimos antes son ejemplos típicos en los que nos podríamos beneficiar usando una implementación genérica más robusta en vez de reinventar la rueda.
+</p>
+
+<p>
+Las distribuciones de Erlang incluyen OTP (<i>Open Telecom Platform</i>), un conjunto de bibliotecas que, más allá de su nombre <i>vintage</i>, componen un framework para construir aplicaciones estándar &#x2014;aplicaciones que respetan convenciones y funcionan bien con las herramientas del ecosistema de Erlang. OTP contiene varios behaviors, entre ellos:
+</p>
+
+<ul class="org-ul">
+<li><code>gen_server</code> (servidor genérico)</li>
+<li><code>gen_event</code> (manejo de eventos)</li>
+<li><code>gen_statem</code> (máquina de estados)</li>
+<li><code>supervisor</code></li>
+<li><code>application</code></li>
+</ul>
+
+<p>
+Veamos cómo luce nuestro <code>calc_server</code> si lo reescribimos usando <code>gen_server</code>, el servidor de OTP. El behavior resuelve la parte genérica: iniciar un proceso con un nombre global, procesar recursivamente los mensajes entrantes, responder requests asincrónicos o sincrónicos (con un timeout). Nuestro módulo resuelve la parte específica: mantener un número en el estado interno y exponer operaciones para modificarlo.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang"><span style="color: #808080;">-module</span>(calc_server3).
+
+<span style="color: #808080;">-behavior</span>(gen_server).
+
+<span style="color: #808080;">-export</span>([<span style="color: #6434A3;">start_link/0</span>, <span style="color: #6434A3;">add/1</span>, <span style="color: #6434A3;">divide/1</span>, <span style="color: #6434A3;">get/0</span>]).
+<span style="color: #808080;">-export</span>([<span style="color: #6434A3;">init/1</span>, <span style="color: #6434A3;">handle_cast/2</span>, <span style="color: #6434A3;">handle_call/3</span>]).
+</pre>
+</div>
+
+<p>
+Con la instruccion <code>-behavior(gen_server).</code> indicamos que este módulo implementa los callbacks que espera <code>gen_server</code>. Para más claridad, separamos las funciones exportadas en dos grupos: una para la interfaz del servidor y la otra para los callbacks del behavior.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang"><span style="color: #006699;">start_link</span>() -&gt;
+    <span style="color: #6434A3;">gen_server</span>:<span style="color: #6434A3;">start_link</span>({global, calc_server}, ?<span style="color: #D0372D;">MODULE</span>, [], []).
+
+<span style="color: #006699;">add</span>(<span style="color: #BA36A5;">N</span>) -&gt;
+    <span style="color: #6434A3;">gen_server</span>:<span style="color: #6434A3;">cast</span>({global, calc_server}, {add, <span style="color: #BA36A5;">N</span>}).
+
+<span style="color: #006699;">divide</span>(<span style="color: #BA36A5;">N</span>) -&gt;
+    <span style="color: #6434A3;">gen_server</span>:<span style="color: #6434A3;">cast</span>({global, calc_server}, {divide, <span style="color: #BA36A5;">N</span>}).
+
+<span style="color: #006699;">get</span>() -&gt;
+    <span style="color: #6434A3;">gen_server</span>:<span style="color: #6434A3;">call</span>({global, calc_server}, get, <span style="color: #BA36A5;">_Timeout</span>=1000).
+</pre>
+</div>
+
+<p>
+Las operaciones, que antes requerían interactuar explícitamente con procesos, ahora se delegan en llamados al módulo <code>gen_server</code>.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang"><span style="color: #006699;">init</span>([]) -&gt;<span style="color: #006699;"> </span>{ok, 0}.
+
+<span style="color: #006699;">handle_cast</span>({add, <span style="color: #BA36A5;">N</span>}, <span style="color: #BA36A5;">Acc</span>) -&gt;<span style="color: #006699;"> </span>{noreply, <span style="color: #BA36A5;">Acc</span> + <span style="color: #BA36A5;">N</span>};
+<span style="color: #006699;">handle_cast</span>({divide, <span style="color: #BA36A5;">N</span>}, <span style="color: #BA36A5;">Acc</span>) -&gt;<span style="color: #006699;"> </span>{noreply, <span style="color: #BA36A5;">Acc</span> / <span style="color: #BA36A5;">N</span>}.
+
+<span style="color: #006699;">handle_call</span>(get, <span style="color: #BA36A5;">_From</span>, <span style="color: #BA36A5;">Acc</span>) -&gt;<span style="color: #006699;"> </span>{reply, <span style="color: #BA36A5;">Acc</span>, <span style="color: #BA36A5;">Acc</span>}.
+</pre>
+</div>
+
+<p>
+La implementación de los callbacks se reduce a manejar los mensajes específicos para las operaciones del nuestro servidor, inicializando, modificando o respondiendo el número interno según sea necesario.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4e1691d" class="outline-2">
+<h2 id="org4e1691d">Supervisores</h2>
+<div class="outline-text-2" id="text-org4e1691d">
+<p>
+En los ejemplos vimos un escenario rudimentario en el que un proceso (<code>calc_server</code>) realizaba una tarea y otro (<code>calc_sup</code>) se ocupaba de mantenerlo funcionado en presencia de errores. En la generalización de este modelo está el corazón de las aplicaciones de Erlang. Conceptualmente, podemos dividir a los procesos entre trabajdores (<i>workers</i>), los que realizan trabajo y pueden fallar, y supervisores, los que se ocupan de monitorear workers: reiniciarlos o hacer que sus errores tengan consecuencias preestablecidas.
+</p>
+
+<p>
+OTP provee un behavior para implementar supervisores. Volviendo al ejemplo de <code>calc_sup</code>, podemos reescribirlo usando este behavior:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-erlang"><span style="color: #808080;">-module</span>(calc_sup2).
+
+<span style="color: #808080;">-behavior</span>(supervisor).
+
+<span style="color: #808080;">-export</span>([<span style="color: #6434A3;">start_link/0</span>]).
+<span style="color: #808080;">-export</span>([<span style="color: #6434A3;">init/1</span>]).
+
+<span style="color: #006699;">start_link</span>() -&gt;
+    <span style="color: #6434A3;">supervisor</span>:<span style="color: #6434A3;">start_link</span>(?<span style="color: #D0372D;">MODULE</span>, []).
+
+<span style="color: #006699;">init</span>([]) -&gt;
+    <span style="color: #BA36A5;">SupervisorFlags</span> = #{
+      strategy =&gt; one_for_all, <span style="color: #8D8D84;">%% </span><span style="color: #8D8D84; font-style: italic;">si falla un worker reiniciar todos</span>
+      intensity =&gt; 5,          <span style="color: #8D8D84;">%% </span><span style="color: #8D8D84; font-style: italic;">hasta 5 restarts</span>
+      period =&gt; 60             <span style="color: #8D8D84;">%% </span><span style="color: #8D8D84; font-style: italic;">cada 60 segundos</span>
+    },
+
+    <span style="color: #BA36A5;">ChildSpec</span> = [#{
+      id =&gt; calc_server,
+      start =&gt; {calc_server3, start_link, []},
+      restart =&gt; permanent
+    },
+    #{
+      id =&gt; calc_loader,
+      start =&gt; {calc_loader, start_link, []},
+      restart =&gt; transient
+     }],
+
+    {ok, {<span style="color: #BA36A5;">SupervisorFlags</span>, <span style="color: #BA36A5;">ChildSpec</span>}}.
+</pre>
+</div>
+
+<p>
+El supervisor de OTP tiene un solo callback, <code>init/1</code>, que devuelve una tupla de configuración:
+</p>
+
+<ul class="org-ul">
+<li>El primer elemento contiene configuración "global" del supervisor: cómo propagar errores entre sus workers (<code>strategy</code>) y cuál es la frecuencia aceptable de errores (más allá de la cual el propio supervisor deber fallar).</li>
+<li>El segundo elemento es una lista de especificaciones de los workers que deben ser supervisados: cómo inicializarlos y qué hacer cuando terminan.</li>
+</ul>
+
+<p>
+En el ejemplo anterior suponemos que el <code>calc_sup</code> tiene dos workers "hijos": <code>calc_sup3</code> y un <code>calc_loader</code>, un proceso de soporte que sirve para inicializar el servidor. La política de restart <i>permanent</i> indica que, cada vez que crashee el servidor, un nuevo proceso debe ser iniciado para reemplazarlo, mientras que el <i>transient</i> del <code>calc_loader</code> indica que este proceso solo debe ser reiniciado en caso de errores (si su ejecución termina normalmente no será reemplazado).
+</p>
+
+<div class="text-center">
+ <img src="../assets/img/erlang/suptypes.png" width="640">
+</div>
+
+<p>
+Las estrategias supervisión determinan cómo la terminación de un proceso debe afectar a los demás:
+</p>
+<ul class="org-ul">
+<li><code>one_for_one</code>: solo se reinicia el worker que murió.</li>
+<li><code>rest_for_one</code>: se reinician el worker que murió y todos los que lo siguen en la lista, pero no los anteriores.</li>
+<li><code>one_for_all</code>: se reinician todos los workers del supervisor.</li>
+</ul>
+
+<p>
+En el ejemplo, la estrategia es <code>rest_for_one</code>, lo que significa que la muerte del servidor implica reinicio del servidor <i>y del loader</i>, mientras que si muere el loader solo este se vuelve a iniciar.
+</p>
+
+<p>
+¿Cómo se interpreta
+esta configuración? Para que nuestra aplicación funcione apropiadamente, queremos que el server esté siempre online ("permanentemente") y por eso será reiniciado ante cualquier error. Cada vez que lancemos un nuevo servidor, vamos a necesitar cargarle los datos iniciales y por eso el <code>rest_for_one</code> nos garantiza que por cada nuevo servidor se lance un proceso loader. Si el loader crashea antes de terminar correctamente, vamos a reiniciarlo para garantizar que se carguen los datos iniciales, pero esto no requiere también reiniciar el server; como, además, es un worker <i>transient</i>, una vez que termine su carga sin errores, no necesita ser reemplazado.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org178db45" class="outline-2">
+<h2 id="org178db45">El Zen de Erlang</h2>
+<div class="outline-text-2" id="text-org178db45">
+<p>
+Además de procesos workers, los supervisores pueden tener como hijos a otros supervisores, componiendo así jerarquías o "árboles" de supervisión.
+</p>
+
+<div class="text-center">
+ <img src="../assets/img/erlang/suptree.png">
+</div>
+
+<p>
+Todas las aplicaciones OTP se estructuran de esta forma (en algunos casos con árboles más planos, en otros más profundos). La manera en que los subsistemas y procesos de una aplicación aparecen en el árbol determinan mucho de su funcionamiento en tiempo de ejecución:
+</p>
+
+<ul class="org-ul">
+<li>Los componentes se inicializan en profundidad, de izquierda a derecha. Así podemos saber, en el ejemplo, que los porcesos de base de datos (DB) se van a inicializar antes que el cache, y que ambos se inician antes que el servidor web (server).</li>
+<li>Los errores se propagan en la dirección opuesta a la inicialización: de abajo hacia arriba, derecha a izquierda. Un error en el cache puede afectar a la DB según cómo se configure el supervisor que los contiene a ambos; un error en el servidor web solo afectará a la DB en el caso de que el error se propague hasta la raíz, causando un reinicio de todo el sistema.</li>
+<li>En las hojas del árbol aparecen los workers, los componentes más frágiles, los que esperamos que fallen; en la zona de la raíz están las "garantías" del sistema, el estado conocido al que regresamos cuando los errores no se pueden contener en niveles inferiores.</li>
+<li>Los elementos que escapan al control de la aplicación, como la base de datos, no pueden formar parte de sus "garantías": como la interacción con la DB se ejecuta a través de la red y la red puede fallar, la disponibilidad de la DB no puede ser una precondición de nuestra aplicación.</li>
+</ul>
+
+<p>
+Esta manera de estructurar las aplicaciones Erlang encierra el corazón de su filosofía: los errores son inevitables y, en muchos casos, imprevisibles, pero si los controlamos, se convierten en una herramienta. El secreto de los sistemas tolerantes a fallas no es predecir o evitar los errores sino saber recuperarse de ellos, que el sistema pueda volver a un estado consistente. De ahí el lema de Erlang: <b>let it crash</b> (dejalo que se rompa).
+</p>
+
+<p>La mayoría de los errores son transitorios <img src="/assets/img/favicon.png" width=24>, es decir que para recuperarse, como sabe cualquier usuario de Windows, suele ser suficiente con reiniciar. En vez de escribir código defensivo, los programadores Erlang dejan que los procesos mueran y la estructura de supervisión se encarguede lidiar con el problema: reintentar o propagar el error según corresponda. <b>El manejo de errores está en la estructura, en vez de en la lógica del código</b>. Al dejar que se rompa, la implementación del sistema se vuelve más simple, y esa reducción de la complejidad contribuye a su vez a disminuir la cantidad errores.</p>
+
+
+<div class="text-center">
+ <img src="../assets/img/erlang/erlang-the-movie.png" width="320">
+</div>
+</div>
+</div>
+
+<div id="outline-container-org34bffba" class="outline-2">
+<h2 id="org34bffba">Fuentes</h2>
+<div class="outline-text-2" id="text-org34bffba">
+<ul class="org-ul">
+<li><a href="https://ferd.ca/the-zen-of-erlang.html">The Zen of Erlang</a></li>
+<li><a href="https://learnyousomeerlang.com/the-hitchhikers-guide-to-concurrency">The Hitchhiker's Guide to Concurrency</a></li>
+<li><a href="https://learnyousomeerlang.com/errors-and-processes">Errors and Processes</a></li>
+<li><a href="https://learnyousomeerlang.com/supervisors">Who Supervises The Supervisors?</a></li>
+<li><a href="https://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html">An Open Letter to the Erlang Beginner (or Onlooker)</a></li>
+<li><a href="http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html">How Erlang does scheduling</a></li>
+<li><a href="http://jlouisramblings.blogspot.com/2013/10/embrace-copying.html">Embrace Copying!</a></li>
+<li><a href="https://adoptingerlang.org/docs/development/supervision_trees/">Adopting Erlang - Supervision trees</a></li>
+<li><a href="https://www.infoq.com/interviews/johnson-armstrong-oop/">Ralph Johnson, Joe Armstrong on the State of OOP</a></li>
+<li><a href="https://texlution.com/post/elixir-concepts-for-golang-developers/#processes">Processes vs Goroutines</a></li>
+<li><a href="https://medium.com/erlang-battleground/erlang-behaviors-4348e89351ff">Erlang Behaviors …and how to behave around them</a></li>
+<li><i>Coders At Work</i> - Chapter 6: Joe Armstrong</li>
+</ul>
+</div>
+</div>

@@ -1,0 +1,142 @@
+---
+layout: post
+title: "[tl;dr] Fundamentals of Software Architecture"
+date: 2020-09-15
+thumbnail-img: assets/img/architecture2.jpg
+tags: [software, libros, tldr]
+---
+
+<p>
+Dejo algunas notas de mi lectura de <i>Fundamentals of Software Architecture: An Engineering Approach</i>, de Mark Richards y Neal Ford.
+</p>
+
+<div class="text-center">
+<a href="https://www.bookdepository.com/Fundamentals-of-Software-Architecture/9781492043454" target="_blank">
+ <img src="../assets/img/architecture.jpg">
+</a>
+</div>
+
+<div id="outline-container-org0455c8f" class="outline-2">
+<h2 id="org0455c8f">Comentario</h2>
+<div class="outline-text-2" id="text-org0455c8f">
+<p>
+Ingresé al libro con algunos prejuicios: por mi experiencia personal, tengo cierta desconfianza hacia el rol de <i>Arquitecto de Software</i> separado de los equipos de desarrollo. Especialmente, me asusta la idea de un <i>área</i> de arquitectura separada del área de desarrollo en una organización mediana o grande. No obstante lo cual, sí me parece útil la noción de Arquitectura de Software como actividad. <i>No obstante lo cual</i>, antes de leer el libro (y pese a haber estudiado más o menos los mismos temas en la Facultad), no creo que hubiera podido dar una definición precisa de <i>Arquitectura</i> de Software, que la diferenciara del <i>Diseño</i> de software. Mi noción intuitiva era que la Arquitectura se ocupa de la infraestructura y la interacción entre los componentes de uno o varios sistemas, más que en cómo se implementan esos componentes.
+</p>
+
+<p>
+El libro hace un poco más de hincapié del que me gustaría en el título de Arquitecto de Software dentro de una organización. Pero también reconoce y se ocupa de la clase de situaciones con las que tuve malas experiencias: arquitectos que trabajan desde una "torre de marfil", que toman decisiones estructurales sin involucrar a los desarrolladores, no transmiten la lógica con la que esas decisiones fueron tomadas y no acompañan a los desarrolladores durante su ejecución.
+</p>
+
+<p>
+Efectivamente, hay muchas formas en que la relación entre arquitecto y equipo de desarrollo puede funcionar mal. Pero habiendo leído el libro y contrastándolo con mi práctica cotidiana, tengo que admitir que hay un espacio técnico, principalmente en lo que respecta a las relaciones entre equipos y las dependencias entre proyectos, que es difícil de ocupar si no hay alguien con una visión global de la organización, con un conocimiento amplio (antes que profundo) de los problemas concretos que resuelve cada sistema y las características de cada equipo.
+</p>
+
+<p>
+No sé si hay libros "clásicos" de arquitectura<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>, pero incluso si los hay, es interesante de este el que aporte una visión <i>contemporánea</i> de la actividad. Con esto no me refiero a que incluya patrones o tecnologías "modernos" (e.g. microservices, containers), sino a que considera las reglas de juego tal como las encontramos actualmente en la industria. Por ejemplo, el libro se aleja de la idea de que la arquitectura de un sistema es "la parte que no cambia", porque hoy en día hasta la infraestructura es dinámica. Por esta misma razón, es probable que este libro no envejezca bien. Tal vez pedirle a un libro de arquitectura que siga siendo válido en cinco o diez años, sea demasiado. Pero ya que <i>Fundamentals of Software Architecture</i> fue publicado este año, vale la pena leerlo.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org55a9ae9" class="outline-2">
+<h2 id="org55a9ae9">Notas</h2>
+<div class="outline-text-2" id="text-org55a9ae9">
+</div>
+<div id="outline-container-orgf7a64b5" class="outline-3">
+<h3 id="orgf7a64b5">Introducción</h3>
+<div class="outline-text-3" id="text-orgf7a64b5">
+<ul class="org-ul">
+<li>El libro empieza por definir la Arquitectura de Software y el rol del Arquitecto de software en una organización.</li>
+<li>La arquitectura de un sistema consiste en su <b>estructura</b> combinada con sus <b>características</b> arquitecturales (sus "-ilidades"), las <b>decisiones de arquitectura</b> y los <b>principios de diseño</b>.</li>
+<li>No hay una división estricta entre <i>Arquitectura</i> y <i>Diseño</i> de software, los dos son parte de un continuo. Lo que es más: una de las tareas del arquitecto es priorizar qué características del sistema se garantizan mediante decisiones estructurales de arquitectura y cuáles se pueden resolver en el diseño.</li>
+<li>Primera ley de la arquitectura de software:</li>
+</ul>
+<blockquote>
+<p>
+Everything in software is a trade-off.
+</p>
+</blockquote>
+<ul class="org-ul">
+<li>Corolario de la primera ley:</li>
+</ul>
+<blockquote>
+<p>
+If an architect thinks they have discovered something that <i>isn't</i> a trade-off, more likely they haven't <i>identified</i> the trade-off yet.
+</p>
+</blockquote>
+<ul class="org-ul">
+<li>Segunda ley de la arquitectura de software:</li>
+</ul>
+<blockquote>
+<p>
+<i>Why</i> is more important than <i>how</i>.
+</p>
+</blockquote>
+</div>
+</div>
+
+<div id="outline-container-orgd0d8daf" class="outline-3">
+<h3 id="orgd0d8daf">Parte I: Fundamentos</h3>
+<div class="outline-text-3" id="text-orgd0d8daf">
+<ul class="org-ul">
+<li>Los autores empiezan por distinguir <i>profundidad</i> y <i>amplitud</i> del conocimiento técnico. Para el programador es más importante profundizar el conocimiento (e.g. tener gran dominio de una tecnología específica) y para el arquitecto es mejor ampliarlo (e.g. tener un dominio elemental de varias tecnologías alternativas).</li>
+<li>Si dividimos todo el conocimiento posible en "cosas que sé", "cosas que sé que no sé" y "cosas que no sé que no sé", el programador se tiene que concentrar en aumentar la cantidad de cosas que sabe; el arquitecto en achicar las cosas que "no sabe que no sabe".</li>
+<li>Uno de los conceptos fundamentales que introduce el libro es el de <i>características de arquitectura</i>. Se refiere a los requerimientos que debe cumplir el software más allá del "negocio" o "dominio" del problema, a veces llamados requerimientos <i>no funcionales</i>. Son las "-ilidades" del sistema: escalabilidad, disponibilidad, extensibilidad, etc.</li>
+<li>El grueso de la Parte I consiste en definir esas características, inferirlas de los requerimientos de un sistema, y medirlas.</li>
+<li>Se introduce la práctica de <a href="http://fundamentalsofsoftwarearchitecture.com/katas/">Architecture Katas</a> para ejercitar tareas como la identificación de características a partir de los requerimientos de negocio y el diseño de sistemas que posean tales características.</li>
+</ul>
+<blockquote>
+<p>
+Architects shouldn't stress too much about discovering the exactly correct set of architecture characteristics —developers can implement functionality in a variety of ways. However, correctly identifying important structural elements may facilitate a simpler or more elegant design. Architects must remember: there is no best design in architecture, only a least worst collection of trade-offs.
+</p>
+</blockquote>
+</div>
+</div>
+<div id="outline-container-org81bf6c2" class="outline-3">
+<h3 id="org81bf6c2">Parte II: Estilos de Arquitectura</h3>
+<div class="outline-text-3" id="text-org81bf6c2">
+<ul class="org-ul">
+<li>Los estilos son a la arquitectura lo que los patrones al diseño: un catálogo de soluciones probadas, con un nombre para reconocerlos. Ejemplos: Layered, Event-Driven, Service-Based, Microservices, etc.</li>
+<li>Como con los patrones de diseño, es más interesante estudiar el razonamiento que los hace emerger y por qué son preferibles en determinados contextos, que memorizar el catálogo.</li>
+<li>Cada estilo de arquitectura favorece determinadas características (y desfavorece otras). Una de las tareas fundamentales del arquitecto, una vez definidos los requerimientos funcionales e identificadas las características de arquitectura deseadas, es elegir un estilo (o una combinación de estilos) que produzca trade-offs aceptables para el sistema.</li>
+<li>Se agrupan los estilos en arquitecturas monolíticas (e.g. Layered) y arquitecturas distribuidas (e.g. Microservices). Se previene sobre las <a href="https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing">falacias de la computación distribuida</a> antes de elegir unas u otras.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge173914" class="outline-3">
+<h3 id="orge173914">Parte III: Técnicas y Soft-skills</h3>
+<div class="outline-text-3" id="text-orge173914">
+<ul class="org-ul">
+<li>Una de las cosas que más me atrajo de este libro es que no se limita a cuestiones tecnológicas:</li>
+</ul>
+<blockquote>
+<p>
+<i>Almost every decision an architect makes will be challenged</i>. Architectural decisions will be challenged by product owners, project managers, and business stakeholders due to increased costs or increased effort (time) involved. Architectural decisions will also be challenged by developers who feel their apporach is better. In either case, the architect must navigate the politics of the company and apply basic negotiation skills to get most decisions approved. This fact can be very frustrating to a software architect, because most decisions made as a developer did not require approval or even a review.
+</p>
+</blockquote>
+<ul class="org-ul">
+<li>En esta parte se discuten varias tareas relacionadas con "soft skills" y se sugieren técnicas específicas para resolverlas: registros de decisiones de arquitectura, matrices de riesgo, escalas para medir el nivel de autonomía de los equipos, radares de tecnología, etc.</li>
+<li>Se dedican unos absurdos dos párrafos a explicar la mejor manera de hacer un apretón de manos.</li>
+<li>Más allá de lo inchequeables que sean las técnicas, estos capítulos sirven para formarse una idea de qué clase de responsabilidades debería asumir un arquitecto y cómo adpotar un enfoque pragmático para ejecutarlas.</li>
+<li>En resumidas cuentas, aunque la llamen arquitectura, la actividad se parece bastante a la ingeniería:</li>
+</ul>
+<blockquote>
+<p>
+A good software architect is one that strives to find an appropriate balance between being pragmatic while still applying imagination and wisdom to solving problems.
+</p>
+</blockquote>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<!--h2 class="footnotes">Nota al pie de p&aacute;gina: </h2-->
+<h3 class="footnotes">Notas: </h3>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+Años atrás me llevé una gran decepción con <i>Patterns of Enterprise Application Architecture</i>, que se ocupa de patrones para implementar <i>un estilo</i> de arquitectura, pero no de la necesidad (o posibilidad) de usar otros estilos.
+</p></div></div>
+
+
+</div>
+</div>
