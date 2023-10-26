@@ -1,0 +1,8 @@
+permalink: /:year-:month-:day-:title/
+
+exclude:
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - org/

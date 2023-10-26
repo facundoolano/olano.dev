@@ -1,0 +1,41 @@
+---
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>olano.dev</title>
+        <style>
+         html { color-scheme: light dark;}
+         body { max-width: 50em; margin: 0 auto; padding: 0 1rem;
+             font-family: Tahoma, Verdana, Arial, sans-serif;
+             line-height: 1.5}
+         .heading {display: flex;align-items:baseline; flex-wrap:wrap;}
+         .heading * {margin-right: .5em; margin-bottom:0}
+         h4 {margin-bottom: .5rem}
+         ul { padding-bottom: 1rem}
+         li { padding-bottom: .5rem; list-style-type: none}
+         li p {margin: 0.5rem 0}
+         .date {color: gray; }
+         a {color: dodgerblue;text-decoration: none}
+         a:hover {text-decoration: underline}
+         hr {
+             border: 0;
+             border-top:1px solid whitesmoke;
+         }
+        </style>
+    </head>
+    <body>
+        <div class="heading">
+            <h2>Facundo Olano</h2>
+            <span>
+                <a href="#projects">projects</a>
+                <a href="https://blog.olano.dev">blog</a>
+                <a href="https://www.linkedin.com/in/facundoolano/">resume</a>
+                <a href="mailto:facundo.olano@gmail.com">contact</a>
+            </span>
+        </div>
+
+        {{ content }}
+    </body>
+</html>
