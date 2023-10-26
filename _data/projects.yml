@@ -1,0 +1,71 @@
+- date: 2023
+  name: feedi
+  url: https://github.com/facundoolano/feedi
+  description: A personal news feed and mastodon client.
+- date: 2022
+  name: software-papers
+  url: https://github.com/facundoolano/software-papers
+  description: A curated list of papers for software engineers. I wrote about this project [here](/2022-07-12-dr-von-neumann-o-como-aprendi-a-dejar-de-preocuparme-y-amar-los-papers/).
+- date: 2022
+  name: Rustenstein 3D
+  url: https://github.com/AdRoll/rustenstein
+  description: A Wolfenstein 3D port to Rust. I wrote about this project [here](https://tech.nextroll.com/blog/dev/2022/02/02/rustenstein.html).
+- date: 2021
+  url: "https://github.com/facundoolano/rpg-cli"
+  name: rpg-cli
+  description: A role-playing game that integrates with the shell to spawn monsters as you change directories.
+- date: 2020
+  url: https://github.com/lambdaclass/bonobot/
+  name: bonobot
+  description: A collection of reply bots for Slack, including one that composes Haikus from previous messages.
+- date: 2017
+  url: https://github.com/lambdaclass/riak_core_tutorial
+  name: riak_core tutorial
+  description: An example Erlang application and step-by-step tutorial on implementing distributed systems with the riak_core library.
+- date: 2017
+  url: https://github.com/lambdaclass/webrtc-server
+  name: webrtc-server
+  description: An Erlang/OTP library to implement the server-side components for WebRTC video communications.
+- date: 2017
+  url: https://github.com/lambdaclass/throttle
+  name: throttle
+  description: A rate-limiting library for Erlang.
+- date: 2017
+  url: https://github.com/facundoolano/restpect
+  name: restpect
+  description: An integration testing library for RESTful APIs.
+- date: 2016
+  url: https://github.com/facundoolano/redis-lru
+  name: redis-lru
+  description: A Redis-backed LRU cache for node.js.
+- date: 2016
+  url: https://github.com/facundoolano/advenjure
+  name: advenjure
+  description: >
+    An interactive fiction engine for the terminal and the browser. An example game can be played [here](https://facundoolano.github.io/advenjure/).
+    I wrote about learning Clojure with this project [here](https://facundoolano.wordpress.com/2016/03/20/first-impressions-on-clojure/),
+    and about porting it to ClojureScript [here](https://facundoolano.wordpress.com/2016/10/16/from-clojure-to-clojurescript/).
+    I later implemented the [House Taken Over game](https://facundoolano.github.io/house-taken/) using this engine.
+- date: 2015
+  url: https://github.com/facundoolano/google-play-scraper/
+  name: google-play-scraper
+  description: >
+    A node.js library to scrape app data from the Google Play store.
+    I later wrote a [RESTful wrapper](https://github.com/facundoolano/google-play-api/)
+    for this library and a [similar scraper](https://github.com/facundoolano/app-store-scraper/) for the Apple App Store.
+    I also wrote an [app-store optimization toolkit](https://github.com/facundoolano/aso) using both scrapers.
+- date: 2015
+  url: https://github.com/DxCo-Games/pandavszombies
+  name: Panda vs Zombies
+  description: A top-down Android videogame. Not available anymore at the App Store but you can still watch [the trailer](https://www.youtube.com/watch?v=PFGj-W8Pe5s).
+- date: 2013
+  url: https://github.com/invisiblejs/invisible
+  name: invisible.js
+  description: >
+    An "isomorphic" JavaScript framework to reuse code between server and client.
+    I wrote about this project [here](https://facundoolano.wordpress.com/2013/12/27/the-road-to-invisible-js/).
+    I released the [socketio-auth  library](https://github.com/facundoolano/socketio-auth) as part of this project.
+- date: 2011
+  url: https://github.com/facundoolano/alephuba
+  name: Aleph UBA
+  description: A file-sharing web application for college students.
