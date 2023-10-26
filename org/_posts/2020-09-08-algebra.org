@@ -5,7 +5,8 @@
 layout: post
 title: "Álgebra"
 date: 2020-09-08
-tags: [⭐,ficción, literatura]
+tags: [ficción, literatura]
+favorite: true
 ---
 #+END_EXPORT
 

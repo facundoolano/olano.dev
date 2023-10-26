@@ -5,7 +5,8 @@
 layout: post
 title: "Del videojuego como puzzle"
 date: 2023-06-16
-tags: [⭐, videojuegos, literatura]
+tags: [videojuegos, literatura]
+favorite: true
 thumbnail-img: assets/img/puzzle/prince.png
 share-img: assets/img/puzzle/prince.png
 excerpt: "El videojuego como puzzle se parece a animar pixeles en ocho colores, a traducir un poema, a escribir una novela oulipiana, a programar."
