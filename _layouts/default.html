@@ -25,17 +25,22 @@
              border: 0;
              border-top:1px solid whitesmoke;
          }
+
+         .blog {
+             font-size: 1.1rem;
+             a {
+                 color: unset;
+             }
+             .date { color: silver}
+         }
         </style>
     </head>
     <body>
         <nav>
-            <a href="/">facundo.olano</a>
-            <a href="/projects">/projects</a>
-            <a href="/writing">/writing</a>
-            <a href="https://www.linkedin.com/in/facundoolano/">/work</a>
+            {% for section in site.data.navigation %}
+            <a href="{{ section.url}}" {% if page.url == section.url %}style="font-weight: bold" {%endif%}>{{section.name}}</a>
+            {% endfor %}
         </nav>
-
-        <h3>{{ page.title }}</h3>
 
         {{ content }}
     </body>
