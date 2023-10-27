@@ -32,7 +32,6 @@ Así, un grupo de hackers de UNIX, apelando a los caracteres ASCII como símbolo
 <div class="text-center">
  <img src="../assets/img/puzzle/monkey.jpg" width="75%">
 </div>
-<br/>
 #+END_EXPORT
 
 Así, Mark Ferrari, aquel ilustrador de Lucasfilm Games, le encontró la vuelta a la paleta de 16 colores usando /dithering/ ---la técnica de intercalar pixeles para producir la ilusión de profundidad---, sacándole canas verdes a los programadores que, a su vez, tuvieron que mejorar sus algoritmos de compresión para que ese tipo de imágenes entrara en el disco.
@@ -83,7 +82,6 @@ Así, el diseño del /Rogue/ ---arte ASCII, niveles generados algorítmicamente 
 <div class="text-center">
  <img src="../assets/img/puzzle/obradinn.gif" width="75%">
 </div>
-<br/>
 #+END_EXPORT
 
 Así, los desarrolladores independientes siguen apelando al /pixel art/ para tocar sensibilidades inaccesibles a las técnicas modernas. Lucas Pope reinventa el /dithering/ de Mark Ferrari para proyectar tres dimensiones en un solo color. La comunidad de PICO-8 produce un arsenal de juegos con los escasos recursos de una consola imaginaria.
@@ -201,7 +199,6 @@ En el otro extremo del espectro de los videojuegos hay vastos mundos en los que 
 <div class="text-center">
  <img src="../assets/img/puzzle/shadow.jpg" width="75%">
 </div>
-<br/>
 #+END_EXPORT
 
 Es en la vieja ficción interactiva y en las aventuras gráficas donde tradicionalmente vamos a encontrar aquella dinámica del rompecabezas; no en cada uno de los que comúnmente se denominan puzzles en esos juegos sino en el todo que conforman, en el conjunto cuyos elementos son el inventario, los verbos, los personajes y el entorno con los que podemos interactuar. Como nos enseñó Ron Gilbert, si el diseñador hizo bien su trabajo tuvo que anticiparse a los movimientos del jugador para asegurarse que siempre conozca su propósito, que los problemas surjan antes que sus soluciones, que no haya callejones sin salida, que el juego sea desafiante sin ser arbitrario.

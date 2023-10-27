@@ -1,23 +1,15 @@
 ---
+layout: base
 ---
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>olano.dev</title>
-        <link rel="stylesheet" href="/assets/css/main.css">
-    </head>
-    <body>
-        <nav>
-            <a href="/">olano.dev/</a>
-            {% assign section = layout.section|default:page.section %}
-            {% if section %}
-            <a href="/{{section}}">{{section}}/</a>
-            {% endif %}
+<nav>
+    <a href="/">olano.dev/</a>
+    {% assign section = layout.section|default:page.section %}
+    {% if section %}
+    <a href="/{{section}}">{{section}}/</a>
+    {% endif %}
 
-        </nav>
-        <div class="content layout-{{ page.layout }}">
-            {{ content }}
-        </div>
-    </body>
-</html>
+</nav>
+
+<div class="content layout-{{ page.layout }}">
+    {{ content }}
+</div>

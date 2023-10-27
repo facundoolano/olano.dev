@@ -13,6 +13,11 @@ a {color: dodgerblue;text-decoration: none}
 a:hover {text-decoration: underline}
 
 
+.site-index li {
+    list-style: none;
+    line-height: 1.8;
+}
+
 .projects-index {
     .date {color: gray; }
 
@@ -46,12 +51,37 @@ a:hover {text-decoration: underline}
     text-rendering: optimizelegibility !important;
     letter-spacing: .03em;
 
-    .org-center, .text-center {
+    p {
+        margin: 0 0 .4rem 0;
+        line-height: 1.8;
+    }
+
+    p + p {
+        text-indent: 3rem;
+    }
+
+    h1, .subtitle, .org-center, .text-center {
         text-align: center;
     }
 
+    .org-center, .text-center {
+        margin: 2rem;
+    }
+
     h1 {
-        text-align: center;
         padding-top: 2rem;
     }
+
+    .footpara {
+        display: inline;
+    }
+    .footdef {
+        margin-top: 10px
+    }
+
+    p.verse {
+        text-align: right;
+    }
+
+
 }

@@ -3,7 +3,7 @@ layout: default
 section: blog
 ---
 <h1>{{ page.title }}</h1>
+{% if page.subtitle %}<h3 class="subtitle">{{ page.subtitle }}</h3>{% endif  %}
 <br/>
-{% if page.subtitle %}<h3>{{ page.subtitle }}</h3>{% endif  %}
 
 {{ content }}
