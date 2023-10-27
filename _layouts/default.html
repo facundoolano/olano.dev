@@ -9,11 +9,13 @@
     </head>
     <body>
         <nav>
-            {% for section in site.data.navigation %}
-            <a href="{{ section.url}}" {% if page.url == section.url %}style="font-weight: bold" {%endif%}>{{section.name}}</a>
-            {% endfor %}
-        </nav>
+            <a href="/">olano.dev/</a>
+            {% assign section = layout.section|default:page.section %}
+            {% if section %}
+            <a href="/{{section}}">{{section}}/</a>
+            {% endif %}
 
+        </nav>
         <div class="content layout-{{ page.layout }}">
             {{ content }}
         </div>
