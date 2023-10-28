@@ -8,9 +8,8 @@ section: projects
 
 <div class="projects-index">
 {% for project in site.data.projects %}
-<li><span class="date">{{ project.date }}</span> <a href="{{ project.url }}">{{project.name}}</a>
+<li><span class="date">{{ project.date }}</span> <a class="project" href="{{ project.url }}">{{project.name}}</a>
     <p>{{ project.description | markdownify }}</p>
-    {% unless forloop.last %}<hr/>{% endunless %}
 </li>
 {% endfor %}
 </div>

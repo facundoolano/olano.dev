@@ -1,12 +1,12 @@
 html { color-scheme: light dark; overflow-y: scroll;}
-body { max-width: 50em; margin: 0 auto; padding: 0 1rem;
+body { max-width: 45em; margin: 0 auto; padding: 0 1rem;
        width: auto;
        font-family: Tahoma, Verdana, Arial, sans-serif;
        line-height: 1.5;
        padding-bottom: 3rem;
      }
 nav {margin: 1rem 0 2rem;         text-align: center;}
-nav a { color: unset}
+nav a, .site-index a { color: unset}
 nav * {margin-right: .5em; margin-bottom:0}
 
 a {color: dodgerblue;text-decoration: none}
@@ -19,7 +19,7 @@ a:hover {text-decoration: underline}
 }
 
 .projects-index {
-    .date {color: gray; }
+    .date {color: silver; }
 
     ul { padding-bottom: 1rem}
     li { padding-bottom: .5rem; list-style-type: none}
@@ -34,7 +34,6 @@ a:hover {text-decoration: underline}
 .blog-index {
     article { padding-bottom: .5rem;}
 
-    font-size: 1.1rem;
     a {
         color: unset;
     }
@@ -66,10 +65,6 @@ a:hover {text-decoration: underline}
 
     .org-center, .text-center {
         margin: 2rem;
-    }
-
-    h1 {
-        padding-top: 2rem;
     }
 
     .footpara {
