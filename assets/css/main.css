@@ -12,7 +12,7 @@ nav * {margin-right: .5em; margin-bottom:0}
 a {color: dodgerblue;text-decoration: none}
 a:hover {text-decoration: underline}
 
-.date, .tags, .tags a { color: silver}
+.date, .tags, .tags a { color: silver!important}
 
 .org-center, .text-center {
     text-align: center;
@@ -27,23 +27,19 @@ ul.site-index {
     line-height: 1.8;
 }
 
-.projects-index {
-    ul { padding-bottom: 1rem}
-    li { padding-bottom: .5rem; list-style-type: none}
-    li p {margin: 0.5rem 0}
+.projects-index ul { padding-bottom: 1rem}
+.projects-index li { padding-bottom: .5rem; list-style-type: none}
+.projects-index li p {margin: 0.5rem 0}
 
-    hr {
-        border: 0;
-        border-top:1px solid whitesmoke;
-    }
+.projects-index hr {
+    border: 0;
+    border-top:1px solid whitesmoke;
 }
 
-.blog-index {
-    article { padding-bottom: .5rem;}
+.blog-index article { padding-bottom: .5rem;}
 
-    a {
-        color: unset;
-    }
+.blog-index a.title {
+    color: black!important;
 }
 
 .layout-post {
@@ -55,34 +51,32 @@ ul.site-index {
     -moz-font-smoothing: antialiased !important;
     text-rendering: optimizelegibility !important;
     letter-spacing: .03em;
+}
 
-    p {
-        margin: 0 0 .4rem 0;
-        line-height: 1.8;
-    }
+.layout-post p {
+    margin: 0 0 .4rem 0;
+    line-height: 1.8;
+}
 
-    p + p {
-        text-indent: 3rem;
-    }
+.layout-post p + p {
+    text-indent: 3rem;
+}
 
-    h1, .subtitle {
-        text-align: center;
-    }
+.layout-post h1, .layout-post .subtitle {
+    text-align: center;
+}
 
-    .org-center, .text-center {
-        margin: 2rem;
-    }
+.layout-post .org-center, .layout-post .text-center {
+    margin: 2rem;
+}
 
-    .footpara {
-        display: inline;
-    }
-    .footdef {
-        margin-top: 10px
-    }
+.layout-post .footpara {
+    display: inline;
+}
+.layout-post .footdef {
+    margin-top: 10px
+}
 
-    p.verse {
-        text-align: right;
-    }
-
-
+.layout-post p.verse {
+    text-align: right;
 }
