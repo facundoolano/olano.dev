@@ -5,12 +5,14 @@ sections: [["/blog", "/blog"]]
 ---
 
 <div class="blog-index">
-    <h3 id="favorites">#favoritos</h3>
+    <p><strong><a href="#favoritos" class="title" id="favoritos">#favoritos</a></strong></p>
     {% assign posts = site.posts | where:"favorite",true %}
     {% include posts.html posts=posts%}
 
     {% for tag in site.tags %}
-    <h3 id="{{tag[0]}}">#{{tag[0]}}</h3>
+    <p><strong><a href="#{{tag[0]}}" class="title" id="{{tag[0]}}">#{{tag[0]}}</a></strong>
+        <a href="/feed/{{tag[0]}}.xml" class="title">/feed</a>
+    </p>
     {% assign posts = tag[1] %}
     {% include posts.html posts=posts%}
     {% endfor %}
