@@ -5,12 +5,16 @@ body { max-width: 45em; margin: 0 auto; padding: 0 1rem;
        line-height: 1.5;
        padding-bottom: 3rem;
      }
-nav {margin: 1rem 0 2rem;         text-align: center;}
+nav {margin: 1rem 0 2rem;}
 nav a, .site-index a { color: unset}
 nav * {margin-right: .5em; margin-bottom:0}
 
 a {color: dodgerblue;text-decoration: none}
 a:hover {text-decoration: underline}
+
+.org-center, .text-center {
+    text-align: center;
+}
 
 
 .site-index li {
@@ -59,7 +63,7 @@ a:hover {text-decoration: underline}
         text-indent: 3rem;
     }
 
-    h1, .subtitle, .org-center, .text-center {
+    h1, .subtitle {
         text-align: center;
     }
 
