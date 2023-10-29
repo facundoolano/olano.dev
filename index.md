@@ -3,7 +3,7 @@ layout: base
 ---
 
 {: class="site-index"}
-* [/olano.dev](/)
+* [olano.dev](/)
   * [/projects](/projects)
   * [/blog](/blog)
   * /contact

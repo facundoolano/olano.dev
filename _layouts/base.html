@@ -4,8 +4,65 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
         <title>olano.dev</title>
         <link rel="stylesheet" href="/assets/css/main.css">
+
+        <meta name="author" content="Facundo Olano">
+        <meta property="og:article:author" content="{{ site.author }}">
+        <meta property="og:site_name" content="{{ site.title }}">
+
+        {% if page.title %}
+        <meta property="og:title" content="{{ page.title }}">
+        <meta name="twitter:title" content="{{ page.title }}">
+        {% elsif site.title %}
+        <meta property="og:title" content="{{ site.title }}">
+        <meta name="twitter:title" content="{{ site.title }}">
+        {% endif %}
+
+        {% if page.excerpt %}
+        <meta name="description" content="{{ page.excerpt | strip_html | xml_escape }}">
+        <meta name="og:description" content="{{ page.excerpt | strip_html | xml_escape }}">
+        <meta name="twitter:description" content="{{ page.excerpt | strip_html | xml_escape }}">
+        {% elsif site.description %}
+        <meta name="description" content="{{ site.description }}">
+        <meta name="og:description" content="{{ site.description }}">
+        <meta name="twitter:description" content="{{ site.description }}">
+        {% endif %}
+
+        {% if page.id %}
+        <meta property="og:type" content="article">
+        <meta property="og:article:published_time" content="{{ page.date | date_to_xmlschema }}">
+        <meta property="og:url" content="{{ page.url | absolute_url }}">
+        <link rel="canonical" href="{{ page.url | absolute_url }}">
+        {% else %}
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="{{ page.url | absolute_url | strip_index }}">
+        <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}">
+        {% endif %}
+
+        {%- capture shareimg -%}
+          {% if page.share-img %}
+            {{ page.share-img }}
+          {% elsif page.thumbnail-img %}
+            {{ page.thumbnail-img }}
+          {% elsif site.avatar %}
+            {{ site.avatar }}
+          {% endif %}
+        {% endcapture %}
+        {% assign shareimg=shareimg | strip %}
+
+        {% if shareimg != "" %}
+        <meta property="og:image" content="{{ shareimg | absolute_url }}">
+        <meta name="twitter:image" content="{{ shareimg | absolute_url }}">
+        {% endif %}
+
+        {% if shareimg != "" and shareimg != site.avatar %}
+        <meta name="twitter:card" content="summary_large_image">
+        {% else %}
+        <meta name="twitter:card" content="summary">
+        {% endif %}
+
     </head>
     <body>
         {{ content }}
