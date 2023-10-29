@@ -8,6 +8,7 @@ subtitle: Prehistoria de los videojuegos de rol
 excerpt: Antes de los videojuegos RPG, estuvieron los juegos de rol de lápiz y papel, como el Dungeons & Dragons. Antes de los juegos de rol estuvieron los juegos de estrategia de guerra, los wargames como el TEG. Mucho antes de eso, claro, prácticamente desde el principio, estuvieron las guerras.
 thumbnail-img: assets/img/rpg/kriegsspiel.jpg
 share-img: assets/img/rpg/kriegsspiel.jpg
+image: assets/img/rpg/kriegsspiel.jpg
 date: 2023-04-27
 tags: [videojuegos]
 ---

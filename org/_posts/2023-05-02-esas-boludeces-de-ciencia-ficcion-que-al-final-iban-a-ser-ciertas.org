@@ -10,6 +10,7 @@ tags: [poesía, distopías]
 excerpt: Fuimos escritos por Ted Chiang.
 thumbnail-img: assets/img/exhalation.jpg
 share-img: assets/img/exhalation.jpg
+image: assets/img/exhalation.jpg
 ---
 #+END_EXPORT
 

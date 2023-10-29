@@ -9,6 +9,7 @@ subtitle: Aventuras vivas, comatosas, muertas, zombies, resucitadas (segunda par
 excerpt: "En este presente distópico en el que el mercado cultural se quedó sin ideas y se dedica hace diez años a vender papel picado del siglo XX, tenemos otra vez aventuras gráficas. Tenemos, incluso, aventuras gráficas <i>profesionales</i>. Pero cabe preguntarse si son todavía posibles los <i>jugadores</i> de aventuras gráficas."
 date: 2022-09-26
 thumbnail-img: assets/img/adventures/return2.png
+image: assets/img/adventures/return2.png
 tags: [videojuegos, cine]
 ---
 #+END_EXPORT

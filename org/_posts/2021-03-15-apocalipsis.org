@@ -8,6 +8,7 @@ subtitle: "Notas de lectura"
 date: 2021-03-15
 cover-img: assets/img/thestand2.png
 thumbnail-img: assets/img/thestand.jpg
+image: assets/img/thestand.jpg
 tags: [libros, literatura, ficción, distopías, memorias]
 favorite: true
 ---

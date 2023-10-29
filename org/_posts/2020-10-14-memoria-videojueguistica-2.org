@@ -6,6 +6,7 @@ layout: post
 title: "Memoria Videojueguística"
 subtitle: "(Segunda parte)"
 thumbnail-img: assets/img/memo/monkey.jpg
+image: assets/img/memo/monkey.jpg
 date: 2020-10-14
 tags: [videojuegos, programación, memorias]
 ---

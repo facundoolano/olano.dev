@@ -9,6 +9,7 @@ date: 2021-06-01
 tags: [literatura, libros]
 favorite: true
 thumbnail-img: assets/img/maiakovski.jpg
+image: assets/img/maiakovski.jpg
 ---
 #+END_EXPORT
 

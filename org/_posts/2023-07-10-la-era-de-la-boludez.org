@@ -8,6 +8,7 @@ date: 2023-07-10
 tags: [software, distopías]
 favorite: true
 share-img: assets/img/tortoise.jpg
+image: assets/img/tortoise.jpg
 thumbnail-img: assets/img/tortoise.jpg
 cover-img: assets/img/tortoise2.png
 ---

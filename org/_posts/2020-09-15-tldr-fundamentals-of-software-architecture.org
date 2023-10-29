@@ -6,6 +6,7 @@ layout: post
 title: "[tl;dr] Fundamentals of Software Architecture"
 date: 2020-09-15
 thumbnail-img: assets/img/architecture2.jpg
+image: assets/img/architecture2.jpg
 tags: [software, libros, tldr]
 ---
 #+END_EXPORT

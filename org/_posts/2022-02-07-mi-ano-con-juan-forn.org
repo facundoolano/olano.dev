@@ -7,6 +7,7 @@ title: "Mi año con Juan Forn"
 date: 2022-02-07
 tags: [literatura, libros, memorias]
 thumbnail-img: assets/img/forn.jpg
+image: assets/img/forn.jpg
 ---
 #+END_EXPORT
 

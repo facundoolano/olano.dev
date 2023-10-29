@@ -9,6 +9,7 @@ tags: [videojuegos, literatura]
 favorite: true
 thumbnail-img: assets/img/puzzle/prince.png
 share-img: assets/img/puzzle/prince.png
+image: assets/img/puzzle/prince.png
 excerpt: "El videojuego como puzzle se parece a animar pixeles en ocho colores, a traducir un poema, a escribir una novela oulipiana, a programar."
 ---
 #+END_EXPORT

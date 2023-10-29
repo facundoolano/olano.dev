@@ -14,3 +14,13 @@ exclude:
   - Gemfile.lock
   - README.md
   - org/
+
+plugins:
+  - jekyll-feed
+
+
+feed:
+  # generate feeds for each post tag
+  excerpt_only: true
+  tags:
+    path: "/feed/"

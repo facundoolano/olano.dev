@@ -6,6 +6,7 @@ layout: post
 title: "Memoria videojueguística"
 subtitle: (Primera parte)
 thumbnail-img: assets/img/memo/winning.jpg
+image: assets/img/memo/winning.jpg
 date: 2020-09-29
 tags: [videojuegos, programación, memorias]
 ---
