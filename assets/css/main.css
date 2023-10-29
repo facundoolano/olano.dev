@@ -12,6 +12,8 @@ nav * {margin-right: .5em; margin-bottom:0}
 a {color: dodgerblue;text-decoration: none}
 a:hover {text-decoration: underline}
 
+.date, .tags, .tags a { color: silver}
+
 .org-center, .text-center {
     text-align: center;
 }
@@ -23,8 +25,6 @@ a:hover {text-decoration: underline}
 }
 
 .projects-index {
-    .date {color: silver; }
-
     ul { padding-bottom: 1rem}
     li { padding-bottom: .5rem; list-style-type: none}
     li p {margin: 0.5rem 0}
@@ -41,7 +41,6 @@ a:hover {text-decoration: underline}
     a {
         color: unset;
     }
-    .date, .tags { color: silver}
 }
 
 .layout-post {
