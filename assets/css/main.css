@@ -5,7 +5,7 @@ body { max-width: 45em; margin: 0 auto; padding: 0 1rem;
        line-height: 1.5;
        padding-bottom: 3rem;
      }
-nav {margin: 1rem 0 2rem;}
+nav {margin: 1rem 0 2rem;    line-height: 1.8;}
 nav a, .site-index a { color: unset}
 nav * {margin-right: .5em; margin-bottom:0}
 
@@ -19,6 +19,9 @@ a:hover {text-decoration: underline}
 }
 
 
+ul.site-index {
+    padding-left:0;
+}
 .site-index li {
     list-style: none;
     line-height: 1.8;
