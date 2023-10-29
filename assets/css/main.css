@@ -41,7 +41,7 @@ a:hover {text-decoration: underline}
     a {
         color: unset;
     }
-    .date { color: silver}
+    .date, .tags { color: silver}
 }
 
 .layout-post {

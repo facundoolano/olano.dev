@@ -1,0 +1,10 @@
+---
+layout: default
+title: Apuntes Inchequeables
+sections: [["/blog/tags", "/blog/tags"], ["/feed.xml", "/blog/feed"]]
+---
+
+<div class="blog-index">
+    {% assign posts = site.posts %}
+    {% include posts.html posts=posts%}
+</div>

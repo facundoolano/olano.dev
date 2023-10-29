@@ -1,10 +1,18 @@
 ---
-layout: default
-section: blog
+layout: base
+sections: [["/blog", "/blog"]]
 ---
-<h1>{{ page.title }}</h1>
-{% if page.subtitle %}<h3 class="subtitle">{{ page.subtitle }}</h3>{% endif  %}
-<br/>
-<br/>
 
-{{ content }}
+<nav class="text-center">
+    <a href="/">olano.dev</a>
+    <a href="/blog">/blog</a>
+</nav>
+
+<div class="content layout-{{ page.layout }}">
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<h3 class="subtitle">{{ page.subtitle }}</h3>{% endif  %}
+    <br/>
+    <br/>
+
+    {{ content }}
+</div>

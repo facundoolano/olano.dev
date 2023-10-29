@@ -1,11 +1,4 @@
----
-layout: default
-title: Apuntes Inchequeables
-sections: [["/blog/tags", "/blog/tags"], ["/feed.xml", "/blog/feed"]]
----
-
-<div class="blog-index">
-    {% for post in site.posts %}
+{% for post in posts %}
 
     <article>
 
@@ -14,9 +7,12 @@ sections: [["/blog/tags", "/blog/tags"], ["/feed.xml", "/blog/feed"]]
         <br/>
         <small>
             <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
-            <span class="date">{{ post.tags|join:', ' }}</span>
+            <span class="tags">
+                {% for tag in post.tags %}
+                <a href="/blog/tags#{{tag}}">#{{tag}}</a>
+                {% endfor %}
+            </span>
         </small>
 
     </article>
 {% endfor %}
-</div>

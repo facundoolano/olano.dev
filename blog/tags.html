@@ -1,0 +1,13 @@
+---
+layout: default
+title: Apuntes Inchequeables
+sections: [["/blog", "/blog"]]
+---
+
+<div class="blog-index">
+    {% for tag in site.tags %}
+    <h3 id="{{tag[0]}}">#{{tag[0]}}</h3>
+    {% assign posts = tag[1] %}
+    {% include posts.html posts=posts%}
+    {% endfor %}
+</div>
