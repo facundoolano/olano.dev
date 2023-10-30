@@ -86,18 +86,20 @@ ul.site-index {
     max-height: 400px;
 }
 
+img.cover-img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
 @media (max-width: 600px) {
     .layout-post img {
         max-width: 100%;
     }
 }
 
-
-
 pre.src {
     font-size: 1rem;
     overflow-x: auto;
-}
-
-pre.src::-webkit-scrollbar {
 }
