@@ -80,3 +80,11 @@ ul.site-index {
 .layout-post p.verse {
     text-align: right;
 }
+
+pre.src {
+    font-size: 1rem;
+    overflow-x: auto;
+}
+
+pre.src::-webkit-scrollbar {
+}
