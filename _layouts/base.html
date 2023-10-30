@@ -43,12 +43,14 @@
         {% endif %}
 
         {%- capture shareimg -%}
-          {% if page.share-img %}
-            {{ page.share-img }}
-          {% elsif page.thumbnail-img %}
-            {{ page.thumbnail-img }}
-          {% elsif site.avatar %}
-            {{ site.avatar }}
+        {% if page.share-img %}
+        {{ page.share-img }}
+        {% elsif page.image %}
+        {{page.image}}
+        {% elsif page.thumbnail-img %}
+        {{ page.thumbnail-img }}
+        {% elsif site.avatar %}
+        {{ site.avatar }}
           {% endif %}
         {% endcapture %}
         {% assign shareimg=shareimg | strip %}

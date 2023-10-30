@@ -3,7 +3,7 @@
 #+BEGIN_EXPORT html
 ---
 layout: post
-title: "Memoria Videojueguística"
+title: "Memoria videojueguística"
 subtitle: "(Segunda parte)"
 thumbnail-img: assets/img/memo/monkey.jpg
 image: assets/img/memo/monkey.jpg

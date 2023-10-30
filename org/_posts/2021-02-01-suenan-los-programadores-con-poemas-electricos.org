@@ -55,15 +55,7 @@ Si suscribimos a la idea de /Refactoring/, el código nunca está terminado, sie
 
 En el afán de enojar a un grupo mayor de personas, podría cerrar diciendo que algunos criterios comunes de la programación son igualmente aplicables a la escritura en prosa: /divide and conquer/, /keep it simple, stupid/, /don't repeat yourself/. Ciertamente, yo escribo como si estuviera programando; quizás eso explique la tendencia de mis textos a componer secuencias de párrafos levemente acoplados, secuencias que se diluyen hacia al final y terminan abruptamente, como esta.
 
-------
-
-[[file:../../2021-09-22-do-programmers-dream-of-electronic-poems][English version]].
-
 * Footnotes
-
-[fn:6] Por ejemplo: [[https://www.pagina12.com.ar/diario/suplementos/libros/subnotas/1823-238-2005-11-13.html][Chéjov]] y [[https://www.businessinsider.com/stephen-king-on-how-to-write-2014-8#20-when-youre-finished-writing-take-a-long-step-back-220][Stephen King]].
-
-[fn:5] Me gustaría una herramienta de GitHub que permitiera presentar los cambios de un pull request en un orden arbitrario, intercalando texto descriptivo, una especie de /literate diffing/.
 
 [fn:1] [[https://www.reddit.com/r/programming/comments/65ct5j/a_pythonist_finds_a_new_home_at_clojure_land/dgau7bp/?utm_source=reddit&utm_medium=web2x&context=3][A pythonist finds a new home at Clojure land]].
 
@@ -72,3 +64,10 @@ En el afán de enojar a un grupo mayor de personas, podría cerrar diciendo que 
 [fn:3] [[https://alvaro-videla.com/2018/05/lector-in-codigo.html#the-model-reader][Lector in Codigo]], de Álvaro Videla.
 
 [fn:4] [[https://www.theparisreview.org/interviews/1760/the-art-of-editing-no-1-robert-gottlieb][The Art of Editing No. 1]], entrevista a Robert Gottlieb.
+
+[fn:5] Me gustaría una herramienta de GitHub que permitiera presentar los cambios de un pull request en un orden arbitrario, intercalando texto descriptivo, una especie de /literate diffing/.
+
+[fn:6] Por ejemplo: [[https://www.pagina12.com.ar/diario/suplementos/libros/subnotas/1823-238-2005-11-13.html][Chéjov]] y [[https://www.businessinsider.com/stephen-king-on-how-to-write-2014-8#20-when-youre-finished-writing-take-a-long-step-back-220][Stephen King]].
+
+------
+[[file:../../2021-09-22-do-programmers-dream-of-electronic-poems][English version]].

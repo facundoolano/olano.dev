@@ -19,7 +19,7 @@ Esta es la primera parte de una serie de dos. [[file:../2022-09-26-llegando-los-
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/adventures/mammoth.jpg" width="80%">
+ <img src="../assets/img/adventures/mammoth.jpg" >
 </div>
 #+END_EXPORT
 
@@ -33,7 +33,7 @@ Aunque las subsecuentes iteraciones de /Adventure/ poblaron los pasajes de la ca
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/adventures/mystery.jpg" width="80%">
+ <img src="../assets/img/adventures/mystery.jpg" >
 </div>
 #+END_EXPORT
 
@@ -79,7 +79,7 @@ En su breve paso por Lucasfilm, Ferrari trabajó en el legendario Skywalker Ranc
 * 5. La isla
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/adventures/monkey.png" width="80%">
+ <img src="../assets/img/adventures/monkey.png" >
 </div>
 #+END_EXPORT
 

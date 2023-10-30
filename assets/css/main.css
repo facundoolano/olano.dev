@@ -83,6 +83,7 @@ ul.site-index {
 
 .layout-post img {
     max-width: 75%;
+    max-height: 400px;
 }
 
 @media (max-width: 600px) {

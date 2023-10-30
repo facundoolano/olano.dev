@@ -118,7 +118,6 @@ add(Room, Item, ItemRoomDescription) ->
 
 Todas las funciones que no están declaradas en la lista del ~export~, son internas del módulo, invisibles desde el exterior. Lo interesante de esta inversión de las declaraciones, más que el "ocultamiento de la información" (sobre el que no soy demasiado religioso), es que favorece la legibilidad: uno abre el archivo del módulo y, si tiene suerte, se encuentra con documentación y definiciones de tipos, pero aunque no tenga suerte puede ver la lista de exports para darse una idea de qué cosas se pueden hacer con ese módulo \mdash{}cuál es su interfaz\mdash{} y qué debería esperar encontrarse si decide seguir leyendo.
 
------
 [fn:1] Estos ejemplos fueron originalmente concebidos en Clojure, pero me pareció más amigable usar Python para fines ilustrativos.
 
 [fn:2] En ese primer capítulo (que [[https://leanpub.com/elementsofclojure/read_sample][se puede leer online]]) se da el mejor tratamiento que conozco a la cuestión de poner nombres en software, y debería ser útil para cualquier programador, independientemente del lenguaje y el paradigma que use.

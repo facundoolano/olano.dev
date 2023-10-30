@@ -14,9 +14,7 @@ excerpt: El libro de Tanya Reilly muestra un camino de crecimiento desde el lide
 
 #+BEGIN_EXPORT html
 <div class="text-center">
-<a href="https://www.goodreads.com/book/show/61058107-the-staff-engineer-s-path" target="_blank">
- <img src="../assets/img/staff/cover.jpg" width="40%">
-</a>
+ <img src="../assets/img/staff/cover.jpg" width="240">
 </div>
 #+END_EXPORT
 
@@ -36,7 +34,7 @@ Existe el prejuicio de que, llegado a ese punto, el profesional de software tien
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/staff/ladder.png" width="100%">
+ <img src="../assets/img/staff/ladder.png">
 </div>
 #+END_EXPORT
 
@@ -85,7 +83,7 @@ Por empezar, tenemos qué identificar cuán ocupados nos gusta estar. ¿Preferim
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/staff/busy.png" width="80%">
+ <img src="../assets/img/staff/busy.png">
 </div>
 #+END_EXPORT
 
@@ -93,7 +91,7 @@ Hay que asumir que en una organización saludable, siempre va a haber más traba
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/staff/impact.png" width="50%">
+ <img src="../assets/img/staff/impact.png">
 </div>
 #+END_EXPORT
 
@@ -106,7 +104,7 @@ Así como tenemos que considerar el costo/beneficio para la organización, tenem
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/staff/sims.png" width="80%">
+ <img src="../assets/img/staff/sims.png">
 </div>
 #+END_EXPORT
 
