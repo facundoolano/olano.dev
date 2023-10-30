@@ -67,7 +67,7 @@ ul.site-index {
 }
 
 .layout-post .org-center, .layout-post .text-center {
-    margin: 2rem;
+    margin: 2rem 0;
 }
 
 .layout-post .footpara {
@@ -80,6 +80,18 @@ ul.site-index {
 .layout-post p.verse {
     text-align: right;
 }
+
+.layout-post img {
+    max-width: 75%;
+}
+
+@media (max-width: 600px) {
+    .layout-post img {
+        max-width: 100%;
+    }
+}
+
+
 
 pre.src {
     font-size: 1rem;

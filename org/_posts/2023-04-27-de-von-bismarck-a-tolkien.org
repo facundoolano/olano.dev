@@ -15,7 +15,10 @@ tags: [videojuegos]
 #+END_EXPORT
 
 
-** I
+#+begin_export html
+<div class="org-center"><h3>I</h3></div>
+#+end_export
+
 
 Antes del /Final Fantasy/ y el /Baldur's Gate/ estuvieron los juegos de rol de papel y lápiz como el /Dungeons & Dragons/. Antes de los juegos de rol estuvieron los /wargames/, juegos de estrategia de guerra como el /Diplomacy/ o el /TEG/. Mucho antes de eso, claro, prácticamente desde el principio, estuvieron las guerras propiamente dichas. Y, desde hace un par de siglos, están también los alemanes que, si le hacemos caso a Hollywood, tenían cierta inclinación por participar en esas guerras e incluso precipitarlas. Por último, antes de Alemania, es decir, antes de la unificación alemana[fn:1], estaba el reino de Prusia.
 
@@ -23,7 +26,7 @@ De ahí, de Prusia, surgieron los primeros juegos de guerra en el siglo XVIII. D
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/rpg/kriegsspiel.jpg" width="80%">
+ <img src="../assets/img/rpg/kriegsspiel.jpg">
 </div>
 #+END_EXPORT
 
@@ -33,7 +36,10 @@ El Rey de Prusia quedó fascinado por la demostración que Von Reisswitz Jr. le 
 
 Pero a fines de 1945 el ejército estadounidense ya usaba la ENIAC para calcular trayectorias balísticas y John Von Neumann diseñaba a su máquina sucesora, la primera computadora moderna. El futuro de la estrategia militar era digital; los juegos de guerra quedaron reducidos a entretenimiento para hobbistas. Claro que, en la segunda mitad del siglo XX, la industria del entretenimiento es adonde irían los estadounidenses a realizar su Sueño Americano.
 
-** II
+#+begin_export html
+<div class="org-center"><h3>II</h3></div>
+#+end_export
+
 
 Hasta los años 50, los juegos de guerra circulaban como libros de reglas y dejaban a los jugadores la tarea de conseguir miniaturas y montar maquetas para los ejércitos, un pasatiempo más cercano al modelismo ferroviario del Reverendo Alegría que a los juegos de tablero. Fue Charles S. Roberts quien vio el negocio de distribuir reglamento, piezas y mapa en una caja, y en 1952 publicó /Tactics/, el primer juego de guerra comercial, dando inicio a una "era dorada" del wargaming.
 
@@ -46,7 +52,7 @@ En 1971, Gary Gygax publicó /Chainmail/, un reglamento para juegos de guerra en
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/rpg/dnd.jpg" width="40%">
+ <img src="../assets/img/rpg/dnd.jpg">
 </div>
 #+END_EXPORT
 
