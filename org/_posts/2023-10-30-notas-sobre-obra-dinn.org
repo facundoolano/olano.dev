@@ -6,13 +6,13 @@ layout: post
 title: Notas sobre Obra Dinn
 date: 2023-10-28 17:03:05
 tags: [videojuegos]
+image: assets/img/obradinn.jpg
+thumbnail-img: assets/img/obradinn.jpg
 ---
 #+END_EXPORT
 
 
-[TODO thumbnail title]
-
-Cuando escribí sobre [[file:../2023-06-16-del-videojuego-como-puzzle/][el videojuego como puzzle]], hice una mención breve del /Return of the Obra Dinn/ [LINK] como ejemplo contemporáneo del uso creativo de las limitaciones, una de las piezas de mi rompecabezas. Era un juego que no había probado pero que conocía por su famoso uso de los colores y los píxeles. Lo que no me imaginaba es hasta qué punto esta obra maestra de Lucas Pope ilustra lo que quería capturar en aquel artículo.
+Cuando escribí sobre [[file:../2023-06-16-del-videojuego-como-puzzle/][el videojuego como puzzle]], hice una mención breve del [[https://obradinn.com][/Return of the Obra Dinn/]] como ejemplo contemporáneo del uso creativo de las limitaciones, una de las piezas de mi rompecabezas. Era un juego que no había probado pero que conocía por su famoso uso de los colores y los píxeles. Lo que no me imaginaba es hasta qué punto esta obra maestra de Lucas Pope ilustra lo que quería capturar en aquel artículo.
 
 Para repasar: el /Obra Dinn/ usa gráficos "1-bit", es decir en blanco y negro, inspirados en la estética de los juegos de la Apple Macintosh[fn:2], la primera computadora en difundir las interfaces gráficas de usuario[fn:1]. Para arreglarse con dos colores, /Obra Dinn/ hace uso intensivo del [[https://es.wikipedia.org/wiki/Tramado][/dithering/]], una técnica del pixel art que consiste en intercalar píxeles de distintos colores, creando entramados que, al mostrarse en un monitor CRT, producen una imagen que parece tener más colores de los que permitiría el hardware de la computadora. Lo novedoso es que Lucas Pope no se limitó a imitar los juegos que lo inspiraron sino que usó sus técnicas para proyectar un mundo 3D, un barco que recorremos bajo la luz de la luna y la lluvia, inventando un estilo que ahora se conoce como /ditherpunk/.
 
