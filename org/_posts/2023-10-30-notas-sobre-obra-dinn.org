@@ -12,19 +12,25 @@ tags: [videojuegos]
 
 [TODO thumbnail title]
 
-Cuando escribí sobre [[file:../2023-06-16-del-videojuego-como-puzzle/][el videojuego como puzzle]], mencioné al pasar el /Return of the Obra Dinn/ [LINK] como un ejemplo contemporáneo de uso creativo de las limitaciones, una de las piezas de mi rompecabezas. Era un juego que no había probado pero que conocía por su famoso uso de los colores y los píxeles. Lo que no me imaginaba es hasta qué punto esta obra maestra de Lucas Pope ilustra lo que quería capturar en aquel artículo.
+Cuando escribí sobre [[file:../2023-06-16-del-videojuego-como-puzzle/][el videojuego como puzzle]], hice una mención breve del /Return of the Obra Dinn/ [LINK] como ejemplo contemporáneo del uso creativo de las limitaciones, una de las piezas de mi rompecabezas. Era un juego que no había probado pero que conocía por su famoso uso de los colores y los píxeles. Lo que no me imaginaba es hasta qué punto esta obra maestra de Lucas Pope ilustra lo que quería capturar en aquel artículo.
 
-    - el juego es de 1-bit (inspirado en clásicos de mac?), usa dithering (explicar técnica, dar ejemplos) pero de forma novedosa: para construir un mundo 3d monocromo
-      (ditherpunk)
+Para repasar: el /Obra Dinn/ usa gráficos "1-bit", es decir en blanco y negro, inspirados en la estética de los juegos de la Apple Macintosh[fn:2], la primera computadora en difundir las interfaces gráficas de usuario[fn:1]. Para arreglarse con dos colores, /Obra Dinn/ hace uso intensivo del [[https://es.wikipedia.org/wiki/Tramado][/dithering/]], una técnica del pixel art que consiste en intercalar píxeles de distintos colores, creando entramados que, al mostrarse en un monitor CRT, producen una imagen que parece tener más colores de los que permitiría el hardware de la computadora. Lo novedoso es que Lucas Pope no se limitó a imitar los juegos que lo inspiraron sino que usó sus técnicas para proyectar un mundo 3D, un barco que recorremos bajo la luz de la luna y la lluvia, inventando un estilo que ahora se conoce como /ditherpunk/.
 
-      - logra darle belleza/calidez al mundo 3d, que para mi mentalidad boomer sigue siendo frío e inferior al pixelado y la animacion noventosa en la mayoría de los casos
+Es decir que, más allá de lo que sugiere una primera impresión, /Return of the Obra Dinn/ no es un juego retro: es un juego que construye algo nuevo sobre lo que hubo antes, que es casi lo mismo que decir que es una obra de arte.
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="../assets/img/puzzle/obradinn.gif">
+</div>
+#+END_EXPORT
+
     - pope partió de esta tecnología, después hizo backtrack para pensar el tipo de juego al que mejor se prestaba[buscar cita], después hizo backtrack para ponerle una historia a esa mecánica
+
+
+
+    - el resultado es: [explicar mecánica general]
     - es interesante notar que desembocó en el más absoluto/colmo del  "show don't tell", que su puesta en segundo plano o depriorización de la historia (que, a su vez, concide con aquello que yo había propuesto de que la historia es secundaria) le juega a favor a esa misma historia, porque la terminamos jugando nosotros en la cabeza, como tiene que ser en la buena ficción, porque no se molesta en sobreexplicar los recursos argumentales y los deus ex machina a los que apela para que el juego camine (que, de hacerlo, de obligarnos a mirar muy de cerca, rompería el encanto y desbarataría el castillo de naipes)
-
-      [TODO imagen]
-
    - tengo que insistir en que, mirando la obra final, el aspecto gráfico termina siendo algo genial pero no esencial al juego. algo similar se podría haber logrado con técnicas convencionales
-   - esto no es un juego retro, ni siquiera son gráficos retros: son algo nuevo inspirado/construido sobre en algo viejo. y acaso no aplica eso a todo el arte?
     - no solo es un puzzle, sino que, por su método de resolución está directamente emparentado al rompecabezas (uno va armando contornos, después empieza ver por donde atacar, plantea supuestos, prueba combinaciones)
     - es una tormenta de /whodunits/, me animaría a decir que es una de las obras que mejor logró trasladar a un videojuego la idea de ficción detectivesca: la que mejor pone en juego las capacidades del medio
     - un par de innovaciones clave: el uso del still frame, el recuerdo para que haya vida aunque sea una persona caminando un escenario desierto (en tu cara myst), el requerimiento de 3 soluciones para no premiar prueba y error ni casualidad, el recurso de completar un libro como solo puzzle
@@ -35,9 +41,30 @@ Cuando escribí sobre [[file:../2023-06-16-del-videojuego-como-puzzle/][el video
 [TODO imagen]
 
     - me dio cosas que no me daban juegos desde hace mucho tiempo, que yo pensaba que estaban perdidas solo en parte por el estilo de los juegos modernos y su miedo a ofender sensibilidades modernas: pensé que era una limitación que me había traído la experiencia y la edad
-    - tiene descubrimiento de un ambiente, tiene sobre todo quedarte pensando en el juego después de apagar la computadora (seguir jugandolo en tu cabeza). incluso quedas pensando en el juego después de terminarlo y tenés que escribir artículos como este. tiene, ante todo, el uso de deducción y la recompensa de pegarle, algo que solo había experimentado (y mucho menos consistentemente) en algunas viejas aventuras gráficas
+    - tiene descubrimiento de un ambiente, tiene sobre todo quedarte pensando en el juego después de apagar la computadora (seguir jugandolo en tu cabeza). incluso quedas pensando en el juego después de terminarlo y tenés que escribir artículos como este. tiene, ante todo, el uso de la observación y deducción, y la recompensa de pegarle, algo que solo había experimentado (y mucho menos consistentemente) en algunas viejas aventuras gráficas
+    - <logra darle belleza/calidez al mundo 3d, que para mi mentalidad boomer sigue siendo frío e inferior al pixelado y la animacion noventosa en la mayoría de los casos
+    - audio/musica
     - tiene cosas de alone in the dark (la novedad tecnica/gráfica, el ruido de la madera crujiente, la posibilidad de lo sobrenatural)
-    - diría que el juego al que más se lo puede emparentar es al last express (por tema y género, por escenario confinado y por ser único en forma y método (aunque diferentes entre sí))
+    - diría que el juego al que más se lo puede emparentar es al last express (
+      las dos aventuras gráficas
+      género detectivesco, ficción de época,
+      escenario confinado (acá un barco, allá el orient-express)
+      por la manera en que el jugador mueve el tiempo y, con él, la trama
+
+      por tema y género, por escenario confinado y por ser único en forma y método (aunque diferentes entre sí))
+      - pero lo que en el juego de Mechner fue una caótica superproducción hollywoodense que no terminó de ordenarse bien en el producto final, en el de Pope es un perfecto mecanismo de relojería <en cada una de cuyas piezas esta presente la mano de un autor >
+
     - uno de esos juegos que quisiera olvidar para poder jugar de nuevo como la primera vez.
     - es único e incluso permite entrever un género: tranquilamente podría ser una forma gastada hasta el hartazgo; aún después de que pasara la novedad formal es un tipo de entretenimiento al que recaería con gusto todos los años (como el <aficionado> que insiste en las novelas de misterio por más de que conoce la fórmula de memoria)
     - a falta de eso habrá que ir a probar con papers, please y con The Case of the Golden Idol
+
+*** Fuentes
+https://www.filfre.net/2014/02/macware/
+https://surma.dev/things/ditherpunk/
+https://www.gamedeveloper.com/design/lucas-pope-and-the-rise-of-the-1-bit-dither-punk-aesthetic
+
+* Footnotes
+
+[fn:2] De aquellos juegos quizás resalta [[https://en.wikipedia.org/wiki/D%C3%A9j%C3%A0_Vu_(video_game)][/Déjà Vu/]], la primera aventura gráfica point-and-click.
+
+[fn:1] Interfaces que Jobs "tomó prestadas" de lo que vio en sus visitas a Xerox Parc, para después escandalizarse cuando Bill Gates se las tomó prestadas a él para su Windows.
