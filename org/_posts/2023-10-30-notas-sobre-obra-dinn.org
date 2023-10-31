@@ -58,10 +58,10 @@ Es decir que, más allá de lo que sugiere una primera impresión, /Return of th
     - es único e incluso permite entrever un género: tranquilamente podría ser una forma gastada hasta el hartazgo; aún después de que pasara la novedad formal es un tipo de entretenimiento al que recaería con gusto todos los años (como el <aficionado> que insiste en las novelas de misterio por más de que conoce la fórmula de memoria)
     - a falta de eso habrá que ir a probar con papers, please y con The Case of the Golden Idol
 
-*** Fuentes
-https://www.filfre.net/2014/02/macware/
-https://surma.dev/things/ditherpunk/
-https://www.gamedeveloper.com/design/lucas-pope-and-the-rise-of-the-1-bit-dither-punk-aesthetic
+** Fuentes
+    - [[https://www.filfre.net/2014/02/macware/][Macware]].
+    - [[https://surma.dev/things/ditherpunk/][Ditherpunk — The article I wish I had about monochrome image dithering]].
+    - [[https://www.gamedeveloper.com/design/lucas-pope-and-the-rise-of-the-1-bit-dither-punk-aesthetic][Lucas Pope and the rise of the 1-bit 'dither-punk' aesthetic]]
 
 * Footnotes
 
