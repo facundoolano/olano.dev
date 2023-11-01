@@ -4,7 +4,7 @@
 ---
 layout: post
 title: Notas sobre Obra Dinn
-date: 2023-10-28 17:03:05
+date: 2023-11-01
 tags: [videojuegos]
 image: assets/img/obradinn.jpg
 thumbnail-img: assets/img/obradinn.jpg
@@ -47,8 +47,9 @@ No se me ocurre un videojuego que haya traducido mejor los mecanismos de la ficc
 
 ** Fuentes
     - [[https://www.filfre.net/2014/02/macware/][Macware]].
-    - [[https://surma.dev/things/ditherpunk/][Ditherpunk — The article I wish I had about monochrome image dithering]].
+    - [[https://www.eurogamer.net/lucas-pope-on-life-after-papers-please-and-the-road-to-the-return-of-the-obra-dinn][Lucas Pope on life after Papers, Please]].
     - [[https://www.gamedeveloper.com/design/lucas-pope-and-the-rise-of-the-1-bit-dither-punk-aesthetic][Lucas Pope and the rise of the 1-bit 'dither-punk' aesthetic]].
+    - [[https://www.rockpapershotgun.com/how-a-book-binds-the-return-of-the-obra-dinn][How a book binds the Return of the Obra Dinn]].
 
 * Footnotes
 
