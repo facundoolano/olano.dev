@@ -6,6 +6,7 @@ layout: post
 title: Notas sobre Obra Dinn
 date: 2023-11-01
 tags: [videojuegos]
+excerpt: "Más allá de la primera impresión, Return of the Obra Dinn no es un juego retro: es un juego que construye algo nuevo sobre lo que hubo antes. Es, en otras palabras, una obra de arte."
 image: assets/img/obradinn.jpg
 thumbnail-img: assets/img/obradinn.jpg
 ---
@@ -14,7 +15,7 @@ thumbnail-img: assets/img/obradinn.jpg
 
 Cuando escribí [[file:../2023-06-16-del-videojuego-como-puzzle/][del videojuego como puzzle]], mencioné al [[https://obradinn.com][/Return of the Obra Dinn/]] como  ejemplo del uso creativo de las restricciones. Era un juego que no había probado pero que conocía por sus gráficos extravagantes. Lo que no me imaginaba es hasta qué punto la obra de Lucas Pope representa todo lo otro que quise abordar en aquel artículo, cómo las restricciones de implementación terminan construyendo una experiencia de juego.
 
-Recapitulando: el /Obra Dinn/ usa gráficos "1-bit", es decir, en blanco y negro, inspirados en la estética de los juegos de la Apple Macintosh[fn:2]. Igual que esos juegos, hace uso intensivo del [[https://es.wikipedia.org/wiki/Tramado][/dithering/]], la técnica de entramar los pixeles para que, al presentar la imagen, parezca tener más colores que los disponibles en la paleta. (En este caso, para que el blanco y negro pase por una escala de grises). Pero a Pope no le alcanzó con imitar a sus precursores sino que aplicó sus técnicas para proyectar un mundo 3D ---un barco que vamos a recorrer bajo la luna y la lluvia---, inventando un estilo que ahora se conoce como /ditherpunk/.
+Recapitulando: el /Obra Dinn/ usa gráficos "1-bit", es decir, en blanco y negro, inspirados en la estética de los juegos de la Apple Macintosh[fn:2]. Igual que esos juegos, hace uso intensivo del [[https://es.wikipedia.org/wiki/Tramado][/dithering/]], la técnica de entramar los pixeles para que, al presentar la imagen, parezca tener más colores que los disponibles en la paleta (en este caso, para que el blanco y negro pase por una escala de grises). Pero a Pope no le alcanzó con imitar a sus precursores sino que aplicó sus técnicas para proyectar un mundo 3D ---un barco que vamos a recorrer bajo la luna y la lluvia---, inventando un estilo que ahora se conoce como /ditherpunk/.
 
 Es decir que, más allá de la primera impresión, /Return of the Obra Dinn/ no es un juego /retro/: es un juego que construye algo nuevo sobre lo que hubo antes. Es, en otras palabras, una obra de arte.
 
