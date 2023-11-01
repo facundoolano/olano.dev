@@ -3,7 +3,6 @@ server {
     server_name blog.olano.dev;
     return 301 https://olano.dev/blog$request_uri;
 
-
     listen 443 ssl; # managed by Certbot
     ssl_certificate /etc/letsencrypt/live/blog.olano.dev/fullchain.pem; # managed by Certbot
     ssl_certificate_key /etc/letsencrypt/live/blog.olano.dev/privkey.pem; # managed by Certbot
@@ -24,6 +23,9 @@ server {
 		# as directory, then fall back to displaying a 404.
 		try_files $uri $uri/ =404;
 	}
+
+    # redirect old blog rss url to new one
+    rewrite ^/feed/$ https://olano.dev/feed.xml permanent;
 
 
     listen [::]:443 ssl ipv6only=on; # managed by Certbot
