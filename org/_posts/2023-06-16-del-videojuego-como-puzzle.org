@@ -31,7 +31,7 @@ Así, un grupo de hackers de UNIX, apelando a los caracteres ASCII como símbolo
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/puzzle/monkey.jpg" width="75%">
+ <img src="../assets/img/puzzle/monkey.jpg">
 </div>
 #+END_EXPORT
 
@@ -53,7 +53,7 @@ Convencido de que la rotoscopia era el camino para realizar su visión, se dedic
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/puzzle/prince.png" width="75%">
+ <img src="../assets/img/puzzle/prince.png">
 </div>
 #+END_EXPORT
 
@@ -81,7 +81,7 @@ Así, el diseño del /Rogue/ ---arte ASCII, niveles generados algorítmicamente 
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/puzzle/obradinn.gif" width="75%">
+ <img src="../assets/img/puzzle/obradinn.gif">
 </div>
 #+END_EXPORT
 
@@ -125,7 +125,7 @@ El *vidrio* como *puñalada* provee una *saudade* parecida a la del *ron* y, aca
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/puzzle/steinberg.jpg" width="50%">
+ <img src="../assets/img/puzzle/steinberg.jpg">
 </div>
 #+END_EXPORT
 
@@ -150,7 +150,7 @@ Para "rellenar" cada casillero, Perec armó un [[https://es.wikipedia.org/wiki/C
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/puzzle/perec.gif" width="50%">
+ <img src="../assets/img/puzzle/perec.gif">
 </div>
 #+END_EXPORT
 
@@ -198,7 +198,7 @@ En el otro extremo del espectro de los videojuegos hay vastos mundos en los que 
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/puzzle/shadow.jpg" width="75%">
+ <img src="../assets/img/puzzle/shadow.jpg">
 </div>
 #+END_EXPORT
 
