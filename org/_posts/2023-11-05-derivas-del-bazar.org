@@ -22,18 +22,13 @@ tags: [software]
 ** TODO revisar notas, incorporar lo que sirva al outline, matar (o planear matar) el resto
 ** TODO first draft
 
-* Outline #2
+* Outline
 
-# TODO resumir o volar esta intro, encontrar el mínimo contexto que alcance para introducir lo que viene después
-- al principio el software era un accesorio
-  - las computadoras venían sin software, con suerte si venían con un sistema operativo. se sobreentendía que usarlas implicaba programarlas
-  - compartir los programas era lo natural, a nadie se le ocurría venderlos. venían en revistas
-  - incluso cuando algunos empezaban a venderlo, nadie pretendía prevenir las copias.
-  - de ahí la famosa carta de bill gates, previniendo al medio de que estaba intentando crear una industria aldedor de la producción del software, que se iba volviendo la parte más importante (y relativamente más cara) del combo
-  - a tal punto era el default el compartir, que cuando a stallman se lo prohibieron, su berrinche fue tan exagerado que cambió para siempre a la industria del software, de la producción digital y de la propiedad intelectual
-  - pero para los 90 la historia se había invertido.
-  - el software era un negocio, el código era propiedad intelectual protegido por licencias. ¿para qué compartir lo que se podía vender?
-  - a la computación le había llegado la hora de acomodarse a los vientos neoliberales de su tiempo
+<En un principio, el software estaba lejos de ser un negocio. El software fue primero una molestia, una especie de traba burocrática para conseguir que la computadora hiciera lo que se necesitaba que hiciera. Después, derivó en disciplinas académica y profesional. Todavía después, con la propagación de las microcomputadoras en las universidades y las computadoras personales, el software se convirtió en terreno de creación y de satisfacción intelectual.
+
+<El software no tenía posibilidad de ser un negocio porque, por mucho que costara producirlo, una vez escrito el programa, distribuirlo era virtualmente gratuito. Solamente podía convertírselo en negocio con alguna forma de escasez artificial. Antes de que hubiera una /industria/ del software, a nadie se le ocurría que fuera necesario pagar por los programas, ni que hubiera un problema en copiarlos. De ahí que Bill Gates tuviera que quejarse para que lo dejen hacer su negocio, de ahí que Stallman considerara un atropello a la razón que le impidieran legalmente modificar el firmware de una impresora.
+
+- compartir los programas era lo natural, a nadie se le ocurría venderlos. venían en revistas
 
 - sandwich, wiki, linux
   - impresionantes porque usaban el impensable modelo del bazar y conseguían mejores resultados que el modelo catedral
