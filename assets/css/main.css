@@ -103,3 +103,8 @@ pre.src {
     font-size: 1rem;
     overflow-x: auto;
 }
+
+blockquote {
+    border-left: 2px solid whitesmoke;
+    padding-left: 1rem;
+}
