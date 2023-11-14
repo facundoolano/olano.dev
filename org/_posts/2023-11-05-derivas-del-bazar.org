@@ -9,34 +9,45 @@ tags: [software]
 ---
 #+END_EXPORT
 
+Si pudiera salvar dos cosas del incendio de la internet, serían Linux y Wikipedia. Linux y Wikipedia me parecen los mayores logros contemporáneos de la humanidad, por razones mejor expresadas en las /Leyes de Linus/.
 
-* tareas
-** DONE transcribir nuevo outline
-   CLOSED: [2023-11-13 Mon 18:13]
-** DONE mergear 2 outlines, mover resto a notas
-** TODO flesh out gift economy
-** TODO limpiar outline
-** TODO cleanup intro
-** TODO terminar hacker ethic
-** TODO pasar en limpio fuentes
-** TODO revisar notas, incorporar lo que sirva al outline, matar (o planear matar) el resto
-** TODO first draft
+La primera Ley de Linus fue formulada por Eric Raymond en su ensayo /The Cathedral and the Bazaar/.
+<TODO: agregar breve caracterización de modelos catedral y bazar.
 
-* Outline
+#+begin_quote
+Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone.
+#+end_quote
 
-<En un principio, el software estaba lejos de ser un negocio. El software fue primero una molestia, una especie de traba burocrática para conseguir que la computadora hiciera lo que se necesitaba que hiciera. Después, derivó en disciplinas académica y profesional. Todavía después, con la propagación de las microcomputadoras en las universidades y las computadoras personales, el software se convirtió en terreno de creación y de satisfacción intelectual.
+O, más concretamente:
 
-<El software no tenía posibilidad de ser un negocio porque, por mucho que costara producirlo, una vez escrito el programa, distribuirlo era virtualmente gratuito. Solamente podía convertírselo en negocio con alguna forma de escasez artificial. Antes de que hubiera una /industria/ del software, a nadie se le ocurría que fuera necesario pagar por los programas, ni que hubiera un problema en copiarlos. De ahí que Bill Gates tuviera que quejarse para que lo dejen hacer su negocio, de ahí que Stallman considerara un atropello a la razón que le impidieran legalmente modificar el firmware de una impresora.
+#+begin_quote
+Given enough eyeballs, all bugs are shallow.
+#+end_quote
 
-- compartir los programas era lo natural, a nadie se le ocurría venderlos. venían en revistas
+<aunque se refiere a un aspecto muy específico del desarrollo,
+tal vez porque debugging se solía considerar la parte más onerosa del proceso de desarrollo. (fn: desde mi punto de vista la parte mas onerosa suele ser la "operación" del software / que
+pero más allá de eso, sintetiza la <idea general> del método de trabajo del open source
+efectivamente escapan a la ley de brooks
+La primera ley de Linus es la que explica porque, contraintuitivamente, el modelo del bazar consigue mejores resultados que el de la catedral
 
-- sandwich, wiki, linux
-  - impresionantes porque usaban el impensable modelo del bazar y conseguían mejores resultados que el modelo catedral
-  - linus law #1
-  - más impresionante porque demostraban, totalmente a contramano de los tiempos que corrían, que existían formas de producción no directamente ligadas al beneficio económico, que había gente dispuesta a innovar y construir con incentivos no económicos.
+  - más impresionante porque demostraban que existían formas de producción no directamente ligadas al beneficio económico, que había gente dispuesta a innovar y construir con incentivos no económicos.
   - linus law #2
-  - footnote: pekka himanen + raymond -> gift culture (post scarcity). ~pirámide de maslow
-  - footnote: un detalle no explicitado por linus es que asume privilegios que tienen pocos en la actualidad, ya sea tiempo libre por subsistencia garantizada o la posibilidad de robarle horas al tiempo de descanso para esa actividad
+
+<linux y wikipedia me parecen dos maravillas no sólo por su mérito técnico y el beneficio que ofrecen a la sociedad, sino por haber mostrado, durante lo que probablemente haya sido el periodo de mayor auge del individualismo económico, que había formas alternativas de <organizar del trabajo>
+
+  - motivada por gusto por la tarea (entertainment / passion) y por búsqueda de reconocimiento de los pares
+  - raymond -> gift economy (post scarcity). ~pirámide de maslow. ~wozniak
+
+    <es decir que: la segunda ley demuestra que las personas pueden organizarse y realizar trabajo intelectual con incentivos no económicos, y la primera que esas creaciones pueden llegar a ser tan buenas o mejores que las producidas en el mercado. y si bien linux y wikipedia muestran que esa dinámica puede (o al menos pudo) coexistir con el mercado capitalista, no resuelve cómo poder dedicarse a esa actividad sostenidamente en un medio capitalista sin privilegios, sin hacerla en combinación con otras formas de trabajo o torciéndo esa actividad para convertirla en un negocio.
+
+  - un detalle no explicitado por linus es que asume privilegios que tienen pocos en la actualidad, ya sea tiempo libre por subsistencia garantizada o la posibilidad de robarle horas al tiempo de descanso para esa actividad.
+    - (subsistencia garantizada sin trabajar o con un trabajo suficientemente flexible, y con suficientemente pocas obligaciones extralaborales como para disponer de grandes cantidades de tiempo libre)
+
+
+#+BEGIN_CENTER
+\ast{} \ast{} \ast{}
+#+END_CENTER
+
   - a tal punto funcionaba el modelo que wiki y linux virtuamente destruyeron el negocio de los sistemas operativos y las enciclopedias respectivamente.
     - para el final de la década, encarta y windows server eran cosa del pasado
 
@@ -51,16 +62,24 @@ tags: [software]
   - (leitmotiv): aunque los mecanismos y los incentivos de los usuarios sean parecidos, cuando el trabajo comunitario es cooptado por empresas privadas---cuando se lo traslada del <gift economy> a la economía de mercado capitalista--- el trabajo voluntario se convierte de hecho en trabajo no remunerado.
   - varoufakis va más lejos y propone que en la actualidad las relaciones capitalistas pasaron a un segundo plano y que el sistema moderno es una especie de feudalismo tecnológico, todos los usuarios de software de una u otra manera somos "siervos" que pagamos rentas a los dueños de la nube. de eso se tratan las redes sociales en las que pagaos con nuestra atención, los servicios de contenidos que pagamos con suscripciones, el ecommerce y las appstores en los que las plataformas monopólicas recogen un porcentaje de todas las transacciones que en ellas se realizan
 
+#+BEGIN_CENTER
+\ast{} \ast{} \ast{}
+#+END_CENTER
+
 - eso en lo que respecta a la producción de contenido. ¿qué hay del software? a priori parece que el software abierto (y/o libre) se comió el mundo, que está más vigente que nunca
   - pero si uno estudia quién hace el trabajo y quién se beneficia de él,
   - <y si evalúa cómo se verificaron las proyecciones que hacía la comunidad open source en el auge post-linux hacia fines de los 90
+  - daría la impresión de que Linux, en tanto proyecto de desarrollo colaborativo, fue menos un punto de partida que la culminación de la cultura Hacker de las décadas anteriores
   - resulta evidente que el software libre y abierto atraviesa una crisis de identidad y de sostenibilidad
   - los principales beneficiarios del open source son las big tech que montan sus productos alrededor del software "regalado" (en una absoluta desproporción con la financiación que hagan de su desarrollo y el software que las propias corporaciones provean a la facultad --strategic openness---)
   - que a su vez tienen los recursos para esquivar las zonas grises legales reimplementando las partes que no pueden usar directamente
   - la cantidad promedio de mantenedores de un proyecto open source es 1. la producción de software open source pasó de ser un motivo de entretenimiento a una forma de autopromoción, una presión externa de crear un portfolio público con el que volverse más competitivo en el mercado laboral. (ya no hay bazaares, ahora hay kiosquitos).
+  - como ahora hay personas y empresa que /dependen/ de software open source para sus proyectos, para sus trabajos o sus negocios, es fácil que los mantenedores asuman inconscientemente un sentido de obligación a satisfacer las necesidades de los usuarios o, en el peor de los casos, que los usuarios perciban que tienen derecho a exigirla.
   - el éxito técnico y de público de un proyecto open source está tan disociado de su sostenibilidad y de la remuneración a sus mantenedores que de hecho productos <neurálgicos> como openssl sobrevive precariamente por un par de trabajadores voluntarios
   - quienes pretenden vivir del software libre que producen, aún si este muestra ser útil y necesario, lo tienen que hacer eligiendo la inseguridad económica, la precariedad laboral, y hasta recurriendo a la caridad
   - quienes pretenden montar un negocio, vender servicios o montar empresas alrededor de un producto oss, tienen que someterse a reglas de competencia capitalista en las que llevan las de perder con las corporaciones que están mejor aceitadas para proveer servicios convenientes y que no tienen ataduras a una comunidad o una forma específica de relación con sus usuarios
+    - más allá de los problemas de sustentabilidad, todo esto implica que open source en tanto modelo de desarrollo decentralizado (por fuera de las corporaciones), ya no puede realizar la superioridad técnica que tenía hacia fines de los 90.
+
 
 - será este el problema que había pronosticado el movimiento de software libre? la traición a la causa que fue la alternativa business-friendly del open source? se hubiera prevenido aferrandose al copyleft, se puede solucionar reviviendolo?
   - me parece que no. el software libre tenía sus propios problemas, que explican su subsecuente retroceso frente al open source.
@@ -71,7 +90,7 @@ tags: [software]
   - incluso los ejemplos de software libre más exitoso, linux el más paradigmático, lo son porque esas libertades no se contraponen con su uso comercial y privado. linux, de hecho, pese a haber elegido una licencia de software libre. Es que nada impide usar Linux (o Emacs, o las herramientas de GNU) para producir software comercial y cerrado; nada impide desplegar una plataforma privada y explotadora en servidores que corren Linux. Y haber elegido licencias más estrictas, que prohibieran esos usos, probablemente no hubieran resultado en más libertad sino en que la gente evitara usarlos, tal como evita usar las liberarías con licencias GPL.
   - es curioso que la filosofía más "lavada"del open source, que de hecho no se proponía una instancia ideológica, un activismo rupturista, terminó presentando de hecho una mayor oposición al mercado por su ubicuidad y por ofrecer resultados de mejor calidad que las alternativas privadas.
 
-- desde mi punto de vista, el problema de fondo es que tanto el software libre como el open source planteaban formas de producción y subsitencia alternativas al mercado capitalista (lo que pekka y raymond llaman gift economy).
+- desde mi punto de vista, el problema de fondo es que tanto el software libre como el open source planteaban formas de producción y subsitencia alternativas al mercado capitalista (raymond y otros (?) llaman gift economy).
   - (esto no necesariamente implica que sean proyectos explícitamente anti capitalistas sino que obedecen a incentivos diferentes).
   - y como suele ser el caso con todo lo no-capitalista en un medio capitalista, el sistema tiende a absorberlo o extinguirlo
   - se aferró intransigentemente a unas reglas que no eran adaptables al capitalismo pero tampoco lo desafiaban abiertamente, no se constituía como un proyecto alternativo. Ante todo, no tenían incentivos fuertes para sostenerse como sí tenía el OSS. así, se condenó al aislamiento y a la irrelevancia.
@@ -86,12 +105,16 @@ tags: [software]
     - para convertirlo en negocio es necesario reinstalar formas de escasez artificial
     - similar a como los artistas tienen que someter su obra a la escasez artificial, antes de las discográficas o editoras ahora de las plataformas de distribución y streaming. o convencer a suficiente gente de ejercer el mecenazgo (crear un sistema de incentivos sociales como había sido la gift economy para el desarrollo oss)
 
-- ¿Qué opciones le quedan a los creadores de software libre o abierto? Es decir, ¿cuáles son las posibles derivas del bazar?
+# separator?
+
+¿Qué opciones le quedan a los creadores de software libre o abierto? Es decir, ¿cuáles son las posibles derivas del bazar?
   1. aceptar las reglas del mercado capitalista. tratar de que les paguen por hacer, en alguna medida, lo que les gusta bajo sus propias reglas. Esto implica no ser dogmáticos en cuanto a las libertades del código, ajustarse a lo que pida el público o lo que le puedan convencer de que compre.
   2. tratar de preservar la lógica de la economía de regalo en el contexto del capitalismo. continuar produciendo por la satisfacción misma de la producción o por el prestigio que permite obtener.
+
      a. exponiéndose a que otros se beneficien del trabajo gratuito, como pasa con OSS.
      b. protegiendo el trabajo con recursos legales, al riesgo de que pierda audiencia y el autor pierda acceso a aquel prestigio. Este sería el caso del software libre
-  En ambos casos, al existir embebido en la lógica capitalista, perpetúa el status quo: solo podrán permitirse la actividad creativa los que dispongan de tiempo libre y tengan sus necesidades básicas garantizadas
+
+    En ambos casos, al existir embebido en la lógica capitalista, perpetúa el status quo: solo podrán permitirse la actividad creativa los que dispongan de tiempo libre y tengan sus necesidades básicas garantizadas
   3. tratar de cambiar el status quo por otro más justo, en el que quien contribuya software útil para la sociedad y especialmente software que pueda ser explotado económicamene, reciba suficiente rédito para subsistir y continuar ejerciendo esa actividad. desde luego que esto implica adentrarse en el terreno del idealismo y del activismo, de la política, en fin, en proporciones mucho más ambiciosas de lo que lo había hecho el movimiento del software libre. Implica involucrarse en un problema que excede (y precede) a la producción de software, el mismo que tienen la producción artística y científica, un problema no técnico sino socioeconómico que, como tal, no puede ser resuelto "endogámicamene", encerrados en el mundo del software, con trucos legales.
 
 Un método de producción de software, por sí mismo, no puede cambiar la realidad. En el mejor de los casos puede constituirse, como el conocimiento colectivo de Wikipedia y el desarrollo colaborativo de Linux, en ejemplo, en un núcleo más de resistencia que necesitará de otros para representar una verdadera amenaza al statu quo.
@@ -113,8 +136,28 @@ Pero ya entrados en cambiar la realidad socieconómica, es interesante volver al
 ** how to be an anticapitalist in the 21st century
 ** los caminos de la libertad
 
+** ? https://increment.com/open-source/the-rise-of-few-maintainer-projects/
+
+* tareas
+** DONE transcribir nuevo outline
+   CLOSED: [2023-11-13 Mon 18:13]
+** DONE mergear 2 outlines, mover resto a notas
+** TODO flesh out gift economy
+** TODO limpiar outline
+** TODO cleanup intro
+** DONE terminar hacker ethic
+   CLOSED: [2023-11-14 Tue 09:23]
+** TODO pasar en limpio fuentes
+** TODO revisar notas, incorporar lo que sirva al outline, matar (o planear matar) el resto
+** TODO first draft
 
 * Notas sueltas
+
+<En un principio, el software estaba lejos de ser un negocio. El software fue primero una molestia, una especie de traba burocrática para conseguir que la computadora hiciera lo que se necesitaba que hiciera. Después, derivó en disciplinas académica y profesional. Todavía después, con la propagación de las microcomputadoras en las universidades y las computadoras personales, el software se convirtió en terreno de creación y de satisfacción intelectual.
+
+<El software no tenía posibilidad de ser un negocio porque, por mucho que costara producirlo, una vez escrito el programa, distribuirlo era virtualmente gratuito. Solamente podía convertírselo en negocio con alguna forma de escasez artificial. Antes de que hubiera una /industria/ del software, a nadie se le ocurría que fuera necesario pagar por los programas, ni que hubiera un problema en copiarlos. De ahí que Bill Gates tuviera que quejarse para que lo dejen hacer su negocio, de ahí que Stallman considerara un atropello a la razón que le impidieran legalmente modificar el firmware de una impresora.
+
+- compartir los programas era lo natural, a nadie se le ocurría venderlos. venían en revistas
 
 - no aplica solo a los hackers: es lo mismo que investigador conicet, que docente fiuba, que la carrera artística. que la academia y la ciencia en general (himanen) (footnote?)
     - también lo podemos pensar como un eslabón más de la evolución anti mercado de computación e internet
