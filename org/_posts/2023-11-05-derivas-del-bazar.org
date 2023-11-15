@@ -6,6 +6,7 @@ layout: post
 title: "Derivas del bazar"
 date: 2023-11-05 13:25:02
 tags: [software]
+image: assets/img/linus.jpg
 ---
 #+END_EXPORT
 
@@ -137,10 +138,6 @@ Pero ya entrados en cambiar la realidad socieconómica, es interesante volver al
 [fn:2] <La abundancia se puede interpretar de dos formas. Por un lado, en el "mundo real", como la ausencia de presiones económicas de subsistencia que supone Torvalds. Por otro, en el mundo digital considerado como espacio separado, como el libre acceso a la información en la web temprana y el libre acceso al software en el medio hacker de los años 70 y 80. Fue forzando la escasez artificial, mediante licencias y plataformas cerradas, que se introdujo la lógica de mercado en esos ambientes.>
 
 [fn:1] Himanen cita a Steve Wozniak, que expresa una filosofía de vida equivalente a la ley de Linus (/H = F^{3}, Happiness equals food, fun and friends/) y vincula a los dos con la [[https://es.wikipedia.org/wiki/Pir%C3%A1mide_de_Maslow][jerarquía de las necesidades humanas de Maslow]].
-
-* tareas
-** TODO thumbnail
-** TODO first draft
 
 * Notas sueltas
 
