@@ -5,7 +5,7 @@
 layout: post
 title: "Derivas del bazar"
 date: 2023-11-05 13:25:02
-tags: [software]
+tags: [software, utopías]
 image: assets/img/linus.jpg
 ---
 #+END_EXPORT
@@ -36,45 +36,49 @@ A “hacker” is a person who has gone past using his computer for survival to 
 
 Torvalds dice lo que saben muchos programadores[fn:1], pero también muchos investigadores, docentes y artistas: satisfechas las necesidades humanas básicas (la supervivencia), el trabajo creativo se vuelve un fin en sí mismo, una motivación mucho más fuerte que la ganancia económica.
 
-Ese "entretenimiento", que Himanen prefiere llamar pasión, explica por qué hay programadores trabajando gratis en su tiempo libre. La "vida social" explica por qué comparten el fruto de ese trabajo, por qué forman comunidades y colaboran en tareas menos interesantes, como el debugging o la documentación. Tanto Raymond como Himanen sostienen que la gratificación para los hackers es el prestigio y el reconocimiento de sus pares. Aplicando un poco de antropología inchequeable proponen que, en contextos de abundancia, en lugar de una economía de mercado las comunidades se inclinan hacia una "cultura del regalo" en la que el estatus social deriva no de lo que se posee si no de lo que se entrega a los demás.
+Ese "entretenimiento", que Himanen prefiere llamar pasión, explica por qué hay programadores trabajando gratis en su tiempo libre. La "vida social" explica por qué comparten el fruto de ese trabajo, por qué forman comunidades y colaboran en tareas menos interesantes, como el debugging o la documentación. Tanto Raymond como Himanen sostienen que la gratificación para los hackers es el prestigio y el reconocimiento de sus pares. Aplicando un poco de antropología inchequeable proponen que, en contextos de abundancia, en lugar de una economía de mercado las comunidades se inclinan hacia una "cultura del regalo", en la que el estatus social deriva no de lo que se posee si no de lo que se entrega a los demás.
 
-Esa abundancia de la que gozan los hackers tiene dos dimensiones. En primer término, refiere a la abundancia material que es requisito para poder perseguir sus intereses: los hackers necesitan el privilegio de la seguridad económica, de acceso a una computadora y a internet, y de tiempo libre. La otra forma de abundancia es la propia de la información digital: una vez producida un obra (un programa, una imagen, una grabación), reproducirla tiene costo virtualmente nulo[fn:4].
-La cultura del regalo es lo natural para el hacker porque, en ese modelo, entregar su trabajo no le cuesta nada. Es solo mediante una imposición de escasez artificial ---aplicando licencias o restricciones de acceso--- que se podría cobrar por la información.
+La abundancia de la que gozan los hackers tiene dos dimensiones. En primer término, refiere a la abundancia material que es requisito para poder perseguir sus intereses: los hackers necesitan el privilegio de la seguridad económica, del acceso a una computadora y a internet, y del tiempo libre. La otra forma de abundancia es la propia de la información digital: una vez producida un obra (un programa, una imagen, una grabación), reproducirla tiene costo virtualmente nulo[fn:4].
+Es solo mediante una imposición de escasez artificial ---aplicando licencias o restricciones de acceso--- que la información se transforma en mercancía. La cultura del regalo es lo natural para el hacker porque, en ese modelo, entregar su trabajo no le cuesta nada.
 
-Combinando las dos leyes de Linus vemos que, en las condiciones adecuadas, las personas están dispuestas a trabajar sin compensación económica y que de ese trabajo resultan bienes de mejor calidad que de las relaciones capitalistas. Linux y Wikipedia demostraron, durante lo que posiblemente haya sido el período de mayor hegemonía del individualismo liberal, que la innovación y el bien público son mejor propiciadas por la colaboración voluntaria entre pares que por la competencia mercantil.
-
-#+BEGIN_CENTER
-\ast{} \ast{} \ast{}
-#+END_CENTER
-
-A principios del siglo 21, la superioridad moral y técnica de Linux y Wikipedia parecían anunciar que la web traía un cambio paradigma en la producción intelectual. Volvamos ahora al presente y preguntémonos qué fue del bazar. ¿Son la producción comunitaria y la inteligencia colectiva la norma en la era de la información? Después de que internet se globalizara y se masificara y permeara todos los aspectos de la vida, ¿hubo otros Linux y Wikipedia? ¿Podría volver a haberlos?
-
-Así como el concierto de voluntades que produjo y mantiene Wikipedia cerró para siempre la posibilidad de crear un negocio alrededor las enciclopedias, hoy resulta igualmente impensable la idea de volver a organizar un número semejante de voluntades sin un negocio de por medio. Esto parece sugerir que la vocación colaborativa de la web temprana se disipó después de un primer ímpetu, pero si miramos con atención vemos que la colaboración todavía existe, ahora bajo el control y para beneficio de las empresas privadas. Todavía existe gente que dedica incontables horas de trabajo voluntario, motivada solamente por el estatus comunitario, pero el producto de ese trabajo no fluye libremente sino queda encerrado en los jardines digitales de empresas con fines de lucro. Un caso paradigmático es el de Reddit, que no solo aprovecha el contenido provisto por los usuarios sino que se sostiene sobre la tarea de los moderadores. Otros casos parecidos son los de StackOverflow y Goodreads.
-
-Benjamin Mako Hill cuenta que los académicos de los negocios observaron el deseo de colaboración propio de la web y, en vez de reprimirlo en sus productos, se dedicaron a buscar maneras de /orientarlo/ en lo que llaman /apertura estratégica/ para que trabaje a favor de la ganancia de las empresas. Mako Hill pone como ejemplo Airbnb, que montó un negocio alrededor de mecanismos e incentivos que habían funcionado para la comunidad sin fines de lucro de Couchsurfing. Aunque la tecnología y las motivaciones de las personas sean las mismas, una vez introducida la lógica de mercado, la cultura del regalo se desmorona, y lo que antes era trabajo comunitario y voluntario pasa a ser trabajo no pago, explotación.
-
-El economista griego Yanis Varoufakis va más lejos y propone que en la actualidad las relaciones capitalistas pasaron a un segundo plano y que el sistema moderno es una especie de feudalismo tecnológico, en el que todos los usuarios de software somos "siervos", de una u otra manera pagándole rentas a los dueños de la nube. De eso se tratan las redes sociales en las que pagamos con nuestra atención, los servicios de contenidos que pagamos con suscripciones, los /e-commerces/ y las /app stores/ en los que las plataformas recogen un porcentaje de todas las transacciones.
+Combinando las dos leyes de Linus vemos que, en las condiciones adecuadas, las personas están dispuestas a trabajar sin compensación económica y que de ese trabajo resultan bienes de mejor calidad que de las relaciones capitalistas. Linux y Wikipedia demostraron, durante lo que posiblemente haya sido el período de mayor hegemonía del individualismo liberal, que la innovación y el bien público son mejor propiciadas por la colaboración voluntaria entre pares que por la competencia de mercado.
 
 #+BEGIN_CENTER
 \ast{} \ast{} \ast{}
 #+END_CENTER
 
-Lo anterior sugiere que ya no habrá más Wikipedias, pero ¿qué pasa con el software Open Source? Daría la impresión de que hoy está más vivo que nunca, con la mayoría de los dispositivos del mundo y casi todos los servidores usando Linux, con la mayoría de los sistemas de software dependiendo de una u otra forma del software abierto. Pero si observamos quién hace el trabajo y quién recoge los beneficios, o si sencillamente googleamos "open source maintainers", resulta obvio que el software libre y abierto atraviesa una crisis de identidad y de sustentabilidad.
+A principios del siglo 21, la superioridad moral y técnica de Linux y Wikipedia parecían anunciar que la web traía un cambio de paradigma en la producción intelectual. Volvamos ahora al presente y preguntémonos qué fue del bazar. ¿Son la producción comunitaria y la inteligencia colectiva la norma en la era de la información? Después de que internet se globalizara y se masificara y permeara todos los aspectos de la vida, ¿hubo otros Linux y Wikipedia? ¿Podría volver a haberlos?
 
-  - <lejos de la mezquindad noventosa de Microsoft,
-    los principales beneficiarios del open source son las big tech que montan sus productos alrededor del software "regalado" (en una absoluta desproporción con la financiación que hagan de su desarrollo y el software que las propias corporaciones provean a la facultad --strategic openness---)
+Así como el concierto de voluntades que produjo y mantiene Wikipedia hace impensable un negocio alrededor de las enciclopedias, hoy nos resulta igualmente difícil de imaginar a un número semejante de voluntades organizándose sin un negocio de por medio. Esto parece sugerir que la vocación colaborativa de la web temprana se disipó después de aquel primer ímpetu pero, si miramos con atención, vemos que la colaboración todavía existe, ahora bajo el control y para el beneficio de  empresas privadas. Todavía hay gente dedicándose voluntariamente a la producción de contenido, motivada solamente por el estatus comunitario, pero el producto de ese trabajo no fluye libremente sino que queda encerrado en los jardines de las plataformas digitales. Un caso paradigmático es el de Reddit, que no solo aprovecha el contenido provisto por los usuarios sino que se sostiene en buena medida sobre la tarea de sus moderadores. Otros casos parecidos son los de StackOverflow y Goodreads.
+
+<Benjamin Mako Hill cuenta que los <académicos de los negocios> observaron el deseo de colaboración propio de la web y, <en vez de reprimirlo> en sus productos, se dedicaron a buscar maneras de /orientarlo/ en lo que llaman /apertura estratégica/ para que trabaje a favor de la ganancia de las empresas. Mako Hill pone como ejemplo Airbnb, que montó un negocio alrededor de mecanismos e incentivos que le habían funcionado a la comunidad de Couchsurfing. Aunque la tecnología y las motivaciones de las personas sean las mismas, una vez contaminada por la lógica de mercado, la cultura del regalo se desmorona, y lo que antes era una construcción comunitaria pasa a ser trabajo no pago, explotación.
+
+El griego Yanis Varoufakis va más lejos y propone que en la economía contemporánea las relaciones capitalistas pasaron a un segundo plano y que el sistema dominante es una especie de feudalismo tecnológico, en el que todos los usuarios de software somos "siervos", de una u otra forma pagándole rentas a los señores de la nube. De eso se tratan las redes sociales en las que pagamos con nuestra atención, los servicios de contenidos que pagamos con suscripciones, los /e-commerces/ y las /app stores/ en los que las plataformas recogen un porcentaje de todas las transacciones.
+
+#+BEGIN_CENTER
+\ast{} \ast{} \ast{}
+#+END_CENTER
+
+Así que por el momento no habrá más Wikipedias pero ¿qué pasa con el software? Daría la impresión de que el Open Source está más vivo que nunca, con la mayoría de los dispositivos del mundo y casi todos los servidores usando Linux, con la mayoría de los sistemas de software dependiendo de una u otra forma del código abierto. Pero si observamos quién hace el trabajo y quién recoge los beneficios, o si sencillamente googleamos "open source maintainers", resulta obvio que el software libre y abierto atraviesa una crisis de identidad y de sustentabilidad:
+
+- el éxito técnico y de público de un proyecto open source está disociado de su sostenibilidad y de la remuneración a sus mantenedores
+- la cantidad promedio de mantenedores de un proyecto open source es 1. proyectos <neurálgicos> como openssl sobrevive precariamente por un par de trabajadores voluntarios
+- la producción de software open source pasó de ser un motivo de entretenimiento a una forma de autopromoción, una presión externa de crear un portfolio público con el que volverse más competitivo en el mercado laboral. (ya no hay bazaares, ahora hay kiosquitos).
+- como ahora hay personas y empresa que /dependen/ de software open source para sus proyectos, para sus trabajos o sus negocios, es fácil que los mantenedores asuman inconscientemente un sentido de obligación a satisfacer las necesidades de los usuarios o, en el peor de los casos, que los usuarios perciban que tienen derecho a exigirla.
+- quienes pretenden vivir del software libre que producen, aún si este muestra ser útil y necesario, lo tienen que hacer eligiendo la inseguridad económica, la precariedad laboral, y hasta recurriendo a la caridad
+- quienes pretenden montar un negocio, vender servicios o montar empresas alrededor de un producto oss, tienen que someterse a reglas de competencia capitalista en las que llevan las de perder con las corporaciones que están mejor aceitadas para proveer servicios convenientes y que no tienen ataduras a una comunidad o una forma específica de relación con sus usuarios
+
+
+- más allá de los problemas de sustentabilidad, todo esto implica que open source en tanto modelo de desarrollo decentralizado (por fuera de las corporaciones), perdió algunas de las ventajas técnicas que tenía a fines de los 90.
+  - <lejos de la mezquindad noventosa de Microsoft que se plantaba como enemigo del open source, que Bill Gates percibía como una forma de comunismo, hoy las empresas Big Tech usan, contribuyen y hasta financian su producción.
+    una forma de strategic openness / apertura estratégica: toman lo que les sirve del bazar y descatan lo demás.
+    <porque es una forma de apalancarse en el trabajo de la comunidad: de aprovechar los contribuidores y los testers de la primera ley de Linus.
+  - adoptaron las prácticas abiertas en sus métodos de desarrollo.
   - que a su vez tienen los recursos para esquivar las zonas grises legales reimplementando las partes que no pueden usar directamente
-  - la cantidad promedio de mantenedores de un proyecto open source es 1. la producción de software open source pasó de ser un motivo de entretenimiento a una forma de autopromoción, una presión externa de crear un portfolio público con el que volverse más competitivo en el mercado laboral. (ya no hay bazaares, ahora hay kiosquitos).
-  - como ahora hay personas y empresa que /dependen/ de software open source para sus proyectos, para sus trabajos o sus negocios, es fácil que los mantenedores asuman inconscientemente un sentido de obligación a satisfacer las necesidades de los usuarios o, en el peor de los casos, que los usuarios perciban que tienen derecho a exigirla.
-  - el éxito técnico y de público de un proyecto open source está tan disociado de su sostenibilidad y de la remuneración a sus mantenedores que de hecho productos <neurálgicos> como openssl sobrevive precariamente por un par de trabajadores voluntarios
-  - quienes pretenden vivir del software libre que producen, aún si este muestra ser útil y necesario, lo tienen que hacer eligiendo la inseguridad económica, la precariedad laboral, y hasta recurriendo a la caridad
-  - quienes pretenden montar un negocio, vender servicios o montar empresas alrededor de un producto oss, tienen que someterse a reglas de competencia capitalista en las que llevan las de perder con las corporaciones que están mejor aceitadas para proveer servicios convenientes y que no tienen ataduras a una comunidad o una forma específica de relación con sus usuarios
+  - tienen, a su vez, recursos para organizar la producción de open source mejor que la que surge voluntariamente
 
 
-- más allá de los problemas de sustentabilidad, todo esto implica que open source en tanto modelo de desarrollo decentralizado (por fuera de las corporaciones), ya no puede realizar la superioridad técnica que tenía hacia fines de los 90.
 - daría la impresión de que Linux, en tanto proyecto de desarrollo colaborativo, fue menos un punto de partida que la culminación de la cultura Hacker de las décadas anteriores.
-
-
 - será este el problema que había pronosticado el movimiento de software libre? la traición a la causa que fue la alternativa business-friendly del open source? se hubiera prevenido aferrandose al copyleft, se puede solucionar reviviendolo?
   - me parece que no. el software libre tenía sus propios problemas, que explican su subsecuente retroceso frente al open source.
   - surgió en una época en que usuario era aproximadamente lo mismo que programador, una época previa a la computación personal, al software como bien de consumo, ni que hablar a la masificación de la vida personal.
@@ -84,12 +88,9 @@ Lo anterior sugiere que ya no habrá más Wikipedias, pero ¿qué pasa con el so
   - incluso los ejemplos de software libre más exitoso, linux el más paradigmático, lo son porque esas libertades no se contraponen con su uso comercial y privado. linux, de hecho, pese a haber elegido una licencia de software libre. Es que nada impide usar Linux (o Emacs, o las herramientas de GNU) para producir software comercial y cerrado; nada impide desplegar una plataforma privada y explotadora en servidores que corren Linux. Y haber elegido licencias más estrictas, que prohibieran esos usos, probablemente no hubieran resultado en más libertad sino en que la gente evitara usarlos, tal como evita usar las liberarías con licencias GPL.
   - es curioso que la filosofía más "lavada"del open source, que de hecho no se proponía una instancia ideológica, un activismo rupturista, terminó presentando de hecho una mayor oposición al mercado por su ubicuidad y por ofrecer resultados de mejor calidad que las alternativas privadas.
 
-
 #+BEGIN_CENTER
 \ast{} \ast{} \ast{}
 #+END_CENTER
-
-
 
 - desde mi punto de vista, el problema de fondo es que tanto el software libre como el open source planteaban formas de producción y subsitencia alternativas al mercado capitalista (raymond y otros (?) llaman gift economy).
   - (esto no necesariamente implica que sean proyectos explícitamente anti capitalistas sino que obedecen a incentivos diferentes).
@@ -100,7 +101,7 @@ Lo anterior sugiere que ya no habrá más Wikipedias, pero ¿qué pasa con el so
 - así como el deseo de colaboración, el sistema de incentivos de prestigio, la libertad de modificar, extender y contribuir código explican por qué el OSS fue adoptado por muchos desarrolladores y produjo software de calidad, sospecho que su ulterior propagación tiene menos que ver con sus contribuidores que con sus usuarios (aunque estos sean también programadores)
   - la propagación depende más de los usuarios que de los mantenedores/programadores (TODO: conectar con el tema de qué libertades son las que se respetan)
   - y me animo a decir que desde la perspectiva de los usuarios, nada es más importante que el hecho de que el software sea gratuito.
-  - contrario a lo que decía fsf de free as in freedom, not beer, y la voluntad de negocio de oss, la gratuidad es el mejor selling point del software open source.
+  - contrario a lo que decía fsf de free as in freedom, not beer, y la voluntad de negocio de oss, la gratuidad es el mejor selling point del software open source. -> suponer que el costo no importa es elitista, asume una abundancia que no es tal
   - la gratuidad esquiva la escasez artificial, devuelve el software a su orden natural: si ya existe, se puede reproducir infinitamente sin costo, por lo que es natural no pretender pagar por él.
   - intuyo que la crisis actual del open source deriva de la pretensión (o la fuerza de gravedad (?)) de querer convertirlo en un negocio, a mayor o menor escala. de querer abandonar la dinámica de gift economy y trasladarlo a la del mercado, abandonando los incentivos que lo habían permitido y empujándolo a una competencia donde tiene menos chances de sobrevivir.
     - para convertirlo en negocio es necesario reinstalar formas de escasez artificial
@@ -159,19 +160,24 @@ El mundo ideal, aquel que maximizara no solo la innovación sino la gratificaci�
 
 * Notas sueltas
 
-  (Desde ya, esta elección la tienen solo los privilegiados que disponen de seguridad económica y tiempo libre, un detalle al que voy a volver más adelante).
-
-    - aquel prestigio intangible que motorizaba el ciclo virtuoso del open source y de wikipedia, se comoditizó en la forma seguidores, reproducciones y likes <que se pueden convertir a dólares.>
+- TODO: considerar títulos:
+  - las leyes de linus
+  - apertura estratégica
+  - del bazar al maxikiosco
+  - quiero ver guita
+  - los caminos de la libertad
 
 en algun lado mencionar que los métodos del open source son parecidos a los de la academia / investigadores (socializan resultados y colaboran en la construcción de conocimiento sin retribución económica sin mediación de privados, sí por prestigio / reputación)
 
 - fs vs oss: había más gente queriendo crear y compartir que queriendo luchar por impedir el código cerrado
 
+- fs es trotskismo, oss es peronismo. oss es el softawre libre realmente existente (worse is better)
+
 - ni aunque los estados lo reconocieran como bien común o se impusiera la práctica de las donaciones o cambiara la mentalidad para que aceptemos pagar por todo el software que usamos, se resolvería del todo la cuestión.
   - el mantainer que tiene que ajustarse a lo que paga el usuario, tiene que dedicarse como segundo trabajo a convertir su producto en atractivo para sus albaceas, dedicarse al marketing antes que al trabajo creativo.
   - siempre va a haber una cantidad de trabajo que surge de la motivación personal y que puede no serle útil a los demás, o no parecerlo hasta mucho después, y eso no significa que no deba ser hecho, porque esa es una manera de truncar la innovación
 
-  - visto que el bazaar era una manera /seria/ de producir software, que el resultado era valioso y desafiaba en calidad a la competencia propietaria, que había gente que dependía y estaba dispuesta a pagar por software libre o abierto, era natural que los desarrolladores buscaran alguna manera de ganarse la vida escribiendo ese software o, mejor dicho: que encontraran una forma de subsistencia que (material y legalmente) los habilitara a seguir haciendo lo que querían (uno o más de los siguientes): programar y compartir sus creaciones, colaborar con sus pares, crear comunidad, producir software interesante, útil o desafiante, divertirse. (en el caso de free soft: asegurar y expandir las libertades del software)
+- era natural que los desarrolladores de foss buscaran alguna manera de ganarse la vida escribiendo ese software o, mejor dicho: que encontraran una forma de subsistencia que (material y legalmente) los habilitara a seguir haciendo lo que querían (uno o más de los siguientes): programar y compartir sus creaciones, colaborar con sus pares, crear comunidad, producir software interesante, útil o desafiante, divertirse. (en el caso de free soft: asegurar y expandir las libertades del software)
   - de ahí surgieron las formas conocidas de vivir del open source: vender servicios de administración, soporte o extensión del software que se liberaba; cobrar por su distribución o por alguna garantía; usarlo como portfolio para conseguir trabajo privado, para dictar clases o vender libros; donaciones.
 
 - nos acostumbramos a que todo lo digital sea gratis
@@ -179,8 +185,5 @@ en algun lado mencionar que los métodos del open source son parecidos a los de 
 - la caridad no resuelve, no es un modelo alternativo porque requiere que haya gente extrayendo plata "de afuera" para inyectar en la economía alternativa
 
 github es la catedral y está cerrada
-
-después crecimos y nos fuimos del barrio
-el software libre resultó complicado
 
 los artistas generan lo mejor de su obra antes de poder mantenerse con su arte, y lo ahcen como un sacrificio no esperando convertirlo en un negocio. en arg os escritores trabajan de otra cosa. bukowski.
