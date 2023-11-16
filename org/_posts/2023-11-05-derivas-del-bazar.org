@@ -10,33 +10,33 @@ image: assets/img/linus.jpg
 ---
 #+END_EXPORT
 
-Si pudiera salvar dos cosas del fuego de internet, serían Linux y Wikipedia. Linux y Wikipedia me parecen los mayores logros recientes de la humanidad, por razones mejor expresadas en las /Leyes de Linus/.
-
-La primera Ley de Linus fue formulada por Eric Raymond en su ensayo /The Cathedral and the Bazaar/:
+Si pudiera salvar dos cosas del fuego de internet, serían Linux y Wikipedia. Linux y Wikipedia me parecen los mayores logros recientes de la humanidad, por razones mejor expresadas en las dos /Leyes de Linus/. La primera fue formulada por Eric Raymond en su ensayo /The Cathedral and the Bazaar/:
 
 #+begin_quote
 Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone.
 #+end_quote
 
-O, menos formalmente:
+O, más informalmente:
 
 #+begin_quote
 Given enough eyeballs, all bugs are shallow.
 #+end_quote
 
-Aunque se refiera explcíticamente al debugging, la ley habla de todo el proceso de desarrollo: el modelo aparentemente caótico del open source, semejante al tumulto del bazar, no solo puede producir software funcional sino que de hecho produce /mejor/ software que el modelo de la ceremoniosa catedral. Prueba de esto es que, después de Linux y Wikipedia, a nadie se le ocurriría pagar por una licencia de Encarta o deployar un servidor con Windows.
+Aunque se refiera explícitamente al debugging, está hablando de todo el proceso de desarrollo: el modelo aparentemente caótico del open source, semejante al tumulto de un bazar, no solo puede producir software funcional sino que de hecho produce /mejor/ software que la ceremoniosa catedral del software privado. Prueba de esto es que, después de Linux y Wikipedia, a nadie se le ocurriría pagar por una licencia de Encarta o deployar un servidor con Windows.
 
-El propio Torvalds explica la segunda ley de Linus en el prólogo del libro /The Hacker Ethic,/ de Pekka Himanen:
+Es el propio Torvalds quien expone su segunda ley en el prólogo del libro /The Hacker Ethic,/ de Pekka Himanen:
 
 #+begin_quote
-Linus’s Law says that all of our motivations fall into three basic categories. The categories, in order, are “survival”, “social life”, and “entertainment”. Entertainment may sound like a strange choice, but I mean by entertainment more than just playing games on your Nintendo. It’s chess. It’s painting. It’s the mental gymnastics involved in trying to explain the universe. Einstein wasn’t motivated by survival when he was thinking about physics. Nor was it probably very social. It was entertainment to him. Entertainment is something intrinsically interesting and challenging.
+Linus’s Law says that all of our motivations fall into three basic categories. The categories, in order, are “survival”, “social life”, and “entertainment”.
+
+Entertainment may sound like a strange choice, but I mean by entertainment more than just playing games on your Nintendo. It’s chess. It’s painting. It’s the mental gymnastics involved in trying to explain the universe. Einstein wasn’t motivated by survival when he was thinking about physics. Nor was it probably very social. It was entertainment to him. Entertainment is something intrinsically interesting and challenging.
 
 A “hacker” is a person who has gone past using his computer for survival to the next two stages. That is how something like Linux comes about. You don’t worry about making that much money. The reason that Linux hackers do something is that they find it to be very interesting, and they like to share this interesting thing with others. Suddenly, you get both entertainment from the fact that you are doing something interesting, and you also get the social part. This is how you have this fundamental Linux networking effect where you have a lot of hackers working together because they enjoy what they do. Hackers believe that there is no higher stage of motivation than that.
 #+end_quote
 
-Torvalds dice lo que sabe cualquier programador, pero también cualquier investigador, cualquier docente o artista[fn:1]: satisfechas las necesidades básicas (la supervivencia), los trabajadores creativos buscan realizar su vocación antes que maximizar sus ganancias. (Desde ya, esta elección la tienen solo los privilegiados que disponen de seguridad económica y tiempo libre, un detalle al que voy a volver más adelante).
+Torvalds dice lo que saben muchos programadores, pero también muchos investigadores, docentes y artistas[fn:1]: satisfechas las necesidades básicas (la supervivencia), el trabajo creativo puede ser un fin en sí mismo, una motivación mucho más fuerte que la ganancia económica.
 
-El "entretenimiento" del que habla Torvalds explica por qué hay programadores que trabajan en proyectos de su interés sin pretensiones de ganancia económica. La "vida social" explica su motivación para compartir ese trabajo, para formar comunidades y colaborar también en  tareas menos interesantes, como el debugging o la documentación. Tanto Raymond como Himanen sostienen que ese trabajo es gratificado con prestigio y el reconocimiento de los pares. Aplicando un poco de antropología inchequeable proponen que, en contextos de abundancia[fn:2], en lugar de una economía de mercado las comunidades se inclinan hacia una "cultura del regalo", en la que el estatus social deriva no de lo que se posee si no de lo que se entrega a los demás.
+El "entretenimiento" del que habla Torvalds explica por qué hay programadores trabajando gratis en su tiempo libre. La "vida social" explica por qué comparten el fruto de ese trabajo, por qué forman comunidades y colaboran en tareas menos interesantes, como el debugging o la documentación. Tanto Raymond como Himanen sostienen que la gratificación que reciben los hackers por su tarea es el prestigio y el reconocimiento de sus pares. Aplicando un poco de antropología inchequeable proponen que, en contextos de abundancia[fn:2], en lugar de una economía de mercado las comunidades se inclinan hacia una "cultura del regalo", en la que el estatus social deriva no de lo que se posee si no de lo que se entrega a los demás.
 
 Combinando las dos leyes de Linus vemos que, por lo menos en algunos contextos, las personas están dispuestas a trabajar sin compensación económica y que de ese trabajo resultan bienes de mejor calidad que de las relaciones capitalistas. Linux y Wikipedia demostraron, durante lo que posiblemente haya sido el período de mayor hegemonía del individualismo liberal, que la mayor innovación y riqueza no surge de la competencia en el mercado sino de la colaboración voluntaria entre individuos apasionados por su trabajo y despreocupados por su supervivencia.
 
@@ -58,7 +58,7 @@ El economista griego Yanis Varoufakis va más lejos y propone que en la actualid
 
 Lo anterior sugiere que ya no habrá más Wikipedias, pero ¿qué pasa con el software Open Source? Daría la impresión de que hoy está más vivo que nunca, con la mayoría de los dispositivos del mundo y casi todos los servidores usando Linux, con la mayoría de los sistemas de software dependiendo de una u otra forma del software abierto. Pero si observamos quién hace el trabajo y quién recoge los beneficios, o si sencillamente googleamos "open source maintainers", resulta obvio que el software libre y abierto atraviesa una crisis de identidad y de sustentabilidad.
 
-  - <lejos del Microsoft noventoso,
+  - <lejos de la mezquindad noventosa de Microsoft,
     los principales beneficiarios del open source son las big tech que montan sus productos alrededor del software "regalado" (en una absoluta desproporción con la financiación que hagan de su desarrollo y el software que las propias corporaciones provean a la facultad --strategic openness---)
   - que a su vez tienen los recursos para esquivar las zonas grises legales reimplementando las partes que no pueden usar directamente
   - la cantidad promedio de mantenedores de un proyecto open source es 1. la producción de software open source pasó de ser un motivo de entretenimiento a una forma de autopromoción, una presión externa de crear un portfolio público con el que volverse más competitivo en el mercado laboral. (ya no hay bazaares, ahora hay kiosquitos).
@@ -91,7 +91,7 @@ Lo anterior sugiere que ya no habrá más Wikipedias, pero ¿qué pasa con el so
 - desde mi punto de vista, el problema de fondo es que tanto el software libre como el open source planteaban formas de producción y subsitencia alternativas al mercado capitalista (raymond y otros (?) llaman gift economy).
   - (esto no necesariamente implica que sean proyectos explícitamente anti capitalistas sino que obedecen a incentivos diferentes).
   - y como suele ser el caso con todo lo no-capitalista en un medio capitalista, el sistema tiende a absorberlo o extinguirlo
-  - se aferró intransigentemente a unas reglas que no eran adaptables al capitalismo pero tampoco lo desafiaban abiertamente, no se constituía como un proyecto alternativo. Ante todo, no tenían incentivos fuertes para sostenerse como sí tenía el OSS. así, se condenó al aislamiento y a la irrelevancia.
+- el fsf se aferró intransigentemente a unas reglas que no eran adaptables al capitalismo pero tampoco lo desafiaban abiertamente, no se constituía como un proyecto alternativo. Ante todo, no tenían incentivos fuertes para sostenerse como sí tenía el OSS. así, se condenó al aislamiento y a la irrelevancia.
 - el oss, por su parte, pero terminó siendo absorbido y en última instancia desactivado por el capitalismo, acaso porque su business-friendliness se convirtió en una intención de que el oss se convierta en si mismo un negocio o una forma de ganarse la vida en el mercado capitalista, subvirtiendo la lógica de gift economy del que surgió
 
 - así como el deseo de colaboración, el sistema de incentivos de prestigio, la libertad de modificar, extender y contribuir código explican por qué el OSS fue adoptado por muchos desarrolladores y produjo software de calidad, sospecho que su ulterior propagación tiene menos que ver con sus contribuidores que con sus usuarios (aunque estos sean también programadores)
@@ -102,7 +102,6 @@ Lo anterior sugiere que ya no habrá más Wikipedias, pero ¿qué pasa con el so
   - intuyo que la crisis actual del open source deriva de la pretensión (o la fuerza de gravedad (?)) de querer convertirlo en un negocio, a mayor o menor escala. de querer abandonar la dinámica de gift economy y trasladarlo a la del mercado, abandonando los incentivos que lo habían permitido y empujándolo a una competencia donde tiene menos chances de sobrevivir.
     - para convertirlo en negocio es necesario reinstalar formas de escasez artificial
     - similar a como los artistas tienen que someter su obra a la escasez artificial, antes de las discográficas o editoras ahora de las plataformas de distribución y streaming. o convencer a suficiente gente de ejercer el mecenazgo (crear un sistema de incentivos sociales como había sido la gift economy para el desarrollo oss)
-
 
 #+BEGIN_CENTER
 \ast{} \ast{} \ast{}
@@ -116,13 +115,19 @@ Lo anterior sugiere que ya no habrá más Wikipedias, pero ¿qué pasa con el so
      b. protegiendo el trabajo con recursos legales, al riesgo de que pierda audiencia y el autor pierda acceso a aquel prestigio. Este sería el caso del software libre
 
     En ambos casos, al existir embebido en la lógica capitalista, perpetúa el status quo: solo podrán permitirse la actividad creativa los que dispongan de tiempo libre y tengan sus necesidades básicas garantizadas
-  3. tratar de cambiar el status quo por otro más justo, en el que quien contribuya software útil para la sociedad y especialmente software que pueda ser explotado económicamene, reciba suficiente rédito para subsistir y continuar ejerciendo esa actividad. desde luego que esto implica adentrarse en el terreno del idealismo y del activismo, de la política, en fin, en proporciones mucho más ambiciosas de lo que lo había hecho el movimiento del software libre. Implica involucrarse en un problema que excede (y precede) a la producción de software, el mismo que tienen la producción artística y científica, un problema no técnico sino socioeconómico que, como tal, no puede ser resuelto "endogámicamene", encerrados en el mundo del software, con trucos legales.
+  3. tratar de cambiar el status quo por otro más justo, en el que quien contribuya software útil para la sociedad y especialmente software que pueda ser explotado económicamene, reciba suficiente rédito para subsistir y continuar ejerciendo esa actividad. desde luego que esto implica adentrarse en el terreno del idealismo y del activismo, de la política, en fin, en proporciones mucho más ambiciosas de lo que lo había hecho el movimiento del software libre. Implica involucrarse en un problema que excede (y precede) a la producción de software, el mismo que tienen la producción artística y científica, un problema no técnico sino socioeconómico que, como tal, no puede ser resuelto "endogámicamene", encerrados en el mundo del software, con herramientas técnicas, ni con hacks legales.
 
-Un método de producción de software, por sí mismo, no puede cambiar la realidad. En el mejor de los casos puede constituirse, como el conocimiento colectivo de Wikipedia y el desarrollo colaborativo de Linux, en ejemplo, en un núcleo más de resistencia que necesitará de otros para representar una verdadera amenaza al statu quo.
+<Un método de producción de software, por sí solo, no puede cambiar la realidad. En el mejor de los casos puede constituirse, como el conocimiento colectivo de Wikipedia y el desarrollo colaborativo de Linux, en ejemplo, en un núcleo más de resistencia que necesitará unirse a otros para constituir una verdadera alternativa al statu quo.
 
-# FIXME no embutir las ideas de la libre elección en el último párrafo, introducirlas antes por separado, aunque sea en el anteúltimo párrafo
+pero, reconociendo que la <sustentabilidad del oss requiere> cambiar la realidad socieconómica, es interesante volver al ejemplo de las artes y las ciencias y recordar
+- el mundo ideal no sería aquel en que los usos y las costumbres hayan cambiado para incentivar el mecenazgo o la remuneración de la producción de software.
+- Ni tampoco uno en que los gobiernos lo subsidiaran o existieran mecanismos legales para obligar a las corporaciones a retribuirlo.
+- aun si se pudiera exigir a los estados a financiar la producción de software libre y forzar a las empresas a que paguen por lo que usan, eso no produciría el mejor de los mundos.
+  - de la misma manera que un <comité de las artes> no es lo mejor para la producción artística [TODO revisar russell]
+  - caso linus: si hubiera habido (y quizás lo había) fondos para el desarrollo tecnológico, hubieran ido a caer en la cuenta de Linus o de otros Linus que se quedaron frustrados? quién podía saber que lo que necesitaba la industria era una <variante monolítica de minix con una licencia libre>
+  - lo que hizo a linus posible es que tenía un techo y un plato de comida, una computadora y acceso a internet, mucho tiempo libre y pocas obligaciones familiares.
 
-Pero ya entrados en cambiar la realidad socieconómica, es interesante volver al ejemplo de las artes y las ciencias y al mundo que nos dejaba entrever el primer auge del Open Source. Porque el mundo ideal, no sería aquel en que los usos y las costumbres hayan cambiado para incentivar el mecenazgo o la remuneración de la producción de software. Ni tampoco uno en que los gobiernos lo subsidiaran o existieran mecanismos legales para obligar a las corporaciones a retribuirlo. El mundo ideal, aquel que maximizara no solo la innovación sino la gratificación de los individuos y las comunidades, aquel en el que florecerían dos, tres, muchos Linux y Wikipedias, es uno en el que las necesidades básicas estén garantizadas para todo el mundo, incondicionalmente. Para que cualquiera pueda entregarse no al trabajo que otros consideren útil o necesario, el que más venda, el que exija un comité o el que alguien esté dispuesto a financiar, sino al trabajo que a cada uno le plazca. <falta punch>
+El mundo ideal, aquel que maximizara no solo la innovación sino la gratificación de los individuos y las comunidades, aquel en el que florecerían dos, tres, muchos Linux y Wikipedias, es uno en el que las necesidades básicas estén garantizadas para todo el mundo, incondicionalmente. Para que cualquiera pueda entregarse no al trabajo que otros consideren útil o necesario, el que más venda, el que exija un comité o el que alguien esté dispuesto a financiar, sino al trabajo que a cada uno le plazca.
 
 ** Fuentes
 
@@ -150,6 +155,8 @@ Pero ya entrados en cambiar la realidad socieconómica, es interesante volver al
 [fn:1] Himanen cita a Steve Wozniak, que expresa una filosofía de vida equivalente a la ley de Linus (/H = F^{3}, Happiness equals food, fun and friends/) y vincula a los dos con la [[https://es.wikipedia.org/wiki/Pir%C3%A1mide_de_Maslow][jerarquía de las necesidades humanas de Maslow]].
 
 * Notas sueltas
+
+  (Desde ya, esta elección la tienen solo los privilegiados que disponen de seguridad económica y tiempo libre, un detalle al que voy a volver más adelante).
 
     - aquel prestigio intangible que motorizaba el ciclo virtuoso del open source y de wikipedia, se comoditizó en la forma seguidores, reproducciones y likes <que se pueden convertir a dólares.>
 
