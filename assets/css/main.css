@@ -38,7 +38,7 @@ ul.site-index {
 .blog-index article { padding-bottom: .5rem;}
 
 .blog-index a.title {
-    color: black!important;
+    color: unset!important;
 }
 
 .layout-post {
