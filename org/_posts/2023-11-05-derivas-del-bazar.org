@@ -6,7 +6,7 @@ layout: post
 title: "Derivas del bazar"
 date: 2023-11-05 13:25:02
 tags: [software, utopías]
-image: assets/img/linus.jpg
+image: assets/img/libre.jpg
 ---
 #+END_EXPORT
 
