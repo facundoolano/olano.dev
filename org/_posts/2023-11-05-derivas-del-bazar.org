@@ -10,6 +10,7 @@ image: assets/img/linus.jpg
 ---
 #+END_EXPORT
 
+* Las leyes de Linus
 Si pudiera salvar dos cosas del fuego de internet, serían Linux y Wikipedia. Linux y Wikipedia me parecen los mayores logros recientes de la humanidad, por razones mejor expresadas en las dos /Leyes de Linus/. La primera fue formulada por Eric Raymond en su ensayo /The Cathedral and the Bazaar/:
 
 #+begin_quote
@@ -43,21 +44,17 @@ Es solo mediante una imposición de escasez artificial ---aplicando licencias o 
 
 Combinando las dos leyes de Linus vemos que, en las condiciones adecuadas, las personas están dispuestas a trabajar sin compensación económica y que de ese trabajo resultan bienes de mejor calidad que de las relaciones capitalistas. Linux y Wikipedia demostraron, durante lo que posiblemente haya sido el período de mayor hegemonía del individualismo liberal, que la innovación y el bien público son mejor propiciadas por la colaboración voluntaria entre pares que por la competencia de mercado.
 
-#+BEGIN_CENTER
-\ast{} \ast{} \ast{}
-#+END_CENTER
+* Apertura estratégica
 
 A principios del siglo 21, la superioridad moral y técnica de Linux y Wikipedia parecían anunciar que la web traía un cambio de paradigma en la producción intelectual. Volvamos ahora al presente y preguntémonos qué fue del bazar. ¿Son la producción comunitaria y la inteligencia colectiva la norma en la era de la información? Después de que internet se globalizara y se masificara y permeara todos los aspectos de la vida, ¿hubo otros Linux y Wikipedia? ¿Podría volver a haberlos?
 
 Así como el concierto de voluntades que produjo y mantiene Wikipedia hace impensable un negocio alrededor de las enciclopedias, hoy nos resulta igualmente difícil de imaginar a un número semejante de voluntades organizándose sin un negocio de por medio. Esto parece sugerir que la vocación colaborativa de la web temprana se disipó después de aquel primer ímpetu pero, si miramos con atención, vemos que la colaboración todavía existe, ahora bajo el control y para el beneficio de  empresas privadas. Todavía hay gente dedicándose voluntariamente a la producción de contenido, motivada solamente por el estatus comunitario, pero el producto de ese trabajo no fluye libremente sino que queda encerrado en los jardines de las plataformas digitales. Un caso paradigmático es el de Reddit, que no solo aprovecha el contenido provisto por los usuarios sino que se sostiene en buena medida sobre la tarea de sus moderadores. Otros casos parecidos son los de StackOverflow y Goodreads.
 
-<Benjamin Mako Hill cuenta que los <académicos de los negocios> observaron el deseo de colaboración propio de la web y, <en vez de reprimirlo> en sus productos, se dedicaron a buscar maneras de /orientarlo/ en lo que llaman /apertura estratégica/ para que trabaje a favor de la ganancia de las empresas. Mako Hill pone como ejemplo Airbnb, que montó un negocio alrededor de mecanismos e incentivos que le habían funcionado a la comunidad de Couchsurfing. Aunque la tecnología y las motivaciones de las personas sean las mismas, una vez contaminada por la lógica de mercado, la cultura del regalo se desmorona, y lo que antes era una construcción comunitaria pasa a ser trabajo no pago, explotación.
+<Benjamin Mako Hill cuenta que los <académicos de los negocios> observaron el deseo de colaboración propio de la web y, <en vez de reprimirlo> en sus productos, se dedicaron a buscar maneras de /orientarlo/ en lo que llaman apertura estratégica (/strategic openness/) para que trabaje a favor de la ganancia de las empresas. Mako Hill pone como ejemplo Airbnb, que montó un negocio alrededor de mecanismos e incentivos que le habían funcionado a la comunidad de Couchsurfing. Aunque la tecnología y las motivaciones de las personas sean las mismas, una vez contaminada por la lógica de mercado, la cultura del regalo se desmorona, y lo que antes era una construcción comunitaria pasa a ser trabajo no pago, explotación.
 
 El griego Yanis Varoufakis va más lejos y propone que en la economía contemporánea las relaciones capitalistas pasaron a un segundo plano y que el sistema dominante es una especie de feudalismo tecnológico, en el que todos los usuarios de software somos "siervos", de una u otra forma pagándole rentas a los señores de la nube. De eso se tratan las redes sociales en las que pagamos con nuestra atención, los servicios de contenidos que pagamos con suscripciones, los /e-commerces/ y las /app stores/ en los que las plataformas recogen un porcentaje de todas las transacciones.
 
-#+BEGIN_CENTER
-\ast{} \ast{} \ast{}
-#+END_CENTER
+* Del bazar al maxikiosco
 
 Así que por el momento no habrá más Wikipedias pero ¿qué pasa con el software? Daría la impresión de que el Open Source está más vivo que nunca, con la mayoría de los dispositivos del mundo y casi todos los servidores usando Linux, con la mayoría de los sistemas de software dependiendo de una u otra forma del código abierto. Pero si observamos quién hace el trabajo y quién recoge los beneficios, o si sencillamente googleamos "open source maintainers", resulta obvio que el software libre y abierto atraviesa una crisis:
 - La calidad y la popularidad del software están disociadas de su sustentabilidad: que un proyecto tenga muchos usuarios no implica que haya programadores interesados o en condiciones de mantenerlo; que sea usado comercialmente por terceros no implica que algo de las ganancias alcance a quienes lo mantienen.
@@ -70,9 +67,7 @@ Que proyectos neurálgicos para la industria, como OpenSSL, puedan pasar años s
 Más allá de los problemas de sustentabilidad, esta apertura estratégica hace que el modelo del bazar perdió haya perdido algunas de las ventajas técnicas que tenía a fines de los 90. En ese sentido daría la impresión de que Linux fue menos un punto de partida que la culminación de la cultura Hacker de las décadas anteriores.
 
 
-#+BEGIN_CENTER
-\ast{} \ast{} \ast{}
-#+END_CENTER
+* Libre como un taxi
 
 - será este presente desolado consecuencia de desoír las advertencias del movimiento de software libre?
   es el castigo por la traición a la causa que fue la alternativa business-friendly del open source? se hubiera prevenido aferrandose al copyleft, se puede solucionar reviviendolo?
@@ -100,11 +95,9 @@ Más allá de los problemas de sustentabilidad, esta apertura estratégica hace 
     - para convertirlo en negocio es necesario reinstalar formas de escasez artificial
     - similar a como los artistas tienen que someter su obra a la escasez artificial, antes de las discográficas o editoras ahora de las plataformas de distribución y streaming. o convencer a suficiente gente de ejercer el mecenazgo (crear un sistema de incentivos sociales como había sido la gift economy para el desarrollo oss)
 
-#+BEGIN_CENTER
-\ast{} \ast{} \ast{}
-#+END_CENTER
+* Derivas del bazar
 
-¿Qué caminos le quedan hoy a los creadores de software? ¿Cuáles son las posibles derivas del bazar?
+¿Qué caminos le quedan hoy a los creadores de software?
   1. aceptar las reglas del mercado capitalista. tratar de que les paguen por hacer, en alguna medida, lo que les gusta bajo sus propias reglas. Esto implica no ser dogmáticos (strategic openness) en cuanto a las libertades del código, ajustarse a lo que pida el público o lo que le puedan convencer de que compre.
   2. tratar de preservar la lógica de la economía de regalo en el contexto del capitalismo. continuar produciendo por la satisfacción misma de la producción o por el prestigio que permite obtener.
 
@@ -114,7 +107,7 @@ Más allá de los problemas de sustentabilidad, esta apertura estratégica hace 
     En ambos casos, al existir embebido en la lógica capitalista, perpetúa el statu quo: solo podrán permitirse la actividad creativa los que dispongan de tiempo libre y tengan sus necesidades básicas garantizadas
   3. tratar de cambiar el statu quo por otro más justo, en el que quien contribuya software útil para la sociedad y especialmente software que pueda ser explotado económicamene, reciba suficiente rédito para subsistir y continuar ejerciendo esa actividad. desde luego que esto implica adentrarse en el terreno del idealismo y del activismo, de la política, en fin, en proporciones mucho más ambiciosas de lo que lo había hecho el movimiento del software libre. Implica involucrarse en un problema que excede (y precede) a la producción de software, el mismo que tienen la producción artística y científica, un problema no técnico sino socioeconómico que, como tal, no puede ser resuelto "endogámicamene", encerrados en el mundo del software, con herramientas técnicas, ni con hacks legales.
 
-<Un método de producción de software, por sí solo, no puede cambiar la realidad. En el mejor de los casos puede constituirse, como el conocimiento colectivo de Wikipedia y el desarrollo colaborativo de Linux, en ejemplo, en un núcleo más de resistencia que necesitará unirse a otros para constituir una verdadera alternativa al statu quo.
+<Un método de producción de software, por sí solo, no puede transformar la realidad. En el mejor de los casos puede constituirse, como el conocimiento colectivo de Wikipedia y el desarrollo colaborativo de Linux, en ejemplo, en un núcleo más de resistencia que necesitará unirse a otros para constituir una verdadera alternativa al statu quo.
 
 pero, reconociendo que la <sustentabilidad del oss requiere> cambiar la realidad socieconómica, es interesante volver al ejemplo de las artes y las ciencias y recordar
 - el mundo ideal no sería aquel en que los usos y las costumbres hayan cambiado para incentivar el mecenazgo o la remuneración de la producción de software.
@@ -153,13 +146,6 @@ El mundo ideal, aquel que maximizara no solo la innovación sino la gratificaci�
 [fn:1] Himanen cita a Steve Wozniak, que expresa una filosofía de vida equivalente a la ley de Linus (/H = F^{3}, Happiness equals food, fun and friends/) y vincula a los dos con la [[https://es.wikipedia.org/wiki/Pir%C3%A1mide_de_Maslow][jerarquía de las necesidades humanas de Maslow]].
 
 * Notas sueltas
-
-- TODO: considerar títulos:
-  - las leyes de linus
-  - apertura estratégica
-  - del bazar al maxikiosco
-  - libre como un taxi
-  - los caminos de la libertad / derivas del bazar
 
   - que a su vez tienen los recursos para esquivar las zonas grises legales reimplementando los componentes que no pueden usar directamente
 - incluso adoptaron las prácticas abiertas también en los métodos con que desarrollan software privado.
