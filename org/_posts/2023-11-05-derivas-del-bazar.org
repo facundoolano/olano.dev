@@ -69,18 +69,27 @@ Que proyectos neurálgicos para la industria como OpenSSL puedan pasar años sin
 
 Es tentador pensar que la crisis del bazar era la consecuencia inevitable del Gran Cisma entre software libre y open source. ¿Será el copyleft la herramienta adecuada para restaurar la cultura del regalo y sostenerla ante los embates del mercado?
 
-Desde mi punto de vista, la postura intransigente del software libre es noble inspiradora, pero en el fondo irrelevante y elitista, por varias razones:
-<o: tiene los mismos problemas que el open source, y otros propios
+La postura intransigente del software libre es noble e inspiradora, pero en última instancia irrelevante y tanto o más elitista que la del open source:
 
-- parte del supuesto de que hay tres libertades fundamentales, pero esas libertades no le importan a la mayoría de los usuarios, ni siquiera . es un derecho que solo puede ejercer una minoría privilegiada, mientras que hay otras libertades más urgentes (como la privacidad, la no manipulación, la interoperabilidad con sistemas privados)
-- desestima el aspecto económico, en vez de hacer hincapié en la gratuidad que es la única forma en que la libertad puede ser ejercida de hecho por la mayoría de los usuarios. (la gente elige linux por lo gratuito (y por la calidad ala oss) antes que por una defensa activa de la libertad de código). suponer que el costo no importa es elitista, asume una abundancia que no existe de hecho en el mundo actual; garantizar la gratuidad de hecho acerca más a la situación de abundancia
-- al poner como fin la libertad, y no como medio, resulta un incentivo únicamente para los que están interesados en ese activismo. en contraposición con oss que se alimenta del incentivo social que describe la ley de linus
+1. /Sobrestima las libertad de modificar y redistribuir el código fuente/
+2. /Subestima la gratuidad del software/
+   sin gratuidad no hay cultura del regalo, sin cultura del regalo no hay bazar, sin bazar no se puede competir técnicamente con el software privado.
+3. /Desestima las motivaciones por fuera de la ética/, que solo es un factor para una minoría de activistas previamente convencidos.
+   (a diferencia de las motivaciones de las que habla linux, de la calidad técnica que busca el open source y de los beneficios del mercado capitalista)
 
-El problema de fondo es que la cultura del regalo del bazar constituyó una forma de producción alternativa al mercado capitalista y, en última instancia, incompatible con él. Y como suele ser el caso con toda alternativa al capitalismo, el sistema tiende a absorberla o destruirla.
+# parte del supuesto de que hay tres libertades fundamentales, pero esas libertades no le importan a la mayoría de los usuarios, ni siquiera . es un derecho que solo puede ejercer una minoría privilegiada, mientras que hay otras libertades más urgentes (como la privacidad, la no manipulación, la interoperabilidad con sistemas privados)
+
+# desestima el aspecto económico, en vez de hacer hincapié en la gratuidad que es la única forma en que la libertad puede ser ejercida de hecho por la mayoría de los usuarios. (la gente elige linux por lo gratuito (y por la calidad ala oss) antes que por una defensa activa de la libertad de código). suponer que el costo no importa es elitista, asume una abundancia que no existe de hecho en el mundo actual; garantizar la gratuidad de hecho acerca más a la situación de abundancia
+
+# al poner como fin la libertad, y no como medio, resulta un incentivo únicamente para los que están interesados en ese activismo. en contraposición con oss que se alimenta del incentivo social que describe la ley de linus
+# acaso por eso tuvo que venir alguien de afuera con un kernel para que el proyecto saliera de la oscuridad (?
+
+# El problema de fondo, tanto para el software libre como para el open source, es que
+La cultura del regalo del bazar constituye una forma de producción alternativa al mercado capitalista y, en última instancia, incompatible con él. Y, como suele ser el caso con toda alternativa al capitalismo, el sistema tiende a absorberla o destruirla:
 - el software libre era un <activismo ético> con posturas intransigentes, pero que se cuidaba de no extender su argumento por fuera del software, por ejemplo para rechazar la escasez artificial y la propiedad intelectual en otros medios, lo que lo convertiría en anticapitalista o al menos en opositor a la actual forma del capitalismo. no constituía una forma de resistencia al capitalismo pero tampoco se adaptaba al mercado, sino que pretendía que el mercado se adapte a él, por lo que virtualmente se extinguió ante la alternativa más flexible[fn:2]
-- el open source adoptó una postura permisiva que a la vez allanó el camino para que se propague como virus pero a la vez lo dejó expuesto a la precariedad que ya describí. Pese a evitar la ideología y a adoptar una postura explícitamente pro-mercado, curiosamente el open source terminó de hecho siendo una contribución más valiosa a la mirada anticapitalista por el <ejemplo de calidad e incentivos no económicos que representó
+- el open source adoptó una postura permisiva que allanó el camino para que se propague como virus pero a la vez lo dejó expuesto a ser cooptado y abusado por las corporaciones privadas.
 
-Los dos movimientos estaban condenados al fracaso porque su subsistencia requería unas condiciones de abundancia que no existen de hecho en el mercado capitalista, y ninguno de los dos estaba diseñados para propiciar.
+Es curioso que, pese a evitar la ideología y a adoptar una postura explícitamente pro-mercado, el open source terminó de hecho siendo una contribución más valiosa a la mirada anticapitalista por el <ejemplo de calidad e incentivos no económicos que representó. En cualquier caso, ambos movimientos estaban condenados al fracaso porque su subsistencia requería unas condiciones de abundancia que no existen de hecho en el mercado capitalista, y que ninguno de los dos estaba diseñados para propiciar.
 
 * Derivas del bazar
 
