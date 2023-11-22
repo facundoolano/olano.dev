@@ -106,7 +106,7 @@ En efecto, sería deseable que cambiara la cultura para que los usuarios paguen 
 
 El mundo ideal, aquel que maximizaría no solo la innovación sino la gratificación de los individuos y las comunidades, aquel en el que florecerían dos, tres, muchos Linux y Wikipedias, sería uno de abundancia, uno en el que las necesidades básicas estuvieran garantizadas para todos, incondicionalmente. Para que cualquiera pudiera entregarse despreocupadamente a hacer su trabajo, no porque otros lo consideran útil o necesario, no porque haya quien lo pague o una autoridad que así lo exija, sino porque quiere, porque ahí lo lleva el deseo, porque así lo dicta la curiosidad, el interés, la inspiración, la vocación, la pasión.
 
-** Fuentes
+* Fuentes
 
 - [[http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/][/The Cathedral and the Bazaar/]], Eric S. Raymond.
 - /The Hacker Ethic and the Spirit of the Information Age/, Pekka Himanen, Linus Torvalds.
