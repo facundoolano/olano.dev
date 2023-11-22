@@ -1,0 +1,84 @@
+---
+layout: post
+title: "La era de la boludez"
+date: 2023-07-10
+tags: [software, distopías]
+favorite: true
+share-img: assets/img/tortoise.jpg
+image: assets/img/tortoise.jpg
+thumbnail-img: assets/img/tortoise.jpg
+cover-img: assets/img/tortoise2.png
+---
+
+El personaje Alan Turing viene en muchos sabores: el matemático fundador de la computación, el criptógrafo que ganó la guerra, el pionero diseñador de computadoras, el homosexual suicidado por la sociedad. Hoy quiero hablar del Turing *sci-fi*, que especuló con la posibilidad de una inteligencia artificial.
+
+Su artículo de 1950, *Computing Machinery and Intelligence*, parte de una pregunta clásica, que precede largamente a la computación: *¿Pueden pensar las máquinas?,* y la estudia a la luz de los desarrollos recientes y de la teoría del propio Turing sobre las computadoras digitales. Empieza notando que es imposible determinar si una máquina tiene conciencia y que, de todas formas, esa cuestión es irrelevante: a fin de cuentas, tampoco podemos asegurar que otras personas sean conscientes; lo suponemos por el comportamiento que percibimos de ellas<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>. Lo que importa saber es si una computadora, cualquier computadora posible, podría llegar a ser indistinguible de un ser humano. Para estudiar ese problema, Turing propone usar lo que llama un "juego de imitación", que luego pasaría a la historia como el "test de Turing". El juego consta de tres participantes: una persona A, una computadora B, y un interrogador C. A y B tienen el objetivo de persuadir a C de que son una persona; C los interroga a través de un teclado y tiene que identificar quién es quién. De esta forma, Turing reemplaza la pregunta *¿Pueden pensar las máquinas?* por *¿Podría alguna computadora tener buenos resultados en el juego de imitación?*
+
+Turing pronostica que, para el año 2000, las computadoras serán tan buenas en este juego que el interrogador promedio fallaría en identificarlas el 30% de las veces. Cierra el artículo explicando que para lograr ese resultado bastaría diseñar un intelecto digital equiparable al de un niño, que podría someterse a un *aprendizaje* intensivo para que alcance la inteligencia adulta.
+
+<div class="org-center">
+<p>
+&lowast; &lowast; &lowast;
+</p>
+</div>
+
+Durante los cincuenta años que siguieron al artículo de Turing, las computadoras se volvieron más potentes y más baratas pero la inteligencia artificial continuó siendo una inminencia que no se concretaba. Si bien hubo felices accidentes en los laboratorios en que se la estudió &#x2014;el primer videojuego *Spacewar!*, la aventura *Zork* de Infocom, el lenguaje de programación Lisp, el editor de texto Emacs y el software libre GNU&#x2014;, para fin de siglo era una especie de *meme* tecnológico, una promesa mejor aprovechada en los estudios de Hollywood que en Silicon Valley.
+
+Al mismo tiempo, a la idea de máquinas pensantes se opuso una rama de investigación y desarrollo que, en vez de recrear o imitar el intelecto humano pretendía *expandirlo* con la asistencia de computadoras. Vannevar Bush, apenas terminada la Segunda Guerra Mundial, imaginó el *memex*, un índice computarizado de todo el conocimiento humano que prefiguraba a la vez a la Web, a Google y a Wikipedia. J.C.R. Licklider, precursor de Internet, propuso una *simbiosis* entre humano y computadora. Douglas Englebart, maestro de ceremonias de la *madre de todas las demos* que adelantó buena parte de la tecnología digital moderna, habló de *aumentar el intelecto* humano. Alan Kay, además de inventar la programación orientada a objetos, se imaginó las notebooks y, con sus colegas de Xerox PARC, diseñó las interfaces gráficas que popularizarían Macintosh y Windows.
+
+La influencia de esos pioneros se puede rastrear en los sucesivos desarrollos tecnológicos que cristalizaron en la masificación de las computadoras &#x2014;que ahora llevamos en el bolsillo&#x2014; y en la digitalización de casi todos los aspectos de nuestras vidas<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup>. Curiosamente, fue en parte esta revolución la que, ya bien entrado el siglo XXI, permitió desempolvar el proyecto de unas máquinas que aprendan.
+
+<div class="org-center">
+<p>
+&lowast; &lowast; &lowast;
+</p>
+</div>
+
+En su ensayo *Del culto de los libros*, Borges refiere una fábula de Platón que ataca a la escritura porque hace que la gente "descuide el ejercicio de la memoria y dependa de símbolos". La misma lógica la podemos aplicar a la calculadora, que nos hizo peores en las operaciones mentales; al teclado, que puso a la letra manuscrita en peligro de extinción; al GPS, que disminuyó nuestro sentido de la orientación. Pero en todos esos casos la tecnología efectivamente *aumentó* nuestras capacidades: podemos hacer cálculos más complejos, escribir más y más rápido, llegar más lejos sin perdernos. Podría decirse que todos los cambios tecnológicos implican perder algo y ganar otra cosa, y que hay progreso si la civilización gana más de lo que pierde, de acuerdo a su sistema de valores.
+
+El problema es que vivimos en una sociedad cuyo sistema parece consistir en un único valor: el beneficio económico. Así se explica que haya sido legal y socialmente aceptable la expansión a costa del medio ambiente. Así se explica que los avances tecnológicos, con todo su *aumento* del potencial humano, no hayan resultado en más tiempo libre y, por el contrario, contribuyan a desdibujar los límites entre ocio y trabajo, a que trafiquemos con nuestra atención y arrastremos el imperativo de productividad hasta en las horas de descanso.
+
+Independientemente de la moral de los individuos, como el sistema está aceitado para maximizar ganancias, cualquier otro atributo es expresado en términos económicos o suprimido de la ecuación. Cualquier actividad humana equivale a su proyección en una planilla de Excel. El trabajo intelectual, devenido "producción de contenido", se valora en impresiones, *clicks*, *likes*, suscripciones, seguidores; los artistas, los artesanos y trabajadores intelectuales son ahora agentes publicitarios de sí mismos. Y todas las personas somos productos: blancos de campaña.
+
+No importa si una traducción captura los matices del original porque la lectura va a ser superficial; no importa hacer periodismo, alcanza con juntar clicks en títulos amarillistas; no importa si la búsqueda de información es precisa porque alcanza con que el usuario vea los anuncios; no importa si el software es correcto, útil o eficiente: basta con que algún inversor esté dispuesto a financiarlo; no importa que una película sea igual a otras porque alcanza con acumular reproducciones; no importa si el arte es bueno o bello o si sugiere la *inminencia de una revelación*: alcanza con que tenga valor de mercado. Y si para mantener la rueda girando alcanza con producir contenido tosco y derivativo ¿qué mejor que una máquina para hacer el trabajo?
+
+Lo que no previeron Vannevar Bush ni Licklider ni Engelbart ni Alan Kay fue cómo sus ideas serían masticadas y regurgitadas por el capitalismo tardío. Lo que no previó Turing fue que el mercado proveería su propio juego de imitación: a la pregunta *¿Pueden pensar las máquinas?* le opuso *¿Pueden las máquinas realizar trabajo intelectual?*<sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup> Y para responder afirmativamente no hizo falta elevar las computadoras a la altura de los hombres: alcanzó con que se encontraran a medio camino. Porque con suficiente volumen de datos y suficiente poder de cómputo (y suficiente plata para quemar y suficientes horas de trabajo precario y suficiente indiferencia por el impacto ambiental) ya se pueden construir loros convincentes, perfectos jugadores del *Carrera de Mente* que saben todo lo que podía ser sabido hace dos años, y que lo que no saben lo inventan. Y porque las personas nos volvimos &#x2014;en nuestros trabajos, en nuestros hábitos y consumos&#x2014; esencialmente más boludas, más fáciles de satisfacer y de imitar: más parecidas a las máquinas.
+
+<div class="org-center">
+<p>
+&lowast; &lowast; &lowast;
+</p>
+</div>
+
+En su novela *Fahrenheit 451*, Ray Bradbury imaginó &#x2014;inspirado por el fascismo, la Guerra Fría y el macartismo&#x2014; un futuro en el que los libros están prohibidos y el gobierno emplea escuadrones de "bomberos", encargados de quemarlos. Un grupo de disidentes se dedica clandestinamente a memorizar cada uno una obra literaria distinta, con el fin de preservar el conocimiento para un futuro en que puedan reconstruir la sociedad<sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>. No en vano Bradbury era uno de los pocos contemporáneos "permitidos" de Borges: el argumento de *Fahrenheit 451* se puede leer como el inverso de la queja de Platón sobre la escritura, y evoca también al emperador chino de *La muralla y los libros*, que ordenó quemar toda literatura anterior a él<sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup>.
+
+La historia no nos deparó una dictadura semejante, de proscripción de ideas y quema de libros, pero sí un lento ahogo del pensamiento en los ríos de la información. El acto creativo, el oficio, el arte, ineficientes y anticuados para el comercio, serán relegados al museo como lenguas muertas. Y, como en la fábula de Bradbury, si queremos que sobrevivan tendrá que ser en la resistencia, en los gestos de los tercos disidentes que nos rehusemos a olvidar.
+
+
+## Fuentes
+
+-   *Ideas That Created the Future*, Harry R. Lewis.
+-   *The Innovators*, Walter Isaacson.
+-   [*On the Phenomenon of Bullshit Jobs*](https://strikemag.org/bullshit-jobs/), David Graeber.
+-   [*Will A.I. Become the New McKinsey?*](https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey), Ted Chiang.
+-   [*ChatGPT Is a Blurry JPEG of the Web*](https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web), Ted Chiang.
+-   [*Inside the AI Factory*](https://www.theverge.com/features/23764584/ai-artificial-intelligence-data-notation-labor-scale-surge-remotasks-openai-chatbots), Josh Dzieza.
+-   *Otras inquisiciones*, Jorge Luis Borges.
+
+<section class="footnotes" markdown=1>
+## Notas
+<!--- 
+# Notas al pie de p&aacute;gina
+
+ -->
+<sup><a id="fn.1" href="#fnr.1">1</a></sup> El planteo me recuerda al existencialismo de Sartre, que proponía que una persona se define no por su temperamento, sus intenciones o sentimientos sino por sus acciones, es decir, por lo que de ella pueden percibir los demás.
+
+<sup><a id="fn.2" href="#fnr.2">2</a></sup> Vale mencionar que hubo también voces que, previendo esa masificación, alertaron sobre sus peligros. Ver [*Some Moral and Technical Consequences of Automation*](https://nissenbaum.tech.cornell.edu/papers/Wiener.pdf) de Norbert Wiener y [*Some Thoughts About the Social Implications of Accessible Computing*](https://dl.acm.org/doi/pdf/10.1145/1463891.1463917) de David y Fano.
+
+<sup><a id="fn.3" href="#fnr.3">3</a></sup> Esto no necesariamente implica eliminar la intervención humana en la producción intelectual sino reducir su proporción y la calificación necesaria, un proceso equivalente al tránsito del artesano a la fábrica durante la Revolución Industrial.
+
+<sup><a id="fn.4" href="#fnr.4">4</a></sup> No lo leí este libro: el argumento me parece brillante, prefiero no confundirlo con su ejecución.
+
+<sup><a id="fn.5" href="#fnr.5">5</a></sup> Aprovecho para recordar, en este mundo de millonarios que gustan de quemar neumáticos en su propio jardín, que Jeff Bezos es dueño de Amazon, el principal distribuidor online de libros, de los servidores que sostienen media web, del Kindle, de Goodreads, de AbeBooks y que ya cerró BookDepository. Jeff Bezos está en carrera para ser nuestro Shih Huang Ti y abolir la literatura.
+
+</section>

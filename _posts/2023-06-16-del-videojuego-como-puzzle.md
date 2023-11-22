@@ -15,9 +15,7 @@ excerpt: "El videojuego como puzzle se parece a animar pixeles en ocho colores, 
 </div>
 <div><br/></div>
 
-En ciencia y tecnología, como en la discografía de Frank Zappa, se suele decir que *la necesidad es madre de la invención*. Pensando en los juegos de computadora, cada sucesiva innovación &#x2014;los primeros gráficos, los colores, el CD-ROM, el audio, la aceleración 3D&#x2014;
-trajo aparejada una ola de juegos centrados en explotar las nuevas posibilidades del hardware pero,
-de la misma manera que hoy [preferimos *Jurassic Park* a sus secuelas](../2021-12-28-la-rebelion-de-las-maquinas), los viejos y los nostálgicos nos acordamos menos de aquellas demostraciones exuberantes que de otros juegos que, con menos recursos, expandieron el campo de lo posible en una computadora.
+En ciencia y tecnología, como en la discografía de Frank Zappa, se suele decir que *la necesidad es madre de la invención*. Pensando en los juegos de computadora, cada sucesiva innovación &#x2014;los primeros gráficos, los colores, el CD-ROM, el audio, la aceleración 3D&#x2014; trajo aparejada una ola de juegos centrados en explotar las nuevas posibilidades del hardware pero, de la misma manera que hoy [preferimos *Jurassic Park* a sus secuelas](../2021-12-28-la-rebelion-de-las-maquinas), los viejos y los nostálgicos nos acordamos menos de aquellas demostraciones exuberantes que de otros juegos que, con menos recursos, expandieron el campo de lo posible en una computadora.
 
 Así, el [*Colossal Cave Adventure*](../2022-08-09-llegando-los-monos) probó que, apenas con texto y algunas nociones de cartografía, esas carísimas calculadoras podían ser también motores de la imaginación.
 
@@ -79,15 +77,13 @@ Así, los desarrolladores independientes siguen apelando al *pixel art* para toc
 
 Bien entrada la tarde, las traducciones desparramadas en el piso del living, Carlos Frías, el editor de Emecé, golpeó la puerta del departamento de Barnstone en la calle Maipú.
 
-&#x2014;Borges le manda un mensaje sobre los sonetos &#x2014;dijo el editor.  
-&#x2014;¿Qué dice?  
-&#x2014;En su traducción del poema sobre Whitman, "Camden, 1892" &#x2014;dijo Frías tímidamente&#x2014;, Borges piensa que la última rima está mal. No encontró una rima consonante con las últimas palabras del soneto: "Walt Whitman".  
+&#x2014;Borges le manda un mensaje sobre los sonetos &#x2014;dijo el editor. &#x2014;¿Qué dice? &#x2014;En su traducción del poema sobre Whitman, "Camden, 1892" &#x2014;dijo Frías tímidamente&#x2014;, Borges piensa que la última rima está mal. No encontró una rima consonante con las últimas palabras del soneto: "Walt Whitman".
 
 Se preguntó por qué no lo llamó o vino en persona. Borges vivía enfrente y se veían seguido, Barnstone le había leído sus traducciones, ¿para qué un mensajero?
 
 Empezó a rebuscar justificaciones, defendiendo las rimas imperfectas, diciendo que los poetas modernos prefieren las rimas asonantes, que&#x2026; &#x2014;Borges quiere que se esfuerce un poco más &#x2014;lo interrumpió Frías. Estaba preparado para esas excusas.
 
-Así que Barnstone se esforzó un poco más. Descubrió que no era más difícil lograr rimas  perfectamente consonantes y que ese logro traía otras ventajas. Como escribió Antoine de Saint-Exupéry en su novela *Vuelo de Noche*: uno se mide según la resistencia con la que se encuentra. Cada obstáculo formal forzaba su imaginación a mirar más allá. Adentrándose en lo desconocido, Barnstone evitaba la tentación de la traducción literal. Era asombroso lo que esperaba ahí, desapercibido, si hacía el esfuerzo de encontrarlo. No alcanzaba con uno o dos intentos sino diez, quince, hasta que, de la nada, surgía una versión que recreaba musical y semánticamente el original, sin dañar el sonido, sin diluir el sentido.
+Así que Barnstone se esforzó un poco más. Descubrió que no era más difícil lograr rimas perfectamente consonantes y que ese logro traía otras ventajas. Como escribió Antoine de Saint-Exupéry en su novela *Vuelo de Noche*: uno se mide según la resistencia con la que se encuentra. Cada obstáculo formal forzaba su imaginación a mirar más allá. Adentrándose en lo desconocido, Barnstone evitaba la tentación de la traducción literal. Era asombroso lo que esperaba ahí, desapercibido, si hacía el esfuerzo de encontrarlo. No alcanzaba con uno o dos intentos sino diez, quince, hasta que, de la nada, surgía una versión que recreaba musical y semánticamente el original, sin dañar el sonido, sin diluir el sentido.
 
 <br/>
 <div class="text-center">
@@ -141,7 +137,7 @@ Esta historia tiene su reverso en la de Gaspard Winckler, el carpintero que fabr
 
 > La mirada sigue los caminos que se le han reservado en la obra.
 
-La frase es de un cuaderno del pintor Paul Klee y es la cita que abre el Preámbulo de *La Vida instrucciones de uso*. Después, Perec nos explica el arte de los rompecabezas. Nos dice que es un arte del conjunto, que no tiene sentido analizar las piezas aisladamente: el puzzle es una forma, una estructura. Dice que los puzzles industriales, cortados a máquina, carecen de interés:  un cortado aleatorio producirá necesariamente una dificultad aleatoria.
+La frase es de un cuaderno del pintor Paul Klee y es la cita que abre el Preámbulo de *La Vida instrucciones de uso*. Después, Perec nos explica el arte de los rompecabezas. Nos dice que es un arte del conjunto, que no tiene sentido analizar las piezas aisladamente: el puzzle es una forma, una estructura. Dice que los puzzles industriales, cortados a máquina, carecen de interés: un cortado aleatorio producirá necesariamente una dificultad aleatoria.
 
 > El arte del puzzle comienza con los puzzles de madera cortados a mano, cuando <b>el que los fabrica intenta plantearse todos los interrogantes que habrá de resolver el jugador</b>; cuando, en vez de dejar confundir todas las pistas al azar, pretende sustituirlo por la astucia, las trampas, la ilusión: premeditadamente todos los elementos que figuran en la imagen que hay que reconstruir servirán de punto de partida para una información engañosa. (&#x2026;) De todo ello se deduce lo que, sin duda, constituye la verdad última del puzzle: a pesar de las apariencias, <b>no se trata de un juego solitario: cada gesto que hace el jugador de puzzle ha sido hecho antes por el creador del mismo</b>; cada pieza que coge y vuelve a coger, que examina, que acaricia, cada combinación que prueba y vuelve a probar de nuevo, cada tanteo, cada intuición, cada esperanza, cada desilusión han sido decididos, calculados, estudiados por el otro.
 
@@ -171,10 +167,9 @@ Pero también hay puzzles en lugares menos obvios: en los niveles del primer *Su
 </div>
 <div><br/></div>
 
-El videojuego como puzzle requiere que haya intencionalidad del autor y que esta sea perceptible. Y exige del jugador la predisposición a relacionarse con la forma antes que con el contenido del juego, a entenderlo como artefacto antes que como  historia, experiencia o ejercicio de destreza.
+El videojuego como puzzle requiere que haya intencionalidad del autor y que esta sea perceptible. Y exige del jugador la predisposición a relacionarse con la forma antes que con el contenido del juego, a entenderlo como artefacto antes que como historia, experiencia o ejercicio de destreza.
 
-El videojuego como puzzle es el reverso de la restricción creativa: el diseñador presenta un problema restringido por unas reglas y unas herramientas, y el jugador adquiere esas herramientas y aprende a aplicarlas, descubre las reglas y las pone a prueba,
-razona la manera de combinar los elementos disponibles —según lo anticipó el diseñador, siguiendo indicios, eludiendo obstáculos— para encontrar, para *crear,* una solución.
+El videojuego como puzzle es el reverso de la restricción creativa: el diseñador presenta un problema restringido por unas reglas y unas herramientas, y el jugador adquiere esas herramientas y aprende a aplicarlas, descubre las reglas y las pone a prueba, razona la manera de combinar los elementos disponibles —según lo anticipó el diseñador, siguiendo indicios, eludiendo obstáculos— para encontrar, para *crear,* una solución.
 
 El videojuego como puzzle provee una satisfacción parecida a la del rompecabezas y, acaso, a la de animar pixeles en ocho colores, a la de traducir un poema, a la de demostrar un teorema, a la de escribir una novela oulipiana, a la de escribir esto, a la de programar. Ese diálogo entre quien maneja un instrumento y un otro intuido o imaginado; esa disposición de unos recursos limitados, con ingenio y hasta creatividad, para resolver un problema, son, también, formas de la felicidad.
 
@@ -196,4 +191,3 @@ El videojuego como puzzle provee una satisfacción parecida a la del rompecabeza
 -   [*Why Adventure Games Suck*](https://grumpygamer.com/why_adventure_games_suck), Ron Gilbert.
 
 <br/>
-
