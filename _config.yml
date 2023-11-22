@@ -27,3 +27,9 @@ feed:
   excerpt_only: true
   tags:
     path: "/feed/"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

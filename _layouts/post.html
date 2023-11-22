@@ -1,6 +1,8 @@
 ---
 layout: base
 sections: [["/blog", "/blog"]]
+prefix: "/org"
+extension: .org
 ---
 
 <nav class="text-center">
@@ -35,4 +37,6 @@ sections: [["/blog", "/blog"]]
         <a href="/blog/tags#{{tag}}">#{{tag}}</a>
         {% endfor %}
     </span>
+    <br/>
+    {% include source_path.html %}
 </p>

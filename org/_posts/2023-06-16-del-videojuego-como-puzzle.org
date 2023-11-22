@@ -18,7 +18,7 @@ excerpt: "El videojuego como puzzle se parece a animar pixeles en ocho colores, 
 <div class="text-center">
  <img src="../assets/img/puzzle/p1.png">
 </div>
-<br/>
+<div><br/></div>
 #+END_EXPORT
 
 En ciencia y tecnología, como en la discografía de Frank Zappa, se suele decir que /la necesidad es madre de la invención/. Pensando en los juegos de computadora, cada sucesiva innovación ---los primeros gráficos, los colores, el CD-ROM, el audio, la aceleración 3D---
@@ -42,7 +42,7 @@ Así, Mark Ferrari, aquel ilustrador de Lucasfilm Games, le encontró la vuelta 
 <div class="text-center">
  <img src="../assets/img/puzzle/p2.png">
 </div>
-<br/>
+<div><br/></div>
 #+END_EXPORT
 
 Para su segundo juego, Jordan Mechner quería evocar los primeros minutos de /Cazadores del Arca Perdida/, en los que se presenta a Indiana Jones saltando, rodando por el piso, colgando de un foso y escapando de una bola de piedra gigante. Mechner aspiraba a que el jugador de /Prince of Persia/ se compenetrara con su héroe, que se contagiara de la sensación de peligro inminente y se sintiera él mismo colgando al borde del abismo.
@@ -68,7 +68,7 @@ La técnica de rotoscoping se usaría en otros clásicos, los franceses /Another
 <div class="text-center">
  <img src="../assets/img/puzzle/p3.png">
 </div>
-<br/>
+<div><br/></div>
 #+END_EXPORT
 
 Las limitaciones del hardware, lejos de ser un impedimento resultaron un impulso para la innovación. Ideas parecidas se expresan en las artes tradicionales al decir que las restricciones engendran creatividad o que "la forma es liberadora". El tamaño del lienzo y la paleta de colores en la pintura; la métrica y la rima en poesía; los actos y las escenas en teatro, son estructuras que establecen el universo de posibilidades a ser abarcadas y estudiadas. Definen unos límites que entonces pueden ser compensados, cuestionados o subvertidos para crear algo nuevo.
@@ -92,7 +92,7 @@ Así, los desarrolladores independientes siguen apelando al /pixel art/ para toc
 <div class="text-center">
  <img src="../assets/img/puzzle/p4.png">
 </div>
-<br/>
+<div><br/></div>
 #+END_EXPORT
 
 Bien entrada la tarde, las traducciones desparramadas en el piso del living, Carlos Frías, el editor de Emecé, golpeó la puerta del departamento de Barnstone en la calle Maipú.
@@ -112,7 +112,7 @@ Así que Barnstone se esforzó un poco más. Descubrió que no era más difícil
 <div class="text-center">
  <img src="../assets/img/puzzle/p5.png">
 </div>
-<br/>
+<div><br/></div>
 #+END_EXPORT
 
 Los miembros del Oulipo se definen a sí mismos como /ratas que construyen ellas mismas el laberinto del cual se proponen salir/. Fundado a mediados del siglo XX por un grupo de literatos y matemáticos franceses, este /Ovroir de Littérature Potentielle/ se dedica a estudiar el uso creativo de las restricciones (/contraintes/), reconociéndolas como un estímulo para la imaginación, capaces de revelar el potencial oculto del lenguaje. Por un lado, estudian y actualizan los usos de la restricción en la historia de la literatura; por el otro, inventan nuevas técnicas y las aplican a la producción de textos literarios.
@@ -136,7 +136,7 @@ Lo que en este caso es un mero entretenimiento constituye el proyecto literario 
 <div class="text-center">
  <img src="../assets/img/puzzle/p6.png">
 </div>
-<br/>
+<div><br/></div>
 #+END_EXPORT
 
 Así explica Perec su proyecto para /La vida instrucciones de uso/:
@@ -169,7 +169,7 @@ Esta historia tiene su reverso en la de Gaspard Winckler, el carpintero que fabr
 <div class="text-center">
  <img src="../assets/img/puzzle/p7.png">
 </div>
-<br/>
+<div><br/></div>
 #+END_EXPORT
 
 #+begin_quote
@@ -189,7 +189,7 @@ Lo que nos dice Perec, refiriéndose en la superficie a los rompecabezas y en el
 <div class="text-center">
  <img src="../assets/img/puzzle/p8.png">
 </div>
-<br/>
+<div><br/></div>
 #+END_EXPORT
 
 Si bien hay videojuegos de género /puzzle/, no necesariamente siguen la lógica del rompecabezas artesanal que describe Perec. Tomemos como ejemplo al /Tetris/, el mejor representante del género. El trabajo de Alekséi Pázhitnov terminó en los años 80, en la Unión Soviética, al definir las reglas generales del juego y la forma de las piezas. Desde entonces, los jugadores nos quedamos solos frente a las tiranías del azar y del reloj, que nos mandan piezas cada vez más rápido. El /Tetris/ se parece más a un puzzle industrial, cortado aleatoriamente por una máquina.
@@ -211,7 +211,7 @@ Pero también hay puzzles en lugares menos obvios: en los niveles del primer /Su
 <div class="text-center">
  <img src="../assets/img/puzzle/p9.png">
 </div>
-<br/>
+<div><br/></div>
 #+END_EXPORT
 
 El videojuego como puzzle requiere que haya intencionalidad del autor y que esta sea perceptible. Y exige del jugador la predisposición a relacionarse con la forma antes que con el contenido del juego, a entenderlo como artefacto antes que como  historia, experiencia o ejercicio de destreza.
