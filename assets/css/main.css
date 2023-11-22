@@ -61,6 +61,10 @@ ul.site-index {
     text-indent: 3rem;
 }
 
+.layout-post .footnotes p {
+    text-indent: 0rem;
+}
+
 .layout-post h1, .layout-post .subtitle {
     text-align: center;
 }
