@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Derivas del bazar"
-date: 2023-11-05 13:25:02
+date: 2023-11-23
 tags: [software, utopías]
 image: assets/img/libre.jpg
 excerpt: Linux y Wikipedia demostraron, durante lo que posiblemente haya sido el período de mayor hegemonía del individualismo liberal, que la innovación y el bien público son mejor propiciadas por la colaboración voluntaria entre pares que por la competencia de mercado.
