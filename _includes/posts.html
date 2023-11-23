@@ -2,8 +2,8 @@
 
     <article>
 
-        {% if post.favorite %} ⭐ {% endif %} {% if post.translation %} 🇬🇧 {% endif %}
-        <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+        {% if post.favorite %} ⭐ {% endif %} {% if post.lang == 'en' %} 🇬🇧 {% endif %}
+        <a class="title" href="{{ post.external | default:post.url }}">{{ post.title }}</a>
         <br/>
         <small>
             <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>

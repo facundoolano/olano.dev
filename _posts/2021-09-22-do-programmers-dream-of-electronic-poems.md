@@ -2,7 +2,8 @@
 layout: post
 title: "Do programmers dream of electric poems?"
 subtitle: Programming and writing
-translation: true
+lang: en
+tags: [programación, software, literatura]
 ---
 
 Depending on who you ask, you may hear that programming is a kind of logic or a branch of mathematics; that it's akin to architecture or urban planning, or even painting or music. I don't think any of those analogies is better than the next, or that there's a single right characterization of the software creation process. Rather, I would say that programming, and more generally software design, can be approached in multiple ways. That, depending on their particular preferences, intellectual inclinations, and dispositions, different people will benefit from different mindsets when approaching their work.
@@ -66,16 +67,13 @@ Revised on September 2023.
 
 <section class="footnotes" markdown=1>
 ## Notas
-<!--- 
-# Footnotes
 
- -->
-<sup><a id="fn.1" href="#fnr.1">1</a></sup> [Literate Programming](http://www.literateprogramming.com/knuthweb.pdf), by Donald Knuth.
+<sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> [Literate Programming](http://www.literateprogramming.com/knuthweb.pdf), by Donald Knuth.
 
-<sup><a id="fn.2" href="#fnr.2">2</a></sup> [Lector in Codigo](https://alvaro-videla.com/2018/05/lector-in-codigo.html#the-model-reader), by Álvaro Videla.
+<sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> [Lector in Codigo](https://alvaro-videla.com/2018/05/lector-in-codigo.html#the-model-reader), by Álvaro Videla.
 
-<sup><a id="fn.3" href="#fnr.3">3</a></sup> Writers sometimes work with an editor: someone who can give impressions and exchange ideas with the author, suggest (or demand) changes. The editor works as a concrete reader that complements the model reader from the creative phase. I think this role resembles that of the colleague that peer reviews the code during development.
+<sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> Writers sometimes work with an editor: someone who can give impressions and exchange ideas with the author, suggest (or demand) changes. The editor works as a concrete reader that complements the model reader from the creative phase. I think this role resembles that of the colleague that peer reviews the code during development.
 
-<sup><a id="fn.4" href="#fnr.4">4</a></sup> For example [Chéjov](https://www.pagina12.com.ar/diario/suplementos/libros/subnotas/1823-238-2005-11-13.html) and [Stephen King](https://www.businessinsider.com/stephen-king-on-how-to-write-2014-8#20-when-youre-finished-writing-take-a-long-step-back-220).
+<sup><a id="fn.4" class="footnum" href="#fnr.4">4</a></sup> For example [Chéjov](https://www.pagina12.com.ar/diario/suplementos/libros/subnotas/1823-238-2005-11-13.html) and [Stephen King](https://www.businessinsider.com/stephen-king-on-how-to-write-2014-8#20-when-youre-finished-writing-take-a-long-step-back-220).
 
 </section>

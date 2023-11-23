@@ -23,8 +23,11 @@ extension: .org
     <br/>
     {% endif %}
 
-
+    {% if page.external%}
+    Post available <a href="{{page.external}}">at an external site</a>.
+    {% else %}
     {{ content }}
+    {% endif %}
 </div>
 
 <br/>

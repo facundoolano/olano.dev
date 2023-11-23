@@ -1,0 +1,9 @@
+---
+layout: post
+date: 2020-05-07
+title: "Squeezing the most out of the server: Erlang Profiling"
+external: "https://tech.nextroll.com/blog/dev/2020/04/07/erlang-profiling.html"
+lang: en
+image: https://tech.nextroll.com/images/post_images/erlang_joe.jpg
+tags: [software, programación]
+---
