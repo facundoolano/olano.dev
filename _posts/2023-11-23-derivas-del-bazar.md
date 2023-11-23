@@ -10,7 +10,7 @@ excerpt: Linux y Wikipedia demostraron, durante lo que posiblemente haya sido el
 
 ## Las leyes de Linus
 
-Si pudiera salvar dos cosas del fuego de internet, salvaría Linux y Wikipedia. Linux y Wikipedia nos importan, claro, por ser las mayores producciones colaborativas de la historia. Pero nos importan más por los incentivos que alentaron a sus muchos autores y por la calidad de sus resultados, aspectos bien expresados en las dos *leyes de Linus*.
+Si pudiera salvar dos cosas del fuego de internet, salvaría Linux y Wikipedia. Linux y Wikipedia nos importan, claro, por ser las mayores producciones colaborativas de la historia. Pero nos importan más por los incentivos que alentaron a sus muchos autores y por la calidad de los resultados, aspectos bien expresados en las dos *leyes de Linus*.
 
 La primera ley de Linus la escribió Eric Raymond en su ensayo *The Cathedral and the Bazaar*:
 
