@@ -1,22 +1,17 @@
-#+OPTIONS: toc:nil num:nil
-#+LANGUAGE: es
-#+BEGIN_EXPORT html
 ---
 layout: post
 title: "El método psicoanalítico"
-date: 2023-11-27
+date: 2023-11-28
 tags: [ficción]
 image: assets/img/freud.jpg
 excerpt: "Justo enfrente hay un cuadro abstracto: dos rectángulos irregulares sobre un fondo blanco. Ernesto fija la vista en el espacio entre los dos rectángulos, le parece que ahí falta algo, que en ese lugar tendría que haber una tercer figura, y se concentra como si pudiera hacerla aparecer a fuerza de mirar. Tanto se concentra que tarda un rato en darse cuenta de que lo están llamando."
 ---
-#+END_EXPORT
-
 
 La línea de asientos se extiende hasta el final del pasillo, ocupada en su mayor parte por mujeres embarazadas. También hay dos jóvenes en muletas, los dos en ropa deportiva. Ernesto se acomoda en un rincón, de pie, para no estorbar la circulación. Justo enfrente hay un cuadro abstracto: dos rectángulos irregulares sobre un fondo blanco. Ernesto fija la vista en el espacio entre los dos rectángulos, le parece que ahí falta algo, que en ese lugar tendría que haber una tercer figura, y se concentra como si pudiera hacerla aparecer a fuerza de mirar. Tanto se concentra que tarda un rato en darse cuenta de que lo están llamando. Su nombre viene de la puerta abierta de uno de los consultorios. Se levanta.
 
 —¿Cómo estás? —Gutiérrez le ofrece una mano y una amplia sonrisa, enmarcada en su barba canosa.
 
-—Mucho gusto —Ernesto repara en el delantal de Gutiérrez y agrega:—, doctor.  ¿Se dice doctor?
+—Mucho gusto —Ernesto repara en el delantal de Gutiérrez y agrega:—, doctor. ¿Se dice doctor?
 
 —Bueno, estrictamente hablando soy Licenciado en Psicología —Cierra la puerta y hace un gesto para que Ernesto tome asiento—. Pero no desaliento a quienes me llaman doctor. Al fin y al cabo tengo pacientes, ¿no? Y, de alguna manera, salvo vidas.
 
@@ -26,7 +21,7 @@ Pasa un rato sin que ninguno hable.
 
 —Bueno, vine porque… —empieza Ernesto.
 
-—No, no —lo interrumpe Gutiérrez, levantando el dedo índice—. No me digas, dejame adivinar: es mi trabajo —Se toma unos segundos más—.  ¿Problemas de pareja?
+—No, no —lo interrumpe Gutiérrez, levantando el dedo índice—. No me digas, dejame adivinar: es mi trabajo —Se toma unos segundos más—. ¿Problemas de pareja?
 
 —No.
 
@@ -50,7 +45,7 @@ Gutiérrez abre un cajón, saca un rectángulo de cartulina y lo levanta con las
 
 —Ernesto…
 
-—¿Tendrá algo que ver con /El Principito/? Creo que me hizo mal ese libro.
+—¿Tendrá algo que ver con *El Principito*? Creo que me hizo mal ese libro.
 
 —Ernesto —insiste Gutiérrez, ya sin sonreír.
 
@@ -66,7 +61,7 @@ Gutiérrez abre un cajón, saca un rectángulo de cartulina y lo levanta con las
 
 —Contame.
 
-—No sé... Era sobre unos inmigrantes europeos. El protagonista era un anarquista español.
+—No sé&#x2026; Era sobre unos inmigrantes europeos. El protagonista era un anarquista español.
 
 —¿Y eso te interesaba?
 
@@ -106,8 +101,7 @@ Ernesto lo mira extrañado. En lugar del delantal, Gutiérrez lleva ahora una so
 
 —Ya veo —asiente Gutiérrez y anota algo en su libreta—. Esto me interesa. Vení, vamos a hacer la interpretación de los sueños.
 
-Se levantan y pasan a una habitación contigua, que Ernesto no había notado antes. La decoración es distinta al resto de la clínica: las paredes y el techo son de un celeste intenso, el piso está cubierto con una alfombra verde gastada. En la pared opuesta a la puerta hay dos ventanas grandes;
-no se alcanza a ver del otro lado pero es tanta la luz que entra que Ernesto puede distinguir las partículas flotando en el aire. En el centro de la habitación hay un diván y, a un costado, un sillón y una pequeña mesa. Ernesto encara hacia el diván pero Gutiérrez lo agarra del brazo.
+Se levantan y pasan a una habitación contigua, que Ernesto no había notado antes. La decoración es distinta al resto de la clínica: las paredes y el techo son de un celeste intenso, el piso está cubierto con una alfombra verde gastada. En la pared opuesta a la puerta hay dos ventanas grandes; no se alcanza a ver del otro lado pero es tanta la luz que entra que Ernesto puede distinguir las partículas flotando en el aire. En el centro de la habitación hay un diván y, a un costado, un sillón y una pequeña mesa. Ernesto encara hacia el diván pero Gutiérrez lo agarra del brazo.
 
 —Ahí voy yo —dice y le indica que se siente en el sillón. Después se recuesta en el diván, de cara al techo y con las manos enlazadas sobre la panza.
 
@@ -141,8 +135,7 @@ Ernesto levanta la cabeza y mira a Gutiérrez. Está acostado sobre una reposera
 
 —¿Qué es la Prueba del Traje de Baño? —pregunta Ernesto.
 
-—Es un salto de fe, una forma de evaluar la confianza del paciente en el método psicoanalítico.
-Gutiérrez se levanta y le hace un gesto a Ernesto para que lo siga. Caminan unos metros, descalzos, pisando el pasto del jardín; llegan a una pileta y la bordean con paso rápido para no quemarse los pies. Se detienen a la sombra de la plataforma de salto, junto a la escalera.
+—Es un salto de fe, una forma de evaluar la confianza del paciente en el método psicoanalítico. Gutiérrez se levanta y le hace un gesto a Ernesto para que lo siga. Caminan unos metros, descalzos, pisando el pasto del jardín; llegan a una pileta y la bordean con paso rápido para no quemarse los pies. Se detienen a la sombra de la plataforma de salto, junto a la escalera.
 
 —¿Listo? —pregunta Gutiérrez con una mano en la escalera. Empieza a trepar y Ernesto hace lo mismo.
 
@@ -178,7 +171,7 @@ Gutiérrez lo está esperando afuera, le tiende una toalla.
 
 —¿Cómo estuve? —pregunta Ernesto mientras trepa por el borde de la pileta.
 
-—Y… te tiraste /tipo bomba/ —comenta Gutiérrez—. ¿No te parece significativo, considerando tu orientación política?
+—Y… te tiraste *tipo bomba* —comenta Gutiérrez—. ¿No te parece significativo, considerando tu orientación política?
 
 Vuelven caminando por el pasto hacia la zona de las reposeras. Ernesto se seca la cabeza.
 
@@ -198,9 +191,6 @@ Gutiérrez consulta su reloj antes de contestar:
 
 —Ahora se nos acabó el tiempo. Nos vemos la semana que viene.
 
-
-#+begin_export html
 <br/>
 <div align="right">(2015)</div>
 <br/>
-#+end_export
