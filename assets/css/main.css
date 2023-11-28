@@ -42,6 +42,8 @@ ul.site-index {
 }
 
 .layout-post {
+    hyphens: auto;
+    text-align: justify;
     font-size: 1.15rem;
     line-height: 1.6;
 

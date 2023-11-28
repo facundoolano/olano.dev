@@ -10,7 +10,7 @@ extension: .org
     <a href="/blog">/blog</a>
 </nav>
 
-<div class="content layout-{{ page.layout }}">
+<div class="content layout-{{ page.layout }}" lang="{{ page.lang | default:'es'}}">
     <h1>{{ page.title }}</h1>
     {% if page.subtitle %}<h3 class="subtitle">{{ page.subtitle }}</h3>{% endif  %}
 
