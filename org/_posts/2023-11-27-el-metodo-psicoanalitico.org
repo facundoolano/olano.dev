@@ -7,11 +7,12 @@ title: "El método psicoanalítico"
 date: 2023-11-27
 tags: [ficción]
 image: assets/img/freud.jpg
+excerpt: "Justo enfrente hay un cuadro abstracto: dos rectángulos irregulares sobre un fondo blanco. Ernesto fija la vista en el espacio entre los dos rectángulos, le parece que ahí falta algo, que en ese lugar tendría que haber una tercer figura, y se concentra como si pudiera hacerla aparecer a fuerza de mirar. Tanto se concentra que tarda un rato en darse cuenta de que lo están llamando."
 ---
 #+END_EXPORT
 
 
-La línea de asientos se extiende hasta el final del pasillo, ocupada en su mayor parte por mujeres embarazadas. También hay dos jóvenes en muletas, los dos en ropa deportiva. Ernesto se acomoda en un rincón, de pie, para no estorbar la circulación. Justo enfrente tiene un cuadro de un dibujo abstracto: dos rectángulos irregulares sobre un fondo blanco. Ernesto fija la vista en el espacio entre los dos rectángulos. Le parece que ahí falta algo, que en ese lugar tendría que haber una tercer figura, y se concentra como si pudiera hacerla aparecer a fuerza de mirar, como en una ilusión óptica. Tanto se concentra que tarda un rato en darse cuenta de que lo están llamando. Su nombre viene de la puerta abierta de uno de los consultorios. Se levanta.
+La línea de asientos se extiende hasta el final del pasillo, ocupada en su mayor parte por mujeres embarazadas. También hay dos jóvenes en muletas, los dos en ropa deportiva. Ernesto se acomoda en un rincón, de pie, para no estorbar la circulación. Justo enfrente hay un cuadro abstracto: dos rectángulos irregulares sobre un fondo blanco. Ernesto fija la vista en el espacio entre los dos rectángulos, le parece que ahí falta algo, que en ese lugar tendría que haber una tercer figura, y se concentra como si pudiera hacerla aparecer a fuerza de mirar. Tanto se concentra que tarda un rato en darse cuenta de que lo están llamando. Su nombre viene de la puerta abierta de uno de los consultorios. Se levanta.
 
 —¿Cómo estás? —Gutiérrez le ofrece una mano y una amplia sonrisa, enmarcada en su barba canosa.
 
@@ -21,7 +22,7 @@ La línea de asientos se extiende hasta el final del pasillo, ocupada en su mayo
 
 El escritorio de Gutiérrez tiene las dimensiones de una mesa de billar. El sillón es de respaldo alto y aparenta más comodidad que la silla en la que Ernesto está sentado. Por encima de Gutiérrez se ve una foto de Freud sosteniendo un cigarro. El aspecto de los dos psicólogos es casi idéntico: frente amplia, barba blanca, mirada penetrante; la mayor diferencia está en la sonrisa de Gutiérrez, una sonrisa tan insistente que obliga a Ernesto a darse vuelta para confirmar que no hay nadie atrás suyo.
 
-Pasan varios segundos sin que ninguno hable.
+Pasa un rato sin que ninguno hable.
 
 —Bueno, vine porque… —empieza Ernesto.
 
@@ -49,7 +50,7 @@ Gutiérrez abre un cajón, saca un rectángulo de cartulina y lo levanta con las
 
 —Ernesto…
 
-—¿Tendrá algo que ver con /El Principito/? Creo que tengo una fijación con ese libro.
+—¿Tendrá algo que ver con /El Principito/? Creo que me hizo mal ese libro.
 
 —Ernesto —insiste Gutiérrez, ya sin sonreír.
 
@@ -65,7 +66,7 @@ Gutiérrez abre un cajón, saca un rectángulo de cartulina y lo levanta con las
 
 —Contame.
 
-—No sé, era sobre unos inmigrantes europeos. El protagonista era un anarquista español.
+—No sé... Era sobre unos inmigrantes europeos. El protagonista era un anarquista español.
 
 —¿Y eso te interesaba?
 
@@ -91,7 +92,7 @@ Gutiérrez hace una pausa antes de preguntar:
 
 —¿Por qué lo preguntás? —El tema parece aburrirlo y no le da tiempo a contestar—. Sigamos.
 
-Saca una nueva cartulina. Esta vez la palabra es “Tramposa”. Ernesto no dice nada; aprieta la boca y, más que pensar, parece esforzarse en no mover los ojos de la cartulina, como si supiera que en el cuadro de Freud la mirada severa ahora es la de su madre.
+Saca otra cartulina. Esta vez la palabra es “Tramposa”. Ernesto no dice nada; aprieta la boca y, más que pensar, parece esforzarse en no mover los ojos de la cartulina, como si supiera que en el cuadro de Freud la mirada severa ahora es la de su madre.
 
 —¿Otra vez con eso, Ernesto? —pregunta Gutiérrez. Deja la cartulina y anota algo en una libreta—. ¿Hay algo que quieras contarme? Te recuerdo que todo lo que digas queda entre nosotros.
 
@@ -105,10 +106,8 @@ Ernesto lo mira extrañado. En lugar del delantal, Gutiérrez lleva ahora una so
 
 —Ya veo —asiente Gutiérrez y anota algo en su libreta—. Esto me interesa. Vení, vamos a hacer la interpretación de los sueños.
 
-Se levantan y pasan a una habitación contigua, que Ernesto no había notado antes. La decoración es distinta al resto de la clínica: las paredes y el techo son de un celeste intenso, el suelo está cubierto con una alfombra verde gastada. En la pared opuesta a la puerta hay dos ventanas grandes;
-no se alcanza a ver del otro lado pero es tanta la luz que dejan pasar que Ernesto puede distinguir partículas flotando en el aire.
-
-En el centro de la habitación hay un diván y, a un costado, un sillón y una pequeña mesa. Ernesto da un paso hacia el diván pero Gutiérrez lo agarra del brazo.
+Se levantan y pasan a una habitación contigua, que Ernesto no había notado antes. La decoración es distinta al resto de la clínica: las paredes y el techo son de un celeste intenso, el piso está cubierto con una alfombra verde gastada. En la pared opuesta a la puerta hay dos ventanas grandes;
+no se alcanza a ver del otro lado pero es tanta la luz que entra que Ernesto puede distinguir las partículas flotando en el aire. En el centro de la habitación hay un diván y, a un costado, un sillón y una pequeña mesa. Ernesto encara hacia el diván pero Gutiérrez lo agarra del brazo.
 
 —Ahí voy yo —dice y le indica que se siente en el sillón. Después se recuesta en el diván, de cara al techo y con las manos enlazadas sobre la panza.
 
@@ -128,7 +127,7 @@ Ernesto se acomoda en el sillón y se cruza de piernas.
 
 —¿De qué se trata? —Ernesto fija la vista en la alfombra verde, preocupado por captar cada palabra.
 
-—Siempre es la misma secuencia: hacemos la entrevista inicial, donde surge que es clavado un Edipo. Después pasamos a la interpretación de los sueños, pero es el paciente el que me analiza a mí.
+—Siempre es la misma secuencia: hacemos la entrevista inicial, donde surge que es un Edipo no resuelto. Después pasamos a la interpretación de los sueños, pero es el paciente el que me analiza a mí.
 
 —¿Como ahora?
 
@@ -142,7 +141,7 @@ Ernesto levanta la cabeza y mira a Gutiérrez. Está acostado sobre una reposera
 
 —¿Qué es la Prueba del Traje de Baño? —pregunta Ernesto.
 
-—Es un salto de fe, una forma de evaluar la confianza del paciente en el Método Psicoanalítico.
+—Es un salto de fe, una forma de evaluar la confianza del paciente en el método psicoanalítico.
 Gutiérrez se levanta y le hace un gesto a Ernesto para que lo siga. Caminan unos metros, descalzos, pisando el pasto del jardín; llegan a una pileta y la bordean con paso rápido para no quemarse los pies. Se detienen a la sombra de la plataforma de salto, junto a la escalera.
 
 —¿Listo? —pregunta Gutiérrez con una mano en la escalera. Empieza a trepar y Ernesto hace lo mismo.
@@ -155,7 +154,7 @@ Unos metros más arriba, Ernesto grita:
 
 Por un rato no se escucha más que el ruido de las manos y los pies contra los escalones metálicos. El cielo perfectamente azul, sin una nube, se confunde con la plataforma.
 
-—Al final —grita Gutiérrez, inclinando la cabeza—, nunca me dijiste qué te hizo venir a terapia… Sacando lo del anarquismo.
+—Al final —grita Gutiérrez, inclinando la cabeza—, no me dijiste por qué viniste a terapia… Sacando lo del anarquismo.
 
 —Estrés laboral.
 
@@ -171,11 +170,11 @@ Ernesto camina hasta el borde del trampolín y asoma la cabeza.
 
 —¿Y si no le emboco? —pregunta, pero Gutiérrez ya no está a la vista.
 
-Se adelanta un poco más, hasta que los dedos de los pies le quedan suspendidos en el aire. Tira atrás los hombros y el cuello hacia adelante, hace equilibrio con los brazos para mirar otra vez hacia abajo. La pileta es un punto celeste en el tapiz verde del jardín. Ernesto flexiona apenas las rodillas y el trampolín responde con un suave vaivén. Repite el movimiento y la oscilación se amplifica, va creciendo hasta que los talones se desprenden del tablón, rebotan un par de veces y lanzan a Ernesto por el aire.
+Se adelanta un poco más, hasta que los dedos de los pies le quedan suspendidos en el aire. Tira atrás los hombros y el cuello adelante, hace equilibrio con los brazos para mirar otra vez para abajo. La pileta es una mancha celeste en el tapiz verde del jardín. Ernesto flexiona apenas las rodillas y el trampolín responde con un suave vaivén. Repite el movimiento y la oscilación se amplifica, sigue creciendo hasta que los talones se desprenden del tablón, rebotan un par de veces y lanzan a Ernesto por el aire.
 
-Cae pesadamente, a mucha velocidad pero todavía lejos de la pileta, se da cuenta de que la malla es inapropiada para un clavado, es muy holgada y se agita ruidosamente, Ernesto tiene que agarrarla para que no se vuele y ese movimiento lo saca de eje; la pileta, ahora más cerca y acercándose, no coincide con su trayectoria. Ernesto agita ahora los brazos, los mueve como si tuviera alas y pudiera frenar con ellas la caída, pero el movimiento es inútil, el viento se escurre entre su cuerpo y lo empuja para abajo, siente el aire fluir como un líquido y eso lo invita a cambiar de postura, a abrirse paso como buceando en pleno vuelo y así reorientar la caída, y cuando queda justo arriba de la pileta y a punto de romper el agua, se abraza a sus piernas y comprime el cuerpo para aguantar el golpe. Se hunde ruidosamente, varios metros, hasta tocar con la planta de los pies el fondo de la pileta, y sale impulsado de vuelta a la superficie.
+Ernesto cae pesadamente, cada vez más rápido pero sin acercarse a la pileta; se da cuenta de que la malla es inapropiada para un clavado, es muy holgada y se agita ruidosamente, tiene que agarrarla para que no se vuele, y ese movimiento lo saca de eje; la pileta, ahora más cerca y acercándose, ya no parece coincidir con su trayectoria. Ernesto extiende ahora los brazos, los agita como si fueran alas y pudiera atenuar con ellas la caída, pero es inútil, el viento se escurre entre su cuerpo y lo empuja con más fuerza para abajo, siente el aire envolverlo como un líquido y eso lo invita a cambiar de postura, a abrirse paso como si buceara en pleno vuelo y así reorienta la caída, y cuando queda justo sobre la pileta y a punto de romper el agua, comprime el cuerpo y se abraza a las piernas para aguantar el impacto. Se hunde ruidosamente, varios metros, hasta tocar con la planta de los pies el fondo de la pileta, y rebota de vuelta a la superficie.
 
-Gutiérrez lo espera afuera y le tiende una toalla.
+Gutiérrez lo está esperando afuera, le tiende una toalla.
 
 —¿Cómo estuve? —pregunta Ernesto mientras trepa por el borde de la pileta.
 
