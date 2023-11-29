@@ -1,5 +1,5 @@
 serve:
-	bundle exec jekyll serve -l
+	bundle exec jekyll serve -l --drafts
 
 build:
 	bundle exec jekyll build
