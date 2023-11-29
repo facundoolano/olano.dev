@@ -9,9 +9,9 @@ lang: en
 
 ## Code is read more than written
 
-This phrase is by now common programmer knowledge<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>, a reminder that the person first writing a piece of code shouldn't buy convenience at the expense of the people that will have to read it and modify it. More generally, *code is read more than written* conveys the idea that it's usually a good mid and long-term investment to make the code maintainable, for example by writing tests and documentation, by keeping it simple, etc.
+The phrase by is now common programmer knowledge<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>, a reminder that the person first writing a piece of code shouldn't buy convenience at the expense of the people that will have to read and modify it later. More generally, *code is read more than written* conveys the idea that it's usually a good mid and long-term investment to make the code maintainable, for example by writing tests and documentation, by keeping it simple, etc. It's about having perspective about the software development cycle.
 
-Let's express this more succinctly as:
+Let's express this idea more succinctly as:
 
 <div class="org-center">
 <p>
@@ -19,12 +19,12 @@ Let's express this more succinctly as:
 </p>
 </div>
 
-I think this model can be extended to software development beyond code-writing, and used as a rule of thumb when characterizing problems and making decisions.
+I think this model can be extended to software development beyond code-writing, and used as a rule of thumb to identify problems and make decisions.
 
 
 ## Code is used more than read
 
-An obvious but often forgotten one: software should have a purpose, it's supposed to provide a service to some user:
+An obvious but often forgotten one: software should have a purpose, it's supposed to provide a service to some user. It doesn't matter how well written or maintainable the code is, nor how sophisticated the technology it uses, if it doesn't fulfill its purpose and provides a good experience to the user. Instead of guessing or asking what users need, it's best to put the program in front of them early and frequently and to incorporate what we learn in the process:
 
 <div class="org-center">
 <p>
@@ -32,14 +32,7 @@ An obvious but often forgotten one: software should have a purpose, it's suppose
 </p>
 </div>
 
-This has a lot of well-known implications:
-
--   it doesn't matter how well written or maintainable the code is, nor how sophisticated the technology, if it doesn't fulfill its purpose and provides a good user experience,
--   instead of guessing or asking what the user needs, it's best to put the program in front of them early and frequently.
-
-This is a strong mental model, just keeping users in mind can get us pretty far. This is approximately how I learned the job and how I understood it for the first half of my career.
-
-Before proceeding, let's group authors and maintainers, since the distinction won't be useful in broader contexts:
+Or, since we won't need to distinguish between developers anymore:
 
 <div class="org-center">
 <p>
@@ -47,12 +40,16 @@ Before proceeding, let's group authors and maintainers, since the distinction wo
 </p>
 </div>
 
+This is a strong mental model, just keeping the users in mind during development can get us pretty far. This is approximately how I learned the job and how I understood it for the first half of my career.
+
 
 ## Code is run more than read
 
-When I say `run` I don't just mean executing a program, I mean operating it in production, with all that that entails: deploying, upgrading, observing, auditing, monitoring, fixing, decommissioning, etc.
+When I say `run` I don't just mean executing a program, I mean operating it in production, with all that that entails: deploying, upgrading, observing, auditing, monitoring, fixing, decommissioning, etc. As Dan McKinley puts it in [*Choose Boring Technology*](https://mcfunley.com/choose-boring-technology):
 
-This is something that took me a while to fully grasp because, at least in my experience and that of the people I know, most of the software being developed doesn't never really gets to production, at least not at the expected scale. Most software is built on assumptions that never get tested.
+> It is basically always the case that the long-term costs of keeping a system working reliably vastly exceed any inconveniences you encounter while building it.
+
+We can incorporate this idea to our little expression:
 
 <div class="org-center">
 <p>
@@ -60,14 +57,14 @@ This is something that took me a while to fully grasp because, at least in my ex
 </p>
 </div>
 
-When you run software in production, the KISS mantra takes on a new dimension. It's not just about code anymore, it's a little bit about architecture and infra, but mostly about reducing the moving parts and understanding their failure modes. It's about shipping stuff and making sure it works even while it breaks. It's about using [boring tech](https://mcfunley.com/choose-boring-technology) in [radically simple](https://www.radicalsimpli.city/) ways.
+This is something that took me a while to fully grasp because, in my experience, a lot of the software being built never really gets to production, at least not at a significant scale. Most software is built on assumptions that never get tested. When you do run software in production, the KISS mantra takes on a new dimension. It's not just about code anymore, it's a little bit about architecture and infra, but mostly about reducing the moving parts and understanding their failure modes. It's about shipping stuff and making sure it works even while it breaks.
 
 
-## Also, there's a business
+## Follow the money
 
-the assumption was that something useful and with a good ux was going to have business value. this was about right for consumer and enterprise software.
+I said that keeping the users in mind during development can get us very far. This works under the assumption that software that's useful and works well, software of value to users, will bring money to the business. It's a convenient abstraction for developers: we do a good job so we don't need to worry about the business details. And it mostly works, especially for consumer and enterprise software.
 
-but maybe not necessarily so much for most software today. what about costs and budgets? what about stakeholders, investors
+But at some point that abstraction proves to be an oversimplification, and we can benefit from incorporating a business perspective:
 
 <div class="org-center">
 <p>
@@ -75,13 +72,15 @@ but maybe not necessarily so much for most software today. what about costs and 
 </p>
 </div>
 
+The most obvious example is budget: we don't have infinite resources to satisfy the user needs, we need to measure costs and benefits. There's marketing, there's deadlines. There are stakeholders and investors. There's personal interests and politics at play. Sometimes we'll have to work on what generates revenue, not what pleases the user. More on this later.
+
 
 ## Smells
 
-Software is all about trade-offs, about making choices, prioritizing, <maximizing the benefits to be attained with limited resources. We can use the previous model to identify common cases of misprioritizations or lack of perspective (a.k.a. *missing the big picture*).
+We arrived at a little model that expresses the relative importance of factors involved in <software development>, one that can perhaps help us to see the big-picture. Now I want to look at some common software development dysfunctions, and check how they relate to the model.
 
 
-### Ignoring maintainers
+### Ignoring or underestimating maintainers
 
 <div class="org-center">
 <p>
@@ -90,7 +89,7 @@ Software is all about trade-offs, about making choices, prioritizing, <maximizin
 </p>
 </div>
 
-This is where we started. This is clever and lazy code that turns into spaghetti and haunted forests, this is unnecessary performance optimizations.
+This is where we started. This is clever and lazy code that turns into spaghetti and haunted forests, this is premature optimizations, this is only-fred-touches-that-module.
 
 
 ### Ignoring operations
@@ -101,7 +100,7 @@ This is where we started. This is clever and lazy code that turns into spaghetti
 </p>
 </div>
 
-<Software that gets developed but it rarely (or never) gets to production. I call this *imaginary software*. Charity Majors calls it living a lie [LINK].
+This is software that's built but rarely (or never) gets to production. I call this *imaginary software*. Charity Majors [calls it](https://twitter.com/mipsytipsy/status/1308641574448803840?lang=es) living a lie.
 
 
 ### Underestimating operations
@@ -112,7 +111,7 @@ dev &gt; ops
 </p>
 </div>
 
-More commonly software does get deployed but it wasn't designed with its operation in mind. This it "works on my machine". This is overly complicated software with lots of moving parts, fancy databases for small data loads, small-team owned microservice ecosystems, etc. This is when the people that design the thing aren't the same that get woken up at night when it breaks.
+More frequently, software does get deployed but it wasn't designed with operating it as a priority. This is overly complicated software with lots of moving parts, fancy databases for small data loads, small-team-owned microservice ecosystems. This is "works on my machine". This is when the people that design the thing aren't the same that get woken up at night when it breaks.
 
 
 ### Ignoring users
@@ -123,9 +122,7 @@ biz &gt; <del>user</del> &gt; ops &gt; dev
 </p>
 </div>
 
-Perhaps a different kind of imaginary software, the one that doesn't have users or even doesn't know what users could look like. But it scales.
-
-This is software that doesn't solve a problem or solves the wrong problem, even nobody's problem. This is also taking some cool tech and hammering everything with it until something resembling a use case comes up.
+Perhaps a different kind of imaginary software, the one that doesn't have users or even doesn't know what users could look like. (But scales). This is software that doesn't solve a problem or solves the wrong problem, even nobody's problem. This is taking some cool tech and hammering everything with it until something resembling a use case comes up.
 
 
 ### Underestimating users
