@@ -15,7 +15,7 @@ Let's express this more succinctly as:
 
 <div class="org-center">
 <p>
-maintainer &gt; author
+<code>maintainer &gt; author</code>
 </p>
 </div>
 
@@ -24,35 +24,43 @@ I think this model can be extended to software development beyond code-writing, 
 
 ## Code is used more than read
 
-An obvious one: software has a purpose, it's supposed to provide a service to some user:
+An obvious but often forgotten one: software should have a purpose, it's supposed to provide a service to some user:
 
 <div class="org-center">
 <p>
-user &gt; maintainer &gt; author
+<code>user &gt; maintainer &gt; author</code>
 </p>
 </div>
 
 This has a lot of well-known implications:
 
--   it doesn't matter how well written or maintainable the code is, nor how sophisticated the technology, if it doesn't serve its purpose with a good user experience,
--   don't assume (or ask) what the user needs, put the program in front of the user as early and frequently as possible.
+-   it doesn't matter how well written or maintainable the code is, nor how sophisticated the technology, if it doesn't fulfill its purpose and provides a good user experience,
+-   instead of guessing or asking what the user needs, it's best to put the program in front of them early and frequently.
 
-This is a strong mental model, it can get us pretty far. This is approximately how I learned the job and how I understood it for the first half of my career.
+This is a strong mental model, just keeping users in mind can get us pretty far. This is approximately how I learned the job and how I understood it for the first half of my career.
+
+Before proceeding, let's group authors and maintainers, since the distinction won't be useful in broader contexts:
+
+<div class="org-center">
+<p>
+<code>user &gt; dev</code>
+</p>
+</div>
 
 
 ## Code is run more than read
 
 When I say `run` I don't just mean executing a program, I mean operating it in production, with all that that entails: deploying, upgrading, observing, auditing, monitoring, fixing, decommissioning, etc.
 
+This is something that took me a while to fully grasp because, at least in my experience and that of the people I know, most of the software being developed doesn't never really gets to production, at least not at the expected scale. Most software is built on assumptions that never get tested.
+
 <div class="org-center">
 <p>
-user &gt; operator &gt; maintainer &gt; author
+<code>user &gt; ops &gt; dev</code>
 </p>
 </div>
 
-This is something that took me a while to fully grasp because, at least in my experience and that of the people I know, most of the software being developed doesn't get to production, at least not at the expected scale. Most software is built on top of assumptions that never get tested.
-
-<when you run software in production, the KISS mantra takes on a new dimension. It's not just about code, it's about architecture and infra, it's about reducing the moving parts and understanding their failure modes, it's about shipping stuff and making sure it works even while it breaks.
+When you run software in production, the KISS mantra takes on a new dimension. It's not just about code anymore, it's a little bit about architecture and infra, but mostly about reducing the moving parts and understanding their failure modes. It's about shipping stuff and making sure it works even while it breaks. It's about using [boring tech](https://mcfunley.com/choose-boring-technology) in [radically simple](https://www.radicalsimpli.city/) ways.
 
 
 ## Also, there's a business
@@ -63,93 +71,99 @@ but maybe not necessarily so much for most software today. what about costs and 
 
 <div class="org-center">
 <p>
-biz &gt; user &gt; operator &gt; maintainer &gt; author
+<code>biz &gt; user &gt; ops &gt; dev</code>
 </p>
 </div>
 
 
 ## Smells
 
-Software is all about trade-offs, about making choices, prioritizing, <maximizing the benefits to be attained with limited resources. We can use the previous model to identify common cases of misprioritizations or lack of perspective (a.k.a. *missing the big picture*). [[work on what matters](https://staffeng.com/guides/work-on-what-matters/) ?]
+Software is all about trade-offs, about making choices, prioritizing, <maximizing the benefits to be attained with limited resources. We can use the previous model to identify common cases of misprioritizations or lack of perspective (a.k.a. *missing the big picture*).
 
 
-### Ignoring the maintainers
+### Ignoring maintainers
 
 <div class="org-center">
 <p>
-<del>maintainer</del> &gt; author <br />
-author &gt; maintainer
+<del><code>maintainer</code></del> <code>&gt; author</code> <br />
+<code>author &gt; maintainer</code>
 </p>
 </div>
 
-We know these, this is where we started. This is clever and lazy code that turns into spaghetti and haunted forests, this is unnecessary performance optimizations.
+This is where we started. This is clever and lazy code that turns into spaghetti and haunted forests, this is unnecessary performance optimizations.
 
 
 ### Ignoring operations
 
 <div class="org-center">
 <p>
-<del>operator</del> &gt; maintainer &gt; author
+<del>ops</del> &gt; dev
 </p>
 </div>
 
-<Software that gets developed but it rarely (or never) gets to production. I call this *imaginary software*. Charity Major's calls it living a lie [LINK].
+<Software that gets developed but it rarely (or never) gets to production. I call this *imaginary software*. Charity Majors calls it living a lie [LINK].
 
 
 ### Underestimating operations
 
 <div class="org-center">
 <p>
-author &gt; operator
+dev &gt; ops
 </p>
 </div>
 
-More commonly software does get deployed but it wasn't designed with its operation in mind. This overly complicated software with lots of moving parts, fancy databases for small data loads, small-team owned microservice ecosystems, etc.
+More commonly software does get deployed but it wasn't designed with its operation in mind. This it "works on my machine". This is overly complicated software with lots of moving parts, fancy databases for small data loads, small-team owned microservice ecosystems, etc. This is when the people that design the thing aren't the same that get woken up at night when it breaks.
 
 
-### Ignoring the user
+### Ignoring users
 
 <div class="org-center">
 <p>
-biz &gt; <del>user</del> &gt; operator &gt; maintainer &gt; author
+biz &gt; <del>user</del> &gt; ops &gt; dev
 </p>
 </div>
 
-Perhaps another kind of imaginary software, the one that doesn't have users or even doesn't know what users could look like. But it scales.
+Perhaps a different kind of imaginary software, the one that doesn't have users or even doesn't know what users could look like. But it scales.
 
-this is also taking some cool new tech and hammering everything with it until <something resembling a <use case | user need | business model> materializes <below it
+This is software that doesn't solve a problem or solves the wrong problem, even nobody's problem. This is also taking some cool tech and hammering everything with it until something resembling a use case comes up.
 
 
-### Underestimating the user
+### Underestimating users
 
 <div class="org-center">
 <p>
-maintainer &gt; author &gt; user
+biz &gt; ops &gt; dev &gt; user
+</p>
+</div>
+
+software that has users but doesn't observe how they use it, or what they need
+
+software that sacrifizes user experience
+
+software that drops features when updating its UI
+
+
+### Underestimating business
+
+<div class="org-center">
+<p>
+dev &gt; biz
 </p>
 </div>
 
 
-### underestimating the business
+### Ignoring business
 
 <div class="org-center">
 <p>
-maintainer &gt; author &gt; biz
-</p>
-</div>
-
-
-### Ignoring the business
-
-<div class="org-center">
-<p>
-<del>biz</del> &gt; user &gt; operator &gt; maintainer &gt; author
+<del>biz</del> &gt; user &gt; ops &gt; dev
 </p>
 </div>
 
 <That's when you pretend the business, or that costs don't matter turning a profit, doesn't really matter that's how you get retrofitted business models (you know, spying on people for ads) and enshittified platforms the funny thing about late capitalism is that it's not only coders having this misconception. it's actually CEOs and (central banks?) everyone in between. But we software folk should know better
 
 
-## The elephant
+## An elephant
 
 This one hits hard:
 
@@ -163,7 +177,7 @@ biz &gt; user
 
 <div class="org-center">
 <p>
-{biz, user} &gt; operator &gt; maintainer &gt; author
+{biz, user} &gt; ops &gt; dev
 </p>
 </div>
 
