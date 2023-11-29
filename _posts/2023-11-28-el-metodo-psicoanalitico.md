@@ -1,0 +1,198 @@
+---
+layout: post
+title: "El método psicoanalítico"
+date: 2023-11-28
+tags: [ficción]
+image: assets/img/freud.jpg
+excerpt: "Justo enfrente hay un cuadro abstracto: dos rectángulos irregulares sobre un fondo blanco. Ernesto fija la vista en el espacio entre los dos rectángulos, le parece que ahí falta algo, que en ese lugar tendría que haber una tercer figura, y se concentra como si pudiera hacerla aparecer a fuerza de mirar. Tanto se concentra que tarda un rato en darse cuenta de que lo están llamando."
+---
+
+La línea de asientos se extiende hasta el final del pasillo, ocupada en su mayor parte por mujeres embarazadas. También hay dos jóvenes en muletas, los dos en ropa deportiva. Ernesto se acomoda en un rincón, de pie, para no estorbar la circulación. Justo enfrente hay un cuadro abstracto: dos rectángulos irregulares sobre un fondo blanco. Ernesto fija la vista en el espacio entre los dos rectángulos, le parece que ahí falta algo, que en ese lugar tendría que haber una tercer figura, y se concentra como si pudiera hacerla aparecer a fuerza de mirar. Tanto se concentra que tarda un rato en darse cuenta de que lo están llamando. Su nombre viene de la puerta abierta de uno de los consultorios. Se levanta.
+
+—¿Cómo estás? —Gutiérrez le ofrece una mano y una amplia sonrisa, enmarcada en su barba canosa.
+
+—Mucho gusto —Ernesto repara en el delantal de Gutiérrez y agrega:—, doctor. ¿Se dice doctor?
+
+—Bueno, estrictamente hablando soy Licenciado en Psicología —Cierra la puerta y hace un gesto para que Ernesto tome asiento—. Pero no desaliento a quienes me llaman doctor. Al fin y al cabo tengo pacientes, ¿no? Y, de alguna manera, salvo vidas.
+
+El escritorio de Gutiérrez tiene las dimensiones de una mesa de billar. El sillón es de respaldo alto y aparenta más comodidad que la silla en la que Ernesto está sentado. Por encima de Gutiérrez se ve una foto de Freud sosteniendo un cigarro. El aspecto de los dos psicólogos es casi idéntico: frente amplia, barba blanca, mirada penetrante; la mayor diferencia está en la sonrisa de Gutiérrez, una sonrisa tan insistente que obliga a Ernesto a darse vuelta para confirmar que no hay nadie atrás suyo.
+
+Pasa un rato sin que ninguno hable.
+
+—Bueno, vine porque… —empieza Ernesto.
+
+—No, no —lo interrumpe Gutiérrez, levantando el dedo índice—. No me digas, dejame adivinar: es mi trabajo —Se toma unos segundos más—. ¿Problemas de pareja?
+
+—No.
+
+—¿Ataques de pánico?
+
+—No —repite Ernesto, como disculpándose.
+
+—No importa, ya va a salir. Te propongo que para romper el hielo hagamos un ejercicio.
+
+—Bueno.
+
+—Vamos a hacer una asociación libre. Yo te muestro una palabra y vos me contás lo primero que te venga a la mente.
+
+Gutiérrez abre un cajón, saca un rectángulo de cartulina y lo levanta con las dos manos. El cartel dice “Inmigrantes”.
+
+—¿No se hace con dibujos esto? —pregunta Ernesto.
+
+—Es lo mismo, esta es otra variante.
+
+—Porque a mí esos dibujos siempre me parecen elefantes.
+
+—Ernesto…
+
+—¿Tendrá algo que ver con *El Principito*? Creo que me hizo mal ese libro.
+
+—Ernesto —insiste Gutiérrez, ya sin sonreír.
+
+—¿Qué?
+
+—La palabra. Concentrate en la palabra.
+
+—Ah, perdón —Levanta un poco la cabeza pensativamente, y se encuentra con la mirada severa de Freud. Vuelve a la cartulina—. Inmigrantes…
+
+—Sí. ¿Qué te sugiere?
+
+—Me hace acordar a una serie que vi.
+
+—Contame.
+
+—No sé&#x2026; Era sobre unos inmigrantes europeos. El protagonista era un anarquista español.
+
+—¿Y eso te interesaba?
+
+—Supongo.
+
+—Anarquistas son los que ponen bombas, ¿no?
+
+—No —se apura a contestar—. No necesariamente.
+
+Gutiérrez hace una pausa antes de preguntar:
+
+—¿Te considerás un anarquista, Ernesto?
+
+—¿Anarquista? —duda. Levanta la vista hacia el cuadro de Freud, pero en su lugar está Fidel Castro. La misma pose, con un habano en la mano. Gutiérrez insiste:
+
+—Por eso estás acá, ¿no?, por tus tendencias antisociales —Otra vez la sonrisa. Ernesto lo mira con una mezcla de confusión y sorpresa—. ¿Viste?, te dije que iba a adivinar.
+
+—Gutiérrez…
+
+—Doctor —corrige Gutiérrez.
+
+—Licenciado —concede Ernesto—. ¿Usted estuvo hablando con mi madre?
+
+—¿Por qué lo preguntás? —El tema parece aburrirlo y no le da tiempo a contestar—. Sigamos.
+
+Saca otra cartulina. Esta vez la palabra es “Tramposa”. Ernesto no dice nada; aprieta la boca y, más que pensar, parece esforzarse en no mover los ojos de la cartulina, como si supiera que en el cuadro de Freud la mirada severa ahora es la de su madre.
+
+—¿Otra vez con eso, Ernesto? —pregunta Gutiérrez. Deja la cartulina y anota algo en una libreta—. ¿Hay algo que quieras contarme? Te recuerdo que todo lo que digas queda entre nosotros.
+
+Ernesto lo mira extrañado. En lugar del delantal, Gutiérrez lleva ahora una sotana.
+
+—Dígame, Gutiérrez: yo estoy soñando, ¿no?
+
+—Desconozco. A ver, ¿por qué no tratás de despertarte?
+
+—No puedo, nunca me sale eso. Para despertarme necesito una caída: tirarme de un avión o un precipicio, algo así.
+
+—Ya veo —asiente Gutiérrez y anota algo en su libreta—. Esto me interesa. Vení, vamos a hacer la interpretación de los sueños.
+
+Se levantan y pasan a una habitación contigua, que Ernesto no había notado antes. La decoración es distinta al resto de la clínica: las paredes y el techo son de un celeste intenso, el piso está cubierto con una alfombra verde gastada. En la pared opuesta a la puerta hay dos ventanas grandes; no se alcanza a ver del otro lado pero es tanta la luz que entra que Ernesto puede distinguir las partículas flotando en el aire. En el centro de la habitación hay un diván y, a un costado, un sillón y una pequeña mesa. Ernesto encara hacia el diván pero Gutiérrez lo agarra del brazo.
+
+—Ahí voy yo —dice y le indica que se siente en el sillón. Después se recuesta en el diván, de cara al techo y con las manos enlazadas sobre la panza.
+
+Ernesto se acomoda en el sillón y se cruza de piernas.
+
+—¿Y ahora?
+
+—Ahora me tenés que preguntar sobre mis sueños —explica Gutiérrez.
+
+—Pero yo no…
+
+—No importa. Esta es otra variante.
+
+—Bueno. ¿Y qué anduvo soñando?
+
+—Un sueño recurrente. Me pasa con cada paciente nuevo.
+
+—¿De qué se trata? —Ernesto fija la vista en la alfombra verde, preocupado por captar cada palabra.
+
+—Siempre es la misma secuencia: hacemos la entrevista inicial, donde surge que es un Edipo no resuelto. Después pasamos a la interpretación de los sueños, pero es el paciente el que me analiza a mí.
+
+—¿Como ahora?
+
+—Sí, algo así.
+
+—¿Y cómo sigue?
+
+—Generalmente vamos al jardín para la Prueba del Traje de Baño.
+
+Ernesto levanta la cabeza y mira a Gutiérrez. Está acostado sobre una reposera, de cara al cielo, con las manos apoyadas en una barriga amplia y peluda; la única vestimenta son unas bermudas floreadas.
+
+—¿Qué es la Prueba del Traje de Baño? —pregunta Ernesto.
+
+—Es un salto de fe, una forma de evaluar la confianza del paciente en el método psicoanalítico.
+
+Gutiérrez se levanta y le hace un gesto a Ernesto para que lo siga. Caminan unos metros, descalzos, pisando el pasto del jardín; llegan a una pileta y la bordean con paso rápido para no quemarse los pies. Se detienen a la sombra de la plataforma de salto, junto a la escalera.
+
+—¿Listo? —pregunta Gutiérrez con una mano en la escalera. Empieza a trepar y Ernesto hace lo mismo.
+
+Unos metros más arriba, Ernesto grita:
+
+—A lo mejor cuando salte me despierto.
+
+—A lo mejor.
+
+Por un rato no se escucha más que el ruido de las manos y los pies contra los escalones metálicos. El cielo perfectamente azul, sin una nube, se confunde con la plataforma.
+
+—Al final —grita Gutiérrez, inclinando la cabeza—, no me dijiste por qué viniste a terapia… Sacando lo del anarquismo.
+
+—Estrés laboral.
+
+—Ya veo. ¿Y de qué trabajás?
+
+—No trabajo, por ahora.
+
+Gutiérrez alcanza el final de la escalera. Se para en la plataforma y hace lugar para que Ernesto pase adelante.
+
+—Suerte —le dice, con una mano en el hombro—. Nos vemos abajo.
+
+Ernesto camina hasta el borde del trampolín y asoma la cabeza.
+
+—¿Y si no le emboco? —pregunta, pero Gutiérrez ya no está a la vista.
+
+Se adelanta un poco más, hasta que los dedos de los pies le quedan suspendidos en el aire. Tira atrás los hombros y el cuello adelante, hace equilibrio con los brazos para mirar otra vez para abajo. La pileta es una mancha celeste en el tapiz verde del jardín. Ernesto flexiona apenas las rodillas y el trampolín responde con un suave vaivén. Repite el movimiento y la oscilación se amplifica, sigue creciendo hasta que los talones se desprenden del tablón, rebotan un par de veces y lanzan a Ernesto por el aire.
+
+Ernesto cae pesadamente, cada vez más rápido pero sin acercarse a la pileta; se da cuenta de que la malla es inapropiada para un clavado, es holgada y se agita ruidosamente, tiene que agarrarla para que no se vuele, y ese movimiento lo saca de eje; la pileta, ahora más cerca y acercándose, ya no parece coincidir con su trayectoria. Ernesto extiende los brazos, los agita como si fueran alas y pudiera atenuar con ellas la caída, pero es inútil, el viento se escurre entre su cuerpo y lo empuja con más fuerza para abajo, siente el aire envolverlo como un líquido y eso lo invita a cambiar de postura, a abrirse paso como si buceara en pleno vuelo y así reorienta la caída, y cuando queda justo sobre la pileta y a punto de romper el agua, comprime el cuerpo y se abraza a las piernas para aguantar el impacto. Se hunde ruidosamente, varios metros, hasta tocar con la planta de los pies el fondo de la pileta, y rebota de regreso a la superficie.
+
+Gutiérrez lo está esperando afuera, le tiende una toalla.
+
+—¿Cómo estuve? —pregunta Ernesto mientras trepa por el borde de la pileta.
+
+—Y… te tiraste *tipo bomba* —comenta Gutiérrez—. ¿No te parece significativo, considerando tu orientación política?
+
+Vuelven caminando por el pasto hacia la zona de las reposeras. Ernesto se seca la cabeza.
+
+—No me sé tirar de otra manera —se queja.
+
+—Bueno, para eso estamos, ya lo vamos a trabajar. Lo importante es que empezaste —Pasan las reposeras y se acercan al edificio. Ernesto deja la toalla.
+
+—Al final no me desperté.
+
+—Parece que no.
+
+Cruzan una puerta y están de vuelta en el consultorio.
+
+—¿Y ahora? —pregunta Ernesto.
+
+Gutiérrez consulta su reloj antes de contestar:
+
+—Ahora se nos acabó el tiempo. Nos vemos la semana que viene.
+
+<br/>
+<div align="right">(2015)</div>
+<br/>

@@ -5,11 +5,11 @@ sections: [["/blog/tags", "/blog/tags"], ["/feed.xml", "/blog/feed"]]
 ---
 
 <p>
-    All | <a href="/blog/es">Español</a> | <a href="/blog/en">English</a>
+    <a href="/blog">All</a> | <a href="/blog/es">Español</a> | English
 </p>
 <br/>
 
 <div class="blog-index">
-    {% assign posts = site.posts %}
+    {% assign posts = site.posts|where:"lang", "en" %}
     {% include posts.html posts=posts%}
 </div>

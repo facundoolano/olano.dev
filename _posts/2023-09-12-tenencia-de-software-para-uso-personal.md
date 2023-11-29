@@ -4,7 +4,6 @@ title: "Tenencia de software para uso personal"
 excerpt:  "Si tuviera un disco rígido en la nube, un espacio de almacenamiento al que solo pudieran acceder las aplicaciones que yo autorice en los términos que yo autorice, no tendría incentivos para usar productos de Google y Apple para tareas mundanas como tomar notas o compartir archivos."
 date: 2023-09-12
 tags: [software, utopías]
-favorite: true
 share-img: assets/img/pc.jpg
 image: assets/img/pc.jpg
 thumbnail-img: assets/img/pc.jpg
@@ -13,10 +12,9 @@ thumbnail-img: assets/img/pc.jpg
 
 ## 1. Introducción
 
-Al final del [post anterior](../2023-08-30-miscelanea-sobre-web-y-redes-sociales) mencioné dos artículos que nos ayudan a imaginar otra web, una en que los usuarios recuperamos algo del control que cedimos a las plataformas y las redes sociales privadas.
-Recapitulando:
+Al final del [post anterior](../2023-08-30-miscelanea-sobre-web-y-redes-sociales) mencioné dos artículos que nos ayudan a imaginar otra web, una en que los usuarios recuperamos algo del control que cedimos a las plataformas y las redes sociales privadas. Recapitulando:
 
--   [*Protocols, not Platforms: A Technological Approach to Free Speech*](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech), de Mike Masnick, propone volver a una web con predominio de protocolos abiertos, más parecida a la que teníamos hasta mediados de los 2000 cuando plataformas como Facebook y Twitter empezaron a ganar popularidad. Según el autor, esa transición  ayudaría a resolver la crisis de libertad de expresión que atraviesan los medios online, a la vez que devolvería control y privacidad a los usuarios y abriría nuevos modelos de negocio.
+-   [*Protocols, not Platforms: A Technological Approach to Free Speech*](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech), de Mike Masnick, propone volver a una web con predominio de protocolos abiertos, más parecida a la que teníamos hasta mediados de los 2000 cuando plataformas como Facebook y Twitter empezaron a ganar popularidad. Según el autor, esa transición ayudaría a resolver la crisis de libertad de expresión que atraviesan los medios online, a la vez que devolvería control y privacidad a los usuarios y abriría nuevos modelos de negocio.
 -   [*Local-first software: You own your data, in spite of the cloud*](https://www.inkandswitch.com/local-first/), de Martin Kleppmann y compañía, propone reorientar la manera en que diseñamos software para combinar lo mejor de las aplicaciones en la nube (acceso desde muchos dispositivos y colaboración en tiempo real) y de las viejas aplicaciones de escritorio (velocidad, acceso offline, durabilidad, control de los datos, etc.).
 
 Ninguno de los dos proyectos propone que el software sea totalmente descentralizado o *peer to peer*, sino más bien que no exista una autoridad central en condiciones de impedir su uso sostenible. Es justamente en el nuevo rol que podrían asumir los servidores &#x2014;sus posibles usos e implementaciones&#x2014; que encuentro el mayor potencial de cambio. Aplicando algunas de las ideas prácticas ahí descriptas y postergando las más complicadas &#x2014;las que suponen avances tecnológicos o determinadas condiciones sociales y económicas para realizarse&#x2014;, podríamos igualmente cambiar el paradigma con que usamos y diseñamos una cantidad importante de aplicaciones, aquellas que llamo *de uso personal*.
@@ -55,8 +53,7 @@ Como desarrollador experimento algo parecido: cualquier herramienta que proyecto
 
 Pero no todo el software en mi celular son complejas redes sociales o grandes monopolios de contenidos. La mayoría son aplicaciones sencillas, de uso cotidiano, de productividad personal. Aplicaciones de notas, listas de tareas, procesadores de texto, calendarios, gestores de passwords, almacenamiento de fotos, de texto, repositorios de código. Separadas de los datos que manejan, esas aplicaciones son *commodities*, interfaces reemplazables por otras parecidas. Pero son justamente esos documentos, difíciles de acceder por fuera de sus aplicaciones, los que acumulo hace más tiempo y los que más me costaría reemplazar, mucho más que las canciones de Spotify o las películas de Netflix.
 
-Así como las interfaces podrían ser commodities, el almacenamiento de datos de hecho ya lo es.
-Si tuviera algo así como un disco rígido en la nube, un espacio de almacenamiento al que solo pudieran acceder las aplicaciones que yo autorice en los términos que yo autorice, y si existiera una forma estandarizada, un protocolo que instruyera a las aplicaciones cómo leer y escribir datos, cómo sincronizar documentos independientemente del proveedor que yo elija contratar, si existieran esas dos cosas no tendría incentivos para usar productos de Google o Apple para tareas mundanas como tomar notas, no correría mayores riesgos al usar aplicaciones de startups que pueden fundir o ser adquiridas, o software libre que se puede quedar sin mantenimiento.
+Así como las interfaces podrían ser commodities, el almacenamiento de datos de hecho ya lo es. Si tuviera algo así como un disco rígido en la nube, un espacio de almacenamiento al que solo pudieran acceder las aplicaciones que yo autorice en los términos que yo autorice, y si existiera una forma estandarizada, un protocolo que instruyera a las aplicaciones cómo leer y escribir datos, cómo sincronizar documentos independientemente del proveedor que yo elija contratar, si existieran esas dos cosas no tendría incentivos para usar productos de Google o Apple para tareas mundanas como tomar notas, no correría mayores riesgos al usar aplicaciones de startups que pueden fundir o ser adquiridas, o software libre que se puede quedar sin mantenimiento.
 
 En lo que respecta a una buena parte del software que usamos cotidianamente, es la separación entre las aplicaciones locales y el almacenamiento remoto de (copias de) los datos lo que hace falta para realizar el *local-first software*.
 
@@ -71,8 +68,7 @@ Algo parecido es considerado en el paper de *Local-first software*:
 
 > In local-first applications we treat the copy of the data on your local device — your laptop, tablet, or phone — as the primary copy. Servers still exist, but they hold secondary copies of your data in order to assist with access from multiple devices. (&#x2026;) Local-first apps can use end-to-end encryption so that any servers that store a copy of your files only hold encrypted data that they cannot read.
 
-En vez de usar Drive y pasar por la aduana de Google, en vez de usar iCloud y vivir en la jaula de Apple, en vez de arrastrar archivos y administrar carpetas de Dropbox,
-usaríamos servicios de almacenamiento genéricos, intercambiables, elegidos como se elige un proveedor de internet o de servidores virtuales, según nuestras necesidades y preferencias (costo, eficiencia, seguridad, tamaño de almacenamiento, durabilidad).
+En vez de usar Drive y pasar por la aduana de Google, en vez de usar iCloud y vivir en la jaula de Apple, en vez de arrastrar archivos y administrar carpetas de Dropbox, usaríamos servicios de almacenamiento genéricos, intercambiables, elegidos como se elige un proveedor de internet o de servidores virtuales, según nuestras necesidades y preferencias (costo, eficiencia, seguridad, tamaño de almacenamiento, durabilidad).
 
 El usuario autorizaría el acceso a una parte específica de su banco de datos como quien hoy se identifica con su usuario de Google en una aplicación de terceros o quien concede determinados permisos sobre el dispositivo en que se ejecuta una aplicación. Los desarrolladores de aplicaciones solo tendrían que integrar un componente externo, como quien usa una servicio web o conecta una base de datos, simplemente eligiendo qué datos se exportan y qué datos se importan para sincronizar el estado local.
 
@@ -92,4 +88,3 @@ Especulo con que, habiendo deconstruido las aplicaciones de uso personal &#x2014
 Si existieran los bancos de datos privados y los protocolos para usarlos, si la experiencia de usuario para sincronizar entre dispositivos estuviera suficientemente aceitada, ¿por qué no volver a un modelo de "tenencia" de datos? Si pudiéramos confiar en que nuestros archivos estén disponibles de forma transparente en todos nuestros dispositivos, ¿por qué no comprar o piratear canciones en vez de alquilárselas en Spotify o en iTunes? ¿Por qué no comprar o piratear películas en vez de atenerse a lo que nos ofrezca el servicio de streaming este mes? ¿Por qué tolerar launchers dentro de launchers dentro de launchers para ejecutar un videojuego que ya pagamos?
 
 ¿Cuántos otros altares podríamos profanar?
-

@@ -42,6 +42,8 @@ ul.site-index {
 }
 
 .layout-post {
+    hyphens: auto;
+    text-align: justify;
     font-size: 1.15rem;
     line-height: 1.6;
 
@@ -50,6 +52,10 @@ ul.site-index {
     -moz-font-smoothing: antialiased !important;
     text-rendering: optimizelegibility !important;
     letter-spacing: .03em;
+}
+
+.layout-post h1 {
+    hyphens:none;
 }
 
 .layout-post p {
