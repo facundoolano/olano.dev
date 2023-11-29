@@ -57,7 +57,7 @@ We can incorporate this idea to our little expression:
 </p>
 </div>
 
-This is something that took me a while to fully grasp because, in my experience, a lot of the software being built never really gets to production, at least not at a significant scale. Most software is built on assumptions that never get tested. When you do run software in production, the KISS mantra takes on a new dimension. It's not just about code anymore, it's a little bit about architecture and infra, but mostly about reducing the moving parts and understanding their failure modes. It's about shipping stuff and making sure it works even while it breaks.
+This is something that took me a while to fully grasp because, in my experience, a lot of the software being built never really gets to production, at least not at a significant scale. Most software is built on assumptions that never get tested. When you do run software in production, the KISS mantra takes on a new dimension. It's not just about code anymore, it's about reducing the moving parts and understanding their failure modes. It's about shipping stuff and making sure it works even while it breaks.
 
 
 ## Follow the money
@@ -77,68 +77,49 @@ The most obvious example is budget: we don't have infinite resources to satisfy 
 
 ## Smells
 
-We arrived at a little model that expresses the relative importance of factors involved in <software development>, one that can perhaps help us to see the big-picture. Now I want to look at some common software development dysfunctions, and check how they relate to the model.
+We arrived at a little model that expresses the relative importance of factors involved in software development, one that can perhaps help us to see the big-picture. Now I want to look at some common dysfunctions, and map them to the model.
 
 
-### Ignoring maintainers
+### Unmaintainable code
 
 <div class="org-center">
 <p>
-<code>author &gt; maintainer</code> <br />
-<del><code>maintainer &gt;</code></del> <code>autor</code>
+<code>author &gt; maintainer</code>
 </p>
 </div>
 
 This is where we started. This is clever and lazy code that turns into spaghetti and haunted forests, this is premature optimizations, this is only-fred-touches-that-module.
 
 
-### Ignoring operations
+### Unusable software
 
 <div class="org-center">
 <p>
-biz &gt; user &gt; <del>ops &gt;</del> dev
+<code>dev &gt; user</code>
 </p>
 </div>
 
-This is software that's built but rarely (or never) gets to production. I call this *imaginary software*. Charity Majors [calls it](https://twitter.com/mipsytipsy/status/1308641574448803840?lang=es) living a lie.
+Software that does have users but doesn't observe how they use it, or what they need.
+
+<software that sacrifizes user experience spams the user
+
+pushes unwanted features and removes useful ones software with unsubstantial UI redesigns
+
+<web apps that break the browser functionality <software that drops features when updating its UI
 
 
-### Underestimating operations
+### Works on my machine
 
 <div class="org-center">
 <p>
-biz &gt; user &gt; dev &gt; ops
+<code>dev &gt; ops</code>
 </p>
 </div>
 
-More frequently, software does get deployed but it wasn't designed with operating it as a priority. This is overly complicated software with lots of moving parts, fancy databases for small data loads, small-team-owned microservice ecosystems. This is "works on my machine". This is when the people that design the thing aren't the same that get woken up at night when it breaks.
+Software that wasn't designed with operating it as a priority. This is overly complicated software with lots of moving parts, fancy databases for small data loads, small-team-owned microservice ecosystems. This is "works on my machine". This is when the people that design the thing aren't the same that get woken up at night when it breaks.
 
 
-### Ignoring users
-
-<div class="org-center">
-<p>
-biz &gt; <del>user &gt;</del> ops &gt; dev
-</p>
-</div>
-
-Perhaps a different kind of imaginary software, the one that doesn't have users or even doesn't know what users could look like. (But scales). This is software that doesn't solve a problem or solves the wrong problem, even nobody's problem. This is taking some cool tech and hammering everything with it until something resembling a use case comes up.
-
-
-### Underestimating users
-
-<div class="org-center">
-<p>
-biz &gt; ops &gt; dev &gt; user
-</p>
-</div>
-
-Software that has users but doesn't observe how they use it, or what they need.
-
-<software that sacrifizes user experience <web apps that break the browser functionality <software that drops features when updating its UI
-
-
-### Underestimating business
+### The right thing
 
 <div class="org-center">
 <p>
@@ -146,18 +127,7 @@ dev &gt; biz
 </p>
 </div>
 
-Software built by pretentious artisans, musicians of the Titanic and [Lisp Hackers](https://www.dreamsongs.com/WorseIsBetter.html).
-
-
-### Ignoring business
-
-<div class="org-center">
-<p>
-<del>biz &gt;</del> user &gt; ops &gt; dev
-</p>
-</div>
-
-<That's when you pretend the business, or that costs don't matter turning a profit, doesn't really matter that's how you get retrofitted business models (you know, spying on people for ads) and enshittified platforms the funny thing about late capitalism is that it's not only coders having this misconception. it's actually CEOs and (central banks?) everyone in between. But we software folk should know better
+Software built by pretentious artisans, musicians of the Titanic and [Lisp Hackers](https://www.dreamsongs.com/RiseOfWorseIsBetter.html).
 
 
 ### [Resume-driven development](https://rdd.io/)
@@ -169,15 +139,47 @@ dev &gt; *
 </div>
 
 
+### Imaginary software
+
+<div class="org-center">
+<code>
+biz > user > <del>ops ></del> dev
+</code>
+</div>
+
+This is software that's built but rarely (or never) gets to production. I call this *imaginary software*. Charity Majors [calls it](https://twitter.com/mipsytipsy/status/1308641574448803840?lang=es) living a lie.
+
+<div class="org-center">
+<code>
+biz > <del>user ></del> ops > dev
+</code>
+</div>
+
+Another kind of imaginary software is the one that doesn't have users or even doesn't know what users could look like. (But scales). This is software that doesn't solve a problem or solves the wrong problem, even nobody's problem. This is taking some cool tech and hammering everything with it until something resembling a use case comes up.
+
+
+### Late capitalism
+
+<div class="org-center">
+<p>
+<del>biz &gt;</del> user &gt; ops &gt; dev
+</p>
+</div>
+
+This is venture-backed software without a business model or whose business model is grow-until-monopoly-then-exploit-users.
+
+
 ## An elephant
 
-This one hits hard:
+If you didn't rage-close the browser tab yet, I want to look back at this:
 
 <div class="org-center">
 <p>
 biz &gt; user
 </p>
 </div>
+
+This one has ramifications that can be hard to swallow.
 
 <attention grabbing it's not only social media anymore, it's travel agencies, delivery apps, even the Windows start menu (!)
 
