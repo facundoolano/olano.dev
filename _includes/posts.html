@@ -1,8 +1,8 @@
 {% for post in posts %}
 
-    <article>
+<article>
 
-        {% if post.favorite %} ⭐ {% endif %} {% if post.lang == 'en' %} 🇬🇧 {% endif %}
+        {% if post.favorite %} <a href="/blog/tags#favoritos" style="text-decoration:none">⭐</a> {% endif %} {% if post.lang == 'en' %} 🇬🇧 {% endif %}
         <a class="title" href="{{ post.external | default:post.url }}">{{ post.title }}</a>
         <br/>
         <small>
