@@ -54,6 +54,10 @@ ul.site-index {
     letter-spacing: .03em;
 }
 
+.layout-post h1 {
+    hyphens:none;
+}
+
 .layout-post p {
     margin: 0 0 .4rem 0;
     line-height: 1.8;
