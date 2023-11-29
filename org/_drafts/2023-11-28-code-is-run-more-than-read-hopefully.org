@@ -41,7 +41,7 @@ This is a strong mental model, just keeping the users in mind during development
 
 ** Code is run more than read
 
-When I say ~run~ I don't just mean executing a program, I mean operating it in production, with all that that entails: deploying, upgrading, observing, auditing, monitoring, fixing, decommissioning, etc. As Dan McKinley puts it in [[https://mcfunley.com/choose-boring-technology][/Choose Boring Technology/]]:
+When I say ~run~ I don't just mean executing a program, I mean operating it in production, with all that that entails: deploying, upgrading, observing, auditing, monitoring, fixing, decommissioning, etc. As Dan McKinley [[https://mcfunley.com/choose-boring-technology][puts it]]:
 
 #+begin_quote
 It is basically always the case that the long-term costs of keeping a system working reliably vastly exceed any inconveniences you encounter while building it.
@@ -70,17 +70,17 @@ The most obvious example is budget: we don't have infinite resources to satisfy 
 ** Smells
 We arrived at a little model that expresses the relative importance of factors involved in <software development>, one that can perhaps help us to see the big-picture. Now I want to look at some common software development dysfunctions, and check how they relate to the model.
 
-*** Ignoring or underestimating maintainers
+*** Ignoring maintainers
 #+begin_center
-+~maintainer~+ ~> author~ \\
-~author > maintainer~
+~author > maintainer~ \\
++~maintainer >~+ ~autor~
 #+end_center
 
 This is where we started. This is clever and lazy code that turns into spaghetti and haunted forests, this is premature optimizations, this is only-fred-touches-that-module.
 
 *** Ignoring operations
 #+begin_center
-+ops+ > dev
+biz > user > +ops >+ dev
 #+end_center
 
 This is software that's built but rarely (or never) gets to production. I call this /imaginary software/. Charity Majors [[https://twitter.com/mipsytipsy/status/1308641574448803840?lang=es][calls it]] living a lie.
@@ -88,7 +88,7 @@ This is software that's built but rarely (or never) gets to production. I call t
 *** Underestimating operations
 
 #+begin_center
-dev > ops
+biz > user > dev > ops
 #+end_center
 
 More frequently, software does get deployed but it wasn't designed with operating it as a priority.
@@ -97,7 +97,7 @@ This is when the people that design the thing aren't the same that get woken up 
 
 *** Ignoring users
 #+begin_center
-biz > +user+ > ops > dev
+biz > +user >+ ops > dev
 #+end_center
 
 Perhaps a different kind of imaginary software, the one that doesn't have users or even doesn't know what users could look like. (But scales). This is software that doesn't solve a problem or solves the wrong problem, even nobody's problem. This is taking some cool tech and hammering everything with it until something resembling a use case comes up.
@@ -107,21 +107,23 @@ Perhaps a different kind of imaginary software, the one that doesn't have users 
 biz > ops > dev > user
 #+end_center
 
-software that has users but doesn't observe how they use it, or what they need
+Software that has users but doesn't observe how they use it, or what they need.
 
-software that sacrifizes user experience
-
-software that drops features when updating its UI
+<software that sacrifizes user experience
+<web apps that break the browser functionality
+<software that drops features when updating its UI
 
 *** Underestimating business
 #+begin_center
 dev > biz
 #+end_center
 
+Software built by pretentious artisans, musicians of the Titanic and [[https://www.dreamsongs.com/WorseIsBetter.html][Lisp Hackers]].
+
 *** Ignoring business
 
 #+begin_center
-+biz+ > user > ops > dev
++biz >+ user > ops > dev
 #+end_center
 <That's when you pretend the business,
 or that costs don't matter
@@ -129,6 +131,11 @@ turning a profit, doesn't really matter
 that's how you get retrofitted business models (you know, spying on people for ads) and enshittified platforms
 the funny thing about late capitalism is that it's not only coders having this misconception. it's actually CEOs and (central banks?) everyone in between.
 But we software folk should know better
+
+*** [[https://rdd.io/][Resume-driven development]]
+#+begin_center
+dev > *
+#+end_center
 
 ** An elephant
 

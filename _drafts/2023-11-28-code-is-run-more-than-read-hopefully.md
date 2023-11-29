@@ -45,7 +45,7 @@ This is a strong mental model, just keeping the users in mind during development
 
 ## Code is run more than read
 
-When I say `run` I don't just mean executing a program, I mean operating it in production, with all that that entails: deploying, upgrading, observing, auditing, monitoring, fixing, decommissioning, etc. As Dan McKinley puts it in [*Choose Boring Technology*](https://mcfunley.com/choose-boring-technology):
+When I say `run` I don't just mean executing a program, I mean operating it in production, with all that that entails: deploying, upgrading, observing, auditing, monitoring, fixing, decommissioning, etc. As Dan McKinley [puts it](https://mcfunley.com/choose-boring-technology):
 
 > It is basically always the case that the long-term costs of keeping a system working reliably vastly exceed any inconveniences you encounter while building it.
 
@@ -80,12 +80,12 @@ The most obvious example is budget: we don't have infinite resources to satisfy 
 We arrived at a little model that expresses the relative importance of factors involved in <software development>, one that can perhaps help us to see the big-picture. Now I want to look at some common software development dysfunctions, and check how they relate to the model.
 
 
-### Ignoring or underestimating maintainers
+### Ignoring maintainers
 
 <div class="org-center">
 <p>
-<del><code>maintainer</code></del> <code>&gt; author</code> <br />
-<code>author &gt; maintainer</code>
+<code>author &gt; maintainer</code> <br />
+<del><code>maintainer &gt;</code></del> <code>autor</code>
 </p>
 </div>
 
@@ -96,7 +96,7 @@ This is where we started. This is clever and lazy code that turns into spaghetti
 
 <div class="org-center">
 <p>
-<del>ops</del> &gt; dev
+biz &gt; user &gt; <del>ops &gt;</del> dev
 </p>
 </div>
 
@@ -107,7 +107,7 @@ This is software that's built but rarely (or never) gets to production. I call t
 
 <div class="org-center">
 <p>
-dev &gt; ops
+biz &gt; user &gt; dev &gt; ops
 </p>
 </div>
 
@@ -118,7 +118,7 @@ More frequently, software does get deployed but it wasn't designed with operatin
 
 <div class="org-center">
 <p>
-biz &gt; <del>user</del> &gt; ops &gt; dev
+biz &gt; <del>user &gt;</del> ops &gt; dev
 </p>
 </div>
 
@@ -133,11 +133,9 @@ biz &gt; ops &gt; dev &gt; user
 </p>
 </div>
 
-software that has users but doesn't observe how they use it, or what they need
+Software that has users but doesn't observe how they use it, or what they need.
 
-software that sacrifizes user experience
-
-software that drops features when updating its UI
+<software that sacrifizes user experience <web apps that break the browser functionality <software that drops features when updating its UI
 
 
 ### Underestimating business
@@ -148,16 +146,27 @@ dev &gt; biz
 </p>
 </div>
 
+Software built by pretentious artisans, musicians of the Titanic and [Lisp Hackers](https://www.dreamsongs.com/WorseIsBetter.html).
+
 
 ### Ignoring business
 
 <div class="org-center">
 <p>
-<del>biz</del> &gt; user &gt; ops &gt; dev
+<del>biz &gt;</del> user &gt; ops &gt; dev
 </p>
 </div>
 
 <That's when you pretend the business, or that costs don't matter turning a profit, doesn't really matter that's how you get retrofitted business models (you know, spying on people for ads) and enshittified platforms the funny thing about late capitalism is that it's not only coders having this misconception. it's actually CEOs and (central banks?) everyone in between. But we software folk should know better
+
+
+### [Resume-driven development](https://rdd.io/)
+
+<div class="org-center">
+<p>
+dev &gt; *
+</p>
+</div>
 
 
 ## An elephant
