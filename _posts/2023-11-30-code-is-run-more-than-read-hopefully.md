@@ -119,7 +119,7 @@ Software that wasn't designed with its operation in mind. This is overly complic
 
 <div class="org-center">
 <p>
-dev &gt; biz
+<code>dev &gt; biz</code>
 </p>
 </div>
 
@@ -130,7 +130,7 @@ Code considered as an end on itself. Software built by pretentious artisans, mus
 
 <div class="org-center">
 <p>
-dev &gt; *
+<code>dev &gt; *</code>
 </p>
 </div>
 
@@ -139,30 +139,18 @@ Software produced when there's nothing at stake and developers get to do whateve
 
 ### Imaginary software
 
-<div class="org-center">
-<code>
-biz > user > <del>ops ></del> dev
-</code>
-</div>
+<div class="org-center"><code>biz > user > <del>ops ></del> dev</code></div>
 
 This is software that's built but rarely (or never) gets to production. I call this *imaginary software*. Charity Majors [calls it](https://twitter.com/mipsytipsy/status/1308641574448803840?lang=es) living a lie.
 
-<div class="org-center">
-<code>
-biz > <del>user ></del> ops > dev
-</code>
-</div>
+<div class="org-center"><code>biz > <del>user ></del> ops > dev</code></div>
 
 Another kind of imaginary software is the one that doesn't have users. (But scales). This is software that doesn't solve a problem or solves the wrong problem, perhaps nobody's problem. Software that results from taking some hyped tech and hammering everything with it until something vaguely resembling a use case comes up.
 
 
 ### Late capitalism
 
-<div class="org-center">
-<p>
-<del>biz &gt;</del> user &gt; ops &gt; dev
-</p>
-</div>
+<div class="org-center"><code><del>biz ></del> user > ops > dev</code></div>
 
 Venture-backed software without a business model or whose business model is grow-until-monopoly-then-exploit-users.
 
@@ -173,7 +161,7 @@ If you didn't rage-close the browser tab yet, let me wrap up by going back to th
 
 <div class="org-center">
 <p>
-biz &gt; user
+<code>biz &gt; user</code>
 </p>
 </div>
 

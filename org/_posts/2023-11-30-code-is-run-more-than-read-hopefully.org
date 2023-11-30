@@ -98,7 +98,7 @@ Software designed by different people than the ones woken up at midnight when it
 *** The right thing
 
 #+begin_center
-dev > biz
+~dev > biz~
 #+end_center
 
 Code considered as an end on itself. Software built by pretentious artisans, musicians of the Titanic and [[https://www.dreamsongs.com/RiseOfWorseIsBetter.html][Lisp Hackers]].
@@ -106,28 +106,20 @@ Code considered as an end on itself. Software built by pretentious artisans, mus
 *** Resume-driven development
 
 #+begin_center
-dev > *
+~dev > *~
 #+end_center
 
 Software produced when there's nothing at stake and developers get to do whatever they want.
 
 *** Imaginary software
 #+begin_export html
-<div class="org-center">
-<code>
-biz > user > <del>ops ></del> dev
-</code>
-</div>
+<div class="org-center"><code>biz > user > <del>ops ></del> dev</code></div>
 #+end_export
 
 This is software that's built but rarely (or never) gets to production. I call this /imaginary software/. Charity Majors [[https://twitter.com/mipsytipsy/status/1308641574448803840?lang=es][calls it]] living a lie.
 
 #+begin_export html
-<div class="org-center">
-<code>
-biz > <del>user ></del> ops > dev
-</code>
-</div>
+<div class="org-center"><code>biz > <del>user ></del> ops > dev</code></div>
 #+end_export
 
 Another kind of imaginary software is the one that doesn't have users. (But scales).
@@ -135,9 +127,9 @@ This is software that doesn't solve a problem or solves the wrong problem, perha
 
 *** Late capitalism
 
-#+begin_center
-+biz >+ user > ops > dev
-#+end_center
+#+begin_export html
+<div class="org-center"><code><del>biz ></del> user > ops > dev</code></div>
+#+end_export
 
 Venture-backed software without a business model or whose business model is grow-until-monopoly-then-exploit-users.
 
@@ -146,7 +138,7 @@ Venture-backed software without a business model or whose business model is grow
 If you didn't rage-close the browser tab yet, let me wrap up by going back to this:
 
 #+begin_center
-biz > user
+~biz > user~
 #+end_center
 
 This one has ramifications that can be hard to swallow.
