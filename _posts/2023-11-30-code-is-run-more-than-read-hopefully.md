@@ -4,7 +4,18 @@ title: "Code is run more than read"
 date: 2023-11-30
 tags: [software]
 lang: en
+image: assets/img/readrun.png
+excerpt: "Code is read more than written, code is run more than read. I think this line of thought can be extended beyond code-writing, and used as a rule of thumb to identify problems and make decisions."
 ---
+
+
+### TODO read extras
+
+
+### TODO grammarly
+
+
+### TODO review
 
 
 ## Code is read more than written
