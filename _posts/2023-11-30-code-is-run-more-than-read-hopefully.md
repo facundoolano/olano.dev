@@ -9,20 +9,11 @@ excerpt: "Code is read more than written, code is run more than read. I think th
 ---
 
 
-### TODO read extras
-
-
-### TODO grammarly
-
-
-### TODO review
-
-
 ## Code is read more than written
 
-The phrase is by now common programmer knowledge, a reminder that the person first writing a piece of code shouldn't buy convenience at the expense of the people that will have to read and modify it later. More generally, *code is read more than written* conveys the idea that it's usually a good mid-term investment to make the code maintainable by keeping it simple, writing tests and documentation, etc. It's about having perspective about the software development cycle.
+This phrase is by now common programmer knowledge, a reminder that the person first writing a piece of code shouldn't buy convenience at the expense of the people that will have to read it and modify it later. More generally, *code is read more than written* conveys that it's usually a good mid-term investment to make the code maintainable by keeping it simple, writing tests and documentation, etc. It's about having perspective over the software development cycle.
 
-Let's express this idea more succinctly as:
+Let me express this idea more succinctly as:
 
 <div class="org-center">
 <p>
@@ -43,7 +34,7 @@ Code is a means to an end. Software should have a purpose, it's supposed to prov
 </p>
 </div>
 
-Or, since we won't need to distinguish between developers anymore:
+Or, since we won't need to distinguish between developer roles anymore:
 
 <div class="org-center">
 <p>
@@ -51,14 +42,14 @@ Or, since we won't need to distinguish between developers anymore:
 </p>
 </div>
 
-This is why, instead of guessing or asking what the users need, it's best to put the program in front of them early and frequently and to incorporate what we learn by observing them.
+This is why, instead of guessing or asking what they need, it's best to put the program in front of the users early and frequently and to incorporate what we learn from their feedback.
 
 This is a strong mental model, just keeping the users in mind during development can get us pretty far. It's approximately how I learned the job and how I understood it for the first half of my career.
 
 
 ## Code is run more than read
 
-When I say `run` I don't just mean executing a program, I mean operating it in production, with all that that entails: deploying, upgrading, observing, auditing, monitoring, fixing, decommissioning, etc. As Dan McKinley [puts it](https://mcfunley.com/choose-boring-technology):
+When I say "run" I don't just mean executing a program, I mean operating it in production, with all that that entails: deploying, upgrading, observing, auditing, monitoring, fixing, decommissioning, etc. As Dan McKinley [puts it](https://mcfunley.com/choose-boring-technology):
 
 > It is basically always the case that the long-term costs of keeping a system working reliably vastly exceed any inconveniences you encounter while building it.
 
@@ -83,12 +74,12 @@ I said that keeping the users in mind during development can get us very far. Th
 </p>
 </div>
 
-The most obvious example is budget: we don't have infinite resources to satisfy the user needs, so we need to measure costs and benefits. There's marketing, there's deadlines. There are stakeholders and investors. There's personal interests and politics at play. There are decisions that make sense for our software, our team or our users considered in isolation, but not if we consider the organization as a whole. Sometimes we'll have to work on what generates revenue, not what pleases the user. More on this later.
+The most obvious example is budget: we don't have infinite resources to satisfy the user needs, so we need to measure costs and benefits of the choices we take. There's marketing, there's deadlines. There are stakeholders and investors. There's personal interests and politics at play. There are decisions that make sense for our software, our team or our users considered in isolation, but not if we consider the organization as a whole. Sometimes we'll have to work on what generates revenue, not what pleases the user. More on this later.
 
 
 ## Smells
 
-We arrived at a little model that expresses the relative importance of various factors in software development, one that we can perhaps reach to to remember the big-picture and focus on what matters. Now I want to look at some common process dysfunctions, and see how they map to the model.
+We arrived at a little model that expresses the relative importance of various factors in software development, one that can perhaps help us seeing the bigger-picture and focusing on what matters. Now I want to look at some common software development dysfunctions, and see how they map to the model.
 
 
 ### Unmaintainable code
@@ -99,7 +90,7 @@ We arrived at a little model that expresses the relative importance of various f
 </p>
 </div>
 
-This is where we started. This is clever and lazy code that turns into spaghetti and haunted forests, this is premature optimizations, this is only-carlos-touches-that-module, etc.
+This is where we started. This is clever and lazy code that turns into spaghetti and haunted forests, this is premature optimizations, this is only-carlos-can-touch-that-module, etc.
 
 
 ### Unusable software
@@ -110,7 +101,7 @@ This is where we started. This is clever and lazy code that turns into spaghetti
 </p>
 </div>
 
-Software from teams that don't learn from their users or that put technology first. Over-engineered software, "modernizations" that degrade the user experience, web apps that break the browser features, etc.
+Software from teams that don't learn from their users or that put technology first. Over-engineered programs, "modernizations" that degrade the user experience, web apps that break the browser features, etc.
 
 
 ### Works on my machine
@@ -121,7 +112,7 @@ Software from teams that don't learn from their users or that put technology fir
 </p>
 </div>
 
-Software that wasn't designed with its operation in mind. This is overly complicated software with lots of moving parts, fancy databases for small data loads, small-team-owned microservice ecosystems. Software prematurely architected for scale. Software designed by different people than the ones getting paged when it breaks.
+Software that wasn't designed with its operation in mind. This is overly complicated software with lots of moving parts, fancy databases for small data loads, small-team-owned microservice ecosystems. Software prematurely architected for scale. Software designed by different people than the ones woken up at midnight when it breaks.
 
 
 ### The right thing
@@ -135,13 +126,15 @@ dev &gt; biz
 Code considered as an end on itself. Software built by pretentious artisans, musicians of the Titanic and [Lisp Hackers](https://www.dreamsongs.com/RiseOfWorseIsBetter.html).
 
 
-### [Resume-driven development](https://rdd.io/)
+### Resume-driven development
 
 <div class="org-center">
 <p>
 dev &gt; *
 </p>
 </div>
+
+Software produced when there's nothing at stake and developers get to do whatever they want.
 
 
 ### Imaginary software
@@ -176,7 +169,7 @@ Venture-backed software without a business model or whose business model is grow
 
 ## An elephant
 
-If you didn't rage-close the browser tab yet, let's go back to this:
+If you didn't rage-close the browser tab yet, let me wrap up by going back to this:
 
 <div class="org-center">
 <p>
@@ -186,11 +179,11 @@ biz &gt; user
 
 This one has ramifications that can be hard to swallow.
 
-As I mentioned above, the way I learned the job is that it was about solving problems for end users. This is summarized in one of the final tips of *The Pragmatic Programmer,* saying that our goal is to *delight users, not just deliver code*. But, business nuances aside, since I started working as a professional software developer, and as software became ubiquitous, I've seen this assumption become increasingly hard to uphold.
+As I mentioned above, the way I learned it, software development was about solving problems for end users. This is summarized in one of the final tips of *The Pragmatic Programmer,* saying that our goal is to *delight users, not just deliver code*. But, since I started working as a programmer, and as software became ubiquitous, I've seen this assumption become increasingly hard to uphold.
 
-There's a lot of software being produced that just doesn't care about its users, or that manipulates them, or turns them into the product. And it's not limited to social media: I can't even book a room or order food or click on the Windows start button without popups trying to grab my attention. There's a mismatch between what we thought doing a good job was and what a good chunk of the industry considers profitable, and I think that explains the increasing discomfort of many software professionals.
+There's a lot of software being produced that just doesn't care about its users, or that manipulates them, or that turns them into the product. And it's not limited to social media: as a user, I can't even book a room or order food or click on the Windows start button without popups trying to grab my attention; I can't make a Google search without getting back a pile of garbage.
 
-And while we can't just go back to ignoring the economic realities of our discipline, perhaps we should take a stronger ethical stand not to harm users. Acknowledging that the user may not always come before the business, but that the business shouldn't unconditionally come first, either:
+There's a mismatch between what we thought doing a good job was and what a significant part of the industry considers profitable, and I think that explains the increasing discomfort of many software professionals. And while we can't just go back to ignoring the economic realities of our discipline, perhaps we should take a stronger ethical stand not to harm users. Acknowledging that the user may not always come before the business, but that the business shouldn't unconditionally come first, either:
 
 <div class="org-center">
 <p>
