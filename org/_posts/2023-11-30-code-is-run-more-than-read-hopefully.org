@@ -4,7 +4,7 @@
 ---
 layout: post
 title: "Code is run more than read"
-date: 2023-11-28 07:19:01
+date: 2023-11-30
 tags: [software]
 lang: en
 ---
