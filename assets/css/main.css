@@ -1,4 +1,4 @@
-html { color-scheme: light dark; overflow-y: scroll;}
+html { color-scheme: light; overflow-y: scroll;}
 body { max-width: 45em; margin: 0 auto; padding: 0 1rem;
        width: auto;
        font-family: Tahoma, Verdana, Arial, sans-serif;
