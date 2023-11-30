@@ -113,13 +113,13 @@ Software produced when there's nothing at stake and developers get to do whateve
 
 *** Imaginary software
 #+begin_export html
-<div class="org-center"><code>biz > user > <del>ops ></del> dev</code></div>
+<div class="org-center"><p><code>biz > user > <del>ops ></del> dev</code></p></div>
 #+end_export
 
 This is software that's built but rarely (or never) gets to production. I call this /imaginary software/. Charity Majors [[https://twitter.com/mipsytipsy/status/1308641574448803840?lang=es][calls it]] living a lie.
 
 #+begin_export html
-<div class="org-center"><code>biz > <del>user ></del> ops > dev</code></div>
+<div class="org-center"><p><code>biz > <del>user ></del> ops > dev</code></p></div>
 #+end_export
 
 Another kind of imaginary software is the one that doesn't have users. (But scales).
@@ -128,7 +128,7 @@ This is software that doesn't solve a problem or solves the wrong problem, perha
 *** Late capitalism
 
 #+begin_export html
-<div class="org-center"><code><del>biz ></del> user > ops > dev</code></div>
+<div class="org-center"><p><code><del>biz ></del> user > ops > dev</code></p></div>
 #+end_export
 
 Venture-backed software without a business model or whose business model is grow-until-monopoly-then-exploit-users.

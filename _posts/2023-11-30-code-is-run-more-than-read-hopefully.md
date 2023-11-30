@@ -139,18 +139,18 @@ Software produced when there's nothing at stake and developers get to do whateve
 
 ### Imaginary software
 
-<div class="org-center"><code>biz > user > <del>ops ></del> dev</code></div>
+<div class="org-center"><p><code>biz > user > <del>ops ></del> dev</code></p></div>
 
 This is software that's built but rarely (or never) gets to production. I call this *imaginary software*. Charity Majors [calls it](https://twitter.com/mipsytipsy/status/1308641574448803840?lang=es) living a lie.
 
-<div class="org-center"><code>biz > <del>user ></del> ops > dev</code></div>
+<div class="org-center"><p><code>biz > <del>user ></del> ops > dev</code></p></div>
 
 Another kind of imaginary software is the one that doesn't have users. (But scales). This is software that doesn't solve a problem or solves the wrong problem, perhaps nobody's problem. Software that results from taking some hyped tech and hammering everything with it until something vaguely resembling a use case comes up.
 
 
 ### Late capitalism
 
-<div class="org-center"><code><del>biz ></del> user > ops > dev</code></div>
+<div class="org-center"><p><code><del>biz ></del> user > ops > dev</code></p></div>
 
 Venture-backed software without a business model or whose business model is grow-until-monopoly-then-exploit-users.
 
