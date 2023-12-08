@@ -6,11 +6,11 @@ tags: [software, programación]
 lang: en
 ---
 
-Last year I experienced the all too common career burnout. I had a couple of bad projects in a row, yes, but more generally I became disillusioned with the software industry. There was a disconnection between what I used to like about the job, what I was good at, and what the software job market was buying (given my experience, my location and the world economy).
+Last year I experienced the all too common career burnout. I had a couple of bad projects in a row, yes, but more generally I became disillusioned with the software industry. There was a disconnection between what I used to like about the job, what I was good at, and what the software job market wanted to buy from me (given my experience, my location and the world economy).
 
 I did the usual thing: I slowed down, quit my job, started therapy. I revised my habits: eat better, exercise, meditate. I tried to stay away from programming and software-related reading for a while. Because I didn't like the effect it had on me, but also encouraged by its apparent enshittification, I quit Twitter, the last social media outlet I was still plugged into.
 
-Not working was one thing, but overcoming the productivity mandate &#x2014;the feeling that I had to make the best of my time off, that I was "recharging" to make a comeback&#x2014; was another. During this detox period I read *How to do Nothing*, a sort of artistic activist manifesto disguised as a self-help book that deals with some of these issues. The author Jenny Odell mentions Mastodon when discussing alternative online communities. I had heard about Mastodon, had seen some colleagues move over there, but never really looked at it. I thought that it was a good time to try it.
+Not working was one thing, but overcoming the productivity mandate &#x2014;the feeling that I had to make the best of my time off, that I was "recharging" to make a comeback&#x2014; was another. During this detox period I read *How to do Nothing*, a sort of artistic manifesto disguised as a self-help book that deals with some of these issues. The author Jenny Odell mentions Mastodon when discussing alternative online communities. I had heard about Mastodon, had seen some colleagues move over there, but never really looked at it. I thought it was a good time to try it.
 
 <div class="org-center">
 <p>
@@ -18,39 +18,17 @@ Not working was one thing, but overcoming the productivity mandate &#x2014;the f
 </p>
 </div>
 
-I noticed a few things after a while on Mastodon:
+I noticed a few things after some weeks on Mastodon.
 
-First, it was refreshing to be in control of my information feed, to receive strictly chronological updates instead of having some algorithm tracking my actions and trying to sell me stuff.
+First, it felt refreshing to be back in control of my feed, to receive strictly chronological updates instead of having some algorithm tracking my moves in order to sell me stuff.
 
-Second, not only I wasn't interested in micro-blogging myself, but I didn't care for most of the updates from the people I was following. I realized I had been using Twitter and now Mastodon as an information hub rather than a social network. I was adding bots to get updates from media and link aggregators; I was following people to get notified when they blogged, not to see what they had for breakfast.
+Second, not only wasn't I interested in micro-blogging myself, but I didn't care for most of the updates from the people I was following. I realized that I had been using Twitter, and now Mastodon, as an information hub rather than a social network. I was following bots to get updates from media and link aggregators; I was following people to get notified when they blogged. Mastodon wasn't the right tool for that job.
 
-Third, there were many people going through a similar process as me, one of discomfort with the software industry and the state of the web. Some of them were looking back at the old web for inspiration, playing with [RSS](https://atthis.link/blog/2021/rss.html), bulletin board systems, [digital gardens](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/) and web rings. People trying to recreate an [open](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech) and [independent](https://www.jvt.me/posts/2019/10/20/indieweb-talk/) web.
+Third, there were many people going through a similar process as me, one of discomfort with the software industry and the state of the Web. Some of them were looking back at the old times for inspiration: playing with [RSS](https://atthis.link/blog/2021/rss.html), bulletin board systems, [digital gardens](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/) and Web rings; some imagined an [open](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech) and [independent](https://www.jvt.me/posts/2019/10/20/indieweb-talk/) Web of the future.
 
-Things really clicked for me when I learned about the ideas of the indie web, particularly the notion of [social readers](https://aaronparecki.com/2018/04/20/46/indieweb-reader-my-new-home-on-the-internet). Trying Mastodon had been nice, but what I needed to reconnect with the good side of the web was a feed reader, one I could adjust arbitrarily to my preferences.
+Things really clicked for me when I learned about the ideas of the IndieWeb, particularly the notion of [social readers](https://aaronparecki.com/2018/04/20/46/indieweb-reader-my-new-home-on-the-internet). Trying Mastodon had been nice, but what I needed to reconnect with the good side of the Web was a feed reader, one I could adjust arbitrarily to my preferences.
 
-There are plenty of great RSS readers out there, and I did briefly try a few of them, but this was the perfect excuse to get back in touch with software development. I was going to build my own personal feed reader.
-
-<div class="org-center">
-<p>
-&lowast; &lowast; &lowast;
-</p>
-</div>
-
-As a user, I had some ideas of what I wanted to accomplish.
-
--   twitter like stream
-    -   stream, not inbox metaphor
-
-I wanted something that would show me interesting stuff every time I opened it, not a backlog to get through every day.
-
--   I also wanted to incorporate a few features from note-taking apps, like pinning, bookmarking and archiving items.
-
--   I wanted something that allowed me to uniformly mix blogs, link aggregators and my mastodon feed. (I eventually extended this to ingesting other notification streams like Goodreads and Github)
-    -   different sources would have to be customizable to have a good and consistent look and feel regardless of what each source would publish in their rss or api
-
--   I didn't need much of the indie reader social features. I didn't mind an extra click if I wanted to react to or comment on a post
-
--   I knew I'd eventually want to have some sort of reader mode to avoid jumping off the app, dealing with paywalls and annoying consent popups
+There are plenty of great RSS readers out there, and I did briefly try a few of them, but this was the perfect excuse for me to get back in touch with software development. I was going to build my own personal reader.
 
 <div class="org-center">
 <p>
@@ -58,9 +36,27 @@ I wanted something that would show me interesting stuff every time I opened it, 
 </p>
 </div>
 
-As a developer, I wanted to <put to practice> a lot of the things I'd been thinking and writing about for the past year.
+As a user, I had some ideas of what I was trying to accomplish.
+
+Rather than the email inbox metaphor I've most commonly seen used as RSS reader interfaces, I wanted something that felt like the Twitter or Mastodon home feed. That is: rather than [a backlog](https://danq.me/2023/07/29/rss-zero/) to clear every day, I wanted to get [a renewed stream](https://www.oliverburkeman.com/river) of interesting articles every time I opened the app. The feed would include articles from blogs, magazines, news sites and link aggregators, mixed with status updates and notifications from my Mastodon account (I eventually extended it to include my home feeds from Goodreads and Github). The parsing for those sources should be customizable to ensure a consistent look and feel, regardless of what I got back from their RSS feeds or their APIs.
+
+Although I planned to ingest Mastodon updates and links from aggregator sites, I wasn't really interested in implementing a fully-fledged indie reader to react and comment to items within my app. I didn't really mind opening another tab to comment, nor that my "content" would then be scattered across different sites.
+
+I also knew that I'd eventually need some sort of reader view, like the one in Firefox, to avoid jumping off the app to read, and to skip paywalls and annoying consent popups.
+
+That's what I started with, but as soon as I had the most basic features in place, development would continue driven by *what felt right* and *what felt missing* as a user. My short-term goal was to answer, as soon as possible, this question: could this eventually become my primary (or sole) source of information in the Web? If not, I'd drop the project right away. Otherwise, I could move onto whatever was missing to realize that vision.
+
+<div class="org-center">
+<p>
+&lowast; &lowast; &lowast;
+</p>
+</div>
+
+As a developer, I wanted to test the ideas I'd been ruminating on for over year.
 
 although I haven't formulated it in those terms yet, I wanted to apply the rationale that I recently described in another post: user > ops > dev.
+
+<it was paramount that this didn't turn into a learning project or, worse, a portfolio project. This was about reconnecting with what I love about software development. While it was a leisure project, the fun wouldn't come from *building something* but from *using something I had built*.
 
 -   I wanted to put the user first. and in this case the user would be me. I would be dogfooding, a sort of self-portrait.
     -   I had a working hypothesis: even if I wanted this to be useful for other people, I had a better shot at doing it by over-fitting (?) it to my quirks and preferences than by keeping it generic to cover what I could speculate would be the average user's requirements
@@ -129,3 +125,8 @@ There's an amazing zen-flow sort of thing that happens when developers use their
 perpetual state of half-brokenness, much like me emacs editor configuration. an ergonomic half-brokenness that's hard to justify from a productivity standpoint but that it's fulfilling because it's using my own tool in my own terms, and learning and reflecting about my craft in the process.
 
 and I can say that I succeeded in enabling a virtuous cycle of web surfing and learning, staying up to date with the outlets I care about, being able to add new ones with little friction, and having always some fresh interesting food for thought, with less noise, less unwanted garbage and less toxicity than traditional social media.
+
+<br/>
+<hr/>
+
+*The feedi project is available [on GitHub](https://github.com/facundoolano/feedi).*
