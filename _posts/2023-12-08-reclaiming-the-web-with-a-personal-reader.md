@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Reclaiming the web with a personal reader"
+title: "Reclaiming the Web with a personal reader"
 date: 2023-12-08
 tags: [software, programación]
 lang: en
 ---
 
-Last year I experienced the all too common software professional burnout. I had a couple of bad projects in a row, yes, but more generally I was increasingly dissatisfied with the software industry. There was a disconnection between what I used to like about the job, what I was good at, and what <the market offered to pay me for> &#x2014;given my experience, my location and the overall economy.
+Last year I experienced the all too common career burnout. I had a couple of bad projects in a row, yes, but more generally I became disillusioned with the software industry. There was a disconnection between what I used to like about the job, what I was good at, and what the software job market was buying (given my experience, my location and the world economy).
 
-I did the usual thing: I slowed down, quit my job, started therapy. I reviewed my habits: eat better, exercise, meditate. Because I didn't like the effect it had on me, but also encouraged by its apparent enshittification, I quit Twitter, the last big social media app I was still consuming. I tried to stay away from programming and reading about software for a while.
+I did the usual thing: I slowed down, quit my job, started therapy. I revised my habits: eat better, exercise, meditate. I tried to stay away from programming and software-related reading for a while. Because I didn't like the effect it had on me, but also encouraged by its apparent enshittification, I quit Twitter, the last social media outlet I was still plugged into.
 
-Not working was one thing, but overcoming the productivity mandate &#x2014;the feeling that I had to make the best of my time off, or that I was "recharging" in preparation for a comeback&#x2014;, was another. During this period I read *How to do Nothing*, a sort of artistic activism manifesto disguised as a self-help book, which deals exactly with these things. The author mentions Mastodon when discussing alternative online communities. I had heard about Mastodon, had seen some colleagues move over there, but never really looked at it, and I thought that now was the right time to try it.
+Not working was one thing, but overcoming the productivity mandate &#x2014;the feeling that I had to make the best of my time off, that I was "recharging" to make a comeback&#x2014; was another. During this detox period I read *How to do Nothing*, a sort of artistic activist manifesto disguised as a self-help book that deals with some of these issues. The author Jenny Odell mentions Mastodon when discussing alternative online communities. I had heard about Mastodon, had seen some colleagues move over there, but never really looked at it. I thought that it was a good time to try it.
 
 <div class="org-center">
 <p>
@@ -18,15 +18,17 @@ Not working was one thing, but overcoming the productivity mandate &#x2014;the f
 </p>
 </div>
 
-A few things I noticed after some weeks using Mastodon:
+I noticed a few things after a while on Mastodon:
 
--   It was refreshing to be in control of the feed again, without mediators trying to sell me stuff
--   I had been using twitter as an information hub of sorts. I wasn't that much interested in its microblogging aspects, and it was the same case for Mastodon. <I'm not into posting updates, IO don't like the attention high of comments and retweets>.I was interested in following interesting people to learn when they posted on their blogs, not what they had for breakfast. I was adding bots to get updates from media and link aggregators.
--   <There were many people there going through a similar process as me (not surprising). Some of them reached to the old web and its technologies for inspiration. Things like RSS and BBS, digital gardens, web rings. People <preaching> for a the old web, or the slow, or the indie web
+First, it was refreshing to be in control of my information feed, to receive strictly chronological updates instead of having some algorithm tracking my actions and trying to sell me stuff.
 
-Things really clicked for me when I read about the ideas of the indie web, and particularly about their notion indie readers. Trying Mastodon had been nice, but what I needed to reconnect with the part I missed about the web was a feed reader, ideally one I could adjust to my preferences.
+Second, not only I wasn't interested in micro-blogging myself, but I didn't care for most of the updates from the people I was following. I realized I had been using Twitter and now Mastodon as an information hub rather than a social network. I was adding bots to get updates from media and link aggregators; I was following people to get notified when they blogged, not to see what they had for breakfast.
 
-There are plenty of great RSS readers out there, and I did briefly try a few of them, but this was too tempting a project to get back in touch with programming and software development. I was going to build my own personal reader.
+Third, there were many people going through a similar process as me, one of discomfort with the software industry and the state of the web. Some of them were looking back at the old web for inspiration, playing with [RSS](https://atthis.link/blog/2021/rss.html), bulletin board systems, [digital gardens](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/) and web rings. People trying to recreate an [open](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech) and [independent](https://www.jvt.me/posts/2019/10/20/indieweb-talk/) web.
+
+Things really clicked for me when I learned about the ideas of the indie web, particularly the notion of [social readers](https://aaronparecki.com/2018/04/20/46/indieweb-reader-my-new-home-on-the-internet). Trying Mastodon had been nice, but what I needed to reconnect with the good side of the web was a feed reader, one I could adjust arbitrarily to my preferences.
+
+There are plenty of great RSS readers out there, and I did briefly try a few of them, but this was the perfect excuse to get back in touch with software development. I was going to build my own personal feed reader.
 
 <div class="org-center">
 <p>
@@ -39,7 +41,9 @@ As a user, I had some ideas of what I wanted to accomplish.
 -   twitter like stream
     -   stream, not inbox metaphor
 
--   I also wanted to incorporate some features of note taking apps, particularly from Google keep, the one I (reluctantly) use more often. I wanted to have stuff like pinned and archived items, tags, favorites.
+I wanted something that would show me interesting stuff every time I opened it, not a backlog to get through every day.
+
+-   I also wanted to incorporate a few features from note-taking apps, like pinning, bookmarking and archiving items.
 
 -   I wanted something that allowed me to uniformly mix blogs, link aggregators and my mastodon feed. (I eventually extended this to ingesting other notification streams like Goodreads and Github)
     -   different sources would have to be customizable to have a good and consistent look and feel regardless of what each source would publish in their rss or api
@@ -77,6 +81,8 @@ although I haven't formulated it in those terms yet, I wanted to apply the ratio
 
 -   I also didn't see much benefit to implement the protocols and separation of concerns of indie readers. I much preferred a monolitic app, since I was doing all the development myself, especially one that I could easily deploy
 
+-   needless to say, this had to be a web app
+    -   because using html and the browser was the reasonable way to use the same interface on all my devices, and because a server was the easiest way to keep the state synchronized between them.
 -   I drew heavily from the choose boring tech and radical simplicity mindset. I wanted a web app yes, with some dynamic bits, but I wanted to lean on the browser native features as much as possible.
     -   htmx. felt picking up web dev where I left off 10 years ago
 
@@ -108,7 +114,7 @@ having it in a server also pushed me to finally add multi-user support (since I'
 </p>
 </div>
 
-there's an amazing zen-flow sort of thing that happens when developers get to use their own tools on a daily basis. not testing it but actually wanting to use it because its useful to them. it's an amazingly accurate way of prioritizing bug fixes and features according to how they affect the UX, and a catalyst for ideas and experimentation.
+There's an amazing zen-flow sort of thing that happens when developers use their own tools on a daily basis. Not just testing it, but actually experimenting it as an end user. There's no better catalyst for ideas and experimentation, no better prioritization driver than having to face the bugs, annoyances and limitations of an application first-hand.
 
 -   problem of mixed frequencies
 -   drove me to auto mark as read
