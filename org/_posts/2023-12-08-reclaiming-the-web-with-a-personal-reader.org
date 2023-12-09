@@ -37,7 +37,7 @@ There are plenty of great RSS readers out there, and I did briefly try a few of 
 \ast{} \ast{} \ast{}
 #+END_CENTER
 
-As a user, I had some ideas of what I was trying to accomplish.
+*As a user*, I had some ideas of what I was trying to accomplish.
 
 Rather than the email inbox metaphor I've most commonly seen used as RSS reader interfaces, I wanted something that felt like the Twitter or Mastodon home feed. That is: rather than [[https://danq.me/2023/07/29/rss-zero/][a backlog]] to clear every day, I wanted to get [[https://www.oliverburkeman.com/river][a renewed stream]] of interesting articles every time I opened the app. The feed would include articles from blogs, magazines, news sites and link aggregators, mixed with status updates and notifications from my Mastodon account (I eventually extended it to include my home feeds from Goodreads and Github). The parsing for those sources should be customizable to ensure a consistent look and feel, regardless of what I got back from their RSS feeds or their APIs.
 
@@ -52,36 +52,50 @@ My short-term goal was to answer, as soon as possible, this question: could this
 \ast{} \ast{} \ast{}
 #+END_CENTER
 
-As a developer, I wanted to test some of the ideas I'd been ruminating on for over year. Although I haven't yet formulated it in those terms, I wanted to apply what I expressed in [[file:../2023-11-30-code-is-run-more-than-read][another post]] as ~user > ops > dev~. This meant that when prioritizing tasks or making design trade-offs, I would choose ease of operation (local setup, server deploys, software updates, etc.) over development convenience. And I would put user experience above everything else.
+*As a developer*, I wanted to test some of the ideas I'd been ruminating on for over a year. Although I hadn't yet formulated it in those terms, I wanted to apply what I expressed in [[file:../2023-11-30-code-is-run-more-than-read][another post]] as ~user > ops > dev~. This meant that when prioritizing tasks or making design trade-offs, I would choose ease of operation (local setup, server deploys, software updates, etc.) over development convenience. And I would put user experience above everything else.
+
+Since this was going to be an app for personal use and I had no intention on turning it into anything else, putting the user first meant dogfooding: <putting myself as a user, my needs, first>. Even if I wanted this to eventually be useful to other people, I presumed I had a better chance at achieving it by designing the app ergonomically for me than by aiming to satisfy some ideal user.
 
 It was very important to me that this didn't turn into a learning project or, worse, a portfolio project. It wasn't about productivity, it was about reconnecting with the joy software development. While it was a leisure project, the pleasure shouldn't come from /building something/ but from /using something I had built/.
 
-- I wanted to put the user first. and in this case the user would be me. I would be dogfooding
-  - I had a working hypothesis: even if I wanted this to be useful for other people, I had a better shot at doing it by over-fitting (?) it to my quirks and preferences than by keeping it generic to cover what I could speculate would be the average user's requirements
+Assuming me as the single target audience meant that I could postpone whatever I didn't need right away (e.g. user authentication), that I could tackle specialized features early (e.g. send to Kindle support ), that I could assume programming knowledge (e.g. leaving parser customization to code rather than implementing a complex generic interface or resigning myself to the simplest implementation).
 
-- no mvp (?
-- this meant for example I could postpone fundamental features like user auth, since I knew I was going to be the single user for a while; validations, since I knew what not to do and I didn't care if I blew things up; web UI for infrequent operations that I could handle at the terminal.
-- likewise doing overly-specific stuff like streamlining support to send articles to kindle from early on
+#+BEGIN_CENTER
+\ast{} \ast{} \ast{}
+#+END_CENTER
 
-- withe same rationale, I new I was able to code my way out of problems, so rather than trying to come up with a generic one-size-fits-all rss parser or a complex UI to parametrize parsing instructions. I just wrote a code structure that allowed me to easily override, in the python source, how I wanted specific sites to be parsed. This gave me arbitrary customizability without complicated code, and it naturally extended to parsing arbitrary sites that didn't expose an RSS feed. (albeit assuming the cost of writing scrapers that will eventually fail when the source changes)
-  - this was better than both spending time designing sophisticated UI-driven customization support, and living with the basic generic parsing for a long time
+After settling that initial set of requirements, I needed to make some early technical decisions.
 
-- I wanted for the thing to be easy to deploy and operate. This would have pointed me, I think, to golang. But I'm not a golang developer, and although I could have used this as an excuse to learn it, I explicitly decided not to: I didn't want to shift the goal into making it a  learning project (much less a portfolio-building project). I've done that in the past, and I know it drives the development in a different direction.
-  - I wanted to go in the direction that reduced the time it took me to put the functionality in front of the user (me), to see how the app felt and be able to iterate on features and user experience. Because that's where it was going to be decided if the app would end up being useful at all, and a worthy to keep investing in its development.
-  - because of this I decided to go with python, at the expense of it being more difficult to deploy and run (because of dependency issues, and lack of good native concurrency support)
+#+begin_export html
+<h3>User Interface</h3>
+#+end_export
+- needless to say, this had to be a web app
+  - because using html and the browser was the reasonable way to use the same interface on all my devices, and because a server was the easiest way to keep the state synchronized between them.
+- I drew heavily from the choose boring tech and radical simplicity mindset. I wanted a web app yes, with some dynamic bits, but I wanted to lean on the browser native features as much as possible.
+  - htmx. felt picking up web dev where I left off 10 years ago
+
+#+begin_export html
+<h3>Architecture</h3>
+#+end_export
+- I also didn't see much benefit to implement the protocols and separation of concerns of indie readers. I much preferred a monolitic app, since I was doing all the development myself, especially one that I could easily deploy
 
 - I didn't need a scalable database. sqlite was good enough, and it simplified project setup
 - likewise, while I needed some sort of concurrency and periodic tasks support, I didn't want to introduce a separate worker process, nor a dependency on redis, nor I wanted to rely on cronjobs (which I felt made the local dev and prod deploy experiences diverge too much). I found the minihuey task runner, which more or less fit the bill.
   - I had to force it a bit, the code I ended up with is a bit of brittle, but it's another case of putting ops first.
   - again, the ideal would have been to have goroutines deal with concurrency and periodic tasks, but I sacrificed that option in favor of using a known stack to iterate faster.
 
-- I also didn't see much benefit to implement the protocols and separation of concerns of indie readers. I much preferred a monolitic app, since I was doing all the development myself, especially one that I could easily deploy
+#+begin_export html
+<h3>Programming language</h3>
+#+end_export
+- I wanted for the thing to be easy to deploy and operate. This would have pointed me, I think, to golang. But I'm not a golang developer, and although I could have used this as an excuse to learn it, I explicitly decided not to: I didn't want to shift the goal into making it a  learning project (much less a portfolio-building project). I've done that in the past, and I know it drives the development in a different direction.
+  - I wanted to go in the direction that reduced the time it took me to put the functionality in front of the user (me), to see how the app felt and be able to iterate on features and user experience. Because that's where it was going to be decided if the app would end up being useful at all, and a worthy to keep investing in its development.
+  - because of this I decided to go with python, at the expense of it being more difficult to deploy and run (because of dependency issues, and lack of good native concurrency support)
 
-- needless to say, this had to be a web app
-  - because using html and the browser was the reasonable way to use the same interface on all my devices, and because a server was the easiest way to keep the state synchronized between them.
-- I drew heavily from the choose boring tech and radical simplicity mindset. I wanted a web app yes, with some dynamic bits, but I wanted to lean on the browser native features as much as possible.
-  - htmx. felt picking up web dev where I left off 10 years ago
+- flask? sqlalchemy
 
+#+begin_export html
+<h3>Testing</h3>
+#+end_export
 perhaps the most controversial decision I made, one that made me feel /dirty/ but that I still stand by and think was the right call, was to not having tests for the app.
   - it's no use for me as a design tool (my take is that this is extremely subjective and it just not the way my head works)
   - unit tests didn't provide much value in making the software robust. most errors come from the integration and UI, things that would by definition be excluded from unit tests.
@@ -93,12 +107,24 @@ perhaps the most controversial decision I made, one that made me feel /dirty/ bu
 \ast{} \ast{} \ast{}
 #+END_CENTER
 
+There's an amazing zen-flow sort of thing that happens when developers use their own tools on a daily basis. Not just testing it, but actually experimenting it as an end user. There's no  better catalyst for ideas and experimentation, no better prioritization driver than having to face the bugs, annoyances and limitations of an application first-hand.
+
+- problem of mixed frequencies
+- drove me to auto mark as read
+- drove me to no manual archive/delete
+
+[desktop screenshot]
+
+#+BEGIN_CENTER
+\ast{} \ast{} \ast{}
+#+END_CENTER
+
 for a while I used the thing in my desktop
 then I set it up in a raspberry pi in my local network. that forced me not to postpone much longer running the thing in a production like server. it also enabled me to use the app from my cellphone, which in turn gave me a reason to work on the mobile version of the UI.
 
-after some time I got to a point were the app was useful enough for me that I missed it when I was out of home. This pushed me to rent a vps and (for the first time in my career) finally buy a domain to run the thing, still for personal use.
+[mobile screenshot]
 
-And since now I had my own domain and server, why not setup a small personal page and move my blogpost out of github pages, getting a bit closer to the indie web ideal?
+after some time I got to a point were the app was useful enough for me that I missed it when I was out of home. This pushed me to rent a vps and (for the first time in my career) finally buy a domain to run the thing, still for personal use. And since now I had my own domain and server, why not setup a small personal page and move my blogpost out of github pages, getting a bit closer to the indie web ideal?
 
 having it in a server also pushed me to finally add multi-user support (since I'd need some sort of authentication anyway), so added a couple of friends in there as beta testers.
 
@@ -106,20 +132,12 @@ having it in a server also pushed me to finally add multi-user support (since I'
 \ast{} \ast{} \ast{}
 #+END_CENTER
 
-There's an amazing zen-flow sort of thing that happens when developers use their own tools on a daily basis. Not just testing it, but actually experimenting it as an end user. There's no  better catalyst for ideas and experimentation, no better prioritization driver than having to face the bugs, annoyances and limitations of an application first-hand.
-
-- problem of mixed frequencies
-- drove me to auto mark as read
-- drove me to no manual archive/delete
-
-#+BEGIN_CENTER
-\ast{} \ast{} \ast{}
-#+END_CENTER
+[TODO recall goal of sole source of web info, using it for N months]
+[TODO recall reconnecting with programming]
 
 perpetual state of half-brokenness, much like me emacs editor configuration. an ergonomic half-brokenness that's hard to justify from a productivity standpoint but that it's fulfilling because it's using my own tool in my own terms, and learning and reflecting about my craft in the process.
 
 and I can say that I succeeded in enabling a virtuous cycle of web surfing and learning, staying up to date with the outlets I care about, being able to add new ones with little friction, and having always some fresh interesting food for thought, with less noise, less unwanted garbage and less toxicity than traditional social media.
-
 
 #+begin_export html
 <br/>
