@@ -64,20 +64,26 @@ Assuming me as the single target audience meant that I could postpone whatever I
 \ast{} \ast{} \ast{}
 #+END_CENTER
 
-After settling that initial set of requirements, I needed to make some early technical decisions.
+After settling on that first set of requirements, I needed to make some early technical decisions.
 
 #+begin_export html
 <h3>User Interface</h3>
 #+end_export
-- needless to say, this had to be a web app
-  - because using html and the browser was the reasonable way to use the same interface on all my devices, and because a server was the easiest way to keep the state synchronized between them.
-- I drew heavily from the choose boring tech and radical simplicity mindset. I wanted a web app yes, with some dynamic bits, but I wanted to lean on the browser native features as much as possible.
-  - htmx. felt picking up web dev where I left off 10 years ago
+
+Although this was going to be a personal tool, and I wanted it to work on a local-first setup, I knew that if it worked well I'd want to use it in my cellphone (in addition to my laptop). This meant that I needed to make this a Web application:
+
+- Using the browser and HTML was the cost-effective way to implement a single client that worked in both devices.
+- HTML/CSS are the fronted tool I'm most familiar with.
+- Having a server would allow me to keep the state (e.g. the list of feeds) synchronized between devices.
+
+I wanted the Web UI to be somewhat dynamic, but I definitely didn't want maintain a separate front-end application, learn a new front-end framework or reimplement what the browser already provided. Following the [[https://mcfunley.com/choose-boring-technology][boring tech]] and [[https://www.radicalsimpli.city/][radical simplicity]] advice, I looked into server-side rendering libraries. I ended up using a combination of [[https://htmx.org/][htmx]] and its companion [[https://htmx.org/][hyperscript]], which felt like picking up web development where I'd left off a decado ago, when I moved to the backend.
 
 #+begin_export html
 <h3>Architecture</h3>
 #+end_export
-- I also didn't see much benefit to implement the protocols and separation of concerns of indie readers. I much preferred a monolitic app, since I was doing all the development myself, especially one that I could easily deploy
+- I didn't see much benefit to implement the protocols and separation of concerns of indie readers. I much preferred a monolitic app, since I was doing all the development myself, especially one that I could easily deploy
+
+  https://aaronparecki.com/2018/03/12/17/building-an-indieweb-reader
 
 - I didn't need a scalable database. sqlite was good enough, and it simplified project setup
 - likewise, while I needed some sort of concurrency and periodic tasks support, I didn't want to introduce a separate worker process, nor a dependency on redis, nor I wanted to rely on cronjobs (which I felt made the local dev and prod deploy experiences diverge too much). I found the minihuey task runner, which more or less fit the bill.
@@ -119,7 +125,8 @@ There's an amazing zen-flow sort of thing that happens when developers use their
 \ast{} \ast{} \ast{}
 #+END_CENTER
 
-for a while I used the thing in my desktop
+for a while I left the app running on a terminal tab of my laptop, and I used it while I developed.
+
 then I set it up in a raspberry pi in my local network. that forced me not to postpone much longer running the thing in a production like server. it also enabled me to use the app from my cellphone, which in turn gave me a reason to work on the mobile version of the UI.
 
 [mobile screenshot]
