@@ -52,13 +52,11 @@ That's what I started with, but as soon as I had the most basic features in plac
 </p>
 </div>
 
-As a developer, I wanted to test the ideas I'd been ruminating on for over year.
+As a developer, I wanted to test some of the ideas I'd been ruminating on for over year. Although I haven't yet formulated it in those terms, I wanted to apply what I expressed in [another post](../2023-11-30-code-is-run-more-than-read) as `user > ops > dev`. This meant that when prioritizing tasks or making design trade-offs, I would choose ease of operation (local setup, server deploys, software updates, etc.) over development convenience. And I would put user experience above everything else.
 
-although I haven't formulated it in those terms yet, I wanted to apply the rationale that I recently described in another post: user > ops > dev.
+It was very important to me that this didn't turn into a learning project or, worse, a portfolio project. It wasn't about productivity, it was about reconnecting with the joy software development. While it was a leisure project, the pleasure shouldn't come from *building something* but from *using something I had built*.
 
-<it was paramount that this didn't turn into a learning project or, worse, a portfolio project. This was about reconnecting with what I love about software development. While it was a leisure project, the fun wouldn't come from *building something* but from *using something I had built*.
-
--   I wanted to put the user first. and in this case the user would be me. I would be dogfooding, a sort of self-portrait.
+-   I wanted to put the user first. and in this case the user would be me. I would be dogfooding
     -   I had a working hypothesis: even if I wanted this to be useful for other people, I had a better shot at doing it by over-fitting (?) it to my quirks and preferences than by keeping it generic to cover what I could speculate would be the average user's requirements
 
 -   this meant for example I could postpone fundamental features like user auth, since I knew I was going to be the single user for a while; validations, since I knew what not to do and I didn't care if I blew things up; web UI for infrequent operations that I could handle at the terminal.
