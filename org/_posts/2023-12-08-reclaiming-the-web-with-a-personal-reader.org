@@ -93,34 +93,27 @@ The bad side of using Python was that I had to deal with its environment and dep
 The good side of using Python was that I could leverage its rich libraries for for the HTTP server and client, feed parsing, scraping, and database access.
 
 *** Testing (or lack thereof)
-Perhaps the most controversial aspect of the projects was that I didn't bother writing tests for it. In a sense, it made me feel /dirty/, but I think it was the right call given what I was trying to accomplish:
+Perhaps the most controversial aspect of the project was that I didn't bother writing tests for it. In a sense, it made me feel /dirty/, but I think it was the right call given what I was trying to accomplish.
 
-perhaps the most controversial decision I made, one that made me feel /dirty/ but that I still stand by and think was the right call, was to not having tests for the app.
-  - it's no use for me as a design tool (my take is that this is extremely subjective and it just not the way my head works)
-  - unit tests didn't provide much value in making the software robust. most errors come from the integration and UI, things that would by definition be excluded from unit tests.
-  - admittedly, UI and integration tests would add up a lot of value to the project, in terms of its long-term maintenance and preventing regressions when adding new features
-  - but, in the context of this being a project for a single user which was me, I knew I could live with bugs and preferred to just move fast to try features
-  - At heart, this was more of a prototype than a long term development. but they meant slowing the development cycle down, and in some cases investing in testing features I would just try and end up removing in the short term.
+Test don't work for me as a design tool. While I see the value in TDD and think everyone should give a try, I don't feel it's a general purpose methodology, one that's necessarily applicable to any project by any person. I've found that the point of view enforced by TDD is not a good match for how I prefer to reason about code to solve a problem.
+
+TDD considerations aside, unit tests <are good to verify that the logic works as expected and that we don't introduce bugs when making refactors, so it's a good asset (a good investment) for project maintenance.> Given that I was going to experiment, adding, removing and rearranging features, tests would break often and require more effort than the value they provided in the short term. I didn't mind introducing little logic bugs; I was going to use the app myself so I expected that most significant bugs would surface over time.
+
+In my experience, integration tests tend to provide more value than unit tests, in terms of confidence that the application works. <In this particular project>, the bulk of the work (and the majority of the bugs) came either from integrations with external data sources or from the user interface. And while I could have caught some bugs earlier and prevented some regressions if I had integration tests, implementing those required an effort (e.g. serving arbitrary RSS feeds locally for testing different scenarios) that just wasn't worth upfront. Now that the application is stable, though, adding integration tests sounds like a good investment.
 
 ** Development
 
-There's an amazing zen-flow sort of thing that happens when developers use their own tools on a daily basis. Not just testing it, but actually experimenting it as an end user. There's no  better catalyst for ideas and experimentation, no better prioritization driver than having to face the bugs, annoyances and limitations of an application first-hand.
+There's an amazing zen-flow sort of thing that happens when developers use their own tools on a daily basis. Not just testing it but actually experimenting it as an end user. There's no better catalyst for ideas and experimentation, no better prioritization driver than having to face the bugs, annoyances and limitations of an application first-hand.
 
-the basic flow that surfaced was: open app, scroll feed, open what I want to read now, pin what I want to read later, favorite what I want to bookmark for future reference.
+<after adding the basic building blocks and some trial and error with UI arrangement and controls, I <settled> on this usage pattern: open app, scroll feed, open what I want to read now, pin what I want to read later, favorite what I want to bookmark for future reference.
 
 [desktop screenshot]
+
+- mozilla readability for reader view, npm dependency. side effect of producing a better send 2 kindle result than the native library
 
 - problem of mixed frequencies. basic solution: folders
 - drove me to auto mark as read
 - drove me to no manual archive/delete
-
-#+BEGIN_CENTER
-\ast{} \ast{} \ast{}
-#+END_CENTER
-
-
-- mozilla readability for reader view, npm dependency. side effect of producing a better send 2 kindle result than the native library
-
 
 #+BEGIN_CENTER
 \ast{} \ast{} \ast{}
