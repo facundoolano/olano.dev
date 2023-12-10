@@ -6,6 +6,9 @@ tags: [software, programación]
 lang: en
 ---
 
+
+## Background
+
 Last year I experienced the all too common career burnout. I had a couple of bad projects in a row, yes, but more generally I became disillusioned with the software industry. There was a disconnection between what I used to like about the job, what I was good at, and what the software job market wanted to buy from me (given my experience, my location and the world economy).
 
 I did the usual thing: I slowed down, quit my job, started therapy. I revised my habits: eat better, exercise, meditate. I tried to stay away from programming and software-related reading for a while. Because I didn't like the effect it had on me, but also encouraged by its apparent enshittification, I quit Twitter, the last social media outlet I was still plugged into.
@@ -30,11 +33,8 @@ Things really clicked for me when I learned about the ideas of the IndieWeb, par
 
 There are plenty of great RSS readers out there, and I did briefly try a few of them, but this was the perfect excuse for me to get back in touch with software development. I was going to build my own personal reader.
 
-<div class="org-center">
-<p>
-&lowast; &lowast; &lowast;
-</p>
-</div>
+
+## Goals
 
 **As a user**, I had some ideas of what I was trying to accomplish.
 
@@ -58,19 +58,17 @@ Since this was going to be an app for personal use and I had no intention on tur
 
 It was very important to me that this didn't turn into a learning project or, worse, a portfolio project. It wasn't about productivity, it was about reconnecting with the joy software development. While it was a leisure project, the pleasure shouldn't come from *building something* but from *using something I had built*.
 
-Assuming me as the single target audience meant that I could postpone whatever I didn't need right away (e.g. user authentication), that I could tackle specialized features early (e.g. send to Kindle support ), that I could assume programming knowledge (e.g. leaving parser customization to code rather than implementing a complex generic interface or resigning myself to the simplest implementation).
+Assuming me as the single target audience meant that I could postpone whatever I didn't need right away (e.g. user authentication), that I could tackle specialized features early (e.g. send to Kindle support ), that I could assume programming knowledge (e.g. leaving parser customization to code rather than implementing a complex generic interface or resigning myself to a generic implementation).
 
-<div class="org-center">
-<p>
-&lowast; &lowast; &lowast;
-</p>
-</div>
+
+## Design
 
 After settling on that first set of requirements, I needed to make some early technical decisions.
 
-<h3>User Interface</h3>
 
-Although this was going to be a personal tool, and I wanted it to work on a local-first setup, I knew that if it worked well I'd want to use it in my cellphone (in addition to my laptop). This meant that I needed to make this a Web application:
+### User Interface
+
+Although this was going to be a personal tool, and I wanted it to work on a local-first setup, I knew that if it worked well I'd want to access it from my phone (in addition to my laptop). This meant that I needed to make this a Web application:
 
 -   Using the browser and HTML was the cost-effective way to implement a single client that worked in both devices.
 -   HTML/CSS are the fronted tool I'm most familiar with.
@@ -78,26 +76,30 @@ Although this was going to be a personal tool, and I wanted it to work on a loca
 
 I wanted the Web UI to be somewhat dynamic, but I definitely didn't want maintain a separate front-end application, learn a new front-end framework or reimplement what the browser already provided. Following the [boring tech](https://mcfunley.com/choose-boring-technology) and [radical simplicity](https://www.radicalsimpli.city/) advice, I looked into server-side rendering libraries. I ended up using a combination of [htmx](https://htmx.org/) and its companion [hyperscript](https://htmx.org/), which felt like picking up web development where I'd left off a decado ago, when I moved to the backend.
 
-<h3>Architecture</h3>
 
--   I didn't see much benefit to implement the protocols and separation of concerns of indie readers. I much preferred a monolitic app, since I was doing all the development myself, especially one that I could easily deploy
-    
-    <https://aaronparecki.com/2018/03/12/17/building-an-indieweb-reader>
+### Architecture
 
--   I didn't need a scalable database. sqlite was good enough, and it simplified project setup
--   likewise, while I needed some sort of concurrency and periodic tasks support, I didn't want to introduce a separate worker process, nor a dependency on redis, nor I wanted to rely on cronjobs (which I felt made the local dev and prod deploy experiences diverge too much). I found the minihuey task runner, which more or less fit the bill.
-    -   I had to force it a bit, the code I ended up with is a bit of brittle, but it's another case of putting ops first.
-    -   again, the ideal would have been to have goroutines deal with concurrency and periodic tasks, but I sacrificed that option in favor of using a known stack to iterate faster.
+Simple operations meant that I wanted the app to be easy to deploy on linux environment but also easy to setup locally, with minimal infrastructure components, without requiring docker, etc.
 
-<h3>Programming language</h3>
+A "proper" indie web reader, at least [as described by Aaron Parecki](https://aaronparecki.com/2018/03/12/17/building-an-indieweb-reader), is separated into multiple components, each implementing different protocols (micropub, microsub, webmention). This enforces the separation of concerns between content fetching, parsing, displaying and publishing. I felt that, for my use case, this architecture would complicate development and especially operations without buying me as a user. Since I was doing all development myself, I preferred to build a monolithic Web application.
 
--   I wanted for the thing to be easy to deploy and operate. This would have pointed me, I think, to golang. But I'm not a golang developer, and although I could have used this as an excuse to learn it, I explicitly decided not to: I didn't want to shift the goal into making it a learning project (much less a portfolio-building project). I've done that in the past, and I know it drives the development in a different direction.
-    -   I wanted to go in the direction that reduced the time it took me to put the functionality in front of the user (me), to see how the app felt and be able to iterate on features and user experience. Because that's where it was going to be decided if the app would end up being useful at all, and a worthy to keep investing in its development.
-    -   because of this I decided to go with python, at the expense of it being more difficult to deploy and run (because of dependency issues, and lack of good native concurrency support)
+Although I default to Postgres for most of my projects, the small scale of this one made it a perfect fit for sqlite, which had the benefit of simplifying database setup and operations.
 
--   flask? sqlalchemy
+Apart from serving the web application, I needed some way to periodically poll the feeds for content. The basic option would have been to set up a script run by cron, but that seemed inconvenient, particularly for non-server setups. I'd used task runners like celery in the past, but that would have required a couple of extra components: another service to run alongside the app and a data system (e.g. Redis) to act as a broker. Could I get away with running the background tasks in the same process as the web server? That largely depended on the concurrency support of the programming language I chose, which brings me to the next section.
 
-<h3>Testing</h3>
+
+### Programming language
+
+At least from my superficial understanding of it, Go seemed like the best fit for this project: a simple general-purpose language, garbage-collected but fast enough, with a solid concurrency model and, most importantly for my requirements, one that produced easy to deploy binaries. The big problem is that I never wrote a line of Go, and while I understand it's easy to pick up, I didn't want to lose focus by turning this into a language learning project.
+
+Among the languages I was already fluent with, I needed to chose the one I expected to be most productive with, the one that let me built a quick prototype to decide whether this looked like something worth pursuing. So I chose Python.
+
+The bad side of using Python was that I had to deal with its environment and dependency quirks, particularly its reliance on the host OS libraries. Additionally, it meant I'd have to get creative if I wanted to avoid adding extra components for the periodic tasks. After some research I ended up using [an extension of the Huey library](https://huey.readthedocs.io/en/latest/contrib.html#mini-huey) that runs them inside a greenlet of the main application process.
+
+The good side of using Python was that I could leverage its rich libraries for for the HTTP server and client, feed parsing, scraping, and database access.
+
+
+### Testing (or lack thereof)
 
 perhaps the most controversial decision I made, one that made me feel *dirty* but that I still stand by and think was the right call, was to not having tests for the app.
 
@@ -107,19 +109,26 @@ perhaps the most controversial decision I made, one that made me feel *dirty* bu
 -   but, in the context of this being a project for a single user which was me, I knew I could live with bugs and preferred to just move fast to try features
 -   At heart, this was more of a prototype than a long term development. but they meant slowing the development cycle down, and in some cases investing in testing features I would just try and end up removing in the short term.
 
+
+## Development
+
+There's an amazing zen-flow sort of thing that happens when developers use their own tools on a daily basis. Not just testing it, but actually experimenting it as an end user. There's no better catalyst for ideas and experimentation, no better prioritization driver than having to face the bugs, annoyances and limitations of an application first-hand.
+
+the basic flow that surfaced was: open app, scroll feed, open what I want to read now, pin what I want to read later, favorite what I want to bookmark for future reference.
+
+[desktop screenshot]
+
+-   problem of mixed frequencies. basic solution: folders
+-   drove me to auto mark as read
+-   drove me to no manual archive/delete
+
 <div class="org-center">
 <p>
 &lowast; &lowast; &lowast;
 </p>
 </div>
 
-There's an amazing zen-flow sort of thing that happens when developers use their own tools on a daily basis. Not just testing it, but actually experimenting it as an end user. There's no better catalyst for ideas and experimentation, no better prioritization driver than having to face the bugs, annoyances and limitations of an application first-hand.
-
--   problem of mixed frequencies
--   drove me to auto mark as read
--   drove me to no manual archive/delete
-
-[desktop screenshot]
+-   mozilla readability for reader view, npm dependency. side effect of producing a better send 2 kindle result than the native library
 
 <div class="org-center">
 <p>
@@ -137,11 +146,8 @@ after some time I got to a point were the app was useful enough for me that I mi
 
 having it in a server also pushed me to finally add multi-user support (since I'd need some sort of authentication anyway), so added a couple of friends in there as beta testers.
 
-<div class="org-center">
-<p>
-&lowast; &lowast; &lowast;
-</p>
-</div>
+
+## Conclusion
 
 [TODO recall goal of sole source of web info, using it for N months] [TODO recall reconnecting with programming]
 
