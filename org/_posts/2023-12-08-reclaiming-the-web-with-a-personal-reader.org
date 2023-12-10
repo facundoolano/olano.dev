@@ -93,6 +93,8 @@ The bad side of using Python was that I had to deal with its environment and dep
 The good side of using Python was that I could leverage its rich libraries for for the HTTP server and client, feed parsing, scraping, and database access.
 
 *** Testing (or lack thereof)
+Perhaps the most controversial aspect of the projects was that I didn't bother writing tests for it. In a sense, it made me feel /dirty/, but I think it was the right call given what I was trying to accomplish:
+
 perhaps the most controversial decision I made, one that made me feel /dirty/ but that I still stand by and think was the right call, was to not having tests for the app.
   - it's no use for me as a design tool (my take is that this is extremely subjective and it just not the way my head works)
   - unit tests didn't provide much value in making the software robust. most errors come from the integration and UI, things that would by definition be excluded from unit tests.
@@ -136,16 +138,8 @@ having it in a server also pushed me to finally add multi-user support (since I'
 
 ** Conclusion
 
-[TODO recall goal of sole source of web info, using it for N months]
-[TODO recall reconnecting with programming]
+It took me about 3 months of (relaxed) work to put together my personal reader, which I named [[https://github.com/facundoolano/feedi][feedi]]. I can say I succeeded in reconnecting with software development, and also in building something that I like to use every day. Far from a finished product, it feels a bit like my Emacs editor setup: a perpetually half-broken tool that can nevertheless become second nature,
+hard to justify from a productivity standpoint but fulfilling because it's built in my own terms.
 
-perpetual state of half-brokenness, much like me emacs editor configuration. an ergonomic half-brokenness that's hard to justify from a productivity standpoint but that it's fulfilling because it's using my own tool in my own terms, and learning and reflecting about my craft in the process.
-
-and I can say that I succeeded in enabling a virtuous cycle of web surfing and learning, staying up to date with the outlets I care about, being able to add new ones with little friction, and having always some fresh interesting food for thought, with less noise, less unwanted garbage and less toxicity than traditional social media.
-
-#+begin_export html
-<br/>
-<hr/>
-#+end_export
-
-/The feedi project is available [[https://github.com/facundoolano/feedi][on GitHub]]./
+I've been using feedi as my "front page of the internet" for a few months now.
+More than just a convenience, a personal reader puts me in control of the type of information I consume, more consciously in the lookout for interesting blogs and magazines, better positioned for discovery and even surprise.
