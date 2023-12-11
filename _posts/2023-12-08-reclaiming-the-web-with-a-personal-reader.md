@@ -112,17 +112,19 @@ In my experience, integration tests tend to provide more value than unit tests, 
 
 ## Development
 
-There's an amazing zen-flow sort of thing that happens when developers use their own tools on a daily basis. Not just testing it but actually experimenting it as an end user. There's no better catalyst for ideas and experimentation, no better prioritization driver than having to face the bugs, annoyances and limitations of an application first-hand.
+There's a kind of zen flow that programmers unblock when they use the software they are working on on a daily-basis. I mean not just testing it but actually experimenting it as an end user. There's no better catalyst for ideas and experimentation, no better prioritization driver than having to face the bugs, annoyances and limitations of an application first-hand.
 
-<after adding the basic building blocks and some trial and error with UI arrangement and controls, I <settled> on this usage pattern: open app, scroll feed, open what I want to read now, pin what I want to read later, favorite what I want to bookmark for future reference.
+After some trial and error with the user interface, I settled on this usage pattern: open the app, scroll down the feed, open what I want to read now, pin what I want to read later, favorite what I want to keep for future reference.
 
-[desktop screenshot]
+I tried several Python libraries to extract HTML content, but none worked as well as Mozilla's [readability](https://github.com/mozilla/readability) (the one that powers Firefox's reader view). Since it's written in JavaScript, I resigned to adding an optional dependency on node.js to embed article content in my app. The same extraction logic is used to send articles to my Kindle device, producing better documents than Amazon's Chrome extension.
 
--   mozilla readability for reader view, npm dependency. side effect of producing a better send 2 kindle result than the native library
+[TODO desktop screenshot]
 
--   problem of mixed frequencies. basic solution: folders
--   drove me to auto mark as read
--   drove me to no manual archive/delete
+With the basic functionality in place, a problem became apparent. My feed mixed sources of varying quality and publication frequency. Even after curating the list of feeds and carefully distributing them in folders, it was hard to get interesting content by just scrolling items in reverse chronological order: occasional blog posts would get buried behind Mastodon toots, magazine features behind daily news articles.
+
+My reasoning was this: assuming I'm more or less interested in every source I follow, I prefer to first see the content from the ones that publish least frequently. If a monthly newsletter came out in the last couple of days, I should see that first at the top of my feed, before any micro-blogging or daily news items. So I classified sources in "frequency buckets" and sorted the feed from least to most frequent buckets.
+
+The problem now was that when infrequent sources *did* publish, their articles stuck at the top every time I opened the app. For a while I tried trashing or archiving items, but this was a lot of extra work and pulled me in the direction of "clearing the inbox" that I wanted to avoid. I wanted the app to do this work for me, by default, so I came up with this: as I scroll down the feed, previous items get marked automatically as "already seen"; the next time I open the app, the seen articles are skipped, so I effectively always get the least frequent *unseen* articles first.
 
 <div class="org-center">
 <p>
@@ -130,19 +132,15 @@ There's an amazing zen-flow sort of thing that happens when developers use their
 </p>
 </div>
 
-for a while I left the app running on a terminal tab of my laptop, and I used it while I developed.
-
-then I set it up in a raspberry pi in my local network. that forced me not to postpone much longer running the thing in a production like server. it also enabled me to use the app from my cellphone, which in turn gave me a reason to work on the mobile version of the UI.
+For a while I left the app running on a terminal tab of my laptop, and I used it while I was working on it. Once I started noticing that I liked the content that was popping up in the feed, I deployed to a raspberry pi server in my local network, to have a non-development instance running all the time. This, in turn, encouraged me to improve the mobile rendering of the interface, so I could access it from my phone.
 
 [mobile screenshot]
 
-after some time I got to a point were the app was useful enough for me that I missed it when I was out of home. This pushed me to rent a vps and (for the first time in my career) finally buy a domain to run the thing, still for personal use. And since now I had my own domain and server, why not setup a small personal page and move my blogpost out of github pages, getting a bit closer to the indie web ideal?
-
-having it in a server also pushed me to finally add multi-user support (since I'd need some sort of authentication anyway), so added a couple of friends in there as beta testers.
+Then, there was a point when I *missed* having the app available when I was out, so I decided it to deploy it to a VPS. Since I was now going to run this in the open internet, I finally had to add authentication and multi-user support. With that in place I could also create users for a few friends to try the app themselves. (The VPS setup also encouraged me to buy a domain and move my website out of GitHub pages, getting a bit closer to the IndieWeb ideal).
 
 
 ## Conclusion
 
-It took me about 3 months of (relaxed) work to put together my personal reader, which I named [feedi](https://github.com/facundoolano/feedi). I can say I succeeded in reconnecting with software development, and also in building something that I like to use every day. Far from a finished product, it feels a bit like my Emacs editor setup: a perpetually half-broken tool that can nevertheless become second nature, hard to justify from a productivity standpoint but fulfilling because it's built in my own terms.
+It took me about 3 months of (relaxed) work to put together this personal reader, which I named [feedi](https://github.com/facundoolano/feedi). I can say that I succeeded in reengaging with software development, and also in building something that I like to use myself, every day. Far from a finished product, the project feels more like my Emacs editor setup: a perpetually half-broken tool that can nevertheless become second nature, hard to justify from a productivity standpoint but fulfilling because it's built on my own terms.
 
-I've been using feedi as my "front page of the internet" for a few months now. More than just a convenience, a personal reader puts me in control of the type of information I consume, more consciously in the lookout for interesting blogs and magazines, better positioned for discovery and even surprise.
+I've been using feedi as my "front page of the internet" for a few months now. Beyond its convenience, by using a personal reader I'm back in control of the information I consume, actively in the lookout for interesting blogs and magazines, better positioned for discovery and even surprise.
