@@ -13,7 +13,7 @@ Last year I experienced the all-too-common career burnout. I had a couple of bad
 
 I did the usual thing: I slowed down, quit my job, started therapy. I revised my habits: eat better, exercise, meditate. I tried to stay away from programming and software-related reading for a while. Because I didn't like the effect it had on me, but also encouraged by its apparent enshittification, I quit Twitter, the last social media outlet I was still plugged into.
 
-Not working was one thing, but overcoming the productivity mandate &#x2014;the feeling that I had to make the best of my time off, that I was "recharging" to make a comeback&#x2014; was another. As part of this detox period, I read *How to Do Nothing*, a sort of artistic manifesto disguised as a self-help book that dealt with some of these issues. The author Jenny Odell mentions Mastodon when discussing alternative online communities. I had heard about Mastodon, I had seen some colleagues move over there, but never really looked at it. I thought I should give it a try.
+Not working was one thing, but overcoming the productivity mandate &#x2014;the feeling that I had to make the best of my time off, that I was "recharging" to make a comeback&#x2014; was another. As part of this detox period, I read *How to Do Nothing*, a sort of artistic manifesto disguised as a self-help book that deals with some of these issues. The author Jenny Odell mentions Mastodon when discussing alternative online communities. I had heard about Mastodon, I had seen some colleagues move over there, but never really looked at it. I thought I should give it a try.
 
 <div class="org-center">
 <p>
@@ -36,7 +36,7 @@ Things clicked for me when I learned about the IndieWeb movement, particularly t
 
 **As a user**, I had some ideas of what I was trying to accomplish.
 
-Rather than the email inbox metaphor I've most commonly seen as RSS reader interfaces, I wanted something resembling the Twitter and Mastodon home feed. That is: instead of [a backlog](https://danq.me/2023/07/29/rss-zero/) to clear every day, I wanted to get [a stream](https://www.oliverburkeman.com/river) of interesting content whenever I opened the app. The feed would include articles from blogs, magazines, news sites, and link aggregators, mixed with notifications from personal accounts (Mastodon, Goodreads, GitHub). The parsing of those disparate sources should be customizable to ensure a consistent look and feel, independent from the shape of the data the app received.
+Rather than the email inbox metaphor I've most commonly seen in RSS readers, I wanted something resembling the Twitter and Mastodon home feed. That is: instead of [a backlog](https://danq.me/2023/07/29/rss-zero/) to clear every day, I wanted to get [a stream](https://www.oliverburkeman.com/river) of interesting content whenever I opened the app. The feed would include articles from blogs, magazines, news sites, and link aggregators, mixed with notifications from personal accounts (Mastodon, Goodreads, GitHub). The parsing of those disparate sources should be customizable to ensure a consistent look and feel, independent from the shape of the data the app received.
 
 I wasn't interested in implementing the "social" features of a fully-fledged indie reader. I didn't mind opening another tab to comment, nor having my "content" scattered across third-party sites.
 
@@ -95,7 +95,7 @@ The good side was that I got to use great Python libraries for HTTP, feed parsin
 
 I decided not to bother writing tests, at least initially. In a sense, this felt "dirty", but I still think it was the right call given what I was trying to do:
 
--   Given that I was going to experiment, adding, removing, and rearranging features, the cost of maintaining unit tests outweighed the value they were going to provide. I didn't mind introducing little logic bugs; I was going to use the app myself anyway, so I expected that most significant bugs would just surface over time.
+-   Since I was going to experiment, adding, removing, and rearranging features, the cost of maintaining unit tests would outweigh their value. I didn't mind introducing little logic bugs; I was going to use the app myself anyway, so I expected that most significant bugs would just surface over time.
 
 -   In my experience, integration tests are the ones that provide the most value in terms of confidence that the application works as expected. More so for this project, where the bulk of the work (and the majority of the bugs) came from interacting with external sources and from the UI. But, while I could have caught some bugs earlier and prevented some regressions if I had integration tests in place, implementing them required an effort that just wasn't worth it upfront.
 
@@ -112,9 +112,9 @@ I decided early on that I wanted the option to read articles without leaving the
 
 [TODO reader screenshot]
 
-With the basic functionality in place, a problem became apparent. Even after curating the list of feeds and carefully distributing them in folders, it was hard to get interesting content by just scrolling items by their publication date: occasional blog posts would get buried behind Mastodon toots, magazine features behind daily news articles. So I started to think about how to make the sorting "smarter".
+With the basic functionality in place, a problem became apparent. Even after curating the list of feeds and carefully distributing them in folders, it was hard to get interesting content by just scrolling items sorted by publication date: occasional blog posts would get buried behind Mastodon toots, magazine features behind daily news articles. I needed to make the sorting "smarter".
 
-Considering that I only followed sources I was interested in, it was safe to assume that I'd want to see content from the least frequent ones first. If a monthly newsletter came out in the last couple of days, that should show up at the top of my feed, before any micro-blogging or daily news items. So I classified sources into "frequency buckets" and sorted the feed to show the least frequent buckets first. To avoid this "infrequent content" sticking at the top every time I open the app, I added a feature that automatically marks entries as "already seen" as I scroll down the feed. This way I get fresh content every time and never miss "rare" updates.
+Considering that I only followed sources I was interested in, it was safe to assume that I'd want to see content from the least frequent ones first. If a monthly newsletter came out in the last couple of days, that should show up at the top, before any micro-blogging or daily news items. So I classified sources into "frequency buckets" and sorted the feed to show the least frequent buckets first. Finally, to avoid this "infrequent content" sticking at the top every time I opened the app, I added a feature that automatically marks entries as "already seen" as I scroll down the feed. This way I always get fresh content and never miss "rare" updates.
 
 <div class="org-center">
 <p>
@@ -122,7 +122,7 @@ Considering that I only followed sources I was interested in, it was safe to ass
 </p>
 </div>
 
-At first, I left the app running on a terminal tab on my laptop and used it while I worked on it. Once I noticed that I liked what was showing up in the feed, I set up a Raspberry Pi server in my local network to have the app available all the time. This, in turn, encouraged me to improve the mobile rendering of the interface, so I could access it from my phone.
+At first, I left the app running on a terminal tab on my laptop and used it while I worked on it. Once I noticed that I liked what was showing up in the feed, I set up a Raspberry Pi server in my local network to have it available all the time. This, in turn, encouraged me to improve the mobile rendering of the interface, so I could access it from my phone.
 
 [TODO mobile screenshot]
 
