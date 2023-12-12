@@ -36,9 +36,9 @@ Things clicked for me when I learned about the IndieWeb movement, particularly t
 
 ** Goals
 
-*As a user*, I had some ideas of what I was trying to accomplish.
+*As a user*, I had some ideas of what I wanted from this project.
 
-Rather than the email inbox metaphor I've most commonly seen in RSS readers, I wanted something resembling the Twitter and Mastodon home feed. That is: instead of [[https://danq.me/2023/07/29/rss-zero/][a backlog]] to clear every day, I wanted to get [[https://www.oliverburkeman.com/river][a stream]] of interesting content whenever I opened the app. The feed would include articles from blogs, magazines, news sites, and link aggregators, mixed with notifications from personal accounts (Mastodon, Goodreads, GitHub). The parsing of those disparate sources should be customizable to ensure a consistent look and feel, independent from the shape of the data the app received.
+Rather than the email inbox metaphor I've most commonly seen in RSS readers, I wanted something resembling the Twitter and Mastodon home feed. That is: instead of [[https://danq.me/2023/07/29/rss-zero/][a backlog]] to clear every day,  [[https://www.oliverburkeman.com/river][a stream]] of interesting content whenever I opened the app. The feed would include articles from blogs, magazines, news sites, and link aggregators, mixed with notifications from personal accounts (Mastodon, Goodreads, GitHub). The parsing should be customizable to ensure a consistent look and feel, independent of the shape of the data each source published.
 
 I wasn't interested in implementing the "social" features of a fully-fledged indie reader. I didn't mind opening another tab to comment, nor having my "content" scattered across third-party sites.
 
@@ -51,13 +51,13 @@ My short-term goal was to answer, as soon as possible, this question: could this
 
 *As a developer*, I wanted to test some of the ideas I'd been ruminating on for over a year. Although I hadn't yet formulated it in those terms, I wanted to apply what I expressed in [[file:../2023-11-30-code-is-run-more-than-read][another post]] as: ~user > ops > dev~. This meant that, when prioritizing tasks or making design trade-offs, I would choose ease of operation over development convenience, and I would put user experience above everything else.
 
-Since this was going to be an app for personal use, and I had no intention of turning it into anything else, putting the user first just meant /dogfooding/: putting my "user self" ---my needs--- first. Even if I eventually wanted other people to try the app, I presumed that I had a better chance of making something useful by designing it ergonomically for me, than by trying to satisfy some ideal user. It was very important to me that this didn't turn into a learning project or, worse, a portfolio project. This wasn't about productivity: it was about reconnecting with the joy of software development. The pleasure wouldn't come from /building something/ but from /using something I had built/.
+Since this was going to be an app for personal use, and I had no intention of turning it into anything else, putting the user first just meant /dogfooding/: putting my "user self" ---my needs--- first. Even if I eventually wanted other people to try the app, I presumed that I had a better chance of making something useful by designing it ergonomically for me, than by trying to satisfy some ideal user. It was very important to me that this didn't turn into a learning project or, worse, a portfolio project. This wasn't about productivity: it was about reconnecting with the joy of software development; the pleasure wouldn't come from /building something/ but from /using something I had built/.
 
-Assuming myself as the single target audience meant that I could postpone whatever I didn't need right away (e.g. user authentication), that I could tackle overly-specific features early on (e.g. send to Kindle), that I could assume programming knowledge for some scenarios (e.g. leaving feed parser customization to ad hoc code instead of choosing between a bland generic implementation and a complicated user interface), etc.
+Assuming myself as the single target audience meant that I could postpone whatever I didn't need right away (e.g. user authentication), that I could tackle overly-specific features early on (e.g. send to Kindle), that I could assume programming knowledge for some scenarios (e.g. feed parser customization, Mastodon login), etc.
 
 ** Design
 
-Given that mental framework, I needed to make some early technical decisions.
+Given that mental framework, I needed to make some initial technical decisions.
 
 *** User Interface
 Although this was going to be a personal tool, and I wanted it to work on a local-first setup, I knew that if it worked well I'd want to access it from my phone, in addition to my laptop. This meant that it needed to be a Web application:
@@ -74,7 +74,7 @@ Making the app ops-friendly meant not only that I wanted it to be easy to deploy
 
 A "proper" IndieWeb reader, at least [[https://aaronparecki.com/2018/03/12/17/building-an-indieweb-reader][as described by Aaron Parecki]], needs to be separated into components, each implementing a different protocol (Micropub, Microsub, Webmentions, etc.). This setup enforces a separation of concerns between content fetching, parsing, displaying, and publishing. I felt that, in my case, such architecture would complicate development and operations without buying me much as a user. Since I was doing all the development myself, I preferred to build a monolithic Web application. I chose SQLite for the database, which meant one less component to install and configure.
 
-In addition to the Web server, I needed some way to periodically poll the feeds for content. The simplest option would have been a cron job, but that seemed inconvenient, at least for the local setup. I had used task runners like Celery in the past, but that required adding a couple of extra components: another service to run alongside the app and something like Redis to act as a broker. Could I get away with running background tasks in the same process as the application? That largely depended on the runtime of the language, which brings me to the next section.
+In addition to the Web server, I needed some way to periodically poll the feeds for content. The simplest option would have been a cron job, but that seemed inconvenient, at least for the local setup. I had used task runners like Celery in the past, but that required adding a couple of extra components: a consumer process to run alongside the app and something like Redis to act as a broker. Could I get away with running background tasks in the same process as the application? That largely depended on the runtime of the language.
 
 *** Programming language
 
@@ -131,7 +131,7 @@ I eventually reached a point where I /missed/ using the app when I was out, so I
 
 ** Conclusion
 
-It took me about 3 months of (relaxed) work to put together my personal feed reader, which I named [[https://github.com/facundoolano/feedi][feedi]]. I can say that I succeeded in reengaging with software development, and in building something that I like to use myself, every day. Far from a finished product, the project feels more like my Emacs editor config: a perpetually half-broken tool that can nevertheless become second nature, hard to justify from a productivity standpoint but fulfilling because it was built on my own terms.
+It took me about three months of (relaxed) work to put together my personal feed reader, which I named [[https://github.com/facundoolano/feedi][feedi]]. I can say that I succeeded in reengaging with software development, and in building something that I like to use myself, every day. Far from a finished product, the project feels more like my Emacs editor config: a perpetually half-broken tool that can nevertheless become second nature, hard to justify from a productivity standpoint but fulfilling because it was built on my own terms.
 
 I've been using feedi as my "front page of the internet" for a few months now.
 Beyond convenience, by using a personal reader I'm back in control of the information I consume, actively on the lookout for interesting blogs and magazines, better positioned for discovery and even surprise.
