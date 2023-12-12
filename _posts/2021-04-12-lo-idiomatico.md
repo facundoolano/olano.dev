@@ -3,6 +3,7 @@ layout: post
 title: "Lo idiomático"
 date: 2021-04-12
 tags: [programación, software]
+css: "highlight"
 ---
 
 La semana pasada circuló [un repositorio de José Valim](https://github.com/josevalim/nested-data-structure-traversal) que plantea un problema sencillo de programación (recorrer y "anotar" una estructura de datos anidada) e invita a enviar soluciones usando distintos lenguajes. Fue simpático ver cómo crecían las contribuciones con el correr de las horas.

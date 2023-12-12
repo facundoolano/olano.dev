@@ -8,6 +8,7 @@ date: 2021-12-04
 tags: [programación, software]
 thumbnail-img: assets/img/erlang/erlang.png
 image: assets/img/erlang/erlang.png
+css: "highlight"
 ---
 #+END_EXPORT
 

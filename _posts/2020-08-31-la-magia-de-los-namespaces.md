@@ -4,6 +4,7 @@ title: "La magia de los namespaces"
 excerpt: la concisión de los nombres en un módulo funciona como un indicador de la cohesión de ese módulo.
 date: 2020-08-31 11:29:56
 tags: [software, programación]
+css: "highlight"
 ---
 
 Mi primer contacto con la idea de `namespace` fue programando C++ en la Facultad. En ese momento, para mí un namespace era pura sintaxis, algo que usabas para evitar conflictos de nombres entre tu código y el de terceros, apenas otro arma en la interminable batalla contra el compilador.
@@ -102,8 +103,11 @@ add(Room, Item, ItemRoomDescription) ->
 
 Todas las funciones que no están declaradas en la lista del `export`, son internas del módulo, invisibles desde el exterior. Lo interesante de esta inversión de las declaraciones, más que el "ocultamiento de la información" (sobre el que no soy demasiado religioso), es que favorece la legibilidad: uno abre el archivo del módulo y, si tiene suerte, se encuentra con documentación y definiciones de tipos, pero aunque no tenga suerte puede ver la lista de exports para darse una idea de qué cosas se pueden hacer con ese módulo &mdash;cuál es su interfaz&mdash; y qué debería esperar encontrarse si decide seguir leyendo.
 
-## Footnotes
+<section class="footnotes" markdown=1>
+## Notas
 
 <sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> Estos ejemplos fueron originalmente concebidos en Clojure, pero me pareció más amigable usar Python para fines ilustrativos.
 
 <sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> En ese primer capítulo (que [se puede leer online](https://leanpub.com/elementsofclojure/read_sample)) se da el mejor tratamiento que conozco a la cuestión de poner nombres en software, y debería ser útil para cualquier programador, independientemente del lenguaje y el paradigma que use.
+
+</section>

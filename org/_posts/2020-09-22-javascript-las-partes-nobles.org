@@ -8,6 +8,7 @@ excerpt: Quiero hacer el ejercicio borgeano de fingir que un lenguaje existe y d
 image: assets/img/funscript.jpg
 date: 2020-09-22
 tags: [programación]
+css: "highlight"
 ---
 #+END_EXPORT
 

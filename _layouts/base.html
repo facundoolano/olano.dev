@@ -7,7 +7,12 @@
         <meta charset="utf-8">
         <title>{{page.title | default:'olano.dev'}}</title>
         <link rel="stylesheet" href="/assets/css/main.css">
-        <link rel="stylesheet" href="/assets/css/highlight.css">
+        {% assign page_css = page.css | split: "," %}
+        {% assign layout_css = layout.css | split: "," %}
+        {% assign css = page_css | concat: layout_css %}
+        {% for file in css %}
+        <link rel="stylesheet" href="/assets/css/{{file}}.css">
+        {% endfor %}
         {% feed_meta %}
 
         <meta name="author" content="Facundo Olano">

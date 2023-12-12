@@ -6,6 +6,7 @@ layout: post
 title: "Lo idiomático"
 date: 2021-04-12
 tags: [programación, software]
+css: "highlight"
 ---
 #+END_EXPORT
 
