@@ -9,11 +9,11 @@ lang: en
 
 ## Background
 
-Last year I experienced the all-too-common career burnout. I had a couple of bad projects in a row, yes, but more generally I was disillusioned with the software industry. There was a disconnection between what I used to like about the job, what I was good at, and what the job market wanted to buy from me (given my experience, my location and, the world economy).
+Last year I experienced the all-too-common career burnout. I had a couple of bad projects in a row, yes, but more generally I was disillusioned with the software industry. There seemed to be a disconnection between what I used to like about the job, what I was good at, and what the market wanted to buy from me.
 
 I did the usual thing: I slowed down, quit my job, started therapy. I revised my habits: eat better, exercise, meditate. I tried to stay away from programming and software-related reading for a while. Because I didn't like the effect it had on me, but also encouraged by its apparent enshittification, I quit Twitter, the last social media outlet I was still plugged into.
 
-Not working was one thing, but overcoming the productivity mandate &#x2014;the feeling that I had to make the best of my time off, that I was "recharging" to make a comeback&#x2014; was another. During this detox period, I read *How to Do Nothing*, a sort of artistic manifesto disguised as a self-help book that deals with some of these issues. The author Jenny Odell mentions Mastodon when discussing alternative online communities. I had heard about Mastodon, I had seen some colleagues move over there, but never really looked at it. I thought it was a good time to try it.
+Not working was one thing, but overcoming the productivity mandate &#x2014;the feeling that I had to make the best of my time off, that I was "recharging" to make a comeback&#x2014; was another. As part of this detox period, I read *How to Do Nothing*, a sort of artistic manifesto disguised as a self-help book that dealt with some of these issues. The author Jenny Odell mentions Mastodon when discussing alternative online communities. I had heard about Mastodon, I had seen some colleagues move over there, but never really looked at it. I thought I should give it a try.
 
 <div class="org-center">
 <p>
@@ -21,24 +21,24 @@ Not working was one thing, but overcoming the productivity mandate &#x2014;the f
 </p>
 </div>
 
-I noticed a few things after some weeks on Mastodon.
+I noticed a few things after a while on Mastodon.
 
-First, it felt refreshing to be back in control of my feed, to receive strictly chronological updates instead of having an algorithmic middleman watching my moves to sell me stuff.
+First, it felt refreshing to be back in control of my feed, to receive strictly chronological updates instead of having an algorithmic middleman trying to sell me stuff.
 
-Second, many people were going through a similar process as mine, one of discomfort with the software industry and the state of the Web. Some of them were [looking back](https://neustadt.fr/essays/the-small-web/) at the old times for inspiration: playing with [RSS](https://atthis.link/blog/2021/rss.html), Bulletin Board Systems, [digital gardens](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/), and webrings; some imagined a more [open](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech) and [independent](https://www.jvt.me/posts/2019/10/20/indieweb-talk/) Web for the future.
+Second, many people were going through a similar process as mine, one of discomfort with the software industry and the Web. Some of them were [looking back](https://neustadt.fr/essays/the-small-web/) at the old times for inspiration: playing with [RSS](https://atthis.link/blog/2021/rss.html), Bulletin Board Systems, [digital gardens](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/), and webrings; some imagined a more [open](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech) and [independent](https://www.jvt.me/posts/2019/10/20/indieweb-talk/) Web for the future.
 
-Third, not only wasn't I interested in micro-blogging myself, but I didn't care for most of the updates from the people I was following. I realized that I had been using Twitter, and now Mastodon, as an information hub rather than a social network. I was following people to get notified when they blogged on their websites; I was following bots to get content from media, and link aggregators. Mastodon wasn't the right tool for that job.
+Third, not only wasn't I interested in micro-blogging myself, but I didn't care for most of the updates from the people I was following. I realized that I had been using Twitter, and now Mastodon, as an information hub rather than a social network. I was following people just to get notified when they blogged on their websites; I was following bots to get content from link aggregators. Mastodon wasn't the right tool for that job.
 
-Things clicked for me when I learned about the IndieWeb movement, particularly their notion of [social readers](https://aaronparecki.com/2018/04/20/46/indieweb-reader-my-new-home-on-the-internet). Trying Mastodon had been nice, but what I needed to reconnect with the good side of the Web was a feed reader, one I could adjust arbitrarily to my preferences. There are plenty of great RSS readers out there, and I did briefly try a few, but I knew this was the perfect excuse for me to get back in touch with software development: I was going to build my own feed reader.
+Things clicked for me when I learned about the IndieWeb movement, particularly their notion of [social readers](https://aaronparecki.com/2018/04/20/46/indieweb-reader-my-new-home-on-the-internet). Trying Mastodon had been nice, but what I needed to reconnect with the good side of the Web was a feed reader, one I could adjust arbitrarily to my preferences. There are plenty of great RSS readers out there, and I did briefly try a few, but I knew this was the perfect excuse for me to get back in touch with software development: I was going to build my own personal reader.
 
 
 ## Goals
 
 **As a user**, I had some ideas of what I was trying to accomplish.
 
-Rather than the email inbox metaphor I've most commonly seen used for RSS reader interfaces, I wanted something that felt like the Twitter or Mastodon home feed. That is: instead of [a backlog](https://danq.me/2023/07/29/rss-zero/) to clear every day, I wanted to get [a stream](https://www.oliverburkeman.com/river) of interesting content whenever I opened the app. The feed would include articles from blogs, magazines, news sites and link aggregators, mixed with updates from my Mastodon account. (I eventually extended it to include notifications from Goodreads and GitHub). The parsing of those disparate sources should be customizable to ensure a consistent look and feel, independent from the shape of the data the app received.
+Rather than the email inbox metaphor I've most commonly seen as RSS reader interfaces, I wanted something resembling the Twitter and Mastodon home feed. That is: instead of [a backlog](https://danq.me/2023/07/29/rss-zero/) to clear every day, I wanted to get [a stream](https://www.oliverburkeman.com/river) of interesting content whenever I opened the app. The feed would include articles from blogs, magazines, news sites, and link aggregators, mixed with notifications from personal accounts (Mastodon, Goodreads, GitHub). The parsing of those disparate sources should be customizable to ensure a consistent look and feel, independent from the shape of the data the app received.
 
-Although I planned to ingest Mastodon updates and links from aggregator sites, I wasn't interested in implementing the "social" features of a fully-fledged indie reader. I didn't mind opening another tab to comment, nor having my "content" scattered across third-party sites.
+I wasn't interested in implementing the "social" features of a fully-fledged indie reader. I didn't mind opening another tab to comment, nor having my "content" scattered across third-party sites.
 
 That's what I started with but, once I had the basic functionality in place, I planned to drive development by *what felt right* and *what felt missing* as a user. My short-term goal was to answer, as soon as possible, this question: could this eventually become my primary &#x2014;even my sole&#x2014; source of information on the Web? If not, I'd drop the project right away. Otherwise, I could move on to whatever was missing to realize that vision.
 
@@ -48,11 +48,11 @@ That's what I started with but, once I had the basic functionality in place, I p
 </p>
 </div>
 
-**As a developer**, I wanted to test some of the ideas I'd been ruminating on for over a year. Although I hadn't yet formulated it in those terms, I wanted to apply what I expressed in [another post](../2023-11-30-code-is-run-more-than-read) as `user > ops > dev`. This meant that, when prioritizing tasks or making design trade-offs, I would choose ease of operation &#x2014;local setup, server deploys, software updates, etc.&#x2014; over development convenience. And I would put user experience above everything else.
+**As a developer**, I wanted to test some of the ideas I'd been ruminating on for over a year. Although I hadn't yet formulated it in those terms, I wanted to apply what I expressed in [another post](../2023-11-30-code-is-run-more-than-read) as: `user > ops > dev`. This meant that, when prioritizing tasks or making design trade-offs, I would choose ease of operation over development convenience, and I would put user experience above everything else.
 
-Since this was going to be an app for personal use, and I had no intention of turning it into anything else, putting the user first in this case just meant *dogfooding*: putting my user self, my needs, first. Even if I eventually wanted other people to try the app, I presumed that I had a better chance of making something useful by designing it ergonomically for me, than by trying to satisfy some ideal user. It was very important to me that this didn't turn into a learning project or, worse, a portfolio project. This wasn't about productivity; it was about reconnecting with the joy of software development. The pleasure wouldn't come from *building something* but from *using something I had built*.
+Since this was going to be an app for personal use, and I had no intention of turning it into anything else, putting the user first just meant *dogfooding*: putting my "user self" &#x2014;my needs&#x2014; first. Even if I eventually wanted other people to try the app, I presumed that I had a better chance of making something useful by designing it ergonomically for me, than by trying to satisfy some ideal user. It was very important to me that this didn't turn into a learning project or, worse, a portfolio project. This wasn't about productivity: it was about reconnecting with the joy of software development. The pleasure wouldn't come from *building something* but from *using something I had built*.
 
-Assuming myself as the single target audience meant that I could postpone whatever I didn't need right away (e.g. user authentication), that I could tackle overly specific features early (e.g. send to Kindle), that I could assume programming knowledge for some scenarios (e.g. leaving feed parser customization to ad hoc code instead of choosing between a bland generic implementation and a complicated user interface).
+Assuming myself as the single target audience meant that I could postpone whatever I didn't need right away (e.g. user authentication), that I could tackle overly-specific features early on (e.g. send to Kindle), that I could assume programming knowledge for some scenarios (e.g. leaving feed parser customization to ad hoc code instead of choosing between a bland generic implementation and a complicated user interface), etc.
 
 
 ## Design
@@ -62,22 +62,22 @@ Given that mental framework, I needed to make some early technical decisions.
 
 ### User Interface
 
-Although this was going to be a personal tool, and I wanted it to work on a local-first setup, I knew that if it worked well I'd want to access it from my phone (in addition to my laptop). This meant that I needed to make it a Web application:
+Although this was going to be a personal tool, and I wanted it to work on a local-first setup, I knew that if it worked well I'd want to access it from my phone, in addition to my laptop. This meant that it needed to be a Web application:
 
--   It was the cost-effective way to have a single interface work for both devices.
--   It allowed me to use HTML and CSS, the UI technology I'm most familiar with.
--   It solved device state syncing by having it stored on the server.
+-   it was the cost-effective way to have a single interface work for both devices,
+-   it allowed me to use HTML and CSS (the UI technology I'm most familiar with),
+-   it solved device syncing by having the state stored on the server.
 
-I wanted the Web UI to be somewhat dynamic, but I didn't intend to build a separate front-end application, learn a new front-end framework, or re-invent what the browser already offers. Following the [boring tech](https://mcfunley.com/choose-boring-technology) and [radical simplicity](https://www.radicalsimpli.city/) advice, I looked for server-side rendering libraries. I ended up using a mix of [htmx](https://htmx.org/) and its companion [hyperscript](https://hyperscript.org/), which felt like picking Web development up where I'd left off over a decade ago.
+I wanted the Web UI to be somewhat dynamic, but I didn't intend to build a separate front-end application, learn a new front-end framework, or re-invent what the browser already provided. Following the [boring tech](https://mcfunley.com/choose-boring-technology) and [radical simplicity](https://www.radicalsimpli.city/) advice, I looked for server-side rendering libraries. I ended up using a mix of [htmx](https://htmx.org/) and its companion [hyperscript](https://hyperscript.org/), which felt like picking Web development up where I'd left off over a decade ago.
 
 
 ### Architecture
 
-Making the app ops-friendly meant not only that I wanted it to be easy to deploy, but easy to set up locally, with minimal infrastructure, without assuming Docker or Nix, etc.
+Making the app ops-friendly meant not only that I wanted it to be easy to deploy, but easy to set up locally, with minimal infrastructure &#x2014;not assuming Docker, Nix, etc.
 
 A "proper" IndieWeb reader, at least [as described by Aaron Parecki](https://aaronparecki.com/2018/03/12/17/building-an-indieweb-reader), needs to be separated into components, each implementing a different protocol (Micropub, Microsub, Webmentions, etc.). This setup enforces a separation of concerns between content fetching, parsing, displaying, and publishing. I felt that, in my case, such architecture would complicate development and operations without buying me much as a user. Since I was doing all the development myself, I preferred to build a monolithic Web application. I chose SQLite for the database, which meant one less component to install and configure.
 
-In addition to the Web server, I needed some way to periodically poll the feeds for content. The simplest option would have been a cron job, but that seemed inconvenient, at least for the local setup. I had used task runners like Celery for that purpose in the past, but that required adding a couple of extra components: another service to run alongside the app and something like Redis to act as a broker. Could I get away with running background tasks in the same process as the application? That largely depended on the runtime of the language, which brings me to the next section.
+In addition to the Web server, I needed some way to periodically poll the feeds for content. The simplest option would have been a cron job, but that seemed inconvenient, at least for the local setup. I had used task runners like Celery in the past, but that required adding a couple of extra components: another service to run alongside the app and something like Redis to act as a broker. Could I get away with running background tasks in the same process as the application? That largely depended on the runtime of the language, which brings me to the next section.
 
 
 ### Programming language
@@ -86,35 +86,35 @@ At least from my superficial understanding of it, Go seemed like the best fit fo
 
 Among the languages I was already fluent in, I needed to choose the one I expected to be most productive with, the one that let me build a prototype to decide whether this project was worth pursuing. So I chose Python.
 
-The bad side of using Python was that I had to deal with its environment and dependency quirks, particularly its reliance on the host OS libraries. Additionally, it meant I'd have to get creative if I wanted to avoid extra components for the periodic tasks. (After some research I ended up choosing gevent and [an extension of the Huey library](https://huey.readthedocs.io/en/latest/contrib.html#mini-huey) to run them inside the application process). The good side was that I could leverage Python's libraries for HTTP, feed parsing, scraping, and database access.
+The bad side of using Python was that I had to deal with its environment and dependency quirks, particularly its reliance on the host OS libraries. Additionally, it meant I'd have to get creative if I wanted to avoid extra components for the periodic tasks. (After some research I ended up choosing gevent and [an extension of the Huey library](https://huey.readthedocs.io/en/latest/contrib.html#mini-huey) to run them inside the application process).
+
+The good side was that I got to use great Python libraries for HTTP, feed parsing, and scraping.
 
 
 ### Testing (or lack thereof)
 
-Perhaps the most controversial aspect of the project was that I decided not to bother writing tests, at least initially. In a sense, this felt "dirty", but I still think it was the right call given what I was trying to do:
+I decided not to bother writing tests, at least initially. In a sense, this felt "dirty", but I still think it was the right call given what I was trying to do:
 
-1.  Unit tests don't work as a design tool for me. While I see the value of TDD and think everyone should try it at some point, I've found that the point of view it enforces doesn't align well with how I prefer to reason about programming tasks.
-2.  Given that I was going to experiment, adding, removing, and rearranging features, the cost of maintaining the tests outweighed the value they were going to provide. I didn't mind introducing little logic bugs; I was going to use the app myself anyway, so I expected that most significant bugs would just surface over time.
-3.  In my experience, integration tests are the ones that provide the most value in terms of confidence that the application works as expected. More so for this project, where the bulk of the work (and the majority of the bugs) came either from interacting with external sources or from the UI. While I could have caught some bugs earlier and prevented some regressions if I had integration tests in place, implementing them required an effort (e.g. serving arbitrary RSS feeds locally for testing different scenarios) that just wasn't worth upfront. (Now that the application is stable, though, I would consider adding some tests before attempting a significant code change).
+-   Given that I was going to experiment, adding, removing, and rearranging features, the cost of maintaining unit tests outweighed the value they were going to provide. I didn't mind introducing little logic bugs; I was going to use the app myself anyway, so I expected that most significant bugs would just surface over time.
+
+-   In my experience, integration tests are the ones that provide the most value in terms of confidence that the application works as expected. More so for this project, where the bulk of the work (and the majority of the bugs) came from interacting with external sources and from the UI. But, while I could have caught some bugs earlier and prevented some regressions if I had integration tests in place, implementing them required an effort that just wasn't worth it upfront.
 
 
 ## Development
 
-There's a kind of zen flow that programmers unblock when they use their software on a daily basis. I don't mean just testing it but actually experiencing it as an end user. There's no better catalyst for ideas and experimentation, no better prioritization driver than having to face the bugs, annoyances, and limitations of an application first-hand.
+There's a kind of zen flow that programmers unblock when they use their software daily. I don't mean just testing it but experiencing it as an end user. There's no better catalyst for ideas and experimentation, no better prioritization driver than having to face the bugs, annoyances, and limitations of an application first-hand.
+
+After some trial and error with different UI layouts and features, a usage pattern emerged: open the app, scroll down the main feed, pin to read later, open to read now, bookmark for future reference.
 
 [TODO desktop screenshot?]
 
-After some trial and error with different UI layouts and features, a usage pattern emerged: open the app, scroll down the main feed, pin what I want to read later, open what I want to read now, favorite if I want to save it for future reference.
-
-I decided early on that I wanted the option to read articles without leaving the app (among other things, to avoid paywalls and consent popups). I tried several Python libraries to extract HTML content, but none worked as well as the [readability](https://github.com/mozilla/readability) one used by Firefox. Since it's a JavaScript package, I had to resign myself to adding an optional dependency on Node.js. (I ended up using the same logic to send articles to my Kindle, which not only saves me from using Amazon's Chrome extension but actually renders better content).
+I decided early on that I wanted the option to read articles without leaving the app (among other things, to avoid paywalls and consent popups). I tried several Python libraries to extract HTML content, but none worked as well as the [readability](https://github.com/mozilla/readability) one used by Firefox. Since it's a JavaScript package, I had to resign myself to introducing an optional dependency on Node.js.
 
 [TODO reader screenshot]
 
-With the basic functionality in place, a problem became apparent. My feed mixed sources of varying quality and publication frequency. Even after curating the list of feeds and carefully distributing them in folders, it was hard to get interesting content by just scrolling items by their publication date: occasional blog posts would get buried behind Mastodon toots, magazine features behind daily news articles.
+With the basic functionality in place, a problem became apparent. Even after curating the list of feeds and carefully distributing them in folders, it was hard to get interesting content by just scrolling items by their publication date: occasional blog posts would get buried behind Mastodon toots, magazine features behind daily news articles. So I started to think about how to make the sorting "smarter".
 
-So I started to think about how to make entry sorting "smarter". My reasoning was this: assuming I only follow sources I'm interested in, I'll likely want to first see content from the ones that publish more sparingly. If a monthly newsletter came out in the last couple of days, that should show up at the top of my feed, before any micro-blogging or daily news items. So I classified sources into "frequency buckets" and sorted the feed to show the least frequent buckets first.
-
-Now, the problem was that when infrequent sources *did* publish, their articles stuck at the top every time I opened the app. For a while, I tried trashing or archiving them, but this was a lot of extra work and pulled me in the direction of the "clear the inbox" flow that I was trying to avoid. I wanted the app to do the work for me, by default, so I came up with this: as I scroll down the feed, previous items get marked automatically as "already seen"; the next time I open the app the seen articles will be skipped, so I'm always getting the least frequent *unseen* content first.
+Considering that I only followed sources I was interested in, it was safe to assume that I'd want to see content from the least frequent ones first. If a monthly newsletter came out in the last couple of days, that should show up at the top of my feed, before any micro-blogging or daily news items. So I classified sources into "frequency buckets" and sorted the feed to show the least frequent buckets first. To avoid this "infrequent content" sticking at the top every time I open the app, I added a feature that automatically marks entries as "already seen" as I scroll down the feed. This way I get fresh content every time and never miss "rare" updates.
 
 <div class="org-center">
 <p>
@@ -122,11 +122,11 @@ Now, the problem was that when infrequent sources *did* publish, their articles 
 </p>
 </div>
 
-At first, I left the app running on a terminal tab on my laptop, and I used it while I worked on it. Once I noticed interesting content showing up in the feed, I set up a Raspberry Pi server in my local network, to have a non-development instance running all the time. This, in turn, encouraged me to improve the mobile rendering of the interface, so I could access it from my phone.
+At first, I left the app running on a terminal tab on my laptop and used it while I worked on it. Once I noticed that I liked what was showing up in the feed, I set up a Raspberry Pi server in my local network to have the app available all the time. This, in turn, encouraged me to improve the mobile rendering of the interface, so I could access it from my phone.
 
 [TODO mobile screenshot]
 
-I eventually reached a point where I *missed* having the app available when I was out, so I decided to deploy it to a VPS. This forced me to finally add the authentication and multi-user support I'd been postponing and allowed me to give access to a few friends for beta testing. (The VPS setup also encouraged me to buy a domain and set up this website, getting me closer to the IndieWeb ideal that inspired me in the first place).
+I eventually reached a point where I *missed* using the app when I was out, so I decided to deploy it to a VPS. This forced me to finally add the authentication and multi-user support I'd been postponing and allowed me to give access to a few friends for beta testing. (The VPS setup also encouraged me to buy a domain and set up this website, getting me closer to the IndieWeb ideal that inspired me in the first place).
 
 
 ## Conclusion
