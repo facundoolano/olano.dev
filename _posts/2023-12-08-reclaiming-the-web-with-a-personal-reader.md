@@ -5,6 +5,7 @@ date: 2023-12-08
 tags: [software, programación]
 lang: en
 image: assets/img/feedi1.png
+excerpt: "There’s a kind of zen flow that programmers unblock when they experience their software daily as an end user. There’s no better catalyst for ideas and experimentation, no better prioritization driver than having to face the bugs, annoyances, and limitations of an application first-hand."
 ---
 
 
