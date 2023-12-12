@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Reclaiming the Web with a Personal Reader"
-date: 2023-12-08
+date: 2023-12-12
 tags: [software, programación]
 lang: en
 image: assets/img/feedi1.png
