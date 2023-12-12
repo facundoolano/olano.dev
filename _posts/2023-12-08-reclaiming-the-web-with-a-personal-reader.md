@@ -4,6 +4,7 @@ title: "Reclaiming the Web with a Personal Reader"
 date: 2023-12-08
 tags: [software, programación]
 lang: en
+image: assets/img/feedi1.png
 ---
 
 
@@ -106,11 +107,11 @@ There's a kind of zen flow that programmers unblock when they use their software
 
 After some trial and error with different UI layouts and features, a usage pattern emerged: open the app, scroll down the main feed, pin to read later, open to read now, bookmark for future reference.
 
-[TODO desktop screenshot?]
+<div class="text-center">
+ <img src="../assets/img/feedi1.png">
+</div>
 
 I decided early on that I wanted the option to read articles without leaving the app (among other things, to avoid paywalls and consent popups). I tried several Python libraries to extract HTML content, but none worked as well as the [readability](https://github.com/mozilla/readability) one used by Firefox. Since it's a JavaScript package, I had to resign myself to introducing an optional dependency on Node.js.
-
-[TODO reader screenshot]
 
 With the basic functionality in place, a problem became apparent. Even after curating the list of feeds and carefully distributing them in folders, it was hard to get interesting content by just scrolling items sorted by publication date: occasional blog posts would get buried behind Mastodon toots, magazine features behind daily news articles. I needed to make the sorting "smarter".
 
@@ -124,7 +125,10 @@ Considering that I only followed sources I was interested in, it was safe to ass
 
 At first, I left the app running on a terminal tab on my laptop and used it while I worked on it. Once I noticed that I liked what was showing up in the feed, I set up a Raspberry Pi server in my local network to have it available all the time. This, in turn, encouraged me to improve the mobile rendering of the interface, so I could access it from my phone.
 
-[TODO mobile screenshot]
+<div class="text-center">
+ <img src="../assets/img/feedi2.png" style="padding-right: 2rem">
+ <img src="../assets/img/feedi3.png">
+</div>
 
 I eventually reached a point where I *missed* using the app when I was out, so I decided to deploy it to a VPS. This forced me to finally add the authentication and multi-user support I'd been postponing and allowed me to give access to a few friends for beta testing. (The VPS setup also encouraged me to buy a domain and set up this website, getting me closer to the IndieWeb ideal that inspired me in the first place).
 
