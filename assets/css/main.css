@@ -95,6 +95,11 @@ ul.site-index {
     max-height: 400px;
 }
 
+.layout-post hr {
+    border: 1px solid silver;
+}
+
+
 img.cover-img {
     width: 100%;
     max-width: 100%;
