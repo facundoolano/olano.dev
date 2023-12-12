@@ -2,12 +2,13 @@
 
 <article>
 
-        {% if post.favorite %} <a href="/blog/tags#favoritos" style="text-decoration:none">⭐</a> {% endif %} {% if post.lang == 'en' %} 🇬🇧 {% endif %}
+        {% if post.favorite %} <a href="/blog/tags#favoritos" style="text-decoration:none">⭐</a> {% endif %}
         <a class="title" href="{{ post.external | default:post.url }}">{{ post.title }}</a>
         <br/>
         <small>
             <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
             <span class="tags">
+                {% if post.lang == 'en' %}<a href="/blog/en" style="text-decoration:none">🇬🇧 </a>{% endif %}
                 {% for tag in post.tags %}
                 <a href="/blog/tags#{{tag}}">#{{tag}}</a>
                 {% endfor %}

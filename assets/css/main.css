@@ -107,7 +107,25 @@ img.cover-img {
     object-fit: cover;
 }
 
-@media (max-width: 600px) {
+/* override in mobile devices for more compact text */
+@media screen and (max-width: 768px) {
+    .layout-post {
+        font-size: 1rem;
+        line-height: 1.2;
+        letter-spacing: unset;
+        hyphens: none;
+        text-align: left;
+    }
+
+    .layout-post p {
+        margin: 0 0 1rem 0;
+        line-height: 1.7;
+    }
+
+    .layout-post p + p {
+        text-indent: 0;
+    }
+
     .layout-post img {
         max-width: 100%;
     }

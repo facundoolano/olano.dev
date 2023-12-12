@@ -6,6 +6,7 @@ title: "La magia de los namespaces"
 excerpt: la concisión de los nombres en un módulo funciona como un indicador de la cohesión de ese módulo.
 date: 2020-08-31 11:29:56
 tags: [software, programación]
+css: "highlight"
 ---
 #+END_EXPORT
 

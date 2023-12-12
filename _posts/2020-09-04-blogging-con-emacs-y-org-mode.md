@@ -3,6 +3,7 @@ layout: post
 title: "Blogging con Emacs y org-mode"
 date: 2020-09-04
 tags: [blog, emacs]
+css: "highlight"
 ---
 
 Si el *Hola Mundo!* de la programación web es armar un blog, el *Hola Mundo!* de los posts es aquel que describe cómo se implementó ese blog. En este caso no hay mucho para decir sobre la implementación —todo el trabajo pesado lo hacen Jekyll y Github Pages—, pero sí tuve que invertir algo de tiempo preparando mi editor para el proceso de escritura y publicación.
@@ -106,6 +107,9 @@ Para exportar el html uso `org-publish-current-project` y para ver el post local
 
 <br>
 
-## Footnotes
+<section class="footnotes" markdown=1>
+## Notas
 
 <sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> Alternativamente podría exportar de org a markdown, formato que Jekyll también soporta, pero es algo que todavía no probé.
+
+</section>

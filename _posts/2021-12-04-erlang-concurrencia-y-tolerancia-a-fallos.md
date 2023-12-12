@@ -5,6 +5,7 @@ date: 2021-12-04
 tags: [programación, software]
 thumbnail-img: assets/img/erlang/erlang.png
 image: assets/img/erlang/erlang.png
+css: "highlight"
 ---
 
 *Lo que sigue es una transcripción de una clase de la materia* [Técnicas de programación concurrente](https://concurrentes-fiuba.github.io/Inicio.html) *de la Facultad de Ingeniería de la U.B.A. La mayoría del contenido —imágenes e ideas— se lo robé a Fred Hebert, particularmente del artículo* [The Zen of Erlang](https://ferd.ca/the-zen-of-erlang.html) *y del libro* [Learn you some Erlang for great good](https://learnyousomeerlang.com/). *Las slides y el código fuente se pueden encontrar [acá](https://github.com/facundoolano/presentations/tree/master/concurrentes-erlang).*
