@@ -9,7 +9,7 @@
   title: Software Engineer
   org: NextRoll (LambdaClass contractor)
   tech: AdTech, Distributed Systems, Erlang, Python, Elixir, JavaScript, PostgreSQL, AWS, Terraform, Datadog
-  description: >-
+  description: >
      As part of the Real-time bidding team, I worked on design, development, maintenance and operation of the bidding service and its support systems.
      These were decade-old systems, deployed to 2000 servers across the world, with high traffic and latency demands.
      Operations work included infrastructure set up, deploys, monitoring, and production incident handling.
@@ -23,8 +23,36 @@
        - Implement a system to pull canary deploy metrics from DataDog and process them with Pandas to diagnose canary deploy health.
        - Profile and optimize the server performances with the specific goal of infrastrcuture cost savings.
        - Redesign, prototype and future-proof systems in preparation for privacy-related changes in the Ad Tech industry.
-- date: Jun 2017 - Feb 2018
-  title: Senior Software Engineer · 9 mos
+- date: Jun 2017 - Feb 2018 · 9 mos
+  title: Senior Software Engineer
   org: LambdaClass
   tech: Erlang, ClojureScript, WebRTC, Cassandra, PostgreSQL
   description: As one of the first engineers to join the company, I divided my time between open-source projects and contractor work for one of the clients.
+- date: Mar 2016 - Jun 2017 · 1 yr 4 mos
+  title: Senior Software Engineer
+  org: Mad Mobile
+  tech: Distributed Systems, Microservices, Node.js, Clojure, MongoDB, RabbitMQ, ElasticSearch, Redis
+  description: >
+     As part of the Core Services team, I designed and developed a Backend as a Service platform to support the mobile applications developed by the company.
+       The platform, implemented by a set of microservices, provided a integration to external services as well as support functionality like authentication, authorization, analytics and caching.
+
+       I led the development of some of the most complex features of the platform such as a decentralised system for environment migrations and On-Premise to Cloud communications through a cluster of Web Sockets.
+
+- date: Dec 2014 - Mar 2016 · 1 yr 4 mos
+  title: Software Engineer
+  org: Freelance
+- date: Mar 2014 - Dec 2014 · 10 mos
+  title: Tech Lead
+  org: National Geographic (Globant contractor)
+- date: May 2013 - Mar 2014 · 11 mos
+  title: Senior Python Developer
+  org: National Geographic (Globant contractor)
+- date: Jul 2010 - May 2013 · 2 yrs 11 mos
+  title: Python/Django developer
+  org: Freelance
+- date: Jan 2008 - Aug 2008 · 8 mos
+  org: Globant
+  title: Java developer
+- date: Feb 2007 - Dec 2007 · 11 mos
+  title: QA Analyst
+  org: Globant

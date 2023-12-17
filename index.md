@@ -8,7 +8,8 @@ layout: base
     * [/tags](/blog/tags)
     * [/feed](/feed.xml)
   * [/projects](/projects)
-  * [/work](/work)
+  * [/resume](/resume)
   * /contact
-    * [@gmail](mailto:facundo.olano@gmail.com)
-    * [@mastodon](https://hachyderm.io/@facundoolano)
+    * [/gmail](mailto:facundo.olano@gmail.com)
+    * [/mastodon](https://hachyderm.io/@facundoolano)
+    * [/linkedin](https://www.linkedin.com/in/facundoolano/)

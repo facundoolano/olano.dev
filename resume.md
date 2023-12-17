@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Facundo Olano
-sections: [["mailto:facundo.olano@gmail.com", "@gmail"], ["https://www.linkedin.com/in/facundoolano/", "@linkedin"], ["/work/resume.pdf", "/work/resume.pdf"]]
+sections: [["/resume.pdf", "/resume.pdf"], ["mailto:facundo.olano@gmail.com", "/contact/gmail"], ["https://www.linkedin.com/in/facundoolano/", "/contact/linkedin"]]
 ---
 
 ### About
