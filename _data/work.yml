@@ -3,35 +3,30 @@
   org: LambdaClass
   tech: Distributed Systems, Rust, Elixir, Terraform, AWS, Nomad
   description: >
-    As a Staff Engineer I report directly to the CEO. I provided technical leadership for about 20 people on a newly formed organization within the company.
+    As a Staff Engineer I reported directly to the CEO. I provided technical leadership for about 20 people on a newly formed organization within the company.
     I started a Platform Team to support the rest of the organization and later led a distributed systems research and development effort.
 - date: Feb 2018 - Jul 2022
   title: Software Engineer
   org: NextRoll (LambdaClass contractor)
-  tech: Distributed Systems, Erlang, Python, Elixir, JavaScript, PostgreSQL, AWS, Terraform, Datadog
+  tech: AdTech, Distributed Systems, Erlang, Python, Elixir, JavaScript, PostgreSQL, AWS, Terraform, Datadog
   description: >-
-     As part of the RTB (Real-time bidding) team, I worked on feature design and development, maintenance and operation of the bidders and their support systems.
+    As part of the Real-time bidding team, I worked on design, development, maintenance and operation of the bidding service and its support systems.
      These were decade-old systems, deployed to 2000 servers across the world, with high traffic and latency demands.
-     In addition to design and development I worked on infrastructure set up, deploying and monitoring, and handling of production issues and outages.
+     Operations work included infrastructure set up, deploys, monitoring, and production incident handling.
 
 
      Some of the work efforts I led at NextRoll:
 
-     - Streamline and partially automate the exchange integration setup, a process that went from a couple of months to a couple of weeks.
+       - Streamline and automate new exchange integrations, a process that went from a couple of months to a couple of weeks.
+       - Automate the production deploy processes, reducing its time from 6 hours to 45 minutes.
+       - Modernize and decomission several legacy systems.
+       - Automate periodic tasks such as AMI and release package preparation.
+       - Implement a system to pull canary deploy metrics from DataDog and process them with Pandas to diagnose canary deploy health.
+       - Profile and optimize the server performances with the specific goal of infrastrcuture cost savings.
+       - Redesign, prototype and future-proof systems in preparation for privacy-related changes in the Ad Tech industry.
 
-     - Decommission or simplify several legacy pieces of the architecture.
-
-     - Automate the production deploy processes, reducing its time from 6 hours to 45 minutes.
-
-     - Automate periodic tasks such as AMI and release package preparation.
-
-     - Implement a system to pull canary deploy metrics from DataDog and process them with Pandas to diagnose canary deploy health.
-
-     - Profile and optimize the server performances with the specific goal of infrastrcuture cost savings.
-
-     - Redesign, prototype and future-proof systems in preparation for privacy-related changes in the Ad Tech industry.
 - date: Jun 2017 - Feb 2018
   title: Senior Software Engineer
   org: LambdaClass
-  tech: Erlang, ClojureScript, WebRTC, Cassandra
+  tech: Erlang, ClojureScript, WebRTC, Cassandra, PostgreSQL
   description: As one of the first engineers to join the company, I divided my time between open-source projects and contractor work for one of the clients.

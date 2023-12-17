@@ -4,16 +4,16 @@ title: Facundo Olano
 sections: [["mailto:facundo.olano@gmail.com", "@gmail"], ["https://www.linkedin.com/in/facundoolano/", "@linkedin"], ["/work/resume.pdf", "/work/resume.pdf"]]
 ---
 
-#### Software engineer
+#### Software Engineer
 
-<p>I'm a software engineer from Buenos Aires, Argentina, with over 15 years of experience in the industry.
-    During the first part of my career, I worked as a Python and Django web developer while completing my Software Engineering degree.
-    Later, I specialized in backend development, service-oriented architectures, and distributed systems, using various technologies and programming languages (Python, Node.js, Clojure, Erlang, Rust).
-    Over the years, I have published many <a href="/projects">open-source projects</a>.</p>
+I'm a software engineer from Buenos Aires, Argentina, with over 15 years of experience in the industry.
+During the first part of my career, I worked as a Python and Django web developer while completing my Software Engineering degree.
+Later, I specialized in backend development, service-oriented architectures, and distributed systems, using various technologies and programming languages (Python, Node.js, Clojure, Erlang, Rust).
+I write on [a blog](/blog) and maintain many [open-source projects](/projects).
 
-<p>Because I think that software development is primarily a human activity, I place a high value on communication and knowledge sharing. I try to bring a business perspective to software discussions and provide technical insight to non-engineers. I tend to assume a leadership role in the teams I integrate, leading by example and from experience rather than title. </p>
+Because I think that software development is primarily a human activity, I place a high value on communication and knowledge sharing. I try to bring a business perspective to software discussions and provide technical insight to non-engineers. I tend to assume a leadership role in the teams I integrate, leading by example and from experience rather than title.
 
-<p>More than technology or scale, my interest is in using simple tools to solve problems for users, working at organizations with healthy environments and sustainable business models.</p>
+More than technology or scale, my interest is in using simple tools to solve problems for users, working at organizations with healthy environments and sustainable business models.
 
 ### Education
 
@@ -23,11 +23,15 @@ sections: [["mailto:facundo.olano@gmail.com", "@gmail"], ["https://www.linkedin.
 ### Experience
 
 {% for job in site.data.work %}
+{% assign techs = job.tech | split:"," %}
 <b>{{job.title}}</b>, {{job.org}}
 <br/> <small><span class="date">{{job.date}}</span></small>
+<small><span class="date"> {% for tech in techs %}#{{tech | replace: " ", ""}} {% endfor %}</span></small>
+
 
 {{job.description}}
-<small><span class="date">Tech: {{job.tech}}</span></small>
-
 
 {% endfor %}
+
+
+<br/>
