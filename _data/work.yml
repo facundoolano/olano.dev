@@ -30,3 +30,8 @@
      - Profile and optimize the server performances with the specific goal of infrastrcuture cost savings.
 
      - Redesign, prototype and future-proof systems in preparation for privacy-related changes in the Ad Tech industry.
+- date: Jun 2017 - Feb 2018
+  title: Senior Software Engineer
+  org: LambdaClass
+  tech: Erlang, ClojureScript, WebRTC, Cassandra
+  description: As one of the first engineers to join the company, I divided my time between open-source projects and contractor work for one of the clients.

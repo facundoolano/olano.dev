@@ -25,9 +25,9 @@ sections: [["mailto:facundo.olano@gmail.com", "@gmail"], ["https://www.linkedin.
 {% for job in site.data.work %}
 <b>{{job.title}}</b>, {{job.org}}
 <br/> <small><span class="date">{{job.date}}</span></small>
-<br/> <small><span class="date">{{job.tech}}</span></small>
 
 {{job.description}}
+<small><span class="date">Tech: {{job.tech}}</span></small>
 
 
 {% endfor %}
