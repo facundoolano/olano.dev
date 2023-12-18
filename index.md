@@ -10,6 +10,7 @@ layout: base
   * [/projects](/projects)
   * [/work](/work)
     <!-- * [/resume.pdf](/work/resume.pdf) -->
-  * [@gmail](mailto:facundo.olano@gmail.com)
-  * [@mastodon](https://hachyderm.io/@facundoolano)
-  * [@linkedin](https://www.linkedin.com/in/facundoolano/)
+  * /contact
+    * [@gmail](mailto:facundo.olano@gmail.com)
+    * [@mastodon](https://hachyderm.io/@facundoolano)
+    * [@linkedin](https://www.linkedin.com/in/facundoolano/)
