@@ -30,7 +30,7 @@ ul.site-index {
 .projects-index li { padding-bottom: .5rem; list-style-type: none}
 .projects-index li p {margin: 0.5rem 0}
 
-.projects-index hr {
+hr {
     border: 0;
     border-top:1px solid whitesmoke;
 }
