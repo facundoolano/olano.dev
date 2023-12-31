@@ -3,6 +3,7 @@ layout: post
 title: "El año en que volví a jugar"
 date: 2023-12-27 12:12:31
 tags: [videojuegos, memorias]
+image: assets/img/drifter.png
 ---
 
 <div class="org-center"><h2>1</h2></div>
