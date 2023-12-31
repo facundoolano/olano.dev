@@ -7,47 +7,78 @@ tags: [videojuegos, memorias]
 
 <div class="org-center"><h2>1</h2></div>
 
-En mi memoria las fiestas, en particular la semana entre Noche Buena y Año nuevo, están asociadas a los videojuegos. No solo porque oficializaban el fin del año escolar y el comienzo de las vacaciones &#x2014;ese vasto territorio del ocio&#x2014; sino porque era común que me regalaran algún juego en Navidad y que yo le dedicara esos días en que había poco más que hacer que comer sobras y flotar en la pelopincho. Pienso en un 25 al mediodía, en 2001 o 2002, jugando al *Diablo II*.
+En mi memoria, las fiestas, sobre todo la semana entre Navidad y Año nuevo, están asociadas a los videojuegos. No solo porque declaraban el fin del año escolar y el comienzo de las vacaciones &#x2014;ese vasto territorio del ocio&#x2014; sino porque era común que me regalaran algún juego en Navidad, y que yo le dedicara esos días en que había poco más que hacer que comer vitel toné y flotar en la pelopincho. Pienso en un 25 al mediodía, en 2001 o 2002, jugando al *Diablo II*.
 
 <br/>
 <div></div>
 
-Este blog denuncia el tiempo que paso [recordando](../2020-09-29-memoria-videojueguistica/), [estudiando](../2023-06-16-del-videojuego-como-puzzle), [investigando](../2022-08-09-llegando-los-monos), [leyendo](../2023-09-18-literatura-videojueguistica-vol-2) y [escribiendo](../2023-11-01-notas-sobre-obra-dinn) sobre videojuegos; ocasionalmente [diseñándolos](https://github.com/facundoolano/rpg-cli) y [programándolos](https://github.com/facundoolano/house-taken-over). Una cantidad exagerada de tiempo, considerando cuánto le dedico todavía a *jugarlos*.
+Si hubo un territorio del ocio, mi paso por la Universidad fue un destierro. Cuando empecé a estudiar y, después, a trabajar, le perdí el rastro a los videojuegos. Por falta de tiempo, por cambios en mis intereses, porque la programación parecía estimular la misma parte de mi cabeza. Al terminar mis estudios era un jugador *casual*, de Linux y Mac, de emuladores, de juegos *retro*.
 
 <br/>
 <div></div>
 
-Si hay un territorio del ocio, mi paso por la Universidad fue un destierro. Cuando empecé a estudiar y, después, a trabajar, le perdí el rastro a los videojuegos. En parte por falta de tiempo, en parte por cambios de intereses, en parte porque la programación parecía estimular la misma parte de mi cerebro. Al terminar mis estudios era un jugador *casual*, de Linux y Mac, de emuladores, de juegos *retro*.
+Este blog denuncia el tiempo que paso [recordando](../2020-09-29-memoria-videojueguistica/), [estudiando](../2023-06-16-del-videojuego-como-puzzle), [investigando](../2022-08-09-llegando-los-monos), [leyendo](../2023-09-18-literatura-videojueguistica-vol-2) y [escribiendo](../2023-11-01-notas-sobre-obra-dinn) sobre videojuegos; ocasionalmente [diseñándolos](https://github.com/facundoolano/rpg-cli) y [programándolos](https://github.com/facundoolano/house-taken-over). Una cantidad exagerada de tiempo, considerando cuánto le dedico todavía a *jugarlos*. Acaso siempre hubo tanto juego como añoranza. Acaso siempre jugué un poco a contramano, con máquinas inoportunas o mirando para atrás.
 
 <br/>
 <div></div>
 
-Acaso siempre jugué un poco a contramano, con máquinas inoportunas o mirando para atrás. Acaso siempre hubo tanto de juego como de añoranza.
-
-<br/>
-<div></div>
-
-Este año me propuse reconquistar el ocio, me compré una computadora, volví a jugar.
+Este año me propuse reconquistar el ocio; me compré una computadora; volví a jugar.
 
 <div class="org-center"><h2>2</h2></div>
 
--   perfect tides
--   aventuras descartadas: norco, unavowed++barrow
+(1) Empecé con una aventura gráfica, mi género preferido. Salvo que decir que *Perfect Tides* es una aventura gráfica es bajarle el precio: *Perfect Tides* es una historia contada en forma de aventura gráfica &#x2014;específicamente con el estilo noventoso de Sierra On-Line. El formato sirve a la historia, le sienta bien. La autora no necesitó inyectar comedia o fantasía o misterio a su argumento, le bastó con construir personajes creíbles y contarlos honestamente: le bastó con el drama de la adolescencia. Los puzzles son pocos y los menos obvios son opcionales, pero hay ese sentido de exploración y descubrimiento del ambiente, hay ese uso feliz del paso del tiempo que son propios del género.
 
--   hotline miami
+<br/>
+<div></div>
 
--   trails in the sky (+ trails 2)
--   shadow tactics
--   hyperlight drifter
+(2) Hasta acá mi suerte con las aventuras gráficas. Las otras que probé me decepcionaron, como me suele pasar, se me hacieron chiquitas, austeras, lineales, fáciles. Faltas de aventura. El problema no son *Unavowed*, *Norco* ni *Hob's Barrow*, el problema soy yo.
 
--   Zelda
--   la noire
+<br/>
+<div></div>
 
--   obra dinn (link)
--   signalis
+(3) *Hotline Miami* es quizás el arquetipo del juego *indie*. *Hotline Miami* exuda estilo. *Hotline Miami* entra por los oídos y sale por los dedos, es la música que juega a través nuestro. *Hotline Miami* es una experiencia estética. *Hotline Miami* nos vomita su tosca sangre pixelada para recordarnos que cualquier cosa puede ser belleza.
+
+<br/>
+<div></div>
+
+(4) *The Legend of Heroes: Trails in the Sky* es un exponente acabado de esa generación de RPGs japoneses que empezó con la PlayStation. Tal vez el último; seguramente que uno de los pocos que envejeció bien. La secuela, más bien segunda parte, se me hizo redundante.
+
+<br/>
+<div></div>
+
+(4) *Shadow Tactics*, casi parece un mod del *Commandos: Behind the Enemy Lines*, y eso es elogiarlo. La fórmula es la misma; el escenario, el período Edo japonés.
+
+<br/>
+<div></div>
+
+(5) *Hyperlight Drifter* es una aplicación de la fórmula de acción-RPG del *Zelda* &#x2014;de los viejos *Zelda* de 8 y 16 bits&#x2014;, un juego que, prescindiendo de toda forma de diálogo y hasta de texto, entre el *pixel art* preciosista y la música atmosférica, pese a sus muchas secuencias rebosantes de acción y movimiento, pese a una dificultad que exige planificación y entrenamiento, evoca una desolación, evoca el paseo silencioso por las ruinas de una civilización olvidada.
+
+<br/>
+<div></div>
+
+(6) Un juego que *no* aplica la fórmula de *Zelda* es el propio *Zelda: Breath of the Wild*. Fue mi primer intento de conocer lo que me había perdido durante estos años, de ver qué se podía hacer con una computadora nueva. Habiendo jugado y disfrutado *A Link to the Past* hace poco, parecía una buena opción para ingresar en el *open world* que se estila ahora. Pero, más allá del paisajismo, me encontré con un juego que rompe de la peor manera las convenciones del género, un juego donde cualquier enemigo nos mata de un golpe y las armas se rompen al tercer uso, un simulador de Boy Scouts que nos pide escalar montañas resbalosas, proteger antorchas del viento y de la lluvia, cazar animales y asarlos en fogatas para comer. Un juego, en fin, que se parece demasiado a la vida, que se parece demasiado al trabajo.
+
+<br/>
+<div></div>
+
+(7) Mi segunda incursión en la modernidad fue con *L.A. Noire*, que imaginaba como un *Grand Theft Auto* ambientado en el mundo del jazz, el cine negro y las novelas de Chandler que tanto me atrae. La ambientación, impecable, no alcanzó para salvar el juego, que rápidamente se me hizo repetitivo y falto de desafíos.
+
+<br/>
+<div></div>
+
+(8) De *Return of the Obra Dinn* [ya dije mucho](../2023-11-01-notas-sobre-obra-dinn).
+
+<br/>
+<div></div>
+
+(9) *SIGNALIS* reproduce con mucha precisión la experiencia *survival horror* de los primeros *Resident Evil*. La historia es rebuscada y hasta confusa, pero importa poco: lo que importa es sobrevivir, administrar recursos y resolver puzzles &#x2014;algunos bien originales. Todo, hasta los menús, bañado en gruesas capas de *Evangelion* y *Ghost in the Shell*. *SIGNALIS* sigue cuando parece que va a terminar; aunque no es un juego largo ni se me hizo nunca tedioso, llegó a producirme cierto cansancio, cierta *necesidad física* de que llegue el final. Y, lo que habla bien del diseño, cuando ese peso parecía insoportable, terminó.
 
 <div class="org-center"><h2>3</h2></div>
 
-difícilmente logre desarrollar una sensibilidad que me permita disfrutar lo que llamaría juegos "modernos" no por el hardware sino por el tamaño y el énfasis de la experiencia que proponen, algo de lo que más o menos llegué a entrever al escribir del videojuego como puzzle: prefiero la experiencia de juegos simples, que apelen a la creatividad, al potencial de descubrimiento a partir de pocos elementos, que a las experiencias grandiosas e inagotables
+repasando la lista, veo que todos los juegos que me gustaron de alguna manera actualizan juegos que me gustaban cuando era chico. pero me rehúso a admitir en eso una nostalgia. <ya puedo decir con seguridad que lo que me separa de los juegos "modernos" no es el hardware sino la sensibilidad, <la distancia entre la experiencia que ofrecen y la que busco.
 
-pendientes: psychonauts, firewatch, disco elysium, octopath 2, roadwarden, golden idol (?), chrono cross (?, legend of mana ace attorney (completar con cosas de las que agregué en steam) into the breach? ahí quedan juntando polvo el skyrim y el witcher, y lo mismo podría pasar con el elden ring (ff x y algun otro que tengo instalado en steam o en el wishlist)
+prefiero juegos simples, que apelen a la creatividad, al potencial de descubrimiento a partir de pocos elementos, que a las experiencias grandiosas y exhaustivas
+
+ahora pruebo el Throne fall. Después vendrá pendientes: psychonauts 2, firewatch, disco elysium, octopath 2, roadwarden, golden idol (?), into the breach?, chrono cross (?, legend of mana (completar con cosas de las que agregué en steam)
+
+ahí quedan juntando polvo el skyrim y el witcher, y lo mismo podría pasar con el elden ring (ff x y algun otro que tengo instalado en steam o en el wishlist)
