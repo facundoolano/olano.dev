@@ -75,10 +75,9 @@ Este año me propuse reconquistar el ocio; me compré una computadora; volví a 
 
 <div class="org-center"><h2>3</h2></div>
 
-repasando la lista, veo que todos los juegos que me gustaron de alguna manera actualizan juegos que me gustaban cuando era chico. pero me rehúso a admitir en eso una nostalgia. <ya puedo decir con seguridad que lo que me separa de los juegos "modernos" no es el hardware sino la sensibilidad, <la distancia entre la experiencia que ofrecen y la que busco.
+Repasando la lista, veo que todos los juegos que me gustaron son de alguna manera actualizaciones de juegos que me gustaban antes, cuando era chico. Pero me resisto a ver en eso una nostalgia. No hubo una búsqueda intencional de recrear el pasado; en la mayoría de los casos, las asociaciones vinieron después de jugar. Más bien, confirmo que ese pasado me preparó para buscar pequeños jardines pixelados, para encontrar satisfacción en la explosión combinatoria de unos pocos elementos, en experiencias que persisten más allá de la pantalla.
 
-prefiero juegos simples, que apelen a la creatividad, al potencial de descubrimiento a partir de pocos elementos, que a las experiencias grandiosas y exhaustivas
+<br/>
+<div></div>
 
-ahora pruebo el Throne fall. Después vendrá pendientes: psychonauts 2, firewatch, disco elysium, octopath 2, roadwarden, golden idol (?), into the breach?, chrono cross (?, legend of mana (completar con cosas de las que agregué en steam)
-
-ahí quedan juntando polvo el skyrim y el witcher, y lo mismo podría pasar con el elden ring (ff x y algun otro que tengo instalado en steam o en el wishlist)
+Mientras escribo, estos últimos días del año, estoy jugando al *Thronefall*. Más adelante vendrán, o no, *Psychonauts 2*, *Firewatch*, *Disco Elysium*, *Octopath Traveler 2*, *Roadwarden*, *Celeste*, *Into the Breach*.
