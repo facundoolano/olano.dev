@@ -28,7 +28,7 @@ Este año me propuse reconquistar el ocio; me compré una computadora; volví a 
 
 <div class="org-center"><h2>2</h2></div>
 
-(1) Empecé con una aventura gráfica, el género que había sido mi pan de cada día. Salvo que llamar aventura gráfica a *Perfect Tides* es bajarle el precio: *Perfect Tides* es un relato de época, expresado en el estilo noventoso de Sierra On-Line. El formato sirve a la historia, le sienta bien. La autora no necesitó inyectar comedia o fantasía o misterio a su argumento, le bastó con construir personajes creíbles y contarlos sinceramente: le bastó con el drama de la adolescencia. Los puzzles son pocos y los menos obvios son opcionales, pero hay ese sentido de exploración del entorno, hay ese feliz paso del tiempo, que son lo mejor del género.
+(1) Empecé por el género que supo ser mi pan de cada día. Salvo que decir que *Perfect Tides* es una aventura gráfica es bajarle el precio: *Perfect Tides* es un relato de época, sobre una joven en el año 2000, expresado en el estilo noventoso de Sierra On-Line. El formato sirve a la historia, le sienta bien. La autora no necesitó inyectar comedia o fantasía o misterio a su argumento, le bastó con construir personajes creíbles y contarlos sinceramente: le bastó con el drama de la adolescencia. Los puzzles son pocos y los menos obvios son opcionales, pero hay ese sentido de exploración del entorno, hay ese feliz paso del tiempo, que son lo mejor del género.
 
 <br/>
 <div></div>
@@ -38,7 +38,7 @@ Este año me propuse reconquistar el ocio; me compré una computadora; volví a 
 <br/>
 <div></div>
 
-(3) *Hotline Miami* es el arquetipo del juego *indie*. *Hotline Miami* exuda estilo. *Hotline Miami* entra por las orejas y sale por los dedos, es la música la que juega a través nuestro. *Hotline Miami* es una experiencia estética. *Hotline Miami* nos vomita su tosca sangre pixelada para recordarnos que cualquier cosa puede ser belleza.
+(3) *Hotline Miami* es el arquetipo del juego *indie*. *Hotline Miami* es una experiencia estética. *Hotline Miami* exuda estilo. *Hotline Miami* entra por las orejas y sale por los dedos: es la música la que juega a través nuestro. *Hotline Miami* nos vomita su tosca sangre pixelada para recordarnos que cualquier cosa puede ser belleza.
 
 <br/>
 <div></div>
@@ -58,7 +58,7 @@ Este año me propuse reconquistar el ocio; me compré una computadora; volví a 
 <br/>
 <div></div>
 
-(6) Un juego que *no* aplica la fórmula de *Zelda* es el propio *Zelda: Breath of the Wild*. Fue mi primer intento de conocer lo que me había perdido durante estos años, de ver qué se podía hacer con una computadora nueva. Habiendo jugado y disfrutado *A Link to the Past* hacía poco, parecía una buena opción para ingresar en el *open world* que está de moda. Pero, más allá del paisajismo, me encontré con un juego que rompe de la peor manera las convenciones de su género; un juego en el que cualquier enemigo nos puede matar de un golpe y las armas se rompen al tercer uso; un simulador de Boy Scout que nos pide abrigarnos para escalar montañas resbalosas, trasladar antorchas ante viento y lluvia, cazar animales y asarlos en fogatas para comer. Un juego, en fin, que se parece demasiado a la vida, que se parece demasiado al trabajo.
+(6) Un juego que *no* aplica la fórmula de *Zelda* es el propio *Zelda: Breath of the Wild*. Fue mi primer intento de conocer lo que me había perdido durante estos años, de ver qué se podía hacer con una computadora nueva. Habiendo jugado y disfrutado *A Link to the Past* hacía poco, parecía una buena opción para ingresar en el *open world* que está de moda. Más allá del paisajismo, me encontré con un juego que rompe de la peor manera las convenciones de su género; un juego en el que cualquier enemigo nos puede matar de un golpe y las armas se rompen al tercer uso; un simulador de Boy Scout que nos pide abrigarnos para escalar montañas resbalosas, trasladar antorchas ante viento y lluvia, cazar animales y asarlos en fogatas para comer. Un juego, en fin, que se parece demasiado a la vida, que se parece demasiado al trabajo.
 
 <br/>
 <div></div>
@@ -73,7 +73,7 @@ Este año me propuse reconquistar el ocio; me compré una computadora; volví a 
 <br/>
 <div></div>
 
-(9) *SIGNALIS* reproduce con mucha precisión la experiencia *survival horror* de los primeros *Resident Evil*. La historia es rebuscada y hasta confusa, pero importa poco: lo que importa es sobrevivir, administrar recursos y resolver puzzles. Todo, hasta los menús, bañado en gruesas capas de *Evangelion* y *Ghost in the Shell*. *SIGNALIS* sigue cuando parece que va a terminar; aunque no es un juego largo ni se me hizo nunca tedioso, llegó a producirme cierta cansancio, cierta *necesidad física* de alcanzar el final. Y &#x2014;lo que habla bien del diseño&#x2014; cuando ese peso parecía insoportable, se terminó.
+(9) *SIGNALIS* reproduce con mucha precisión la experiencia *survival horror* de los primeros *Resident Evil*. La historia es rebuscada y hasta confusa, pero importa poco: lo que importa es sobrevivir, administrar recursos y resolver puzzles. Todo, hasta los menús, cubierto en gruesas capas de *Evangelion* y *Ghost in the Shell*. *SIGNALIS* sigue cuando parece que va a terminar; aunque no es un juego largo ni se me hizo nunca tedioso, llegó a producirme cierta cansancio, cierta *necesidad física* de alcanzar el final. Y &#x2014;lo que habla bien del diseño&#x2014;, cuando ese peso se hacía insoportable, se terminó.
 
 <br/>
 <div></div>
