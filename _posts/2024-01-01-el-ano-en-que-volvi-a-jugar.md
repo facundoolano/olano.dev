@@ -14,12 +14,12 @@ En mi memoria, las fiestas, sobre todo la semana entre Navidad y Año nuevo, est
 <br/>
 <div></div>
 
-Si hubo un territorio del ocio, mi paso por la Universidad fue un destierro. Cuando empecé a estudiar y, después, a trabajar, le perdí el rastro a los videojuegos. Por falta de tiempo, por cambios en mis intereses, porque la programación parecía estimular la misma parte de mi cabeza. Al terminar mis estudios era un jugador *casual*, de Linux y Mac, de emuladores, de juegos *retro*.
+Si hubo un territorio del ocio, mi paso por la Universidad fue un destierro. Cuando empecé a estudiar y, después, a trabajar, le perdí el rastro a los videojuegos. Por falta de tiempo, por cambios en mis intereses, porque la programación parecía estimular la misma parte de mi cabeza. Al terminar mis estudios era un jugador ocasional, de Linux y Mac, de emuladores, de juegos *retro*.
 
 <br/>
 <div></div>
 
-Este blog denuncia el tiempo que paso [recordando](../2020-09-29-memoria-videojueguistica/), [leyendo](../2023-09-18-literatura-videojueguistica-vol-2), [investigando](../2022-08-09-llegando-los-monos), [estudiando](../2023-06-16-del-videojuego-como-puzzle) y [escribiendo](../2023-11-01-notas-sobre-obra-dinn) sobre videojuegos; ocasionalmente [diseñándolos](https://github.com/facundoolano/rpg-cli) y [programándolos](https://github.com/facundoolano/house-taken-over). Una cantidad exagerada de tiempo, considerando cuánto le dedico todavía a *jugarlos*. Acaso siempre hubo tanto juego como añoranza. Acaso siempre jugué un poco a contramano, con máquinas inoportunas o mirando hacia atrás.
+Este blog denuncia el tiempo que paso [recordando](../2020-09-29-memoria-videojueguistica/), [leyendo](../2023-09-18-literatura-videojueguistica-vol-2), [investigando](../2022-08-09-llegando-los-monos), [estudiando](../2023-06-16-del-videojuego-como-puzzle) y [escribiendo](../2023-11-01-notas-sobre-obra-dinn) sobre videojuegos; ocasionalmente [diseñándolos](https://github.com/facundoolano/rpg-cli) y [programándolos](https://github.com/facundoolano/house-taken-over). Una cantidad exagerada de tiempo, considerando cuánto le dedico todavía a *jugarlos*. Acaso siempre hubo tanto juego como añoranza; acaso siempre jugué un poco a contramano, con máquinas inoportunas o mirando hacia atrás.
 
 <br/>
 <div></div>
@@ -28,17 +28,17 @@ Este año me propuse reconquistar el ocio; me compré una computadora; volví a 
 
 <div class="org-center"><h2>2</h2></div>
 
-(1) Empecé con una aventura gráfica, el género que fue mi pan de cada día. Salvo que llamar aventura gráfica a *Perfect Tides* es bajarle el precio: *Perfect Tides* es un relato de época con forma de aventura &#x2014;específicamente con el estilo noventoso de Sierra On-Line. El formato sirve a la historia, le sienta bien. La autora no necesitó inyectar comedia o fantasía o misterio a su argumento, le bastó con construir personajes creíbles y contarlos honestamente: le bastó con el drama de la adolescencia. Los puzzles son pocos y los menos obvios son opcionales, pero hay ese sentido de exploración y descubrimiento del entorno, hay ese feliz paso del tiempo, que son lo mejor del género.
+(1) Empecé con una aventura gráfica, el género que había sido mi pan de cada día. Salvo que llamar aventura gráfica a *Perfect Tides* es bajarle el precio: *Perfect Tides* es un relato de época, expresado en el estilo noventoso de Sierra On-Line. El formato sirve a la historia, le sienta bien. La autora no necesitó inyectar comedia o fantasía o misterio a su argumento, le bastó con construir personajes creíbles y contarlos sinceramente: le bastó con el drama de la adolescencia. Los puzzles son pocos y los menos obvios son opcionales, pero hay ese sentido de exploración del entorno, hay ese feliz paso del tiempo, que son lo mejor del género.
 
 <br/>
 <div></div>
 
-(2) Hasta ahí mi suerte con las aventuras gráficas. Las otras que probé me decepcionaron, como suele pasar. Se me hicieron chiquitas, austeras, lineales, fáciles. Carentes de aventura. El problema no son *Unavowed*, *Norco* ni *Hob's Barrow*; el problema soy yo.
+(2) Hasta ahí mi suerte con las aventuras gráficas. Las otras que probé me decepcionaron, como suele pasar. Se me hicieron chiquitas, austeras, lineales, fáciles. Carentes de aventura. El problema no son *Unavowed*, *Norco* ni *Hob's Barrow*: el problema soy yo.
 
 <br/>
 <div></div>
 
-(3) *Hotline Miami* es quizás el arquetipo del juego *indie*. *Hotline Miami* exuda estilo. *Hotline Miami* entra por los oídos y sale por los dedos, es la música la que juega a través nuestro. *Hotline Miami* es una experiencia estética. *Hotline Miami* nos vomita su tosca sangre pixelada para recordarnos que cualquier cosa puede ser belleza.
+(3) *Hotline Miami* es el arquetipo del juego *indie*. *Hotline Miami* exuda estilo. *Hotline Miami* entra por las orejas y sale por los dedos, es la música la que juega a través nuestro. *Hotline Miami* es una experiencia estética. *Hotline Miami* nos vomita su tosca sangre pixelada para recordarnos que cualquier cosa puede ser belleza.
 
 <br/>
 <div></div>
@@ -53,17 +53,17 @@ Este año me propuse reconquistar el ocio; me compré una computadora; volví a 
 <br/>
 <div></div>
 
-(5) *Hyperlight Drifter* es una aplicación de la fórmula de acción-RPG del *Zelda* &#x2014;de los viejos *Zelda* de 8 y 16 bits. Un juego que, prescindiendo de diálogos y hasta de textos, entre el *pixel art* preciosista y la música atmosférica, pese a muchas secuencias rebosantes de acción y movimiento, pese a una dificultad que exige planificación y entrenamiento, evoca una desolación, evoca el paseo silencioso por las ruinas de una civilización anterior.
+(5) *Hyperlight Drifter* aplica la fórmula de acción-RPG del *Zelda* &#x2014;de los viejos *Zelda* de 8 y 16 bits. Es un juego que, prescindiendo de diálogos y hasta de textos, entre el *pixel art* preciosista y la música atmosférica, pese a muchas secuencias rebosantes de acción y movimiento, pese a una dificultad que exige planificación y entrenamiento, evoca una desolación, evoca el paseo silencioso por las ruinas de otra civilización.
 
 <br/>
 <div></div>
 
-(6) Un juego que *no* aplica la fórmula de *Zelda* es el propio *Zelda: Breath of the Wild*. Fue mi primer intento de conocer lo que me había perdido durante estos años, de ver qué se podía hacer con una computadora nueva. Habiendo jugado y disfrutado *A Link to the Past* hacía poco, parecía una buena opción para ingresar en el *open world* que está de moda. Pero, más allá del paisajismo, me encontré con un juego que rompe de la peor manera las convenciones de su género, un juego en el que cualquier enemigo nos puede matar de un golpe y las armas se rompen al tercer uso; un simulador de Boy Scout que nos pide abrigarnos para escalar montañas resbalosas, trasladar antorchas ante el viento y la lluvia, cazar animales y asarlos en fogatas para comer. Un juego, en fin, que se parece demasiado a la vida, que se parece demasiado al trabajo.
+(6) Un juego que *no* aplica la fórmula de *Zelda* es el propio *Zelda: Breath of the Wild*. Fue mi primer intento de conocer lo que me había perdido durante estos años, de ver qué se podía hacer con una computadora nueva. Habiendo jugado y disfrutado *A Link to the Past* hacía poco, parecía una buena opción para ingresar en el *open world* que está de moda. Pero, más allá del paisajismo, me encontré con un juego que rompe de la peor manera las convenciones de su género; un juego en el que cualquier enemigo nos puede matar de un golpe y las armas se rompen al tercer uso; un simulador de Boy Scout que nos pide abrigarnos para escalar montañas resbalosas, trasladar antorchas ante viento y lluvia, cazar animales y asarlos en fogatas para comer. Un juego, en fin, que se parece demasiado a la vida, que se parece demasiado al trabajo.
 
 <br/>
 <div></div>
 
-(7) Mi segunda incursión en la modernidad fue con *L.A. Noire*, que imaginaba como un *Grand Theft Auto* ambientado en el mundo del jazz, el cine negro y las novelas de Raymond Chandler. Pero esa ambientación, impecable, no alcanzó para salvar el juego, que rápidamente se me hizo monótono.
+(7) Mi segunda incursión en la modernidad fue con *L.A. Noire*, que me imaginaba como un *Grand Theft Auto* ambientado en el mundo del jazz, el cine negro y las novelas de Raymond Chandler. Esa ambientación, impecable, no alcanzó para salvar el juego, que rápidamente se me hizo monótono y poco desafiante.
 
 <br/>
 <div></div>
@@ -73,7 +73,7 @@ Este año me propuse reconquistar el ocio; me compré una computadora; volví a 
 <br/>
 <div></div>
 
-(9) *SIGNALIS* reproduce con mucha precisión la experiencia *survival horror* de los primeros *Resident Evil*. La historia es rebuscada y hasta confusa, pero importa poco: lo que importa es sobrevivir, administrar recursos y resolver puzzles. Todo, hasta los menús, bañado en gruesas capas de *Evangelion* y *Ghost in the Shell*. *SIGNALIS* sigue cuando parece que va a terminar; aunque no es un juego largo ni se me hizo nunca tedioso, llegó a producirme cierto cansancio, cierta *necesidad física* de que se acabe. Y, lo que habla bien del diseño, cuando ese peso parecía insoportable, se terminó.
+(9) *SIGNALIS* reproduce con mucha precisión la experiencia *survival horror* de los primeros *Resident Evil*. La historia es rebuscada y hasta confusa, pero importa poco: lo que importa es sobrevivir, administrar recursos y resolver puzzles. Todo, hasta los menús, bañado en gruesas capas de *Evangelion* y *Ghost in the Shell*. *SIGNALIS* sigue cuando parece que va a terminar; aunque no es un juego largo ni se me hizo nunca tedioso, llegó a producirme cierta cansancio, cierta *necesidad física* de alcanzar el final. Y &#x2014;lo que habla bien del diseño&#x2014; cuando ese peso parecía insoportable, se terminó.
 
 <br/>
 <div></div>
