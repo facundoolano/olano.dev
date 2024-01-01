@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "El año en que volví a jugar"
-date: 2023-12-27 12:12:31
+date: 2024-01-01
 tags: [videojuegos, memorias]
 image: assets/img/drifter.png
 excerpt: Este año me propuse reconquistar el ocio; me compré una computadora; volví a jugar.
