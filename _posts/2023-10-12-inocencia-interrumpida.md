@@ -4,7 +4,6 @@ title: "Inocencia interrumpida"
 excerpt: La mentira que nos contamos a nosotros mismos.
 date: 2023-10-12
 tags: [software]
-favorite: true
 thumbnail-img: assets/img/pappo.jpg
 image: assets/img/pappo.jpg
 ---
@@ -49,35 +48,31 @@ El buscador de Google funciona hoy sensiblemente peor que hace veinte años, y a
 
 El supuesto de que ofrecerle un mejor servicio al usuario es la manera de aumentar el valor del software &#x2014;que era una abstracción conveniente de las *realidades económicas* que motivaban su producción&#x2014; dejó de ser cierto: ya no es una representación satisfactoria de la realidad. Hoy el beneficio económico pasa por otro lado. Pensábamos que el software tiene que deleitar al usuario pero la economía y buena parte de la industria nos exige que sucesivamente lo ignoremos, lo manipulemos y lo maltratemos. La neurosis del programador contemporáneo resulta de que pasó, en menos de una década, de tener una profesión demasiado buena para ser cierta a tener un *bullshit job*<sup><a id="fnr.10" class="footref" href="#fn.10" role="doc-backlink">10</a></sup>: un trabajo que no produce valor tangible, que hace del mundo un lugar peor, que resulta difícil de justificar incluso en los términos tradicionales del capitalismo.
 
-¿Cómo conseguirse un empleo honesto en sistemas, sin tener que cambiar primero *el* sistema? ¿Qué nos queda si sacamos los proyectos de software imaginario, las redes
-sociales de vigilancia, las agencias publicitarias encubiertas, los productos que le hacen la cama a sus usuarios, las blockchains cuyos promotores oscilan entre el delirio místico y la estafa, la Inteligencia Alucinógena que riega con basura toda la web? ¿Existe todavía algún *kibutz* para deleitar a los usuarios sin corromperlos y sin engañarlos?
+¿Cómo conseguirse un empleo honesto en sistemas, sin tener que cambiar primero *el* sistema? ¿Qué nos queda si sacamos los proyectos de software imaginario, las redes sociales de vigilancia, las agencias publicitarias encubiertas, los productos que le hacen la cama a sus usuarios, las blockchains cuyos promotores oscilan entre el delirio místico y la estafa, la Inteligencia Alucinógena que riega con basura toda la web? ¿Existe todavía algún *kibutz* para deleitar a los usuarios sin corromperlos y sin engañarlos?
 
 Elijo creer que sí. Consumidores de software no faltan. Necesidades tampoco.
 
 <section class="footnotes" markdown=1>
 ## Notas
-<!--- 
-# Notas al pie de p&aacute;gina
 
- -->
-<sup><a id="fn.1" href="#fnr.1">1</a></sup> El mensaje original fue borrado, pero se puede leer el texto completo [acá](https://dcreager.net/2023/09/28-graydon-code-should-be-readable/).
+<sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> El mensaje original fue borrado, pero se puede leer el texto completo [acá](https://dcreager.net/2023/09/28-graydon-code-should-be-readable/).
 
-<sup><a id="fn.2" href="#fnr.2">2</a></sup> En ese sentido cabe la comparación con otros oficios, sin pretensión de superioridad. La alusión al *poeta* que hace Hoare incurre en la romantización del oficio de escritor: la suposición de que consiste apenas en transcribir lo que dicta la inspiración cuando, en realidad, tiene mucho de pico y pala, prueba y error, sangre, sudor y lágrimas.
+<sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> En ese sentido cabe la comparación con otros oficios, sin pretensión de superioridad. La alusión al *poeta* que hace Hoare incurre en la romantización del oficio de escritor: la suposición de que consiste apenas en transcribir lo que dicta la inspiración cuando, en realidad, tiene mucho de pico y pala, prueba y error, sangre, sudor y lágrimas.
 
-<sup><a id="fn.3" href="#fnr.3">3</a></sup> La [sublimación](https://es.wikipedia.org/wiki/Sublimaci%C3%B3n_(psicoan%C3%A1lisis)), que le dicen.
+<sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> La [sublimación](https://es.wikipedia.org/wiki/Sublimaci%C3%B3n_(psicoan%C3%A1lisis)), que le dicen.
 
-<sup><a id="fn.4" href="#fnr.4">4</a></sup> [Principles behind the Agile Manifesto](https://agilemanifesto.org/principles.html ).
+<sup><a id="fn.4" class="footnum" href="#fnr.4">4</a></sup> [Principles behind the Agile Manifesto](https://agilemanifesto.org/principles.html ).
 
-<sup><a id="fn.5" href="#fnr.5">5</a></sup> Por eso los programadores de LucasArts organizaban "orgías de pizza" para que amigos y familiares prueben los juegos en desarrollo; por eso los de Midway ponían versiones preliminares del *NBA Jam* en un arcade del barrio para ver cómo reaccionaban los jugadores.
+<sup><a id="fn.5" class="footnum" href="#fnr.5">5</a></sup> Por eso los programadores de LucasArts organizaban "orgías de pizza" para que amigos y familiares prueben los juegos en desarrollo; por eso los de Midway ponían versiones preliminares del *NBA Jam* en un arcade del barrio para ver cómo reaccionaban los jugadores.
 
-<sup><a id="fn.6" href="#fnr.6">6</a></sup> [“Metaverse” means “pivot to video”](https://archive.is/Fsd04).
+<sup><a id="fn.6" class="footnum" href="#fnr.6">6</a></sup> [“Metaverse” means “pivot to video”](https://archive.is/Fsd04).
 
-<sup><a id="fn.7" href="#fnr.7">7</a></sup> Es curioso que los ads sean la solución preferida para improvisarle un modelo de negocio a los servicios de software: según el libro *Subprime Attention Crisis*, la industria de los ads se funda en supuestos incomprobables y conforma también una burbuja esperando por estallar.
+<sup><a id="fn.7" class="footnum" href="#fnr.7">7</a></sup> Es curioso que los ads sean la solución preferida para improvisarle un modelo de negocio a los servicios de software: según el libro *Subprime Attention Crisis*, la industria de los ads se funda en supuestos incomprobables y conforma también una burbuja esperando por estallar.
 
-<sup><a id="fn.8" href="#fnr.8">8</a></sup> [List of mergers and acquisitions by Alphabet](https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Alphabet#Key_acquisitions).
+<sup><a id="fn.8" class="footnum" href="#fnr.8">8</a></sup> [List of mergers and acquisitions by Alphabet](https://en.wikipedia.org/wiki/List_of_mergers_and_acquisitions_by_Alphabet#Key_acquisitions).
 
-<sup><a id="fn.9" href="#fnr.9">9</a></sup> [Google’s AI Hype Circle](https://archive.is/ibHBY).
+<sup><a id="fn.9" class="footnum" href="#fnr.9">9</a></sup> [Google’s AI Hype Circle](https://archive.is/ibHBY).
 
-<sup><a id="fn.10" href="#fnr.10">10</a></sup> [On the Phenomenon of Bullshit Jobs](https://strikemag.org/bullshit-jobs/).
+<sup><a id="fn.10" class="footnum" href="#fnr.10">10</a></sup> [On the Phenomenon of Bullshit Jobs](https://strikemag.org/bullshit-jobs/).
 
 </section>

@@ -4,6 +4,7 @@ title: "Reclaiming the Web with a Personal Reader"
 date: 2023-12-12
 tags: [software, programación]
 lang: en
+favorite: true
 image: assets/img/feedi1.png
 excerpt: "There’s a kind of zen flow that programmers unblock when they experience their software daily as an end user. There’s no better catalyst for ideas and experimentation, no better prioritization driver than having to face the bugs, annoyances, and limitations of an application first-hand."
 ---
