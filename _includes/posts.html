@@ -1,12 +1,14 @@
-{% for post in posts %}
-
+{% assign posts_by_year = posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in posts_by_year %}
+<p style="text-decoration:underline">{{ year.name}}</p>
+{% for post in year.items %}
 <article>
 
         {% if post.favorite %} <a href="/blog/tags#favoritos" style="text-decoration:none">⭐</a> {% endif %}
         <a class="title" href="{{ post.external | default:post.url }}">{{ post.title }}</a>
         <br/>
         <small>
-            <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
+            <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
             <span class="tags">
                 {% if post.lang == 'en' %}<a href="/blog/en" style="text-decoration:none">🇬🇧 </a>{% endif %}
                 {% for tag in post.tags %}
@@ -16,4 +18,5 @@
         </small>
 
     </article>
+{% endfor %}
 {% endfor %}
