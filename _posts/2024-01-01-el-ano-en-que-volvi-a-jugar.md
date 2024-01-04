@@ -48,38 +48,38 @@ Este año me propuse reconquistar el ocio; me compré una computadora; volví a 
 <br/>
 <div></div>
 
-(4) *Shadow Tactics* casi parece un mod remasterizado del *Commandos*, y eso es un elogio. La fórmula es la misma; el escenario, el período Edo japonés.
+(5) *Shadow Tactics* casi parece un mod remasterizado del *Commandos*, y eso es un elogio. La fórmula es la misma; el escenario, el período Edo japonés.
 
 <br/>
 <div></div>
 
-(5) *Hyperlight Drifter* aplica la fórmula de acción-RPG del *Zelda* &#x2014;de los viejos *Zelda* de 8 y 16 bits. Es un juego que, prescindiendo de diálogos y hasta de textos, entre el *pixel art* preciosista y la música atmosférica, pese a muchas secuencias rebosantes de acción y movimiento, pese a una dificultad que exige planificación y entrenamiento, evoca una desolación, evoca el paseo silencioso por las ruinas de otra civilización.
+(6) *Hyperlight Drifter* aplica la fórmula de acción-RPG del *Zelda* &#x2014;de los viejos *Zelda* de 8 y 16 bits. Es un juego que, prescindiendo de diálogos y hasta de textos, entre el *pixel art* preciosista y la música atmosférica, pese a muchas secuencias rebosantes de acción y movimiento, pese a una dificultad que exige planificación y entrenamiento, evoca una desolación, evoca el paseo silencioso por las ruinas de otra civilización.
 
 <br/>
 <div></div>
 
-(6) Un juego que *no* aplica la fórmula de *Zelda* es el propio *Zelda: Breath of the Wild*. Fue mi primer intento de conocer lo que me había perdido durante estos años, de ver qué se podía hacer con una computadora nueva. Habiendo jugado y disfrutado *A Link to the Past* hacía poco, parecía una buena opción para ingresar en el *open world* que está de moda. Más allá del paisajismo, me encontré con un juego que rompe de la peor manera las convenciones de su género; un juego en el que cualquier enemigo nos puede matar de un golpe y las armas se rompen al tercer uso; un simulador de Boy Scout que nos pide abrigarnos para escalar montañas resbalosas, trasladar antorchas ante viento y lluvia, cazar animales y asarlos en fogatas para comer. Un juego, en fin, que se parece demasiado a la vida, que se parece demasiado al trabajo.
+(7) Un juego que *no* aplica la fórmula de *Zelda* es el propio *Zelda: Breath of the Wild*. Fue mi primer intento de conocer lo que me había perdido durante estos años, de ver qué se podía hacer con una computadora nueva. Habiendo jugado y disfrutado *A Link to the Past* hacía poco, parecía una buena opción para ingresar en el *open world* que está de moda. Más allá del paisajismo, me encontré con un juego que rompe de la peor manera las convenciones de su género; un juego en el que cualquier enemigo nos puede matar de un golpe y las armas se rompen al tercer uso; un simulador de Boy Scout que nos pide abrigarnos para escalar montañas resbalosas, trasladar antorchas ante viento y lluvia, cazar animales y asarlos en fogatas para comer. Un juego, en fin, que se parece demasiado a la vida, que se parece demasiado al trabajo.
 
 <br/>
 <div></div>
 
-(7) Mi segunda incursión en la modernidad fue con *L.A. Noire*, que me imaginaba como un *Grand Theft Auto* ambientado en el mundo del jazz, el cine negro y las novelas de Raymond Chandler. Esa ambientación, impecable, no alcanzó para salvar el juego, que rápidamente se me hizo monótono y poco desafiante.
+(8) Mi segunda incursión en la modernidad fue con *L.A. Noire*, que me imaginaba como un *Grand Theft Auto* ambientado en el mundo del jazz, el cine negro y las novelas de Raymond Chandler. Esa ambientación, impecable, no alcanzó para salvar el juego, que rápidamente se me hizo monótono y falto de desafíos.
 
 <br/>
 <div></div>
 
-(8) De *Return of the Obra Dinn* [ya dije mucho](../2023-11-01-notas-sobre-obra-dinn).
+(9) De *Return of the Obra Dinn* [ya dije mucho](../2023-11-01-notas-sobre-obra-dinn).
 
 <br/>
 <div></div>
 
-(9) *SIGNALIS* reproduce con mucha precisión la experiencia *survival horror* de los primeros *Resident Evil*. La historia es rebuscada y hasta confusa, pero importa poco: lo que importa es sobrevivir, administrar recursos y resolver puzzles. Todo, hasta los menús, cubierto en gruesas capas de *Evangelion* y *Ghost in the Shell*. *SIGNALIS* sigue cuando parece que va a terminar; aunque no es un juego largo ni se me hizo nunca tedioso, llegó a producirme cierta cansancio, cierta *necesidad física* de alcanzar el final. Y &#x2014;lo que habla bien del diseño&#x2014;, cuando ese peso se hacía insoportable, se terminó.
-
-<br/>
-<div></div>
-
-(10) Mientras escribo esto, los últimos días del año, juego al *Thronefall*. Más adelante vendrán, o no, *Psychonauts 2*, *Firewatch*, *Disco Elysium*, *Octopath Traveler*, *Roadwarden*, *Celeste*, *Into the Breach*.
+(10) *SIGNALIS* reproduce con mucha precisión la experiencia *survival horror* de los primeros *Resident Evil*. La historia es rebuscada y hasta confusa, pero importa poco: lo que importa es sobrevivir, administrar recursos y resolver puzzles. Todo, hasta los menús, cubierto por gruesas capas de *Evangelion* y *Ghost in the Shell*. *SIGNALIS* sigue cuando parece que va a terminar; aunque no es un juego largo ni se me hizo nunca tedioso, llegó a producirme cierto cansancio, cierta *necesidad física* de alcanzar el final. Y &#x2014;lo que habla bien del diseño&#x2014;, cuando ese peso se hacía insoportable, se terminó.
 
 <div class="org-center"><h2>3</h2></div>
 
 Repasando la lista, admito que todos esos juegos de alguna forma actualizan otros que me habían gustado antes, cuando era chico. Pero me resisto a ver en eso una nostalgia. No hubo una búsqueda intencional de reproducir el pasado; en la mayoría de los casos, las asociaciones vinieron después de jugar. Más bien, confirmo que ese pasado me preparó para buscar estos pequeños jardines pixelados, para encontrar satisfacción en la explosión combinatoria, en experiencias que persisten después de la pantalla.
+
+<br/>
+<div></div>
+
+Mientras escribo esto, los últimos días del año, juego al *Thronefall*. Más adelante vendrán, o no, *Psychonauts 2*, *Firewatch*, *Disco Elysium*, *Octopath Traveler*, *Roadwarden*, *Celeste*, *Into the Breach*.
