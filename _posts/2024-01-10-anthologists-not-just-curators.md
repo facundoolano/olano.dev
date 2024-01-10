@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Anthologists, not just Curators"
-subtitle: resurfacing old web content
+title: "Anthologists, not just curators"
+subtitle: On recycling web content
+# resurfacing old web content
 # unearthing old web content
 # recirculating web content
 # recycling web content
@@ -10,3 +11,17 @@ date: 2024-01-10 14:03:13
 tags: [web]
 lang: en
 ---
+
+A while back I read Maggie Appleton's [history of Digital Gardening](https://maggieappleton.com/garden-history), and [a post](https://stackingthebricks.com/how-blogs-broke-the-web/) she linked about how blogs set the stage for the web we have today. Both pieces are interesting in that they call out, not only how we moved from a world of quirky personal websites to one of uniform profile pages, but how we got used to the reverse-chronological list as the one way to present and consume information online.
+
+I'm personally ambivalent about this time-structuredness of the web. While I certainly see the benefits of reduced social media consumption, and I get and admire the idea of the digital garden and the creativity it fosters, I still find the simplicity of blogs liberating. As a writer, it lets me focus in the production of the text, which is the part I'm most interested in; as a reader, especially when paired with RSS/Atom feeds, it gives me control of how I receive and consume information.
+
+But the problem with organizing content chronologically is that it makes everything ephemeral by default. Even if at a slower pace than social media, blogging still submit us to the clock: *when* is more important than *what*, and *when* only really matters if it's *now*. And that's ok for a lot of the stuff online, content that it's best left forgotten or to be rewritten, but it means that conscious and consistent efforts are necessary to find and preserve content that wasn't *just produced*.
+
+<just as we need discovery and curation to navigate through the constant information overflow, we need archiving and, especially, anthologizing to learn and build on what came before.
+
+<div class="org-center">
+<p>
+&lowast; &lowast; &lowast;
+</p>
+</div>
