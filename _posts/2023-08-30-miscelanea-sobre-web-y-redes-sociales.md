@@ -2,7 +2,7 @@
 layout: post
 title: "Miscelánea sobre web y redes sociales"
 date: 2023-08-30
-tags: [software, utopías]
+tags: [web, software, utopías]
 share-img: assets/img/mastodon.jpeg
 image: assets/img/mastodon.jpeg
 thumbnail-img: assets/img/mastodon.jpeg
@@ -21,7 +21,7 @@ Vladimir Putin<br />
 
 > Here is how platforms die: first, they are good to their users; then they abuse their users to make things better for their business customers; finally, they abuse those business customers to claw back all the value for themselves. Then, they die.
 
-Alguna vez dije que la solución a la crisis de la balanza de pagos era empezar a exportar memes. (Eso y monetizar a los argentinos notables; digamos: cobrarle retenciones a Messi, derechos formativos a Bergoglio). Porque da gusto ver cómo inventan los argentinos, mártires cínicos,  perfectos violinistas para cualquier Titanic. Cuando Elon Musk compró Twitter, recé para que no lo rompiera antes del Mundial: Qatar puede no haber sido el [fin del fútbol](../2023-02-06-justicia-poetica/), pero sí que fue el *last dance* de Tuiter Argentina.
+Alguna vez dije que la solución a la crisis de la balanza de pagos era empezar a exportar memes. (Eso y monetizar a los argentinos notables; digamos: cobrarle retenciones a Messi, derechos formativos a Bergoglio). Porque da gusto ver cómo inventan los argentinos, mártires cínicos, perfectos violinistas para cualquier Titanic. Cuando Elon Musk compró Twitter, recé para que no lo rompiera antes del Mundial: Qatar puede no haber sido el [fin del fútbol](../2023-02-06-justicia-poetica/), pero sí que fue el *last dance* de Tuiter Argentina.
 
 Cory Doctorow acuñó el termino *enshittification* para designar el ciclo en que las redes sociales pasan de la masividad a una degradación que en algunos casos llega a ser terminal. El artículo, de enero, venía a cuento de algunos cambios en TikTok pero tuvo el timing perfecto para anticiparse al declive de Twitter &#x2014;que había empezado antes pero se acentuó semanas después&#x2014; y al de Reddit que, en medio del [hype por la inteligencia artificial](../2023-07-10-la-era-de-la-boludez), cerró el acceso a las APIs para aplicaciones externas, reservándose el derecho exclusivo de explotar a su comunidad como carne de algoritmo. El término parece haberse puesto de moda para referir al malestar generalizado que produce la web moderna.
 
@@ -39,8 +39,7 @@ El ritmo es más lento: la gente se loguea con menos frecuencia, postea esporád
 
 El mayor control sobre el feed cambia profundamente la experiencia de usuario. No sólo porque los posts llegan cronológicamente, sin mediación de "algoritmos" tratando de manipular mi atención o venderme cosas, sino porque Mastodon te da muchas opciones para elegir qué incluir en el timeline: ocultar replies o retweets, desactivar las actualizaciones en vivo, seguir hashtags, silenciar cuentas, crear filtros.
 
-Hay que decir que el Mastodon *realmente existente* es menos descentralizado de lo que permite su tecnología, no resuelve del todo los problemas de las redes masivas. La mayoría de los usuarios se concentra en dos o tres servidores; el proceso de migración es engorroso y los posts son intransferibles; los usuarios, en última instancia, tienen que confiar en algún administrador o asumir el trabajo de convertirse en uno. Y están a merced de perder los datos si la instancia se cae o a quedar aislados si es bloqueada por otras. Pero mientras que las aplicaciones *peer to peer* son un ideal de difícil realización, la federación a través del protocolo ActivityPub es un
-[*Worse is Better*](../2023-02-22-worse-is-better-is-worse-is-better) de las redes sociales: la alternativa que estuvo en mejores condiciones de asilar a las sucesivas olas de refugiados de Twitter.
+Hay que decir que el Mastodon *realmente existente* es menos descentralizado de lo que permite su tecnología, no resuelve del todo los problemas de las redes masivas. La mayoría de los usuarios se concentra en dos o tres servidores; el proceso de migración es engorroso y los posts son intransferibles; los usuarios, en última instancia, tienen que confiar en algún administrador o asumir el trabajo de convertirse en uno. Y están a merced de perder los datos si la instancia se cae o a quedar aislados si es bloqueada por otras. Pero mientras que las aplicaciones *peer to peer* son un ideal de difícil realización, la federación a través del protocolo ActivityPub es un [*Worse is Better*](../2023-02-22-worse-is-better-is-worse-is-better) de las redes sociales: la alternativa que estuvo en mejores condiciones de asilar a las sucesivas olas de refugiados de Twitter.
 
 Elegir un server de Mastodon se parece a elegir una distribución de Linux. Y aunque la federación en la práctica tenga sus problemas, hay todo un triunfo en este despliegue global de una red de aplicaciones interoperables. Así como los programas de Linux funcionan sin grandes cambios entre distribuciones e incluso en otras variantes de Unix, así los usuarios del fediverso pueden hablar entre sí sin importar si su cuenta reside en una aplicación de [microblogging](https://micro.blog/), de [fotos](https://pixelfed.org), de [videos](https://joinpeertube.org), de [libros](https://joinbookwyrm.com/), de [links](https://join-lemmy.org/). Eso ya implica un cambio de paradigma, una demostración de alternativas y futuros posibles.
 
@@ -56,7 +55,7 @@ Elegir un server de Mastodon se parece a elegir una distribución de Linux. Y au
 
 ## 3: Otras webs
 
-> Do we want the web to be open, accessible, empowering and collaborative? Free, in the spirit of  the open source tools it's built on? Or do we want it to be just another means of endless consumption, where people become eyeballs, targets and profiles? Where companies use your data to control your behaviour and which enables a surveillance society—what do we want?
+> Do we want the web to be open, accessible, empowering and collaborative? Free, in the spirit of the open source tools it's built on? Or do we want it to be just another means of endless consumption, where people become eyeballs, targets and profiles? Where companies use your data to control your behaviour and which enables a surveillance society—what do we want?
 
 En Mastodon y en el fediverso sobran programadores frustrados con las redes sociales, con el estado de la web y la industria del software en general. (Me cuento entre ellos). No es una sorpresa considerando: a) el perfil de usuario que opta por un nicho descentralizado, y b) la complejidad técnica de elegir una instancia y encontrar contenido.
 
@@ -110,8 +109,7 @@ Aunque el concepto es interesante, la implementación de un lector indie es dema
 
 La proliferación de aplicaciones federadas con ActivityPub, el renovado interés en los lectores RSS y los esfuerzos de la web indie son miniaturas de un proyecto de desmantelar las plataformas monopólicas mediante el uso de tecnología abierta, un proyecto que Mike Masnick expresó muy bien en su artículo de 2019.
 
-La vieja web funcionaba alrededor de un conjunto de protocolos abiertos: TCP/IP para la comunicación, HTTP para la web, IMAP, POP3 y SMTP para los mails, IRC y XMPP para el chat.
-Esos protocolos funcionaban bien para los usuarios pero no ofrecían muchas oportunidades de explotación económica. La solución de la web 2.0 fue la que Cory Doctorow describe en su ciclo de enmierdización: crear plataformas cerradas alrededor de los protocolos (Facebook, Twitter, Whatsapp), tentar a los usuarios con mejor funcionalidad que las versiones abiertas y, una vez que los tenían "rehenes", aprovechar económicamente el monopolio (usualmente acumulando datos para vender ads).
+La vieja web funcionaba alrededor de un conjunto de protocolos abiertos: TCP/IP para la comunicación, HTTP para la web, IMAP, POP3 y SMTP para los mails, IRC y XMPP para el chat. Esos protocolos funcionaban bien para los usuarios pero no ofrecían muchas oportunidades de explotación económica. La solución de la web 2.0 fue la que Cory Doctorow describe en su ciclo de enmierdización: crear plataformas cerradas alrededor de los protocolos (Facebook, Twitter, Whatsapp), tentar a los usuarios con mejor funcionalidad que las versiones abiertas y, una vez que los tenían "rehenes", aprovechar económicamente el monopolio (usualmente acumulando datos para vender ads).
 
 El texto de Masnick se enfoca en el problema de la libertad de expresión en la web actual. Según el autor, las plataformas crecieron tanto en tamaño e influencia que pasaron a tener ciertas "responsabilidades civiles" que no están en condiciones de cumplir: se espera que prevengan los discursos de odio y la desinformación pero que no caigan en la censura y la vigilancia, todo mientras satisfacen a los accionistas que financiaron aquel crecimiento. El resultado es que el costo de moderación de contenido es cada vez más alto, la vigilancia y la explotación de los usuarios es cada vez más agresiva y nadie está contento. Masnick propone una solución técnica: volver a un mundo protocolos, como el de la vieja web:
 
@@ -143,4 +141,3 @@ En vista de las continuas burradas de Elon Musk, del creciente desencanto con la
 -   [Local-first software: You own your data, in spite of the cloud](https://www.inkandswitch.com/local-first/).
 -   [The Cloud Is a Prison. Can the Local-First Software Movement Set Us Free?](https://www.wired.com/story/the-cloud-is-a-prison-can-the-local-first-software-movement-set-us-free/)
 -   [Our Incredible Journey](https://www.gyford.com/phil/writing/2013/02/27/our-incredible-journey/).
-

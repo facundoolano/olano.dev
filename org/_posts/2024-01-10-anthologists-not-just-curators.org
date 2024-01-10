@@ -4,7 +4,8 @@
 ---
 layout: post
 title: "Anthologists, not just Curators"
-subtitle: resurfacing old web content
+subtitle: on recycling web content
+# resurfacing old web content
 # unearthing old web content
 # recirculating web content
 # recycling web content
