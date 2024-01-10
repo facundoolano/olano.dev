@@ -1,0 +1,16 @@
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+#+BEGIN_EXPORT html
+---
+layout: post
+title: "Anthologists, not just Curators"
+subtitle: resurfacing old web content
+# unearthing old web content
+# recirculating web content
+# recycling web content
+# digging up old web content
+date: 2024-01-10 14:03:13
+tags: [web]
+lang: en
+---
+#+END_EXPORT
