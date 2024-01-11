@@ -3,12 +3,12 @@
 #+BEGIN_EXPORT html
 ---
 layout: post
-title: "Web Anthologies"
+title: "Web Anthologists"
 subtitle: or, Resurfacing Old Website Content
 date: 2024-01-11
 tags: [web]
 lang: en
-excerpt: The problem with organizing content chronologically is that it makes everything ephemeral by default. Even if at a slower pace than social media, blogging still submit us to the clock: when is more important than what, and when only really matters if it’s now. Just as we need discovery and curation to navigate through information overflow, we need archiving and, especially, anthologizing to stay aware of what came before.
+excerpt: "The problem with organizing content chronologically is that it makes everything ephemeral by default. Even if at a slower pace than social media, blogging still submits us to the clock: when is more important than what, and when only really matters if it’s now. Just as we need discovery and curation to navigate through information overflow, we need archiving and, especially, anthologizing to stay aware of what came before."
 ---
 #+END_EXPORT
 

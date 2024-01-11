@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Web Anthologies"
+title: "Web Anthologists"
 subtitle: or, Resurfacing Old Website Content
 date: 2024-01-11
 tags: [web]
 lang: en
-excerpt: The problem with organizing content chronologically is that it makes everything ephemeral by default. Even if at a slower pace than social media, blogging still submit us to the clock: when is more important than what, and when only really matters if it’s now. Just as we need discovery and curation to navigate through information overflow, we need archiving and, especially, anthologizing to stay aware of what came before.
+excerpt: "The problem with organizing content chronologically is that it makes everything ephemeral by default. Even if at a slower pace than social media, blogging still submits us to the clock: when is more important than what, and when only really matters if it’s now. Just as we need discovery and curation to navigate through information overflow, we need archiving and, especially, anthologizing to stay aware of what came before."
 ---
 
 A while back I read Maggie Appleton's [history of Digital Gardening](https://maggieappleton.com/garden-history) and [a post](https://stackingthebricks.com/how-blogs-broke-the-web/) she linked about how blogs set the stage for the web we have today. Both pieces are interesting in that they show, not only how we moved from a world of quirky personal websites to one of uniform profile pages, but how we got used to the reverse-chronological stream as the one way to present and consume information online.
