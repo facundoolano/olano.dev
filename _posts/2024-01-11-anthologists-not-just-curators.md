@@ -2,7 +2,7 @@
 layout: post
 title: "Web Anthologies"
 subtitle: or, Resurfacing Old Website Content
-date: 2024-01-10 14:03:13
+date: 2024-01-11
 tags: [web]
 lang: en
 excerpt: The problem with organizing content chronologically is that it makes everything ephemeral by default. Even if at a slower pace than social media, blogging still submit us to the clock: when is more important than what, and when only really matters if it’s now. Just as we need discovery and curation to navigate through information overflow, we need archiving and, especially, anthologizing to stay aware of what came before.
@@ -34,7 +34,7 @@ Of course, I could go back through the archive and try to make out what looks pr
 
 A literary genre that I enjoy particularly is collections of essays and articles that first appeared in periodic publications. Strictly speaking, some of the greatest literature of the 20th century falls into this category; authors like Borges and Cheever published their stories in magazines and later collected them in book form. But less notorious instances of the genre work for me, too. Simple collections of newspaper columns, from authors that I haven't read before; there's something about the format that makes them good casual reads; something about the progression, and the contrast between pieces, that make the whole better than the sum of parts. The same goes for online content: I've enjoyed books that are just the "greatest hits" of a blog.
 
-The great Jimmy Maher, for example, collects his blog posts [into e-books](https://www.filfre.net/the-digital-antiquarian-e-book-library/). Each one covers a year of computer entertainment history, roughly starting in 1980. The e-book form enables a particular mode of reading, one that's very different from stumbling upon his old articles through links or search results. In addition to the e-books, he keeps a ["hall of fame"](https://www.filfre.net/hall-of-fame/), a selection of articles about the games he most enjoyed, that offers another alternative reading itinerary for the blog.
+The great Jimmy Maher, for example, collects his blog posts [into e-books](https://www.filfre.net/the-digital-antiquarian-e-book-library/). Each one covers a year of computer entertainment history, roughly starting in 1980. The e-book form enables a particular mode of reading, one that's very different from stumbling upon old articles through links or search results. He also keeps a ["hall of fame"](https://www.filfre.net/hall-of-fame/), a selection of articles about the games he most enjoyed, that offers another alternative reading itinerary for the blog.
 
 I've seen other bloggers and website owners do similar things: listing their most popular posts, or their favorite ones; some "selected works" or "suggested starting points". I started tagging some of my own posts as "favorites" by adding a ⭐ tag, trying to produce a mix of the pieces that I enjoyed writing, the ones that I put a significant effort into, the ones that had good reception, or that best capture some recurring theme of the blog.
 
