@@ -1,7 +1,7 @@
 {% assign posts_by_year = posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in posts_by_year %}
-{% unless skip_years %}
-<p style="text-decoration:underline">{{ year.name}}</p>
+{% unless skip_years or forloop.first%}
+<br/><br/>
 {% endunless %}
 {% for post in year.items %}
 <article>
