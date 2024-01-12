@@ -9,31 +9,33 @@ tags: [literatura, libros]
 ---
 #+END_EXPORT
 
+/Al igual que todos los hombres, Rudyard Kipling fue muchos hombres/. Borges aplicó esa fórmula también a Shakespeare, a Ascasubi. Pero de él, de Borges, dice que fue alguien que se dedicó más a leer que a vivir. Nos propone un hombre unidimensional, un resumen, un rasgo: uno de sus personajes. Borges fue un hombre de letras.
 
-En una de sus notas, Borges dice que "al igual que todos los hombres, Rudyard Kipling fue muchos hombres". Esa fórmula la aplicó también a Shakespeare y a Ascasubi. Pero cuando habla de Borges, parece hablar de un hombre unidimensional, alguien que se dedicó más a leer que a vivir. Como con otros de sus personajes, nos ofrece un resumen, un rasgo, un atributo. Borges fue un hombre de letras.
+Vale, pero, en todo caso, Borges fue /muchos hombres de letras/. Hubo uno antes y otro después de Norah Lange ---que explica su abandono momentáneo de la poesía---, uno antes y otro después del  accidente en 1938 ---que lo obligó a la convalecencia que luego evocaría en /El Sur/ y a la que él atribuye su vuelco a la ficción---, uno antes y otro después de la ceguera.
 
-Tomemos el personaje pero con la salvedad de que, en todo caso, Borges /fue muchos hombres/ de letras.
-
-Hubo un Borges antes de Norah Lange ---TODO---, un Borges después <del accidente que evoca en /El Sur/ >, un Borges después de la ceguera ---TODO.
-
-Hoy quiero hablar de un Borges marginal, el Borges 1936-1939 que colaboraba para la revista /El Hogar/, el Borges de los /Textos cautivos/.
+Además de esos, célebres, hay un Borges marginal, el de 1936-1939, el colaborador de la revista /El Hogar/, el Borges de los /Textos cautivos/.
 
 #+BEGIN_CENTER
 \ast{} \ast{} \ast{}
 #+END_CENTER
 
-- qué buscaba Borges publicando en esa revista familiar, que elijo imaginar como la /Utilísima/ de la época.
-  (segun los antólogos ... amas de casa?)
-uno se pregunta cómo en un mundo en que las mismas señoras que necesitan entretenimiento hogareño podrían obtenerlo de los comentarios de Borges sobre Kafka o Paul Valery
-    qué podían importarle a las amas de casa esos comentarios sobre clásicos universales y filósofos rebuscados;
+- página de literatura extranjera
+entretenimiento familiar/para amas de casa
+elijo imaginar como la /Utilísima/ de la época.
+entre propagandas de crema Hinds y de Ovomaltina
+
+qué podían importarle a las amas de casa esos comentarios sobre clásicos universales y filósofos rebuscados;
+sobre Kafka o Paul Valery
     libros que no estaban traducidos al castellano y que no se conseguían en el país,
     esos autores policiales oscuros y precursores de la ciencia ficción que eran fetiche de Borges,
     literatura/escritores menores
-    y por qué se tomaba el trabajo borges de escribir ahí
+
+- más importante: qué hacía Borges publicando en esa revista?
+A falta de certezas biográficas, especulo.
     acaso escribía para ganarse la vida (30 pesos dice él), porque de algo tiene que vivir el escritor
-    acaso era un entrenamiento, un ensayo de las ideas que después publicaba en Sur y que compondrían los libros que lo hicieron célebre
-    acaso escribía para la posteridad, para nosotros, para los rastreadores de sus migajas literarias
     acaso se había impuesto cumplir una misión literaria sin preguntarse dónde y cuando
+    acaso escribía para la posteridad, para nosotros, para los rastreadores de sus migajas literarias
+    acaso esas notas eran desprendimientos necesarios de sus lecturas, borradores de los ensayos intergalácticos que después publicaba en /Sur/ y que recogió en /Discusión/ y /Otras Inquisiciones/.
 
 #+BEGIN_CENTER
 \ast{} \ast{} \ast{}
@@ -56,6 +58,8 @@ me interesa es el tono que adopta Borges, los temas que elige y la concisión qu
 Nos muestra 200 veces seguidas cómo Borges elegía abordar un comentario, cómo construía la primera frase de 200 comentarios.
 Nos enteramos furtivamente en qué momento del día leía Borges y cuánto tardaba en terminar un libro si le gustaba.
 
+<entrenamiento para esas ficciones disfrazadas de ensayo como /Pierre Menard,/ para sus reseñas de libros que no existen
+
 #+BEGIN_CENTER
 \ast{} \ast{} \ast{}
 #+END_CENTER
@@ -66,8 +70,7 @@ cuesta imaginarse aquellas oficinas
 aquel edificio lujoso
 fue derrumbado y reconstruido en un estilo parecido; quedan vestigios si uno mira bien, si uno sabe lo que busca y levanta la cabeza; queda un principio de torre, oculta por la vidriera de una panadería de barrio.
 
-- Borges iba hasta el edificio dos veces al mes a dejar su página, le pagaban 30 pesos
-- TODO
+- Borges iba hasta el edificio dos veces al mes a dejar su página, a recibir sus 30 pesos. visitaba a algunos amigos en la redacción, salían a comer y caminar por Buenos Aires.
 
 - <Roberto Arlt escribía sus aguafuertes para el diario /El Mundo/ de la misma editorial, tal vez en ese mismo edificio.
   Lo imagino golpeando la máquina de escribir, con un cigarrillo colgándole del labio reseco, viendo pasar al gordito Borges que viene a dejar su página de literatura extranjera para señoras, con el mismo desdén que tendría Iorio para el guitarrista de Rata Blanca.
