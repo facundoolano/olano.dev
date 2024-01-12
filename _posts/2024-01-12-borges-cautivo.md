@@ -7,9 +7,7 @@ tags: [literatura, libros]
 
 *Al igual que todos los hombres, Rudyard Kipling fue muchos hombres*. Borges aplicó esa fórmula también a Shakespeare, a Ascasubi. Pero de él, de Borges, dice que fue alguien que se dedicó más a leer que a vivir. Nos propone un hombre unidimensional, un resumen, un rasgo: uno de sus personajes. Borges fue un hombre de letras.
 
-Vale, pero, en todo caso, Borges fue *muchos hombres de letras*. Hubo uno antes y otro después de Norah Lange &#x2014;que explica su abandono momentáneo de la poesía&#x2014;, uno antes y otro después del accidente en 1938 &#x2014;que lo obligó a la convalecencia que luego evocaría en *El Sur* y a la que él atribuye su vuelco a la ficción&#x2014;, uno antes y otro después de la ceguera.
-
-Además de esos, célebres, hay un Borges marginal, el de 1936-1939, el colaborador de la revista *El Hogar*, el Borges de los *Textos cautivos*.
+Vale, pero, en todo caso, Borges fue *muchos hombres de letras*. Hubo uno antes y otro después de Norah Lange &#x2014;que explica su abandono momentáneo de la poesía&#x2014;, uno antes y otro después del accidente en 1938 &#x2014;que lo obligó a la convalecencia que reprodujo en *El Sur* y a la que él atribuye su vuelco a la ficción&#x2014;, uno antes y otro después de la ceguera. Además de esos, célebres, hay un Borges marginal, colaborador de la revista *El Hogar*, el Borges de los *Textos cautivos*.
 
 <div class="org-center">
 <p>
@@ -17,15 +15,11 @@ Además de esos, célebres, hay un Borges marginal, el de 1936-1939, el colabora
 </p>
 </div>
 
--   página de literatura extranjera
+Entre 1936 y 1939 Borges firmó la sección de literatura extranjera de *El Hogar*, revista "familiar" que solía incluir notas de moda, cocina y economía doméstica dirigidas a la "señora de la casa", algo así como la *Utilísima* de aquella época. Las reseñas de libros y biografías sintéticas de Borges venían acompañadas de extraños retratos de los autores y rodeadas por publicidades de crema Hinds y Ovomaltina.
 
-entretenimiento familiar/para amas de casa elijo imaginar como la *Utilísima* de la época. entre propagandas de crema Hinds y de Ovomaltina
+Cabe preguntarse qué interés podrían tener el público de esa revista en el peculiar surtido de clásicos universales, filósofos rebuscados, compiladores de antologías detectivescas y precursores de la ciencia ficción que Borges proponía cada semana, qué clase de ama de casa querría saltar de las instrucciones de bordado a *Las Palmeras Salvajes* de Faulkner. Más interesante (y menos problemática) es la otra pregunta: ¿Qué hacía Borges publicando en esa revista?
 
-qué podían importarle a las amas de casa esos comentarios sobre clásicos universales y filósofos rebuscados; sobre Kafka o Paul Valery libros que no estaban traducidos al castellano y que no se conseguían en el país, esos autores policiales oscuros y precursores de la ciencia ficción que eran fetiche de Borges, literatura/escritores menores
-
--   más importante: qué hacía Borges publicando en esa revista?
-
-A falta de certezas biográficas, especulo. acaso escribía para ganarse la vida (30 pesos dice él), porque de algo tiene que vivir el escritor acaso se había impuesto cumplir una misión literaria sin preguntarse dónde y cuando acaso escribía para la posteridad, para nosotros, para los rastreadores de sus migajas literarias acaso esas notas eran desprendimientos necesarios de sus lecturas, borradores de los ensayos intergalácticos que después publicaba en *Sur* y que recogió en *Discusión* y *Otras Inquisiciones*.
+En vez de buscar certezas biográficas, prefiero especular. Acaso Borges escribía esas columnas por la plata, porque de algo tiene que vivir el hombre de letras. Acaso se había impuesto cumplir una misión de divulgación literaria, sin importarle dónde y cuándo hacía sus intervenciones. Acaso escribía para una posteridad, para nosotros, para los perros de sus migajas literarias. Acaso esas notas eran desprendimientos necesarios de sus lecturas, borradores de los ensayos intergalácticos que después publicaba en *Sur* y que recogió en *Discusión* y *Otras Inquisiciones*.
 
 <div class="org-center">
 <p>
