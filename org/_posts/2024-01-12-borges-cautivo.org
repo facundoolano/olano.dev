@@ -9,7 +9,7 @@ tags: [literatura, libros]
 ---
 #+END_EXPORT
 
-/Al igual que todos los hombres, Rudyard Kipling fue muchos hombres/. Borges aplicó esa fórmula también a Shakespeare, a Ascasubi. Pero de él, de Borges, dice que fue alguien que se dedicó más a leer que a vivir. Nos propone un hombre unidimensional, un resumen, un rasgo: uno de sus personajes. Borges fue un hombre de letras.
+/Al igual que todos los hombres, Rudyard Kipling fue muchos hombres/. Borges aplicó esa fórmula también a Shakespeare, a Ascasubi. Pero de él, de Borges, dice que fue alguien que se dedicó más a leer que a vivir. Nos propone, como con otros de sus personajes, a un hombre unidimensional, un resumen, un rasgo. Borges fue un hombre de letras.
 
 Vale, pero, en todo caso, Borges fue /muchos hombres de letras/. Hubo uno antes y otro después de Norah Lange ---que explica su abandono momentáneo de la poesía---, uno antes y otro después del accidente en 1938 ---que lo obligó a la convalecencia que reprodujo en /El Sur/ y a la que él atribuye su vuelco a la ficción---, uno antes y otro después de la ceguera. Además de esos, célebres, hay un Borges marginal, colaborador de la revista /El Hogar/, el Borges de los /Textos cautivos/.
 
@@ -27,24 +27,15 @@ En vez de buscar certezas biográficas, prefiero especular. Acaso Borges escrib�
 \ast{} \ast{} \ast{}
 #+END_CENTER
 
-Comparado con el resto de la obra de Borges, /Textos cautivos/ es un libro lleno de rarezas.
+Comparado con el resto de la obra de Borges, /Textos cautivos/ es un libro lleno de curiosidades.
+Furtivamente nos enteramos en qué momento del día leía Borges y cuánto tardaba en terminar un libro; en contraste con sus misceláneas tardías, la columna semanal lo forzaba a hablar de sus contemporáneos y de lo que salía de las imprentas.
 
-(se distingue de otras de sus misceláneas, (libros tardíos), como sus colecciones de prólogos que se vuelven necesariamente monótonas en la forma y que habla a veces hasta con reverencia de autores casi siempre muertos)
+Lejos del cieguito que se ríe y finge demencia, acá hay un Borges inimputable, que rezonga contra las modas y llora el crepúsculo de sus ídolos, que aniquila con humor y elegancia cualquier obra o autor o escuela de pensamiento que venga a "ablandarle la milanesa".
 
-Nos muestra a Borges leyendo libros contemporáneos.  Libros que no le gustan, autores que no respeta.
-y hasta películas
-que lamenta el crepúsculo de sus ídolos
-lejos del viejo ciego de la falsa humildad, que se ríe finje demencia cuando le preguntan por sus contemporáneos este es un borges irónico, cínico, inimputable
-distinto del mitológico viejo ciego que recorre con su bastón los pasillos de una laberíntica biblioteca de marfil.
+El formato le impone concisión (incluso a él, el más conciso de todos los escritores).
+Doscientas veces seguidas lo vemos elegir un tema y vemos cómo elige abordarlo, cómo compone, doscientas veces, el primer párrafo de un comentario. Lo vemos reducir libros enteros a una cita, o reemplazarlos por una cita de otro libro, de otro autor, que le parece mejor.
 
-elegancia y el humor que usa para destrozar una obra o un autor o una escuela de pensamiento o un oficio <que vienen a ablandar la milanesa>.
-
-me interesa es el tono que adopta Borges, los temas que elige y la concisión que el formato le impone
-
-Nos muestra 200 veces seguidas cómo Borges elegía abordar un comentario, cómo construía la primera frase de 200 comentarios.
-Nos enteramos furtivamente en qué momento del día leía Borges y cuánto tardaba en terminar un libro si le gustaba.
-
-<entrenamiento para esas ficciones disfrazadas de ensayo como /Pierre Menard,/ para sus reseñas de libros que no existen
+Aunque todavía no escribía ficción, es imposible no suponer en estas notas una especie de entrenamiento para sus posteriores cuentos disfrazadas de ensayo y sus reseñas de libros que no existen, sus /Pierre Menard/ y sus /Amoltásim/.
 
 #+BEGIN_CENTER
 \ast{} \ast{} \ast{}
