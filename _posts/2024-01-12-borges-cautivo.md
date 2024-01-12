@@ -41,10 +41,6 @@ Aunque todavía no escribía ficción, es imposible no suponer en estas notas un
 </p>
 </div>
 
--   la editorial haynes tenía un edificio en Río de Janeiro y Bogotá, no muy lejos de mi casa
+Las oficinas de la editorial Haynes estaban sobre Río de Janeiro, no muy lejos de mi casa, en la esquina en que Bogotá pasa a ser Querandíes. Era un edificio alto y elegante, con una cúpula esculpida. Cuesta imaginarlo, en ese pequeño oasis silencioso de la frontera entre Almagro y Caballito. El edificio fue derrumbado y reconstruido; queda algún vestigio, oculto atrás de una panadería.
 
-una zona residencial, de calles cortas de adoquines cuesta imaginarse aquellas oficinas aquel edificio lujoso fue derrumbado y reconstruido en un estilo parecido; quedan vestigios si uno mira bien, si uno sabe lo que busca y levanta la cabeza; queda un principio de torre, oculta por la vidriera de una panadería de barrio.
-
--   Borges iba hasta el edificio dos veces al mes a dejar su página, a recibir sus 30 pesos. visitaba a algunos amigos en la redacción, salían a comer y caminar por Buenos Aires.
-
--   <Roberto Arlt escribía sus aguafuertes para el diario *El Mundo* de la misma editorial, tal vez en ese mismo edificio. Lo imagino golpeando la máquina de escribir, con un cigarrillo colgándole del labio reseco, viendo pasar al gordito Borges que viene a dejar su página de literatura extranjera para señoras, con el mismo desdén que tendría Iorio para el guitarrista de Rata Blanca.
+Borges iba hasta ahí, dos veces al mes, a entregar su trabajo y cobrar 30 pesos. Después salía a comer con algún amigo de la redacción. En esa misma editorial funcionaba *El Mundo*, el diario que publicaba las *Aguafuertes Porteñas* de Roberto Arlt. Lo imagino golpeando la máquina de escribir, con un cigarrillo colgando del labio reseco, viendo a Borges traer su página de libros extranjeros para señoras, con el mismo desdén que tendría Iorio para el guitarrista de Rata Blanca.
