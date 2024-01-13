@@ -3,13 +3,14 @@ layout: post
 title: "Borges cautivo"
 date: 2024-01-12
 tags: [literatura, libros]
+excerpt: "Hubo un Borges antes y otro después de Norah, uno antes y otro después del accidente de 1938, uno antes y otro después de la ceguera. Además de esos, célebres, hubo un Borges marginal, colaborador de la revista El Hogar, el Borges de los Textos cautivos."
 ---
 
 "Al igual que todos los hombres, Rudyard Kipling fue muchos hombres &#x2014;el caballero inglés, el imperialista, el bibliófilo, el interlocutor de soldados y de montañas". Borges aplicó esa fórmula también a Shakespeare, a Ascasubi. Pero de él, de Borges, dice que fue alguien que se dedicó a leer más que a vivir. Nos propone a un hombre unidimensional, un resumen, un rasgo: uno de sus personajes. Borges fue un hombre de letras.
 
 Vale, pero, en todo caso, digamos que Borges fue *muchos* hombres de letras. Hubo uno antes y otro después de Norah Lange &#x2014;por quien dejó momentáneamente la poesía&#x2014;, uno antes y otro después del accidente de 1938 &#x2014;a cuya convalecencia él atribuye su vuelco a la ficción&#x2014;, uno antes y otro después de la ceguera.
 
-Además de esos, célebres, hay un Borges marginal, colaborador de la revista *El Hogar*, el Borges de los *Textos cautivos*.
+Además de esos, célebres, hubo un Borges marginal, colaborador de la revista *El Hogar*, el Borges de los *Textos cautivos*.
 
 <div class="org-center">
 <p>
