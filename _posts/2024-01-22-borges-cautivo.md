@@ -17,7 +17,7 @@ Vale, pero, en todo caso, digamos que Borges fue *muchos* hombres de letras. Hub
 </p>
 </div>
 
-Entre 1936 y 1939 Borges firmó la sección de literatura extranjera de *El Hogar*, revista que solía incluir notas de moda, cocina y economía doméstica dirigidas a la "señora de la casa", algo así como una *Utilísima* de la época. Borges escribía reseñas de libros y biografías sintéticas que venían acompañadas de extraños retratos de los autores y rodeadas por publicidades de crema Hinds y Ovomaltina.
+Entre 1936 y 1939 Borges firmó la sección de literatura extranjera de *El Hogar*, revista que solía incluir notas de moda, cocina y economía doméstica dirigidas a la "señora de la casa", algo así como una *Utilísima* de la época. Borges escribía reseñas de libros y biografías sintéticas que venían acompañadas de extraños retratos y rodeadas por publicidades de crema Hinds y Ovomaltina.
 
 Cabe preguntarse qué interés podría haber tenido el público de *El Hogar* en el peculiar surtido de clásicos, filósofos, compiladores de cuentos policiales y precursores de la ciencia ficción que Borges les proponía cada semana; qué ama de casa querría pasar de las instrucciones de bordado a *Las Palmeras Salvajes* de Faulkner o la *Introducción a la Poética* de Valéry. Más interesante (y menos incómoda) es otra pregunta: ¿Qué hacía Borges publicando en esa revista?
 
@@ -29,7 +29,7 @@ En vez de buscar certezas biográficas, especulo. Acaso Borges escribía esas co
 </p>
 </div>
 
-Comparado con el resto de la obra de Borges, *Textos cautivos* es un libro lleno de curiosidades. Furtivamente nos enteramos en qué momento del día leía Borges y cuánto tardaba en terminar un libro. La columna semanal lo forzaba a hablar de sus contemporáneos; el contexto lo obligaba a aludir a Hitler y Stalin. Lejos del cieguito que se ríe y finge demencia, acá hay un Borges inimputable, que rezonga contra las modas y llora el crepúsculo de sus ídolos, que aniquila con humor y elegancia cualquier obra o autor o escuela de pensamiento que venga a "ablandarle la milanesa".
+Comparado con el resto de su obra, *Textos cautivos* es un libro de curiosidades. Furtivamente nos enteramos en qué momento del día leía Borges y cuánto tardaba en terminar un libro. La columna semanal lo forzaba a hablar de sus contemporáneos; el contexto lo obligaba a aludir a Hitler y a Stalin. Lejos del cieguito que se ríe y finge demencia, acá hay un Borges inimputable que rezonga contra las modas y llora el crepúsculo de sus ídolos, que aniquila con humor y elegancia cualquier obra o autor o escuela de pensamiento que venga a "ablandarle la milanesa".
 
 El formato le impone concisión &#x2014;incluso a él, el más conciso de todos los escritores. Doscientas veces seguidas lo vemos elegir un tema y abordarlo; vemos, doscientas veces, cómo compone el primer párrafo de un comentario y cómo lo remata. Lo vemos reducir libros enteros a una anécdota, o reemplazarlos por una cita de otro libro, de otro autor, que le parece mejor.
 
@@ -43,4 +43,4 @@ Aunque todavía no escribía ficción, es imposible no suponer en estas notas un
 
 Las oficinas de la editorial Haynes quedaban sobre Río de Janeiro, no muy lejos de mi casa, en la esquina en que Bogotá se convierte en Querandíes. Era un edificio alto y elegante, con una cúpula y dos estatuas. Cuesta imaginárselo, en ese pequeño oasis de silencio entre Almagro y Caballito. El edificio fue derrumbado y reconstruido; queda algún vestigio, oculto atrás de una panadería.
 
-Borges iba hasta ahí, dos veces al mes, a entregar su trabajo y cobrar 30 pesos. Después salía a comer con algún amigo de la redacción. En esa misma editorial funcionaba El Mundo, el diario que publicaba las *Aguafuertes Porteñas* de Roberto Arlt. Lo imagino golpeando la máquina de escribir, el cigarrillo apagado al costado de la boca y un mechón de pelo suelto sobre la frente, viendo pasar a Borges con su página de literatura para señoras, con el mismo desdén que Ricardo Iorio reservaba para el guitarrista de Rata Blanca.
+Borges iba hasta ahí, dos veces al mes, a entregar su trabajo y cobrar 30 pesos. Después salía a comer con algún amigo de la redacción. En esa misma editorial funcionaba El Mundo, el diario que publicaba las *Aguafuertes Porteñas* de Roberto Arlt. Lo imagino golpeando la máquina de escribir, el cigarrillo apagado al costado de la boca y un mechón de pelo suelto sobre la frente, viendo pasar a Borges con su página de literatura para señoras, con el mismo desdén que Ricardo Iorio reservaría para el guitarrista de Rata Blanca.
