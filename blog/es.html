@@ -1,12 +1,6 @@
 ---
 layout: default
-title: Apuntes Inchequeables
 ---
-
-<p>
-    <a href="/blog">all</a> | es | <a href="/blog/en">en</a>
-</p>
-<br/>
 
 <div class="blog-index">
     {% assign posts = site.posts|where_exp:"post", "post.lang == nil or post.lang == 'es'" %}
