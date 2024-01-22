@@ -28,6 +28,22 @@ a, a:visited {
 a:hover {text-decoration: underline}
 
 .date, .tags, .tags a { color: silver!important}
+.date {
+    padding-right: .5rem
+}
+.tags {
+    display: inline-block;
+}
+
+article.post {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    article.post .tags {
+        display:none;
+    }
+}
 
 .org-center, .text-center {
     text-align: center;
@@ -54,6 +70,7 @@ hr {
 
 a.title {
     color: unset!important;
+    padding-right: .25rem;
 }
 
 .layout-post {
