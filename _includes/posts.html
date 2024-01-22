@@ -12,7 +12,6 @@
         <small>
             <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
             <span class="tags">
-                {% if post.lang == 'en' %}<a href="/blog/en" style="text-decoration:none">🇬🇧 </a>{% endif %}
                 {% for tag in post.tags %}
                 <a href="/blog/tags#{{tag}}">#{{tag}}</a>
                 {% endfor %}

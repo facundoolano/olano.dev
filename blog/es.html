@@ -1,6 +1,11 @@
 ---
 layout: default
+submenu: [["/feeds", "/blog/feeds"], ["/tags", "/blog/tags"]]
 ---
+
+<p>Language: <a href="/blog">all</a> | es | <a href="/blog/en">en</a></p>
+<br/>
+
 
 <div class="blog-index">
     {% assign posts = site.posts|where_exp:"post", "post.lang == nil or post.lang == 'es'" %}

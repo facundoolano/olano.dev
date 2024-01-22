@@ -10,9 +10,11 @@ nav {
     line-height: 1.8;
     border-bottom: 1px solid;
 }
-nav a, .site-index a { color: unset;}
+nav a:not(:last-child){
+    margin-right: .75em
+}
 nav a:hover { text-decoration: none;}
-nav * {margin-right: .75em; margin-bottom:0}
+
 
 a, a:visited {
     color: LinkText;

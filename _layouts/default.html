@@ -5,6 +5,13 @@ layout: base
     <a href="/">olano.dev</a>
     <a href="/blog">/blog</a>
     <a href="/projects">/projects</a>
+
+    <div style="float: right;">
+    {% assign sections = page.submenu %}
+    {% for section in sections %}
+    <a href="{{section[1]}}">{{section[0]}}</a>
+    {% endfor %}
+    </div>
 </nav>
 
 <div class="content layout-{{ page.layout }}">

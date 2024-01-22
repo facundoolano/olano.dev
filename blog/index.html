@@ -1,15 +1,10 @@
 ---
 layout: default
+submenu: [["/feeds", "/blog/feeds"], ["/tags", "/blog/tags"]]
 ---
-<p>Below is my entire blog archive. You can filter <a href="/blog/es">spanish</a>
-    or <a href="/blog/en">english</a> posts if you prefer.</p>
-
-<p>If you don't know where to start, take a look at my <a href="/blog/tags#favoritos">favorites</a> and the <a href="/blog/tags">tags</a>.</p>
-
-<p>You can subscribe to one of the atom <a href="/feeds">feeds</a> or follow me on <a href="https://hachyderm.io/@facundoolano">Mastodon</a> to learn about new posts.</p>
-
+<p>Language: all | <a href="/blog/es">es</a> | <a href="/blog/en">en</a></p>
 <br/>
-<br/>
+
 <div class="blog-index">
     {% assign posts = site.posts %}
     {% include posts.html posts=posts%}
