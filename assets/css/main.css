@@ -63,8 +63,13 @@ hr {
     letter-spacing: .03em;
 }
 
-.layout-post h1 {
+.layout-post .title {
     hyphens:none;
+}
+
+.layout-post header {
+    margin: 4rem 0 5rem;
+    text-align: left;
 }
 
 .layout-post p {
@@ -76,12 +81,15 @@ hr {
     text-indent: 3rem;
 }
 
+.layout-post p + h2 {
+    padding-top: 1.5rem;
+}
+
 .layout-post .footnotes p {
     text-indent: 0rem;
 }
 
-.layout-post h1, .layout-post .subtitle {
-    text-align: center;
+.layout-post .title, .layout-post .subtitle {
 }
 
 .layout-post .org-center, .layout-post .text-center {
@@ -114,6 +122,7 @@ img.cover-img {
     max-width: 100%;
     max-height: 200px;
     object-fit: cover;
+    margin:-3rem 0 -1rem;
 }
 
 /* override in mobile devices for more compact text */
