@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Facundo Olano
-sections: [["mailto:facundo.olano@gmail.com", "@gmail"], ["https://www.linkedin.com/in/facundoolano/", "@linkedin"], ["/work/resume.pdf", "resume.pdf"]]
+sections: [["mailto:facundo.olano@gmail.com", "@gmail"], ["https://github.com/facundoolano", "@github"], ["https://www.linkedin.com/in/facundoolano/", "@linkedin"], ["/work/resume.pdf", "resume.pdf"]]
 ---
 
 I'm a software engineer from Buenos Aires, Argentina, with over 15 years of experience in the industry.

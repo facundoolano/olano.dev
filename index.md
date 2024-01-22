@@ -13,4 +13,5 @@ layout: base
   * /contact
     * [@gmail](mailto:facundo.olano@gmail.com)
     * [@mastodon](https://hachyderm.io/@facundoolano)
+    * [@github](https://github.com/facundoolano)
     * [@linkedin](https://www.linkedin.com/in/facundoolano/)
