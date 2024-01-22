@@ -4,11 +4,20 @@ body { max-width: 45em; margin: 0 auto; padding: 0 1rem;
        font-family: Tahoma, Verdana, Arial, sans-serif;
        line-height: 1.5;
      }
-nav {margin: 1rem 0 2rem;    line-height: 1.8;}
-nav a, .site-index a { color: unset}
-nav * {margin-right: .5em; margin-bottom:0}
 
-a {color: dodgerblue;text-decoration: none}
+nav {
+    margin: 1rem 0 2rem;
+    line-height: 1.8;
+    border-bottom: 1px solid;
+}
+nav a, .site-index a { color: unset;}
+nav a:hover { text-decoration: none;}
+nav * {margin-right: .75em; margin-bottom:0}
+
+a, a:visited {
+    color: LinkText;
+    text-decoration: none;
+}
 a:hover {text-decoration: underline}
 
 .date, .tags, .tags a { color: silver!important}

@@ -1,12 +1,10 @@
 ---
 layout: base
 ---
-<nav class="">
+<nav>
     <a href="/">olano.dev</a>
-    {% assign sections = layout.sections|default:page.sections %}
-    {% for section in sections %}
-    <a href="{{section[0]}}">{{section[1]}}</a>
-    {% endfor %}
+    <a href="/blog">/blog</a>
+    <a href="/projects">/projects</a>
 </nav>
 
 <div class="content layout-{{ page.layout }}">
