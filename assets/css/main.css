@@ -52,7 +52,7 @@ hr {
 
 .blog-index article { padding-bottom: .5rem;}
 
-.blog-index a.title {
+a.title {
     color: unset!important;
 }
 

@@ -16,11 +16,12 @@ layout: base
 
 <div class="content layout-{{ page.layout }}">
     {% if page.title %}
-    <h3>{{page.title}}</h3>
+    <h2>{{page.title}}</h2>
 
     {% endif %}
 
     {{ content }}
 
+    <br/>
     <p>{% include source_path.html %}</p>
 </div>
