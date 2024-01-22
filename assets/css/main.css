@@ -15,6 +15,11 @@ nav a:not(:last-child){
 }
 nav a:hover { text-decoration: none;}
 
+li {
+    line-height: 1.6;
+    padding-bottom: .75rem;
+}
+
 
 a, a:visited {
     color: LinkText;
@@ -34,7 +39,6 @@ ul.site-index {
 }
 .site-index li {
     list-style: none;
-    line-height: 1.8;
 }
 
 .projects-index ul { padding-bottom: 1rem}
@@ -43,7 +47,7 @@ ul.site-index {
 
 hr {
     border: 0;
-    border-top:1px solid whitesmoke;
+    border-top:1px solid;
 }
 
 .blog-index article { padding-bottom: .5rem;}
