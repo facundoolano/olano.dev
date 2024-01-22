@@ -1,18 +1,18 @@
 {% assign posts_by_year = posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in posts_by_year %}
 {% unless skip_years or forloop.first%}
-<br/><br/>
+<br/>
 {% endunless %}
 {% for post in year.items %}
 <article>
 
-        {% if post.favorite %} <a href="/blog/tags#favoritos" style="text-decoration:none">⭐</a> {% endif %}
-        <a class="title" href="{{ post.external | default:post.url }}">{{ post.title }}</a>
-        <br/>
-        <small>
-            <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
-            <span class="tags">
-                {% for tag in post.tags %}
+    <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    <a class="title" href="{{ post.external | default:post.url }}">{{ post.title }}</a>
+    <small>
+
+        <span class="tags">
+            {% if post.favorite %} <a href="/blog/tags#favoritos" style="text-decoration:none">⭐</a> {% endif %}
+            {% for tag in post.tags %}
                 <a href="/blog/tags#{{tag}}">#{{tag}}</a>
                 {% endfor %}
             </span>
