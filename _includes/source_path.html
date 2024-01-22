@@ -1,4 +1,8 @@
 {% capture source_path %}
 https://github.com/facundoolano/olano.dev/tree/main{{ layout.prefix }}/{% if layout.extension %}{{page.path|replace:'.html',layout.extension|replace:'.md',layout.extension}}{% else %}{{page.path}}{%endif%}
 {% endcapture %}
-<span class="tags"><a href="{{source_path}}">source</a></span>
+<span class="tags">
+    <a href="{{source_path}}">source</a>
+    |
+    <a href="mailto:facundo.olano@gmail.com">comments</a>
+</span>
