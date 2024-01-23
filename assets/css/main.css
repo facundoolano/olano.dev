@@ -31,11 +31,11 @@ a:hover {text-decoration: underline}
 .date {
     padding-right: .5rem
 }
-.tags {
+.tags, .project-details {
     display: inline-block;
 }
 
-article.post {
+article.post, article.project {
     display: flex;
 }
 
@@ -57,9 +57,10 @@ ul.site-index {
     list-style: none;
 }
 
-.projects-index ul { padding-bottom: 1rem}
-.projects-index li { padding-bottom: .5rem; list-style-type: none}
-.projects-index li p {margin: 0.5rem 0}
+.projects-index p {
+    display: inline;
+    line-height: 1.6;
+}
 
 hr {
     border: 0;
@@ -67,6 +68,8 @@ hr {
 }
 
 .blog-index article { padding-bottom: .5rem;}
+.projects-index article { padding-bottom: .75rem;}
+
 
 a.title {
     color: unset!important;
