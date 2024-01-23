@@ -40,6 +40,3 @@ More than technology or scale, my interest is in using simple tools to solve pro
 {% endunless %}
 
 {% endfor %}
-
-
-<br/>
