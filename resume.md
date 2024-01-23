@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Facundo Olano
 ---
+
+## Facundo Olano
 
 I'm a software engineer from Buenos Aires, Argentina, with over 15 years of experience in the industry.
 During the first part of my career, I worked as a Python and Django web developer while completing my Software Engineering degree.
@@ -11,19 +12,18 @@ Because I think that software development is primarily a human activity, I place
 
 More than technology or scale, my interest is in using simple tools to solve problems for users, working at organizations with healthy environments and sustainable business models.
 
+<br/>
 ### Contact
 
 - [facundo.olano@gmail.com](mailto:facundo.olano@gmail.com)
 - [GitHub](https://github.com/facundoolano)
 - [LinkedIn](https://www.linkedin.com/in/facundoolano/)
 
-<br/>
 ### Education
 
 **Software Engineering**, Universidad de Buenos Aires
   <br/> <small><span class="date">2006 - 2013</span></small>
 
-<br/>
 ### Experience
 
 {% for job in site.data.work %}
