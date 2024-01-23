@@ -1,13 +1,13 @@
 - date: Jul 2022 - Jan 2023 · 7 mos
   title: Staff Software Engineer
-  org: LambdaClass
+  org: "[LambdaClass](https://lambdaclass.com/)"
   tech: Distributed Systems, Rust, Elixir, Terraform, AWS, Nomad
   description: >
     As a Staff Engineer I reported directly to the CEO. I provided technical leadership for about 20 people on a newly formed organization within the company.
     I started a Platform Team to support the rest of the organization and later led a distributed systems research and development effort.
 - date: Feb 2018 - Jul 2022 · 4 yrs 6 mos
   title: Software Engineer
-  org: NextRoll (LambdaClass contractor)
+  org: "[NextRoll](https://www.nextroll.com/) (LambdaClass contractor)"
   tech: AdTech, Distributed Systems, Erlang, Python, Elixir, JavaScript, PostgreSQL, AWS, Terraform, Datadog
   description: >
      As part of the Real-time bidding team, I worked on design, development, maintenance and operation of the bidding service and its support systems.
@@ -25,12 +25,12 @@
        - Redesign, prototype and future-proof systems in preparation for privacy-related changes in the Ad Tech industry.
 - date: Jun 2017 - Feb 2018 · 9 mos
   title: Senior Software Engineer
-  org: LambdaClass
+  org: "[LambdaClass](https://lambdaclass.com/)"
   tech: Erlang, ClojureScript, WebRTC, Cassandra, PostgreSQL
   description: As one of the first engineers to join the company, I divided my time between open-source projects and contractor work for one of the clients.
 - date: Mar 2016 - Jun 2017 · 1 yr 4 mos
   title: Senior Software Engineer
-  org: Mad Mobile
+  org: "[Mad Mobile](https://madmobile.com/)"
   tech: Distributed Systems, Microservices, Node.js, Clojure, MongoDB, RabbitMQ, ElasticSearch, Redis, socket.io
   description: >
      As part of the Core Services team, I designed and developed a Backend as a Service platform to support the mobile applications developed by the company.
@@ -38,19 +38,19 @@
 
        I led the development of some of the most complex features of the platform such as a decentralised system for environment migrations and On-Premise to Cloud communications through a cluster of Web Sockets.
 
-- date: Dec 2014 - Mar 2016 · 1 yr 4 mos
+- date: Mar 2015 - Dec 2015 · 10 mos
   title: Software Engineer
-  org: TappedOut.net
+  org: "[TappedOut.net](https://tappedout.net/)"
   tech: Python, Django, Node.js, Redis, PostgreSQL, Neo4j, socket.io, ElasticSearch, JQuery, Android
   description: Software development for a MTG online community. In addition to the base web application, I implemented a companion Android app and a web-based draft simulator.
 - date: Mar 2014 - Dec 2014 · 10 mos
   title: Tech Lead
-  org: National Geographic (Globant contractor)
+  org: "[National Geographic](https://www.nationalgeographic.com/) (Globant contractor)"
   description: Technical leadership of a team dedicated to develop cross-projects RESTful services. Implementation of an API store using WSO2.
   tech: Python, Django, ElasticSearch, PostgreSQL
 - date: May 2013 - Mar 2014 · 11 mos
   title: Senior Python Developer
-  org: National Geographic (Globant contractor)
+  org: "[National Geographic](https://www.nationalgeographic.com/) (Globant contractor)"
   description: Design and development of the backend for the National Geographic Magazine.
   tech: Python, Django, JavaScript, ElasticSearch, PostgreSQL
 - date: Jul 2010 - May 2013 · 2 yrs 11 mos
@@ -66,11 +66,11 @@
         - Professional social network.
   tech: Python, Django, MySQL, PostgreSQL, Solr, Haystack, Celery, RabbitMQ, Apache, nginx, JQuery
 - date: Jan 2008 - Aug 2008 · 8 mos
-  org: Globant
+  org: "[Globant](https://www.globant.com/)"
   title: Java Developer
   description: Development of Enterprise applications.
   tech: Java, Hibernate, Spring, Spring MVC, Struts, MySQL
 - date: Feb 2007 - Dec 2007 · 11 mos
   title: QA Analyst
-  org: Globant
+  org: "[Globant](https://www.globant.com/)"
   description: Testing of web, desktop and mobile applications. Test cases design. Load testing with JMeter.
