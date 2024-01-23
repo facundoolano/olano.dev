@@ -1,0 +1,18 @@
+---
+layout: default
+title: feeds
+---
+
+<div class="blog-index">
+    <p>All posts:</p>
+    <article>
+        <a href="/feed/index.xml">/feed/index.xml</a>
+    </article>
+
+    <p>By tag:</p>
+    {% for tag in site.tags %}
+    <article>
+        <a href="/feed/{{tag[0]}}.xml">/feed/{{tag[0]}}.xml</a>
+    </article>
+    {% endfor %}
+</div>

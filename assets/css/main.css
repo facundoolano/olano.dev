@@ -1,44 +1,88 @@
-html { color-scheme: light dark; overflow-y: scroll;}
-body { max-width: 45em; margin: 0 auto; padding: 0 1rem;
-       width: auto;
-       font-family: Tahoma, Verdana, Arial, sans-serif;
-       line-height: 1.5;
-     }
-nav {margin: 1rem 0 2rem;    line-height: 1.8;}
-nav a, .site-index a { color: unset}
-nav * {margin-right: .5em; margin-bottom:0}
+html {
+    color-scheme: light dark;
+    overflow-y: scroll;
+}
+body {
+    max-width: 45em;
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: auto;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    line-height: 1.5;
+}
 
-a {color: dodgerblue;text-decoration: none}
-a:hover {text-decoration: underline}
+nav {
+    margin: 1rem 0 2rem;
+    line-height: 1.8;
+    border-bottom: 1px solid;
+}
+nav a:not(:last-child) {
+    margin-right: .75em
+}
+nav a:hover {
+    text-decoration: none;
+}
 
-.date, .tags, .tags a { color: silver!important}
+li {
+    line-height: 1.6;
+}
+
+li:not(:last-child) {
+    padding-bottom: .75rem;
+}
+
+a, a:visited {
+    color: LinkText;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline
+}
+
+.date, .tags, .tags a {
+    color: silver
+}
+.date {
+    padding-right: .5rem
+}
+.tags, .project-details {
+    display: inline-block;
+}
+
+article.post, article.project {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    article.post .tags {
+        display:none;
+    }
+}
 
 .org-center, .text-center {
     text-align: center;
 }
 
-
-ul.site-index {
-    padding-left:0;
+.projects-index p {
+    display: inline;
+    line-height: 1.6;
 }
-.site-index li {
-    list-style: none;
-    line-height: 1.8;
-}
-
-.projects-index ul { padding-bottom: 1rem}
-.projects-index li { padding-bottom: .5rem; list-style-type: none}
-.projects-index li p {margin: 0.5rem 0}
 
 hr {
     border: 0;
-    border-top:1px solid whitesmoke;
+    border-top:1px solid;
 }
 
-.blog-index article { padding-bottom: .5rem;}
+.blog-index article {
+    padding-bottom: .5rem;
+}
+.projects-index article {
+    padding-bottom: .75rem;
+}
 
-.blog-index a.title {
+a.title {
     color: unset!important;
+    padding-right: .25rem;
 }
 
 .layout-post {
@@ -54,8 +98,17 @@ hr {
     letter-spacing: .03em;
 }
 
-.layout-post h1 {
+.layout-post .title {
     hyphens:none;
+}
+
+.layout-post header {
+    margin: 4rem 0 5rem;
+    text-align: left;
+}
+
+.layout-post header.with-cover {
+    margin-top: 2rem;
 }
 
 .layout-post p {
@@ -67,12 +120,15 @@ hr {
     text-indent: 3rem;
 }
 
+.layout-post p + h2 {
+    padding-top: 1.5rem;
+}
+
 .layout-post .footnotes p {
     text-indent: 0rem;
 }
 
-.layout-post h1, .layout-post .subtitle {
-    text-align: center;
+.layout-post .title, .layout-post .subtitle {
 }
 
 .layout-post .org-center, .layout-post .text-center {
@@ -105,6 +161,7 @@ img.cover-img {
     max-width: 100%;
     max-height: 200px;
     object-fit: cover;
+    margin-bottom: -2rem;
 }
 
 /* override in mobile devices for more compact text */
@@ -134,6 +191,7 @@ img.cover-img {
 pre.highlight {
     font-size: 1rem;
     overflow-x: auto;
+    line-height: 1.5;
 }
 
 blockquote {

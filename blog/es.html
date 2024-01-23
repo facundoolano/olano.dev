@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Apuntes Inchequeables
-sections: [["/blog/tags", "/blog/tags"], ["/feed.xml", "/blog/feed"]]
+submenu: [["/feeds", "/blog/feeds"], ["/tags", "/blog/tags"]]
+title: blog
 ---
 
-<p>
-    <a href="/blog">all</a> | es | <a href="/blog/en">en</a>
-</p>
+<p>lang: <a href="/blog">all</a> | es | <a href="/blog/en">en</a></p>
 <br/>
+
 
 <div class="blog-index">
     {% assign posts = site.posts|where_exp:"post", "post.lang == nil or post.lang == 'es'" %}

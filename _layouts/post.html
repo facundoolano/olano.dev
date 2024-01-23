@@ -1,27 +1,24 @@
 ---
 layout: base
-sections: [["/blog", "/blog"]]
 prefix: "/org"
 extension: .org
 ---
 
-<nav class="text-center">
+<nav>
     <a href="/">olano.dev</a>
     <a href="/blog">/blog</a>
+    <a href="/projects">/projects</a>
 </nav>
 
 <div class="content layout-{{ page.layout }}" lang="{{ page.lang | default:'es'}}">
-    <h1>{{ page.title }}</h1>
-    {% if page.subtitle %}<h3 class="subtitle">{{ page.subtitle }}</h3>{% endif  %}
-
-    {% if page.cover-img %}
-    <div class="text-center">
+    <header {% if page.cover-img %}class="with-cover"{% endif %}>
+        <h1 class="title">{{ page.title }}</h1>
+        {% if page.subtitle %}<h3 class="subtitle">{{ page.subtitle }}</h3>{% endif  %}
+        {% if page.cover-img %}
         <img class="cover-img" src="{{ page.cover-img | absolute_url }}">
-    </div>
-    {% else %}
-    <br/>
-    <br/>
-    {% endif %}
+        {% endif %}
+
+    </header>
 
     {% if page.external%}
     Post available <a href="{{page.external}}">at an external site</a>.

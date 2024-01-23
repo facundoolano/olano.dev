@@ -1,20 +1,17 @@
 ---
 layout: default
-title: Apuntes Inchequeables
-sections: [["/blog", "/blog"]]
+title: tags
 ---
 
 <div class="blog-index">
-    <p><strong><a href="#favoritos" class="title" id="favoritos">#favoritos</a></strong></p>
+    <h3><a href="#favoritos" class="title" id="favoritos">#favoritos</a></h3>
     {% assign skip_years = true %}
     {% assign posts = site.posts | where:"favorite",true %}
     {% include posts.html posts=posts %}
     <br/>
 
     {% for tag in site.tags %}
-    <p><strong><a href="#{{tag[0]}}" class="title" id="{{tag[0]}}">#{{tag[0]}}</a></strong>
-        <a href="/feed/{{tag[0]}}.xml" class="title">/feed</a>
-    </p>
+    <h3><a href="#{{tag[0]}}" class="title" id="{{tag[0]}}">#{{tag[0]}}</a></h3>
     {% assign posts = tag[1] %}
     {% include posts.html posts=posts %}
     <br/>

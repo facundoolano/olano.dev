@@ -5,7 +5,11 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
-        <title>{{page.title | default:'olano.dev'}}</title>
+        {% if page.title %}
+        <title>{{page.title }} | olano.dev</title>
+        {% else %}
+        <title>olano.dev</title>
+        {% endif %}
         <link rel="stylesheet" href="/assets/css/main.css">
         {% assign page_css = page.css | split: "," %}
         {% assign layout_css = layout.css | split: "," %}

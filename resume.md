@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Facundo Olano
-sections: [["mailto:facundo.olano@gmail.com", "@gmail"], ["https://github.com/facundoolano", "@github"], ["https://www.linkedin.com/in/facundoolano/", "@linkedin"], ["/work/resume.pdf", "resume.pdf"]]
 ---
+
+## Facundo Olano
 
 I'm a software engineer from Buenos Aires, Argentina, with over 15 years of experience in the industry.
 During the first part of my career, I worked as a Python and Django web developer while completing my Software Engineering degree.
@@ -12,15 +12,17 @@ Because I think that software development is primarily a human activity, I place
 
 More than technology or scale, my interest is in using simple tools to solve problems for users, working at organizations with healthy environments and sustainable business models.
 
-I currently write on [my blog](/blog) and maintain many [open-source projects](/projects).
+### Contact
 
-<br/>
+- [facundo.olano@gmail.com](mailto:facundo.olano@gmail.com)
+- [GitHub](https://github.com/facundoolano)
+- [LinkedIn](https://www.linkedin.com/in/facundoolano/)
+
 ### Education
 
 **Software Engineering**, Universidad de Buenos Aires
   <br/> <small><span class="date">2006 - 2013</span></small>
 
-<br/>
 ### Experience
 
 {% for job in site.data.work %}
@@ -37,6 +39,3 @@ I currently write on [my blog](/blog) and maintain many [open-source projects](/
 {% endunless %}
 
 {% endfor %}
-
-
-<br/>

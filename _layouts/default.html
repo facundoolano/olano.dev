@@ -1,21 +1,27 @@
 ---
 layout: base
 ---
-<nav class="">
+<nav>
     <a href="/">olano.dev</a>
-    {% assign sections = layout.sections|default:page.sections %}
+    <a href="/blog">/blog</a>
+    <a href="/projects">/projects</a>
+
+    <div style="float: right;">
+    {% assign sections = page.submenu %}
     {% for section in sections %}
-    <a href="{{section[0]}}">{{section[1]}}</a>
+    <a href="{{section[1]}}">{{section[0]}}</a>
     {% endfor %}
+    </div>
 </nav>
 
 <div class="content layout-{{ page.layout }}">
     {% if page.title %}
-    <h2>{{page.title}}</h2>
+    <h2>/{{page.title}}</h2>
 
     {% endif %}
 
     {{ content }}
 
-    <p>{% include source_path.html %}</p>
+    <br/>
+    <p class="text-center">{% include source_path.html %}</p>
 </div>

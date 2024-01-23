@@ -12,7 +12,7 @@ excerpt: Este año me propuse reconquistar el ocio; me compré una computadora; 
 #+END_EXPORT
 
 #+begin_export html
-<div class="org-center"><h2>1</h2></div>
+<h2 class="text-center">1</h2>
 #+end_export
 
 En mi memoria, las fiestas, sobre todo la semana entre Navidad y Año nuevo, están asociadas a los videojuegos. No solo porque declaraban el fin del año escolar y el comienzo de las vacaciones ---ese vasto territorio del ocio--- sino porque era común que me regalaran algún juego en Navidad, y que yo le dedicara esos días en que había poco más que hacer que comer vitel toné y flotar en la pelopincho. Pienso en un 25 al mediodía, en 2001 o 2002, jugando al /Diablo II/.
@@ -40,7 +40,7 @@ Este blog denuncia el tiempo que paso [[file:../2020-09-29-memoria-videojueguist
 Este año me propuse reconquistar el ocio; me compré una computadora; volví a jugar.
 
 #+begin_export html
-<div class="org-center"><h2>2</h2></div>
+<h2 class="text-center">2</h2>
 #+end_export
 
 (1) Empecé por el género que supo ser mi pan de cada día. Salvo que decir que /Perfect Tides/ es una aventura gráfica es bajarle el precio: /Perfect Tides/ es un relato de época, sobre una joven en el año 2000, expresado en el estilo noventoso de Sierra On-Line. El formato sirve a la historia, le sienta bien. La autora no necesitó inyectar comedia o fantasía o misterio a su argumento, le bastó con construir personajes creíbles y contarlos sinceramente: le bastó con el drama de la adolescencia. Los puzzles son pocos y los menos obvios son opcionales, pero hay ese sentido de exploración del entorno, hay ese feliz paso del tiempo, que son lo mejor del género.
@@ -115,7 +115,7 @@ Fue mi primer intento de conocer lo que me había perdido durante estos años, d
 (10) /SIGNALIS/ reproduce con mucha precisión la experiencia /survival horror/ de los primeros /Resident Evil/. La historia es rebuscada y hasta confusa, pero importa poco: lo que importa es sobrevivir, administrar recursos y resolver puzzles. Todo, hasta los menús, cubierto por gruesas capas de /Evangelion/ y /Ghost in the Shell/. /SIGNALIS/ sigue cuando parece que va a terminar; aunque no es un juego largo ni se me hizo nunca tedioso, llegó a producirme cierto cansancio, cierta /necesidad física/ de alcanzar el final. Y ---lo que habla bien del diseño---, cuando ese peso se hacía insoportable, se terminó.
 
 #+begin_export html
-<div class="org-center"><h2>3</h2></div>
+<h2 class="text-center">3</h2>
 #+end_export
 
 Repasando la lista, admito que todos esos juegos de alguna forma actualizan otros que me habían gustado antes, cuando era chico. Pero me resisto a ver en eso una nostalgia. No hubo una búsqueda intencional de reproducir el pasado; en la mayoría de los casos, las asociaciones vinieron después de jugar. Más bien, confirmo que ese pasado me preparó para buscar estos pequeños jardines pixelados, para encontrar satisfacción en la explosión combinatoria, en experiencias que persisten después de la pantalla.
