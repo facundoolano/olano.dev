@@ -1,33 +1,47 @@
-html { color-scheme: light dark; overflow-y: scroll;}
-body { max-width: 45em; margin: 0 auto; padding: 0 1rem;
-       width: auto;
-       font-family: Tahoma, Verdana, Arial, sans-serif;
-       line-height: 1.5;
-     }
+html {
+    color-scheme: light dark;
+    overflow-y: scroll;
+}
+body {
+    max-width: 45em;
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: auto;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    line-height: 1.5;
+}
 
 nav {
     margin: 1rem 0 2rem;
     line-height: 1.8;
     border-bottom: 1px solid;
 }
-nav a:not(:last-child){
+nav a:not(:last-child) {
     margin-right: .75em
 }
-nav a:hover { text-decoration: none;}
+nav a:hover {
+    text-decoration: none;
+}
 
 li {
     line-height: 1.6;
-    padding-bottom: .75rem;
 }
 
+li:not(:last-child) {
+    padding-bottom: .75rem;
+}
 
 a, a:visited {
     color: LinkText;
     text-decoration: none;
 }
-a:hover {text-decoration: underline}
+a:hover {
+    text-decoration: underline
+}
 
-.date, .tags, .tags a { color: silver!important}
+.date, .tags, .tags a {
+    color: silver
+}
 .date {
     padding-right: .5rem
 }
@@ -49,14 +63,6 @@ article.post, article.project {
     text-align: center;
 }
 
-
-ul.site-index {
-    padding-left:0;
-}
-.site-index li {
-    list-style: none;
-}
-
 .projects-index p {
     display: inline;
     line-height: 1.6;
@@ -67,9 +73,12 @@ hr {
     border-top:1px solid;
 }
 
-.blog-index article { padding-bottom: .5rem;}
-.projects-index article { padding-bottom: .75rem;}
-
+.blog-index article {
+    padding-bottom: .5rem;
+}
+.projects-index article {
+    padding-bottom: .75rem;
+}
 
 a.title {
     color: unset!important;

@@ -12,7 +12,6 @@ Because I think that software development is primarily a human activity, I place
 
 More than technology or scale, my interest is in using simple tools to solve problems for users, working at organizations with healthy environments and sustainable business models.
 
-<br/>
 ### Contact
 
 - [facundo.olano@gmail.com](mailto:facundo.olano@gmail.com)
