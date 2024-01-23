@@ -33,10 +33,9 @@ More than technology or scale, my interest is in using simple tools to solve pro
 
   {{job.description }}
 
-  <small><span class="date"> {% for tech in techs %}#{{tech | replace: " ", ""}} {% endfor %}</span></small>
+  <small><span class="tags"> {% for tech in techs %}#{{tech | replace: " ", ""}} {% endfor %}</span></small>
 
 {% unless forloop.last %}
 ---
 {% endunless %}
-
 {% endfor %}
