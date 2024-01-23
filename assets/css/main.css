@@ -15,9 +15,20 @@ nav {
     margin: 1rem 0 2rem;
     line-height: 1.8;
     border-bottom: 1px solid;
+    display: flex;
 }
+.nav-right {
+    margin-left: auto;
+}
+
 nav a:not(:last-child) {
-    margin-right: .75em
+    margin-right: .75rem
+}
+
+@media screen and (max-width: 768px) {
+    .nav-right a:not(:last-child) {
+        margin-right: .5rem
+    }
 }
 nav a:hover {
     text-decoration: none;
@@ -40,10 +51,11 @@ a:hover {
 }
 
 .date, .tags, .tags a {
-    color: silver
+    color: silver;
 }
 .date {
-    padding-right: .5rem
+    padding-right: .5rem;
+    white-space: nowrap;
 }
 .tags, .project-details {
     display: inline-block;
