@@ -1,5 +1,6 @@
 ---
 layout: default
+submenu: [["download", "/resume.pdf"]]
 ---
 
 ## Facundo Olano
