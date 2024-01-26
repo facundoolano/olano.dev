@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
         {% if page.title %}
-        <title>{{page.title }} | olano.dev</title>
+        <title>{{page.head_title|default: page.title }} | olano.dev</title>
         {% else %}
         <title>olano.dev</title>
         {% endif %}

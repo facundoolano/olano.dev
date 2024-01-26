@@ -1,9 +1,9 @@
 ---
 layout: default
 submenu: [["download", "/resume.pdf"]]
+title: Facundo Olano
+head_title: Resume
 ---
-
-## Facundo Olano
 
 I'm a software engineer from Buenos Aires, Argentina, with over 15 years of experience in the industry.
 During the first part of my career, I worked as a Python and Django web developer while completing my Software Engineering degree.
