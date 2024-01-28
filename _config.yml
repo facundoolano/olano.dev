@@ -20,6 +20,7 @@ exclude:
 
 plugins:
   - jekyll-feed
+  - jekyll-minifier
 
 
 feed:
@@ -27,6 +28,9 @@ feed:
   excerpt_only: true
   tags:
     path: "/feed/"
+
+jekyll-minifier:
+  exclude: "*.xml"
 
 markdown: kramdown
 

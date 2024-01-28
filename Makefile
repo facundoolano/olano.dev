@@ -2,7 +2,7 @@ serve:
 	bundle exec jekyll serve -l --drafts --future
 
 build:
-	bundle exec jekyll build
+	JEKYLL_ENV=production bundle exec jekyll build --incremental
 
 push: build
 	rsync -vPrz _site/ root@olano.dev:/var/www/olano.dev
