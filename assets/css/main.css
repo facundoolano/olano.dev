@@ -210,3 +210,24 @@ blockquote {
     border-left: 2px solid whitesmoke;
     padding-left: 1rem;
 }
+
+details summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+details summary h3::after {
+    content: "[+]";
+    font-size: small;
+    font-weight: normal;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+details[open] summary h3::after {
+    content: "[-]"
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
