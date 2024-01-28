@@ -6,6 +6,7 @@ layout: post
 title: "Colonia"
 date: 2024-01-28
 tags: [ficción]
+image: assets/img/colonia.jpg
 ---
 #+END_EXPORT
 
