@@ -2,7 +2,7 @@
 layout: post
 title: "Blogging con Emacs y org-mode"
 date: 2020-09-04
-tags: [blog, emacs]
+tags: [blog]
 css: "highlight"
 ---
 
