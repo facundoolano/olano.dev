@@ -1,4 +1,3 @@
-
 server {
     server_name blog.olano.dev;
     return 301 https://olano.dev/blog$request_uri;
@@ -11,19 +10,26 @@ server {
 
 }
 
+# helper to get a var with the uri with stripped trailing slash
+map $uri $uri_no_trailing_slash {
+    "~^(?P<path>.+?)/$" $path;
+    default $uri;
+}
 
 server {
-	
+
         charset utf-8;
 
 	root /var/www/olano.dev;
 
 	server_name olano.dev www.olano.dev;
-	
+
 	location / {
-		# First attempt to serve request as file, then
-		# as directory, then fall back to displaying a 404.
-		try_files $uri $uri.html $uri/ =404;
+	    # First attempt to serve request as file, then as directory.
+            # also handle the case where there's a file instead of a dir, but
+            # the request comes with trailing slash --we still want to serve the file in that case.
+            # otherwise respond 404.
+	    try_files $uri $uri.html $uri/ $uri_no_trailing_slash $uri_no_trailing_slash.html =404;
 	}
 
     # redirect old blog rss url to new one
