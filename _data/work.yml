@@ -1,14 +1,14 @@
 - date: Jul 2022 - Jan 2023 · 7 mos
   title: Staff Software Engineer
   org: "[LambdaClass](https://lambdaclass.com/)"
-  tech: Distributed Systems, Rust, Elixir, Terraform, AWS, Nomad
+  tech: Distributed Systems, DevOps, Rust, Elixir, Terraform, AWS, Nomad
   description: >
     As a Staff Engineer I reported directly to the CEO. I provided technical leadership for about 20 people on a newly formed organization within the company.
     I started a Platform Team to support the rest of the organization and later led a distributed systems research and development effort.
 - date: Feb 2018 - Jul 2022 · 4 yrs 6 mos
   title: Software Engineer
   org: "[NextRoll](https://www.nextroll.com/) (LambdaClass contractor)"
-  tech: AdTech, Distributed Systems, Erlang, Python, Elixir, JavaScript, PostgreSQL, AWS, Terraform, Datadog
+  tech: AdTech, Distributed Systems, DevOps, Erlang, Python, Elixir, JavaScript, PostgreSQL, AWS, Terraform, Datadog
   description: >
      As part of the Real-time bidding team, I worked on design, development, maintenance and operation of the bidding service and its support systems.
      These were decade-old systems, deployed to 2000 servers across the world, with high traffic and latency demands.
@@ -21,7 +21,7 @@
        - Modernize and decomission several legacy systems.
        - Automate periodic tasks such as AMI and release package preparation.
        - Implement a system to pull canary deploy metrics from DataDog and process them with Pandas to diagnose canary deploy health.
-       - Profile and optimize the server performances with the specific goal of infrastrcuture cost savings.
+       - Profile and optimize the server performance with the specific goal of infrastrcuture cost savings.
        - Redesign, prototype and future-proof systems in preparation for privacy-related changes in the Ad Tech industry.
 - date: Jun 2017 - Feb 2018 · 9 mos
   title: Senior Software Engineer

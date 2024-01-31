@@ -5,7 +5,7 @@ build:
 	JEKYLL_ENV=production bundle exec jekyll build --incremental
 
 push: build
-	rsync -vPrz _site/ root@olano.dev:/var/www/olano.dev
+	rsync -vPrz --delete _site/ root@olano.dev:/var/www/olano.dev
 
 # builds and uploads the latest version of the resume by first pushing the site
 resume: push
