@@ -1,0 +1,93 @@
+---
+layout: post
+title: "Prohibido mirar atrás"
+date: 2024-02-01
+tags: [ficción]
+image: assets/img/colonia.jpg
+---
+
+Para nosotros, la casona era nada más un edificio en un rincón de la quinta, medio oculto por los árboles. Como pasábamos casi todo el tiempo en el quincho o en la pileta, o jugando a la pelota en el parque, no le prestábamos mucha atención a la casa pero seguro ahí vivían los dueños, o habían vivido.
+
+Y como esa parte prácticamente no existía para nosotros, se convertía en el lugar perfecto para esconderse. Te salías un poco del camino de tierra y cruzabas una hilera de eucaliptus y te chocabas con una pared, un costado de la casa donde no se veía ni el techo de tejas que caía a uno y otro lado. Y ahí tenías que elegir: izquierda o derecha; yo fui por la izquierda y Gabi había ido por la derecha y entonces recién cuando llegamos del otro lado de la casona, ahí donde terminaba la quinta, nos dimos cuenta de que nos habíamos quedado solos, juntos, escondidos.
+
+<br/>
+<div></div>
+
+El primer día habíamos salido de la parroquia, un punto de encuentro para que los padres pudieran verse las caras, para que revisaran a quién le estaban dejando los hijos. Después empezaron a buscarnos por casa cada mañana. La Nona pegaba un alarido cuando sentía el micro frenar en la puerta y yo corría por el pasillo, todavía con el gusto a café con leche entre los dientes, y mucho antes de salir a la vereda podía escuchar y oler el ruido del motor. Para mí era algo nuevo: al colegio íbamos caminando y, como toda nuestra vida estaba contenida en diez cuadras alrededor de casa, casi nunca me subía a un colectivo.
+
+Yo saludaba al chofer, que tenía mucho menos apuro que mi Nona, y me sentaba al lado del Mono Riscossa, en la tercera fila. Adentro del micro siempre hacía calor, más que afuera, y el piso estaba lleno de tierra. Al lado de la puerta había un balde de agua que parecía a punto de volcarse, pero no. Tardábamos un buen rato en ir a buscar a los demás; después de la primera semana ya te sabías el camino, cómo era cada casa y quiénes los que tardaban un montón en salir. La casa de Juanchi y Gabi era la última de todas pero a ellos no había que esperarlos, siempre estaban listos con la mamá en la vereda y nos veían venir de lejos.
+
+Después teníamos como media hora más por la ruta, al final casi parecía que el día se te iba entero arriba del micro pero a mí me gustaba; me gustaba sacar la cara por la ventanilla, hacer de cuenta que no escuchaba la voz de pito del Mono Riscossa, contar las cuadras sin edificios y las cuadras sin cemento, las cuadras de pasto y las cuadras de árboles.
+
+<br/>
+<div></div>
+
+Ni bien bajábamos en la quinta se armaba el primer partido y, como ya nos conocíamos del colegio, al Mono y a mí siempre nos ponían en el mismo equipo. El Mono era de los peores y como que me contagiaba lo muerto, por lo menos eso era lo que decían los otros. "Los hermanos Macana", nos decía el profe Luis. A mí me daba bronca y por eso a veces lo cagaba a pedos al Mono cuando erraba un pase o se morfaba un gol abajo del arco. El mejor de todos, lejos, era Juanchi, que era 10 de un club cerca de su casa. Me costó varias semanas —un montón de goles y varias cagadas a pedos para el Mono— que Juanchi se diera cuenta y me empezara a elegir para jugar con él.
+
+En algún momento del partido se empezaban a sentir los gritos de los profes para que fuéramos a comer y casi siempre tenían que venir a buscarnos y llevarnos de los pelos para el quincho. Había fideos o milanesas o salchichas con puré y nos dejaban repetir. Después nos tenían que atornillar a los bancos para que hagamos la digestión antes de ir a la pileta; nos hacían contar chistes o jugar al tuti-fruti o algún juego de mesa.
+
+<br/>
+<div></div>
+
+Esa tarde nos habían hecho salir de la pileta porque estaba por largarse a llover y era peligroso, por los rayos. Ahí se armó la escondida.
+
+—Qué copión, nene —Gabi estaba en el piso, a lo indio, con el toallón alrededor de la espalda. Miraba el cielo.
+
+—Qué nene.
+
+Me dejé caer al lado suyo y yo también me puse a mirar. Estaba nublado y se movían las ramas. Me pareció que tenía que decir algo.
+
+—Tres goles metí hoy.
+
+—¿Y? Seguro mi hermano mete más.
+
+—Bueno pero Juanchi juega más que todos. Pero segundo vengo yo. Ya me dijo que voy a ser su heredero cuando él no venga más.
+
+Me apreté las rodillas contra el pecho y traté de disimular el temblor. Me había olvidado de ponerme la remera.
+
+—¿Tenés frío? —preguntó.
+
+—Más o menos.
+
+—Tomá —Abrió un brazo para compartirme el toallón.
+
+—No, no, dejá.
+
+—Dale, nene.
+
+—Bueno.
+
+Di dos saltitos con el culo, me puse lo más cerca que pude sin llegar a tocarnos, y me tapé con lo que quedaba de toalla.
+
+—Tampoco tirés.
+
+—Perdoná.
+
+—Vení.
+
+Me pasó el toallón por atrás del cuello y juntó las dos puntas para hacer un nudo. Sentí el brazo de Gabi helado, goteando.
+
+<br/>
+<div></div>
+
+El profe Luis había dicho una vez que la pileta era un tanque australiano y durante todo el verano yo pensé que lo habían traído de verdad desde Australia, que a lo mejor a ese caño enorme de metal lo habían armado con partes de un tanque de guerra.
+
+Si el día era lluvioso —y parecía que ese verano, en ese lugar, llovía casi todas las semanas—, entonces no nos dejaban meternos, los profes tenían que inventarse algo para estirar la sobremesa hasta la hora de volver a casa. Uno de esos días fue que nos separaron en varones y mujeres. Las mujeres se quedaron en el quincho y a los varones nos tocó encerrarnos en el micro, con las luces apagadas, los vidrios empañados y la lluvia salpicando. Empezamos con una ronda de chistes, seguimos con una historia de terror y al final el profe Luis contó un cuento zarpado. Era sobre una mujer que viajaba por la selva, de tribu en tribu, buscando al indio de la verga más larga. En cada aldea la recibía un cacique rodeado de sus indias en bolas. Yo me imaginaba al indio en un trono de piedra, medio sumergido en el río, con dos indias en cada brazo. Siempre pasaba lo mismo: la mujer lo medía con las manos, cada verga de cacique más larga que la anterior, pero el tamaño nunca le parecía suficiente, se iba a seguir buscando a la próxima tribu. El final no lo escuché o no lo entendí porque me quedé pensando en la primera aldea, en el primer río con las indias en bolas; yo hubiera querido que el cuento se quedara ahí. Después el profe le preguntó a cada uno si se hacía la paja y, a los que le decían que sí, si ya les saltaba. Juanchi dijo que sí y empezó a cancherear como si hubiera metido un gol, y el Mono Riscossa también, aunque en todo el tiempo que se había pasado hablando con su voz de pito aquel verano, nunca había dicho nada de hacerse la paja.
+
+<br/>
+<div></div>
+
+Nos quedamos contra la pared de la casona, envueltos en el toallón, mirando la ligustrina que daba a la calle. Se me fue el frío pero seguía teniendo la piel de gallina. Gabi tenía los pies arriba de las ojotas, con gotas entre los dedos y un montón de pelitos rubios que le subían por la pierna. Tenía la piel marrón de tanto sol y mirando de cerca parecía que le brillaba. Cada tanto a alguno le daba un escalofrío y se lo contagiaba al otro y por un rato los dos nos quedábamos temblando como electrizados.
+
+Después levantó viento y empezó a lloviznar y ahí sí que tuvimos frío. Escuchamos los gritos de los profes para que volviéramos al quincho. Nos levantamos, todavía atados con el toallón y, antes de que pudiera separarme, Gabi nos puso a correr.
+
+El temblor me quedó toda la tarde, aunque ya me había secado y abrigado y en el micro siempre hacía calor. El Mono Riscossa no paró de hablar en el asiento de al lado, el pitido tan agudo y yo temblando tanto que fue imposible pensar en otra cosa. Decía que se sabía el mejor lugar para esconderse y que, si no se largaba y nos hacían volver, no lo encontrábamos más. Yo iba con la cara pegada a la ventanilla, contando las cuadras de árboles y las cuadras de pasto, temblando y pensando que por nada del mundo podía darme vuelta, que en lo que quedaba de viaje estaba prohibido mirar atrás.
+
+<br/>
+<div></div>
+
+Al otro día estaba soleado. Subí corriendo al micro y me senté con el Mono que por primera vez parecía que no tenía nada para decir. Fui contando una por una las casas, que me sabía de memoria. Los remolones tardaron más que nunca. Cuando quedaba una sola casa me confundieron unas esquinas extrañas y unas cuadras de pasto que no conocía; de golpe estábamos en la ruta. Le dije al Mono Riscossa que me dejara pasar. Fui hasta la parte de adelante, donde iban sentados los profes —pero en realidad quería que me escuchara el chofer—, y les dije que nos habíamos pasado, que todavía faltaba la casa de Gabi. La casa de Juanchi y Gabi. Al lado de la puerta estaba el balde de agua moviéndose como el micro, salpicando, siempre a punto de volcar. El profe Luis me pareció que se reía. Dijo que no nos habíamos pasado, que esa mañana había llamado la mamá de Gabi y había avisado que no iban a venir.
+
+<br/>
+<div align="right">(2019)</div>
+<br/>
