@@ -25,11 +25,6 @@ nav a:not(:last-child) {
     margin-right: .75rem
 }
 
-@media screen and (max-width: 768px) {
-    .nav-right a:not(:last-child) {
-        margin-right: .5rem
-    }
-}
 nav a:hover {
     text-decoration: none;
 }
@@ -63,12 +58,6 @@ a:hover {
 
 article.post, article.project {
     display: flex;
-}
-
-@media screen and (max-width: 768px) {
-    article.post .tags {
-        display:none;
-    }
 }
 
 .org-center, .text-center {
@@ -230,4 +219,10 @@ details[open] summary h3::after {
 
 details > summary::-webkit-details-marker {
     display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .hidden-mobile {
+      display: none
+  }
 }
