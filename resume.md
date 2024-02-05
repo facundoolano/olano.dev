@@ -27,13 +27,21 @@ More than technology or scale, my interest is in using simple tools to solve pro
 ### Experience
 
 {% for job in site.data.work %}
-{% assign techs = job.tech | split:"," %}
-<b>{{job.title}}</b>, {{job.org}}
-  <br/> <small><span class="date">{{job.date}}</span></small>
+{% if job.title %}<b>{{job.title}}</b>,{% endif %} {{job.org}}
+  {% unless job.positions %}<br/>{% endunless %}<small><span class="date">{{job.date}}</span></small>
 
+  {% for position in job.positions %}
+  - {%if position.title %}<b>{{position.title}}</b>{% endif %}{%if position.org%}, {{position.org}} {% endif %}
+    <br/><small><span class="date">{{position.date}}</span></small>
+    <br/>{{ position.description }}<br/>{% assign techs = position.tech | split:"," %}
+
+    {% if techs%}<small><span class="tags"> {% for tech in techs %}#{{tech | replace: " ", ""}} {% endfor %}</span></small>{%endif%}
+    {% else %}
+  {% endfor %}
   {{job.description }}
 
-  <small><span class="tags"> {% for tech in techs %}#{{tech | replace: " ", ""}} {% endfor %}</span></small>
+{% assign techs = job.tech | split:"," %}
+{% if techs.size > 0 %}<small><span class="tags"> {% for tech in techs %}#{{tech | replace: " ", ""}} {% endfor %}</span></small>{%endif%}
 
 {% unless forloop.last %}
 ---

@@ -1,33 +1,34 @@
-- date: Jul 2022 - Jan 2023 · 7 mos
-  title: Staff Software Engineer
+- date: Jun 2017 - Dec 2022 · 5 yrs 7 months
   org: "[LambdaClass](https://lambdaclass.com/)"
-  tech: Distributed Systems, DevOps, Rust, Elixir, Terraform, AWS, Nomad
-  description: >
-    As a Staff Engineer I reported directly to the CEO. I provided technical leadership for about 20 people on a newly formed organization within the company.
-    I started a Platform Team to support the rest of the organization and later led a distributed systems research and development effort.
-- date: Feb 2018 - Jul 2022 · 4 yrs 6 mos
-  title: Software Engineer
-  org: "[NextRoll](https://www.nextroll.com/) (LambdaClass contractor)"
-  tech: AdTech, Distributed Systems, DevOps, Erlang, Python, Elixir, JavaScript, PostgreSQL, AWS, Terraform, Datadog
-  description: >
-     As part of the Real-time bidding team, I worked on design, development, maintenance and operation of the bidding service and its support systems.
-     These were decade-old systems, deployed to 2000 servers across the world, with high traffic and latency demands.
-     Operations work included infrastructure set up, deploys, monitoring, and production incident handling.
+  positions:
+    - title: Staff Software Engineer
+      date: Jul 2022 - Dec 2022 · 6 mos
+      tech: Distributed Systems, DevOps, Rust, Elixir, Terraform, AWS, Nomad
+      description: >
+        As a Staff Engineer I reported directly to the CEO. I provided technical leadership for about 20 people on a newly formed organization within the company.
+        I started a Platform Team to support the rest of the organization and later led a distributed systems research and development effort.
+    - title: Software Engineer
+      org: "[NextRoll](https://www.nextroll.com/)"
+      date: Feb 2018 - Jul 2022 · 4 yrs 6 mos
+      tech: AdTech, Distributed Systems, DevOps, Erlang, Python, Elixir, JavaScript, PostgreSQL, AWS, Terraform, Datadog
+      description: >
+        As part of the Real-time bidding team, I worked on design, development, maintenance and operation of the bidding service and its support systems.
+        These were decade-old systems, deployed to 2000 servers across the world, with high traffic and latency demands.
+        Operations work included infrastructure set up, deploys, monitoring, and production incident handling.
 
-       Some of the work efforts I led at NextRoll:
+        Some of the work efforts I led at NextRoll:
 
-       - Streamline and automate new exchange integrations, a process that went from a couple of months to a couple of weeks.
-       - Automate the production deploy processes, reducing its time from 6 hours to 45 minutes.
-       - Modernize and decomission several legacy systems.
-       - Automate periodic tasks such as AMI and release package preparation.
-       - Implement a system to pull canary deploy metrics from DataDog and process them with Pandas to diagnose canary deploy health.
-       - Profile and optimize the server performance with the specific goal of infrastrcuture cost savings.
-       - Redesign, prototype and future-proof systems in preparation for privacy-related changes in the Ad Tech industry.
-- date: Jun 2017 - Feb 2018 · 9 mos
-  title: Senior Software Engineer
-  org: "[LambdaClass](https://lambdaclass.com/)"
-  tech: Erlang, ClojureScript, WebRTC, Cassandra, PostgreSQL
-  description: As one of the first engineers to join the company, I divided my time between open-source projects and contractor work for one of the clients.
+            - Streamline and automate new exchange integrations, a process that went from a couple of months to a couple of weeks.
+            - Automate the production deploy processes, reducing its time from 6 hours to 45 minutes.
+            - Modernize and decomission several legacy systems.
+            - Automate periodic tasks such as AMI and release package preparation.
+            - Implement a system to pull canary deploy metrics from DataDog and process them with Pandas to diagnose canary deploy health.
+            - Profile and optimize the server performance with the specific goal of infrastrcuture cost savings.
+            - Redesign, prototype and future-proof systems in preparation for privacy-related changes in the Ad Tech industry.
+    - title: Senior Software Engineer
+      date: Jun 2017 - Feb 2018 · 9 mos
+      tech: Erlang, ClojureScript, WebRTC, Cassandra, PostgreSQL
+      description: As one of the first engineers to join the company, I divided my time between open-source projects and contractor work for one of the clients.
 - date: Mar 2016 - Jun 2017 · 1 yr 4 mos
   title: Senior Software Engineer
   org: "[Mad Mobile](https://madmobile.com/)"
@@ -43,16 +44,19 @@
   org: "[TappedOut.net](https://tappedout.net/)"
   tech: Python, Django, Node.js, Redis, PostgreSQL, Neo4j, socket.io, ElasticSearch, JQuery, Android
   description: Software development for a MTG online community. In addition to the base web application, I implemented a companion Android app and a web-based draft simulator.
-- date: Mar 2014 - Dec 2014 · 10 mos
-  title: Tech Lead
-  org: "[National Geographic](https://www.nationalgeographic.com/) (Globant contractor)"
-  description: Technical leadership of a team dedicated to develop cross-projects RESTful services. Implementation of an API store using WSO2.
-  tech: Python, Django, ElasticSearch, PostgreSQL
-- date: May 2013 - Mar 2014 · 11 mos
-  title: Senior Python Developer
-  org: "[National Geographic](https://www.nationalgeographic.com/) (Globant contractor)"
-  description: Design and development of the backend for the National Geographic Magazine.
-  tech: Python, Django, JavaScript, ElasticSearch, PostgreSQL
+- date: 1 yr 8 mos
+  org: "[Globant](https://www.globant.com/)"
+  positions:
+    - org: "[National Geographic](https://www.nationalgeographic.com/)"
+      date: Mar 2014 - Dec 2014 · 10 mos
+      title: Tech Lead
+      description: Technical leadership of a team dedicated to develop cross-projects RESTful services. Implementation of an API store using WSO2.
+      tech: Python, Django, ElasticSearch, PostgreSQL
+    - date: May 2013 - Mar 2014 · 11 mos
+      title: Senior Python Developer
+      org: "[National Geographic](https://www.nationalgeographic.com/)"
+      description: Design and development of the backend for the National Geographic Magazine.
+      tech: Python, Django, JavaScript, ElasticSearch, PostgreSQL
 - date: Jul 2010 - May 2013 · 2 yrs 11 mos
   title: Python/Django Developer
   org: Freelance
@@ -65,12 +69,13 @@
         - Digital Contracts management web application.
         - Professional social network.
   tech: Python, Django, MySQL, PostgreSQL, Solr, Haystack, Celery, RabbitMQ, Apache, nginx, JQuery
-- date: Jan 2008 - Aug 2008 · 8 mos
+- date: 1 yr 7 mos
   org: "[Globant](https://www.globant.com/)"
-  title: Java Developer
-  description: Development of Enterprise applications.
-  tech: Java, Hibernate, Spring, Spring MVC, Struts, MySQL
-- date: Feb 2007 - Dec 2007 · 11 mos
-  title: QA Analyst
-  org: "[Globant](https://www.globant.com/)"
-  description: Testing of web, desktop and mobile applications. Test cases design. Load testing with JMeter.
+  positions:
+    - title: Java Developer
+      date: Jan 2008 - Aug 2008 · 8 mos
+      description: Development of Enterprise applications.
+      tech: Java, Hibernate, Spring, Spring MVC, Struts, MySQL
+    - date: Feb 2007 - Dec 2007 · 11 mos
+      title: QA Analyst
+      description: Testing of web, desktop and mobile applications. Test cases design. Load testing with JMeter.

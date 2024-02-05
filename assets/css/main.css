@@ -226,3 +226,8 @@ details > summary::-webkit-details-marker {
       display: none
   }
 }
+
+/* FIXME make this only apply to resume */
+.layout-default li p {
+    margin:0 ;
+}
