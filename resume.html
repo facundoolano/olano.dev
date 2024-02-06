@@ -39,7 +39,7 @@ Because I think that software development is primarily a human activity, I place
   {% if job.title %}<b>{{job.title}}</b>{% endif %} @{{job.org}}
   <small><span class="date">{{job.date}}</span></small>
 
-  <ul>
+  <ul class="no-bullet">
   {% for position in job.positions %}
       <li>{%if position.title %}<b>{{position.title}}</b>{% endif %}{%if position.org%} @{{position.org}} {% endif %}
     <small><span class="date">{{position.date}}</span></small>

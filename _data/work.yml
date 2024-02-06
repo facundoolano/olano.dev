@@ -1,4 +1,4 @@
-- date: Jun 2017 - Dec 2022 · 5 yrs 7 months
+- date: 5 yrs 7 months
   org: '<a href="https://lambdaclass.com/">LambdaClass</a>'
   positions:
     - title: Staff Software Engineer
@@ -30,22 +30,25 @@
       date: Jun 2017 - Feb 2018
       tech: Erlang, ClojureScript, WebRTC, Cassandra, PostgreSQL
       description: As one of the first engineers to join the company, I divided my time between open-source projects and contractor work for one of the clients.
-- date: Mar 2016 - Jun 2017 · 1 yr 4 mos
-  title: Senior Software Engineer
+- date: 1 yr 4 mos
   org: '<a href="https://madmobile.com/">Mad Mobile</a>'
-  tech: Distributed Systems, Microservices, Node.js, Clojure, MongoDB, RabbitMQ, ElasticSearch, Redis, socket.io
-  description: >
-     As part of the Core Services team, I designed and developed a Backend as a Service platform to support the mobile applications developed by the company.
-       The platform, implemented by a set of microservices, provided a integration to external services as well as support functionality like authentication, authorization, analytics and caching.
+  positions:
+    - date: Mar 2016 - Jun 2017
+      title: Senior Software Engineer
+      tech: Distributed Systems, Microservices, Node.js, Clojure, MongoDB, RabbitMQ, ElasticSearch, Redis, socket.io
+      description: >
+        As part of the Core Services team, I designed and developed a Backend as a Service platform to support the mobile applications developed by the company.
+        The platform, implemented by a set of microservices, provided a integration to external services as well as support functionality like authentication, authorization, analytics and caching.
 
-       <br/><br/>I led the development of some of the most complex features of the platform such as a decentralised system for environment migrations and On-Premise to Cloud communications through a cluster of Web Sockets.
-
-- date: Mar 2015 - Dec 2015 · 10 mos
-  title: Software Engineer
+        <br/><br/>I led the development of some of the most complex features of the platform such as a decentralised system for environment migrations and On-Premise to Cloud communications through a cluster of Web Sockets.
+- date: 10 mos
   org: '<a href="https://tappedout.net/">TappedOut.net</a>'
-  tech: Python, Django, Node.js, Redis, PostgreSQL, Neo4j, socket.io, ElasticSearch, JQuery, Android
-  description: Software development for a MTG online community. In addition to the base web application, I implemented a companion Android app and a web-based draft simulator.
-- date: May 2013 - Dec 2014 · 1 yr 8 mos
+  positions:
+    - date: Mar 2015 - Dec 2015
+      title: Software Engineer
+      tech: Python, Django, Node.js, Redis, PostgreSQL, Neo4j, socket.io, ElasticSearch, JQuery, Android
+      description: Software development for a MTG online community. In addition to the base web application, I implemented a companion Android app and a web-based draft simulator.
+- date: 1 yr 8 mos
   org: '<a href="https://www.globant.com/">Globant</a>'
   positions:
     - org: '<a href="https://www.nationalgeographic.com/">National Geographic</a>'
@@ -58,19 +61,21 @@
       org: '<a href="https://www.nationalgeographic.com/">National Geographic</a>'
       description: Design and development of the backend for the National Geographic Magazine.
       tech: Python, Django, JavaScript, ElasticSearch, PostgreSQL
-- date: Jul 2010 - May 2013 · 2 yrs 11 mos
-  title: Python/Django Developer
+- date: 2 yrs 11 mos
   org: Freelance
-  description: >
-      Full stack development of web applications for both local and US-based customers:
-        <ul>
-        <li> FreeSwitch web controller and real-time call-center management. Deployed to SheevaPlug servers and integrated to USB LCD displays.</li>
-        <li> Reverse auctions Facebook app with real-time interface updates. Facebook credits and PayPal integration.</li>
-        <li> App Store catalog. Consumption of the Apple's Enterprise Partner Feed (Tables of 60+ millons of records). Caching, database and query optimizations.</li>
-        <li> Digital Contracts management web application.</li>
-        <li> Professional social network.</li></ul>
-  tech: Python, Django, MySQL, PostgreSQL, Solr, Haystack, Celery, RabbitMQ, Apache, nginx, JQuery
-- date: Feb 2007 - Aug 2008 · 1 yr 7 mos
+  positions:
+    - date: Jul 2010 - May 2013
+      title: Python/Django Developer
+      tech: Python, Django, MySQL, PostgreSQL, Solr, Haystack, Celery, RabbitMQ, Apache, nginx, JQuery
+      description: >
+        Full stack development of web applications for both local and US-based customers:
+          <ul>
+          <li> FreeSwitch web controller and real-time call-center management. Deployed to SheevaPlug servers and integrated to USB LCD displays.</li>
+          <li> Reverse auctions Facebook app with real-time interface updates. Facebook credits and PayPal integration.</li>
+          <li> App Store catalog. Consumption of the Apple's Enterprise Partner Feed (Tables of 60+ millons of records). Caching, database and query optimizations.</li>
+          <li> Digital Contracts management web application.</li>
+          <li> Professional social network.</li></ul>
+- date: 1 yr 7 mos
   org: '<a href="https://www.globant.com/">Globant</a>'
   positions:
     - title: Java Developer

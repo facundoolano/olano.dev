@@ -249,3 +249,7 @@ details > summary::-webkit-details-marker {
     display: block;
     padding-top: 0.5rem;
 }
+
+ul.no-bullet {
+    list-style: none!important;
+}
