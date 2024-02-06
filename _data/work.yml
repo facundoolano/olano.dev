@@ -2,21 +2,21 @@
   org: '<a href="https://lambdaclass.com/">LambdaClass</a>'
   positions:
     - title: Staff Software Engineer
-      date: Jul 2022 - Dec 2022 · 6 mos
+      date: Jul 2022 - Dec 2022
       tech: Distributed Systems, DevOps, Rust, Elixir, Terraform, AWS, Nomad
       description: >
         As a Staff Engineer I reported directly to the CEO. I provided technical leadership for about 20 people on a newly formed organization within the company.
         I started a Platform Team to support the rest of the organization and later led a distributed systems research and development effort.
     - title: Software Engineer
       org: '<a href="https://www.nextroll.com">NextRoll</a>'
-      date: Feb 2018 - Jul 2022 · 4 yrs 6 mos
+      date: Feb 2018 - Jul 2022
       tech: AdTech, Distributed Systems, DevOps, Erlang, Python, Elixir, JavaScript, PostgreSQL, AWS, Terraform, Datadog
       description: >
         As part of the Real-time bidding team, I worked on design, development, maintenance and operation of the bidding service and its support systems.
         These were decade-old systems, deployed to 2000 servers across the world, with high traffic and latency demands.
         Operations work included infrastructure set up, deploys, monitoring, and production incident handling.
 
-        Some of the work efforts I led at NextRoll:
+        <br/><br/>Some of the work efforts I led at NextRoll:
 
           <ul>
             <li> Streamline and automate new exchange integrations, a process that went from a couple of months to a couple of weeks.</li>
@@ -25,10 +25,9 @@
             <li> Automate periodic tasks such as AMI and release package preparation.</li>
             <li> Implement a system to pull canary deploy metrics from DataDog and process them with Pandas to diagnose canary deploy health.</li>
             <li> Profile and optimize the server performance with the specific goal of infrastrcuture cost savings.</li>
-            <li> Redesign, prototype and future-proof systems in preparation for privacy-related changes in the Ad Tech industry.</li>
-            </ul>
+            <li> Redesign, prototype and future-proof systems in preparation for privacy-related changes in the Ad Tech industry.</li></ul>
     - title: Senior Software Engineer
-      date: Jun 2017 - Feb 2018 · 9 mos
+      date: Jun 2017 - Feb 2018
       tech: Erlang, ClojureScript, WebRTC, Cassandra, PostgreSQL
       description: As one of the first engineers to join the company, I divided my time between open-source projects and contractor work for one of the clients.
 - date: Mar 2016 - Jun 2017 · 1 yr 4 mos
@@ -39,7 +38,7 @@
      As part of the Core Services team, I designed and developed a Backend as a Service platform to support the mobile applications developed by the company.
        The platform, implemented by a set of microservices, provided a integration to external services as well as support functionality like authentication, authorization, analytics and caching.
 
-       I led the development of some of the most complex features of the platform such as a decentralised system for environment migrations and On-Premise to Cloud communications through a cluster of Web Sockets.
+       <br/><br/>I led the development of some of the most complex features of the platform such as a decentralised system for environment migrations and On-Premise to Cloud communications through a cluster of Web Sockets.
 
 - date: Mar 2015 - Dec 2015 · 10 mos
   title: Software Engineer
@@ -50,11 +49,11 @@
   org: '<a href="https://www.globant.com/">Globant</a>'
   positions:
     - org: '<a href="https://www.nationalgeographic.com/">National Geographic</a>'
-      date: Mar 2014 - Dec 2014 · 10 mos
+      date: Mar 2014 - Dec 2014
       title: Tech Lead
       description: Technical leadership of a team dedicated to develop cross-projects RESTful services. Implementation of an API store using WSO2.
       tech: Python, Django, ElasticSearch, PostgreSQL
-    - date: May 2013 - Mar 2014 · 11 mos
+    - date: May 2013 - Mar 2014
       title: Senior Python Developer
       org: '<a href="https://www.nationalgeographic.com/">National Geographic</a>'
       description: Design and development of the backend for the National Geographic Magazine.
@@ -69,16 +68,15 @@
         <li> Reverse auctions Facebook app with real-time interface updates. Facebook credits and PayPal integration.</li>
         <li> App Store catalog. Consumption of the Apple's Enterprise Partner Feed (Tables of 60+ millons of records). Caching, database and query optimizations.</li>
         <li> Digital Contracts management web application.</li>
-        <li> Professional social network.</li>
-        </ul>
+        <li> Professional social network.</li></ul>
   tech: Python, Django, MySQL, PostgreSQL, Solr, Haystack, Celery, RabbitMQ, Apache, nginx, JQuery
 - date: Feb 2007 - Aug 2008 · 1 yr 7 mos
   org: '<a href="https://www.globant.com/">Globant</a>'
   positions:
     - title: Java Developer
-      date: Jan 2008 - Aug 2008 · 8 mos
+      date: Jan 2008 - Aug 2008
       description: Development of Enterprise applications.
       tech: Java, Hibernate, Spring, Spring MVC, Struts, MySQL
-    - date: Feb 2007 - Dec 2007 · 11 mos
+    - date: Feb 2007 - Dec 2007
       title: QA Analyst
       description: Testing of web, desktop and mobile applications. Test cases design. Load testing with JMeter.

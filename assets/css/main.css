@@ -231,3 +231,21 @@ details > summary::-webkit-details-marker {
 .layout-default li p {
     margin:0 ;
 }
+
+.resume a {
+    color: unset;
+}
+
+.resume hr {
+    margin: 1rem 0 1.5rem;
+}
+
+.resume h3 {
+    text-decoration: underline;
+    padding-top: 1rem;
+}
+
+.resume .tags {
+    display: block;
+    padding-top: 0.5rem;
+}
