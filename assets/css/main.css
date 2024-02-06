@@ -236,10 +236,6 @@ details > summary::-webkit-details-marker {
     color: unset;
 }
 
-.resume hr {
-    margin: 1rem 0 1.5rem;
-}
-
 .resume h3 {
     text-decoration: underline;
     padding-top: 1rem;
@@ -252,4 +248,14 @@ details > summary::-webkit-details-marker {
 
 ul.no-bullet {
     list-style: none!important;
+}
+
+.resume header .date {
+    float: right;
+}
+
+.resume header {
+    margin-top: 2rem;
+    border-bottom: 1px solid silver;
+    padding-bottom: 0.5rem;
 }
