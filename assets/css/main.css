@@ -253,3 +253,14 @@ details > summary::-webkit-details-marker {
 .resume ul {
     margin-bottom:0.5rem;
 }
+
+@media print {
+    .footer, nav {
+        display: none;
+    }
+
+    .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+}

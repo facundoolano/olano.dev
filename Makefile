@@ -9,5 +9,5 @@ push: build
 
 # builds and uploads the latest version of the resume by first pushing the site
 resume: push
-	wkhtmltopdf https://olano.dev/resume resume.pdf
+	wkhtmltopdf --print-media-type https://olano.dev/resume resume.pdf
 	make push
