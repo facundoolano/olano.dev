@@ -226,3 +226,39 @@ details > summary::-webkit-details-marker {
       display: none
   }
 }
+
+.resume h3 {
+    text-decoration: underline;
+    padding-top: 1rem;
+}
+
+.resume .tags {
+    display: block;
+    padding-top: 0.5rem;
+}
+
+.resume header .date {
+    float: right;
+}
+
+.resume header {
+    margin-top: 2rem;
+    border-bottom: 1px solid silver;
+    padding-bottom: 0.5rem;
+}
+
+.resume ul {
+    margin-bottom:0.5rem;
+}
+
+@media print {
+    /* tweak styles for pdf export of the resume */
+    .footer, nav {
+        display: none;
+    }
+
+    .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+}
