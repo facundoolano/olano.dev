@@ -227,11 +227,6 @@ details > summary::-webkit-details-marker {
   }
 }
 
-/* FIXME make this only apply to resume */
-.layout-default li p {
-    margin:0 ;
-}
-
 .resume a {
     color: unset;
 }
@@ -246,10 +241,6 @@ details > summary::-webkit-details-marker {
     padding-top: 0.5rem;
 }
 
-ul.no-bullet {
-    list-style: none!important;
-}
-
 .resume header .date {
     float: right;
 }
@@ -258,4 +249,8 @@ ul.no-bullet {
     margin-top: 2rem;
     border-bottom: 1px solid silver;
     padding-bottom: 0.5rem;
+}
+
+.resume ul {
+    margin-bottom:0.5rem;
 }

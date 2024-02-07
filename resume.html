@@ -37,17 +37,16 @@ Because I think that software development is primarily a human activity, I place
 {% for job in site.data.work %}
   <header>@{{job.org}} <small><span class="date">{{job.date}}</span></small></header>
 
-  <ul class="no-bullet">
   {% for position in job.positions %}
-      <li>{%if position.title %}<b>{{position.title}}</b>{% endif %}{%if position.org%} @{{position.org}} {% endif %}
-          <small><span class="date">{{position.date}}</span></small>
-          <br/>{{ position.description }}{% assign techs = position.tech | split:"," %}
+  <p>
+  {%if position.title %}<b>{{position.title}}</b>{% endif %}{%if position.org%} @{{position.org}} {% endif %}
+      <small><span class="date">{{position.date}}</span></small>
+      <br/>{{ position.description }}{% assign techs = position.tech | split:"," %}
 
-          {% if techs%}<small><span class="tags"> {% for tech in techs %}#{{tech | replace: " ", ""}} {% endfor %}</span></small>{%endif%}
-      </li>
-      {% else %}
-      {% endfor %}
-  </ul>
+      {% if techs%}<small><span class="tags"> {% for tech in techs %}#{{tech | replace: " ", ""}} {% endfor %}</span></small>{%endif%}
+  </p>
+  {% else %}
+  {% endfor %}
 
-{% endfor %}
+  {% endfor %}
   </div>
