@@ -19,7 +19,6 @@ head_title: Resume
     <p>I tend to assume a leadership role in the teams I integrate, leading by example and from experience rather than title.</p>
 
 <h3>Contact</h3>
-
 <ul>
     <li><a href="mailto:facundo.olano@gmail.com">facundo.olano@gmail.com</a></li>
     <li><a href="https://olano.dev">https://olano.dev</a></li>
@@ -56,16 +55,15 @@ head_title: Resume
 {% for job in site.data.work %}
   <header>@{{job.org}} <small><span class="date">{{job.date}}</span></small></header>
 
-  {% for position in job.positions %}
-  <p>
-  {%if position.title %}<b>{{position.title}}</b>{% endif %}{%if position.org%} @{{position.org}} {% endif %}
-      <small><span class="date">{{position.date}}</span></small>
-      <br/>{{ position.description }}{% assign techs = position.tech | split:"," %}
+    {% for position in job.positions %}
+    <p>
+        <b>{{position.title}}</b>{% if position.org %} @{{position.org}} {% endif %}
+        <small><span class="date">{{position.date}}</span></small>
+        <br/>{{ position.description }}{% assign techs = position.tech | split:"," %}
 
-      {% if techs%}<small><span class="tags"> {% for tech in techs %}#{{tech | replace: " ", ""}} {% endfor %}</span></small>{%endif%}
-  </p>
-  {% else %}
-  {% endfor %}
+        {% if techs %}<small><span class="tags"> {% for tech in techs %}#{{tech | replace: " ", ""}} {% endfor %}</span></small>{%endif%}
+    </p>
+    {% endfor %}
 
   {% endfor %}
   </div>
