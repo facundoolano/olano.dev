@@ -38,7 +38,7 @@
       tech: Distributed Systems, Microservices, Node.js, Clojure, MongoDB, RabbitMQ, ElasticSearch, Redis, socket.io
       description: >
         As part of the Core Services team, I designed and developed a Backend as a Service platform to support the mobile applications developed by the company.
-        The platform, implemented by a set of microservices, provided a integration to external services as well as support functionality like authentication, authorization, analytics and caching.
+        The platform, implemented by a set of microservices, provided integration with external services as well as support functionality like authentication, authorization, analytics and caching.
 
         <br/><br/>I led the development of some of the most complex features of the platform such as a decentralised system for environment migrations and On-Premise to Cloud communications through a cluster of Web Sockets.
 - date: 10 months
