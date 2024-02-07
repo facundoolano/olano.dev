@@ -51,14 +51,14 @@
 - date: 1 yr 8 mos
   org: '<a href="https://www.globant.com/">Globant</a>'
   positions:
-    - org: '<a href="https://www.nationalgeographic.com/">National Geographic</a>'
+    - org: '<a href="https://www.nationalgeographic.org/">National Geographic</a>'
       date: Mar 2014 - Dec 2014
       title: Tech Lead
       description: Technical leadership of a team dedicated to develop cross-projects RESTful services. Implementation of an API store using WSO2.
       tech: Python, Django, ElasticSearch, PostgreSQL
     - date: May 2013 - Mar 2014
       title: Senior Python Developer
-      org: '<a href="https://www.nationalgeographic.com/">National Geographic</a>'
+      org: '<a href="https://www.nationalgeographic.org/">National Geographic</a>'
       description: Design and development of the backend for the National Geographic Magazine.
       tech: Python, Django, JavaScript, ElasticSearch, PostgreSQL
 - date: 2 yrs 11 mos
