@@ -227,9 +227,6 @@ details > summary::-webkit-details-marker {
   }
 }
 
-.resume a {
-}
-
 .resume h3 {
     text-decoration: underline;
     padding-top: 1rem;
@@ -255,6 +252,7 @@ details > summary::-webkit-details-marker {
 }
 
 @media print {
+    /* tweak styles for pdf export of the resume */
     .footer, nav {
         display: none;
     }
