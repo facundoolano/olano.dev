@@ -1,3 +1,7 @@
+- date: 2024
+  name: jorge
+  url: https://jorge.olano.dev/
+  description: a personal (small + opinionated) site generator with org-mode (and markdown) support.
 - date: 2023
   name: feedi
   url: https://github.com/facundoolano/feedi
