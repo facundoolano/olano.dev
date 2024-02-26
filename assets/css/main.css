@@ -82,8 +82,13 @@ hr {
 }
 
 a.title {
-    color: unset!important;
+    color: black;
     padding-right: .25rem;
+}
+@media (prefers-color-scheme: dark) {
+    a.title {
+        color: white;
+    }
 }
 
 .layout-post {
