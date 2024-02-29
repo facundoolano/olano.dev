@@ -6,6 +6,7 @@ layout: post
 title: "A few more things you can do on your website"
 date: 2024-02-22 10:16:17
 tags: [web]
+lang: en
 ---
 #+END_EXPORT
 #+OPTIONS: toc:nil num:nil

@@ -3,6 +3,7 @@ layout: post
 title: "A few more things you can do on your website"
 date: 2024-02-22 10:16:17
 tags: [web]
+lang: en
 ---
 
 A couple of days ago I enjoyed reading [James's list](https://jamesg.blog/2024/02/19/personal-website-ideas/) of things to do on your website and, as he suggests by the end, I thought of a few more to add to the list. These are things I've either already done here or thought about doing but decided not to, or plan to eventually do:
