@@ -19,7 +19,7 @@ De Borges se suele decir que prefiguró internet porque Google puede bien ser su
 Y, si Borges fue bloguero, Mario Levrero, escritor uruguayo de múltiples y curiosos oficios, fue involuntariamente hacker de computadoras: programador.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 Todas las notas sobre Jorge Mario Varlotta Levrero empiezan con un colorido resumen de sus actividades. Me quedo con el de Fogwill:
@@ -33,7 +33,7 @@ Levrero se consideraba un aficionado; le resultaba imposible escribir durante lo
 En vida fue un autor desconocido; sus textos eran difíciles de clasificar y las publicaciones vendieron poco. Pero póstumamente se convirtió en moda editorial, una especie de Bolaño rioplatense y agorafóbico. Las primeras novelas, similares en método y tono, conforman la que se llama una /Trilogía involuntaria/. Evocan a Kafka por el simple hecho de que Levrero trataba de imitarlo: leía /El castillo/ por la noche y durante el día escribía esas novelas oníricas y claustrofóbicas aunque inequívocamente uruguayas[fn:1]. Durante los años 80 publicó con mayor frecuencia colecciones de cuentos y novelas cortas, también en ese estilo que yo llamaría /fantástico/ pero que para Levrero era /realismo/, porque rechazaba la idea de calificar de /irreal/ al mundo interior del que provenían. Hacia el final de su vida desembocó en unos textos autoficcionales, diarios personales que hoy parecen ser los preferidos por la crítica.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 Escrito entre 1990 y 1991, /El discurso vacío/ registra los intentos de Levrero de imponerse una rutina de escritura en cuaderno, con la esperanza de que un ajuste de su caligrafía conduciría a un ajuste en el resto de sus hábitos, a la recuperación de un control de sí mismo que había perdido. Pero durante la escritura era interrumpido o se distraía, se olvidaba de su propósito de mejorar la letra y se concentraba en el contenido narrativo del texto, ese /discurso/ que emergía. Para no reprimir esa vertiente separó el proyecto en dos: los ejercicios caligráficos y la indagación sobre el discurso, presintiendo que, si lo dejaba fluir, de ahí surgiría algún sentido, un contenido subyacente de valor espiritual o psicológico.
@@ -57,7 +57,7 @@ No he devenido escritor por vocación, sino por complejas razones socio-polític
 #+end_quote
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 En el año 2000, Levrero recibió una beca Guggenheim para corregir y extender un borrador de novela que venía arrastrando hacía 16 años. Su proyecto intentaba capturar una experiencia personal que había tenido, una de esas experiencias trascendentales que él llamaba /luminosas/. El problema era que, pese a ese recuerdo que resurgía obsesivamente, estaba convencido de que las experiencias luminosas no podían ser narradas: se desnaturalizaban en el papel, no podían ser transmitidas al lector en forma de literatura.

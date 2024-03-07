@@ -17,7 +17,7 @@ Los otros días circuló un artículo del equipo de Prime Video[fn:18] en el que
 El de los microservicios es un caso más de tecnología que tiene su utilidad en un contexto determinado, que se pone de moda y se empieza a utilizar indiscriminadamente fuera de ese contexto y termina causando mucho más daño del que alivia[fn:2]. Mi percepción es que la moda (el uso indiscriminado, por defecto) ya pasó hace unos años y que, a esta altura, ensañarse contra la tecnología es como pegarle a alguien que está en el suelo. Pero me interesa revisar el trasfondo de aquella moda, caso particular de una tendencia generalizada en la industria: el "preparacionismo" del software imaginario, que justifica la implementación de soluciones complicadas a problemas que no existen[fn:22].
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 
@@ -45,7 +45,7 @@ La propuesta no es novedosa; en lo que hace al diseño de programas, en la indus
 O Acaso el fenómeno se pueda explicar sociológicamente: nos entrenamos como ingenieros y científicos para resolver problemas difíciles; un trabajo ejecutado con sencillez puede parecer poco meritorio o por debajo de nuestras capacidades, la simplicidad se toma por simpleza. A fin de cuentas, la sociedad contemporánea es una inmensa máquina de marketing y las soluciones rebuscadas nos permiten escribir papers y hablar en conferencias, las /buzzwords/ le dan brillo a los currículums y hacen subir las acciones de startups con balances negativos. La austeridad es para los pobres.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 La mayor parte de mi carrera la dediqué, a pesar mío, a proyectos de software imaginario: sistemas que nunca llegaban a producción, productos fallidos, modernizaciones que no igualaban al sistema que se proponían reemplazar. Cuando finalmente conseguí un trabajo de software real ---un proyecto de escala global con casi una década en producción y restricciones muy específicas de performance---, me sorprendió descubrir que no aplicaba ninguna de las herramientas y prácticas sofisticadas que había estudiado durante años. Las instancias se levantaban y morían sin coordinación, los datos se mantenían en memoria para evitar la necesidad y la latencia de un acceso a base de datos, la comunicación entre servicios se hacía escribiendo y leyendo archivos en S3, con bash y cron. La arquitectura equivalente que me imaginaba antes de empezar en ese trabajo, usando Kafka o RabbitMQ para mover los datos en tiempo real, no solo requería más código y más dificultad operacional sino que implicaba más gastos de infraestructura y daba menos garantías de disponibilidad.
@@ -69,7 +69,7 @@ Complicated algorithms and component interactions multiply the difficulty of deb
 Los desarrolladores de software somos plomeros[fn:15]. Y cuando el software escala no pasamos a ser ingenieros hidráulicos: seguimos siendo plomeros. Con más inodoros, con caños más largos.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 Manifiestos como /Choose Boring Techonology/[fn:21] y /Radical Simplicty[fn:13]/ se proponen como antídotos para el preparacionismo y el glamour de la complejidad:

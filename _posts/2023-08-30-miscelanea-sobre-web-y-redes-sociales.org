@@ -143,7 +143,7 @@ En los últimos 15 años, con el mayor acceso a internet y la proliferación de 
 La propuesta del local-first es tener lo mejor de los dos mundos: que el usuario sea dueño y tenga acceso para siempre al software y a los datos, y que el servidor ejerza apenas un rol de soporte, de intercambio y sincronización de datos. Aunque el foco esté puesto en la experiencia de usuario y la colaboración en tiempo real, buena parte de la tecnología necesaria para ejecutar el proyecto local-first contribuye al plan de reemplazar las plataformas con protocolos. En ambos casos el control está en los márgenes de la red, en manos de los usuarios, y la nube provee un servicio que no puede trastocarse en monopolio.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 

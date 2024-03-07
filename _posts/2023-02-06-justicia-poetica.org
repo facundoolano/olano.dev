@@ -32,7 +32,7 @@ A los 23 años, mi ídolo Riquelme era el mejor jugador de América, campeón y 
 
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 
@@ -43,7 +43,7 @@ Nos volvimos con nostalgia tanguera hacia el pasado, como  uruguayos o hinchas d
 La adolescencia fue asumir que igual de caótica que la vida real era la trama del fútbol, un deporte de once contra once en el que, al final, siempre gana Alemania... y pierde la Argentina. No había héroes, no había justicia poética, no ganaban los buenos sino que las postergaciones se sucedían infinitamente como en las pesadillas, un volver a empezar cada vez que nos acercábamos a la meta.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 Hace 49 partidos que Boca no hace un gol de tiro libre, dice Fabbri. Román procede con su ritual: le da un beso a la pelota, acomoda, se queja varias veces de la distancia. River gana 1 a 0, quedan veinte minutos. Todo superclásico es un fin en sí mismo pero esta vez hay mucho más en juego: mantener las chances de campeonato, bajar a River, proteger el prestigio de Bianchi y, sobre todo, mandarle un mensaje a la dirigencia. Porque a Riquelme se le termina el contrato y la relación con Angelici está rota. No hay Copa Libertadores, no quedan partidos importantes en el semestre, este Boca-River podría ser el último. Pero nada de eso importa. Más allá de la inteligencia, de la capacidad técnica, sin importar su actualidad y su estado físico, si hay una cosa que tiene Riquelme es carácter: Román se agranda en las difíciles.
@@ -55,7 +55,7 @@ Todo queda en su lugar, quien quizás haya jugado los superclásicos mejor que n
 El héroe de mi generación se fue de Boca, se retiró jugando el ascenso para Argentinos Jrs., un libro al que le arrancaron demasiadas páginas.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 Durante el Mundial de Qatar circuló un meme en el que alguien acusaba a un argentino de que la Copa estaba arreglada y el argentino respondía: /Ojalá. Dios te oiga/. Para nosotros, hace rato esto había dejado de ser una competencia deportiva, ganar era una necesidad nacional. Y los festejos posteriores demostraron que la victoria argentina era el mejor final posible, porque era el que maximizaba la cantidad de felicidad en el mundo. Ningún otro pueblo hubiera valorado tanto la victoria.

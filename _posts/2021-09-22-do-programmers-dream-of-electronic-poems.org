@@ -19,7 +19,7 @@ Programming is realized in the written word. Today it's common knowledge that co
 If we agree with that, then it's not enough to merely adjust the "readability" of our code ---choosing variable names, avoiding excessively dense or nested code---: we must consciously direct our efforts towards communicating our ideas as effectively as possible.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 Authors often say that they aren't thinking about their readers when they work, that they write for themselves, perhaps to stress that they won't make concessions to the public or the market. But despite what they say, they still write for an audience, even if their readers aren't concrete, even if they weren't born yet. If only subconsciously, writing entails the construction of a /model reader/, an imagined reader that guides the choices of the author, such as the level of detail that the text will require to be comprehensible[fn:3].
@@ -32,7 +32,7 @@ Professional software writers should also model the readers of their code. Those
 No matter how hard we try, though, our code won't be comprehensible to every possible person. Our duty is to make a conscious, unfrivolous decision of who is going to be left out by the choices we make.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 The fiction writer has the unlikely task of balancing an infinitely complex system, making decisions about each element and the whole: the order in which information is revealed and the plot unfolds; the length, the cadence of the phrases; how dialogue and descriptions are interleaved; even the associations that the choice of an adjective is expected to evoke in the mind of the reader. Similarly, programmers have a wide set of tools that can aid or interfere with the task of expressing the purposes of their program: the directory and file structure, the module interfaces, the length of the functions and the order in which they are laid out, the use of comments, the decision to name expressions and the names that are given to them, the style in which data is manipulated and program flow is controlled, even the placement of whitespace between lines.
@@ -40,7 +40,7 @@ The fiction writer has the unlikely task of balancing an infinitely complex syst
 As we are writing code and especially during the correction stage (when the problem is solved in our heads, the program already works and we can rearrange it in the way that best communicates the solution) we should make an effort to look at it with the eyes of our model reader. What will they see as they list the project directory or browse its repository? What when they read the documentation and follow the links we provide, or when they open a file and read its header and the first few functions that we pull their attention to? How likely is our message to get through to someone walking that path?
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 Some authors suggest putting distance with the text after writing the first draft, letting it rest in a drawer for weeks or months[fn:6]. This allows them to come back to it with fresh eyes, as if someone else had written it, and detect problems that the proximity of the day-to-day work had prevented them from seeing.
@@ -50,7 +50,7 @@ Programmers can't afford to forget about the code for a while; in most cases, th
 Code is never really /done/, it's always possible (and reasonable) to take a program that works and polish it, improve its structure. After the initial development of a piece of code, after testing it and debugging it, once we consider that the functionality is acceptable, we can forget about it for a while; we can come back to it, months later, review it with the benefit of the distance, look for improvement opportunities, refactor.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 At the risk of annoying an even wider group of people, I could conclude by saying that some common programming methods might as well apply to prose writing: /Divide and conquer/, /Keep it simple, stupid/, /Don't repeat yourself/... I certainly write as if I were programming, which explains the tendency of my pieces to look like loosely coupled sequences of paragraphs. Sequences that dilute towards the end and finish abruptly, like this.

@@ -26,7 +26,7 @@ Si bien para Brooks la complejidad es uno de varios aspectos esenciales del soft
 Con esta definición más restringida, se invierte la propuesta de /No Silver Bullet/: no solo tiene sentido intentar reducir la complejidad accidental, sino que esta es la única que se puede reducir sin modificar el problema. Vale la pena notar también que, en este marco, un poco de complejidad accidental es necesaria e incluso útil si pretendemos implementar una solución al problema en el mundo real.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 La reducción de la complejidad y su contracara, la búsqueda de la simplicidad, tienen ecos y variaciones en casi toda la literatura y el folklore del desarrollo de software. Fernando Corbató habla de enfatizar la simplicidad y la elegancia para evitar que el software se nos vaya de las manos; la filosofía UNIX, según Eric Raymond, es la de /Keep it simple, stupid/; /The Pragmatic Programmer/ trata de destilar la esencia del diseño de software al establecer que "un buen diseño es aquel más fácil de cambiar que uno malo"; en una línea parecida, John Ousterhout define la complejidad en términos de la dificultad de entender y modificar un sistema, y presenta técnicas para medirla en implementaciones concretas[fn:2]. Saša Jurić plantea ideas similares y las pone en práctica con mucha destreza en una reciente charla de ElixirConf.[fn:3]
@@ -58,7 +58,7 @@ In my experience most of the complexities which are encountered in systems work 
 Desde este punto de vista, podemos simplificar la ecuación anterior. En lugar de reducir la complejidad /accidental/ y administrar la complejidad /esencial/, la responsabilidad del ingeniero de software comprometido con su trabajo es la de /eliminar todo tipo de complejidad/.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 En general, ante la posibilidad de simplifcar un elemento complejo ---en un sistema, en una organización--- podemos encontrarnos con que:
@@ -83,7 +83,7 @@ When organizations stop aiming for perfection and accept that all systems will o
 Aunque la justificación sea mejorar la resiliencia, tanto documentar como sacar de circulación un sistema olvidado no es ni más ni menos que reducir la complejidad de la organización. El extremo de este método es imaginar implementaciones más simples de los sistemas y plantear una estrategia ---mostrar evidencia, ejercer influencias, convencer--- para que los procesos de la organización converjan a esas implementaciones[fn:4].
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 Reducir la complejidad es la misión del ingeniero de software y es una misión no negociable. Es una misión distinta y, a veces, contrapuesta a la de los grupos con los que debe colaborar y los que financian su trabajo. No se trata de una búsqueda purista o moralista, sino utilitarista: un efecto secundario del método que produce software de mejor calidad.

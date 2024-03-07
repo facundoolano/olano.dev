@@ -32,7 +32,7 @@ Aunque no me guste el ejemplo particular que usa Hoare, comparto su intención d
 
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 Basta observar el negocio del software moderno, el sistema de incentivos económicos que lo rige y el lugar en el que pone a los usuarios, para reconocer que aquella idea es hoy una fantasía. Tanto en las plataformas /Big Tech/ como en los productos de las startups incipientes, lo que vale no es la experiencia del usuario sino el potencial de crecimiento: se diseñan sistemas sin saber qué servicio concreto proveen; se los prepara para escalar globalmente cuando apenas tienen usuarios; se acumulan usuarios antes de encontrar un modelo de negocio sustentable; se aceptan inversiones exageradas para el potencial de ganancias; [[file:../2023-08-30-miscelanea-sobre-web-y-redes-sociales][se deteriora la experiencia de usuario]] para recuperar esas inversiones.
@@ -46,7 +46,7 @@ Google se fundó alrededor de un buscador revolucionario que cambió la web para
 El buscador de Google funciona hoy sensiblemente peor que hace veinte años, y amenaza con empeorar[fn:7]. Facebook se enmierdizó y supongo que Instagram, como diría Borges, /corre el mismo albur/. Ambas empresas constituyen monopolios explotadores de los que no podemos prescindir. En todos los casos el usuario es el producto y se lleva la peor parte.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 El supuesto de que ofrecerle un mejor servicio al usuario es la manera de aumentar el valor del software ---que era una abstracción conveniente de las /realidades económicas/ que motivaban su producción--- dejó de ser cierto: ya no es una representación satisfactoria de la realidad. Hoy el beneficio económico pasa por otro lado. Pensábamos que el software tiene que deleitar al usuario pero la economía y buena parte de la industria nos exige que sucesivamente lo ignoremos, lo manipulemos y lo maltratemos. La neurosis del programador contemporáneo resulta de que pasó, en menos de una década, de tener una profesión demasiado buena para ser cierta a tener un /bullshit job/[fn:10]: un trabajo que no produce valor tangible, que hace del mundo un lugar peor, que resulta difícil de justificar incluso en los términos tradicionales del capitalismo.

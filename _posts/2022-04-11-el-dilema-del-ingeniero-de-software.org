@@ -16,7 +16,7 @@ El problema del programador que elige trabajar en una startup es que no tiene la
 Poco me preocupan las consecuencias económicas de esta elección cuando, aún en su casi seguro fracaso, cualquier programador va a gozar de niveles de bienestar insólitamente superiores a los del resto de la sociedad. Lo que me interesa es el lado B de esa elección de carrera, lo que implica para el programador o el ingeniero de software optar entre un proyecto verde y uno maduro para desarrollar su actividad. Ahí está el dilema.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 La historia de la profesión, los libros y las universidades nos enseñaron a programar pensando en el largo plazo, tomando decisiones que favorezcan la sostenibilidad de los sistemas. La tarea del desarrollador no se limita a producir código que funcione sino que debe buscar oportunidades para reducir la complejidad del software o, como me gusta decir a mí, disminuir la entropía del Universo. Así lo explica John Ousterhout[fn:1]:
@@ -41,7 +41,7 @@ Your early decisions make the biggest impact on the eventual shape of your syste
 Volvamos al hecho de que la mayoría de las startups fracasan. De la misma forma que hace una apuesta arriesgada económicamente, el programador que elige una startup se está resignando a trabajar en software que posiblemente nunca llegue a producción o que termine teniendo un nivel de uso muy por debajo de los planes. La ironía es que las suposiciones con las que justifica la sostenibilidad de su diseño y la escalabilidad de su arquitectura nunca van a llegar a ser puestas a prueba; está trabajando en proyectos de laboratorio, castillos en el aire, /software imaginario/.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 En el extremo opuesto a la startup tenemos a la empresa rentable, con un modelo de negocio definido, con usuarios, con software que ya está en producción, a veces hace tanto tiempo que lo llamamos /legacy/. Este es el /software realmente existente/ y, si bien el programador que se ocupa de él decididamente no construye castillos en el aire, ¿está construyendo algo? Más bien parece dedicado a aterrizar castillos concebidos por otros, hace mucho tiempo, unos que probablemente ya se fueron a otra empresa.
@@ -59,7 +59,7 @@ Because we don't talk about modernizing old tech, organizations fall into the sa
 Entonces, este es el dilema del ingeniero de software: nos preparamos por años para diseñar sistemas estables que sobrevivan a largo plazo, pero tenemos que elegir entre el software imaginario, en el que la calidad de nuestro trabajo es indefinida y en última instancia indiferente, y el software realmente existente, que ya fue diseñado, cuyo mantenimiento es prácticamente una disciplina en sí misma, mucho menos glamorosa que la que nos dictan los libros, las universidades y las conferencias.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 No voy a negar los méritos de quienes saben identificar a un unicornio, ni mucho menos de los que ayudaron a concebir uno. Para ellos, mis felicitaciones. El problema es que su éxito no es reproducible: son ejemplos de emprendedorismo, pero no pueden ser modelos para la profesión, de la misma manera que los ganadores de la lotería no pueden ser modelos de movilidad social. Tiene que haber un camino de carrera realista para la ingeniería de software, uno que todavía sirva cuando los capitalistas se acuerden de generar ganancias y las startups tengan que rendir cuentas de lo que hacen.

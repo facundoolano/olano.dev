@@ -36,7 +36,7 @@ Y aunque fue A quien inició el pleito, la prensa lo relata como un intento de X
 Con el viento en contra, como si la opinión pública fuera en sí misma una sentencia, X pierde el juicio, pierde su dinero, pierde para siempre su interés en la literatura, etc.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 (α pone punto final y se pregunta si esta historia se le acaba de ocurrir o la leyó en alguna parte).

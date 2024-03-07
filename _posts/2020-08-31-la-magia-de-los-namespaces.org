@@ -22,7 +22,7 @@ Namespaces are one honking great idea -- let's do more of those!
 Supongo que esto me debe haber confundido un poco. El resto de las reglas del Zen tenían consecuencias prácticas muy evidentes, pero esta hablaba de algo que, a diferencia de lo que pasaba en C++, no formaba parte de la sintaxis lenguaje. En Python me resultaba más natural razonar en términos de funciones y clases, así que me olvidé de los namespaces.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 Fue recién con Clojure que la idea de namespaces se volvió una herramienta de diseño para mis programas. En Clojure hay muchas (tal vez demasiadas) formas de manipular un namespace e importar cosas desde otros módulos: ~ns~, ~require~, ~refer~, ~use~, ~alias~, ~import~...
@@ -94,7 +94,7 @@ A large number of namespaces is taxing for our readers (...). As such, we should
 #+END_QUOTE
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 Una de las cosas que me simpatiza de Erlang es que la propia sintaxis fomenta el método descripto arriba:

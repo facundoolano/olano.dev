@@ -21,7 +21,7 @@ Su artículo de 1950, /Computing Machinery and Intelligence/, parte de una pregu
 Turing pronostica que, para el año 2000, las computadoras serán tan buenas en este juego que el interrogador promedio fallaría en identificarlas el 30% de las veces. Cierra el artículo explicando que para lograr ese resultado bastaría diseñar un intelecto digital equiparable al de un niño, que podría someterse a un /aprendizaje/ intensivo para que alcance la inteligencia adulta.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 Durante los cincuenta años que siguieron al artículo de Turing, las computadoras se volvieron más potentes y más baratas pero la inteligencia artificial continuó siendo una inminencia que no se concretaba. Si bien hubo felices accidentes en los laboratorios en que se la estudió ---el primer videojuego /Spacewar!/, la aventura /Zork/ de Infocom, el lenguaje de programación Lisp, el editor de texto Emacs y el software libre GNU---, para fin de siglo era una especie de /meme/ tecnológico, una promesa mejor aprovechada en los estudios de Hollywood que en Silicon Valley.
@@ -31,7 +31,7 @@ Al mismo tiempo, a la idea de máquinas pensantes se opuso una rama de investiga
 La influencia de esos pioneros se puede rastrear en los sucesivos desarrollos tecnológicos que cristalizaron en la masificación de las computadoras ---que ahora llevamos en el bolsillo--- y en la digitalización de casi todos los aspectos de nuestras vidas[fn:4]. Curiosamente, fue en parte esta revolución la que, ya bien entrado el siglo XXI, permitió desempolvar el proyecto de unas máquinas que aprendan.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 En su ensayo /Del culto de los libros/, Borges refiere una fábula de Platón que ataca a la escritura porque hace que la gente "descuide el ejercicio de la memoria y dependa de símbolos". La misma lógica la podemos aplicar a la calculadora, que nos hizo peores en las operaciones mentales; al teclado, que puso a la letra manuscrita en peligro de extinción; al GPS, que disminuyó nuestro sentido de la orientación. Pero en todos esos casos la tecnología efectivamente /aumentó/ nuestras capacidades: podemos hacer cálculos más complejos, escribir más y más rápido, llegar más lejos sin perdernos. Podría decirse que todos los cambios tecnológicos implican perder algo y ganar otra cosa, y que hay progreso si la civilización gana más de lo que pierde, de acuerdo a su sistema de valores.
@@ -45,7 +45,7 @@ No importa si una traducción captura los matices del original porque la lectura
 Lo que no previeron Vannevar Bush ni Licklider ni Engelbart ni Alan Kay fue cómo sus ideas serían masticadas y regurgitadas por el capitalismo tardío. Lo que no previó Turing fue que el mercado proveería su propio juego de imitación: a la pregunta /¿Pueden pensar las máquinas?/ le opuso /¿Pueden las máquinas realizar trabajo intelectual?/[fn:3] Y para responder afirmativamente no hizo falta elevar las computadoras a la altura de los hombres: alcanzó con que se encontraran a medio camino. Porque con suficiente volumen de datos y suficiente poder de cómputo (y suficiente plata para quemar y suficientes horas de trabajo precario y suficiente indiferencia por el impacto ambiental) ya se pueden construir loros convincentes, perfectos jugadores del /Carrera de Mente/ que saben todo lo que podía ser sabido hace dos años, y que lo que no saben lo inventan. Y porque las personas nos volvimos ---en nuestros trabajos, en nuestros hábitos y consumos--- esencialmente más boludas, más fáciles de satisfacer y de imitar: más parecidas a las máquinas.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 En su novela /Fahrenheit 451/, Ray Bradbury imaginó ---inspirado por el fascismo, la Guerra Fría y el macartismo--- un futuro en el que los libros están prohibidos y el gobierno emplea escuadrones de "bomberos", encargados de quemarlos. Un grupo de disidentes se dedica clandestinamente a memorizar cada uno una obra literaria distinta, con el fin de preservar el conocimiento para un futuro en que puedan reconstruir la sociedad[fn:2]. No en vano Bradbury era uno de los pocos contemporáneos "permitidos" de Borges: el argumento de /Fahrenheit 451/ se puede leer como el inverso de la queja de Platón sobre la escritura, y evoca también al emperador chino de /La muralla y los libros/, que ordenó quemar toda literatura anterior a él[fn:1].

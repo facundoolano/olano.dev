@@ -63,7 +63,7 @@ Así que Faulkner se vuelve a su casa y Browning también. La película nunca se
 Los hermanos Coen tienen bloqueo de escritor y lo resuelven escribiendo un guión sobre un escritor que padece bloqueo de escritor. Barton Fink es un autor consagrado de Broadway que cambia de costa para que, a través del cine, su obra pueda llegar a las masas, iluminar al hombre común. Pero, como algunos revolucionarios, ama a todos los hombres sin amar a ninguno en particular. El conflicto, hoy en día un poco gastado, es el del neoyorquita que se muda a Los Ángeles y choca contra la cultura falsa de la ciudad y el ambiente del espectáculo, pero no tan fuerte como para rechazar los beneficios económicos asociados y volverse a casa. Hay ecos del paso de Faulkner por Hollywood en el guión de /Barton Fink/: en el personaje de W.P. Mayhew, un escritor consagrado y borracho perdido que va a hacer plata con las películas; en la tarea absurda que le asignan a Barton de escribir una película de lucha libre para la estrella del estudio; en la imagen del escritor pudriéndose bajo contrato en una habitación de hotel, atado como perro a su cheque semanal.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 Billy Wilder nace en una familia judía en Polonia, por entonces parte del decadente Imperio Austro-Húngaro; se va a Viena a abandonar unos estudios de derecho; escapa del aburrimiento hacia la Berlín decadente de los años 20, donde ejerce de periodista y gigoló; escapa del nazismo hacia París, donde escribe y dirige sus primeras películas; se establece por fin en Hollywood con un puñado de otros exiliados alemanes. Wilder era guionista de oficio y hubiera sido feliz quedándose en eso sino se hubiera cansado de ver a actores y directores arruinando sus textos, así que, aprovechando una etapa de confusión en el estudio, se pasa a director para proteger su obra.
@@ -73,7 +73,7 @@ La anécdota apócrifa dice que un día Wilder no podía encontrar a su secretar
 Wilder acostumbra escribir con un coautor, pero su compañero habitual rechaza el proyecto porque la historia le parece desagradable. Como segunda opción hubiera querido al propio Cain, pero el autor está bajo contrato en otro estudio, así que acepta la sugerencia de un productor de llamar a otro a escritor de policiales que está por la ciudad buscando trabajo.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 Raymond Chandler cree en las revistas y las novelitas /pulp/ como medio legítimo para su arte pero con su arte, popular y todo, no le alcanza para pagar las cuentas. Se resigna, igual que Faulkner, igual que Barton Fink, a entregarse a la picadora de carne de Hollywood.

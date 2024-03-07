@@ -22,7 +22,7 @@ I did the usual thing: I slowed down, quit my job, started therapy. I revised my
 Not working was one thing, but overcoming the productivity mandate ---the feeling that I had to make the best of my time off, that I was "recharging" to make a comeback--- was another. As part of this detox period, I read /How to Do Nothing/, a sort of artistic manifesto disguised as a self-help book that deals with some of these issues. The author Jenny Odell mentions Mastodon when discussing alternative online communities. I had heard about Mastodon, I had seen some colleagues move over there, but never really looked at it. I thought I should give it a try.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 I noticed a few things after a while on Mastodon.
@@ -47,7 +47,7 @@ That's what I started with but, once I had the basic functionality in place, I p
 My short-term goal was to answer, as soon as possible, this question: could this eventually become my primary ---even my sole--- source of information on the Web? If not, I'd drop the project right away. Otherwise, I could move on to whatever was missing to realize that vision.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 *As a developer*, I wanted to test some of the ideas I'd been ruminating on for over a year. Although I hadn't yet formulated it in those terms, I wanted to apply what I expressed in [[file:../2023-11-30-code-is-run-more-than-read][another post]] as: ~user > ops > dev~. This meant that, when prioritizing tasks or making design trade-offs, I would choose ease of operation over development convenience, and I would put user experience above everything else.
@@ -116,7 +116,7 @@ Considering that I only followed sources I was interested in, it was safe to ass
 I'd want to see content from the least frequent ones first. If a monthly newsletter came out in the last couple of days, that should show up at the top, before any micro-blogging or daily news items. So I classified sources into "frequency buckets" and sorted the feed to show the least frequent buckets first. Finally, to avoid this "infrequent content" sticking at the top every time I opened the app, I added a feature that automatically marks entries as "already seen" as I scroll down the feed. This way I always get fresh content and never miss "rare" updates.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 At first, I left the app running on a terminal tab on my laptop and used it while I worked on it. Once I noticed that I liked what was showing up in the feed, I set up a Raspberry Pi server in my local network to have it available all the time. This, in turn, encouraged me to improve the mobile rendering of the interface, so I could access it from my phone.

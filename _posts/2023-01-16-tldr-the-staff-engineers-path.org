@@ -51,7 +51,7 @@ El libro [[https://www.goodreads.com/book/show/61058107-the-staff-engineer-s-pat
 Cada uno es un enfoque distinto, una posible "implementación" de la idea de escalar la influencia y multiplicar el impacto del líder técnico. Cuál o cuáles adopte una persona particular depende de sus inclinaciones y de la estructura y la cultura de la organización en la que se desempeña. Pero en todos los casos sigue valiendo la premisa de /Peopleware/; progresar como líderes técnicos implica mejorar como comunicadores, elegir cuidadosamente cómo usar el tiempo, delegar y empoderar a los demás para abordar problemas de más grandes. Aunque no requiera manejo directo de personas, el Staff Engineer pasa más tiempo en reuniones, más tiempo "surfeando la política", menos programando. De nuevo: no es necesariamente un rol atractivo para cualquiera, y no tiene nada malo optar por dedicarse a la tecnología y maximizar el tiempo de código.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 Yonatan Zunger [[https://leaddev.com/sites/default/files/2021-09/Role%20and%20Influence%20The%20IC%20Trajectory%20Beyond%20Staff.pdf][identifica cuatro disciplinas]] en los equipos profesionales:
@@ -64,7 +64,7 @@ Yonatan Zunger [[https://leaddev.com/sites/default/files/2021-09/Role%20and%20In
 Cada una es una disciplina distinta y la mayoría de los proyectos requiere de las cuatro, independientemente de quién la ejecute. Me parece interesante distinguirlas porque alguien las termina ejecutando en la práctica, aunque sea implícitamente[fn:4]. Si no hay alguien ocupando un puesto dedicado (por ejemplo un /Project Manager/ o un /Product Owner/), es probable que la responsabilidad recaiga en el Staff Engineer de turno.
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
  #+END_CENTER
 
 El libro se divide en tres partes, por cada uno de los tres "pilares" de los roles Staff+: mirada global (/big-picture thinking/), ejecución de proyectos (/project execution/) y subir el nivel de los ingenieros con los que trabajamos (/leveling up/). De la primera parte, me interesó la propuesta de /evitar los máximos locales/.
@@ -74,7 +74,7 @@ El trabajo de desarrollo de software es una larga sucesión de decisiones, const
 - En su ensayo [[https://mcfunley.com/choose-boring-technology][Choose Boring Technology]], citado en el libro, Dan McKinley habla del peligro de "elegir la herramienta correcta para cada trabajo" con este ejemplo: si el lenguaje ideal para un nuevo sistema es Python pero el resto de los sistemas de la organización están implementados en Ruby, la complejidad de tener que manejar un lenguaje nuevo supera el beneficio local de la elección "ideal".
 
 #+BEGIN_CENTER
-\ast{} \ast{} \ast{}
+\lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 Quizás el capítulo más jugoso es el que trata cómo administrar el tiempo de trabajo. Se da por sentado que a medida que se sube en la "escalera técnica", aumenta la autonomía del ingeniero y es al menos parcialmente responsable de elegir en qué proyectos invertir su tiempo. El libro ataca el problema desde distintos ángulos.
