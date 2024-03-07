@@ -8,7 +8,9 @@ title: "Lugares para perderse"
 date: 2023-12-23 13:24:28
 tags: [memorias, poesía]
 ---
+#+END_EXPORT
 
+#+BEGIN_EXPORT html
 <style type="text/css">  ul { list-style-type: none; } </style>
 #+END_EXPORT
 
