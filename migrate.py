@@ -3,6 +3,8 @@ import os
 import re
 import sys
 
+import yaml
+
 
 def migrate_dir(src, outdir):
     posts = {}
@@ -45,7 +47,18 @@ def migrate_file(src):
                 content += line
                 line = next(src)
 
-        return "---\n" + front_matter + "---\n" + content + src.read()
+        fm_data = yaml.safe_load(front_matter)
+        # blog config used to assume no lang mean spanish lang
+        # add it explicitly
+        if not 'lang' in fm_data:
+            front_matter += 'lang: es\n'
+        content = "---\n" + front_matter + "---\n" + content + src.read()
+
+        # patch footnotes header
+        new_header = "* Notes" if fm_data.get('lang', 'es') == 'en' else "* Notas"
+        content = content.replace("* Footnotes", new_header)
+
+    return content
 
 
 if __name__ == "__main__":
