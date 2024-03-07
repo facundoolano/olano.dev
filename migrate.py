@@ -58,6 +58,13 @@ def migrate_file(src):
         new_header = "* Notes" if fm_data.get('lang', 'es') == 'en' else "* Notas"
         content = content.replace("* Footnotes", new_header)
 
+        # DANGER ZONE
+        # if there are level 1 headings, demote all headings
+        if re.search(r'^\* ', content, flags=re.MULTILINE):
+            content = re.sub(r'^\*\*\* ', "**** ", content, flags=re.MULTILINE)
+            content = re.sub(r'^\*\* ', "*** ", content, flags=re.MULTILINE)
+            content = re.sub(r'^\* ', "** ", content, flags=re.MULTILINE)
+
     return content
 
 
