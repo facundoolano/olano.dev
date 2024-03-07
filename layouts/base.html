@@ -49,8 +49,8 @@
         <link rel="canonical" href="{{ page.url | absolute_url }}">
         {% else %}
         <meta property="og:type" content="website">
-        <meta property="og:url" content="{{ page.url | absolute_url | strip_index }}">
-        <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}">
+        <meta property="og:url" content="{{ page.url | absolute_url }}">
+        <link rel="canonical" href="{{ page.url | absolute_url }}">
         {% endif %}
 
         {%- capture shareimg -%}
