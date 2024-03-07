@@ -60,7 +60,7 @@ article.post, article.project {
     display: flex;
 }
 
-.org-center, .text-center {
+.center-block, .org-center, .text-center {
     text-align: center;
 }
 
@@ -130,22 +130,25 @@ a.title {
     padding-top: 1.5rem;
 }
 
-.layout-post .footnotes p {
-    text-indent: 0rem;
-}
-
 .layout-post .title, .layout-post .subtitle {
 }
 
-.layout-post .org-center, .layout-post .text-center {
+.layout-post .org-center, .layout-post .text-center, .layout-post .center-block {
     margin: 2rem 0;
 }
 
-.layout-post .footpara {
-    display: inline;
+hr.footnotes-separatator {
+    display:none;
 }
-.layout-post .footdef {
-    margin-top: 10px
+
+/* makes footnote number and text display in the same line  */
+.footnote-definition {
+    display: block;
+    vertical-align: top;
+    margin-bottom: .4rem;
+}
+.footnote-body, .footnote-body p {
+    display: inline;
 }
 
 .layout-post p.verse {
