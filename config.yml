@@ -1,43 +1,11 @@
-title: "olano.dev"
+name: "olano.dev"
 author: Facundo Olano
 
 avatar: "/assets/img/inchequeable.png"
 
-permalink: /:year-:month-:day-:title
-
-# set explicitly to (hopefully) prevent mixed content (assets served on without ssl)
 url: "https://olano.dev"
 
-excerpt_length: 50
-
-exclude:
-  - Makefile
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - org/
-  - ideas.org
-
-plugins:
-  - jekyll-feed
-  - jekyll-minifier
-
-
-feed:
-  # generate feeds for each post tag
-  excerpt_only: true
-  tags:
-    path: "/feed/"
-
-jekyll-minifier:
-  exclude: "*.xml"
-
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
+# FIXME implement or replace this
 defaults:
   -
     scope:
