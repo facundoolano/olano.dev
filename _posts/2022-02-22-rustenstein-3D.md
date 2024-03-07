@@ -1,9 +1,0 @@
----
-layout: post
-date: 2022-02-02
-title: "Rustenstein 3D: Game programming like it's 1992"
-external: "https://tech.nextroll.com/blog/dev/2022/02/02/rustenstein.html"
-lang: en
-image: https://tech.nextroll.com/images/post_images/rustestein/start.png
-tags: [programación, videojuegos]
----
