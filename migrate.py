@@ -4,7 +4,7 @@ import re
 import sys
 
 
-def migrate_dir(src):
+def migrate_dir(src, outdir):
     posts = {}
     for filename in os.listdir(src):
         if re.match(r'^\d{4}-\d{2}-\d{2}', filename):
@@ -12,11 +12,12 @@ def migrate_dir(src):
             posts[filename] = dest
             print(filename, "->", dest)
 
-    os.makedirs("blog", exist_ok=True)
+    os.makedirs(outdir, exist_ok=True)
     for filename, dst in posts.items():
         content = migrate_file(os.path.join(src, filename))
-        dst_path = os.path.join("blog", dst)
+        dst_path = os.path.join(outdir, dst)
         for filename, dst in posts.items():
+            # replace internal links
             content = content.replace("file:../" + filename,
                                       "file:" + dst)
 
@@ -48,12 +49,12 @@ def migrate_file(src):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
+    if len(sys.argv) < 2:
         print("usage: migrate.py src dest")
         exit(1)
 
     src = sys.argv[1]
     if os.path.isdir(src):
-        migrate_dir(src)
+        migrate_dir(src, sys.argv[2])
     else:
         print(migrate_file(src))
