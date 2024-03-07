@@ -17,7 +17,8 @@
         {% for file in css %}
         <link rel="stylesheet" href="/assets/css/{{file}}.css">
         {% endfor %}
-        {% feed_meta %}
+
+        <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="{{ site.config.name }}"/>
 
         <meta name="author" content="Facundo Olano">
         <meta property="og:article:author" content="{{ site.config.author }}">
