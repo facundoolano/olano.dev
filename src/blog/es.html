@@ -11,5 +11,5 @@ head_title: Blog
 
 <div class="blog-index">
     {% assign posts = site.posts|where_exp:"post", "post.lang == nil or post.lang == 'es'" %}
-    {% include posts.html posts=posts%}
+    {% include posts.html %}
 </div>
