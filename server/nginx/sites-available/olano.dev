@@ -17,7 +17,7 @@ map $uri $uri_no_trailing_slash {
 }
 
 map $uri $uri_no_date_prefix {
-    "~^/\d{4}-\d{2}-\d{2}-(?<slug>.+)$" $slug;
+    "~^/\d{4}-\d{2}-\d{2}-(?<slug>.+)/?$" $slug;
     default $uri;
 }
 
