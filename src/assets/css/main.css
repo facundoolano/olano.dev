@@ -126,7 +126,7 @@ a.title {
     text-indent: 3rem;
 }
 
-.layout-post p + h2 {
+.outline-2 + .outline-2 h2{
     padding-top: 1.5rem;
 }
 
