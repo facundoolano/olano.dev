@@ -21,20 +21,20 @@ William Faulkner termina su contrato con la MGM y se prepara para volver al Sur;
 
 #+begin_quote
 ¿DÓNDE ESTÁ? \\
-ESTUDIOS MGM, CULVER CITY, CALIFORNIA. \\
+ESTUDIOS MGM, CULVER CITY, CALIFORNIA.
 #+end_quote
 
 Faulkner quiere responder con un telegrama que se limite a establecer su ubicación:
 
 #+begin_quote
-WILLIAM FAULKNER, OXFORD, MISSISSIPI.\\
+WILLIAM FAULKNER, OXFORD, MISSISSIPI.
 #+end_quote
 
 ¿Cuál es el mensaje?, pregunta la operadora. No se puede mandar un telegrama sin mensaje, así que en lugar de eso elige uno genérico entre los ejemplos del mostrador:
 
 #+begin_quote
 ¡FELIZ DÍA DE LA MADRE! \\
-WILLIAM FAULKNER, OXFORD, MISSISSIPI. \\
+WILLIAM FAULKNER, OXFORD, MISSISSIPI.
 #+end_quote
 
 Días después, recibe una llamada de larga distancia de la MGM con la órden de tomarse el primer avión a Nueva Orleans y presentarse ante Browning. Faulkner podría haberse tomado un tren y estado en Nueva Orleans ocho horas después, pero obedece las órdenes y se va hasta Memphis, desde donde ocasionalmente parten aviones hasta Nueva Orleans. Faulkner se toma el primero que sale, tres días después.
@@ -45,14 +45,14 @@ Al otro día, todo el equipo menos el continuista se toma una lancha hasta una i
 
 #+begin_quote
 FAULKNER ESTÁ DESPEDIDO. \\
-ESTUDIOS MGM, CULVER CITY, CALIFORNIA. \\
+ESTUDIOS MGM, CULVER CITY, CALIFORNIA.
 #+end_quote
 
 Browning le dice que no se preocupe, que él lo va a arreglar en diez minutos, va a llamar al estudio y se va asegurar no solo de que le devuelvan su trabajo sino de que emitan una disculpa. Mientras está hablando golpean la puerta de la habitación para entregar otro telegrama:
 
 #+begin_quote
 BROWNING ESTÁ DESPEDIDO. \\
-ESTUDIOS MGM, CULVER CITY, CALIFORNIA. \\
+ESTUDIOS MGM, CULVER CITY, CALIFORNIA.
 #+end_quote
 
 Así que Faulkner se vuelve a su casa y Browning también. La película nunca se filma. En otra habitación del hotel, sentado a oscuras, queda el continuista, aferrado a su cheque semanal.
