@@ -12,7 +12,7 @@ lang: es
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
 
-Cuando terminé la [[file:../2022-09-26-llegando-los-monos/][anterior serie de posts]] sobre aventuras gráficas, convergiendo al anuncio de /Return to Monkey Island/, no me proponía continuar con el tema. Me tomó varias semanas probar el juego[fn:1] y lo hice sin demasiadas expectativas; no tomé notas ni planeaba hacer una reseña pero después de varias sesiones me encontré con muchas cosas para decir, así que acá van.
+Cuando terminé la [[file:llegando-los-monos-2][anterior serie de posts]] sobre aventuras gráficas, convergiendo al anuncio de /Return to Monkey Island/, no me proponía continuar con el tema. Me tomó varias semanas probar el juego[fn:1] y lo hice sin demasiadas expectativas; no tomé notas ni planeaba hacer una reseña pero después de varias sesiones me encontré con muchas cosas para decir, así que acá van.
 
 (Puede contener spoilers).
 

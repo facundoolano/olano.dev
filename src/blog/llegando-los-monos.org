@@ -12,7 +12,7 @@ lang: es
 #+OPTIONS: toc:nil num:nil ^:{}
 #+LANGUAGE: es
 
-Esta es la primera parte de una serie de dos. [[file:../2022-09-26-llegando-los-monos/][/Leer la segunda parte/.]]
+Esta es la primera parte de una serie de dos. [[file:llegando-los-monos-2][/Leer la segunda parte/]].
 
 ** 1. La cueva
 
