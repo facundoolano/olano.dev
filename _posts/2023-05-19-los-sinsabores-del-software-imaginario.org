@@ -105,7 +105,7 @@ En sus ensayos clásicos[fn:16][fn:17], Paul Graham describía cómo (en una era
 
 [fn:15] [[https://www.karllhughes.com/posts/plumbing][The Bulk of Software Engineering is Just Plumbing]].
 
-[Fn:12] [[https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity][Deconstructing the Monolith: Designing Software that Maximizes Developer Productivity]].
+[fn:12] [[https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity][Deconstructing the Monolith: Designing Software that Maximizes Developer Productivity]].
 
 [fn:11] [[https://twitter.com/levelsio/status/1308145873843560449][RemoteOK.io is a single PHP file]].
 
