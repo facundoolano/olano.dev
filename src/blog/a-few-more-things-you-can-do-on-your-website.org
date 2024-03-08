@@ -16,7 +16,7 @@ A couple of days ago I enjoyed reading [[https://jamesg.blog/2024/02/19/personal
 2. A *reads* section, to list books you read or want to read, along with notes or even ratings (as an alternative to Goodreads).
 3. The same as 2. but for other media, like movies or video games.
 4. A list of bookmarks or even a linkblog. (I considered generating this out of my [[https://github.com/facundoolano/feedi][feed reader]] favorites).
-5. A list of favorites or suggested starting points for your blog, to provide an alternative reading path from the default reverse chronological order. (I discussed this idea [[file:../2024-01-11-web-anthologists][before]]).
+5. A list of favorites or suggested starting points for your blog, to provide an alternative reading path from the default reverse chronological order. (I discussed this idea [[file:web-anthologists][before]]).
 6. Dedicated RSS/Atom feeds for all of the above.
 7. A dedicated RSS/Atom feed for each of your blog's tags.
 8. A *[[file:../../resume][resume]]* section (as an alternative to LinkedIn).

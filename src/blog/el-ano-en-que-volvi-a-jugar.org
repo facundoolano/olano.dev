@@ -29,7 +29,7 @@ Si hubo un territorio del ocio, mi paso por la Universidad fue un destierro. Cua
 <div></div>
 #+END_EXPORT
 
-Este blog denuncia el tiempo que paso [[file:../2020-09-29-memoria-videojueguistica/][recordando]], [[file:../2023-09-18-literatura-videojueguistica-vol-2][leyendo]], [[file:../2022-08-09-llegando-los-monos][investigando]], [[file:../2023-06-16-del-videojuego-como-puzzle][estudiando]] y [[file:../2023-11-01-notas-sobre-obra-dinn][escribiendo]]  sobre videojuegos; ocasionalmente [[https://github.com/facundoolano/rpg-cli][diseñándolos]] y [[https://github.com/facundoolano/house-taken-over][programándolos]]. Una cantidad exagerada de tiempo, considerando cuánto le dedico todavía a /jugarlos/. Acaso siempre hubo tanto juego como añoranza; acaso siempre jugué un poco a contramano, con máquinas inoportunas o mirando hacia atrás.
+Este blog denuncia el tiempo que paso [[file:memoria-videojueguistica/][recordando]], [[file:literatura-videojueguistica-vol-2][leyendo]], [[file:llegando-los-monos][investigando]], [[file:del-videojuego-como-puzzle][estudiando]] y [[file:notas-sobre-obra-dinn][escribiendo]]  sobre videojuegos; ocasionalmente [[https://github.com/facundoolano/rpg-cli][diseñándolos]] y [[https://github.com/facundoolano/house-taken-over][programándolos]]. Una cantidad exagerada de tiempo, considerando cuánto le dedico todavía a /jugarlos/. Acaso siempre hubo tanto juego como añoranza; acaso siempre jugué un poco a contramano, con máquinas inoportunas o mirando hacia atrás.
 
 #+BEGIN_EXPORT html
 <br/>
@@ -104,7 +104,7 @@ Fue mi primer intento de conocer lo que me había perdido durante estos años, d
 <div></div>
 #+END_EXPORT
 
-(9) De /Return of the Obra Dinn/ [[file:../2023-11-01-notas-sobre-obra-dinn][ya dije mucho]].
+(9) De /Return of the Obra Dinn/ [[file:notas-sobre-obra-dinn][ya dije mucho]].
 
 #+BEGIN_EXPORT html
 <br/>

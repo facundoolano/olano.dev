@@ -189,7 +189,7 @@ Yo creo que existe el estilo en programación, entendido como las preferencias, 
 Es cierto que hablar de lo idiomático es meterse en terreno pantanoso. Salvo en casos puntuales, las convenciones no están escritas; refieren a un sentido común discutible, sujeto a interpretación y a cambios en el tiempo. El peligro es convencerse de que existe una única forma correcta de hacer las cosas y que, casualmente, coincide con /nuestra/ forma de hacer las cosas. No queda más que ser autocrítico: ver el código con los ojos del otro, que el código sea visto por otros ojos.
 
 *** Posdata: JavaScript
-¿Existe lo idiomático en JavaScript, un lenguaje que es tantos lenguajes? No voy a repetir lo que ya puse en [[file:../2020-09-22-javascript-las-partes-nobles][otro post]], pero seguramente hay ciertos consensos sobre lo que /no/ se debe hacer. Lo que es decir que hay buen margen para el propio estilo o, en todo caso, para un estilo consensuado en equipo o en comunidad.
+¿Existe lo idiomático en JavaScript, un lenguaje que es tantos lenguajes? No voy a repetir lo que ya puse en [[file:javascript-las-partes-nobles][otro post]], pero seguramente hay ciertos consensos sobre lo que /no/ se debe hacer. Lo que es decir que hay buen margen para el propio estilo o, en todo caso, para un estilo consensuado en equipo o en comunidad.
 
 Si bien podría escribir una solución casi idéntica a la de Python[fn:1]...
 

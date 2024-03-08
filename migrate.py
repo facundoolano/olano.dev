@@ -32,7 +32,7 @@ def migrate_dir(src, outdir):
         dst_path = os.path.join(outdir, dst)
         for filename, dst in posts.items():
             # replace internal links
-            content = content.replace("file:../" + filename,
+            content = content.replace("file:../" + filename.replace(".org", ""),
                                       "file:" + dst)
 
         with open(dst_path, "w") as file:

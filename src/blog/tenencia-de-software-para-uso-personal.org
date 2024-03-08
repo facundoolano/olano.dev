@@ -14,7 +14,7 @@ lang: es
 
 ** 1. Introducción
 
-Al final del [[file:../2023-08-30-miscelanea-sobre-web-y-redes-sociales][post anterior]] mencioné dos artículos que nos ayudan a imaginar otra web, una en que los usuarios recuperamos algo del control que cedimos a las plataformas y las redes sociales privadas.
+Al final del [[file:miscelanea-sobre-web-y-redes-sociales][post anterior]] mencioné dos artículos que nos ayudan a imaginar otra web, una en que los usuarios recuperamos algo del control que cedimos a las plataformas y las redes sociales privadas.
 Recapitulando:
 
 - [[https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech][/Protocols, not Platforms: A Technological Approach to Free Speech/]], de Mike Masnick, propone volver a una web con predominio de protocolos abiertos, más parecida a la que teníamos hasta mediados de los 2000 cuando plataformas como Facebook y Twitter empezaron a ganar popularidad. Según el autor, esa transición  ayudaría a resolver la crisis de libertad de expresión que atraviesan los medios online, a la vez que devolvería control y privacidad a los usuarios y abriría nuevos modelos de negocio.

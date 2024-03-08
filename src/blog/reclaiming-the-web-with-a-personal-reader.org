@@ -48,7 +48,7 @@ My short-term goal was to answer, as soon as possible, this question: could this
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-*As a developer*, I wanted to test some of the ideas I'd been ruminating on for over a year. Although I hadn't yet formulated it in those terms, I wanted to apply what I expressed in [[file:../2023-11-30-code-is-run-more-than-read][another post]] as: ~user > ops > dev~. This meant that, when prioritizing tasks or making design trade-offs, I would choose ease of operation over development convenience, and I would put user experience above everything else.
+*As a developer*, I wanted to test some of the ideas I'd been ruminating on for over a year. Although I hadn't yet formulated it in those terms, I wanted to apply what I expressed in [[file:code-is-run-more-than-read][another post]] as: ~user > ops > dev~. This meant that, when prioritizing tasks or making design trade-offs, I would choose ease of operation over development convenience, and I would put user experience above everything else.
 
 Since this was going to be an app for personal use, and I had no intention of turning it into anything else, putting the user first just meant /dogfooding/: putting my "user self" ---my needs--- first. Even if I eventually wanted other people to try the app, I presumed that I had a better chance of making something useful by designing it ergonomically for me, than by trying to satisfy some ideal user. It was very important to me that this didn't turn into a learning project or, worse, a portfolio project. This wasn't about productivity: it was about reconnecting with the joy of software development; the pleasure wouldn't come from /building something/ but from /using something I had built/.
 

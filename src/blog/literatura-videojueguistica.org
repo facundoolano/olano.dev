@@ -10,7 +10,7 @@ lang: es
 Uno de los vicios que cultivé durante /las cuarentenas/[fn:1] es el de acumular y ocasionalmente leer libros sobre videojuegos.
 A continuación, un compendio.
 
-[[file:../2020-08-28-maestros-de-la-fatalidad][Ya escribí]] de [[https://www.goodreads.com/book/show/222146.Masters_of_Doom][/Masters of Doom/]], el libro sobre id Software con el que me introduje al género y que me sirvió de excusa para empezar este blog. Se lee como novela y se las arregla milagrosamente para transmitir el mérito del trabajo de Carmack y compañía sin entrar en detalles técnicos. Para los programadores a los que nos interesan esos detalles, están los [[https://fabiensanglard.net/gebb/index.html][libros negros]], en los que Fabien Slangard analiza el código y explica cómo funcionan los motores del /Wolfenstein/ y el /Doom[fn:5]./
+[[file:maestros-de-la-fatalidad][Ya escribí]] de [[https://www.goodreads.com/book/show/222146.Masters_of_Doom][/Masters of Doom/]], el libro sobre id Software con el que me introduje al género y que me sirvió de excusa para empezar este blog. Se lee como novela y se las arregla milagrosamente para transmitir el mérito del trabajo de Carmack y compañía sin entrar en detalles técnicos. Para los programadores a los que nos interesan esos detalles, están los [[https://fabiensanglard.net/gebb/index.html][libros negros]], en los que Fabien Slangard analiza el código y explica cómo funcionan los motores del /Wolfenstein/ y el /Doom[fn:5]./
 
 #+BEGIN_EXPORT html
 <div class="text-center">

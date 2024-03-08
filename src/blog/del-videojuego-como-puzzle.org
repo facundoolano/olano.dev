@@ -22,9 +22,9 @@ lang: es
 
 En ciencia y tecnología, como en la discografía de Frank Zappa, se suele decir que /la necesidad es madre de la invención/. Pensando en los juegos de computadora, cada sucesiva innovación ---los primeros gráficos, los colores, el CD-ROM, el audio, la aceleración 3D---
 trajo aparejada una ola de juegos centrados en explotar las nuevas posibilidades del hardware pero,
-de la misma manera que hoy [[file:../2021-12-28-la-rebelion-de-las-maquinas][preferimos /Jurassic Park/ a sus secuelas]], los viejos y los nostálgicos nos acordamos menos de aquellas demostraciones exuberantes que de otros juegos que, con menos recursos, expandieron el campo de lo posible en una computadora.
+de la misma manera que hoy [[file:la-rebelion-de-las-maquinas][preferimos /Jurassic Park/ a sus secuelas]], los viejos y los nostálgicos nos acordamos menos de aquellas demostraciones exuberantes que de otros juegos que, con menos recursos, expandieron el campo de lo posible en una computadora.
 
-Así, el [[file:../2022-08-09-llegando-los-monos][/Colossal Cave Adventure/]] probó que, apenas con texto y algunas nociones de cartografía, esas carísimas calculadoras podían ser también motores de la imaginación.
+Así, el [[file:llegando-los-monos][/Colossal Cave Adventure/]] probó que, apenas con texto y algunas nociones de cartografía, esas carísimas calculadoras podían ser también motores de la imaginación.
 
 Así, un grupo de hackers de UNIX, apelando a los caracteres ASCII como símbolos para construir y poblar las cavernas de su /Rogue/, inventaron un nuevo tipo de aventura en el que cada partido era un juego diferente.
 
@@ -76,7 +76,7 @@ No solo en la forma, sino también en el contenido, la restricción puede ser un
 
 Así, durante casi una década, Infocom insistió en el modelo de /Adventure/, convirtiendo lo que inicialmente era una necesidad ---restringirse al texto--- en una marca registrada, profundizando sus ficciones interactivas mientras la competencia invertía sus recursos en mostrar gráficos rudimentarios.
 
-Así, el diseño del /Rogue/ ---arte ASCII, niveles generados algorítmicamente y /permadeath/--- se propagó [[file:../2023-02-22-worse-is-better-is-worse-is-better][como virus]] por la comunidad UNIX, inaugurando un nuevo género, nicho de infinitas variaciones que no solo sigue vigente sino que extendió su influencia hasta clásicos modernos como /Diablo/ y /Minecraft/.
+Así, el diseño del /Rogue/ ---arte ASCII, niveles generados algorítmicamente y /permadeath/--- se propagó [[file:worse-is-better-is-worse-is-better][como virus]] por la comunidad UNIX, inaugurando un nuevo género, nicho de infinitas variaciones que no solo sigue vigente sino que extendió su influencia hasta clásicos modernos como /Diablo/ y /Minecraft/.
 
 #+BEGIN_EXPORT html
 <div class="text-center">

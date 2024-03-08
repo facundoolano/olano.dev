@@ -11,7 +11,7 @@ lang: es
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
 
-Agotado mi [[file:../2020-09-29-memoria-videojueguistica][interés en el modding]], estaba claro que lo que yo quería era diseñar mis propios
+Agotado mi [[file:memoria-videojueguistica][interés en el modding]], estaba claro que lo que yo quería era diseñar mis propios
 videojuegos. Pero, ¿cómo se hace un videojuego? No era una pregunta fácil de formularle a Google
 en el 2003. La respuesta, o en todo caso la siguiente pieza del rompecabezas, me la dio Maciel, mi mejor amigo de la secundaria. Así como yo era un /hardcore/ de las aventuras gráficas —probablemente el único género para el que llegué a desarrollar cierta habilidad—, Maciel se especializaba en los juegos de rol, los [[https://en.wikipedia.org/wiki/History_of_Eastern_role-playing_video_games#Japanese_role-playing_games][JRPG]] como el /Final Fantasy/. Este tipo de juegos siguen un patrón muy específico, casi un estándar, por lo que la pregunta
 /¿Cómo se hace un RPG?/ resultaba mucho más concreta, mucho más fácil de responder que la infinitamente abierta
