@@ -4,11 +4,3 @@ author: Facundo Olano
 avatar: "/assets/img/inchequeable.png"
 
 url: "https://olano.dev"
-
-# FIXME implement or replace this
-defaults:
-  -
-    scope:
-      type: "posts"
-    values:
-      lang: "es"
