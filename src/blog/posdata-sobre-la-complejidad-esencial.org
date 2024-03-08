@@ -104,7 +104,7 @@ Si reconocemos que el software ejerce poder sobre la sociedad, los constructores
 
 ** Notas
 
-[fn:4] Esta idea es similar a la "[[https://martinfowler.com/bliki/ConwaysLaw.html][maniobra inversa de Conway]]".
+[fn:4] Esta idea es similar a la [[https://martinfowler.com/bliki/ConwaysLaw.html]["maniobra inversa de Conway"]].
 
 [fn:3] Jurić encuentra problemático el uso de palabras como "calidad", "mantenibilidad" o "legibilidad", porque son vagas y sujetas a interpretación; lamentablemente su solución es usar otra palabra ---claridad--- que, si bien pone en énfasis en la comunicación, es tan subjetiva y sujeta a interpretación como las demás.
 
