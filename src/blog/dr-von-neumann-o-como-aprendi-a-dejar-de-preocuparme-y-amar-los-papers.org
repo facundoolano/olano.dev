@@ -1,0 +1,69 @@
+---
+layout: post
+title: "Dr. von Neumann o: cómo aprendí a dejar de preocuparme y amar los papers"
+date: 2022-07-12
+tags: [software, libros]
+thumbnail-img: assets/img/lewis.jpeg
+image: assets/img/lewis.jpeg
+lang: es
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+** 1. Hackers, genios y geeks
+
+El chiste empezó cuando me puse a leer /The Innovators/, el libro de Walter Isaacson. Pese a lo que sugieren el título, la tapa marketinera con Ada, Jobs, Gates y Turing, y el hecho de que Isaacson antes haya biografiado a Jobs, el contenido del libro hace un esfuerzo razonable por convencer al lector de que las innovaciones de la era digital no son  atribuibles exclusivamente a individuos brillantes sino también al trabajo de los equipos interdisciplinarios que los rodeaban, casi siempre sostenidos por grandes organizaciones: fuerzas militares nacionales, universidades y ---menos habitualmente de lo que querría el liberalismo contemporáneo--- empresas privadas.
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="../assets/img/innovators.jpg" width="250px">
+</div>
+#+END_EXPORT
+
+El libro, además de entretenido, hace un buen trabajo al trazar la historia de la computación como una serie de innovaciones tecnológicas entrelazadas: las primeras computadoras, la programación, los transistores y los microchips, los videojuegos, internet, las computadoras personales, la industria del software, la web. Cuando vi que en los primeros capítulos iban apareciendo los nombres de Ada Lovelace, Turing, von Neumann, Shannon y otros, me pareció la oportunidad ideal para sacar otro de los libros que tenía juntando polvo en la /pila de la vergüenza/ y ensayar la lectura de los dos en paralelo. Es que /Ideas That Created the Future/ de Harry R. Lewis hace una trayectoria histórica idéntica a través de los papers clásicos de la Computación, cuyos autores en muchos casos son los innovadores del libro de Isaacson.
+
+** 2. Volver al futuro
+
+No soy un lector asiduo de papers: es un medio que siempre me resultó un poco hostil y al que evité durante mucho tiempo. El primer problema es la cantidad: desde la vereda de enfrente, uno tiene la impresión de que los investigadores producen papers como commodities, con el objetivo de sumar puntos para la carrera de campeones antes que para divulgar conocimiento. El segundo problema es el contenido: el paper promedio es difícil de leer, está dirigido a académicos más que a practicantes, y la temática puede resultar demasiado abstracta o alejada de los carriles de la industria como para emparentarla con nuestra disciplina. Así y todo, admito mi rechazo al formato como una debilidad: hay efectivamente un subconjunto de papers útil y necesario para la práctica profesional, y el alcance que se obtiene estudiándolos ---aún en el caso de retener ideas sueltas--- es muchísimo más amplio que al que se puede aspirar leyendo un puñado de libros al año.
+
+Así que, cuando me encontré con el libro de Lewis, creí haber encontrado la solución ideal para tapar mi bache profesional: alguien se había tomado el trabajo de elegir las obras más relevantes de la disciplina, editarlas y comentarlas para facilitar su acceso a los lectores contemporáneos. Lejos de eso, cuando empecé a leerlo me choqué contra una pared. Lo frustrante de la lectura parecía confirmar mis prejuicios; fue tentador darme por vencido y asumir que sencillamente los papers no son para mí.
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="../assets/img/lewis.jpeg" width="250px">
+</div>
+#+END_EXPORT
+
+El problema, me di cuenta después, es que entré al libro con las expectativas equivocadas.
+Yo me esperaba una especie de subconjunto de [[https://paperswelove.org/][/Papers we love/]], una "selección de la selección" empaquetada en forma de libro. En cambio, encontré nada más ni nada menos que  lo que prometía la tapa: una colección de /clásicos/ de la /computación/. El objetivo del autor no fue presentar una selección de papers que vale la pena leer en sí mismos, aquellos que mejor condensan el tema del que se ocupan, sino los que fueron más influyentes, los hitos para trazar una historia de las Ciencias de la Computación. Por eso se incluyeron textos que tuvieron algún impacto particular ---incluso indirecto--- en el campo, aunque en sí mismos sean indescifrables. Para agravar las cosas:
+
+1. La mayoría de los textos son en realidad recortes, impidiendo así la posibilidad de ser leídos como papers, en "pasadas", porque se pierden las referencias, los abstracts, en algunos casos las conclusiones.
+2. La selección empieza demasiado temprano (con Aristóteles y algunos matemáticos clásicos) y termina en 1979, es decir que excluye la era de internet, los sistemas distribuidos, el renacimiento de los lenguajes de programación y la inteligencia artificial.
+3. Sobran artículos de visionarios y soñadores que tienen valor histórico pero cuya lectura contemporánea es redundante o anecdótica.
+
+En fin, después de arrastrarme a través de los primeros diez papers (las primeras cien páginas del libro), empecé a desconfiar del autor, a leer en diagonal y saltear capítulos. Mi objetivo acá no es castigar al libro, porque el problema de expectativas fue mío y, al fin y al cabo, sirvió a mi objetivo inicial de ponerme en contacto con el mundo de los papers. Sencillamente quiero decir que no es un libro que recomendaría a un colega, porque los papers que para mí, como ingeniero de software, vale la pena leer, son otros.
+
+** 3. Papeles para plomeros
+
+La experiencia con el libro me convenció de armar una lista de lecturas acorde a mis necesidades: papers legibles y valiosos en sí mismos, que sean de interés para un profesional del software más que para un estudiante de computación. Con esta idea en mente, fui a revisar el [[https://github.com/papers-we-love/papers-we-love][repositorio de /Papers We Love/]], proyecto del que estaba al tanto pero al que no le había prestado suficiente atención. Para mi sorpresa, me resultó suficientemente manejable como para escanearlo entero y elegir intuitivamente lo que podía servirme. A esta preselección le sumé:
+
+- Lo que me pareció rescatable del libro de Lewis.
+- Papers que ya había leído o tenía pendientes.
+- Lo que encontré googleando listas de papers importantes o preferidos[fn:2].
+- Todo lo que me pareció potable del blog [[https://blog.acolyer.org/][/The Morning Paper/]].
+- Lo que encontré en las referencias de los libros de mi biblioteca, por ejemplo el /Designing Data-Intensive Applications/ y el /Distributed Systems for Fun and Profit/.
+- Lo que aparecía en las referencias de los artículos de Wikipedia sobre temas o autores que me parecieron relevantes.
+- Los papers más citados, según Google Scholar, de esos autores.
+- Los que aparecían frecuentemente en las referencias de los papers que fui leyendo.
+
+Habiendo acumulado una cantidad importante de material, se hizo necesario establecer algunos criterios para hacer un recorte sin tener que leerlo todo de antemano[fn:3]. Me parecía importante no caer en la tentación de armar una lista /append-only/, guardando todo lo que parezca medianamente útil, porque así hubiera bajado la calidad promedio del conjunto, además de hacerlo inabarcable e inabordable; mi objetivo era armar una lista que pudiera ser leída razonablemente de principio a fin, en orden cronológico, sin demasiado sufrimiento. Me propuse, entonces, no pasar de los 20 o 30 papers[fn:1], priorizando textos cortos y claros, limitándome a uno o dos papers representativos para cada tema o autor. Para elegir qué descartar me dediqué a revisar superficialmente los textos ---títulos y abstracts primero, después las conclusiones, los encabezados, las referencias. Aunque parecía un poco chanta, después confirmé que es [[http://ccr.sigcomm.org/online/files/p83-keshavA.pdf][un método habitual]].
+
+No creo que me dé el cuero para leerlos todos y tampoco creo que me vuelva un lector asiduo de papers, pero considero cumplido el objetivo de perderle la fobia al género, y me llevo algunas heurísticas de lectura que seguro me sirvan en adelante. El plan original era incluir y mantener la lista acá, pero cuando me percaté de que iba a requerir actualización constante y de que el contenido es de interés para más gente que los tres lectores de este blog, opté por [[https://github.com/facundoolano/software-papers/][subirla a GitHub]]. Para ponerle un poco de pimienta, la lista se genera automáticamente [[https://github.com/facundoolano/software-papers/blob/main/papers.yml][a partir de un archivo YAML]].
+
+** Notas
+
+[fn:3] Obviamente, a medida que efectivamente leo los papers, la elección inicial se vuelve cuestionable y tengo que modificarla.
+
+[fn:2] Ejemplos: [[https://michaelfeathers.silvrback.com/10-papers-every-developer-should-read-at-least-twice][Michael Feathers]], [[https://ordep.dev/posts/my-favorite-papers  ][Pedro Tavares]], [[https://iq.opengenus.org/must-read-papers-data-structures/][OpenGenus]], [[https://web.archive.org/web/20141121110956/https://valbonneconsulting.wordpress.com/2014/06/09/an-incomplete-list-of-classic-papers-every-software-architect-should-read/][Valbonne Consulting]].
+
+[fn:1]  Para no descartar completamente todo lo otro que encontré, hice trampa con sublistas de lecturas "opcionales".

@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Web Anthologists"
+subtitle: Resurfacing Old Website Content
+date: 2024-01-11
+tags: [web]
+lang: en
+excerpt: "The problem with organizing content chronologically is that it makes everything ephemeral by default. Even if at a slower pace than social media, blogging still submits us to the clock. Just as we need discovery and curation to navigate through information overflow, we need archiving and anthologizing to stay aware of what came before."
+image: assets/img/auto2.jpg
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+A while back I read Maggie Appleton's [[https://maggieappleton.com/garden-history][history of Digital Gardening]] and [[https://stackingthebricks.com/how-blogs-broke-the-web/][a post]] she linked about how blogs set the stage for the web we have today. Both pieces are interesting in that they show, not only how we moved from a world of quirky personal websites to one of uniform profile pages, but how we got used to the reverse-chronological stream as the one way to present and consume information online.
+
+I'm personally ambivalent about this time-structuredness of the web. While I certainly see the benefits of reduced social media consumption, and I get and admire the idea of the digital garden  and the creativity it fosters, I still find the simplicity of blogs liberating. As a writer, it lets me focus on the production of the text, which is the part I'm most interested in; as a reader, especially when paired with RSS/Atom feeds, it gives me control of the information I receive.
+
+The problem with organizing content chronologically is that it makes everything ephemeral by default. Even if at a slower pace than social media, blogging still submits us to the clock: /when/ is more important than /what/, and /when/ only really matters if it's /now/. And that's OK for a lot of the stuff online, content that is best left forgotten or to be rewritten, but it means that conscious and consistent efforts are necessary if we intend to find and preserve good content that wasn't /just published/. Just as we need discovery and curation to navigate through information overflow, we need archiving and anthologizing to stay aware of what came before.
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
+
+I remember, many years ago, stumbling into a very thought-provoking game design article from Gamasutra and thinking to myself: "I'd like to read more stuff like this, do these folks publish books or something?". I couldn't afford the curation effort of going back through the entire website's archives, I wasn't knowledgeable enough to tell which subset of articles would be a good selection for me. I didn't want to pick some general book on game design, either, nor go deep into the particular topic that the article covered: I wanted to get 10 or 20 interesting pieces like the one I'd just read. What I wanted, in other words, was for the Gamasutra editors to tell me: "If you are going to read 10 of our articles, we suggest you make it these 10". I forgot the subject of that one piece, but the feeling that I was missing out on important stuff lingered.
+
+Today, whenever I see a good article on Mastodon or in a link aggregator, I skim the website's index or the blog archives and, if it looks mildly interesting, I add it to [[file:../2023-12-12-reclaiming-the-web-with-a-personal-reader][my feed reader]]. This is similar to the old follow on Twitter: the assumption is that, if this author published something I like, there's a chance I'll like the next thing they write. It's a bet on my side and, at its worst, a barter that puts pressure on the author to deliver more content. But, why should I care more about what the author writes next than what they wrote before?
+
+Of course, I could go back through the archive and try to make out what looks promising and plan on reading it later, but that's time-consuming and ineffective. I toyed with the idea of extending my reader to, whenever I follow a new feed, look up the domain in link aggregators and find old popular content. The reader could then randomly include old content into my feed, breaking the chronology.
+This would be an interesting experiment, but brittle, and it works under the arguable assumption that link aggregator stats are a good measure of value. I'd much rather hear what authors themselves have to say about their work: what's the part that matters most to them.
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
+
+A literary genre that I particularly enjoy is collections of essays and articles that first appeared in periodic publications. Strictly speaking, some of the greatest literature of the 20th century falls into this category: authors like Borges and Cheever published their stories in magazines and later collected them into their famous books. But less notorious instances of the genre work for me, too. Simple collections of newspaper columns, from authors that I haven't read before; there's something about the format that makes them good casual reads; something about the progression, and the contrast between pieces, that make the whole better than the sum of parts. The same goes for online content: I've enjoyed books that are merely the "greatest hits" of a blog.
+
+Jimmy Maher, for example, collects his blog posts [[https://www.filfre.net/the-digital-antiquarian-e-book-library/][into e-books]]. Each one covers a year of computer entertainment history, roughly starting in 1980. The e-book form enables a particular mode of reading, one that's very different from stumbling upon old articles through links or search results. He also keeps a [[https://www.filfre.net/hall-of-fame/]["hall of fame"]], a selection of articles about the games he most enjoyed, that offers another alternative reading itinerary for the blog.
+
+I've seen other bloggers and website owners do similar things: listing their most popular posts, or their favorite ones; some "selected works" or "suggested starting points". I started tagging some of my own posts as "favorites" by adding a ⭐ tag, trying to produce a mix of the pieces that I enjoyed writing, the ones that I put significant effort into, the ones that had good reception, or that best captured some recurring theme.
+
+Such non-chronological indexes make a big difference when I skim through a new website, providing me with material to bookmark or send to my device for reading later. But they are hardly enough on their own to absorb what a site has to offer; I feel like something else is missing. What if adding a list of selected or suggested posts became a standard practice, like the [[https://nownownow.com/about][~/now~ pages]] did? What if blogs had a ~/best~ or a ~/⭐~ page and, most importantly, exposed its contents as a feed? What kind of reading experiences could we build around that?
