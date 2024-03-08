@@ -1,5 +1,6 @@
 # project
 target
+_drafts
 
 # general
 .DS_Store
@@ -8,6 +9,5 @@ Gemfile.lock
 
 ideas.org
 
-_drafts
 
 .jekyll-metadata
