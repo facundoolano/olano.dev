@@ -16,11 +16,6 @@ map $uri $uri_no_trailing_slash {
     default $uri;
 }
 
-map $uri $uri_no_date_prefix {
-    "~^/\d{4}-\d{2}-\d{2}-(?<slug>.+)/?$" $slug;
-    default $uri;
-}
-
 server {
 
         charset utf-8;
@@ -34,11 +29,14 @@ server {
             # also handle the case where there's a file instead of a dir, but
             # the request comes with trailing slash --we still want to serve the file in that case.
             # otherwise respond 404.
-	    try_files $uri $uri.html $uri/ $uri_no_trailing_slash $uri_no_trailing_slash.html /blog/$uri_no_date_prefix.html =404;
+	    try_files $uri $uri.html $uri/ $uri_no_trailing_slash $uri_no_trailing_slash.html =404;
 	}
 
-    # redirect old blog rss url to new one
-    rewrite ^/feed/$ https://olano.dev/feed.xml permanent;
+        # redirect old jekyll blog posts to new jorge locations
+        rewrite "^/\d{4}-\d{2}-\d{2}-(?<slug>.+?)/?$" /blog/$slug permanent;
+
+        # redirect old blog rss url to new one
+        rewrite ^/feed/$ https://olano.dev/feed.xml permanent;
 
 
     listen [::]:443 ssl ipv6only=on; # managed by Certbot
