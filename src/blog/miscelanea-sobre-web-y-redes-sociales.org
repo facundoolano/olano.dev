@@ -19,7 +19,9 @@ quien la quiere de vuelta no tiene cerebro.
 Vladimir Putin
 #+end_verse
 
-\\
+#+begin_export html
+<br/>
+#+end_export
 
 ** 1: Enmierdización
 
@@ -34,7 +36,10 @@ Cory Doctorow acuñó el termino /enshittification/ para designar el ciclo en qu
 *** Fuentes
      - [[https://pluralistic.net/2023/01/21/potemkin-ai/#hey-guys][Tiktok's enshittification]].
 
-\\
+#+begin_export html
+<br/>
+#+end_export
+
 
 ** 2: La Fede
 
@@ -56,7 +61,10 @@ Elegir un server de Mastodon se parece a elegir una distribución de Linux. Y au
    - [[https://erinkissane.com/mastodon-is-easy-and-fun-except-when-it-isnt][Mastodon is easy and fun except when it isn’t]].
    - [[https://erinkissane.com/notes-from-a-mastodon-migration][Notes from a Mastodon migration]].
 
-\\
+#+begin_export html
+<br/>
+#+end_export
+
 
 ** 3: Otras webs
 
@@ -86,7 +94,10 @@ Los promotores de la web indie ofrecen tecnologías y protocolos para mantener l
    - [[https://slate.com/technology/2014/04/indiewebcamps-create-tools-for-a-new-internet.html][Welcome to the indie web Movement]].
    - [[https://www.jvt.me/posts/2019/10/20/indieweb-talk/][The indieweb Movement: Owning Your Data and Being the Change You Want to See in the web]].
 
-\\
+#+begin_export html
+<br/>
+#+end_export
+
 
 ** 4: RSS as in reinassance
 
@@ -110,7 +121,10 @@ Aunque el concepto es interesante, la implementación de un lector indie es dema
    - [[https://atthis.link/blog/2021/rss.html][Why I Still Use RSS]].
    - [[https://aaronparecki.com/2018/04/20/46/indieweb-reader-my-new-home-on-the-internet][An IndieWeb reader: My new home on the internet]].
 
-\\
+#+begin_export html
+<br/>
+#+end_export
+
 
 ** 5: Protocolos sí, plataformas no
 
@@ -154,5 +168,3 @@ En vista de las continuas burradas de Elon Musk, del creciente desencanto con la
    - [[https://www.inkandswitch.com/local-first/][Local-first software: You own your data, in spite of the cloud]].
    - [[https://www.wired.com/story/the-cloud-is-a-prison-can-the-local-first-software-movement-set-us-free/][The Cloud Is a Prison. Can the Local-First Software Movement Set Us Free?]]
    - [[https://www.gyford.com/phil/writing/2013/02/27/our-incredible-journey/][Our Incredible Journey]].
-
-\\

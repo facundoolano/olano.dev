@@ -151,9 +151,11 @@ hr.footnotes-separatator {
     display: inline;
 }
 
-.layout-post p.verse {
+.layout-post .verse-block {
     text-align: right;
 }
+
+.verse-block p { white-space: pre; }
 
 .layout-post img {
     max-width: 75%;
