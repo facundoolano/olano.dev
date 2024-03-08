@@ -75,6 +75,8 @@ def migrate_file(src):
         new_header = "* Notes" if fm_data.get('lang', 'es') == 'en' else "* Notas"
         content = content.replace("* Footnotes", new_header)
 
+        content = content.replace("../assets/", "/assets/")
+
         # DANGER ZONE, dubious regex substitution
         # if there are level 1 headings, demote all headings
         # apparently there was a weird interaction in my previous org -> md -> html setup

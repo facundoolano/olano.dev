@@ -20,7 +20,7 @@ Es decir que, más allá de la primera impresión, /Return of the Obra Dinn/ no 
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/puzzle/obradinn.gif">
+ <img src="/assets/img/puzzle/obradinn.gif">
 </div>
 #+END_EXPORT
 
@@ -37,7 +37,7 @@ Pero si se trata de buscar parecidos, /Return of the Obra Dinn/ se emparenta sob
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/obradinn2.webp">
+ <img src="/assets/img/obradinn2.webp">
 </div>
 #+END_EXPORT
 

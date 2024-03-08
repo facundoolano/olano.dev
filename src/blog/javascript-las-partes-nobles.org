@@ -25,7 +25,7 @@ sin alejarse demasiado del original, se ajustara mejor a mis preferencias. Ahora
 otro lenguaje existe y describirlo brevemente.
 
 #+BEGIN_CENTER
-[[../assets/img/funscript.jpg]]
+[[/assets/img/funscript.jpg]]
 #+END_CENTER
 
 El lenguaje se llama FunScript[fn:1] y, por comodidad, voy a tomar como base [[https://www.w3schools.com/js/js_versions.asp][ECMAScript 5]], es decir: JavaScript

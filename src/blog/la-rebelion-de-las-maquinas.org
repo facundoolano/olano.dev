@@ -18,7 +18,7 @@ La cámara sigue a un helicóptero que se tambalea delante de una cascada, desce
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/jurassic/landscape.png" width="640">
+ <img src="/assets/img/jurassic/landscape.png" width="640">
 </div>
 #+END_EXPORT
 
@@ -30,7 +30,7 @@ La ejecución de la película, en suma, es impecable, nada menos de lo que esper
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/jurassic/doug.jpg" width="640">
+ <img src="/assets/img/jurassic/doug.jpg" width="640">
 </div>
 #+END_EXPORT
 
@@ -40,7 +40,7 @@ En ambos casos los efectos estuvieron a cargo de Industrial Light & Magic (ILM),
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/jurassic/trex.jpg" width="640">
+ <img src="/assets/img/jurassic/trex.jpg" width="640">
 </div>
 #+END_EXPORT
 

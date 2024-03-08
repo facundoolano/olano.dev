@@ -101,7 +101,7 @@ After some trial and error with different UI layouts and features, a usage patte
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/feedi1.png">
+ <img src="/assets/img/feedi1.png">
 </div>
 #+END_EXPORT
 
@@ -121,8 +121,8 @@ At first, I left the app running on a terminal tab on my laptop and used it whil
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/feedi2.png" style="padding-right: 2rem">
- <img src="../assets/img/feedi3.png">
+ <img src="/assets/img/feedi2.png" style="padding-right: 2rem">
+ <img src="/assets/img/feedi3.png">
 </div>
 #+END_EXPORT
 

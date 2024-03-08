@@ -37,7 +37,7 @@ libro que quiero tener en mi biblioteca.
 #+BEGIN_EXPORT html
 <div class="text-center">
 <a href="https://www.bookdepository.com/Masters-Doom-David-Kushner/9780812972153" target="_blank">
- <img src="../assets/img/doom2.jpg">
+ <img src="/assets/img/doom2.jpg">
 </a>
 </div>
 #+END_EXPORT

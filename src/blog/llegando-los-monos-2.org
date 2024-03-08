@@ -19,7 +19,7 @@ Esta es la segunda parte de una serie de dos.[[file:llegando-los-monos/][ /Leer 
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/adventures/dott.png">
+ <img src="/assets/img/adventures/dott.png">
 </div>
 #+END_EXPORT
 
@@ -31,7 +31,7 @@ Y mientras los diseñadores de aventuras estaban en un cumple, se gestaba una re
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/adventures/throttle.gif">
+ <img src="/assets/img/adventures/throttle.gif">
 </div>
 #+END_EXPORT
 
@@ -41,7 +41,7 @@ Esos aires de cambio ciertamente tuvieron su efecto en el diseño del siguiente 
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/adventures/fandango.jpg">
+ <img src="/assets/img/adventures/fandango.jpg">
 </div>
 #+END_EXPORT
 
@@ -62,7 +62,7 @@ El nuevo milenio ofrecía un paisaje árido a los jugadores de aventuras. LucasA
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/adventures/broken.jpg">
+ <img src="/assets/img/adventures/broken.jpg">
 </div>
 #+END_EXPORT
 
@@ -78,7 +78,7 @@ En perspectiva, las mayores contribuciones de /Double Fine Adventure/ fueron [[h
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/adventures/weed.webp">
+ <img src="/assets/img/adventures/weed.webp">
 </div>
 #+END_EXPORT
 
@@ -90,7 +90,7 @@ Aunque se lo siguiera considerado un pionero, a esa altura era fácil dudar de l
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/adventures/return.jpg">
+ <img src="/assets/img/adventures/return.jpg">
 </div>
 #+END_EXPORT
 

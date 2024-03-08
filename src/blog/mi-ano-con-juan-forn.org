@@ -18,7 +18,7 @@ Era tal mi nivel de desorientación que mi primer contacto con autores argentino
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/anagrama.jpg" width="250px">
+ <img src="/assets/img/anagrama.jpg" width="250px">
 </div>
 #+END_EXPORT
 
@@ -38,7 +38,7 @@ Mi novia y yo nos turnamos para leerlo en el micro de vuelta. Fue una lectura ra
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/forn.jpg">
+ <img src="/assets/img/forn.jpg">
 </div>
 <br/>
 #+END_EXPORT

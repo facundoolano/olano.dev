@@ -15,7 +15,7 @@ lang: es
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/puzzle/p1.png">
+ <img src="/assets/img/puzzle/p1.png">
 </div>
 <div><br/></div>
 #+END_EXPORT
@@ -30,7 +30,7 @@ Así, un grupo de hackers de UNIX, apelando a los caracteres ASCII como símbolo
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/puzzle/monkey.jpg">
+ <img src="/assets/img/puzzle/monkey.jpg">
 </div>
 #+END_EXPORT
 
@@ -39,7 +39,7 @@ Así, Mark Ferrari, aquel ilustrador de Lucasfilm Games, le encontró la vuelta 
 #+BEGIN_EXPORT html
 <br/>
 <div class="text-center">
- <img src="../assets/img/puzzle/p2.png">
+ <img src="/assets/img/puzzle/p2.png">
 </div>
 <div><br/></div>
 #+END_EXPORT
@@ -52,7 +52,7 @@ Convencido de que la rotoscopia era el camino para realizar su visión, se dedic
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/puzzle/prince.png">
+ <img src="/assets/img/puzzle/prince.png">
 </div>
 #+END_EXPORT
 
@@ -65,7 +65,7 @@ La técnica de rotoscoping se usaría en otros clásicos, los franceses /Another
 #+BEGIN_EXPORT html
 <br/>
 <div class="text-center">
- <img src="../assets/img/puzzle/p3.png">
+ <img src="/assets/img/puzzle/p3.png">
 </div>
 <div><br/></div>
 #+END_EXPORT
@@ -80,7 +80,7 @@ Así, el diseño del /Rogue/ ---arte ASCII, niveles generados algorítmicamente 
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/puzzle/obradinn.gif">
+ <img src="/assets/img/puzzle/obradinn.gif">
 </div>
 #+END_EXPORT
 
@@ -89,7 +89,7 @@ Así, los desarrolladores independientes siguen apelando al /pixel art/ para toc
 #+BEGIN_EXPORT html
 <br/>
 <div class="text-center">
- <img src="../assets/img/puzzle/p4.png">
+ <img src="/assets/img/puzzle/p4.png">
 </div>
 <div><br/></div>
 #+END_EXPORT
@@ -109,7 +109,7 @@ Así que Barnstone se esforzó un poco más. Descubrió que no era más difícil
 #+BEGIN_EXPORT html
 <br/>
 <div class="text-center">
- <img src="../assets/img/puzzle/p5.png">
+ <img src="/assets/img/puzzle/p5.png">
 </div>
 <div><br/></div>
 #+END_EXPORT
@@ -124,7 +124,7 @@ El *vidrio* como *puñalada* provee una *saudade* parecida a la del *ron* y, aca
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/puzzle/steinberg.jpg">
+ <img src="/assets/img/puzzle/steinberg.jpg">
 </div>
 #+END_EXPORT
 
@@ -133,7 +133,7 @@ Lo que en este caso es un mero entretenimiento constituye el proyecto literario 
 #+BEGIN_EXPORT html
 <br/>
 <div class="text-center">
- <img src="../assets/img/puzzle/p6.png">
+ <img src="/assets/img/puzzle/p6.png">
 </div>
 <div><br/></div>
 #+END_EXPORT
@@ -149,7 +149,7 @@ Para "rellenar" cada casillero, Perec armó un [[https://es.wikipedia.org/wiki/C
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/puzzle/perec.gif">
+ <img src="/assets/img/puzzle/perec.gif">
 </div>
 #+END_EXPORT
 
@@ -166,7 +166,7 @@ Esta historia tiene su reverso en la de Gaspard Winckler, el carpintero que fabr
 #+BEGIN_EXPORT html
 <br/>
 <div class="text-center">
- <img src="../assets/img/puzzle/p7.png">
+ <img src="/assets/img/puzzle/p7.png">
 </div>
 <div><br/></div>
 #+END_EXPORT
@@ -186,7 +186,7 @@ Lo que nos dice Perec, refiriéndose en la superficie a los rompecabezas y en el
 #+BEGIN_EXPORT html
 <br/>
 <div class="text-center">
- <img src="../assets/img/puzzle/p8.png">
+ <img src="/assets/img/puzzle/p8.png">
 </div>
 <div><br/></div>
 #+END_EXPORT
@@ -197,7 +197,7 @@ En el otro extremo del espectro de los videojuegos hay vastos mundos en los que 
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/puzzle/shadow.jpg">
+ <img src="/assets/img/puzzle/shadow.jpg">
 </div>
 #+END_EXPORT
 
@@ -208,7 +208,7 @@ Pero también hay puzzles en lugares menos obvios: en los niveles del primer /Su
 #+BEGIN_EXPORT html
 <br/>
 <div class="text-center">
- <img src="../assets/img/puzzle/p9.png">
+ <img src="/assets/img/puzzle/p9.png">
 </div>
 <div><br/></div>
 #+END_EXPORT

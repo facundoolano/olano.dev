@@ -25,7 +25,7 @@ De ahí, de Prusia, surgieron los primeros juegos de guerra en el siglo XVIII. D
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/rpg/kriegsspiel.jpg">
+ <img src="/assets/img/rpg/kriegsspiel.jpg">
 </div>
 #+END_EXPORT
 
@@ -51,7 +51,7 @@ En 1971, Gary Gygax publicó /Chainmail/, un reglamento para juegos de guerra en
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/rpg/dnd.jpg">
+ <img src="/assets/img/rpg/dnd.jpg">
 </div>
 #+END_EXPORT
 

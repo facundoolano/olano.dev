@@ -14,7 +14,7 @@ A continuación, un compendio.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/blood-pixels.jpg" width="320">
+ <img src="/assets/img/blood-pixels.jpg" width="320">
 </div>
 #+END_EXPORT
 
@@ -24,7 +24,7 @@ Para un tratamiento relativamente riguroso de la historia de los videojuegos est
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/crpg-book.png" width="320">
+ <img src="/assets/img/crpg-book.png" width="320">
 </div>
 #+END_EXPORT
 

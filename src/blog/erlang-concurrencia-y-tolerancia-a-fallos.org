@@ -15,7 +15,7 @@ lang: es
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/erlang/squid.png" width="320">
+ <img src="/assets/img/erlang/squid.png" width="320">
 </div>
 #+END_EXPORT
 
@@ -413,7 +413,7 @@ En el ejemplo anterior suponemos que el ~calc_sup~ tiene dos workers "hijos": ~c
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/erlang/suptypes.png" width="640">
+ <img src="/assets/img/erlang/suptypes.png" width="640">
 </div>
 #+END_EXPORT
 
@@ -433,7 +433,7 @@ Además de procesos workers, los supervisores pueden tener como hijos a otros su
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/erlang/suptree.png">
+ <img src="/assets/img/erlang/suptree.png">
 </div>
 #+END_EXPORT
 
@@ -453,7 +453,7 @@ Esta manera de estructurar las aplicaciones Erlang encierra el corazón de su fi
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/erlang/erlang-the-movie.png" width="320">
+ <img src="/assets/img/erlang/erlang-the-movie.png" width="320">
 </div>
 #+END_EXPORT
 

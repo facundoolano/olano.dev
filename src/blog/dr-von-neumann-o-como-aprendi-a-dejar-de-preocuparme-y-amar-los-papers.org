@@ -16,7 +16,7 @@ El chiste empezó cuando me puse a leer /The Innovators/, el libro de Walter Isa
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/innovators.jpg" width="250px">
+ <img src="/assets/img/innovators.jpg" width="250px">
 </div>
 #+END_EXPORT
 
@@ -30,7 +30,7 @@ Así que, cuando me encontré con el libro de Lewis, creí haber encontrado la s
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="../assets/img/lewis.jpeg" width="250px">
+ <img src="/assets/img/lewis.jpeg" width="250px">
 </div>
 #+END_EXPORT
 

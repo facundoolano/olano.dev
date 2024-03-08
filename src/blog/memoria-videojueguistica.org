@@ -20,7 +20,7 @@ Quizás sea un impulso natural del autor el tratar de introducirse como personaj
 
 #+BEGIN_CENTER
 #+attr_html: :width 480px
-[[../assets/img/memo/queseyo.jpg]]
+[[/assets/img/memo/queseyo.jpg]]
 #+END_CENTER
 
 A mediados del 2000 hubo una "fiebre" del /Sims/. Yo lo compré sin saber de qué se trataba, confiando en que Maxis ofrecería algo a la altura del /SimCity/. Obviamente me volví adicto inmediatamente, pero lo novedoso fue que no era el único: parecía que todas las personas de mi edad lo estaban jugando, incluso gente que no solía interesarse por los videojuegos o que ni siquiera tenían una computadora en su casa. Esta especie de casa de muñecas digital te enganchaba en muchos niveles: podías jugar a "ganarte la vida" (estudiar, trabajar, hacer amistades, levantarte a la vecina), dedicarte a hacer shopping, pasarte horas en modo arquitecto o hasta armar sofisticados dispositivos de tortura: matar de hambre a los Sims, prenderlos fuego u obligarlos a dormir en su propio meo.
@@ -31,7 +31,7 @@ En esta última etapa resurgió la contradicción: después de pasar horas const
 
 #+BEGIN_CENTER
 #+attr_html: :width 480px
-[[../assets/img/memo/sims.png]]
+[[/assets/img/memo/sims.png]]
 #+END_CENTER
 
 La creación de "avatars" se volvió un estándar: ya venía integrada en los videojuegos y no implicaba ningún desafío creativo, pero la experiencia con el /Sims/ me dejó predispuesto a recurrir a internet en busca de opciones más sofisticadas para modificar los juegos que me interesaban.
@@ -46,7 +46,7 @@ En el /Counter-Strike/, con la excepción del arma, el protagonista era invisibl
 
 #+BEGIN_CENTER
 #+attr_html: :width 480px
-[[../assets/img/memo/hammer.png]]
+[[/assets/img/memo/hammer.png]]
 #+END_CENTER
 
 

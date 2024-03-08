@@ -14,7 +14,7 @@ Dejo algunas notas de mi lectura de /Fundamentals of Software Architecture: An E
 #+BEGIN_EXPORT html
 <div class="text-center">
 <a href="https://www.bookdepository.com/Fundamentals-of-Software-Architecture/9781492043454" target="_blank">
- <img src="../assets/img/architecture.jpg">
+ <img src="/assets/img/architecture.jpg">
 </a>
 </div>
 #+END_EXPORT
