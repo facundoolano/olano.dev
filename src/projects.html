@@ -10,7 +10,7 @@ head_title: Projects
 <article class="project">
     <span class="date">{{ project.date }}</span>
     <div class="project-details">
-        <a class="project" href="{{ project.url }}">{{project.name}}</a>:&nbsp;{{ project.description | markdownify }}
+        <a class="project" href="{{ project.url }}">{{project.name}}</a>:{{ project.description | markdownify }}
     </div>
 </article>
 {% endfor %}

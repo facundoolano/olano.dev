@@ -52,7 +52,7 @@ a:hover {
     padding-right: .5rem;
     white-space: nowrap;
 }
-.tags, .project-details {
+.tags {
     display: inline-block;
 }
 
@@ -64,9 +64,17 @@ article.post, article.project {
     text-align: center;
 }
 
-.projects-index p {
+.project {
+    display: flex
+}
+
+.project-details * {
     display: inline;
     line-height: 1.6;
+}
+
+.project-details p {
+    margin-left: 0.3rem;
 }
 
 hr {
@@ -143,12 +151,13 @@ hr.footnotes-separatator {
 
 /* makes footnote number and text display in the same line  */
 .footnote-definition {
-    display: block;
+    display: flex;
     vertical-align: top;
     margin-bottom: .4rem;
 }
 .footnote-body, .footnote-body p {
     display: inline;
+    margin-left: 0.25rem;
 }
 
 .layout-post .verse-block {
