@@ -4,3 +4,7 @@ author: Facundo Olano
 avatar: "/assets/img/inchequeable.png"
 
 url: "https://olano.dev"
+
+minify_exclusions:
+  - "house-taken/*"
+  - "advenjure/*"
