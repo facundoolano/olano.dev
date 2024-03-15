@@ -29,7 +29,7 @@ layout: base
   <br/>
 
   <p class="text-center">
-      <span class="date dt-published">{{ page.date | date: "%d/%m/%Y" }}</span>
+      <span class="date dt-published">{{ page.date | date: "%Y-%m-%d" }}</span>
       <span class="tags">
           {% for tag in page.tags %}
           <a class="p-category" href="/blog/tags#{{tag}}">#{{tag}}</a>
