@@ -1,0 +1,68 @@
+---
+layout: post
+title: La rebelión de las máquinas
+date: 2021-12-28
+tags: [cine, software, ficción, distopías]
+favorite: true
+thumbnail-img: assets/img/jurassic/gate2.png
+share-img: assets/img/jurassic/trex.jpg
+image: assets/img/jurassic/trex.jpg
+lang: es
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+Hay actores que saben ser espectadores, que pueden desprenderse del aspecto técnico de la actuación y dejarse llevar por la obra de teatro o la película que tienen enfrente; apagan el ojo crítico y observan como uno más del público. Sam no es uno de ellos; Sam se detiene en los gestos y el tono de voz de los actores, se pregunta cuánto del diálogo se debe al guionista y cuánto hay de improvisación, se cuestiona las elecciones del director, se entretiene calculando cuántas tomas hicieron falta para componer ese resultado final. Sam se distrae con los detalles, le cuesta seguir el hilo del conjunto. La cosa se pone mucho peor cuando lo que está mirando es, como ahora, una película en la que él participó, cuando se ve a sí mismo en la pantalla.
+
+La cámara sigue a un helicóptero que se tambalea delante de una cascada, descendiendo hasta aterrizar. En la toma siguiente, un grupo de gente, entre ellos Sam, baja del helicóptero y se reparte en dos Jeeps. Sam se acuerda de las dos horas de paseo que dieron por la isla, las repetidas paradas y retrocesos que ahora se reducen a diez segundos de película. Piensa en aquel día de grabación, el olor del Jeep que habían terminado de pintar esa misma mañana, el sol insoportable del mediodía en Hawái. Sam ve a los dos Jeeps detenerse entre los árboles, uno atrás del otro, el plano cerrándose sobre su cara que mira hacia afuera con perplejidad. Piensa en lo ridículo que se sentían en esa y en todas las otras escenas en las que tuvieron que interactuar con animales imaginados, en los gestos y los movimientos de asombro que hubo que ensayar una y otra vez, sacándose anteojos y sombrero para insinuar una revelación que recién habría de realizarse durante la post-producción. Sam se inclina hacia adelante hasta quedar al borde de la butaca, se suspende con los músculos tensionados, apoya una mano sobre el asiento de adelante. Sabe que la suerte de la película se juega en esta escena. En la pantalla ve a Laura sacándose los anteojos y abriendo la boca, gestos parecidos a los suyos en la toma anterior; Sam gira la cabeza y se encuentra con Laura, a un par de asientos de distancia, que también lo busca y le sonríe. Se levanta un murmullo en toda la sala, alguien ahoga un grito. /Es... es un dinosaurio/, retumba la voz de Sam. En la fila de atrás, Jeff se ve en la pantalla como en un espejo y repite: /Lo lograste. Loco hijo de puta, lo lograste/. En el fondo de la sala un productor susurra excitado: /Vamos a hacer una fortuna con esta película./
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="/assets/img/jurassic/landscape.png" width="640">
+</div>
+#+END_EXPORT
+
+Superficialmente, /Jurassic Park/ no es ni más ni menos que una secuela de /Tiburón/ sobre tierra firme. Con el tecno-thriller de Michael Crichton como vehículo, Spielberg se proponía lograr la representación más realista hasta la fecha de los dinosaurios, valiéndose del progreso tecnológico reciente: una mezcla de /go motion/, /animatronics/ y CGI en proporciones que todavía estaban por definirse.
+
+La trama no dista mucho de ciertas distopías de ciencia ficción, una variante paleontológico-tropical (?) de la [[https://es.wikipedia.org/wiki/Rebeli%C3%B3n_de_las_m%C3%A1quinas][rebelión de las máquinas]] para la que no hacía falta viajar al futuro: /God creates dinosaurs. God destroys dinosaurs. God creates man. Man destroys God. Man creates dinosaurs. Dinosaur eats man. (Woman inherits the Earth)./ La explicación científica es satisfactoria: mosquitos, ámbar, ADN y ranas; la adaptación al guión, magistral, con ese mini-documental animado para los visitantes del parque que produce una fascinación pseudocientífica parecida a la escena del Doc Brown trazando líneas de tiempo en el pizarrón de /Volver al Futuro 2/.
+
+La ejecución de la película, en suma, es impecable, nada menos de lo que esperaríamos de Spielberg, pero eso no alcanza para explicar por qué /Jurassic Park/ es una obra maestra. Tampoco lo podemos justificar exclusivamente con los méritos de sus efectos visuales. Es la suma de esas dos cosas /más el contexto histórico en que fue producida y estrenada/ lo que la convierte en un hito. Lo interesante es proyectar el argumento tecnológico por detrás de la cámara y más allá de la pantalla: /Jurassic Park/ no es una película sobre dinosaurios ni una película sobre tecnología sino, más lisa y llanamente, una película sobre computadoras. Una película /de época/ sobre las posibilidades creativas del software.
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="/assets/img/jurassic/doug.jpg" width="640">
+</div>
+#+END_EXPORT
+
+Dos años antes de /Jurassic Park/, en 1991, se estrena /Terminator 2/, la que podemos considerar su mayor precursora. /T2/ fue la película más cara de la historia y, hasta el estreno de /Jurassic Park/, la más taquillera. Empecemos forzando un paralelo argumental: las dos tratan de innovaciones tecnológicas que se salen de control y se vuelven contra sus creadores. En efecto, el discurso de Ian Malcom, que ahora es meme, es equivalente al ataque de Sarah Connor contra la vivienda del desarrollador de Skynet: /Your scientists were so preoccupied with whether or not they could that they didn't stop to think if they should/[fn:1]. En el caso de /T2/, sin embargo, esta trama distópica parece ser apenas un accesorio para el verdadero objeto de la película, ese festival de explosiones, efectos especiales y rocanrol.
+
+En ambos casos los efectos estuvieron a cargo de Industrial Light & Magic (ILM), una división de LucasFilms creada originalmente para /Star Wars/, y, en ambos casos, se extendió la frontera de lo posible en efectos visuales, en particular de lo que las imágenes computarizadas (CGI) podían aportar al cine[fn:2]. De alguna manera, /Terminator 2/ es una película al servicio de los efectos especiales; exagerando un poco, diríamos que es prácticamente una demo de dos horas de ILM: el androide T-1000 atravesando las rejas del manicomio, el T-1000 escondido en las baldosas del piso, el T-1000 con manos de cuchillo o de palanca, el T-1000 congelado, derretido, explotado y reintegrado. La fascinación que tenemos, todavía hoy, al ver esas imágenes, no implica una [[https://es.wikipedia.org/wiki/Suspensi%C3%B3n_de_la_incredulidad][suspensión de la incredulidad]]: nos asombra menos la posibilidad del T-1000 que el hecho de que una computadora sea capaz de producir semejantes imágenes. Todo lo contrario a lo que pasa con /Jurassic Park/, donde los personajes se mueven libremente entre los dinosaurios e interactúan con ellos, y los espectadores no sabemos, ni nos interesa, dónde hay CGI y dónde hay animatronics. Si la conclusión de un espectador al salir de una función de /Terminator 2/ en 1991 era: /tarde o temprano, cualquier efecto visual va a ser posible con la ayuda de una computadora/, el que vio /Jurassic Park/ dos años después tuvo que admitir que /cualquier historia imaginable puede ser realizada en el cine/.
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="/assets/img/jurassic/trex.jpg" width="640">
+</div>
+#+END_EXPORT
+
+Algo así es lo que pensaron Steven Spielberg y George Lucas cuando vieron las primeras pruebas de dinosaurios animados por computadora: /ya nada va a ser lo mismo/. Spielberg tuvo que cambiar su plan inicial de usar exclusivamente efectos prácticos, descartar el /go-motion/ e incluso reescribir el guión para darle más protagonismo al T-Rex. Así y todo, hay apenas 14 minutos de dinosaurios en toda la película, de los cuales solo 4 fueron generados por computadora. Lo caro del recurso obligaba a administrarlo cuidadosamente, resultando varias escenas en las que los dinosaurios se insinúan sin llegar a mostrarse. Esa economía termina contribuyendo tensión a la trama, un efecto que evoca la aparición tardía de la bestia en /Tiburón./
+
+La idea de que la influencia de las computadoras va a cambiar las cosas par siempre, en el cine y en todos los aspectos de la vida, es un leitmotiv de la película. Ya desde su primera escena, Alan Grant avisa que las computadoras le desagradan casi tanto como los niños y, cuando Malcom le dice que el avance tecnológico lo va a dejar sin trabajo (extinto), están reproduciendo las palabras del animador /go-motion/ cuyo rol en la película fuera desplazado por el CGI. Ahí tenemos al Newman de /Seinfeld/ reconvertido en programador, quejándose de su salario y del desprecio a su trabajo, al jefe de sistemas que hereda el muerto y no sabe la palabra mágica, a la nieta de Hammond que, como /El Hacker/ de Telefé, tiene conocimientos UNIX para abrir puertas a distancia.
+
+La película funciona paradójicamente como una alegoría de sí misma: nos muestra una tecnología que hace posible lo que se creía imposible, empaquetada para el consumo masivo en la industria del entretenimiento. /Jurassic Park/ tuvo a favor el factor sorpresa, la chance de tomar desprevenidos a los espectadores, algo que iba a suceder por última vez. Después de /Jurassic Park/, entramos al cine sabiendo que no hay imposibles. Por eso no funcionan las secuelas, ni la avalancha de películas "de efectos" que la sucedieron; no se puede sostener una película exclusivamente en los artificios visuales, por abundantes que sean. Había una sola bala y, afortunadamente para nosotros, la justicia poética o la lógica de mercado se la dio a Spielberg, el que estaba en mejores condiciones para usarla.
+
+** Fuentes
+
+- [[http://www.dailyscript.com/scripts/jurassicpark_script_final_12_92.html][Jurassic Park screenplay by David Koepp]]
+- [[https://www.dailymotion.com/video/x2ymqb4][The Making of Jurassic Park]]
+- [[https://www.filmsite.org/visualeffects15.html][Greatest visual and special effects milestones in film (1992-1994)]]
+- [[https://www.theatlantic.com/entertainment/archive/2013/04/the-i-jurassic-park-i-period-how-cgi-dinosaurs-transformed-film-forever/274669/][The Jurassic Park period: How CGI dinosaurs transformed film forever]]
+- [[http://www.wideanglecloseup.com/jurassicpark.html][Suspending Disbelief: Creating the monstrous effects for Jurassic Park]]
+- [[http://www.starringthecomputer.com/feature.php?f=11][Computers in movies and television: Jurassic Park]]
+- [[https://beforesandafters.com/2019/10/21/the-tech-of-terminator-2-an-oral-history/][The tech of ‘Terminator 2’ – an oral history]]
+- Comic Sans
+
+** Notas
+
+[fn:2] Por la misma época, Pixar y id Software se preparaban para hacer lo propio con los largometrajes animados y los videojuegos de computadora, respectivamente. 1991 es, además, el año en que Tim Berners-Lee publica la WorldWideWeb y Linus Torvalds anuncia Linux.
+
+[fn:1] El argumento puede igualmente aplicarse al Proyecto Manhattan o a la mitad de la industria contemporánea del software: técnicos resolviendo rompecabezas, despegados del impacto global de su trabajo.

@@ -1,0 +1,95 @@
+---
+layout: post
+title: "Tenencia de software para uso personal"
+excerpt:  "Si tuviera un disco rígido en la nube, un espacio de almacenamiento al que solo pudieran acceder las aplicaciones que yo autorice en los términos que yo autorice, no tendría incentivos para usar productos de Google y Apple para tareas mundanas como tomar notas o compartir archivos."
+date: 2023-09-12
+tags: [software, utopías]
+share-img: assets/img/pc.jpg
+image: assets/img/pc.jpg
+thumbnail-img: assets/img/pc.jpg
+lang: es
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+** 1. Introducción
+
+Al final del [[file:miscelanea-sobre-web-y-redes-sociales][post anterior]] mencioné dos artículos que nos ayudan a imaginar otra web, una en que los usuarios recuperamos algo del control que cedimos a las plataformas y las redes sociales privadas.
+Recapitulando:
+
+- [[https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech][/Protocols, not Platforms: A Technological Approach to Free Speech/]], de Mike Masnick, propone volver a una web con predominio de protocolos abiertos, más parecida a la que teníamos hasta mediados de los 2000 cuando plataformas como Facebook y Twitter empezaron a ganar popularidad. Según el autor, esa transición  ayudaría a resolver la crisis de libertad de expresión que atraviesan los medios online, a la vez que devolvería control y privacidad a los usuarios y abriría nuevos modelos de negocio.
+- [[https://www.inkandswitch.com/local-first/][/Local-first software: You own your data, in spite of the cloud/]], de Martin Kleppmann y compañía, propone reorientar la manera en que diseñamos software para combinar lo mejor de las aplicaciones en la nube (acceso desde muchos dispositivos y colaboración en tiempo real) y de las viejas aplicaciones de escritorio (velocidad, acceso offline, durabilidad, control de los datos, etc.).
+
+Ninguno de los dos proyectos propone que el software sea totalmente descentralizado o /peer to peer/, sino más bien que no exista una autoridad central en condiciones de impedir su uso sostenible. Es justamente en el nuevo rol que podrían asumir los servidores ---sus posibles usos e implementaciones--- que encuentro el mayor potencial de cambio. Aplicando algunas de las ideas prácticas ahí descriptas y postergando las más complicadas ---las que suponen avances tecnológicos o determinadas condiciones sociales y económicas para realizarse---, podríamos igualmente cambiar el paradigma con que usamos y diseñamos una cantidad importante de aplicaciones, aquellas que llamo /de uso personal/.
+
+** 2. Limitaciones
+
+Según el paper de Kleppmann, para realizar el ideal /local-first,/ las aplicaciones deberían ofrecer:
+1. Velocidad. En particular, no tener que interactuar con un servidor para leer o escribir datos.
+2. Funcionamiento offline.
+3. Durabilidad. En particular, que el software siga siendo usable aún si desapareciera la organización que lo produjo.
+4. Privacidad.
+5. Propiedad y control del programa y los datos en manos del usuario.
+6. Sincronización entre dispositivos.
+7. Colaboración en tiempo real.
+
+Los primeros cinco atributos son los que tradicionalmente nos daba el software de escritorio y que perdimos en la transición a la nube. El desafío técnico es, entonces, lograr los otros dos ---sincronización de dispositivos y colaboración en tiempo real--- en un contexto en que la aplicación y los datos vuelvan a residir en la computadora del usuario.
+
+En el software /local-first/ cada copia de un documento es una "copia maestra" y, como varios dispositivos o varios usuarios pueden modificar independientemente un mismo documento, las distintas copias locales pueden divergir. Como no hay un servidor que funcione como autoridad, hacen falta métodos descentralizados para resolver conflictos. Este problema se agrava cuando varios usuarios editan un mismo documento en tiempo real. De ahí que los CRDTs (estructuras de datos multi-usuario con capacidad de resolver conflictos automáticamente) sean una tecnología fundacional del /local-first/ software, que su disponibilidad y madurez sean [[https://www.wired.com/story/the-cloud-is-a-prison-can-the-local-first-software-movement-set-us-free/][condición necesaria]] para realizar el proyecto.
+
+Sin embargo, pienso que la mayor parte del tiempo que pasamos usando software no lo hacemos colaborando en tiempo real. Y que, aunque accedemos al mismo documento desde muchos dispositivos, es raro que eso derive en conflictos de datos. Que, además, no hay necesidad de que sea un mismo programa el que ofrece colaboración en tiempo real que el que provea almacenamiento de los datos a largo plazo.
+
+Por ejemplo: en mi trabajo usamos GoogleDocs o Hack.md para editar documentos grupalmente. Tal vez lo hagamos en vivo durante una videollamada o iterativamente en el transcurso de varios días. Pero no pretendemos que GoogleDocs o Hack.md sean opciones adecuadas para acceder o preservar esos documentos a largo plazo. Ni que funcionen bien si nos quedamos sin conexión a internet. Estamos incluso dispuestos a ceder un poco de privacidad o durabilidad durante el tiempo en que tenemos que colaborar intensivamente, para después sí guardar el documento ---y ocasionalmente editarlo--- en un repositorio de git, en un mdbook o en un documento de Confluence.
+
+Claro que sería cómodo poder resolver todo el trabajo con la misma herramienta, pero no creo que sea convirtiendo aplicaciones de colaboración en tiempo real en aplicaciones locales donde esté el mayor margen de mejora para la experiencia de usuario. Podemos beneficiarnos aplicando el resto de los principios del /local-first/ software a otro tipo de programas, los que usamos a largo plazo y nos cuestan privacidad y autonomía, los que nos exponen a perder el control de nuestro trabajo. Sin tener que esperar a que los CRDTs estén preparados para producción, sin que los usuarios tengan que manejar nociones de sistemas distribuidos, sin que los desarrolladores tengan que multiplicar la complejidad de sus implementaciones.
+
+** 3. Software de uso personal
+
+Si posponemos el requerimiento de colaboración en tiempo real, lo que le falta al software tradicional para convertirse en /local-first/ y ser una alternativa viable a las aplicaciones en la nube es accesibilidad: poder compartir nuestros documentos con otros usuarios o aplicaciones, guardar backups y, sobre todo, sincronizarlos automáticamente entre varios dispositivos.
+
+Como usuario, pago suscripciones o cedo privacidad para realizar tareas que años atrás resolvía con programas de escritorio (en muchos casos software libre) porque ya no me alcanza con tener todos mis documentos en una única computadora hogareña. Ahora necesito accederlos en una o varias computadoras laborales, en el celular que llevo a todas partes, a veces hasta en un lector electrónico o un televisor. Uso Spotify para lo que antes usaba Winamp o mpd; Netflix, HBO, Star+, Disney+, Prime Video para lo que antes usaba VLC; Google Keep para lo que antes usaba el bloc de notas, Trello para lo que antes usaba el bloc de notas, 1Password para lo que antes usaba... el bloc de notas.
+
+Como desarrollador experimento algo parecido: cualquier herramienta que proyecto decanta en aplicación web, porque para ser realmente útil tiene que ser accesible desde muchos dispositivos. El /statu quo/ empuja a los programadores a convertir aplicaciones en plataformas y a los usuarios a elegir entre ser suscriptores de servicios privados o administradores de software libre.
+
+Pero no todo el software en mi celular son complejas redes sociales o grandes monopolios de contenidos. La mayoría son aplicaciones sencillas, de uso cotidiano, de productividad personal. Aplicaciones de notas, listas de tareas, procesadores de texto, calendarios, gestores de passwords, almacenamiento de fotos, de texto, repositorios de código. Separadas de los datos que manejan, esas aplicaciones son /commodities/, interfaces reemplazables por otras parecidas. Pero son justamente esos documentos, difíciles de acceder por fuera de sus aplicaciones, los que acumulo hace más tiempo y los que más me costaría reemplazar, mucho más que las canciones de Spotify o las películas de Netflix.
+
+Así como las interfaces podrían ser commodities, el almacenamiento de datos de hecho ya lo es.
+Si tuviera algo así como un disco rígido en la nube, un espacio de almacenamiento al que solo pudieran acceder las aplicaciones que yo autorice en los términos que yo autorice, y si existiera una forma estandarizada, un protocolo que instruyera a las aplicaciones cómo leer y escribir datos, cómo sincronizar documentos independientemente del proveedor que yo elija contratar, si existieran esas dos cosas no tendría incentivos para usar productos de Google o Apple para tareas mundanas como tomar notas, no correría mayores riesgos al usar aplicaciones de startups que pueden fundir o ser adquiridas, o software libre que se puede quedar sin mantenimiento.
+
+En lo que respecta a una buena parte del software que usamos cotidianamente, es la separación entre las aplicaciones locales y el almacenamiento remoto de (copias de) los datos lo que hace falta para realizar el /local-first software/.
+
+** 4. Bancos de datos privados
+
+Esta idea de bancos de datos privados, imposibles de explotar por los proveedores, es parte del modelo que propone Masnick en /Protocols, not Plaforms/:
+
+#+begin_quote
+Social media-style systems would not need to collect and host all of your data. (...) end users would simply build their own “data stores” via apps that they control. Since it is unlikely that we’d move back to a world where most people would be storing data locally (especially since we increasingly do things from a number of devices, including computer, smartphone, and tablet), it could still make sense to host this data in the cloud, but the data could remain entirely under the control of the end user. In such a world, you might use a dedicated data store company, which would host your data in the cloud as an encrypted blob that the data store provider would not have access to—but that you yourself could selectively enable access to for whatever purpose was necessary at any given moment.
+#+end_quote
+
+Algo parecido es considerado en el paper de /Local-first software/:
+
+#+begin_quote
+In local-first applications we treat the copy of the data on your local device — your laptop, tablet, or phone — as the primary copy. Servers still exist, but they hold secondary copies of your data in order to assist with access from multiple devices. (...) Local-first apps can use end-to-end encryption so that any servers that store a copy of your files only hold encrypted data that they cannot read.
+#+end_quote
+
+En vez de usar Drive y pasar por la aduana de Google, en vez de usar iCloud y vivir en la jaula de Apple, en vez de arrastrar archivos y administrar carpetas de Dropbox,
+usaríamos servicios de almacenamiento genéricos, intercambiables, elegidos como se elige un proveedor de internet o de servidores virtuales, según nuestras necesidades y preferencias (costo, eficiencia, seguridad, tamaño de almacenamiento, durabilidad).
+
+El usuario autorizaría el acceso a una parte específica de su banco de datos como quien hoy se identifica con su usuario de Google en una aplicación de terceros o quien concede determinados permisos sobre el dispositivo en que se ejecuta una aplicación. Los desarrolladores de aplicaciones solo tendrían que integrar un componente externo, como quien usa una servicio web o conecta una base de datos, simplemente eligiendo qué datos se exportan y qué datos se importan para sincronizar el estado local.
+
+El mismo protocolo serviría a los usuarios que, en vez de contratar un servicio prefirieran importar y exportar datos a un dispositivo local, y a aquellos que quisieran administrar su propia infraestructura de software libre.
+
+No creo que sea difícil implementar un prototipo de esos bancos de datos. Una primera aproximación se podría lograr con una capa de librerías de cliente que abstraigan las operaciones de almacenamiento encriptado sobre proveedores ya existentes (e.g. S3 y sus equivalentes en otras plataformas).
+
+No hace falta una revolución ni un gran salto tecnológico. No hace falta desmantelar las plataformas ni un éxodo de usuarios. No hace falta complicarle la vida al usuario ni a los desarrolladores de aplicaciones. No hace falta criptografía de punta ni nodos p2p ni (/vade retro!/) blockchains. Ni siquiera hace falta que los componentes sean descentralizados si son interoperables, intercambiables y auditables. Quizás ya existan todas las piezas necesarias y solo reste combinarlas con un poco de imaginación.
+
+
+** 5. Posdata
+
+Especulo con que, habiendo deconstruido las aplicaciones de uso personal ---aquellas que más se parecen en sus prestaciones a las tradicionales aplicaciones de escritorio---, ya separadas las interfaces del almacenamiento remoto, otras formas más complejas de software ---las que parecen más íntimamente ligadas a la web: aplicaciones de contenidos, de comunicación, redes sociales--- se nos revelarían susceptibles de someterse al mismo procedimiento.
+
+(Un ejemplo especialmente interesante para mí es el de Goodreads. Goodreads es una /todo list/ glorificada: una estantería de libros que queremos leer, que estamos leyendo o que ya leímos, que elegimos solamente porque monopoliza el mejor catálogo editorial de la web. Un catálogo que es producto del trabajo voluntario de los usuarios y que, con los incentivos apropiados, podría ser reemplazable por OpenLibrary o Wikipedia. Separada de su catálogo, Goodreads no solo es una aplicación sencilla sino que es aproximadamente la misma aplicación que IMDb, Letterboxd, Serializd, Steam, IGDB y otros sitios parecidos.)
+
+Si existieran los bancos de datos privados y los protocolos para usarlos, si la experiencia de usuario para sincronizar entre dispositivos estuviera suficientemente aceitada, ¿por qué no volver a un modelo de "tenencia" de datos? Si pudiéramos confiar en que nuestros archivos estén disponibles de forma transparente en todos nuestros dispositivos, ¿por qué no comprar o piratear canciones en vez de alquilárselas en Spotify o en iTunes? ¿Por qué no comprar o piratear películas en vez de atenerse a lo que nos ofrezca el servicio de streaming este mes? ¿Por qué tolerar launchers dentro de launchers dentro de launchers para ejecutar un videojuego que ya pagamos?
+
+¿Cuántos otros altares podríamos profanar?

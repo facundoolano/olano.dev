@@ -1,0 +1,27 @@
+---
+layout: default
+title: /blog/tags
+head_title: Tags
+---
+
+<div class="blog-index">
+    <details open="">
+        <summary>
+            <h3><a href="#⭐" class="title" id="⭐">⭐</a></h3>
+        </summary>
+        {% assign skip_years = true %}
+        {% assign posts = site.posts | where:"favorite",true %}
+        {% include posts.html %}
+    </details>
+
+    {% for tag in site.tags %}
+    <details>
+        <summary>
+            <h3><a href="#{{tag[0]}}" class="title" id="{{tag[0]}}">#{{tag[0]}}</a></h3>
+        </summary>
+
+        {% assign posts = tag[1] %}
+        {% include posts.html %}
+    </details>
+    {% endfor %}
+</div>

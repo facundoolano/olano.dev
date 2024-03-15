@@ -1,0 +1,76 @@
+server {
+    server_name blog.olano.dev;
+    return 301 https://olano.dev/blog$request_uri;
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/blog.olano.dev/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/blog.olano.dev/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+}
+
+# helper to get a var with the uri with stripped trailing slash
+map $uri $uri_no_trailing_slash {
+    "~^(?P<path>.+?)/$" $path;
+    default $uri;
+}
+
+server {
+
+        charset utf-8;
+
+	root /var/www/olano.dev;
+
+	server_name olano.dev www.olano.dev;
+
+	location / {
+	    # First attempt to serve request as file, then as directory.
+            # also handle the case where there's a file instead of a dir, but
+            # the request comes with trailing slash --we still want to serve the file in that case.
+            # otherwise respond 404.
+	    try_files $uri $uri.html $uri/ $uri_no_trailing_slash $uri_no_trailing_slash.html =404;
+	}
+
+        # redirect old jekyll blog posts to new jorge locations
+        rewrite "^/\d{4}-\d{2}-\d{2}-(?<slug>.+?)/?$" /blog/$slug permanent;
+
+        # redirect old blog rss url to new one
+        rewrite ^/feed/$ https://olano.dev/feed.xml permanent;
+
+
+    listen [::]:443 ssl ipv6only=on; # managed by Certbot
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/olano.dev/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/olano.dev/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+}
+server {
+    if ($host = olano.dev) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+	listen 80 default_server;
+	listen [::]:80 default_server;
+
+	server_name olano.dev www.olano.dev;
+    return 404; # managed by Certbot
+
+
+}
+
+server {
+    if ($host = blog.olano.dev) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    server_name blog.olano.dev;
+    listen 80;
+    return 404; # managed by Certbot
+
+
+}

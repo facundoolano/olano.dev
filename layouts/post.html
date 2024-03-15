@@ -1,0 +1,47 @@
+---
+layout: base
+---
+<div class="h-entry">
+  <nav>
+      <a href="/">olano.dev</a>
+      <a href="/blog">/blog</a>
+      <a href="/projects">/projects</a>
+  </nav>
+
+  <div class="content layout-{{ page.layout }} e-content" lang="{{ page.lang | default:'es'}}">
+      <header {% if page.cover-img %}class="with-cover"{% endif %}>
+          <h1 class="title p-name">{{ page.title }}</h1>
+          {% if page.subtitle %}<h3 class="subtitle">{{ page.subtitle }}</h3>{% endif  %}
+          {% if page.cover-img %}
+          <img class="cover-img" src="{{ page.cover-img | absolute_url }}">
+          {% endif %}
+
+      </header>
+
+      {% if page.external%}
+      Post available <a href="{{page.external}}">at an external site</a>.
+      {% else %}
+      {{ content }}
+      {% endif %}
+  </div>
+
+  <br/>
+  <br/>
+
+  <p class="text-center">
+      <span class="date dt-published">{{ page.date | date: "%Y-%m-%d" }}</span>
+      <span class="tags">
+          {% for tag in page.tags %}
+          <a class="p-category" href="/blog/tags#{{tag}}">#{{tag}}</a>
+          {% endfor %}
+      </span>
+      <br/>
+      {% include source_path.html %}
+  </p>
+
+  <div style="display: none">
+      <a href="{{page.url | absolute_url }}" class="u-url u-uid"></a>
+      <a href="/" class="h-card p-author">Facundo Olano</a>
+      <span class="p-summary">{{page.excerpt}}</span>
+  </div>
+</div>

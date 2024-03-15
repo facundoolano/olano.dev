@@ -1,0 +1,283 @@
+html {
+    color-scheme: light dark;
+    overflow-y: scroll;
+}
+body {
+    max-width: 45em;
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: auto;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+nav {
+    margin: 1rem 0 2rem;
+    line-height: 1.8;
+    border-bottom: 1px solid;
+    display: flex;
+}
+.nav-right {
+    margin-left: auto;
+}
+
+nav a:not(:last-child) {
+    margin-right: .75rem
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+li {
+    line-height: 1.6;
+}
+
+li:not(:last-child) {
+    padding-bottom: .75rem;
+}
+
+a, a:visited {
+    color: LinkText;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline
+}
+
+.date, .tags, .tags a {
+    color: silver;
+}
+.date {
+    padding-right: .5rem;
+    white-space: nowrap;
+}
+.tags {
+    display: inline-block;
+}
+
+article.post, article.project {
+    display: flex;
+}
+
+.center-block, .org-center, .text-center {
+    text-align: center;
+}
+
+.project {
+    display: flex
+}
+
+.project-details * {
+    display: inline;
+    line-height: 1.6;
+}
+
+.project-details p {
+    margin-left: 0.3rem;
+}
+
+hr {
+    border: 0;
+    border-top:1px solid;
+}
+
+.blog-index article {
+    padding-bottom: .5rem;
+}
+.projects-index article {
+    padding-bottom: .75rem;
+}
+
+a.title {
+    color: black;
+    padding-right: .25rem;
+}
+@media (prefers-color-scheme: dark) {
+    a.title {
+        color: white;
+    }
+}
+
+.layout-post {
+    hyphens: auto;
+    text-align: justify;
+    font-size: 1.15rem;
+    line-height: 1.6;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    text-rendering: optimizelegibility !important;
+    letter-spacing: .03em;
+}
+
+.layout-post .title {
+    hyphens:none;
+}
+
+.layout-post header {
+    margin: 4rem 0 5rem;
+    text-align: left;
+}
+
+.layout-post header.with-cover {
+    margin-top: 2rem;
+}
+
+.layout-post p {
+    margin: 0 0 .4rem 0;
+    line-height: 1.8;
+}
+
+.layout-post p + p {
+    text-indent: 3rem;
+}
+
+.outline-2 + .outline-2 h2{
+    padding-top: 1.5rem;
+}
+
+.layout-post .title, .layout-post .subtitle {
+}
+
+.layout-post .org-center, .layout-post .text-center, .layout-post .center-block {
+    margin: 2rem 0;
+}
+
+hr.footnotes-separatator {
+    display:none;
+}
+
+/* makes footnote number and text display in the same line  */
+.footnote-definition {
+    display: flex;
+    vertical-align: top;
+    margin-bottom: .4rem;
+}
+.footnote-body, .footnote-body p {
+    display: inline;
+    margin-left: 0.25rem;
+}
+
+.layout-post .verse-block {
+    text-align: right;
+}
+
+.verse-block p { white-space: pre; }
+
+.layout-post img {
+    max-width: 75%;
+    max-height: 400px;
+}
+
+.layout-post hr {
+    border: 1px solid silver;
+}
+
+
+img.cover-img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: -2rem;
+}
+
+/* override in mobile devices for more compact text */
+@media screen and (max-width: 768px) {
+    .layout-post {
+        font-size: 1rem;
+        line-height: 1.2;
+        letter-spacing: unset;
+        hyphens: none;
+        text-align: left;
+    }
+
+    .layout-post p {
+        margin: 0 0 1rem 0;
+        line-height: 1.7;
+    }
+
+    .layout-post p + p {
+        text-indent: 0;
+    }
+
+    .layout-post img {
+        max-width: 100%;
+    }
+}
+
+pre.highlight {
+    font-size: 1rem;
+    overflow-x: auto;
+    line-height: 1.5;
+}
+
+blockquote {
+    border-left: 2px solid whitesmoke;
+    padding-left: 1rem;
+}
+
+details summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+details summary h3::after {
+    content: "[+]";
+    font-size: small;
+    font-weight: normal;
+    font-family: monospace;
+    vertical-align: middle;
+}
+
+details[open] summary h3::after {
+    content: "[-]"
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .hidden-mobile {
+      display: none
+  }
+}
+
+.resume h3 {
+    text-decoration: underline;
+    padding-top: 1rem;
+}
+
+.resume .tags {
+    display: block;
+    padding-top: 0.5rem;
+}
+
+.resume header .date {
+    float: right;
+}
+
+.resume header {
+    margin-top: 2rem;
+    border-bottom: 1px solid silver;
+    padding-bottom: 0.5rem;
+}
+
+.resume ul {
+    margin-bottom:0.5rem;
+}
+
+@media print {
+    /* tweak styles for pdf export of the resume */
+    .footer, nav {
+        display: none;
+    }
+
+    .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+}

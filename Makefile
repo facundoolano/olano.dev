@@ -1,13 +1,13 @@
 serve:
-	bundle exec jekyll serve -l --drafts --future
+	jorge serve
 
 build:
-	JEKYLL_ENV=production bundle exec jekyll build --incremental
+	jorge build
 
 push: build
-	rsync -vPrz --delete _site/ root@olano.dev:/var/www/olano.dev
+	rsync -vPrz --delete target/ root@olano.dev:/var/www/olano.dev
 
 # builds and uploads the latest version of the resume by first pushing the site
 resume: push
-	wkhtmltopdf --print-media-type https://olano.dev/resume resume.pdf
+	wkhtmltopdf --print-media-type https://olano.dev/resume src/resume.pdf
 	make push
