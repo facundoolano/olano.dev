@@ -14,11 +14,12 @@
     {% for post in site.posts limit:10 %}
         <entry {% if post.lang %}xml:lang="{{post.lang}}"{% endif %}>
             {% assign post_title = post.title | strip_html | normalize_whitespace | xml_escape %}
+            {% assign post_url = post.external | default:post.url | absolute_url %}
             <title type="html">{{ post.title }}</title>
-            <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title }}"/>
+            <link href="{{ post_url }}" rel="alternate" type="text/html" title="{{ post.title }}"/>
             <published>{{ post.date | date: "%Y-%m-%d %H:%M" }}</published>
             <updated>{{ post.date | date: "%Y-%m-%d %H:%M" }}</updated>
-            <id>{{ post.url | absolute_url }}</id>
+            <id>{{ post_url }}</id>
             <author>
                 <name>{{ post.author | default:site.config.author }}</name>
             </author>
