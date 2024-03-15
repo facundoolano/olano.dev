@@ -1,10 +1,9 @@
 ---
 title: On AI assistance
-date: 2024-03-15 17:38:39
+date: 2024-03-14
 layout: post
 lang: en
 tags: [ai]
-draft: true
 external: https://jorge.olano.dev/blog/on-ai-assistance
 ---
 #+OPTIONS: toc:nil num:nil
