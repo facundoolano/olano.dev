@@ -1,0 +1,11 @@
+---
+title: Zen Mind, Google Intern's Mind
+subtitle: Notes about Go
+date: 2024-04-01
+layout: post
+lang: en
+tags: [programación, software]
+external: https://jorge.olano.dev/blog/zen-mind-google-interns-mind
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
