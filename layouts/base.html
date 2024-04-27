@@ -79,6 +79,20 @@
 
     </head>
     <body>
-        {{ content }}
+        <div class="content">
+            {{ content }}
+        </div>
+        <p class="text-center footer">
+            {% if page.date %}
+            <span class="date dt-published">{{ page.date | date: "%Y-%m-%d" }}</span>
+            <span class="tags">
+                {% for tag in page.tags %}
+                <a class="p-category" href="/blog/tags#{{tag}}">#{{tag}}</a>
+                {% endfor %}
+            </span>
+            <br/>
+            {% endif %}
+            {% include source_path.html %}
+        </p>
     </body>
 </html>
