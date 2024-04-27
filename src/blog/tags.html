@@ -10,7 +10,7 @@ head_title: Tags
             <h3><a href="#⭐" class="title" id="⭐">⭐</a></h3>
         </summary>
         {% assign skip_years = true %}
-        {% assign posts = site.posts | where:"favorite",true %}
+        {% assign posts = site.posts | where:"favorite","true" %}
         {% include posts.html %}
     </details>
 
