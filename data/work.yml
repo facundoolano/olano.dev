@@ -1,3 +1,10 @@
+- org: Freelance
+  positions:
+    - date: Jan 2024 - Present
+      title: Software Engineering Consultant
+      tech: Python, FastAPI, LLMs, RAG, LangChain, Azure
+      description: >
+        Work on an early-stage startup building a data extraction service around Large Language Models.
 - date: 5 years 7 months
   org: '<a href="https://lambdaclass.com/">LambdaClass</a>'
   positions:
