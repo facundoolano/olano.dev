@@ -2,6 +2,7 @@
 layout: post
 title: "Do programmers dream of electric poems?"
 subtitle: Programming and writing
+date: 2021-09-22
 lang: en
 tags: [programación, software, literatura]
 ---
@@ -55,10 +56,7 @@ At the risk of annoying an even wider group of people, I could conclude by sayin
 
 ------
 
-This was [[file:../../2021-02-01-suenan-los-programadores-con-poemas-electricos
-][originally published in Spanish]].
-
-Revised on September 2023.
+This was [[file:suenan-los-programadores-con-poemas-electricos][originally published in Spanish]].
 
 ** Notes
 
