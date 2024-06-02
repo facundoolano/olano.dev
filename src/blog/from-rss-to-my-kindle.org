@@ -1,10 +1,10 @@
 ---
-title: From my RSS reader to my Kindle
+title: From RSS to my Kindle
 subtitle: Building website epubs with Python
 date: 2024-06-01 20:24:33
 layout: post
 lang: en
-tags: [web, projects]
+tags: [web, projects, programming]
 draft: true
 ---
 #+OPTIONS: toc:nil num:nil
@@ -255,3 +255,8 @@ smtp.quit()
 #+end_src
 
 - for this to work, of course, I also had to go to my amazon device settings and approve my reader email as a personal document email.
+
+- this is working well enough, but there are a few things I wish I had
+  - support for js dependent content. I experimented with headless browsers early on, but found it ultimately made the parsing more brittle so I decided to stick with static html content
+  - ff extension to send articles outside feedi, through feedi
+  - share target, which unfortunately doesn't work for progressive web apps in iOS. the alternative of building a safari extension is expensive and way too much work

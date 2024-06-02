@@ -4,7 +4,7 @@ subtitle: Notes about Go
 date: 2024-04-01
 layout: post
 lang: en
-tags: [programación, software]
+tags: [programming, software]
 external: https://jorge.olano.dev/blog/zen-mind-google-interns-mind
 ---
 #+OPTIONS: toc:nil num:nil

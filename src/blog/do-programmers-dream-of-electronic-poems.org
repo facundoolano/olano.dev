@@ -4,7 +4,7 @@ title: "Do programmers dream of electric poems?"
 subtitle: Programming and writing
 date: 2021-09-22
 lang: en
-tags: [programación, software, literatura]
+tags: [programming, software, literature]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
