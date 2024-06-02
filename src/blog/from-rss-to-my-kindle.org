@@ -20,6 +20,21 @@ So a Kindle integration was a natural extension to my personal reader. Not only 
 
 - first implementation using hacky lib. this had a number of problems
 
+- at a high level, this is what the web app route looks like:
+#+begin_src python
+# feedi/routes.py
+
+@app.post("/entries/kindle")
+def send_to_kindle():
+    url = flask.request.args['url']
+    article = scraping.extract(url)
+    attach_data = scraping.package_epub(url, article)
+    email.send(current_user.kindle_email, attach_data, filename=article['title'])
+    return '', 204
+#+end_src
+
+
+
 - first readability nodejs script
 #+begin_src javascript
 #!/usr/bin/env node
@@ -43,10 +58,11 @@ TODO
 
 - how it's called from python
 #+begin_src python
+# feedi/scraping.py
 import json
 import subprocess
 
-def extract_article(url):
+def extract(url):
     r = subprocess.run(["feedi/extract_article.js", url],
                        capture_output=True, text=True, check=True)
 
@@ -84,21 +100,158 @@ def extract_article(url):
 #+end_src
 
 - the bulk of the work: package the extracted html as an epub
-  - use bs to cleanup badly formatted html
-  - prepare a zip, since an epub is a zipped webpage with some assets and metadata files
-  - go through the images in the article, rewrite the src to point to local images instead of remote ones
-  - download the images
-  - if webp, convert it to jpg, since kindle doesn't support webp
-  - write to a file inside the zip
+  - prepare a zip, since an epub is a zipped webpage with some assets and metadata files. write to a file inside the zip, output as bytes. naive implementation:
+#+begin_src python
+# feedi/scraping.py
+import io
+import zipfile
+
+def package_epub(url, article):
+    output_buffer = io.BytesIO()
+    with zipfile.ZipFile(output_buffer, 'w', compression=zipfile.ZIP_DEFLATED) as zip:
+        zip.writestr('article.html', article['content'])
+
+    return output_buffer.getvalue()
+#+end_src
+
   - write some epub metadata, based on https://github.com/thansen0/sample-epub-minimal
-  - write a content.opf pointing to the article html and setting title and author metadata
-  - output as bytes
+#+begin_src  python
+zip.writestr('mimetype', "application/epub+zip")
+zip.writestr('META-INF/container.xml', """<?xml version="1.0"?>
+<container version="1.0" xmlns="urn:oasis:names:tc:opendocument:xmlns:container">
+<rootfiles>
+<rootfile full-path="content.opf" media-type="application/oebps-package+xml"/>
+</rootfiles>
+</container>""")
+
+author = article['byline'] or article['siteName']
+if not author:
+    # if no explicit author in the website, use the domain
+    author = urllib.parse.urlparse(url).netloc.replace('www.', '')
+
+zip.writestr('content.opf', f"""<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="uid" prefix="cc: http://creativecommons.org/ns#">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title id="title">{article['title']}</dc:title>
+<dc:creator>{author}</dc:creator>
+<dc:language>{article.get('lang', '')}</dc:language>
+<dc:date>{article.get('publishedTime', '')}</dc:date>
+</metadata>
+<manifest>
+<item id="article" href="article.html" media-type="text/html" />
+</manifest>
+<spine toc="ncx">
+<itemref idref="article" />
+</spine>
+</package>""")
+#+end_src
+
+  - go through the images in the article, rewrite the src to point to local images instead of remote ones, download the images
+#+begin_src diff
+ import io
+ import zipfile
+
++from bs4 import BeautifulSoup
+
+ def package_epub(url, article):
+     output_buffer = io.BytesIO()
+     with zipfile.ZipFile(output_buffer, 'w', compression=zipfile.ZIP_DEFLATED) as zip:
+-        zip.writestr('article.html', article['content'])
++        soup = BeautifulSoup(article['content'], 'lxml')
++        for img in soup.findAll('img'):
++            img_url = img['src']
++            img_filename = 'article_files/' + img['src'].split('/')[-1].split('?')[0]
++
++            # update each img src url to point to the local copy of the file
++            img['src'] = img_filename
++
++            # download the image and save into the files subdir of the zip
++            response = requests.get(img_url)
++            if not response.ok:
++                continue
++            zip.writestr(img_filename, response.content)
++
++        zip.writestr('article.html', str(soup))
+     return output_buffer.getvalue()
+#+end_src
+  - if webp, convert it to jpg, since kindle doesn't support webp
+
+#+begin_src diff
+ import io
+ import zipfile
+
+ from bs4 import BeautifulSoup
++from PIL import Image
+
+ def package_epub(url, article):
+     output_buffer = io.BytesIO()
+     with zipfile.ZipFile(output_buffer, 'w', compression=zipfile.ZIP_DEFLATED) as zip:
+         soup = BeautifulSoup(article['content'], 'lxml')
+         for img in soup.findAll('img'):
+             img_url = img['src']
+             img_filename = 'article_files/' + img['src'].split('/')[-1].split('?')[0]
++            img_filename = img_filename.replace('.webp', '.jpg')
+
+             # update each img src url to point to the local copy of the file
+             img['src'] = img_filename
+
+             # download the image and save into the files subdir of the zip
+             response = requests.get(img_url)
+             if not response.ok:
+                 continue
+
+-            zip.writestr(img_filename, response.content)
++            with zip.open(img_filename, 'w') as dest_file:
++                if img_url.endswith('.webp'):
++                    jpg_img = Image.open(io.BytesIO(response.content)).convert("RGB")
++                    jpg_img.save(dest_file, "JPEG")
++                else:
++                    dest_file.write(response.content)
+
+         zip.writestr('article.html', str(soup))
+#+end_src
 
 - didn't want to integrate with a mailing service, so I looked into using a regular gmail account, which I remember (from a decade ago, when I did django freelancing) was a viable option to send small amounts of emails.
   - things were slightly different: I couldn't just use the email password in my app. I needed a new thing called "app passwords" and to generate that I needed to setup 2fa first. Then I had to find an obscure page to get the app password
-  - config values
+#+begin_src python
+# feedi/email.py
+import smtplib
+import urllib.parse
+from email import encoders
+from email.mime.base import MIMEBase
+from email.mime.multipart import MIMEMultipart
+
+def send(recipient, attach_data, filename):
+    server = "smtp.gmail.com"
+    port = 587
+    sender = "my.reader.email@gmail.com"
+    password = "some gmail app pass"
+
+    msg = MIMEMultipart()
+    msg['From'] = sender
+    msg['To'] = recipient
+    msg['Subject'] = f'feedi - {filename}'
+#+end_src
   - attach epub bytes
   - set the title as filename. important since this is what kindle displays. Since that would typically include spaces and special characters for non-english languages, I needed to use a weird escaping syntax see https://stackoverflow.com/a/216777/993769
-  - I sent the email like this:
+#+begin_src  python
+part = MIMEBase('application', 'epub')
+part.set_payload(attach_data)
+encoders.encode_base64(part)
+
+filename = urllib.parse.quote(filename)
+part.add_header('Content-Disposition', f"attachment; filename*=UTF-8''{filename}.epub")
+msg.attach(part)
+#+end_src
+
+  - finally, I sent the email like this:
+#+begin_src python
+smtp = smtplib.SMTP(server, port)
+smtp.ehlo()
+smtp.starttls()
+smtp.login(sender, password)
+smtp.sendmail(sender, recipient, msg.as_string())
+smtp.quit()
+#+end_src
 
 - for this to work, of course, I also had to go to my amazon device settings and approve my reader email as a personal document email.
