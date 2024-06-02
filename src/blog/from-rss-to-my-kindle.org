@@ -1,5 +1,6 @@
 ---
-title: From RSS reader to my Kindle
+title: From my RSS reader to my Kindle
+subtitle: Building website epubs with Python
 date: 2024-06-01 20:24:33
 layout: post
 lang: en
@@ -9,15 +10,14 @@ draft: true
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-Last year I wrote about [[file:reclaiming-the-web-with-a-personal-reader][how I built a personal feed reader]] and started using it as my front page to the web. In the following months I continued to tweak it, observing my reading habits, experimenting with new features and discarding the ones I wasn't using.
+Last year I wrote about [[file:reclaiming-the-web-with-a-personal-reader][how I built a personal feed reader]] and started using it as my front page to the web. In the following months I continued to tweak it, observing my reading habits, experimenting with new features and discarding the ones I wasn't using. I got it to a place where I can count on it to show me fresh and interesting content a couple of times a day, and the interface conveniently lets me pin what I plan to read later and discard the rest.
 
-- I got it to a place
-- I can't read on desktop or phone, so mostly to sort through stuff (like pocket or open tabs for other people)
-- not only to streamline my reading process by sending stuff directly from my reader: the official send to kindle extension only works in Chrome and is hit or miss when it comes to extracting the article content from a website HTML
-- I already had integrated mozilla/readability to embed articles in my webapp, so it was a natural extension to pack that same content in a Kindle-friendly format.
-- I had to figure out a few details along the way, so I'm documenting the process below.
+<My problem is that, while I'm an avid reader, I don't have the concentration and the eye resistance (is that a thing) to read more than one or two blog posts a day on a desktop screen; and I can barely stand more than 15 minutes staring at my phone screen without getting dizzy or irritated.> Much like other people use bookmarks or Pocket or just collects browser tabs, I prefer to send my read pile to my Kindle. I can then read offline and without eye strain, whether I'm in bed, in the bathroom, at a cafe or on the bus.
+
+So a Kindle integration was a natural extension to my personal reader. Not only because it would streamline my reading workflow: because the alternative, Amazon's official Send To Kindle extension, only works in Chrome and does a poor job of extracting the HTML content from most websites. I was already using mozilla's readability library to embed article content in my reader, so I just needed to figure out how to send that content to my Kindle. I had to figure out a few details along the way, which may be useful to someone else, so I document my implementation process below.
 
 -----
+
 - first implementation using hacky lib. this had a number of problems
 
 - first readability nodejs script
