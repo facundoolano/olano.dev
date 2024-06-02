@@ -21,7 +21,68 @@ So a Kindle integration was a natural extension to my personal reader. Not only 
 - first implementation using hacky lib. this had a number of problems
 
 - first readability nodejs script
+#+begin_src javascript
+#!/usr/bin/env node
+
+const { JSDOM } = require("jsdom");
+const { Readability } = require('@mozilla/readability');
+
+const url = process.argv[2];
+
+JSDOM.fromURL(url).then(function (dom) {
+  let reader = new Readability(dom.window.document);
+  let article = reader.parse();
+  process.stdout.write(JSON.stringify(article), process.exit);
+});
+#+end_src
+
+the output looks like this:
+#+begin_src json
+TODO
+#+end_src
+
 - how it's called from python
+#+begin_src python
+import json
+import subprocess
+
+def extract_article(url):
+    r = subprocess.run(["feedi/extract_article.js", url],
+                       capture_output=True, text=True, check=True)
+
+    article = json.loads(r.stdout)
+    return article
+#+end_src
+
+- since some sites do lazy loading of images:
+
+#+begin_src diff
+
+import json
+import subprocess
+
++ from bs4 import BeautifulSoup
+
+def extract_article(url):
+    r = subprocess.run(["feedi/extract_article.js", url],
+                       capture_output=True, text=True, check=True)
+
+    article = json.loads(r.stdout)
+
++    # load lazy images by setting data-src into src
++    soup = BeautifulSoup(article['content'], 'lxml')
++    LAZY_DATA_ATTRS = ['data-src', 'data-lazy-src', 'data-srcset',
++                       'data-td-src-property']
++    for data_attr in LAZY_DATA_ATTRS:
++        for img in soup.findAll('img', attrs={data_attr: True}):
++            img.attrs = {'src': img[data_attr]}
++
++    article['content'] = str(soup)
+
+    return article
+
+#+end_src
+
 - the bulk of the work: package the extracted html as an epub
   - use bs to cleanup badly formatted html
   - prepare a zip, since an epub is a zipped webpage with some assets and metadata files
