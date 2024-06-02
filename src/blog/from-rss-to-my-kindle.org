@@ -1,0 +1,43 @@
+---
+title: From RSS reader to my Kindle
+date: 2024-06-01 20:24:33
+layout: post
+lang: en
+tags: [web]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+Last year I wrote about [[file:reclaiming-the-web-with-a-personal-reader][how I built a personal feed reader]] and started using it as my front page to the web. In the following months I continued to tweak it, observing my reading habits, experimenting with new features and discarding the ones I wasn't using.
+
+- I got it to a place
+- I can't read on desktop or phone, so mostly to sort through stuff (like pocket or open tabs for other people)
+- not only to streamline my reading process by sending stuff directly from my reader: the official send to kindle extension only works in Chrome and is hit or miss when it comes to extracting the article content from a website HTML
+- I already had integrated mozilla/readability to embed articles in my webapp, so it was a natural extension to pack that same content in a Kindle-friendly format.
+- I had to figure out a few details along the way, so I'm documenting the process below.
+
+-----
+- first implementation using hacky lib. this had a number of problems
+
+- first readability nodejs script
+- how it's called from python
+- the bulk of the work: package the extracted html as an epub
+  - use bs to cleanup badly formatted html
+  - prepare a zip, since an epub is a zipped webpage with some assets and metadata files
+  - go through the images in the article, rewrite the src to point to local images instead of remote ones
+  - download the images
+  - if webp, convert it to jpg, since kindle doesn't support webp
+  - write to a file inside the zip
+  - write some epub metadata, based on https://github.com/thansen0/sample-epub-minimal
+  - write a content.opf pointing to the article html and setting title and author metadata
+  - output as bytes
+
+- didn't want to integrate with a mailing service, so I looked into using a regular gmail account, which I remember (from a decade ago, when I did django freelancing) was a viable option to send small amounts of emails.
+  - things were slightly different: I couldn't just use the email password in my app. I needed a new thing called "app passwords" and to generate that I needed to setup 2fa first. Then I had to find an obscure page to get the app password
+  - config values
+  - attach epub bytes
+  - set the title as filename. important since this is what kindle displays. Since that would typically include spaces and special characters for non-english languages, I needed to use a weird escaping syntax see https://stackoverflow.com/a/216777/993769
+  - I sent the email like this:
+
+- for this to work, of course, I also had to go to my amazon device settings and approve my reader email as a personal document email.
