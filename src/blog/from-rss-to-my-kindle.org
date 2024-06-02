@@ -3,7 +3,7 @@ title: From RSS reader to my Kindle
 date: 2024-06-01 20:24:33
 layout: post
 lang: en
-tags: [web]
+tags: [web, projects]
 draft: true
 ---
 #+OPTIONS: toc:nil num:nil

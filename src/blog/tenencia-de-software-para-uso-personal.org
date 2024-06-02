@@ -3,7 +3,7 @@ layout: post
 title: "Tenencia de software para uso personal"
 excerpt:  "Si tuviera un disco rígido en la nube, un espacio de almacenamiento al que solo pudieran acceder las aplicaciones que yo autorice en los términos que yo autorice, no tendría incentivos para usar productos de Google y Apple para tareas mundanas como tomar notas o compartir archivos."
 date: 2023-09-12
-tags: [software, utopías]
+tags: [software, utopías, ideas]
 share-img: assets/img/pc.jpg
 image: assets/img/pc.jpg
 thumbnail-img: assets/img/pc.jpg
