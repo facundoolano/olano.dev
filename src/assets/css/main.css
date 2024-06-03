@@ -107,8 +107,10 @@ article.post, article.project {
 
 hr {
     border: 0;
-    border-top:1px solid;
+    border-top: 1px solid lightgray;
+    margin: 2rem 0;
 }
+
 
 .blog-index article {
     padding-bottom: .5rem;
