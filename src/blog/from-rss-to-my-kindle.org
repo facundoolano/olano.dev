@@ -1,7 +1,7 @@
 ---
 title: From RSS to my Kindle
 subtitle: Building website EPUBs with Python
-date: 2024-06-01 20:24:33
+date: 2024-06-07
 layout: post
 lang: en
 tags: [web, projects, programming]
@@ -11,7 +11,7 @@ excerpt: "A Kindle integration was a natural extension to my feed reader. I had 
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-Last year I wrote about [[file:reclaiming-the-web-with-a-personal-reader][how I built feedi]], a personal feed reader, and started using it as my front page to the web. In the months since then I continued to tweak the app, observing my reading habits, experimenting with new features and discarding the ones I didn't need. I now got it to a place where I can count on seeing fresh and interesting content a couple of times a day, and the interface conveniently lets me keep what I plan to read and discard the rest.
+Last year [[file:reclaiming-the-web-with-a-personal-reader][I wrote]] about how I built [[https://github.com/facundoolano/feedi][feedi]], a personal feed reader, and started using it as my front page to the web. In the months since then I continued to tweak the app, observing my reading habits, experimenting with new features and discarding the ones I didn't need. I now got it to a place where I can count on seeing fresh and interesting content a couple of times a day, and the interface conveniently lets me keep what I plan to read and discard the rest.
 
 But while I'm an avid reader on paper, I struggle with lack of concentration and eye strain when trying to read in a laptop or a desktop monitor ---and it gets worse in the phone screen. In practice, feedi works as a mix of news feed and content finder and organizer; I prefer to send longer blog posts or essays to my Kindle so I can get back to them when I'm offline in bed, in the bathroom, at a cafe or on the bus.
 
@@ -278,15 +278,11 @@ smtp.quit()
 Of course, for the Kindle to accept these emails, I had to whitelist the reader email address in my Amazon device settings.
 
 -----
-- <this is working well enough, but there are a few things I wish I had>
+This implementation already works well-enough for my needs, but there's still room for improvement:
 
-
-- Some websites regrettably rely on JavaScript to load their HTML content, which is obviously not picked up by the readability package. I experimented with a headless browser to fetch the content, but that made the app slow and brittle, so I just choose to not read content from JavaScript-centric websites. (I apply a similar rule to paywalls).
-
-
-
-  - ff extension to send articles outside feedi, through feedi
-  - share target, which unfortunately doesn't work for progressive web apps in iOS. the alternative of building a safari extension is expensive and way too much work
+- Some websites regrettably rely on JavaScript to load their HTML, which is not picked up by the readability package. I experimented with a headless browser to fetch the content, but that made the app slow and brittle, so I just choose not to read content from JavaScript-centric websites. (A similar rule applies to paywalls).
+- This Kindle integration feature is very convenient when using feedi, but I'd also want to use it from the browser. Right now I need to copy the URL and paste it into the reader to send articles to my Kindle, but I'm toying with the idea of a Firefox extension that would work similarly to Amazon's one ---and that could also be used for other feedi operations, like feed discovery.
+- Similarly, I'd like feedi, which is already a Progressive Web App, to work as a share target in my phone to share URLs for sending to my Kindle or RSS discovery. Unfortunately, this feature is [[https://developer.mozilla.org/en-US/docs/Web/Manifest/share_target][not supported in iOS]].
 
 ** Notes
 
