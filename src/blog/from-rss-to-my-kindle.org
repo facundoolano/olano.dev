@@ -19,14 +19,20 @@ So a Kindle integration was a natural extension to feedi. Not only because it st
 
 -----
 
-My first instinct was to try to get away with a Kindle integration that didn't require sending emails from my Flask app. I found a [[https://github.com/maxdjohnson/stkclient][Python library]] that "impersonated" an Amazon  client and wrote my first implementation around it, but it turned out to be brittle: it required storing device credentials in the reader app and manually authenticating every few days, which ultimately made me stop using the feature.
+My first instinct was trying to get away with a Kindle integration that didn't require sending emails from my app. I found a [[https://github.com/maxdjohnson/stkclient][Python library]] that "impersonated" an Amazon client and wrote my first implementation around it, but it turned out to be brittle: it required storing device credentials in the reader app and manually authenticating every few days, which hurt the user experience, ultimately discouraging me from using the feature at all.
 
-So I looked into the more reasonable option of packaging articles into EPUB files and sending them to my Kindle email. This is what the process looked like from the web app endpoint:
+So a few months later I took another stab at it using the more reasonable option of sending articles as EPUB email attachments. At high-level, this is what the app needed to do:
 
 #+begin_src python
 # feedi/routes.py
 
+import flask
+
+from flask import current_app as app
+from flask_login import current_user, login_required
+
 @app.post("/entries/kindle")
+@login_required
 def send_to_kindle():
     url = flask.request.args['url']
     article = scraping.extract(url)
@@ -35,7 +41,7 @@ def send_to_kindle():
     return '', 204
 #+end_src
 
-Get the cleaned up HTML from an article, package into an EPUB file, send it as the attachment to an email to the Kindle device. Let's look at each of these steps in turn.
+Fetch the HTML from the website, extract the article content from it, package it into an EPUB file, send it as the attachment to an email to the Kindle device. Let's look at each of these steps in turn.
 
 For the extraction I tried every Python library I could find[fn:1], but none seemed to do as good of a job as Firefox's reader view, so I decided to use the [[https://github.com/mozilla/readability][JavaScript library]] that powers it through a little Node.js script:
 
@@ -54,12 +60,22 @@ JSDOM.fromURL(url).then(function (dom) {
 });
 #+end_src
 
-The output of this script looked like this:
+The script's output look like this:
 #+begin_src json
-TODO
+{
+  "title": "From RSS to my Kindle",
+  "byline": "Facundo Olano",
+  "dir": null,
+  "lang": null,
+  "content": "<div id=\"readability-page-1\" class=\"page\"><div lang=\"en\"><header><h3>Building website EPUBs with Python</h3></header><p>Last year I wrote about <a href=\"https://olano.dev/blog/reclaiming-the-web-with-a-personal-reader\">how I built feedi</a>, a personal feed reader, and started using it as my front page to the web. (...)",
+  "textContent": "Building website EPUBs with Python\n\nLast year I wrote about how I built feedi, a personal feed reader, and started using it as my front page to the web. (...)",
+  "length": 2793,
+  "excerpt": "A Kindle integration was a natural extension to my feed reader. I had to learn some subtleties to get it working, so it seemed interesting to document the implementation process.",
+  "siteName": "olano.dev"
+}
 #+end_src
 
-And this is how I called it from Python:
+And this is how I call it from Python:
 #+begin_src python
 # feedi/scraping.py
 import json
@@ -73,7 +89,7 @@ def extract(url):
     return article
 #+end_src
 
-I found that some websites rely on JavaScript to load images lazily, so I tweaked the tags to force them to render:
+I found that some websites rely on JavaScript to load images lazily, so I tweaked the tags to force image rendering (both in the app and in Kindle):
 
 #+begin_src diff
  import json
@@ -100,8 +116,8 @@ I found that some websites rely on JavaScript to load images lazily, so I tweake
      return article
 #+end_src
 
-- the bulk of the work: package the extracted html as an epub
-  - prepare a zip, since an epub is a zipped webpage with some assets and metadata files. write to a file inside the zip, output as bytes. naive implementation:
+The bulk of the work was putting together a valid EPUB file from this website content. With a very superficial research I found that EPUB files are just zips with a few metadata files. So I started by zipping the article that the extraction script gave me:
+
 #+begin_src python
 # feedi/scraping.py
 import io
@@ -115,7 +131,8 @@ def package_epub(url, article):
     return output_buffer.getvalue()
 #+end_src
 
-  - write some epub metadata, based on https://github.com/thansen0/sample-epub-minimal
+Based on [[https://github.com/thansen0/sample-epub-minimal][this sample repository]] I added mimetype, container and content files pointing to the single article.html file:
+
 #+begin_src  python
 zip.writestr('mimetype', "application/epub+zip")
 zip.writestr('META-INF/container.xml', """<?xml version="1.0"?>
@@ -136,7 +153,6 @@ zip.writestr('content.opf', f"""<?xml version="1.0" encoding="UTF-8"?>
 <dc:title id="title">{article['title']}</dc:title>
 <dc:creator>{author}</dc:creator>
 <dc:language>{article.get('lang', '')}</dc:language>
-<dc:date>{article.get('publishedTime', '')}</dc:date>
 </metadata>
 <manifest>
 <item id="article" href="article.html" media-type="text/html" />
@@ -147,7 +163,8 @@ zip.writestr('content.opf', f"""<?xml version="1.0" encoding="UTF-8"?>
 </package>""")
 #+end_src
 
-  - go through the images in the article, rewrite the src to point to local images instead of remote ones, download the images
+This was enough to get the text working, but I needed to download and zip the article images if wanted them to show in the Kindle:
+
 #+begin_src diff
  import io
  import zipfile
@@ -175,7 +192,7 @@ zip.writestr('content.opf', f"""<?xml version="1.0" encoding="UTF-8"?>
 +        zip.writestr('article.html', str(soup))
      return output_buffer.getvalue()
 #+end_src
-  - if webp, convert it to jpg, since kindle doesn't support webp
+Note how I also had to rewrite the ~<img>~ tags so the source pointed to the local files location instead of the public internet ones (much like the browser does when downloading a page). Since the Kindle can't render WebP images, my next step was to convert those to jpegs:
 
 #+begin_src diff
  import io
@@ -212,8 +229,10 @@ zip.writestr('content.opf', f"""<?xml version="1.0" encoding="UTF-8"?>
          zip.writestr('article.html', str(soup))
 #+end_src
 
-- didn't want to integrate with a mailing service, so I looked into using a regular gmail account, which I remember (from a decade ago, when I did django freelancing) was a viable option to send small amounts of emails.
-  - things were slightly different: I couldn't just use the email password in my app. I needed a new thing called "app passwords" and to generate that I needed to setup 2fa first. Then I had to find an obscure page to get the app password
+Now I just needed to email this zip file. I didn't want to depend on a paying service and remembered from my old web developer days that a regular Gmail account was the cheap option to send a low volume of emails from an app. Things had changed slightly since the last time I tried this, though: I had to enable two-factor authentication and generate an "app password" (at ~https://myaccount.google.com/apppasswords~) for Google to accept my SMTP requests.
+
+This is what the email boilerplate looked like:
+
 #+begin_src python
 # feedi/email.py
 import smtplib
@@ -233,8 +252,9 @@ def send(recipient, attach_data, filename):
     msg['To'] = recipient
     msg['Subject'] = f'feedi - {filename}'
 #+end_src
-  - attach epub bytes
-  - set the title as filename. important since this is what kindle displays. Since that would typically include spaces and special characters for non-english languages, I needed to use a weird escaping syntax see https://stackoverflow.com/a/216777/993769
+
+The ~attach_data~ being the epub zip bytes. The Kindle uses the filename from the ~Content-Disposition~ header as the title displayed in the device library. This is a problem when the title contains spaces or non-ASCII characters ---as is the case for articles in Spanish. I got that working after a few tries with the escaping syntax suggested by this [[https://stackoverflow.com/questions/93551/how-to-encode-the-filename-parameter-of-content-disposition-header-in-http/216777#216777][StackOverflow answer]]:
+
 #+begin_src  python
 part = MIMEBase('application', 'epub')
 part.set_payload(attach_data)
@@ -245,7 +265,7 @@ part.add_header('Content-Disposition', f"attachment; filename*=UTF-8''{filename}
 msg.attach(part)
 #+end_src
 
-  - finally, I sent the email like this:
+Finally, the email is sent like this:
 #+begin_src python
 smtp = smtplib.SMTP(server, port)
 smtp.ehlo()
@@ -255,10 +275,16 @@ smtp.sendmail(sender, recipient, msg.as_string())
 smtp.quit()
 #+end_src
 
-- for this to work, of course, I also had to go to my amazon device settings and approve my reader email as a personal document email.
+Of course, for the Kindle to accept these emails, I had to whitelist the reader email address in my Amazon device settings.
 
-- this is working well enough, but there are a few things I wish I had
-  - support for js dependent content. I experimented with headless browsers early on, but found it ultimately made the parsing more brittle so I decided to stick with static html content
+-----
+- <this is working well enough, but there are a few things I wish I had>
+
+
+- Some websites regrettably rely on JavaScript to load their HTML content, which is obviously not picked up by the readability package. I experimented with a headless browser to fetch the content, but that made the app slow and brittle, so I just choose to not read content from JavaScript-centric websites. (I apply a similar rule to paywalls).
+
+
+
   - ff extension to send articles outside feedi, through feedi
   - share target, which unfortunately doesn't work for progressive web apps in iOS. the alternative of building a safari extension is expensive and way too much work
 
