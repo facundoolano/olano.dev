@@ -1,27 +1,27 @@
 ---
 title: From RSS to my Kindle
-subtitle: Building website epubs with Python
+subtitle: Building website EPUBs with Python
 date: 2024-06-01 20:24:33
 layout: post
 lang: en
 tags: [web, projects, programming]
 draft: true
+excerpt: "A Kindle integration was a natural extension to my feed reader. I had to learn some subtleties to get it working, so it seemed interesting to document the implementation process."
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-Last year I wrote about [[file:reclaiming-the-web-with-a-personal-reader][how I built a personal feed reader]] and started using it as my front page to the web. In the months since then I continued to tweak the app, observing my reading habits, experimenting with new features and discarding the ones I didn't need. I now got it to a place where I can count on seeing fresh and interesting content a couple of times a day, and the interface conveniently lets me keep what I plan to read and discard the rest.
+Last year I wrote about [[file:reclaiming-the-web-with-a-personal-reader][how I built feedi]], a personal feed reader, and started using it as my front page to the web. In the months since then I continued to tweak the app, observing my reading habits, experimenting with new features and discarding the ones I didn't need. I now got it to a place where I can count on seeing fresh and interesting content a couple of times a day, and the interface conveniently lets me keep what I plan to read and discard the rest.
 
-But while I'm an otherwise avid reader, I struggle to read on a monitor without losing concentration or getting eye strain, let alone on a phone screen. So the app works more as a content finder and organizer than a reader; whenever I see a longer piece that seems interesting but I don't have the disposition to read /right now/, I prefer to send it to my Kindle for later ---much like other people use Pocket or just collect browser tabs. I can then go back to the article offline, whether I'm in bed, in the bathroom, at a cafe or on the bus.
+But while I'm an avid reader on paper, I struggle with lack of concentration and eye strain when trying to read in a laptop or a desktop monitor ---and it gets worse in the phone screen. In practice, feedi works as a mix of news feed and content finder and organizer; I prefer to send longer blog posts or essays to my Kindle so I can get back to them when I'm offline in bed, in the bathroom, at a cafe or on the bus.
 
-So a Kindle integration was a natural extension to my feed reader. Not only because it would streamline my workflow: because the official Amazon Send To Kindle extension only works on Chrome and does a poor job of extracting the HTML content from most websites. I was already using Mozilla's [[https://github.com/mozilla/readability][readability library]] to embed cleaned up article content in my app, so I just needed to figure out how to send that content over to my Kindle.
-I had to learn some subtleties to get that working, so it seemed interesting to document the implementation process.
+So a Kindle integration was a natural extension to feedi. Not only because it streamlined my reading workflow but because the official Amazon Send To Kindle extension does a poor job of extracting  content from most websites. I was already using Mozilla's [[https://github.com/mozilla/readability][readability library]] to embed cleaned up HTML content in the reader, so I just needed to figure out how to send those articles over to my Kindle. I learned a couple of things along the way, so it seemed interesting to document the implementation process here.
 
 -----
 
-My first instinct was trying to get away with a Kindle integration that didn't require sending emails from my Flask app. I found a [[https://github.com/maxdjohnson/stkclient][Python library]] that "impersonated" a Send to Kindle client and wrote my first implementation around it, but it turned out to be brittle: it required storing device credentials in the reader app and manually authenticating with amazon every few days, which ultimately made me stop using the feature.
+My first instinct was to try to get away with a Kindle integration that didn't require sending emails from my Flask app. I found a [[https://github.com/maxdjohnson/stkclient][Python library]] that "impersonated" an Amazon  client and wrote my first implementation around it, but it turned out to be brittle: it required storing device credentials in the reader app and manually authenticating every few days, which ultimately made me stop using the feature.
 
-So I looked into turning the article contents into epub files that I could send through my Kindle email. At a high level, this is what the process looked like from the web app endpoint:
+So I looked into the more reasonable option of packaging articles into EPUB files and sending them to my Kindle email. This is what the process looked like from the web app endpoint:
 
 #+begin_src python
 # feedi/routes.py
@@ -35,9 +35,9 @@ def send_to_kindle():
     return '', 204
 #+end_src
 
-Let's look at each of those steps in turn.
+Get the cleaned up HTML from an article, package into an EPUB file, send it as the attachment to an email to the Kindle device. Let's look at each of these steps in turn.
 
-I tried every Python HTML extraction library I could find[fn:1], but none seemed to be on par with Firefox's reader view, so I decided to use the [[https://github.com/mozilla/readability][JavaScript library]] that powers it, through a little Node.js script:
+For the extraction I tried every Python library I could find[fn:1], but none seemed to do as good of a job as Firefox's reader view, so I decided to use the [[https://github.com/mozilla/readability][JavaScript library]] that powers it through a little Node.js script:
 
 #+begin_src javascript
 #!/usr/bin/env node
@@ -73,10 +73,9 @@ def extract(url):
     return article
 #+end_src
 
-I eventually found that some websites load images lazily with JavaScript, but I could circumvent that by tweaking the image tags of the HTML:
+I found that some websites rely on JavaScript to load images lazily, so I tweaked the tags to force them to render:
 
 #+begin_src diff
-
  import json
  import subprocess
 
