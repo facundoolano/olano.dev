@@ -7,6 +7,7 @@ lang: en
 tags: [web, projects, programming]
 draft: true
 excerpt: "A Kindle integration was a natural extension to my feed reader. I had to learn a couple of things to get it working, so it seemed interesting to document the implementation process."
+image: assets/img/feedi1.png
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
