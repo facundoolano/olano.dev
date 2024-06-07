@@ -155,6 +155,11 @@ a.title {
     margin-top: 2rem;
 }
 
+.layout-post header .date-tags {
+    font-size: 1rem;
+    margin:-1rem 0 0.5rem 0 ;
+}
+
 .layout-post p {
     margin: 0 0 .4rem 0;
     line-height: 1.8;

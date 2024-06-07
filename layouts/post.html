@@ -12,6 +12,14 @@ layout: base
       <header {% if page.cover-img %}class="with-cover"{% endif %}>
           <h1 class="title p-name">{{ page.title }}</h1>
           {% if page.subtitle %}<h3 class="subtitle">{{ page.subtitle }}</h3>{% endif  %}
+          <div class="date-tags">
+              <span class="date">{{ page.date | date: "%Y-%m-%d" }}</span>
+              <span class="tags">
+                  {% for tag in page.tags %}
+                  <a class="p-category" href="/blog/tags#{{tag}}">#{{tag}}</a>
+                  {% endfor %}
+              </span>
+          </div>
           {% if page.cover-img %}
           <img class="cover-img" src="{{ page.cover-img | absolute_url }}">
           {% endif %}
@@ -23,9 +31,21 @@ layout: base
       {% else %}
       {{ content }}
       {% endif %}
+
+      <br/>
+      <br/>
+
+      <div class="pagination" style="display:flex">
+          {% if page.next %}
+          <span>← <a class="title" href="{{page.next.url}}"> {{ page.next.subtitle | default:page.next.title}}</a></span>
+          {% endif %}
+
+          {% if page.previous %}
+          <span style="margin-left: auto"><a class="title" href="{{page.previous.url}}">{{ page.previous.subtitle | default:page.previous.title}}</a> →</p>
+              {% endif %}
+      </div>
   </div>
 
-  <br/>
   <div style="display: none">
       <a href="{{page.url | absolute_url }}" class="u-url u-uid"></a>
       <a href="/" class="h-card p-author">Facundo Olano</a>
