@@ -6,22 +6,22 @@ layout: post
 lang: en
 tags: [web, projects, programming]
 draft: true
-excerpt: "A Kindle integration was a natural extension to my feed reader. I had to learn some subtleties to get it working, so it seemed interesting to document the implementation process."
+excerpt: "A Kindle integration was a natural extension to my feed reader. I had to learn a couple of things to get it working, so it seemed interesting to document the implementation process."
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-Last year [[file:reclaiming-the-web-with-a-personal-reader][I wrote]] about how I built [[https://github.com/facundoolano/feedi][feedi]], a personal feed reader, and started using it as my front page to the web. In the months since then I continued to tweak the app, observing my reading habits, experimenting with new features and discarding the ones I didn't need. I now got it to a place where I can count on seeing fresh and interesting content a couple of times a day, and the interface conveniently lets me keep what I plan to read and discard the rest.
+Last year [[file:reclaiming-the-web-with-a-personal-reader][I wrote]] about how I built [[https://github.com/facundoolano/feedi][feedi]], a personal feed reader, and started using it as my front page to the web. In the months since I published that post I continued to tweak the app, observing my reading habits, experimenting with new features and discarding the ones I didn't need. I now got it to a place where I can count on seeing fresh and interesting content a couple of times a day, and the interface conveniently lets me keep what I plan to read and discard the rest.
 
-But while I'm an avid reader on paper, I struggle with lack of concentration and eye strain when trying to read in a laptop or a desktop monitor ---and it gets worse in the phone screen. In practice, feedi works as a mix of news feed and content finder and organizer; I prefer to send longer blog posts or essays to my Kindle so I can get back to them when I'm offline in bed, in the bathroom, at a cafe or on the bus.
+But while I'm an avid reader on paper, I struggle with lack of concentration and eye strain when trying to read  on a laptop or a desktop monitor ---and it only gets worse on the phone. In practice, I use feedi as a mix of news feed, and content finder and organizer; I prefer to send longer blog posts or essays to my Kindle, so I can get back to them when I'm offline: in bed, in the bathroom, at a cafe or on the bus.
 
-So a Kindle integration was a natural extension to feedi. Not only because it streamlined my reading workflow but because the official Amazon Send To Kindle extension does a poor job of extracting  content from most websites. I was already using Mozilla's [[https://github.com/mozilla/readability][readability library]] to embed cleaned up HTML content in the reader, so I just needed to figure out how to send those articles over to my Kindle. I learned a couple of things along the way, so it seemed interesting to document the implementation process here.
+So a Kindle integration was a natural extension to feedi. Not only because it streamlined my reading workflow but because Amazon's Chrome extension and iOS app do a poor job of extracting  content from most websites. I was already getting better results with the [[https://github.com/mozilla/readability][readability library]] in feedi's embedded article view, so I just needed to figure out how to send that cleaned up HTML over to my Kindle. I learned a couple of things to get that working, so it seemed interesting to document the implementation process here.
 
 -----
 
-My first instinct was trying to get away with a Kindle integration that didn't require sending emails from my app. I found a [[https://github.com/maxdjohnson/stkclient][Python library]] that "impersonated" an Amazon client and wrote my first implementation around it, but it turned out to be brittle: it required storing device credentials in the reader app and manually authenticating every few days, which hurt the user experience, ultimately discouraging me from using the feature at all.
+My first instinct was trying to get away with a Kindle integration that didn't require sending emails from my app. I found a [[https://github.com/maxdjohnson/stkclient][Python library]] that "impersonated" an Amazon client and wrote my first implementation around it, but it turned out to be brittle: it required storing device credentials in the database and manually authenticating every few days, which hurt the user experience, ultimately discouraging me from using the feature at all.
 
-So a few months later I took another stab at it using the more reasonable option of sending articles as EPUB email attachments. At high-level, this is what the app needed to do:
+So a few months later I took another stab at it, opting to send articles via email. At high-level, I needed to: fetch the HTML from the website, extract the cleaned-up article content from it, package it into an EPUB file, and attach it to an email to my Kindle device. This is what it looked like from the Flask route:
 
 #+begin_src python
 # feedi/routes.py
@@ -41,12 +41,11 @@ def send_to_kindle():
     return '', 204
 #+end_src
 
-Fetch the HTML from the website, extract the article content from it, package it into an EPUB file, send it as the attachment to an email to the Kindle device. Let's look at each of these steps in turn.
-
-For the extraction I tried every Python library I could find[fn:1], but none seemed to do as good of a job as Firefox's reader view, so I decided to use the [[https://github.com/mozilla/readability][JavaScript library]] that powers it through a little Node.js script:
+Let's go through each of these steps. For the extraction I tried every Python library I could find[fn:1], but none seemed to do as good of a job as Firefox's reader view, so I decided to use the [[https://github.com/mozilla/readability][JavaScript library]] that powers it through a little Node.js script[fn:2]:
 
 #+begin_src javascript
 #!/usr/bin/env node
+// feedi/extract_article.js
 
 const { JSDOM } = require("jsdom");
 const { Readability } = require('@mozilla/readability');
@@ -60,13 +59,11 @@ JSDOM.fromURL(url).then(function (dom) {
 });
 #+end_src
 
-The script's output look like this:
+The script's output looks like this:
 #+begin_src json
 {
   "title": "From RSS to my Kindle",
   "byline": "Facundo Olano",
-  "dir": null,
-  "lang": null,
   "content": "<div id=\"readability-page-1\" class=\"page\"><div lang=\"en\"><header><h3>Building website EPUBs with Python</h3></header><p>Last year I wrote about <a href=\"https://olano.dev/blog/reclaiming-the-web-with-a-personal-reader\">how I built feedi</a>, a personal feed reader, and started using it as my front page to the web. (...)",
   "textContent": "Building website EPUBs with Python\n\nLast year I wrote about how I built feedi, a personal feed reader, and started using it as my front page to the web. (...)",
   "length": 2793,
@@ -89,7 +86,7 @@ def extract(url):
     return article
 #+end_src
 
-I found that some websites rely on JavaScript to load images lazily, so I tweaked the tags to force image rendering (both in the app and in Kindle):
+I found that some websites rely on JavaScript to load images lazily, so I rewrote the tags to force them to render (both in the app and in Kindle):
 
 #+begin_src diff
  import json
@@ -116,7 +113,7 @@ I found that some websites rely on JavaScript to load images lazily, so I tweake
      return article
 #+end_src
 
-The bulk of the work was putting together a valid EPUB file from this website content. With a very superficial research I found that EPUB files are just zips with a few metadata files. So I started by zipping the article that the extraction script gave me:
+Next I needed to put together a valid EPUB file from this HTML content. A very superficial research revealed that EPUB files are just zips with a few metadata files. So I zipping the article into a bytes sequence:
 
 #+begin_src python
 # feedi/scraping.py
@@ -131,7 +128,7 @@ def package_epub(url, article):
     return output_buffer.getvalue()
 #+end_src
 
-Based on [[https://github.com/thansen0/sample-epub-minimal][this sample repository]] I added mimetype, container and content files pointing to the single article.html file:
+Based on [[https://github.com/thansen0/sample-epub-minimal][this sample repository]] I added mimetype, container and content files pointing to the single article.html file, to turn it into an EPUB:
 
 #+begin_src  python
 zip.writestr('mimetype', "application/epub+zip")
@@ -163,7 +160,7 @@ zip.writestr('content.opf', f"""<?xml version="1.0" encoding="UTF-8"?>
 </package>""")
 #+end_src
 
-This was enough to get the text working, but I needed to download and zip the article images if wanted them to show in the Kindle:
+This was enough to get the text working, but I needed to download the images if wanted them to show up in the Kindle:
 
 #+begin_src diff
  import io
@@ -192,7 +189,8 @@ This was enough to get the text working, but I needed to download and zip the ar
 +        zip.writestr('article.html', str(soup))
      return output_buffer.getvalue()
 #+end_src
-Note how I also had to rewrite the ~<img>~ tags so the source pointed to the local files location instead of the public internet ones (much like the browser does when downloading a page). Since the Kindle can't render WebP images, my next step was to convert those to jpegs:
+
+Note how I also rewrite the ~img src~ attributes so they point to the local files instead of online ones (much like the browser does when downloading a page). Since the Kindle can't render WebP images, my next step was to convert those to JPEGs:
 
 #+begin_src diff
  import io
@@ -229,9 +227,7 @@ Note how I also had to rewrite the ~<img>~ tags so the source pointed to the loc
          zip.writestr('article.html', str(soup))
 #+end_src
 
-Now I just needed to email this zip file. I didn't want to depend on a paying service and remembered from my old web developer days that a regular Gmail account was the cheap option to send a low volume of emails from an app. Things had changed slightly since the last time I tried this, though: I had to enable two-factor authentication and generate an "app password" (at ~https://myaccount.google.com/apppasswords~) for Google to accept my SMTP requests.
-
-This is what the email boilerplate looked like:
+Now I just needed to email this zip file. I didn't want to depend on a paid service, and remembered from my old web developer days that a regular Gmail account did the trick to send a few emails from a web app. Things had changed since the last time I'd tried this, though: I had to enable two-factor authentication and generate an "app password" (at ~https://myaccount.google.com/apppasswords~) for Google to accept my SMTP requests. This is what the email boilerplate looked like:
 
 #+begin_src python
 # feedi/email.py
@@ -251,21 +247,24 @@ def send(recipient, attach_data, filename):
     msg['From'] = sender
     msg['To'] = recipient
     msg['Subject'] = f'feedi - {filename}'
+
+    part = MIMEBase('application', 'epub')
+    part.set_payload(attach_data)
+    encoders.encode_base64(part)
 #+end_src
 
-The ~attach_data~ being the epub zip bytes. The Kindle uses the filename from the ~Content-Disposition~ header as the title displayed in the device library. This is a problem when the title contains spaces or non-ASCII characters ---as is the case for articles in Spanish. I got that working after a few tries with the escaping syntax suggested by this [[https://stackoverflow.com/questions/93551/how-to-encode-the-filename-parameter-of-content-disposition-header-in-http/216777#216777][StackOverflow answer]]:
+The ~attach_data~ being the EPUB zip bytes.
+
+The Kindle uses the filename from the ~Content-Disposition~ header as the title displayed in the device library; this is a problem when the title contains spaces or non-ASCII characters ---as is the case for Spanish articles. I got that working after a few tries with the escaping syntax suggested by this [[https://stackoverflow.com/questions/93551/how-to-encode-the-filename-parameter-of-content-disposition-header-in-http/216777#216777][StackOverflow answer]]:
 
 #+begin_src  python
-part = MIMEBase('application', 'epub')
-part.set_payload(attach_data)
-encoders.encode_base64(part)
-
 filename = urllib.parse.quote(filename)
 part.add_header('Content-Disposition', f"attachment; filename*=UTF-8''{filename}.epub")
 msg.attach(part)
 #+end_src
 
 Finally, the email is sent like this:
+
 #+begin_src python
 smtp = smtplib.SMTP(server, port)
 smtp.ehlo()
@@ -275,15 +274,17 @@ smtp.sendmail(sender, recipient, msg.as_string())
 smtp.quit()
 #+end_src
 
-Of course, for the Kindle to accept these emails, I had to whitelist the reader email address in my Amazon device settings.
+Of course, for the Kindle to accept it, I had to whitelist the reader email address in my Amazon device settings.
 
 -----
-This implementation already works well-enough for my needs, but there's still room for improvement:
+This implementation works well-enough for my needs, but there's still room for improvement:
 
-- Some websites regrettably rely on JavaScript to load their HTML, which is not picked up by the readability package. I experimented with a headless browser to fetch the content, but that made the app slow and brittle, so I just choose not to read content from JavaScript-centric websites. (A similar rule applies to paywalls).
-- This Kindle integration feature is very convenient when using feedi, but I'd also want to use it from the browser. Right now I need to copy the URL and paste it into the reader to send articles to my Kindle, but I'm toying with the idea of a Firefox extension that would work similarly to Amazon's one ---and that could also be used for other feedi operations, like feed discovery.
-- Similarly, I'd like feedi, which is already a Progressive Web App, to work as a share target in my phone to share URLs for sending to my Kindle or RSS discovery. Unfortunately, this feature is [[https://developer.mozilla.org/en-US/docs/Web/Manifest/share_target][not supported in iOS]].
+- Some websites regrettably rely on JavaScript to load their HTML, so it's not picked up by the readability package. I experimented with a headless browser to fetch the content, but that made the app slow and brittle, so I just choose not to read content from JavaScript-centric websites. (A similar rule applies to paywalls).
+- This Kindle integration feature is very convenient when using feedi, but I'd also want to use it from the browser. Right now I need to copy the URL and paste it into feedi, but I'm toying with the idea of a Firefox extension that would work similarly to Amazon's one ---and that could also be used for other URL operations, like RSS feed discovery.
+- Similarly, I'd like feedi, which is already a Progressive Web App, to work as a share target in my phone, so it  can receive URLs from other applications. Unfortunately, this feature is [[https://developer.mozilla.org/en-US/docs/Web/Manifest/share_target][not supported in iOS]].
 
 ** Notes
 
 [fn:1] [[https://github.com/codelucas/newspaper][newspaper3k]], [[https://github.com/fhamborg/news-please][news-please]], [[https://github.com/goose3/goose3][goose3]], [[https://github.com/adbar/trafilatura][trafilatura]], [[https://github.com/alan-turing-institute/ReadabiliPy][ReadabiliPy]], [[https://github.com/buriy/python-readability][python-readability]].
+
+[fn:2] I could have called the library from the browser instead, saving me from this additional Node.js dependency, but I preferred the extra complexity on the server over adding scripting to an otherwise declarative htmx client. The server-side approach also allows me to pre-fetch article content on the background.
