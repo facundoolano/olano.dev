@@ -4,7 +4,7 @@ title: "JavaScript: las partes nobles"
 excerpt: Quiero hacer el ejercicio borgeano de fingir que un lenguaje existe y describirlo brevemente.
 image: assets/img/funscript.jpg
 date: 2020-09-22
-tags: [programación]
+tags: [programación, ideas]
 css: "highlight"
 lang: es
 ---

@@ -5,7 +5,7 @@
 - date: 2023
   name: feedi
   url: https://github.com/facundoolano/feedi
-  description: a personal news feed and mastodon client. I wrote about this project [here](/2023-12-12-reclaiming-the-web-with-a-personal-reader/).
+  description: a personal news feed and mastodon client. I wrote about this project [here](/blog/reclaiming-the-web-with-a-personal-reader) and [here](/blog/from-rss-to-my-kindle).
 - date: 2022
   name: software-papers
   url: https://github.com/facundoolano/software-papers
