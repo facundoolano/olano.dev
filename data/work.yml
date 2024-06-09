@@ -2,7 +2,7 @@
   positions:
     - date: Jan 2024 - Present
       title: Software Engineering Consultant
-      tech: Python, FastAPI, LLMs, Azure
+      tech: Python, Flask, LLMs, Azure
       description: >
         Assist an early-stage startup building a data extraction service around Large Language Models.
 - date: 5 years 7 months
@@ -20,7 +20,7 @@
       tech: AdTech, Distributed Systems, DevOps, Erlang, Python, Elixir, JavaScript, PostgreSQL, AWS, Terraform, Datadog
       description: >
         As part of the Real-time bidding team, I worked on design, development, maintenance and operation of the bidding service and its support systems.
-        These were decade-old systems, deployed to 2000 servers across the world, with high traffic and latency demands.
+        These were decade-old systems, deployed to 2000 servers across the world, with high traffic and low latency restrictions.
         Operations work included infrastructure set up, deploys, monitoring, and production incident handling.
 
         <br/><br/>Some of the work efforts I led at NextRoll:
