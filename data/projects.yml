@@ -30,14 +30,18 @@
   url: https://github.com/lambdaclass/webrtc-server
   name: webrtc-server
   description: an Erlang/OTP library to implement the server-side components for WebRTC video communications.
+
 - date: 2017
-  url: https://github.com/lambdaclass/throttle
-  name: throttle
-  description: a rate-limiting library for Erlang.
+  url: https://github.com/lambdaclass/holiday_pinger
+  name: Holiday Pinger
+  description: >
+    a web app to send holiday reminders.
+    This was an Erlang and ClojureScript training project; see the design notes [here](https://blog.lambdaclass.com/holiday-ping-how-we-implemented-our-first-open-source-app-with-erlang-and-clojurescript/) and [here](https://blog.lambdaclass.com/one-does-not-simply-build-a-user-interface-our-clojurescript-re-frame-app/).
+    An [Erlang rate-limiting](https://github.com/lambdaclass/throttle) library was developed as part of this project.
 - date: 2017
   url: https://github.com/facundoolano/restpect
   name: restpect
-  description: an integration testing library for RESTful APIs.
+  description: a Clojure integration testing library for RESTful APIs.
 - date: 2016
   url: https://github.com/facundoolano/redis-lru
   name: redis-lru
