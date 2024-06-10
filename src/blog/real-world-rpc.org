@@ -1,0 +1,10 @@
+---
+title: "Real-world RPC with RabbitMQ and Node.JS"
+date: 2016-06-26
+layout: post
+lang: en
+tags: [programming]
+external: https://facundoolano.wordpress.com/2016/06/26/real-world-rpc-with-rabbitmq-and-node-js/
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
