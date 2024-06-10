@@ -69,4 +69,4 @@ En el afán de enojar a un grupo mayor de personas, podría cerrar diciendo que 
 [fn:6] Por ejemplo: [[https://www.pagina12.com.ar/diario/suplementos/libros/subnotas/1823-238-2005-11-13.html][Chéjov]] y [[https://www.businessinsider.com/stephen-king-on-how-to-write-2014-8#20-when-youre-finished-writing-take-a-long-step-back-220][Stephen King]].
 
 ------
-[[file:../../2021-09-22-do-programmers-dream-of-electronic-poems][English version]].
+[[file:../../../../../../../blog/do-programmers-dream-of-electronic-poems][English version]].
