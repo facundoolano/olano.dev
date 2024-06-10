@@ -1,0 +1,10 @@
+---
+title: "jorge devlog #0: Why?"
+date: 2024-02-28
+layout: post
+lang: en
+tags: [projects, software]
+external: https://jorge.olano.dev/blog/why
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en

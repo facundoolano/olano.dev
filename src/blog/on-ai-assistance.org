@@ -1,5 +1,5 @@
 ---
-title: On AI assistance
+title: "jorge devlog #6: On AI assistance"
 date: 2024-03-14
 layout: post
 lang: en
