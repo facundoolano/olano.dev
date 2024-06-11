@@ -180,6 +180,16 @@ a.title {
     margin: 2rem 0;
 }
 
+.pagination {
+    display:flex;
+}
+
+.pagination div {
+    display:flex;
+    max-width: 40%;
+    text-justify: none;
+}
+
 hr.footnotes-separatator {
     display:none;
 }

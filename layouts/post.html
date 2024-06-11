@@ -35,13 +35,21 @@ layout: base
       <br/>
       <br/>
 
-      <div class="pagination" style="display:flex">
+      <div class="pagination">
           {% if page.next %}
-          <span>← <a class="title" href="{{page.next.url}}"> {{ page.next.subtitle | default:page.next.title}}</a></span>
+          <div>
+          <span style="padding-right: 0.5rem">←</span>
+          <span>
+              <a class="title" href="{{page.next.url}}"> {{ page.next.subtitle | default:page.next.title}}</a>
+          </span>
+          </div>
           {% endif %}
 
           {% if page.previous %}
-          <span style="margin-left: auto"><a class="title" href="{{page.previous.url}}">{{ page.previous.subtitle | default:page.previous.title}}</a> →</p>
+          <div style="margin-left: auto; text-align: right" >
+              <span ><a class="title" href="{{page.previous.url}}">{{ page.previous.subtitle | default:page.previous.title}}</a></span>
+              <span style="padding-left: 0.5rem">→</span>
+          </div>
               {% endif %}
       </div>
   </div>
