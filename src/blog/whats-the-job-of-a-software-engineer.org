@@ -1,0 +1,42 @@
+---
+title: What's the Job of a Software Engineer?
+date: 2024-06-13 11:14:12
+layout: post
+lang: en
+tags: [software]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+** The Job
+In order to do a /good/ job, a software engineers need to know what their job is. Depending on the level of abstraction with which they model the world, their personal needs and preferences, their place in the idealism-cynicism spectrum, all of these could be legitimately said to be the purpose of software engineers:
+
+- Writing code.
+- Building and maintaining quality software.
+- Building and maintaining software that solves a problem or provides a service, with a good user experience.
+- Building and maintaining /good enough/ software /cost-effectively/.
+- Managing complexity.
+- Minimizing accidental complexity and assisting with essential complexity.
+- Satisfying customer needs.
+- Delighting users.
+- Making money for their employing organization or their customers.
+- Increasing revenue and/or reducing costs for their employing organization of their customers.
+- Making money (for themselves).
+
+There are surely more.
+Some of the goals above can be reduced or abstracted to others. For example: ...
+But those abstractions can be taken too far, out of their context.
+<sometimes you need to sacrifice quality to stay in budget. Or you need to introduce feature that annoy users but benefit the business>. <in a previous post I explored some of problems that can come when <sticking too rigidly> to a narrow perspective of our work>
+
+Some of these goals are derived from models that are ultimately incompatible or contradictory with each other, and will only coexist in perpetual tension.
+
+** Worse is Better
+Software engineering is knowledge work and involves some degree of creativity. It's fair to say, without pretense, that a software engineer is closer to a craftsperson than a factory worker. Some of software engineers care about doing a good job, independent of it's compensation. <And their definition of /a good job/, is subjective.>
+
+There's a fundamental tension between building quality software and meeting business needs.
+<This tension manifests in many ways / has many expressions>
+- tactical vs strategical
+- a personal favorite, the right thing vs worse is better.
+
+** Killing Gollum
