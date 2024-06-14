@@ -61,21 +61,21 @@ In the /"No Silver Bullet" Refired/ retrospective, Brooks quotes a reader that p
 In my experience most of the complexities which are encountered in systems work are symptoms of organizational malfunctions. Trying to model this reality with equally complex programs is actually to conserve the mess instead of solving the problems.
 #+end_quote
 
-With this in mind, we can simplify the goal of the engineer from: minimizing /accidental/ complexity and assisting with /essential/ complexity, to: minimizing complexity /of any kind/.
-
-#+BEGIN_CENTER
-\lowast{} \lowast{} \lowast{}
-#+END_CENTER
-
-# TODO consider moving these two paragraphs to the previous section (between brooks quotes). that would make this one more cohesive
-"Redefining the problem" may sound like a cop-out, but it's the bread and butter of senior engineers:
+Redefining the problem may sound like a cop-out, but it's the bread and butter of senior engineers:
 
 # TODO try to rephrase
 - "Code is a liability, not an asset. Removing code is better than writing code; preventing code from being written in the first place is best of all".
 - "Why are we working on this? Do we really need it? What problem are we trying to solve? Who benefits from us solving it?”
 - "What if, instead of X, we initially ship X1? That would take us 20% of the time and provide 80% of the functionality. We can always go back and extended later".
 
-Strictly following Moseley and Marks's definition, the fact that we can get the user (or the customer, or the product owner) to accept to change their requirements, means that the removed complexity /wasn't essential in the first place/. Instead, we made progress in uncovering the true essence of the system. But it's a progress that required an engineer to challenge assumptions and dissuade stakeholders. Without their involvement, the unnecessary features would have become part of the problem specification, "ossified" into the essence.
+Strictly following Moseley and Marks's definition, the fact that we can get the user (or the customer, or the product owner) to accept a change of requirements, means that the removed complexity /wasn't essential in the first place/. Instead, we made progress in uncovering the true essence of the system. But it's a progress that required an engineer to challenge assumptions and dissuade stakeholders. Without their involvement, the unnecessary features would have become part of the problem specification, "ossified" into the essence.
+
+We can thus simplify the goal of the software engineer from: minimizing /accidental/ complexity and assisting with /essential/ complexity, to: minimizing complexity /of any kind/.
+
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
 
 In general, given a complex component of a software system (or an organization), it can happen that:
 
