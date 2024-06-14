@@ -11,17 +11,37 @@ image: assets/img/tarpit.png
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-There's a world in which reducing complexity is the main duty of a software engineer. John Ousterhout summarizes it well:
-  - quote
-  - the model may not be universally true, but let's assume it for the purposes of this discussion.
-- The seminal essay to talk about software complexity is fred brooks NSB. there he distinguishes between essence and accident in software, and says that complexity is part of the essence of software development ---the thing that determines the limits of our productivity.
-- Moseley and Marks, in /Out of the Tar Pit/, refine Brooks definitions to make them more useful to reason about.
-  - accidental + essential complexity definitions
-  - some accidental is necessary
-  - the job is to minimize + assist
-- Mosely & Marks remark, contrary to brooks, that accidental complexity still accounts for most of the complexity of the software, so it's worth trying to reduce it. I agree with them
+There's [[file:the-job-of-a-software-engineer][a world]] in which reducing complexity is the main duty of a software engineer. John Ousterhout summarizes it well:
+
+#+begin_quote
+If we want to make it easier to write software, so that we can build more powerful systems more cheaply, we must find ways to make software simpler. Complexity will still increase over time, in spite of our best efforts, but simpler designs allow us to build larger and more powerful systems before complexity becomes overwhelming. (...) The most important thing is the long-term structure of the system. Most of the code in any system is written by extending the existing code base, so your most important job as a developer is to facilitate those future extensions. Thus, you should not think of “working code” as your primary goal, though of course your code must work. Your primary goal must be to produce a great design, which also happens to work. This is strategic programming.
+#+end_quote
+
+This model may not be universally true, but let's assume it is for the purposes of this discussion.
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
+
+
+The /urtext/ for software complexity discussion is Fred Brooks's [[https://worrydream.com/refs/Brooks_1986_-_No_Silver_Bullet.pdf][/No Silver Bullet/]]. Brooks distinguishes between essence and accident in software, posing that complexity is part of the essence ---the thing that currently bounds our productivity. In [[https://curtclifton.net/papers/MoseleyMarks06a.pdf][/Out of the Tar Pit/]], Moseley and Marks build on Brooks's work, providing definitions for the more well-known  (and more tractable) notions:
+
+- *Essential Complexity* is inherent in, and the essence of, the /problem/ (as seen by the /users/).
+- *Accidental Complexity* is all the rest ---complexity with which the development team would not have to deal in the ideal world (e.g. complexity arising from performance issues and from suboptimal language and infrastructure).
+
+The user point of view is the key of the separation:
+
+#+begin_quote
+If there is any possible way that the team could produce a system that the users will consider correct without having to be concerned with a given type of complexity then that complexity is not essential. (...) One implication of this definition is that if the user doesn’t even know what something is (e.g. a thread pool or a loop counter — to pick two arbitrary examples) then it cannot possibly be essential by our definition.
+#+end_quote
+
+Of course, any real-world realization of the system will necessarily introduce /some/ accidental complexity. The goal of the software engineer, then, is to /minimize/ accidental complexity, and /assist/ with the essential complexity.
+
+- Mosely & Marks remark, contrary to Brooks, that accidental complexity still accounts for most of the complexity of the software, so it's worth trying to reduce it. I agree with them
   - my personal experience showed me that a lot of the complexity we have to deal-with is self inflicted: inclination for over engineering, following trends, shortcuts due to tactical programming mindset, making decisions at a stage when we don't know enough yet.
-  - M&M also say that essential complexity is, by definition, the part that's inherent to the problem, out of our purview, what we can't change. I want to challenge this assumption
+
+- the M&M definition implies that essential complexity is inherent to the problem, out of our purview, something we can't change (by definition, if we could change it, it wouldn't be essential).
+    I want to challenge this assumption
     - <or, better put, exploring what happens when engineers are willing to assume the responsibility of attacking essential complexity as part of their jobs, even if that means redefining the problems from the user standpoint. Even if it means operating beyond the limits of the software.
 # [maybe better later like in spanish? what makes for better readability]
 
@@ -57,12 +77,16 @@ With this in mind we can simplify the job of the engineer from "Minimizing /acci
 #+END_CENTER
 
 <
-While "redefining the problem" may sound like cheating, this is second nature to senior engineers.
-- why do we need this?
+While "redefining the problem" may sound like cheating, this is second nature/bread and butter to senior engineers.
+# todo consider making this a paragraph instead of alist
+- why are we working on this? do we really need this? what problem are we trying to solve?
+- what if, instead of X, we initially do X1? that would take us 20% of the time and provide 80% of the functionality. We can always go back and extended later.
 - making sure we're solving the right problem
 - code is a liability, not an asset
 - better than writing or deleting software, the best outcome is prevent the wrong software from being written in the first place
 >
+
+- strictly speaking, since we got the user those changes, by M&M's definition the removed complexity wouldn't be /essential/. But the important thing to note is that it required the engineer to proactively challenge assumptions and convince the user/customer/product owner to change their initial requirements. <Otherwise the complexity would've been <"ossified" into the essence of the problem>.
 
 TODO
 - let's use a legacy system as an example of how to apply this attitude
@@ -80,6 +104,7 @@ When we encountered systems that had been forgotten and we couldn’t figure out
 #+END_CENTER
 
 It's interesting to see what happens when we take this argument to its extreme; software engineers acting as the philosophical razor, removing the complexity of the world. They could:
+# todo consider making this a paragraph instead of alist
 - envision simpler implementations for the systems, then exercise their influence on the organizations that use them, pushing their processes to converge with the desired implementation ---a sort of userland reverse Conway;
 - automate employees, including the engineers themselves, out of a job;
 - simplify systems, along with the organizations that own them, out of existence.
