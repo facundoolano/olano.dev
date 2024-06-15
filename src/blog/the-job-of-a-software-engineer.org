@@ -1,5 +1,5 @@
 ---
-title: What's the Job of a Software Engineer?
+title: A Note on Worse is Better
 date: 2024-06-13 11:14:12
 layout: post
 lang: en
@@ -10,22 +10,7 @@ image: "assets/img/zappa.webp"
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-Depending on the level of abstraction with which they model the world, their personal needs and preferences, their place in the idealism-cynicism spectrum, any of these could be legitimately said to be the goal of software engineers:
 
-- Writing code.
-- Managing complexity.
-- Minimizing accidental complexity and assisting with [[file:a-note-on-essential-complexity][essential complexity]].
-- Building and maintaining quality software.
-- Building and maintaining software that solves a problem or provides a service, with a good user experience.
-- Building and maintaining /good enough/ software /cost-effectively/.
-- Solving problems.
-- Satisfying customer needs.
-- Delighting users.
-- Making money for their employing organization or their customers.
-- Increasing revenue and/or reducing costs for their employing organization of their customers.
-- Making money (for themselves).
-
-There are surely more. Some of the goals above can be abstracted or reduced to others. For example: we can assume (to some extent) that quality software will delight our users and make money for our employing organization. But these abstractions can also be taken too far, out of their reasonable scope of application: sometimes we need to sacrifice quality to remain within budget, or introduce features that annoy users to generate profit for the business. I [[file:code-is-run-more-than-read][already explored]] some of the problems of having an overly narrow perspective of our work; now I want to look at how some of these models are incompatible or contradictory, and can only coexist in tension with each other.
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
