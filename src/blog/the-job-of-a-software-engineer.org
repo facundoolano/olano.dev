@@ -10,43 +10,42 @@ image: "assets/img/zappa.webp"
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-** The Job
 Depending on the level of abstraction with which they model the world, their personal needs and preferences, their place in the idealism-cynicism spectrum, any of these could be legitimately said to be the goal of software engineers:
 
-# TODO consider linking some sources
 - Writing code.
+- Managing complexity.
+- Minimizing accidental complexity and assisting with [[file:a-note-on-essential-complexity][essential complexity]].
 - Building and maintaining quality software.
 - Building and maintaining software that solves a problem or provides a service, with a good user experience.
 - Building and maintaining /good enough/ software /cost-effectively/.
-- Managing complexity.
-- Minimizing accidental complexity and assisting with essential complexity.
+- Solving problems.
 - Satisfying customer needs.
 - Delighting users.
 - Making money for their employing organization or their customers.
 - Increasing revenue and/or reducing costs for their employing organization of their customers.
 - Making money (for themselves).
 
-There are surely more. Some of the goals above can be reduced or abstracted to others. For example: we can work (to some extent) under the assumption that quality software will delight users and make money for our employing organization. But these abstractions can also be taken too far, out of their reasonable scope of application:  sometimes you need to sacrifice some quality to remain within budget; or you need to introduce features that annoy users but make profit for the business.
+There are surely more. Some of the goals above can be abstracted or reduced to others. For example: we can assume (to some extent) that quality software will delight our users and make money for our employing organization. But these abstractions can also be taken too far, out of their reasonable scope of application: sometimes we need to sacrifice quality to remain within budget, or introduce features that annoy users to generate profit for the business. I [[file:code-is-run-more-than-read][already explored]] some of the problems of having an overly narrow perspective of our work; now I want to look at how some of these models are incompatible or contradictory, and can only coexist in tension with each other.
 
-I [[file:code-is-run-more-than-read][already explored]] some of the problems of having an overly narrow perspective of our work. Now I want to look at how some of these models are incompatible or contradictory, and can only coexist in tension with each other.
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
 
-** Worse is Better
-Software engineering is knowledge work and involves some degree of creativity. It's fair to say, at the risk of sounding pretentious, that software engineers are closer to craftspoeple than to factory workers. That explains how some engineers genuinely care about doing their work well. By their own, subjective definition of what a /good job/ is ---a definition that can be totally detached by their compensation or the market value of their work.
 
-There's a fundamental tension between building quality software and meeting business needs.
-<This tension manifests in many ways / has many expressions>
-- quality vs cost / doing things well vs doing them economically.
-- tactical vs strategical
-- a personal favorite, the right thing vs worse is better.
+Software engineering is knowledge work; it involves some amount of creativity. It's fair to say, at the risk of sounding pretentious, that software engineers are closer to craftspoeple than to assembly line workers. That can explain why some engineers develop an interest in the task itself ---the craft---, detached from its economical compensation. They genuinely care about, and take pride in, doing a good job ---by their own, subjective definition of /good/. Some may go as far as to strive for /elegance/ and /beauty/. At best, this can make the work fulfilling; at worse, it makes work an end in itself.
 
+So there's a fundamental tension between the software craft and the business; if we try to maximize both quality and profit, a conflict will eventually emerge.
+
+- strategical vs tactical programming
+
+- the right thing vs worse is better <metaphor> <proverb> (?.
 - <summarize mit vs new jersey and conclusions>
 - perhaps a testament of the irreducible tension is that the author later published further pieces against and in favor of the original idea.
-
 - in the first place, the worse is better argument is compelling because it continued to be confirmed by history.
 - but most of all, because it tends to resonate with our individual experience.
   - we first learn about programming as a kind of logic, something of an exact science: there must be one optimal solution to a given problem and our job is to find it. But then, as we become professional software developers we learn that there are trade-offs, compromises to be made, factors outside the code that we need to take into consideration. that there may be more than one definition of /correct/ ---some more relevant than others. that we need to be pragmatic, convince others, generate consensus, abide by the decisions of the team or the orders of our boss. the mit vs new jersey tension also echoes industry vs academia, science vs engineering, free software vs open source. Accepting that worse could be better is part of becoming professionals.
 
-An interesting feature of the worse is better mindset is that its definition of /good/, while technically-grounded, can be conveniently bent to align with business needs. /The Right Thing/ carried the risk of being impractical, unsuited for the real-world, but there's a higher, subtler risk in using /Worse is Better/ as a slogan[fn:1], an excuse to slip into a purely tactical mindset. Sometimes worse is just worse.
+An interesting feature of the worse is better mindset is that its definition of /good/, while technically-grounded, can be conveniently bent to align with business needs. /The Right Thing/ carried the risk of being impractical, unsuited for the real-world, but there's a higher, subtler risk in using /Worse is Better/ as a slogan, an excuse to slip into a purely tactical mindset. Sometimes worse is just worse.
 
 Business will judge our work by its observable (preferably measurable) features: how much did it cost to produce, how much money it's bringing in. The quality of the design goes unnoticed, at least until it gets so bad that crop up and development becomes slower. At which point there's likely not going back and fixing it.
 
@@ -63,5 +62,12 @@ Software development is a balancing act. We can't just ignore economic restricti
 -----
 /The ideas in this post were [[file:worse-is-better-is-worse-is-better][previously]] [[file:inocencia-interrumpida][explored]] in Spanish./
 
-* Footnotes
-[fn:1] [[http://pchiusano.github.io/2014-10-13/worseisworse.html][The problematic culture of "Worse is Better"]].
+** Sources
+- [[https://web.stanford.edu/~ouster/cgi-bin/aposd.php][A Philosophy of Software Design]].
+- [[https://agilemanifesto.org/principles.html][Principles behind the Agile Manifesto]].
+- [[https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/][The Pragmatic Programmer]].
+- [[https://chelseatroy.com/2024/03/29/how-do-we-evaluate-people-for-their-technical-leadership/][How do we evaluate people for their technical leadership?]]
+- [[https://www.dreamsongs.com/WorseIsBetter.html][The Rise of the Worse is Better]].
+- [[http://pchiusano.github.io/2014-10-13/worseisworse.html][The problematic culture of "Worse is Better"]].
+- [[https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/][Don't Call Yourself A Programmer, And Other Career Advice]].
+- [[https://en.wikipedia.org/wiki/We're_Only_in_It_for_the_Money][We're Only in It for the Money]].
