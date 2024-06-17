@@ -1,12 +1,12 @@
 ---
 title: A Note on Essential Complexity
-date: 2024-06-13 14:16:19
+date: 2024-06-19
 layout: post
 lang: en
 tags: [software]
-draft: true
 cover-img: assets/img/labrea.jpg
 image: assets/img/tarpit.png
+excerpt: The fact that we can’t remove essential complexity by redesigning the software doesn’t mean that there’s nothing we can do about it. What if the problem definition wasn’t outside the engineer’s purview? What if we could get the world to conform to the software, and not just the other way around?
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
@@ -62,7 +62,7 @@ that there's an essence of the problem; something that the system must conform t
 Much of the complexity [the software engineer] must master is arbitrary complexity, forced without rhyme or reason by the many human institutions and systems to which his interfaces must conform. (…) In many cases the software must conform because it has most recently come to the scene. In others it must conform because it is perceived as the most conformable. But in all cases, much complexity comes from conformation to other interfaces; this cannot be simplified out by any redesign of the software alone.
 #+end_quote
 
-Now, I want to challenge the assumption that essential complexity is irreducible. What if we were to attack the essence? The fact that we can't remove it by changing software alone doesn't mean that there's nothing to do about it. What if the problem definition wasn't outside the engineer's purview? What if we can get the world to conform to the software, and not just the other way around? Brooks already hinted this possibility:
+Now, I want to challenge the assumption that essential complexity is irreducible. What if we were to attack the essence? The fact that we can't remove it by changing software alone doesn't mean that there's nothing we can do about it. What if the problem definition wasn't outside the engineer's purview? What if we could get the world to conform to the software, and not just the other way around? Brooks already hinted this possibility:
 
 #+begin_quote
 The buyer of a $2-million machine in 1960 felt that he could afford $250,000 more for a customized payroll program, one that slipped easily and nondisruptively into the computer-hostile social environment. Buyers of $50,000 office machines today [1986] cannot conceivably afford customized payroll programs; so they adapt their payroll procedures to the packages available. Computers are now so commonplace, if not yet so beloved, that the adaptations are accepted as a matter of course.
