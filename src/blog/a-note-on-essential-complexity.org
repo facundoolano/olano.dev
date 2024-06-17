@@ -11,24 +11,26 @@ image: assets/img/tarpit.png
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-Depending on the level of abstraction with which they model the world, their personal needs and preferences, their place in the idealism-cynicism spectrum, any of these could be legitimately said to be the goal of software engineers:
+Depending on the level of abstraction with which they model the world, their personal needs and preferences, their place in the idealism-cynicism spectrum, any of these could be legitimately said to be /the goal/ of software engineers:
 
 - Writing code.
 - Building and maintaining quality software.
 - Managing complexity.
 - Building and maintaining /good enough/ software /cost-effectively/.
+- Delighting users.
 - Solving problems.
 - Satisfying customer needs.
-- Delighting users.
 - Making money for their employing organization or their customers.
 - Making money (for themselves).
 
-There are surely more. Some of the goals above can be abstracted, or reduced to, or derived from others. For example: we can assume (to some extent) that quality software will delight our users and make money for our employing organization. But these abstractions can also be taken too far, out of their reasonable scope of application. In a [[file:code-is-run-more-than-read][previous post]], I explored the problems that can result from an overly-narrow perspective of our work. Some of these models are ultimately incompatible or contradictory, and can only coexist in tension with each other. For instance, we usually need to sacrifice quality to remain within budget, or introduce features that annoy users but generate profit for the business.
+There are surely more. Some of the goals above can be abstracted, or reduced to, or derived from others. Some are ultimately incompatible or contradictory, and can only coexist in tension with each other. For example: we can assume (to some extent) that quality software will delight our users and make money for our employing organization. But we also need to sacrifice quality to remain within budget, or introduce features that annoy users but generate profit for the business.
 
-For the purposes of this discussion, let's assume that /managing complexity/ is the main duty of a software engineer. John Ousterhout gives a good summary of this conception:
+Each of these goals comes from a particular way of modeling the world and our activity, valid in specific circumstances. As with any abstraction, they can be taken too far, out of their reasonable scope of application; in a [[file:code-is-run-more-than-read][previous post]], I explored the problems that can result from holding onto an overly-narrow perspective of our work.
+
+For the purposes of the following discussion, let's assume that /managing complexity/ is the main duty of a software engineer. Complexity is anything that makes it hard to understand and modify a system. John Ousterhout gives a good summary of why we should make it our main concern:
 
 #+begin_quote
-If we want to make it easier to write software, so that we can build more powerful systems more cheaply, we must find ways to make software simpler. Complexity will still increase over time, in spite of our best efforts, but simpler designs allow us to build larger and more powerful systems before complexity becomes overwhelming. (...) The most important thing is the long-term structure of the system. Most of the code in any system is written by extending the existing code base, so your most important job as a developer is to facilitate those future extensions. Thus, you should not think of “working code” as your primary goal, though of course your code must work. Your primary goal must be to produce a great design, which also happens to work. This is strategic programming.
+If we want to make it easier to write software, so that we can build more powerful systems more cheaply, we must find ways to make software simpler. (...) Most of the code in any system is written by extending the existing code base, so your most important job as a developer is to facilitate those future extensions. Thus, you should not think of “working code” as your primary goal, though of course your code must work. Your primary goal must be to produce a great design, which also happens to work. This is strategic programming. (...) If software developers should always be thinking about design issues, and reducing complexity is the most important element of software design, then software developers should always be thinking about complexity.
 #+end_quote
 
 #+BEGIN_CENTER
@@ -36,7 +38,7 @@ If we want to make it easier to write software, so that we can build more powerf
 #+END_CENTER
 
 
-The /urtext/ of the software complexity discussion is Fred Brooks's [[https://worrydream.com/refs/Brooks_1986_-_No_Silver_Bullet.pdf][/No Silver Bullet/]]. Brooks distinguishes between essence and accident in software, posing that complexity is part of the essence ---the thing currently bounding our productivity. In [[https://curtclifton.net/papers/MoseleyMarks06a.pdf][/Out of the Tar Pit/]], Moseley and Marks build on Brooks's work, defining the well-known (and more tractable) types of complexity:
+The /urtext/ of the software complexity discussion is Fred Brooks's [[https://worrydream.com/refs/Brooks_1986_-_No_Silver_Bullet.pdf][/No Silver Bullet/]]. Brooks distinguishes between essence and accident in software, posing that complexity is an essential difficulty of software systems ---one of the few things currently bounding our productivity. In [[https://curtclifton.net/papers/MoseleyMarks06a.pdf][/Out of the Tar Pit/]], Moseley and Marks build on Brooks's ideas, defining the better-known (and more tractable) types of complexity:
 
 - *Essential Complexity* is inherent in, and the essence of, the /problem/ (as seen by the /users/).
 - *Accidental Complexity* is all the rest ---complexity with which the development team would not have to deal in the ideal world (e.g. complexity arising from performance issues and from suboptimal language and infrastructure).
@@ -53,37 +55,35 @@ Of course, any real-world implementation of the system will necessarily have to 
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-Both authors of /No Silver Bullet/ and /Out of the Tar Pit/ agree in that there's an essence, given by the problem; something that the system must conform to, that engineers can't change, and that contributes a type of complexity that cannot be escaped. From /No Silver Bullet/:
+Subtle semantic differences notwithstanding, both authors of /No Silver Bullet/ and /Out of the Tar Pit/ agree in
+that there's an essence of the problem; something that the system must conform to, that engineers can't change, and that contributes a type of complexity that cannot be escaped. From /No Silver Bullet/:
 
 #+begin_quote
 Much of the complexity [the software engineer] must master is arbitrary complexity, forced without rhyme or reason by the many human institutions and systems to which his interfaces must conform. (…) In many cases the software must conform because it has most recently come to the scene. In others it must conform because it is perceived as the most conformable. But in all cases, much complexity comes from conformation to other interfaces; this cannot be simplified out by any redesign of the software alone.
 #+end_quote
 
-Now, I want to challenge the assumption that essential complexity is irreducible. What if we attacked the essence? What if the problem definition wasn't outside the engineer's purview? What if we can get the world to conform to the software, and not just the other way around? Brooks already hinted this possibility:
+Now, I want to challenge the assumption that essential complexity is irreducible. What if we were to attack the essence? The fact that we can't remove it by changing software alone doesn't mean that there's nothing to do about it. What if the problem definition wasn't outside the engineer's purview? What if we can get the world to conform to the software, and not just the other way around? Brooks already hinted this possibility:
 
 #+begin_quote
 The buyer of a $2-million machine in 1960 felt that he could afford $250,000 more for a customized payroll program, one that slipped easily and nondisruptively into the computer-hostile social environment. Buyers of $50,000 office machines today [1986] cannot conceivably afford customized payroll programs; so they adapt their payroll procedures to the packages available. Computers are now so commonplace, if not yet so beloved, that the adaptations are accepted as a matter of course.
 #+end_quote
 
-This doesn't come as a surprise to us: we've been seeing for decades how human behavior (and user expectations) can be shaped by software: instant messaging, social media, content streaming ---all drastically changed our everyday habits. If we admit that users can be made to adjust to the system ---that software has the potential to change people and organizations---, then the problems that the software solves for them can be redefined: the essence is not set in stone but open to discussion, part of what the engineer can work with.
+This doesn't come as a surprise to us: we've been seeing for decades how human behavior (and user expectations) can be shaped by software: instant messaging, social media, content streaming ---all drastically changed our everyday habits. If we admit that users can be made to adjust to the system ---that software has the potential to change people and organizations---, then the problems that software solves for them can be redefined: the essence is not set in stone but open to discussion, part of what the engineer can work with.
 
-In the /"No Silver Bullet" Refired/ retrospective, Brooks quotes a reader that perfectly summarizes this attitude:
+We can thus simplify the goal of the software engineer from: minimizing /accidental/ complexity and assisting with /essential/ complexity, to: minimizing complexity /of any kind/. In /"No Silver Bullet" Refired/, Brooks quotes a reader that perfectly summarizes this attitude:
 
 #+begin_quote
 In my experience most of the complexities which are encountered in systems work are symptoms of organizational malfunctions. Trying to model this reality with equally complex programs is actually to conserve the mess instead of solving the problems.
 #+end_quote
 
-Redefining the problem may sound like a cop-out, but it's the bread and butter of senior engineers:
+Redefining the problem may sound like a cop-out, but it's business as usual for senior engineers:
 
 # TODO try to rephrase
-- "Code is a liability, not an asset. Removing code is better than writing code; preventing code from being written in the first place is best of all".
 - "Why are we working on this? Do we really need it? What problem are we trying to solve? Who benefits from us solving it?”
 - "What if, instead of X, we initially ship X1? That would take us 20% of the time and provide 80% of the functionality. We can always go back and extended later".
+- "Code is a liability, not an asset. Removing code is better than writing code; preventing code from being written in the first place is best of all".
 
-Strictly following Moseley and Marks's definition, the fact that we can get the user (or the customer, or the product owner) to accept a change of requirements, means that the removed complexity /wasn't essential in the first place/. Instead, we made progress in uncovering the true essence of the system. But it's a progress that required an engineer to challenge assumptions and dissuade stakeholders. Without their involvement, the unnecessary features would have become part of the problem specification, "ossified" into the essence.
-
-We can thus simplify the goal of the software engineer from: minimizing /accidental/ complexity and assisting with /essential/ complexity, to: minimizing complexity /of any kind/.
-
+Strictly following Moseley and Marks's definition, the fact that we can get the user (or the customer, or the product owner) to accept a change of requirements, means that the removed complexity /wasn't essential in the first place/. Instead, we made progress in uncovering the true essence of the system. But this progress required an engineer to challenge assumptions and dissuade stakeholders. Without their involvement, the unnecessary features would have become part of the problem specification, "ossified" into the essence.
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
@@ -96,7 +96,7 @@ In general, given a complex component of a software system (or an organization),
 - The complexity is essential but we could remove it by redefining the problem specification.
 - The knowledge to tell whether something is essential or not is lost, the customer or the product owner can't tell, or there isn't such an authority to make the call.
 
-The last scenario is common of legacy systems, where the only system specification is the system itself ---bugs and unknown-unknowns included---, and any of its observable behaviors could be argued to be a functional requirement, part of its essence. The conservative approach to the maintenance of such a system would be to limit to internal refactors; a more disruptive reduce-complexity-at-all-costs attitude would be to assume anything is up for removal unless proven otherwise. In /Kill it with Fire/, Marianne Bellotti describes resilience engineering along those lines:
+I've seen that last scenario frequently in legacy software, where the only specification is the system itself ---bugs and unknowns included---, any observable behaviors a de facto functional requirement, part of the problem essence. The conservative approach to the maintenance of such a system would be to limit it to internal refactors; a more disruptive reduce-complexity-at-all-costs attitude would be to assume anything is up for removal unless proven otherwise. In /Kill it with Fire/, Marianne Bellotti describes resilience engineering along those lines:
 
 #+begin_quote
 When we encountered systems that had been forgotten and we couldn’t figure out what they were doing, we would usually just turn them off and see what happened. (…) When we turned off a system, we waited for someone to complain. That person was either the system owner or the owner of a downstream dependency, but either way, we ended the experiment with more information about what the system was doing than we started with. (…) If no one complained, we tended to just leave the system off and move on.
@@ -108,7 +108,7 @@ When we encountered systems that had been forgotten and we couldn’t figure out
 
 It's interesting to see what happens when we take this argument to its extreme; software engineers acting as the philosophical razor, removing the complexity of the world. They could:
 # todo consider making this a paragraph instead of alist
-- envision simpler implementations for the systems, then exercise their influence on the organizations that use them, pushing processes to converge with the desired implementation ---a sort of userland reverse Conway;
+- envision simpler implementations for a system, then exercise influence on the organizations that use them, pushing their processes to converge with the desired implementation ---this is, do with the organization that uses the software what the [[https://martinfowler.com/bliki/ConwaysLaw.html][Inverse Conway Maneuver]] tries to do with the organization that develops it;
 - automate employees, including the engineers themselves, out of a job;
 - simplify systems, along with the organizations that own them, out of existence.
 
