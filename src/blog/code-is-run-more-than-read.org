@@ -11,6 +11,14 @@ excerpt: "Code is read more than written, code is run more than read. I think th
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
+#+begin_export html
+<style>
+.layout-post .center-block code {
+  font-size: 1.1rem;
+}
+</style>
+#+end_export
+
 ** Code is read more than written
 
 This phrase is, by now, common programmer knowledge, a reminder that the person first writing a piece of code shouldn't buy convenience at the expense of the people who will have to read it and modify it in the future. More generally, /code is read more than written/ conveys that it's usually a good investment to make the code maintainable by keeping it simple, writing tests and documentation, etc. It's about having perspective over the software development cycle.

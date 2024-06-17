@@ -280,14 +280,14 @@ Need to decide between:
 */
 .layout-post :not(pre) > code {
     padding: .2em .4em;
-    background-color: whitesmoke!important;
+    background-color: unset!important;
     color: black;
     font-size: 1rem;
 }
 
 @media (prefers-color-scheme: dark) {
     .layout-post :not(pre) > code {
-        background-color: rgba(110, 118, 129, 0.4)!important;
+        background-color: unset!important;
         color: white;
     }
 }
