@@ -76,12 +76,7 @@ We can thus simplify the goal of the software engineer from: minimizing /acciden
 In my experience most of the complexities which are encountered in systems work are symptoms of organizational malfunctions. Trying to model this reality with equally complex programs is actually to conserve the mess instead of solving the problems.
 #+end_quote
 
-Redefining the problem may sound like a cop-out, but it's business as usual for senior engineers:
-
-# TODO try to rephrase
-- "Why are we working on this? Do we really need it? What problem are we trying to solve? Who benefits from us solving it?”
-- "What if, instead of X, we initially ship X1? That would take us 20% of the time and provide 80% of the functionality".
-- "Code is a liability, not an asset. Removing code is better than writing code; preventing code from being written in the first place is best of all".
+Redefining the problem may sound like a cop-out, but it's business as usual for senior engineers: /Why are we working on this? Do we really need it? What problem are we trying to solve? Who benefits from us solving it? What if, instead of X, we initially ship X1, which takes us 20% of the effort and provides 80% of the functionality?/
 
 Strictly following Moseley and Marks's definition, the fact that we can get the user (or the customer, or the product owner) to accept a change of requirements, means that the removed complexity /wasn't essential in the first place/. Instead, we made progress in uncovering the true essence of the problem. But this progress required an engineer to challenge assumptions and dissuade stakeholders. Without their involvement, the unnecessary features would have become part of the problem specification, "ossified" into its essence.
 
@@ -102,15 +97,14 @@ I've seen that last scenario frequently in legacy software, where the only speci
 When we encountered systems that had been forgotten and we couldn’t figure out what they were doing, we would usually just turn them off and see what happened. (…) When we turned off a system, we waited for someone to complain. That person was either the system owner or the owner of a downstream dependency, but either way, we ended the experiment with more information about what the system was doing than we started with. (…) If no one complained, we tended to just leave the system off and move on.
 #+end_quote
 
+
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-It's interesting to see what happens when we take this argument to its extreme; software engineers acting as the philosophical razor, removing the complexity of the world. They could:
+Pushing the argument to its extreme, engineers could envision simpler implementations of the systems, then influence and persuade the owning organizations to make their processes converge with those implementations. This is, doing with the organization that uses a system what the [[https://martinfowler.com/bliki/ConwaysLaw.html][Inverse Conway Maneuver]] tries to do with the organization that develops it.
 
-- exercise their influence on the organization that use a system, pushing its processes to converge with a simpler implementation ---this is, doing with the organization that uses the software what the [[https://martinfowler.com/bliki/ConwaysLaw.html][Inverse Conway Maneuver]] tries to do with the organization that develops it;
-- automate employees, including the engineers themselves, out of a job;
-- simplify systems, along with the organizations that own them, out of existence.
+Left to their own devices, software engineers would act the philosophical razor, removing the complexity of the world; automating employees ---including the engineers themselves--- out of a job; simplifying systems, along with the organizations that own them, out of existence.
 
 Of course, this is a reduction to the absurd, a consequence of taking our initial premise beyond its reasonable scope of application. We started with the assumption that the software engineer's sole purpose is to minimize complexity, ignoring, for instance, the economic interests that determine their work. Which can serve as a reminder: given that our work indeed has the power to affect individuals and organizations, we shouldn't wield it unconsciously, hiding behind the comfort of an abstraction. We occasionally need to look into the module's definition.
 
