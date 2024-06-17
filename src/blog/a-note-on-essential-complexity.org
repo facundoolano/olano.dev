@@ -23,9 +23,9 @@ Depending on their personal needs and preferences, the level of abstraction with
 - Making money for their employing organization or their customers.
 - Making money (for themselves).
 
-There surely are more. Some of these goals can be abstracted, reduced to, or derived from others. Some are ultimately incompatible or contradictory, and can only coexist with others in tension. For example: we can assume (to some extent) that quality software will delight our users and make money for our employers. But we also need to sacrifice quality to stay within budget, or introduce features that annoy users but generate profit.
+There surely are more. Some of these goals can be abstracted, reduced to, or derived from others. Some are ultimately incompatible or contradictory, and can only coexist with others in tension. For example: we can assume (to some extent) that quality software will delight our users and make money for our employers. But we also need to sacrifice quality to stay within budget or introduce features that annoy users but generate profit.
 
-Each of goal proceeds from a particular way of modeling the world and our activity. As with any abstraction, they serve its purpose in the right context and become /false/ when applied out of it; a number of problems in software development can be explained by such a skewed perspective, something I explored in a [[file:code-is-run-more-than-read][previous post]]. For the purposes of the following discussion, let's assume that /managing complexity/ is the main duty of a software engineer.
+Each goal proceeds from a particular way of modeling the world and our activity. As with any abstraction, they serve their purpose in the right context and become /false/ when applied outside of it; many problems in software development can be explained by such a skewed perspective, something I explored in a [[file:code-is-run-more-than-read][previous post]]. In the next discussion, let's assume that /managing complexity/ is the main duty of a software engineer.
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
@@ -43,13 +43,13 @@ The /urtext/ of the software complexity discussion is Fred Brooks's [[https://wo
 - *Essential Complexity* is inherent in, and the essence of, the /problem/ (as seen by the /users/).
 - *Accidental Complexity* is all the rest ---complexity with which the development team would not have to deal in the ideal world (e.g. complexity arising from performance issues and from suboptimal language and infrastructure).
 
-The user point of view is key to the distinction:
+The user's point of view is key to the distinction:
 
 #+begin_quote
 If there is any possible way that the team could produce a system that the users will consider correct without having to be concerned with a given type of complexity then that complexity is not essential. (...) One implication of this definition is that if the user doesn’t even know what something is (e.g. a thread pool or a loop counter — to pick two arbitrary examples) then it cannot possibly be essential by our definition.
 #+end_quote
 
-Of course, any real-world implementation of the system will necessarily have to introduce /some/ accidental complexity. The goal of the software engineer, then, is to /minimize/ accidental complexity, and /assist/ with essential complexity.
+Of course, any real-world implementation of the system will necessarily have to introduce /some/ accidental complexity. The goal of the software engineer, then, is to /minimize/ accidental complexity and /assist/ with essential complexity.
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
@@ -62,7 +62,7 @@ that there's an essence to a problem: something that engineers can't change, tha
 Much of the complexity [the software engineer] must master is arbitrary complexity, forced without rhyme or reason by the many human institutions and systems to which his interfaces must conform. (…) In many cases the software must conform because it has most recently come to the scene. In others it must conform because it is perceived as the most conformable. But in all cases, much complexity comes from conformation to other interfaces; this cannot be simplified out by any redesign of the software alone.
 #+end_quote
 
-Now, I want to challenge the notion that essential complexity is irreducible. The fact that we can't remove it by changing software alone doesn't mean that there's nothing we can do about it. What if we were to attack the essence? What if the problem definition wasn't outside of our purview? What if we could get the world to conform to the software, and not just the other way around? Brooks already hinted this possibility:
+Now, I want to challenge the notion that essential complexity is irreducible. The fact that we can't remove it by changing software alone doesn't mean that there's nothing we can do about it. What if we were to attack the essence? What if the problem definition wasn't outside of our purview? What if we could get the world to conform to the software, and not just the other way around? Brooks already hinted at this possibility:
 
 #+begin_quote
 The buyer of a $2-million machine in 1960 felt that he could afford $250,000 more for a customized payroll program, one that slipped easily and nondisruptively into the computer-hostile social environment. Buyers of $50,000 office machines today [1986] cannot conceivably afford customized payroll programs; so they adapt their payroll procedures to the packages available. Computers are now so commonplace, if not yet so beloved, that the adaptations are accepted as a matter of course.
@@ -91,7 +91,7 @@ In general, given a complex component of a software system (or an organization),
 - The complexity is essential but we could remove it by redefining the problem specification.
 - The knowledge to tell whether something is essential or not is lost, the customer or the product owner can't tell, or there isn't such an authority to make the call.
 
-I frequently found the latter situation when working with legacy software, where the only specification is the system itself ---bugs and unknowns included--- and any observable feature a /de facto/ functional requirement, essential to the problem. The conservative approach to maintaining such systems is limited to internal refactors; a more disruptive reduce-complexity-at-all-costs attitude would assume that anything is up for removal until proven otherwise. In /Kill it with Fire/, Marianne Bellotti describes resilience engineering along those lines:
+I frequently found the latter situation when working with legacy software, where the only specification is the system itself ---bugs and unknowns included--- and any observable feature, a /de facto/ functional requirement, essential to the problem. The conservative approach to maintaining such systems is limited to internal refactors; a more disruptive reduce-complexity-at-all-costs attitude would assume that anything is up for removal until proven otherwise. In /Kill It with Fire/, Marianne Bellotti describes resilience engineering along those lines:
 
 #+begin_quote
 When we encountered systems that had been forgotten and we couldn’t figure out what they were doing, we would usually just turn them off and see what happened. (…) When we turned off a system, we waited for someone to complain. That person was either the system owner or the owner of a downstream dependency, but either way, we ended the experiment with more information about what the system was doing than we started with. (…) If no one complained, we tended to just leave the system off and move on.
@@ -105,7 +105,7 @@ Even if systems can't be removed, the new information improves organizational un
 
 Taking this argument to its extreme: engineers could envision simpler implementations of the systems, then persuade the owning organizations to make their processes converge with those implementations ---doing with the organization that uses a system what the [[https://martinfowler.com/bliki/ConwaysLaw.html][Inverse Conway Maneuver]] tries to do with the organization that develops it. Left to their own devices, software engineers would act as the philosophical razor, wiping the complexity of the world; automating employees ---the engineers themselves included--- out of a job; simplifying systems, along with the organizations that own them, out of existence.
 
-Of course, this /reductio ad absurdum/ results from taking our initial premise beyond its reasonable limits. We started with the assumption that the software engineer's sole purpose is to minimize complexity, ignoring, among other things, the economic interests that determine their work. Which can serve as a reminder that, since our work indeed has the power to affect individuals and organizations, we shouldn't wield it unconsciously, hiding behind the comfort of an abstraction. We occasionally need to leak out of our interface, into the unstructured mess that is the world.
+Of course, this /reductio ad absurdum/ results from taking our initial premise beyond its reasonable limits. We started with the assumption that the software engineer's sole purpose is to minimize complexity, ignoring, among other things, the economic interests that determine their work. This can serve as a reminder that, since our work indeed has the power to affect individuals and organizations, we shouldn't wield it unconsciously, hiding behind the comfort of an abstraction. We occasionally need to leak out of our interface, into the unstructured mess that is the world.
 
 -----
 /An earlier version of this post was [[file:posdata-sobre-la-complejidad-esencial][originally published]] in Spanish./
