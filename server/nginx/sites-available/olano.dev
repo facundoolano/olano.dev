@@ -38,6 +38,10 @@ server {
         # redirect old blog rss url to new one
         rewrite ^/feed/$ https://olano.dev/feed.xml permanent;
 
+        # redirect standard paths to fragments where they are defined
+        rewrite ^/ideas/?$ /blog/tags#ideas redirect;
+        rewrite ^/about/?$ /#about redirect;
+
 
     listen [::]:443 ssl ipv6only=on; # managed by Certbot
     listen 443 ssl; # managed by Certbot
