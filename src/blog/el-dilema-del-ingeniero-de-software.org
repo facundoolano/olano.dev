@@ -4,6 +4,7 @@ title: "El dilema del ingeniero de software"
 date: 2022-04-11
 tags: [software]
 lang: es
+favorite: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
