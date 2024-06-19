@@ -4,10 +4,25 @@ title: /blog/tags
 head_title: Tags
 ---
 
+<script>
+ // unfold the post list of the tag from the url fragment
+ document.addEventListener("DOMContentLoaded", function() {
+     var hash = window.location.hash;
+
+     if(hash) {
+         var id = hash.substring(1);
+         var details = document.getElementById(id).closest('details');
+         if(details) {
+             details.setAttribute("open", "");
+         }
+     }
+ });
+</script>
+
 <div class="blog-index">
     <details open="">
         <summary>
-            <h3><a href="#⭐" class="title" id="⭐">⭐</a></h3>
+            <h3>⭐ <a href="#⭐" class="title" id="⭐">favorites</a></h3>
         </summary>
         {% assign skip_years = true %}
         {% assign posts = site.posts | where:"favorite","true" %}
