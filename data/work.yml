@@ -5,17 +5,10 @@
       tech: Python, Flask, LLMs, Azure
       description: >
         Assist an early-stage startup building a data extraction service around Large Language Models.
-- date: 5 years 7 months
-  org: '<a href="https://lambdaclass.com/">LambdaClass</a>'
+- date: 4 years 5 months
+  org: '<a href="https://www.nextroll.com">NextRoll</a>'
   positions:
-    - title: Staff Software Engineer
-      date: Jul 2022 - Dec 2022
-      tech: Distributed Systems, DevOps, Rust, Elixir, Terraform, AWS, Nomad
-      description: >
-        As a Staff Engineer I reported directly to the CEO. I provided technical leadership for about 20 people on a newly formed organization within the company.
-        I started a Platform Team to support the rest of the organization and later led a distributed systems research and development effort.
     - title: Senior Software Engineer
-      org: '<a href="https://www.nextroll.com">NextRoll</a>'
       date: Feb 2018 - Jul 2022
       tech: AdTech, Distributed Systems, DevOps, Erlang, Python, Elixir, JavaScript, PostgreSQL, AWS, Terraform, Datadog
       description: >
@@ -23,7 +16,7 @@
         These were decade-old systems, deployed to 2000 servers across the world, with high traffic and low latency restrictions.
         Operations work included infrastructure set up, deploys, monitoring, and production incident handling.
         <br/><br/>
-        I assumed informal leadership of the team during its growth from 4 to 13 engineers and collaborated in projects with internal and external stakeholders (Engineering, Product, Legal, Supply, Ad Exchanges, Service providers).
+        I assumed informal leadership of the team during its 3x growth and collaborated in projects with internal and external stakeholders (Engineering, Product, Legal, Supply, Ad Exchanges, Service providers).
 
         <br/><br/>Some of the work efforts I led at NextRoll:
 
@@ -34,10 +27,28 @@
             <li> Implement a tool to assess canary deploy health from DataDog metrics, using Pandas.</li>
             <li> Profile and optimize the server performance with the specific goal of infrastrcuture cost savings.</li>
             <li> Redesign, prototype and future-proof systems in preparation for privacy-related changes in the Ad Tech industry.</li></ul>
-    - title: Senior Software Engineer
-      date: Jun 2017 - Feb 2018
-      tech: Erlang, ClojureScript, WebRTC, Cassandra, PostgreSQL
-      description: As one of the first engineers to join the company, I divided my time between open-source projects and contractor work for one of the clients.
+- date: 5 years 7 months
+  org: '<a href="https://lambdaclass.com/">LambdaClass</a>'
+  positions:
+    - title: Staff Software Engineer
+      date: Jun 2017 - Dec 2022
+      tech: Distributed Systems, DevOps, Rust, Elixir, Terraform, AWS, Nomad
+      description: >
+        As the third engineer to join the company I reported directly to the CEO and had a key role in its 20x growth.
+        <br/><br/>
+        In addition to client project assigments with one of the customers I worked on:
+
+          <ul>
+        <li>Developing Open-Source Software.</li>
+        <li>Designing the hiring pipeline and interviewing candidates.</li>
+        <li>Writing technical guidelines and research documents for the rest of the company.</li>
+        <li>Mentoring and advising other engineers.</li>
+        <li>Organizing two editions of the BuzzConf conference as well as Erlang, Rust and Clojure, meetups.</li></ul>
+
+        <br/>
+        During my last year, I provided technical leadership for 20 people on a newly formed organization within the company.
+        I started a Platform Team to support the rest of the organization and later led a distributed systems research and development effort.
+
 - date: 1 year 4 months
   org: '<a href="https://madmobile.com/">Mad Mobile</a>'
   positions:

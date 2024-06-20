@@ -8,17 +8,17 @@ head_title: Resume
     <p>I'm a software engineer with over 15 years of professional experience.</p>
 
     <p>
-        During the first part of my career, I worked as a web developer while completing my Software Engineering degree.
-        Later, I specialized in backend development, service-oriented architectures, and distributed systems, using various technologies and programming languages (Python, Node.js, Clojure, Erlang, Rust).
+        I'm more of a problem-solver than a technologist; I try to keep a business perspective in software discussions and provide technical insight to non-engineers.
+        I tend to assume a leadership role in the teams I integrate, leading by example and from experience rather than title.
+        Because I consider that software development is primarily a human activity, I place a high value on communication and knowledge sharing.
     </p>
 
-    <p>
-        I'm more of a problem-solver than a technologist; because I consider that software development is primarily a human activity, I place a high value on communication and knowledge sharing.
-        I try to keep a business perspective in software discussions and provide technical insight to non-engineers.
+    <p>I most recently worked as a Technical Leader and Backend Engineer, developing and operating large-scale distributed systems using various technologies
+        and programming languages (Python, Erlang, Elixir, Rust, JavaScript).
+        I also have significant experience in technical writing, legacy modernizations, project management, DevOps, and full-stack web development.
     </p>
-    <p>I tend to assume a leadership role in the teams I integrate, leading by example and from experience rather than title.</p>
 
-    <p>I occasionally write about software on <a href="https://olano.dev/blog/">my blog</a> and have published several Open-Source Software <a href="https://olano.dev/projects">projects</a>.</p>
+    <p>I write about software on <a href="https://olano.dev/blog/">my blog</a> and have published several Open-Source Software <a href="https://olano.dev/projects">projects</a>.</p>
 
 <h3>Contact</h3>
 <ul>
@@ -31,18 +31,20 @@ head_title: Resume
 
 <h3>Selected writings</h3>
 <ul>
-    <li><a href="/2023-11-30-code-is-run-more-than-read">Code is run more than read</a></li>
-    <li><a href="/2023-12-12-reclaiming-the-web-with-a-personal-reader">Reclaiming the Web with a Personal Reader</a></li>
+    <li><a href="/blog/code-is-run-more-than-read">Code is run more than read</a></li>
+    <li><a href="/blog/a-note-on-essential-complexity">A Note on Essential Complexity</a></li>
     <li><a href="https://tech.nextroll.com/blog/dev/2020/04/07/erlang-profiling.html">Squeezing the most out of the server: Erlang Profiling</a></li>
+    <li><a href="/blog/reclaiming-the-web-with-a-personal-reader">Reclaiming the Web with a Personal Reader</a></li>
     <li><a href="https://tech.nextroll.com/blog/dev/2022/02/02/rustenstein.html">Rustenstein 3D: Game programming like it's 1992</a></li>
 </ul>
 
 <h3>Selected projects</h3>
 <ul>
     <li><a href="https://github.com/facundoolano/software-papers">software-papers</a>: a curated list of papers for software engineers.</li>
-    <li><a href="https://github.com/facundoolano/rpg-cli">rpg-cli</a>: a command-line role-playing game written in Rust.</li>
     <li><a href="https://github.com/facundoolano/feedi">feedi</a>: a personal news feed and mastodon client.</li>
     <li><a href="https://github.com/facundoolano/google-play-scraper">google-play-scraper</a>: a node.js library to scrape app data from the Google Play store.</li>
+    <li><a href="https://github.com/facundoolano/rpg-cli">rpg-cli</a>: a command-line role-playing game written in Rust.</li>
+    <li><a href="https://jorge.olano.dev">jorge</a>: a personal static site generator with org-mode support.</li>
 </ul>
 
 <div class="pagebreak"></div>
@@ -68,7 +70,7 @@ head_title: Resume
         <small><span class="date">{{position.date}}</span></small>
         <br/>{{ position.description }}{% assign techs = position.tech | split:"," %}
 
-        {% if techs %}<small><span class="tags"> {% for tech in techs %}#{{tech | replace: " ", ""}} {% endfor %}</span></small>{%endif%}
+        {% if techs %}<small><span class="tags">{{techs | join: " - "}}</span></small>{%endif%}
     </p>
     {% endfor %}
 
