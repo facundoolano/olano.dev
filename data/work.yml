@@ -32,11 +32,11 @@
   positions:
     - title: Staff Software Engineer
       date: Jun 2017 - Dec 2022
-      tech: Distributed Systems, DevOps, Rust, Elixir, Terraform, AWS, Nomad
+      tech: Distributed Systems, Erlang, Python, Rust, Elixir, ClojureScript, WebRTC, Terraform, AWS, Nomad
       description: >
         As the third engineer to join the company I reported directly to the CEO and had a key role in its 20x growth.
         <br/><br/>
-        In addition to client project assigments with one of the customers I worked on:
+        In addition to client project assignments with one of the customers I worked on:
 
           <ul>
         <li>Developing Open-Source Software.</li>
@@ -46,7 +46,7 @@
         <li>Organizing two editions of the BuzzConf conference as well as Erlang, Rust and Clojure, meetups.</li></ul>
 
         <br/>
-        During my last year, I provided technical leadership for 20 people on a newly formed organization within the company.
+        During my last year, I provided technical leadership for 20 people in a newly formed organization within the company.
         I started a Platform Team to support the rest of the organization and later led a distributed systems research and development effort.
 
 - date: 1 year 4 months
