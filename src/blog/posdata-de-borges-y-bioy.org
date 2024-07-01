@@ -1,0 +1,13 @@
+---
+title: Posdata de Borges y Bioy
+date: 2024-07-01 13:59:14
+layout: post
+lang: es
+tags: [literatura]
+draft: true
+image: assets/img/borgesbioy.png
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+/Borges y Bioy caminando por las calles empedradas de la noche porteña o sobre el pasto de una estancia bonaerense, entre chicharras y olor a bosta; Bioy y Borges tirándose con argumentos como tenistas/ ---swinging story plots at each other like tennis players--- /abordando historias como problemas a resolver, con rigurosidad de relojeros o fabricantes de rompecabezas o escritores de novelas policiales, coqueteando con el fantástico y la ciencia ficción, comportándose ---a nuestros ojos y a los de sus contemporáneos--- como escritores menores, de género, pero para ellos mismos escritores a secas; Borges y Bioy plantéandose argumentos como acertijos, algunos de imposible resolución, a veces como pasatiempo insignificante, como quien comenta una lectura o la anécdota de una amistad en común, otras veces para escribirlos: juntos, chistes internos convertidos en libros indescifrables, o separados: Bioy en relatos que se enredan explicándose a sí mismos, Borges en cuentos que son resúmenes de novelas o ensayos sobre escritores imaginarios, o en algún párrafo perdido en la ocasión de una diatriba contra otro autor. Borges lee y hace conexiones y los argumentos se le caen de los bolsillos, juega con ellos un rato y luego los deja tirados en cualquier parte, para que otros se tomen el trabajo de escribirlos./
