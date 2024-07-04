@@ -3,12 +3,13 @@ html {
     overflow-y: scroll;
 }
 body {
-    max-width: 45em;
+    max-width: 38em;
     margin: 0 auto;
     padding: 0 1rem;
     width: auto;
     font-family: Tahoma, Verdana, Arial, sans-serif;
-    line-height: 1.5;
+    line-height: 1.6;
+    font-size: 1rem;
 
     height: 100vh;
     display: flex;
@@ -44,10 +45,6 @@ nav a:not(:last-child) {
 
 nav a:hover {
     text-decoration: none;
-}
-
-li {
-    line-height: 1.6;
 }
 
 li:not(:last-child) {
@@ -132,8 +129,6 @@ a.title {
 .layout-post {
     hyphens: auto;
     text-align: justify;
-    font-size: 1.1rem;
-    line-height: 1.6;
 
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased !important;
@@ -147,7 +142,7 @@ a.title {
 }
 
 .layout-post header {
-    margin: 4rem 0 5rem;
+    margin: 4rem 0 4rem;
     text-align: left;
 }
 
@@ -156,17 +151,15 @@ a.title {
 }
 
 .layout-post header .date-tags {
-    font-size: 1rem;
     margin:-1rem 0 0.5rem 0 ;
 }
 
 .layout-post p {
     margin: 0 0 .4rem 0;
-    line-height: 1.8;
 }
 
 .layout-post p + p {
-    text-indent: 3rem;
+    text-indent: 2rem;
 }
 
 .outline-2 + .outline-2 h2{
@@ -232,7 +225,6 @@ img.cover-img {
 /* override in mobile devices for more compact text */
 @media screen and (max-width: 768px) {
     .layout-post {
-        line-height: 1.2;
         letter-spacing: unset;
         hyphens: none;
         text-align: left;
@@ -240,7 +232,6 @@ img.cover-img {
 
     .layout-post p {
         margin: 0 0 1rem 0;
-        line-height: 1.7;
     }
 
     .layout-post p + p {
@@ -253,9 +244,7 @@ img.cover-img {
 }
 
 pre {
-    font-size: 1rem;
     overflow-x: auto;
-    line-height: 1.5;
     padding: 1rem;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -282,7 +271,6 @@ Need to decide between:
     padding: .2em .4em;
     background-color: unset!important;
     color: black;
-    font-size: 1rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -303,7 +291,19 @@ Need to decide between:
 blockquote {
     border-left: 2px solid whitesmoke;
     padding-left: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
+
+@media screen and (max-width: 480px) {
+    blockquote {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    }
+}
+
+
+
 
 details summary {
     list-style: none;
