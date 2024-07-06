@@ -3,22 +3,21 @@ title: A Computing Magazine Anthology
 date: 2024-07-04 16:49:36
 layout: post
 lang: en
-tags: [projects, ideas]
+tags: [projects, ideas, books]
 draft: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-/Over the last couple of years I've accumulated a bunch project ideas ---things that I've spent a couple of hours or a couple of days thinking about but that I don't want to tackle anytime soon (or ever). I figured that some project notes would make good blogging material (and hopefully chase the stuff out my head), so I'll start dumping them under the [[/blog/tags#ideas][#ideas]] tag./
+/Over the last few years, I've accumulated many project ideas ---things that I've spent a couple of hours or a couple of days thinking about but that I don't want to tackle anytime soon (or ever). I figured some project notes would make good blogging material (and hopefully chase the stuff out of my head), so I'll start dumping them under the [[/blog/tags#ideas][#ideas]] tag./
 
 *** Papers for Software Engineers
 
-A few years ago I read /The Innovators/ and /Ideas That Created the Future/ in tandem. They made a nice pair: the first book told an entertaining history of computing and the software industry; the second collected classic papers on computer science. I could read about Ada Lovelace, Turing, or Von Neumann in one book and find their seminal works in the other.
-The problem was that the most influential papers on the field aren't necessarily the most interesting or approachable to read today; some are too long to include in full in the book, or too technical to understand without prior training and additional context. So I didn't really enjoy /Ideas That Created the Future/ that much. Still, its concept was inspiring enough that I set out on [[https://github.com/facundoolano/software-papers][my own research project]] to collect a more accessible list of papers. One that could be of interest to software engineering students and professionals beyond their historical influence ---the "must reads" if you will, although I really dislike that notion. (I wrote more about this project [[dr-von-neumann-o-como-aprendi-a-dejar-de-preocuparme-y-amar-los-papers][here]], in Spanish).
+A few years ago I read [[https://en.wikipedia.org/wiki/The_Innovators_(book)][/The Innovators/]] and [[https://mitpress.mit.edu/9780262045308/ideas-that-created-the-future/][/Ideas That Created the Future/]] in tandem. They made a nice pair: the first book told an entertaining history of computing and the software industry; the second collected classic papers on computer science; I could read about Ada Lovelace, Turing, or Von Neumann in one book and find their seminal works in the other. The problem was that the most influential papers on the field aren't necessarily the most approachable or interesting to read today; some were too long to include in full in the book, or too technical to understand without prior training and additional context. So I didn't really enjoy /Ideas That Created the Future/ that much. Still, its concept was inspiring enough that I set out on [[https://github.com/facundoolano/software-papers][my own research project]] to collect a more accessible list of papers, those that could be of interest to Software Engineering students and professionals beyond their historical influence ---the "must-reads" if you will, although I really dislike that notion. I wrote more about the project [[dr-von-neumann-o-como-aprendi-a-dejar-de-preocuparme-y-amar-los-papers][here]] (in Spanish).
 
 *** A Computing Magazine Anthology
 
-One thing I learned from /The Digital Antiquarian/, /50 Years of Text Games/, /The Modem World/, and similar projects is that, back in the day, a lot of the action ---particularly when it came to /personal/ computing, from the late 60s to the 90s--- happened in magazines and (physical) newsletters. Names like /The Whole Earth Catalog/, /Byte/ or /Dr. Dobb's/  frequently come up in the references. If someone were to curate an anthology of articles from those magazines, following the /Ideas That Created the Future/ format, I think that would tell a compelling history of personal computing: that's a book I'd like to read. I imagine a chapter dedicated to each publication, with historical background and a selection of articles, each introduced by the author, the editor, or some notable reader of the magazine.
+One thing I learned from [[https://www.filfre.net/][/The Digital Antiquarian/]], [[https://if50.substack.com/][/50 Years of Text Games/]], [[https://modem.world/][/The Modem World/]], and similar projects is that, back in the day, a lot of the action ---particularly when it came to /personal/ computing, from the late 70s to the 90s--- happened in magazines and (physical) newsletters. Names like /The Whole Earth Catalog/, /Byte/, or /Dr. Dobb's/  frequently show up as references. If someone were to curate an anthology of articles from those magazines, following the /Ideas That Created the Future/ format, I think that would tell a compelling history of personal computing: that's a book I'd like to read. I imagine a chapter dedicated to each publication, with some historical background and a selection of articles, each introduced by the author, the editor, or a notable reader.
 
 *** Notes
 
