@@ -48,7 +48,7 @@ nav a:hover {
 }
 
 li:not(:last-child) {
-    padding-bottom: .75rem;
+    padding-bottom: .5rem;
 }
 
 a, a:visited {

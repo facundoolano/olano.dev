@@ -1,0 +1,59 @@
+---
+title: A Computing Magazine Anthology
+date: 2024-07-04 16:49:36
+layout: post
+lang: en
+tags: [projects, ideas, books]
+image: assets/img/byte.jpg
+excerpt: "Between the '70s and the '90s a lot of the action happened in magazines and (physical) newsletters like The Whole Earth Catalog, Byte, or Dr. Dobb's. An anthology of articles from those magazines would tell a compelling history of personal computing: that's a book I'd like to read."
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+/Over the last few years, I've accumulated many project ideas ---things that I've spent a couple of hours or a couple of days thinking about but that I don't want to tackle anytime soon (or ever). I figured writing down notes for some of those projects would make good blogging material (and hopefully chase the stuff out of my head), so I'll start dumping them under the [[/blog/tags#ideas][#ideas]] tag./
+
+*** Papers for Software Engineers
+
+A few years ago, I read [[https://en.wikipedia.org/wiki/The_Innovators_(book)][/The Innovators/]] and [[https://mitpress.mit.edu/9780262045308/ideas-that-created-the-future/][/Ideas That Created the Future/]] in tandem. They made a nice pair: the first book told an entertaining history of computing and the software industry; the second collected classic papers on computer science. I could read about Ada Lovelace, Turing, or Von Neumann in one book and find their seminal works in the other. The problem was that the most influential publications in history don't necessarily make the most approachable or productive reads today; some are too long to include in full in the book, or too difficult to understand without prior training and additional context. While I didn't enjoy /Ideas That Created the Future/ as a book that much, the idea of an annotated anthology of papers was very inspiring. So much so that I set out on [[https://github.com/facundoolano/software-papers][my own research project]], to collect a more accessible list of papers that could be of interest to Software Engineering students and professionals beyond their historical relevance ---the "must-reads" if you will, although I really dislike that notion. I wrote more about that project [[dr-von-neumann-o-como-aprendi-a-dejar-de-preocuparme-y-amar-los-papers][here]] (in Spanish).
+
+*** A Computing Magazine Anthology
+
+One thing I learned from [[https://www.filfre.net/][/The Digital Antiquarian/]], [[https://if50.substack.com/][/50 Years of Text Games/]], [[https://modem.world/][/The Modem World/]], and similar projects is that, back in the day, a lot of the action ---particularly when it came to /personal/ computing, from the late \'70s to the \'90s--- happened in magazines and (physical) newsletters. Names like /The Whole Earth Catalog/, /Byte/, or /Dr. Dobb's/  frequently show up as references. If someone were to curate an anthology of articles from those magazines, following the /Ideas That Created the Future/ format, I think that would tell a compelling history of personal computing: that's a book I'd like to read. I imagine a chapter dedicated to each publication, with some historical background and a selection of articles, each introduced by the author, the editor, or a notable reader.
+
+*** Links
+
+- Publications
+  - [[https://en.wikipedia.org/wiki/Popular_Electronics][Popular Electronics]]
+  - [[https://en.wikipedia.org/wiki/Whole_Earth_Catalog][Whole Earth Catalog]]
+  - [[https://en.wikipedia.org/wiki/Byte_(magazine)][BYTE]]
+  - [[https://en.wikipedia.org/wiki/Creative_Computing_(magazine)][Creative Computing]]
+  - [[https://en.wikipedia.org/wiki/Homebrew_Computer_Club#Newsletter][Homebrew Computer Club Newsletter]]
+  - [[https://en.wikipedia.org/wiki/Dr._Dobb%27s_Journal][Dr. Dobb's Journal]]
+  - [[https://en.wikipedia.org/wiki/Compute!][Compute!]]
+  - [[https://en.wikipedia.org/wiki/InfoWorld][InfoWorld]] / [[https://en.wikipedia.org/wiki/PC_World][PC World]]
+  - [[https://en.wikipedia.org/wiki/Softdisk_(disk_magazine)][Softdisk]]
+  - [[https://en.wikipedia.org/wiki/Electronic_Games][Electronic Games]]
+  - [[https://en.wikipedia.org/wiki/Computer_Gaming_World][Computer Gaming World]]
+  - [[https://en.wikipedia.org/wiki/USENIX#Publications][USENIX ;login:]]
+  - [[https://en.wikipedia.org/wiki/Nintendo_Power][Nintendo Power]]
+
+- Sources
+  - The Internet Archive
+    - [[Https://archive.org/details/computermagazines][Computer magazines]]
+    - [[https://archive.org/details/computernewsletters][Computer newsletters]]
+    - [[https://archive.org/details/videogamemagazines][Videogame magazines]]
+    - [[https://archive.org/details/wholeearth][Whole Earth collection]]
+    - [[https://archive.org/details/popularelectronicsmagazine][Popular Electronics]]
+  - [[http://cini.classiccmp.org/mags.htm][Rich's Classic Computing Pages]]
+  - [[https://www.atarimagazines.com/creative/][Classic Computer Magazine Archive]]
+  - [[https://www.atariarchives.org/][Atari Archives]]
+  - [[https://wholeearth.info/][Whole Earth Index]]
+  - [[https://jacobfilipp.com/thedoctor/][Dr. Dobb’s Journal archives]]
+  - [[https://infodoc.plover.net/nzt/][The New Zork Times]]
+
+- Articles
+  - [[https://www.vintagecomputer.net/altair-poptronics.cfm][The MITS Altair 8800 in Popular Electronics]]
+  - [[http://www.blinkenlights.com/classiccmp/gateswhine.html][An Open Letter to Hobbyists]]
+  - [[http://www.ittybittycomputers.com/Essays/DeusExMac.htm][Deus Ex Machina or The True Computerist]]
+  - [[https://www.wheels.org/spacewar/stone/rolling_stone.html][Spacewar by Stewart Brand]]
+  - [[http://vintagecomputer.net/cisc367/byte%20nov%201978%20computerized%20BBS%20-%20ward%20christensen.pdf][Hobbyist Computerized Bulletin Board]]
