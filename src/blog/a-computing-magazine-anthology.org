@@ -5,7 +5,7 @@ layout: post
 lang: en
 tags: [projects, ideas, books]
 image: assets/img/byte.jpg
-excerpt: "Between the '70s and the '90s a lot of the action happened in magazines and (physical) newsletters like The Whole Earth Catalog, Byte, or Dr. Dobb's. An anthology of articles from those magazines would tell a compelling history of personal computing: that's a book I'd like to read."
+excerpt: "Between the '70s and the '90s a lot of the action happened in magazines like The Whole Earth Catalog, Byte, or Dr. Dobb's. An anthology of articles from those magazines would tell a compelling history of personal computing: that's a book I'd like to read."
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
