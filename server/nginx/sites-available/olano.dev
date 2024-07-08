@@ -50,6 +50,7 @@ server {
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
+    expires 2h;
 }
 server {
     if ($host = olano.dev) {
