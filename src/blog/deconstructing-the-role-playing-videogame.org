@@ -1,0 +1,214 @@
+---
+title: Deconstructing the Role-Playing Video Game
+date: 2024-07-08 10:54:18
+layout: post
+lang: en
+tags: [projects, ideas, videogames]
+draft: true
+---
+#+OPTIONS: toc:nil num:1
+#+LANGUAGE: en
+
+/Following up on my [[a-computing-magazine-anthology][previous post]], today I want to write about an idea for a [[https://github.com/facundoolano/rpg-cli][rpg-cli]] spin-off. rpg-cli is one of my fondest personal projects and I never properly documented its development, so I'll start this post off by doing just that./
+
+#+begin_export html
+<h2>Contents</h2>
+#+end_export
+#+TOC: headlines 3
+
+** The simplest thing that could possibly work
+
+I was a little bored at work, I had the spare time, I could've used a side project. It had been a while since I worked on a video game, and I was having that kind of itch. In the past few years I'd finished many classic Japanese RPGs: /Final Fantasy VI/, /Chrono Trigger/, /Suikoden 2/, /Final Fantasy Tactics/, so that was fresh in my head. I was compelled to try something with that genre, but I like personal projects to yield something usable, somewhat finished, after a few months, and move on: I wasn't going to embark on a full game on my own.
+
+I've played JRPGs long-enough that I don't pay much attention to the characters or the plot anymore; I like the pretty pixels, yes, but most importantly I'm drawn to its underlying systems. Explore the map, visit cities, clear dungeons. Kill monsters, level up, buy equipment. Character stats, turn-based combat, leveling system. To me, classic JRPGs are pure mechanism, a kind of puzzle.
+
+Was there some way of getting the fun out of building such a mechanism---of solving that puzzle---, wrapping it with the minimal amount of functionality, the simplest thing that could possible pass as a video game? What could I have peeled off and still gotten an RPG?
+
+<From the above, the first answer was obvious: off with the story, the plot, the dialogues.
+<But the biggest treat <for the scope blowing out as the graphic interface.
+If it was today, I'd consider building a mini game with PICO-8 or an ASCII roguelike interface.
+At the time, I used a trick that had worked for me before[fn:1]: replace the graphics with text. But, wait,  you know what is even narrower than a text user interface? A command-line interface. Was there any way I could make a role-playing game fit in the shell?
+
+** Your file system as a dungeon
+
+
+- the file system already feels like the environment/"habitat" of a cli program, could we transport that sense of place into the game?
+  - had been reading a lot about classic crpgs, dungeon crawlers, roguelikes, etc. the connection was natural: going deeper into nested directories could work as going deeper into a dungeon
+  - going back ~~~ (home) would recover your health, buy equipment and supplies. (sort of the "above ground" of adventure and dungeon crawling/roguelike games)
+  - the game finished making sense when I imagined it as a `cd` replacement, where you would get random turn-based combats as a side effect of doing your work in the terminal
+- seemed ideal to tackle as a rust learning project I was looking for
+
+- Fast forward, this is what rpg-cli looks like[link]:
+
+  [IMAGE]
+
+** Research
+
+- research de tabletop rpgs
+- how to make an rpg book
+- at first seemed reasonable, although this was alient to me. I ended up turning down most of this and going with what I knew and could derive from my experiences with JRPG, plus some ideas borrowed from roguelikes (permadeath, randomized dungeons)
+
+- http://howtomakeanrpg.com/a/how-to-make-an-rpg-stats.html
+- http://howtomakeanrpg.com/a/how-to-make-an-rpg-levels.html
+- http://howtomakeanrpg.com/a/designing-a-realtime-combat-system.html
+
+https://www.choiceofgames.com/2011/07/7-rules-for-designing-great-stats/
+https://en.wikipedia.org/wiki/Statistic_(role-playing_games)
+https://en.wikipedia.org/wiki/Attribute_(role-playing_games)
+
+- minimalistic tabletop rpgs
+  - https://en.wikipedia.org/wiki/GURPS
+  - https://en.wikipedia.org/wiki/TWERPS
+  - https://www.stargazergames.eu/warrior-rogue-mage/
+  - http://www.campaignmastery.com/blog/introducing-the-sixes-system/
+  - https://en.wikipedia.org/wiki/Dinky_Dungeons
+  - http://dinkydungeons.com/history.asp
+  - http://dinkydungeons.com/origrules.asp
+  - http://www.risusiverse.com/
+  - https://www.drivethrurpg.com/product/89534/FU-The-Freeform-Universal-RPG-Classic-rules
+
+- rogue background
+  - http://crpgaddict.blogspot.com/2010/02/rogue-most-difficult-crpg-ive-played.html
+  - http://crpgaddict.blogspot.com/2010/02/rogue-story-and-gameplay.html
+  - https://web.archive.org/web/20050211223823/http://www.wichman.org/roguestories.html
+  - https://insight.ieeeusa.org/articles/going-rogue-a-brief-history-of-the-computerized-dungeon-crawl/
+  - https://gamedevelopment.tutsplus.com/articles/the-key-design-elements-of-roguelikes--cms-23510
+
+** Historical note on RPG deconstruction
+
+(I later noticed, there's an illustrious tradition of making rpgs simpler. I instinctively knew this bc I came from jrpgs rather than western ones)
+crpgs <- tabletop <- war games -> complexity
+? first attempts were merely calculators?
+
+- for some the complexity is part of the appeal
+  - for other, a natural tendency to try to get at the core and remove all the rest
+tradition: zelda, dragon quest, diablo. pokemon?
+
+** Design
+
+- the simplification didnt' end at the user interface. I was set to build the minimal viable set of mechanics for an rpg as I knew it, primarily from playing classic 90s JRPGs (final fantasy, pokemon, breath of fire, chrono
+-<how many layers can I peel off and still get an playable rpg?
+
+- TLDR (maybe separate sections)
+  - no graphics
+  - no story
+  - minimal stats
+  - autobattle
+  -
+*** No story
+- the next obvious thing to remove was the story. old games, roguelites (even adventure) are examples of this, who cares about the story? it's just an excuse to give the player a goal.
+  - Carmack: “Story in a game is like story in a porn movie, he said. “It's expected to be there, but it's not important.”
+  - (I don't obviously generally agree with this, I love story driven games, but the point is that you could perfectly make a RPG work as pure mechanics, no story, and that approach fit perfectly the restrictions I imposed myself
+
+- <a note on how I "go through the motions" with some rpgs. usually don't care much about the details of the story, I like to explore the maps, clear the rooms, find the chests, buy equipment.
+- another recent play that influeced me was FF tactics. that was a prime example of how to strip parts of the rpg and still get a fun game. in that case was most of the map exploration and direct character interactions. It was all handled through menus.
+
+*** Autobattle
+- I also don't strategize combats, just punch with warriors and spell with wizards until my>.
+  - could I bake this inclination into the game, as a means to remove interactivity during combats?
+  - I'd recently played Suikoden 2, a game with a huge list of playable characters, and a large party of 6. Suikoden 2 actually had a QoL feature which was to just autoplay combats, which was handy for random dungeon encounters where there's no need to think the moves.
+  - I decided to make this autocombat the default for rpg-cli. this would remove some of the fun for some of the players, obviously, but not necessarily for me. I could move the decision making out of the combat, which would be turn-based but non-interactive.
+  - The actual turns for the player would be each issued CLI command. that way the strategizing would have to be deciding wether to go further down and risk further battles, spend a potion to reduce chances of dying in the next encounter, or going back to recover and buy supplies.
+
+*** Minimal stats
+
+- I wanted stats to be as obvious as possible. I always found dnd stats confusing from a crpg standpoint
+  I also was always put off by the games that make you invest a long time choosing class and race and distributing stat points to build your character. how would I know what character to build if I never played this game.
+
+  minimal that could possibly still make sense
+  started with a single one, but that was weird because made combat too redundant/predictable
+  it made more sense to separate hp and str.
+  later added speed to add more variety
+  still wass pretty obvious/self-explanatory
+
+      Health Points or HP - represents the amount of damage a character can take before dying or being knocked out.
+      Strength - represents the character's physical strength. Determines amount of damage attacks inflict.
+      Speed - represents how fast the character moves. Determines frequency of attacks and chance to dodge incoming attacks.
+      Luck: effects loot, dodging and critical hits
+
+*** Parametric enemies
+
+*** Generic equipment
+- another simplification was for equipment and items. an rpg standard is the loop: beat monsters, get gold in return, spend in equipment, repeating it with ever-tougher monsters, that give more money and let you buy more powerful items. I decided to streamline this a bit: equipment and healing items would have levels just like the characters, and they become automatically available as the character powers up. You don't get to carry old useless swords, you'll always keep the most powerful one and discard the rest
+
+*** <Making it interesting>
+- once I got the minimal core working, I could use it as a canvas to add more functionality, porting fun features from games I'd played over the years. I did add some embelishments, like status ailments, quests, <power up items>, hidden enemies, customizable character classes.
+  - (form is liberating)
+  - para que esto tenga algún interés, agregar aleatoriedad y alguna posibilidad de toma de decisiones/estrategia: enemigos de distintas clases, esquivar golpes, golpes críticos, equipamiento, ítems, eludir batallas
+you don't have a choice in what moves to make in battle, but you decide when to keep going down or returning home, when to use a healing item, what class to use, what equipment to buy first, etc
+
+- permadeath from rogue. +recovering your spoils to make it more interesting
+
+*** Result
+
+https://github.com/facundoolano/rpg-cli/blob/f2d37631628461ee192864e464e2088415e3866c/src/game.rs#L266-L316
+
+- the Game::run_battle routine is at the core of the mechanism I wanted to reproduce when I set out to work on the project
+- I also find it, reading it years later, to be very readable and a good showcase of the different features I incorporated
+
+
+#+begin_src rust
+/// Runs a turn-based combat between the game's player and the given enemy.
+/// The frequency of the turns is determined by the speed stat of each
+/// character.
+///
+/// Some special abilities are enabled by the player's equipped rings:
+/// Double-beat, counter-attack and revive.
+///
+/// Returns Ok(xp gained) if the player wins, or Err(()) if it loses.
+fn run_battle(&mut self, enemy: &mut Character) -> Result<i32, character::Dead> {
+    // Player's using the revive ring can come back to life at most once per battle
+    let mut already_revived = false;
+
+    // These accumulators get increased based on the character's speed:
+    // the faster will get more frequent turns.
+    let (mut pl_accum, mut en_accum) = (0, 0);
+    let mut xp = 0;
+
+    while enemy.current_hp > 0 {
+        pl_accum += self.player.speed();
+        en_accum += enemy.speed();
+
+        if pl_accum >= en_accum {
+            // In some urgent circumstances, it's preferable to use the turn to
+            // recover mp or hp than attacking
+            if !self.autopotion(enemy) && !self.autoether(enemy) {
+                let (new_xp, _) = self.player.attack(enemy);
+                xp += new_xp;
+
+                self.player.maybe_double_beat(enemy);
+            }
+
+            // Status effects are applied after each turn. The player may die
+            // during its own turn because of status ailment damage
+            let died = self.player.apply_status_effects();
+            already_revived = self.player.maybe_revive(died, already_revived)?;
+
+            pl_accum = -1;
+        } else {
+            let (_, died) = enemy.attack(&mut self.player);
+            already_revived = self.player.maybe_revive(died, already_revived)?;
+
+            self.player.maybe_counter_attack(enemy);
+
+            enemy.apply_status_effects().unwrap_or_default();
+
+            en_accum = -1;
+        }
+    }
+
+    Ok(xp)
+}
+#+end_src
+
+** rpg-tui: a text interface for rpg-cli
+
+the file system integration wasn't core of the project, it was a derivation of wanting to make a game that made sense to be played as a series of CLI commands.
+
+- note that the file system integration is sort of an afterthought, something that makes the project stand out and make it curious, but in the end an optional feature that's not <necessary> for a command-line rpg to be possible.
+  - and, in fact, once the novelty of having rpg output thrown at you when you were using your shell passed, you either removed the integration or turned to another more convenient way to play the game if you wanted to get to the end. people ended up scripting to level up and I used custom directory-building functions to be able to get abritrarily-deep dungeons.
+  - this also hinted that there could be a similarly structured game without having to deal with the file system at all, which could easily turn out to be an interactive text user interface as is planned for the project in this book
+
+* Footnotes
+
+[fn:1] TODO advenjure
