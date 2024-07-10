@@ -5,6 +5,7 @@ layout: post
 lang: en
 tags: [projects, ideas, videogames]
 draft: true
+image: assets/img/rpgcli.png
 ---
 #+OPTIONS: toc:nil num:1
 #+LANGUAGE: en
@@ -23,9 +24,7 @@ I was a little bored at work. I had the spare time, I could've used a side proje
 
 I've played JRPGs long-enough that I don't pay much attention to the characters or the plot anymore; I like the pretty pixels, yes, but most importantly I'm drawn to its underlying systems. Explore the map, visit cities, clear dungeons. Kill monsters, level up, buy equipment. Character stats, turn-based combat, leveling system. To me, classic JRPGs are pure mechanism, a kind of puzzle.
 
-Was there some way of getting the fun out of building such a mechanism---of solving that puzzle---, wrapping it with the minimal amount of functionality, the simplest thing that could possibly pass as a video game? How much could I have peeled off and still gotten an RPG?
-
-One answer was obvious: off with the story, the plot, the dialogues[fn:2]. But that wouldn't be enough: the real blocker were the graphics, I needed some way to workaround them <in all their rabbit-holing, yak-shaving glory.>
+Was there some way of getting the fun out of building such a mechanism---of solving that puzzle---, wrapping it with the minimal amount of functionality, the simplest thing that could possibly pass as a video game? How much could I have peeled off and still gotten an RPG? One answer was obvious: off with the story, the plot, the dialogues[fn:2]. But that wouldn't be enough: the real blocker were the graphics, I needed some way to workaround them <in all their rabbit-holing, yak-shaving glory.>
 
 I had recently seen how /Final Fantasy Tactics/ developers fit most of the standard RPG elements, save the battle sequences, into menus. Could I have done something in that direction?
 If it was today, I'd consider building a mini game with PICO-8 or an ASCII roguelike interface. At the time, I considered a trick that had worked for me before: replacing the graphics with text[fn:1]. Except that, you know what's narrower than a text user interface? A command-line interface.
@@ -33,13 +32,15 @@ If it was today, I'd consider building a mini game with PICO-8 or an ASCII rogue
 Was there any way I could make a role-playing game fit in the shell?
 
 ** Your file system as a dungeon
-<the command-line
-was one of those restrictions that push you to get creative
+This was one of those cases where choosing a restricting form fosters creativity. The shell is the /environment/ of command-line programs; the file system gives a sense of /place/. At some point I made the connection and decided that the hero of the game would inhabit the file system, with the working directory as its current location. Changing directories would be like moving between dungeon levels; enemies would pop up along the way: the more nested the directory, the tougher the enemies. As in roguelikes and other early CRPGs, the goal of the game would just be to crawl down the dungeon, as deep as possible.
 
-- the file system already feels like the environment/"habitat" of a cli program, could we transport that sense of place into the game?
-  - had been reading a lot about classic crpgs, dungeon crawlers, roguelikes, etc. the connection was natural: going deeper into nested directories could work as going deeper into a dungeon
-  - going back ~~~ (home) would recover your health, buy equipment and supplies. (sort of the "above ground" of adventure and dungeon crawling/roguelike games)
-  - the game finished making sense when I imagined it as a `cd` replacement, where you would get random turn-based combats as a side effect of doing your work in the terminal
+The game finished clicking sense when I imagined the program it as a `cd` replacement, where you would get random turn-based combats as a side effect of doing your work in the terminal. Going back ~~~ (home) would restore your health and give you the choice to buy equipment and supplies.
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="/assets/img/rpgcli.png" style="max-width:100%; max-height:unset">
+</div>
+#+END_EXPORT
 
 The next thing that I would have to figure out, given the CLI restriction, is how to make combats non-interactive.
 
@@ -50,13 +51,7 @@ The next thing that I would have to figure out, given the CLI restriction, is ho
 
 - seemed ideal to tackle as a rust learning project I was looking for
 
-- Fast forward, this is what an rpg-cli session looks like:
 
-#+BEGIN_EXPORT html
-<div class="text-center">
- <img src="/assets/img/rpgcli.png" style="max-width:100%; max-height:unset">
-</div>
-#+END_EXPORT
 
 
 ** Research
@@ -64,39 +59,35 @@ The next thing that I would have to figure out, given the CLI restriction, is ho
 - I felt that the radical simplicity I started from had unexpectely led me to a good game concept, so I wanted to double down on the "simplest thing that could possibly work" mantra, applying it to the entire project, not just the interface.
 
 - Next up, I needed to think about the underlying RPG system: character stats, leveling system, battle logic.
-- Since my experience of the genre was almost exclusively through JRPGs, it felt necessary to do some research to see if I could get inspiration from western video games and tabletop RPGs.
-- did someone else already figured out the minimal necessary stats to make an RPG work? is there a canonical set of enemy classes? should I learn the DnD rules?
+- <Since my experience of the genre was almost exclusively through JRPGs, it felt necessary to do some research to see if I could get inspiration from western video games and tabletop RPGs.
+- Did someone else already figured out the minimal necessary stats to make an RPG work? is there a canonical set of enemy classes? should I learn the DnD rules?
 
-  - https://en.wikipedia.org/wiki/GURPS
-  - https://en.wikipedia.org/wiki/TWERPS
-  - https://www.stargazergames.eu/warrior-rogue-mage/
-  - http://www.campaignmastery.com/blog/introducing-the-sixes-system/
-  - https://en.wikipedia.org/wiki/Dinky_Dungeons
-  - http://dinkydungeons.com/history.asp
-  - http://dinkydungeons.com/origrules.asp
-  - http://www.risusiverse.com/
-  - https://www.drivethrurpg.com/product/89534/FU-The-Freeform-Universal-RPG-Classic-rules
+So I first looked around for tabletop RPGs that made a point of being minimalist or generic:
+  - [[https://en.wikipedia.org/wiki/GURPS][GURPS]], the Generic Universal RolePlaying System.
+  - [[https://en.wikipedia.org/wiki/TWERPS][TWERPS]], the World's Easiest Role-Playing System.
+  - [[https://en.wikipedia.org/wiki/Dinky_Dungeons][Dinky Dungeons]], the smallest role-playing game ever produced (see its [[http://dinkydungeons.com/history.asp][history]] and [[http://dinkydungeons.com/origrules.asp][rules]]).
+  - [[http://www.campaignmastery.com/blog/introducing-the-sixes-system/][The Sixes System]], a Minimalist Universal RPG.
+  - [[https://www.perilplanet.com/freeform-universal/][FU]], the Freeform Universal RPG.
+  - [[https://www.stargazergames.eu/warrior-rogue-mage/][Warrior, Rogue & Mage]], a simple, lightweight role-playing game.
 
-- rogue and its descendants also seemed like something I should familiarize with to see what they had to offer on the "minimalistic RPG" front
-  - http://crpgaddict.blogspot.com/2010/02/rogue-most-difficult-crpg-ive-played.html
-  - http://crpgaddict.blogspot.com/2010/02/rogue-story-and-gameplay.html
-  - https://web.archive.org/web/20050211223823/http://www.wichman.org/roguestories.html
-  - https://insight.ieeeusa.org/articles/going-rogue-a-brief-history-of-the-computerized-dungeon-crawl/
-  - https://gamedevelopment.tutsplus.com/articles/the-key-design-elements-of-roguelikes--cms-23510
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="/assets/img/dinky.jpg" style="max-width:100%; max-height:unset">
+</div>
+#+END_EXPORT
 
-- I also looked into RPG design resources
 
-- https://www.choiceofgames.com/2011/07/7-rules-for-designing-great-stats/
-- https://en.wikipedia.org/wiki/Statistic_(role-playing_games)
-- https://en.wikipedia.org/wiki/Attribute_(role-playing_games)
-- http://howtomakeanrpg.com/a/how-to-make-an-rpg-stats.html
-- http://howtomakeanrpg.com/a/how-to-make-an-rpg-levels.html
-- http://howtomakeanrpg.com/a/designing-a-realtime-combat-system.html
+Fun and educational as this excursion was, I concluded that tabletop rulesets would complicate things rather than simplifying them for my project, so I went back to using on video games as my reference, particularly the JRPGs I was most familiar with. The one exception I made was looking a bit into roguelikes since, from the little I knew about the genre, it sounded like it could have things to offer in terms of minimalist game design:
+  - [[https://web.archive.org/web/20050206091120/http://www.wichman.org/roguehistory.html][A Brief History of "Rogue"]].
+  - [[https://insight.ieeeusa.org/articles/going-rogue-a-brief-history-of-the-computerized-dungeon-crawl/][Going Rogue: A Brief History of the Computerized Dungeon Crawl]].
+  - [[http://crpgaddict.blogspot.com/2010/02/rogue-most-difficult-crpg-ive-played.html][Rogue: the most difficult CRPG I've played]].
+  - [[http://crpgaddict.blogspot.com/2010/02/rogue-story-and-gameplay.html][Rogue: Story and Gameplay]].
+  - [[https://gamedevelopment.tutsplus.com/articles/the-key-design-elements-of-roguelikes--cms-23510][The Key Design Elements of Roguelikes]].
 
-- at first seemed reasonable, although this was alient to me. I ended up turning down most of this and going with what I knew and could derive from my experiences with JRPG, plus some ideas borrowed from roguelikes (permadeath, randomized dungeons)
+Finally, I looked for some RPG design resources. The most useful were the [[https://howtomakeanrpg.com/][How To Make an RPG]] articles, particularly those about [[http://howtomakeanrpg.com/a/how-to-make-an-rpg-stats.html][stats]] and [[http://howtomakeanrpg.com/a/how-to-make-an-rpg-levels.html][levels]].
 
 ** Historical digression
-I didn't know at the time, but there's an illustrious tradition on deconstructing the role-playing game.
+I didn't it know at the time, but there's an illustrious tradition on deconstructing the role-playing game.
 
 - crpgs <- tabletop <- commercial war games <- military training war games
 - war games and it's descendants <can have hardcore complexity> which is part of the appeal, at least for a segment of the players
@@ -106,6 +97,8 @@ I didn't know at the time, but there's an illustrious tradition on deconstructin
 
 - japanese: zelda, dragon quest
 - diablo: simplify the crpg ceremony, throwing in some of the procedural fun of roguelikes
+
+- in a sense, it was fair to say that crpgs and jrpgs had already done half of the simplification job for me.
 
 ** Design
 
@@ -126,11 +119,16 @@ I didn't know at the time, but there's an illustrious tradition on deconstructin
 
 later added mp to support the mage class and magic attacks
 
-*** leveling system?
-*** items? shop?
-
 *** Generic equipment
+- shop
+- items subcommand
+- generic level-based equipment
 - another simplification was for equipment and items. an rpg standard is the loop: beat monsters, get gold in return, spend in equipment, repeating it with ever-tougher monsters, that give more money and let you buy more powerful items. I decided to streamline this a bit: equipment and healing items would have levels just like the characters, and they become automatically available as the character powers up. You don't get to carry old useless swords, you'll always keep the most powerful one and discard the rest
+
+*** Permadeath
+from rogue
+fit well with the dungeon structure
+to make it interesting, I added tombstones, so the items from past lives could be recovered if you went back, deep-enough
 
 ** Development
 *** Working with the shell
@@ -253,7 +251,7 @@ fn run_battle(&mut self, enemy: &mut Character) -> Result<i32, character::Dead> 
 }
 #+end_src
 
-** Postscript: a text interface for rpg-cli
+** Postscript: A text interface for rpg-cli
 
 the file system integration wasn't core of the project, it was a derivation of wanting to make a game that made sense to be played as a series of CLI commands.
 
