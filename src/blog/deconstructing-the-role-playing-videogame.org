@@ -87,7 +87,8 @@ Fun and educational as this excursion was, it left me more confused than when I 
 Finally, I looked for some RPG design resources. The most useful were the [[https://howtomakeanrpg.com/][How To Make an RPG]] articles, particularly those about [[http://howtomakeanrpg.com/a/how-to-make-an-rpg-stats.html][stats]] and [[http://howtomakeanrpg.com/a/how-to-make-an-rpg-levels.html][levels]].
 
 ** Historical digression
-I didn't it know at the time, but there's an illustrious tradition on deconstructing the role-playing game.
+I didn't it know at the time, but there's an illustrious tradition of deconstructing the role-playing game.
+
 
 - crpgs <- tabletop <- commercial war games <- military training war games
 - war games and it's descendants <can have hardcore complexity> which is part of the appeal, at least for a segment of the players
@@ -117,29 +118,19 @@ I didn't it know at the time, but there's an illustrious tradition on deconstruc
   - Strength
   - Speed
 
-later added mp to support the mage class and magic attacks
-https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c7de80/src/character/mod.rs#L16-L36
+https://github.com/facundoolano/rpg-cli/blob/d4c90252db34a04e9abb7e96623c62d6fe47edfe/src/character.rs#L15-L27
 #+begin_src rust
 pub struct Character {
-    pub class: Class,
+    pub name: String,
+
     pub level: i32,
     pub xp: i32,
 
-    max_hp: i32,
+    pub max_hp: i32,
     pub current_hp: i32,
 
-    max_mp: i32,
-    pub current_mp: i32,
-
-    strength: i32,
-    speed: i32,
-
-    pub sword: Option<equipment::Equipment>,
-    pub shield: Option<equipment::Equipment>,
-    pub left_ring: Option<Ring>,
-    pub right_ring: Option<Ring>,
-
-    pub status_effect: Option<StatusEffect>,
+    pub strength: i32,
+    pub speed: i32,
 }
 #+end_src
 
@@ -175,9 +166,33 @@ Other commands like ~rm~, ~mkdir~, or ~touch~, could be similarly aliased to int
 https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c7de80/shell/README.md
 
 - once I got the minimal core working, I could use it as a canvas to add more functionality, porting fun features from games I'd played over the years. I did add some embelishments, like status ailments, quests, <stat increasing items --inspired by polkemon>, "stones" that raise a stat, hidden enemies, customizable character classes.
-  - (form is liberating)
-  - para que esto tenga algún interés, agregar aleatoriedad y alguna posibilidad de toma de decisiones/estrategia: enemigos de distintas clases, esquivar golpes, golpes críticos, equipamiento, ítems, eludir batallas
-  - you don't have a choice in what moves to make in battle, but you decide when to keep going down or returning home, when to use a healing item, what class to use, what equipment to buy first, etc
+
+latest Character class looks like this
+
+https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c7de80/src/character/mod.rs#L16-L36
+#+begin_src rust
+pub struct Character {
+    pub class: Class,
+    pub level: i32,
+    pub xp: i32,
+
+    max_hp: i32,
+    pub current_hp: i32,
+
+    max_mp: i32,
+    pub current_mp: i32,
+
+    strength: i32,
+    speed: i32,
+
+    pub sword: Option<equipment::Equipment>,
+    pub shield: Option<equipment::Equipment>,
+    pub left_ring: Option<Ring>,
+    pub right_ring: Option<Ring>,
+
+    pub status_effect: Option<StatusEffect>,
+}
+#+end_src
 
 - Here's an excerpt of the [[https://github.com/facundoolano/rpg-cli/blob/f2d37631628461ee192864e464e2088415e3866c/src/character/classes.yaml][classes file]] with some player and enemy classes:
 
@@ -206,7 +221,6 @@ https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c
   category: rare
 #+end_src
 
-** Putting it all together
 
 Below is the full definition of the [[https://github.com/facundoolano/rpg-cli/blob/f2d37631628461ee192864e464e2088415e3866c/src/game.rs#L266-L316][~Game::run_battle~]], the auto-battle routine at the core of the game. In a sense, the rest of the code exists as support to this function. I like that it's reasonably self-explanatory, and a good showcase of the features I incorporated along the way.
 
