@@ -89,17 +89,16 @@ Finally, I looked for some RPG design resources. The most useful were the [[http
 ** Historical digression
 I didn't it know at the time, but there's an illustrious tradition of deconstructing the role-playing game.
 
-
 - crpgs <- tabletop <- commercial war games <- military training war games
 - war games and it's descendants <can have hardcore complexity> which is part of the appeal, at least for a segment of the players
 - but where there's complexity, there's simplifying potential, room for abstractions
 - <it's no secret that there was some overlap between tabletop RPG players and computer programmers. Most importantly, a non trivial portion of the few people with computer access in the late \'70s were DnD players.
 - it didn't require much of a leap to try to combine the two; at first to offload the <adjective> <rpg calculations> to the computer, later to create solo playing experiences in the first computerized RPGs.
 
-- japanese: zelda, dragon quest
+- japanese: dragon quest, zelda
 - diablo: simplify the crpg ceremony, throwing in some of the procedural fun of roguelikes
 
-- in a sense, it was fair to say that crpgs and jrpgs had already done half of the simplification job for me.
+So the reason that looking back to tabletop games ---even the minimalist ones--- felt backwards, was that by taking classic JRPGs and Diablo as references I was unknowingly benefiting from decades of genre simplification work.
 
 ** Design
 
@@ -165,10 +164,10 @@ cd () {
 Other commands like ~rm~, ~mkdir~, or ~touch~, could be similarly aliased to integrate with the game. <The rpg-cli program would eventually include options and flags so users could <script or put together their preferred gameplay experience in the shell>
 https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c7de80/shell/README.md
 
-- once I got the minimal core working, I could use it as a canvas to add more functionality, porting fun features from games I'd played over the years. I did add some embelishments, like status ailments, quests, <stat increasing items --inspired by polkemon>, "stones" that raise a stat, hidden enemies, customizable character classes.
+- once I got the minimal core working, I could use it as a canvas to add more functionality, porting fun features from games I'd played over the years. I did add some embelishments,
+  status ailments, character classes, quests in the form of a todo list, <stat increasing items, easter eggs, hidden enemies, and a final boss.
 
 latest Character class looks like this
-
 https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c7de80/src/character/mod.rs#L16-L36
 #+begin_src rust
 pub struct Character {
@@ -219,6 +218,12 @@ pub struct Character {
   speed: [8, 2]
   inflicts: [burn, 2]
   category: rare
+- name: basilisk
+  hp: [180, 3]
+  strength: [100, 2]
+  speed: [18, 2]
+  inflicts: [poison, 2]
+  category: legendary
 #+end_src
 
 
@@ -280,13 +285,14 @@ fn run_battle(&mut self, enemy: &mut Character) -> Result<i32, character::Dead> 
 
 ** Postscript: A text interface for rpg-cli
 
-the file system integration wasn't core of the project, it was a derivation of wanting to make a game that made sense to be played as a series of CLI commands.
+But having to rely on preexisting directories can get tedious to make progress in the game. I ended up using [[https://github.com/facundoolano/rpg-cli/tree/da433ff186ba32e86c386e049b3f68e0b6c7de80/shell#arbitrary-dungeon-levels][a function]] that created directories on the fly; other players scripted the movements to level up the character. The file system integration turned rpg-cli into a curiosity, but it was more of an afterthought, a consequence of making the game fit into a command-line interface. Internally, the code converts paths into abstract  locations and uses a "distance from home" notion to determine things the enemy level and frequency.
 
-- note that the file system integration is sort of an afterthought, something that makes the project stand out and make it curious, but in the end an optional feature that's not <necessary> for a command-line rpg to be possible.
-  - and, in fact, once the novelty of having rpg output thrown at you when you were using your shell passed, you either removed the integration or turned to another more convenient way to play the game if you wanted to get to the end. people ended up scripting to level up and I used custom directory-building functions to be able to get abritrarily-deep dungeons.
-  - this also hinted that there could be a similarly structured game without having to deal with the file system at all, which could easily turn out to be an interactive text user interface as is planned for the project in this book
+As soon as my RPG model felt right, I started toying with the idea of trying it on a different interface. The obvious choice would be a rogue-like text interface, displaying symbolic ASCII characters in the terminal.
+To make it work, the main adjustment would be to turn "distance from home" to dungeon floor level, and let enemies appear when moving around. I was curious to experiment with procedural level generation, while preserving most of the simplistic rpg-cli design choices (basic classes, generic items and random automatic battles).
+
+I did [[https://github.com/facundoolano/rpg-tui][some work]] on this rpg-tui idea but then I abandoned it, in part because I wasn't as interested in Rust programming anymore but mostly because I was trying to document the development process (of both this and of rpg-cli), which turned out to be too distracting---I was more interested in the writing than in revisiting an old project. This post was based on some of the notes I took along the way.
 
 ** Notes
-[fn:2] Carmack: “Story in a game is like story in a porn movie, he said. “It's expected to be there, but it's not important.” (I don't obviously generally agree with this, I love story driven games, but the point is that you could perfectly make a RPG work as pure mechanics, no story, and that approach fit perfectly the restrictions I imposed myself)
+[fn:2] Carmack: “Story in a game is like story in a porn movie. It's expected to be there, but it's not important.” (I don't obviously generally agree with this, I love story driven games, but the point is that you could perfectly make a RPG work as pure mechanics, no story, and that approach fit perfectly the restrictions I imposed myself)
 
 [fn:1] TODO advenjure
