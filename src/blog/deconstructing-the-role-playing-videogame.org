@@ -86,19 +86,17 @@ Fun and educational as this excursion was, it left me more confused than when I 
 
 Finally, I looked for some RPG design resources. The most useful were the [[https://howtomakeanrpg.com/][How To Make an RPG]] articles, particularly those about [[http://howtomakeanrpg.com/a/how-to-make-an-rpg-stats.html][stats]] and [[http://howtomakeanrpg.com/a/how-to-make-an-rpg-levels.html][levels]].
 
-** Historical digression
+** Pseudo-historical digression
 I didn't it know at the time, but there's an illustrious tradition of deconstructing the role-playing game.
 
-- crpgs <- tabletop <- commercial war games <- military training war games
-- war games and it's descendants <can have hardcore complexity> which is part of the appeal, at least for a segment of the players
-- but where there's complexity, there's simplifying potential, room for abstractions
-- <it's no secret that there was some overlap between tabletop RPG players and computer programmers. Most importantly, a non trivial portion of the few people with computer access in the late \'70s were DnD players.
-- it didn't require much of a leap to try to combine the two; at first to offload the <adjective> <rpg calculations> to the computer, later to create solo playing experiences in the first computerized RPGs.
+Role-playing videogames came from tabletop RPGs, that came from war games, that came from the [[https://en.wikipedia.org/wiki/Kriegsspiel][Kriegsspiel]] that the Prussian army trained with during the 19th century. Like its war gaming ancestors, /Dungeons & Dragons/ was full of complexity: sophisticated rules for character building, catalogs of monsters and weapons, and number crunching to decide battle outcomes. This was arguably part of the fun, at least for a segment of the players---for others, a complicated system is an invitation to simplify and abstract.
 
-- japanese: dragon quest, zelda
-- diablo: simplify the crpg ceremony, throwing in some of the procedural fun of roguelikes
+It's no secret that there was some overlap between early RPG players and computer programmers; crucially, a significant portion of the privileged few people with computer access in the late \'70s were /Dungeons & Dragons/ players. It didn't require much of a mental leap to try to combine the two; at first to offload the tedious calculations to the computer, later to create the solo playing experiences that were the first computerized RPGs.
+This process culminated in /Wizardry/ and /Ultima/, the two franchises that dominated computer gaming during the \'80s.
 
-So the reason that looking back to tabletop games ---even the minimalist ones--- felt backwards, was that by taking classic JRPGs and Diablo as references I was unknowingly benefiting from decades of genre simplification work.
+With /Dragon Quest/, the Enyx designers took the dungeon crawling from /Wizardry/ and the over-world exploration of /Ultima/ and adjusted them to the limitations of the Famicom/NES console---and the tastes of the local public---, providing a blueprint for what would become the Japanese RPG genre. Shigeru Miyamoto offered his own interpretation in /The Legend of Zelda/, with a shift towards arcade-like action and a leveling system abstracted into a heart count. A decade later, the Blizzard North team would reinvent role-playing in the PC by removing most of its ceremony. Drawing heavily from the roguelikes, /Diablo/ simplifies character setup and stats, and generally removes anything that could stand in the way of slashing monsters and grabbing loot.
+
+In retrospect, looking at tabletop RPGs felt backwards because, by instead using the video games I already knew as my primary references, I was benefiting from decades of RPG system simplifications---half the job had already been done.
 
 ** Design
 
@@ -288,9 +286,9 @@ fn run_battle(&mut self, enemy: &mut Character) -> Result<i32, character::Dead> 
 But having to rely on preexisting directories can get tedious to make progress in the game. I ended up using [[https://github.com/facundoolano/rpg-cli/tree/da433ff186ba32e86c386e049b3f68e0b6c7de80/shell#arbitrary-dungeon-levels][a function]] that created directories on the fly; other players scripted the movements to level up the character. The file system integration turned rpg-cli into a curiosity, but it was more of an afterthought, a consequence of making the game fit into a command-line interface. Internally, the code converts paths into abstract  locations and uses a "distance from home" notion to determine things the enemy level and frequency.
 
 As soon as my RPG model felt right, I started toying with the idea of trying it on a different interface. The obvious choice would be a rogue-like text interface, displaying symbolic ASCII characters in the terminal.
-To make it work, the main adjustment would be to turn "distance from home" to dungeon floor level, and let enemies appear when moving around. I was curious to experiment with procedural level generation, while preserving most of the simplistic rpg-cli design choices (basic classes, generic items and random automatic battles).
+To make it work, the main adjustment would be to turn "distance from home" into the dungeon floor level, and let enemies appear when moving around. I was curious to experiment with procedural level generation, while preserving most of the simplistic rpg-cli design choices (basic classes, generic items and random automatic battles).
 
-I did [[https://github.com/facundoolano/rpg-tui][some work]] on this rpg-tui idea but then I abandoned it, in part because I wasn't as interested in Rust programming anymore but mostly because I was trying to document the development process (of both this and of rpg-cli), which turned out to be too distracting---I was more interested in the writing than in revisiting an old project. This post was based on some of the notes I took along the way.
+I started played [[https://github.com/tmewett/BrogueCE][Brogue]] and picked up a [[https://www.routledge.com/Procedural-Generation-in-Game-Design/Short-Adams/p/book/9781498799195][book on procedural generation]], looking for ideas. I scoped the project and did some [[https://github.com/facundoolano/rpg-tui][some prototyping]] but eventually dropped it, in part because I wasn't as interested in Rust programming anymore but mostly because I was trying to document the development process (of both rpg-cli and this new rpg-tui), which turned out to be too distracting---I was more interested in the writing than in revisiting an old project. This post was based on some of the notes I took along the way.
 
 ** Notes
 [fn:2] Carmack: “Story in a game is like story in a porn movie. It's expected to be there, but it's not important.” (I don't obviously generally agree with this, I love story driven games, but the point is that you could perfectly make a RPG work as pure mechanics, no story, and that approach fit perfectly the restrictions I imposed myself)
