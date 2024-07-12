@@ -246,8 +246,8 @@ img.cover-img {
 pre {
     overflow-x: auto;
     padding: 1rem;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    /* -ms-overflow-style: none;  /\* IE and Edge *\/ */
+    /* scrollbar-width: none;  /\* Firefox *\/ */
     line-height: 1.3;
 }
 
