@@ -63,12 +63,12 @@ I had a concept, an implementation language, a scope and a rough outline of the 
 My experience of the genre was almost exclusively through JRPGs, so it felt necessary to do some research to see if I could get inspiration from western video games and tabletop RPGs: did someone else already figured out the minimal necessary stats to make an RPG work? is there a canonical set of enemy classes? Would I benefit from learning the DnD rules?
 
 I started by looking around for tabletop RPGs that made a point their minimalism or genericity:
-  - [[https://en.wikipedia.org/wiki/GURPS][GURPS]], the Generic Universal RolePlaying System.
-  - [[https://en.wikipedia.org/wiki/TWERPS][TWERPS]], the World's Easiest Role-Playing System.
-  - [[https://en.wikipedia.org/wiki/Dinky_Dungeons][Dinky Dungeons]], the smallest role-playing game ever produced (see its [[http://dinkydungeons.com/history.asp][history]] and [[http://dinkydungeons.com/origrules.asp][rules]]).
+  - [[https://en.wikipedia.org/wiki/GURPS][GURPS]], the Generic Universal role-playing System.
+  - [[https://en.wikipedia.org/wiki/TWERPS][TWERPS]], the World's Easiest role-playing System.
+  - [[https://en.wikipedia.org/wiki/Dinky_Dungeons][Dinky Dungeons]], the smallest RPG ever produced (see its [[http://dinkydungeons.com/history.asp][history]] and [[http://dinkydungeons.com/origrules.asp][rules]]).
   - [[http://www.campaignmastery.com/blog/introducing-the-sixes-system/][The Sixes System]], a Minimalist Universal RPG.
   - [[https://www.perilplanet.com/freeform-universal/][FU]], the Freeform Universal RPG.
-  - [[https://www.stargazergames.eu/warrior-rogue-mage/][Warrior, Rogue & Mage]], a simple, lightweight role-playing game.
+  - [[https://www.stargazergames.eu/warrior-rogue-mage/][Warrior, Rogue & Mage]], a simple, lightweight RPG.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -89,7 +89,7 @@ Finally, I looked for some RPG design resources. The most useful were the [[http
 ** Pseudo-historical digression
 I didn't it know at the time, but there's an illustrious tradition of deconstructing the role-playing game.
 
-Role-playing videogames came from tabletop RPGs, that came from war games, that came from the [[https://en.wikipedia.org/wiki/Kriegsspiel][Kriegsspiel]] that the Prussian army trained with during the 19th century. Like its war gaming ancestors, /Dungeons & Dragons/ was full of complexity: sophisticated rules for character building, catalogs of monsters and weapons, and number crunching to decide battle outcomes. This was arguably part of the fun, at least for a segment of the players---for others, a complicated system is an invitation to simplify and abstract.
+Role-playing videogames came from tabletop RPGs, that came from war games, that came from the [[https://en.wikipedia.org/wiki/Kriegsspiel][Kriegsspiel]] that the Prussian army trained with during the 19th century. Like its war gaming ancestors, /Dungeons & Dragons/ was full of complexity: sophisticated rules for character building, catalogs of monsters and armor, and number crunching to decide battle outcomes. This was arguably part of the fun, at least for a segment of the players---for others, a complicated system is an invitation to simplify and abstract.
 
 It's no secret that there was some overlap between early RPG players and computer programmers; crucially, a significant portion of the privileged few people with computer access in the late \'70s were /Dungeons & Dragons/ players. It didn't require much of a mental leap to try to combine the two; at first to offload the tedious calculations to the computer, later to create the solo playing experiences that were the first computerized RPGs.
 This process culminated in /Wizardry/ and /Ultima/, the two franchises that dominated computer gaming during the \'80s.
@@ -100,22 +100,9 @@ In retrospect, looking at tabletop RPGs felt backwards because, by instead using
 
 ** Design
 
-- Minimal stats
+I wanted the least amount of stats that would let battles work and make them non-deterministic enough to be fun.
+Inspired by TWERPS, I briefly considered having a single stat to determine both inflicted damage and available hit points, but that resulted in dull battles, so I went with separate ~hp~ and ~strength~ stats. Later, when outlining the battle routine, I became apparent that I'd need a ~speed~ stat to mimic the turn based style of games like Final Fantasy, that is, rather than having each character attack in round robin, the frequency would be determined by theirs speed. So the [[https://github.com/facundoolano/rpg-cli/blob/d4c90252db34a04e9abb7e96623c62d6fe47edfe/src/character.rs#L15-L27][early version]] of the character looked like this:
 
-  - I wanted stats to be as obvious as possible. I always found dnd stats confusing from a crpg standpoint
-    I also was always put off by the games that make you invest a long time choosing class and race and distributing stat points to build your character. how would I know what character to build if I never played this game.
-
-    minimal that could possibly still make sense
-    started with a single on (strength following the TWERPS example), but that was weird because made combat too redundant/predictable
-    it made more sense to separate hp and str.
-    later added speed to add more variety
-    still wass pretty obvious/self-explanatory
-
-  - Health Points or HP
-  - Strength
-  - Speed
-
-https://github.com/facundoolano/rpg-cli/blob/d4c90252db34a04e9abb7e96623c62d6fe47edfe/src/character.rs#L15-L27
 #+begin_src rust
 pub struct Character {
     pub name: String,
@@ -131,15 +118,11 @@ pub struct Character {
 }
 #+end_src
 
-- Generic equipment
-  - shop
-  - items subcommand
-  - generic level-based equipment
-  - another simplification was for equipment and items. an rpg standard is the loop: beat monsters, get gold in return, spend in equipment, repeating it with ever-tougher monsters, that give more money and let you buy more powerful items. I decided to streamline this a bit: equipment and healing items would have levels just like the characters, and they become automatically available as the character powers up. You don't get to carry old useless swords, you'll always keep the most powerful one and discard the rest
+Items and equipment was another area that I found could be automated by the game. Items could be bought at the home directory with a ~rpg-cli shop~ subcommand or found in chests by inspecting directories with ~rpg ls~.
 
-- from rogue I got the permadeath
-  fit well with the dungeon structure
-  to make it interesting, I added tombstones, so the items from past lives could be recovered if you went back, deep-enough
+Equipment would be generic and level based; instead of Wooden Sword, Bronze Blade, and Steel Saber, players would have ~sword[1]~ and ~shield[1]~ available at the shop from the start, ~sword[5]~ unlocked at level 5 of their hero, etc. Stronger equipment would automatically replace its weaker equivalent when bought or found in a chest, removing the sell-old-buy-new dance of traditional JRPGs. Healing items would similarly by level based.
+
+Later, when I imported the permadeath feature from roguelikes, I decided to drop a tombstone with the items and equipment at the directory where the character died, to give some sense of progress and making it more feasible to reach end game features.
 
 ** Development
 - as I started prototyping, I soon learned that I couldn't control the shell working directory from my program. The solution was for the program state to track its own working directory, and use a shell function to sync to it:
