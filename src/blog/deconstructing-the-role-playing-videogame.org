@@ -1,11 +1,12 @@
 ---
 title: Deconstructing the Role-Playing Video Game
-date: 2024-07-08 10:54:18
+date: 2024-07-15
 layout: post
 lang: en
 tags: [projects, ideas, videogames]
 draft: true
 image: assets/img/rpgcli.png
+excerpt: To me, classic JRPGs are pure mechanism, a kind of puzzle. Was there some way of getting the fun out of building such a mechanism—of solving that puzzle—, wrapping it with the minimal amount of functionality, the simplest thing that could possibly pass as a video game?
 ---
 #+OPTIONS: toc:nil num:1
 #+LANGUAGE: en
@@ -19,8 +20,8 @@ image: assets/img/rpgcli.png
 
 ** The simplest thing that could possibly work
 
-This was during 2021. I was going through one of those periods where I wasn't getting much intellectual satisfaction out of my daily job, so I thought I could use a programming side project. I had an itch to work on a video game, something I hadn't done in a while.
-In the past few years I had finished many classic Japanese RPGs---/Final Fantasy VI/, /A Link to the Past/, /Chrono Trigger/, /Suikoden 2/, /Final Fantasy Tactics---/ so I felt compelled to try something with that genre. But I like personal projects to be short-lived and yield something usable, somewhat finished, after a few months; I wasn't going to embark on a full game development project on my own.
+This was back in 2021. I was going through one of those periods where I wasn't getting much intellectual satisfaction out of my daily job, so I thought I could use a programming side project. I had an itch to work on a video game, something I hadn't done in a while.
+In the past few years I had finished many classic Japanese RPGs---/Final Fantasy VI/, /A Link to the Past/, /Chrono Trigger/, /Suikoden 2/, /Final Fantasy Tactics---/ so I felt compelled to try something with that genre. But I like personal projects to be short-lived and yield something usable, somewhat finished, after a few months; I wasn't going to embark on a full game development project on my free time.
 
 I've played JRPGs long-enough that I don't pay much attention to the characters or the plot anymore; I like the pretty pixels, yes, but most importantly I'm drawn to its underlying systems. Explore the map, visit cities, clear dungeons; kill monsters, level up, buy equipment; character stats, turn-based combat, leveling system. To me, classic JRPGs are pure mechanism, a kind of puzzle. Was there some way of getting the fun out of building such a mechanism---of solving that puzzle---, wrapping it with the minimal amount of functionality, the simplest thing that could possibly pass as a video game?
 
@@ -56,7 +57,7 @@ This would obviously remove some player agency (and fun) from the combat; the op
 
 ** Research
 
-I felt that the radical simplicity I started from had unexpectedly led me to an interesting concept for the game, so I decided to double down on "the simplest thing that could possibly work", extending this mantra to the entire project, not just the interface.
+I felt that the radical simplicity I started from had unexpectedly led me to an interesting concept for the game, so I decided to double down on "the simplest thing that could possibly work" as my design mantra, applying it to the entire project, not just the interface.
 
 I had a concept, an implementation language, a scope and a rough outline of the interface for my program. But, before I could start coding its basic building blocks, I needed to design the RPG model: a stat system to know what attributes to give to the characters, a leveling system to know how to raise them, and a combat routine that would put them to use.
 
@@ -65,7 +66,7 @@ My experience of the genre was almost exclusively through JRPGs, so it felt appr
 I started by looking around for tabletop RPGs designed for minimalism or genericity:
   - [[https://en.wikipedia.org/wiki/GURPS][GURPS]], the Generic Universal role-playing System.
   - [[https://en.wikipedia.org/wiki/TWERPS][TWERPS]], the World's Easiest role-playing System.
-  - [[https://en.wikipedia.org/wiki/Dinky_Dungeons][Dinky Dungeons]], the smallest RPG ever produced (see its [[http://dinkydungeons.com/history.asp][history]] and [[http://dinkydungeons.com/origrules.asp][rules]]).
+  - [[https://en.wikipedia.org/wiki/Dinky_Dungeons][Dinky Dungeons]], the smallest RPG ever produced[fn:1].
   - [[http://www.campaignmastery.com/blog/introducing-the-sixes-system/][The Sixes System]], a Minimalist Universal RPG.
   - [[https://www.perilplanet.com/freeform-universal/][FU]], the Freeform Universal RPG.
   - [[https://www.stargazergames.eu/warrior-rogue-mage/][Warrior, Rogue & Mage]], a simple, lightweight RPG.
@@ -77,29 +78,31 @@ I started by looking around for tabletop RPGs designed for minimalism or generic
 #+END_EXPORT
 
 
-Fun and educational as that excursion was, it left me more confused than when I started. I concluded that tabletop rulesets would contribute complexity rather than simplicity to my project, so I went back to using video games for reference. In addition to the ones I was already familiar with, I spent some time reading about /Rogue/ and its descendants as, from the little I knew about them, it sounded like they could have thought me some things about minimalist design:
+Fun and educational as that excursion was, it left me more confused than when I started. I concluded that tabletop rulesets would contribute complexity rather than simplicity to my project, so I went back to using video games as my reference. In addition to the ones I was already familiar with, I spent some time reading about /Rogue/ and its descendants since, from the little I knew about them, it sounded like they could teach me some things about minimalist design:
   - [[https://web.archive.org/web/20050206091120/http://www.wichman.org/roguehistory.html][A Brief History of "Rogue"]].
   - [[https://insight.ieeeusa.org/articles/going-rogue-a-brief-history-of-the-computerized-dungeon-crawl/][Going Rogue: A Brief History of the Computerized Dungeon Crawl]].
   - [[http://crpgaddict.blogspot.com/2010/02/rogue-most-difficult-crpg-ive-played.html][Rogue: the most difficult CRPG I've played]].
   - [[http://crpgaddict.blogspot.com/2010/02/rogue-story-and-gameplay.html][Rogue: Story and Gameplay]].
   - [[https://gamedevelopment.tutsplus.com/articles/the-key-design-elements-of-roguelikes--cms-23510][The Key Design Elements of Roguelikes]].
 
-Finally, I looked at some RPG design resources. The most useful were the [[https://howtomakeanrpg.com/][How To Make an RPG]] series, particularly the articles about [[http://howtomakeanrpg.com/a/how-to-make-an-rpg-stats.html][stats]] and [[http://howtomakeanrpg.com/a/how-to-make-an-rpg-levels.html][levels]].
+Finally, I looked at some RPG design resources. The most useful were the [[https://howtomakeanrpg.com/][How To Make an RPG]] series, particularly the entries on [[http://howtomakeanrpg.com/a/how-to-make-an-rpg-stats.html][stats]] and [[http://howtomakeanrpg.com/a/how-to-make-an-rpg-levels.html][levels]].
 
 ** Pseudo-historical digression
-I didn't know it back then, but there is an illustrious tradition of deconstructing the role-playing game. RPG video games came from tabletop RPGs, that came from war games, that came from the [[https://en.wikipedia.org/wiki/Kriegsspiel][Kriegsspiel]], a simulation game that the Prussian army trained with during the 19th century. Like its war gaming ancestors, /Dungeons & Dragons/ was full of complexity: sophisticated rules for character building, catalogs of monsters and armor, and number crunching to decide battle outcomes. This was arguably part of the fun, at least for a segment of the players---for others, a complicated system is an invitation to simplify and abstract.
+I didn't know it back then, but there is an illustrious tradition of deconstructing the role-playing game. RPG video games came from tabletop RPGs, that came from war games, that came from the [[https://en.wikipedia.org/wiki/Kriegsspiel][Kriegsspiel]], a simulation game that the Prussian army trained with during the 19th century[fn:3]. Like its war gaming ancestors, /Dungeons & Dragons/ was full of complexity: sophisticated rules for character building, catalogs of monsters and spells and armor, and battle outcomes decided by probability calculations. This was arguably part of the fun, at least for some of the players---for others, a complicated system is an invitation to simplify and abstract.
 
-It's no secret that there was some overlap between early RPG players and computer programmers; crucially, a significant portion of the privileged few people with computer access in the late \'70s were /Dungeons & Dragons/ players. It didn't require much of a mental leap to try to combine the two; at first to offload the tedious calculations to the computer, later to create the solo playing experiences that were the first computerized RPGs.
-This process culminated in /Wizardry/ and /Ultima/, the two franchises that dominated computer gaming during the \'80s.
+It's no secret that there was some overlap between early RPG players and computer programmers; crucially, a significant portion of the privileged few people with computer access in the late \'70s were /Dungeons & Dragons/ players. It didn't require much of a mental leap to try to combine the two; at first to offload number crunching to the computer, eventually to create the solo playing experiences that were the first computerized RPGs.
+This process culminated in /Wizardry/ and /Ultima/, the two franchises that dominated computer gaming in the \'80s.
 
-With /Dragon Quest/, the Enyx designers took the dungeon crawling from /Wizardry/ and the over-world exploration of /Ultima/ and adjusted them to the limitations of the Famicom/NES console---and the tastes of the local public---, providing a blueprint for what would become the Japanese RPG genre. Shigeru Miyamoto offered his own interpretation in /The Legend of Zelda/, with a shift towards arcade-like action and a leveling system abstracted into a heart count. A decade later, the Blizzard North team would reinvent role-playing in the PC by removing most of its ceremony. Drawing heavily from the roguelikes, /Diablo/ simplifies character setup and stats, and generally removes anything that could stand in the way of slashing monsters and grabbing loot.
+Over at Japan, the Enyx designers combined the dungeon crawling from /Wizardry/ and the over-world exploration of /Ultima/, adjusting them to the limitations of the Famicom/NES console---and the tastes of the local public.
+With a linear story, streamlined systems focused on battles, and a more forgiving difficulty, /Dragon Quest/
+became the blueprint of what would become the Japanese RPG genre. Shigeru Miyamoto offered his own interpretation in /The Legend of Zelda/, with a shift towards arcade action and a leveling system reified into a heart count. A decade later, the Blizzard North team would reinvent role-playing in the PC by removing most of its ceremony. Drawing heavily from the roguelikes, /Diablo/ simplifies character setup and stats, and generally removes anything that could stand in the way of slashing monsters and grabbing loot.
 
-In retrospect, looking at tabletop RPGs felt backwards because, by instead using the video games I already knew as my primary references, I was benefiting from decades of RPG system simplifications---half the job had already been done.
+In retrospect, looking at tabletop RPGs felt backwards because, by instead using the video games I already knew as models, I was benefiting from decades of RPG system simplifications---half the job had already been done.
 
 ** Design
 
-I wanted the least amount of stats that would let battles work and make them non-deterministic enough to be fun.
-Inspired by TWERPS, I briefly considered having a single stat to determine both inflicted damage and available hit points, but that resulted in dull battles, so I went with separate ~hp~ and ~strength~ stats. Later, when outlining the battle routine, I became apparent that I'd need a ~speed~ stat to mimic the turn based style of games like Final Fantasy, that is, rather than having each character attack in round robin, the frequency would be determined by theirs speed. So the [[https://github.com/facundoolano/rpg-cli/blob/d4c90252db34a04e9abb7e96623c62d6fe47edfe/src/character.rs#L15-L27][early version]] of the character looked like this:
+I wanted the least amount of stats that would allow battles to work non-deterministically enough to be fun.
+Inspired by TWERPS, I briefly considered having a single stat to determine both inflicted damage and available hit points, but that resulted in dull battles, so I went instead with the classic ~hp~ and ~strength~ stats. Later, when outlining the battle routine, it became apparent that I would also need a ~speed~ stat to mimic the turn based style of games like /Final Fantasy/; that is, rather than having each character attack in round-robin, the fastest characters would get turns more frequently. Those minimal attributes were reflected in the [[https://github.com/facundoolano/rpg-cli/blob/d4c90252db34a04e9abb7e96623c62d6fe47edfe/src/character.rs#L15-L27][early version]] of the ~Character~ struct:
 
 #+begin_src rust
 pub struct Character {
@@ -116,22 +119,20 @@ pub struct Character {
 }
 #+end_src
 
-Items and equipment was another area that I found could be automated by the game. Items could be bought at the home directory with a ~rpg-cli shop~ subcommand or found in chests by inspecting directories with ~rpg ls~.
+Items and equipment was another area that I found could be automated. Items would be bought at the home directory, with a ~rpg-cli shop~ subcommand, or found in chests, by inspecting directories with ~rpg-cli ls~. Equipment would be generic and level based; instead of a Wooden Sword, a Bronze Blade, or a Steel Saber, players would have a ~sword[1]~ and a ~shield[1]~ available at the shop from the start, a ~sword[5]~ and a ~shield[5]~ unlocked when the hero reached level 5, an so on. Stronger equipment would automatically replace its weaker equivalent when bought or found, removing the sell-old-buy-new toil of traditional JRPGs. Healing items would be similarly level-based.
 
-Equipment would be generic and level based; instead of Wooden Sword, Bronze Blade, and Steel Saber, players would have ~sword[1]~ and ~shield[1]~ available at the shop from the start, ~sword[5]~ unlocked at level 5 of their hero, etc. Stronger equipment would automatically replace its weaker equivalent when bought or found in a chest, removing the sell-old-buy-new dance of traditional JRPGs. Healing items would similarly by level based.
-
-Later, when I imported the permadeath feature from roguelikes, I decided to drop a tombstone with the items and equipment at the directory where the character died, to give some sense of progress and making it more feasible to reach end game features.
+When I eventually imported the permadeath feature from roguelikes, I decided to drop a tombstone with the items and equipment at the directory where the character died, to give some sense of progress and to make it more feasible to unlock end-game features.
 
 ** Development
-As soon as I started prototyping, I learned that I couldn't control the shell working directory from my program (something obvious if you thought about it, but I had never done before). The solution was for the program state to track its own "path to current hero location", and use a function to sync the shell to it:
+As soon as I started prototyping, I learned that I couldn't control the shell working directory from my program (something obvious if you think about it, but that I hadn't considered before). The solution was for the program state to track its own "path to current hero location", and use a function to sync the shell to it:
 #+begin_src shell
 rpg () {
-    rpg-cli "$@"
-    cd "$(rpg-cli pwd)"
+    rpg-cli "$@"         # forward arguments to rpg-cli
+    cd "$(rpg-cli pwd)"  # move shell to the hero's location
 }
 #+end_src
 
-The hardcore version would be to overwrite the built-in ~cd~ function, so enemies would pop up as the user changed directories:
+The hardcore version would be to overwrite the built-in ~cd~ function, so that enemies would pop up as the user changed directories:
 
 #+begin_src sh
 cd () {
@@ -140,17 +141,14 @@ cd () {
 }
 #+end_src
 
-Other commands like ~rm~, ~mkdir~, or ~touch~, could be similarly aliased to integrate with the game. These usage patterns paved the way for [[https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c7de80/shell/README.md][further options and flags]] to show the game state at the shell prompt, write scripts and build custom gameplay flows.
-
+Other commands like ~rm~, ~mkdir~, or ~touch~, could be similarly aliased to integrate with the game. These usage patterns paved the way for [[https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c7de80/shell/README.md][further options and flags]], to show the game state at the shell prompt, write scripts, and build custom gameplay flows.
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
 
-Once I got the core of the game working as I originally planned, I started using it as a canvas, loosening up on the minimalism restriction, porting features I liked from other games. And so I added character classes, burn and poison status ailments, a quest to-do list in the ~rpg-cli todo~ subcommand, hidden enemies, easter eggs, and a final boss.
-
-This is what the [[https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c7de80/src/character/mod.rs#L16-L36][character struct]] character struct looks like after those additions:
+Once I got the core of the game working as I originally planned, I started using it as a canvas, loosening up on minimalism, porting features I liked from other games: character classes, burn and poison status ailments, a quest to-do list, hidden enemies, easter eggs, and a final boss. This is what the [[https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c7de80/src/character/mod.rs#L16-L36][character struct]] looked like after those additions:
 
 #+begin_src rust
 pub struct Character {
@@ -167,8 +165,8 @@ pub struct Character {
     strength: i32,
     speed: i32,
 
-    pub sword: Option<equipment::Equipment>,
-    pub shield: Option<equipment::Equipment>,
+    pub sword: Option<Equipment>,
+    pub shield: Option<Equipment>,
     pub left_ring: Option<Ring>,
     pub right_ring: Option<Ring>,
 
@@ -239,7 +237,7 @@ pub fn go_to(
 }
 #+end_src
 
-To wrap up, below is the full definition of [[https://github.com/facundoolano/rpg-cli/blob/f2d37631628461ee192864e464e2088415e3866c/src/game.rs#L266-L316][~Game::run_battle~]], the auto-battle routine at the core of the game. This is a good summary of how the game works; in a sense, the rest of the code exists as support for this function:
+To wrap up, see below the full definition of [[https://github.com/facundoolano/rpg-cli/blob/f2d37631628461ee192864e464e2088415e3866c/src/game.rs#L266-L316][~Game::run_battle~]], the auto-battle routine at the core of the game. This is a good synthesis of the game; in a sense, the rest of the code exists as support for this function:
 
 #+begin_src rust
 /// Runs a turn-based combat between the game's player and the given enemy.
@@ -307,4 +305,8 @@ To make it work, the main adjustment would be to turn "distance from home" into 
 I started played [[https://github.com/tmewett/BrogueCE][Brogue]] and picked up a [[https://www.routledge.com/Procedural-Generation-in-Game-Design/Short-Adams/p/book/9781498799195][book on procedural generation]], looking for ideas. I scoped the project and did some [[https://github.com/facundoolano/rpg-tui][some prototyping]] but eventually dropped it, in part because I wasn't as interested in Rust programming anymore but mostly because I was trying to document the development process (of both rpg-cli and this new rpg-tui), which turned out to be too distracting---I was more interested in the writing than in revisiting an old project. This post was based on some of the notes I took along the way.
 
 ** Notes
-[fn:2] As John Carmack said: “Story in a game is like story in a porn movie. It's expected to be there, but it's not important.” I don't generally agree with this, but it's one valid way to look at video games, and it happens to fit  the restrictions I set myself for this project.
+[fn:2] As John Carmack said: “Story in a game is like story in a porn movie. It's expected to be there, but it's not important.” I don't generally agree with this, but it's one valid way to look at video games, and it happened to fit  the restrictions I set myself for this project.
+
+[fn:1] See also Dinky Dungeon's [[http://dinkydungeons.com/history.asp][history]] and [[http://dinkydungeons.com/origrules.asp][rules]].
+
+[fn:3] For accounts of this evolution, see [[https://www.filfre.net/2011/07/the-rise-of-experiential-games/][The Rise of Experiential Games]] and its follow-up posts, [[https://crpgbook.wordpress.com/][The CRPG Book]], and /It's All a Game/ by Tristan Donovan.
