@@ -10,7 +10,7 @@ image: assets/img/rpgcli.png
 #+OPTIONS: toc:nil num:1
 #+LANGUAGE: en
 
-/Following up on my [[a-computing-magazine-anthology][previous post]], today I want to write about an idea for a [[https://github.com/facundoolano/rpg-cli][rpg-cli]] spin-off. rpg-cli is one of my fondest personal projects and I never properly documented its development, so I'll start this post off by doing just that./
+/Following up on my [[a-computing-magazine-anthology][previous post]] on pending project ideas, today I want to write about an [[https://github.com/facundoolano/rpg-cli][rpg-cli]] spin-off. rpg-cli is one of my fondest personal projects and I never properly documented its development, so I'll start this post off by doing just that./
 
 #+begin_export html
 <h2>Contents</h2>
@@ -19,24 +19,21 @@ image: assets/img/rpgcli.png
 
 ** The simplest thing that could possibly work
 
-I was a little bored at work. I had the spare time, I could've used a side project. It had been a while since I worked on a video game, and I was having that kind of itch. In the past few years I had finished many classic Japanese RPGs: /Final Fantasy VI/, /Chrono Trigger/, /Suikoden 2/, /Final Fantasy Tactics/. That experience was fresh in my head, so I felt compelled to try experimenting with that genre. But, to stay motivated enough to go through with them, I need personal projects to be short-lived, yielding something somewhat finished after a few month. I wasn't going to embark on a full game development project on my own.
+I was a little bored at work. I had the spare time, I could've used a side project. It had been a while since I worked on a video game, and I was having that kind of itch. In the past few years I had finished many classic Japanese RPGs: /Final Fantasy VI/, /A Link to the Past/, /Chrono Trigger/, /Suikoden 2/, /Final Fantasy Tactics/. That experience was fresh in my head, so I felt compelled to try experimenting with that genre. But I prefer personal projects to be short-lived, yielding something usable, and be done after a few months. There was no way I could pull off a full game on my own.
 
+I've played JRPGs long-enough that I don't pay much attention to the characters or the plot anymore; I like the pretty pixels, yes, but most importantly I'm drawn to its underlying systems. Explore the map, visit cities, clear dungeons. Kill monsters, level up, buy equipment. Character stats, turn-based combat, leveling system. To me, classic JRPGs are pure mechanism, a kind of puzzle. Was there some way of getting the fun out of building such a mechanism---of solving that puzzle---, wrapping it with the minimal amount of functionality, the simplest thing that could possibly pass as a video game? How much could I have peeled off and still gotten an RPG?
 
-I've played JRPGs long-enough that I don't pay much attention to the characters or the plot anymore; I like the pretty pixels, yes, but most importantly I'm drawn to its underlying systems. Explore the map, visit cities, clear dungeons. Kill monsters, level up, buy equipment. Character stats, turn-based combat, leveling system. To me, classic JRPGs are pure mechanism, a kind of puzzle.
+One answer was obvious: off with the story, the plot, the dialogues[fn:2]. But that wouldn't be enough: the real blocker were the graphics, I needed to work around them and all their rabbit-hole, yak-shaving glory. I had recently experienced how /Final Fantasy Tactics/ developers had fit most of the standard RPG elements, save the battle sequences, into menu screens. Could I have done something in that direction?
+If it was today, I'd consider building a mini game with PICO-8 or an ASCII roguelike interface. At the time, I went with a trick that [[https://github.com/facundoolano/advenjure][had worked for me]] before: replacing the graphics with text. Except that, you know what's narrower than a text user interface?
 
-Was there some way of getting the fun out of building such a mechanism---of solving that puzzle---, wrapping it with the minimal amount of functionality, the simplest thing that could possibly pass as a video game? How much could I have peeled off and still gotten an RPG? One answer was obvious: off with the story, the plot, the dialogues[fn:2]. But that wouldn't be enough: the real blocker were the graphics, I needed some way to workaround them in all their rabbit-hole, yak-shaving glory.
-
-I had recently seen how /Final Fantasy Tactics/ developers fit most of the standard RPG elements, save the battle sequences, into menus. Could I have done something in that direction?
-If it was today, I'd consider building a mini game with PICO-8 or an ASCII roguelike interface. At the time, I went with a trick [[https://github.com/facundoolano/advenjure][had worked for me]] before: replacing the graphics with text. Except that, you know what's narrower than a text user interface? A command-line interface.
-
-Was there any way I could make a role-playing game fit in the shell?
+A command-line interface. Was there any way I could make a role-playing game fit in the shell?
 
 ** Your file system as a dungeon
-This was one of those cases where a restricting form pushes one to get creative. I derived many design decisions  from the choice of the command-line interface[fn:3].
+This was one of those cases where formal restrictions foster creativity. I derived many design decisions from the choice of the command-line interface.
 
-The shell is the /environment/ of command-line programs; the file system gives a sense of /place/. At some point I made the connection and decided that the hero of my game would inhabit the file system, with the working directory as its current location. Changing directories would be like moving between dungeon levels, enemies popping up along the way: the more nested the directory, the tougher the enemies. As in roguelikes and other early CRPGs, the goal of the game would just be to crawl down the dungeon, as deep as possible.
+The shell is the /environment/ of command-line programs; the file system gives a sense of /place/. At some point I made the connection and decided that the hero of my game would inhabit the file system, with the working directory as its current location. Changing directories would be like moving between dungeon levels, enemies popping up along the way: the more nested the directory, the tougher the enemies. As in roguelikes and other early CRPGs, the goal of the game would be just to crawl down the dungeon, as deep as possible. Going back ~~~ (home) would restore your health and give you the choice to buy equipment and supplies.
 
-The concept finally clicked when I imagined the program it as a ~cd~ replacement, where you would get random turn-based combats as a side effect of doing your work in the terminal. Going back ~~~ (home) would restore your health and give you the choice to buy equipment and supplies.
+The concept finally clicked when I imagined the program as a ~cd~ replacement, where you would get random turn-based combats as a side effect of doing your daily work in the terminal:
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -44,25 +41,25 @@ The concept finally clicked when I imagined the program it as a ~cd~ replacement
 </div>
 #+END_EXPORT
 
-Having a purely command-line interface meant that the gameplay should be non-interactive. The player could only issue commands in the shell. This was a problem for the traditional turn-based combat I had in mind.
+A pure command-line interface also meant that the gameplay would had to be non-interactive. This was a problem for the traditional turn-based combat I had in mind.
 
-The solution was inspired by /Suikoden 2/, a PlayStation game I had recently finished. In /Suikoden 2,/ you manage a huge list of playable characters (over 100) in parties of up to six members. When enemies pop up in dungeons, having to issue six attacks on each turn, with characters you haven't been using for long, can get tedious. The developers had the good sense to introduce an /autobattle/ button that just issues the basic attack for all characters until the enemy is killed.
+The solution was inspired by /Suikoden 2/, a PlayStation game I had recently finished. In /Suikoden 2,/ you manage a huge list of playable characters (over 100) in parties of up to six members. When enemies pop up in dungeons, having to issue six attacks on each turn with characters you haven't been using for long, can get tedious. The developers had the good sense to introduce an /auto-battle/ button that just issues the basic attack for all characters until the enemy is killed.
 
-So I decided to make this autobattle feature the default for rpg-cli. This /felt right/ to me because I'm a very dull player when it comes to combat. I don't particularly enjoy strategizing, I just default to punch with warriors and spell with wizards, with the occasional healing potion in between, until enemies become tough-enough that they force me to stop and think. So I baked that pattern right into rpg-cli's battle logic: default to attack, unless HP is low and a potion is available. (I later extended this to account for magical classes that attack with spells and need to restore their magical points).
+So I decided to make this auto-battle feature the default for rpg-cli. This /felt right/ to me because I'm a very dull player when it comes to combat. I don't particularly enjoy strategizing, I just default to punch with warriors and spell with wizards, with the occasional healing potion in between, until enemies become tough-enough that they force me to stop and think. So I would bake that pattern right into rpg-cli's battle logic: default to attack, unless HP is low and a potion is available. (I later extended this to account for magical classes that attack with spells and occasionally need to restore their magical points).
 
 This would obviously remove some player agency (and fun) from the combat. To compensate, the variety in the game and the opportunity to strategize would need to take place in between battles: deciding whether to go further down the dungeon or back home to recover, when to use items, how to spend the gold, etc.
 
-Lastly, making my game a CLI program gave an me an opportunity to try Rust, something I had been looking for.
+Lastly, making my game a CLI program gave me a good excuse to try Rust, something I had been seeking for a while.
 
 ** Research
 
-I felt that the radical simplicity I started from had unexpectedly led me to an interesting concept, so I decided to double down on doing "the simplest thing that could possibly work", extending this mantra to the entire project, not just the interface.
+I felt that the radical simplicity I started from had unexpectedly led me to an interesting concept for the game, so I decided to double down on "the simplest thing that could possibly work", extending this mantra to the entire project, not just the interface.
 
-I had a concept, an implementation language, a scope and a rough outline of the interface for my program. But before I could start coding its most basic building blocks I needed to figure out some details about the RPG model: a stat system to know what attributes to put in my ~Character~ struct, a leveling system to know how to raise them, and a combat routine driven by them.
+I had a concept, an implementation language, a scope and a rough outline of the interface for my program. But, before I could start coding its basic building blocks, I needed to design the RPG model: a stat system to know what attributes to give to the characters, a leveling system to know how to raise them, and a combat routine that would put them to use.
 
-My experience of the genre was almost exclusively through JRPGs, so it felt necessary to do some research to see if I could get inspiration from western video games and tabletop RPGs: did someone else already figured out the minimal necessary stats to make an RPG work? is there a canonical set of enemy classes? Would I benefit from learning the DnD rules?
+My experience of the genre was almost exclusively through JRPGs, so it felt appropriate to do some research, to see if I could get ideas from western video games and tabletop RPGs: had someone else already figured out the minimum set of stats to make an RPG work? is there a canonical set of enemy classes? Would I benefit from learning the /Dungeon & Dragons/ rules?
 
-I started by looking around for tabletop RPGs that made a point their minimalism or genericity:
+I started by looking around for tabletop RPGs designed for minimalism or genericity:
   - [[https://en.wikipedia.org/wiki/GURPS][GURPS]], the Generic Universal role-playing System.
   - [[https://en.wikipedia.org/wiki/TWERPS][TWERPS]], the World's Easiest role-playing System.
   - [[https://en.wikipedia.org/wiki/Dinky_Dungeons][Dinky Dungeons]], the smallest RPG ever produced (see its [[http://dinkydungeons.com/history.asp][history]] and [[http://dinkydungeons.com/origrules.asp][rules]]).
@@ -77,14 +74,14 @@ I started by looking around for tabletop RPGs that made a point their minimalism
 #+END_EXPORT
 
 
-Fun and educational as this excursion was, it left me more confused than when I started. I concluded that tabletop rulesets would contribute complexity rather than simplicity to my project, so I went back to video games for reference. Other than the JRPGS I was already familiar with, I spent some time reading about rogue and its descendants; from the little I knew about the genre, it sounded like I could learn a few things about its minimalist design:
+Fun and educational as that excursion was, it left me more confused than when I started. I concluded that tabletop rulesets would contribute complexity rather than simplicity to my project, so I went back to using video games for reference. In addition to the ones I was already familiar with, I spent some time reading about /Rogue/ and its descendants as, from the little I knew about them, it sounded like they could have thought me some things about minimalist design:
   - [[https://web.archive.org/web/20050206091120/http://www.wichman.org/roguehistory.html][A Brief History of "Rogue"]].
   - [[https://insight.ieeeusa.org/articles/going-rogue-a-brief-history-of-the-computerized-dungeon-crawl/][Going Rogue: A Brief History of the Computerized Dungeon Crawl]].
   - [[http://crpgaddict.blogspot.com/2010/02/rogue-most-difficult-crpg-ive-played.html][Rogue: the most difficult CRPG I've played]].
   - [[http://crpgaddict.blogspot.com/2010/02/rogue-story-and-gameplay.html][Rogue: Story and Gameplay]].
   - [[https://gamedevelopment.tutsplus.com/articles/the-key-design-elements-of-roguelikes--cms-23510][The Key Design Elements of Roguelikes]].
 
-Finally, I looked for some RPG design resources. The most useful were the [[https://howtomakeanrpg.com/][How To Make an RPG]] articles, particularly those about [[http://howtomakeanrpg.com/a/how-to-make-an-rpg-stats.html][stats]] and [[http://howtomakeanrpg.com/a/how-to-make-an-rpg-levels.html][levels]].
+Finally, I looked at some RPG design resources. The most useful were the [[https://howtomakeanrpg.com/][How To Make an RPG]] series, particularly the articles about [[http://howtomakeanrpg.com/a/how-to-make-an-rpg-stats.html][stats]] and [[http://howtomakeanrpg.com/a/how-to-make-an-rpg-levels.html][levels]].
 
 ** Pseudo-historical digression
 I didn't it know at the time, but there's an illustrious tradition of deconstructing the role-playing game.
@@ -241,7 +238,7 @@ pub fn go_to(
 }
 #+end_src
 
-To wrap up, below is the full definition of [[https://github.com/facundoolano/rpg-cli/blob/f2d37631628461ee192864e464e2088415e3866c/src/game.rs#L266-L316][~Game::run_battle~]], the auto-battle routine at the core of the game. This is a good summary of how the game works; in a sense, the rest of the code exists as support for this function.
+To wrap up, below is the full definition of [[https://github.com/facundoolano/rpg-cli/blob/f2d37631628461ee192864e464e2088415e3866c/src/game.rs#L266-L316][~Game::run_battle~]], the auto-battle routine at the core of the game. This is a good summary of how the game works; in a sense, the rest of the code exists as support for this function:
 
 #+begin_src rust
 /// Runs a turn-based combat between the game's player and the given enemy.
@@ -297,7 +294,7 @@ fn run_battle(&mut self, enemy: &mut Character) -> Result<i32, character::Dead> 
 }
 #+end_src
 
-I like that, after a few years, I still found it reasonably self-explanatory.
+I like that, after a few years, I still find it reasonably self-explanatory.
 
 ** Postscript: A text interface for rpg-cli
 
