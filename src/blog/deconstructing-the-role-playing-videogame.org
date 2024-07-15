@@ -125,7 +125,7 @@ Equipment would be generic and level based; instead of Wooden Sword, Bronze Blad
 Later, when I imported the permadeath feature from roguelikes, I decided to drop a tombstone with the items and equipment at the directory where the character died, to give some sense of progress and making it more feasible to reach end game features.
 
 ** Development
-- as I started prototyping, I soon learned that I couldn't control the shell working directory from my program. The solution was for the program state to track its own working directory, and use a shell function to sync to it:
+As soon as I started prototyping, I learned that I couldn't control the shell working directory from my program (something obvious if you thought about it, but I had never done before). The solution was for the program state to track its own "path to current hero location", and use a function to sync the shell to it:
 #+begin_src shell
 rpg () {
     rpg-cli "$@"
@@ -142,14 +142,18 @@ cd () {
 }
 #+end_src
 
-Other commands like ~rm~, ~mkdir~, or ~touch~, could be similarly aliased to integrate with the game. <The rpg-cli program would eventually include options and flags so users could <script or put together their preferred gameplay experience in the shell>
-https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c7de80/shell/README.md
+Other commands like ~rm~, ~mkdir~, or ~touch~, could be similarly aliased to integrate with the game. These usage patterns paved the way for [[https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c7de80/shell/README.md][further options and flags]] to show the game state at the shell prompt, write scripts and build custom gameplay flows.
 
-- once I got the minimal core working, I could use it as a canvas to add more functionality, porting fun features from games I'd played over the years. I did add some embelishments,
-  status ailments, character classes, quests in the form of a todo list, <stat increasing items, easter eggs, hidden enemies, and a final boss.
 
-latest Character class looks like this
-https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c7de80/src/character/mod.rs#L16-L36
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
+
+
+Once I got the core of the game working as I originally planned, I started using it as a canvas, loosening up on the minimalism restriction, porting features I liked from other games. And so I added character classes, burn and poison status ailments, a quest to-do list in the ~rpg-cli todo~ subcommand, hidden enemies, easter eggs, and a final boss.
+
+This is what the [[https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c7de80/src/character/mod.rs#L16-L36][character struct]] character struct looks like after those additions:
+
 #+begin_src rust
 pub struct Character {
     pub class: Class,
@@ -174,7 +178,7 @@ pub struct Character {
 }
 #+end_src
 
-- Here's an excerpt of the [[https://github.com/facundoolano/rpg-cli/blob/f2d37631628461ee192864e464e2088415e3866c/src/character/classes.yaml][classes file]] with some player and enemy classes:
+The character classes are defined in a [[https://github.com/facundoolano/rpg-cli/blob/f2d37631628461ee192864e464e2088415e3866c/src/character/classes.yaml][yaml file]] that can be overridden by the user to customize the game. Here's an excerpt:
 
 #+begin_src yaml
 - name: warrior
@@ -207,8 +211,7 @@ pub struct Character {
   category: legendary
 #+end_src
 
-
-Below is the full definition of the [[https://github.com/facundoolano/rpg-cli/blob/f2d37631628461ee192864e464e2088415e3866c/src/game.rs#L266-L316][~Game::run_battle~]], the auto-battle routine at the core of the game. In a sense, the rest of the code exists as support to this function. I like that it's reasonably self-explanatory, and a good showcase of the features I incorporated along the way.
+To wrap up, below is the full definition of [[https://github.com/facundoolano/rpg-cli/blob/f2d37631628461ee192864e464e2088415e3866c/src/game.rs#L266-L316][~Game::run_battle~]], the auto-battle routine at the core of the game. This is a good summary of how the game works; in a sense, the rest of the code exists as support for this function.
 
 #+begin_src rust
 /// Runs a turn-based combat between the game's player and the given enemy.
@@ -263,6 +266,8 @@ fn run_battle(&mut self, enemy: &mut Character) -> Result<i32, character::Dead> 
     Ok(xp)
 }
 #+end_src
+
+I like that, after a few years, I still found it reasonably self-explanatory.
 
 ** Postscript: A text interface for rpg-cli
 
