@@ -19,21 +19,26 @@ image: assets/img/rpgcli.png
 
 ** The simplest thing that could possibly work
 
-I was a little bored at work. I had the spare time, I could've used a side project. It had been a while since I worked on a video game, and I was having that kind of itch. In the past few years I had finished many classic Japanese RPGs: /Final Fantasy VI/, /A Link to the Past/, /Chrono Trigger/, /Suikoden 2/, /Final Fantasy Tactics/. That experience was fresh in my head, so I felt compelled to try experimenting with that genre. But I prefer personal projects to be short-lived, yielding something usable, and be done after a few months. There was no way I could pull off a full game on my own.
+This was during 2021. I was going through one of those periods where I wasn't getting much intellectual satisfaction out of my daily job, so I thought I could use a programming side project. I had an itch to work on a video game, something I hadn't done in a while.
+In the past few years I had finished many classic Japanese RPGs---/Final Fantasy VI/, /A Link to the Past/, /Chrono Trigger/, /Suikoden 2/, /Final Fantasy Tactics---/ so I felt compelled to try something with that genre. But I like personal projects to be short-lived and yield something usable, somewhat finished, after a few months; I wasn't going to embark on a full game development project on my own.
 
-I've played JRPGs long-enough that I don't pay much attention to the characters or the plot anymore; I like the pretty pixels, yes, but most importantly I'm drawn to its underlying systems. Explore the map, visit cities, clear dungeons. Kill monsters, level up, buy equipment. Character stats, turn-based combat, leveling system. To me, classic JRPGs are pure mechanism, a kind of puzzle. Was there some way of getting the fun out of building such a mechanism---of solving that puzzle---, wrapping it with the minimal amount of functionality, the simplest thing that could possibly pass as a video game? How much could I have peeled off and still gotten an RPG?
+I've played JRPGs long-enough that I don't pay much attention to the characters or the plot anymore; I like the pretty pixels, yes, but most importantly I'm drawn to its underlying systems. Explore the map, visit cities, clear dungeons; kill monsters, level up, buy equipment; character stats, turn-based combat, leveling system. To me, classic JRPGs are pure mechanism, a kind of puzzle. Was there some way of getting the fun out of building such a mechanism---of solving that puzzle---, wrapping it with the minimal amount of functionality, the simplest thing that could possibly pass as a video game?
 
-One answer was obvious: off with the story, the plot, the dialogues[fn:2]. But that wouldn't be enough: the real blocker were the graphics, I needed to work around them and all their rabbit-hole, yak-shaving glory. I had recently experienced how /Final Fantasy Tactics/ developers had fit most of the standard RPG elements, save the battle sequences, into menu screens. Could I have done something in that direction?
-If it was today, I'd consider building a mini game with PICO-8 or an ASCII roguelike interface. At the time, I went with a trick that [[https://github.com/facundoolano/advenjure][had worked for me]] before: replacing the graphics with text. Except that, you know what's narrower than a text user interface?
+In other words: how much could I have peeled off, and still gotten an RPG? One answer was obvious: no dialogues, no plot, no story[fn:2]. But that wouldn't be enough: the big  blocker were the graphics, I needed to work around them in all their rabbit-hole, yak-shaving glory. I had just seen how the /Final Fantasy Tactics/ designers had fit most of the standard RPG elements, save the battle sequences, into menu screens. Could I have done something in that direction?
+If it was today, I'd consider building a mini game with PICO-8 or an ASCII roguelike. At the time, I went with a trick that [[https://github.com/facundoolano/advenjure][had worked for me]] before: replacing the graphics with text.
 
-A command-line interface. Was there any way I could make a role-playing game fit in the shell?
+Only that, you know what's narrower than a text user interface?
+
+A command-line interface.
+
+Was there any way I could make a role-playing game fit in the shell?
 
 ** Your file system as a dungeon
-This was one of those cases where formal restrictions foster creativity. I derived many design decisions from the choice of the command-line interface.
+This was one of those cases where formal constraints foster creativity. I derived many design decisions from restricting myself to a command-line interface.
 
-The shell is the /environment/ of command-line programs; the file system gives a sense of /place/. At some point I made the connection and decided that the hero of my game would inhabit the file system, with the working directory as its current location. Changing directories would be like moving between dungeon levels, enemies popping up along the way: the more nested the directory, the tougher the enemies. As in roguelikes and other early CRPGs, the goal of the game would be just to crawl down the dungeon, as deep as possible. Going back ~~~ (home) would restore your health and give you the choice to buy equipment and supplies.
+The shell is the /environment/ of command-line programs; the file system gives a sense of /place/. At some point I made that connection and decided that the hero of my game would /inhabit/ the file system, with the working directory as its current location. Changing directories would be like moving between dungeon levels, enemies popping up along the way: the more nested the directory, the tougher the enemies. As in many early CRPGs, the goal of the game would be just to crawl down the dungeon, as deep as possible. Going back ~~~ (home) would restore the hero's health and give the player a chance to buy equipment and supplies.
 
-The concept finally clicked when I imagined the program as a ~cd~ replacement, where you would get random turn-based combats as a side effect of doing your daily work in the terminal:
+This idea finally clicked when I imagined the program as a ~cd~ replacement, where players would randomly engage in turn-based combats as a side effect of doing their daily work in the terminal:
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -41,15 +46,13 @@ The concept finally clicked when I imagined the program as a ~cd~ replacement, w
 </div>
 #+END_EXPORT
 
-A pure command-line interface also meant that the gameplay would had to be non-interactive. This was a problem for the traditional turn-based combat I had in mind.
+A pure command-line interface also meant that the gameplay would had to be non-interactive. This was a problem for the traditional turn-based combat I had in mind. Its solution was inspired by /Suikoden 2/, a PlayStation game I had recently finished.
 
-The solution was inspired by /Suikoden 2/, a PlayStation game I had recently finished. In /Suikoden 2,/ you manage a huge list of playable characters (over 100) in parties of up to six members. When enemies pop up in dungeons, having to issue six attacks on each turn with characters you haven't been using for long, can get tedious. The developers had the good sense to introduce an /auto-battle/ button that just issues the basic attack for all characters until the enemy is killed.
+In /Suikoden 2,/ you manage a huge list of playable characters (over 100), in parties of up to six members. When enemies pop up in dungeons, having to issue six commands on each turn, with characters you haven't been using for long, can get tedious. The developers had the good sense to introduce an /auto-battle/ button that just repeats the basic attack of each party member, until the enemy is killed.
 
 So I decided to make this auto-battle feature the default for rpg-cli. This /felt right/ to me because I'm a very dull player when it comes to combat. I don't particularly enjoy strategizing, I just default to punch with warriors and spell with wizards, with the occasional healing potion in between, until enemies become tough-enough that they force me to stop and think. So I would bake that pattern right into rpg-cli's battle logic: default to attack, unless HP is low and a potion is available. (I later extended this to account for magical classes that attack with spells and occasionally need to restore their magical points).
 
-This would obviously remove some player agency (and fun) from the combat. To compensate, the variety in the game and the opportunity to strategize would need to take place in between battles: deciding whether to go further down the dungeon or back home to recover, when to use items, how to spend the gold, etc.
-
-Lastly, making my game a CLI program gave me a good excuse to try Rust, something I had been seeking for a while.
+This would obviously remove some player agency (and fun) from the combat; the opportunity to make choices and strategize would need to happen in between battles: deciding whether to go further down the dungeon or back home to recover, when to use items, how to spend the gold, etc.
 
 ** Research
 
@@ -84,9 +87,7 @@ Fun and educational as that excursion was, it left me more confused than when I 
 Finally, I looked at some RPG design resources. The most useful were the [[https://howtomakeanrpg.com/][How To Make an RPG]] series, particularly the articles about [[http://howtomakeanrpg.com/a/how-to-make-an-rpg-stats.html][stats]] and [[http://howtomakeanrpg.com/a/how-to-make-an-rpg-levels.html][levels]].
 
 ** Pseudo-historical digression
-I didn't it know at the time, but there's an illustrious tradition of deconstructing the role-playing game.
-
-Role-playing videogames came from tabletop RPGs, that came from war games, that came from the [[https://en.wikipedia.org/wiki/Kriegsspiel][Kriegsspiel]] that the Prussian army trained with during the 19th century. Like its war gaming ancestors, /Dungeons & Dragons/ was full of complexity: sophisticated rules for character building, catalogs of monsters and armor, and number crunching to decide battle outcomes. This was arguably part of the fun, at least for a segment of the players---for others, a complicated system is an invitation to simplify and abstract.
+I didn't know it back then, but there is an illustrious tradition of deconstructing the role-playing game. RPG video games came from tabletop RPGs, that came from war games, that came from the [[https://en.wikipedia.org/wiki/Kriegsspiel][Kriegsspiel]], a simulation game that the Prussian army trained with during the 19th century. Like its war gaming ancestors, /Dungeons & Dragons/ was full of complexity: sophisticated rules for character building, catalogs of monsters and armor, and number crunching to decide battle outcomes. This was arguably part of the fun, at least for a segment of the players---for others, a complicated system is an invitation to simplify and abstract.
 
 It's no secret that there was some overlap between early RPG players and computer programmers; crucially, a significant portion of the privileged few people with computer access in the late \'70s were /Dungeons & Dragons/ players. It didn't require much of a mental leap to try to combine the two; at first to offload the tedious calculations to the computer, later to create the solo playing experiences that were the first computerized RPGs.
 This process culminated in /Wizardry/ and /Ultima/, the two franchises that dominated computer gaming during the \'80s.
