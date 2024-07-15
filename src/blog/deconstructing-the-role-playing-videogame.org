@@ -237,7 +237,7 @@ pub fn go_to(
 }
 #+end_src
 
-To wrap up, see below the full definition of [[https://github.com/facundoolano/rpg-cli/blob/f2d37631628461ee192864e464e2088415e3866c/src/game.rs#L266-L316][~Game::run_battle~]], the auto-battle routine at the core of the game. This is a good synthesis of the game; in a sense, the rest of the code exists as support for this function:
+As a wrap-up, see below the full definition of [[https://github.com/facundoolano/rpg-cli/blob/f2d37631628461ee192864e464e2088415e3866c/src/game.rs#L266-L316][~Game::run_battle~]], the auto-battle routine at the core of the game. This is a good synthesis of the game; in a sense, the rest of the code exists as support for this function:
 
 #+begin_src rust
 /// Runs a turn-based combat between the game's player and the given enemy.
@@ -297,12 +297,14 @@ I like that, after a few years, I still find it reasonably self-explanatory.
 
 ** Postscript: A text interface for rpg-cli
 
-Having to rely on preexisting directories to make progress in the game can quickly get tedious. I ended up using [[https://github.com/facundoolano/rpg-cli/tree/da433ff186ba32e86c386e049b3f68e0b6c7de80/shell#arbitrary-dungeon-levels][a function]] that created directories on the fly; other players scripted the movements to skip the initial grinding to level up. The file system integration turned rpg-cli into a curiosity, but it was more of an afterthought, a consequence of making the game fit into a command-line interface. Internally, the code converts paths into abstract  locations and uses a "distance from home" notion to determine things the enemy level and frequency.
+Having to rely on preexisting directories to make progress in the game gets tedious after a while. I resorted to [[https://github.com/facundoolano/rpg-cli/tree/da433ff186ba32e86c386e049b3f68e0b6c7de80/shell#arbitrary-dungeon-levels][a function]] that creates directories on the fly; other players wrote scripts to skip level grinding. The file system integration turned rpg-cli into a curiosity, but it was more of an afterthought, the result of making the game fit into a command-line interface. Internally, the code converts paths into an abstract ~Location~ and only deals with a "distance from home" notion, to determine things like enemy level and frequency.
 
-As soon as my RPG model felt right, I started toying with the idea of trying it on a different interface. The obvious choice would be a rogue-like text interface, displaying symbolic ASCII characters in the terminal.
-To make it work, the main adjustment would be to turn "distance from home" into the dungeon floor level, and let enemies appear when moving around. I was curious to experiment with procedural level generation, while preserving most of the simplistic rpg-cli design choices (basic classes, generic items and random automatic battles).
+As soon as my RPG model felt right, I started toying with the idea of trying it on a different interface. The obvious choice was a rogue-like text interface, displaying symbolic ASCII characters in the terminal.
+To make that work, the main adjustments would be turning this "distance from home" into a dungeon floor level, and spawning enemies as the player moved around the floor. I was curious to experiment with procedural level generation while preserving most of the other rpg-cli design choices (basic classes, generic items and random automatic battles).
 
-I started played [[https://github.com/tmewett/BrogueCE][Brogue]] and picked up a [[https://www.routledge.com/Procedural-Generation-in-Game-Design/Short-Adams/p/book/9781498799195][book on procedural generation]], looking for ideas. I scoped the project and did some [[https://github.com/facundoolano/rpg-tui][some prototyping]] but eventually dropped it, in part because I wasn't as interested in Rust programming anymore but mostly because I was trying to document the development process (of both rpg-cli and this new rpg-tui), which turned out to be too distracting---I was more interested in the writing than in revisiting an old project. This post was based on some of the notes I took along the way.
+I started playing [[https://github.com/tmewett/BrogueCE][Brogue]] and picked up a [[https://www.routledge.com/Procedural-Generation-in-Game-Design/Short-Adams/p/book/9781498799195][book on procedural generation]], looking for ideas. I scoped the project and did [[https://github.com/facundoolano/rpg-tui][some prototyping]] but eventually dropped it, in part because I wasn't as interested in Rust programming anymore, but mostly because I had been trying to document the development process (of both rpg-cli and this new rpg-tui project) to write a kind of book or long tutorial, which turned out to be too distracting---I was more interested in the writing than in revisiting an old project.
+Some of that work made it into [[de-von-bismarck-a-tolkien][a couple]] [[del-videojuego-como-puzzle][of posts]] from last year. I cannibalized the rest to write this.
+
 
 ** Notes
 [fn:2] As John Carmack said: “Story in a game is like story in a porn movie. It's expected to be there, but it's not important.” I don't generally agree with this, but it's one valid way to look at video games, and it happened to fit  the restrictions I set myself for this project.
