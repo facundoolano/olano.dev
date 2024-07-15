@@ -27,7 +27,7 @@ I've played JRPGs long-enough that I don't pay much attention to the characters 
 Was there some way of getting the fun out of building such a mechanism---of solving that puzzle---, wrapping it with the minimal amount of functionality, the simplest thing that could possibly pass as a video game? How much could I have peeled off and still gotten an RPG? One answer was obvious: off with the story, the plot, the dialogues[fn:2]. But that wouldn't be enough: the real blocker were the graphics, I needed some way to workaround them in all their rabbit-hole, yak-shaving glory.
 
 I had recently seen how /Final Fantasy Tactics/ developers fit most of the standard RPG elements, save the battle sequences, into menus. Could I have done something in that direction?
-If it was today, I'd consider building a mini game with PICO-8 or an ASCII roguelike interface. At the time, I went with a trick had worked for me before: replacing the graphics with text[fn:1]. Except that, you know what's narrower than a text user interface? A command-line interface.
+If it was today, I'd consider building a mini game with PICO-8 or an ASCII roguelike interface. At the time, I went with a trick [[https://github.com/facundoolano/advenjure][had worked for me]] before: replacing the graphics with text. Except that, you know what's narrower than a text user interface? A command-line interface.
 
 Was there any way I could make a role-playing game fit in the shell?
 
@@ -211,6 +211,36 @@ The character classes are defined in a [[https://github.com/facundoolano/rpg-cli
   category: legendary
 #+end_src
 
+The [[https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c7de80/src/game.rs#L86-L106][~Game::go_to~]] function shows how directory traversal is mapped to player movement and enemy spawning:
+
+#+begin_src rust
+/// Move the hero's location towards the given destination, one directory
+/// at a time, with some chance of enemies appearing on each one.
+pub fn go_to(
+    &mut self,
+    dest: &Location,
+    run: bool,
+    bribe: bool,
+) -> Result<(), character::Dead> {
+    while self.location != *dest {
+        // set the hero's location to the one given
+        // and apply related side effects.
+        self.visit(self.location.go_to(dest))?;
+
+        if !self.location.is_home() {
+            if let Some(mut enemy) = enemy::spawn(&self.location, &self.player) {
+                // Attempt to bribe or run away according to the given options,
+                // and start a battle if that fails.
+                if self.battle(&mut enemy, run, bribe)? {
+                    return Ok(());
+                }
+            }
+        }
+    }
+    Ok(())
+}
+#+end_src
+
 To wrap up, below is the full definition of [[https://github.com/facundoolano/rpg-cli/blob/f2d37631628461ee192864e464e2088415e3866c/src/game.rs#L266-L316][~Game::run_battle~]], the auto-battle routine at the core of the game. This is a good summary of how the game works; in a sense, the rest of the code exists as support for this function.
 
 #+begin_src rust
@@ -271,7 +301,7 @@ I like that, after a few years, I still found it reasonably self-explanatory.
 
 ** Postscript: A text interface for rpg-cli
 
-But having to rely on preexisting directories can get tedious to make progress in the game. I ended up using [[https://github.com/facundoolano/rpg-cli/tree/da433ff186ba32e86c386e049b3f68e0b6c7de80/shell#arbitrary-dungeon-levels][a function]] that created directories on the fly; other players scripted the movements to level up the character. The file system integration turned rpg-cli into a curiosity, but it was more of an afterthought, a consequence of making the game fit into a command-line interface. Internally, the code converts paths into abstract  locations and uses a "distance from home" notion to determine things the enemy level and frequency.
+Having to rely on preexisting directories to make progress in the game can quickly get tedious. I ended up using [[https://github.com/facundoolano/rpg-cli/tree/da433ff186ba32e86c386e049b3f68e0b6c7de80/shell#arbitrary-dungeon-levels][a function]] that created directories on the fly; other players scripted the movements to skip the initial grinding to level up. The file system integration turned rpg-cli into a curiosity, but it was more of an afterthought, a consequence of making the game fit into a command-line interface. Internally, the code converts paths into abstract  locations and uses a "distance from home" notion to determine things the enemy level and frequency.
 
 As soon as my RPG model felt right, I started toying with the idea of trying it on a different interface. The obvious choice would be a rogue-like text interface, displaying symbolic ASCII characters in the terminal.
 To make it work, the main adjustment would be to turn "distance from home" into the dungeon floor level, and let enemies appear when moving around. I was curious to experiment with procedural level generation, while preserving most of the simplistic rpg-cli design choices (basic classes, generic items and random automatic battles).
@@ -279,6 +309,4 @@ To make it work, the main adjustment would be to turn "distance from home" into 
 I started played [[https://github.com/tmewett/BrogueCE][Brogue]] and picked up a [[https://www.routledge.com/Procedural-Generation-in-Game-Design/Short-Adams/p/book/9781498799195][book on procedural generation]], looking for ideas. I scoped the project and did some [[https://github.com/facundoolano/rpg-tui][some prototyping]] but eventually dropped it, in part because I wasn't as interested in Rust programming anymore but mostly because I was trying to document the development process (of both rpg-cli and this new rpg-tui), which turned out to be too distracting---I was more interested in the writing than in revisiting an old project. This post was based on some of the notes I took along the way.
 
 ** Notes
-[fn:2] Carmack: “Story in a game is like story in a porn movie. It's expected to be there, but it's not important.” (I don't obviously generally agree with this, I love story driven games, but the point is that you could perfectly make a RPG work as pure mechanics, no story, and that approach fit perfectly the restrictions I imposed myself)
-
-[fn:1] TODO advenjure
+[fn:2] As John Carmack said: “Story in a game is like story in a porn movie. It's expected to be there, but it's not important.” I don't generally agree with this, but it's one valid way to look at video games, and it happens to fit  the restrictions I set myself for this project.
