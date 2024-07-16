@@ -3,7 +3,7 @@ html {
     overflow-y: scroll;
 }
 body {
-    max-width: 38em;
+    max-width: 40em;
     margin: 0 auto;
     padding: 0 1rem;
     width: auto;
@@ -129,7 +129,7 @@ a.title {
 .layout-post {
     hyphens: auto;
     text-align: justify;
-
+    font-size: 1.05rem;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased !important;
     -moz-font-smoothing: antialiased !important;
