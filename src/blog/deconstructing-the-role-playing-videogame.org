@@ -1,6 +1,6 @@
 ---
 title: Deconstructing the Role-Playing Video Game
-date: 2024-07-15
+date: 2024-07-16
 layout: post
 lang: en
 tags: [projects, ideas, videogames]
