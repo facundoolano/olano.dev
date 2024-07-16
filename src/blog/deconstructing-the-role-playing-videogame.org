@@ -4,14 +4,13 @@ date: 2024-07-15
 layout: post
 lang: en
 tags: [projects, ideas, videogames]
-draft: true
 image: assets/img/rpgcli.png
-excerpt: To me, classic JRPGs are pure mechanisms, a kind of puzzle. Was there some way of getting the fun out of building such a mechanism—of solving that puzzle—, wrapping it with the minimal amount of functionality, the simplest thing that could possibly pass as a video game?
+excerpt: To me, a classic JRPG is pure mechanism, a kind of puzzle. Was there some way of getting the fun out of building such a mechanism—of solving that puzzle—, wrapping it with the minimal amount of functionality, the simplest thing that could possibly pass as a video game?
 ---
 #+OPTIONS: toc:nil num:1
 #+LANGUAGE: en
 
-/Following up on my [[a-computing-magazine-anthology][previous post]] on pending project ideas, today I want to write about an [[https://github.com/facundoolano/rpg-cli][rpg-cli]] spin-off. rpg-cli is one of my fondest personal projects and I never properly documented its development, so I'll start this post by doing just that./
+/Following up on my [[a-computing-magazine-anthology][previous post]] on archived project ideas, today I want to write about an [[https://github.com/facundoolano/rpg-cli][rpg-cli]] spin-off. rpg-cli is one of my fondest personal projects and I never properly documented its development, so I'll start this post by doing just that./
 
 #+begin_export html
 <h2>Contents</h2>
@@ -23,7 +22,7 @@ excerpt: To me, classic JRPGs are pure mechanisms, a kind of puzzle. Was there s
 This was back in 2021. I was going through one of those periods where I didn't get much intellectual satisfaction from my daily job, so I thought I could use a programming side project. I had an itch to work on a video game, something I hadn't done in a while.
 In the past few years I had finished many classic Japanese RPGs---/Final Fantasy VI/, /A Link to the Past/, /Chrono Trigger/, /Suikoden 2/, /Final Fantasy Tactics---/ so I felt compelled to try something with that genre. But I like personal projects to be short-lived and yield something usable, somewhat finished, after a few months; I wasn't about to embark on a full game development project in my spare time.
 
-I've played JRPGs long enough that I don't pay much attention to the characters or the plot anymore; I like the pretty pixels, yes, but most importantly I'm drawn to its underlying systems. Explore the map, visit cities, clear dungeons; kill monsters, level up, buy equipment; character stats, turn-based combat, leveling system. To me, classic JRPGs are pure mechanisms, a kind of puzzle. Was there some way of getting the fun out of building such a mechanism---of solving that puzzle---, wrapping it with the minimal amount of functionality, the simplest thing that could possibly pass as a video game?
+I've played JRPGs long enough that I don't pay much attention to the characters or the plot anymore; I like the pretty pixels, yes, but most importantly I'm drawn to its underlying systems. Explore the map, visit cities, clear dungeons; kill monsters, level up, buy equipment; character stats, turn-based combat, leveling system. To me, a classic JRPG is pure mechanism, a kind of puzzle. Was there some way of getting the fun out of building such a mechanism---of solving that puzzle---, wrapping it with the minimal amount of functionality, the simplest thing that could possibly pass as a video game?
 
 In other words: how much could I have peeled off, and still gotten an RPG? One answer was obvious: no dialogues, no plot, no story[fn:2]. But that wouldn't be enough: the big  blocker was the graphics, I needed to work around them in all their rabbit-hole, yak-shaving glory. I had just seen how the /Final Fantasy Tactics/ designers had fit most of the standard RPG elements, save the battle sequences, into menu screens. Perhaps I could have tried something like that. If it were today, I'd consider building a mini-game with PICO-8 or an ASCII roguelike; at the time, I went with a trick that [[https://github.com/facundoolano/advenjure][had worked for me]] before: using text instead of graphics.
 
@@ -34,7 +33,7 @@ A command-line interface.
 Was there any way I could make a role-playing game fit in the shell?
 
 ** Your file system as a dungeon
-This was one of those cases where formal constraints foster creativity. I derived many design decisions from restricting myself to a command-line interface. It also gave me a good excuse to try Rust, something I had been looking for.
+This was one of those cases where formal constraints foster creativity. I derived many design decisions from restricting myself to a command-line interface. The CLI also gave me a good excuse to try Rust, something I had been looking for.
 
 The shell is the /environment/ of command-line programs; the file system gives a sense of /place/. At some point, I made that association and decided that the hero of my game would /inhabit/ the file system, with the working directory as its current location. Changing directories would be like moving between dungeon levels, enemies popping up along the way: the more nested the directory, the tougher the enemies. As in many early CRPGs, the game's goal would be just to crawl down the dungeon, as deep as possible. Going back ~~~ (home) would restore the hero's health and give the player a chance to buy equipment and supplies.
 
@@ -96,11 +95,11 @@ Over in Japan, the Enyx designers combined the dungeon crawling from /Wizardry/ 
 With a linear story, streamlined systems focused on battles, and a more forgiving difficulty level, /Dragon Quest/
 became the blueprint of what would become the Japanese RPG genre[fn:4]. Shigeru Miyamoto offered his own interpretation in /The Legend of Zelda/, with a shift towards arcade action and a leveling system reified as a heart count. A decade later, the Blizzard North team would reinvent role-playing on the PC by removing most of its ceremony. Drawing heavily from the roguelikes, /Diablo/ simplifies character setup and stats and generally removes anything that could stand in the way of slashing monsters and grabbing loot[fn:5].
 
-In retrospect, looking at tabletop RPGs felt backward because, by instead using the video games I already knew as models, I was benefiting from decades of RPG system simplifications---half the job had already been done.
+In retrospect, looking at tabletop RPGs felt backward because, by using the video games I already knew as models instead, I was benefiting from decades of RPG system simplifications---half the job had already been done.
 
 ** Design
 
-I wanted the least amount of stats that make battles work non-deterministically enough to be fun.
+I wanted the least amount of stats that could make battles work non-deterministically enough to be fun.
 Inspired by /TWERPS/, I briefly considered having a single stat to determine both inflicted damage and available hit points, but that resulted in unbalanced battles, so I went instead with the classic ~hp~ and ~strength~ stats. Later, when outlining the battle routine, it became apparent that I would also need a ~speed~ stat to mimic the turn-based style of /Final Fantasy/; that is, rather than having each character attack in a round-robin fashion, the fastest characters would get turns more frequently. These choices [[https://github.com/facundoolano/rpg-cli/blob/d4c90252db34a04e9abb7e96623c62d6fe47edfe/src/character.rs#L15-L27][resulted]] in the following struct:
 
 #+begin_src rust
@@ -118,7 +117,7 @@ pub struct Character {
 }
 #+end_src
 
-Item and equipment management was another area that I found could be automated. Items would be bought at the home directory, with an ~rpg-cli shop~ subcommand, or found in chests, by inspecting directories with ~rpg-cli ls~. Equipment would be generic and level-based; instead of a Wooden Sword, a Bronze Blade, or a Steel Saber, players would have a ~sword[1]~ and a ~shield[1]~ available at the shop from the start, a ~sword[5]~ and a ~shield[5]~ unlocked when the hero reached level 5, and so on. Stronger equipment would automatically replace its weaker equivalent when bought or found, removing the sell-old-buy-new toil of traditional JRPGs. Healing items would be similarly level-based.
+Item and equipment management was another feature that I found could be automated. Items would be bought at the home directory, with an ~rpg-cli shop~ subcommand, or found in chests, by inspecting directories with ~rpg-cli ls~. Equipment would be generic and level-based; instead of a Wooden Sword, a Bronze Blade, or a Steel Saber, players would have a ~sword[1]~ and a ~shield[1]~ available at the shop from the start, a ~sword[5]~ and a ~shield[5]~ unlocked when the hero reached level 5, and so on. Stronger equipment would automatically replace its weaker equivalent when bought or found, removing the sell-old-buy-new toil of traditional JRPGs. Healing items would be similarly level-based.
 
 When I eventually imported the permadeath feature from roguelikes, I decided to drop a tombstone to recover gold, items, and equipment from the directory where the character died, giving the player some sense of progress and making it more feasible to unlock end-game features.
 
@@ -147,7 +146,7 @@ Other commands like ~rm~, ~mkdir~, or ~touch~, could be similarly aliased to int
 #+END_CENTER
 
 
-Once I got the core of the game working, I used it as a canvas, loosening up on the minimalism to port features I liked from other games: character classes, status ailments, a quest to-do list, hidden enemies, easter eggs, and a final boss. This is what the [[https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c7de80/src/character/mod.rs#L16-L36][character struct]] looked like after these extensions:
+Once I got the core of the game working, I used it as a canvas, loosening up on minimalism to port features I liked from other games: character classes, status ailments, a quest to-do list, hidden enemies, easter eggs, and a final boss. This is what the [[https://github.com/facundoolano/rpg-cli/blob/da433ff186ba32e86c386e049b3f68e0b6c7de80/src/character/mod.rs#L16-L36][character struct]] looked like after these extensions:
 
 #+begin_src rust
 pub struct Character {
@@ -296,7 +295,7 @@ I like that, after a few years, I still find it reasonably self-explanatory.
 
 ** Postscript: A text interface for rpg-cli
 
-Having to rely on preexisting directories to make progress in the game gets tedious after a while. I resorted to [[https://github.com/facundoolano/rpg-cli/tree/da433ff186ba32e86c386e049b3f68e0b6c7de80/shell#arbitrary-dungeon-levels][a function]] that creates directories on the fly; other players wrote scripts to skip level grinding. The file system integration had turned rpg-cli into a curiosity, but it had been more of an afterthought, the result of making the game fit into a command-line interface. Internally, the code converted paths into an abstract ~Location~ and only cared about its "distance from home" to determine things like enemy level and frequency.
+Having to rely on preexisting directories to make progress in the game gets tedious after a while. I resorted to [[https://github.com/facundoolano/rpg-cli/tree/da433ff186ba32e86c386e049b3f68e0b6c7de80/shell#arbitrary-dungeon-levels][a function]] that creates directories on the fly; other players wrote scripts to skip level grinding. The file system integration turned rpg-cli into a curiosity, but it had been more of an afterthought, the result of making the game fit into a command-line interface. Internally, the code converted paths into an abstract ~Location~ and only cared about its "distance from home" to determine things like enemy level and frequency.
 
 Since the shell wasn't essential to it, as soon as my RPG model felt complete, I started toying with the idea of switching to a different interface. The obvious choice was a rogue-like text interface, displaying symbolic ASCII characters in the terminal.
 To make that work, the main adjustments would be turning this "distance from home" into a dungeon floor level, and spawning enemies as the player moved around the floor. I was curious to experiment with procedural level generation while preserving most of the other rpg-cli design choices (basic classes, generic items, and random automatic battles).
