@@ -91,7 +91,7 @@ I didn't know it back then, but there is an illustrious tradition of deconstruct
 It's no secret that there was some overlap between early RPG players and computer programmers; crucially, a significant portion of the privileged few people with computer access in the late \'70s were /Dungeons & Dragons/ players. It didn't require much of a mental leap to try to combine the two; at first to offload number crunching to the computer, eventually to create the solo playing experiences that were the first computerized RPGs.
 This process culminated in /Wizardry/ and /Ultima/, the two franchises that dominated computer gaming in the \'80s.
 
-Over in Japan, the Enyx designers combined the dungeon crawling from /Wizardry/ and the over-world exploration of /Ultima/, adjusting them to the limitations of the Famicom/NES console---and to the tastes of the local public.
+Over in Japan, the Enix designers combined the dungeon crawling from /Wizardry/ and the over-world exploration of /Ultima/, adjusting them to the limitations of the Famicom/NES console---and to the tastes of the local public.
 With a linear story, streamlined systems focused on battles, and a more forgiving difficulty level, /Dragon Quest/
 became the blueprint of what would become the Japanese RPG genre[fn:4]. Shigeru Miyamoto offered his own interpretation in /The Legend of Zelda/, with a shift towards arcade action and a leveling system reified as a heart count. A decade later, the Blizzard North team would reinvent role-playing on the PC by removing most of its ceremony. Drawing heavily from the roguelikes, /Diablo/ simplifies character setup and stats and generally removes anything that could stand in the way of slashing monsters and grabbing loot[fn:5].
 
