@@ -1,4 +1,8 @@
 - date: 2024
+  name: ngtop
+  url: https://github.com/facundoolano/ngtop
+  description: a command-line program to query request analytics from the nginx access logs.
+- date: 2024
   name: jorge
   url: https://jorge.olano.dev/
   description: a personal site generator with org-mode support, used to generate this website. I documented the development of this project on a [separate blog](https://jorge.olano.dev/blog/).
@@ -17,7 +21,7 @@
 - date: 2021
   url: "https://github.com/facundoolano/rpg-cli"
   name: rpg-cli
-  description: a role-playing game that integrates with the shell to spawn monsters as you change directories.
+  description: a role-playing game that integrates with the shell to spawn monsters as you change directories. I wrote about this project [here](/blog/deconstructing-the-role-playing-videogame/).
 - date: 2020
   url: https://github.com/lambdaclass/bonobot/
   name: bonobot
