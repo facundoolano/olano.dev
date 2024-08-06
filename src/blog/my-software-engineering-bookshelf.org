@@ -9,6 +9,64 @@ draft: true
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
+*** Lists
+Lists are the cheapest kind of content, aren't they?\\
+I hear some web outlets keep unlisted /Top 25 Whatever/ pages just to catch enough SEO traffic to support their serious stuff.\\
+They catch me frequently enough.\\
+Lists exploit the fear of missing out; they are traces of a time when information was power.
+#+BEGIN_EXPORT html
+<br/>
+<div></div>
+#+END_EXPORT
+
+I enjoy making lists. I do it compulsively, like John Cusack in /High Fidelity/. They help me think.\\
+They help me write, too.\\
+A list is surely the quickest way to get a post out of the door.\\
+But I try to use them differently here.\\
+Sections, headings, bullets give me a backbone to flesh out however I want.
+
+*** Books
+When I was in college, there was this idea that some knowledge was ephemeral and some was timeless.
+
+
+*** fundamentals revisited
+1. how to write well (+several short sentences -strunk & white)
+2. scip?
+3. code (-ohallaron)
+4. skenna (+pearls +omnibus -cormen -aho)
+5. unit testing principles (-tdd)
+6. models techniques etc
+7. how linux works
+8. concurrent programming in go
+9. database internals
+
+*** books for professionals
+1. missing readme
+2. innovators (+mythical +coders at work -hackers -ideas)
+3. design of everyday things
+4. ousterhout (-code complete -lean code -design patterns -refactoring -ddd +learning ddd)
+5. the pragmatic programmer (20th)
+6. designing secure applications (or below?) (-real world crypto)
+7. release it (-ci cd, -sre)
+8. manager's path (-peopleware)
+9. staff engineer's path
+
+*** advanced and specialized topics
+1. learn you some erlang
+2. soft arch (+hard parts +microservices -patterns of enterprise)
+3. kill it with fire, legacy soft
+4. designing data intensive (+ db internals)
+5. system performance
+6. crafting interpreters + compiler fundamentals
+7. team topologies (-phoenix project, -accelerate, -devops handbook)
+
+*** inentionally left blank
+1. agile
+2. modern soft engineering
+3. datascience
+4. machine learning (little learner?)
+
+** notes
 there are a number of ways to go about them
 my favorite books or the books that made the biggest impact on me. interesting, partially useful, partially anechdotal [link: coding horror]
 the must read books.
