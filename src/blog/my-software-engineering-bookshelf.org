@@ -9,18 +9,10 @@ draft: true
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-<These shelves hold some of my <favorite> books,>\\
-books that I read more than once and \\
-books that I expect to read again.
-#+BEGIN_EXPORT html
-<br/>
-<div></div>
-#+END_EXPORT
-
-# Some of these I hope to read;\\
-Here are books I hope to read\\
-and books I wish I had\\
-but never will.
+Here are books I have read twice \\
+<and books I expect to read again in time.>\\
+Here are books I hope I'll read\\
+and books I wish I had but never will.
 
 #+BEGIN_EXPORT html
 <br/>
