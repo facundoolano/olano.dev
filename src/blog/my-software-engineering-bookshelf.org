@@ -30,10 +30,7 @@ starting out---just staring---and leaving.
 
 Have a list.
 
-#+BEGIN_CENTER
-\lowast{} \lowast{} \lowast{}
-#+END_CENTER
-
+-----
 1. On Writing Well
    + Several short sentences about writing
 2. CODE
@@ -42,29 +39,33 @@ Have a list.
    + Coders at Work
 4. The Algorithm Design Manual
    + Programming Pearls
-5. The Missing README
-6. The New Turing Omnibus
+5. The New Turing Omnibus
+6. The Missing README
 7. A Philosophy of Software Design
    + Learning Domain-Driven Design
-8. How Linux Works: What Every Superuser Should Know
-9. models techniques etc
-10. the pragmatic programmer (20th)
-11. design of everyday things
-12. concurrent programming in go
-    + learn you some erlang
+8. How Linux Works
+9. Concepts, Techniques, and Models of Computer Programming
+10. The Pragmatic Programmer
+11. The Design of Everyday Things
+12. Learn Concurrent Programming with Go
+    + Learn You Some Erlang for Great Good!
 13. SQL Performance Explained
-14. designing secure applications
-    + real world crypto
-15. release it
-16. kill it with fire?
-17. manager's path
-    + staff engineer's path
-    + team topologies
-18. soft arch
-    + microservices
-19. designing data intensive applications
-    + database internals
-20. crafting interpreters
-    + compiler fundamentals
-21. systems performance
-22. the little learner
+14. Designing Secure Software
+    + Real-World Cryptography
+15. Release It!
+16. Kill It With Fire
+17. Systems Performance
+18. The Staff Engineer's Path
+    + The Manager's Path
+    + Team Topologies
+19. Fundamentals of Software Architecture
+    + Building Microservices
+20. Designing Data-Intensive Applications
+    + Database Internals
+21. Crafting Interpreters
+    + Essentials of Compilation
+22. The Little Learner
+
+-----
+
+[fn:1] this is a test
