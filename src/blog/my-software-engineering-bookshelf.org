@@ -10,7 +10,7 @@ draft: true
 #+LANGUAGE: en
 
 Here are books I have read twice \\
-<and books I expect to read again in time.>\\
+and books I expect to read again in time.\\
 Here are books I hope I'll read\\
 and books I wish I had but never will.
 
@@ -20,9 +20,9 @@ and books I wish I had but never will.
 #+END_EXPORT
 
 Some of these are not for reading\\
-but for holding up and smelling and feeling.\\
-Some for taking out and putting back,\\
-or for starting out and leaving behind.
+but for holding up and smelling and feeling;\\
+some of these are just for skimming:\\
+starting out---just staring---and leaving.
 #+BEGIN_EXPORT html
 <br/>
 <div></div>
