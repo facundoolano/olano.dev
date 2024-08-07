@@ -40,13 +40,16 @@ Have a list.
 4. The Algorithm Design Manual
    + Programming Pearls
 5. The New Turing Omnibus
-6. The Missing README
-7. A Philosophy of Software Design
-   + Learning Domain-Driven Design
-8. How Linux Works
-9. Concepts, Techniques, and Models of Computer Programming
-10. The Pragmatic Programmer
-11. The Design of Everyday Things
+6. Concepts, Techniques, and Models of Computer Programming
+   + Crafting Interpreters
+   + Essentials of Compilation
+7. The Missing README
+8. The Pragmatic Programmer
+9. The Design of Everyday Things
+10. A Philosophy of Software Design
+    + Learning Domain-Driven Design
+11. How Linux Works
+    + Systems Performance
 12. Learn Concurrent Programming with Go
     + Learn You Some Erlang for Great Good!
 13. SQL Performance Explained
@@ -54,17 +57,13 @@ Have a list.
     + Real-World Cryptography
 15. Release It!
 16. Kill It With Fire
-17. Systems Performance
-18. The Staff Engineer's Path
+17. The Staff Engineer's Path
     + The Manager's Path
     + Team Topologies
-19. Fundamentals of Software Architecture
+    + Fundamentals of Software Architecture
     + Building Microservices
-20. Designing Data-Intensive Applications
+18. Designing Data-Intensive Applications
     + Database Internals
-21. Crafting Interpreters
-    + Essentials of Compilation
-22. The Little Learner
 
 -----
 
