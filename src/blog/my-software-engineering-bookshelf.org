@@ -1,5 +1,5 @@
 ---
-title: My Software Engineering Bookshelf
+title: My Software Bookshelf
 date: 2024-08-02
 layout: post
 lang: en
@@ -9,36 +9,65 @@ draft: true
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-1. how to write well
-   + several short sentences
-2. code
-3. innovators
-   + mythical
-   + coders at work
-4. skenna
-   + pearls
-   + omnibus
-5. missing readme
-6. ousterhout
-   + learning ddd
-7. how linux works
-8. models techniques etc
-9. concurrent programming in go
-   + learn you some erlang
-10. database internals
-    + designing data intensive
+<These shelves hold some of my <favorite> books,>\\
+books that I read more than once and \\
+books that I expect to read again.
+#+BEGIN_EXPORT html
+<br/>
+<div></div>
+#+END_EXPORT
+
+# Some of these I hope to read;\\
+Here are books I hope to read\\
+and books I wish I had\\
+but never will.
+
+#+BEGIN_EXPORT html
+<br/>
+<div></div>
+#+END_EXPORT
+
+Some of these are not for reading\\
+<but for looking at or skimming,\\
+for smelling and feeling.>\\
+For taking out and putting back\\
+or starting out and leaving behind.
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
+
+1. On Writing Well
+   + Several short sentences about writing
+2. CODE
+3. The Innovators
+   + The Mythical Man Month
+   + Coders at Work
+4. The Algorithm Design Manual
+   + Programming Pearls
+5. The Missing README
+6. The New Turing Omnibus
+7. A Philosophy of Software Design
+   + Learning Domain-Driven Design
+8. How Linux Works: What Every Superuser Should Know
+9. models techniques etc
+10. the pragmatic programmer (20th)
 11. design of everyday things
-12. the pragmatic programmer (20th)
-13. designing secure applications
+12. concurrent programming in go
+    + learn you some erlang
+13. SQL Performance Explained
+14. designing secure applications
     + real world crypto
-14. release it
-15. manager's path
+15. release it
+16. kill it with fire?
+17. manager's path
     + staff engineer's path
     + team topologies
-16. soft arch
-    + hard parts
+18. soft arch
     + microservices
-17. kill it with fire
-18. crafting interpreters + compiler fundamentals
-19. systems performance
-20. the little learner
+19. designing data intensive applications
+    + database internals
+20. crafting interpreters
+    + compiler fundamentals
+21. systems performance
+22. the little learner
