@@ -31,40 +31,40 @@ starting out---just staring---and leaving.
 Have a list.
 
 -----
-1. On Writing Well
-   + Several short sentences about writing
-2. CODE
-3. The Innovators
+1. Code[fn:1]
+2. The Innovators
    + The Mythical Man Month
    + Coders at Work
-4. The Algorithm Design Manual
+3. The Algorithm Design Manual
    + Programming Pearls
-5. The New Turing Omnibus
-6. Concepts, Techniques, and Models of Computer Programming
+4. The New Turing Omnibus
+5. Concepts, Techniques, and Models of Computer Programming
    + Crafting Interpreters
    + Essentials of Compilation
-7. The Missing README
-8. The Pragmatic Programmer
-9. The Design of Everyday Things
-10. A Philosophy of Software Design
+6. The Missing README
+7. On Writing Well
+   + Several short sentences about writing
+8. The Design of Everyday Things
+9. Thinking in Systems
+10. The Pragmatic Programmer
+11. A Philosophy of Software Design
     + Learning Domain-Driven Design
-11. How Linux Works
+12. How Linux Works
     + Systems Performance
-12. Learn Concurrent Programming with Go
+13. Learn Concurrent Programming with Go
     + Learn You Some Erlang for Great Good!
-13. SQL Performance Explained
-14. Designing Secure Software
+14. SQL Performance Explained
+15. Designing Secure Software
     + Real-World Cryptography
-15. Release It!
-16. Kill It With Fire
-17. The Staff Engineer's Path
+16. Release It!
+17. Kill It With Fire
+18. The Staff Engineer's Path
     + The Manager's Path
     + Team Topologies
     + Fundamentals of Software Architecture
     + Building Microservices
-18. Designing Data-Intensive Applications
+19. Designing Data-Intensive Applications
     + Database Internals
 
 -----
-
-[fn:1] this is a test
+[fn:1] this is a test.
