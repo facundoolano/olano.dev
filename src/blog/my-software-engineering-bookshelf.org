@@ -28,10 +28,15 @@ but never will.
 #+END_EXPORT
 
 Some of these are not for reading\\
-<but for looking at or skimming,\\
-for smelling and feeling.>\\
-For taking out and putting back\\
-or starting out and leaving behind.
+but for holding up and smelling and feeling.\\
+Some for taking out and putting back,\\
+or for starting out and leaving behind.
+#+BEGIN_EXPORT html
+<br/>
+<div></div>
+#+END_EXPORT
+
+Have a list.
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
