@@ -9,149 +9,36 @@ draft: true
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-*** Lists
-Lists are the cheapest kind of content, aren't they?\\
-I hear some web outlets keep unlisted /Top 25 Whatever/ pages just to catch enough SEO traffic to support their serious stuff.\\
-They catch me frequently enough.\\
-Lists exploit the fear of missing out; they are traces of a time when information was power.
-#+BEGIN_EXPORT html
-<br/>
-<div></div>
-#+END_EXPORT
-
-I enjoy making lists. I do it compulsively, like John Cusack in /High Fidelity/. They help me think.\\
-They help me write, too.\\
-A list is surely the quickest way to get a post out of the door.\\
-But I try to use them differently here.\\
-Sections, headings, bullets give me a backbone to flesh out however I want.
-
-*** Books
-When I was in college, there was this idea that some knowledge was ephemeral and some was timeless.
-
-
-*** fundamentals revisited
-1. how to write well (+several short sentences -strunk & white)
-2. scip?
-3. code (-ohallaron)
-4. skenna (+pearls +omnibus -cormen -aho)
-5. unit testing principles (-tdd)
-6. models techniques etc
-7. how linux works
-8. concurrent programming in go
-9. database internals
-
-*** books for professionals
-1. missing readme
-2. innovators (+mythical +coders at work -hackers -ideas)
-3. design of everyday things
-4. ousterhout (-code complete -lean code -design patterns -refactoring -ddd +learning ddd)
-5. the pragmatic programmer (20th)
-6. designing secure applications (or below?) (-real world crypto)
-7. release it (-ci cd, -sre)
-8. manager's path (-peopleware)
-9. staff engineer's path
-
-*** advanced and specialized topics
-1. learn you some erlang
-2. soft arch (+hard parts +microservices -patterns of enterprise)
-3. kill it with fire, legacy soft
-4. designing data intensive (+ db internals)
-5. system performance
-6. crafting interpreters + compiler fundamentals
-7. team topologies (-phoenix project, -accelerate, -devops handbook)
-
-*** inentionally left blank
-1. agile
-2. modern soft engineering
-3. datascience
-4. machine learning (little learner?)
-
-** notes
-there are a number of ways to go about them
-my favorite books or the books that made the biggest impact on me. interesting, partially useful, partially anechdotal [link: coding horror]
-the must read books.
-
-I don't think there are such things as /must reads/. I don't think eveyrone should read books. I don't think books are the most efficient way of learning for everyone. They were for me.
-<for others: tutorials, videos, classes, courses.
-
-I don't think this is the best possible list, either. it's /my/ list, today. my current bookshelf. some are my favorites, some I haven't even read ---but did put some research time in choosing them over the alternatives.
-so this includes my to-read list as well. and I positively know some of them I'll never read ---just don't know which ones.
-<this is my current bookshelf based on what I read or what I decided to buy and have in my bookshelf. This is the list I would recommend to myself if I was starting out today. It's set up as a learning path, from principles to applications. It covers topics that I feel a software generalist should be somewhat familiar with.
-
-<be in peace with the fact that you wont read everything that sounds important, necessary, interesting, useful, fun. once you get past a certain reader threshold, you'll always read 10-20% of what you wish youd get to read.
-so you'll see that I'll be mentioning books I haven't read yet. and I'm ok with that.
-<if you, like me, are a book person, consider reading some of those.
-Consider buying some of them, if you can afford them. Or borrow or pirate them. feel the covers, smell the glue between the pages. consider reading some of them. the table of contents, the section titles, the preface. keep going or postpone or abandom them. lend them or sell them or trade them. write your own list.
-
-<back when I started, buying a book was almost a standard way to learn a programming language, and even a framework or a program. they were called manuals for a reason, you were supposed to be able to hold them in your hands.
-things didn't change as much back then, but you still knew you were buying throw away knowledge. those books were going to be useless, if not harmful, sooner than later.
-but there was the implied assumption that the /other/ software books, the ones about principles and paradigms and ideas, those were supposed to be timeless. those ideas shouldn't grow old
-
-<it's true that there are timeless principles in computer science and software engineering. and that ideas and practices change much more slowly than their implementation details and the specific technology
-but I also found that this rarely means that books covering those timeless topics age well
-context changes anyway, readers change, the discipline, the way we work and communicate change, so even if the principles and ideas remain, books tend to show their age and become inefficient learning as learning tools and unpleasant artifacts of <enterntainment and curiosity>
-thus the need to replace some of the old classics with newer incarnations
-
-kill this: <I learned to program in college, from 2006 to 2010.
-from people with <war scars from using c++, which were passionately convinced that Java's take on OOP was the end of history for programming languages.
-the books that made the canon back then (Design Patterns, UML distilled, Domain-driven design, XP explained, TDD, refactoring, continous integration, peopleware) now feel dated --even those that contain timeless value
-
-1. some reading book
+1. how to write well
+   + several short sentences
 2. code
-   o hallaron
-3. skenna
-   turing omnibus
-   programming pearls
-   - algos and data structures. I haven't read entire books about this (just aho, etc). people seem to like cormen. judging by the cover, I think I'd be more inclined to read skenna. there's also programming pearls and the turing omnibus, more casual reads, but I haven't gotten to them yet so I can't recommend
-4. missing readme
-   a bit like the missing semester (https://missing.csail.mit.edu/2019/)
-5. innovators (-hackers, + coders at work que se mantiene, + mythical se mantiene, aunque haya que leerlo como un libro de historia, con devocion, no tanto por su actual aplicabilidad)
-   descartado aunque complementa: ideas del futuro (link al post yu a mis papers en su lugar)
-   (everyone should read mmm and nsb, but the book as a whole is a good further historical reading, I don't think a generalist should read it cover to cover
-6. unit testing principles
-   principles. certainly not TDD
-7. a philosophy of software design (en vez de design patterns, clean code, code complete, refactoring)
-   this is my i ching
-   maybe learning ddd, in replacement of old ddd
-8. how linux works
-9. concurrent programming / learn you some erlang
-10. the pragmatic programmer 20th edition (este se mantiene porque es una buena actualizacion)
-11. designing secure applications
-    crypto is not necessary, but real-world crypto seems like the book I would go to for furthre reading on the topic
-12. release it
-    el que más me convence y recomendaría, pone el enfasis en los principios de diseñar para produccion, para deployar y para hacer software estable.
-    pero no es una actualizacion que corrija del todo lo desactualizado (a diferencia de pragmatic), se le notan las costuras un poco anticuadas, y le falta un poco de cobertura
-    de técnicas concretas (los casos de estudio son más war stories que buenos ejemplos metodológicos para aplicar los principios)
-    con todo, sigue siendo lo mejor que encontré en este área. los otros que evalué:
-    CI, CD: anticuados
-    sre (muy google, descripcion anecdotica de prácticas pero no de principios aplicables en otros contextos, algunas ideas utiles pero demasiado largo y escrito por muchos autores)
-    phoenix project interesante pero demasiado raro para recomendar a todo el mundo, y deriva más en project management que en devops. otros de la misma gente que igual derivan más en management y diseño de equipos: accelerate, team topologies, devops handbook
-13. Manager's path (-peopleware). recomendado incluso para los que no sigan el camino de manager.staff engineer's path (contracara del anterior, link al post). recomendado incluso para los que no sigan el camino de staff+ make this one optional reading in manager's path section
-
-Lo que quedó afuera o me sigue faltando
-   - agile y project management: xp, mejor no entrar en esa, no seamos religiosos con un proceso específico, con leer el agile manifesto debería alcanzar y el resto de los libros hace suficiente hincapié en los principios que si valen la pena: iteracion, incremetalidad, comunicación, feedback, "abrazar" el cambio
-     - Just read the agile manifesto. when in doubt / if you feel you want to go deeper, read the agile manifesto again.
-   - modern soft eng (por lo dicho en el review), tal vez el de ian sommerville pero ese huele más a texto universitario que intenta cubrir todo lo anterior, y la verdad que prefiero leer varios libros amenos a lo largo del tiempo que un ladrillo bíblico de un tirón
-   - design of everyday things
-   - working with legacy software. don't have a good book. but I think we should pay more attention to mainatining and operating old software a little less about building new.
-     - kill it with fire (que hubiera podido reemplazar a feathers pero tampoco, tiene ideas interesantes pero el desarrollo es un poco desparejo y se queda corto),
-     - wewlc: feels too rooted in the oop/refactoring/patterns ecosystem, low level code approach, which probably made it an amazing book to work with in that particular context
-       I'm sure there are timeless principles in that book still, but I have found it hard to keep myself interested enough to get through the book one I attempted reading it a couple of years ago
-       my code is not OO is a special case introduced in chapter 19
-   - fundamentals of soft arch (+hard parts) (en vez de patterns of enterprise)
-    this perhaps takes the place of program level design
-    (the idea has been around for long, but its difference from software design has been rather subtle.
-    in the past it has been used for higher level design patterns
-    I'd say it makes more sense after the internet, with distributed systems and databases becoming the norm
-    related suggestion: building microservices
-    (1st book to actually update the literature with internet-scale architecture and infrastructure practices
-    and while it certainly focuses in ms (which I'm convinced it's not a general-purpose arch nor a sane default)
-    it has a fair amount of disclarimers as to when not to use it as well. so did the gof book, and that didnt prevent the industry to go into a degenerate pattern feast
-    there's also a follow up, more case-study oriented
-    <I'm currently on the fence about whether to include this
-   - 15. data intensive applications
-    (maybe leave out as advanced)
-   - system performance advanced
-   - algo de datascience (think stats?, the art of data science?).
-   - machile learning (little learner?)
-   - compilers
+3. innovators
+   + mythical
+   + coders at work
+4. skenna
+   + pearls
+   + omnibus
+5. missing readme
+6. ousterhout
+   + learning ddd
+7. how linux works
+8. models techniques etc
+9. concurrent programming in go
+   + learn you some erlang
+10. database internals
+    + designing data intensive
+11. design of everyday things
+12. the pragmatic programmer (20th)
+13. designing secure applications
+    + real world crypto
+14. release it
+15. manager's path
+    + staff engineer's path
+    + team topologies
+16. soft arch
+    + hard parts
+    + microservices
+17. kill it with fire
+18. crafting interpreters + compiler fundamentals
+19. systems performance
+20. the little learner
