@@ -63,7 +63,7 @@ But these are interesting research projects rather than viable means to build ap
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-So what is Personal Software? It's software developed by someone for their own personal use (perhaps for the use of a handful of people), fit to their particular needs and preferences, running and providing data access across their devices. In practical terms, this is just a fancy way of saying "dogfooded side webapp projects", but I think there's some value in expressing the idea and reasoning about it in the former terms.
+So what is Personal Software? It's software developed by someone for their own personal use (perhaps for the use of a handful of people), fit to their particular needs and preferences, running and providing data access across their devices. In practical terms, this is just a fancy way of saying "dogfooded webapp side projects", but I find there's some value in expressing the idea and reasoning about it in the former terms.
 
 The software development process is an endless stream of decisions. Behind each one is a trade-off to consider, which (ideally) should be calibrated by the context of the project: its goals, the available resources, the desired capabilities of the software being produced[fn:2]. Given the definition above, this is how I "calibrate" the trade-offs when working on Personal Software[fn:4]:
 
@@ -75,8 +75,18 @@ The software development process is an endless stream of decisions. Behind each 
 - The software doesn't need to solve the problem of its economical sustainability.
 
 Given my current skill set and preferences, I "instantiate" personal projects with these defaults:
+- The system is structured as a web application, because the [[http://www.catb.org/~esr/writings/taoup/html/ch11s08.html][browser is a universal front end]], allowing the same application to run on desktop and mobile devices.
+- The program can also provide a command-line interface for administrative tasks.
+- Go as the language, because it's good for implementing servers and CLI programs, and both can be served by a single easy-to-distribute binary. The Go standard library can get you very far without the need of third party dependencies, and its concurrency model makes it easy to implement features like background tasks, that would require additional processes in other environments.
+  - In scenarios where it makes sense to sacrifice operational simplicity in favor of implementation simplicity, I can use Python instead.
+- SQLite as the database because it's featureful and easy to operate, and personal software rarely needs to scale beyond a single server.
+- htmx because it enables rich interfaces without turning the front end into an additional application to design and implement, even without needing to write much JavaScript code.
+- Linux on a VPS, because it's cheap and has low operational overhead (as opposed to using containers or AWS infrastructure)[fn:5].
+
 
 ** Notes
+
+[fn:5] I'm tempted to throw Tailwind CSS, which I haven't tried yet, into the mix, so I can make it: @@html:<b>G</b>o, <b>H</b>tmx, Linux <b>O</b>n a VPS, <b>S</b>QLite, and <b>T</b>ailwind@@, and call it the "GHOST stack".
 
 [fn:4] You can see how I applied this mindset in the [[reclaiming-the-web-with-a-personal-reader][post about feedi]] and in the [[https://jorge.olano.dev/blog/][jorge devlog]].
 
