@@ -32,9 +32,10 @@ Have a list.
 
 -----
 1. Code[fn:1]
-2. The Innovators
-   + The Mythical Man Month
+2. The Innovators[fn:2]
+   + The Mythical Man Month[fn:3]
    + Coders at Work
+   + The Soul of a New Machine
 3. The Algorithm Design Manual
    + Programming Pearls
 4. The New Turing Omnibus
@@ -68,3 +69,7 @@ Have a list.
 
 -----
 [fn:1] this is a test.
+
+[fn:2] One of those books that tell the history of a field like a thriller. This does with computing what /Fermat's Last Theorem/ did with mathematics, /The Age of Uncertainty/ with physics, /Replay/ with video games and /It's all a Game/ with board games. Such an historical overview provides a great framework to <organize/lay out> the knowledge of the discipline.
+
+[fn:3] Perhaps the first book to qualify as a Software Engineering classic. Any engineer would probably get something out of /The Mythical Man Month/ and /No Silver Bullet/, but the collection as a whole by now seems more of historical than practical interest.
