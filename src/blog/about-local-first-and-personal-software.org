@@ -27,8 +27,20 @@ There's a lot to be frustrated about, many problems with contemporary software a
 
 (If you aren't already familiar with these ideas, reading about them is probably a better use of your time than reading the rest of this article).
 
+I want to introduce my own provisional take on alternative development, which I've been calling /Personal Software/, by first commenting on Local-First Software. Not only because that's where I drew most of my ideas from but because I think it's the best articulated and most promising of the efforts I listed above.
+
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-I want to introduce my own provisional take on alternative development, which I've been calling /Personal Software/, by first commenting on Local-First Software. Not only because that's where I drew most of my ideas from but because I think it's the best articulated and most promising of the efforts I listed above.
+The [[https://www.inkandswitch.com/local-first/][Local-First paper]] describes the transition from desktop to the cloud, what we lost along the way, and how we could get it back, emphasizing the real-time collaboration aspects of modern software. The biggest challenge, then, lies in re-imagining applications like Google Docs in a context where there isn't a centralized server acting as a mediator between clients. Hence the need to experiment with decentralized data replication and conflict resolution, and the prominent place that [[https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type][CDRTs]] occupy in this space.
+
+Useful and ground-breaking as it is, when I look back at my personal experience, it wasn't real-time collaboration what drew me to replace desktop applications with cloud platforms. What forced me to "surrender" was that I went from using a single computer at home to using another one at the office, and carrying a third one in my pocket at all times[fn:1]. I needed my programs to run on all my devices and my data available and synchronized everywhere. When I look at the home screen on my phone, half of what I see are specialized data synchronization apps for my personal use: Google Drive, Google Keep, Trello, LastPass, Goodreads, Spotify.
+
+So it was cross-device synchronization what got me into the platforms, and the platforms do mostly good at that job. Why do I want out, then? For all of the reasons described by the Local-First paper; first of all, because cloud platforms prevent a satisfactory user experience; not only the software isn't tailored to my needs but I can't even adjust myself to the capabilities offered by the software without the risk of it <changing from under me or altogether becoming unusable or unavailable>. I can't become proficient at using cloud platforms like I did with traditional desktop applications---and continue to do with open source software. Platforms get in the way of realizing the Creative Computing and Augmented Human Intellect ideals that made want to become a programmer. We replaced the bicycle for the mind with a bunch of brain crutches.
+
+I can live with the lose of control and privacy of short-term real-time collaboration sessions. I can live with unnecessary roundtrip latency and without offline access. But I can't go back to local-only, single-device applications. And I don't want to live in a world where every 6 months I need to add another hop for Spotify to play me an album, where Google abruptly retires applications I came to rely on, where Microsoft places ads in my task bar and Amazon acquires companies to let the products they make, and I use, rot to death.
+
+** Notes
+
+[fn:1] Then another one in my TV and another in my reading device.
