@@ -10,33 +10,25 @@ draft: true
 #+LANGUAGE: en
 
 There's a lot to be frustrated about contemporary software and the modern web. (If you are a software user and you are not frustrated, you can safely skip this article).
-#+BEGIN_EXPORT html
-<br/>
-<div></div>
-#+END_EXPORT
 
-There's a lot to be frustrated about software, the cloud, and Big Tech, especially if you've been using computers long enough to remember how it used to be. It was worst, of course, in some ways, more limited and primitive, but much better in others. And that's the thing: we probably didn't notice that we were making this trade-off---not before we were all-in. We gave up privacy and control in exchange of convenience and information sharing, but we also gave up performance and offline access, and data durability and ownership. There are things we can do now---things we /need/ to do now, like video conferencing and real-time collaboration---that couldn't be done with traditional desktop software. But for the things we /could/ do back then, it's likely that the overall experience has gotten worse, and it seems to be getting worse all the time.
+There's a lot to be frustrated about software, the cloud, and Big Tech, especially if you've been using computers long enough to remember what the experience used to be like. It was worst, of course, in some ways, more limited and primitive, but much better in others. And that's the thing: we probably didn't notice that we were making this trade-off---not before we were all-in.
 
-#+BEGIN_EXPORT html
-<br/>
-<div></div>
-#+END_EXPORT
+We gave up privacy and control in exchange of convenience and information sharing, but we also gave up performance and offline access, and data durability and ownership. There are things we can do now---things we /need/ to do now, like video conferencing and real-time collaboration---that couldn't be done with traditional desktop software. But for the things we /could/ do back then, it's likely that the overall experience has gotten worse, and it seems to be getting worse all the time.
 
-There's a lot to be frustrated about, many problems with contemporary software and many possible ways to address them:
+There's a lot to be frustrated about, many problems with contemporary software and many ways to reason about and address them:
 
-- Local-First Software. Its [[https://www.inkandswitch.com/local-first/][original paper]] superbly describes the transition from desktop to the cloud, what we lost along the way, and how we could get it back.
-- The idea of replacing platforms with protocols, <NOTE>.
-- Self-hosted Open-Source software.
-- P2P networks, like BitTorrent and the InterPlanetary File System.
-- Federated networks, like those powered by [[https://en.wikipedia.org/wiki/ActivityPub][ActivityPub]].
-- The [[https://www.jvt.me/posts/2019/10/20/indieweb-talk/][IndieWeb]], <Note | online presence, breaking away from silos but not isolating from them>.
-- [[https://maggieappleton.com/home-cooked-software][Home-Cooked Software]], <NOTE>.
+- Building [[https://www.inkandswitch.com/local-first/][Local-First Software]].
+- Replacing platforms [[https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech][with open protocols]].
+- Self-hosting Free and Open-Source software.
+- Using P2P networks, like BitTorrent and the InterPlanetary File System.
+- Using Federated networks, like those powered by [[https://en.wikipedia.org/wiki/ActivityPub][ActivityPub]].
+- Moving from walled gardens to the [[https://www.jvt.me/posts/2019/10/20/indieweb-talk/][IndieWeb]].
+- [[https://maggieappleton.com/home-cooked-software][Home-Cooking Software]] as bare-foot developers.
 
 (If you aren't already familiar with these ideas, reading about them is probably a better use of your time than reading the rest of this article).
-
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-I have my own characterization of the problems with contemporary software and my provisional solution, which I've been calling /personal software/. I want to introduce it by first comparing it to Local-First Software, not only because it's where I drew most of my ideas from but because I think it's the best articulated and most promising of the efforts I listed above.
+I want to introduce my own provisional take on alternative development, which I've been calling /Personal Software/, by first commenting on Local-First Software. Not only because that's where I drew most of my ideas from but because I think it's the best articulated and most promising of the efforts I listed above.
