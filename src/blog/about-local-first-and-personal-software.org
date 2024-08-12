@@ -1,11 +1,11 @@
 ---
 title: Software Possession for Personal Use
-subtitle: About Local-First and Personal Software
 date: 2024-08-12
 layout: post
 lang: en
 tags: [software]
 draft: true
+image: assets/img/pc.jpg
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
@@ -40,9 +40,7 @@ Useful and ground-breaking as it is, when I look back at my personal experience,
 
 I can live with the loss of control and privacy of short-term real-time collaboration sessions. I can live with unnecessary roundtrip latency and mandatory internet connection. But I can't go back to local-only, single-device applications. And I don't want to live in a world where every 6 months I need to add an extra hop to find an album in Spotify, where Google abruptly retires applications I came to rely on, where Microsoft places ads in my task bar, and Amazon acquires companies to let their products, which I use, rot to death.
 
-As a user, I can't become proficient with platforms like I did with traditional desktop applications---and continue to do with open source software. Not only they are not tailored to my needs, but I can't even adjust to the capabilities they offer without the constant fear of them unexpectedly changing, becoming unusable or altogether unavailable. Platforms get in the way of realizing the Creative Computing and Augmented Human Intellect ideals that made me want to become a programmer. We replaced the bicycle for the mind with a bunch of brain crutches.
-
-
+As a user, I can't become proficient with platforms like I did with traditional desktop applications---and continue to do with open source software. Not only they are not tailored to my needs, but I can't even adjust to the capabilities they offer without the constant fear of them unexpectedly changing, becoming unusable or altogether unavailable. Platforms get in the way of realizing the Creative Computing and Augmented Human Intellect ideals that made me want to become a programmer. We replaced the [[https://www.youtube.com/watch?v=L40B08nWoMk][bicycle for the mind]] with a bunch of brain crutches.
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
@@ -58,8 +56,32 @@ In a recent conference talk by Martin Kleppmann, I perceived a slight shift in t
 
 [TODO explain diagram.] This is a future I look forward to; this talk made me even more enthusiastic about the Local-First ideas. But there's still a lot of way to go before the community agrees on protocols and vendors start providing sync services, and open source libraries become available to assist app developers implementing this architecture. I can think of a few short-term experiments in this direction, like building serverless client applications that synchronize their data with [[https://vlcn.io/docs/cr-sqlite/intro][cr-sqlite]] or writing Open-Source adapter libraries to turn cloud infrastructure from different providers into dumb banks of encrypted data.
 
-But these are interesting research projects rather than viable means to build applications today. For that I prefer to go with a humbler 80-20 solution I started to call /Personal Software/.
+But these are interesting research projects rather than viable means to build applications today. For that I prefer to go with a humbler 80-20 solution I started to call Personal Software.
+
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
+
+So what is Personal Software? It's software developed by someone for their own personal use (perhaps for the use of a handful of people), fit to their particular needs and preferences, running and providing data access across their devices. In practical terms, this is just a fancy way of saying "dogfooded side webapp projects", but I think there's some value in expressing the idea and reasoning about it in the former terms.
+
+The software development process is an endless stream of decisions. Behind each one is a trade-off to consider, which (ideally) should be calibrated by the context of the project: its goals, the available resources, the desired capabilities of the software being produced[fn:2]. Given the definition above, this is how I "calibrate" the trade-offs when working on Personal Software[fn:4]:
+
+- The project scope should be narrow enough to be executed by a single person. More importantly, the cognitive load should be small enough to be carried by one person---the project should fit in a single person's head.
+- The system should be operable in local-only or self-hosted setups with minimal effort.
+- The application should be accessible from multiple devices.
+- Some interface simplicity can be sacrificed in favor of implementation simplicity[fn:3].
+- The user experience should satisfy the needs and preferences of the implementer, as opposed of some general user (which removes the problem of modeling such user).
+- The software doesn't need to solve the problem of its economical sustainability.
+
+Given my current skill set and preferences, I "instantiate" personal projects with these defaults:
 
 ** Notes
 
+[fn:4] You can see how I applied this mindset in the [[reclaiming-the-web-with-a-personal-reader][post about feedi]] and in the [[https://jorge.olano.dev/blog/][jorge devlog]].
+
+[fn:3] This makes it different from most professional software projects where long-term maintainability may be of higher priority than short-term velocity. See /The Rise of Worse is Better/ and /A Philosophy of Software Design/ for discussions of interface vs implementation trade-offs.
+
 [fn:1] Then another one in my TV and another in my reading device.
+
+[fn:2] Much of the software development pain arguably comes from neglecting this calibration, as if there were absolute definitions for /good/ ---and /good enough/--- software; eg. assuming that all software should be extensible or prepared to scale.
