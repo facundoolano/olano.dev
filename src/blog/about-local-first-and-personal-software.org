@@ -14,7 +14,7 @@ There's a lot to be frustrated about contemporary software and the modern web. (
 
 There's a lot to be frustrated about software, the cloud, and Big Tech, especially if you've been using computers long enough to remember what the experience used to be like. It was worst, of course, in some ways, more limited and primitive, but much better in others. And that's the thing: we probably didn't notice that we were making this trade-off---not before we were all-in.
 
-The [[https://www.inkandswitch.com/local-first/][local-first paper]] describes this transition from desktop to the cloud, what we lost along the way, and how we could get it back. We gave up privacy and control in exchange of convenience and information sharing, but we also gave up performance and offline access, and data durability and ownership. There are things we can do now---things we /need/ to do now, like video conferencing and real-time collaboration---that couldn't be done with traditional desktop software. But for the things we /could/ do back then, it's likely that the overall experience has gotten worse, and it seems to be getting worse all the time.
+We gave up privacy and control in exchange of convenience and information sharing, but we also gave up performance and offline access, and data durability and ownership. There are things we can do now---things we /need/ to do now, like video conferencing and real-time collaboration---that couldn't be done with traditional desktop software. But for the things we /could/ do back then, it's likely that the overall experience has gotten worse, and it seems to be getting worse all the time.
 
 There's a lot to be frustrated about, many problems with contemporary software and many ways to reason about and address them:
 
@@ -32,14 +32,10 @@ There's a lot to be frustrated about, many problems with contemporary software a
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-<emphasizing the real-time collaboration aspects of modern software>. The biggest challenge, then, lies in re-imagining applications like Google Docs in a context where there isn't a centralized server acting as a mediator between clients. Hence the need to experiment with decentralized data replication and conflict resolution, and the prominent place that [[https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type][CDRTs]] occupy in this space.
+The [[https://www.inkandswitch.com/local-first/][local-first software paper]] describes the transition from desktop to the cloud, what we lost along the way, and how we could get it back. It emphasizes real-time collaboration as a distinguishing factor of modern software. The biggest challenge, then, lies in re-imagining applications like Google Docs in a context where there isn't a centralized server acting as a mediator between clients. Hence the need to experiment with decentralized data replication and conflict resolution, and the prominent place that [[https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type][CDRTs]] occupy in this space.
 
 Useful and ground-breaking as it is, when I look back at my personal experience, it wasn't real-time collaboration what drew me to replace desktop applications with cloud platforms. What forced me to "surrender" was that I went from using a single computer at home to using another one at the office, and carrying a third one in my pocket at
-all times. Then another one in my TV and another in my reading device. I needed my programs to run on all these devices, and my data available and synchronized everywhere.
-
-<[this is still the case.] When I look at the home screen on my phone, half of what I see are specialized data synchronization apps for my personal use: Google Drive, Google Keep, Trello, LastPass, Goodreads, Spotify.
-<Some of these, like Google Docs and Trello, have collaboration features, but I don't typically use them in from my phone, I just need the data to be synced and available.
-<the real-time collaboration typically happens in the desktop, in short lived sessions, so I don't mind having to use invasive applications for that.
+all times. Then another one in my TV and another in my reading device. I needed my programs to run on all these devices, and my data available and synchronized everywhere. Even today, When I look at the home screen on my phone, half of what I see are specialized data synchronization apps: Google Drive, Google Keep, Trello, LastPass, Goodreads, Spotify. Even the ones, like Google Docs and Trello, that are intended for team work, I have in my phone just to access the data when I'm away from my laptop. <For me, the real-time collaboration work typically happens in the desktop, in short lived sessions, so I don't mind having to use invasive applications for that.
 
 In a [[https://www.youtube.com/watch?v=NMq0vncHJvU][recent conference talk]] by Martin Kleppmann, I perceived a slight shift in the local-first narrative, focusing less on real-time collaboration and more on interoperable data synchronization. This is best illustrated by a diagram on the "local-first Endgame" slide:
 
