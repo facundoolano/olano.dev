@@ -37,6 +37,16 @@ The [[https://www.inkandswitch.com/local-first/][local-first software paper]] de
 Useful and ground-breaking as it is, when I look back at my personal experience, it wasn't real-time collaboration what drew me to replace desktop applications with cloud platforms. What forced me to "surrender" was that I went from using a single computer at home to using another one at the office, and carrying a third one in my pocket at
 all times. Then another one in my TV and another in my reading device. I needed my programs to run on all these devices, and my data available and synchronized everywhere. Even today, When I look at the home screen on my phone, half of what I see are specialized data synchronization apps: Google Drive, Google Keep, Trello, LastPass, Goodreads, Spotify. Even the ones, like Google Docs and Trello, that are intended for team work, I have in my phone just to access the data when I'm away from my laptop. <For me, the real-time collaboration work typically happens in the desktop, in short lived sessions, so I don't mind having to use invasive applications for that.
 
+So I got into platforms because of the device syncing, and that's something they do well. Why do I want out? For all the reasons listed in the local-first paper, yes, but, most of all, because platforms dumb-down my computing experience. I can live with the loss of control and privacy of short-term real-time collaboration sessions. I can live with unnecessary roundtrip latency and mandatory internet connection. But I can't go back to local-only, single-device applications. And I don't want to live in a world where every 6 months I need to add an extra hop to find an album in Spotify, where Google abruptly retires applications I came to rely on, where Microsoft places ads in my task bar, and Amazon acquires companies to let their products, which I use, rot to death.
+
+As a user, I can't become proficient with platforms like I did with traditional desktop applications---and continue to do with local-only open-source software. Not only they can't be tailored to my needs, but I can't  even adjust myself to the capabilities they offer without the risk of them changing unexpectedly, becoming unusable or altogether unavailable. Platforms get in the way of realizing the Creative Computing and Augmented Human Intellect ideals that made me want to become a programmer. We replaced the [[https://www.youtube.com/watch?v=L40B08nWoMk][bicycle for the mind]] with a bunch of brain crutches.
+
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
+
+
 In a [[https://www.youtube.com/watch?v=NMq0vncHJvU][recent conference talk]] by Martin Kleppmann, I perceived a slight shift in the local-first narrative, focusing less on real-time collaboration and more on interoperable data synchronization. This is best illustrated by a diagram on the "local-first Endgame" slide:
 
 #+BEGIN_EXPORT html
@@ -49,36 +59,25 @@ In a [[https://www.youtube.com/watch?v=NMq0vncHJvU][recent conference talk]] by 
 
 <But these are interesting research projects rather than viable means to build applications today.
 <not as appealing to explore to me, since I'm not a front end dev, so I wouldn't be a natural extension from the kind of apps I typically build
-<For that I prefer to go with a humbler solution I've been calling Personal Software.
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
+
+One way to "escape" platforms that works today is running open-source software on commodity servers (or even on home labs). As Kleppmann rightly points out in his talk, this isn't for everyone and it's not a general solution: most people don't have the skills to do system administration and, among those that do, they may prefer to use their time differently. Self-hosting is not a general solution, but is /a/ solution, and some people do amazing things with it.
+
+I can do some degree of sysadmin but it's not something I particularly enjoy. Since, above all, I like to build software, my take on escaping the cloud is to build my own tools. This is even less practical than self-hosting ---no one can possibly build all the software they need--- and for anything I can put together on my free time, there's probably many better open source tools readily available. I still find it's a worthwhile exercise. You may say that /reinterpreting/ the wheel is my hobby.
+
+I recently published a couple of such tools and, when I went to fill their GitHub descriptions in, I wanted to convey the idea that, while these weren't strictly toy projects, they weren't designed as general-purpose tools, intended to support the needs of a broad audience. I both cases I ended up using the word 'personal' to design that intention: /feedi is a personal feed reader/, /jorge is a personal (small + opinionated) site generator/. So I retrospectively started calling these apps /personal software/.
+
+If I had to define it, I'd say personal software is software developed by someone for their own use (perhaps for the use of a handful of people), fit to the particular needs and preferences of its developer, running and providing data access across their devices. In practical terms, this is just a fancy way of saying "dogfooded webapps", but I find that the first formulation offers an interesting framework to drive decisions during development.
 
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-So I got into platforms because of the device syncing, and that's something they do well. Why do I want out? For all the reasons listed in the local-first paper, but, most of all, because platforms dumb-down my computing experience.
-
-I can live with the loss of control and privacy of short-term real-time collaboration sessions. I can live with unnecessary roundtrip latency and mandatory internet connection. But I can't go back to local-only, single-device applications. And I don't want to live in a world where every 6 months I need to add an extra hop to find an album in Spotify, where Google abruptly retires applications I came to rely on, where Microsoft places ads in my task bar, and Amazon acquires companies to let their products, which I use, rot to death.
-
-As a user, I can't become proficient with platforms like I did with traditional desktop applications---and continue to do with local-only open-source software. Not only they can't be tailored to my needs, but I can't  even adjust myself to the capabilities they offer without the risk of them changing unexpectedly, becoming unusable or altogether unavailable. Platforms get in the way of realizing the Creative Computing and Augmented Human Intellect ideals that made me want to become a programmer. We replaced the [[https://www.youtube.com/watch?v=L40B08nWoMk][bicycle for the mind]] with a bunch of brain crutches.
-
-<bridge?
-<what's the easiest route find platform alternatives /today/
-<one alternative is to self host. some people do it as a hobby
-<but I more of a software developer than a systems operator.
-I don't particularly enjoy trying new applications and tools
-and on the other hand I enjoy the design and implementation process,
-even if the programs aren't of much use, or there already are better alternatives. my hobby is /reinterpreting/ the wheel.
-
-<retrospectively
-So what is Personal Software? It's software developed by someone for their own personal use (perhaps for the use of a handful of people), fit to their particular needs and preferences, running and providing data access across their devices. In practical terms, this is just a fancy way of saying "dogfooded webapp side projects", but I find there's some value in expressing the idea and reasoning about it in the former terms.
-
-
-#+BEGIN_CENTER
-\lowast{} \lowast{} \lowast{}
-#+END_CENTER
-
-The software development process is an endless stream of decisions. Each decision involves trade-offs which (ideally) should be weighed according to the context of the project: its goals, the available resources, the desired capabilities of the software being produced[fn:2]. Given the definition above, this is how I "calibrate" the trade-offs for Personal Software[fn:4]:
+The software development process is an endless stream of decisions. Each decision involves trade-offs which (ideally) should be weighed according to the context of the project: its goals, the available resources, the desired capabilities of the software being produced[fn:2]. Given the definition above, this is how I "calibrate" the trade-offs for personal software[fn:4]:
 
 - The project scope should be narrow enough to be executed by a single person. More importantly, the cognitive load should be small enough to be carried by one person---the project should fit in one head.
 - The system should be operable in local-only or self-hosted setups with minimal effort.
@@ -102,12 +101,13 @@ Given my current skill set and preferences, to satisfy those requirements I "ins
 #+END_CENTER
 
 
-<personal software doesnt scale, just like self hosting doesnt scale
-<most people, even the ones that have the expertise and the time, don't want to build their own software
-<even those inclined to build software for personal use, they can't do it for every piece of software they are going to use
-<I still think it's refreshing to know it's an option that's there. knowing that you can drop some of the pretensions when you do decide to tackle a personal project, not to build portfolio, not to learn something in particular, but to recover some of that joy in the act of creating your own tools
+Personal software doesnt scale, just like self-hosting doesn't scale, but it's good to remember that it's an option for software developers. It may eventually become an option for amateur tinkerers, too[fn:1].
+knowing that you can drop some of the pretensions when you do decide to tackle a side project, not to build your portfolio, not to acquire some skill, but to recover some of the builder joy and the user power of creative computing.
+
 
 ** Notes
+
+[fn:1] See [[https://maggieappleton.com/home-cooked-software][Home-Cooked Software and Barefoot Developers]].
 
 [fn:5] I'm tempted to throw Tailwind CSS, which I haven't tried yet, into the mix, so I can make it: @@html:<b>G</b>o, <b>H</b>tmx, Linux <b>O</b>n a VPS, <b>S</b>QLite, and <b>T</b>ailwind@@, and call it the "GHOST stack".
 
