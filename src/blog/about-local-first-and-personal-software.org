@@ -47,22 +47,38 @@ In a [[https://www.youtube.com/watch?v=NMq0vncHJvU][recent conference talk]] by 
 
 [TODO explain diagram.] This is a future I look forward to; this talk made me even more enthusiastic about the local-first ideas. But there's still a lot of way to go before the community agrees on protocols and vendors start providing sync services, and open-source libraries become available to assist app developers implementing this architecture. I can think of a few short-term experiments in this direction, like building serverless client applications that synchronize their data with [[https://vlcn.io/docs/cr-sqlite/intro][cr-sqlite]] or writing open-source adapter libraries to turn cloud infrastructure from different providers into dumb banks of encrypted data.
 
-<But these are interesting research projects rather than viable means to build applications today. For that I prefer to go with a humbler 80-20 solution I've been calling Personal Software.
+<But these are interesting research projects rather than viable means to build applications today.
+<not as appealing to explore to me, since I'm not a front end dev, so I wouldn't be a natural extension from the kind of apps I typically build
+<For that I prefer to go with a humbler solution I've been calling Personal Software.
 
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
+So I got into platforms because of the device syncing, and that's something they do well. Why do I want out? For all the reasons listed in the local-first paper, but, most of all, because platforms dumb-down my computing experience.
+
 I can live with the loss of control and privacy of short-term real-time collaboration sessions. I can live with unnecessary roundtrip latency and mandatory internet connection. But I can't go back to local-only, single-device applications. And I don't want to live in a world where every 6 months I need to add an extra hop to find an album in Spotify, where Google abruptly retires applications I came to rely on, where Microsoft places ads in my task bar, and Amazon acquires companies to let their products, which I use, rot to death.
 
-As a user, I can't become proficient with platforms like I did with traditional desktop applications---and continue to do with local-only open-source software. Not only they are not tailored to my needs, but I can't even adjust to the capabilities they offer without the risk of them changing unexpectedly, becoming unusable or altogether unavailable. Platforms get in the way of realizing the Creative Computing and Augmented Human Intellect ideals that made me want to become a programmer. We replaced the [[https://www.youtube.com/watch?v=L40B08nWoMk][bicycle for the mind]] with a bunch of brain crutches.
+As a user, I can't become proficient with platforms like I did with traditional desktop applications---and continue to do with local-only open-source software. Not only they can't be tailored to my needs, but I can't  even adjust myself to the capabilities they offer without the risk of them changing unexpectedly, becoming unusable or altogether unavailable. Platforms get in the way of realizing the Creative Computing and Augmented Human Intellect ideals that made me want to become a programmer. We replaced the [[https://www.youtube.com/watch?v=L40B08nWoMk][bicycle for the mind]] with a bunch of brain crutches.
 
 <bridge?
+<what's the easiest route find platform alternatives /today/
+<one alternative is to self host. some people do it as a hobby
+<but I more of a software developer than a systems operator.
+I don't particularly enjoy trying new applications and tools
+and on the other hand I enjoy the design and implementation process,
+even if the programs aren't of much use, or there already are better alternatives. my hobby is /reinterpreting/ the wheel.
 
+<retrospectively
 So what is Personal Software? It's software developed by someone for their own personal use (perhaps for the use of a handful of people), fit to their particular needs and preferences, running and providing data access across their devices. In practical terms, this is just a fancy way of saying "dogfooded webapp side projects", but I find there's some value in expressing the idea and reasoning about it in the former terms.
 
-The software development process is an endless stream of decisions. Each decision involves trade-offs which (ideally) should be weighed according to the context of the project: its goals, the available resources, the desired capabilities of the software being produced[fn:2]. Given the definition above, this is how I "calibrate" the trade-offs when working on Personal Software[fn:4]:
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
+
+The software development process is an endless stream of decisions. Each decision involves trade-offs which (ideally) should be weighed according to the context of the project: its goals, the available resources, the desired capabilities of the software being produced[fn:2]. Given the definition above, this is how I "calibrate" the trade-offs for Personal Software[fn:4]:
 
 - The project scope should be narrow enough to be executed by a single person. More importantly, the cognitive load should be small enough to be carried by one person---the project should fit in one head.
 - The system should be operable in local-only or self-hosted setups with minimal effort.
