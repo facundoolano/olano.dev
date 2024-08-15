@@ -81,6 +81,10 @@ If I had to define it, I'd say personal software is software developed by someon
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
+If local-first software attempts to /tame/ the cloud and self-hosting to /resist/ it, personal software merely tries to /escape/ it. Personal software won't change the world, it's just a little service area by the road to a better web. But it's good to know that it's there, that it's an option for developers. It may eventually become an option for amateur tinkerers, too[fn:1]. Remembering that you can loose the pretension when you tackle a side project, doing it not to acquire some skill, not to grow your portfolio, but to recover some of that builder joy, some of the user power of creative computing.
+
+** Appendix: my personal software stack
+
 The software development process is an endless stream of decisions. Each decision involves trade-offs which (ideally) should be "calibrated" to the context of the project: its goals, the available resources, the desired capabilities of the software being produced[fn:2]. Given the definition above, this is how calibrate personal software projects:
 
 - The project should be narrow enough to be executed by a single person. More importantly, the cognitive load should be small enough to be carried by one person---the project should fit in one head.
@@ -98,12 +102,6 @@ Given my current skill set and preferences, to satisfy those requirements I "ins
 - SQLite as the database, because it's featureful and easy to operate, and personal software shouldn't need to scale beyond a single server.
 - htmx for the front end, because it enables rich interfaces without turning the front end into its own separate application, and with almost no JavaScript.
 - Linux on a VPS to deploy the system, because it's cheap and has low operational overhead (as opposed to using containers or AWS infrastructure)[fn:5].
-
-#+BEGIN_CENTER
-\lowast{} \lowast{} \lowast{}
-#+END_CENTER
-
-If local-first software attempts to /tame/ the cloud and self-hosting to /resist/ it, personal software merely tries to /escape/ it. Personal software won't change the world, it's just a little service area by the road to a better web. But it's good to know that it's there, that it's an option for developers. It may eventually become an option for amateur tinkerers, too[fn:1]. Remembering that you can loose the pretension when you tackle a side project, doing it not to acquire some skill, not to grow your portfolio, but to recover some of that builder joy, some of the user power of creative computing.
 
 ** Notes
 
