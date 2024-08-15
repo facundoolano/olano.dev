@@ -3,7 +3,7 @@ title: Software Possession for Personal Use
 date: 2024-08-12
 layout: post
 lang: en
-tags: [software]
+tags: [software, web]
 draft: true
 image: assets/img/pc.jpg
 ---
@@ -61,19 +61,19 @@ In a [[https://www.youtube.com/watch?v=NMq0vncHJvU][recent conference talk]] by 
 <rather than choosing a platform with average functionality and little user control and sticking with to preserve data or funcionality or peer collaboration
 moving control to the edges means that users will be able to choose, or build, the implementations that better suit their needs, without being hostage of the server provider or tied to a particular app implementation.
 
-This is a future I look forward to; this talk made me even more enthusiastic about the local-first ideas. But there's still a lot of way to go before the community agrees on protocols, vendors start providing sync services, and open-source libraries become available to assist application developers to use this architecture. I can think of a couple of short-term experiments in this direction, like building serverless client apps that synchronize their data with [[https://vlcn.io/docs/cr-sqlite/intro][cr-sqlite]] or writing open-source adapter libraries to turn cloud infrastructure from different providers into dumb banks of encrypted data. These sound like interesting research projects but less appealing as means to build useful applications today (at least to me, since I don't usually work on frontend heavy apps).
+This is a future I look forward to; this talk made me even more enthusiastic about the local-first ideas. But there's still a lot of way to go before the community agrees on protocols, vendors start providing sync services, and open-source libraries become available to assist application developers to use this architecture. I can think of a couple of short-term experiments in this direction, like building serverless client apps that synchronize their data with [[https://vlcn.io/docs/cr-sqlite/intro][cr-sqlite]] or writing open-source adapter libraries to turn cloud infrastructure from different providers into dumb banks of encrypted data. These sound like interesting research projects but less appealing as means to build useful applications today (at least to me, since I don't usually work on client-heavy apps).
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-One way to "escape" platforms that works today is running open-source software on commodity servers (or even home servers). As Kleppmann rightly points out in his talk, this isn't for everyone and it's not a general solution: most people don't have the skills to do system administration or, if they do, it's not something they necessarily want to spend their time on. Self-hosting is not a general solution, but it's /a/ solution, and I'm glad to see people out there doing impressive things with it.
+One way to "resist" platforms available today is running open-source software on commodity servers (or even home servers). As Kleppmann rightly points out in his talk, this isn't for everyone and it's not a general solution: most people don't have the skills to do system administration or, if they do, it's not something they necessarily want to spend their time on. Self-hosting is not a general solution, but it's /a/ solution, and I'm glad to see people out there doing impressive things with it.
 
-I can do some basic sysadmin but it's not something I particularly enjoy. Since, above all, I like to build software, my take on escaping the cloud is to build my own tools. this is even less practical than self-hosting ---you still need to host the system yourself, on top of building it. And no one can possibly build all the software they need. And for anything I can put together on my free time, there probably are many better open source alternatives. But I still think it's a worthwhile exercise. You may say that /reinterpreting/ the wheel is a hobby of mine.
+I can do some basic sysadmin but it's not something I particularly enjoy. Since, above all, I like to build software, my take on escaping the cloud is to build my own tools. This is even less practical than self-hosting ---you still need to host the system yourself, on top of building it. And no one can possibly build all the software they need. And for anything I can put together on my free time, there probably are many better open source alternatives. But I still think it's a worthwhile exercise. You may say that /reinterpreting/ the wheel is a hobby of mine.
 
-Self-building is especially tempting for software that falls into what earlier I called /specialized data synchronization apps/: clients that provide a convenient interface to access data stored in a server, with no strong real-time collaboration or multi-user requirements. Note-taking, to-do/to-read/to-watch lists, project management, feed readers are good examples.
+Self-building is especially tempting for software that falls into what before I called /specialized data synchronization apps/: clients that provide a convenient interface to access data stored in a server, with no strong real-time collaboration or multi-user requirements. Note-taking, to-do/to-read/to-watch lists, project management, feed readers are good examples.
 
-I recently published a couple of such tools and, when it came to writing their descriptions, I wanted to communicate that, while these weren't strictly toy projects, neither they were intended as general-purpose tools, to support the needs of a wider audience, or to scale beyond a few users. I settled on the word 'personal' to convey that idea: /feedi is a personal feed reader/, /jorge is a personal (small + opinionated) site generator/[fn:4]. So I retrospectively started calling these apps /personal software/.
+I recently published a couple of such tools and, when it came to writing their descriptions, I wanted to communicate that, while these weren't strictly toy projects, neither were they intended as general-purpose tools, to support the needs of a wider audience, or to scale beyond a few users. I settled on the word 'personal' to convey that idea: /feedi is a personal feed reader/, /jorge is a personal (small + opinionated) site generator/[fn:4]. So I retrospectively started calling these apps /personal software/.
 
 If I had to define it, I'd say personal software is software developed by someone for their own use (or, perhaps,  for the use of a handful of people), fit to the particular needs and preferences of its designer, running and providing data access across devices. In practical terms, this is just a fancy way of saying "dogfooded webapps", but I find that the first formulation offers an interesting framework during development.
 
@@ -103,11 +103,7 @@ Given my current skill set and preferences, to satisfy those requirements I "ins
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-<TODO consider mentioning early personal computing and programming your own software
-<TODO consider mentioning the local-first ideal again
-
-Personal software doesnt scale, just like self-hosting doesn't scale, but it's good to remember that it's an option for software developers. It may eventually become an option for amateur tinkerers, too[fn:1].
-Knowing that you can drop some of the pretensions when you decide to tackle a side project, not to grow your portfolio, not to acquire some skill, but to recover some of the builder joy and the user power of creative computing.
+If local-first software attempts to /tame/ the cloud and self-hosting to /resist/ it, personal software merely tries to /escape/ it. Personal software won't change the world, it's just a little service area by the road to a better web. But it's good to know that it's there, that it's an option for developers. It may eventually become an option for amateur tinkerers, too[fn:1]. Remembering that you can loose the pretension when you tackle a side project, doing it not to acquire some skill, not to grow your portfolio, but to recover some of that builder joy, some of the user power of creative computing.
 
 ** Notes
 
