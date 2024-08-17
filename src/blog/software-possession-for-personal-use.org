@@ -6,7 +6,7 @@ lang: en
 tags: [software, web]
 draft: true
 image: assets/img/pc.jpg
-excerpt: A little service area by the road to a better web.
+excerpt: A little rest area by the road to a better web.
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
@@ -21,7 +21,7 @@ There's a lot to be frustrated about, many problems with contemporary software, 
 
 - Building [[https://www.inkandswitch.com/local-first/][local-first software]].
 - Replacing platforms [[https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech][with open protocols]].
-- Self-hosting Free and open-source software.
+- Self-hosting free and open-source software.
 - Using P2P networks, like BitTorrent and the InterPlanetary File System.
 - Using Federated networks, like those powered by [[https://en.wikipedia.org/wiki/ActivityPub][ActivityPub]].
 - Moving from walled gardens to the [[https://www.jvt.me/posts/2019/10/20/indieweb-talk/][IndieWeb]].
@@ -35,12 +35,12 @@ There's a lot to be frustrated about, many problems with contemporary software, 
 
 The [[https://www.inkandswitch.com/local-first/][local-first software paper]] describes the transition from desktop to the cloud, what we lost along the way, and how we could get it back. It emphasizes real-time collaboration as a distinguishing factor of modern software. The biggest challenge, then, lies in re-imagining applications like Google Docs in a context where there isn't a server acting as a centralized authority, mediating client interactions. Hence the need to experiment with decentralized data replication and conflict resolution, and the prominent place that [[https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type][CDRTs]] occupy in this space.
 
-As a user, I can't become proficient with platforms like I did with traditional desktop applications---and continue to do with local-only open-source software. Not only can't they be adjusted to my needs, but I can't even adjust myself to their capabilities without the risk of them changing unexpectedly, becoming unusable or altogether unavailable. Platforms get in the way of realizing the Creative Computing and Augmented Human Intellect ideals that made me want to become a programmer. We replaced the [[https://www.youtube.com/watch?v=L40B08nWoMk][bicycle for the mind]] with a set of brain crutches.
-
-Useful and ground-breaking as real-time collaboration is, looking back at my software user journey, it wasn't that what drew me to replace desktop applications with cloud platforms. What forced me to "surrender" was that I went from using a single computer at home, to using another one at the office, and carrying a third one in my pocket at
-all times. I needed my programs to run on all these devices, and my data available and synchronized everywhere. Even today, when I look at the home screen on my phone, half of what I see are specialized data synchronization apps: Google Drive, Google Keep, Trello, LastPass, Goodreads, Spotify. Even the ones, like Google Docs and Trello, that are designed for team work, I only have them there so I can access the data while I'm away from my laptop. (I realize I'm not the average user, and that's part of the problem). The real-time collaboration work typically happens on the desktop, in short-lived sessions, in which case I can tolerate more invasive applications.
+Useful and ground-breaking as real-time collaboration is, looking back at my software user journey, it wasn't that what drew me to replace desktop applications with cloud platforms. What forced me to "surrender" was that I went from using a single computer at home, to using another one at the office and carrying a third one in my pocket at
+all times. I needed my programs to run on all these devices and my data available and synchronized everywhere. Even today, when I look at the home screen on my phone, half of what I see are specialized data synchronization apps: Google Drive, Google Keep, Trello, LastPass, Goodreads, Spotify. Even the ones, like Google Docs and Trello, that are designed for team work, I only have them there so I can access the data while I'm away from my laptop. (I realize I'm not the average user, and that's part of the problem). For me, real-time collaboration typically happens on the desktop, in short-lived sessions, in which case I can tolerate more invasive applications.
 
 I got into platforms because of the device syncing, and that's something platforms do well. Why do I want out? For all the reasons listed in the local-first paper, yes, but, most of all, because platforms dumb-down my computing experience. I can live with the loss of control and privacy during collaboration sessions. I can live with unnecessary roundtrip latency and mandatory internet connection. But I don't want to live in a world where every 6 months I need to add an extra hop to find an album on Spotify, where Google abruptly retires applications I came to rely on, where Microsoft places ads in my task bar, where Apple keeps me from running the software I want and Amazon acquires companies to let their products, which I use, rot to death.
+
+As a user, I can't become proficient with platforms like I did with traditional desktop applications---and continue to do with local-only open-source software. Not only can't they be adjusted to my needs, but I can't even adjust myself to their capabilities without the risk of them changing unexpectedly, becoming unusable or altogether unavailable. Platforms get in the way of realizing the Creative Computing and Augmented Human Intellect ideals that made me want to become a programmer. We replaced the [[https://www.youtube.com/watch?v=L40B08nWoMk][bicycle for the mind]] with a set of brain crutches.
 
 
 #+BEGIN_CENTER
@@ -57,7 +57,7 @@ In a [[https://www.youtube.com/watch?v=NMq0vncHJvU][recent conference talk]] by 
 #+END_EXPORT
 
 In this scenario, client applications work independently, without server coordination.
-The cloud components are only needed to relay data to other devices and users, to the extent allowed by the user. The user pays for cloud storage, but the sync service and the local-first applications communicate through interoperable protocols, so the user is free to switch providers, e.g. migrating from AWS to Azure, opting for a P2P network, their own self-hosted server, or switching the app to local-only mode.
+The cloud components are only needed to relay data to other devices and users, to the extent allowed by the owner. Users still pay for cloud storage, but sync services and local-first applications communicate through interoperable protocols, so users are free to switch providers, e.g. migrating from AWS to Azure, opting for a P2P network, a self-hosted server, or switching to local-only mode.
 
 Similar to the vision of the [[https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech][Protocols, not Platforms]] essay, in this setup cloud providers still have a business, only one not built around locking users in. The fact that servers are interoperable and application-agnostic means that multiple implementation of the same app could flourish, catering to different user preferences, thus enabling  free and open source distributed applications without the server administration overhead.
 
@@ -67,17 +67,17 @@ This is a future I look forward to; the talk made me even more enthusiastic abou
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-One way to "resist" platforms today is to run open-source software on commodity servers ---even on home servers. As Kleppmann rightly points out in his talk, this isn't for everyone and it's not a general solution: most people don't have the skills to do system administration or, if they do, it's not something they necessarily want to spend their time on. Self-hosting is not a general solution, but it's /a/ solution, and I'm glad to see people out there doing impressive things with it. They'll be laughing at us from their rocking chairs when cloudpocalypse comes.
+One way to "resist" platforms today is to run open-source software on commodity servers ---even on home servers. As Kleppmann points out in his talk, this isn't for everyone and it's not a general solution: most people don't have the skills to do system administration or, if they do, it's not something they necessarily want to spend their time on. Self-hosting is not a general solution, but it's /a/ solution, and I'm glad to see people out there doing impressive things with it. They'll be laughing at us from their rocking chairs when cloudpocalypse comes.
 
-I can do some basic sysadmin but it's not something I particularly enjoy. Since, above all, I like to build software, my take on escaping the cloud is to build my own tools. This is even less practical than self-hosting ---you still need to host the system yourself, on top of building it. And no one can possibly build all the software they need. And for anything I can put together on my free time, there are probably many better open source alternatives. But I still think it's a worthwhile exercise. You may say that /reinterpreting/ the wheel is a hobby of mine.
+I can do some basic sysadmin but it's not something I particularly enjoy. Since, above all, I like to build software, my take on escaping the cloud is to build my own tools. This is even less practical than self-hosting ---I still need to host the system myself, on top of building it. And no one can possibly build all the software they need. And for anything I can put together on my free time, there are probably many better open source alternatives. But I still think it's a worthwhile exercise. You may say that /reinterpreting/ the wheel is a hobby of mine.
 
 Self-building is especially tempting for software that falls into what before I called /specialized data synchronization apps/: clients that provide a convenient interface to access data stored in a server, with no strong real-time collaboration or multi-user requirements. Note-taking, to-do/to-read/to-watch lists, personal project management, and feed readers are good examples.
 
 I recently published a couple of such tools; to describe them, I wanted to convey that, while these weren't strictly toy projects, neither were they intended as general-purpose tools, to support the needs of a wider audience, or to scale beyond a few users. I settled on the word 'personal' to communicate this idea: /feedi is a personal feed reader/, /jorge is a personal (small + opinionated) site generator/[fn:4]. So I retrospectively started calling these apps /personal software/.
 
-If I had to define it, I'd say personal software is software developed by someone for their own use (or, perhaps,  for the use of a handful of people), fit to their particular needs and preferences, running and providing data access across devices. This is just a fancy way of saying "dogfooded webapps", but I find that the longer formulation offers an interesting framework during development.
+If I had to define it, I'd say personal software is software developed by someone for their own use (or, perhaps,  for the use of a handful of people), fit to their particular needs and preferences, running and providing data access across devices. This is just a fancy way of saying "dogfooded webapps", but I find that the longer formulation is useful during development (see the appendix below).
 
-Personal software won't change the world, it's just a little service area by the road to a better web. If local-fist software attempts to /tame/ the cloud and self-hosting to /resist/ it, personal software merely tries to /escape/ it. But it's good to know it's there, that it's an option for developers. It may soon be an option for amateur tinkerers, too[fn:1]. It's good to know it's there, it's good to tackle a project without pretension, not to acquire some skill, not to grow a portfolio, but to recover the builder joy, and the user power, of creative computing.
+Personal software won't change the world, it's just a little rest area by the road to a better web. If local-fist software attempts to /tame/ the cloud and self-hosting to /resist/ it, personal software merely tries to /escape/ it. But it's good to know it's there, that it's an option for developers. It may become an option for amateur tinkerers, too[fn:1]. It's good to know it's there, it's good to tackle a project without pretension, not to acquire some skill, not to grow a portfolio, but to recover the builder joy, and the user power, of creative computing.
 
 ** Appendix: my personal software stack
 
@@ -101,7 +101,7 @@ Given my current skill set and preferences, to satisfy those requirements I "ins
 
 ** Notes
 
-[fn:6] That is, less appealing to me, who don't typically work on client-heavy apps. For that kind of project, I suppose an sqlite sync layer could remove the need of a backend or serverless provider.
+[fn:6] That is, less appealing to me, who don't typically work on client-heavy apps. For that kind of project, I suppose an sqlite sync layer could remove the need of a backend or serverless component.
 
 [fn:1] See [[https://maggieappleton.com/home-cooked-software][Home-Cooked Software and Barefoot Developers]].
 
