@@ -1,11 +1,12 @@
 ---
 title: Software Possession for Personal Use
-date: 2024-08-12
+date: 2024-08-19
 layout: post
 lang: en
 tags: [software, web]
 draft: true
 image: assets/img/pc.jpg
+excerpt: A little service area by the road to a better web.
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
