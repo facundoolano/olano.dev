@@ -32,14 +32,14 @@ There's a lot to be frustrated about, many problems with contemporary software, 
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-The [[https://www.inkandswitch.com/local-first/][local-first software paper]] describes the transition from desktop to the cloud, what we lost along the way, and how we could get it back. It emphasizes real-time collaboration as a distinguishing factor of modern software. The biggest challenge, then, lies in re-imagining applications like Google Docs in a context where there isn't a server acting as a centralized authority, mediating client interactions. Hence the need to experiment with decentralized data replication and conflict resolution, and the prominent place that [[https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type][CDRTs]] occupy in this space.
+The [[https://www.inkandswitch.com/local-first/][local-first software paper]] describes the transition from desktop to the cloud, what we lost along the way, and how we could get it back. It emphasizes real-time collaboration as a distinct feature of modern software. The biggest challenge, then, lies in re-imagining applications like Google Docs in a context where there isn't a server acting as a centralized authority, mediating client interactions. Hence the need to experiment with decentralized data replication and conflict resolution, and the prominent place that [[https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type][CDRTs]] occupy in this space.
 
-Useful and ground-breaking as real-time collaboration is, looking back at my software user journey, it wasn't that that drew me to replace desktop applications with cloud platforms. What forced me to "surrender" was that I went from using a single computer at home to using another one at the office and carrying a third one in my pocket at
-all times. I needed my programs to run on all these devices and my data available and synchronized everywhere. Even today, when I look at the home screen on my phone, half of what I see are specialized data synchronization apps: Google Drive, Google Keep, Trello, LastPass, Goodreads, Spotify. Even the ones, like Google Docs and Trello, that are designed for teamwork, I only have them there so I can access the data while I'm away from my laptop. (I realize I'm not the average user, and that's part of the problem). For me, real-time collaboration typically happens on the desktop, in short-lived sessions, in which case I can tolerate more invasive applications.
+Useful and ground-breaking as real-time collaboration is, looking back at my user journey, it wasn't that that drew me to replace desktop applications with cloud platforms. What forced me to "surrender" was that I went from using a single computer at home to using another one at the office and carrying a third one in my pocket at
+all times. I needed my programs to run on all these devices and my data available and synchronized everywhere. Even today, when I look at the home screen on my phone, half of what I see are specialized data synchronization apps: Google Drive, Google Keep, Trello, LastPass, Goodreads, Spotify. Even the ones, like Google Docs and Trello, that are designed for teamwork, I only have them there so I can access the data while I'm away from my laptop. (I realize I'm not the average user, and that's part of the problem). For me, real-time collaboration typically happens on the desktop, in short-lived sessions where I can tolerate more invasive applications.
 
-I got into platforms because of the device syncing, and that's something platforms do well. Why do I want out? For all the reasons listed in the local-first paper, yes, but, most of all, because platforms dumb down my computing experience. I can live with the loss of control and privacy during collaboration sessions. I can live with unnecessary roundtrip latency and mandatory internet connection. But I don't want to live in a world where every 6 months I need to add an extra hop to find an album on Spotify, where Google abruptly retires applications I came to rely on, where Microsoft places ads in my taskbar, where Apple keeps me from running the software I want and Amazon acquires companies to let their products, which I use, rot to death.
+I got into platforms because of the device syncing, and that's something platforms do well. Why do I want out? For all the reasons listed in the local-first paper, of course, but, most of all, because platforms dumb down my computing experience. I can live with the loss of control and privacy during collaboration sessions. I can live with unnecessary roundtrip latency and mandatory internet connection. But I don't want to live in a world where every 6 months I need to add an extra hop to find an album on Spotify, where Google abruptly retires applications I came to rely on, where Microsoft places ads in my taskbar, where Apple keeps me from running the software I want and Amazon acquires companies to let their products, which I use, rot to death.
 
-As a user, I can't become proficient with platforms like I did with traditional desktop applications---and continue to do with local-only open-source software. Not only can't they be adjusted to my needs, but I can't even adjust myself to their capabilities without the risk of them changing unexpectedly, becoming unusable or altogether unavailable. Platforms get in the way of realizing the Creative Computing and Augmented Human Intellect ideals that made me want to become a programmer. We replaced the [[https://www.youtube.com/watch?v=L40B08nWoMk][bicycle for the mind]] with a set of brain crutches.
+As a user, I can't become proficient with platforms like I did with traditional desktop applications---and continue to do with local-only open-source software. Not only can't they be adjusted to my needs, but I can't even adjust myself to their capabilities without the risk of them changing unexpectedly, becoming unusable or altogether unavailable after some time. Platforms get in the way of realizing the Creative Computing and Augmented Human Intellect ideals that made me want to become a programmer. We replaced the [[https://www.youtube.com/watch?v=L40B08nWoMk][bicycle of the mind]] with a set of brain crutches.
 
 
 #+BEGIN_CENTER
@@ -47,7 +47,7 @@ As a user, I can't become proficient with platforms like I did with traditional 
 #+END_CENTER
 
 
-In a [[https://www.youtube.com/watch?v=NMq0vncHJvU][recent conference talk]] by Martin Kleppmann, I perceived a slight shift in the local-first narrative, focusing less on real-time collaboration and more on interoperable data synchronization. This is best illustrated by a diagram in the "local-first Endgame" slide:
+In a [[https://www.youtube.com/watch?v=NMq0vncHJvU][recent conference talk]] by Martin Kleppmann, I perceived a slight shift in the local-first narrative, focusing less on real-time collaboration and more on interoperable data synchronization. This is best illustrated by a diagram in the "endgame" slide:
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -55,8 +55,8 @@ In a [[https://www.youtube.com/watch?v=NMq0vncHJvU][recent conference talk]] by 
 </div>
 #+END_EXPORT
 
-In this scenario, client applications work independently, without server coordination.
-The cloud components are only needed to relay data to other devices and users, to the extent allowed by the owner. Users still pay for cloud storage, but sync services and local-first applications communicate through interoperable protocols, so users are free to switch providers, e.g. migrating from AWS to Azure, opting for a P2P network, a self-hosted server, or switching to local-only mode.
+In this scenario, client applications work independently, without server coordination;
+the cloud components are only needed to relay data to other devices and users, to the extent allowed by the owner. Users still pay for cloud storage, but sync services and local-first applications communicate through interoperable protocols, so users are free to switch providers, e.g. migrating from AWS to Azure, opting for a P2P network, a self-hosted server, or switching to local-only mode.
 
 Similar to the vision of the [[https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech][Protocols, not Platforms]] essay, in this setup cloud providers still have a business, only one not built around locking users in. The fact that servers are interoperable and application-agnostic means that multiple implementations of the same app could flourish, catering to different user preferences, thus enabling  free and open-source distributed applications without the server administration overhead.
 
@@ -72,33 +72,33 @@ I can do some basic sysadmin but it's not something I particularly enjoy. Since,
 
 Self-building is especially tempting for software that falls into what I previously called /specialized data synchronization apps/: clients that provide a convenient interface to access data stored in a server, with no hard real-time collaboration or multi-user requirements. Note-taking, to-do/to-read/to-watch lists, personal project management, and feed readers are good examples.
 
-I recently published a couple of such tools; to describe them, I wanted to convey that, while these weren't strictly toy projects, neither were they intended as general-purpose tools, to support the needs of a wider audience, or to scale beyond a few users. I settled on the word 'personal' to communicate this idea: /feedi is a personal feed reader/; /jorge is a personal (small + opinionated) site generator/[fn:4]. So I retrospectively started calling these apps /personal software/.
+I recently published a couple of such tools; to describe them, I wanted to convey that, while they weren't strictly toy projects, neither were they intended as general-purpose tools, to support the needs of a wider public, or to scale beyond a few users. I settled on the word 'personal' to communicate this idea: /feedi is a personal feed reader/; /jorge is a personal (small + opinionated) site generator/[fn:4]. So I retrospectively started calling these apps /personal software/.
 
-If I had to define it, I'd say personal software is software developed by someone for their own use (or, perhaps,  for the use of a handful of people), fitting their particular needs and preferences, running and providing data access across devices. This is just a fancy way of saying "dogfooded web apps" but I find that the longer formulation is useful during development (see the appendix below).
+If I had to define it, I'd say personal software is software developed by someone for their own use (or, perhaps,  for the use of a handful of people), fitting their particular needs and preferences, running and providing data access across devices. This is just a fancy way of saying "dogfooded web apps" but I find that the longer formulation is useful during development, as shown in the appendix below.
 
 Personal software won't change the world, it's just a little rest area by the road to a better web. If local-fist software attempts to /tame/ the cloud and self-hosting to /resist/ it, personal software merely tries to /escape/ it. But it's good to know it's there, that it's an option for developers. It may become an option for amateur tinkerers, too[fn:1]. It's good to know it's there, it's good to tackle a project without pretension, not to acquire some skill, not to grow a portfolio, but to recover the builder joy, and the user power, of creative computing.
 
-** Appendix: my personal software stack
+*** Appendix: my personal software stack
 
-The software development process is an endless stream of decisions. Each decision involves trade-offs which (ideally) should be "calibrated" to the context of the project: its goals, the available resources, and the desired capabilities of the software being produced[fn:2]. Given the definition above, this is how I calibrate personal software projects:
+The software development process is an endless stream of decisions. Each decision involves trade-offs which (ideally) should be "calibrated" to the context of the project: its goals, the available resources, and the desired capabilities of the system being produced[fn:2]. Given the definition above, this is how I calibrate personal software projects:
 
-- The project should be narrow enough to be executed by a single person. More importantly, the cognitive load should be small enough to be carried by one person---the project should fit in one head.
+- The project should be narrow enough to be executed by a single person. More importantly, the cognitive load should be small enough to be carried by one person---the system should fit in one head.
 - The system should be operable in local-only or self-hosted setups with minimal effort.
 - The application should be accessible from multiple devices.
 - Some interface simplicity can be sacrificed in favor of implementation simplicity[fn:3].
-- The user experience should satisfy the needs and preferences of its designer, as opposed to those of some general user (which removes the problem of modeling that user).
+- The user experience should satisfy the needs and preferences of its designer, as opposed to those of some generic user (which removes the problem of modeling that user).
 - The software doesn't need to solve the problem of its economic sustainability.
 
 Given my current skill set and preferences, to satisfy those requirements I "instantiate" my projects with these defaults:
 - The system is structured as a web application because the [[http://www.catb.org/~esr/writings/taoup/html/ch11s08.html][browser is a universal front end]], allowing the same application to run on desktop and mobile devices with minimal implementation overhead.
   - The program can also provide a command-line interface for administrative tasks or for streamlining some of the functionality when working at the terminal.
-- The system is implemented with the Go language because it works well for servers and CLI programs, and compiles to easy-to-distribute binaries. The Go standard library can take you very far without external dependencies, and its concurrency model makes it easy to implement features like background tasks, which would require additional components in other ecosystems (e.g. cron, celery, sidekiq).
+- The system is implemented with the Go language because it works well for servers and CLI programs, and compiles to easy-to-distribute binaries. Much can be done with the standard library alone, without external dependencies, and the concurrency model makes it easy to implement features like background tasks, which would require additional components in other ecosystems (e.g. cron, celery, sidekiq).
   - In scenarios where it makes sense to sacrifice operational simplicity in favor of implementation simplicity, I would use Python instead.
 - SQLite as the database, because it's featureful and easy to operate, and personal software shouldn't need to scale beyond a single server.
 - htmx for the front end, because it enables rich interfaces without turning the front end into its own separate application, and with almost no JavaScript.
 - Linux on a VPS to deploy the system, because it's cheap and has low operational overhead (as opposed to using containers or AWS infrastructure)[fn:5].
 
-** Notes
+*** Notes
 
 [fn:6] That is, less appealing to me, who don't typically work on client-heavy apps. For that kind of project, I suppose an SQLite sync layer could remove the need for a backend or serverless component.
 
