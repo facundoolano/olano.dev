@@ -76,7 +76,7 @@ I recently published a couple of such tools; to describe them, I wanted to conve
 
 If I had to define it, I'd say personal software is software developed by someone for their own use (or, perhaps,  for the use of a handful of people), fitting their particular needs and preferences, running and providing data access across devices. This is just a fancy way of saying "dogfooded web apps" but I find that the longer formulation is useful during development, as shown in the appendix below.
 
-Personal software won't change the world, it's just a little rest area by the road to a better web. If local-fist software attempts to /tame/ the cloud and self-hosting to /resist/ it, personal software merely tries to /escape/ it. But it's good to know it's there, that it's an option for developers. It may become an option for amateur tinkerers, too[fn:1]. It's good to know it's there, it's good to tackle a project without pretension, not to acquire some skill, not to grow a portfolio, but to recover the builder joy, and the user power, of creative computing.
+Personal software won't change the world, it's just a little rest area by the road to a better web. If local-fist software attempts to /tame/ the cloud and self-hosting to /resist/ it, personal software merely tries to /escape/ it. But it's good to know it's there, that it's an option for developers. It may become an option for amateur tinkerers, too[fn:1]. It's good to know it's there, it's good to tackle a project without pretension---not to start a business, not to acquire some skill or grow a portfolio, but to recover that builder joy, and the user power, of creative computing.
 
 *** Appendix: my personal software stack
 
