@@ -1,6 +1,6 @@
 ---
 title: My Software Bookshelf
-date: 2024-08-02
+date: 2024-08-21
 layout: post
 lang: en
 tags: [software, books]
@@ -42,6 +42,7 @@ Have a list.
 5. Concepts, Techniques, and Models of Computer Programming
    + Crafting Interpreters
    + Essentials of Compilation
+   + Excercises in Programming Style
 6. The Missing README
 7. On Writing Well
    + Several short sentences about writing
