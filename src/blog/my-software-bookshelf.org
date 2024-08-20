@@ -77,7 +77,7 @@ Have a list.
 
 [fn:3] <Perhaps the first book to qualify as a Software Engineering classic. Any engineer would probably get something out of /The Mythical Man Month/ and /No Silver Bullet/, but the collection as a whole by now seems more of historical than practical interest.
 
-[fn:4] TODO coders at work.
+[fn:4] The interview is such an entertaining literary form, I wonder why it isn't frequented in our field. Is it naive to think that it's because the idea of the genius hacker has gone out of fashion, in favor of the competent team? Or are the rockstar CEOs now hogging all the spotlight? Or, perhaps, we're all so self absorbed now that we can only think of writing in the first person. In any case, there's a lot to like about /Coders at Work/, even if it's become history book as much as a book about the programming craft. I'll name three things that I thank this book for: it introduced me to [[https://en.wikipedia.org/wiki/The_Paris_Review#Interviews][The Paris Review interviews]]; it pushed me to finally try Emacs---which I continue to use to this day---; it provided me with indisputable proof that there's no single right way of programming. In this sample you'll read about those that favor team work and those that prefer working alone; proponents of bottom-up or top-down or middle out; some that skip comments and some that do literate programming; some that start polishing abstract interfaces and others that shove everything in a single file. All of them were successful, all of them are exemplar.
 
 [fn:5] The Soul of a New Machine
 
