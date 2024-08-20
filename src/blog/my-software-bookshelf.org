@@ -34,43 +34,112 @@ Have a list.
 1. Code[fn:1]
 2. The Innovators[fn:2]
    + The Mythical Man Month[fn:3]
-   + Coders at Work
-   + The Soul of a New Machine
-3. The Algorithm Design Manual
-   + Programming Pearls
-4. The New Turing Omnibus
-5. Concepts, Techniques, and Models of Computer Programming
-   + Crafting Interpreters
-   + Essentials of Compilation
-   + Excercises in Programming Style
-6. The Missing README
-7. On Writing Well
-   + Several short sentences about writing
-8. The Design of Everyday Things
-9. Thinking in Systems
-10. The Pragmatic Programmer
-11. A Philosophy of Software Design
-    + Learning Domain-Driven Design
-12. How Linux Works
-    + Systems Performance
-13. Learn Concurrent Programming with Go
-    + Learn You Some Erlang for Great Good!
-14. SQL Performance Explained
-15. Designing Secure Software
-    + Real-World Cryptography
-16. Release It!
-17. Kill It With Fire
-18. The Staff Engineer's Path
-    + The Manager's Path
-    + Team Topologies
-    + Fundamentals of Software Architecture
-    + Building Microservices
-19. Designing Data-Intensive Applications
-    + Database Internals
+   + Coders at Work [fn:5]
+   + The Soul of a New Machine[fn:7]
+3. The Algorithm Design Manual[fn:8]
+   + Programming Pearls[fn:9]
+4. The New Turing Omnibus[fn:10]
+5. Concepts, Techniques, and Models of Computer Programming[fn:11]
+   + Excercises in Programming Style[fn:12]
+6. The Missing README[fn:13]
+7. On Writing Well[fn:14]
+   + Several short sentences about writing[fn:6]
+8. The Design of Everyday Things[fn:16]
+9. Thinking in Systems[fn:17]
+10. The Pragmatic Programmer[fn:18]
+11. A Philosophy of Software Design[fn:19]
+    + Learning Domain-Driven Design[fn:20]
+12. How Linux Works[fn:21]
+    + Systems Performance[fn:22]
+13. Learn Concurrent Programming with Go[fn:23]
+    + Learn You Some Erlang for Great Good![fn:15]
+14. SQL Performance Explained[fn:4]
+15. Designing Secure Software[fn:25]
+    + Real-World Cryptography[fn:26]
+16. Release It![fn:27]
+17. Kill It With Fire[fn:28]
+18. The Staff Engineer's Path[fn:29]
+    + The Manager's Path[fn:30]
+    + Team Topologies[fn:31]
+    + Fundamentals of Software Architecture[fn:32]
+    + Building Microservices[fn:33]
+19. Crafting Interpreters[fn:34]
+    + Essentials of Compilation[fn:35]
+20. Designing Data-Intensive Applications[fn:36]
+    + Distributed Systems for Fun and Profit[fn:37]
+    + Database Internals[fn:24]
 
 -----
 [fn:1] this is a test.
 
-[fn:2] One of those books that tell the history of a field like a thriller. This does with computing what /Fermat's Last Theorem/ did with mathematics, /The Age of Uncertainty/ with physics, /Replay/ with video games and /It's all a Game/ with board games. Such an historical overview provides a great framework to <organize/lay out> the knowledge of the discipline.
+[fn:2] <One of those books that tell the history of a field like a thriller. This does with computing what /Fermat's Last Theorem/ did with mathematics, /The Age of Uncertainty/ with physics, /Replay/ with video games and /It's all a Game/ with board games. Such an historical overview provides a great framework to organize the knowledge of a discipline.
 
-[fn:3] Perhaps the first book to qualify as a Software Engineering classic. Any engineer would probably get something out of /The Mythical Man Month/ and /No Silver Bullet/, but the collection as a whole by now seems more of historical than practical interest.
+[fn:3] <Perhaps the first book to qualify as a Software Engineering classic. Any engineer would probably get something out of /The Mythical Man Month/ and /No Silver Bullet/, but the collection as a whole by now seems more of historical than practical interest.
+
+[fn:4] As I was putting together this list, I noticed something was missing from my bookshelf. There are books touching on data structures, file systems, database internals, software architecture and large-scale distributed data systems. But none deals with using databases from a developer's perspective. Years ago I would have covered that gap with something like /Seven Databases in Seven Weeks/, to get an overview of available implementations and their trade-offs. But, as I grow older and more conservative I tend to favor minimalism and frugality: you're likely to only need PostgreSQL for most projects, why not focus on getting good at that. That still doesn't warrant reading a book entirely dedicated to PostgreSQL, or to the SQL language, or to the relational model, for that matter. Looking around I saw many recommendations of /SQL performance explained/, which has an [[https://use-the-index-luke.com/][online version]]. This book starts with a bold premise: /the only thing developers need to learn is how to index/. Far from turning the book into a shallow tutorial, this premise provides it with structure: each chapter dedicated to a part of an SQL query, but going deep into its inner workings and the data structures that power it.
+
+[fn:5] TODO coders at work.
+
+[fn:6]  Several short sentences about writing
+
+[fn:7] The Soul of a New Machine
+
+[fn:8] The Algorithm Design Manual
+
+[fn:9] Programming Pearls
+
+[fn:10] The New Turing Omnibus
+
+[fn:11] Concepts, Techniques, and Models of Computer Programming
+
+[fn:12] Excercises in Programming Style
+
+[fn:13] The Missing readme
+
+[fn:14] writing well
+
+[fn:15] Learn You Some Erlang for Great Good!
+
+[fn:16] The Design of Everyday Things
+
+[fn:17] Thinking in Systems
+
+[fn:18] The Pragmatic Programmer
+
+[fn:19]  A Philosophy of Software Design
+
+[fn:20]  Learning Domain-Driven Design
+
+[fn:21]  How Linux Works
+
+[fn:22]  Systems Performance
+
+[fn:23]  Learn Concurrent Programming with Go
+
+[fn:24] Database Internals
+
+[fn:25] Designing Secure Software
+
+[fn:26] Real-World Cryptography
+
+[fn:27] Release It!
+
+[fn:28] Kill It With Fire
+
+[fn:29] The Staff Engineer's Path
+
+[fn:30] The Manager's Path
+
+[fn:31] Team Topologies
+
+[fn:32] Fundamentals of Software Architecture
+
+[fn:33] Building Microservices
+
+[fn:34] Crafting Interpreters
+
+[fn:35] Essentials of Compilation
+
+[fn:36] Designing Data-Intensive Applications
+
+[fn:37] Distributed Systems for Fun and Profit
