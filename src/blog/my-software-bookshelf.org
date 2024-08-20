@@ -70,7 +70,7 @@ Have a list.
     + Database Internals[fn:24]
 
 -----
-[fn:1] this is a test.
+[fn:1] Back in college, I learned about circuits at a physics class. I learned about boolean algebra at a math class; binary code at a programming class; logic gates and CPU architecture at an electronics class, and information theory at a data organization class. Some of these courses were years apart from each other. I always felt I was missing the big picture, an unifying thread to tie all this disparate knowledge together. I wish I had a book like /Code/ to follow along back then. Not only does it walks the computer from its lowest to its highest level of abstraction, but it throws in a lot of historical context along the way too. /Code/ is compact and interesting enough that I frequently take it out and plan to read cover to cover, just out of curiosity and entertainment, even all these years after first learning about its material.
 
 [fn:2] <One of those books that tell the history of a field like a thriller. This does with computing what /Fermat's Last Theorem/ did with mathematics, /The Age of Uncertainty/ with physics, /Replay/ with video games and /It's all a Game/ with board games. Such an historical overview provides a great framework to organize the knowledge of a discipline.
 
@@ -80,7 +80,7 @@ Have a list.
 
 [fn:5] TODO coders at work.
 
-[fn:6]  Several short sentences about writing
+[fn:6] Several short sentences about writing
 
 [fn:7] The Soul of a New Machine
 
