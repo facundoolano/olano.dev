@@ -3,7 +3,7 @@ title: My Software Bookshelf
 date: 2024-08-21
 layout: post
 lang: en
-tags: [software, books]
+tags: [software, books, memoirs]
 draft: true
 ---
 #+OPTIONS: toc:nil num:nil
@@ -102,7 +102,7 @@ your sleep and put everything you've got into a project, and forgot the point of
 
 [fn:15] Thinking in Systems
 
-[fn:16] The Pragmatic Programmer
+[fn:16] /The Pragmatic Programmer/ is a catalog of principles and practices across the discipline and, as such, the discussion remains superficial. Many of its topic could be fill a book. And, yet, there's value in going through this wide overview, item by item; seeing the authors approach different problems in different context distills that pragmatic attitude that is the theme of the book. /The Pragmatic Programmer/ is one of my favorite software books. I read the first version when I was starting out my career and the 20th anniversary edition as a senior engineer. Some of its advice---/be a catalyst for change/, /don't live with broken windows/, /delight users, don't just deliver code/---resounded like a mantra throughout my career.
 
 [fn:17]  A Philosophy of Software Design
 
