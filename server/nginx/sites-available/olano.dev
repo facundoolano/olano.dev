@@ -24,6 +24,14 @@ server {
 
 	server_name olano.dev www.olano.dev;
 
+        # blocklist abusive hotlinkers
+        location ~ \.(jpg|jpeg|gif|png|ico)$ {
+            valid_referers ~.*zoho.com;
+            if ($invalid_referer = ''){
+               return 403;
+            }
+        }
+
 	location / {
 	    # First attempt to serve request as file, then as directory.
             # also handle the case where there's a file instead of a dir, but
