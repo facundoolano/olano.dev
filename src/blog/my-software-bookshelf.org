@@ -80,9 +80,10 @@ Have a list.
 [fn:4] The interview is such an entertaining literary form, I wonder why it isn't frequented in our field. Is it naive to think that it's because the idea of the genius hacker has gone out of fashion, in favor of the competent team? Or are the rockstar CEOs now hogging all the spotlight? Or, perhaps, we're all so self absorbed now that we can only think of writing in the first person. In any case, there's a lot to like about /Coders at Work/, even if it's become history book as much as a book about the programming craft. I'll name three things that I thank this book for: it introduced me to [[https://en.wikipedia.org/wiki/The_Paris_Review#Interviews][The Paris Review interviews]]; it pushed me to finally try Emacs---which I continue to use to this day---; it provided me with indisputable proof that there's no single right way of programming. In this sample you'll read about those that favor team work and those that prefer working alone; proponents of bottom-up or top-down or middle out; some that skip comments and some that do literate programming; some that start polishing abstract interfaces and others that shove everything in a single file. All of them were successful, all of them are exemplar.
 
 [fn:5] Have you ever been part of a highly-motivated, self-absorbed engineering team? Have you lost
-your sleep and put everything you've got into a project, and forgot the point of it all but just kept going, out of respect for your teammates? Now imagine one of those teams, back in the '70s, during the minicomputer era, before PCs and the internet, before most people had even seen a computer---let alone use one. And imagine there's a professional journalist sitting in with the team, documenting the whole process, trying to capture that trance the engineers seem to get into, trying to explain to himself what is it about the stuff that makes them care almost to the point of self-destruction. That's /The Soul of a New Machine/.
+your sleep and put everything you've got into a project, and forgot the point of it all but just kept going, out of respect for your teammates? Now imagine one of those teams, back in the \'70s, during the minicomputer era, before PCs and the internet, before most people had even seen a computer---let alone use one. And imagine there's a professional journalist sitting in with the team, documenting the whole process, trying to capture that trance the engineers seem to get into, trying to explain to himself what is it about the stuff that makes them care almost to the point of self-destruction. That's /The Soul of a New Machine/.
 
-[fn:6] The Algorithm Design Manual
+[fn:6] One of my biggest sources of imposter syndrome is that I never had to struggle with an algorithms textbook when I was at college. The teachers of the algorithms and data structures course were young and too eager to jump from abstract data types to object-oriented programming---which was the topic of another course. Years later I read the Aho/Hopcroft/Ullman book on my own, but I guess reading these things isn't of much use if you don't bother with doing the exercises. The industry's tendency to use puzzle-solving skills as a proxy for developer competence isn't helping, either. I chose to add the Skiena book to my shelves because its structure makes it look more approachable than the alternatives: 300 hundred pages to cover the fundamentals, favoring war stories over demonstrations, and a catalog of algorithmic problems to wrap it up. I sincerely want to read this thing, I swear, it's just life---and other books in this list---keep getting in the way.
+
 
 [fn:7] Programming Pearls
 
@@ -98,7 +99,7 @@ your sleep and put everything you've got into a project, and forgot the point of
 
 [fn:13] Several short sentences about writing
 
-[fn:14] The Design of Everyday Things
+[fn:14] (The Design of Everyday Things). I'm ashamed to admit...
 
 [fn:15] Thinking in Systems
 
@@ -134,7 +135,7 @@ your sleep and put everything you've got into a project, and forgot the point of
 
 [fn:31] Fundamentals of Software Architecture
 
-[fn:32] Building Microservices
+[fn:32] <(Building Microservices) this holds a special place for me because it was the first architecture book I've read that seemed to be written <for my own times>. regardless of microservices, it seemed to have answers to the question of how should software be architected in the post cloud world. <I picked it up because I joined a company that was doing microservices and I wanted to do it right. I learned that we shouldn't have been doing it at all.
 
 [fn:33] Crafting Interpreters
 
