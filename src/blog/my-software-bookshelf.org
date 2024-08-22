@@ -34,7 +34,7 @@ Have a list.
 1. Code[fn:1]
 2. The Innovators[fn:2]
    + The Mythical Man Month[fn:3]
-   + Coders at Work [fn:4]
+   + Coders at Work[fn:4]
    + The Soul of a New Machine[fn:5]
 3. The Algorithm Design Manual[fn:6]
    + Programming Pearls[fn:7]
@@ -80,8 +80,8 @@ Have a list.
 
 [fn:4] The interview is such an entertaining literary form, I wonder why it isn't frequented in our field. Is it naive to think that it's because the idea of the genius hacker has gone out of fashion, in favor of the competent team? Or are the rockstar CEOs now hogging all the spotlight? Or, perhaps, we're all so self absorbed now that we can only think of writing in the first person. In any case, there's a lot to like about /Coders at Work/, even if it's become history book as much as a book about the programming craft. I'll name three things that I thank this book for: it introduced me to [[https://en.wikipedia.org/wiki/The_Paris_Review#Interviews][The Paris Review interviews]]; it pushed me to finally try Emacs---which I continue to use to this day---; it provided me with indisputable proof that there's no single right way of programming. In this sample you'll read about those that favor team work and those that prefer working alone; proponents of bottom-up or top-down or middle out; some that skip comments and some that do literate programming; some that start polishing abstract interfaces and others that shove everything in a single file. All of them were successful, all of them are exemplar.
 
-[fn:5] The Soul of a New Machine
-
+[fn:5] Have you ever been part of a highly-motivated, self-absorbed engineering team? Have you lost
+your sleep and put everything you've got into a project, and forgot the point of it all but just kept going, out of respect for your teammates? Now imagine one of those teams, back in the '70s, during the minicomputer era, before PCs and the internet, before most people had even seen a computer---let alone use one. And imagine there's a professional journalist sitting in with the team, documenting the whole process, trying to capture that trance the engineers seem to get into, trying to explain to himself what is it about the stuff that makes them care almost to the point of self-destruction. That's /The Soul of a New Machine/.
 [fn:6] The Algorithm Design Manual
 
 [fn:7] Programming Pearls
