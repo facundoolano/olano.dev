@@ -48,31 +48,30 @@ Have a list.
 9. Thinking in Systems[fn:15]
 10. The Pragmatic Programmer[fn:16]
 11. A Philosophy of Software Design[fn:17]
-    + Learning Domain-Driven Design[fn:18]
-12. How Linux Works[fn:19]
-    + Operating Systems: Three Easy Pieces [fn:20]
-    + Systems Performance[fn:21]
-13. Learn Concurrent Programming with Go[fn:22]
-    + Learn You Some Erlang for Great Good![fn:23]
-14. SQL Performance Explained[fn:24]
-15. Designing Secure Software[fn:25]
-    + Real-World Cryptography[fn:26]
-16. Release It![fn:27]
-17. Kill It With Fire[fn:28]
-18. The Staff Engineer's Path[fn:29]
-    + The Manager's Path[fn:30]
-    + Team Topologies[fn:31]
-    + Fundamentals of Software Architecture[fn:32]
-    + Building Microservices[fn:33]
-19. Crafting Interpreters[fn:34]
-    + Essentials of Compilation[fn:35]
-20. Designing Data-Intensive Applications[fn:36]
-    + Distributed Systems for Fun and Profit[fn:37]
-    + Database Internals[fn:38]
+12. How Linux Works[fn:18]
+    + Operating Systems: Three Easy Pieces [fn:19]
+    + Systems Performance[fn:20]
+13. Learn Concurrent Programming with Go[fn:21]
+    + Learn You Some Erlang for Great Good![fn:22]
+14. SQL Performance Explained[fn:23]
+15. Designing Secure Software[fn:24]
+    + Real-World Cryptography[fn:25]
+16. Release It![fn:26]
+17. Kill It With Fire[fn:27]
+18. The Staff Engineer's Path[fn:28]
+    + The Manager's Path[fn:29]
+    + Team Topologies[fn:30]
+    + Fundamentals of Software Architecture[fn:31]
+    + Building Microservices[fn:32]
+19. Crafting Interpreters[fn:33]
+    + Essentials of Compilation[fn:34]
+20. Designing Data-Intensive Applications[fn:35]
+    + Distributed Systems for Fun and Profit[fn:36]
+    + Database Internals[fn:37]
 
 -----
 
-[fn:1] Back in college, I learned about circuits at a physics class. I learned about boolean algebra at a math class; binary code at a programming class; logic gates and CPU architecture at an electronics class, and information theory at a data organization class. Some of these courses were years apart from each other. I always felt I was missing the big picture, an unifying thread to tie all this disparate knowledge together. I wish I had a book like /Code/ to follow along back then. Not only does it walks the computer from its lowest to its highest level of abstraction, but it throws in a lot of historical context along the way too. /Code/ is compact and interesting enough that I frequently take it out and plan to read cover to cover, just out of curiosity and entertainment, even all these years after first learning about its material.
+[fn:1] Back in college, I learned about circuits at a physics class. I learned about boolean algebra at a math class; binary code at a programming class; logic gates and CPU architecture at an electronics class, and information theory at a data organization class. Some of these courses were years apart from each other. I always felt I was missing the big picture, an unifying thread to tie all this disparate knowledge together. I wish I had a book like /Code/ to follow along back then. Not only does it walk the computer from its lowest to its highest level of abstraction, but it throws in a lot of historical context along the way. /Code/ is compact and interesting enough that I frequently take it out and plan to read it cover to cover, just out of curiosity and entertainment, even all these years after first learning about its material.
 
 [fn:2] <One of those books that tell the history of a field like a thriller. This does with computing what /Fermat's Last Theorem/ did with mathematics, /The Age of Uncertainty/ with physics, /Replay/ with video games and /It's all a Game/ with board games. Such an historical overview provides a great framework to organize the knowledge of a discipline.
 
@@ -82,6 +81,7 @@ Have a list.
 
 [fn:5] Have you ever been part of a highly-motivated, self-absorbed engineering team? Have you lost
 your sleep and put everything you've got into a project, and forgot the point of it all but just kept going, out of respect for your teammates? Now imagine one of those teams, back in the '70s, during the minicomputer era, before PCs and the internet, before most people had even seen a computer---let alone use one. And imagine there's a professional journalist sitting in with the team, documenting the whole process, trying to capture that trance the engineers seem to get into, trying to explain to himself what is it about the stuff that makes them care almost to the point of self-destruction. That's /The Soul of a New Machine/.
+
 [fn:6] The Algorithm Design Manual
 
 [fn:7] Programming Pearls
@@ -102,48 +102,46 @@ your sleep and put everything you've got into a project, and forgot the point of
 
 [fn:15] Thinking in Systems
 
-[fn:16] /The Pragmatic Programmer/ is a catalog of principles and practices across the discipline and, as such, the discussion remains superficial. Many of its topic could be fill a book. And, yet, there's value in going through this wide overview, item by item; seeing the authors approach different problems in different context distills that pragmatic attitude that is the theme of the book. /The Pragmatic Programmer/ is one of my favorite software books. I read the first version when I was starting out my career and the 20th anniversary edition as a senior engineer. Some of its advice---/be a catalyst for change/, /don't live with broken windows/, /delight users, don't just deliver code/---resounded like a mantra throughout my career.
+[fn:16] /The Pragmatic Programmer/ is a catalog of principles and practices across the discipline and, as such, the discussion remains superficial. Many of its topics could be fill its own book. And, yet, there's value in going through this wide overview, item by item; seeing the authors approach different problems in different contexts distills that pragmatic attitude that is the theme of the book. /The Pragmatic Programmer/ is one of my favorite software books. I read the first version when I was starting out my career and the 20th anniversary edition as a senior engineer. Some of its advice---/be a catalyst for change/, /don't live with broken windows/, /delight users, don't just deliver code/---resounded like a mantra throughout my career.
 
 [fn:17]  A Philosophy of Software Design
 
-[fn:18]  Learning Domain-Driven Design
+[fn:18]  How Linux Works
 
-[fn:19]  How Linux Works
+[fn:19] Operating Systems: Three Easy Pieces
 
-[fn:20] Operating Systems: Three Easy Pieces
+[fn:20]  Systems Performance
 
-[fn:21]  Systems Performance
+[fn:21]  Learn Concurrent Programming with Go
 
-[fn:22]  Learn Concurrent Programming with Go
+[fn:22] Learn You Some Erlang for Great Good!
 
-[fn:23] Learn You Some Erlang for Great Good!
+[fn:23] As I was putting together this list, I noticed something was missing from my bookshelf. There are books touching on data structures, file systems, database internals, software architecture and large-scale distributed data systems. But none deals with using databases from a developer's perspective. Years ago I would have covered that gap with something like /Seven Databases in Seven Weeks/, to get an overview of available implementations and their trade-offs. But, as I grow older and more conservative I tend to favor minimalism and frugality: you're likely to only need PostgreSQL for most projects, why not focus on getting good at that. That still doesn't warrant reading a book entirely dedicated to PostgreSQL, or to the SQL language, or to the relational model, for that matter. Looking around I saw many recommendations of /SQL performance explained/, which has an [[https://use-the-index-luke.com/][online version]]. This book starts with a bold premise: /the only thing developers need to learn is how to index/. Far from turning the book into a shallow tutorial, this premise provides it with structure: each chapter dedicated to a part of an SQL query, but going deep into its inner workings and the data structures that power it.
 
-[fn:24] As I was putting together this list, I noticed something was missing from my bookshelf. There are books touching on data structures, file systems, database internals, software architecture and large-scale distributed data systems. But none deals with using databases from a developer's perspective. Years ago I would have covered that gap with something like /Seven Databases in Seven Weeks/, to get an overview of available implementations and their trade-offs. But, as I grow older and more conservative I tend to favor minimalism and frugality: you're likely to only need PostgreSQL for most projects, why not focus on getting good at that. That still doesn't warrant reading a book entirely dedicated to PostgreSQL, or to the SQL language, or to the relational model, for that matter. Looking around I saw many recommendations of /SQL performance explained/, which has an [[https://use-the-index-luke.com/][online version]]. This book starts with a bold premise: /the only thing developers need to learn is how to index/. Far from turning the book into a shallow tutorial, this premise provides it with structure: each chapter dedicated to a part of an SQL query, but going deep into its inner workings and the data structures that power it.
+[fn:24] Designing Secure Software
 
-[fn:25] Designing Secure Software
+[fn:25] Real-World Cryptography
 
-[fn:26] Real-World Cryptography
+[fn:26] Release It!
 
-[fn:27] Release It!
+[fn:27] Kill It With Fire
 
-[fn:28] Kill It With Fire
+[fn:28] The Staff Engineer's Path
 
-[fn:29] The Staff Engineer's Path
+[fn:29] /We're not in the high-tech business, we're in the human communication business/. That idea alone deserves /Peopleware/ a place in my shelves but, while its insights are still relevant today, a lot of the discussion now feels dated ---from avoiding phone call interruptions to arranging the office cubicles. I think, today, /The Manager's Path/ does a better job at <bringing the human aspects of our activity to the front>. Anyone leading or managing or being managed---that is, anyone---can benefit from the ideas in this book.
 
-[fn:30] /We're not in the high-tech business, we're in the human communication business/. That idea alone deserves /Peopleware/ a place in my shelves but, while its insights are still relevant today, a lot of the discussion now feels dated ---from avoiding phone call interruptions to arranging the office cubicles. I think, today, /The Manager's Path/ does a better job at <bringing the human aspects of our activity to the front>. Anyone leading or managing or being managed---that is, anyone---can benefit from the ideas in this book.
+[fn:30] Team Topologies
 
-[fn:31] Team Topologies
+[fn:31] Fundamentals of Software Architecture
 
-[fn:32] Fundamentals of Software Architecture
+[fn:32] Building Microservices
 
-[fn:33] Building Microservices
+[fn:33] Crafting Interpreters
 
-[fn:34] Crafting Interpreters
+[fn:34] Essentials of Compilation
 
-[fn:35] Essentials of Compilation
+[fn:35] Designing Data-Intensive Applications
 
-[fn:36] Designing Data-Intensive Applications
+[fn:36] Distributed Systems for Fun and Profit
 
-[fn:37] Distributed Systems for Fun and Profit
-
-[fn:38] Database Internals
+[fn:37] Database Internals
