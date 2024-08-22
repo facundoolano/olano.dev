@@ -50,24 +50,25 @@ Have a list.
 11. A Philosophy of Software Design[fn:17]
     + Learning Domain-Driven Design[fn:18]
 12. How Linux Works[fn:19]
-    + Systems Performance[fn:20]
-13. Learn Concurrent Programming with Go[fn:21]
-    + Learn You Some Erlang for Great Good![fn:22]
-14. SQL Performance Explained[fn:23]
-15. Designing Secure Software[fn:24]
-    + Real-World Cryptography[fn:25]
-16. Release It![fn:26]
-17. Kill It With Fire[fn:27]
-18. The Staff Engineer's Path[fn:28]
-    + The Manager's Path[fn:29]
-    + Team Topologies[fn:30]
-    + Fundamentals of Software Architecture[fn:31]
-    + Building Microservices[fn:32]
-19. Crafting Interpreters[fn:33]
-    + Essentials of Compilation[fn:34]
-20. Designing Data-Intensive Applications[fn:35]
-    + Distributed Systems for Fun and Profit[fn:36]
-    + Database Internals[fn:37]
+    + Operating Systems: Three Easy Pieces [fn:20]
+    + Systems Performance[fn:21]
+13. Learn Concurrent Programming with Go[fn:22]
+    + Learn You Some Erlang for Great Good![fn:23]
+14. SQL Performance Explained[fn:24]
+15. Designing Secure Software[fn:25]
+    + Real-World Cryptography[fn:26]
+16. Release It![fn:27]
+17. Kill It With Fire[fn:28]
+18. The Staff Engineer's Path[fn:29]
+    + The Manager's Path[fn:30]
+    + Team Topologies[fn:31]
+    + Fundamentals of Software Architecture[fn:32]
+    + Building Microservices[fn:33]
+19. Crafting Interpreters[fn:34]
+    + Essentials of Compilation[fn:35]
+20. Designing Data-Intensive Applications[fn:36]
+    + Distributed Systems for Fun and Profit[fn:37]
+    + Database Internals[fn:38]
 
 -----
 
@@ -109,38 +110,40 @@ Have a list.
 
 [fn:19]  How Linux Works
 
-[fn:20]  Systems Performance
+[fn:20] Operating Systems: Three Easy Pieces
 
-[fn:21]  Learn Concurrent Programming with Go
+[fn:21]  Systems Performance
 
-[fn:22] Learn You Some Erlang for Great Good!
+[fn:22]  Learn Concurrent Programming with Go
 
-[fn:23] As I was putting together this list, I noticed something was missing from my bookshelf. There are books touching on data structures, file systems, database internals, software architecture and large-scale distributed data systems. But none deals with using databases from a developer's perspective. Years ago I would have covered that gap with something like /Seven Databases in Seven Weeks/, to get an overview of available implementations and their trade-offs. But, as I grow older and more conservative I tend to favor minimalism and frugality: you're likely to only need PostgreSQL for most projects, why not focus on getting good at that. That still doesn't warrant reading a book entirely dedicated to PostgreSQL, or to the SQL language, or to the relational model, for that matter. Looking around I saw many recommendations of /SQL performance explained/, which has an [[https://use-the-index-luke.com/][online version]]. This book starts with a bold premise: /the only thing developers need to learn is how to index/. Far from turning the book into a shallow tutorial, this premise provides it with structure: each chapter dedicated to a part of an SQL query, but going deep into its inner workings and the data structures that power it.
+[fn:23] Learn You Some Erlang for Great Good!
 
-[fn:24] Designing Secure Software
+[fn:24] As I was putting together this list, I noticed something was missing from my bookshelf. There are books touching on data structures, file systems, database internals, software architecture and large-scale distributed data systems. But none deals with using databases from a developer's perspective. Years ago I would have covered that gap with something like /Seven Databases in Seven Weeks/, to get an overview of available implementations and their trade-offs. But, as I grow older and more conservative I tend to favor minimalism and frugality: you're likely to only need PostgreSQL for most projects, why not focus on getting good at that. That still doesn't warrant reading a book entirely dedicated to PostgreSQL, or to the SQL language, or to the relational model, for that matter. Looking around I saw many recommendations of /SQL performance explained/, which has an [[https://use-the-index-luke.com/][online version]]. This book starts with a bold premise: /the only thing developers need to learn is how to index/. Far from turning the book into a shallow tutorial, this premise provides it with structure: each chapter dedicated to a part of an SQL query, but going deep into its inner workings and the data structures that power it.
 
-[fn:25] Real-World Cryptography
+[fn:25] Designing Secure Software
 
-[fn:26] Release It!
+[fn:26] Real-World Cryptography
 
-[fn:27] Kill It With Fire
+[fn:27] Release It!
 
-[fn:28] The Staff Engineer's Path
+[fn:28] Kill It With Fire
 
-[fn:29] The Manager's Path
+[fn:29] The Staff Engineer's Path
 
-[fn:30] Team Topologies
+[fn:30] /We're not in the high-tech business, we're in the human communication business/. That idea alone deserves /Peopleware/ a place in my shelves but, while its insights are still relevant today, a lot of the discussion now feels dated ---from avoiding phone call interruptions to arranging the office cubicles. I think, today, /The Manager's Path/ does a better job at <bringing the human aspects of our activity to the front>. Anyone leading or managing or being managed---that is, anyone---can benefit from the ideas in this book.
 
-[fn:31] Fundamentals of Software Architecture
+[fn:31] Team Topologies
 
-[fn:32] Building Microservices
+[fn:32] Fundamentals of Software Architecture
 
-[fn:33] Crafting Interpreters
+[fn:33] Building Microservices
 
-[fn:34] Essentials of Compilation
+[fn:34] Crafting Interpreters
 
-[fn:35] Designing Data-Intensive Applications
+[fn:35] Essentials of Compilation
 
-[fn:36] Distributed Systems for Fun and Profit
+[fn:36] Designing Data-Intensive Applications
 
-[fn:37] Database Internals
+[fn:37] Distributed Systems for Fun and Profit
+
+[fn:38] Database Internals
