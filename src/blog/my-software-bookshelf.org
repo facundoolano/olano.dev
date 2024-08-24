@@ -63,11 +63,11 @@ Have a list.
     + Team Topologies[fn:30]
     + Fundamentals of Software Architecture[fn:31]
     + Building Microservices[fn:32]
-19. Crafting Interpreters[fn:33]
-    + Essentials of Compilation[fn:34]
-20. Designing Data-Intensive Applications[fn:35]
-    + Distributed Systems for Fun and Profit[fn:36]
-    + Database Internals[fn:37]
+19. Designing Data-Intensive Applications[fn:33]
+    + Distributed Systems for Fun and Profit[fn:34]
+    + Database Internals[fn:35]
+20. Crafting Interpreters[fn:36]
+    + Essentials of Compilation[fn:37]
 
 -----
 
@@ -83,7 +83,6 @@ Have a list.
 your sleep and put everything you've got into a project, and forgot the point of it all but just kept going, out of respect for your teammates? Now imagine one of those teams, back in the \'70s, during the minicomputer era, before PCs and the internet, before most people had even seen a computer---let alone use one. And imagine there's a professional journalist sitting in with the team, documenting the whole process, trying to capture that trance the engineers seem to get into, trying to explain to himself what is it about the stuff that makes them care almost to the point of self-destruction. That's /The Soul of a New Machine/.
 
 [fn:6] One of my biggest sources of imposter syndrome is that I never had to struggle with an algorithms textbook when I was at college. The teachers of the algorithms and data structures course were young and too eager to jump from abstract data types to object-oriented programming---which was the topic of another course. Years later I read the Aho/Hopcroft/Ullman book on my own, but I guess reading these things isn't of much use if you don't bother with doing the exercises. The industry's tendency to use puzzle-solving skills as a proxy for developer competence isn't helping, either. I chose to add the Skiena book to my shelves because its structure makes it look more approachable than the alternatives: 300 hundred pages to cover the fundamentals, favoring war stories over demonstrations, and a catalog of algorithmic problems to wrap it up. I sincerely want to read this thing, I swear, it's just life---and other books in this list---keep getting in the way.
-
 
 [fn:7] Programming Pearls
 
@@ -101,7 +100,7 @@ your sleep and put everything you've got into a project, and forgot the point of
 
 [fn:14] (The Design of Everyday Things). I'm ashamed to admit...
 
-[fn:15] Thinking in Systems
+[fn:15] Thinking in Systems ?
 
 [fn:16] /The Pragmatic Programmer/ is a catalog of principles and practices across the discipline and, as such, the discussion remains superficial. Many of its topics could be fill its own book. And, yet, there's value in going through this wide overview, item by item; seeing the authors approach different problems in different contexts distills that pragmatic attitude that is the theme of the book. /The Pragmatic Programmer/ is one of my favorite software books. I read the first version when I was starting out my career and the 20th anniversary edition as a senior engineer. Some of its advice---/be a catalyst for change/, /don't live with broken windows/, /delight users, don't just deliver code/---resounded like a mantra throughout my career.
 
@@ -109,7 +108,7 @@ your sleep and put everything you've got into a project, and forgot the point of
 
 [fn:18]  How Linux Works
 
-[fn:19] Operating Systems: Three Easy Pieces
+[fn:19] Operating Systems: Three Easy Pieces ?
 
 [fn:20]  Systems Performance
 
@@ -137,12 +136,12 @@ your sleep and put everything you've got into a project, and forgot the point of
 
 [fn:32] <(Building Microservices) this holds a special place for me because it was the first architecture book I've read that seemed to be written <for my own times>. regardless of microservices, it seemed to have answers to the question of how should software be architected in the post cloud world. <I picked it up because I joined a company that was doing microservices and I wanted to do it right. I learned that we shouldn't have been doing it at all.
 
-[fn:33] Crafting Interpreters
+[fn:33] Designing Data-Intensive Applications
 
-[fn:34] Essentials of Compilation
+[fn:34] Distributed Systems for Fun and Profit
 
-[fn:35] Designing Data-Intensive Applications
+[fn:35] Database Internals
 
-[fn:36] Distributed Systems for Fun and Profit
+[fn:36] Crafting Interpreters
 
-[fn:37] Database Internals
+[fn:37] Essentials of Compilation
