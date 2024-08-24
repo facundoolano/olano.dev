@@ -40,7 +40,7 @@ Have a list.
    + Programming Pearls[fn:7]
 4. The New Turing Omnibus[fn:8]
 5. Concepts, Techniques, and Models of Computer Programming[fn:9]
-   + Excercises in Programming Style[fn:10]
+   + Exercises in Programming Style[fn:10]
 6. The Missing README[fn:11]
 7. On Writing Well[fn:12]
    + Several short sentences about writing[fn:13]
@@ -90,7 +90,7 @@ your sleep and put everything you've got into a project, and forgot the point of
 
 [fn:9] Concepts, Techniques, and Models of Computer Programming
 
-[fn:10] Excercises in Programming Style
+[fn:10] As you may have by now guessed, I have a soft spot for constraints-based writing. The /urtext/ of creative constraints is Raymond Queneau's /Exercises in Style/, where he tells the same trivial story 99 times using different literary forms. Cristina Videira Lopes brings this idea to the software world by solving the same programming problem in different coding styles. The result is not only entertaining but an elegant way to structure a discussion of language paradigms and computing history. I think there were some missed opportunities in the styles selection, and I'm still not sure about the choice of Python to implement the solutions, but the concept alone makes this book nothing short of genius.
 
 [fn:11] The Missing readme
 
@@ -145,3 +145,11 @@ your sleep and put everything you've got into a project, and forgot the point of
 [fn:36] Crafting Interpreters
 
 [fn:37] Essentials of Compilation
+
+-----
+
+See also:
+
+- [[https://github.com/facundoolano/software-papers][Papers for Software Engineers]].
+- [[https://teachyourselfcs.com/][Teach Yourself Computer Science]].
+- [[https://blog.codinghorror.com/recommended-reading-for-developers/][Recommended Reading for Developers]].
