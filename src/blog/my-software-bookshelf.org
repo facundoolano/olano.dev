@@ -49,25 +49,24 @@ Have a list.
 10. The Pragmatic Programmer[fn:16]
 11. A Philosophy of Software Design[fn:17]
 12. How Linux Works[fn:18]
-    + Operating Systems: Three Easy Pieces [fn:19]
-    + Systems Performance[fn:20]
-13. Learn Concurrent Programming with Go[fn:21]
-    + Learn You Some Erlang for Great Good![fn:22]
-14. SQL Performance Explained[fn:23]
-15. Designing Secure Software[fn:24]
-    + Real-World Cryptography[fn:25]
-16. Release It![fn:26]
-17. Kill It With Fire[fn:27]
-18. The Staff Engineer's Path[fn:28]
-    + The Manager's Path[fn:29]
-    + Team Topologies[fn:30]
-    + Fundamentals of Software Architecture[fn:31]
-    + Building Microservices[fn:32]
-19. Designing Data-Intensive Applications[fn:33]
-    + Distributed Systems for Fun and Profit[fn:34]
-    + Database Internals[fn:35]
-20. Crafting Interpreters[fn:36]
-    + Essentials of Compilation[fn:37]
+    + Systems Performance[fn:19]
+13. Learn Concurrent Programming with Go[fn:20]
+    + Learn You Some Erlang for Great Good![fn:21]
+14. SQL Performance Explained[fn:22]
+15. Designing Secure Software[fn:23]
+    + Real-World Cryptography[fn:24]
+16. Release It![fn:25]
+17. Kill It With Fire[fn:26]
+18. The Staff Engineer's Path[fn:27]
+    + The Manager's Path[fn:28]
+    + Team Topologies[fn:29]
+    + Fundamentals of Software Architecture[fn:30]
+    + Building Microservices[fn:31]
+19. Designing Data-Intensive Applications[fn:32]
+    + Distributed Systems for Fun and Profit[fn:33]
+    + Database Internals[fn:34]
+20. Crafting Interpreters[fn:35]
+    + Essentials of Compilation[fn:36]
 
 -----
 
@@ -106,45 +105,46 @@ your sleep and put everything you've got into a project, and forgot the point of
 
 [fn:17]  A Philosophy of Software Design
 
-[fn:18]  How Linux Works
+[fn:18] I could try to fool myself into thinking someday I will read /Operating Systems: Three Ease Pieces/, but that day would never come. Instead, I've picked up---and I'm currently half-way through---the humbler /How Linux Works/, a concrete and up to date book about the only Operating System I will ever care to really learn about. If it could only have 10% or 20% more conceptual background it would be just perfect, thank you.
 
-[fn:19] Operating Systems: Three Easy Pieces ?
+[fn:19]  Who isn't guilty of throwing the "root of all evils" bit around at some point? I am, but these days I feel better represented by Joe Armstrong's quote than by Knuth's: /Make it work, then make it beautiful, then if you really, really have to, make it fast. 90% of the time, if you make it beautiful, it will already be fast. So really, just make it beautiful!/ /Systems Performance/ is for the other 10% of the time. The /Performance Analysis Methodology/ [[https://www.youtube.com/watch?v=abLan0aXJkw][talk]] and [[https://queue.acm.org/detail.cfm?id=2413037][paper]] are a good introduction to the ideas in the book; the /Linux Performance Analysis in 60,000 milliseconds/ is the practical tl;dr. When that fails, then there's /Systems Performance/, which is probably the most technical and specialized book in this list---and my bookshelf.
+I learned about Brendan Gregg's work through a colleague, during a period when management at my company was fixated on reducing infrastructure costs by making us optimize our systems. The book forced me to work against my instincts, looking inside of the very things my brain insisted on abstract away. I was out of my league, clearly, and I didn't save any infra costs, but I came out a better engineer from that process.
 
-[fn:20]  Systems Performance
+[fn:20]  Learn Concurrent Programming with Go
 
-[fn:21]  Learn Concurrent Programming with Go
+[fn:21] Learn You Some Erlang for Great Good!
 
-[fn:22] Learn You Some Erlang for Great Good!
+[fn:22] As I was putting together this list, I noticed something was missing from my bookshelf. There are books touching on data structures, file systems, database internals, software architecture and large-scale distributed data systems. But none deals with using databases from a developer's perspective. Years ago I would have covered that gap with something like /Seven Databases in Seven Weeks/, to get an overview of available implementations and their trade-offs. But, as I grow older and more conservative I tend to favor minimalism and frugality: you're likely to only need PostgreSQL for most projects, why not focus on getting good at that. That still doesn't warrant reading a book entirely dedicated to PostgreSQL, or to the SQL language, or to the relational model, for that matter. Looking around I saw many recommendations of /SQL performance explained/, which has an [[https://use-the-index-luke.com/][online version]]. This book starts with a bold premise: /the only thing developers need to learn is how to index/. Far from turning the book into a shallow tutorial, this premise provides it with structure: each chapter dedicated to a part of an SQL query, but going deep into its inner workings and the data structures that power it.
 
-[fn:23] As I was putting together this list, I noticed something was missing from my bookshelf. There are books touching on data structures, file systems, database internals, software architecture and large-scale distributed data systems. But none deals with using databases from a developer's perspective. Years ago I would have covered that gap with something like /Seven Databases in Seven Weeks/, to get an overview of available implementations and their trade-offs. But, as I grow older and more conservative I tend to favor minimalism and frugality: you're likely to only need PostgreSQL for most projects, why not focus on getting good at that. That still doesn't warrant reading a book entirely dedicated to PostgreSQL, or to the SQL language, or to the relational model, for that matter. Looking around I saw many recommendations of /SQL performance explained/, which has an [[https://use-the-index-luke.com/][online version]]. This book starts with a bold premise: /the only thing developers need to learn is how to index/. Far from turning the book into a shallow tutorial, this premise provides it with structure: each chapter dedicated to a part of an SQL query, but going deep into its inner workings and the data structures that power it.
+[fn:23] Designing Secure Software
 
-[fn:24] Designing Secure Software
+[fn:24] Real-World Cryptography
 
-[fn:25] Real-World Cryptography
+[fn:25] Release It!
 
-[fn:26] Release It!
+[fn:26] Kill It With Fire
 
-[fn:27] Kill It With Fire
+[fn:27] The Staff Engineer's Path
 
-[fn:28] The Staff Engineer's Path
+[fn:28] /We're not in the high-tech business, we're in the human communication business/. That idea alone deserves /Peopleware/ a place in my shelves but, while its insights are still relevant today, a lot of the discussion now feels dated ---from avoiding phone call interruptions to arranging the office cubicles. I think, today, /The Manager's Path/ does a better job at <bringing the human aspects of our activity to the front>. Anyone leading or managing or being managed---that is, anyone---can benefit from the ideas in this book.
 
-[fn:29] /We're not in the high-tech business, we're in the human communication business/. That idea alone deserves /Peopleware/ a place in my shelves but, while its insights are still relevant today, a lot of the discussion now feels dated ---from avoiding phone call interruptions to arranging the office cubicles. I think, today, /The Manager's Path/ does a better job at <bringing the human aspects of our activity to the front>. Anyone leading or managing or being managed---that is, anyone---can benefit from the ideas in this book.
+[fn:29] Team Topologies
 
-[fn:30] Team Topologies
+[fn:30] Fundamentals of Software Architecture
 
-[fn:31] Fundamentals of Software Architecture
+[fn:31] <(Building Microservices) this holds a special place for me because it was the first architecture book I've read that seemed to be written <for my own times>. regardless of microservices, it seemed to have answers to the question of how should software be architected in the post cloud world. <I picked it up because I joined a company that was doing microservices and I wanted to do it right. I learned that we shouldn't have been doing it at all.
 
-[fn:32] <(Building Microservices) this holds a special place for me because it was the first architecture book I've read that seemed to be written <for my own times>. regardless of microservices, it seemed to have answers to the question of how should software be architected in the post cloud world. <I picked it up because I joined a company that was doing microservices and I wanted to do it right. I learned that we shouldn't have been doing it at all.
+[fn:32] Designing Data-Intensive Applications
 
-[fn:33] Designing Data-Intensive Applications
+[fn:33] Distributed Systems for Fun and Profit
 
-[fn:34] Distributed Systems for Fun and Profit
+[fn:34] Database Internals
 
-[fn:35] Database Internals
+[fn:35] Crafting Interpreters
+https://journal.stuffwithstuff.com/2020/04/05/crafting-crafting-interpreters/
+https://journal.stuffwithstuff.com/2021/07/29/640-pages-in-15-months/
 
-[fn:36] Crafting Interpreters
-
-[fn:37] Essentials of Compilation
+[fn:36] Essentials of Compilation
 
 -----
 
