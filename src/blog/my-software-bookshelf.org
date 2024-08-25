@@ -121,7 +121,7 @@ I learned about Brendan Gregg's work through a colleague, during a period when m
 
 [fn:25] Kill It With Fire
 
-[fn:26] The Stafgf Engineer's Path
+[fn:26] The Staff Engineer's Path
 
 [fn:27] /We're not in the high-tech business, we're in the human communication business/. That idea alone deserves /Peopleware/ a place in my shelves but, while its insights are still relevant today, a lot of the discussion now feels dated ---from avoiding phone call interruptions to arranging the office cubicles. I think, today, /The Manager's Path/ does a better job at <bringing the human aspects of our activity to the front>. Anyone leading or managing or being managed---that is, anyone---can benefit from the ideas in this book.
 
@@ -131,11 +131,11 @@ I learned about Brendan Gregg's work through a colleague, during a period when m
 
 [fn:30] <(Building Microservices) this holds a special place for me because it was the first architecture book I've read that seemed to be written <for my own times>. regardless of microservices, it seemed to have answers to the question of how should software be architected in the post cloud world. <I picked it up because I joined a company that was doing microservices and I wanted to do it right. I learned that we shouldn't have been doing it at all.
 
-[fn:31] I picked up /Designing Data-Intensive Applications/ out of a mix of professional curiosity and fear of missing out. I felt that I needed some academic support to navigate the technological explosion that had taken place in the years after I had graduated. Kleppmann hits a surprising balance of depth, breadth, length and readability. I religiously worked my way through the book for a few months. Over the years, I've read accounts from other engineers that went through a similar process---even though none of us are really designing data-intensive applications or using advanced distributed systems techniques in production. I concluded that this book has become a modern classic and that reading it is a rite of passage for a certain kind of senior engineer.
+[fn:31] I picked up /Designing Data-Intensive Applications/ out of a mix of professional curiosity and fear of missing out. I felt that I needed some academic support to navigate the technological explosion that had taken place in the years after I had graduated. Kleppmann hits a surprising balance of depth, breadth, length and readability. I religiously worked my way through the book for a few months. Over the years, I've read accounts from other engineers that went through a similar process---even though none of us are really designing data-intensive applications or using advanced distributed systems techniques in production. I concluded that this book has become a modern classic and reading it is a rite of passage for a certain kind of senior engineer.
 
-[fn:32] Distributed Systems for Fun and Profit
+[fn:32] /Distributed Systems for Fun and Profit/ is the gentler introduction to this area. Because of its topic selection and the mostly conceptual treatment, it should be all most software developers need to know about distributed systems. And, for those that want more, each chapter wraps with a curated list of follow-up papers and resources.
 
-[fn:33] Database Internals
+[fn:33] I you compare the table of contents of /Database Internals/ and /Designing Data-Intensive Applications/ you'll see a lot of overlap. I think of /Database Internals/ as a kind of B-side of Kleppmann's book; more succinct, slightly more focused on databases than in distributed systems. Considering how complex these topics get, this book is a good alternative to reading the other for the second time.
 
 [fn:34] Crafting Interpreters
 https://journal.stuffwithstuff.com/2020/04/05/crafting-crafting-interpreters/
