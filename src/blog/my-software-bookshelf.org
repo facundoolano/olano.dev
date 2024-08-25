@@ -90,7 +90,7 @@ your sleep and put everything you've got into a project, and forgot the point of
 
 [fn:10] Several short sentences about writing
 
-[fn:11] The Missing readme
+[fn:11] I had the privilege of getting a full-time job at a software company right after starting college. That certainly delayed my graduation but, in exchange, it armed me with perspective for the rest of my career: I would take both what I saw in class and at the office with a grain of salt. I remember, from those first couple of years, being overwhelmed by the amount of things that I so obviously didn't know. It was hard to prioritize, to tell what was important to really understand, what I just needed to get familiar with, and what I could just ignore. I think that /The Missing README/ would have been a life saver back then. Project management methodologies are the perfect example: chapter 12 and the [[https://agilemanifesto.org/][Agile Manifesto]] should be all you need; beware of whoever says otherwise---they may be trying to make you to join their cult.
 
 [fn:12] Concepts, Techniques, and Models of Computer Programming
 
