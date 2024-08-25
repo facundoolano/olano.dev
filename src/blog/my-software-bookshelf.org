@@ -32,119 +32,116 @@ Have a list.
 
 -----
 1. Code[fn:1]
-2. The Innovators[fn:2]
-   + The Mythical Man Month[fn:3]
-   + Coders at Work[fn:4]
+   + The New Turing Omnibus[fn:2]
+2. The Innovators[fn:3]
+   + The Mythical Man Month[fn:4]
    + The Soul of a New Machine[fn:5]
-3. The Algorithm Design Manual[fn:6]
-   + Programming Pearls[fn:7]
-4. The New Turing Omnibus[fn:8]
-5. Concepts, Techniques, and Models of Computer Programming[fn:9]
-   + Exercises in Programming Style[fn:10]
-6. The Missing README[fn:11]
-7. On Writing Well[fn:12]
-   + Several short sentences about writing[fn:13]
-8. The Design of Everyday Things[fn:14]
-9. Thinking in Systems[fn:15]
-10. The Pragmatic Programmer[fn:16]
-11. A Philosophy of Software Design[fn:17]
-12. How Linux Works[fn:18]
-    + Systems Performance[fn:19]
-13. Learn Concurrent Programming with Go[fn:20]
-    + Learn You Some Erlang for Great Good![fn:21]
-14. SQL Performance Explained[fn:22]
-15. Designing Secure Software[fn:23]
-    + Real-World Cryptography[fn:24]
-16. Release It![fn:25]
-17. Kill It With Fire[fn:26]
-18. The Staff Engineer's Path[fn:27]
-    + The Manager's Path[fn:28]
-    + Team Topologies[fn:29]
-    + Fundamentals of Software Architecture[fn:30]
-    + Building Microservices[fn:31]
-19. Designing Data-Intensive Applications[fn:32]
-    + Distributed Systems for Fun and Profit[fn:33]
-    + Database Internals[fn:34]
-20. Crafting Interpreters[fn:35]
-    + Essentials of Compilation[fn:36]
+   + Coders at Work[fn:6]
+3. The Algorithm Design Manual[fn:7]
+   + Programming Pearls[fn:8]
+4. The Missing README[fn:11]
+5. On Writing Well[fn:9]
+   + Several short sentences about writing[fn:10]
+6. Concepts, Techniques, and Models of Computer Programming[fn:12]
+   + Exercises in Programming Style[fn:13]
+7. The Pragmatic Programmer[fn:14]
+8. The Design of Everyday Things[fn:15]
+9. A Philosophy of Software Design[fn:16]
+10. How Linux Works[fn:17]
+    + Systems Performance[fn:18]
+11. Learn Concurrent Programming with Go[fn:19]
+    + Learn You Some Erlang for Great Good![fn:20]
+12. SQL Performance Explained[fn:21]
+13. Designing Secure Software[fn:22]
+    + Real-World Cryptography[fn:23]
+14. Release It![fn:24]
+15. Kill It With Fire[fn:25]
+16. The Staff Engineer's Path[fn:26]
+    + The Manager's Path[fn:27]
+    + Team Topologies[fn:28]
+    + Fundamentals of Software Architecture[fn:29]
+    + Building Microservices[fn:30]
+17. Designing Data-Intensive Applications[fn:31]
+    + Distributed Systems for Fun and Profit[fn:32]
+    + Database Internals[fn:33]
+18. Crafting Interpreters[fn:34]
+    + Essentials of Compilation[fn:35]
 
 -----
 
 [fn:1] Back in college, I learned about circuits at a physics class. I learned about boolean algebra at a math class; binary code at a programming class; logic gates and CPU architecture at an electronics class, and information theory at a data organization class. Some of these courses were years apart from each other. I always felt I was missing the big picture, an unifying thread to tie all this disparate knowledge together. I wish I had a book like /Code/ to follow along back then. Not only does it walk the computer from its lowest to its highest level of abstraction, but it throws in a lot of historical context along the way. /Code/ is compact and interesting enough that I frequently take it out and plan to read it cover to cover, just out of curiosity and entertainment, even all these years after first learning about its material.
 
-[fn:2] <One of those books that tell the history of a field like a thriller. This does with computing what /Fermat's Last Theorem/ did with mathematics, /The Age of Uncertainty/ with physics, /Replay/ with video games and /It's all a Game/ with board games. Such an historical overview provides a great framework to organize the knowledge of a discipline.
+[fn:2] After skimming its contents, I couldn't resist buying /The New Turing Omnibus/, nor adding it to this list. There is some overlap with /Code/ but, if knowledge in /Code/ was stacked chapter by chapter, this book is a bag of loosely connected topics, forming a wide sample of Computer Science. The treatment isn't superficial but the structure makes it better at sparking curiosity than as means to master its content. /The New Turing Omnibus/ is a book I would recommend to scientists and engineers to get a taste of Computer Science; a book I would have recommended to myself, when I was starting out, to get excited about all the places my career could take me; a book that could sit on the coffee table of mad man or casually shuffle the thoughts of a software engineer.
 
-[fn:3] <Perhaps the first book to qualify as a Software Engineering classic. Any engineer would probably get something out of /The Mythical Man Month/ and /No Silver Bullet/, but the collection as a whole by now seems more of historical than practical interest.
+[fn:3] <One of those books that tell the history of a field like a thriller. This does with computing what /Fermat's Last Theorem/ did with mathematics, /The Age of Uncertainty/ with physics, /Replay/ with video games and /It's all a Game/ with board games. Such an historical overview provides a great framework to organize the knowledge of a discipline.
 
-[fn:4] The interview is such an entertaining literary form, I wonder why it isn't frequented in our field. Is it naive to think that it's because the idea of the genius hacker has gone out of fashion, in favor of the competent team? Or are the rockstar CEOs now hogging all the spotlight? Or, perhaps, we're all so self absorbed now that we can only think of writing in the first person. In any case, there's a lot to like about /Coders at Work/, even if it's become history book as much as a book about the programming craft. I'll name three things that I thank this book for: it introduced me to [[https://en.wikipedia.org/wiki/The_Paris_Review#Interviews][The Paris Review interviews]]; it pushed me to finally try Emacs---which I continue to use to this day---; it provided me with indisputable proof that there's no single right way of programming. In this sample you'll read about those that favor team work and those that prefer working alone; proponents of bottom-up or top-down or middle out; some that skip comments and some that do literate programming; some that start polishing abstract interfaces and others that shove everything in a single file. All of them were successful, all of them are exemplar.
+[fn:4] <Perhaps the first book to qualify as a Software Engineering classic. Any engineer would probably get something out of /The Mythical Man Month/ and /No Silver Bullet/, but the collection as a whole by now seems more of historical than practical interest.
 
 [fn:5] Have you ever been part of a highly-motivated, self-absorbed engineering team? Have you lost
 your sleep and put everything you've got into a project, and forgot the point of it all but just kept going, out of respect for your teammates? Now imagine one of those teams, back in the \'70s, during the minicomputer era, before PCs and the internet, before most people had even seen a computer---let alone use one. And imagine there's a professional journalist sitting in with the team, documenting the whole process, trying to capture that trance the engineers seem to get into, trying to explain to himself what is it about the stuff that makes them care almost to the point of self-destruction. That's /The Soul of a New Machine/.
 
-[fn:6] One of my biggest sources of imposter syndrome is that I never had to struggle with an algorithms textbook when I was at college. The teachers of the algorithms and data structures course were young and too eager to jump from abstract data types to object-oriented programming---which was the topic of another course. Years later I read the Aho/Hopcroft/Ullman book on my own, but I guess reading these things isn't of much use if you don't bother with doing the exercises. The industry's tendency to use puzzle-solving skills as a proxy for developer competence isn't helping, either. I chose to add the Skiena book to my shelves because its structure makes it look more approachable than the alternatives: 300 hundred pages to cover the fundamentals, favoring war stories over demonstrations, and a catalog of algorithmic problems to wrap it up. I sincerely want to read this thing, I swear, it's just life---and other books in this list---keep getting in the way.
+[fn:6] The interview is such an entertaining literary form, I wonder why it isn't frequented in our field. Is it naive to think that it's because the idea of the genius hacker has gone out of fashion, in favor of the competent team? Or are the rockstar CEOs now hogging all the spotlight? Or, perhaps, we're all so self absorbed now that we can only think of writing in the first person. In any case, there's a lot to like about /Coders at Work/, even if it's become history book as much as a book about the programming craft. I'll name three things that I thank this book for: it introduced me to [[https://en.wikipedia.org/wiki/The_Paris_Review#Interviews][The Paris Review interviews]]; it pushed me to finally try Emacs---which I continue to use to this day---; it provided me with indisputable proof that there's no single right way of programming. In this sample you'll read about those that favor team work and those that prefer working alone; proponents of bottom-up or top-down or middle out; some that skip comments and some that do literate programming; some that start polishing abstract interfaces and others that shove everything in a single file. All of them were successful, all of them are exemplar.
 
-[fn:7] Programming Pearls
+[fn:7] One of my biggest sources of imposter syndrome is that I never had to struggle with an algorithms textbook when I was at college. The teachers of the algorithms and data structures course were young and too eager to jump from abstract data types to object-oriented programming---which was the topic of another course. Years later I read the Aho/Hopcroft/Ullman book on my own, but I guess reading these things isn't of much use if you don't bother with doing the exercises. The industry's tendency to use puzzle-solving skills as a proxy for developer competence isn't helping, either. I chose to add the Skiena book to my shelves because its structure makes it look more approachable than the alternatives: 300 hundred pages to cover the fundamentals, favoring war stories over demonstrations, and a catalog of algorithmic problems to wrap it up. I sincerely want to read this thing, I swear, it's just life---and other books in this list---keep getting in the way.
 
-[fn:8] The New Turing Omnibus
+[fn:8] Programming Pearls
 
-[fn:9] Concepts, Techniques, and Models of Computer Programming
+[fn:9] writing well
 
-[fn:10] As you may have by now guessed, I have a soft spot for constraints-based writing. The /urtext/ of creative constraints is Raymond Queneau's /Exercises in Style/, where he tells the same trivial story 99 times using different literary forms. Cristina Videira Lopes brings this idea to the software world by solving the same programming problem in different coding styles. The result is not only entertaining but an elegant way to structure a discussion of language paradigms and computing history. I think there were some missed opportunities in the styles selection, and I'm still not sure about the choice of Python to implement the solutions, but the concept alone makes this book nothing short of genius.
+[fn:10] Several short sentences about writing
 
 [fn:11] The Missing readme
 
-[fn:12] writing well
+[fn:12] Concepts, Techniques, and Models of Computer Programming
 
-[fn:13] Several short sentences about writing
+[fn:13] As you may have by now guessed, I have a soft spot for constraints-based writing. The /urtext/ of creative constraints is Raymond Queneau's /Exercises in Style/, where he tells the same trivial story 99 times using different literary forms. Cristina Videira Lopes brings this idea to the software world by solving the same programming problem in different coding styles. The result is not only entertaining but an elegant way to structure a discussion of language paradigms and computing history. I think there were some missed opportunities in the styles selection, and I'm still not sure about the choice of Python to implement the solutions, but the concept alone makes this book nothing short of genius.
 
-[fn:14] (The Design of Everyday Things). I'm ashamed to admit...
+[fn:14] /The Pragmatic Programmer/ is a catalog of principles and practices across the discipline and, as such, the discussion remains superficial. Many of its topics could be fill its own book. And, yet, there's value in going through this wide overview, item by item; seeing the authors approach different problems in different contexts distills that pragmatic attitude that is the theme of the book. /The Pragmatic Programmer/ is one of my favorite software books. I read the first version when I was starting out my career and the 20th anniversary edition as a senior engineer. Some of its advice---/be a catalyst for change/, /don't live with broken windows/, /delight users, don't just deliver code/---resounded like a mantra throughout my career.
 
-[fn:15] Thinking in Systems ?
+[fn:15] (The Design of Everyday Things). I'm ashamed to admit...
 
-[fn:16] /The Pragmatic Programmer/ is a catalog of principles and practices across the discipline and, as such, the discussion remains superficial. Many of its topics could be fill its own book. And, yet, there's value in going through this wide overview, item by item; seeing the authors approach different problems in different contexts distills that pragmatic attitude that is the theme of the book. /The Pragmatic Programmer/ is one of my favorite software books. I read the first version when I was starting out my career and the 20th anniversary edition as a senior engineer. Some of its advice---/be a catalyst for change/, /don't live with broken windows/, /delight users, don't just deliver code/---resounded like a mantra throughout my career.
+[fn:16] /A Philosophy of Software Design/ is my /I Ching/. When I first read it, I had been working as a professional programmer for over a decade. I thought I had a good idea of how to write code, of what a good design was, even if I couldn't quite put it to words. And then this little and absurdly unassuming book made me change my mind about things I'd previously thought were obvious---/smaller modules are always better/, /inline comments are a bad smell/, etc. With his definitions, Ousterhout removes some of the subjectivity from notions like /complexity/ and /abstraction/, and offers many heuristics along with examples of how they stop making sense when taking too far. Perhaps the book's biggest contribution is the idea of /module depth/ and the advice to strive for modules that are not small or large but deep.
 
-[fn:17] /A Philosophy of Software Design/ is my /I Ching/. When I first read it, I had been working as a professional programmer for over a decade. I thought I had a good idea of how to write code, of what a good design was, even if I couldn't quite put it to words. And then this little and absurdly unassuming book made me change my mind about things I'd previously thought were obvious---/smaller modules are always better/, /inline comments are a bad smell/, etc. With his definitions, Ousterhout removes some of the subjectivity from notions like /complexity/ and /abstraction/, and offers many heuristics along with examples of how they stop making sense when taking too far. Perhaps the book's biggest contribution is the idea of /module depth/ and the advice to strive for modules that are not small or large but deep.
+[fn:17] I could try to fool myself into thinking someday I'll read /Operating Systems: Three Ease Pieces/, but that day would never come. Instead, I've picked up---and I'm currently half-way through---the humbler /How Linux Works/, a concrete and up to date book about the only Operating System I will ever care to really learn about. If it could only have 10% or 20% more conceptual background it would be just perfect, thank you.
 
-[fn:18] I could try to fool myself into thinking someday I will read /Operating Systems: Three Ease Pieces/, but that day would never come. Instead, I've picked up---and I'm currently half-way through---the humbler /How Linux Works/, a concrete and up to date book about the only Operating System I will ever care to really learn about. If it could only have 10% or 20% more conceptual background it would be just perfect, thank you.
-
-[fn:19]  Who isn't guilty of throwing the "root of all evils" bit around at some point? I am, but these days I feel better represented by Joe Armstrong's quote than by Knuth's: /Make it work, then make it beautiful, then if you really, really have to, make it fast. 90% of the time, if you make it beautiful, it will already be fast. So really, just make it beautiful!/ /Systems Performance/ is for the other 10% of the time. The /Performance Analysis Methodology/ [[https://www.youtube.com/watch?v=abLan0aXJkw][talk]] and [[https://queue.acm.org/detail.cfm?id=2413037][paper]] are a good introduction to the ideas in the book; the /Linux Performance Analysis in 60,000 milliseconds/ is the practical tl;dr. When that fails, then there's /Systems Performance/, which is probably the most technical and specialized book in this list---and my bookshelf.
+[fn:18]  Who isn't guilty of throwing the "root of all evils" bit around at some point? I am, but these days I feel better represented by Joe Armstrong's quote than by Knuth's: /Make it work, then make it beautiful, then if you really, really have to, make it fast. 90% of the time, if you make it beautiful, it will already be fast. So really, just make it beautiful!/ /Systems Performance/ is for the other 10% of the time. The /Performance Analysis Methodology/ [[https://www.youtube.com/watch?v=abLan0aXJkw][talk]] and [[https://queue.acm.org/detail.cfm?id=2413037][paper]] are a good introduction to the ideas in the book; the [[https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55?gi=7992fad4b27b][/Linux Performance Analysis in 60,000 milliseconds/]] is the practical tl;dr. When that fails, then there's /Systems Performance/, which is probably the most technical and specialized book in this list---and my bookshelf.
 I learned about Brendan Gregg's work through a colleague, during a period when management at my company was fixated on reducing infrastructure costs by making us optimize our systems. The book forced me to work against my instincts, looking inside of the very things my brain insisted on abstract away. I was out of my league, clearly, and I didn't save any infra costs, but I came out a better engineer from that process.
 
-[fn:20]  Learn Concurrent Programming with Go
+[fn:19]  Learn Concurrent Programming with Go
 
-[fn:21] Learn You Some Erlang for Great Good!
+[fn:20] Learn You Some Erlang for Great Good!
 
-[fn:22] As I was putting together this list, I noticed something was missing from my bookshelf. There are books touching on data structures, file systems, database internals, software architecture and large-scale distributed data systems. But none deals with using databases from a developer's perspective. Years ago I would have covered that gap with something like /Seven Databases in Seven Weeks/, to get an overview of available implementations and their trade-offs. But, as I grow older and more conservative I tend to favor minimalism and frugality: you're likely to only need PostgreSQL for most projects, why not focus on getting good at that. That still doesn't warrant reading a book entirely dedicated to PostgreSQL, or to the SQL language, or to the relational model, for that matter. Looking around I saw many recommendations of /SQL performance explained/, which has an [[https://use-the-index-luke.com/][online version]]. This book starts with a bold premise: /the only thing developers need to learn is how to index/. Far from turning the book into a shallow tutorial, this premise provides it with structure: each chapter dedicated to a part of an SQL query, but going deep into its inner workings and the data structures that power it.
+[fn:21] As I was putting together this list, I noticed something was missing from my bookshelf. There are books touching on data structures, file systems, database internals, software architecture and large-scale distributed data systems. But none deals with using databases from a developer's perspective. Years ago I would have covered that gap with something like /Seven Databases in Seven Weeks/, to get an overview of available implementations and their trade-offs. But, as I grow older and more conservative I tend to favor minimalism and frugality: you're likely to only need PostgreSQL for most projects, why not focus on getting good at that. That still doesn't warrant reading a book entirely dedicated to PostgreSQL, or to the SQL language, or to the relational model, for that matter. Looking around I saw many recommendations of /SQL performance explained/, which has an [[https://use-the-index-luke.com/][online version]]. This book starts with a bold premise: /the only thing developers need to learn is how to index/. Far from turning the book into a shallow tutorial, this premise provides it with structure: each chapter dedicated to a part of an SQL query, but going deep into its inner workings and the data structures that power it.
 
-[fn:23] Designing Secure Software
+[fn:22] Designing Secure Software
 
-[fn:24] Real-World Cryptography
+[fn:23] Real-World Cryptography
 
-[fn:25] Release It!
+[fn:24] Release It!
 
-[fn:26] Kill It With Fire
+[fn:25] Kill It With Fire
 
-[fn:27] The Staff Engineer's Path
+[fn:26] The Staff Engineer's Path
 
-[fn:28] /We're not in the high-tech business, we're in the human communication business/. That idea alone deserves /Peopleware/ a place in my shelves but, while its insights are still relevant today, a lot of the discussion now feels dated ---from avoiding phone call interruptions to arranging the office cubicles. I think, today, /The Manager's Path/ does a better job at <bringing the human aspects of our activity to the front>. Anyone leading or managing or being managed---that is, anyone---can benefit from the ideas in this book.
+[fn:27] /We're not in the high-tech business, we're in the human communication business/. That idea alone deserves /Peopleware/ a place in my shelves but, while its insights are still relevant today, a lot of the discussion now feels dated ---from avoiding phone call interruptions to arranging the office cubicles. I think, today, /The Manager's Path/ does a better job at <bringing the human aspects of our activity to the front>. Anyone leading or managing or being managed---that is, anyone---can benefit from the ideas in this book.
 
-[fn:29] Team Topologies
+[fn:28] Team Topologies
 
-[fn:30] Fundamentals of Software Architecture
+[fn:29] Fundamentals of Software Architecture
 
-[fn:31] <(Building Microservices) this holds a special place for me because it was the first architecture book I've read that seemed to be written <for my own times>. regardless of microservices, it seemed to have answers to the question of how should software be architected in the post cloud world. <I picked it up because I joined a company that was doing microservices and I wanted to do it right. I learned that we shouldn't have been doing it at all.
+[fn:30] <(Building Microservices) this holds a special place for me because it was the first architecture book I've read that seemed to be written <for my own times>. regardless of microservices, it seemed to have answers to the question of how should software be architected in the post cloud world. <I picked it up because I joined a company that was doing microservices and I wanted to do it right. I learned that we shouldn't have been doing it at all.
 
-[fn:32] Designing Data-Intensive Applications
+[fn:31] Designing Data-Intensive Applications
 
-[fn:33] Distributed Systems for Fun and Profit
+[fn:32] Distributed Systems for Fun and Profit
 
-[fn:34] Database Internals
+[fn:33] Database Internals
 
-[fn:35] Crafting Interpreters
+[fn:34] Crafting Interpreters
 https://journal.stuffwithstuff.com/2020/04/05/crafting-crafting-interpreters/
 https://journal.stuffwithstuff.com/2021/07/29/640-pages-in-15-months/
 
-[fn:36] Essentials of Compilation
+[fn:35] Essentials of Compilation
 
 -----
 
@@ -153,3 +150,5 @@ See also:
 - [[https://github.com/facundoolano/software-papers][Papers for Software Engineers]].
 - [[https://teachyourselfcs.com/][Teach Yourself Computer Science]].
 - [[https://blog.codinghorror.com/recommended-reading-for-developers/][Recommended Reading for Developers]].
+
+[fn:36] Thinking in Systems ?
