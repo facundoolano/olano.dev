@@ -73,7 +73,7 @@ Have a list.
 
 [fn:2] After skimming its contents, I couldn't resist buying /The New Turing Omnibus/, nor adding it to this list. There is some overlap with /Code/ but, if knowledge in /Code/ was stacked chapter by chapter, this book is a bag of loosely connected topics, forming a wide sample of Computer Science. The treatment isn't superficial but the structure makes it better at sparking curiosity than as means to master its content. /The New Turing Omnibus/ is a book I would recommend to scientists and engineers to get a taste of Computer Science; a book I would have recommended to myself, when I was starting out, to get excited about all the places my career could take me; a book that could sit on the coffee table of mad man or casually shuffle the thoughts of a software engineer.
 
-[fn:3] <One of those books that tell the history of a field like a thriller. This does with computing what /Fermat's Last Theorem/ did with mathematics, /The Age of Uncertainty/ with physics, /Replay/ with video games and /It's all a Game/ with board games. Such an historical overview provides a great framework to organize the knowledge of a discipline.
+[fn:3] /The Innovators/ does with computing what /Fermat's Last Theorem/ did with mathematics, /The Age of Uncertainty/ with physics, /Replay/ with video games and /It's all a Game/ with board games: it tells the history of a field like a thriller. This book gives us a timeline where the body of knowledge of the discipline can be laid out.
 
 [fn:4] <Perhaps the first book to qualify as a Software Engineering classic. Any engineer would probably get something out of /The Mythical Man Month/ and /No Silver Bullet/, but the collection as a whole by now seems more of historical than practical interest.
 
