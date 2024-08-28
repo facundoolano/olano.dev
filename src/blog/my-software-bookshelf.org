@@ -39,9 +39,9 @@ Have a list.
    + Coders at Work[fn:6]
 3. The Algorithm Design Manual[fn:7]
    + Programming Pearls[fn:8]
-4. The Missing README[fn:11]
-5. On Writing Well[fn:9]
-   + Several short sentences about writing[fn:10]
+4. The Missing README[fn:9]
+5. On Writing Well[fn:10]
+   + Several short sentences about writing[fn:11]
 6. Concepts, Techniques, and Models of Computer Programming[fn:12]
    + Exercises in Programming Style[fn:13]
 7. The Pragmatic Programmer[fn:14]
@@ -49,8 +49,8 @@ Have a list.
 9. A Philosophy of Software Design[fn:16]
 10. How Linux Works[fn:17]
     + Systems Performance[fn:18]
-11. Learn Concurrent Programming with Go[fn:19]
-    + Learn You Some Erlang for Great Good![fn:20]
+11. Learn You Some Erlang for Great Good![fn:19]
+    + Learn Concurrent Programming with Go[fn:20]
 12. SQL Performance Explained[fn:21]
 13. Designing Secure Software[fn:22]
     + Real-World Cryptography[fn:23]
@@ -73,7 +73,7 @@ Have a list.
 
 [fn:2] After skimming its contents, I couldn't resist buying /The New Turing Omnibus/, nor adding it to this list. There is some overlap with /Code/ but, if knowledge in /Code/ was stacked chapter by chapter, this book is a bag of loosely connected topics, forming a wide sample of Computer Science. The treatment isn't superficial but the structure makes it better at sparking curiosity than as means to master its content. /The New Turing Omnibus/ is a book I would recommend to scientists and engineers to get a taste of Computer Science; a book I would have recommended to myself, when I was starting out, to get excited about all the places my career could take me; a book that could sit on the coffee table of mad man or casually shuffle the thoughts of a software engineer.
 
-[fn:3] < /The Innovators/ does with computing what /Fermat's Last Theorem/ did with mathematics, /The Age of Uncertainty/ with physics, /Replay/ with video games and /It's all a Game/ with board games: it tells the history of a field like a thriller. This book gives us a timeline where the body of knowledge of the discipline can be laid out.
+[fn:3] /The Innovators/ does with computing what /Fermat's Last Theorem/ did with mathematics, /The Age of Uncertainty/ with physics, /Replay/ with video games and /It's all a Game/ with board games: it tells the history of a field like a thriller. Every other book in this list has a place in the timeline that /The Innovators/ lays out.
 
 [fn:4] <Perhaps the first book to qualify as a Software Engineering classic. Any engineer would probably get something out of /The Mythical Man Month/ and /No Silver Bullet/, but the collection as a whole by now seems more of historical than practical interest.
 
@@ -86,11 +86,11 @@ your sleep and put everything you've got into a project, and forgot the point of
 
 [fn:8] Programming Pearls
 
-[fn:9] Text is the stuff of programming. Writing is an important skill, even when only applied to READMEs and PR descriptions. Strunk & White's /Elements of Style/ is the standard recommendation, but I find it too low level, too focused on preventing errors that can be detected by a computer. If, as suggested in /The Pragmatic Programmer/, we treat English as just another programming language then /Elements of Style/ deals with syntax and /On Writing Well/ deals with design. This book will push you to be deliberate about the many little choices involved in composing a nonfiction text; it will make you think about how to start and how to finish, who your audience is---what can you expect them to know, what do you need to supply, what will the text say to them. It will show you that, much like programming, writing is about simplifying, clarifying, tidying up and fixing what has already been written.
+[fn:9] I had the privilege of getting a full-time job at a software company right after starting college. That certainly delayed my graduation but, in exchange, it armed me with perspective for the rest of my career: I would take both what I saw in class and at the office with a grain of salt. I remember, from those first couple of years, being overwhelmed by the amount of things that I so obviously didn't know. It was hard to prioritize, to tell what was important to really understand, what I just needed to get familiar with, and what I could just ignore. I think that /The Missing README/ would have been a life saver back then. Project management methodologies are the perfect example: chapter 12 and the [[https://agilemanifesto.org/][Agile Manifesto]] should be all you need; beware of whoever says otherwise---they may be trying to make you to join their cult.
 
-[fn:10] /Several short sentences about writing/ is an advanced book. I don't mean it's dense or hard to read. On the contrary, it's a light read, in the good sense of the word: ethereal. A book that doesn't tire the eye, that flows like poetry. (That's a compliment). (And I don't read poetry). /Several short sentences about wiring/ is an advanced book because it took me a decade to be in a position to appreciate why its discussion is relevant for a software engineer. I needed to first acknowledge that /programs must be written for people to read, and only incidentally for machines to execute/, that /English is just another programming language/, that /we're in the human communication business/, that programming is a form of writing.
+[fn:10] Text is the stuff of programming. Writing is an important skill, even when only applied to READMEs and PR descriptions. Strunk & White's /Elements of Style/ is the standard recommendation, but I find it too low level, too focused on preventing errors that can be detected by a computer. If, as suggested in /The Pragmatic Programmer/, we treat English as just another programming language then /Elements of Style/ deals with syntax and /On Writing Well/ deals with design. This book will push you to be deliberate about the many little choices involved in composing a nonfiction text; it will make you think about how to start and how to finish, who your audience is---what can you expect them to know, what do you need to supply, what will the text say to them. It will show you that, much like programming, writing is about simplifying, clarifying, tidying up and fixing what has already been written.
 
-[fn:11] I had the privilege of getting a full-time job at a software company right after starting college. That certainly delayed my graduation but, in exchange, it armed me with perspective for the rest of my career: I would take both what I saw in class and at the office with a grain of salt. I remember, from those first couple of years, being overwhelmed by the amount of things that I so obviously didn't know. It was hard to prioritize, to tell what was important to really understand, what I just needed to get familiar with, and what I could just ignore. I think that /The Missing README/ would have been a life saver back then. Project management methodologies are the perfect example: chapter 12 and the [[https://agilemanifesto.org/][Agile Manifesto]] should be all you need; beware of whoever says otherwise---they may be trying to make you to join their cult.
+[fn:11] /Several short sentences about writing/ is an advanced book. I don't mean it's dense or hard to read. On the contrary, it's a light read, in the good sense of the word: ethereal. A book that doesn't tire the eye, that flows like poetry. (That's a compliment). (And I don't read poetry). /Several short sentences about wiring/ is an advanced book because it took me a decade to be in a position to appreciate why its discussion is relevant for a software engineer. I needed to first acknowledge that /programs must be written for people to read, and only incidentally for machines to execute/, that /English is just another programming language/, that /we're in the human communication business/, that programming is a form of writing.
 
 [fn:12] Concepts, Techniques, and Models of Computer Programming
 
@@ -107,9 +107,9 @@ your sleep and put everything you've got into a project, and forgot the point of
 [fn:18]  Who isn't guilty of throwing the "root of all evils" bit around at some point? I am, but these days I feel better represented by Joe Armstrong's quote than by Knuth's: /Make it work, then make it beautiful, then if you really, really have to, make it fast. 90% of the time, if you make it beautiful, it will already be fast. So really, just make it beautiful!/ /Systems Performance/ is for the other 10% of the time. The /Performance Analysis Methodology/ [[https://www.youtube.com/watch?v=abLan0aXJkw][talk]] and [[https://queue.acm.org/detail.cfm?id=2413037][paper]] are a good introduction to the ideas in the book; the [[https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55?gi=7992fad4b27b][/Linux Performance Analysis in 60,000 milliseconds/]] is the practical tl;dr. When that fails, then there's /Systems Performance/, which is probably the most technical and specialized book in this list---and my bookshelf.
 I learned about Brendan Gregg's work through a colleague, during a period when management at my company was fixated on reducing infrastructure costs by making us optimize our systems. The book forced me to work against my instincts, looking inside of the very things my brain insisted on abstract away. I was out of my league, clearly, and I didn't save any infra costs, but I came out a better engineer from that process.
 
-[fn:19]  Learn Concurrent Programming with Go
+[fn:19] Learn You Some Erlang for Great Good!
 
-[fn:20] Learn You Some Erlang for Great Good!
+[fn:20]  Learn Concurrent Programming with Go
 
 [fn:21] As I was putting together this list, I noticed something was missing from my bookshelf. There are books touching on data structures, file systems, database internals, software architecture and large-scale distributed data systems. But none deals with using databases from a developer's perspective. Years ago I would have covered that gap with something like /Seven Databases in Seven Weeks/, to get an overview of available implementations and their trade-offs. But, as I grow older and more conservative I tend to favor minimalism and frugality: you're likely to only need PostgreSQL for most projects, why not focus on getting good at that. That still doesn't warrant reading a book entirely dedicated to PostgreSQL, or to the SQL language, or to the relational model, for that matter. Looking around I saw many recommendations of /SQL performance explained/, which has an [[https://use-the-index-luke.com/][online version]]. This book starts with a bold premise: /the only thing developers need to learn is how to index/. Far from turning the book into a shallow tutorial, this premise provides it with structure: each chapter dedicated to a part of an SQL query, but going deep into its inner workings and the data structures that power it.
 
@@ -133,7 +133,7 @@ I learned about Brendan Gregg's work through a colleague, during a period when m
 
 [fn:31] I picked up /Designing Data-Intensive Applications/ out of a mix of professional curiosity and fear of missing out. I felt that I needed some academic support to navigate the technological explosion that had taken place in the years after I had graduated. Kleppmann hits a surprising balance of depth, breadth, length and readability. I religiously worked my way through the book for a few months. Over the years, I've read accounts from other engineers that went through a similar process---even though none of us are really designing data-intensive applications or using advanced distributed systems techniques in production. I concluded that this book has become a modern classic and reading it is a rite of passage for a certain kind of senior engineer.
 
-[fn:32] /Distributed Systems for Fun and Profit/ is the gentler introduction to this area. Because of its topic selection and the mostly conceptual treatment, it should be all most software developers need to know about distributed systems. And, for those that want more, each chapter wraps with a curated list of follow-up papers and resources.
+[fn:32] /Distributed Systems for Fun and Profit/ is the gentler introduction to distributed systems. Because of its topic selection and the mostly conceptual treatment, it should be all most software developers need to know about this area. And, for those that want more, each chapter wraps with a curated list of follow-up papers and resources.
 
 [fn:33] I you compare the table of contents of /Database Internals/ and /Designing Data-Intensive Applications/ you'll see a lot of overlap. I think of /Database Internals/ as a kind of B-side of Kleppmann's book; more succinct, slightly more focused on databases than in distributed systems. Considering how complex these topics get, this book is a good alternative to reading the other for the second time.
 
