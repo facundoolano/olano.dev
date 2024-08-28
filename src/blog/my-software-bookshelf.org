@@ -84,7 +84,7 @@ your sleep and put everything you've got into a project, and forgot the point of
 
 [fn:7] One of my biggest sources of imposter syndrome is that I never had to struggle with an algorithms textbook when I was at college. The teachers of the algorithms and data structures course were young and too eager to jump from abstract data types to object-oriented programming---which was the topic of another course. Years later I read the Aho/Hopcroft/Ullman book on my own, but I guess reading these things isn't of much use if you don't bother with doing the exercises. The industry's tendency to use puzzle-solving skills as a proxy for developer competence isn't helping, either. I chose to add the Skiena book to my shelves because its structure makes it look more approachable than the alternatives: 300 hundred pages to cover the fundamentals, favoring war stories over demonstrations, and a catalog of algorithmic problems to wrap it up. I sincerely want to read this thing, I swear, it's just life---and other books in this list---keep getting in the way.
 
-[fn:8] I like how /Programming Pearls/ takes what could be the curricula of a Computer Science class and gives it a craftsman's treatment. It's not so much about the specific techniques but about the problem-solving mindset you need to get into use them, and the creativity of devising your own. It's also, as its title suggests, about these little jewels that don't make your every day work but that, when you come across them, remind you why you fell in love with this thing.
+[fn:8] I like how /Programming Pearls/ takes what could be the syllabus of a Computer Science class and gives it a craftsman's treatment. It's not so much about the specific techniques but about the problem-solving mindset you need to get into use them, and the creativity of devising your own. It's also, as its title suggests, about these little jewels that don't make your every day work but that, when you come across them, remind you why you fell in love with this thing.
 
 [fn:9] I had the privilege of getting a full-time job at a software company right after starting college. That certainly delayed my graduation but, in exchange, it armed me with perspective for the rest of my career: I would take both what I saw in class and at the office with a grain of salt. I remember, from those first couple of years, being overwhelmed by the amount of things that I so obviously didn't know. It was hard to prioritize, to tell what was important to really understand, what I just needed to get familiar with, and what I could just ignore. I think that /The Missing README/ would have been a life saver back then. Project management methodologies are the perfect example: chapter 12 and the [[https://agilemanifesto.org/][Agile Manifesto]] should be all you need; beware of whoever says otherwise---they may be trying to make you to join their cult.
 
@@ -117,7 +117,9 @@ I learned about Brendan Gregg's work through a colleague, during a period when m
 
 [fn:23] Real-World Cryptography
 
-[fn:24] Release It!
+[fn:24] The biggest revelation of my professional life was moving from building software wishfully expected to scale, to maintaining systems that had been running in production, for years, at scale.
+It wasn't about easing development, it was about easing operations. It wasn't about sophisticated components, it was about keeping things simple to reason about. It wasn't about preventing errors, it was about working in spite of them. It wasn't about scalability, it was about stability. While some of the war stories and the discussion show their age, no book that I know of does a better job at imbuing this production-first attitude than /Release it!/
+
 
 [fn:25] Kill It With Fire
 
@@ -127,7 +129,7 @@ I learned about Brendan Gregg's work through a colleague, during a period when m
 
 [fn:28] Team Topologies
 
-[fn:29] I have mixed feelings about architecture. I think software architecture, the field, is worth studying, discussing, and working on, but the role of the software architect---calling the shots while the devs do the work---shouldn't exist. That's why I think the architectural mindset comes second to the organizational perspective promoted by /The Staff Engineer's Path/ and /Team Topologies/. That being said, /Fundamentals of Software Architecture/ is a great book, packed with practical ideas, techniques, and patterns. The companion /Software Arechitecture: The Hard Parts/ presents the same material through a case study.
+[fn:29] I have mixed feelings about software architecture. I think architecture, the field, is worth studying, discussing, and working on, but the role of the software architect---calling the shots while the devs do the work---shouldn't exist. That's why I think the architectural mindset comes second to the organizational perspective promoted by /The Staff Engineer's Path/ and /Team Topologies/. That being said, /Fundamentals of Software Architecture/ is a great book, packed with practical ideas, techniques, and patterns. The companion /Software Arechitecture: The Hard Parts/ presents the same material through a case study.
 
 [fn:30] <(Building Microservices) this holds a special place for me because it was the first architecture book I've read that seemed to be written <for my own times>. regardless of microservices, it seemed to have answers to the question of how should software be architected in the post cloud world. <I picked it up because I joined a company that was doing microservices and I wanted to do it right. I learned that we shouldn't have been doing it at all.
 
@@ -137,11 +139,9 @@ I learned about Brendan Gregg's work through a colleague, during a period when m
 
 [fn:33] I you compare the table of contents of /Database Internals/ and /Designing Data-Intensive Applications/ you'll see a lot of overlap. I think of /Database Internals/ as a kind of B-side of Kleppmann's book; more succinct, slightly more focused on databases than in distributed systems. Considering how complex these topics get, this book is a good alternative to reading the other for the second time.
 
-[fn:34] Crafting Interpreters
-https://journal.stuffwithstuff.com/2020/04/05/crafting-crafting-interpreters/
-https://journal.stuffwithstuff.com/2021/07/29/640-pages-in-15-months/
+[fn:34] I've seen fads come and go, conventional wisdom emerged and forgotten, but I haven't seen that many universal agreements. One thing everybody seems to agree about: the Dragon Book is the definitive reference on compiler and language design. Another one: the Dragon Book is almost impossible to read. Over the last couple of years I saw a new universal truth emerge: /Crafting Interpreters/ is the book anyone interested in language design should read. So far I've only read the introduction, but just by skimming it and reading about how it was [[https://journal.stuffwithstuff.com/2020/04/05/crafting-crafting-interpreters/][written]] and [[https://journal.stuffwithstuff.com/2021/07/29/640-pages-in-15-months/][diagrammed]], I can tell why this is such a praised and loved book. I wonder if over the next decade we'll see a generation of languages influenced by the work of Bob Nystrom. I decided to put this by the end of my list; I'd like to replace the idea that compilers are a tricky subject to struggle with in college with this: designing a programming language is what our career has been preparing us for.
 
-[fn:35] Essentials of Compilation
+[fn:35] I couldn't wrap this up without a single mention of Lisp. There are books in my shelves about learning to program with Lisp---about thinking in Lisp---; a book to learn Clojure and another to master it; a book to configure my editor using a Lisp dialect, and another to learn how computers learn, using Lisp. But nothing suits Lisp, and Racket in particular, like language development. I don't remember where I learned about /Essentials of Compilation/---it's not a very popular book judging by the amount of reviews I can find online. But it seems approachable, building on the ideas of the [[https://legacy.cs.indiana.edu/~dyb/pubs/nano-jfp.pdf][nanopass framework]] and the [[http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf][incremental approach]] to compiler construction; a good complement to /Crafting Interpreters/, and the perfect excuse to go nuts on Lisp.
 
 -----
 
@@ -150,5 +150,3 @@ See also:
 - [[https://github.com/facundoolano/software-papers][Papers for Software Engineers]].
 - [[https://teachyourselfcs.com/][Teach Yourself Computer Science]].
 - [[https://blog.codinghorror.com/recommended-reading-for-developers/][Recommended Reading for Developers]].
-
-[fn:36] Thinking in Systems ?
