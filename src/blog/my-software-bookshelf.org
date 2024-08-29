@@ -120,7 +120,7 @@ I learned about Brendan Gregg's work through a colleague, during a period when m
 [fn:24] The biggest revelation of my professional life was moving from building software wishfully expected to scale, to maintaining systems that had been running in production, for years, at scale.
 It wasn't about easing development, it was about easing operations. It wasn't about sophisticated components, it was about keeping things simple to reason about. It wasn't about preventing errors, it was about working in spite of them. It wasn't about scalability, it was about stability. While some of the war stories and the discussion show their age, no book that I know of does a better job at imbuing this production-first attitude than /Release it!/
 
-[fn:25] Kill It With Fire
+[fn:25] Someone recently told me: "if you are not dealing with legacy systems at work, then you are building someone else's legacy system". This is an elegant way to capture the ideas in /Kill It With Fire/. We spend a disproportionate amount of time reading and writing books and blogs, and attending conferences, about greenfield system design, if we consider how much of our actual work is actually about maintaining old software---and how many greenfield projects never reach production. /Kill It With Fire/ didn't really work for me as a book: there's something missing in its organization, I often lost track of how I had gotten to a point in the discussion, or where it was leading me to. But its many insights and some brilliant passages keep coming back to me when I work and when I write. I think the ideas in this book hint at a more sustainable future for the software industry.
 
 [fn:26] The Staff Engineer's Path
 
