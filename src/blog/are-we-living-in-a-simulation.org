@@ -1,10 +1,11 @@
 ---
 title: Are We Living in a Simulation?
-date: 2024-09-05
+date: 2024-09-06
 layout: post
 lang: en
 tags: [software]
-draft: true
+image: assets/img/pills.jpg
+excerpt: I posit that it’s statistically unlikely for an engineer to get a job working on a system that isn’t either imaginary or legacy software. There is no middle ground.
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
@@ -29,7 +30,7 @@ This is perhaps explained by the fact that startups live on investor's money. Th
 *** Survivalism and Imaginary Software
 How does startup culture affect software engineering?
 
-First, there's pressure to adopt a tactical mindset, of always choosing the shortest path to completion for a given task, never stopping to think about the long-term health of the systems. The ideal startup employee is what John Ousterhout calls the /tactical tornado/, a prolific programmer that pumps out code like there's no tomorrow---fittingly, since for startups there usually /is/ no tomorrow.
+First, there's pressure to adopt a tactical mindset, of always choosing the shortest path to completion of the given task, never stopping to think about the long-term health of the systems. The ideal startup employee is what John Ousterhout calls the /tactical tornado/, a prolific programmer that pumps out code like there's no tomorrow---fittingly, since for startups there usually /is/ no tomorrow.
 
 Second, the startup narrative tends to insist on growth as the primary goal. The technical consequence of this mentality is /survivalism/, the presumption that scalability and extensibility need to be baked into the system from its inception, in preparation for future needs. Survivalism explains the over-engineering described in the opening quotes: microservices, kubernetes, and DynamoDB to reliably handle all of the zero users in productions. A refusal to adopt this survivalist mindset may be perceived as a lack of commitment, as if the engineer wasn't believing hard enough in the future success of the company.
 
