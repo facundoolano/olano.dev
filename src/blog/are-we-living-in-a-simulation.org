@@ -1,0 +1,40 @@
+---
+title: Are We Living in a Simulation?
+date: 2024-09-05
+layout: post
+lang: en
+tags: [software]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+[[https://ludic.mataroa.blog/][Ludicity]] blog author lucidly uses the word 'cosplay' to characterize our industry's dysfunction:
+
+#+begin_quote
+It feels as if 95% of engineering teams are cosplaying as being whatever we imagine real engineers to be. (...) This explains things like why I've seen teams at major employers that store <4 kB of logs a day in fucking DynamoDB - they just read that this is what people do and want to do the cosplay better.
+#+end_quote
+
+#+begin_quote
+The industry is so primed with nonsense that we effectively have two industries. We have a real engineering market, where people are fairly serious and gather in small conclaves, and then a gigantic field of people that are cosplaying at engineering. The real market is large in absolute terms, but tiny relative to the number of candidates and companies out there. The fake market is all people that haven't cultivated the discipline to engineer but nonetheless want software engineering salaries and clout.
+#+end_quote
+
+The wording hits a nerve; I immediately associated these ideas with what I've been thinking and writing about over the last couple of years.
+
+*** Startup Cosplay
+
+*** Imaginary Software
+
+*** Legacy Systems
+
+*** The Dilemma
+
+Indulge, dear reader, another exercise in reductionism.
+
+I posit that it's statistically unlikely for an engineer to get a job working on a system that isn't either imaginary or legacy software. There is no middle ground. If the product was ever going to be successful, it would already be successful; if /it is/ successful, then it comes with baggage.
+
+This is the dilemma. Software engineers must choose between imaginary software---where they get to envision and design and architect, where they have agency but where their decisions are ultimately irrelevant---and legacy software---where most design decisions have already been made, and change is slow and heavily constrained.
+
+The software engineer has to choose one.
+
+I made my choice.
