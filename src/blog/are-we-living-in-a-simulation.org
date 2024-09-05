@@ -30,19 +30,19 @@ This is perhaps explained by the fact that startups live on investor's money. Th
 *** Survivalism and Imaginary Software
 How does startup culture affect software engineering?
 
-First, there's pressure to adopt a tactical mindset, of always choosing the shortest path to completion of the given task, never stopping to think about the long-term health of the systems. The ideal startup employee is what John Ousterhout calls the /tactical tornado/, a prolific programmer that pumps out code like there's no tomorrow---fittingly, since for startups there usually /is/ no tomorrow.
+First, there's pressure to adopt a tactical programming mindset, always choosing the shortest path to completion of the given task, never stopping to think about the long-term health of the systems. The ideal startup employee is what John Ousterhout calls the /tactical tornado/, a prolific programmer that pumps out code like there's no tomorrow---fittingly, since for startups there usually /is/ no tomorrow.
 
-Second, the startup narrative tends to insist on growth as the primary goal. The technical consequence of this mentality is /survivalism/, the presumption that scalability and extensibility need to be baked into the system from its inception, in preparation for future needs. Survivalism explains the over-engineering described in the opening quotes: microservices, Kubernetes, and DynamoDB to reliably handle all of the zero users in productions. A refusal to adopt this survivalist mindset may be perceived as a lack of commitment, as if the engineer doesn't believe hard enough in the future success of the company.
+Second, the startup narrative tends to insist on growth as the primary goal. The technical corollary of this mentality is /survivalism/, the presumption that scalability and extensibility need to be baked into the system from its inception, in preparation for hypothetical future needs. Survivalism explains the over-engineering from the opening quote---microservices, Kubernetes, and DynamoDB at the service of our zero users in production. A reluctance to adopt this survivalist mindset may be perceived as a lack of commitment, as if the engineer doesn't believe hard enough in the future success of the company.
 
-But even when engineers manage to ignore external pressures, if they strive to keep things simple and produce the best design they can under the given constraints, there's the problem that early startup software is usually greenfield software built on quicksand. As Michael Nygard puts it in /Release it!/: the beginning is when teams are most ignorant about the eventual structure of the system---the eventual needs of the product---and yet that's when the most significant must be made. Startup engineers are building on assumptions that will be tested, at best, years later, when they likely won't be around to deal with the consequences of their decisions.
-Since most startups fail, these assumptions may never get tested at all. From a technical standpoint, it doesn't really matter how they design the system; there's nothing at stake: they are building imaginary software.
+But even when engineers manage to ignore external pressures, if they strive to keep things simple and produce the best possible design under the given constraints, there's the problem that early startup software is usually greenfield software built on quicksand. As Michael Nygard puts it in /Release it!/: the beginning is when teams are most ignorant about the eventual structure of the system---the eventual needs of the product---and yet that's when the most significant decisions need to be made. Startup engineers are building on assumptions that will be tested, at best, years later, when they likely won't be around to deal with the consequences.
+Realistically, since most startups fail, these assumptions may never get tested at all. From a technical standpoint, it doesn't matter how the system is designed; there's nothing at stake: this is imaginary software.
 
 *** Legacy
-If early-stage startups are on one end of the spectrum, on the other are stable companies, running systems in production, with real users and a plausible business model if not already profitable. They know what problem they are solving and who they are solving it for.
+If early-stage startups are on one end of the spectrum, on the other are stable companies, running systems in production, with real users and a plausible business model. They know what problem they are solving and who they are solving it for.
 
 Systems running in production are systems that have already been designed. Such designs may not be documented, they may be implicit; they may not be the work of individual authors but the result of years of uneven contributions, or they may have authors that have long left the scene. These are what we call legacy systems.
 
-Legacy software is not a problem, only that it's very hard to relate it to software engineering as discussed in blogs, books, and conferences. It's a less glamorous activity than designing beautiful interfaces or envisioning sophisticated architectures and scaling them to the world. The day-to-day work is maintenance: bug fixing, operations, small extensions, reading, and documenting. Change is slow and difficult, and often hard to justify economically.
+Legacy software is not a problem, only that it hardly relates to software engineering as discussed in blogs, books, and conferences. It's a less glamorous activity than designing beautiful interfaces or envisioning sophisticated architectures and scaling them to the world. The day-to-day work is maintenance: bug fixing, operations, small extensions, reading, and documenting. Change is slow and difficult, and often hard to justify economically.
 
 Any long-lived software system must become legacy. Legacy software is the sane default. It's only by historical circumstances and economic accident that it hasn't been.
 
@@ -52,8 +52,8 @@ Indulge, dear reader, one final exercise in reductionism.
 
 I posit that it's statistically unlikely for an engineer to get a job working on a system that isn't either imaginary or legacy software. There is no middle ground. If the product was ever going to be successful, it would already be successful; if /it is/ successful, then it comes with baggage.
 
-This is the dilemma. Software engineers must choose between imaginary software---where they get to envision and design and architect, where they have agency, but where their decisions are ultimately unimportant---and legacy software---where design decisions have already been made, and change is heavily constrained.
+This is the dilemma. Software engineers must choose between imaginary software---where they get to envision and design and architect, where they have agency but their decisions are ultimately meaningless---and legacy software---where decisions have already been made and change is heavily constrained.
 
-The software engineer has to make a choice.
+The software engineer has to choose.
 
-I made mine.
+I made my choice.
