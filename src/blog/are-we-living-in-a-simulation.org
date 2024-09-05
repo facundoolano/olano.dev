@@ -1,6 +1,6 @@
 ---
 title: Are We Living in a Simulation?
-date: 2024-09-06
+date: 2024-09-05
 layout: post
 lang: en
 tags: [software]
@@ -10,7 +10,7 @@ excerpt: I posit that it’s statistically unlikely for an engineer to get a job
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-[[https://ludic.mataroa.blog/][Ludicity]] blog author lucidly uses the word 'cosplay' to characterize our industry's dysfunction:
+[[https://ludic.mataroa.blog/][Ludicity]] blog author lucidly uses the word 'cosplay' to characterize our dysfunction:
 
 #+begin_quote
 It feels as if 95% of engineering teams are cosplaying as being whatever we imagine real engineers to be. (...) This explains things like why I've seen teams at major employers that store <4 kB of logs a day in fucking DynamoDB - they just read that this is what people do and want to do the cosplay better.
@@ -32,7 +32,7 @@ How does startup culture affect software engineering?
 
 First, there's pressure to adopt a tactical programming mindset, always choosing the shortest path to completion of the given task, never stopping to think about the long-term health of the systems. The ideal startup employee is what John Ousterhout calls the /tactical tornado/, a prolific programmer that pumps out code like there's no tomorrow---fittingly, since for startups there usually /is/ no tomorrow.
 
-Second, the startup narrative tends to insist on growth as the primary goal. The technical corollary of this mentality is /survivalism/, the presumption that scalability and extensibility need to be baked into the system from its inception, in preparation for hypothetical future needs. Survivalism explains the over-engineering from the opening quote---microservices, Kubernetes, and DynamoDB at the service of our zero users in production. A reluctance to adopt this survivalist mindset may be perceived as a lack of commitment, as if the engineer doesn't believe hard enough in the future success of the company.
+Second, the startup narrative tends to insist on growth as the primary goal. The technical corollary of this mentality is /survivalism/, the presumption that scalability and extensibility need to be baked into the system from its inception, in preparation for hypothetical future needs. Survivalism explains the over-engineering from the opening quote---we don't know where we're going, but Kubernetes will take us there. A reluctance to adopt this survivalist mindset may be perceived as a lack of commitment, as if the engineer doesn't believe hard enough in the future success of the company.
 
 But even when engineers manage to ignore external pressures, if they strive to keep things simple and produce the best possible design under the given constraints, there's the problem that early startup software is usually greenfield software built on quicksand. As Michael Nygard puts it in /Release it!/: the beginning is when teams are most ignorant about the eventual structure of the system---the eventual needs of the product---and yet that's when the most significant decisions need to be made. Startup engineers are building on assumptions that will be tested, at best, years later, when they likely won't be around to deal with the consequences.
 Realistically, since most startups fail, these assumptions may never get tested at all. From a technical standpoint, it doesn't matter how the system is designed; there's nothing at stake: this is imaginary software.
