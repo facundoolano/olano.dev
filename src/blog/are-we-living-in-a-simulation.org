@@ -37,15 +37,18 @@ First, there's pressure to adopt a tactical programming mindset, of always choos
 But even when engineers manage to ignore external pressures, if they strive to keep things simple and produce the best design they can under the given constraints, there's the problem that early startup software is usually greenfield software built on quicksand. As Michael Nygard puts it in /Release it!/: the beginning is when teams are most ignorant about the eventual structure of the system---the eventual needs of the product--- and yet it's when some of the most irrevocable decisions must be made. Startup engineers are building on assumptions that will be tested, at best, years later, when they likely won't be around to deal with the consequences of their decisions.
 Since most startups fail, these assumptions may never get tested at all. From a technical standpoint it doesn't really matter how they design the system; there's nothing at stake: they are building imaginary software.
 
-
-
-
-
 *** Legacy Systems
+On the opposite end of the spectrum to startups we have stable companies, running systems in production, with users; they have a business model if they aren't already profitable. They know what problem they are solving and who they are solving it for.
+
+Systems running in production are systems already designed. Such designs may not be documented, they may be implicit; they may not have individual authors but resulted from years of uneven contributions, or they may have authors that have long left the scene. This is what we call legacy systems.
+
+Legacy software is not a problem in itself, only that it's very hard to relate to software engineering as discussed in blogs and books and conferences. It's a less glamorous activity than designing beautiful interfaces or envisioning sophisticated architectures and scaling to the world. The day to day work is maintenance: bug fixing, operations, small feature extensions, reading and documenting old code. Change is slow and difficult, and often hard to justify economically.
+
+Any long-lived software system must become legacy. Legacy software should be our default. It's only by historical accident that it isn't.
 
 *** The Dilemma
 
-Indulge, dear reader, another exercise in reductionism.
+Indulge, dear reader, one final exercise in reductionism.
 
 I posit that it's statistically unlikely for an engineer to get a job working on a system that isn't either imaginary or legacy software. There is no middle ground. If the product was ever going to be successful, it would already be successful; if /it is/ successful, then it comes with baggage.
 
