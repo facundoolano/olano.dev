@@ -22,8 +22,12 @@ The industry is so primed with nonsense that we effectively have two industries.
 The wording hits a nerve; I immediately associated these ideas with what I've been thinking and writing about over the last couple of years.
 
 *** Startup Cosplay
+The quotes above focus on the engineering side of things. I see inefficiencies everywhere, but I've seen this tendency to cosplay most consistently in startup founders and product owners. They seem to make a cult of working tactically and reactively, of always showing a sense of urgency, moving towards a vague vision but with no concrete plans or priorities. It's as if the tactical attitude---the long hours, the constant changes, the lack of direction---was the only way a startup is supposed to work. As if it was less about achieving some goal than about looking the part.
+
+This is perhaps explained by the fact that startups live on investor's money. Their survival is less concerned with accountability and effectiveness than with making a convincing case for investors to keep pouring money in the company.
 
 *** Imaginary Software
+
 
 *** Legacy Systems
 
@@ -33,7 +37,7 @@ Indulge, dear reader, another exercise in reductionism.
 
 I posit that it's statistically unlikely for an engineer to get a job working on a system that isn't either imaginary or legacy software. There is no middle ground. If the product was ever going to be successful, it would already be successful; if /it is/ successful, then it comes with baggage.
 
-This is the dilemma. Software engineers must choose between imaginary software---where they get to envision and design and architect, where they have agency but where their decisions are ultimately irrelevant---and legacy software---where most design decisions have already been made, and change is slow and heavily constrained.
+This is the dilemma. Software engineers must choose between imaginary software---where they get to envision and design and architect, where they have agency, but where their decisions are ultimately irrelevant---and legacy software---where most design decisions have already been made, and change is slow and heavily constrained.
 
 The software engineer has to choose one.
 
