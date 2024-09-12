@@ -16,39 +16,39 @@ Here are books I hope I'll read\\
 and books I wish I had but never will.
 
 -----
-1. Code[fn:1]
-   + The New Turing Omnibus[fn:2]
-2. The Innovators[fn:3]
-   + The Soul of a New Machine[fn:4]
-   + Coders at Work[fn:5]
-3. The Missing README[fn:6]
-4. The Algorithm Design Manual[fn:7]
-   + Programming Pearls[fn:8]
-5. On Writing Well[fn:9]
-   + Several short sentences about writing[fn:10]
-6. Concepts, Techniques, and Models of Computer Programming[fn:11]
-   + Exercises in Programming Style[fn:12]
-7. The Pragmatic Programmer[fn:13]
-8. The Design of Everyday Things[fn:14]
-9. A Philosophy of Software Design[fn:15]
-10. SQL Performance Explained[fn:16]
-11. Learn You Some Erlang for Great Good![fn:17]
-    + Learn Concurrent Programming with Go[fn:18]
-12. The Mythical Man Month[fn:19]
-13. Release It![fn:20]
-    + Kill It With Fire[fn:21]
-14. How Linux Works[fn:22]
-    + Systems Performance[fn:23]
-15. Designing Secure Software[fn:24]
-    + Real-World Cryptography[fn:25]
-16. The Staff Engineer's Path[fn:26]
-    + The Manager's Path[fn:27]
-    + Team Topologies[fn:28]
-    + Fundamentals of Software Architecture[fn:29]
-    + Building Microservices[fn:30]
-17. Designing Data-Intensive Applications[fn:31]
-18. Crafting Interpreters[fn:32]
-    + Essentials of Compilation[fn:33]
+1. *Code*[fn:1] by Charles Petzold
+   + *The New Turing Omnibus*[fn:2] by A.K. Dewdney
+2. *The Innovators*[fn:3] by Walter Isaacson
+   + *The Soul of a New Machine*[fn:4] by Tracy Kidder
+   + *Coders at Work*[fn:5] by Peter Seibel
+3. *The Missing README*[fn:6] by Chris Riccomini and Dmitriy Ryaboy
+4. *The Algorithm Design Manual*[fn:7] by Steven S. Skiena
+   + *Programming Pearls*[fn:8] by Jon Bentley
+5. *On Writing Well*[fn:9] by William Zinsser
+   + *Several short sentences about writing*[fn:10] by Verlyn Klinkenborg
+6. *Concepts, Techniques, and Models of Computer Programming*[fn:11] by Peter Van Roy and Seif Haridi
+   + *Exercises in Programming Style*[fn:12] by Cristina Videira Lopes
+7. *The Pragmatic Programmer*[fn:13] by David Thomas and Andrew Hunt
+8. *The Design of Everyday Things*[fn:14] by Donald A. Norman
+9. *A Philosophy of Software Design*[fn:15] by John Ousterhout
+10. *SQL Performance Explained*[fn:16] by Markus Winand
+11. *Learn You Some Erlang for Great Good!*[fn:17] By Fred Hébert
+    + *Learn Concurrent Programming with Go*[fn:18] by James Cutajar
+12. *The Mythical Man Month*[fn:19] by Frederick P. Brooks Jr.
+13. *Release It!*[fn:20] by Michael T. Nygard
+    + *Kill It With Fire*[fn:21] by Marianne Bellotti
+14. *How Linux Works*[fn:22] by Brian Ward
+    + *Systems Performance*[fn:23] by Brendan Gregg
+15. *Designing Secure Software*[fn:24] by Loren Kohnfelder
+    + *Real-World Cryptography*[fn:25] by David Wong
+16. *The Staff Engineer's Path*[fn:26] by Tanya Reilly
+    + *The Manager's Path*[fn:27] by Camille Fournier
+    + *Team Topologies*[fn:28] by Manuel Pais and Matthew Skelton
+    + *Fundamentals of Software Architecture*[fn:29] by Mark Richards and Neal Ford
+    + *Building Microservices*[fn:30] by Sam Newman
+17. *Designing Data-Intensive Applications*[fn:31] by Martin Kleppmann
+18. *Crafting Interpreters*[fn:32] by Robert Nystrom
+   + *Essentials of Compilation*[fn:33] by Jeremy Siek
 
 -----
 
