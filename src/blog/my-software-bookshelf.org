@@ -16,6 +16,7 @@ Here are books I hope I'll read\\
 and books I wish I had but never will.
 
 -----
+
 1. *Code*[fn:1] by Charles Petzold
    + *The New Turing Omnibus*[fn:2] by A.K. Dewdney
 2. *The Innovators*[fn:3] by Walter Isaacson
@@ -51,6 +52,17 @@ and books I wish I had but never will.
    + *Essentials of Compilation*[fn:33] by Jeremy Siek
 
 -----
+See also:
+
+- [[https://github.com/facundoolano/software-papers][Papers for Software Engineers]]
+- [[https://teachyourselfcs.com/][Teach Yourself Computer Science]]
+- [[https://blog.codinghorror.com/recommended-reading-for-developers/][Recommended Reading for Developers]]
+
+#+begin_export html
+<br/>
+#+end_export
+
+** Notes
 
 [fn:1] Back in college, I learned about circuits in a physics class. I learned about boolean algebra in a math class; binary code in a programming class; logic gates and CPU architecture in an electronics class, and information theory in a data organization class. Some of these courses were years apart from each other. I always felt I was missing the big picture, an unifying thread to tie all this disparate knowledge together. I wish I had a book like /Code/ to follow along. Not only does it build the computer from the lowest to the highest level of abstraction, but it throws in  historical context along the way. /Code/ is compact and interesting enough that I frequently take it out and make plans to read it cover to cover, just out of curiosity and entertainment, even all these years after first learning about its material. And then I put it back.
 
@@ -120,11 +132,3 @@ I learned about Brendan Gregg's work through a colleague, during a period when t
 [fn:32] One thing everybody seems to agree about: the Dragon Book is the definitive reference on compilers and language design. Another one: the Dragon Book is almost impossible to read. Over the last couple of years, I saw a new universal truth emerge: /Crafting Interpreters/ is the book anyone interested in language design should read. So far I've only read the introduction but, just by reading about how it was [[https://journal.stuffwithstuff.com/2020/04/05/crafting-crafting-interpreters/][written]] and [[https://journal.stuffwithstuff.com/2021/07/29/640-pages-in-15-months/][diagrammed]], I can tell why this is such a praised and loved book. I wonder if, over the next decade, we'll see a generation of languages influenced by the work of Bob Nystrom. I decided to put this by the end of my list; I'd like to replace the idea that compilers are a tricky subject to struggle with in college with this one: designing a programming language is what our whole career has been preparing us to do.
 
 [fn:33] I couldn't wrap this up without a single mention of Lisp. There are books on my shelves about learning to program with Lisp---about thinking in Lisp---; a book to learn Clojure and another one to master it; a book to configure my editor using a Lisp dialect, and another one to learn how computers learn (using Lisp). But nothing suits Lisp, and Racket in particular, better than language development. I don't remember where I learned about /Essentials of Compilation/---it's a rare book judging by the amount of reviews I can find online. But it seems approachable, building on ideas from [[https://legacy.cs.indiana.edu/~dyb/pubs/nano-jfp.pdf][popular]] [[http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf][papers]], a good complement to /Crafting Interpreters/, and the perfect excuse to go nuts on Lisp.
-
------
-
-See also:
-
-- [[https://github.com/facundoolano/software-papers][Papers for Software Engineers]].
-- [[https://teachyourselfcs.com/][Teach Yourself Computer Science]].
-- [[https://blog.codinghorror.com/recommended-reading-for-developers/][Recommended Reading for Developers]].
