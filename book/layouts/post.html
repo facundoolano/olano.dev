@@ -1,0 +1,19 @@
+<div class="content layout-{{ page.layout }} e-content" lang="{{ page.lang | default:'es'}}">
+    <header {% if page.cover-img %}class="with-cover"{% endif %}>
+        <h1 class="title p-name">{{ page.title }}</h1>
+        {% if page.subtitle %}<h3 class="subtitle">{{ page.subtitle }}</h3>{% endif  %}
+        <div class="date-tags">
+            <span class="date">{{ page.date | date: "%Y-%m-%d" }}</span>
+            <span class="tags">
+                {% for tag in page.tags %}
+                <span>#{{tag}}</span>
+                {% endfor %}
+            </span>
+        </div>
+        {% if page.cover-img %}
+        <img class="cover-img" src="{{ page.cover-img | absolute_url }}">
+        {% endif %}
+
+    </header>
+    {{ content }}
+</div>
