@@ -24,6 +24,15 @@ body {
     margin-top: 2rem;
 }
 
+blockquote {
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+}
+
+.title,  .subtitle {
+    hyphens:none;
+}
+
 img.cover-img {
     width: 100%;
     max-width: 100%;
@@ -35,16 +44,12 @@ img.cover-img {
 .layout-post .header .date-tags {
     margin:-1rem 0 0.5rem 0 ;
 }
-
-p {
-    margin: 0;
-    text-align: justify;
-    text-indent: 1em;
-    line-height: 125%;
+.layout-post .header .tags {
+    margin-top: .5rem;
 }
 
 .layout-post p + p {
-    text-indent: 1rem;
+    text-indent: 1em;
 }
 
 .layout-post .org-center, .layout-post .text-center, .layout-post .center-block {
