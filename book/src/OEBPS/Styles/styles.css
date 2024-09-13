@@ -16,12 +16,12 @@ body {
     hyphens:none;
 }
 
-.layout-post header {
+.layout-post .header {
     margin: 4rem 0 4rem;
     text-align: left;
 }
 
-.layout-post header.with-cover {
+.layout-post .header.with-cover {
     margin-top: 2rem;
 }
 
@@ -33,7 +33,7 @@ img.cover-img {
     margin-bottom: -2rem;
 }
 
-.layout-post header .date-tags {
+.layout-post .header .date-tags {
     margin:-1rem 0 0.5rem 0 ;
 }
 
