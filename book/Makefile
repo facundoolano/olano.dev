@@ -6,11 +6,12 @@ target: src/* layouts/*
 	jorge build
 
 # TODO exaplain this
-USED_IMAGES:=$(shell grep -oRSh 'static_root*[^"[:space:]]*' src/OEBPS/Text | sort | uniq | sed -E 's|static_root}}/||')
+INLINE_IMAGES:=$(shell grep -oRSh 'static_root*[^"[:space:]]*' src/OEBPS/Text | sort | uniq | sed -E 's|static_root}}/||')
+COVER_IMAGES:=$(shell grep -oRSh 'cover-img:.*$$' src/OEBPS/Text | sort | uniq | sed -E 's|cover-img: |img/|')
 src/OEBPS/img/.stamp: src/OEBPS/Text/* config.yml
 	rm -rf src/OEBPS/img
-	@for file in $(USED_IMAGES); do \
-          echo "processing $$file";\
+	@for file in $(INLINE_IMAGES) $(COVER_IMAGES); do \
+          echo "copying $$file";\
 	  mkdir -p $$(dirname src/OEBPS/$$file) ;\
           cp ../src/assets/$$file "src/OEBPS/$$file";\
         done
