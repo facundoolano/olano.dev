@@ -41,7 +41,7 @@
     {% endfor %}
 
     {% for file in site.static_files %}
-    {% if file.extname == "jpg" or file.extname == "jpeg"  or file.extname == "gif" or file.extname == "png"%}
+    {% if file.extname == ".jpg" or file.extname == ".jpeg"  or file.extname == ".gif" or file.extname == ".png"%}
     <item href="{{ file.path | remove:'OEBPS/' }}" id="{{ file.basename }}" media-type="image/{{file.ext}}" />
     {% endif %}
     {% endfor %}
