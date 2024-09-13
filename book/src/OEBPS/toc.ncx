@@ -1,23 +1,32 @@
 ---
 ---
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
   <head>
-    <title>Contents</title>
-    <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
+    <meta content="1" name="dtb:depth"/>
+
+    <!-- totalPageCount and maxPageNumber are mandatory, but they're not used in ebooks -->
+    <meta content="-1" name="dtb:totalPageCount"/>
+    <meta content="-1" name="dtb:maxPageNumber"/>
   </head>
-  <body>
-    <div id="toc" xml:lang="en-US">
-      <h1>Contents</h1>
-      <ul>
-        <!-- <li><a href="../Text/cover.xhtml"><span>Cover</span></a></li> -->
-        {% for post in site.posts | reverse %}
-        <li><a href="../{{post.path | remove:'OEBPS/'}}"><span>Chapter 1</span></a></li>
-        {% endfor %}
-      </ul>
-    </div>
-  </body>
-</html>
+  <docTitle>
+    <text>{{site.config.title}}</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navpoint1" playOrder="0">
+      <navLabel>
+        <text>Cover</text>
+      </navLabel>
+      <content src="Text/cover.xhtml"/>
+    </navPoint>
+    {% for post in site.posts | reverse %}
+    <navPoint id="{{post.slug}}" playOrder="{{ forloop.index }}">
+      <navLabel>
+        <text>{{post.title}}</text>
+      </navLabel>
+      <content src="{{post.path | remove:'OEBPS/'}}"/>
+    </navPoint>
+    {% endfor %}
+  </navMap>
+</ncx>

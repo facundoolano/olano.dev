@@ -1,16 +1,19 @@
 ---
 ---
-<html>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+          "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
         <title>{{page.head_title|default: page.title }} | olano.dev</title>
         <meta name="author" content="Facundo Olano">
     </head>
     <body>
 
         <div class="content layout-{{ page.layout }} e-content" lang="{{ page.lang | default:'es'}}">
-            <header {% if page.cover-img %}class="with-cover"{% endif %}>
+            <div {% if page.cover-img %}class="with-cover"{% endif %}>
                 <h1 class="title p-name">{{ page.title }}</h1>
                 {% if page.subtitle %}<h3 class="subtitle">{{ page.subtitle }}</h3>{% endif  %}
                 <div class="date-tags">
@@ -25,7 +28,7 @@
                 <img class="cover-img" src="{{ page.cover-img | absolute_url }}">
                 {% endif %}
 
-            </header>
+            </div>
             {{ content }}
         </div>
 
