@@ -1,3 +1,5 @@
+EPUB_FILENAME:=book.epub
+
 all: book.epub
 
 target: src/* layouts/*
@@ -17,9 +19,13 @@ images: target/OEBPS/Images/.stamp
 
 
 # FIXME apply a similar fix to links
+# FIXME missing manifest declarations
 
 # based on https://github.com/javierarce/epub-boilerplate/blob/master/publish
-book.epub: target images
+$(EPUB_FILENAME): target images
 	rm -f $@
 	cd target && zip -q0X ../$@ mimetype
 	cd target && zip -qXr9D ../$@ * -x "*.svn*" -x "*~" -x "*.hg*" -x "*.swp" -x "*.DS_Store"
+
+check:
+	epubcheck $(EPUB_FILENAME)
