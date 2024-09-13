@@ -4,7 +4,7 @@ date: 2024-07-01 13:59:14
 layout: post
 lang: es
 tags: [literatura]
-image: assets/img/borgesbioy.png
+image: borgesbioy.png
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

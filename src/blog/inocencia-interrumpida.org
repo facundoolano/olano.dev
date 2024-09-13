@@ -4,8 +4,8 @@ title: "Inocencia interrumpida"
 excerpt: La mentira que nos contamos a nosotros mismos.
 date: 2023-10-12
 tags: [software]
-thumbnail-img: assets/img/pappo.jpg
-image: assets/img/pappo.jpg
+thumbnail-img: pappo.jpg
+image: pappo.jpg
 lang: es
 ---
 #+OPTIONS: toc:nil num:nil

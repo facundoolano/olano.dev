@@ -5,9 +5,9 @@ subtitle: Un poema
 date: 2023-05-02
 tags: [poesía, distopías]
 excerpt: Fuimos escritos por Ted Chiang.
-thumbnail-img: assets/img/exhalation.jpg
-share-img: assets/img/exhalation.jpg
-image: assets/img/exhalation.jpg
+thumbnail-img: exhalation.jpg
+share-img: exhalation.jpg
+image: exhalation.jpg
 lang: es
 ---
 #+OPTIONS: toc:nil num:nil

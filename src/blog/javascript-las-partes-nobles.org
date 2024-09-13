@@ -2,7 +2,7 @@
 layout: post
 title: "JavaScript: las partes nobles"
 excerpt: Quiero hacer el ejercicio borgeano de fingir que un lenguaje existe y describirlo brevemente.
-image: assets/img/funscript.jpg
+image: funscript.jpg
 date: 2020-09-22
 tags: [programación, ideas]
 css: "highlight"
@@ -25,7 +25,7 @@ sin alejarse demasiado del original, se ajustara mejor a mis preferencias. Ahora
 otro lenguaje existe y describirlo brevemente.
 
 #+BEGIN_CENTER
-[[/assets/img/funscript.jpg]]
+[[{{site.config.static_root}}/img/funscript.jpg]]
 #+END_CENTER
 
 El lenguaje se llama FunScript[fn:1] y, por comodidad, voy a tomar como base [[https://www.w3schools.com/js/js_versions.asp][ECMAScript 5]], es decir: JavaScript

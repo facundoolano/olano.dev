@@ -5,9 +5,9 @@ subtitle: Una historia millenial del fútbol argentino
 date: 2023-02-06
 tags: [fútbol, literatura, memorias]
 favorite: true
-thumbnail-img: assets/img/giggio2.jpg
-image: assets/img/giggio2.jpg
-cover-img: assets/img/giggio2.jpg
+thumbnail-img: giggio2.jpg
+image: giggio2.jpg
+cover-img: giggio2.jpg
 excerpt:  Cuando Messi debutaba, yo terminaba la secundaria. Tarde para Maradona y temprano para Messi, mi tiempo fue el de Riquelme, el eslabón perdido, el que reemplazó a Diego en su último partido y precedió a Lionel como dueño de la Selección.
 lang: es
 ---

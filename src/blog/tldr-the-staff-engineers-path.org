@@ -3,8 +3,8 @@ layout: post
 title: "[tl;dr] The Staff Engineer's Path"
 date: 2023-01-16
 tags: [software, libros, tldr]
-thumbnail-img: assets/img/staff/cover.jpg
-image: assets/img/staff/cover.jpg
+thumbnail-img: staff/cover.jpg
+image: staff/cover.jpg
 excerpt: El libro de Tanya Reilly muestra un camino de crecimiento desde el liderazgo técnico y nos recuerda que estamos en el negocio de la comunicación y de las interacciones humanas, que los "soft skills" no son territorio exclusivo de los PMs.
 lang: es
 ---
@@ -13,7 +13,7 @@ lang: es
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/staff/cover.jpg" width="240">
+ <img src="{{site.config.static_root}}/img/staff/cover.jpg" width="240">
 </div>
 #+END_EXPORT
 
@@ -33,7 +33,7 @@ Existe el prejuicio de que, llegado a ese punto, el profesional de software tien
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/staff/ladder.png">
+ <img src="{{site.config.static_root}}/img/staff/ladder.png">
 </div>
 #+END_EXPORT
 
@@ -82,7 +82,7 @@ Por empezar, tenemos qué identificar cuán ocupados nos gusta estar. ¿Preferim
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/staff/busy.png">
+ <img src="{{site.config.static_root}}/img/staff/busy.png">
 </div>
 #+END_EXPORT
 
@@ -90,7 +90,7 @@ Hay que asumir que en una organización saludable, siempre va a haber más traba
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/staff/impact.png">
+ <img src="{{site.config.static_root}}/img/staff/impact.png">
 </div>
 #+END_EXPORT
 
@@ -103,7 +103,7 @@ Así como tenemos que considerar el costo/beneficio para la organización, tenem
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/staff/sims.png">
+ <img src="{{site.config.static_root}}/img/staff/sims.png">
 </div>
 #+END_EXPORT
 

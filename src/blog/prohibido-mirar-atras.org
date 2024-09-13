@@ -3,7 +3,7 @@ layout: post
 title: "Prohibido mirar atrás"
 date: 2024-02-01
 tags: [ficción]
-image: assets/img/colonia.jpg
+image: colonia.jpg
 lang: es
 ---
 #+OPTIONS: toc:nil num:nil

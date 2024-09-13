@@ -3,9 +3,9 @@ layout: post
 title: "Apocalipsis"
 subtitle: "Notas de lectura"
 date: 2021-03-15
-cover-img: assets/img/thestand2.png
-thumbnail-img: assets/img/thestand.jpg
-image: assets/img/thestand.jpg
+cover-img: thestand2.png
+thumbnail-img: thestand.jpg
+image: thestand.jpg
 tags: [libros, literatura, ficción, distopías, memorias]
 favorite: true
 lang: es
@@ -47,7 +47,7 @@ Parecería que Stephen King se propuso armar una historia exageradamente yanqui.
 Hace unos cuantos años que no leo una ficción tan larga, que no tengo que convivir tanto tiempo con un libro. Probablemente desde /2666/. No siento la necesidad de intercalar con otras lecturas, S.K. no es sucinto pero se las arregla para no aburrirme.
 
 #+begin_export html
-<p>¿No dijo Bolaño <img src="/assets/img/favicon.png" width=24> que todas las novelas americanas, incluidas las escritas en castellano, son variaciones de <i>Huckleberry Finn</i>?</p>
+<p>¿No dijo Bolaño <img src="{{site.config.static_root}}/img/favicon.png" width=24> que todas las novelas americanas, incluidas las escritas en castellano, son variaciones de <i>Huckleberry Finn</i>?</p>
 #+end_export
 
 El título original, /The Stand/, refiere a una canción de Bruce Springsteen. Bruce Springsteen: una de esas cosas que solo existen en los Estados Unidos.
@@ -61,14 +61,14 @@ Mi roadtrip favorito sigue siendo /Tonto y Retonto/.
 Googleo /"lost the stand"/. Resulta que las similitudes no son casuales ---tenían que ser obvias para que yo me diera cuenta---: los autores de la serie reconocen a la novela como su modelo. La búsqueda me espoilea algunos eventos del libro.
 
 #+begin_export html
-<p>¿No es <i>El Señor de los Anillos</i> ni más ni menos que un larguísimo roadtrip? <img src="/assets/img/favicon.png" width=24></p>
+<p>¿No es <i>El Señor de los Anillos</i> ni más ni menos que un larguísimo roadtrip? <img src="{{site.config.static_root}}/img/favicon.png" width=24></p>
 #+end_export
 
 Terminado el libro, busco en Wikipedia. No sólo había referencias al /Señor de los Anillos/ sino que Stephen King partió de la premisa de escribir /su propia versión yanqui y contemporánea del Señor de los Anillos/. Tenía que ser así de obvio para que yo me diera cuenta.
 
 #+begin_export html
 <p>Si me la hubieran vendido así, la habría leído quince años antes.<br/>
-(<img src="/assets/img/favicon.png" width=24>)</p>
+(<img src="{{site.config.static_root}}/img/favicon.png" width=24>)</p>
 <br/>
 #+end_export
 

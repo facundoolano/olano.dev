@@ -4,7 +4,7 @@ title: "El método psicoanalítico"
 date: 2023-11-28
 tags: [ficción]
 favorite: true
-image: assets/img/freud.jpg
+image: freud.jpg
 excerpt: "Justo enfrente hay un cuadro abstracto: dos rectángulos irregulares sobre un fondo blanco. Ernesto fija la vista en el espacio entre los dos rectángulos, le parece que ahí falta algo, que en ese lugar tendría que haber una tercer figura, y se concentra como si pudiera hacerla aparecer a fuerza de mirar. Tanto se concentra que tarda un rato en darse cuenta de que lo están llamando."
 lang: es
 ---
