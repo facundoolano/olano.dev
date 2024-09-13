@@ -1,14 +1,72 @@
 body {
-  line-height: 1.5em;
+    line-height: 1.5em;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
 }
 
-p.first {
-  text-indent: 0;
+.center-block, .org-center, .text-center {
+    text-align: center;
 }
 
-/* Kindle Legacy Specific Styles */
-@media amzn-mobi {
-  p.first {
-    text-indent: 0;
-  }
+.layout-post {
+    hyphens: auto;
+    text-align: justify;
 }
+
+.layout-post .title {
+    hyphens:none;
+}
+
+.layout-post header {
+    margin: 4rem 0 4rem;
+    text-align: left;
+}
+
+.layout-post header.with-cover {
+    margin-top: 2rem;
+}
+
+img.cover-img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: -2rem;
+}
+
+.layout-post header .date-tags {
+    margin:-1rem 0 0.5rem 0 ;
+}
+
+.layout-post p {
+    margin: 0 0 .4rem 0;
+}
+
+.layout-post p + p {
+    text-indent: 2rem;
+}
+
+.layout-post .org-center, .layout-post .text-center, .layout-post .center-block {
+    margin: 2rem 0;
+}
+
+hr.footnotes-separatator {
+    display:none;
+}
+
+/* makes footnote number and text display in the same line  */
+.footnote-definition {
+    display: flex;
+    vertical-align: top;
+    margin-bottom: .4rem;
+}
+
+.footnote-body, .footnote-body p {
+    display: inline;
+    margin-left: 0.25rem;
+}
+
+.layout-post .verse-block {
+    text-align: right;
+}
+
+.verse-block p { white-space: pre; }
