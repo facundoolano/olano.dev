@@ -6,5 +6,5 @@ target: src/* layouts/*
 # based on https://github.com/javierarce/epub-boilerplate/blob/master/publish
 book.epub: target
 	rm -f $@
-	zip -q0X $@ target/mimetype
-	zip -qXr9D $@ target/* -x "*.svn*" -x "*~" -x "*.hg*" -x "*.swp" -x "*.DS_Store"
+	cd target && zip -q0X ../$@ mimetype
+	cd target && zip -qXr9D ../$@ * -x "*.svn*" -x "*~" -x "*.hg*" -x "*.swp" -x "*.DS_Store"

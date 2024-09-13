@@ -18,6 +18,8 @@
     <dc:language>es</dc:language>
 
     <meta name="cover" content="cover.jpg" />
+
+    <dc:identifier id="bookid" opf:scheme="UUID">urn:uuid:3d70d8a0-7176-11ef-a499-0800200c9a66</dc:identifier>
   </metadata>
 
   <!-- MANIFEST (mandatory)
@@ -35,7 +37,7 @@
     <item href="Text/toc.xhtml" id="toc" media-type="application/xhtml+xml" />
 
     {% for post in site.posts %}
-    <item href="{{post.path}}" id="{{post.slug}}" media-type="application/xhtml+xml" />
+    <item href="{{post.path | remove:'OEBPS/'}}" id="{{post.slug}}" media-type="application/xhtml+xml" />
     {% endfor %}
 
     {% for file in site.static_files %}
@@ -68,7 +70,7 @@
     <reference href="Text/cover.xhtml" title="Cover" type="cover" />
     <reference href="Text/toc.xhtml" title="Table of Contents" type="toc" />
     {% for post in site.posts %}
-    <reference href="{{post.path}}" type="text" />
+    <reference href="{{post.path | remove:'OEBPS/'}}" type="text" />
     {% endfor %}
   </guide>
 

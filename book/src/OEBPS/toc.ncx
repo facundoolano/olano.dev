@@ -1,0 +1,23 @@
+---
+---
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Contents</title>
+    <link href="../Styles/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="toc" xml:lang="en-US">
+      <h1>Contents</h1>
+      <ul>
+        <!-- <li><a href="../Text/cover.xhtml"><span>Cover</span></a></li> -->
+        {% for post in site.posts %}
+        <li><a href="../{{post.path | remove:'OEBPS/'}}"><span>Chapter 1</span></a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </body>
+</html>
