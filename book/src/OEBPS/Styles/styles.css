@@ -1,6 +1,5 @@
 body {
-    line-height: 1.5em;
-    font-family: Tahoma, Verdana, Arial, sans-serif;
+    font-family: Georgia, Tahoma, Verdana, Arial, sans-serif;
 }
 
 .center-block, .org-center, .text-center {
@@ -28,7 +27,7 @@ body {
 img.cover-img {
     width: 100%;
     max-width: 100%;
-    max-height: 200px;
+    max-height: 40vh;
     object-fit: cover;
     margin-bottom: -2rem;
 }
@@ -37,12 +36,15 @@ img.cover-img {
     margin:-1rem 0 0.5rem 0 ;
 }
 
-.layout-post p {
-    margin: 0 0 .4rem 0;
+p {
+    margin: 0;
+    text-align: justify;
+    text-indent: 1em;
+    line-height: 125%;
 }
 
 .layout-post p + p {
-    text-indent: 2rem;
+    text-indent: 1rem;
 }
 
 .layout-post .org-center, .layout-post .text-center, .layout-post .center-block {
