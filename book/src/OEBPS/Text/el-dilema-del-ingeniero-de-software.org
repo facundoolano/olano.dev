@@ -1,1 +1,0 @@
-../../../../src/blog/el-dilema-del-ingeniero-de-software.org
