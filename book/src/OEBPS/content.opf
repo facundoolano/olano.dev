@@ -1,0 +1,75 @@
+---
+---
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <dc:title>{{ site.config.title }}</dc:title>
+
+    <!-- BISAC Subject Headings List: http://bisg.org/?page=BISACFaQ -->
+
+    <dc:creator opf:file-as="{{ site.config.author }}" opf:role="aut">{{ site.config.author }}</dc:creator>
+
+    <dc:source>{{ site.config.url }}</dc:source>
+
+    <dc:date opf:event="publication"> {{ "now" | date: "%Y-%m-%d" }}</dc:date>
+
+    <!-- Language code: http://en.wikipedia.org/wiki/List_of_ISO_639-2_codes -->
+    <dc:language>es</dc:language>
+
+    <meta name="cover" content="cover.jpg" />
+  </metadata>
+
+  <!-- MANIFEST (mandatory)
+       List of all the resources of the book (XHTML, CSS, images,…).
+       The order of item elements in the manifest is NOT significant.
+
+       http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.3
+  -->
+
+  <manifest>
+    <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />
+    <item href="Text/cover.xhtml" id="cover" media-type="application/xhtml+xml" />
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Styles/style.css" id="css" media-type="text/css" />
+    <item href="Text/toc.xhtml" id="toc" media-type="application/xhtml+xml" />
+
+    {% for post in site.posts %}
+    <item href="{{post.path}}" id="{{post.slug}}" media-type="application/xhtml+xml" />
+    {% endfor %}
+
+    {% for file in site.static_files %}
+    {% if file.ext == "jpg" or file.ext == "jpeg"  or file.ext == "gif" or file.ext == "png"%}
+    <item href="{{ file.path }}" id="{{ file.basename }}" media-type="image/{{file.ext}}" />
+    {% endif %}
+    {% endfor %}
+  </manifest>
+
+  <spine toc="ncx">
+    <itemref idref="cover" />
+    <itemref idref="toc" />
+    {% for post in site.posts %}
+    <itemref idref="{{post.slug}}" />
+    {% endfor %}
+  </spine>
+
+  <!-- GUIDE (optional, recommended by Apple)
+
+        The guide lets you specify the role of the book's files.
+
+        Available tags: cover, title-page, toc, index, glossary, acknowledgements, bibliography,
+        colophon, copyright-page, dedication, epigraph, foreword, loi (list of illustrations),
+        lot (list of tables), notes, preface, and text.
+
+        http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.6
+
+       -->
+  <guide>
+    <reference href="Text/cover.xhtml" title="Cover" type="cover" />
+    <reference href="Text/toc.xhtml" title="Table of Contents" type="toc" />
+    {% for post in site.posts %}
+    <reference href="{{post.path}}" type="text" />
+    {% endfor %}
+  </guide>
+
+</package>
