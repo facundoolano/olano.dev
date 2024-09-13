@@ -5,19 +5,41 @@
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
+<head>
+    <meta charset="UTF-8"/>
     <title>Cover</title>
-    <style type="text/css">
-      /*<![CDATA[*/
-      img { max-width: 100%; }
-      body { oeb-column-number: 1; }
-      #cover-image { text-align: center; }
-      /*]]>*/
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .cover-container {
+            text-align: center;
+        }
+        .title {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .subtitle {
+            font-size: 1.5em;
+            color: grey;
+        }
+        .byline {
+            margin-top: 1em;
+            font-size: 1em;
+            color: darkgrey;
+        }
     </style>
-  </head>
-  <body>
-    <div id="cover-image">
-      <img alt="{{ site.config.title }}" src="../Images/cover.jpg" />
+</head>
+<body>
+    <div class="cover-container">
+        <div class="title">{{ site.config.title }}</div>
+        <div class="subtitle">{{ site.config.subtitle }}</div>
+        <div class="byline">by {{ site.config.author }}</div>
     </div>
-  </body>
+</body>
 </html>

@@ -17,7 +17,7 @@
     <!-- Language code: http://en.wikipedia.org/wiki/List_of_ISO_639-2_codes -->
     <dc:language>es</dc:language>
 
-    <meta name="cover" content="cover.jpg" />
+    <!-- <meta name="cover" content="cover.jpg" /> -->
 
     <dc:identifier id="bookid" opf:scheme="UUID">urn:uuid:3d70d8a0-7176-11ef-a499-0800200c9a66</dc:identifier>
   </metadata>
@@ -30,7 +30,7 @@
   -->
 
   <manifest>
-    <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />
+    <!-- <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" /> -->
     <item href="Text/cover.xhtml" id="cover" media-type="application/xhtml+xml" />
     <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
     <item href="Styles/style.css" id="css" media-type="text/css" />
