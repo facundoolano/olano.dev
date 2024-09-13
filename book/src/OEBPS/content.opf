@@ -36,7 +36,7 @@
     <item href="Styles/style.css" id="css" media-type="text/css" />
     <item href="Text/toc.xhtml" id="toc" media-type="application/xhtml+xml" />
 
-    {% for post in site.posts %}
+    {% for post in site.posts | reverse %}
     <item href="{{post.path | remove:'OEBPS/'}}" id="{{post.slug}}" media-type="application/xhtml+xml" />
     {% endfor %}
 
@@ -50,7 +50,7 @@
   <spine toc="ncx">
     <itemref idref="cover" />
     <itemref idref="toc" />
-    {% for post in site.posts %}
+    {% for post in site.posts | reverse %}
     <itemref idref="{{post.slug}}" />
     {% endfor %}
   </spine>
@@ -69,7 +69,7 @@
   <guide>
     <reference href="Text/cover.xhtml" title="Cover" type="cover" />
     <reference href="Text/toc.xhtml" title="Table of Contents" type="toc" />
-    {% for post in site.posts %}
+    {% for post in site.posts | reverse %}
     <reference href="{{post.path | remove:'OEBPS/'}}" type="text" />
     {% endfor %}
   </guide>
