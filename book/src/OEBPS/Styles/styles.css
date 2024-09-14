@@ -11,10 +11,6 @@ body {
     text-align: justify;
 }
 
-.layout-post .title {
-    hyphens:none;
-}
-
 .layout-post .header {
     margin: 4rem 0 4rem;
     text-align: left;
