@@ -7,7 +7,7 @@ tags: [cine, literatura]
 favorite: true
 thumbnail-img: fink-thumb.png
 image: fink-thumb.png
-cover-img: fink.jpg
+cover-img: fink.png
 lang: es
 ---
 #+OPTIONS: toc:nil num:nil

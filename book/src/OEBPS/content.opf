@@ -42,7 +42,7 @@
 
     {% for file in site.static_files %}
     {% assign mediatype = file.extname | remove_first:"." %}
-    {% if mediatype == ".jpg" or mediatype == ".jpeg" %}
+    {% if mediatype == "jpg" or mediatype == "jpeg" %}
     <item href="{{ file.path | remove:'OEBPS/' }}" id="{{ file.basename }}" media-type="image/jpeg" />
     {% else if "gif", "png", "webp" contains mediatype %}
     <item href="{{ file.path | remove:'OEBPS/' }}" id="{{ file.basename }}" media-type="image/{{ mediatype }}" />
