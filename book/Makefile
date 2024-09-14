@@ -1,6 +1,6 @@
 EPUB_FILENAME:=book.epub
 
-all: book.epub
+all: $(EPUB_FILENAME)
 
 target: src/* layouts/*
 	jorge build
