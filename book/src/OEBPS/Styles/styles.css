@@ -48,11 +48,21 @@ img.cover-img {
     margin-top: .5rem;
 }
 
+.layout-post p {
+    margin: 0 0 .4rem 0;
+}
+
 .layout-post p + p {
-    text-indent: 1em;
+    text-indent: 1.5em;
 }
 
 .layout-post .org-center, .layout-post .text-center, .layout-post .center-block {
+    margin: 2rem 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid lightgray;
     margin: 2rem 0;
 }
 
