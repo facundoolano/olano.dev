@@ -1,5 +1,6 @@
 body {
     font-family: Georgia, Tahoma, Verdana, Arial, sans-serif;
+    line-height: 1.6;
 }
 
 .center-block, .org-center, .text-center {
@@ -83,3 +84,7 @@ hr.footnotes-separatator {
 }
 
 .verse-block p { white-space: pre; }
+
+h1, h2, h3 {
+    break-after: avoid;
+}
