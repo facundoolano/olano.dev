@@ -6,6 +6,8 @@ all: clean $(PDF_FILENAME)
 target: src/* layouts/*
 	jorge build
 
+# FIXME the perl hack may be avoided by making the /index.html change optional in jorge
+# FIXME the posts.in could be avoided by using filtering by front matter flags, eg. "ebook: vol1"
 posts: posts.in
 	cat posts.in | xargs -I {} cp {} src/OEBPS/Text
 	find src/OEBPS/Text -type f -name "*.org" -exec perl -pi -e 's|\[file:([^/\]]+?)(/)?\]|\[file:\1/index.html\]|g' {} +
