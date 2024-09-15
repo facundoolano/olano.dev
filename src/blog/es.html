@@ -1,13 +1,22 @@
 ---
 layout: default
 submenu: [["/feed", "/feed.xml"], ["/tags", "/blog/tags"]]
-title: /blog
+title: /blog/es
 head_title: Blog
 ---
 
-<p>idioma: <a href="/blog">todo</a> | es | <a href="/blog/en">en</a></p>
-<p>Una selección de los posts en castellano está recopilada en <a href="/book.epub">epub</a> y <a href="/book.pdf">pdf</a>.</p>
+<p>Si querés ver los posts más recientes, abajo está el <a href="/blog/#archive">archivo</a>, o te podés suscribir al <a href="feed.xml">feed rss</a>.
+    Podés filtrar por idioma <a href="/blog/es">español</a>, <a href="/blog/en">inglés</a> o <a href="/blog/">cualquiera</a>.
+</p>
+<p></p>
+
+<p>Si querés un camino de lectura alternativo, mirá mis <a href="/blog/tags/#⭐">favoritos</a> <a style="text-decoration:none" href="/blog/tags/#⭐">⭐</a> o alguno de los <a href="/blog/tags">tags</a>.
+</p>
+
+<p>Una selección de los textos en español está disponible como libro en formatos  <a href="/book.epub">epub</a> y <a href="/book.pdf">pdf</a>.</p>
 <br/>
+
+<h3><a href="#archive" class="title" id="archive">#archivo</a></h3>
 
 <div class="blog-index">
     {% assign posts = site.posts|where_exp:"post", "post.lang == nil or post.lang == 'es'" %}
