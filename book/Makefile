@@ -1,6 +1,7 @@
 EPUB_FILENAME:=book.epub
+PDF_FILENAME:=book.pdf
 
-all: $(EPUB_FILENAME)
+all: clean $(PDF_FILENAME) check
 
 target: src/* layouts/*
 	jorge build
@@ -29,6 +30,9 @@ $(EPUB_FILENAME): posts images target
 	cd target && zip -q0X ../$@ mimetype
 	cd target && zip -qXr9D ../$@ * -x "*.svn*" -x "*~" -x "*.hg*" -x "*.swp" -x "*.DS_Store"
 
+$(PDF_FILENAME): $(EPUB_FILENAME)
+	ebook-convert $(EPUB_FILENAME) $(PDF_FILENAME)
+
 check:
 	epubcheck $(EPUB_FILENAME)
 
@@ -37,3 +41,4 @@ clean:
 	rm -rf src/OEBPS/Text/*.org
 	rm -rf
 	rm -rf $(EPUB_FILENAME)
+	rm -rf $(PDF_FILENAME)
