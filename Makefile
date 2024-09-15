@@ -1,3 +1,5 @@
+.PHONY: book
+
 serve:
 	jorge serve
 
@@ -11,3 +13,6 @@ push: build
 resume: push
 	wkhtmltopdf --print-media-type https://olano.dev/resume src/resume.pdf
 	make push
+
+book:
+	cd book && make && mv book.pdf book.epub ../src/

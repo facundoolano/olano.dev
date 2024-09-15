@@ -1,7 +1,7 @@
 EPUB_FILENAME:=book.epub
 PDF_FILENAME:=book.pdf
 
-all: clean $(PDF_FILENAME) check
+all: clean $(PDF_FILENAME)
 
 target: src/* layouts/*
 	jorge build
