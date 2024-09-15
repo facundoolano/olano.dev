@@ -5,9 +5,9 @@ title: /blog
 head_title: Blog
 ---
 
-<p>lang: <a href="/blog">all</a> | es | <a href="/blog/en">en</a></p>
+<p>idioma: <a href="/blog">todo</a> | es | <a href="/blog/en">en</a></p>
+<p>Una selección de los posts en castellano está recopilada en <a href="/book.epub">epub</a> y <a href="/book.pdf">pdf</a>.</p>
 <br/>
-
 
 <div class="blog-index">
     {% assign posts = site.posts|where_exp:"post", "post.lang == nil or post.lang == 'es'" %}
