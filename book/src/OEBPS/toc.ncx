@@ -14,14 +14,14 @@
     <text>{{site.config.title}}</text>
   </docTitle>
   <navMap>
-    <navPoint id="navpoint1" playOrder="0">
+    <navPoint id="navpoint1" playOrder="1">
       <navLabel>
         <text>Cover</text>
       </navLabel>
       <content src="Text/cover.xhtml"/>
     </navPoint>
     {% for post in site.posts | reverse %}
-    <navPoint id="{{post.slug}}" playOrder="{{ forloop.index }}">
+    <navPoint id="{{post.slug}}" playOrder="{{ forloop.index | plus:1 }}">
       <navLabel>
         <text>{{post.title}}</text>
       </navLabel>
