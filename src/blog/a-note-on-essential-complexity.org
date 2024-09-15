@@ -4,8 +4,8 @@ date: 2024-06-17
 layout: post
 lang: en
 tags: [software]
-cover-img: assets/img/labrea.jpg
-image: assets/img/tarpit.png
+cover-img: labrea.jpg
+image: tarpit.png
 excerpt: The fact that we can’t remove essential complexity with a software redesign doesn’t mean that there’s nothing we can do about it. What if the problem definition wasn’t outside of our purview? What if we could get the world to conform to the software, and not just the other way around?
 favorite: true
 ---

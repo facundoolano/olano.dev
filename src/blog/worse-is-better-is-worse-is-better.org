@@ -3,10 +3,10 @@ layout: post
 title: "Worse is Better (is Worse (is Better))"
 date: 2023-02-22
 tags: [software]
-thumbnail-img: assets/img/satriales2.png
-share-img: assets/img/satriales2.png
-image: assets/img/satriales2.png
-cover-img: assets/img/satriales1.png
+thumbnail-img: satriales2.png
+share-img: satriales2.png
+image: satriales2.png
+cover-img: satriales1.png
 lang: es
 ---
 #+OPTIONS: toc:nil num:nil

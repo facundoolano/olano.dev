@@ -55,11 +55,11 @@
 
         {%- capture shareimg -%}
         {% if page.share-img %}
-        {{ page.share-img }}
+        {{site.config.static_root}}/img/{{ page.share-img }}
         {% elsif page.image %}
-        {{page.image}}
+        {{site.config.static_root}}/img/{{page.image}}
         {% elsif page.thumbnail-img %}
-        {{ page.thumbnail-img }}
+        {{site.config.static_root}}/img/{{ page.thumbnail-img }}
         {% elsif site.config.avatar %}
         {{ site.config.avatar }}
           {% endif %}

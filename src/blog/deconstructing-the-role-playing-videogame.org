@@ -4,7 +4,7 @@ date: 2024-07-16
 layout: post
 lang: en
 tags: [projects, ideas, videogames]
-image: assets/img/rpgcli.png
+image: rpgcli.png
 excerpt: To me, a classic JRPG is pure mechanism, a kind of puzzle. Was there some way of getting the fun out of building such a mechanism—of solving that puzzle—, wrapping it with the minimal amount of functionality, the simplest thing that could possibly pass as a video game?
 favorite: true
 ---
@@ -42,7 +42,7 @@ This idea finally clicked when I imagined the program as a ~cd~ replacement, whe
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/rpgcli.png" style="max-width:100%; max-height:unset">
+ <img src="{{site.config.static_root}}/img/rpgcli.png" style="max-width:100%; max-height:unset">
 </div>
 #+END_EXPORT
 
@@ -72,7 +72,7 @@ I started by looking around for tabletop RPGs designed for minimalism or generic
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/dinky.jpg" style="max-width:100%; max-height:unset">
+ <img src="{{site.config.static_root}}/img/dinky.jpg" style="max-width:100%; max-height:unset">
 </div>
 #+END_EXPORT
 

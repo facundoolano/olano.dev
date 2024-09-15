@@ -1,0 +1,89 @@
+body {
+    font-family: Georgia, Tahoma, Verdana, Arial, sans-serif;
+}
+
+.center-block, .org-center, .text-center {
+    text-align: center;
+}
+
+.layout-post {
+    hyphens: auto;
+    text-align: justify;
+}
+
+.layout-post .header {
+    margin: 4rem 0 4rem;
+    text-align: left;
+}
+
+.layout-post .header.with-cover {
+    margin-top: 2rem;
+}
+
+blockquote {
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+}
+
+.title,  .subtitle {
+    hyphens:none;
+}
+
+img.cover-img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 40vh;
+    object-fit: cover;
+    margin-bottom: -2rem;
+}
+
+.layout-post .header .date-tags {
+    margin:-1rem 0 0.5rem 0 ;
+}
+.layout-post .header .tags {
+    margin-top: .5rem;
+}
+
+.layout-post p {
+    margin: 0;
+}
+
+.layout-post p + p {
+    text-indent: 1.5em;
+}
+
+.layout-post .org-center, .layout-post .text-center, .layout-post .center-block {
+    margin: 2rem 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid lightgray;
+    margin: 2rem 0;
+}
+
+hr.footnotes-separatator {
+    display:none;
+}
+
+/* makes footnote number and text display in the same line  */
+.footnote-definition {
+    display: flex;
+    vertical-align: top;
+    margin-bottom: .4rem;
+}
+
+.footnote-body, .footnote-body p {
+    display: inline;
+    margin-left: 0.25rem;
+}
+
+.layout-post .verse-block {
+    text-align: right;
+}
+
+.verse-block p { white-space: pre; }
+
+h1, h2, h3 {
+    break-after: avoid;
+}

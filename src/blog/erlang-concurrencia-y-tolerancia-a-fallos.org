@@ -3,8 +3,8 @@ layout: post
 title: "Erlang: concurrencia y tolerancia a fallos"
 date: 2021-12-04
 tags: [programación, software]
-thumbnail-img: assets/img/erlang/erlang.png
-image: assets/img/erlang/erlang.png
+thumbnail-img: erlang/erlang.png
+image: erlang/erlang.png
 css: "highlight"
 lang: es
 ---
@@ -15,7 +15,7 @@ lang: es
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/erlang/squid.png" width="320">
+ <img src="{{site.config.static_root}}/img/erlang/squid.png" width="320">
 </div>
 #+END_EXPORT
 
@@ -413,7 +413,7 @@ En el ejemplo anterior suponemos que el ~calc_sup~ tiene dos workers "hijos": ~c
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/erlang/suptypes.png" width="640">
+ <img src="{{site.config.static_root}}/img/erlang/suptypes.png" width="640">
 </div>
 #+END_EXPORT
 
@@ -433,7 +433,7 @@ Además de procesos workers, los supervisores pueden tener como hijos a otros su
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/erlang/suptree.png">
+ <img src="{{site.config.static_root}}/img/erlang/suptree.png">
 </div>
 #+END_EXPORT
 
@@ -447,13 +447,13 @@ Todas las aplicaciones OTP se estructuran de esta forma (en algunos casos con á
 Esta manera de estructurar las aplicaciones Erlang encierra el corazón de su filosofía: los errores son inevitables y, en muchos casos, imprevisibles, pero si los controlamos, se convierten en una herramienta. El secreto de los sistemas tolerantes a fallas no es predecir o evitar los errores sino saber recuperarse de ellos, que el sistema pueda volver a un estado consistente. De ahí el lema de Erlang: *let it crash* (dejalo que se rompa).
 
 #+begin_export html
-<p>La mayoría de los errores son transitorios <img src="/assets/img/favicon.png" width=24>, es decir que para recuperarse, como sabe cualquier usuario de Windows, suele ser suficiente con reiniciar. En vez de escribir código defensivo, los programadores Erlang dejan que los procesos mueran y la estructura de supervisión se encarguede lidiar con el problema: reintentar o propagar el error según corresponda. <b>El manejo de errores está en la estructura, en vez de en la lógica del código</b>. Al dejar que se rompa, la implementación del sistema se vuelve más simple, y esa reducción de la complejidad contribuye a su vez a disminuir la cantidad errores.</p>
+<p>La mayoría de los errores son transitorios <img src="{{site.config.static_root}}/img/favicon.png" width=24>, es decir que para recuperarse, como sabe cualquier usuario de Windows, suele ser suficiente con reiniciar. En vez de escribir código defensivo, los programadores Erlang dejan que los procesos mueran y la estructura de supervisión se encarguede lidiar con el problema: reintentar o propagar el error según corresponda. <b>El manejo de errores está en la estructura, en vez de en la lógica del código</b>. Al dejar que se rompa, la implementación del sistema se vuelve más simple, y esa reducción de la complejidad contribuye a su vez a disminuir la cantidad errores.</p>
 #+end_export
 
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/erlang/erlang-the-movie.png" width="320">
+ <img src="{{site.config.static_root}}/img/erlang/erlang-the-movie.png" width="320">
 </div>
 #+END_EXPORT
 

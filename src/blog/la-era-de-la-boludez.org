@@ -4,10 +4,10 @@ title: "La era de la boludez"
 date: 2023-07-10
 tags: [software, distopías, ai, literatura]
 favorite: true
-share-img: assets/img/tortoise.jpg
-image: assets/img/tortoise.jpg
-thumbnail-img: assets/img/tortoise.jpg
-cover-img: assets/img/tortoise2.png
+share-img: tortoise.jpg
+image: tortoise.jpg
+thumbnail-img: tortoise.jpg
+cover-img: tortoise2.png
 lang: es
 ---
 #+OPTIONS: toc:nil num:nil

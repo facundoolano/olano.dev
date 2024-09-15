@@ -3,9 +3,9 @@ layout: post
 title: "Apocalipsis"
 subtitle: "Notas de lectura"
 date: 2021-03-15
-cover-img: assets/img/thestand2.png
-thumbnail-img: assets/img/thestand.jpg
-image: assets/img/thestand.jpg
+cover-img: thestand2.png
+thumbnail-img: thestand.jpg
+image: thestand.jpg
 tags: [libros, literatura, ficción, distopías, memorias]
 favorite: true
 lang: es
@@ -20,56 +20,83 @@ Al primero, /Escóndete y Grita/, lo devoré en un par de días de vacaciones en
 
 Muchos años después, cargué la pila de /Fantasmas de Fear Street/ en la mochila, los vendí en un puesto del Parque Rivadavia y usé la plata en otro puesto para comprar algún libro del /Señor de los Anillos/, que fue la siguiente colección que abordé con fanatismo, un fanatismo impulsado más por el auge de las películas que por interés en la lectura.
 
+** 2
+
+Entré a la obra de Stephen King por los márgenes, primero unas notas biográficas sobre el oficio de escribir, después un Policial contemporáneo.
+
 #+begin_export html
 <br/>
 #+end_export
 
-** 2
-
-Entré a la obra de Stephen King por los márgenes, primero unas notas biográficas sobre el oficio de escribir, después un policial contemporáneo.
-
 Recién este año me siento preparado para encarar uno de los clásicos y, siendo que gira alrededor de una pandemia de gripe, /Apocalipsis/The Stand/ parece el candidato ideal.
-
+#+begin_export html
+<br/>
+#+end_export
 Desde que empezó la cuarentena, los libros los compro por lote en MercadoLibre. Quizás por el consabido esnobismo en contra de los best-sellers, ninguna de las librerías habituales, a las que le compré el resto de los libros, tenía /Apocalipsis/; se lo terminé comprando a una comiquería. Para redondear el chiste, cuando recibí el libro me encontré con que tiene unas cuantas viñetas intercaladas entre el texto.
-
+#+begin_export html
+<br/>
+#+end_export
 Cada capítulo cambia el punto de vista, sigue a un personaje diferente, en algún costado del país. Me recuerda a la sensación que me provocó leer /Kentukis/, como de empezar de nuevo cada cuatro o cinco páginas.
-
+#+begin_export html
+<br/>
+#+end_export
 Acá están la grotesca traducción española, el universo pop yanqui, la cosmovisión que conocí leyendo a los /Fantasmas de Fear Street/.
-
+#+begin_export html
+<br/>
+#+end_export
 Me digo que tengo que dejarme de joder y empezar a leer estos libros directamente en inglés.
-
+#+begin_export html
+<br/>
+#+end_export
 Con la diferencia de que estoy seguro de que Stephen King va a justificar estos saltos de personajes; que va a terminar juntándolos a todos y que va a haber valido la pena. A /Kentukis/ le faltaron otras trescientas páginas para ser novela.
-
+#+begin_export html
+<br/>
+#+end_export
 En paralelo con la lectura del libro estoy terminando, de una vez por todas, de ver /Lost/. Tardé dieciséis años. Encuentro muchos puntos en común: la comunidad improvisada, distintos sobrevivientes reinventándonse después de una tragedia, el músico de rock, la joven embarazada.
-
+#+begin_export html
+<br/>
+#+end_export
 Parecería que Stephen King se propuso armar una historia exageradamente yanqui. Y no hay nada más yanqui que un roadtrip. El viaje del héroe es un roadtrip post-apocalíptico.
-
+#+begin_export html
+<br/>
+#+end_export
 Hace unos cuantos años que no leo una ficción tan larga, que no tengo que convivir tanto tiempo con un libro. Probablemente desde /2666/. No siento la necesidad de intercalar con otras lecturas, S.K. no es sucinto pero se las arregla para no aburrirme.
 
 #+begin_export html
-<p>¿No dijo Bolaño <img src="/assets/img/favicon.png" width=24> que todas las novelas americanas, incluidas las escritas en castellano, son variaciones de <i>Huckleberry Finn</i>?</p>
+<p>¿No dijo Bolaño <img src="{{site.config.static_root}}/img/favicon.png" width=24> que todas las novelas americanas, incluidas las escritas en castellano, son variaciones de <i>Huckleberry Finn</i>?</p>
+<br/>
 #+end_export
-
 El título original, /The Stand/, refiere a una canción de Bruce Springsteen. Bruce Springsteen: una de esas cosas que solo existen en los Estados Unidos.
-
-La novela es buena, pero no empatizo con los personajes. Son estereotípicos.
-
-Creo pescar varias referencias a /El Señor de los Anillos/: el "hombre oscuro" con su ojo de fuego que escruta a la distancia, con su base de llena de orcos del otro lado de las montañas, esa irresistible analogía entre Mordor y Las Vegas.
-
-Mi roadtrip favorito sigue siendo /Tonto y Retonto/.
-
-Googleo /"lost the stand"/. Resulta que las similitudes no son casuales ---tenían que ser obvias para que yo me diera cuenta---: los autores de la serie reconocen a la novela como su modelo. La búsqueda me espoilea algunos eventos del libro.
-
 #+begin_export html
-<p>¿No es <i>El Señor de los Anillos</i> ni más ni menos que un larguísimo roadtrip? <img src="/assets/img/favicon.png" width=24></p>
+<br/>
 #+end_export
-
+La novela es buena, pero no empatizo con los personajes. Son estereotípicos.
+#+begin_export html
+<br/>
+#+end_export
+Creo pescar varias referencias a /El Señor de los Anillos/: el "hombre oscuro" con su ojo de fuego que escruta a la distancia, con su base de llena de orcos del otro lado de las montañas, esa irresistible analogía entre Mordor y Las Vegas.
+#+begin_export html
+<br/>
+#+end_export
+Mi roadtrip favorito sigue siendo /Tonto y Retonto/.
+#+begin_export html
+<br/>
+#+end_export
+Googleo /"lost the stand"/. Resulta que las similitudes no son casuales ---tenían que ser obvias para que yo me diera cuenta---: los autores de la serie reconocen a la novela como su modelo. La búsqueda me espoilea algunos eventos del libro.
+#+begin_export html
+<br/>
+#+end_export
+#+begin_export html
+<p>¿No es <i>El Señor de los Anillos</i> ni más ni menos que un larguísimo roadtrip? <img src="{{site.config.static_root}}/img/favicon.png" width=24></p>
+<br/>
+#+end_export
 Terminado el libro, busco en Wikipedia. No sólo había referencias al /Señor de los Anillos/ sino que Stephen King partió de la premisa de escribir /su propia versión yanqui y contemporánea del Señor de los Anillos/. Tenía que ser así de obvio para que yo me diera cuenta.
-
+#+begin_export html
+<br/>
+#+end_export
 #+begin_export html
 <p>Si me la hubieran vendido así, la habría leído quince años antes.<br/>
-(<img src="/assets/img/favicon.png" width=24>)</p>
-<br/>
+(<img src="{{site.config.static_root}}/img/favicon.png" width=24>)</p>
 #+end_export
 
 ** 3

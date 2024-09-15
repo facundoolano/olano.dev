@@ -5,8 +5,8 @@ subtitle: Subrayados
 date: 2021-06-01
 tags: [literatura, libros]
 favorite: true
-thumbnail-img: assets/img/maiakovski.jpg
-image: assets/img/maiakovski.jpg
+thumbnail-img: maiakovski.jpg
+image: maiakovski.jpg
 lang: es
 ---
 #+OPTIONS: toc:nil num:nil

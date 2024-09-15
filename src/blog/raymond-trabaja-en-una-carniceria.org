@@ -5,9 +5,9 @@ subtitle: "Escritores en Hollywood"
 date: 2022-06-22
 tags: [cine, literatura]
 favorite: true
-thumbnail-img: assets/img/fink-thumb.png
-image: assets/img/fink-thumb.png
-cover-img: assets/img/fink.jpg
+thumbnail-img: fink-thumb.png
+image: fink-thumb.png
+cover-img: fink.png
 lang: es
 ---
 #+OPTIONS: toc:nil num:nil

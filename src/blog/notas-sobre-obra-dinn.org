@@ -4,8 +4,8 @@ title: Notas sobre Obra Dinn
 date: 2023-11-01
 tags: [videojuegos]
 excerpt: "Más allá de la primera impresión, Return of the Obra Dinn no es un juego retro: es un juego que construye algo nuevo sobre lo que hubo antes. Es, en otras palabras, una obra de arte."
-image: assets/img/obradinn.jpg
-thumbnail-img: assets/img/obradinn.jpg
+image: obradinn.jpg
+thumbnail-img: obradinn.jpg
 lang: es
 ---
 #+OPTIONS: toc:nil num:nil
@@ -20,7 +20,7 @@ Es decir que, más allá de la primera impresión, /Return of the Obra Dinn/ no 
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/puzzle/obradinn.gif">
+ <img src="{{site.config.static_root}}/img/puzzle/obradinn.gif">
 </div>
 #+END_EXPORT
 
@@ -37,7 +37,7 @@ Pero si se trata de buscar parecidos, /Return of the Obra Dinn/ se emparenta sob
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/obradinn2.webp">
+ <img src="{{site.config.static_root}}/img/obradinn2.webp">
 </div>
 #+END_EXPORT
 

@@ -2,8 +2,8 @@
 layout: post
 title: "Memoria videojueguística"
 subtitle: (Primera parte)
-thumbnail-img: assets/img/memo/winning.jpg
-image: assets/img/memo/winning.jpg
+thumbnail-img: memo/winning.jpg
+image: memo/winning.jpg
 date: 2020-09-29
 tags: [videojuegos, programación, memorias]
 lang: es
@@ -19,8 +19,7 @@ Lo interesante de esos juegos era que, revisando un poco los directorios donde e
 Quizás sea un impulso natural del autor el tratar de introducirse como personaje en sus obras. Lo había visto en el manga de /Dragon Ball/, donde Toriyama aparecía disfrazado de robot, y lo imitaba en mis propias historietas. Lo vi en videojuegos donde la combinación apropiada de teclas revelaba un mensaje, una foto, o incluso te permitía jugar como alguno de los programadores; pienso en los primeros /Mortal Kombat/, en /NBA Jam/, en /Robocop vs Terminator/. Evidentemente la posibilidad de personalizar los videojuegos —muy precursora a la de diseñar uno desde cero— vino desde el principio unida al proyecto de meterme a mí y a mis amigos como personajes.
 
 #+BEGIN_CENTER
-#+attr_html: :width 480px
-[[/assets/img/memo/queseyo.jpg]]
+[[{{site.config.static_root}}/img/memo/queseyo.jpg]]
 #+END_CENTER
 
 A mediados del 2000 hubo una "fiebre" del /Sims/. Yo lo compré sin saber de qué se trataba, confiando en que Maxis ofrecería algo a la altura del /SimCity/. Obviamente me volví adicto inmediatamente, pero lo novedoso fue que no era el único: parecía que todas las personas de mi edad lo estaban jugando, incluso gente que no solía interesarse por los videojuegos o que ni siquiera tenían una computadora en su casa. Esta especie de casa de muñecas digital te enganchaba en muchos niveles: podías jugar a "ganarte la vida" (estudiar, trabajar, hacer amistades, levantarte a la vecina), dedicarte a hacer shopping, pasarte horas en modo arquitecto o hasta armar sofisticados dispositivos de tortura: matar de hambre a los Sims, prenderlos fuego u obligarlos a dormir en su propio meo.
@@ -30,8 +29,7 @@ Yo desempolvé mis habilidades con el Paint para modificar las texturas y obtene
 En esta última etapa resurgió la contradicción: después de pasar horas construyendo casas y creando personajes, instalando expansiones y toda clase de basura descargada de internet, /jugar/ al Sims terminó haciéndose aburrido.
 
 #+BEGIN_CENTER
-#+attr_html: :width 480px
-[[/assets/img/memo/sims.png]]
+[[{{site.config.static_root}}/img/memo/sims.png]]
 #+END_CENTER
 
 La creación de "avatars" se volvió un estándar: ya venía integrada en los videojuegos y no implicaba ningún desafío creativo, pero la experiencia con el /Sims/ me dejó predispuesto a recurrir a internet en busca de opciones más sofisticadas para modificar los juegos que me interesaban.
@@ -45,8 +43,7 @@ Así y todo, el juego en cuestión, el /Counter-Strike/, resultaba fascinante de
 En el /Counter-Strike/, con la excepción del arma, el protagonista era invisible y apenas si te cruzabas a los otros jugadores por unos instantes: la estrella indiscutible eran los escenarios. ¿Cómo olvidar ese pueblito italiano o aquel sitio arqueológico azteca? Y los escenarios eran también la manera por excelencia de expandir y personalizar el juego. Así que si quería "meter mano" en el /Counter-Strike/, tenía que ser editando mapas. Afortunadamente para mí, la empresa que desarrollaba el motor del juego distribuía también un software con aquel fin, el /Valve Hammer Editor/. Si bien el editor era amigable, se trataba de mi primer contacto directo con modelos 3D[fn:4], un material mucho más complejo que los píxeles del /Paint/ a los que estaba acostumbrado. La tarea me hacía acordar al diseño con /AutoCAD/ que le veía hacer a mi viejo en su trabajo de arquitecto: había que construir edificios y comunicarlos, buscar las texturas más adecuadas para cada ambiente, considerar cómo los espacios resultantes se prestarían al desenvolvimiento del juego.
 
 #+BEGIN_CENTER
-#+attr_html: :width 480px
-[[/assets/img/memo/hammer.png]]
+[[{{site.config.static_root}}/img/memo/hammer.png]]
 #+END_CENTER
 
 

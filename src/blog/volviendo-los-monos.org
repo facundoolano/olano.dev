@@ -5,8 +5,8 @@ subtitle: "Notas sobre Return to Monkey Island"
 excerpt: "Así como algunos hinchas de Boca se volvieron con los años hinchas de Juan Román  Riquelme, los fanáticos de las aventuras gráficas somos hoy humildes coleccionistas de las artesanías de Ron Gilbert."
 date: 2022-11-22
 tags: [videojuegos]
-thumbnail-img: assets/img/return.jpg
-image: assets/img/return.jpg
+thumbnail-img: return.jpg
+image: return.jpg
 lang: es
 ---
 #+OPTIONS: toc:nil num:nil
@@ -22,7 +22,7 @@ Gilbert nunca fue el mejor ideando argumentos para sus juegos, y lo sabe; sus pe
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/return.jpg" >
+ <img src="{{site.config.static_root}}/img/return.jpg" >
 </div>
 #+END_EXPORT
 
@@ -36,7 +36,7 @@ Más allá de la interfaz, hay una serie de elementos para ayudar a los aventure
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/return2.jpeg" >
+ <img src="{{site.config.static_root}}/img/return2.jpeg" >
 </div>
 #+END_EXPORT
 
@@ -44,7 +44,7 @@ Hablemos del aspecto más polémico del juego, los gráficos, que generaron un r
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/return3.png" >
+ <img src="{{site.config.static_root}}/img/return3.png" >
 </div>
 #+END_EXPORT
 

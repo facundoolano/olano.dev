@@ -1,0 +1,45 @@
+---
+---
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Cover</title>
+    <style type="text/css">
+        body {
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Tahoma, Verdana, Arial, sans-serif;
+        }
+        .cover-container {
+            text-align: center;
+        }
+        .title {
+            font-size: 2.4rem;
+            margin-bottom: 1.5rem;
+            padding-top: 10rem;
+        }
+        .subtitle {
+            font-size: 1.8rem;
+            margin-bottom: 2.5rem;
+            color: grey;
+        }
+        .byline {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+            color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <div class="cover-container">
+        <h1 class="title">{{ site.config.title }}</h1>
+        <h2 class="subtitle">{{ site.config.subtitle }}</h2>
+        <h3 class="byline">{{ site.config.author }}</h3>
+    </div>
+</body>
+</html>

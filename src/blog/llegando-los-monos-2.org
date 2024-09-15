@@ -4,8 +4,8 @@ title: "Llegando los monos"
 subtitle: Aventuras vivas, comatosas, muertas, zombies, resucitadas (segunda parte)
 excerpt: "En este presente distópico en el que el mercado cultural se quedó sin ideas y se dedica hace diez años a vender papel picado del siglo XX, tenemos otra vez aventuras gráficas. Tenemos, incluso, aventuras gráficas <i>profesionales</i>. Pero cabe preguntarse si son todavía posibles los <i>jugadores</i> de aventuras gráficas."
 date: 2022-09-26
-thumbnail-img: assets/img/adventures/return2.png
-image: assets/img/adventures/return2.png
+thumbnail-img: adventures/return2.png
+image: adventures/return2.png
 tags: [videojuegos, cine]
 lang: es
 ---
@@ -19,7 +19,7 @@ Esta es la segunda parte de una serie de dos.[[file:llegando-los-monos/][ /Leer 
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/adventures/dott.png">
+ <img src="{{site.config.static_root}}/img/adventures/dott.png">
 </div>
 #+END_EXPORT
 
@@ -31,7 +31,7 @@ Y mientras los diseñadores de aventuras estaban en un cumple, se gestaba una re
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/adventures/throttle.gif">
+ <img src="{{site.config.static_root}}/img/adventures/throttle.gif">
 </div>
 #+END_EXPORT
 
@@ -41,7 +41,7 @@ Esos aires de cambio ciertamente tuvieron su efecto en el diseño del siguiente 
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/adventures/fandango.jpg">
+ <img src="{{site.config.static_root}}/img/adventures/fandango.jpg">
 </div>
 #+END_EXPORT
 
@@ -62,7 +62,7 @@ El nuevo milenio ofrecía un paisaje árido a los jugadores de aventuras. LucasA
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/adventures/broken.jpg">
+ <img src="{{site.config.static_root}}/img/adventures/broken.jpg">
 </div>
 #+END_EXPORT
 
@@ -78,7 +78,7 @@ En perspectiva, las mayores contribuciones de /Double Fine Adventure/ fueron [[h
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/adventures/weed.webp">
+ <img src="{{site.config.static_root}}/img/adventures/weed.webp">
 </div>
 #+END_EXPORT
 
@@ -90,7 +90,7 @@ Aunque se lo siguiera considerado un pionero, a esa altura era fácil dudar de l
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/adventures/return.jpg">
+ <img src="{{site.config.static_root}}/img/adventures/return.jpg">
 </div>
 #+END_EXPORT
 

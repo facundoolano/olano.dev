@@ -2,8 +2,8 @@
 layout: post
 title: "Memoria videojueguística"
 subtitle: "(Segunda parte)"
-thumbnail-img: assets/img/memo/monkey.jpg
-image: assets/img/memo/monkey.jpg
+thumbnail-img: memo/monkey.jpg
+image: memo/monkey.jpg
 date: 2020-10-14
 tags: [videojuegos, programación, memorias]
 lang: es
@@ -21,7 +21,7 @@ en teoría, uno debería poder meter todo eso en la máquina de hacer RPGs y obt
 
 #+BEGIN_CENTER
 #+attr_html: :width 480px
-[[/assets/img/memo/rpgmaker.png]]
+[[{{site.config.static_root}}/img/memo/rpgmaker.png]]
 #+END_CENTER
 
 Ahí lo tenía, con una herramienta no muy distinta al editor de escenarios que había usado para el /Counter-Strike/, podía armar mis propios videojuegos. El hecho de que fueran de un género específico, un género que yo no había frecuentado[fn:1], era un detalle mínimo.
@@ -32,7 +32,7 @@ El objetivo era lograr algo meramente ejecutable, no tenía que ser un /buen/ ju
 
 #+BEGIN_CENTER
 #+attr_html: :width 480px
-[[/assets/img/memo/heroes.gif]]
+[[{{site.config.static_root}}/img/memo/heroes.gif]]
 #+END_CENTER
 
 Claro que mi ignorancia en el diseño de software iba más allá de no saber programar; no conocía el "divide y vencerás", el trabajo iterativo, el /Minimum Viable Product/. En consecuencia, me dedicaba a hacer todo, todo el tiempo, sin concretar nada; guiado por la curiosidad o por el antojo, saltaba de una tarea a la siguiente: armar los mapas, conectarlos, programar a los enemigos, insertar diálogos, personalizar los menúes, negociar la participación de mis amgios en la historia y el look de sus /sprites,/ que después procedía a dibujar en el Paint. Desde luego que nunca terminé de armar algo usable, pero la experiencia me sirvió para incorporar los primeros rudimentos de pensamiento algorítmico.
@@ -43,7 +43,7 @@ Una década antes había recibido mi primer consola, un [[https://es.wikipedia.o
 
 #+BEGIN_CENTER
 #+attr_html: :width 480px
-[[/assets/img/memo/monkey.jpg]]
+[[{{site.config.static_root}}/img/memo/monkey.jpg]]
 #+END_CENTER
 
 
@@ -53,7 +53,7 @@ El proceso, además, tuvo ciertos efectos colaterales interesantes. El /2D Fight
 
 #+BEGIN_CENTER
 #+attr_html: :width 480px
-[[/assets/img/memo/fmargentina.png]]
+[[{{site.config.static_root}}/img/memo/fmargentina.png]]
 #+END_CENTER
 
 Como todos los proyectos que lo precedieron, el /World Heroes Millenium/ me ganó por cansancio. Después de casi un año, tuve que admitir que el esfuerzo no valía la pena: aunque la idea de juntar a todos esos personajes sonara divertida, la verdad era que no me gustaban mucho los juegos de pelea; no tenía sentido dedicar tanto tiempo a construir algo que no me entusiasmaba. Ya que era fanático de las aventuras gráficas, parecía más razonable intentar con ese tipo de juegos. Así que me puse a buscar un /Maker/ de aventuras gráficas y encontré el [[https://en.wikipedia.org/wiki/Adventure_Game_Studio][Adventure Game Studio]].

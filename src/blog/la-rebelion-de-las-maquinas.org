@@ -4,9 +4,9 @@ title: La rebelión de las máquinas
 date: 2021-12-28
 tags: [cine, software, ficción, distopías]
 favorite: true
-thumbnail-img: assets/img/jurassic/gate2.png
-share-img: assets/img/jurassic/trex.jpg
-image: assets/img/jurassic/trex.jpg
+thumbnail-img: jurassic/gate2.png
+share-img: jurassic/trex.jpg
+image: jurassic/trex.jpg
 lang: es
 ---
 #+OPTIONS: toc:nil num:nil
@@ -18,7 +18,7 @@ La cámara sigue a un helicóptero que se tambalea delante de una cascada, desce
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/jurassic/landscape.png" width="640">
+ <img src="{{site.config.static_root}}/img/jurassic/landscape.png" width="640">
 </div>
 #+END_EXPORT
 
@@ -30,7 +30,7 @@ La ejecución de la película, en suma, es impecable, nada menos de lo que esper
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/jurassic/doug.jpg" width="640">
+ <img src="{{site.config.static_root}}/img/jurassic/doug.jpg" width="640">
 </div>
 #+END_EXPORT
 
@@ -40,7 +40,7 @@ En ambos casos los efectos estuvieron a cargo de Industrial Light & Magic (ILM),
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/jurassic/trex.jpg" width="640">
+ <img src="{{site.config.static_root}}/img/jurassic/trex.jpg" width="640">
 </div>
 #+END_EXPORT
 

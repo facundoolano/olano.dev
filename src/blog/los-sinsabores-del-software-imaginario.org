@@ -3,9 +3,9 @@ layout: post
 title: "Los sinsabores del software imaginario"
 date: 2023-05-19
 tags: [software]
-thumbnail-img: assets/img/imaginary.png
-share-img: assets/img/imaginary2.png
-image: assets/img/imaginary2.png
+thumbnail-img: imaginary.png
+share-img: imaginary2.png
+image: imaginary2.png
 lang: es
 ---
 #+OPTIONS: toc:nil num:nil

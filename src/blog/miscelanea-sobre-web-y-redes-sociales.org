@@ -3,9 +3,9 @@ layout: post
 title: "Miscelánea sobre web y redes sociales"
 date: 2023-08-30
 tags: [web, software, utopías]
-share-img: assets/img/mastodon.jpeg
-image: assets/img/mastodon.jpeg
-thumbnail-img: assets/img/mastodon.jpeg
+share-img: mastodon.jpeg
+image: mastodon.jpeg
+thumbnail-img: mastodon.jpeg
 excerpt: La proliferación de aplicaciones federadas con ActivityPub, el renovado interés en los lectores RSS y los esfuerzos de la web indie son miniaturas de un proyecto de desmantelar las plataformas monopólicas mediante el uso de tecnología abierta.
 lang: es
 ---

@@ -3,9 +3,9 @@ layout: post
 title: "De von Bismarck a Tolkien"
 subtitle: Prehistoria de los videojuegos de rol
 excerpt: Antes de los videojuegos RPG, estuvieron los juegos de rol de lápiz y papel, como el Dungeons & Dragons. Antes de los juegos de rol estuvieron los juegos de estrategia de guerra, los wargames como el TEG. Mucho antes de eso, claro, prácticamente desde el principio, estuvieron las guerras.
-thumbnail-img: assets/img/rpg/kriegsspiel.jpg
-share-img: assets/img/rpg/kriegsspiel.jpg
-image: assets/img/rpg/kriegsspiel.jpg
+thumbnail-img: rpg/kriegsspiel.jpg
+share-img: rpg/kriegsspiel.jpg
+image: rpg/kriegsspiel.jpg
 date: 2023-04-27
 tags: [videojuegos]
 lang: es
@@ -25,7 +25,7 @@ De ahí, de Prusia, surgieron los primeros juegos de guerra en el siglo XVIII. D
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/rpg/kriegsspiel.jpg">
+ <img src="{{site.config.static_root}}/img/rpg/kriegsspiel.jpg">
 </div>
 #+END_EXPORT
 
@@ -51,7 +51,7 @@ En 1971, Gary Gygax publicó /Chainmail/, un reglamento para juegos de guerra en
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/rpg/dnd.jpg">
+ <img src="{{site.config.static_root}}/img/rpg/dnd.jpg">
 </div>
 #+END_EXPORT
 

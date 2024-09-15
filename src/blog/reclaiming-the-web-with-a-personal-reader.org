@@ -5,7 +5,7 @@ date: 2023-12-12
 tags: [web, software, projects]
 lang: en
 favorite: true
-image: assets/img/feedi1.png
+image: feedi1.png
 excerpt: "There’s a kind of zen flow that programmers unblock when they experience their software daily as an end user. There’s no better catalyst for ideas and experimentation, no better prioritization driver than having to face the bugs, annoyances, and limitations of an application first-hand."
 ---
 #+OPTIONS: toc:nil num:nil
@@ -101,7 +101,7 @@ After some trial and error with different UI layouts and features, a usage patte
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/feedi1.png">
+ <img src="{{site.config.static_root}}/img/feedi1.png">
 </div>
 #+END_EXPORT
 
@@ -121,8 +121,8 @@ At first, I left the app running on a terminal tab on my laptop and used it whil
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/feedi2.png" style="padding-right: 2rem">
- <img src="/assets/img/feedi3.png">
+ <img src="{{site.config.static_root}}/img/feedi2.png" style="padding-right: 2rem">
+ <img src="{{site.config.static_root}}/img/feedi3.png">
 </div>
 #+END_EXPORT
 

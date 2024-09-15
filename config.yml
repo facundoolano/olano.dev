@@ -8,3 +8,5 @@ url: "https://olano.dev"
 minify_exclusions:
   - "house-taken/*"
   - "advenjure/*"
+
+static_root: "/assets"

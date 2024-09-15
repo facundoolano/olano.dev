@@ -2,7 +2,7 @@
 layout: post
 title: "[tl;dr] Fundamentals of Software Architecture"
 date: 2020-09-15
-image: assets/img/architecture2.jpg
+image: architecture2.jpg
 tags: [software, libros, tldr]
 lang: es
 ---
@@ -13,9 +13,7 @@ Dejo algunas notas de mi lectura de /Fundamentals of Software Architecture: An E
 
 #+BEGIN_EXPORT html
 <div class="text-center">
-<a href="https://www.bookdepository.com/Fundamentals-of-Software-Architecture/9781492043454" target="_blank">
- <img src="/assets/img/architecture.jpg">
-</a>
+<img src="{{site.config.static_root}}/img/architecture.jpg">
 </div>
 #+END_EXPORT
 

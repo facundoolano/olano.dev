@@ -4,7 +4,8 @@ title: Llegando los monos
 subtitle: Una oda a las aventuras gráficas (primera parte)
 date: 2022-08-09
 excerpt: "El primer jugador de aventuras fue un esclavo mulato de nombre Stephen Bishop, que vivió en Kentucky durante el siglo XIX."
-thumbnail-img: assets/img/adventures/monkey.png
+thumbnail-img: adventures/monkey.png
+image: adventures/monkey.png
 tags: [videojuegos, software, cine]
 favorite: true
 lang: es
@@ -18,7 +19,7 @@ Esta es la primera parte de una serie de dos. [[file:llegando-los-monos-2][/Leer
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/adventures/mammoth.jpg" >
+ <img src="{{site.config.static_root}}/img/adventures/mammoth.jpg" >
 </div>
 #+END_EXPORT
 
@@ -32,7 +33,7 @@ Aunque las subsecuentes iteraciones de /Adventure/ poblaron los pasajes de la ca
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/adventures/mystery.jpg" >
+ <img src="{{site.config.static_root}}/img/adventures/mystery.jpg" >
 </div>
 #+END_EXPORT
 
@@ -47,7 +48,7 @@ Sierra pasó de matrimonio a empresa, publicó un éxito atrás de otro, creció
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/adventures/maniac.png" width="80%">
+ <img src="{{site.config.static_root}}/img/adventures/maniac.png" width="80%">
 </div>
 #+END_EXPORT
 
@@ -63,7 +64,7 @@ Como buen programador de sistemas que era, también, Gilbert fue demasiado ambic
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/adventures/mlifsacul.png" width="80%">
+ <img src="{{site.config.static_root}}/img/adventures/mlifsacul.png" width="80%">
 </div>
 #+END_EXPORT
 
@@ -78,7 +79,7 @@ En su breve paso por Lucasfilm, Ferrari trabajó en el legendario Skywalker Ranc
 ** 5. La isla
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/adventures/monkey.png" >
+ <img src="{{site.config.static_root}}/img/adventures/monkey.png" >
 </div>
 #+END_EXPORT
 
@@ -93,7 +94,7 @@ Para el argumento buscaba un género igualmente pintoresco y flexible que el /fa
 Para 1992, las aventuras gráficas estaban en pleno ascenso y Ron Gilbert era probablemente el diseñador de juegos más respetado de la industria. En ese momento, quizás previendo los cambios que se venían de la mano de las licencias de Star Wars, Gilbert se va a fundar su propia empresa, se refugia inexplicablemente en los juegos infantiles, dejando huérfanas sus dos franquicias y desentendiéndose de un género que prácticamente había inventado. Ron Gilbert fue, en 1992, el primero en irse de LucasArts; cinco años después, las aventuras gráficas estaban muertas.
 
 #+begin_export html
-<p>(Continuará... <img src="/assets/img/favicon.png" width=24>) </p>
+<p>(Continuará... <img src="{{site.config.static_root}}/img/favicon.png" width=24>) </p>
 #+end_export
 
 ** Fuentes

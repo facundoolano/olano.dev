@@ -3,10 +3,10 @@ layout: post
 title: "Mario Levrero, programador"
 date: 2023-06-29
 tags: [literatura, software]
-thumbnail-img: assets/img/levrero.jpg
-share-img: assets/img/levrero.jpg
-image: assets/img/levrero.jpg
-cover-img: assets/img/levrero.jpg
+thumbnail-img: levrero.jpg
+share-img: levrero.jpg
+image: levrero.jpg
+cover-img: levrero.jpg
 excerpt: Pienso que, si hubiera nacido en otra época o en otro lugar, Mario Levrero habría sido hacker de profesión o de vocación, habría encontrado ahí lo que penosamente le arrancaba a la literatura.
 lang: es
 ---

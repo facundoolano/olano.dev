@@ -3,7 +3,7 @@ layout: post
 title: "Literatura videojueguística vol. 2"
 date: 2023-09-18
 tags: [videojuegos, libros]
-image: assets/img/vol2/tomorrow.webp
+image: vol2/tomorrow.webp
 excerpt: Un nuevo compendio de libros sobre videojuegos seguido de un comentario del último documental de DoubleFine.
 lang: es
 ---
@@ -15,7 +15,7 @@ Hace casi dos años me permití un [[file:literatura-videojueguistica/][compendi
 #+BEGIN_EXPORT html
 <br/>
 <div class="text-center">
- <img src="/assets/img/vol2/tomorrow.webp" width="320">
+ <img src="{{site.config.static_root}}/img/vol2/tomorrow.webp" width="320">
 </div>
 #+END_EXPORT
 
@@ -25,7 +25,7 @@ Los roles de los protagonistas están claramente inspirados en [[file:maestros-d
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/vol2/buscaminas.webp" width="400">
+ <img src="{{site.config.static_root}}/img/vol2/buscaminas.webp" width="400">
 </div>
 #+END_EXPORT
 
@@ -39,7 +39,7 @@ Jimmy Maher, el [[https://filfre.net/][anticuario digital]] que es referencia ha
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/vol2/50years.jpg" width="320">
+ <img src="{{site.config.static_root}}/img/vol2/50years.jpg" width="320">
 </div>
 #+END_EXPORT
 
@@ -53,7 +53,7 @@ Para una lectura más liviana (y en nuestro idioma), los editores de [[https://r
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/vol2/amiga.jpg" width="320">
+ <img src="{{site.config.static_root}}/img/vol2/amiga.jpg" width="320">
 </div>
 #+END_EXPORT
 
@@ -66,7 +66,7 @@ En [[https://mitpress.mit.edu/9780262535694/the-future-was-here/][/The Future Wa
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/vol2/procedural.jpg" width="320">
+ <img src="{{site.config.static_root}}/img/vol2/procedural.jpg" width="320">
 </div>
 #+END_EXPORT
 
@@ -78,7 +78,7 @@ Una rareza sumamente interesante es [[https://www.routledge.com/Procedural-Gener
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="/assets/img/vol2/psycho.jpg" width="320">
+ <img src="{{site.config.static_root}}/img/vol2/psycho.jpg" width="320">
 </div>
 #+END_EXPORT
 

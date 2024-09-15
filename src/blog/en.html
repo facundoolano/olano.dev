@@ -1,13 +1,22 @@
 ---
 layout: default
 submenu: [["/feed", "/feed.xml"], ["/tags", "/blog/tags"]]
-title: /blog
+title: /blog/en
 head_title: Blog
 ---
 
-<p>lang: <a href="/blog">all</a> | <a href="/blog/es">es</a> | en</p>
-<br/>
+<p>If you want to read the most recent posts, see the full <a href="/blog/#archive">archive</a> below or subscribe to the <a href="feed.xml">rss feed</a>.
+    You can filter by <a href="/blog/en">english</a>, <a href="/blog/es">spanish</a> or <a href="/blog/">any</a> language.
+</p>
+<p></p>
 
+<p>If you want an alternate reading path, take a look at my <a href="/blog/tags/#⭐">favorites</a> <a style="text-decoration:none" href="/blog/tags/#⭐">⭐</a> or at the topic <a href="/blog/tags">tags</a>.
+</p>
+
+<p>A selection of the Spanish posts is also available as a book in <a href="/book.epub">epub</a> and <a href="/book.pdf">pdf</a> formats.</p>
+
+<br/>
+<h3><a href="#archive" class="title" id="archive">#archive</a></h3>
 
 <div class="blog-index">
     {% assign posts = site.posts|where:"lang", "en" %}

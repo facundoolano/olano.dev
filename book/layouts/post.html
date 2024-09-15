@@ -1,0 +1,39 @@
+---
+---
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+          "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{page.head_title|default: page.title }} | olano.dev</title>
+        <meta name="author" content="Facundo Olano">
+        <link href="{{site.config.static_root}}/Styles/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+
+        <div class="content layout-{{ page.layout }} e-content" lang="{{ page.lang | default:'es'}}">
+            <div class="header {% if page.cover-img %}with-cover{% endif %}">
+                <h1 class="title p-name">{{ page.title }}</h1>
+                {% if page.subtitle %}<h3 class="subtitle">{{ page.subtitle }}</h3>{% endif  %}
+                <div class="date-tags">
+                    <span class="date">{{ page.date | date: "%Y-%m-%d" }}</span>
+                    <br/>
+                    <span class="tags">
+                        {% for tag in page.tags %}
+                        <span>#{{tag}}</span>
+                        {% endfor %}
+                    </span>
+                </div>
+                {% if page.cover-img %}
+                <img class="cover-img" src="{{site.config.static_root}}/img/{{ page.cover-img  }}">
+                {% endif %}
+
+            </div>
+            {{ content }}
+        </div>
+
+
+    </body>
+</html>

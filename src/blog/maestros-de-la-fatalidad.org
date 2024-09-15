@@ -3,8 +3,8 @@ layout: post
 title: "Maestros de la fatalidad"
 date: 2020-08-28
 excerpt: Masters of Doom es el mejor libro jamás escrito sobre la historia de los videojuegos
-cover-img: assets/img/doom.png
-image: assets/img/doom.png
+cover-img: doom.png
+image: doom.png
 tags: [videojuegos, software, libros, memorias]
 lang: es
 ---
@@ -36,9 +36,7 @@ libro que quiero tener en mi biblioteca.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
-<a href="https://www.bookdepository.com/Masters-Doom-David-Kushner/9780812972153" target="_blank">
- <img src="/assets/img/doom2.jpg">
-</a>
+ <img src="{{site.config.static_root}}/img/doom2.jpg">
 </div>
 #+END_EXPORT
 
