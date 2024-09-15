@@ -31,7 +31,7 @@ $(EPUB_FILENAME): posts images target
 	cd target && zip -qXr9D ../$@ * -x "*.svn*" -x "*~" -x "*.hg*" -x "*.swp" -x "*.DS_Store"
 
 $(PDF_FILENAME): $(EPUB_FILENAME)
-	ebook-convert $(EPUB_FILENAME) $(PDF_FILENAME)
+	ebook-convert $(EPUB_FILENAME) $(PDF_FILENAME) --extra-css "body {line-height: 1.6;}"
 
 check:
 	epubcheck $(EPUB_FILENAME)
