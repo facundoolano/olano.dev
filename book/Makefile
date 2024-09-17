@@ -17,7 +17,7 @@ posts:
 
 images: src/OEBPS/img/.stamp
 
-# TODO lookup all images used in the front matter or the post contents and copy them from the parent project
+# lookup all images used in the front matter or the post contents and copy them from the parent project
 # so only used images are bundled in the epub.
 INLINE_IMAGES:=$(shell grep -oRSh 'static_root*[^"[:space:]]*' src/OEBPS/Text | sort | uniq | sed -E 's|static_root}}/img/||')
 COVER_IMAGES:=$(shell jorge meta 'site.posts | map:"cover-img" | compact' | jq -r '.[]')
