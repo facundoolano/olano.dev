@@ -1,5 +1,7 @@
+.PHONY: posts
 EPUB_FILENAME:=book.epub
 PDF_FILENAME:=book.pdf
+BOOK_FILTER_KEY:=vol1
 
 all: clean $(PDF_FILENAME)
 
@@ -7,15 +9,15 @@ target: src/* layouts/*
 	jorge build
 
 # FIXME the perl hack may be avoided by making the /index.html change optional in jorge
-# FIXME the posts.in could be avoided by using filtering by front matter flags, eg. "ebook: vol1"
-posts: posts.in
-	cat posts.in | xargs -I {} cp {} src/OEBPS/Text
+posts:
+	cd ../ && jorge meta 'site.posts | where:"book","$(BOOK_FILTER_KEY)" | map:"src_path"' | jq -r '.[]' | xargs -I {} cp {} book/src/OEBPS/Text
 	find src/OEBPS/Text -type f -name "*.org" -exec perl -pi -e 's|\[file:([^/\]]+?)(/)?\]|\[file:\1/index.html\]|g' {} +
 
 images: src/OEBPS/img/.stamp
 
 # TODO exaplain this
 INLINE_IMAGES:=$(shell grep -oRSh 'static_root*[^"[:space:]]*' src/OEBPS/Text | sort | uniq | sed -E 's|static_root}}/||')
+# FIXME use jorge meta
 COVER_IMAGES:=$(shell grep -oRSh 'cover-img:.*$$' src/OEBPS/Text | sort | uniq | sed -E 's|cover-img: |img/|')
 src/OEBPS/img/.stamp: src/OEBPS/Text/* config.yml
 	rm -rf src/OEBPS/img
@@ -41,6 +43,5 @@ check:
 clean:
 	rm -rf src/OEBPS/img
 	rm -rf src/OEBPS/Text/*.org
-	rm -rf
 	rm -rf $(EPUB_FILENAME)
 	rm -rf $(PDF_FILENAME)
