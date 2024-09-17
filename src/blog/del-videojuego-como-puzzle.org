@@ -9,6 +9,7 @@ share-img: puzzle/prince.png
 image: puzzle/prince.png
 excerpt: "El videojuego como puzzle se parece a animar pixeles en ocho colores, a traducir un poema, a escribir una novela oulipiana, a programar."
 lang: es
+book: "vol1"
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

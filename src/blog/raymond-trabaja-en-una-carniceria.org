@@ -9,6 +9,7 @@ thumbnail-img: fink-thumb.png
 image: fink-thumb.png
 cover-img: fink.png
 lang: es
+book: "vol1"
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

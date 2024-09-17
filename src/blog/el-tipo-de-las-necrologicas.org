@@ -4,6 +4,7 @@ title: "El tipo de las necrológicas"
 date: 2021-12-09 08:49:18
 tags: [ficción]
 lang: es
+book: "vol1"
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

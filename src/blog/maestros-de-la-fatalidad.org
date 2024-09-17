@@ -7,6 +7,7 @@ cover-img: doom.png
 image: doom.png
 tags: [videojuegos, software, libros, memorias]
 lang: es
+book: "vol1"
 ---
 #+OPTIONS: toc:nil num:nil
 

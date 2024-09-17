@@ -5,6 +5,7 @@ date: 2022-04-11
 tags: [software]
 lang: es
 favorite: true
+book: "vol1"
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

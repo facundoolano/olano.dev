@@ -8,6 +8,7 @@ thumbnail-img: jurassic/gate2.png
 share-img: jurassic/trex.jpg
 image: jurassic/trex.jpg
 lang: es
+book: "vol1"
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

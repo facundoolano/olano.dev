@@ -9,6 +9,7 @@ image: rpg/kriegsspiel.jpg
 date: 2023-04-27
 tags: [videojuegos]
 lang: es
+book: "vol1"
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

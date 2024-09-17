@@ -6,6 +6,7 @@ tags: [videojuegos, memorias]
 image: drifter.png
 excerpt: Este año me propuse reconquistar el ocio; me compré una computadora; volví a jugar.
 lang: es
+book: "vol1"
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

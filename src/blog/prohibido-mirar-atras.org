@@ -5,6 +5,7 @@ date: 2024-02-01
 tags: [ficción]
 image: colonia.jpg
 lang: es
+book: "vol1"
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

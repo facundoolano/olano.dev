@@ -9,6 +9,7 @@ image: adventures/monkey.png
 tags: [videojuegos, software, cine]
 favorite: true
 lang: es
+book: "vol1"
 ---
 #+OPTIONS: toc:nil num:nil ^:{}
 #+LANGUAGE: es
