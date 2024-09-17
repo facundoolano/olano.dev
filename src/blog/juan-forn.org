@@ -6,6 +6,7 @@ tags: [literatura, libros, memorias]
 thumbnail-img: forn.jpg
 image: forn.jpg
 lang: es
+book: "vol1"
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

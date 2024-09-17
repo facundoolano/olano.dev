@@ -9,6 +9,7 @@ image: tortoise.jpg
 thumbnail-img: tortoise.jpg
 cover-img: tortoise2.png
 lang: es
+book: "vol1"
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

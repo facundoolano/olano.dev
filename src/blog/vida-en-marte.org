@@ -8,6 +8,7 @@ share-img: alcaucin2.png
 image: alcaucin2.png
 excerpt: Chamot se dedica a buscar concursos literarios, elegir y ajustar sus textos, imprimir papeles, hacer envíos postales. Adopta identidades falsas para abarcar más territorio y envía cuentos a cada municipio bonaerense y cada sociedad de fomento chilena y a cada ayuntamiento español que se cruza por su camino.
 lang: es
+book: "vol1"
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

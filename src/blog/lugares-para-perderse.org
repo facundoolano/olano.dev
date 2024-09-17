@@ -4,6 +4,7 @@ title: "Lugares para perderse"
 date: 2023-12-23 13:24:28
 tags: [memorias, poesía]
 lang: es
+book: "vol1"
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

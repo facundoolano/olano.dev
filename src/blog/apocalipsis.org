@@ -9,6 +9,7 @@ image: thestand.jpg
 tags: [libros, literatura, ficción, distopías, memorias]
 favorite: true
 lang: es
+book: "vol1"
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
