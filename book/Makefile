@@ -22,19 +22,19 @@ images: src/OEBPS/img/.stamp
 INLINE_IMAGES:=$(shell grep -oRSh 'static_root*[^"[:space:]]*' src/OEBPS/Text | sort | uniq | sed -E 's|static_root}}/img/||')
 COVER_IMAGES:=$(shell jorge meta 'site.posts | map:"cover-img" | compact' | jq -r '.[]')
 src/OEBPS/img/.stamp: src/OEBPS/Text/* config.yml
-	rm -rf src/OEBPS/img
+	@rm -rf src/OEBPS/img
 	@for file in $(INLINE_IMAGES) $(COVER_IMAGES); do \
           echo "copying $$file";\
 	  mkdir -p $$(dirname src/OEBPS/img/$$file) ;\
           cp ../src/assets/img/$$file "src/OEBPS/img/$$file";\
         done
-	touch $@
+	@touch $@
 
 # based on https://github.com/javierarce/epub-boilerplate/blob/master/publish
 $(EPUB_FILENAME): posts images target
 	rm -f $@
 	cd target && zip -q0X ../$@ mimetype
-	cd target && zip -qXr9D ../$@ * -x "*.svn*" -x "*~" -x "*.hg*" -x "*.swp" -x "*.DS_Store"
+	cd target && zip -qXr9D ../$@ * -x "*.svn*" -x "*~" -x "*.hg*" -x "*.swp" -x "*.DS_Store" -x "mimetype" -v
 
 $(PDF_FILENAME): $(EPUB_FILENAME)
 	ebook-convert $(EPUB_FILENAME) $(PDF_FILENAME) --extra-css "body {line-height: 1.6;}"
