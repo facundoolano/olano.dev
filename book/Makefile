@@ -34,7 +34,7 @@ src/OEBPS/img/.stamp: src/OEBPS/Text/* config.yml
 $(EPUB_FILENAME): posts images target
 	rm -f $@
 	cd target && zip -q0X ../$@ mimetype
-	cd target && zip -qXr9D ../$@ * -x "*.svn*" -x "*~" -x "*.hg*" -x "*.swp" -x "*.DS_Store" -x "mimetype" -v
+	cd target && zip -qXr9D ../$@ * -x "mimetype" -x "*.svn*" -x "*~" -x "*.hg*" -x "*.swp" -x "*.DS_Store" -v
 
 $(PDF_FILENAME): $(EPUB_FILENAME)
 	ebook-convert $(EPUB_FILENAME) $(PDF_FILENAME) --extra-css "body {line-height: 1.6;}"
