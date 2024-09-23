@@ -14,6 +14,43 @@ Already the displacement of one's thought-child
 is not only conceived, but scheduled.
 #+end_verse
 
+#+begin_export html
+<br/><br/>
+#+end_export
+
+"How would you like working as a video game artist?”.
+
+Mark holds his first prize certificate on one hand and the guy's card in the other. "Gary Winick - Art Director - LucasFilm Games". LucasFilm as in George Lucas. As in Star Wars.
+
+"Could you come over to the Ranch for an interview?", he insists.
+
+This is his second lucky break of the weekend. Mark is just out of art school, trying to make it as an illustrator. A friend recommended he show up to this sci-fi convention, these things are good for networking, he said. Mark wouldn't mind having some of his work on a trading card, or a rule book, or, who knows, one of those fantasy novels he used to read growing up.
+
+So he shows up, someone notices his work, these pencil-drawn landscapes that looked like they were hand-painted,
+they tell him he should take it to the conference's art show, he does, two days later he wins best of the show.
+That was his first lucky break that weekend; the second was this Gary Winick guy, coming over to him, handing him a card, asking him to 'audition' for a video game job.
+
+Mark stops for a second to think what to say next. He needs a job, after all. Honesty has been working wonders for him this weekend, so he tells it straight:
+
+"I'd be happy to come over to do <do anything there>, but... I don't know the first thing about video games. I never even touched a computer".
+
+"That's alright", Gary replies, "we've had better results teaching artists how to program than programmers how to art. I'm not worried about that part".
+
+Gary tells him about the job and Mark asks about working at the Ranch and they agree on an interview.
+
+Then Mark drives back home, exited, confused.
+<on his first weekend as a professional illustrator, on this first try, he gets an offer for a job that he didn't even know existed five minutes ago but that he now thinks think that's both his dream job and one that he's terribly underqualified for. He gets home, he calls his parents to share the news. His father, he now learns---and this was the third and final lucky break of the weekend---has just bought a personal computer, a Commodore Amiga.
+
+<So for the next few days
+
+[TODO hut image]
+
+<he shows up to work every day at a place that looks as otherworldly as one of his fantasy landscapes, or as a shot from Star Wars, or a scene from that adventure game the company has just published.
+<a <valley>, a lake, green hills, this old victorian house, with a theater and a huge library with a spiral staircase
+<george lucas, stephen spielberg, leonard nimoy, the rolling stones
+
+[TODO mansion image]
+
 
 *** Sources
 - The Art of point & click
