@@ -1,0 +1,30 @@
+---
+title: The Mark Ferrari Parable
+date: 2024-09-22 17:52:07
+layout: post
+lang: en
+tags: [videogames, software]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+#+begin_verse
+Already the displacement of one's thought-child
+is not only conceived, but scheduled.
+#+end_verse
+
+
+*** Sources
+- The Art of point & click
+- mixnmojo #4 https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-4-Loom/5
+- mixnmojo #5 https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-The-Secret-of-Monkey-Island/7
+- The Making of Monkey Island - Behind The Scenes https://youtu.be/ri4_3P2Oh14?feature=shared
+- The Effect of CRTs on Pixel Art https://datagubbe.se/crt/
+- The tar pit
+- Why A.I. Isn’t Going to Make Art https://www.newyorker.com/culture/the-weekend-essay/why-ai-isnt-going-to-make-art
+- Day of the Tentacle Remastered (developer commentary)
+- Lucasfilm EGA adventures https://www.superrune.com/tutorials/lucasfilm_ega.php
+- https://mixnmojo.com/features/si
+  tefeatures/Monkey-Island-From-EGA-to-VGA/
+- https://scientificgamer.com/lucasarts-time-machine-the-secret-of-monkey-island/
