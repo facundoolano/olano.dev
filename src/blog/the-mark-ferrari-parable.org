@@ -18,34 +18,47 @@ is not only conceived, but scheduled.
 <br/><br/>
 #+end_export
 
-"How would you like working as a video game artist?”.
+"How would you like working as a video game artist?".
 
-Mark holds his first prize certificate on one hand and the guy's card in the other. "Gary Winick - Art Director - LucasFilm Games". LucasFilm as in George Lucas. As in Star Wars.
+Mark holds his first prize certificate on one hand and the guy's card in the other. "Gary Winnick - Art Director - LucasFilm Games". LucasFilm as in George Lucas. As in Star Wars.
 
 "Could you come over to the Ranch for an interview?", he insists.
 
-This is his second lucky break of the weekend. Mark is just out of art school, trying to make it as an illustrator. A friend recommended he show up to this sci-fi convention, these things are good for networking, he said. Mark wouldn't mind having some of his work on a trading card, or a rule book, or, who knows, one of those fantasy novels he used to read growing up.
+This is his second lucky break of the weekend. Mark is just out of art school, trying to make it as an illustrator. A friend recommended he show up to this sci-fi convention, he said these things are good for networking. Mark wouldn't mind having some of his work on a trading card, or a rule book, or, who knows, on the cover of one of those fantasy novels he used to read growing up.
 
-So he shows up, someone notices his work, these pencil-drawn landscapes that looked like they were hand-painted,
-they tell him he should take it to the conference's art show, he does, two days later he wins best of the show.
-That was his first lucky break that weekend; the second was this Gary Winick guy, coming over to him, handing him a card, asking him to 'audition' for a video game job.
+So he shows up to the convention on Friday, someone notices his work---these pencil-drawn landscapes that look like they were hand-painted---, they invite him to participate in the convention's art show, he does, two days later he wins best of the show. That was his first lucky break that weekend; the second was this guy, Gary Winnick, coming over to him, handing him a card, asking him to 'audition' for a video game job.
 
-Mark stops for a second to think what to say next. He needs a job, after all. Honesty has been working wonders for him this weekend, so he tells it straight:
+Mark reads the card again, stops for a second to think what to say next. He needs a job, after all. Honesty has been working wonders for him this weekend, so he tells it straight:
 
-"I'd be happy to come over to do <do anything there>, but... I don't know the first thing about video games. I never even touched a computer".
+"I'd be happy to come over to do <do anything at all there>, but... I don't know the first thing about video games. I never even touched a computer".
 
 "That's alright", Gary replies, "we've had better results teaching artists how to program than programmers how to art. I'm not worried about that part".
 
-Gary tells him about the job and Mark asks about working at the Ranch and they agree on an interview.
+Gary tells him about the job and Mark asks how is it to work at the Ranch. They agree on a date for the interview. The last two hours of the conference are now a blank in Mark's head. <on his first weekend as a professional illustrator, on this first try, he gets an offer for a job that he didn't even know existed five minutes ago but that he now thinks think that's both his dream job and one that he's terribly underqualified for. He drives back home, he calls his parents to share the news. His father, he now learns---and this was the third and final lucky break of the weekend---has just bought a personal computer.
 
-Then Mark drives back home, exited, confused.
-<on his first weekend as a professional illustrator, on this first try, he gets an offer for a job that he didn't even know existed five minutes ago but that he now thinks think that's both his dream job and one that he's terribly underqualified for. He gets home, he calls his parents to share the news. His father, he now learns---and this was the third and final lucky break of the weekend---has just bought a personal computer, a Commodore Amiga.
+#+begin_export html
+<br/><br/>
+#+end_export
 
-<So for the next few days
+
+"What are you doing with this thing, anyway?", asks Mark. His sitting in front of the computer, skimming the manual. The cover reads Commodore Amiga.
+"The school made a deal for us to get them at half price, they say teachers should be computer literate if they want to have a job in five years". The voice comes into his old bedroom before the rest of his father. He shows up and leans on the doorway. "I figured I could use it for writing, but they have a different brand at school, so I can't print my files. And I'm not buying a printer. You can take it if you want".
+<"Let's see if I can get this job first. It says here there's a drawing program, let's try that out".
+<maybe: amiga details, open a program, dpaint II? try it intuitively
+
+Mark secludes himself in his old bedroom, getting familiar with this computer thing and its paint program. That little mouse contraption forces his hand into a claw. Whenever he begins to feel that he's gotten used to it, that he can forget about the tool and focus on the task, whenever his eyes seem to spark a connection between the image on the screen and the image on his brain, his hand jumps from the mouse to grip a pencil that's not there, like a phantom limb.
+
+He painfully teaches himself to draw a single picture, a little African hut that he repeats over and over until he memorizes the motions, and that he'll repeat in a few days to survive his interview.
 
 [TODO hut image]
 
+#+begin_export html
+<br/><br/>
+#+end_export
+
+
 <he shows up to work every day at a place that looks as otherworldly as one of his fantasy landscapes, or as a shot from Star Wars, or a scene from that adventure game the company has just published.
+<makes a point of not forgetting this, no matter how shitty the job gets
 <a <valley>, a lake, green hills, this old victorian house, with a theater and a huge library with a spiral staircase
 <george lucas, stephen spielberg, leonard nimoy, the rolling stones
 
