@@ -15,6 +15,8 @@ is not only conceived, but scheduled.
 #+end_verse
 
 MAYBE: /A Digital Artist/
+/The Pixel Parable/
+/A Pixel Parable/
 
 
 #+begin_export html
@@ -69,8 +71,6 @@ the same gary winnick shows him around, helps him setup his computer, deluxe pai
 for a couple of days they just let him play the maniac mansion game, to get a feel of the kind of thing they are trying to build
 <imposter syndrome, everybody knows he's not a computer person, but also everybody is trying to figure out what it means to tell a story in this medium, in this genre, no one is an expert in that. and they value his artistic point of view
 
-ironically, lucasfilm games didn't have the license to make star wars games. there were some /Indiana Jones/ projects on the works, but the games division were expected to come up with original ideas for the games. this was both a blessing and a curse, as he'd learn.
-
 <drives out of the underground garage
 place that looks as otherworldly as one of his fantasy landscapes, as a shot from Star Wars or a scene from that adventure game the company has just published.
 <a <valley>, a lake, green hills, this old victorian house, with a theater and a huge library with a spiral staircase
@@ -82,7 +82,28 @@ he will be driving in this underground garage for the next three years, but he'l
 <br/><br/>
 #+end_export
 
+ironically, lucasfilm games didn't have the license to make star wars games. there were some /Indiana Jones/ projects on the works, but the games division were expected to come up with original ideas for the games. this was both a blessing and a curse, as he'd learn.
+
+<lunch across the room from george lucas, stephen spielberg, leonard nimoy, the rolling stones
+david lynch screening at the art deco theater of the main house
+<same room but worlds apart
+they don't seem much of the big guy, they may catch a glimpse of him at lunch, or when browsing the library, as he climbs the spiral staircase up to his office in the roof---which is off-limits.
+
+truth is Lucas doesn't care for video games, the existence of the division a sort of accident from a different era of the company, his survival now <off of his hands.
+this group of people, mostly computer hackers, had nothing to do with film making---any possible connection disappeared when pixar was sold to steve jobs---, and an <unstated rule> was to be as invisible as possible to lucas, not to tempt them to get rid of the division
+a kind o intruders
+
+<to make up for his absence, the executives throw around the single piece of advice they managed to get from the owner: “Stay small, be the best, don’t lose any money.”
+
+the only part of this that affected him, Mark thought, was /be the best/, and that was how he intended to operate anyway, he didn't need a manager to tell him. he left to the suits, though, to figure out how his work and that of his teammates was supposed to be connected to the money making.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
 <he joins a team working on the follow-up adventure game
+
+The programmers don't seem to care that he's a computer and video game neophyte. They invite him to join the brainstorming sessions, they ask for his input on design decisions, his water cooler jokes make it to the dialog of the game. They give him freedom to figure out the game backgrounds, handing him a short list of requirements for each one---items and doors that will be necessary for the gameplay of the scene, what they call /hotspots/---and as long as he meets them he can do whatever he wants.
 
 it doesn't take him too long to become productive. that is, to work out a usable background fast enough to meet the developers expectations, which were lower than his own.
 his goal was to produce art and get paid for it, so he give as little thought as possible to the needs of the project and the business.
@@ -94,9 +115,20 @@ this is another thing where he needs to plan ahead, carefully measuring what col
 <There's little room for the sort of creativity that stems from impulse and experimentation (but much from constraints, pushing the boundaries, happy accidents that lead to innovation
 it gets better as /he/ gets better, more familiar with the tools; once he grasps what are his materials and what their capabilities and limitations, he can start using them to his advantage---work around and step on the constraints and push himself to be creative as with any art and any material, just like does with pencil and paper.
 
-The programmers don't seem to care that he's a computer and video game neophyte. They invite him to join the brainstorming sessions, they ask for his input on design decisions, his water cooler jokes make it to the dialog of the game. They give him freedom to figure out the game backgrounds, handing him a short list of requirements for each one---items and doors that will be necessary for the gameplay of the scene, what they call /hotspots/---and as long as he meets them he can do whatever he wants. The mouse, the pixels, the 16-color palette, the hotspots, are the constraints he needs to work with and around. The programmers, too, with their arcane knowledge, can become another layer of constraints, a kind of the extension of the computers.
+#+begin_export html
+<br/><br/>
+#+end_export
 
+The mouse, the pixels, the 16-color palette, the hotspots, are the constraints he needs to work with and around. The programmers, too, with their arcane knowledge, can become another layer of constraints, a kind of the extension of the computers.
+TODO: maybe use an example requirements for a particular zak scenario for this section. (that would require killing the paragraph above
+
+One trick---a /hack/, as programmers would call it---he discovered early on was that if he formed a checkerboard pattern of pixel in his drawings, when he zoomed out the image pixels would blend and bleed in the screen, producing shades beyond the boring old 16 colors of the EGA palette.
+
+This was one of those happy accidents, but since he found it he's been thinking how to use it to his advantage, and this background could be the perfect excuse.
+<todo describe how he draws it, where he uses dither
 <this was obviously not art, not yet, but it was better that anything he did before and anything he saw in the previous game; most importantly it was progress, it was a hint of path they could explore to get closer to his goal.
+he sends it/takes it to the programmer, goes over to his desk to see their reaction and get some praise, we're taking the art on this game to a new level folks
+<TODO dialog
 
 
 *** Sources
@@ -115,13 +147,7 @@ The programmers don't seem to care that he's a computer and video game neophyte.
 
 *** material
 
-they don't seem much of the big guy, they may catch a glimpse of him at lunch, or when browsing the library, as he climbs the spiral staircase up to his office in the roof---which is off-limits.
-truth is Lucas doesn't care for video games, the existence of the division a sort of accident from a different era of the company, his survival now <off of his hands.
-this group of people, mostly computer hackers, had nothing to do with film making---any possible connection disappeared when pixar was sold to steve jobs---, and an <unstated rule> was to be as invisible as possible to lucas, not to tempt them to get rid of the division
-a kind o intruders
-
-<to make up for his absence, the executives throw around the single piece of advice they managed to get from the owner: “Stay small, be the best, don’t lose any money.”
-the only part of this that affected him, Mark thought, was /be the best/, and that was how he intended to operate anyway, he didn't need a manager to tell him. he left to the suits, though, to figure out how his work and that of his teammates was supposed to be connected to the money making. he assumed things went well enough, as projects were still lined up and while they were staying smallish, as far as he could tell they didn't seem to be getting smaller
+he assumed things went well enough, as projects were still lined up and while they were staying smallish, as far as he could tell they didn't seem to be getting smaller
 
 Lucas didn't care for games, but Spielberg certainly did, and he took any chance he had when working in the Ranch to visit the office and see what the games folks where up to.
 game designers would get weekend calls for hints at tackling puzzles
@@ -129,10 +155,6 @@ it was a matter of time for spielberg to get involved in game, likely an Indiana
 
 https://web.archive.org/web/20030503162101fw_/http://lucasfans.mixnmojo.com/features/interview_stevepurcell_2.html
 Working there was like going away to summer camp. We'd hike through the hills after lunch, toss a softball around in the field out back, go to screenings in George Lucas's amazing art deco theatre. We'd end up working late every night to make up for the time we spent getting distracted.
-
-<lunch across the room from george lucas, stephen spielberg, leonard nimoy, the rolling stones
-david lynch screening at the art deco theater of the main house
-<same room but worlds apart
 
 not only first illustrator job, first steady job.
 (previously worked in all sorts of temporary jobs)
