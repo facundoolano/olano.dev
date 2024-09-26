@@ -11,13 +11,13 @@ draft: true
 
 #+begin_verse
 Already the displacement of one's thought-child
-is not only conceived, but scheduled.
+is not only conceived
+but scheduled
 #+end_verse
 
 MAYBE: /A Digital Artist/
 /The Pixel Parable/
 /A Pixel Parable/
-
 
 #+begin_export html
 <br/><br/>
@@ -25,7 +25,7 @@ MAYBE: /A Digital Artist/
 
 "How would you like working as a video game artist?".
 
-Mark holds his first prize certificate on one hand and the guy's card in the other. /Gary Winnick - Art Director - LucasFilm Games/. LucasFilm as in George Lucas. As in Star Wars.
+Mark is holding his "Best of the Show" certificate on one hand and the guy's card in the other. /Gary Winnick - Art Director - LucasFilm Games/. LucasFilm as in George Lucas. As in Star Wars.
 
 "Could you come over to the Ranch for an interview?", he insists.
 
@@ -46,7 +46,6 @@ Mark calls his parents to share the news. His father, he now learns---and this w
 #+begin_export html
 <br/><br/>
 #+end_export
-
 
 "What are you doing with this thing, anyway?", asks Mark. His sitting in front of the computer, skimming the manual. The cover reads Commodore Amiga.
 "The school made a deal for us to get'em half price, they say we should be computer-literate if we want to have a job in five years". The voice comes into the room before the rest of his father, who then appears at the doorway, leaning on the frame. "I figured I could use it for writing, but they have a different brand at school, so I can't print my files. And I'm not buying a printer. You can take it if you want".
@@ -95,8 +94,6 @@ a kind o intruders
 
 <to make up for his absence, the executives throw around the single piece of advice they managed to get from the owner: “Stay small, be the best, don’t lose any money.”
 
-the only part of this that affected him, Mark thought, was /be the best/, and that was how he intended to operate anyway, he didn't need a manager to tell him. he left to the suits, though, to figure out how his work and that of his teammates was supposed to be connected to the money making.
-
 #+begin_export html
 <br/><br/>
 #+end_export
@@ -130,6 +127,82 @@ This was one of those happy accidents, but since he found it he's been thinking 
 he sends it/takes it to the programmer, goes over to his desk to see their reaction and get some praise, we're taking the art on this game to a new level folks
 <TODO dialog
 
+#+begin_export html
+<br/><br/>
+#+end_export
+
+crunch, pixel screensaver
+lunch
+y u no dither, maybe some technical details (check scummvm?)
+
+he realizes the programmers too have their own set of constraints, their own challenging puzzles they need to resolve to get some creative output from these machines
+
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+green light for indiana jones game
+
+for all that Lucas didn't care for games, Spielberg was obsessed with them
+and he took any chance he had when working in the Ranch to visit the office and see what the games folks where up to.
+he said they were doing a kind of animated, interactive movies and that it was just a matter of time for our work to converge with his
+game designers would get weekend calls for hints at tackling puzzles
+
+everyone took for granted that he would eventually be involved to some capacity in one of the next games, likely an indiana jones, although not the /Last Crusade
+it was a matter of time for spielberg to get involved in game, likely an Indiana Jones one
+but not the one they were making now
+
+mark was suspicious of IP games, he prefferred originals,
+one thing were the constraints imposed by the tech, but ip games were like a huge requirements list handed by executives
+it was obvious that once the star wars license embargo was lift off, it would take a hell of an effort to prevent the suits to send all hands to milk chewbacca
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+“Stay small, be the best, don’t lose any money.”
+
+the only part of this that affected him, Mark thought, was /be the best/, and that was how he intended to operate anyway, he didn't need a manager to tell him. he left to the suits, though, to figure out how his work and that of his teammates was supposed to be connected to the money making.
+
+he assumed things went well enough, as projects were still lined up, now they were doing two adventures in parallel
+by all appearences they were getting bigger, new artists coming in, and mark had to help onboard them
+they actually did two games in parallel now, and new people were coming in
+
+it was a good thing that he didn't get assigned to this indy game.
+they made him lead bg artist for another project, that would be all ferrari style, doubling down on his dithered style
+other than compression, the scumm engine now could scale the character sprites to represent different distances, this meant that he could move away from the horizontal axis and add perspective to his scenes
+
+todo: read a bit about loom
+maybe: onboarding new artist scene
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+monkey?
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+new computers
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+- announce lucas arts downgrade
+- star wars embargo lift
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+- drive out, remember his first day
+- starting as freelance career
+- he knew it didn't get better than lucasfilm games at the ranch, that he wouldn't find what he had there anywhere else, much less as freelance artist
+- but he also knew he wouldn't get it here either, lucasfilm was gone, replaced by lucas arts, the ranch was replaced by san raphael, the magic days were over, magic days were over
 
 *** Sources
 - The Art of point & click
@@ -147,12 +220,6 @@ he sends it/takes it to the programmer, goes over to his desk to see their react
 
 *** material
 
-he assumed things went well enough, as projects were still lined up and while they were staying smallish, as far as he could tell they didn't seem to be getting smaller
-
-Lucas didn't care for games, but Spielberg certainly did, and he took any chance he had when working in the Ranch to visit the office and see what the games folks where up to.
-game designers would get weekend calls for hints at tackling puzzles
-it was a matter of time for spielberg to get involved in game, likely an Indiana Jones one, when the license <restrain> was over
-
 https://web.archive.org/web/20030503162101fw_/http://lucasfans.mixnmojo.com/features/interview_stevepurcell_2.html
 Working there was like going away to summer camp. We'd hike through the hills after lunch, toss a softball around in the field out back, go to screenings in George Lucas's amazing art deco theatre. We'd end up working late every night to make up for the time we spent getting distracted.
 
@@ -160,8 +227,5 @@ not only first illustrator job, first steady job.
 (previously worked in all sorts of temporary jobs)
 felt underqualified but was given freedom
 worked in a dream place and earned much more than his father
-
-for loom or for monkey: the scumm engine now could scale the character sprites to represent different distances, this meant that he could move away from the horizontal axis and add perspective to his scenes
-
 
 https://www.arcadeattack.co.uk/brian-moriarty/
