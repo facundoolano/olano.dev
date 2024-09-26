@@ -23,7 +23,7 @@ MAYBE: /A Digital Artist/
 <br/><br/>
 #+end_export
 
-"How would you like working as a video game artist?".
+"How would you like working as a video game artist?"
 
 Mark is holding his "Best of the Show" certificate on one hand and the guy's card in the other. /Gary Winnick - Art Director - LucasFilm Games/. LucasFilm as in George Lucas. As in Star Wars.
 
@@ -35,9 +35,9 @@ So he shows up to the convention on Friday, someone notices his work---these pen
 
 Mark reads the card again, stops for a second to think what to say next. He needs a job, after all. Honesty has been working wonders for him this weekend, so he tells it straight:
 
-"I'd be happy to come over to do <do anything at all there>, but... I don't know the first thing about video games. I never even touched a computer".
+"I'd be happy to come over to do <do anything at all there>, but... I don't know the first thing about video games. I never even touched a computer."
 
-"That's alright", Gary replies, "we've had better results teaching artists how to program than programmers how to art. I'm not worried about that part".
+"That's alright", Gary replies, "we've had better results teaching artists how to program than programmers how to art. I'm not worried about that part."
 
 Gary tells him about the job and Mark asks how is it to work at the Ranch. They agree on a date for the interview. The last two hours of the conference are a blank. He drives back home, trying to figure out what just happened. <On his first weekend as a professional illustrator, on this first try, he gets an offer for a job that he didn't even know existed five minutes ago but that he now thinks think that's both his dream job and one that he's terribly underqualified for.
 
@@ -47,10 +47,12 @@ Mark calls his parents to share the news. His father, he now learns---and this w
 <br/><br/>
 #+end_export
 
-"What are you doing with this thing, anyway?", asks Mark. His sitting in front of the computer, skimming the manual. The cover reads Commodore Amiga.
-"The school made a deal for us to get'em half price, they say we should be computer-literate if we want to have a job in five years". The voice comes into the room before the rest of his father, who then appears at the doorway, leaning on the frame. "I figured I could use it for writing, but they have a different brand at school, so I can't print my files. And I'm not buying a printer. You can take it if you want".
+# FIXME maybe not amiga? c64, atari, apple ][?
 
-<"Let's see if I get the job, first. It says here there's a drawing program in this, let's try it out".
+"What are you doing with this thing, anyway?", asks Mark. His sitting in front of the computer, skimming the manual. The cover reads Commodore Amiga.
+"The school made a deal for us to get'em half price, they say we should be computer-literate if we want to have a job in five years." The voice comes into the room before the rest of his father, who then appears at the doorway, leaning on the frame. "I figured I could use it for writing, but they have a different brand at school, so I can't print my files. And I'm not buying a printer. You can take it if you want."
+
+<"Let's see if I get the job, first. It says here there's a drawing program in this, let's try it out."
 
 <maybe: amiga details, open a program, dpaint II? try it intuitively. TODO: read amiga book chapter
 
@@ -83,7 +85,6 @@ he will be driving in this underground garage for the next three years, but he'l
 
 ironically, lucasfilm games didn't have the license to make star wars games. there were some /Indiana Jones/ projects on the works, but the games division were expected to come up with original ideas for the games. this was both a blessing and a curse, as he'd learn.
 
-<lunch across the room from george lucas, stephen spielberg, leonard nimoy, the rolling stones
 david lynch screening at the art deco theater of the main house
 <same room but worlds apart
 they don't seem much of the big guy, they may catch a glimpse of him at lunch, or when browsing the library, as he climbs the spiral staircase up to his office in the roof---which is off-limits.
@@ -124,18 +125,66 @@ One trick---a /hack/, as programmers would call it---he discovered early on was 
 This was one of those happy accidents, but since he found it he's been thinking how to use it to his advantage, and this background could be the perfect excuse.
 <todo describe how he draws it, where he uses dither
 <this was obviously not art, not yet, but it was better that anything he did before and anything he saw in the previous game; most importantly it was progress, it was a hint of path they could explore to get closer to his goal.
-he sends it/takes it to the programmer, goes over to his desk to see their reaction and get some praise, we're taking the art on this game to a new level folks
-<TODO dialog
+he sends it/takes it to the programmer, goes over to his desk to see their reaction and get some praise, we're taking the art on this game to a new level folks, he's expecting a pat on the back
+
+the image loads up on the screen from top to bottom. ron takes a few seconds to look at it before speaking up
+
+"what the hell man?"
+
+"I... wait, what?"
+
+"You dithered all over this thing, this won't compress." He speaks in his soothing monotone, which makes him all the more scary when the words imply he's not happy
+
+"Dithered?"
+
+"What's up", Gary joins them, sensing trouble. "Wow, neat <background>. Oh, wait, that won't compress. Yeah, you can't do that."
+
+"What's compression, again?"
+
+"Those little patterns there, you can't do that, that will take too much space."
+
+Gary tries to be didactic in these situations, not to because he cares that Mark learns about the computer internals but because he wants to make sure Marks gets they have good reasons to clip his wings. Gary proceeds to explain that the image data is run through a compression algorithm so it takes up less storage in the disk. The idea is that instead of storing the colors pixel by pixel, they store how many times the current color needs to be repeated; the more same-color segments the image has, the fewer space it will take in disk. His little checkerboard technique---which they called /dithering/---completely breaks this idea, possibly making the compressed image take /even more/ space than the original. Dithered backgrounds would double or triple the required disk space, which would double the amount of disks required to ship the game, which would double production costs, which would double the game's price tag, which would surely get them all fired.
+
+# FIXME: maybe too explanatory
+Those damn computer. It's like they come with a set of unwritten instructions that everyone knows about but him. He's almost 6 months into the job and still can't tell when he's doing it right. How is he supposed to /be the best/ without /don't lose any money/ getting in the way?
+
+"Try again with solid colors, please." Gary pats him on the back. "That was some background, though, huh?"
+
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
-crunch, pixel screensaver
-lunch
-y u no dither, maybe some technical details (check scummvm?)
+<veterans had warned him there was going to be crunch when they got closer to the
+<here's the thing about deadlines: everybody knows we won't hit the first one or two deadlines, and that's ok, but everyone accept that you'll just crunch those final months
+mark defaulted to a belligerent attitude towards authority and thus was, in principle, against overtime and having to meet executive demands and meet deadlines
+but, also, he didn't really mind the effort.
+he never once lost sight that
+he was getting paid to be an artist---even though he didn't felt these computer drawings were there yet---
+he was paid handsomely, more than every
+he was having fun, he respected his teammates,
+he was working at geek disneyland, having gourmet lunches across the room from leonard nimoy or the rolling stones
 
-he realizes the programmers too have their own set of constraints, their own challenging puzzles they need to resolve to get some creative output from these machines
+he was already used to working late, in the quite months they would take long lunches or hikes through the hills or they would toss a softball around in the field out back, so they ended up working late to make up for the time
+most of the people on the team was in their early twenties so they didn't have anywhere better to be anyway
+
+so as the project deadlines arrived, they just kept working late, only skipping the long breaks during the day.
+
+weekends at the ranch, though, were off-limits. they would let him take his computer back home on fridays to work during the weekend
+he figured his bodily reaction to screen time was somehow connected with sleep deprivation. at first, pulling 6 or 8 straight hours in front of the computer seemed to burn him out, but after 10 or 12 he didn't really cared, he just kept going until he literally felt asleep on the keyboard
+
+during this periods he got used to taking breaks from the works without getting away from the computer. he always kept one or two personal illustrations on the side, where he <got off> from all the restrictions that the game backgrounds imposed on him
+he would use dithering, and colors otherwise reserved for sprite characters, and unconventional image dimensions
+
+protest dither image,
+pixel screensaver,
+long lunch
+back to his desk, divsion director and gilbert discussion
+maybe some compression technical details
+
+a few week later he was informed that dithering was now supported. he realizes the programmers too have their own set of constraints, their own challenging puzzles they need to resolve to get some creative output from these machines
+
+the division head told him they would double down on dithering for the look and feel of the next game, that he would be lead artist for it. your <stock> just went up.
 
 
 #+begin_export html
@@ -218,14 +267,8 @@ new computers
 - https://scientificgamer.com/lucasarts-time-machine-the-secret-of-monkey-island/
 - antiquarian
 
-*** material
-
 https://web.archive.org/web/20030503162101fw_/http://lucasfans.mixnmojo.com/features/interview_stevepurcell_2.html
-Working there was like going away to summer camp. We'd hike through the hills after lunch, toss a softball around in the field out back, go to screenings in George Lucas's amazing art deco theatre. We'd end up working late every night to make up for the time we spent getting distracted.
-
-not only first illustrator job, first steady job.
-(previously worked in all sorts of temporary jobs)
-felt underqualified but was given freedom
-worked in a dream place and earned much more than his father
 
 https://www.arcadeattack.co.uk/brian-moriarty/
+
+https://grumpygamer.com/guybrush_fact_fiction
