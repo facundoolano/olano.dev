@@ -1,5 +1,5 @@
 ---
-title: The Mark Ferrari Parable
+title: A Pixel Parable
 date: 2024-09-22 17:52:07
 layout: post
 lang: en
@@ -14,10 +14,6 @@ Already the displacement of one's thought-child
 is not only conceived
 but scheduled
 #+end_verse
-
-MAYBE: /A Digital Artist/
-/The Pixel Parable/
-/A Pixel Parable/
 
 #+begin_export html
 <br/><br/>
@@ -177,10 +173,11 @@ during this periods he got used to taking breaks from the works without getting 
 he would use dithering, and colors otherwise reserved for sprite characters, and unconventional image dimensions
 
 protest dither image,
-pixel screensaver,
-long lunch
-back to his desk, divsion director and gilbert discussion
-maybe some compression technical details
+this was... art. and now hi was annoyed that he couldn't put stuff like this in the game. he set it as a screensaver in his computer to send a passive-aggressive message, a kind of protest---against no one in particular, no one in his team, anyway. Ge was protesting Turing and Von Neumann and George Lucas and Ronald Reagan, for making it so damn hard to make art for a living.
+
+takes a long lunch, when he gets back to his desk the divsion director and gilbert are discussing, why exactly doesn't dither compress? can't we do anything about this? art like this in our games would be a game changer, the differential people came expect from our films, now in the computer.
+
+# TODO: maybe some compression technical details
 
 a few week later he was informed that dithering was now supported. he realizes the programmers too have their own set of constraints, their own challenging puzzles they need to resolve to get some creative output from these machines
 
