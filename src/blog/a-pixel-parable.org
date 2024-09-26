@@ -56,8 +56,6 @@ Mark secludes himself in his high school bedroom for the next few evenings, gett
 
 He teaches himself to draw a single picture, a little African hut that he repeats over and over until he memorizes the procedure, which he will repeat a few days later to survive his interview.
 
-[TODO hut image]
-
 #+begin_export html
 <br/><br/>
 #+end_export
@@ -69,12 +67,12 @@ for a couple of days they just let him play the maniac mansion game, to get a fe
 <imposter syndrome, everybody knows he's not a computer person, but also everybody is trying to figure out what it means to tell a story in this medium, in this genre, no one is an expert in that. and they value his artistic point of view
 
 <drives out of the underground garage
+<what car?
 place that looks as otherworldly as one of his fantasy landscapes, as a shot from Star Wars or a scene from that adventure game the company has just published.
 <a <valley>, a lake, green hills, this old victorian house, with a theater and a huge library with a spiral staircase
 <cattle, farm animals
 he will be driving in this underground garage for the next three years, but he'll make a point of never taking this for granted, no matter how shitty the job gets
 
-[TODO mansion image]
 #+begin_export html
 <br/><br/>
 #+end_export
@@ -124,6 +122,8 @@ This was one of those happy accidents, but since he found it he's been thinking 
 he sends it/takes it to the programmer, goes over to his desk to see their reaction and get some praise, we're taking the art on this game to a new level folks, he's expecting a pat on the back
 
 the image loads up on the screen from top to bottom. ron takes a few seconds to look at it before speaking up
+
+# FIXME dont throw dithering as it's an already known term
 
 "what the hell man?"
 
@@ -219,8 +219,11 @@ it was a good thing that he didn't get assigned to this indy game.
 they made him lead bg artist for another project, that would be all ferrari style, doubling down on his dithered style
 other than compression, the scumm engine now could scale the character sprites to represent different distances, this meant that he could move away from the horizontal axis and add perspective to his scenes
 
-todo: read a bit about loom
-maybe: onboarding new artist scene
+# todo: read about loom
+maybe: onboarding new artist scene?
+still dont like computers but dpaint is his domain
+wants to show how he does thing, but not be prescriptive, letting the artist figure out his own style
+
 
 #+begin_export html
 <br/><br/>
@@ -232,25 +235,52 @@ monkey?
 <br/><br/>
 #+end_export
 
-new computers
-
-#+begin_export html
-<br/><br/>
-#+end_export
-
 - announce lucas arts downgrade
 - star wars embargo lift
+- new computers, what will we do with all of this power?
+- todo: lookup specs
+- at first it felt like his independence day, finally free from that EGA cage.
+  - but soon he felt he wasn't sure what he was doing anymore, the palette choices weren't as relevant anymore, so he had to rethink his whole process
+  - these new computers were like a career reset for him
+- he could see some of the new folks, don't even remember their names, working on VGA ports for their old games, some "upgrading" his loom and monkey island backgrounds.
+  - the results were more colorful, yes, but also less vivid, they lacked the personal style, the touch of the artist, that was lost in translation.
+  - each pixel on his dithered patterns was loaded with his intent, now dpaint did most of the thinking through a generic color gradient
+
+    #+begin_export html
+  <br/><br/>
+  #+end_export
+
+- for his first lucas arts game he got assigned a new Indiana Jones adventure
+- the cool kids went on to work on the monkey island sequel
+- now they were doing hand painted backgrounds, then scanned in photoshop on a Mac and moved to dpaint for cleaning up
+  - it was funny that 5 years ago this would've made life much easier to old mark, it would kept most of his work in illustrator land and much less in computer land
+  - but now it meant that a lot of he had to learn, a lot of the craft he acquired, was now irrelevant
+  - he went from industry expert on to just another illustrator, not a particularly good, young or productive one .
+  - the originals by peter chan were gorgeous but the results in the screen were filled with random noise, it would take time to figure out a polished look for the new technique
+- discussed with someone
+  - it finally felt like we got a hang of this thing in monkey island, that we could push it beyond its limits, but now is like we need to start over
+  - "a technology is always at its best right before it's obsolete"
+- that made total sense to him, he could easily see the pattern: they'll always be cornered by new developments, always chasing after the new hot thing
+  - after scanners it would be compact discs or rgb color or those three dimentional things they were developing over at the ILM <basement/freezer?>
+  - more colors, more space, more processing power but also more complexity, more time to get familiar and competent with the tool, let alone creative or innovative.
+    - it would take them more time to find the boundaries of the tech and thus longer to squeeze some art out of them,
+    - and they'll obviously lack that time, it won't be long before the next computer generation arrives
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
-- drive out, remember his first day
-- starting as freelance career
-- he knew it didn't get better than lucasfilm games at the ranch, that he wouldn't find what he had there anywhere else, much less as freelance artist
-- but he also knew he wouldn't get it here either, lucasfilm was gone, replaced by lucas arts, the ranch was replaced by san raphael, the magic days were over, magic days were over
+- last day at skywalker ranch packing his box into the car
+- it was a typical corporate move to rebrand with "arts" in the name just as they move it out from the ranch to a <cubliced> office plan over at san raphael,
+- they started bringing in more people, boring people, got read of the trouble makers, lined up a bunch of boring star wars action game projects
 
-*** Sources
+- starting as freelance career, as other folks do (purcell)
+- he knew it didn't get better than making adventure games at skywalker ranch, that he wouldn't find what he had there anywhere else, much less as a freelance artist
+- but he also knew he wouldn't get it here either, lucasfilm was gone, replaced by lucas arts, no more ranch, the magic/halcyon days were over / the dream/fantasy was over
+- he ran out of lucky breaks
+- drive out, evoke his first day
+
+*** Sources (TODO: review)
 - The Art of point & click
 - mixnmojo #4 https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-4-Loom/5
 - mixnmojo #5 https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-The-Secret-of-Monkey-Island/7
@@ -263,9 +293,14 @@ new computers
 - https://mixnmojo.com/features/sitefeatures/Monkey-Island-From-EGA-to-VGA/
 - https://scientificgamer.com/lucasarts-time-machine-the-secret-of-monkey-island/
 - antiquarian
+- https://web.archive.org/web/20030503162101fw_/http://lucasfans.mixnmojo.com/features/interview_stevepurcell_2.html
+- https://www.arcadeattack.co.uk/brian-moriarty/
+- https://grumpygamer.com/guybrush_fact_fiction
 
-https://web.archive.org/web/20030503162101fw_/http://lucasfans.mixnmojo.com/features/interview_stevepurcell_2.html
+*** chunks
 
-https://www.arcadeattack.co.uk/brian-moriarty/
+#+begin_quote
+I feel the stage sets we rendered as best we could for those earlier games conveyed all sorts of personal artistic style and evocative atmosphere, while most of the 3d game environments that came after them seemed almost universally airless, lightless, and rendered in such a uniform 'algorithmic' art style.
 
-https://grumpygamer.com/guybrush_fact_fiction
+I think we lost things---important things--- whenever accelerating technological fixes and agendas overtook, and to some extent eclipsed, human creative navigation and intent.
+#+end_quote
