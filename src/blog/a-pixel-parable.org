@@ -58,10 +58,24 @@ He teaches himself to draw a single picture, a little African hut that he repeat
 #+end_export
 
 
-<title: digital background artist
-the same gary winnick shows him around, helps him setup his computer, deluxe paint and maniac mansion
-for a couple of days they just let him play the maniac mansion game, to get a feel of the kind of thing they are trying to build
-<imposter syndrome, everybody knows he's not a computer person, but also everybody is trying to figure out what it means to tell a story in this medium, in this genre, no one is an expert in that. and they value his artistic point of view
+Gary Winnick shows him to his desk and introduces him to the team---Ron Gilbert, engine programmer, TODO who else?.
+There's not one but two computers in there, both different to the AtariST he used at his father's and during the interview
+a DOS one where he'll work
+and a c64 that runs a couple of adventure games they just published
+he notices both have fewer and certainly uglier colors than the atari
+why are we targeting two computers? why /these/ two and no others
+historical reasons, they'll eventually do DOS and let external studios do the porting to other platforms
+you'll notice that PCs are unforgiving for graphics works, they were intended as business machines, but the processing power is much better, there's already an upgraded graphics mode but not many people have it at home yet so we'll focus on EGA for now.
+
+they help him setup both computers
+he has plenty of opportunities for his imposter syndrome to emerge and apologize for his ignorance
+they reassure him again, even the ones that have been user computers for a few years
+they are all trying to figure out what it means to tell a story in this medium, in this genre, no one is an expert at that
+an artist perspective is what they expect him to bring to the table, the tools he'll just figure out. they are changing all the time, anyway
+
+gary shows him around deluxe paint. the idea is similar to the neochrome program he already knows, with some difference in the brushes
+ron shows him maniac mansion, how to move around, how to talk with the characters, how to solve a puzzle to progress the story
+there's a newer game they've been working on Zak MacKracken, and his job is going to be help adapting the c64 backgrounds to the EGA ones. But for now, it's best that he just spends a few days playing the first game, to get and idea of what they are trying to do. He says, again, that he's no game, and Ron says that that's perfect, they want to build something that just about anyone can pick up and have fun with
 
 <drives out of the underground garage
 <what car?
@@ -74,27 +88,7 @@ he will be driving in this underground garage for the next three years, but he'l
 <br/><br/>
 #+end_export
 
-ironically, lucasfilm games didn't have the license to make star wars games. there were some /Indiana Jones/ projects on the works, but the games division were expected to come up with original ideas for the games. this was both a blessing and a curse, as he'd learn.
-
-david lynch screening at the art deco theater of the main house
-<same room but worlds apart
-they don't seem much of the big guy, they may catch a glimpse of him at lunch, or when browsing the library, as he climbs the spiral staircase up to his office in the roof---which is off-limits.
-
-truth is Lucas doesn't care for video games, the existence of the division a sort of accident from a different era of the company, his survival now <off of his hands.
-this group of people, mostly computer hackers, had nothing to do with film making---any possible connection disappeared when pixar was sold to steve jobs---, and an <unstated rule> was to be as invisible as possible to lucas, not to tempt them to get rid of the division
-a kind o intruders
-
-<to make up for his absence, the executives throw around the single piece of advice they managed to get from the owner: “Stay small, be the best, don’t lose any money.”
-
-#+begin_export html
-<br/><br/>
-#+end_export
-
-<he joins a team working on the enhanced version of zak mackraken
-<typically needs to just port a scene from the c64 version to ega dos
-
-# FIXME this bit about freedom doesn't really apply to this game, should be moved to loom
-The programmers don't seem to care that he's a computer and video game neophyte. They invite him to join the brainstorming sessions, they ask for his input on design decisions, his water cooler jokes make it to the dialog of the game. They give him freedom to figure out the game backgrounds, handing him a short list of requirements for each one---items and doors that will be necessary for the gameplay of the scene, what they call /hotspots/---and as long as he meets them he can do whatever he wants.
+# FIXME mention hotsopts, remove definition from below
 
 it doesn't take him too long to become productive. that is, to work out a usable background fast enough to meet the developers expectations, which were lower than his own.
 his goal was to produce art and get paid for it, so he give as little thought as possible to the needs of the project and the business.
@@ -106,6 +100,28 @@ the most frustrating is encoding the pictures in those suffocating 16 colors, al
 this is another thing where he needs to plan ahead, carefully measuring what colors he gets to spend, a decision he needs to make early on and that informs---constraints--- all the rest of his choices: the scene composition, the mood, what's shown, what's hinted.
 <There's little room for the sort of creativity that stems from impulse and experimentation (but much from constraints, pushing the boundaries, happy accidents that lead to innovation
 it gets better as /he/ gets better, more familiar with the tools; once he grasps what are his materials and what their capabilities and limitations, he can start using them to his advantage---work around and step on the constraints and push himself to be creative as with any art and any material, just like does with pencil and paper.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+having gourmet lunches across the room from leonard nimoy or the rolling stones
+david lynch screening at the art deco theater of the main house
+
+they don't seem much of the big guy, they may catch a glimpse of him at lunch, or when browsing the library, as he climbs the spiral staircase up to his office in the roof---which is off-limits.
+
+ironically, lucasfilm games doesn't own the license to make star wars games.
+there are plans to do an indiana jones game, but haven't materialized yet.
+the games division is expected to come up with original ideas, which is both a blessing and a curse,
+it gives them freedom to be creative but they have to live up to the LucasFilm standards (and sales) without the automatic sales of a popular license.
+the previous attempt, labyrinth didn't go that well, arguably because no one cared much about the movie either.
+it doesn't seem like the lucasfilm seal accounts to much beyond star wars and indiana jones
+
+truth is Lucas doesn't care for video games, the existence of the division a sort of accident from a different era of the company, his survival now <off of his hands.
+this group of people, mostly computer hackers, had nothing to do with film making---any possible connection disappeared when pixar was sold to steve jobs---, and an <unstated rule> was to be as invisible as possible to lucas, not to tempt them to get rid of the division
+a kind o intruders
+
+<to make up for his absence, the executives throw around the single piece of advice they managed to get from the owner: “Stay small, be the best, don’t lose any money.”
 
 #+begin_export html
 <br/><br/>
@@ -159,7 +175,7 @@ he never once lost sight that
 he was getting paid to be an artist---even though he didn't felt these computer drawings were there yet---
 he was paid handsomely, more than every
 he was having fun, he respected his teammates,
-he was working at geek disneyland, having gourmet lunches across the room from leonard nimoy or the rolling stones
+he was working at geek disneyland,
 
 he was already used to working late, in the quite months they would take long lunches or hikes through the hills or they would toss a softball around in the field out back, so they ended up working late to make up for the time
 most of the people on the team was in their early twenties so they didn't have anywhere better to be anyway
@@ -188,16 +204,16 @@ the division head told him they would double down on dithering for the look and 
 <br/><br/>
 #+end_export
 
-green light for indiana jones game
-
 for all that Lucas didn't care for games, Spielberg was obsessed with them
 and he took any chance he had when working in the Ranch to visit the office and see what the games folks where up to.
 he said they were doing a kind of animated, interactive movies and that it was just a matter of time for our work to converge with his
 game designers would get weekend calls for hints at tackling puzzles
 
-everyone took for granted that he would eventually be involved to some capacity in one of the next games, likely an indiana jones, although not the /Last Crusade
-it was a matter of time for spielberg to get involved in game, likely an Indiana Jones one
-but not the one they were making now
+everyone assumed that it was a matter of time for him to be involved in one of the next games
+and they started to see more of him when they greenlit a couple of games based on the upcoming /Last Crusade/ film
+the devs got a copy of the script and there were some screenings at the main house
+some of the folks even got to visit the set
+purcell came back with a whip for "research purposes", which they incorporated to their afternoon sporting activities
 
 mark was suspicious of IP games, he prefferred originals,
 one thing were the constraints imposed by the tech, but ip games were like a huge requirements list handed by executives
@@ -217,9 +233,14 @@ they actually did two games in parallel now, and new people were coming in
 
 it was a good thing that he didn't get assigned to this indy game.
 they made him lead bg artist for another project, that would be all ferrari style, doubling down on his dithered style
+
+this time around he doesn't just adapt someone else's rooms, he gets to design them by himself
+
 other than compression, the scumm engine now could scale the character sprites to represent different distances, this meant that he could move away from the horizontal axis and add perspective to his scenes
 
+
 # todo: read about loom
+
 maybe: onboarding new artist scene?
 still dont like computers but dpaint is his domain
 wants to show how he does thing, but not be prescriptive, letting the artist figure out his own style
@@ -227,11 +248,31 @@ wants to show how he does thing, but not be prescriptive, letting the artist fig
 #+begin_export html
 <br/><br/>
 #+end_export
+<monkey project
+ron had been circling this memo on game design around the office, why our games suck
+he could sense this was his attempt at putting those ideas to practice
+it was mostly a game design thing, it didn't affect the graphics, didn't directly affect him, but it was Ron's side of /be the best/ and Mark just felt he should follow suit and apply everything he'd been learning so far and push it to the next level
+<besides, everyone does everything
 
-- announce lucas arts downgrade
-- star wars embargo lift
-- new computers, what will we do with all of this power?
-- todo: lookup specs
+They invite him to join the brainstorming sessions, they ask for his input on design decisions, his water cooler jokes make it to the dialog of the game. They give him freedom to figure out the game backgrounds, handing him a short list of requirements for each one---items and doors that will be necessary for the gameplay of the scene, what they call /hotspots/---and as long as he meets them he can do whatever he wants.
+
+<something special about this new team and this new game
+they were having so much fun with this one, and that stimulated them to try harder and do better, that surely had to show in the final thing
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+things start to change around while they are finishing monkey island, he was just to busy to pay attention
+
+- receives an internal email about the rebrand
+  - TODO: what's the technical org change?
+- the mail also mentions something everybody knows about, like there was a big clock/sword of damocles hanging in the office wall: the star wars embargo lift. most people loved star wars and couldn't be more excited about getting their hands on their property for a videogame. mark also loved the movie, but he struggled not to see that date as a death sentence for the creativity of the studio
+
+a few weeks ago everyone got new vga computers, his is still boxed in his desk, he didn't have the time to set it up and he wasn't going to use it for monkey anyway, the vga port is another project and he won't be involved in that one
+
+- todo: lookup specs. what will we do with all of this power?
+- todo: unpacking and setting up scene
 - at first it felt like his independence day, finally free from that EGA cage.
   - but soon he felt he wasn't sure what he was doing anymore, the palette choices weren't as relevant anymore, so he had to rethink his whole process
   - these new computers were like a career reset for him
@@ -244,17 +285,19 @@ wants to show how he does thing, but not be prescriptive, letting the artist fig
   #+end_export
 
 - for his first lucas arts game he got assigned a new Indiana Jones adventure
+# TODO research this project
 - the cool kids went on to work on the monkey island sequel
 - now they were doing hand painted backgrounds, then scanned in photoshop on a Mac and moved to dpaint for cleaning up
-  - it was funny that 5 years ago this would've made life much easier to old mark, it would kept most of his work in illustrator land and much less in computer land
+  - it was funny that 3 years ago this would've made life much easier to old mark, it would kept most of his work in illustrator land and much less in computer land
   - but now it meant that a lot of he had to learn, a lot of the craft he acquired, was now irrelevant
   - he went from industry expert on to just another illustrator, not a particularly good, young or productive one .
   - the originals by peter chan were gorgeous but the results in the screen were filled with random noise, it would take time to figure out a polished look for the new technique
 - discussed with someone
   - it finally felt like we got a hang of this thing in monkey island, that we could push it beyond its limits, but now is like we need to start over
-  - "a technology is always at its best right before it's obsolete"
+  - "a technology is always at its best right before it's obsolete, man"
+  - who said that? I don't know but he's right
 - that made total sense to him, he could easily see the pattern: they'll always be cornered by new developments, always chasing after the new hot thing
-  - after scanners it would be compact discs or rgb color or those three dimentional things they were developing over at the ILM <basement/freezer?>
+  - after scanners it would be compact discs or rgb color or those three dimentional things they were developing over at the ILM <basement/freezer?> or over at pixar
   - more colors, more space, more processing power but also more complexity, more time to get familiar and competent with the tool, let alone creative or innovative.
     - it would take them more time to find the boundaries of the tech and thus longer to squeeze some art out of them,
     - and they'll obviously lack that time, it won't be long before the next computer generation arrives
@@ -264,10 +307,12 @@ wants to show how he does thing, but not be prescriptive, letting the artist fig
 #+end_export
 
 - last day at skywalker ranch packing his box into the car
-- it was a typical corporate move to rebrand with "arts" in the name just as they move it out from the ranch to a <cubliced> office plan over at san raphael,
-- they started bringing in more people, boring people, got read of the trouble makers, lined up a bunch of boring star wars action game projects
-
-- starting as freelance career, as other folks do (purcell)
+- box had: indiy and darth vader action figures, a Sam & Max comic book, his sketch books, the dpaint manual he hadn't read in ages---by now he could have written his own, a much better one---, a weird set of pencils he hand picked to aproximate the 16 EGA colors, he might as well toss those.
+- the computer was already in the trunk of his car.
+  - he was used to take it home on weekends, and he preferred to bring it himself on monday as an excuse to pick his cubicle
+- it was a typical corporate move to rebrand to lucas "arts" in the name just as they move it out from the ranch to a <cubliced> office plan over at san raphael,
+- lined up a bunch of generic star wars projects, they started bringing in more people, boring technicians, no more rebels, just stormtroopers
+- maybe should do like purcell, and just freelance and do his own thing, work for other companies, maybe go back to traditional illustration
 - he knew it didn't get better than making adventure games at skywalker ranch, that he wouldn't find what he had there anywhere else, much less as a freelance artist
 - but he also knew he wouldn't get it here either, lucasfilm was gone, replaced by lucas arts, no more ranch, the magic/halcyon days were over / the dream/fantasy was over
 - he ran out of lucky breaks
@@ -304,6 +349,7 @@ I think we lost things---important things--- whenever accelerating technological
 **** TODO digital loom
 **** TODO digital monkey
 **** TODO digital indiana
+**** TODO more p&c interviews
 **** TODO research details about the ranch
 eg landscape, garage. wikipedia mostly
 **** TODO experiment with atari st + neochrome
