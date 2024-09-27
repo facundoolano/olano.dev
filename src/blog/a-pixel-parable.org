@@ -10,7 +10,8 @@ draft: true
 #+LANGUAGE: en
 
 #+begin_verse
-Already the displacement of one's thought-child
+Already the displacement
+of one's thought-child
 is not only conceived
 but scheduled
 #+end_verse
@@ -27,15 +28,15 @@ Mark is holding his "Best of the Show" certificate on one hand and the guy's car
 
 This is his second lucky break of the weekend. Mark is just out of art school, trying to make it as an illustrator. A friend recommended he show up to this sci-fi convention, he said these things are good for networking. Mark wouldn't mind having some of his work on a trading card, or a rule book, or, who knows? on the cover of one of those fantasy novels he used to read growing up.
 
-So he shows up to the convention on Friday, someone notices his work---these pencil-drawn landscapes that look like they were hand-painted---, they invite him to participate in the convention's art show, he does, two days later he wins best of the show. That was his first lucky break that weekend; the second was this guy, Gary Winnick, coming over to him, handing him a card, asking him to 'audition' for a video game job.
+So he shows up to the convention on Friday, someone notices his work---these pencil-drawn landscapes that look like they were hand-painted---, they invite him to participate in the convention's art show, he does, two days later he wins best of the show. That was his first lucky break that weekend; the second was this guy, Gary, coming over to him, handing him a card, asking him to 'audition' for a video game job.
 
 Mark reads the card again, stops for a second to think what to say next. He needs a job, after all. Honesty has been working wonders for him this weekend, so he tells it straight:
 
-"I'd be happy to come over to do <do anything at all there>, but... I don't know the first thing about video games. I never even touched a computer."
+"I'd be happy to come over to do <anything at all there> but... I don't know the first thing about video games. I never even touched a computer."
 
 "That's alright", Gary replies, "we've had better results teaching artists how to program than programmers how to art. I'm not worried about that part."
 
-Gary tells him about the job and Mark asks how is it to work at the Ranch. They agree on a date for the interview. The last two hours of the conference are a blank. He drives back home, trying to figure out what just happened. <On his first weekend as a professional illustrator, on this first try, he gets an offer for a job that he didn't even know existed five minutes ago but that he now thinks think that's both his dream job and one that he's terribly underqualified for.
+The last two hours of the convention are a blur. He drives back home, trying to figure out what just happened. <On his first weekend, on this first try as a professional illustrator, he's offered to interview for a job that he didn't even know existed five minutes ago, but that he now thinks it's indisputably his dream job---and one that he's terribly underqualified for.
 
 Mark calls his parents to share the news. His father, he now learns---and this was the third and final lucky break of the weekend---has just bought a personal computer.
 
@@ -43,16 +44,12 @@ Mark calls his parents to share the news. His father, he now learns---and this w
 <br/><br/>
 #+end_export
 
-# FIXME maybe not amiga? c64, atari, apple ][?
+"What are you doing with this thing, anyway?", asks Mark. His sitting in front of the computer, skimming the manual. The cover reads /Atari 520ST/.
+"The school made a deal for us to get them at half price. They say we should be computer-literate if we want to have a job in five years." The voice comes into the room before the rest of his father, who then appears at the doorway, leaning on the frame. "I figured I could use it for writing, but they have a different brand at school, so I can't print my files. And I'm not buying a printer. You can take it if you want."
 
-"What are you doing with this thing, anyway?", asks Mark. His sitting in front of the computer, skimming the manual. The cover reads Commodore Amiga.
-"The school made a deal for us to get'em half price, they say we should be computer-literate if we want to have a job in five years." The voice comes into the room before the rest of his father, who then appears at the doorway, leaning on the frame. "I figured I could use it for writing, but they have a different brand at school, so I can't print my files. And I'm not buying a printer. You can take it if you want."
+"Let's see if I get the job, first. It says there should be a drawing program somewhere in here, 'NeoChrome'. Let's try that out." It takes them 20 minutes of collaborative effort---something they haven't done since his father thought him to change the oil of the car a decade ago---to find the disk and open the program. Then Mark drops the computer manual and switches to the NeoChrome one. Another half hour later, Mark is dropping little green dots across a blue background.
 
-<"Let's see if I get the job, first. It says here there's a drawing program in this, let's try it out."
-
-<maybe: amiga details, open a program, dpaint II? try it intuitively. TODO: read amiga book chapter
-
-Mark secludes himself in his high school bedroom for the next few evenings, getting familiar with this computer thing and its paint program. The little mouse forces his hand into a claw. Whenever he begins to feel that he's gotten used to it, that he can forget about the tool and focus on the task, whenever his eyes seem to spark a connection between the image on the screen and the image on his brain, his hand jumps from the mouse to grip a pencil that's not there, like a phantom limb.
+Mark secludes himself in his old high school bedroom for the next few evenings, getting familiar with this computer thing and the paint program. The little mouse forces his hand into a claw. Whenever he begins to feel that he's gotten used to it, that he can forget about the tool and focus on the task, whenever his eyes seem to spark a connection between the image on the screen and the image on his brain, his hand jumps from the mouse to grip a pencil that's not there, like a phantom limb.
 
 He teaches himself to draw a single picture, a little African hut that he repeats over and over until he memorizes the procedure, which he will repeat a few days later to survive his interview.
 
@@ -93,14 +90,17 @@ a kind o intruders
 <br/><br/>
 #+end_export
 
-<he joins a team working on the follow-up adventure game
+<he joins a team working on the enhanced version of zak mackraken
+<typically needs to just port a scene from the c64 version to ega dos
 
+# FIXME this bit about freedom doesn't really apply to this game, should be moved to loom
 The programmers don't seem to care that he's a computer and video game neophyte. They invite him to join the brainstorming sessions, they ask for his input on design decisions, his water cooler jokes make it to the dialog of the game. They give him freedom to figure out the game backgrounds, handing him a short list of requirements for each one---items and doors that will be necessary for the gameplay of the scene, what they call /hotspots/---and as long as he meets them he can do whatever he wants.
 
 it doesn't take him too long to become productive. that is, to work out a usable background fast enough to meet the developers expectations, which were lower than his own.
 his goal was to produce art and get paid for it, so he give as little thought as possible to the needs of the project and the business.
 it's convenient that they don't expect much from him, because not only he isn't satisfied with his production and it doesn't come close to art, he still feels he has a long way to go to tame the computer, the mouse, the pixels, the palette, and the drawing program.
-he develops some 'coping mechanisms': he first makes sketches, plotting the pixel greed in a ruled notebook, to try options before moving to the computer screen where nothing seems to flow, where everything feels clumsy and rigid, like lego building, and it's hard to tell whether something's going to look good before it's done.
+<at first he tried just working out from the c64, but soon finds out that creates more problems than it solves, since the screen dimensions are different
+he develops some 'coping mechanisms': he first makes sketches, plotting the pixel grid in a ruled notebook, to try options before moving to the computer screen where nothing seems to flow, where everything feels clumsy and rigid, like lego building, and it's hard to tell whether something's going to look good before it's done.
 
 the most frustrating is encoding the pictures in those suffocating 16 colors, always the same palette for anything he may need to represent---black, dark gray, light gray, white, dark blue, light blue, cyan, yellow, mustard brown, dark red, poppy red, peach, magenta, acid-hot pink, grass green, and acid-chartreuse.
 this is another thing where he needs to plan ahead, carefully measuring what colors he gets to spend, a decision he needs to make early on and that informs---constraints--- all the rest of his choices: the scene composition, the mood, what's shown, what's hinted.
@@ -224,13 +224,6 @@ maybe: onboarding new artist scene?
 still dont like computers but dpaint is his domain
 wants to show how he does thing, but not be prescriptive, letting the artist figure out his own style
 
-
-#+begin_export html
-<br/><br/>
-#+end_export
-
-monkey?
-
 #+begin_export html
 <br/><br/>
 #+end_export
@@ -304,3 +297,15 @@ I feel the stage sets we rendered as best we could for those earlier games conve
 
 I think we lost things---important things--- whenever accelerating technological fixes and agendas overtook, and to some extent eclipsed, human creative navigation and intent.
 #+end_quote
+
+*** research
+
+**** TODO digital lucas arts 1, 2, 3
+**** TODO digital loom
+**** TODO digital monkey
+**** TODO digital indiana
+**** TODO research details about the ranch
+eg landscape, garage. wikipedia mostly
+**** TODO experiment with atari st + neochrome
+**** TODO experiment with dpaint
+**** TODO maybe too with c64? try c64 maniac mansion?
