@@ -22,7 +22,7 @@ but scheduled
 
 "How would you like working as a video game artist?"
 
-Mark is holding his "Best of the Show" certificate on one hand and the guy's card in the other. /Gary Winnick - Art Director - LucasFilm Games/. LucasFilm as in George Lucas. As in Star Wars.
+Mark is holding his "Best of the Show" certificate on one hand and the guy's card in the other. /Art Director - LucasFilm Games/. LucasFilm as in George Lucas. As in Star Wars.
 
 "Could you come over to the Ranch for an interview?", he insists.
 
@@ -58,7 +58,7 @@ He teaches himself to draw a single picture, a little African hut that he repeat
 #+end_export
 
 
-Gary Winnick shows him to his desk and introduces him to the team---Ron Gilbert, engine programmer, TODO who else?.
+Gary shows him to his desk and introduces him to the team---Ron, David (which roles?).
 There's not one but two computers in there, both different to the AtariST he used at his father's and during the interview
 a DOS one where he'll work
 and a c64 that runs a couple of adventure games they just published
@@ -79,8 +79,11 @@ there's a newer game they've been working on Zak MacKracken, and his job is goin
 
 <drives out of the underground garage
 <what car?
-place that looks as otherworldly as one of his fantasy landscapes, as a shot from Star Wars or a scene from that adventure game the company has just published.
-<a <valley>, a lake, green hills, this old victorian house, with a theater and a huge library with a spiral staircase
+place that looks as otherworldly as one of his fantasy landscapes, as a shot from Star Wars
+the main house with its library and spiral staircase clearly inspired the game they showed him today
+<a <valley>, a lake, green hills
+observatory
+vineyard
 <cattle, farm animals
 he will be driving in this underground garage for the next three years, but he'll make a point of never taking this for granted, no matter how shitty the job gets
 
@@ -267,7 +270,7 @@ things start to change around while they are finishing monkey island, he was jus
 
 - receives an internal email about the rebrand
   - TODO: what's the technical org change?
-- the mail also mentions something everybody knows about, like there was a big clock/sword of damocles hanging in the office wall: the star wars embargo lift. most people loved star wars and couldn't be more excited about getting their hands on their property for a videogame. mark also loved the movie, but he struggled not to see that date as a death sentence for the creativity of the studio
+- the mail also mentions something everybody knows about, like there was a "writing on the wall"/sword of damocles hanging in the office wall: the star wars embargo lift. most people loved star wars and couldn't be more excited about getting their hands on their property for a videogame. mark also loved the movie, but he struggled not to see that date as a death sentence for the creativity of the studio
 
 a few weeks ago everyone got new vga computers, his is still boxed in his desk, he didn't have the time to set it up and he wasn't going to use it for monkey anyway, the vga port is another project and he won't be involved in that one
 
@@ -307,7 +310,7 @@ a few weeks ago everyone got new vga computers, his is still boxed in his desk, 
 #+end_export
 
 - last day at skywalker ranch packing his box into the car
-- box had: indiy and darth vader action figures, a Sam & Max comic book, his sketch books, the dpaint manual he hadn't read in ages---by now he could have written his own, a much better one---, a weird set of pencils he hand picked to aproximate the 16 EGA colors, he might as well toss those.
+- box had: Indy and Chewbacca action figures, a Sam & Max comic book, his sketch books, the dpaint manual he hadn't read in ages---by now he could have written his own, a much better one---, a weird set of pencils he hand picked to aproximate the 16 EGA colors, he might as well toss those <actually toss them instead of thinking>.
 - the computer was already in the trunk of his car.
   - he was used to take it home on weekends, and he preferred to bring it himself on monday as an excuse to pick his cubicle
 - it was a typical corporate move to rebrand to lucas "arts" in the name just as they move it out from the ranch to a <cubliced> office plan over at san raphael,
@@ -325,17 +328,20 @@ a few weeks ago everyone got new vga computers, his is still boxed in his desk, 
 - The Making of Monkey Island - Behind The Scenes https://youtu.be/ri4_3P2Oh14?feature=shared
 - The Effect of CRTs on Pixel Art https://datagubbe.se/crt/
 - The tar pit
-- Why A.I. Isn’t Going to Make Art https://www.newyorker.com/culture/the-weekend-essay/why-ai-isnt-going-to-make-art
 - Day of the Tentacle Remastered (developer commentary)
 - Lucasfilm EGA adventures https://www.superrune.com/tutorials/lucasfilm_ega.php
 - https://mixnmojo.com/features/sitefeatures/Monkey-Island-From-EGA-to-VGA/
 - https://scientificgamer.com/lucasarts-time-machine-the-secret-of-monkey-island/
 - antiquarian
+  - new force scumm
+  - loom
+  - monkey island
+  - fate of atlantis
 - https://web.archive.org/web/20030503162101fw_/http://lucasfans.mixnmojo.com/features/interview_stevepurcell_2.html
 - https://www.arcadeattack.co.uk/brian-moriarty/
 - https://grumpygamer.com/guybrush_fact_fiction
 
-*** chunks
+*** chunks :noexport:
 
 #+begin_quote
 I feel the stage sets we rendered as best we could for those earlier games conveyed all sorts of personal artistic style and evocative atmosphere, while most of the 3d game environments that came after them seemed almost universally airless, lightless, and rendered in such a uniform 'algorithmic' art style.
@@ -343,15 +349,75 @@ I feel the stage sets we rendered as best we could for those earlier games conve
 I think we lost things---important things--- whenever accelerating technological fixes and agendas overtook, and to some extent eclipsed, human creative navigation and intent.
 #+end_quote
 
-*** research
+#+begin_quote
+had chosen to center his film-making operation in Northern rather than Southern California, much closer to Silicon Valley than to Hollywood.
 
-**** TODO digital lucas arts 1, 2, 3
-**** TODO digital loom
-**** TODO digital monkey
-**** TODO digital indiana
-**** TODO more p&c interviews
+Lucasfilm, the owner of Star Wars, had a games division that wasn’t allowed to make Star Wars games
+
+“We’re trying to produce an experience that’s like being part of a film, rather than just being part of a game.
+#+end_quote
+
+#+begin_quote
+he Games Group got moved from their nondescript offices in San Rafael to nearby Skywalker Ranch, the “filmmaker’s retreat” at the very heart of George Lucas’s empire. They were housed in an ornate structure of Victorian brick called the Stable House, with crackling fireplaces in almost every room. Later, old-timers would tell newcomers stories of the Games Group’s time at Skywalker Ranch, which would last for just a few years, like legends from before the Fall: catching a sneak preview of a new David Lynch film in the company of Lynch himself in the Ranch’s beautiful 300-seat art-deco theater; hanging out on a regular basis with Steven Spielberg, who wanted to play everything the Games Group had in development every time he stopped by, sometimes for hours at a stretch; playing softball on the Ranch’s gorgeously manicured field with rock star Huey Lewis; hiking up to the observatory after a long day at the office to do another sort of stargazing; eating gourmet lunches every day at the Ranch’s restaurant for $5 a pop.
+
+providing production services to the film industry (Industrial Light and Magic, Skywalker Sound) and making mass-market entertainments. The old Computer Graphics Group that had awkwardly spawned the Games Group still hadn’t really proved themselves to belong in the former category, while the Games Group, at least if you squinted just right, pretty much did belong in the latter. Thus, while the Games Group got to remain at Lucasfilm, the Graphics Group in February of 1986 was spun off to a collection of investors that included many of their own current personnel as well as, as ringmaster of the whole proceeding, Steve Jobs
+
+Soon the old Games Group represented the only significant hacker presence left at Lucasfilm. It was during this period of colossal change that George Lucas took rare personal notice of Games for long enough to deliver his most oft-quoted piece of advice to Steve Arnold: “Stay small, be the best, don’t lose any money.” This commandment has often been taken to represent a sort of creative carte blanche for Arnold and his charges. Taken in the context in which it was uttered, however, it’s probably better seen as a warning. The Games Group was free to continue to trade on the Lucasfilm name and enjoy their gourmet lunches at the company cafeteria, but they’d have to start paying their own way from here on. Should they fail at that, their rope would not be a long one, for Lucas had little personal investment in their work.
+
+ Driving much of the design was a philosophy that adventure games should be friendlier, less tedious, and much less deadly than was the norm from competitors like Sierra.
+
+the big neo-Victorian “Main House” at Skywalker Ranch. The spiral staircase inside the library in Maniac Mansion is lifted straight from the “filmmaker’s research library” in the Main House.
+#+end_quote
+
+#+begin_quote
+We believe that you buy games to be entertained, not to be whacked over the head every time you make a mistake. So we don’t bring the game to a screeching halt when you poke your nose into a place you haven’t visited before. In fact, we make it downright difficult to get a character “killed.”
+
+ Each of the guilds of craftspeople which Bobbin visits over the course of the game is marked by its own color scheme: the striking emerald of the Guild of Glassmakers, the softer pastoral greens of the Guild of Shepherds, the Stygian reds of the Guild of Blacksmiths, and of course the lovely, saturated blues and purples of Bobbin’s own Guild of Weavers.
+#+end_quote
+
+#+begin_quote
+a mandate came down from Lucasfilm Games’s parent company’s management: they wanted an adventure game to go with the upcoming film Indiana Jones and the Last Crusade. Such a mandate was unusual for the privileged little artists’ enclave that still was Lucasfilm Games at this time,
+
+  Some start using it as a defense mechanism only after being slapped in the face by the game a few times, the rest just stop playing.
+
+   major corporate reorganization was in progress at Lucasfilm, which saw the games division given far more resources — their personnel roll grew from about 25 to more than 100 between 1989 and 1991 — but also given much closer supervision. They would now be expected to justify each of their projects to the accountants. This transformation of Lucasfilm Games from sideline to major profit center was by no means viewed as a comprehensively bad thing by everyone working inside the games division — it did after all lead to them finally being let loose on the Star Wars intellectual property, something they’d been wishing for for years — but it would change the character of the place and the games that came from it forever.
+#+end_quote
+
+#+begin_quote
+This committee approach to the game’s design is typical of the workaday nature of the project as a whole. The designers were given a copy of the movie’s shooting script, and were expected not to deviate too much from it. Ron Gilbert, a comedy writer by disposition and talent, found the need to play it relatively straight particularly frustrating, but it seems safe to say that all of the designers’ creative instincts were somewhat hemmed in by the project’s fixed rules.
+
+if you’ve seen the movie — and it seemed safe to assume that just about everybody who played the game had seen the movie — what’s the point in walking through the same story again in game form? The
+
+Those changing circumstances would prove a not-unmixed blessing for them, forcing them to move out of the rustic environs of Skywalker Ranch and shed much of the personality of a quirky artists’ collective for that of a more hard-nosed media enterprise. On the other hand, at least they’d finally get to make Star Wars games…
+#+end_quote
+
+*** research :noexport:
+
+**** DONE digital lucas arts 1, 2, 3
+CLOSED: [2024-09-28 Sat 15:32]
+**** DONE digital loom
+CLOSED: [2024-09-28 Sat 15:32]
+**** DONE digital monkey
+CLOSED: [2024-09-28 Sat 15:32]
+**** DONE digital indiana
+CLOSED: [2024-09-28 Sat 17:54]
 **** TODO research details about the ranch
 eg landscape, garage. wikipedia mostly
+
+https://www.architecturaldigest.com/story/george-lucas-skywalker-ranch-tour
+- https://www.skysound.com/ranch/
+**** TODO p&c david fox
+**** TODO p&c gary winnick
+**** TODO p&c ron gilbert
+**** TODO p&c noah falstein
+**** TODO p&c brian moriarty
+**** TODO review the adventurer issues
+https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2003%20Fall%201991/page/n1/mode/2up
+https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2002%20Spring%201991/page/n3/mode/2up
+https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2001%20Fall%201990/page/n1/mode/2up
+
+**** TODO lookup steve purcell interviews
+**** TODO richard rouse loom
 **** TODO experiment with atari st + neochrome
 **** TODO experiment with dpaint
 **** TODO maybe too with c64? try c64 maniac mansion?
