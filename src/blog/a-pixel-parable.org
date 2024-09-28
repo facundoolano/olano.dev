@@ -57,28 +57,32 @@ He teaches himself to draw a single picture, a little African hut that he repeat
 <br/><br/>
 #+end_export
 
-
-Gary shows him to his desk and introduces him to the team---Ron, David (which roles?).
-There's not one but two computers in there, both different to the AtariST he used at his father's and during the interview
-a DOS one where he'll work
-and a c64 that runs a couple of adventure games they just published
-he notices both have fewer and certainly uglier colors than the atari
+<Mark walks out of the garage and meets Gary at porch of the stable house, where the games group has its headquarters. He shows him around the office, introducing him to everyone they meet in the way, and takes him to his desk.
+Across from him sit Ron and Dave, the programmers he'll be working closely with.
+There's not one but two computers in there, both different to the AtariST he used last week
+a DOS one where he'll do most of his work and a c64 that runs the games they just published
 why are we targeting two computers? why /these/ two and no others
 historical reasons, they'll eventually do DOS and let external studios do the porting to other platforms
 you'll notice that PCs are unforgiving for graphics works, they were intended as business machines, but the processing power is much better, there's already an upgraded graphics mode but not many people have it at home yet so we'll focus on EGA for now.
 
 they help him setup both computers
-he has plenty of opportunities for his imposter syndrome to emerge and apologize for his ignorance
+<the only thing you need to know about the c64 is how to turn it on and run these two games
+<gary shows him around deluxe paint. the idea is similar to the neochrome program he already knows, with some difference in the brushes (this is what professionals use)
+<there's a manual
+<he notices both have fewer and certainly uglier colors than the atari
+
+his imposter syndrome kicks in, once and again, and he takes notes and constantly apologizes for his questions and the obvious things he doesn't know.
 they reassure him again, even the ones that have been user computers for a few years
 they are all trying to figure out what it means to tell a story in this medium, in this genre, no one is an expert at that
 an artist perspective is what they expect him to bring to the table, the tools he'll just figure out. they are changing all the time, anyway
 
-gary shows him around deluxe paint. the idea is similar to the neochrome program he already knows, with some difference in the brushes
-ron shows him maniac mansion, how to move around, how to talk with the characters, how to solve a puzzle to progress the story
-there's a newer game they've been working on Zak MacKracken, and his job is going to be help adapting the c64 backgrounds to the EGA ones. But for now, it's best that he just spends a few days playing the first game, to get and idea of what they are trying to do. He says, again, that he's no game, and Ron says that that's perfect, they want to build something that just about anyone can pick up and have fun with
+after lunch, ron sits with him to play maniac mansion, ron shows him how to move around, how to talk with the characters, how to solve a puzzle to progress the story
+there's a newer game they've been working on Zak MacKracken, dave's game,
+and his job is going to be help adapting the c64 backgrounds to the EGA ones. But for now, it's best that he just spends a few days playing the first game, to get and idea of what they are trying to do. He says, again, that he's no game, and Ron says that that's perfect, they want to build something that just about anyone can pick up and have fun with
 
-<drives out of the underground garage
-<what car?
+<drives out
+<hatchback honda civic
+<relief that leave it underground instead
 place that looks as otherworldly as one of his fantasy landscapes, as a shot from Star Wars
 the main house with its library and spiral staircase clearly inspired the game they showed him today
 <a <valley>, a lake, green hills
@@ -108,23 +112,43 @@ it gets better as /he/ gets better, more familiar with the tools; once he grasps
 <br/><br/>
 #+end_export
 
-having gourmet lunches across the room from leonard nimoy or the rolling stones
-david lynch screening at the art deco theater of the main house
+Mark catches his first glimpse of the little guy during lunch on his third week
+they only see him at the restaurant when he has visits
+david and gary start listing the famous people they saw
+this time is spielberg
+you'll understand, of course, that while it may appear that they are right there across the room, we're worlds apart
+galaxies
+galaxies apart, thank you
+they are holograms, inaccessible to us, like the Leia message on the first movie
+in fact, you should know that we should be the holograms here, and under no circumstances should we be noticed by Lucas or his guests, or any film related people
+especially not Lucas
 
-they don't seem much of the big guy, they may catch a glimpse of him at lunch, or when browsing the library, as he climbs the spiral staircase up to his office in the roof---which is off-limits.
+truth is Lucas doesn't care for video games, the existence of the division a sort of accident from a different era of the company,
+his survival also a corporate accident, after the graphics group---now pixar---was sold to steve jobs another
+we're pretty much the last hackers around, a kind o intruders
+an <unstated rule> was to be as invisible as possible to lucas, not to remind him we exist, spending his money and---worse--occupying one of his buildings
 
-ironically, lucasfilm games doesn't own the license to make star wars games.
-there are plans to do an indiana jones game, but haven't materialized yet.
+he only showed up once in the stable house, to talk with Steve Arnold
+<to make up for his absence, the executives throw around the single piece of advice they managed to get from the owner: “Stay small, be the best, don’t lose any money.”
+that's our gospel, right there.
+
+<our man steve, on the other hand, is our biggest fan. we see much more of him over at Games
+<he's just nuts about tech. sometimes it feels like he's more into this whole place than Lucas
+<he'd probably live in the ranch if he wasn't busy, you know, making <hits|movies>
+<wonder if lucas will bother to make one for a change
+
+spielberg used to call Ron on weekends for /Maniac Mansion/ hints
+so yeah, I bet he'll get involved in one of the games sooner than later
+and Indy game, probably
+when the tech is good enough
+and when they get back the license
+right, when we get the license
+
+<that part he already knows, he learned on the first or second day: ironically, lucasfilm games doesn't own the license to make indiana jones nor star wars games.
+
 the games division is expected to come up with original ideas, which is both a blessing and a curse,
 it gives them freedom to be creative but they have to live up to the LucasFilm standards (and sales) without the automatic sales of a popular license.
-the previous attempt, labyrinth didn't go that well, arguably because no one cared much about the movie either.
-it doesn't seem like the lucasfilm seal accounts to much beyond star wars and indiana jones
-
-truth is Lucas doesn't care for video games, the existence of the division a sort of accident from a different era of the company, his survival now <off of his hands.
-this group of people, mostly computer hackers, had nothing to do with film making---any possible connection disappeared when pixar was sold to steve jobs---, and an <unstated rule> was to be as invisible as possible to lucas, not to tempt them to get rid of the division
-a kind o intruders
-
-<to make up for his absence, the executives throw around the single piece of advice they managed to get from the owner: “Stay small, be the best, don’t lose any money.”
+the only ip they get can their hands on are the <> left over props they use as office decor
 
 #+begin_export html
 <br/><br/>
@@ -207,25 +231,28 @@ the division head told him they would double down on dithering for the look and 
 <br/><br/>
 #+end_export
 
-for all that Lucas didn't care for games, Spielberg was obsessed with them
-and he took any chance he had when working in the Ranch to visit the office and see what the games folks where up to.
-he said they were doing a kind of animated, interactive movies and that it was just a matter of time for our work to converge with his
-game designers would get weekend calls for hints at tackling puzzles
+around that time, they received two corporate messages: 1- they recovered the rights to use the indiana jones license. 2- they should start on an indy game now, for the 3rd entry spielberg was shooting
 
-everyone assumed that it was a matter of time for him to be involved in one of the next games
-and they started to see more of him when they greenlit a couple of games based on the upcoming /Last Crusade/ film
 the devs got a copy of the script and there were some screenings at the main house
 some of the folks even got to visit the set
 purcell came back with a whip for "research purposes", which they incorporated to their afternoon sporting activities
 
-mark was suspicious of IP games, he prefferred originals,
-one thing were the constraints imposed by the tech, but ip games were like a huge requirements list handed by executives
+mark was relieved, if a little worried, that they let him continue with loom while most of the people switched to indiana jones
+he was suspicious of IP games, he prefferred originals
+he could see how the designers were struggling to make everything fit the movie script and still be playable
+nobody was sure what the interest could be if people already knew the plot
+from an artistic point of view it would've been restraining as well
+and they certainly weren't about to toy with his dithering stuff with such a tight deadline
+this was just a money making game
+
 it was obvious that once the star wars license embargo was lift off, it would take a hell of an effort to prevent the suits to send all hands to milk chewbacca
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
+# FIXME this should be a (brief?) loom section
+# probably no much gain to lead it with the gospel thing
 “Stay small, be the best, don’t lose any money.”
 
 the only part of this that affected him, Mark thought, was /be the best/, and that was how he intended to operate anyway, he didn't need a manager to tell him. he left to the suits, though, to figure out how his work and that of his teammates was supposed to be connected to the money making.
@@ -240,9 +267,6 @@ they made him lead bg artist for another project, that would be all ferrari styl
 this time around he doesn't just adapt someone else's rooms, he gets to design them by himself
 
 other than compression, the scumm engine now could scale the character sprites to represent different distances, this meant that he could move away from the horizontal axis and add perspective to his scenes
-
-
-# todo: read about loom
 
 maybe: onboarding new artist scene?
 still dont like computers but dpaint is his domain
@@ -266,6 +290,8 @@ they were having so much fun with this one, and that stimulated them to try hard
 <br/><br/>
 #+end_export
 
+# maybe set this scene specifically in the unboxing
+# this wasn't the only thing changing, he was just too busy to connect the dots
 things start to change around while they are finishing monkey island, he was just to busy to pay attention
 
 - receives an internal email about the rebrand
@@ -287,8 +313,7 @@ a few weeks ago everyone got new vga computers, his is still boxed in his desk, 
   <br/><br/>
   #+end_export
 
-- for his first lucas arts game he got assigned a new Indiana Jones adventure
-# TODO research this project
+- for his first lucas arts game he got assigned a new Indiana Jones adventure, from left over scripts, which was probably worse
 - the cool kids went on to work on the monkey island sequel
 - now they were doing hand painted backgrounds, then scanned in photoshop on a Mac and moved to dpaint for cleaning up
   - it was funny that 3 years ago this would've made life much easier to old mark, it would kept most of his work in illustrator land and much less in computer land
@@ -320,6 +345,7 @@ a few weeks ago everyone got new vga computers, his is still boxed in his desk, 
 - but he also knew he wouldn't get it here either, lucasfilm was gone, replaced by lucas arts, no more ranch, the magic/halcyon days were over / the dream/fantasy was over
 - he ran out of lucky breaks
 - drive out, evoke his first day
+   still owns the same old honda civic
 
 *** Sources (TODO: review)
 - The Art of point & click
@@ -391,6 +417,11 @@ if you’ve seen the movie — and it seemed safe to assume that just about ever
 Those changing circumstances would prove a not-unmixed blessing for them, forcing them to move out of the rustic environs of Skywalker Ranch and shed much of the personality of a quirky artists’ collective for that of a more hard-nosed media enterprise. On the other hand, at least they’d finally get to make Star Wars games…
 #+end_quote
 
+having gourmet lunches across the room from leonard nimoy or the rolling stones
+david lynch screening at the art deco theater of the main house
+
+they don't seem much of the little guy, they may catch a glimpse of him at lunch when they had visits---leonard nimoy, the rolling stones---, or getting in or out of his office when they went to the library for reference material, as he climbs the spiral staircase up to his office in the roof---which is off-limits.
+
 *** research :noexport:
 
 **** DONE digital lucas arts 1, 2, 3
@@ -406,6 +437,8 @@ eg landscape, garage. wikipedia mostly
 
 https://www.architecturaldigest.com/story/george-lucas-skywalker-ranch-tour
 - https://www.skysound.com/ranch/
+
+https://i.pinimg.com/originals/53/b1/f1/53b1f1a0961866d25ed578d345945dd4.jpg
 **** TODO p&c david fox
 **** TODO p&c gary winnick
 **** TODO p&c ron gilbert
