@@ -22,7 +22,7 @@ but scheduled.
 
 "How would you like working as a video game artist?"
 
-Mark is holding his "Best of the Show" certificate on one hand and the guy's card in the other. /Art Director - LucasFilm Games/. LucasFilm as in George Lucas. As in Star Wars.
+Mark is holding his "Best of the Show" certificate on one hand and the guy's card in the other. /Gary Winnick - Art Director - LucasFilm Games/. LucasFilm as in George Lucas. As in Star Wars.
 
 "Could you come over to the Ranch for an interview?", he insists.
 
@@ -170,7 +170,7 @@ the only ip they get can their hands on are the <> left over props they use as o
 <br/><br/>
 #+end_export
 
-The mouse, the pixels, the 16-color palette, the hotspots, are the constraints he needs to work with and around. One trick---a /hack/, as programmers would call it---he discovered early on was that if he formed a checkerboard pattern of pixel in his drawings, when he zoomed out the image pixels would blend and bleed in the screen, producing shades beyond the boring old 16 colors of the EGA palette.
+The mouse, the pixels, the 16-color palette, the hotspots: those are the constraints he has to work with and around. One trick---a /hack/, as programmers would put it---he discovered early on was that if he formed a checkerboard pattern of pixel in his drawings, when he zoomed out the image pixels would blend and bleed in the screen, producing shades beyond the boring old 16 colors of the EGA palette.
 
 # FIXME be specific about what background he's drawing, one of zak ones
 This was one of those happy accidents, but since he found it he's been thinking how to use it to his advantage, and this background could be the perfect excuse.
@@ -240,10 +240,15 @@ the division head told him they would double down on dithering for the look and 
 <br/><br/>
 #+end_export
 
-<TODO introduce moriarty + loom (notebook)
+# TODO check more loom info
+the new game, /Loom/, was lead by Brian Moriarty, an experience designed they brought in from Infocom, the struggling text adventure shop.
+Mark had tried one of their games. while he was impressed by the thorough descriptions and the setting---it was like they made him the protagonist of a fantasy novel---he was quickly frustrated by the complicated gameplay and all the typing it involved. It was like the complete opposite of everything Ron and Gary were trying to do with the graphic adventures. They were movies to infocom's novels.
 
-they made him lead bg artist for another project, that would be all ferrari style, doubling down on his dithered style
-this time around he doesn't just adapt someone else's rooms, he gets to design them by himself
+<Before meeting him, Mark feared that the fact Moriarty came from text games would treat his work as a graphic artist, but he quickly realized that Moriarty was of his kin. Moriarty though of games as a novel medium to produce art, and he wanted to use all of its materials---images, music, story, dialogs---to that end. He made sure everyone on the team picked up on his vision for the game and gave them freedom to figure out how to realize it with their tools.
+<a bit of this concept was also in the script of the game: there were different guilds. mark(?) though of using different colors to represent them
+
+they made him lead bg artist loom, that would be all ferrari style, doubling down on his dithered style
+this time around he wouldn't be adapting someone else's rooms, but creating his own from scratch
 other than compression, the scumm engine now could scale the character sprites to represent different distances, this meant that he could move away from the horizontal axis and add perspective to his scenes
 
 <TODO need to introduce purcell around here.
@@ -303,6 +308,7 @@ they were having so much fun with this one, and that stimulated them to try hard
 #+end_export
 
 <he still was no gamer and didn't play any of their games. he had no way of telling wether they were any good. but it was any indication, the fact that everyone seemed to be doing so good at their thing and they felt collectively creative made him assume the work was going to be good. the fact that management asked for a sequel right away he took as the confirmation. on the other hand, Loom, which was supposed to be a trilogy, didn't get one.
+<moriarty, that was considered too artsy/pretentious, was sent off to another division
 
 things start to change around while they are finishing monkey island, he was just to busy to pay attention
 
@@ -456,18 +462,18 @@ https://www.architecturaldigest.com/story/george-lucas-skywalker-ranch-tour
 - https://www.skysound.com/ranch/
 
 https://i.pinimg.com/originals/53/b1/f1/53b1f1a0961866d25ed578d345945dd4.jpg
+**** TODO p&c noah falstein
+**** TODO p&c brian moriarty
+**** TODO richard rouse loom
 **** TODO p&c david fox
 **** TODO p&c gary winnick
 **** TODO p&c ron gilbert
-**** TODO p&c noah falstein
-**** TODO p&c brian moriarty
 **** TODO review the adventurer issues
 https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2003%20Fall%201991/page/n1/mode/2up
 https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2002%20Spring%201991/page/n3/mode/2up
 https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2001%20Fall%201990/page/n1/mode/2up
 
 **** TODO lookup steve purcell interviews
-**** TODO richard rouse loom
 **** TODO experiment with atari st + neochrome
 **** TODO experiment with dpaint
 **** TODO maybe too with c64? try c64 maniac mansion?
