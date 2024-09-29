@@ -12,8 +12,8 @@ draft: true
 #+begin_verse
 Already the displacement
 of one's thought-child
-is not only conceived
-but scheduled
+is not only conceived,
+but scheduled.
 #+end_verse
 
 #+begin_export html
@@ -76,13 +76,15 @@ He says, again, that he's no gamer, not even an arcade player, and Ron says that
 <drives out
 <hatchback honda civic
 <relief that leave it underground instead
-place that looks as otherworldly as one of his fantasy landscapes, as a shot from Star Wars
-the main house with its library and spiral staircase clearly inspired the game they showed him today
-<a <valley>, a lake, green hills
-observatory
-vineyard
-<cattle, farm animals
-he will be driving in this underground garage for the next three years, but he'll make a point of never taking this for granted, no matter how shitty the job gets
+slows down to do some sight seeing around the estate
+he drives by the main house, where they had lunch that day, with its library and the spiral staircase that they put in the game
+
+he circles the lake.
+valley, green hills, the vineyard
+The place that looks as otherworldly as one of his fantasy landscapes, or a shot from Star Wars
+the horse corral, the barn. <someone said they use the produce for the food they serve in the restaurant
+he waves the security guard as he crosses the kiosk
+driving back home, he says to himself that, no matter how long this lasts, how shitty the job gets---and he's old enough that all jobs get shitty from time to time---, this will never feel normal. And it shouldn't. I won't let it, he promises.
 
 #+begin_export html
 <br/><br/>
@@ -107,6 +109,8 @@ it gets better as /he/ gets better, more familiar with the tools; once he grasps
 #+begin_export html
 <br/><br/>
 #+end_export
+
+# TODO maybe comment what they are having, some gourmet meal
 
 "Coppola", says Dave.
 
@@ -134,7 +138,11 @@ It's Mark's third week, and it's the first time he catches a glimpse of George L
 
 The owner doesn't care at all for video games. The existence of the games division is a sort of corporate accident, a spin-off of the Graphics Group prompted by a failed collaboration with Atari, a product of another age of the company. And the fact that they got to stay while the Graphics Group---now called Pixar---was sold to Steve Jobs, is another corporate accident. They're a rounding error, the last hackers standing, the only division totally unrelated to film making. A kind of intruders. So the idea is to be invisible, not to remind George Lucas that they exist, that he still owns a video game studio, that they are spending his money and---much worse---taking up one of his buildings.
 
-"Our man Steve, on the other hand", Dave points to Spielberg, "is our biggest fan. You'll be seeing a lot of him."
+<The one time Lucas showed his face in the Stable House, he said to the director: “Stay small, be the best, don’t lose any money.” That became their gospel, an easy way to answer the question /what would George want us to do?/,an easy way to settle arguments and make design decisions---and an evergreen source of jokes.
+
+<the only part of this that affected him, Mark thought, was /be the best/, and that was how he intended to operate anyway, he didn't need a manager to tell him. he left to the suits, though, to figure out how his work and that of his teammates was supposed to be connected to the money making.
+
+"Our man Steve, on the other hand, is our biggest fan", Dave points his fork to Spielberg. "You'll be seeing a lot of him."
 
 "He's just nuts about tech, this is like an amusement park to him. He's more into it than Lucas, I think."
 
@@ -164,6 +172,7 @@ the only ip they get can their hands on are the <> left over props they use as o
 
 The mouse, the pixels, the 16-color palette, the hotspots, are the constraints he needs to work with and around. One trick---a /hack/, as programmers would call it---he discovered early on was that if he formed a checkerboard pattern of pixel in his drawings, when he zoomed out the image pixels would blend and bleed in the screen, producing shades beyond the boring old 16 colors of the EGA palette.
 
+# FIXME be specific about what background he's drawing, one of zak ones
 This was one of those happy accidents, but since he found it he's been thinking how to use it to his advantage, and this background could be the perfect excuse.
 <todo describe how he draws it, where he uses dither
 <this was obviously not art, not yet, but it was better that anything he did before and anything he saw in the previous game; most importantly it was progress, it was a hint of path they could explore to get closer to his goal.
@@ -186,7 +195,7 @@ the image loads up on the screen from top to bottom. ron takes a few seconds to 
 
 "Those little patterns there, you can't do that, that will take too much space."
 
-Those damned computers. He's almost 6 months into the job and still can't tell when he's doing it right. It's like they come with a bunch of unwritten rules that everyone knows about but him. And the programmers, with their arcane knowledge, are yet another layer of constraints, an extension of the machines that he needs to poke about until it works.
+Those damned computers. He's been doing this for months and still can't tell when he's doing it right. It's like they come with a bunch of unwritten rules that everyone knows about but him. And the programmers, with their arcane knowledge, are yet another layer of constraints, an extension of the machines that he needs to poke about until it works.
 
 Gary tries to be didactic in these situations, not because he cares that Mark understands the technical details but because he wants to make sure he gets that they have good reasons to clip his wings. Gary proceeds to explain that the image data is run through a compression algorithm so it takes up less storage in the disk. The idea is that instead of storing the colors pixel by pixel, they store how many times the current color needs to be repeated; the more same-color segments the image has, the fewer space it will take in disk. His little checkerboard technique---which they called /dithering/---completely breaks this idea, possibly making the compressed image take /even more/ space than the original. Dithered backgrounds would double or triple the required disk space, which would double the amount of disks required to ship the game, which would double production costs, which would double the game's price tag, which would surely get them all fired. "Try again with solid colors, please." he concludes, and pats him on the back. "That was some background, though, huh?"
 
@@ -227,12 +236,31 @@ a few week later he was informed that dithering was now supported. he realizes t
 
 the division head told him they would double down on dithering for the look and feel of the next game, that he would be lead artist for it. your <stock> just went up.
 
+#+begin_export html
+<br/><br/>
+#+end_export
+
+<TODO introduce moriarty + loom (notebook)
+
+they made him lead bg artist for another project, that would be all ferrari style, doubling down on his dithered style
+this time around he doesn't just adapt someone else's rooms, he gets to design them by himself
+other than compression, the scumm engine now could scale the character sprites to represent different distances, this meant that he could move away from the horizontal axis and add perspective to his scenes
+
+<TODO need to introduce purcell around here.
+# maybe this could be a dialog scene?
+<mention he had a published comic, which made ferrari admire him
+<he would be working mostly in character animations
+<although Gary asked him to show him his background process, so he could help out in loom
+<he at least had to be proud of the fact that he already knew his way around dpaint, if not the computer
+<and he developed his own style with the dithering, something he could get to teach others
+<wants to show how he does thing, but not be prescriptive, letting the artist figure out his own style
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
-around that time, they received two corporate messages: 1- they recovered the rights to use the indiana jones license. 2- they should start on an indy game now, for the 3rd entry spielberg was shooting
+
+around that time, they received two <related> pieces of news from management: 1- they recovered the rights to use the indiana jones license. 2- they should start on an indy game now, for the 3rd entry spielberg was shooting
 
 the devs got a copy of the script and there were some screenings at the main house
 some of the folks even got to visit the set
@@ -251,34 +279,14 @@ it was obvious that once the star wars license embargo was lift off, it would ta
 #+begin_export html
 <br/><br/>
 #+end_export
+# monkey project
+<while most other artists and programmers were working on the indiana project, he continued to make progress on loom. so he was far along enough to jump to Ron's new project when the indi game was done
+all his favorite people were in this team
 
-# FIXME this should be a (brief?) loom section
-# probably no much gain to lead it with the gospel thing
-The one time Lucas showed his face in the Stable House, he said to the director: “Stay small, be the best, don’t lose any money.” That became their gospel.
-
-the only part of this that affected him, Mark thought, was /be the best/, and that was how he intended to operate anyway, he didn't need a manager to tell him. he left to the suits, though, to figure out how his work and that of his teammates was supposed to be connected to the money making.
-
-he assumed things went well enough, as projects were still lined up, now they were doing two adventures in parallel
-by all appearences they were getting bigger, new artists coming in, and mark had to help onboard them
-they actually did two games in parallel now, and new people were coming in
-
-it was a good thing that he didn't get assigned to this indy game.
-they made him lead bg artist for another project, that would be all ferrari style, doubling down on his dithered style
-
-this time around he doesn't just adapt someone else's rooms, he gets to design them by himself
-
-other than compression, the scumm engine now could scale the character sprites to represent different distances, this meant that he could move away from the horizontal axis and add perspective to his scenes
-
-maybe: onboarding new artist scene?
-still dont like computers but dpaint is his domain
-wants to show how he does thing, but not be prescriptive, letting the artist figure out his own style
-
-#+begin_export html
-<br/><br/>
-#+end_export
-<monkey project
 ron had been circling this memo on game design around the office, why our games suck
-he could sense this was his attempt at putting those ideas to practice
+it was a distillation of the design philosophy they had being aiming at and missing in the previous game
+
+he could sense this pirate game was his attempt at putting those ideas to practice
 it was mostly a game design thing, it didn't affect the graphics, didn't directly affect him, but it was Ron's side of /be the best/ and Mark just felt he should follow suit and apply everything he'd been learning so far and push it to the next level
 <besides, everyone does everything
 
@@ -287,28 +295,38 @@ They invite him to join the brainstorming sessions, they ask for his input on de
 <something special about this new team and this new game
 they were having so much fun with this one, and that stimulated them to try harder and do better, that surely had to show in the final thing
 
+<the engine was at its best
+<after experimenting in loom, he felt like he mastered the tooling, he know its limitations and where there was room for letting his creativity flow
+
 #+begin_export html
 <br/><br/>
 #+end_export
 
-# maybe set this scene specifically in the unboxing
-# this wasn't the only thing changing, he was just too busy to connect the dots
+<he still was no gamer and didn't play any of their games. he had no way of telling wether they were any good. but it was any indication, the fact that everyone seemed to be doing so good at their thing and they felt collectively creative made him assume the work was going to be good. the fact that management asked for a sequel right away he took as the confirmation. on the other hand, Loom, which was supposed to be a trilogy, didn't get one.
+
 things start to change around while they are finishing monkey island, he was just to busy to pay attention
+
+a few weeks ago everyone got new vga computers, his is still boxed in his desk, he didn't have the time to set it up and he wasn't going to use it for monkey anyway, the vga port is another project and he won't be involved in that one
+
+# todo: maybe unpack together with purcell
+
+this wasn't the only thing changing, he was just too busy to connect the dots
 
 - receives an internal email about the rebrand
   - TODO: what's the technical org change?
 - the mail also mentions something everybody knows about, like there was a "writing on the wall"/sword of damocles hanging in the office wall: the star wars embargo lift. most people loved star wars and couldn't be more excited about getting their hands on their property for a videogame. mark also loved the movie, but he struggled not to see that date as a death sentence for the creativity of the studio
-
-a few weeks ago everyone got new vga computers, his is still boxed in his desk, he didn't have the time to set it up and he wasn't going to use it for monkey anyway, the vga port is another project and he won't be involved in that one
 
 - todo: lookup specs. what will we do with all of this power?
 - todo: unpacking and setting up scene
 - at first it felt like his independence day, finally free from that EGA cage.
   - but soon he felt he wasn't sure what he was doing anymore, the palette choices weren't as relevant anymore, so he had to rethink his whole process
   - these new computers were like a career reset for him
+
 - he could see some of the new folks, don't even remember their names, working on VGA ports for their old games, some "upgrading" his loom and monkey island backgrounds.
   - the results were more colorful, yes, but also less vivid, they lacked the personal style, the touch of the artist, that was lost in translation.
   - each pixel on his dithered patterns was loaded with his intent, now dpaint did most of the thinking through a generic color gradient
+
+- money was obviously pouring in. stay small didn't seem a thing anymore. He that being the best wasn't in the plans anymore, either
 
     #+begin_export html
   <br/><br/>
@@ -348,6 +366,12 @@ a few weeks ago everyone got new vga computers, his is still boxed in his desk, 
 - drive out, evoke his first day
    still owns the same old honda civic
 
+*** chunks
+
+he assumed things went well enough, as projects were still lined up, now they were doing two adventures in parallel
+by all appearences they were getting bigger, new artists coming in, and mark had to help onboard them
+they actually did two games in parallel now, and new people were coming in
+
 *** Sources (TODO: review)
 - The Art of point & click
 - mixnmojo #4 https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-4-Loom/5
@@ -363,8 +387,9 @@ a few weeks ago everyone got new vga computers, his is still boxed in his desk, 
 - https://web.archive.org/web/20030503162101fw_/http://lucasfans.mixnmojo.com/features/interview_stevepurcell_2.html
 - https://www.arcadeattack.co.uk/brian-moriarty/
 - https://grumpygamer.com/guybrush_fact_fiction
+- https://uk.pinterest.com/pin/photos-skywalker-ranch-policies-and-map-handouts--417849671647447163/
 
-*** chunks :noexport:
+*** quotes                                                         :noexport:
 
 #+begin_quote
 I feel the stage sets we rendered as best we could for those earlier games conveyed all sorts of personal artistic style and evocative atmosphere, while most of the 3d game environments that came after them seemed almost universally airless, lightless, and rendered in such a uniform 'algorithmic' art style.
@@ -414,11 +439,6 @@ if you’ve seen the movie — and it seemed safe to assume that just about ever
 Those changing circumstances would prove a not-unmixed blessing for them, forcing them to move out of the rustic environs of Skywalker Ranch and shed much of the personality of a quirky artists’ collective for that of a more hard-nosed media enterprise. On the other hand, at least they’d finally get to make Star Wars games…
 #+end_quote
 
-having gourmet lunches across the room from leonard nimoy or the rolling stones
-david lynch screening at the art deco theater of the main house
-
-they don't seem much of the little guy, they may catch a glimpse of him at lunch when they had visits---leonard nimoy, the rolling stones---, or getting in or out of his office when they went to the library for reference material, as he climbs the spiral staircase up to his office in the roof---which is off-limits.
-
 *** research :noexport:
 
 **** DONE digital lucas arts 1, 2, 3
@@ -451,3 +471,5 @@ https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Ad
 **** TODO experiment with atari st + neochrome
 **** TODO experiment with dpaint
 **** TODO maybe too with c64? try c64 maniac mansion?
+**** TODO cleanup quotes
+**** TODO cleanup sources
