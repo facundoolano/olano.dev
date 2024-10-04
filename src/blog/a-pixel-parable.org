@@ -366,35 +366,7 @@ this wasn't the only thing changing, he was just too busy to connect the dots
 
 Mark is packing a box with the few last things remaining in his office. There's the pile of sketchbooks, labeled by month and year; you could read a history of LucasFilm games by skimming through them. His Indy and Chewbacca action figures. The worn out DPaint 2 manual, which he hasn't used in ages. By now he could write his own, a much better one; not even its authors know the things he knows about that program. There's a set of colored pencils that he hand picked to approximate the 16 EGA colors. He changes his mind and tosses it into the bin. The last thing in the box is an issue of /Sam & Max/, signed by Purcell.
 
-He puts the box in the trunk and starts the car.
-
-Maybe Mark should just go back to illustration, freelance like Purcell has been doing. Sell his work by the piece, to Lucas or to whatever other company, and forget about this.
-
-He knows it doesn't get better than making adventure games at Skywalker Ranch, he won't get this thrill anywhere else, much less as a freelance artist. But he also knows he won't get that by staying, either. LucasFilm is gone, replaced by LucasArts.
-
-He drives out of the underground garage on his old Honda Civic.
-
-What a typical corporate move, rebranding to Lucas /Arts/ just as they move them into an insurance office building full of cubicles.
-
-Rounds about the stable house for the last time.
-
-No more being the best or staying small, just a bunch of boring technicians churning out /Star Wars/ shooters and flight simulators.
-
-The artificial lake is glowing with the reflection of the sky, like a dithered EGA sunset.
-
-No more rebels, just stormtroopers.
-
-He doesn't look out to the barn nor the corral, he barely nods to the security guy on his way out.
-
-No more lucky breaks.
-
-*** chunks
-
-he assumed things went well enough, as projects were still lined up, now they were doing two adventures in parallel
-by all appearences they were getting bigger, new artists coming in, and mark had to help onboard them
-they actually did two games in parallel now, and new people were coming in
-
-
+He puts the box in the trunk and starts the car---/maybe he should just go back to illustration, freelance like Purcell does, sell his work by the piece to Lucas or to whatever other company/---he drives out of the underground garage on his same old Honda Civic---/he knows it doesn't get better than making adventure games at Skywalker Ranch, he won't get this thrill anywhere else, much less as a freelance artist, but he won't get it by staying, either, LucasFilm is gone, replaced by LucasArts/---rounds about the stable house for the last time---/such a typical corporate move, rebranding to LucasArts just as they move them into an insurance office building full of cubicles, a bunch of boring technicians churning out Star Wars flight simulators/---the artificial lake is glowing with the reflection of the sky, like a dithered EGA sunset---/no more rebels, just stormtroopers/---he doesn't look out to the barn nor the corral, he barely nods to the security guy on his way out---/no more lucky breaks/.
 
 *** Sources
 - [[https://www.bitmapbooks.com/en-ar/products/the-art-of-point-click-adventure-games][The Art of Point-and-Click Adventure Games]].
