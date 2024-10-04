@@ -68,7 +68,7 @@ an artist perspective is what they expect him to bring to the table, the tools h
 
 They spend the next hour fiddling together with Deluxe Paint II, the drawing program for the PC. The concept is similar to NeoChrome, but with more sophisticated brushes, or so Gary says. Mark notes the colors are fewer and uglier than the ones he saw in the Atari. "Oh yeah. Those are the colors of your nightmares, starting tonight".
 
-After lunch, Ron sits with him to play /Maniac Mansion/, his B-movie adventure game. He shows him how to move around, how to talk with other characters, how the puzzles move the story forward.
+After lunch, Ron sits with him to play /Maniac Mansion/, his B-horror adventure game. He shows him how to move around, how to talk with other characters, how the puzzles move the story forward.
 <there's a newer game they've been working on Zak MacKracken, dave's game, but this is easier, smaller. for now, it's best if Mark just spends a couple of days playing it, to get and idea of what they are trying to do.
 He says, again, that he's no gamer, not even an arcade player, and Ron says that that's perfect, they want to build something that just about anyone can pick up and have fun with
 
@@ -114,7 +114,7 @@ it gets better as /he/ gets better, more familiar with the tools; once he grasps
 
 "Coppola", says Dave.
 
-"Coppola, of course", concurs Gary. "The Rolling Stones".
+"Coppola, of course", Gary concurs. "The Rolling Stones".
 
 "Wait, all of them?"
 
@@ -204,7 +204,7 @@ Gary tries to be didactic in these situations, not because he cares that Mark un
 <br/><br/>
 #+end_export
 
-<the old timers warned him there was going to be crunch when they got closer to the release date
+<everyone warned him there was going to be crunch time when they got closer to the release date
 <Here's the thing about deadlines: everybody knows they won't make the first one or two deadlines, and that's fine, but also everyone accepts that they'll miss them in crunch mode, if anything to keep up appearences
 mark defaulted to a belligerent attitude towards authority and thus was, in principle, against overtime and having to meet executive demands and meet deadlines
 but, also, he didn't really mind the effort.
@@ -240,12 +240,13 @@ the division head told him they would double down on dithering for the look and 
 <br/><br/>
 #+end_export
 
-# TODO check more loom info
-the new game, /Loom/, was lead by Brian Moriarty, an experience designed they brought in from Infocom, the struggling text adventure shop.
+<the new game, /Loom/, was lead by Brian Moriarty, an experience designed they brought in from Infocom, the struggling text adventure shop.
 Mark had tried one of their games. while he was impressed by the thorough descriptions and the setting---it was like they made him the protagonist of a fantasy novel---he was quickly frustrated by the complicated gameplay and all the typing it involved. It was like the complete opposite of everything Ron and Gary were trying to do with the graphic adventures. They were movies to infocom's novels.
 
 <Before meeting him, Mark feared that the fact Moriarty came from text games would treat his work as a graphic artist, but he quickly realized that Moriarty was of his kin. Moriarty though of games as a novel medium to produce art, and he wanted to use all of its materials---images, music, story, dialogs---to that end. He made sure everyone on the team picked up on his vision for the game and gave them freedom to figure out how to realize it with their tools.
 <a bit of this concept was also in the script of the game: there were different guilds. mark(?) though of using different colors to represent them
+
+<TODO sleeping beauty inspiration
 
 they made him lead bg artist loom, that would be all ferrari style, doubling down on his dithered style
 this time around he wouldn't be adapting someone else's rooms, but creating his own from scratch
@@ -253,12 +254,14 @@ other than compression, the scumm engine now could scale the character sprites t
 
 <TODO need to introduce purcell around here.
 # maybe this could be a dialog scene?
+<previously worked in the cover art of the games
 <mention he had a published comic, which made ferrari admire him
 <he would be working mostly in character animations
 <although Gary asked him to show him his background process, so he could help out in loom
 <he at least had to be proud of the fact that he already knew his way around dpaint, if not the computer
 <and he developed his own style with the dithering, something he could get to teach others
 <wants to show how he does thing, but not be prescriptive, letting the artist figure out his own style
+
 
 #+begin_export html
 <br/><br/>
@@ -272,7 +275,7 @@ some of the folks even got to visit the set
 purcell came back with a whip for "research purposes", which they incorporated to their afternoon sporting activities
 
 mark was relieved, if a little worried, that they let him continue with loom while most of the people switched to indiana jones
-he was suspicious of IP games, he prefferred originals
+he was suspicious of IP games, he preferred originals
 he could see how the designers were struggling to make everything fit the movie script and still be playable
 nobody was sure what the interest could be if people already knew the plot
 from an artistic point of view it would've been restraining as well
@@ -285,11 +288,13 @@ it was obvious that once the star wars license embargo was lift off, it would ta
 <br/><br/>
 #+end_export
 # monkey project
-<while most other artists and programmers were working on the indiana project, he continued to make progress on loom. so he was far along enough to jump to Ron's new project when the indi game was done
+<while most other artists and programmers were working on the indiana project, he continued to make progress on loom. so he was far along enough to jump to Ron's new project when the indy game was done
 all his favorite people were in this team
 
 ron had been circling this memo on game design around the office, why our games suck
 it was a distillation of the design philosophy they had being aiming at and missing in the previous game
+
+<loom box art?
 
 he could sense this pirate game was his attempt at putting those ideas to practice
 it was mostly a game design thing, it didn't affect the graphics, didn't directly affect him, but it was Ron's side of /be the best/ and Mark just felt he should follow suit and apply everything he'd been learning so far and push it to the next level
@@ -359,18 +364,29 @@ this wasn't the only thing changing, he was just too busy to connect the dots
 <br/><br/>
 #+end_export
 
-- last day at skywalker ranch packing his box into the car
-- box had: Indy and Chewbacca action figures, a Sam & Max comic book, his sketch books, the dpaint manual he hadn't read in ages---by now he could have written his own, a much better one---, a weird set of pencils he hand picked to aproximate the 16 EGA colors, he might as well toss those <actually toss them instead of thinking>.
-- the computer was already in the trunk of his car.
-  - he was used to take it home on weekends, and he preferred to bring it himself on monday as an excuse to pick his cubicle
-- it was a typical corporate move to rebrand to lucas "arts" in the name just as they move it out from the ranch to a <cubliced> office plan over at san raphael,
-- lined up a bunch of generic star wars projects, they started bringing in more people, boring technicians, no more rebels, just stormtroopers
-- maybe should do like purcell, and just freelance and do his own thing, work for other companies, maybe go back to traditional illustration
-- he knew it didn't get better than making adventure games at skywalker ranch, that he wouldn't find what he had there anywhere else, much less as a freelance artist
-- but he also knew he wouldn't get it here either, lucasfilm was gone, replaced by lucas arts, no more ranch, the magic/halcyon days were over / the dream/fantasy was over
-- he ran out of lucky breaks
-- drive out, evoke his first day
-   still owns the same old honda civic
+Mark is packing a box with the few last things remaining in his office. There's the pile of sketchbooks, labeled by month and year; you could read a history of LucasFilm games by skimming through them. His Indy and Chewbacca action figures. The worn out DPaint 2 manual, which he hasn't used in ages. By now he could write his own, a much better one; not even its authors know the things he knows about that program. There's a set of colored pencils that he hand picked to approximate the 16 EGA colors. He changes his mind and tosses it into the bin. The last thing in the box is an issue of /Sam & Max/, signed by Purcell.
+
+He puts the box in the trunk and starts the car.
+
+Maybe Mark should just go back to illustration, freelance like Purcell has been doing. Sell his work by the piece, to Lucas or to whatever other company, and forget about this.
+
+He knows it doesn't get better than making adventure games at Skywalker Ranch, he won't get this thrill anywhere else, much less as a freelance artist. But he also knows he won't get that by staying, either. LucasFilm is gone, replaced by LucasArts.
+
+He drives out of the underground garage on his old Honda Civic.
+
+What a typical corporate move, rebranding to Lucas /Arts/ just as they move them into an insurance office building full of cubicles.
+
+Rounds about the stable house for the last time.
+
+No more being the best or staying small, just a bunch of boring technicians churning out /Star Wars/ shooters and flight simulators.
+
+The artificial lake is glowing with the reflection of the sky, like a dithered EGA sunset.
+
+No more rebels, just stormtroopers.
+
+He doesn't look out to the barn nor the corral, he barely nods to the security guy on his way out.
+
+No more lucky breaks.
 
 *** chunks
 
@@ -378,22 +394,22 @@ he assumed things went well enough, as projects were still lined up, now they we
 by all appearences they were getting bigger, new artists coming in, and mark had to help onboard them
 they actually did two games in parallel now, and new people were coming in
 
-*** Sources (TODO: review)
-- The Art of point & click
-- mixnmojo #4 https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-4-Loom/5
-- mixnmojo #5 https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-The-Secret-of-Monkey-Island/7
-- The Making of Monkey Island - Behind The Scenes https://youtu.be/ri4_3P2Oh14?feature=shared
-- antiquarian
-  - new force scumm
-  - loom
-  - monkey island
-  - fate of atlantis
-- The Effect of CRTs on Pixel Art https://datagubbe.se/crt/
-- Lucasfilm EGA adventures https://www.superrune.com/tutorials/lucasfilm_ega.php
-- https://web.archive.org/web/20030503162101fw_/http://lucasfans.mixnmojo.com/features/interview_stevepurcell_2.html
-- https://www.arcadeattack.co.uk/brian-moriarty/
-- https://grumpygamer.com/guybrush_fact_fiction
-- https://uk.pinterest.com/pin/photos-skywalker-ranch-policies-and-map-handouts--417849671647447163/
+
+
+*** Sources
+- [[https://www.bitmapbooks.com/en-ar/products/the-art-of-point-click-adventure-games][The Art of Point-and-Click Adventure Games]].
+- [[https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-4-Loom/5][LucasArts' Secret History #4: Loom Developer Reflections]].
+- [[https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-The-Secret-of-Monkey-Island/7][LucasArts' Secret History #5: The Secret of Monkey Island Developer Reflections]].
+- [[https://youtu.be/ri4_3P2Oh14?feature=shared][The Making of Monkey Island - Behind The Scenes]].
+- [[https://www.youtube.com/watch?v=z1aVDael-KM][Classic Game Postmortem: LucasFilm Games' Loom]].
+- [[https://www.filfre.net/2015/07/a-new-force-in-games-part-3-scumm/][A New Force in Games, Part 3: SCUMM]]
+- [[https://www.filfre.net/2017/02/loom-or-how-brian-moriarty-proved-that-less-is-sometimes-more/][Loom (or, how Brian Moriarty Proved That Less is Sometimes More)]].
+- [[https://www.filfre.net/2017/03/monkey-island-or-how-ron-gilbert-made-an-adventure-game-that-didnt-suck/][Monkey Island (or, How Ron Gilbert Made an Adventure Game That Didn’t Suck)]].
+- [[https://www.filfre.net/2018/09/indiana-jones-and-the-fate-of-atlantis-or-of-movies-and-games-and-whether-the-twain-shall-meet/][Indiana Jones and the Fate of Atlantis (or, Of Movies and Games and Whether the Twain Shall Meet)]].
+- [[https://datagubbe.se/crt/][The Effect of CRTs on Pixel Art]].
+- [[https://www.superrune.com/tutorials/lucasfilm_ega.php][Lucasfilm EGA adventures: an appreciation]].
+- [[https://web.archive.org/web/20030326051107fw_/http://lucasfans.mixnmojo.com/features/interview_stevepurcell.html][Steve Purcell Interview]].
+- [[https://grumpygamer.com/guybrush_fact_fiction][Guybrush Fact vs Fiction]].
 
 *** quotes                                                         :noexport:
 
@@ -445,6 +461,10 @@ if you’ve seen the movie — and it seemed safe to assume that just about ever
 Those changing circumstances would prove a not-unmixed blessing for them, forcing them to move out of the rustic environs of Skywalker Ranch and shed much of the personality of a quirky artists’ collective for that of a more hard-nosed media enterprise. On the other hand, at least they’d finally get to make Star Wars games…
 #+end_quote
 
+#+begin_quote
+when the Zak project was finished I sat down one morning and rendered a twilight scene with a rising moon and stars over receding oak covered Hills all rendered smoothly and subtly and dithered EGA graphics then in silent protest I simply left a picture up on my monitor
+#+end_quote
+
 *** research :noexport:
 
 **** DONE digital lucas arts 1, 2, 3
@@ -455,7 +475,8 @@ CLOSED: [2024-09-28 Sat 15:32]
 CLOSED: [2024-09-28 Sat 15:32]
 **** DONE digital indiana
 CLOSED: [2024-09-28 Sat 17:54]
-**** TODO research details about the ranch
+**** DONE research details about the ranch
+CLOSED: [2024-09-30 Mon 20:35]
 eg landscape, garage. wikipedia mostly
 
 https://www.architecturaldigest.com/story/george-lucas-skywalker-ranch-tour
@@ -477,5 +498,6 @@ https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Ad
 **** TODO experiment with atari st + neochrome
 **** TODO experiment with dpaint
 **** TODO maybe too with c64? try c64 maniac mansion?
+**** TODO check loom post mortem
 **** TODO cleanup quotes
 **** TODO cleanup sources
