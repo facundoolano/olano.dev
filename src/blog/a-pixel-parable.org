@@ -51,12 +51,12 @@ Mark calls his parents to share the news. His father, he now learns, has just bo
 <br/><br/>
 #+end_export
 
-"What are you doing with this thing, anyway?", asks Mark. His sitting in front of the computer, skimming the manual. The cover reads /Atari 520ST/.
-"The school made a deal for us to get them at half price. They say we should be computer-literate if we want to have a job in five years." The voice comes into the room before his father, who then appears at the doorway, leaning on the frame. "I figured I could use it for writing, but they have a different brand at school, so I can't print my files. And I'm not buying a printer. You can take it if you want."
+"What are you doing with this thing, anyway?", asks Mark. He is sitting in front of the computer, skimming the manual. The cover reads /Atari 520ST/.
+"The school made a deal for us to get them at half price. They say we should get /computer-literate/ if we want to have a job in five years." The voice comes into the room before the rest of his father, who then appears at the doorway, leaning on the frame. "I figured I could use it for writing, but they use a different brand at school, so I can't take my files there. And I'm not buying a printer, so I don't see the point. You can have it if you want."
 
-"Let's see if I get the job, first. It says there should be a drawing program somewhere in here, 'NeoChrome'. Let's try that out." It takes them 20 minutes of collaborative effort---something they haven't done since his father thought him to change the oil of the car a decade ago---to find the disk and open the program. Then Mark drops the computer manual and switches to the NeoChrome one. Another half hour later, Mark is dropping little green dots across a blue background.
+"Let's see if I get the job, first. It says there should be a drawing program somewhere in here, 'NeoChrome'. Let's try that out." It takes them 20 minutes of effort to find the disk and open the program---their first project since his father thought him how to change his oil over a decade ago. Then Mark switches to the NeoChrome manual. Another half hour later, Mark is dropping little green dots across a blue background.
 
-Mark secludes himself in his old high school bedroom for the next few evenings, getting familiar with this computer thing and the paint program. The little mouse forces his hand into a claw. Whenever he begins to feel that he's gotten used to it, that he can forget about the tool and focus on the task, whenever his eyes seem to spark a connection between the image on the screen and the image on his brain, his hand jumps from the mouse to grip a pencil that's not there, like a phantom limb.
+For the next few evenings, Mark secludes himself in his old high school bedroom, getting familiar with this computer thing and the painting program. The little mouse forces his hand into a claw. Whenever he begins to feel that he's gotten used to it, that he can forget about the tool and focus on the task, whenever his eyes spark a connection between the image on the screen and the image on his brain, his hand jumps from the mouse to grip a pencil that's not there, a phantom limb.
 
 He teaches himself to draw a single picture, a little African hut that he repeats over and over until he memorizes the procedure, which he will repeat a few days later to survive his interview.
 
@@ -64,51 +64,33 @@ He teaches himself to draw a single picture, a little African hut that he repeat
 <br/><br/>
 #+end_export
 
-Mark walks out of the garage and meets Gary at porch of the Stable House. He shows him around the Games Group offices, introducing him to everyone they meet, and takes him to his desk. He'll be sitting next to Gary and across Ron and Dave, the two programmers they'll be working more closely with. Mark notices there are not one but two different computers on his desk. And neither looks like the AtariST he used last week.
+Mark walks out of the garage and meets Gary at the porch of the Stable House. Gary shows him around the Games Group offices, introducing him to everyone they meet, and takes him to his desk. He'll be sitting next to Gary and across the hall from Ron and Dave, the two programmers they'll be working more closely with. Mark notices there are not one but two different computers on his desk. And neither looks like the AtariST he's been using.
 
-"That's a Commodore 64", points Gary, "and that's an DOS PC. We've been transitioning our games from c64 to DOS. In fact, your first job will be helping us to port the backgrounds of our new game. You'll notice they are, uh, a bit... clunky, when it comes to graphics. Especially that one", he points at the PC.
+"That's a Commodore 64", points Gary, "and that's a DOS. We've been transitioning our games from c64 to DOS. In fact, your first job will be helping us to port the backgrounds of our new game. You'll notice they are, uh, a bit... clunky, when it comes to graphics. Especially that one", he points at the PC.
 
-Mark gives him a /I feel like throwing up/ face.
+Mark feels like throwing up.
 
 "Haha, I know, it's a lot. Look, the only thing you need to remember about this one is how to run the game. And for this one... You'll mostly just be using DPaint".
 
-<his imposter syndrome kicks in, once and again, and he takes notes and constantly apologizes for his questions and the obvious things he doesn't know.
-they reassure him again, even the ones that have been user computers for a few years
-they are all trying to figure out what it means to tell a story in this medium, in this genre, no one is an expert at that
-an artist perspective is what they expect him to bring to the table, the tools he'll just figure out. they are changing all the time, anyway
+Gary reassures him that they couldn't care less about his computer chops. Nobody around here really knows what they are doing, not even the programmers, who have been using them for years. They are all just trying to figure out what it means to tell a story in this new medium, in this new genre. What a video game worthy of LucasFilm should be like. There are no experts at /that/. "An artist perspective is what we expect you to bring to the table. The tools you'll figure out. They change all the time, anyway". They spend the next hour fiddling together with Deluxe Paint II, the drawing program for the PC. The concept is similar to NeoChrome, but with more sophisticated brushes, or so Gary says. Mark notes the colors are fewer and uglier than the ones he saw in the Atari. "Oh yeah. Those are the colors of your nightmares, starting tonight".
 
-They spend the next hour fiddling together with Deluxe Paint II, the drawing program for the PC. The concept is similar to NeoChrome, but with more sophisticated brushes, or so Gary says. Mark notes the colors are fewer and uglier than the ones he saw in the Atari. "Oh yeah. Those are the colors of your nightmares, starting tonight".
+After lunch, Ron sits with Mark to play /Maniac Mansion/, his B-horror adventure game. He shows Mark how to move around, how to talk with other characters, how to solve puzzles to move the story forward. /Maniac Mansion/ is a sort of blueprint of the kind of work they are trying to do. There's a newer game they've been working on, Dave's game, /Zak MacKracken/. But /Maniac Mansion/ is easier, smaller, a better starting point. It's best if Mark just spends a couple of days playing it, to get the idea. Marks imposter syndrome kicks in now and again, and he apologizes for his dumb questions. He's no gamer, not even an arcade player. Ron tell him that that's perfect: they want to build something that just about anyone can pick up and have fun with.
 
-After lunch, Ron sits with him to play /Maniac Mansion/, his B-horror adventure game. He shows him how to move around, how to talk with other characters, how the puzzles move the story forward.
-<there's a newer game they've been working on Zak MacKracken, dave's game, but this is easier, smaller. for now, it's best if Mark just spends a couple of days playing it, to get and idea of what they are trying to do.
-He says, again, that he's no gamer, not even an arcade player, and Ron says that that's perfect, they want to build something that just about anyone can pick up and have fun with
-
-
-<drives out
-<hatchback honda civic
-<relief that leave it underground instead
-slows down to do some sight seeing around the estate
-he drives by the main house, where they had lunch that day, with its library and the spiral staircase that they put in the game
-
-he circles the lake.
-valley, green hills, the vineyard
-The place that looks as otherworldly as one of his fantasy landscapes, or a shot from Star Wars
-the horse corral, the barn. <someone said they use the produce for the food they serve in the restaurant
-he waves the security guard as he crosses the kiosk
-driving back home, he says to himself that, no matter how long this lasts, how shitty the job gets---and he's old enough that all jobs get shitty from time to time---, this will never feel normal. And it shouldn't. I won't let it, he promises.
+He leaves that evening with sore eyes from computer screen and a headache from all the names and images shoved into his brain. He's relieved that no one's around the Stable House to see him pull his Honda Civic out of the underground garage. He drives by the main house, where they had lunch that day, a new building made to look old---not any old but period-specific old---and he confirms that it looks just like the one they put in the game. He circles the artificial lake, slowing down for some sight-seeing. The green hills, the vineyard, the barn, the horse corral. This place looked like one of his fantasy landscapes. Or a shot from /Star Wars/.
 
 #+begin_export html
 <br/><br/>
 #+end_export
-
-# FIXME explain hotspots in this segment, remove definition from below
-# ---items and doors that will be necessary for the gameplay of the scene, what they call /hotspots/---
 
 it doesn't take him too long to become productive. that is, to work out a usable background fast enough to meet the developers expectations, which were lower than his own.
 his goal was to produce art and get paid for it, so he give as little thought as possible to the needs of the project and the business.
 it's convenient that they don't expect much from him, because not only he isn't satisfied with his production and it doesn't come close to art, he still feels he has a long way to go to tame the computer, the mouse, the pixels, the palette, and the drawing program.
 
 <his job is to adapt the c64 backgrounds to the EGA ones.
+<puzzle document + rooms&hotspots document
+<puzzle doc (chart?): like a storeyboard paced by the challenges the player needs to solve to make progress in the game
+# ---items and doors that will be necessary for the gameplay of the scene, what they call /hotspots/---
+
 <at first he tried just working out from the c64, but soon finds out that creates more problems than it solves, since the screen dimensions are different
 he develops some 'coping mechanisms': he first makes sketches, plotting the pixel grid in a ruled notebook, to try options before moving to the computer screen where nothing seems to flow, where everything feels clumsy and rigid, like lego building, and it's hard to tell whether something's going to look good before it's done.
 
@@ -116,6 +98,10 @@ the most frustrating is encoding the pictures in those suffocating 16 colors, al
 this is another thing where he needs to plan ahead, carefully measuring what colors he gets to spend, a decision he needs to make early on and that informs---constraints--- all the rest of his choices: the scene composition, the mood, what's shown, what's hinted.
 <There's little room for the sort of creativity that stems from impulse and experimentation (but much from constraints, pushing the boundaries, happy accidents that lead to innovation
 it gets better as /he/ gets better, more familiar with the tools; once he grasps what are his materials and what their capabilities and limitations, he can start using them to his advantage---work around and step on the constraints and push himself to be creative as with any art and any material, just like does with pencil and paper.
+
+<little relation to art, he feels like a novelist employed as a copywriter
+
+
 
 #+begin_export html
 <br/><br/>
@@ -251,13 +237,14 @@ the division head told him they would double down on dithering for the look and 
 <br/><br/>
 #+end_export
 
-<the new game, /Loom/, was lead by Brian Moriarty, an experience designed they brought in from Infocom, the struggling text adventure shop.
+<the new game, /Loom/, was lead by Brian Moriarty, an experienced designed they brought in from Infocom, the struggling text adventure shop.
 Mark had tried one of their games. while he was impressed by the thorough descriptions and the setting---it was like they made him the protagonist of a fantasy novel---he was quickly frustrated by the complicated gameplay and all the typing it involved. It was like the complete opposite of everything Ron and Gary were trying to do with the graphic adventures. They were movies to infocom's novels.
 
 <Before meeting him, Mark feared that the fact Moriarty came from text games would treat his work as a graphic artist, but he quickly realized that Moriarty was of his kin. Moriarty though of games as a novel medium to produce art, and he wanted to use all of its materials---images, music, story, dialogs---to that end. He made sure everyone on the team picked up on his vision for the game and gave them freedom to figure out how to realize it with their tools.
 <a bit of this concept was also in the script of the game: there were different guilds. mark(?) though of using different colors to represent them
 
-<TODO sleeping beauty inspiration
+# TODO sleeping beauty inspiration
+# maybe good excuse to take him to the library for concept art
 
 they made him lead bg artist loom, that would be all ferrari style, doubling down on his dithered style
 this time around he wouldn't be adapting someone else's rooms, but creating his own from scratch
@@ -466,8 +453,23 @@ https://www.architecturaldigest.com/story/george-lucas-skywalker-ranch-tour
 - https://www.skysound.com/ranch/
 
 https://i.pinimg.com/originals/53/b1/f1/53b1f1a0961866d25ed578d345945dd4.jpg
-**** TODO p&c noah falstein
-**** TODO p&c brian moriarty
+**** DONE p&c noah falstein
+CLOSED: [2024-10-05 Sat 13:52]
+**** DONE p&c brian moriarty
+CLOSED: [2024-10-05 Sat 13:52]
+**** DONE check loom post mortem
+CLOSED: [2024-10-05 Sat 13:52]
+**** TODO maniac mansion post mortem
+https://www.youtube.com/watch?v=WD64ExGHBWE
+
+**** TODO design documents
+https://grumpygamer.com/maniac_mansion_design_1
+https://grumpygamer.com/puzzle_dependency_charts
+https://grumpygamer.com/even_more_monkey_island_design_scribbles
+https://grumpygamer.com/rtmi_pdc
+https://grumpygamer.com/stuff_and_things_and_monkey_island
+https://grimfandango.network/media/Grim_Fandango_Puzzle_Document.pdf
+
 **** TODO richard rouse loom
 **** TODO p&c david fox
 **** TODO p&c gary winnick
@@ -481,6 +483,6 @@ https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Ad
 **** TODO experiment with atari st + neochrome
 **** TODO experiment with dpaint
 **** TODO maybe too with c64? try c64 maniac mansion?
-**** TODO check loom post mortem
 **** TODO cleanup quotes
-**** TODO cleanup sources
+**** DONE cleanup sources
+CLOSED: [2024-10-05 Sat 13:52]
