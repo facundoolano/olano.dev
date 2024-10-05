@@ -162,6 +162,10 @@ a.title {
     text-indent: 2rem;
 }
 
+.layout-post .center-block p {
+    text-indent: 0rem;
+}
+
 .outline-2 + .outline-2 h2{
     padding-top: 1.5rem;
 }

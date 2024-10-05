@@ -20,21 +20,32 @@ but scheduled.
 <br/><br/>
 #+end_export
 
-"How would you like working as a video game artist?"
+"How would you like working on video games?"
 
-Mark is holding his "Best of the Show" certificate on one hand and the guy's card in the other. /Gary Winnick - Art Director - LucasFilm Games/. LucasFilm as in George Lucas. As in Star Wars.
+Mark is holding his "Best of the Show" certificate on one hand and, on the other, the card this guy just handed to him:
+#+begin_center
+Gary Winnick
 
-"Could you come over to the Ranch for an interview?", he insists.
+Art Director
 
-This is his second lucky break of the weekend. Mark is just out of art school, trying to make it as an illustrator. A friend recommended he show up to this sci-fi convention, he said these things are good for networking. Mark wouldn't mind having some of his work on a trading card, or a rule book, or, who knows? on the cover of one of those fantasy novels he used to read growing up.
+LucasFilm Games
+#+end_center
 
-So he shows up to the convention on Friday, someone notices his work---these pencil-drawn landscapes that look like they were hand-painted---, they invite him to participate in the convention's art show, he does, two days later he wins best of the show. That was his first lucky brek. The second was this guy, Gary, coming over to him, handing him a card, asking him to 'audition' for a video game job.
+LucasFilm as in George Lucas. As in Star Wars.
 
-Mark reads the card again, stops for a second to think what to say next. He needs a job, after all. Honesty has been working wonders for him so far, so he tells it straight: "I'd be happy to come over to do <anything at all there> but... I don't know the first thing about video games. I never even touched a computer."
+This is his second lucky break of the weekend. Mark is just out of art school, trying to make it as an illustrator. A friend recommended he show up to this sci-fi convention, she said that these things are good for networking. He wouldn't mind having some of his work on a trading card, or a rule book, or, who knows? on the cover of one of those fantasy novels he used to read growing up.
+
+So he shows up to the convention on Friday. Someone notices his work---these pencil-drawn landscapes that look like they were hand-painted---, they invite him to participate in the convention's art show, he does, two days later he wins best of the show. That's his first lucky brek. The second is this guy, Gary, coming over to him, handing him a card, asking him to 'audition' for a video game job.
+
+"Could you come over to the Ranch for an interview?", Gary insists.
+
+Mark reads the card again, stops for a second to think what to say next. He needs a job, after all. Honesty has been working wonders for him so far, so he tells it straight: "I'd be happy to come over to do anything at all there but... I don't know the first thing about video games. I never even touched a computer."
 
 "That's alright", Gary replies, "we've had better results teaching artists how to program than programmers how to art. I'm not worried about that part."
 
-The last two hours of the convention are a blur. He drives back home, trying to figure out what just happened. <On his first weekend, on this first try as a professional illustrator, he's offered to interview for a job that he didn't even know existed five minutes ago, but that he now thinks it's undoubtedly his dream job---and one that he's terribly underqualified for. Mark calls his parents to share the news. His father, he now learns has just bought a personal computer. That's his third lucky break.
+He drives back home, trying to figure out what just happened. On the first weekend---on this first serious attempt as a professional illustrator---he's offered to interview for a job that he didn't even know existed five minutes before, but that he now thinks it's undoubtedly his dream job---and one that he's terribly unqualified for.
+
+Mark calls his parents to share the news. His father, he now learns, has just bought a personal computer. That's his third lucky break.
 
 #+begin_export html
 <br/><br/>
