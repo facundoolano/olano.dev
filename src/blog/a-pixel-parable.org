@@ -33,13 +33,7 @@ Mark is holding his "Best of the Show" certificate on one hand and, on the other
 </div>
 #+end_export
 
-LucasFilm as in George Lucas. As in Star Wars.
-
-#+begin_export html
-<br/><br/>
-#+end_export
-
-
+LucasFilm as in George Lucas. As in /Star Wars/.
 
 This is his second lucky break of the weekend. Mark is just out of art school, trying to make it as an illustrator. A friend recommended he show up to this sci-fi convention, she said that these things were good for networking. He wouldn't mind having some of his work on a trading card, or a rule book, or, who knows? on the cover of one of those fantasy novels he used to read growing up.
 
@@ -72,7 +66,7 @@ He teaches himself to draw a single picture, a little African hut that he repeat
 <br/><br/>
 #+end_export
 
-Mark walks out of the garage and meets Gary at the porch of the Stable House. Gary shows him around the Games Group offices, introducing him to everyone they meet, and takes him to his desk. He'll be sitting next to Gary and across the hall from Ron and Dave, the two programmers they'll be working more closely with. Mark notices there are not one but two different computers on his desk. And neither looks like the AtariST he's been using.
+Mark walks out of the garage and meets Gary at the porch of the Stable House. Gary shows him around the Games Group offices, introducing him to everyone they meet, and takes him to his desk. He'll be sitting next to Gary and across the hall from Ron and David, the two programmers they'll be working more closely with. Mark notices there are not one but two different computers on his desk. And neither looks like the AtariST he's been using.
 
 "That's a Commodore 64", points Gary, "and that's a DOS. We've been transitioning our games from c64 to DOS. In fact, your first job will be helping us to port the backgrounds of our new game. You'll notice they are, uh, a bit... clunky, when it comes to graphics. Especially that one", he points at the PC.
 
@@ -82,7 +76,7 @@ Mark feels like throwing up.
 
 Gary reassures him that they couldn't care less about his computer chops. Nobody around here really knows what they are doing, not even the programmers, who have been using them for years. They are all just trying to figure out what it means to tell a story in this new medium, in this new genre. What a video game worthy of LucasFilm should be like. There are no experts at /that/. "An artist perspective is what we expect you to bring to the table. The tools you'll figure out. They change all the time, anyway". They spend the next hour fiddling together with Deluxe Paint II, the drawing program for the PC. The concept is similar to NeoChrome, but with more sophisticated brushes, or so Gary says. Mark notes the colors are fewer and uglier than the ones he saw in the Atari. "Oh yeah. Those are the colors of your nightmares, starting tonight".
 
-After lunch, Ron sits with Mark to play /Maniac Mansion/, his B-horror adventure game. He shows Mark how to move around, how to talk with other characters, how to solve puzzles to move the story forward. /Maniac Mansion/ is a sort of blueprint of the kind of work they are trying to do. There's a newer game they've been working on, Dave's game, /Zak MacKracken/. But /Maniac Mansion/ is easier, smaller, a better starting point. It's best if Mark just spends a couple of days playing it, to get the idea. Marks imposter syndrome kicks in now and again, and he apologizes for his dumb questions. He's no gamer, not even an arcade player. Ron tell him that that's perfect: they want to build something that just about anyone can pick up and have fun with.
+After lunch, Ron sits with Mark to play /Maniac Mansion/, his B-horror adventure game. He shows Mark how to move around, how to talk with other characters, how to solve puzzles to move the story forward. /Maniac Mansion/ is a sort of blueprint of the kind of work they are trying to do. There's a newer game they've been working on, David's game, /Zak MacKracken/. But /Maniac Mansion/ is easier, smaller, a better starting point. It's best if Mark just spends a couple of days playing it, to get the idea. Marks imposter syndrome kicks in now and again, and he apologizes for his dumb questions. He's no gamer, not even an arcade player. Ron tell him that that's perfect: they want to build something that just about anyone can pick up and have fun with.
 
 He leaves that evening with sore eyes from the computer screen and a headache from all the names and images shoved into his brain. He's relieved that no one's around the Stable House to see him pull his Honda Civic out of the underground garage. He slows down as he drives by the main house, where they had lunch that day, a new building made to look old---not any old but period-specific old. He confirms that it looks just like the one they put in the game. He circles by the artificial lake and passes the barn, the corral, the vineyard. This little valley surrounded by green hills feels as otherworldly as one of his fantasy landscapes. Or a shot from /Star Wars/.
 
@@ -90,24 +84,14 @@ He leaves that evening with sore eyes from the computer screen and a headache fr
 <br/><br/>
 #+end_export
 
-it doesn't take him too long to become productive. that is, to work out a usable background fast enough to meet the developers expectations, which were lower than his own.
+Mark's first job is to port the /Zak MacKracken/'s Commodore64 backgrounds to the EGA. David gives him a document listing each location of the game. David calls them /rooms/ even though some our outdoors---even outer space. Each page has a short description and a list of "hotspots", the things the player can interact with, objects, doors, that kind of thing. Mark has to make sure that those remain visible on his ported backgrounds. Other than the list of rooms, the design document is a huge puzzle chart posted in an office wall, a sort of storyboard for programmers. Mark can't make sense of the chart, or the game, for that matter. /Zak MacKracken/ is bigger and more ambitious than /Maniac Mansion/, which makes the locations more interesting than to draw but also makes it unplayable for Mark.
 
-<his job is to adapt the c64 backgrounds to the EGA ones.
-<puzzle document + rooms&hotspots document
-<puzzle doc (chart?): like a storeyboard paced by the challenges the player needs to solve to make progress in the game
-# ---items and doors that will be necessary for the gameplay of the scene, what they call /hotspots/---
+<At first, he tries working from the original c64 bit maps, but quickly finds that complicates things.
+Both system have 16 color palettes, but /not the same/ 16 colors, so swapping colors is pixel Whac-A-Mole. He turns to redrawing the backgrounds from scratch. He develops some 'coping mechanisms': he makes sketches to try options before moving to the computer screen, where nothing seems to flow, where everything is clumsy and rigid like lego building, and it's hard to tell whether something's going to look good or even fit before it's done. He plots the pixel grid in graph paper or draws on acetate sheets that he then tapes to the monitor as a guide.
 
-<at first he tried just working out from the c64, but soon finds out that creates more problems than it solves, since the screen dimensions are different
-he develops some 'coping mechanisms': he first makes sketches, plotting the pixel grid in a ruled notebook, to try options before moving to the computer screen where nothing seems to flow, where everything feels clumsy and rigid, like lego building, and it's hard to tell whether something's going to look good before it's done.
+It doesn't take him long to become productive. That is, to work out usable backgrounds fast enough to meet the developers expectations, which are lower than his own. He feels like the novelist employed working as a copywriter despite his Digital Background Artist title, art doesn't seem to be involved in his job. There's no room for impulse or experimentation, everything needs to be planned in advance. The only available creativity stems from subverting the tools, first working against and around them, pushing their boundaries and finally leaning on them.
 
-the most frustrating is encoding the pictures in those suffocating 16 colors, always the same palette for anything he may need to represent---black, dark gray, light gray, white, dark blue, light blue, cyan, yellow, mustard brown, dark red, poppy red, peach, magenta, acid-hot pink, grass green, and acid-chartreuse.
-this is another thing where he needs to plan ahead, carefully measuring what colors he gets to spend, a decision he needs to make early on and that informs---constraints--- all the rest of his choices: the scene composition, the mood, what's shown, what's hinted.
-<There's little room for the sort of creativity that stems from impulse and experimentation (but much from constraints, pushing the boundaries, happy accidents that lead to innovation
-it gets better as /he/ gets better, more familiar with the tools; once he grasps what are his materials and what their capabilities and limitations, he can start using them to his advantage---work around and step on the constraints and push himself to be creative as with any art and any material, just like does with pencil and paper.
-
-<little relation to art, he feels like a novelist employed as a copywriter
-
-
+The most frustrating is encoding the pictures in those suffocating 16 colors, always the same palette for anything he may need to represent---black, dark gray, light gray, white, dark blue, light blue, cyan, yellow, mustard brown, dark red, poppy red, peach, magenta, acid-hot pink, grass green, and acid-chartreuse. He has to ponder carefully what colors to spend, a decision he needs to make early on and that constraints all the rest of his choices: the scene composition, the mood, what's shown, what's hinted.
 
 #+begin_export html
 <br/><br/>
@@ -115,7 +99,7 @@ it gets better as /he/ gets better, more familiar with the tools; once he grasps
 
 # TODO maybe comment what they are having, some gourmet meal
 
-"Coppola", says Dave.
+"Coppola", says David.
 
 "Coppola, of course", Gary concurs. "The Rolling Stones".
 
@@ -127,9 +111,9 @@ it gets better as /he/ gets better, more familiar with the tools; once he grasps
 
 "Yep. We played softball with the band."
 
-It's Mark's third week, and it's the first time he catches a glimpse of George Lucas. They usually only see him at the <restaurant> when he has people over. Gary and Dave are listing all the famous people they saw at lunch. Today it's Spielberg.
+It's Mark's third week, and it's the first time he catches a glimpse of George Lucas. They usually only see him at the <restaurant> when he has people over. Gary and David are listing all the famous people they saw at lunch. Today it's Spielberg.
 
-"You'll understand, of course", Dave turns to Mark, "that while it may seem as if they were right there across the room, we are not breathing the same air. We're worlds apart."
+"You'll understand, of course", David turns to Mark, "that while it may seem as if they were right there across the room, we are not breathing the same air. We're worlds apart."
 
 "Galaxies", Gary suggests.
 
@@ -145,7 +129,7 @@ The owner doesn't care at all for video games. The existence of the games divisi
 
 <the only part of this that affected him, Mark thought, was /be the best/, and that was how he intended to operate anyway, he didn't need a manager to tell him. he left to the suits, though, to figure out how his work and that of his teammates was supposed to be connected to the money making.
 
-"Our man Steve, on the other hand, is our biggest fan", Dave points his fork to Spielberg. "You'll be seeing a lot of him."
+"Our man Steve, on the other hand, is our biggest fan", David points his fork to Spielberg. "You'll be seeing a lot of him."
 
 "He's just nuts about tech, this is like an amusement park to him. He's more into it than Lucas, I think."
 
@@ -163,7 +147,8 @@ The owner doesn't care at all for video games. The existence of the games divisi
 
 "Right, when we get the license."
 
-<that part he already knows, he learned on the first or second day: ironically, lucasfilm games doesn't own the license to make indiana jones nor star wars games.
+<That part Mark already knows, he learned on the first or second day: LucasFilm games doesn't own the license to make indiana jones nor star wars games.
+Lucas sold it to some toy company
 
 the games division is expected to come up with original ideas, which is both a blessing and a curse,
 it gives them freedom to be creative but they have to live up to the LucasFilm standards (and sales) without the automatic sales of a popular license.
@@ -273,7 +258,7 @@ other than compression, the scumm engine now could scale the character sprites t
 
 # TODO need to introduce purcell around here.
 
-<Moriarty mentioned the Sleeping Beauty as a reference for the moode he wanted to strike in the game
+<Moriarty mentioned the Sleeping Beauty as a reference for the mood he wanted to strike in the game
 <much of the game's concept would be centered around the music of Tchaikovsky, just as in the film, so he suggested they explore its art style for the background art and the animations
 # Eyvind Earle. living tapestry
 <no one ever passed on an excuse to visit the main house, so purcell (?) tagged along
@@ -381,8 +366,8 @@ this wasn't the only thing changing, he was just too busy to connect the dots
   <br/><br/>
   #+end_export
 
-- for his first lucas arts game he got assigned a new Indiana Jones adventure, from left over scripts, which was probably worse
-- the cool kids went on to work on the monkey island sequel
+- for his first lucas arts game he got assigned a new Indiana Jones adventure, from left over scripts, which was probably worse.
+- Not only is he stuck with an IP game while the cool kids are working on a Monkey Island sequel, but he didn't even get a chance of working on the VGA ports of his own Loom and Monkey Island backgrounds
 - now they were doing hand painted backgrounds, then scanned in photoshop on a Mac and moved to dpaint for cleaning up
   - it was funny that 3 years ago this would've made life much easier to old mark, it would kept most of his work in illustrator land and much less in computer land
   - but now it meant that a lot of he had to learn, a lot of the craft he acquired, was now irrelevant
@@ -409,16 +394,20 @@ Mark is packing a box with the few last things remaining in his office. There's 
 
 He puts the box in the trunk and starts the car---/maybe he should just go back to illustration, freelance like Purcell does, sell his work by the piece to Lucas or to whatever other company/---he drives out of the underground garage on his same old Honda Civic---/he knows it doesn't get better than making adventure games at Skywalker Ranch, he won't get this thrill anywhere else, much less as a freelance artist, but he won't get it by staying, either, LucasFilm is gone, replaced by LucasArts/---rounds about the stable house for the last time---/such a typical corporate move, rebranding to LucasArts just as they move them into an insurance office building full of cubicles, a bunch of boring technicians churning out Star Wars flight simulators/---the artificial lake is glowing with the reflection of the sky, like a dithered EGA sunset---/no more rebels, just stormtroopers/---he doesn't look out to the barn nor the corral, he barely nods to the security guy on his way out---/no more lucky breaks/.
 
+#+begin_export html
+<br/><br/><br/>
+#+end_export
+
 *** Sources
 - [[https://www.bitmapbooks.com/en-ar/products/the-art-of-point-click-adventure-games][The Art of Point-and-Click Adventure Games]].
+- [[https://www.youtube.com/watch?v=z1aVDael-KM][Classic Game Postmortem: LucasFilm Games' Loom]].
+- [[https://www.filfre.net/2015/07/a-new-force-in-games-part-3-scumm/][A New Force in Games, Part 3: SCUMM]].
+- [[https://www.filfre.net/2017/02/loom-or-how-brian-moriarty-proved-that-less-is-sometimes-more/][Loom (or, how Brian Moriarty Proved That Less is Sometimes More)]].
+- [[https://www.filfre.net/2018/09/indiana-jones-and-the-fate-of-atlantis-or-of-movies-and-games-and-whether-the-twain-shall-meet/][Indiana Jones and the Fate of Atlantis (or, Of Movies and Games and Whether the Twain Shall Meet)]].
+- [[https://www.filfre.net/2017/03/monkey-island-or-how-ron-gilbert-made-an-adventure-game-that-didnt-suck/][Monkey Island (or, How Ron Gilbert Made an Adventure Game That Didn’t Suck)]].
+- [[https://youtu.be/ri4_3P2Oh14?feature=shared][The Making of Monkey Island - Behind The Scenes]].
 - [[https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-4-Loom/5][LucasArts' Secret History #4: Loom Developer Reflections]].
 - [[https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-The-Secret-of-Monkey-Island/7][LucasArts' Secret History #5: The Secret of Monkey Island Developer Reflections]].
-- [[https://youtu.be/ri4_3P2Oh14?feature=shared][The Making of Monkey Island - Behind The Scenes]].
-- [[https://www.youtube.com/watch?v=z1aVDael-KM][Classic Game Postmortem: LucasFilm Games' Loom]].
-- [[https://www.filfre.net/2015/07/a-new-force-in-games-part-3-scumm/][A New Force in Games, Part 3: SCUMM]]
-- [[https://www.filfre.net/2017/02/loom-or-how-brian-moriarty-proved-that-less-is-sometimes-more/][Loom (or, how Brian Moriarty Proved That Less is Sometimes More)]].
-- [[https://www.filfre.net/2017/03/monkey-island-or-how-ron-gilbert-made-an-adventure-game-that-didnt-suck/][Monkey Island (or, How Ron Gilbert Made an Adventure Game That Didn’t Suck)]].
-- [[https://www.filfre.net/2018/09/indiana-jones-and-the-fate-of-atlantis-or-of-movies-and-games-and-whether-the-twain-shall-meet/][Indiana Jones and the Fate of Atlantis (or, Of Movies and Games and Whether the Twain Shall Meet)]].
 - [[https://datagubbe.se/crt/][The Effect of CRTs on Pixel Art]].
 - [[https://www.superrune.com/tutorials/lucasfilm_ega.php][Lucasfilm EGA adventures: an appreciation]].
 - [[https://web.archive.org/web/20030326051107fw_/http://lucasfans.mixnmojo.com/features/interview_stevepurcell.html][Steve Purcell Interview]].
@@ -502,9 +491,11 @@ CLOSED: [2024-10-05 Sat 13:52]
 CLOSED: [2024-10-05 Sat 13:52]
 **** DONE check loom post mortem
 CLOSED: [2024-10-05 Sat 13:52]
-**** TODO maniac mansion post mortem
+**** DONE maniac mansion post mortem
+CLOSED: [2024-10-06 Sun 17:41]
 https://www.youtube.com/watch?v=WD64ExGHBWE
-
+**** TODO lucas film post mortem
+https://youtu.be/-8AGwZ5mp_U
 **** TODO design documents
 https://grumpygamer.com/maniac_mansion_design_1
 https://grumpygamer.com/puzzle_dependency_charts
@@ -514,8 +505,10 @@ https://grumpygamer.com/stuff_and_things_and_monkey_island
 https://grimfandango.network/media/Grim_Fandango_Puzzle_Document.pdf
 
 **** TODO richard rouse loom
-**** TODO p&c david fox
-**** TODO p&c gary winnick
+**** DONE p&c david fox
+CLOSED: [2024-10-06 Sun 17:02]
+**** DONE p&c gary winnick
+CLOSED: [2024-10-06 Sun 17:02]
 **** TODO p&c ron gilbert
 **** TODO review the adventurer issues
 https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2003%20Fall%201991/page/n1/mode/2up
@@ -534,3 +527,7 @@ CLOSED: [2024-10-05 Sat 13:52]
 *** left overs :noexport:
 his goal was to produce art and get paid for it, so he give as little thought as possible to the needs of the project and the business.
 it's convenient that they don't expect much from him, because not only he isn't satisfied with his production and it doesn't come close to art, he still feels he has a long way to go to tame the computer, the mouse, the pixels, the palette, and the drawing program.
+
+
+<There's little room for the sort of creativity that stems from impulse and experimentation (but much from constraints, pushing the boundaries, happy accidents that lead to innovation
+it gets better as /he/ gets better, more familiar with the tools; once he grasps what are his materials and what their capabilities and limitations, he can start using them to his advantage---work around and step on the constraints and push himself to be creative as with any art and any material, just like does with pencil and paper.
