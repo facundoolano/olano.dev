@@ -281,103 +281,69 @@ it was obvious that once the star wars license embargo was lift off, it would ta
 <br/><br/>
 #+end_export
 
-- mark would look at reference books on /The sleeping beauty/ and other Eyvind Earle work, and the original medieval tapestries that had inspired him.
-- he would draw some generic concept art from that and pass it to brian
-    - first illustration work he did since entering the company
-- brian would then use pick the ones he liked it and wrote some scenes to make them fit in the plot
-- then mark would use that as input for his dithered EGA backgrounds and purcell for his animations
+Some times Professor Moriarty gives Mark and Purcell story prompts and asks for concept art in return, but more often than not he wants /them/ to come up with stuff he can use for inspiration, based on the short treatment document he handed them and the /Sleeping Beauty/ reference material. This was the first proper illustration work he did since he joined the company two years ago.
 
-<similar design loops with music department. for them, instead of Eyvind, it was tchaikovsky
+Mark pulled everything he could get from the library on Disney, Eyvind Earl, and medieval tapestries. He would play the movie on the Media Room of the Main House, frame-freezing to take notes and make sketches. Mark would deliver two or three drawings a week, using his now legendary pencil.  Most of the times, Moriarty would come back with notes to refine an idea or a request to try again, but occasionally he would take a drawing and use it to write a piece of the story. In those cases the Professor would ask Mark to convert his illustration into a dithered EGA background, so he could wire it up in SCUMM and start experimenting with descriptions and dialog.
+
+The Professor set up similar workflows for animation and engine programming and, most importantly, with the sound department. Music and sound would feature in /Loom/ more prominently than in any other LucasFilm game.
+which was convenient, since the Ranch housed the best sound engineering facilities in the world
+<for them, instead of Eyvind, it was tchaikovsky
 <much of the game's concept would be centered around the music of Tchaikovsky, just as in the film, so he suggested they explore its art style for the background art and the animations
 
-<Moriarty though of games as a novel medium to produce art, and he wanted to use all of its materials---images, music, story, dialogs---to that end. He made sure everyone on the team picked up on his vision for the game and gave them freedom to figure out how to realize it with their tools.
+<Moriarty thought of games as a novel medium to produce art, and he wanted to use all of its materials to that end: sound, music, backgrounds, animation, story, and dialogs. He made sure everyone on the team picked up on his vision for the game and gave them freedom to figure out how to realize it with their tools.
+Coming from a rather lonely experience writing text adventures, he was betting on team collaboration to flourish to <unlock a deeper storytelling experience. This ideal would find its way into the story, with the protagonist visiting Guilds of Craftspeople over the course of the game.
 
-<some of this leaks into the story of the game, with its different guilds
-<TODO: check story
-mark things they are not different than those around the office, the artists, the programers, the writers
-not to mention the sound engineers, animators and directors that you may cross in any of the other buildings
-mark(?) though of using different colors to represent them
-kind a feat he imposes to himself, considering he hasn't much colors to spare
-#+begin_quote
-Each of the guilds of craftspeople which Bobbin visits over the course of the game is marked by its own color scheme: the striking emerald of the Guild of Glassmakers, the softer pastoral greens of the Guild of Shepherds, the Stygian reds of the Guild of Blacksmiths, and of course the lovely, saturated blues and purples of Bobbin’s own Guild of Weavers.
-#+end_quote
+Mark would come up with the idea of using colors scheme to represent each guild, giving a distinct quality to each section of the game: the striking emerald of the Guild of Glassmakers, the softer pastoral greens of the Guild of Shepherds, the Stygian reds of the Guild of Blacksmiths and of course the lovely saturated blues and purples of the Guild of Weavers. This is a feat he imposes to himself, with the EGA colors allowing for one or two shades of each color, the rest having to be mocked with dithering and similar palette illusions
 
-this time around he wouldn't be adapting someone else's rooms, but creating his own from scratch
-he was free to use whatever dithering he wanted, as the engine now supported compression
-purcell joked that you would go blind if you stared at Mark's screen for too long
-
-other than compression, the scumm engine now could scale the character sprites to represent different distances, this meant that he could move away from the horizontal axis and add perspective to his scenes
+The latest version of the SCUMM engine not only allowed for Mark's dithered backgrounds, but introduced character scaling to represent distances, allowing him to move away from the horizontal axis and add perspective to his scenes.
+For the first time he wouldn't be adapting someone else's rooms, he knew his tools and was free to push them to their limits to create whatever he could envision.
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
-# todo this may be the other available spot to introduce the cover art assignment
-
-after indy was published and mark was done with most of his background work for loom,
-it was the turn for Ron project to lead a new project
-a Pirates of the Caribbean spoof he had been toying around for almost a year
-
-ron had been circling this memo on game design around the office, why our games suck
-it was a distillation of the design philosophy they had being aiming at and missing in the previous game
-
-he could sense this pirate game was his attempt at putting those ideas to practice
-it was mostly a game design thing, it didn't affect the graphics, didn't directly affect him, but it was Ron's side of /be the best/ and Mark just felt he should follow suit and apply everything he'd been learning so far and push it to the next level
-
-all his favorite people were in this team
-
-They give him freedom to figure out the game backgrounds, handing him a short list of room requirements and hotspots and no other game context. as long as he meets them he can do whatever he wants.
-where brian had been obsessed with story telling, ron was obsessed with gameplay, with the game being fun---and funny. nobody but him really got a clear picture of the entire game, but everyone took part of the brainstorming sessions
-his water cooler jokes make it to the dialog of the game.
-
-player reward -> new areas of the game (new backgrounds)
-
-the game was bigger and would feature more rooms than previous ones. they had people working for different parts in parallel, which at some point showd that they werent keeping a consistent style across the game
-
-<something special about this new team and this new game
-they were having so much fun with this one, and that stimulated them to try harder and do better, that surely had to show in the final thing
+After /Indy/ and /Loom/, it was the turn for Ron to lead the next project.
+<A new Ron adventure was only second in anticipation to an alleged /Star Wars/ game that <was never realized>
+this second in anticipation only to the Star Wars license, as Ron was considered the ideologist of the genre and the one that was most likely to push it forward. Shortly after /Maniac Mansion/, he started circling his /Why Adventures Game Suck/ memo, and every new LucasFilm game was a step forward in the direction he laid out.
+this pirate game he's been toying with for over a year should be the ultimate realization of his design philosophy.
 
 <the engine was at its best
-<after experimenting in loom, he felt like he mastered the tooling, he know its limitations and where there was room for letting his creativity flow
-other people talked about monkey island being the starting point of a new era for lucas films, but to mark it was the culmination of the process the company started with /Maniac Mansion/, where they got to put to practice everything they learned with previous games, a sort of training for this
-
-#+begin_export html
-<br/><br/>
-#+end_export
+the background art and animation they produced was the best in the industry
+<after having free reign to experiment in /Loom/, Mark felt like he mastered his materials,
+he knew its limitations and where there was room for letting his creativity flow
+other people talked about monkey island being a new beginning, but to mark it was the culmination of the process the company started five years before,
+where they would put to practice everything they learned in the previous games, that they know saw as the training for this new project.
 
 < /Loom/ and /Monkey Island/ went out months apart
 he still was no gamer and didn't play any of their games. he had no way of telling wether they were any good. but it was any indication, the fact that everyone seemed to be doing so good at their thing and they felt collectively creative made him assume the work was going to be good. the fact that management asked for a sequel right away he took as the confirmation. on the other hand, Loom, which was supposed to be a trilogy, didn't get one.
 
-things start to change around while they are finishing monkey island, he was just to busy to pay attention
+there was a lot of movement around the office in the final weeks of /Monkey Island/. the team was too deep in crunch mode to notice. they seemed to be growing in size, one or two new employees starting every week. And everyone got new 486 PCs with VGA cards
+his is still boxed in his desk, he didn't have the time to set it up and he wasn't going to use it for monkey anyway
 
-a few weeks ago everyone got new vga computers, his is still boxed in his desk, he didn't have the time to set it up and he wasn't going to use it for monkey anyway, the vga port is another project and he won't be involved in that one
+- todo: unpacking and setting up scene
+- 50 meg? what are we supposed to do with all of this space?
+- it's the first time he sets up his own computer, and he is surprised to notice he doesn't need much help from those around him
 
-# todo: maybe unpack together with purcell
+- at first it seemed like his independence day, free at last from his 16 color jail
+- but a few days of experimentation, typical of his in-between projects periods, revealed a new form of anxiety: he felt wasn't sure what he was doing anymore. The palette choices weren't as relevant anymore, so he had to rethink his whole process. These new computers were like a career reset for him.
 
-this wasn't the only thing changing, he was just too busy to connect the dots
+#+begin_export html
+<br/><br/>
+#+end_export
+
+computer specs aren't the only thing changing around the office
 
 - receives an internal email about the rebrand
   - TODO: what's the technical org change?
-- the mail also mentions something everybody knows about, like there was a "writing on the wall"/sword of damocles hanging in the office wall: the star wars embargo lift. most people loved star wars and couldn't be more excited about getting their hands on their property for a videogame. mark also loved the movie, but he struggled not to see that date as a death sentence for the creativity of the studio
+- the mail also mentions something everybody knows about, like there was a "writing on the wall"/sword of Damocles hanging over their heads: the star wars embargo lift. most people loved star wars and couldn't be more excited about getting their hands on their property for a videogame. mark also loved the movie, but he struggled not to see that date as a death sentence for the creativity of the studio
 
-- todo: lookup specs. what will we do with all of this power?
-- todo: unpacking and setting up scene
-- at first it felt like his independence day, finally free from that EGA cage.
-  - but soon he felt he wasn't sure what he was doing anymore, the palette choices weren't as relevant anymore, so he had to rethink his whole process
-  - these new computers were like a career reset for him
+- for his first lucas arts game he got assigned a new Indiana Jones adventure, from left over scripts, which was probably worse.
+- Not only is he stuck with an IP game while the cool kids are working on a Monkey Island sequel, but he didn't even get a chance of working on the VGA ports of his own Loom and Monkey Island backgrounds
 
 - he could see some of the new folks, don't even remember their names, working on VGA ports for their old games, some "enhancing" his loom and monkey island backgrounds.
   - the results were more colorful, yes, but also less vivid, they lacked the personal style, the touch of the artist, that was lost in translation.
   - each pixel on his dithered patterns was loaded with his intent, now dpaint did most of the thinking through a generic color gradient
 
-- money was obviously pouring in. stay small didn't seem a thing anymore. He that being the best wasn't in the plans anymore, either
-
-    #+begin_export html
-  <br/><br/>
-  #+end_export
-
-- for his first lucas arts game he got assigned a new Indiana Jones adventure, from left over scripts, which was probably worse.
-- Not only is he stuck with an IP game while the cool kids are working on a Monkey Island sequel, but he didn't even get a chance of working on the VGA ports of his own Loom and Monkey Island backgrounds
 - now they were doing hand painted backgrounds, then scanned in photoshop on a Mac and moved to dpaint for cleaning up
   - it was funny that 3 years ago this would've made life much easier to old mark, it would kept most of his work in illustrator land and much less in computer land
   - but now it meant that a lot of he had to learn, a lot of the craft he acquired, was now irrelevant
@@ -475,6 +441,13 @@ Those changing circumstances would prove a not-unmixed blessing for them, forcin
 when the Zak project was finished I sat down one morning and rendered a twilight scene with a rising moon and stars over receding oak covered Hills all rendered smoothly and subtly and dithered EGA graphics then in silent protest I simply left a picture up on my monitor
 #+end_quote
 
+<mosaic artist
+assembly line
+
+#+begin_quote
+it was my first time drawing with a mouse. i'm a traditional guy, so I like to draw with a pencil. So for me to try to drawn with a potato in my hand, and then, look up on a screen, and the pixels are the size coasters
+#+end_quote
+
 *** research :noexport:
 
 **** DONE digital lucas arts 1, 2, 3
@@ -502,8 +475,11 @@ CLOSED: [2024-10-05 Sat 13:52]
 **** DONE maniac mansion post mortem
 CLOSED: [2024-10-06 Sun 17:41]
 https://www.youtube.com/watch?v=WD64ExGHBWE
-**** TODO lucas film post mortem
+**** DONE lucas film post mortem
+CLOSED: [2024-10-12 Sat 18:58]
 https://youtu.be/-8AGwZ5mp_U
+**** DONE p&c david fox
+CLOSED: [2024-10-06 Sun 17:02]
 **** TODO design documents
 https://grumpygamer.com/maniac_mansion_design_1
 https://grumpygamer.com/puzzle_dependency_charts
@@ -512,9 +488,6 @@ https://grumpygamer.com/rtmi_pdc
 https://grumpygamer.com/stuff_and_things_and_monkey_island
 https://grimfandango.network/media/Grim_Fandango_Puzzle_Document.pdf
 
-**** TODO richard rouse loom
-**** DONE p&c david fox
-CLOSED: [2024-10-06 Sun 17:02]
 **** DONE p&c gary winnick
 CLOSED: [2024-10-06 Sun 17:02]
 **** TODO p&c ron gilbert
@@ -523,7 +496,6 @@ https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Ad
 https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2002%20Spring%201991/page/n3/mode/2up
 https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2001%20Fall%201990/page/n1/mode/2up
 
-**** TODO lookup steve purcell interviews
 **** TODO experiment with atari st + neochrome
 **** TODO experiment with dpaint
 **** TODO maybe too with c64? try c64 maniac mansion?
@@ -552,6 +524,8 @@ it's convenient that they don't expect much from him, because not only he isn't 
 "what are you researching"
 "brian moriarty"
 
+<purcell joked that you would go blind if you stared at Mark's screen for too long
+
 <brian asks Mark to illustrate the box of loom
 this was an unusual ask, since Purcell did most of the covers of the other games
 but Brian wanted Mark, as a sort of <tribute> since he felt it was Mark's work what defined the art style of the game
@@ -559,3 +533,19 @@ he had asked Mark to show him some of this work and was impressed by his colored
 it felt weird for mark, translating the mood of the game, so determined by the blue shades of the EGA backgrounds, to the
 a photo realistic drawing he felt was at odds with the primitive art in the game, but Brian seemed to like it
 now that Marks is holding the game box in his hands, seeing his work live for the first time---this he could hold and touch, it was much more alive than his work on the screen---, only now he realizes that this is the first time he got paid for a traditional work of art.
+
+
+it was mostly a game design thing, it didn't affect the graphics, didn't directly affect him, but it was Ron's version of /being the best/ and Mark just felt he should follow suit and apply everything he'd been learning so far and push it to the next level
+
+all his favorite people were in this team
+
+They give him freedom to figure out the game backgrounds, handing him a short list of room requirements and hotspots and no other game context. as long as he meets them he can do whatever he wants.
+where brian had been obsessed with story telling, ron was obsessed with gameplay, with the game being fun---and funny. nobody but him really got a clear picture of the entire game, but everyone took part of the brainstorming sessions
+his water cooler jokes make it to the dialog of the game.
+
+player reward -> new areas of the game (new backgrounds)
+
+the game was bigger and would feature more rooms than previous ones. they had people working for different parts in parallel, which at some point showd that they werent keeping a consistent style across the game
+
+<something special about this new team and this new game
+they were having so much fun with this one, and that stimulated them to try harder and do better, that surely had to show in the final thing
