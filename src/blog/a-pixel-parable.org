@@ -238,9 +238,8 @@ nobody passed on an official excuse to visit the main house, so research it was
 
 <the new game, /Loom/, was lead by Brian Moriarty, an experienced designed they brought in from Infocom, the struggling text adventure shop. Mark had tried one of their games. while he was impressed by the thorough descriptions and the setting---it was like they made him the protagonist of a fantasy novel---he was quickly frustrated by the complicated gameplay and all the typing it involved. It was like the complete opposite of everything Ron and Gary were trying to do with the graphic adventures. They were comic books to infocom's novels. <despite marketing desperation to sell them as interactive movies
 
-<Before meeting him, Mark feared that the fact Moriarty came from text games would treat his work as a graphic artist, but he quickly realized that Moriarty was of his kin. Moriarty though of games as a novel medium to produce art, and he wanted to use all of its materials---images, music, story, dialogs---to that end. He made sure everyone on the team picked up on his vision for the game and gave them freedom to figure out how to realize it with their tools.
-
-if anything moriarty strikes him as an idealist
+<Before meeting him, Mark feared that the fact Moriarty came from text games would treat his work as a graphic artist, but he quickly realized that Moriarty was of his kin.
+<if anything moriarty strikes him as an idealist
 mark thought he owed to himself to try to produce art, but he know all too well---despite his title---that that wasn't what they were paying him for. he was payed to produce backgrounds conforming to a set of specifications
 the art, he had to smuggle, in spite of management
 brian, on the other hand, seemed convinced that they were breaking new artistic ground
@@ -252,27 +251,8 @@ the library, perhaps along the art deco theater, is the most impressive indoors 
 its spiral staircase was featured in /Maniac Mansion/
 Mark would occasionally look up allegedly to the dome, but it was actually to look at Lucas's office door
 
-#+begin_export html
-<br/><br/>
-#+end_export
-
 <Moriarty mentioned the Sleeping Beauty as a reference for the mood he wanted to strike in the game
-<much of the game's concept would be centered around the music of Tchaikovsky, just as in the film, so he suggested they explore its art style for the background art and the animations
 - Eyvind Earle. living/moving tapestry, figure out what that would mean for an EGA adventure game
-
-- mark would look at reference books on /The sleeping beauty/ and other Eyvind Earle work, and the original medieval tapestries that had inspired him.
-- he would draw some generic concept art from that and pass it to brian
-    - first illustration work he did since entering the company
-- brian would then use pick the ones he liked it and wrote some scenes to make them fit in the plot
-- then mark would use that as input for his dithered EGA backgrounds and purcell for his animations
-
-# TODO maybe: similar design loops with music department. maybe hook the guilds thing in here
-
-this time around he wouldn't be adapting someone else's rooms, but creating his own from scratch
-he was free to use whatever dithering he wanted, as the engine now supported compression
-purcell joked that you would go blind if you stared at Mark's screen for too long
-
-other than compression, the scumm engine now could scale the character sprites to represent different distances, this meant that he could move away from the horizontal axis and add perspective to his scenes
 
 #+begin_export html
 <br/><br/>
@@ -301,9 +281,42 @@ it was obvious that once the star wars license embargo was lift off, it would ta
 <br/><br/>
 #+end_export
 
+- mark would look at reference books on /The sleeping beauty/ and other Eyvind Earle work, and the original medieval tapestries that had inspired him.
+- he would draw some generic concept art from that and pass it to brian
+    - first illustration work he did since entering the company
+- brian would then use pick the ones he liked it and wrote some scenes to make them fit in the plot
+- then mark would use that as input for his dithered EGA backgrounds and purcell for his animations
+
+<similar design loops with music department. for them, instead of Eyvind, it was tchaikovsky
+<much of the game's concept would be centered around the music of Tchaikovsky, just as in the film, so he suggested they explore its art style for the background art and the animations
+
+<Moriarty though of games as a novel medium to produce art, and he wanted to use all of its materials---images, music, story, dialogs---to that end. He made sure everyone on the team picked up on his vision for the game and gave them freedom to figure out how to realize it with their tools.
+
+<some of this leaks into the story of the game, with its different guilds
+<TODO: check story
+mark things they are not different than those around the office, the artists, the programers, the writers
+not to mention the sound engineers, animators and directors that you may cross in any of the other buildings
+mark(?) though of using different colors to represent them
+kind a feat he imposes to himself, considering he hasn't much colors to spare
+#+begin_quote
+Each of the guilds of craftspeople which Bobbin visits over the course of the game is marked by its own color scheme: the striking emerald of the Guild of Glassmakers, the softer pastoral greens of the Guild of Shepherds, the Stygian reds of the Guild of Blacksmiths, and of course the lovely, saturated blues and purples of Bobbin’s own Guild of Weavers.
+#+end_quote
+
+this time around he wouldn't be adapting someone else's rooms, but creating his own from scratch
+he was free to use whatever dithering he wanted, as the engine now supported compression
+purcell joked that you would go blind if you stared at Mark's screen for too long
+
+other than compression, the scumm engine now could scale the character sprites to represent different distances, this meant that he could move away from the horizontal axis and add perspective to his scenes
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
 # todo this may be the other available spot to introduce the cover art assignment
 
-after indy was published and mark was done with most of his background work for loom, they switched gears to the new Ron project, a Pirates of the Caribbean spoof he had been toying around for almost a year
+after indy was published and mark was done with most of his background work for loom,
+it was the turn for Ron project to lead a new project
+a Pirates of the Caribbean spoof he had been toying around for almost a year
 
 ron had been circling this memo on game design around the office, why our games suck
 it was a distillation of the design philosophy they had being aiming at and missing in the previous game
@@ -316,6 +329,8 @@ all his favorite people were in this team
 They give him freedom to figure out the game backgrounds, handing him a short list of room requirements and hotspots and no other game context. as long as he meets them he can do whatever he wants.
 where brian had been obsessed with story telling, ron was obsessed with gameplay, with the game being fun---and funny. nobody but him really got a clear picture of the entire game, but everyone took part of the brainstorming sessions
 his water cooler jokes make it to the dialog of the game.
+
+player reward -> new areas of the game (new backgrounds)
 
 the game was bigger and would feature more rooms than previous ones. they had people working for different parts in parallel, which at some point showd that they werent keeping a consistent style across the game
 
@@ -441,12 +456,6 @@ the big neo-Victorian “Main House” at Skywalker Ranch. The spiral staircase 
 #+end_quote
 
 #+begin_quote
-We believe that you buy games to be entertained, not to be whacked over the head every time you make a mistake. So we don’t bring the game to a screeching halt when you poke your nose into a place you haven’t visited before. In fact, we make it downright difficult to get a character “killed.”
-
- Each of the guilds of craftspeople which Bobbin visits over the course of the game is marked by its own color scheme: the striking emerald of the Guild of Glassmakers, the softer pastoral greens of the Guild of Shepherds, the Stygian reds of the Guild of Blacksmiths, and of course the lovely, saturated blues and purples of Bobbin’s own Guild of Weavers.
-#+end_quote
-
-#+begin_quote
 a mandate came down from Lucasfilm Games’s parent company’s management: they wanted an adventure game to go with the upcoming film Indiana Jones and the Last Crusade. Such a mandate was unusual for the privileged little artists’ enclave that still was Lucasfilm Games at this time,
 
   Some start using it as a defense mechanism only after being slapped in the face by the game a few times, the rest just stop playing.
@@ -542,13 +551,6 @@ it's convenient that they don't expect much from him, because not only he isn't 
 "we're doing research"
 "what are you researching"
 "brian moriarty"
-
-<some of this leaks into the story of the game, with its different guilds
-<TODO: check story
-mark things they are not different than those around the office, the artists, the programers, the writers
-not to mention the sound engineers, animators and directors that you may cross in any of the other buildings
-mark(?) though of using different colors to represent them
-kind a feat he imposes to himself, considering he hasn't much colors to spare
 
 <brian asks Mark to illustrate the box of loom
 this was an unusual ask, since Purcell did most of the covers of the other games
