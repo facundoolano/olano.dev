@@ -97,7 +97,7 @@ Black, dark gray, light gray, white, dark blue, light blue, cyan, yellow, mustar
 <br/><br/>
 #+end_export
 
-# TODO maybe comment what they are having, some gourmet meal
+# TODO maybe comment what they are having, some gourmet meal. osso buco with risotto
 
 "Coppola", says David.
 
@@ -232,7 +232,7 @@ The Main House was a 10 minute walk from the Stable House. Mark mentioned he wou
 
 "I want to look up some material for /Loom/. Some of that /Sleeping Beauty/ stuff he mentioned."
 
-"Oh, so you meant /actual/ research." People in the Games Group use /research/ as keyword for blatantly not working. They ask /What are you researching/ to anyone they catch fooling around the office. "Well, I guess I can use some reference material myself".
+"Oh, so you meant /actual/ research." People in the Games Group use /research/ as keyword for anything that blatantly isn't work. They ask /What are you researching/ to anyone they catch fooling around the office. "Well, I guess I can use some reference material myself".
 
 Mark was assigned as Lead Background Artist for the new game. Purcell will do animations. He did the cover art for /Zak/, this will be his first video game project. For /Loom/, they are supposed to figure out how to turn an EGA adventure into a "living tapestry", like Eyvind Earle did with /The Sleeping Beauty/.
 
@@ -260,6 +260,10 @@ Mark was assigned as Lead Background Artist for the new game. Purcell will do an
 # TODO lookup infocom descriptions, maybe one from a moriarty game
 <They are standing in the hall of the Main House, <DESCRIBE ARCHITECTURE>. The east corridor leads to the solarium. To west corridor, leads to the restaurant. To the north is a large wooden door and, on each side, a staircase.
 
+<there's a stormtrooper here.>
+
+<there's a crystal display case with Yoda in it here.>
+
 They go north.
 
 "I mean, a fantasy game?" Purcell continues as they enter the Library, "/The Sleeping Beauty/? Tchaikovsky? Doesn't sound very LucasFilm to me."
@@ -284,7 +288,7 @@ Purcell is on a mission to convince everyone there /could be/ a game based on hi
 
 "Me neither."
 
-There's a counter at the entry of the library. <TODO describe: spiral staircase leading to the 2nd floor and to Luca's office, stain glass dome
+There's a counter at the entry of the library. <TODO describe: spiral staircase leading to the 2nd story and to Luca's office, stain glass dome
 
 They need to register before going in. The librarian asks them what's the purpose of their visit.
 
@@ -407,7 +411,7 @@ Mark is packing a box with the few last things remaining in his office. There's 
 <maybe: an issue of The Journal of Computer Game Design, featuring Ron's /Why Adventure Games Suck/.
 
 <FIXME this style doesn't really work
-He puts the box in the trunk and starts the car---/maybe he should just go back to illustration, freelance like Purcell does, sell his work by the piece to Lucas or to whatever other company/---he drives out of the underground garage on his same old Honda Civic---/he knows it doesn't get better than making adventure games at Skywalker Ranch, he won't get this thrill anywhere else, much less as a freelance artist, but he won't get it by staying, either, LucasFilm is gone, replaced by LucasArts/---rounds about the stable house for the last time---/such a typical corporate move, rebranding to LucasArts just as they move them into an insurance office building full of cubicles, a bunch of boring technicians churning out Star Wars flight simulators/---the artificial lake is glowing with the reflection of the sky, like a dithered EGA sunset---/no more rebels, just stormtroopers/---he doesn't look out to the barn nor the corral, he barely nods to the security guy on his way out---/no more lucky breaks/.
+He puts the box in the trunk and starts the car---/maybe he should just go back to illustration, freelance like Purcell does, sell his work by the piece to Lucas or to whatever other company/---he drives out of the underground garage on his same old Honda Civic---/he knows it doesn't get better than making adventure games at Skywalker Ranch, he won't get this thrill anywhere else, much less as a freelance artist, but he won't get it by staying, either, LucasFilm is gone, replaced by LucasArts/---rounds about the stable house for the last time---/such a typical corporate move, rebranding to LucasArts just as they move them into an insurance office building full of cubicles, a bunch of boring technicians churning out Star Wars flight simulators/---Ewok lake is glowing with the reflection of the sky, like a dithered EGA sunset---/no more rebels, just stormtroopers/---he doesn't look out to the barn nor the corral, he barely nods to the security guy on his way out---/no more lucky breaks/.
 
 #+begin_export html
 <br/><br/><br/>
@@ -484,6 +488,28 @@ assembly line
 it was my first time drawing with a mouse. i'm a traditional guy, so I like to draw with a pencil. So for me to try to drawn with a potato in my hand, and then, look up on a screen, and the pixels are the size coasters
 #+end_quote
 
+observatory
+
+#+begin_quote
+The Skywalker Ranch Research Library is not your typical library. Yes, it is filled with books, but also much more than that. It houses an impressive collection of research materials curated specifically to assist in the filmmaking process.
+
+In addition to books, the Library contains documents, photographs, props, and other items that have been used in the development of Skywalker Sound projects.
+#+end_quote
+
+#+begin_quote
+contains an impressive collection of Art Nouveau furniture and fixtures. There are Tiffany lamps and original paintings by Norman Rockwell and Thomas Hart Benton. Under a stained glass skylight sit shelves of books relating to all aspects of film production. In addition to their own impressive collection, their holdings also include the Paramount Research Library and the Universal Research Library collections.
+#+end_quote
+
+#+begin_quote
+And to me, the shining star, the Lucas research library -a two story open atrium with books on every topic any writer, artist or musician could need to conceptualize a story. Ladders around the perimeter, a huge fireplace, and lush leather chairs and couches. On walking in, all I could think was something in my life has gone very right to have found that place - and something gone very wrong that I wasn't spending every day there.
+#+end_quote
+
+#+begin_quote
+The team of stained glass artisans took six months to build the 19-foot dome. It was comprised of 400 sheets of glass, finely sculpted into 49 separate panels.
+
+With the dome installed, the library took on a new look. The warm redwood and sensuous curves and details were continuously bathed in the amber light from the dome. Books from Hollywood studios’ abandoned research libraries were purchased and began to fill the shelves. The spiral staircase led to the upper balcony with a door into George’s inner office. This was his library.
+#+end_quote
+
 *** tasks                                                          :noexport:
 
 **** TODO design documents
@@ -508,6 +534,7 @@ CLOSED: [2024-10-05 Sat 13:52]
 
 *** chunks                                                         :noexport:
 https://i.pinimg.com/originals/53/b1/f1/53b1f1a0961866d25ed578d345945dd4.jpg
+http://iveneverdonethat.com/blog_files/skywalkerranch.html
 
 But it doesn't take him long to become productive. That is, to work out usable backgrounds fast enough to meet the developers expectations, which are lower than his own.
 
