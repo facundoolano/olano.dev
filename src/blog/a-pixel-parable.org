@@ -58,7 +58,7 @@ Mark calls his parents to share the news. His father, he now learns, has just bo
 
 "Let's see if I get the job, first." Mark continues reading the manual. "It says here there's a drawing program in there, 'NeoChrome'. Let's try it out." It takes them 20 minutes of effort to find the floppy disk and open the program---their first project since his father thought him how to change his oil over a decade ago. Then Mark switches to the NeoChrome manual. Another half hour later, Mark is dropping little green dots over a blue background.
 
-For the next few evenings, Mark secludes himself in his old high school bedroom, getting familiar with this computer thing and its painting program. The little mouse forces his hand into a claw. Whenever he begins to feel that he's got the hang of it, that he can forget about the tool and focus on the task, whenever his eyes spark a connection between the image on the screen and the image on his brain, his hand jumps from the mouse to grip a pencil that's not there, a phantom limb.
+For the next few evenings, Mark secludes himself in his old high school bedroom, getting familiar with this computer thing and its painting program. Using the little mouse is like holding a potato, forcing his hand into a claw. Whenever he begins to feel that he's got the hang of it, that he can forget about the tool and focus on the task, whenever his eyes spark a connection between the image on the screen and the image on his brain, his hand jumps from the mouse to grip a pencil that's not there, a phantom limb.
 
 He teaches himself to draw a single picture, a little African hut that he repeats over and over until he memorizes the procedure, which he will repeat a few days later to survive his interview.
 
@@ -143,10 +143,8 @@ The owner doesn't care at all for video games. The existence of the games divisi
 
 "Right, when we get the license."
 
-<That part Mark already knows, he learned on the first or second day: LucasFilm games doesn't own the license to make indiana jones nor star wars games.
-Lucas sold it to some toy company
-
-the games division is expected to come up with original ideas, which is both a blessing and a curse,
+That part Mark already knows, he learned on his first week: LucasFilm games doesn't have the rights to make Games based on LucasFilm properties. That means no /Indiana Jones/, no /Star Wars/. Some toy company has the rights.
+<the games division is expected to come up with original ideas, which is both a blessing and a curse,
 it gives them freedom to be creative but they have to live up to the LucasFilm standards (and sales) without the automatic sales of a popular license.
 the only ip they get can their hands on are the <> left over props they use as office decor
 
@@ -154,7 +152,7 @@ the only ip they get can their hands on are the <> left over props they use as o
 <br/><br/>
 #+end_export
 
-The mouse, the pixels, the 16-color palette, the hotspots: those are the constraints he has to work with. One trick---a /hack/, as programmers would put it---he discovered early on was that, if he formed a checkerboard pattern of pixels, they would blend and bleed in the screen as he zoomed out, producing shades beyond those boring old 16 colors of the EGA palette.
+The mouse, the pixels, the 16-color palette, the hotspots: those are the constraints he has to work with. One trick---a /hack/, programmers would say---he discovered early on was that, if he formed a checkerboard pattern of pixels, they would blend and bleed in the screen as he zoomed out, producing shades beyond those boring old 16 colors of the EGA palette.
 
 This was one of those happy accidents he was so fond of when working with new materials, a side effect he didn't pay much attention to until he decided to "weaponize" it for artistic effect.
 # FIXME be specific about what background he's drawing, one of zak ones
@@ -169,12 +167,11 @@ the image loads up on the screen from top to bottom. ron takes a few seconds to 
 
 "I... wait, what?"
 
-# FIXME dont throw dithering as it's an already known term
-"You dithered all over this thing, this won't compress." He speaks in his soothing monotone, which makes him all the more scary when the words imply he's not happy
+"The pixels here look all... dithered. This won't compress." He speaks in his soothing monotone, which makes him all the more scary when the words imply he's not happy
 
 "Dithered?"
 
-"What's up", Gary joins them, sensing trouble. "Wow, neat <background>. Oh, wait, that won't compress. Yeah, you can't do that."
+"What's up", Gary joins them, sensing trouble. "Wow, that's neat <background>. Oh, wait, that won't compress. Yeah, you can't do that."
 
 "What's compression, again?"
 
@@ -182,7 +179,7 @@ the image loads up on the screen from top to bottom. ron takes a few seconds to 
 
 Those damned computers. He's been doing this for months and still can't tell when he's doing it right. It's like they come with a bunch of unwritten rules that everyone knows about but him. And the programmers, with their arcane knowledge, are yet another layer of constraints, an extension of the machines that he needs to poke about until it works.
 
-Gary tries to be didactic in these situations, not because he cares that Mark understands the technical details but because he wants to make sure he gets that they have good reasons to clip his wings. Gary proceeds to explain that the image data is run through a compression algorithm so it takes up less storage in the disk. The idea is that instead of storing the colors pixel by pixel, they store how many times the current color needs to be repeated; the more same-color segments the image has, the fewer space it will take in disk. His little checkerboard technique---which they called /dithering/---completely breaks this idea, possibly making the compressed image take /even more/ space than the original. Dithered backgrounds would double or triple the required disk space, which would double the amount of disks required to ship the game, which would double production costs, which would double the game's price tag, which would surely get them all fired. "Try again with solid colors, please." he concludes, and pats him on the back. "That was some background, though, huh?"
+Gary tries to be didactic in these situations, not because he cares that Mark understands the technical details but because he wants to make sure he gets that they have good reasons to clip his wings. Gary proceeds to explain that the image data is run through a compression algorithm so it takes up less storage in the disk. The idea is that instead of storing the colors pixel by pixel, they store how many times the current color needs to be repeated; the more same-color segments the image has, the fewer space it will take in disk. His little checkerboard technique---his color "dithering"---completely breaks this idea, possibly making the compressed image take /even more/ space than the original. Dithered backgrounds would double or triple the required disk space, which would double the amount of disks required to ship the game, which would double production costs, which would double the game's price tag, which would surely get them all fired. "Try again with solid colors, please." he concludes, and pats him on the back. "That was some background, though, huh?"
 
 
 #+begin_export html
@@ -229,9 +226,8 @@ the division head told him they would double down on dithering for the look and 
 <br/><br/>
 #+end_export
 
-<The Main house was 10 minute walk from the Stable House
-Mark mentioned he would go to the library to research for the game and Purcell tagged along
-nobody passed on an official excuse to visit the main house, so research it was
+<The Main House was a 10 minute walk from the Stable House
+<Mark mentioned he would go to the library to research for the game and Purcell tagged along. nobody passed on an official excuse to visit the main house, so research it was
 
 <what do you think of "the professor" ?
 -he certainly knows his stuff
@@ -302,30 +298,23 @@ For the first time he wouldn't be adapting someone else's rooms, he knew his too
 <br/><br/>
 #+end_export
 
-After /Indy/ and /Loom/, it was the turn for Ron to lead the next project.
-<A new Ron adventure was only second in anticipation to an alleged /Star Wars/ game that <was never realized>
-this second in anticipation only to the Star Wars license, as Ron was considered the ideologist of the genre and the one that was most likely to push it forward. Shortly after /Maniac Mansion/, he started circling his /Why Adventures Game Suck/ memo, and every new LucasFilm game was a step forward in the direction he laid out.
-this pirate game he's been toying with for over a year should be the ultimate realization of his design philosophy.
+After /Indy/ and /Loom/, it was the turn for Ron to lead another project. A new Ron adventure was only second in anticipation to the advent of a /Star Wars/ license; he was considered the resident ideologist and the one that was most likely to push the genre forward. His new game was to be the ultimate realization of the game design philosophy he'd been advocating ever since /Maniac Mansion/.
 
-<the engine was at its best
-the background art and animation they produced was the best in the industry
-<after having free reign to experiment in /Loom/, Mark felt like he mastered his materials,
-he knew its limitations and where there was room for letting his creativity flow
-other people talked about monkey island being a new beginning, but to mark it was the culmination of the process the company started five years before,
-where they would put to practice everything they learned in the previous games, that they know saw as the training for this new project.
+/Monkey Island/, Ron's /Pirates of the Caribbean/ spoof, went out just a few months after /Loom/. People said the game marked a new beginning for LucasFilm games, but to Mark it felt more like a culmination of the process they started four or five years before, where they put to practice everything they learned about the medium.
 
-< /Loom/ and /Monkey Island/ went out months apart
-he still was no gamer and didn't play any of their games. he had no way of telling wether they were any good. but it was any indication, the fact that everyone seemed to be doing so good at their thing and they felt collectively creative made him assume the work was going to be good. the fact that management asked for a sequel right away he took as the confirmation. on the other hand, Loom, which was supposed to be a trilogy, didn't get one.
+<Mark still was no gamer and didn't play any of their games. he had no way of telling wether they were any good. but it was any indication, the fact that everyone seemed to be doing so good at their thing and they felt collectively creative made him assume the work was going to be good. the fact that management asked for a sequel right away he took as the confirmation. on the other hand, Loom, which was supposed to be a trilogy, didn't get a second entry and The Professor was too burned out to fight for one.
 
 there was a lot of movement around the office in the final weeks of /Monkey Island/. the team was too deep in crunch mode to notice. they seemed to be growing in size, one or two new employees starting every week. And everyone got new 486 PCs with VGA cards
 his is still boxed in his desk, he didn't have the time to set it up and he wasn't going to use it for monkey anyway
 
-- todo: unpacking and setting up scene
 - 50 meg? what are we supposed to do with all of this space?
 - it's the first time he sets up his own computer, and he is surprised to notice he doesn't need much help from those around him
 
 - at first it seemed like his independence day, free at last from his 16 color jail
-- but a few days of experimentation, typical of his in-between projects periods, revealed a new form of anxiety: he felt wasn't sure what he was doing anymore. The palette choices weren't as relevant anymore, so he had to rethink his whole process. These new computers were like a career reset for him.
+  every dithering stretch he could remember doing for /Loom/ and /Monkey Island/ would be unnecessary with this palette.  anything he may ever need seemed to be contained by these new 256 colors
+  as was often the case when he is in between projects, he is free to spend his time however he sees fit.
+  he decides to work on a new take of his legendary sunset landscape, to test drive the new palette. it would be a good way to try the DPaint gradients that were useless on VGA.
+but this little project would reveal a new form of anxiety: he doesn't know what he's doing anymore. His palette choices aren't as relevant anymore, his scene planning <turns into> paralysis, he has to rethink his whole process. These new computers are a career reset.
 
 #+begin_export html
 <br/><br/>
@@ -334,6 +323,7 @@ his is still boxed in his desk, he didn't have the time to set it up and he wasn
 computer specs aren't the only thing changing around the office
 
 - receives an internal email about the rebrand
+  - maybe /The Force Awakens: LucasFilm Games is now LucasArts/
   - TODO: what's the technical org change?
 - the mail also mentions something everybody knows about, like there was a "writing on the wall"/sword of Damocles hanging over their heads: the star wars embargo lift. most people loved star wars and couldn't be more excited about getting their hands on their property for a videogame. mark also loved the movie, but he struggled not to see that date as a death sentence for the creativity of the studio
 
@@ -369,6 +359,7 @@ Mark is packing a box with the few last things remaining in his office. There's 
 
 <TODO add a loom box, signed. he signed one for brian
 <maybe: the sleeping beauty reference book, that he never bothered to return
+<maybe: an issue of The Journal of Computer Game Design, featuring Ron's /Why Adventure Games Suck/.
 
 <FIXME this style doesn't really work
 He puts the box in the trunk and starts the car---/maybe he should just go back to illustration, freelance like Purcell does, sell his work by the piece to Lucas or to whatever other company/---he drives out of the underground garage on his same old Honda Civic---/he knows it doesn't get better than making adventure games at Skywalker Ranch, he won't get this thrill anywhere else, much less as a freelance artist, but he won't get it by staying, either, LucasFilm is gone, replaced by LucasArts/---rounds about the stable house for the last time---/such a typical corporate move, rebranding to LucasArts just as they move them into an insurance office building full of cubicles, a bunch of boring technicians churning out Star Wars flight simulators/---the artificial lake is glowing with the reflection of the sky, like a dithered EGA sunset---/no more rebels, just stormtroopers/---he doesn't look out to the barn nor the corral, he barely nods to the security guy on his way out---/no more lucky breaks/.
@@ -389,7 +380,7 @@ He puts the box in the trunk and starts the car---/maybe he should just go back 
 - [[https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-The-Secret-of-Monkey-Island/7][LucasArts' Secret History #5: The Secret of Monkey Island Developer Reflections]].
 - [[https://datagubbe.se/crt/][The Effect of CRTs on Pixel Art]].
 - [[https://www.superrune.com/tutorials/lucasfilm_ega.php][Lucasfilm EGA adventures: an appreciation]].
-- [[https://bossfightbooks.com/products/day-of-the-tentacle-by-bob-mackey][Day of the Tentacle]]. ?
+- [[https://bossfightbooks.com/products/day-of-the-tentacle-by-bob-mackey][Day of the Tentacle]].
 - [[https://web.archive.org/web/20030326051107fw_/http://lucasfans.mixnmojo.com/features/interview_stevepurcell.html][Steve Purcell Interview]].
 - [[https://grumpygamer.com/guybrush_fact_fiction][Guybrush Fact vs Fiction]].
 
@@ -534,7 +525,6 @@ it felt weird for mark, translating the mood of the game, so determined by the b
 a photo realistic drawing he felt was at odds with the primitive art in the game, but Brian seemed to like it
 now that Marks is holding the game box in his hands, seeing his work live for the first time---this he could hold and touch, it was much more alive than his work on the screen---, only now he realizes that this is the first time he got paid for a traditional work of art.
 
-
 it was mostly a game design thing, it didn't affect the graphics, didn't directly affect him, but it was Ron's version of /being the best/ and Mark just felt he should follow suit and apply everything he'd been learning so far and push it to the next level
 
 all his favorite people were in this team
@@ -549,3 +539,9 @@ the game was bigger and would feature more rooms than previous ones. they had pe
 
 <something special about this new team and this new game
 they were having so much fun with this one, and that stimulated them to try harder and do better, that surely had to show in the final thing
+
+
+<the engine was at its best
+the background art and animation they produced was the best in the industry
+<after having free reign to experiment in /Loom/, Mark felt like he mastered his materials,
+he knew its limitations and where there was room for letting his creativity flow
