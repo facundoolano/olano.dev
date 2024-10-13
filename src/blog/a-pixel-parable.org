@@ -226,29 +226,72 @@ the division head told him they would double down on dithering for the look and 
 <br/><br/>
 #+end_export
 
-<The Main House was a 10 minute walk from the Stable House
-<Mark mentioned he would go to the library to research for the game and Purcell tagged along. nobody passed on an official excuse to visit the main house, so research it was
+The Main House was a 10 minute walk from the Stable House. Mark mentioned he would go over to the library and Purcell tagged along. Nobody passed on an excuse to visit the Main House.
 
-<what do you think of "the professor" ?
--he certainly knows his stuff
+"What are we researching?", asks Purcell as they leave the porch.
 
-<the new game, /Loom/, was lead by Brian Moriarty, an experienced designed they brought in from Infocom, the struggling text adventure shop. Mark had tried one of their games. while he was impressed by the thorough descriptions and the setting---it was like they made him the protagonist of a fantasy novel---he was quickly frustrated by the complicated gameplay and all the typing it involved. It was like the complete opposite of everything Ron and Gary were trying to do with the graphic adventures. They were comic books to infocom's novels. <despite marketing desperation to sell them as interactive movies
+"I want to look up some material for /Loom/. Some of that /Sleeping Beauty/ stuff he mentioned."
 
-<Before meeting him, Mark feared that the fact Moriarty came from text games would treat his work as a graphic artist, but he quickly realized that Moriarty was of his kin.
-<if anything moriarty strikes him as an idealist
-mark thought he owed to himself to try to produce art, but he know all too well---despite his title---that that wasn't what they were paying him for. he was payed to produce backgrounds conforming to a set of specifications
-the art, he had to smuggle, in spite of management
-brian, on the other hand, seemed convinced that they were breaking new artistic ground
-only at a place like lucasfilm they could give such a guy /carte blanche/ to produce whatever game he wanted
-but mark senses it's just a matter of time before the third commandment catches up with him
+"Oh, so you meant /actual/ research." People in the Games Group use /research/ as keyword for blatantly not working. They ask /What are you researching/ to anyone they catch fooling around the office. "Well, I guess I can use some reference material myself".
 
-there was a librarian but, even he wasn't a book person, he preferred to browse around and find things by himself
-the library, perhaps along the art deco theater, is the most impressive indoors location of the ranch
-its spiral staircase was featured in /Maniac Mansion/
-Mark would occasionally look up allegedly to the dome, but it was actually to look at Lucas's office door
+Mark was assigned as Lead Background Artist for the new game. Purcell will do animations. He did the cover art for /Zak/, this will be his first video game project. For /Loom/, they are supposed to figure out how to turn an EGA adventure into a "living tapestry", like Eyvind Earle did with /The Sleeping Beauty/.
 
-<Moriarty mentioned the Sleeping Beauty as a reference for the mood he wanted to strike in the game
-- Eyvind Earle. living/moving tapestry, figure out what that would mean for an EGA adventure game
+"So what do you make of The Professor?" Purcell asks. Professor is what they've been calling Brian Moriarty, the project lead. They brought him from Infocom, a struggling text adventure shop.
+
+"He seems cool."
+
+"Very cool."
+
+"He certainly knows his game design."
+
+"Oh, yeah."
+
+"Maybe he's a bit too...”
+
+"Professorial?"
+
+"...well, I don't want to say /ambitious/", Mark waves at the house, they are walking past the Solarium, rounding the right wing of the House, "because, who isn't around here?"
+
+# TODO not sure it's useful to add commandments here
+"He better be. /Be the best/, right?" Purcell is quoting Lucas's only ever command to the Games Group: /stay small, be the best, don't loose any money/. Sometimes abridged as: /don't lose money, don't embarrass George/.
+
+"...but, perhaps too much of an idealist. I can't believe /I'm/ saying this." In a sense, Moriarty is his kin: they take their work very seriously, they are both driven by a desire to produce art. But Mark knows all too well that, despite his title, he isn't paid to make art. They pay him to produce backgrounds, conforming to a set of specifications. The art, he has to smuggle, in spite of the business. The Professor, on the other hand, seems committed to breaking new artistic ground, and operates as if everyone else shares his vision. Mark couldn't imagine any other company where they would give such a guy /carte blanche/ to make whatever game he wanted.
+
+# TODO lookup infocom descriptions, maybe one from a moriarty game
+<They are standing in the hall of the Main House, <DESCRIBE ARCHITECTURE>. The east corridor leads to the solarium. To west corridor, leads to the restaurant. To the north is a large wooden door and, on each side, a staircase.
+
+They go north.
+
+"I mean, a fantasy game?" Purcell continues as they enter the Library, "/The Sleeping Beauty/? Tchaikovsky? Doesn't sound very LucasFilm to me."
+
+"I like a good fantasy", says Mark.
+
+"More /Lord of the Rings/ than /Star Wars/. Or /Indiana Jones./"
+
+"But, does it sound like /Maniac Mansion/ or /Zak MacKracken/. That's the real question."
+
+"...or /Sam & Max/."
+
+"Or /Sam & Max/, sure,” Mark concedes.
+
+Purcell is on a mission to convince everyone there /could be/ a game based on his comic. If he plants the idea on enough heads, someone will eventually ask him to make one.
+
+"Well, I'd say it sounds like /Zork/, obviously... and /King's Quest/?"
+
+"Ouch."
+
+"Well, what do I know?” says Purcell, "I haven't played any of them."
+
+"Me neither."
+
+There's a counter at the entry of the library. <TODO describe: spiral staircase leading to the 2nd floor and to Luca's office, stain glass dome
+
+They need to register before going in. The librarian asks them what's the purpose of their visit.
+
+"We're looking for research material for /Loom/,” says Mark.
+
+"He's looking for research material for /Loom/. I'm looking for research material for /Sam & Max/.”
+
 
 #+begin_export html
 <br/><br/>
@@ -373,14 +416,14 @@ He puts the box in the trunk and starts the car---/maybe he should just go back 
 - [[https://www.youtube.com/watch?v=z1aVDael-KM][Classic Game Postmortem: LucasFilm Games' Loom]].
 - [[https://www.filfre.net/2015/07/a-new-force-in-games-part-3-scumm/][A New Force in Games, Part 3: SCUMM]].
 - [[https://www.filfre.net/2017/02/loom-or-how-brian-moriarty-proved-that-less-is-sometimes-more/][Loom (or, how Brian Moriarty Proved That Less is Sometimes More)]].
-- [[https://www.filfre.net/2018/09/indiana-jones-and-the-fate-of-atlantis-or-of-movies-and-games-and-whether-the-twain-shall-meet/][Indiana Jones and the Fate of Atlantis (or, Of Movies and Games and Whether the Twain Shall Meet)]].
 - [[https://www.filfre.net/2017/03/monkey-island-or-how-ron-gilbert-made-an-adventure-game-that-didnt-suck/][Monkey Island (or, How Ron Gilbert Made an Adventure Game That Didn’t Suck)]].
+- [[https://www.filfre.net/2018/09/indiana-jones-and-the-fate-of-atlantis-or-of-movies-and-games-and-whether-the-twain-shall-meet/][Indiana Jones and the Fate of Atlantis (or, Of Movies and Games and Whether the Twain Shall Meet)]].
+- [[https://bossfightbooks.com/products/day-of-the-tentacle-by-bob-mackey][Day of the Tentacle]].
 - [[https://youtu.be/ri4_3P2Oh14?feature=shared][The Making of Monkey Island - Behind The Scenes]].
 - [[https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-4-Loom/5][LucasArts' Secret History #4: Loom Developer Reflections]].
 - [[https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-The-Secret-of-Monkey-Island/7][LucasArts' Secret History #5: The Secret of Monkey Island Developer Reflections]].
 - [[https://datagubbe.se/crt/][The Effect of CRTs on Pixel Art]].
 - [[https://www.superrune.com/tutorials/lucasfilm_ega.php][Lucasfilm EGA adventures: an appreciation]].
-- [[https://bossfightbooks.com/products/day-of-the-tentacle-by-bob-mackey][Day of the Tentacle]].
 - [[https://web.archive.org/web/20030326051107fw_/http://lucasfans.mixnmojo.com/features/interview_stevepurcell.html][Steve Purcell Interview]].
 - [[https://grumpygamer.com/guybrush_fact_fiction][Guybrush Fact vs Fiction]].
 
@@ -514,6 +557,14 @@ it's convenient that they don't expect much from him, because not only he isn't 
 "we're doing research"
 "what are you researching"
 "brian moriarty"
+
+<the new game, /Loom/, was lead by Brian Moriarty, an experienced designed they brought in from Infocom, the struggling text adventure shop. Mark had tried one of their games. while he was impressed by the thorough descriptions and the setting---it was like they made him the protagonist of a fantasy novel---he was quickly frustrated by the complicated gameplay and all the typing it involved. It was like the complete opposite of everything Ron and Gary were trying to do with the graphic adventures. They were comic books to infocom's novels. <despite marketing desperation to sell them as interactive movies
+
+<Before meeting him, Mark feared that his previous experience with from text games would make him dismiss graphic work, but Mark quickly realized that Moriarty was of his kin.
+
+there was a librarian but, even he wasn't a book person, he preferred to browse around and find things by himself
+the library, perhaps along the art deco theater, is the most impressive indoors location of the ranch
+Mark would occasionally look up allegedly to the dome, but it was actually to look at Lucas's office door
 
 <purcell joked that you would go blind if you stared at Mark's screen for too long
 
