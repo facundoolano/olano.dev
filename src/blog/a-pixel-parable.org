@@ -377,6 +377,8 @@ computer specs aren't the only thing changing around the office
   - the results were more colorful, yes, but also less vivid, they lacked the personal style, the touch of the artist, that was lost in translation.
   - each pixel on his dithered patterns was loaded with his intent, now dpaint did most of the thinking through a generic color gradient
 
+- they start publishing a magazine, featuring sam & max comics
+
 - now they were doing hand painted backgrounds, then scanned in photoshop on a Mac and moved to dpaint for cleaning up
   - it was funny that 3 years ago this would've made life much easier to old mark, it would kept most of his work in illustrator land and much less in computer land
   - but now it meant that a lot of he had to learn, a lot of the craft he acquired, was now irrelevant
@@ -482,38 +484,8 @@ assembly line
 it was my first time drawing with a mouse. i'm a traditional guy, so I like to draw with a pencil. So for me to try to drawn with a potato in my hand, and then, look up on a screen, and the pixels are the size coasters
 #+end_quote
 
-*** research :noexport:
+*** tasks                                                          :noexport:
 
-**** DONE digital lucas arts 1, 2, 3
-CLOSED: [2024-09-28 Sat 15:32]
-**** DONE digital loom
-CLOSED: [2024-09-28 Sat 15:32]
-**** DONE digital monkey
-CLOSED: [2024-09-28 Sat 15:32]
-**** DONE digital indiana
-CLOSED: [2024-09-28 Sat 17:54]
-**** DONE research details about the ranch
-CLOSED: [2024-09-30 Mon 20:35]
-eg landscape, garage. wikipedia mostly
-
-https://www.architecturaldigest.com/story/george-lucas-skywalker-ranch-tour
-- https://www.skysound.com/ranch/
-
-https://i.pinimg.com/originals/53/b1/f1/53b1f1a0961866d25ed578d345945dd4.jpg
-**** DONE p&c noah falstein
-CLOSED: [2024-10-05 Sat 13:52]
-**** DONE p&c brian moriarty
-CLOSED: [2024-10-05 Sat 13:52]
-**** DONE check loom post mortem
-CLOSED: [2024-10-05 Sat 13:52]
-**** DONE maniac mansion post mortem
-CLOSED: [2024-10-06 Sun 17:41]
-https://www.youtube.com/watch?v=WD64ExGHBWE
-**** DONE lucas film post mortem
-CLOSED: [2024-10-12 Sat 18:58]
-https://youtu.be/-8AGwZ5mp_U
-**** DONE p&c david fox
-CLOSED: [2024-10-06 Sun 17:02]
 **** TODO design documents
 https://grumpygamer.com/maniac_mansion_design_1
 https://grumpygamer.com/puzzle_dependency_charts
@@ -522,23 +494,21 @@ https://grumpygamer.com/rtmi_pdc
 https://grumpygamer.com/stuff_and_things_and_monkey_island
 https://grimfandango.network/media/Grim_Fandango_Puzzle_Document.pdf
 
-**** DONE p&c gary winnick
-CLOSED: [2024-10-06 Sun 17:02]
-**** TODO p&c ron gilbert
 **** TODO review the adventurer issues
 https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2003%20Fall%201991/page/n1/mode/2up
 https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2002%20Spring%201991/page/n3/mode/2up
 https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2001%20Fall%201990/page/n1/mode/2up
 
-**** TODO experiment with atari st + neochrome
 **** TODO experiment with dpaint
-**** TODO maybe too with c64? try c64 maniac mansion?
+**** TODO exploration scene?
+e.g amusement park, monkey island style
 **** TODO cleanup quotes
-**** DONE cleanup sources
 CLOSED: [2024-10-05 Sat 13:52]
 
 
 *** chunks                                                         :noexport:
+https://i.pinimg.com/originals/53/b1/f1/53b1f1a0961866d25ed578d345945dd4.jpg
+
 But it doesn't take him long to become productive. That is, to work out usable backgrounds fast enough to meet the developers expectations, which are lower than his own.
 
 <There's little room for the sort of creativity that stems from impulse and experimentation (but much from constraints, pushing the boundaries, happy accidents that lead to innovation
