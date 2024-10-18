@@ -25,7 +25,7 @@ but scheduled.
 Mark is holding his "Best of the Show" certificate on one hand and, on the other, the card this guy just handed to him:
 #+begin_export html
 <div class="center-block">
-<p>Gary Winnick</p>
+<p>Gary W.</p>
 
 <p><small>Art Director</small></p>
 <br/>
@@ -78,7 +78,7 @@ Nobody around here really knows what they are doing, Gary reassures him, not eve
 
 They spend the next hour fiddling together with Deluxe Paint II, the drawing program for the PC. It's more or less the same as NeoChrome, but with more sophisticated brushes, or so Gary says. Mark notes the colors are fewer and uglier than the ones he saw in the Atari. "Oh yeah. Those are the colors of your nightmares, starting tonight".
 
-After lunch, Ron sits with Mark to play /Maniac Mansion/, his B-horror adventure game. He shows Mark how to move around, how to talk with other characters, how to solve puzzles to move the story forward. /Maniac Mansion/ is a sort of blueprint of the kind of work they are trying to do. There's a newer game they've been working on, David's game, /Zak MacKracken/, but /Maniac Mansion/ is <a better starting point>. It's best if Mark just spends a couple of days playing it, to get the idea. Marks imposter syndrome kicks in now and again, and he apologizes for his dumb questions. He's no gamer, not even an arcade player. That's perfect, says Ron: they want to build something that just about anyone can pick up and have fun with.
+After lunch, Ron sits with Mark to play /Maniac Mansion/, his B-horror adventure game. He shows Mark how to move around, how to talk with other characters, how to solve puzzles to move the story forward. /Maniac Mansion/ is a sort of blueprint of the kind of work they are trying to do. There's a newer game they've been working on, David's game, /Zak MacKracken/, but /Maniac Mansion/ is a gentler introduction. It's best if Mark just spends a couple of days playing it, to get the idea. Marks imposter syndrome kicks in now and again, and he apologizes for his dumb questions. He's no gamer, not even an arcade player. That's perfect, says Ron: they want to build something that just about anyone can pick up and have fun with.
 
 He leaves the office with sore eyes from the computer screen and a headache from all the names and images shoved into his brain. He's relieved that no one's around to see him pull his Honda out of the underground garage. He slows down as he drives by the Main House, where they had lunch that day, a new building made to look old---not any old but period-specific old. He confirms that it looks just like the one they put in the game. He circles by the artificial lake and passes the barn, the corral, the vineyard. This little valley surrounded by green hills feels as otherworldly as one of his fantasy landscapes. Or a shot from /Star Wars/.
 
@@ -111,7 +111,7 @@ Black, dark gray, light gray, white, dark blue, light blue, cyan, yellow, mustar
 
 "Yep. We played softball with the band."
 
-It's Mark's third week, and it's the first time he catches a glimpse of George Lucas. They usually only see him at the <restaurant> when he has people over. Gary and David are listing all the famous people they saw at lunch. Today it's Spielberg.
+It's Mark's third week, and it's the first time he catches a glimpse of George Lucas. They usually only see him at the restaurant when he has visitsg. Gary and David are listing all the famous people they saw at lunch. Today it's Spielberg.
 
 "You'll understand, of course", David turns to Mark, "that while it may seem as if they were right there across the room, we are not breathing the same air. We're worlds apart."
 
@@ -143,10 +143,9 @@ The owner doesn't care at all for video games. The existence of the games divisi
 
 "Right, when we get the license."
 
-That part Mark already knows, he learned on his first week: LucasFilm games doesn't have the rights to make Games based on LucasFilm properties. That means no /Indiana Jones/, no /Star Wars/. Some toy company has the rights.
-<the games division is expected to come up with original ideas, which is both a blessing and a curse,
-it gives them freedom to be creative but they have to live up to the LucasFilm standards (and sales) without the automatic sales of a popular license.
-the only ip they get can their hands on are the <> left over props they use as office decor
+That part Mark already knows. He learned it on his first week: LucasFilm Games doesn't have the rights to make Games based on LucasFilm properties. No /Indiana Jones/, no /Star Wars/. Some toy company holds the rights.
+They are expected to come up with original ideas for their games, which is both a blessing and a curse.
+They have creative freedom but they must live up to the Lucas standards without the easy sales of his intellectual property.
 
 #+begin_export html
 <br/><br/>
@@ -301,11 +300,9 @@ They need to register before going in. The librarian asks them what's the purpos
 <br/><br/>
 #+end_export
 
-# TODO read email subject
+The memo supplied two separate but related pieces of news: LucasFilm recovered the rights to make /Indiana Jones/ video games; they have six months to come up with an Indy game based on the new entry Spielberg is shooting.
 
-while early working on loom, they received two <related> pieces of news from management: 1- they recovered the rights to use the indiana jones license. 2- they should start on an indy game now, for the 3rd entry spielberg was shooting
-
-the devs got a copy of the script and there were some screenings at the main house
+<the devs got a copy of the script and there were some screenings at the main house
 some of the folks even got to visit the set
 purcell came back with a whip for "research purposes", which they incorporated to their afternoon sporting activities
 and drank coffee from the <holy grail> cup
