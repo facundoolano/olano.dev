@@ -348,7 +348,7 @@ After /Indy/ and /Loom/, it was the turn for Ron to lead another project. A new 
 
 <Mark still was no gamer and didn't play any of their games. he had no way of telling wether they were any good. but it was any indication, the fact that everyone seemed to be doing so good at their thing and they felt collectively creative made him assume the work was going to be good. the fact that management asked for a sequel right away he took as the confirmation. on the other hand, Loom, which was supposed to be a trilogy, didn't get a second entry and The Professor was too burned out to fight for one.
 
-there was a lot of movement around the office in the final weeks of /Monkey Island/. the team was too deep in crunch mode to notice. they seemed to be growing in size, one or two new employees starting every week. And everyone got new 486 PCs with VGA cards
+there was a lot of movement around the office in the final weeks of /Monkey Island/. everyone got new 486 PCs with VGA cards
 his is still boxed in his desk, he didn't have the time to set it up and he wasn't going to use it for monkey anyway
 
 - 50 meg? what are we supposed to do with all of this space?
@@ -364,36 +364,29 @@ but this little project would reveal a new form of anxiety: he doesn't know what
 <br/><br/>
 #+end_export
 
-computer specs aren't the only thing changing around the office
+Computer specs aren't the only thing changing around the office. Mark was just too deep in crunch mode to notice. They seem to be growing faster, one or two new employees starting every week. Competent, boring specialist. They will start a magazine to include in the game boxes. They interviewed Ron and <commissioned> Purcell for one of his comics. They will rebrand to LucasArts. And they got back the license for /Start Wars/.
+Most people were thrilled, but to Mark it was a death sentence.
 
-- receives an internal email about the rebrand
-  - maybe /The Force Awakens: LucasFilm Games is now LucasArts/
-  - TODO: what's the technical org change?
-- the mail also mentions something everybody knows about, like there was a "writing on the wall"/sword of Damocles hanging over their heads: the star wars embargo lift. most people loved star wars and couldn't be more excited about getting their hands on their property for a videogame. mark also loved the movie, but he struggled not to see that date as a death sentence for the creativity of the studio
+<He is over over at the <technical building> with the rest of the artist. One of the new folks is demonstrating how to use the scanner. It's a little tray, like a Xerox machine, minus the printer. It's connected to a Macintosh computer. The scanner costs 10 times the computer, the guy said.
 
-- for his first lucas arts game he got assigned a new Indiana Jones adventure, from left over scripts, which was probably worse.
-- Not only is he stuck with an IP game while the cool kids are working on a Monkey Island sequel, but he didn't even get a chance of working on the VGA ports of his own Loom and Monkey Island backgrounds
+<This new guy, Peter, is using this thing for /Monkey 2/.
+<hrm. <Mark didn't get to work on the /Monkey Island/ sequel.
+<his art is gorgeous, but it comes out all <fuzzy> on the other side of /that/. pointing to the scanner. he has to go back and clean it up in DPaint.
+<He might as well do the whole thing in the computer
+<he's not into the mouse, though
+<Mark snorts.
+<It's funny, I would've loved this a couple of years ago. My life would've been much easier.
+<Yeah
+<But Now it feels like a <downgrade, you know? <it's like with these upgrades they are doing now.
+Mark didn't get to work on the VGA ports of /Loom/ and /Monkey Island/, either. He was stuck with the new /Indiana Jones/.
+<They are butchering my stuff over there, man, they just use gradients. There's no intention, it's like they want DPaint to do all the thinking for them.
+"It felt like we finally got the hang of this thing in /Monkey Island/, you know? Now it's like starting over."
+"A technology is always at its best right before it's obsolete, man."
+"Who said that?"
+"One Purcell."
+"Smart fella."
 
-- he could see some of the new folks, don't even remember their names, working on VGA ports for their old games, some "enhancing" his loom and monkey island backgrounds.
-  - the results were more colorful, yes, but also less vivid, they lacked the personal style, the touch of the artist, that was lost in translation.
-  - each pixel on his dithered patterns was loaded with his intent, now dpaint did most of the thinking through a generic color gradient
-
-- they start publishing a magazine, featuring sam & max comics
-
-- now they were doing hand painted backgrounds, then scanned in photoshop on a Mac and moved to dpaint for cleaning up
-  - it was funny that 3 years ago this would've made life much easier to old mark, it would kept most of his work in illustrator land and much less in computer land
-  - but now it meant that a lot of he had to learn, a lot of the craft he acquired, was now irrelevant
-  - he went from industry expert on to just another illustrator, not a particularly good, young or productive one .
-  - the originals by peter chan were gorgeous but the results in the screen were filled with random noise, it would take time to figure out a polished look for the new technique
-- discussed with someone
-  - it finally felt like we got a hang of this thing in monkey island, that we could push it beyond its limits, but now is like we need to start over
-  - "a technology is always at its best right before it's obsolete, man"
-  - who said that? I don't know but he's right
-- that made total sense to him, he could easily see the pattern: they'll always be cornered by new developments, always chasing after the new hot thing
-  - after scanners it would be compact discs or rgb color or those three dimentional things they were developing over at the ILM <basement/freezer?> or over at pixar
-  - more colors, more space, more processing power but also more complexity, more time to get familiar and competent with the tool, let alone creative or innovative.
-    - it would take them more time to find the boundaries of the tech and thus longer to squeeze some art out of them,
-    - and they'll obviously lack that time, it won't be long before the next computer generation arrives
+He can almost see it: after scanners it will be compact discs, or RGB color, or those 3D models they've been using over at the ILM basement. More colors, more space, more processing power, but also more complications, more time to master the tools. Forget about squeezing some art out of them, forget about creativity or innovation, they'll struggling just to stay competent. Before they know it they'll be starting over with the new hot thing.
 
 #+begin_export html
 <br/><br/>
@@ -590,3 +583,14 @@ they were having so much fun with this one, and that stimulated them to try hard
 the background art and animation they produced was the best in the industry
 <after having free reign to experiment in /Loom/, Mark felt like he mastered his materials,
 he knew its limitations and where there was room for letting his creativity flow
+
+- receives an internal email about the rebrand
+- maybe /The Force Awakens: LucasFilm Games is now LucasArts/
+- the mail also mentions something everybody knows about, like there was a "writing on the wall"/sword of Damocles hanging over their heads: the star wars embargo lift. most people loved star wars and couldn't be more excited about getting their hands on their property for a videogame. mark also loved the movie, but he struggled not to see that date as a death sentence for the creativity of the studio
+
+  - but now it meant that a lot of he had to learn, a lot of the craft he acquired, was now irrelevant
+<I don't know. I already learned how to do the mouse thing, this sounds like <back to square one>. Just another mediocre illustrator. Not <particularly young or productive>
+
+- he could see some of the new folks, don't even remember their names (I'm standing right here you know? it's Gene), working on VGA ports for their old games, some butchering ("enhancing" his loom and monkey island backgrounds.
+  - the results were more colorful, yes, but also less vivid, they lacked the personal style, the touch of the artist, that was lost in translation.
+  - each pixel on his dithered patterns was loaded with his intent, now dpaint did most of the thinking through a generic color gradient
