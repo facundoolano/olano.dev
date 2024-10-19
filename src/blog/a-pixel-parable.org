@@ -427,10 +427,12 @@ He picks up the box. "This box is too full, I can't carry it like this." He puts
 <br/><br/>
 #+end_export
 
-he drives out of the underground garage on his old Honda Civic
-rounds about the stable house for the last time
-Ewok lake is glowing with the reflection of the sky, like a dithered EGA sunset
-he doesn't look out to the barn nor the corral, he barely nods to the security guy on his way out
+The Honda Civic drives out of the underground garage and turns around the Stable House. Lake Ewok is glowing with the reflection of the sky, like a dithered EGA sunset. The car passes by the barn and the corral, then drives away from the security kiosk and onto the main road.
+
+A tall tree goes by, followed by two short ones. Then two short trees go by, followed by a tall one. Then there are no more trees. The hills give way into a plain, Californian unlikely, the Honda moving in front of the darker blue sky, now tallest and deprived of any texture.
+
+The road proceeds, then ends abruptly, an abandoned flooring job. The car rides on over generic green grass for a while, then reaches an edge and moves out of the picture. But not all of it. I can still make the trunk and the bumper, and a corner of a tire, sitting there, stationary.
+
 
 #+begin_export html
 <br/><br/><br/>
