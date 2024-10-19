@@ -235,7 +235,7 @@ The Main House was a 10 minute walk from the Stable House. Mark mentioned he wou
 
 Mark was assigned as Lead Background Artist for the new game. Purcell will do animations. He did the cover art for /Zak/, this will be his first video game project. For /Loom/, they are supposed to figure out how to turn an EGA adventure into a "living tapestry", like Eyvind Earle did with /The Sleeping Beauty/.
 
-"So what do you make of The Professor?" Purcell asks. Professor is what they've been calling Brian Moriarty, the project lead. They brought him from Infocom, a struggling text adventure shop.
+"So what do you make of The Professor?" Purcell asks. Professor is what they've been calling Brian Moriarty, the project lead. They brought him from Infocom, the struggling text adventure shop.
 
 "He seems cool."
 
@@ -342,12 +342,11 @@ For the first time he wouldn't be adapting someone else's rooms, he knew his too
 <br/><br/>
 #+end_export
 
-"Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships". This is how Ron described his /Pirates of the Caribbean/ spoof. After /Indy/ and /Loom/, it was his turn to lead a new project. A new Ron adventure was only second in anticipation to the advent of a /Star Wars/ license. This was to be the ultimate realization of his game design philosophy which was, more or less, the Group's official philosophy.
+"Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships". This is how Ron described his /Pirates of the Caribbean/ spoof. After /Indy/ and /Loom/, it was his turn to lead a project. A new Ron adventure was only second in anticipation to the advent of the /Star Wars/ license. He wanted this one to be the ultimate realization of his game design philosophy. Which was, more or less, the Group's official philosophy.
 
-/Monkey Island/, went out just a few months after /Loom/. People said the game marked a new beginning for LucasFilm games, but to Mark it felt more like a culmination of the process they started four or five years before. The tools were at their best and for the first time everybody, the designers and the artists, seemed to know exactly what they were doing. Mark is still no gamer, he doesn't play any of their games. He has no way of telling whether they are any good. But they had such a good time working on this one that it doesn't come as surprise when the suits demand a sequel, the first one in the Group's history.
+/Monkey Island/ went out just a few months after /Loom/. People said the game marked a new beginning for LucasFilm games, but to Mark it felt more like a culmination of the process they started four or five years before. The tools were at their best and for the first time everybody, the designers and the artists, seemed to know exactly what they were doing. Mark is still no gamer, he doesn't play any of their games, he has no way of telling whether they turn out good. But they had such a good time working on this one that it doesn't come as a surprise to him when the executives order a sequel, the first one in the Group's history.
 
-<There was a lot of movement around the office during those final /Monkey Island/ weeks.
-Mark was just too deep in crunch mode to notice.
+<There was a lot of movement around the office during those final /Monkey Island/ weeks. Mark was just too deep in crunch mode to notice.
 They seem to be growing faster, one or two new employees starting every week. They will rebrand to LucasArts. They will start a magazine to include in the game boxes. They interviewed Ron and <commissioned> Purcell for one of his comics.
 <Everyone got new PCs. his is still boxed in his desk, he didn't have the time to set it up and he wasn't going to use it for monkey anyway
 
@@ -364,40 +363,41 @@ but this little project would reveal a new form of anxiety: he doesn't know what
 <br/><br/>
 #+end_export
 
-<He is over over at the <technical building> with the rest of the artist. One of the new folks is demonstrating how to use the scanner. It's a little tray, like a Xerox machine, minus the printer. It's connected to a Macintosh computer. The scanner costs 10 times the computer, the guy said.
+He is over over at the Technical Building with the rest of the artists. Someone is demonstrating how to use the scanner. It's a little tray, like a Xerox machine, minus the printer. It's connected to a Macintosh computer. The scanner costs 10 times the computer, the guy said.
 
-<This new guy, Peter, is using this thing for /Monkey 2/.
+"This new guy, Peter, is scanning backgrounds for /Monkey 2/,” says Purcell.
 
-<hrm. <Mark didn't get to work on the /Monkey Island/ sequel.
+"Really?" Mark isn't on the /Monkey Island/ sequel.
 
-<his art is gorgeous, but it comes out all <fuzzy> on the other side of /that/. pointing to the scanner. he has to go back and clean it up in DPaint.
+"The art is gorgeous, but it comes out all fuzzy on the other side of /that/.", he points to the scanner. "He has to go back and clean everything up in DPaint."
 
-<He might as well do the whole thing in the computer
+"He might as well do the whole thing in the computer."
 
-<he's not into the mouse, though
+"He's no fan of the mouse, though."
 
-<Mark snorts.
+"Who is?", Mark snorts. "It's funny, I would've loved this a couple of years ago. My life would've been much easier."
 
-<It's funny, I would've loved this a couple of years ago. My life would've been much easier.
+"Yeah."
 
-<Yeah
+"Now it feels like a downgrade, you know? It's like with these VGA ports they are doing now."
 
-<But Now it feels like a <downgrade, you know? <it's like with these upgrades they are doing now.
-Mark didn't get to work on the VGA ports of /Loom/ and /Monkey Island/, either. He was stuck with the new /Indiana Jones/.
+"The 'enhanced' versions."
 
-<They are butchering my stuff over there, man, they just use gradients. There's no intention, it's like they want DPaint to do all the thinking for them.
+"The 'butchered' versions. They just use gradients for everything. It's like they want DPaint to do all the thinking for them."
 
-"It felt like we finally got the hang of this thing in /Monkey Island/, you know? Now it's like starting over."
+"If only."
+
+"It felt like we were finally getting the hang of this, during /Monkey Island/. Now it's like starting all over."
 
 "A technology is always at its best right before it's obsolete, man."
 
-"Who said that?"
+"Who said that?" asks Mark.
 
 "One Purcell."
 
 "Smart fella."
 
-He can almost see it: after scanners it will be compact discs, or RGB color, or those 3D models they've been using over at the ILM basement. More colors, more space, more processing power, but also more complications, more time to master the tools. Forget about squeezing some art out of them, forget about creativity or innovation, they'll struggling just to stay competent. Before they know it they'll be starting over with the new hot thing.
+He can almost see it: after scanners it will be compact discs, or RGB color, or those 3D models they've been using over at the ILM basement. More colors, more space, more processing power, but also more complications, more time to master the tools. Forget about squeezing some art out of them, forget about creativity or innovation, they'll be struggling just to stay competent. Before they know it, they'll need to start over with the new hot thing.
 
 #+begin_export html
 <br/><br/>
@@ -576,7 +576,7 @@ it's convenient that they don't expect much from him, because not only he isn't 
 "what are you researching"
 "brian moriarty"
 
-<the new game, /Loom/, was lead by Brian Moriarty, an experienced designed they brought in from Infocom, the struggling text adventure shop. Mark had tried one of their games. while he was impressed by the thorough descriptions and the setting---it was like they made him the protagonist of a fantasy novel---he was quickly frustrated by the complicated gameplay and all the typing it involved. It was like the complete opposite of everything Ron and Gary were trying to do with the graphic adventures. They were comic books to infocom's novels. <despite marketing desperation to sell them as interactive movies
+Mark had tried one of their games. while he was impressed by the thorough descriptions and the setting---it was like they made him the protagonist of a fantasy novel---he was quickly frustrated by the complicated gameplay and all the typing it involved. It was like the complete opposite of everything Ron and Gary were trying to do with the graphic adventures. They were comic books to infocom's novels. <despite marketing desperation to sell them as interactive movies
 
 <Before meeting him, Mark feared that his previous experience with from text games would make him dismiss graphic work, but Mark quickly realized that Moriarty was of his kin.
 
