@@ -403,18 +403,34 @@ He can almost see it: after scanners it will be compact discs, or RGB color, or 
 <br/><br/>
 #+end_export
 
-<TODO consider rewriting this in adventure style look at, pick up etc
+Mark walks towards the door, then turns. "I can't leave yet, I haven't finished packing". He looks at his desk. "I should put all this stuff in the box".
 
-Mark is packing a box with the few last things remaining in his office. There's the pile of sketchbooks, labeled by month and year; you could read a history of LucasFilm games by skimming through them. His Indy and Chewbacca action figures. The worn out DPaint 2 manual, which he hasn't used in ages. By now he could write his own, a much better one; not even its authors know the things he knows about that program.
+A pile of sketchbooks. "They are labeled by month and year".
 
-an issue of /Sam & Max/
-<the sleeping beauty reference book, that he never bothered to return
-<a loom box, with mark's illustration on the cover it, signed by The Professor. Mark signed another one for in return.
+A worn out DPaint 2 manual. "I haven't used this in ages. I could write one myself by now."
 
-There's a set of colored pencils that he hand picked to approximate the 16 EGA colors. He changes his mind and tosses it into the bin.
+A set of colored pencils. "I hand picked them myself, one for each of the 16 EGA colors. I guess won't be needing these anymore".
 
-<FIXME this style doesn't really work
-He puts the box in the trunk and starts the car---/maybe he should just go back to illustration, freelance like Purcell does, sell his work by the piece to Lucas or to whatever other company/---he drives out of the underground garage on his same old Honda Civic---/he knows it doesn't get better than making adventure games at Skywalker Ranch, he won't get this thrill anywhere else, much less as a freelance artist, but he won't get it by staying, either, LucasFilm is gone, replaced by LucasArts/---rounds about the stable house for the last time---/such a typical corporate move, rebranding to LucasArts just as they move them into an insurance office building full of cubicles, a bunch of boring technicians churning out Star Wars flight simulators/---Ewok lake is glowing with the reflection of the sky, like a dithered EGA sunset---/no more rebels, just stormtroopers/---he doesn't look out to the barn nor the corral, he barely nods to the security guy on his way out---/no more lucky breaks/.
+An issue of /Sam & Max/. "My favorite."
+
+An Indiana Jones action figure. "Indy."
+
+A /Sleeping Beauty/ reference book. "I never bothered to return this to the main house."
+
+A Chewbacca action figure. "Chewie."
+
+A signed /Loom/ box. "It's signed by The professor. I signed another one for him."
+
+He picks up the box. "This box is too full, I can't carry it like this." He puts it back. He walks towards the door, then turns. "I can't leave yet, I haven't finished packing". He looks at the desk. "Neat". He looks at the desk drawer. "It's a desk drawer". He opens the desk drawer. "There's a piece of rope here". He picks up the piece of rope. "This might come in handy". He uses the piece of rope on the box. "Much better". He picks up the box. He walks out.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+he drives out of the underground garage on his old Honda Civic
+rounds about the stable house for the last time
+Ewok lake is glowing with the reflection of the sky, like a dithered EGA sunset
+he doesn't look out to the barn nor the corral, he barely nods to the security guy on his way out
 
 #+begin_export html
 <br/><br/><br/>
@@ -612,3 +628,9 @@ Competent, boring specialist. And they got back the license for /Start Wars/. Mo
 - he could see some of the new folks, don't even remember their names (I'm standing right here you know? it's Gene), working on VGA ports for their old games, some butchering ("enhancing" his loom and monkey island backgrounds.
   - the results were more colorful, yes, but also less vivid, they lacked the personal style, the touch of the artist, that was lost in translation.
   - each pixel on his dithered patterns was loaded with his intent, now dpaint did most of the thinking through a generic color gradient
+
+    he knows it doesn't get better than making adventure games at Skywalker Ranch, he won't get this thrill anywhere else, much less as a freelance artist, but he won't get it by staying, either, LucasFilm is gone, replaced by LucasArts
+
+    such a typical corporate move, rebranding to LucasArts just as they move them into an insurance office building full of cubicles, a bunch of boring technicians churning out Star Wars flight simulators
+no more rebels, just stormtroopers
+no more lucky breaks.
