@@ -313,7 +313,26 @@ They need to register before going in. The librarian asks them what's the purpos
 <br/><br/>
 #+end_export
 
-The memo supplied two separate but related pieces of news: LucasFilm recovered the rights to make /Indiana Jones/ video games; they have six months to come up with an Indy game based on the new entry Spielberg is shooting.
+
+<"Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships". This is how Ron described the concept for his pirate game.
+
+A new Ron adventure was only second in anticipation to the advent of the /Star Wars/ license. He wanted this one to be the ultimate realization of his design philosophy. Which was, more or less, the Group's official design philosophy.
+
+<he even had a journal publish his "why adv suck"
+<mostly not applies to art, except for the "rewards part" that stuck with him
+
+< a /Pirates of the Caribbean/ disney ride spoof
+<it was his way of doing fantasy-like setting, without touching fantasy, which he hated
+<that was just one of the ways he was different from The Professor
+
+<in parallel with loom, sounded like they were getting bigger. and Mark's dithered backgrounds would feature in both
+<Ron and Brian both had the player in mind, but they couldn't be more different in how they were approaching their games
+<ron popcorn + game design
+<brian fantasy + story telling
+<They were comic books to infocom's novels.
+<despite marketing desperation to sell them as interactive movies
+
+The memo supplied two separate but related pieces of news: LucasFilm secured the rights to make /Indiana Jones/ video games; they have six months to come up with an Indy game based on the new entry Spielberg is shooting.
 
 <the devs got a copy of the script and there were some screenings at the main house
 some of the folks even got to visit the set
@@ -328,7 +347,7 @@ from an artistic point of view it would've been restraining as well
 and they certainly weren't about to toy with his dithering stuff with such a tight deadline
 this was just a money making game
 
-it was obvious that once the star wars license embargo was lift off, it would take a hell of an effort to prevent the suits to send all hands to milk chewbacca
+<star wars writing on the wall. once the embargo was lift off, it would take a hell of an effort to prevent the suits from sending all hands to milk chewbacca
 
 #+begin_export html
 <br/><br/>
@@ -338,7 +357,7 @@ Some times Professor Moriarty gives Mark and Purcell story prompts and asks for 
 
 Mark pulled everything he could get from the library on Disney, Eyvind Earl, and medieval tapestries. He would play the movie on the Media Room of the Main House, frame-freezing to take notes and make sketches. Mark would deliver two or three drawings a week, using his now legendary pencil.  Most of the times, Moriarty would come back with notes to refine an idea or a request to try again, but occasionally he would take a drawing and use it to write a piece of the story. In those cases the Professor would ask Mark to convert his illustration into a dithered EGA background, so he could wire it up in SCUMM and start experimenting with descriptions and dialog.
 
-The Professor set up similar workflows for animation and engine programming and, most importantly, with the sound department. Music and sound would feature in /Loom/ more prominently than in any other LucasFilm game.
+The Professor set up similar work streams for animation and programming and, most importantly, with the sound department. Music and sound would feature in /Loom/ more prominently than in any other LucasFilm game.
 which was convenient, since the Ranch housed the best sound engineering facilities in the world
 <for them, instead of Eyvind, it was tchaikovsky
 <much of the game's concept would be centered around the music of Tchaikovsky, just as in the film, so he suggested they explore its art style for the background art and the animations
@@ -346,7 +365,7 @@ which was convenient, since the Ranch housed the best sound engineering faciliti
 <Moriarty thought of games as a novel medium to produce art, and he wanted to use all of its materials to that end: sound, music, backgrounds, animation, story, and dialogs. He made sure everyone on the team picked up on his vision for the game and gave them freedom to figure out how to realize it with their tools.
 Coming from a rather lonely experience writing text adventures, he was betting on team collaboration to flourish to <unlock a deeper storytelling experience. This ideal would find its way into the story, with the protagonist visiting Guilds of Craftspeople over the course of the game.
 
-Mark would come up with the idea of using colors scheme to represent each guild, giving a distinct quality to each section of the game: the striking emerald of the Guild of Glassmakers, the softer pastoral greens of the Guild of Shepherds, the Stygian reds of the Guild of Blacksmiths and of course the lovely saturated blues and purples of the Guild of Weavers. This is a feat he imposes to himself, with the EGA colors allowing for one or two shades of each color, the rest having to be mocked with dithering and similar palette illusions
+Mark would come up with the idea of using colors scheme to represent each guild, giving a distinct quality to each section of the game: the striking emerald of the Guild of Glassmakers, the softer pastoral greens of the Guild of Shepherds, the Stygian reds of the Guild of Blacksmiths and of course the lovely saturated blues and purples of the Guild of Weavers. This is a feat he imposes to himself, with the EGA colors allowing for one or two shades of each color, the rest having to be mocked with dithering and other palette tricks.
 
 The latest version of the SCUMM engine not only allowed for Mark's dithered backgrounds, but introduced character scaling to represent distances, allowing him to move away from the horizontal axis and add perspective to his scenes.
 For the first time he wouldn't be adapting someone else's rooms, he knew his tools and was free to push them to their limits to create whatever he could envision.
@@ -355,34 +374,20 @@ For the first time he wouldn't be adapting someone else's rooms, he knew his too
 <br/><br/>
 #+end_export
 
-# FIXME historically speaking this first paragraph belongs before introducing Loom
+# maybe describe the room? or the demonstration itself?
+The artists are gathered at the Technical Building with for a scanner demonstration. It's a little tray, like a Xerox machine, minus the printer. It's connected to a Macintosh computer. The scanner costs 10 times the computer, the guy said.
 
-"Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships". This is how Ron described his /Pirates of the Caribbean/ spoof. After /Indy/ and /Loom/, it was his turn to lead a project. A new Ron adventure was only second in anticipation to the advent of the /Star Wars/ license. He wanted this one to be the ultimate realization of his game design philosophy. Which was, more or less, the Group's official philosophy.
-
-/Monkey Island/ went out just a few months after /Loom/. People said the game marked a new beginning for LucasFilm games, but to Mark it felt more like a culmination of the process they started four or five years before. The tools were at their best and for the first time everybody, the designers and the artists, seemed to know exactly what they were doing. Mark is still no gamer, he doesn't play any of their games, he has no way of telling whether they turn out good. But they had such a good time working on this one that it doesn't come as a surprise to him when the executives order a sequel, the first one in the Group's history.
-
-<There was a lot of movement around the office during those final /Monkey Island/ weeks. Mark was just too deep in crunch mode to notice.
-They seem to be growing faster, one or two new employees starting every week. They will rebrand to LucasArts. They will start a magazine to include in the game boxes. They interviewed Ron and <commissioned> Purcell for one of his comics.
-<Everyone got new PCs. his is still boxed in his desk, he didn't have the time to set it up and he wasn't going to use it for monkey anyway
-
-- 50 meg? what are we supposed to do with all of this space?
-- it's the first time he sets up his own computer, and he is surprised to notice he doesn't need much help from those around him
-- but the news wasn't the disk space, it was the VGA cards and monitors
-- at first it seemed like his independence day, free at last from his 16 color jail
-  every dithering stretch he could remember doing for /Loom/ and /Monkey Island/ would be unnecessary with this palette.  anything he may ever need seemed to be contained by these new 256 colors
-  as was often the case when he is in between projects, he is free to spend his time however he sees fit.
-  he decides to work on a new take of his legendary sunset landscape, to test drive the new palette. it would be a good way to try the DPaint gradients that were useless on VGA.
-but this little project would reveal a new form of anxiety: he doesn't know what he's doing anymore. His palette choices aren't as relevant anymore, his scene planning <turns into> paralysis, he has to rethink his whole process. These new computers are a career reset.
-
-#+begin_export html
-<br/><br/>
-#+end_export
-
-He is over over at the Technical Building with the rest of the artists. Someone is demonstrating how to use the scanner. It's a little tray, like a Xerox machine, minus the printer. It's connected to a Macintosh computer. The scanner costs 10 times the computer, the guy said.
-
-"This new guy, Peter, is scanning backgrounds for /Monkey 2/,” says Purcell.
+"This new guy, Peter, is doing this for the /Monkey 2/ backgrounds,” says Purcell, pointing to the machine.
 
 "Really?" Mark isn't on the /Monkey Island/ sequel.
+
+# FIXME some of this, eg vga stuff, is already partially covered by the dialogue below
+<There was a lot of movement around the office during those final /Monkey Island/ weeks. Mark was just too deep in crunch mode to notice.
+They seem to be growing faster, one or two new employees starting every week. They will rebrand to LucasArts. They will start a magazine to include in the game boxes. They interviewed Ron and <commissioned> Purcell for one of his comics.
+<Everyone got new PCs, with VGA cards and monitors.
+at first it felt like an independence day to mark they would be free at last from their EGA jail
+but now he wasn't sure how to adapt his work process to a 256 palette. it wasn't driven by the color planning anymore.
+These new computers felt like a career reset to him.
 
 "The art is gorgeous, but it comes out all fuzzy on the other side of /that/.", he points to the scanner. "He has to go back and clean everything up in DPaint."
 
@@ -400,11 +405,13 @@ He is over over at the Technical Building with the rest of the artists. Someone 
 
 "The 'butchered' versions. They just use gradients for everything. It's like they want DPaint to do all the thinking for them."
 
-"If only."
+"We're right here, you know?" someone mumbles at the back.
 
-"It felt like we were finally getting the hang of this, during /Monkey Island/. Now it's like starting all over."
+Mark continues: "It felt like we were finally getting the hang of this, during /Monkey Island/. Now it's like starting all over."
 
-"A technology is always at its best right before it's obsolete, man."
+<People said Monkey marked a new beginning for LucasFilm games, but to Mark it felt more like a culmination of the process they started four or five years before. The tools were at their best and for the first time everybody, the designers and the artists, seemed to know exactly what they were doing.
+
+"A technology is always at its best right before it's obsolete, man", says Purcell.
 
 "Who said that?" asks Mark.
 
@@ -412,7 +419,7 @@ He is over over at the Technical Building with the rest of the artists. Someone 
 
 "Smart fella."
 
-He can almost see it: after scanners it will be compact discs, or RGB color, or those 3D models they've been using over at the ILM basement. More colors, more space, more processing power, but also more complications, more time to master the tools. Forget about squeezing some art out of them, forget about creativity or innovation, they'll be struggling just to stay competent. Before they know it, they'll need to start over with the new hot thing.
+He can almost see it: after VGA and scanners it will be compact discs, or RGB color, or those 3D models they've been using over at the ILM basement. More colors, more space, more processing power, but also more complications, more time to master the tools. Forget about creativity or innovation, squeezing any art out of the machines, they'll be struggling just to stay competent. Before they know it, they'll be starting over with the next hot thing.
 
 #+begin_export html
 <br/><br/>
@@ -460,7 +467,7 @@ The road proceeds, then ends abruptly, an abandoned flooring job. The car rides 
 - [[https://www.filfre.net/2017/02/loom-or-how-brian-moriarty-proved-that-less-is-sometimes-more/][Loom (or, how Brian Moriarty Proved That Less is Sometimes More)]].
 - [[https://www.filfre.net/2017/03/monkey-island-or-how-ron-gilbert-made-an-adventure-game-that-didnt-suck/][Monkey Island (or, How Ron Gilbert Made an Adventure Game That Didn’t Suck)]].
 - [[https://www.filfre.net/2018/09/indiana-jones-and-the-fate-of-atlantis-or-of-movies-and-games-and-whether-the-twain-shall-meet/][Indiana Jones and the Fate of Atlantis (or, Of Movies and Games and Whether the Twain Shall Meet)]].
-- [[https://bossfightbooks.com/products/day-of-the-tentacle-by-bob-mackey][Day of the Tentacle]].
+- [[https://bossfightbooks.com/products/day-of-the-tentacle-by-bob-mackey][Day of the Tentacle: An Oral History]].
 - [[https://youtu.be/ri4_3P2Oh14?feature=shared][The Making of Monkey Island - Behind The Scenes]].
 - [[https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-4-Loom/5][LucasArts' Secret History #4: Loom Developer Reflections]].
 - [[https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-The-Secret-of-Monkey-Island/7][LucasArts' Secret History #5: The Secret of Monkey Island Developer Reflections]].
@@ -629,12 +636,21 @@ they were having so much fun with this one, and that stimulated them to try hard
 
 the fact that everyone seemed to be doing so good at their thing and they felt collectively creative made him assume the work was going to be good. the fact that management asked for a sequel right away he took as the confirmation. on the other hand, Loom, which was supposed to be a trilogy, didn't get a second entry and The Professor was too burned out to fight for one.
 
-
+- 50 meg? what are we supposed to do with all of this space?
+- it's the first time he sets up his own computer, and he is surprised to notice he doesn't need much help from those around him
+- but the news wasn't the disk space, it was the VGA cards and monitors
+- at first it seemed like his independence day, free at last from his 16 color jail
+  every dithering stretch he could remember doing for /Loom/ and /Monkey Island/ would be unnecessary with this palette.  anything he may ever need seemed to be contained by these new 256 colors
+  as was often the case when he is in between projects, he is free to spend his time however he sees fit.
+  he decides to work on a new take of his legendary sunset landscape, to test drive the new palette. it would be a good way to try the DPaint gradients that were useless on VGA.
+but this little project would reveal a new form of anxiety: he doesn't know what he's doing anymore.
 
 <the engine was at its best
 the background art and animation they produced was the best in the industry
 <after having free reign to experiment in /Loom/, Mark felt like he mastered his materials,
 he knew its limitations and where there was room for letting his creativity flow
+
+<loom received praise was considered too /avant garde/. nobody asked the professor for the sequels he had planned, and he was too burned out to fight for them
 
 Competent, boring specialist. And they got back the license for /Start Wars/. Most people were thrilled, but <Mark received the news as a death sentence.>
 
@@ -644,6 +660,12 @@ Competent, boring specialist. And they got back the license for /Start Wars/. Mo
 
   - but now it meant that a lot of he had to learn, a lot of the craft he acquired, was now irrelevant
 <I don't know. I already learned how to do the mouse thing, this sounds like <back to square one>. Just another mediocre illustrator. Not <particularly young or productive>
+
+<People said Monkey marked a new beginning for LucasFilm games, but to Mark it felt more like a culmination of the process they started four or five years before. The tools were at their best and for the first time everybody, the designers and the artists, seemed to know exactly what they were doing. Mark is still no gamer, he doesn't play any of their games, he has no way of telling whether they turn out good. But they had such a good time working on this one that it doesn't come as a surprise to him when the executives order a sequel, the first one in the Group's history.
+
+his is still boxed in his desk? he didn't have the time to set it up and he wasn't going to use it for monkey anyway
+at leas that was the thought. mark feared he'd be lost choosing between 256 colors
+His palette choices aren't as relevant anymore, his scene planning <turns into> paralysis, he has to rethink his whole process.
 
 - he could see some of the new folks, don't even remember their names (I'm standing right here you know? it's Gene), working on VGA ports for their old games, some butchering ("enhancing" his loom and monkey island backgrounds.
   - the results were more colorful, yes, but also less vivid, they lacked the personal style, the touch of the artist, that was lost in translation.
