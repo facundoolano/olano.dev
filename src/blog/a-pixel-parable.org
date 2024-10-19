@@ -383,7 +383,7 @@ The artists are gathered at the Technical Building with for a scanner demonstrat
 
 # FIXME some of this, eg vga stuff, is already partially covered by the dialogue below
 <There was a lot of movement around the office during those final /Monkey Island/ weeks. Mark was just too deep in crunch mode to notice.
-They seem to be growing faster, one or two new employees starting every week. They will rebrand to LucasArts. They will start a magazine to include in the game boxes. They interviewed Ron and <commissioned> Purcell for one of his comics.
+They seem to be growing faster, one or two new employees starting every week. They will start a magazine to include in the game boxes. They interviewed Ron and <commissioned> Purcell for one of his comics.
 <Everyone got new PCs, with VGA cards and monitors.
 at first it felt like an independence day to mark they would be free at last from their EGA jail
 but now he wasn't sure how to adapt his work process to a 256 palette. it wasn't driven by the color planning anymore.
@@ -420,6 +420,24 @@ Mark continues: "It felt like we were finally getting the hang of this, during /
 "Smart fella."
 
 He can almost see it: after VGA and scanners it will be compact discs, or RGB color, or those 3D models they've been using over at the ILM basement. More colors, more space, more processing power, but also more complications, more time to master the tools. Forget about creativity or innovation, squeezing any art out of the machines, they'll be struggling just to stay competent. Before they know it, they'll be starting over with the next hot thing.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+Memo: /The Force Awakens!/
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+Memo: /LucasFilm Games is now LucasArts/
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+Memo: /Our new Home!/
 
 #+begin_export html
 <br/><br/>
@@ -655,7 +673,7 @@ he knew its limitations and where there was room for letting his creativity flow
 Competent, boring specialist. And they got back the license for /Start Wars/. Most people were thrilled, but <Mark received the news as a death sentence.>
 
 - receives a memo about the rebrand
-- maybe /The Force Awakens: LucasFilm Games is now LucasArts/
+- maybe
 - the mail also mentions something everybody knows about, like there was a "writing on the wall"/sword of Damocles hanging over their heads: the star wars embargo lift. most people loved star wars and couldn't be more excited about getting their hands on their property for a videogame. mark also loved the movie, but he struggled not to see that date as a death sentence for the creativity of the studio
 
   - but now it meant that a lot of he had to learn, a lot of the craft he acquired, was now irrelevant
