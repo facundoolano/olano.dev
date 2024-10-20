@@ -152,27 +152,32 @@ they have the creative freedom but they must live up to the Lucas standards with
 #+end_export
 
 The mouse, the pixels, the 16-color palette, the hotspots: those are the constraints he has to work with.
+One trick---a /hack/, programmers would say---he discovered early on was that, if he formed a checkerboard pattern of pixels, they would blend and bleed in the screen as he zoomed out, producing shades beyond those boring old 16 colors of the EGA palette. At first this is just an accidental observation, he doesn't make much of it. It's only when he starts working on a new batch of /Zak/ backgrounds, a section of the game that takes place in Mars, that he finds himself thinking again about those blended pixels. He realizes he can "weaponize" this artifact for artistic effect.
 
-moves to a section of the game that's several screens in mars. he'll start with the landing site
+<The Martian landscapes are very provocative to Mark.
+
+he'll start with the landing site
 the c64 version is so brown and plain, it looks like clay pyramids and mud lake
-
 he wanted to let himself go with this one
 he was less tied by the old backgrounds here, and less tied by reality
 for the first time he could connect with the fantasy and scifi work were he was most comfortable with
 this is actually the first time where those acid EGA colors could pay off <name colors
-he wanted to <blow up the sky and set the land on fire>
 
-One trick---a /hack/, programmers would say---he discovered early on was that, if he formed a checkerboard pattern of pixels, they would blend and bleed in the screen as he zoomed out, producing shades beyond those boring old 16 colors of the EGA palette.
+He settles quickly on the composition of the scene---a rocky horizon inspired by the Grand Canyon, sitting on top of a desert of fiery sand and a pale orange sun slightly removed from the center of the screen.
 
-<This was one of those happy accidents he was so fond of when working with new materials, a side effect he didn't pay much attention to until he decided to "weaponize" it for artistic effect.
-the martian landscapes would be the perfect opportunity
+<it's the palette what gives him the most work,
+a few attempts to settle on a rough plan, and then hours of trial-and-error to find the right color combinations and the right density of interleaved pixels for each figure and each boundary. he wants the image to jump out of the screen, he wants the sky, and the sun, and the ground to bleed into each other but remain distinct, he wants the sun to set the sky on fire and the earth to bed the ashes.
 
-# https://cdn.mobygames.com/screenshots/15832026-zak-mckracken-and-the-alien-mindbenders-amiga-the-martian-landin.png
-# https://cdn.mobygames.com/screenshots/7743063-zak-mckracken-and-the-alien-mindbenders-commodore-64-the-landing.png
-this background could be the perfect excuse.
-<todo describe how he draws it, where he uses dither
-<this was obviously not art, not yet, but it was better that anything he did before and anything he saw in the previous game; most importantly it was progress, it was a hint of path they could explore to get closer to his goal.
-he sends it/takes it to the programmer, goes over to his desk to see their reaction and get some praise, we're taking the art on this game to a new level folks, he's expecting a pat on the back
+<and for the first time since started making digital illustrations
+he feels he's tamed the material into speaking back to him
+he's not constraints of the material don't constraint /him/, it's him that gets in control of the material, so much that the material in turns goes out of control, and rebels and autonomously produces something that wasn't part of Mark's plan
+
+it's when the work starts speaking back to him that he acknowledges that his onto something. it may not be art, not yet, but it's better than anything he did and anything he's seen on a computer screen.
+here's the spark, this is his direction, this is where he needs to go.
+
+so he's careful not to let> Gary or the programmers see it before it's ready; he wants to set the stage and catch them off-guard.
+
+<TODO: he sends takes it to the programmer, goes over to his desk to see their reaction and get some praise, he's expecting a pat on the back
 
 the image loads up on the screen from top to bottom. ron takes a few seconds to look at it before speaking up
 
@@ -314,9 +319,10 @@ They need to register before going in. The librarian asks them what's the purpos
 #+end_export
 
 
+# FIXME some for of this needs to be present, but it would be interesting to do it earlier. it could be separate from the indy section
 <"Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships". This is how Ron described the concept for his pirate game.
 
-A new Ron adventure was only second in anticipation to the advent of the /Star Wars/ license. He wanted this one to be the ultimate realization of his design philosophy. Which was, more or less, the Group's official design philosophy.
+<A new Ron adventure was only second in anticipation to the advent of the /Star Wars/ license. He wanted this one to be the ultimate realization of his design philosophy. Which was, more or less, the Group's official design philosophy.
 
 <he even had a journal publish his "why adv suck"
 <mostly not applies to art, except for the "rewards part" that stuck with him
@@ -347,7 +353,7 @@ from an artistic point of view it would've been restraining as well
 and they certainly weren't about to toy with his dithering stuff with such a tight deadline
 this was just a money making game
 
-<star wars writing on the wall. once the embargo was lift off, it would take a hell of an effort to prevent the suits from sending all hands to milk chewbacca
+The writing is on the wall. Once they lift the /Star Wars/ embargo, it's going to take a hell of an effort to prevent the suits from putting all hands on deck to milk Chewbacca.
 
 #+begin_export html
 <br/><br/>
@@ -369,6 +375,21 @@ Mark would come up with the idea of using colors scheme to represent each guild,
 
 The latest version of the SCUMM engine not only allowed for Mark's dithered backgrounds, but introduced character scaling to represent distances, allowing him to move away from the horizontal axis and add perspective to his scenes.
 For the first time he wouldn't be adapting someone else's rooms, he knew his tools and was free to push them to their limits to create whatever he could envision.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+The memo sits on his desk:
+
+#+begin_export html
+<div class="center-block">
+<p>The Return of the License</p>
+<p><small>LucasArts Episode I</small></p>
+</div>
+#+end_export
+
+He doesn't read it.
 
 #+begin_export html
 <br/><br/>
@@ -420,24 +441,6 @@ Mark continues: "It felt like we were finally getting the hang of this, during /
 "Smart fella."
 
 He can almost see it: after VGA and scanners it will be compact discs, or RGB color, or those 3D models they've been using over at the ILM basement. More colors, more space, more processing power, but also more complications, more time to master the tools. Forget about creativity or innovation, squeezing any art out of the machines, they'll be struggling just to stay competent. Before they know it, they'll be starting over with the next hot thing.
-
-#+begin_export html
-<br/><br/>
-#+end_export
-
-Memo: /The Force Awakens!/
-
-#+begin_export html
-<br/><br/>
-#+end_export
-
-Memo: /LucasFilm Games is now LucasArts/
-
-#+begin_export html
-<br/><br/>
-#+end_export
-
-Memo: /Our new Home!/
 
 #+begin_export html
 <br/><br/>
@@ -582,7 +585,8 @@ https://grumpygamer.com/rtmi_pdc
 https://grumpygamer.com/stuff_and_things_and_monkey_island
 https://grimfandango.network/media/Grim_Fandango_Puzzle_Document.pdf
 
-**** TODO review the adventurer issues
+**** DONE review the adventurer issues
+CLOSED: [2024-10-19 Sat 21:35]
 https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2003%20Fall%201991/page/n1/mode/2up
 https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2002%20Spring%201991/page/n3/mode/2up
 https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2001%20Fall%201990/page/n1/mode/2up
@@ -596,6 +600,9 @@ CLOSED: [2024-10-05 Sat 13:52]
 
 *** chunks                                                         :noexport:
 https://i.pinimg.com/originals/53/b1/f1/53b1f1a0961866d25ed578d345945dd4.jpg
+https://cdn.mobygames.com/screenshots/15832026-zak-mckracken-and-the-alien-mindbenders-amiga-the-martian-landin.png
+https://cdn.mobygames.com/screenshots/7743063-zak-mckracken-and-the-alien-mindbenders-commodore-64-the-landing.png
+
 http://iveneverdonethat.com/blog_files/skywalkerranch.html
 
 But it doesn't take him long to become productive. That is, to work out usable backgrounds fast enough to meet the developers expectations, which are lower than his own.
@@ -694,3 +701,5 @@ His palette choices aren't as relevant anymore, his scene planning <turns into> 
     such a typical corporate move, rebranding to LucasArts just as they move them into an insurance office building full of cubicles, a bunch of boring technicians churning out Star Wars flight simulators
 no more rebels, just stormtroopers
 no more lucky breaks.
+
+Memo: /Our new Home!/
