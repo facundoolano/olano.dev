@@ -153,14 +153,15 @@ The mouse, the pixels, the 16-color palette, the hotspots: those are the constra
 One trick he discovered early on---a /hack/, programmers would say---was that, if he arranged pixels to form a checkerboard pattern, they would blend and bleed as he zoomed out on the computer screen. Much like the eyes finish the job as one steps back from an impressionist painting, the monitor melts the pixel mosaic into something richer than whatever the dull EGA palette was supposedly able to project. At first this is just an accidental observation, he doesn't make much of it. It's only when he starts working on a new batch of /Zak/ backgrounds that he finds himself coming back to those mixed pixels.
 
 This section of the game takes place in Mars, a location Mark finds very provocative.
-Here he owes no loyalty to the muddy c64 backgrounds. For a change, the acid EGA palette seems strangely fitting. He realizes he can "weaponize" the pixel blending artifact. And he needs not abide reality here, he's safely into fantasy territory. He can turn this one of his classic sci-fi landscapes.
+Here he owes no loyalty to the muddy c64 backgrounds. The acid EGA palette seems strangely fitting. And he needs not abide reality here, he's safely into fantasy territory. He realizes he can weaponize the pixel blending artifact and turn this one of his classic sci-fi landscapes.
 
-He settles quickly on a composition, a rocky horizon inspired by the Grand Canyon, sitting on top of a desert of fiery sand and a pale orange sun slightly removed from the center of the screen. It's the palette that gives him more work. A few attempts to settle on a rough plan, then hours of trial-and-error to find the right color combinations and the right density of interleaved pixels for each figure, each boundary.
+
+He settles quickly on a composition, a rocky horizon inspired by the Grand Canyon, sitting on top of a fiery desert and a pale sun, slightly displaced from the center of the screen. It's the palette that gives him more work, hours of trial-and-error to find the right color combinations and the right density of interleaved pixels for each figure, each boundary.
 He wants the image to jump out of the screen; he wants the sky, and the sun, and the ground to bleed into each other distinctly---the sun to set the sky on fire and the earth to bed the ashes.
 
-It's not the original c64 background, or the EGA palette, or the hotspot list what mandates his work. It's not what he pictured in his head. It's the pixel braid, each born out of the previous one, each birthing the next. Every pixel boils with possibility and serves no purpose other than to carry intent.
+It's not the original c64 background, nor the EGA palette, nor the hotspots list what mandate his work. It's not what he pictured in his head. It's the braid: each pixel born out of its predecessor, each one birthing the next. They boil with possibility, they serve no purpose but to carry intent.
 
-For the first time, he doesn't feel constrained by the material. He's so free that the work becomes free, the work now takes life and talks back. He tamed the material into rebelling and becoming something other than what he set out to produce, something better that what he could have imagined. It's then, when the work starts speaking for itself that he knows his onto something. It may not be art, not yet, but it's better than anything he did and anything he's seen on a computer screen. There's the spark. This is the direction, that's where he needs to go.
+For the first time, he doesn't feel constrained by the material. He's so free that the work becomes free, the work now takes life and talks back. He tamed the material into rebelling and becoming something other than what he set out to produce, something better than what he could have imagined. It's then, when the work speaks for itself, that he knows. This may not be art, not yet, but it's better than anything he did and anything he's seen on a computer screen. There's the spark. This is the direction, that's where he needs to go.
 
 #+begin_export html
 <br/><br/>
@@ -276,7 +277,7 @@ Mark was assigned as Lead Background Artist for /Loom/. Purcell will do animatio
 
 "He better be. /Be the best/, right?"
 
-"...but, perhaps too much of an idealist. I can't believe /I'm/ saying this." In a sense, Moriarty is like him: they take their work very seriously, they are both driven by a desire to produce art. But Mark knows all too well that, despite his title, he isn't paid to make art. They pay him to produce backgrounds, conforming to a set of specifications. The art, he has to smuggle, in spite of the business. The Professor, on the other hand, seems committed to breaking new artistic ground, and operates as if everyone else shares his vision. Mark couldn't imagine any other company where they would give such a guy /carte blanche/ to make whatever game he wanted.
+"...but, perhaps too much of an idealist. I can't believe /I'm/ saying this." In a sense, The Professor is like him: they take their work very seriously, they are both driven by a desire to produce art. But Mark knows all too well that, despite his title, he isn't paid to make art. They pay him to produce backgrounds, conforming to a set of specifications. The art, he has to smuggle, in spite of the business. The Professor, on the other hand, seems committed to breaking new artistic ground, and operates as if everyone else shares his vision. Mark couldn't imagine any other company where they would give such a guy /carte blanche/ to make whatever game he wanted.
 
 # TODO lookup infocom descriptions, maybe one from a moriarty game
 # FIXME should the IF spoof be it's own section? it's kind of weird in the middle of this one without a break
@@ -328,9 +329,9 @@ The Games Group people walk back to the Stable House, excited about the film, di
 <br/><br/>
 #+end_export
 
-Some times Professor Moriarty gives Mark and Purcell story prompts and asks for concept art in return, but more often than not he wants /them/ to come up with stuff he can use for inspiration, based on the short treatment document he handed them and the /Sleeping Beauty/ reference material. This was the first proper illustration work he did since he joined the company two years ago.
+Some times The Professor gives Mark and Purcell story prompts and asks for concept art in return, but more often than not he wants /them/ to come up with stuff he can use for inspiration, based on the short treatment document he handed them and the /Sleeping Beauty/ reference material. This is Mark's first proper illustration work in two years.
 
-Mark pulled everything he could get from the library on Disney, Eyvind Earl, and medieval tapestries. He would play the movie on the Media Room of the Main House, frame-freezing to take notes and make sketches. Mark would deliver two or three drawings a week, using his now legendary pencil.  Most of the times, Moriarty would come back with notes to refine an idea or a request to try again, but occasionally he would take a drawing and use it to write a piece of the story. In those cases the Professor would ask Mark to convert his illustration into a dithered EGA background, so he could wire it up in SCUMM and start experimenting with descriptions and dialog.
+He pulled everything he could get from the library on Disney, Eyvind Earl, and medieval tapestries. He would play the movie on the Media Room of the Main House, frame-freezing to take notes and make sketches. Mark would deliver two or three drawings a week, using his now legendary pencil.  Most of the times, The Professor would come back with notes to refine an idea or a request to try again, but occasionally he would take a drawing and use it to write a piece of the story. In those cases The Professor would ask Mark to convert his illustration into a dithered EGA background, so he could wire it up in SCUMM and start experimenting with descriptions and dialog.
 
 The Professor set up similar work streams for animation and programming and, most importantly, with the sound department. Music and sound would feature in /Loom/ more prominently than in any other LucasFilm game.
 which was convenient, since the Ranch housed the best sound engineering facilities in the world
@@ -409,7 +410,7 @@ Mark continues: "It felt like we were finally getting the hang of this, during /
 
 "Smart fella."
 
-He can almost see it: after VGA and scanners it will be compact discs, or RGB color, or those 3D models they've been using over at the ILM basement. More colors, more space, more processing power, but also more complications, more time to master the tools. Forget about creativity or innovation, squeezing any art out of the machines, they'll be struggling just to stay competent. Before they know it, they'll be starting over with the next hot thing.
+He can already see it: after VGA and scanners it will be compact discs, or RGB color, or those 3D models they've been using over at the ILM basement. More colors, more space, more processing power, but also more complications, more time to master the tools. Forget about creativity or innovation, squeezing any art out of the machines, they'll be struggling just to stay competent. Before they know it, they'll be starting over with the next hot thing.
 
 #+begin_export html
 <br/><br/>
@@ -431,7 +432,7 @@ A /Sleeping Beauty/ reference book. "I never bothered to return this to the main
 
 A Chewbacca action figure. "Chewie."
 
-A signed /Loom/ box. "It's signed by The professor. I signed another one for him."
+A signed /Loom/ box. "It's signed by The Professor. I signed another one for him."
 
 He picks up the box. "This box is too full, I can't carry it like this." He puts it back. He walks towards the door, then turns. "I can't leave yet, I haven't finished packing". He looks at the desk. "Neat". He looks at the desk drawer. "It's a desk drawer". He opens the desk drawer. "There's a piece of rope here". He picks up the piece of rope. "This might come in handy". He uses the piece of rope on the box. "Much better". He picks up the box. He walks out.
 
@@ -465,7 +466,6 @@ The road proceeds, then ends abruptly, an abandoned flooring job. The car rides 
 - [[https://datagubbe.se/crt/][The Effect of CRTs on Pixel Art]].
 - [[https://www.superrune.com/tutorials/lucasfilm_ega.php][Lucasfilm EGA adventures: an appreciation]].
 - [[https://web.archive.org/web/20030326051107fw_/http://lucasfans.mixnmojo.com/features/interview_stevepurcell.html][Steve Purcell Interview]].
-- [[https://grumpygamer.com/guybrush_fact_fiction][Guybrush Fact vs Fiction]].
 
 *** quotes                                                         :noexport:
 
