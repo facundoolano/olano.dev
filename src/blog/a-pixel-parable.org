@@ -235,15 +235,10 @@ the division head told him they would double down on dithering for the look and 
 <br/><br/>
 #+end_export
 
-<"Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships". This is how Ron described the concept for his pirate game.
+"Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships." This is how Ron explains his pirate game to anyone that will listen.
+He wants to do something fantasy-like without doing fantasy, which he hates. So he's doing a spoof of the Disney ride.  "You'll inhabit this swashbuckling world, talk to other pirates, sail with them, instead of just watching. That right there is why we make adventure games: to give the player the leading part."
 
-<A new Ron adventure was only second in anticipation to the advent of the /Star Wars/ license. He wanted this one to be the ultimate realization of his design philosophy. Which was, more or less, the Group's official design philosophy.
-
-<he even had a journal publish his "why adv suck"
-<mostly not applies to art, except for the "rewards part" that stuck with him
-
-< a /Pirates of the Caribbean/ disney ride spoof
-<it was his way of doing fantasy-like setting, without touching fantasy, which he hated
+Ron may be a programmer by trade, he may be a decent writer, but game design is /his thing./ And he wants this game to be the ultimate realization of his design philosophy, what he's been preaching ever since /Maniac Mansion/. He even published it in a manifesto that became required reading around the office. /Why Adventure Games Suck/. It was mostly around game play, Mark couldn't make much of it, but one stick stuck with him: Ron wrote that the game should reward players for their accomplishments and in graphic adventures the reward is always a new piece of artwork, a new location they get to explore. That's how Mark realized than his work is more than just a backdrop, more than content to fill the screen.
 
 #+begin_export html
 <br/><br/>
