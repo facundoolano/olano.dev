@@ -10,14 +10,12 @@ draft: true
 #+LANGUAGE: en
 
 #+begin_verse
-Already the displacement
-of one's thought-child
-is not only conceived,
-but scheduled.
+/An imagined town is at least as real
+as an actual town./
 #+end_verse
 
 #+begin_export html
-<br/><br/>
+<br/><br/><br/><br/>
 #+end_export
 
 "How would you like working on video games?"
@@ -86,7 +84,7 @@ He leaves the office with sore eyes from the computer screen and a headache from
 <br/><br/>
 #+end_export
 
-Mark's first job is to port /Zak MacKracken/'s Commodore64 backgrounds to the EGA. David hands him a description of each location in the game. They call them /rooms/ even though some are outdoors---outer space, even. Each one has a short description and a list of "hotspots", the things the player can interact with: objects, doors, that kind of thing. Mark has to make sure that those remain visible on his ported backgrounds. Other than the list of rooms, the only design document is a huge puzzle chart posted on the wall, a sort of storyboard for programmers. Mark can't make sense of it, or the game, for that matter. /Zak MacKracken/ is bigger and more ambitious than /Maniac Mansion/; the work is more interesting, but the game is undecipherable to Mark.
+His first assignment is to port /Zak MacKracken/'s Commodore64 backgrounds to the EGA. David hands him a description of each location in the game. They call them /rooms/ even though some are outdoors---outer space, even. Each one has a short description and a list of "hotspots", the things the player can interact with: objects, doors, that kind of thing. Mark has to make sure that those remain visible on his ported backgrounds. Other than the list of rooms, the only design document is a huge puzzle chart posted on the wall, a sort of storyboard for programmers. Mark can't make sense of it, or the game, for that matter. /Zak MacKracken/ is bigger and more ambitious than /Maniac Mansion/; the work is more interesting, but the game is undecipherable to Mark.
 
 At first, he tries working from the original c64 bit maps, but that complicates things.
 Both are 16 color systems, but /not the same/ 16 colors, so swapping them is pixel Whac-A-Mole. He turns to redrawing the backgrounds from scratch. He sketches on his notebook to try options, he plots the pixel grid in graph paper and draws on acetate sheets that he then tapes to the monitor. He will try anything before moving to the computer, where nothing flows, where everything is clumsy and rigid as Lego building, and it's hard to tell whether something will work or even fit until it's almost done.
@@ -152,44 +150,34 @@ they have the creative freedom but they must live up to the Lucas standards with
 #+end_export
 
 The mouse, the pixels, the 16-color palette, the hotspots: those are the constraints he has to work with.
-One trick---a /hack/, programmers would say---he discovered early on was that, if he formed a checkerboard pattern of pixels, they would blend and bleed in the screen as he zoomed out, producing shades beyond those boring old 16 colors of the EGA palette. At first this is just an accidental observation, he doesn't make much of it. It's only when he starts working on a new batch of /Zak/ backgrounds, a section of the game that takes place in Mars, that he finds himself thinking again about those blended pixels. He realizes he can "weaponize" this artifact for artistic effect.
+One trick he discovered early on---a /hack/, programmers would say---was that, if he arranged pixels to form a checkerboard pattern, they would blend and bleed as he zoomed out on the computer screen. Much like the eyes finish the job as one steps back from an impressionist painting, the monitor melts the pixel mosaic into something richer than whatever the dull EGA palette was supposedly able to project. At first this is just an accidental observation, he doesn't make much of it. It's only when he starts working on a new batch of /Zak/ backgrounds that he finds himself coming back to those mixed pixels.
 
-<The Martian landscapes are very provocative to Mark.
+This section of the game takes place in Mars, a location Mark finds very provocative.
+Here he owes no loyalty to the muddy c64 backgrounds. For a change, the acid EGA palette seems strangely fitting. He realizes he can "weaponize" the pixel blending artifact. And he needs not abide reality here, he's safely into fantasy territory. He can turn this one of his classic sci-fi landscapes.
 
-he'll start with the landing site
-the c64 version is so brown and plain, it looks like clay pyramids and mud lake
-he wanted to let himself go with this one
-he was less tied by the old backgrounds here, and less tied by reality
-for the first time he could connect with the fantasy and scifi work were he was most comfortable with
-this is actually the first time where those acid EGA colors could pay off <name colors
+He settles quickly on a composition, a rocky horizon inspired by the Grand Canyon, sitting on top of a desert of fiery sand and a pale orange sun slightly removed from the center of the screen. It's the palette that gives him more work. A few attempts to settle on a rough plan, then hours of trial-and-error to find the right color combinations and the right density of interleaved pixels for each figure, each boundary.
+He wants the image to jump out of the screen; he wants the sky, and the sun, and the ground to bleed into each other distinctly---the sun to set the sky on fire and the earth to bed the ashes.
 
-He settles quickly on the composition of the scene---a rocky horizon inspired by the Grand Canyon, sitting on top of a desert of fiery sand and a pale orange sun slightly removed from the center of the screen.
+It's not the original c64 background, or the EGA palette, or the hotspot list what mandates his work. It's not what he pictured in his head. It's the pixel braid, each born out of the previous one, each birthing the next. Every pixel boils with possibility and serves no purpose other than to carry intent.
 
-<it's the palette what gives him the most work,
-a few attempts to settle on a rough plan, and then hours of trial-and-error to find the right color combinations and the right density of interleaved pixels for each figure and each boundary. he wants the image to jump out of the screen, he wants the sky, and the sun, and the ground to bleed into each other but remain distinct, he wants the sun to set the sky on fire and the earth to bed the ashes.
+For the first time, he doesn't feel constrained by the material. He's so free that the work becomes free, the work now takes life and talks back. He tamed the material into rebelling and becoming something other than what he set out to produce, something better that what he could have imagined. It's then, when the work starts speaking for itself that he knows his onto something. It may not be art, not yet, but it's better than anything he did and anything he's seen on a computer screen. There's the spark. This is the direction, that's where he needs to go.
 
-<and for the first time since started making digital illustrations
-he feels he's tamed the material into speaking back to him
-he's not constraints of the material don't constraint /him/, it's him that gets in control of the material, so much that the material in turns goes out of control, and rebels and autonomously produces something that wasn't part of Mark's plan
+#+begin_export html
+<br/><br/>
+#+end_export
 
-it's when the work starts speaking back to him that he acknowledges that his onto something. it may not be art, not yet, but it's better than anything he did and anything he's seen on a computer screen.
-here's the spark, this is his direction, this is where he needs to go.
 
-so he's careful not to let> Gary or the programmers see it before it's ready; he wants to set the stage and catch them off-guard.
-
-<TODO: he sends takes it to the programmer, goes over to his desk to see their reaction and get some praise, he's expecting a pat on the back
-
-the image loads up on the screen from top to bottom. ron takes a few seconds to look at it before speaking up
+Ron sticks the floppy in his computer and loads the image. He waits for the fringes to cover the screen and gives it a couple more seconds before speaking up.
 
 "What the hell, man?"
 
-"I... wait, what?"
+"I... wait, what?" says Mark.
 
-"The pixels here look all... dithered. This won't compress." He speaks in his soothing monotone, which makes him all the more scary when the words imply he's not happy
+"The pixels here look all... dithered. This won't compress." Ron speaks in his soothing monotone, which makes it all the more scary when the words imply he's not happy.
 
 "Dithered?"
 
-"What's up", Gary joins them, sensing trouble. "Wow, that's a neat <background>. Oh, wait, that won't compress. Yeah, you can't do that."
+"What's up?” Gary joins them. "Wow, that's a neat background. Oh, wait, that won't compress. Yeah, you can't do that."
 
 "Compress?"
 
@@ -197,14 +185,14 @@ the image loads up on the screen from top to bottom. ron takes a few seconds to 
 
 He's been doing this for months and still can't tell when it's right. It's like computers have a bunch of rules that everyone but him knows about. And the programmers, too, come with their own rules, they are another kind of machine that he needs to poke about until something works.
 
-In these situations, Gary gets into the little technical details, not because he cares that Mark understands them but because he wants Mark to know they have important reasons to clip his wings: the image data is run through a compression algorithm so it takes up less storage in the disk. Instead of storing the colors pixel by pixel, they store how many times the current color needs to be repeated; the more same-color segments the image has, the fewer space it will take on disk. His little checkerboard technique---his color "dithering"---completely breaks the process, changing colors at every step, never repeating, making the compressed image take /even more/ space than the source. Dithered backgrounds would double or triple the required disk space, which would double the amount of disks required to ship the game, which would double production costs, which would double the game's price tag, which would surely get them all fired. "Try again with solid colors, please." he concludes, and pats him on the back. "That was some landscape, though, huh?"
+In these situations, Gary gets into the little technical details, not because he cares that Mark understands them but because he wants Mark to know they have important reasons to clip his wings: the image data is run through a compression algorithm so it takes up less storage in the disk. Instead of storing the colors pixel by pixel, they store how many times the current color needs to be repeated; the more same-color segments the image has, the fewer space it will take on disk. His little checkerboard technique---his color "dithering"---completely breaks the process, changing colors at every step, never repeating, making the compressed image take /even more/ space than the source. Dithered backgrounds would double or triple the required disk space, which would double the amount of disks required to ship the game, which would double production costs, which would double the game's price tag, which would surely get them all fired. "Try again with solid colors, please,” he concludes, and pats him on the back. "That was some landscape, though, huh?"
 
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
-he figured his bodily reaction to screen time was somehow connected with sleep deprivation. at first, pulling 6 or 8 straight hours in front of the computer seemed to burn him out, but after 10 or 12 he didn't really cared, he just kept going until he literally felt asleep on the keyboard
+His bodily reaction to screen time is somehow connected with sleep deprivation. At first, pulling 6 or 8 straight hours in front of the computer seemed to burn him out, but after 10 or 12 he doesn't really care, he just keeps going until he passes out on the keyboard.
 
 <everyone warned him there was going to be crunch time when they got closer to the release date
 <Here's the thing about deadlines: everybody knows they won't make the first one or two deadlines, and that's fine, but also everyone accepts that they'll miss them in crunch mode, if anything to keep up appearences
@@ -212,9 +200,10 @@ mark defaulted to a belligerent attitude towards authority and thus was, in prin
 but, also, he didn't really mind the effort.
 he never once lost sight that
 he was getting paid to be an artist---even though he didn't felt these computer drawings were there yet---
-he was paid handsomely, more than every
+he was paid handsomely, more than every other job he ever had (more than both of his parents combined)
 he was having fun, he respected his teammates,
 he was working at geek disneyland,
+<most people would continue to show up every day even if they cut their pay checks
 
 he was already used to working late, in the quite months they would take long lunches or hikes through the hills or they would toss a softball around in the field out back, so they ended up working late to make up for the time
 most of the people on the team was in their early twenties so they didn't have anywhere better to be anyway
@@ -229,6 +218,9 @@ he would use dithering, and colors otherwise reserved for sprite characters, and
 if they tell him that dithering is off-limits, then he'll put in as much dithering in his personal work as he can.
 what's a good excuse to do this a lot? what type of background would call for a gradient of as many colors as one can think of? A sunset.
 <TODO lookup details about this sunset in the interviews
+<starry night?
+# FIXME maybe too much stress in the martian background that should be here instead
+# consider at least calling it back
 
 this was... art. and now hi was annoyed that he couldn't put stuff like this in the game. he set it as a screensaver in his computer to send a passive-aggressive message, a kind of protest---against no one in particular, no one in his team, anyway. Ge was protesting Turing and Von Neumann and George Lucas and Ronald Reagan, for making it so damn hard to make art for a living.
 
@@ -244,7 +236,7 @@ the division head told him they would double down on dithering for the look and 
 <br/><br/>
 #+end_export
 
-The Main House was a 10 minute walk from the Stable House. Mark mentioned he would go over to the library and Purcell tagged along. Nobody passed on an excuse to visit the Main House.
+The Main House is a ten-minute walk from the Stable House. Mark mentioned he would go over to the library and Purcell tagged along. Nobody passes on an excuse to visit the Main House.
 
 "What are we researching?", he asks as they leave the porch.
 
@@ -275,6 +267,7 @@ Mark was assigned as Lead Background Artist for /Loom/. Purcell will do animatio
 "...but, perhaps too much of an idealist. I can't believe /I'm/ saying this." In a sense, Moriarty is like him: they take their work very seriously, they are both driven by a desire to produce art. But Mark knows all too well that, despite his title, he isn't paid to make art. They pay him to produce backgrounds, conforming to a set of specifications. The art, he has to smuggle, in spite of the business. The Professor, on the other hand, seems committed to breaking new artistic ground, and operates as if everyone else shares his vision. Mark couldn't imagine any other company where they would give such a guy /carte blanche/ to make whatever game he wanted.
 
 # TODO lookup infocom descriptions, maybe one from a moriarty game
+# FIXME should the IF spoof be it's own section? it's kind of weird in the middle of this one without a break
 <They are standing in the hall of the Main House, <DESCRIBE ARCHITECTURE>. The east corridor leads to the solarium. To west corridor, leads to the restaurant. To the north is a large wooden door and, on each side, a staircase.
 
 <there's a stormtrooper here.>
@@ -293,9 +286,7 @@ They go north.
 
 "...or /Sam & Max/."
 
-"Or /Sam & Max/, sure,” Mark concedes.
-
-Purcell is on a mission to convince everyone there /could be/ a game based on his comic. If he plants the idea on enough heads, someone will eventually ask him to make one.
+"Or /Sam & Max/, sure,” Mark concedes. Purcell is on a mission to convince everyone there /could be/ a game based on his comic. If he plants the idea on enough heads, someone will eventually ask him to make one.
 
 "Well, I'd say it sounds like /Zork/, obviously... and /King's Quest/?"
 
@@ -547,6 +538,9 @@ when the Zak project was finished I sat down one morning and rendered a twilight
 #+end_quote
 
 <mosaic artist
+impressionist painter
+rough strokes of a van gogh self portraits
+
 assembly line
 
 #+begin_quote
@@ -574,6 +568,14 @@ The team of stained glass artisans took six months to build the 19-foot dome. It
 
 With the dome installed, the library took on a new look. The warm redwood and sensuous curves and details were continuously bathed in the amber light from the dome. Books from Hollywood studios’ abandoned research libraries were purchased and began to fill the shelves. The spiral staircase led to the upper balcony with a door into George’s inner office. This was his library.
 #+end_quote
+
+#+begin_quote
+Already the displacement
+of one's thought-child
+is not only conceived,
+but scheduled.
+#+end_quote
+
 
 *** tasks                                                          :noexport:
 
@@ -703,3 +705,12 @@ no more rebels, just stormtroopers
 no more lucky breaks.
 
 Memo: /Our new Home!/
+
+he'll start with the landing site
+the c64 version is so brown and plain, it looks like clay pyramids and mud lake
+he was less tied by the old backgrounds here, and less tied by reality
+for the first time he could connect with the fantasy and scifi work were he was most comfortable with
+
+Before his work was derived from the c64 originals, largely limited to delineating shapes and picking a few colors to fill them.
+
+He keeps the experiment to himself. He doesn't want Gary or the programmers see it before it's ready; he wants it to catch them off-guard. When it's done, Mark saves it to a floppy disk, goes over to Ron's desk, and hands it to him.
