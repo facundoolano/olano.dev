@@ -324,22 +324,20 @@ The Games Group people walk back to the Stable House, excited about the film, di
 <br/><br/>
 #+end_export
 
-Some times The Professor gives Mark and Purcell story prompts and asks for concept art in return, but more often than not he wants /them/ to come up with stuff he can use for inspiration, based on the short treatment document he handed them and the /Sleeping Beauty/ reference material. This is Mark's first proper illustration work in two years.
+Some times The Professor gives Mark and Purcell story prompts and asks for concept art in return, but more often than not he wants /them/ to come up with stuff he can use for inspiration, based on the reference material and a short treatment document he handed to them. This concept art is Mark's first illustration job since he joined the company, two years ago.
 
-He pulled everything he could get from the library on Disney, Eyvind Earl, and medieval tapestries. He would play the movie on the Media Room of the Main House, frame-freezing to take notes and make sketches. Mark would deliver two or three drawings a week, using his now legendary pencil.  Most of the times, The Professor would come back with notes to refine an idea or a request to try again, but occasionally he would take a drawing and use it to write a piece of the story. In those cases The Professor would ask Mark to convert his illustration into a dithered EGA background, so he could wire it up in SCUMM and start experimenting with descriptions and dialog.
+He pulled everything he could get from the library on Disney, /The Sleeping Beauty/, Eyvind Earl, and medieval tapestries. He would play the movie on the Media Room, frame-freezing to take notes and make sketches. Mark delivers two or three drawings a week, using his now legendary pencil technique. Most of the times, The Professor comes back with notes to refine an idea, or a request to try again, but occasionally he takes a drawing and uses it to write a segment of the story. In those cases The Professor asks Mark to convert his illustration into an EGA background, one he can wire it up in SCUMM to start experimenting with descriptions and dialog.
 
-The Professor set up similar work streams for animation and programming and, most importantly, with the sound department. Music and sound would feature in /Loom/ more prominently than in any other LucasFilm game.
-which was convenient, since the Ranch housed the best sound engineering facilities in the world
-<for them, instead of Eyvind, it was tchaikovsky
-<much of the game's concept would be centered around the music of Tchaikovsky, just as in the film, so he suggested they explore its art style for the background art and the animations
+The Professor set up similar work streams for animation and programming and, most importantly, with the sound department. Music and sound will feature in /Loom/ more prominently than in any other LucasFilm game.
+Which is convenient, considering that the Ranch houses the best sound engineering facilities in the world.
+For the sound engineers, it's Tchaikovsky instead of Eyvind Earl.
 
-<Moriarty thought of games as a novel medium to produce art, and he wanted to use all of its materials to that end: sound, music, backgrounds, animation, story, and dialogs. He made sure everyone on the team picked up on his vision for the game and gave them freedom to figure out how to realize it with their tools.
-Coming from a rather lonely experience writing text adventures, he was betting on team collaboration to flourish to <unlock a deeper storytelling experience. This ideal would find its way into the story, with the protagonist visiting Guilds of Craftspeople over the course of the game.
+The Professor sees games as a novel art medium, and he wants to use all of its materials to that end: sound, music, backgrounds, animation, story, and dialog. He made sure everyone on the team picked up on his vision and gave them freedom to figure out how to realize it with their tools.
+Coming from a rather lonely experience writing text adventures, he's betting on collaboration to flourish to unlock this deeper storytelling experience. His so into this craftsmanship ideal that he put it into the story, with the protagonist visiting different Guilds over the course of the game.
 
-Mark would come up with the idea of using colors scheme to represent each guild, giving a distinct quality to each section of the game: the striking emerald of the Guild of Glassmakers, the softer pastoral greens of the Guild of Shepherds, the Stygian reds of the Guild of Blacksmiths and of course the lovely saturated blues and purples of the Guild of Weavers. This is a feat he imposes to himself, with the EGA colors allowing for one or two shades of each color, the rest having to be mocked with dithering and other palette tricks.
+Mark came up with the idea of using colors scheme to represent each Guild, giving a distinct quality to each section of the game: the striking emerald of the Guild of Glassmakers, the softer pastoral greens of the Guild of Shepherds, the Stygian reds of the Guild of Blacksmiths and the saturated blues and purples of the Guild of Weavers. This is a feat he imposes to himself, with the EGA colors allowing for one or two shades of each color, the rest having to be mocked with his palette tricks.
 
-The latest version of the SCUMM engine not only allowed for Mark's dithered backgrounds, but introduced character scaling to represent distances, allowing him to move away from the horizontal axis and add perspective to his scenes.
-For the first time he wouldn't be adapting someone else's rooms, he knew his tools and was free to push them to their limits to create whatever he could envision.
+The latest version of the SCUMM engine not only supports Mark's dithered backgrounds, but introduced character scaling to represent depth, allowing him to move away from the horizontal axis and add perspective to his scenes. For the first time he won't be adapting someone else's work. He knows his tools and is free to push them in whatever direction he envisions.
 
 #+begin_export html
 <br/><br/>
