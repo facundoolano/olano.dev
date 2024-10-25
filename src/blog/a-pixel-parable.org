@@ -226,11 +226,23 @@ this was... art. and now hi was annoyed that he couldn't put stuff like this in 
 
 takes a long lunch, when he gets back to his desk the divsion director and gilbert are discussing, why exactly doesn't dither compress? can't we do anything about this? art like this in our games would be a game changer, the differential people came expect from our films, now in the computer.
 
-# TODO: maybe some compression technical details
-
 a few weeks later he was informed that dithering was now supported. he realizes the programmers too have their own set of constraints, their own challenging puzzles they need to resolve to get some creative output from these machines
 
 the division head told him they would double down on dithering for the look and feel of the next game, that he would be lead artist for it. your <stock> just went up.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+<"Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships". This is how Ron described the concept for his pirate game.
+
+<A new Ron adventure was only second in anticipation to the advent of the /Star Wars/ license. He wanted this one to be the ultimate realization of his design philosophy. Which was, more or less, the Group's official design philosophy.
+
+<he even had a journal publish his "why adv suck"
+<mostly not applies to art, except for the "rewards part" that stuck with him
+
+< a /Pirates of the Caribbean/ disney ride spoof
+<it was his way of doing fantasy-like setting, without touching fantasy, which he hated
 
 #+begin_export html
 <br/><br/>
@@ -268,13 +280,7 @@ Mark was assigned as Lead Background Artist for /Loom/. Purcell will do animatio
 
 # TODO lookup infocom descriptions, maybe one from a moriarty game
 # FIXME should the IF spoof be it's own section? it's kind of weird in the middle of this one without a break
-<They are standing in the hall of the Main House, <DESCRIBE ARCHITECTURE>. The east corridor leads to the solarium. To west corridor, leads to the restaurant. To the north is a large wooden door and, on each side, a staircase.
-
-<there's a stormtrooper here.>
-
-<there's a crystal display case with Yoda in it here.>
-
-They go north.
+<They are standing in the hall of the Main House, <DESCRIBE ARCHITECTURE>. The east corridor leads to the solarium. To west corridor, leads to the restaurant. To the north is a large wooden door and, on each side, a staircase. <There's a stormtrooper here.> <There's a crystal display case with a Yoda model in it here.> They go north.
 
 "I mean, a fantasy game?" Purcell continues as they enter the Library, "/The Sleeping Beauty/? Tchaikovsky? Doesn't sound very LucasFilm to me."
 
@@ -309,42 +315,14 @@ They need to register before going in. The librarian asks them what's the purpos
 <br/><br/>
 #+end_export
 
+The memo supplied two separate but related pieces of news: LucasFilm secured the rights to make /Indiana Jones/ video games; they have six months to come up with a game based on the new entry Spielberg is shooting.
 
-# FIXME some for of this needs to be present, but it would be interesting to do it earlier. it could be separate from the indy section
-<"Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships". This is how Ron described the concept for his pirate game.
+Management assembles a team with their most experienced designers to lead the project, they pause development on /Monkey Island/ and /Loom/. This is supposed to be a quick and dirty one, no room for Mark's precious imagery and experimentation. He is relieved, if a little worried, that they let him continue his work on /Loom/ while most of his colleagues to switch to /Indiana Jones and the Last Crusade/.
 
-<A new Ron adventure was only second in anticipation to the advent of the /Star Wars/ license. He wanted this one to be the ultimate realization of his design philosophy. Which was, more or less, the Group's official design philosophy.
+The team gets a copy of the script and some early footage to go on. The designers struggle to make the game fit the script and still be playable and fun. They aren't sure how to keep it interesting to the majority of players that will already be familiar with the plot. Artists are similarly constrained by the footage and the production stills. Some of the folks even get to visit the set. Purcell comes back with a whip for "research purposes", which he incorporates to their afternoon sporting events. Someone borrows the Holy Grail and they take pictures drinking coffee from it.
 
-<he even had a journal publish his "why adv suck"
-<mostly not applies to art, except for the "rewards part" that stuck with him
-
-< a /Pirates of the Caribbean/ disney ride spoof
-<it was his way of doing fantasy-like setting, without touching fantasy, which he hated
-<that was just one of the ways he was different from The Professor
-
-<in parallel with loom, sounded like they were getting bigger. and Mark's dithered backgrounds would feature in both
-<Ron and Brian both had the player in mind, but they couldn't be more different in how they were approaching their games
-<ron popcorn + game design
-<brian fantasy + story telling
-<They were comic books to infocom's novels.
-<despite marketing desperation to sell them as interactive movies
-
-The memo supplied two separate but related pieces of news: LucasFilm secured the rights to make /Indiana Jones/ video games; they have six months to come up with an Indy game based on the new entry Spielberg is shooting.
-
-<the devs got a copy of the script and there were some screenings at the main house
-some of the folks even got to visit the set
-purcell came back with a whip for "research purposes", which they incorporated to their afternoon sporting activities
-and drank coffee from the <holy grail> cup
-
-mark was relieved, if a little worried, that they let him continue with loom while most of the people switched to indiana jones
-he was suspicious of IP games, he preferred originals
-he could see how the designers were struggling to make everything fit the movie script and still be playable
-nobody was sure what the interest could be if people already knew the plot
-from an artistic point of view it would've been restraining as well
-and they certainly weren't about to toy with his dithering stuff with such a tight deadline
-this was just a money making game
-
-The writing is on the wall. Once they lift the /Star Wars/ embargo, it's going to take a hell of an effort to prevent the suits from putting all hands on deck to milk Chewbacca.
+When Spielberg is done editing at the Ranch, they do a screening on the Art deco theater on the Main House.
+The Games Group people walk back to the Stable House, excited about the film, discussing the scenes that Spielberg cut but that's too late to remove from the game. Mark loved the movie but feels uneasy about the game. It feels rushed and derivative, all about the money. The writing is on the wall. Once they lift the /Star Wars/ embargo, it's going to take a hell of an effort to prevent the suits from putting all hands on deck to milk Chewbacca.
 
 #+begin_export html
 <br/><br/>
@@ -714,3 +692,13 @@ for the first time he could connect with the fantasy and scifi work were he was 
 Before his work was derived from the c64 originals, largely limited to delineating shapes and picking a few colors to fill them.
 
 He keeps the experiment to himself. He doesn't want Gary or the programmers see it before it's ready; he wants it to catch them off-guard. When it's done, Mark saves it to a floppy disk, goes over to Ron's desk, and hands it to him.
+
+
+<in parallel with loom, sounded like they were getting bigger. and Mark's dithered backgrounds would feature in both
+<Ron and Brian both had the player in mind, but they couldn't be more different in how they were approaching their games
+<ron popcorn + game design
+<brian fantasy + story telling
+<They were comic books to infocom's novels.
+<despite marketing desperation to sell them as interactive movies
+
+He is suspicious of IP games.
