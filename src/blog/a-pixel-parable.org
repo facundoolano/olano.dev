@@ -218,12 +218,14 @@ he would use dithering, and colors otherwise reserved for sprite characters, and
 
 if they tell him that dithering is off-limits, then he'll put in as much dithering in his personal work as he can.
 what's a good excuse to do this a lot? what type of background would call for a gradient of as many colors as one can think of? A sunset.
-<TODO lookup details about this sunset in the interviews
 <starry night?
+# I sat down one morning and rendered a twilight scene with a rising moon and stars over receding oak covered Hills all rendered smoothly and subtly and dithered EGA graphics then in silent protest I simply left a picture up on my monitor
+# twilit moonrise
+
 # FIXME maybe too much stress in the martian background that should be here instead
 # consider at least calling it back
 
-this was... art. and now hi was annoyed that he couldn't put stuff like this in the game. he set it as a screensaver in his computer to send a passive-aggressive message, a kind of protest---against no one in particular, no one in his team, anyway. Ge was protesting Turing and Von Neumann and George Lucas and Ronald Reagan, for making it so damn hard to make art for a living.
+this was... art. and now he was annoyed that he couldn't put stuff like this in the game. he set it as a screensaver in his computer to send a passive-aggressive message, a kind of protest---against no one in particular, no one in his team, anyway. Ge was protesting Turing and Von Neumann and George Lucas and Ronald Reagan, for making it so damn hard to make art for a living.
 
 takes a long lunch, when he gets back to his desk the divsion director and gilbert are discussing, why exactly doesn't dither compress? can't we do anything about this? art like this in our games would be a game changer, the differential people came expect from our films, now in the computer.
 
@@ -455,62 +457,8 @@ The road proceeds, then ends abruptly, an abandoned flooring job. The car rides 
 *** quotes                                                         :noexport:
 
 #+begin_quote
-I feel the stage sets we rendered as best we could for those earlier games conveyed all sorts of personal artistic style and evocative atmosphere, while most of the 3d game environments that came after them seemed almost universally airless, lightless, and rendered in such a uniform 'algorithmic' art style.
-
-I think we lost things---important things--- whenever accelerating technological fixes and agendas overtook, and to some extent eclipsed, human creative navigation and intent.
+hiking up to the observatory after a long day at the office to do another sort of stargazing
 #+end_quote
-
-#+begin_quote
-had chosen to center his film-making operation in Northern rather than Southern California, much closer to Silicon Valley than to Hollywood.
-
-Lucasfilm, the owner of Star Wars, had a games division that wasn’t allowed to make Star Wars games
-
-“We’re trying to produce an experience that’s like being part of a film, rather than just being part of a game.
-#+end_quote
-
-#+begin_quote
-he Games Group got moved from their nondescript offices in San Rafael to nearby Skywalker Ranch, the “filmmaker’s retreat” at the very heart of George Lucas’s empire. They were housed in an ornate structure of Victorian brick called the Stable House, with crackling fireplaces in almost every room. Later, old-timers would tell newcomers stories of the Games Group’s time at Skywalker Ranch, which would last for just a few years, like legends from before the Fall: catching a sneak preview of a new David Lynch film in the company of Lynch himself in the Ranch’s beautiful 300-seat art-deco theater; hanging out on a regular basis with Steven Spielberg, who wanted to play everything the Games Group had in development every time he stopped by, sometimes for hours at a stretch; playing softball on the Ranch’s gorgeously manicured field with rock star Huey Lewis; hiking up to the observatory after a long day at the office to do another sort of stargazing; eating gourmet lunches every day at the Ranch’s restaurant for $5 a pop.
-
-providing production services to the film industry (Industrial Light and Magic, Skywalker Sound) and making mass-market entertainments. The old Computer Graphics Group that had awkwardly spawned the Games Group still hadn’t really proved themselves to belong in the former category, while the Games Group, at least if you squinted just right, pretty much did belong in the latter. Thus, while the Games Group got to remain at Lucasfilm, the Graphics Group in February of 1986 was spun off to a collection of investors that included many of their own current personnel as well as, as ringmaster of the whole proceeding, Steve Jobs
-
-Soon the old Games Group represented the only significant hacker presence left at Lucasfilm. It was during this period of colossal change that George Lucas took rare personal notice of Games for long enough to deliver his most oft-quoted piece of advice to Steve Arnold: “Stay small, be the best, don’t lose any money.” This commandment has often been taken to represent a sort of creative carte blanche for Arnold and his charges. Taken in the context in which it was uttered, however, it’s probably better seen as a warning. The Games Group was free to continue to trade on the Lucasfilm name and enjoy their gourmet lunches at the company cafeteria, but they’d have to start paying their own way from here on. Should they fail at that, their rope would not be a long one, for Lucas had little personal investment in their work.
-
- Driving much of the design was a philosophy that adventure games should be friendlier, less tedious, and much less deadly than was the norm from competitors like Sierra.
-
-the big neo-Victorian “Main House” at Skywalker Ranch. The spiral staircase inside the library in Maniac Mansion is lifted straight from the “filmmaker’s research library” in the Main House.
-#+end_quote
-
-#+begin_quote
-a mandate came down from Lucasfilm Games’s parent company’s management: they wanted an adventure game to go with the upcoming film Indiana Jones and the Last Crusade. Such a mandate was unusual for the privileged little artists’ enclave that still was Lucasfilm Games at this time,
-
-  Some start using it as a defense mechanism only after being slapped in the face by the game a few times, the rest just stop playing.
-
-   major corporate reorganization was in progress at Lucasfilm, which saw the games division given far more resources — their personnel roll grew from about 25 to more than 100 between 1989 and 1991 — but also given much closer supervision. They would now be expected to justify each of their projects to the accountants. This transformation of Lucasfilm Games from sideline to major profit center was by no means viewed as a comprehensively bad thing by everyone working inside the games division — it did after all lead to them finally being let loose on the Star Wars intellectual property, something they’d been wishing for for years — but it would change the character of the place and the games that came from it forever.
-#+end_quote
-
-#+begin_quote
-This committee approach to the game’s design is typical of the workaday nature of the project as a whole. The designers were given a copy of the movie’s shooting script, and were expected not to deviate too much from it. Ron Gilbert, a comedy writer by disposition and talent, found the need to play it relatively straight particularly frustrating, but it seems safe to say that all of the designers’ creative instincts were somewhat hemmed in by the project’s fixed rules.
-
-if you’ve seen the movie — and it seemed safe to assume that just about everybody who played the game had seen the movie — what’s the point in walking through the same story again in game form? The
-
-Those changing circumstances would prove a not-unmixed blessing for them, forcing them to move out of the rustic environs of Skywalker Ranch and shed much of the personality of a quirky artists’ collective for that of a more hard-nosed media enterprise. On the other hand, at least they’d finally get to make Star Wars games…
-#+end_quote
-
-#+begin_quote
-when the Zak project was finished I sat down one morning and rendered a twilight scene with a rising moon and stars over receding oak covered Hills all rendered smoothly and subtly and dithered EGA graphics then in silent protest I simply left a picture up on my monitor
-#+end_quote
-
-<mosaic artist
-impressionist painter
-rough strokes of a van gogh self portraits
-
-assembly line
-
-#+begin_quote
-it was my first time drawing with a mouse. i'm a traditional guy, so I like to draw with a pencil. So for me to try to drawn with a potato in my hand, and then, look up on a screen, and the pixels are the size coasters
-#+end_quote
-
-observatory
 
 #+begin_quote
 The Skywalker Ranch Research Library is not your typical library. Yes, it is filled with books, but also much more than that. It houses an impressive collection of research materials curated specifically to assist in the filmmaking process.
@@ -532,19 +480,11 @@ The team of stained glass artisans took six months to build the 19-foot dome. It
 With the dome installed, the library took on a new look. The warm redwood and sensuous curves and details were continuously bathed in the amber light from the dome. Books from Hollywood studios’ abandoned research libraries were purchased and began to fill the shelves. The spiral staircase led to the upper balcony with a door into George’s inner office. This was his library.
 #+end_quote
 
-#+begin_quote
-Already the displacement
-of one's thought-child
-is not only conceived,
-but scheduled.
-#+end_quote
-
-
 *** tasks                                                          :noexport:
 
-**** TODO wrap up crunch scene
 **** TODO flesh out library description
 **** TODO flesh out adventure segment
+**** TODO wrap up crunch scene
 **** TODO cleanup chunks
 **** TODO flesh out remaining placeholders
 **** TODO review remaining TODOs and FIXMEs
@@ -552,128 +492,25 @@ but scheduled.
 
 *** chunks                                                         :noexport:
 https://i.pinimg.com/originals/53/b1/f1/53b1f1a0961866d25ed578d345945dd4.jpg
-https://cdn.mobygames.com/screenshots/15832026-zak-mckracken-and-the-alien-mindbenders-amiga-the-martian-landin.png
-https://cdn.mobygames.com/screenshots/7743063-zak-mckracken-and-the-alien-mindbenders-commodore-64-the-landing.png
 
 http://iveneverdonethat.com/blog_files/skywalkerranch.html
 
-But it doesn't take him long to become productive. That is, to work out usable backgrounds fast enough to meet the developers expectations, which are lower than his own.
-
-<There's little room for the sort of creativity that stems from impulse and experimentation (but much from constraints, pushing the boundaries, happy accidents that lead to innovation
-it gets better as /he/ gets better, more familiar with the tools; once he grasps what are his materials and what their capabilities and limitations, he can start using them to his advantage---work around and step on the constraints and push himself to be creative as with any art and any material, just like does with pencil and paper.
-
 <The one time Lucas showed his face in the Stable House, he said to the director: “Stay small, be the best, don’t lose any money.” That became their gospel, an easy way to answer the question /what would George want us to do?/,an easy way to settle arguments and make design decisions---and an evergreen source of jokes.
-
-Purcell is quoting Lucas's only ever command to the Games Group: /stay small, be the best, don't loose any money/. Sometimes abridged as: /don't lose money, don't embarrass George/.
-
 <the only part of this that affected him, Mark thought, was /be the best/, and that was how he intended to operate anyway, he didn't need a manager to tell him. he left to the suits, though, to figure out how his work and that of his teammates was supposed to be connected to the money making.
-
-his goal was to produce art and get paid for it, so he give as little thought as possible to the needs of the project and the business.
-it's convenient that they don't expect much from him, because not only he isn't satisfied with his production and it doesn't come close to art, he still feels he has a long way to go to tame the computer, the mouse, the pixels, the palette, and the drawing program.
-
-<Mark developed his own style with the dithering, something he would teach others how to do. He wants to show how he does his thing, but not be prescriptive, allowing other artists to figure out their own style
-
-<TODO: maybe, start with them playing wishbringer.
-"we're doing research"
-"what are you researching"
-"brian moriarty"
 
 Mark had tried one of their games. while he was impressed by the thorough descriptions and the setting---it was like they made him the protagonist of a fantasy novel---he was quickly frustrated by the complicated gameplay and all the typing it involved. It was like the complete opposite of everything Ron and Gary were trying to do with the graphic adventures. They were comic books to infocom's novels. <despite marketing desperation to sell them as interactive movies
 
-<Before meeting him, Mark feared that his previous experience with from text games would make him dismiss graphic work, but Mark quickly realized that Moriarty was of his kin.
-
-there was a librarian but, even he wasn't a book person, he preferred to browse around and find things by himself
-the library, perhaps along the art deco theater, is the most impressive indoors location of the ranch
-Mark would occasionally look up allegedly to the dome, but it was actually to look at Lucas's office door
-
 <purcell joked that you would go blind if you stared at Mark's screen for too long
 
-<brian asks Mark to illustrate the box of loom
-this was an unusual ask, since Purcell did most of the covers of the other games
-but Brian wanted Mark, as a sort of <tribute> since he felt it was Mark's work what defined the art style of the game
-he had asked Mark to show him some of this work and was impressed by his colored pencil illustrations, so he asked mark to do it
-it felt weird for mark, translating the mood of the game, so determined by the blue shades of the EGA backgrounds, to the
-a photo realistic drawing he felt was at odds with the primitive art in the game, but Brian seemed to like it
-now that Marks is holding the game box in his hands, seeing his work live for the first time---this he could hold and touch, it was much more alive than his work on the screen---, only now he realizes that this is the first time he got paid for a traditional work of art.
-
-it was mostly a game design thing, it didn't affect the graphics, didn't directly affect him, but it was Ron's version of /being the best/ and Mark just felt he should follow suit and apply everything he'd been learning so far and push it to the next level
-
-all his favorite people were in this team
-
-They give him freedom to figure out the game backgrounds, handing him a short list of room requirements and hotspots and no other game context. as long as he meets them he can do whatever he wants.
-where brian had been obsessed with story telling, ron was obsessed with gameplay, with the game being fun---and funny. nobody but him really got a clear picture of the entire game, but everyone took part of the brainstorming sessions
-his water cooler jokes make it to the dialog of the game.
-
-player reward -> new areas of the game (new backgrounds)
-
-the game was bigger and would feature more rooms than previous ones. they had people working for different parts in parallel, which at some point showd that they werent keeping a consistent style across the game
-
-<something special about this new team and this new game
-they were having so much fun with this one, and that stimulated them to try harder and do better, that surely had to show in the final thing
-
-the fact that everyone seemed to be doing so good at their thing and they felt collectively creative made him assume the work was going to be good. the fact that management asked for a sequel right away he took as the confirmation. on the other hand, Loom, which was supposed to be a trilogy, didn't get a second entry and The Professor was too burned out to fight for one.
-
-- 50 meg? what are we supposed to do with all of this space?
-- it's the first time he sets up his own computer, and he is surprised to notice he doesn't need much help from those around him
-- but the news wasn't the disk space, it was the VGA cards and monitors
-- at first it seemed like his independence day, free at last from his 16 color jail
-  every dithering stretch he could remember doing for /Loom/ and /Monkey Island/ would be unnecessary with this palette.  anything he may ever need seemed to be contained by these new 256 colors
+every dithering stretch he could remember doing for /Loom/ and /Monkey Island/ would be unnecessary with this palette.  anything he may ever need seemed to be contained by these new 256 colors
   as was often the case when he is in between projects, he is free to spend his time however he sees fit.
   he decides to work on a new take of his legendary sunset landscape, to test drive the new palette. it would be a good way to try the DPaint gradients that were useless on VGA.
 but this little project would reveal a new form of anxiety: he doesn't know what he's doing anymore.
 
-<the engine was at its best
-the background art and animation they produced was the best in the industry
-<after having free reign to experiment in /Loom/, Mark felt like he mastered his materials,
-he knew its limitations and where there was room for letting his creativity flow
+/Loom/ was praised but considered too /avant garde/. Nobody asked The Professor for the sequels he had planned, and he was too burned out to fight for them.
 
-<loom received praise was considered too /avant garde/. nobody asked the professor for the sequels he had planned, and he was too burned out to fight for them
-
-Competent, boring specialist. And they got back the license for /Start Wars/. Most people were thrilled, but <Mark received the news as a death sentence.>
-
-- receives a memo about the rebrand
-- maybe
-- the mail also mentions something everybody knows about, like there was a "writing on the wall"/sword of Damocles hanging over their heads: the star wars embargo lift. most people loved star wars and couldn't be more excited about getting their hands on their property for a videogame. mark also loved the movie, but he struggled not to see that date as a death sentence for the creativity of the studio
-
-  - but now it meant that a lot of he had to learn, a lot of the craft he acquired, was now irrelevant
-<I don't know. I already learned how to do the mouse thing, this sounds like <back to square one>. Just another mediocre illustrator. Not <particularly young or productive>
-
-<People said Monkey marked a new beginning for LucasFilm games, but to Mark it felt more like a culmination of the process they started four or five years before. The tools were at their best and for the first time everybody, the designers and the artists, seemed to know exactly what they were doing. Mark is still no gamer, he doesn't play any of their games, he has no way of telling whether they turn out good. But they had such a good time working on this one that it doesn't come as a surprise to him when the executives order a sequel, the first one in the Group's history.
-
-his is still boxed in his desk? he didn't have the time to set it up and he wasn't going to use it for monkey anyway
-at leas that was the thought. mark feared he'd be lost choosing between 256 colors
-His palette choices aren't as relevant anymore, his scene planning <turns into> paralysis, he has to rethink his whole process.
-
-- he could see some of the new folks, don't even remember their names (I'm standing right here you know? it's Gene), working on VGA ports for their old games, some butchering ("enhancing" his loom and monkey island backgrounds.
-  - the results were more colorful, yes, but also less vivid, they lacked the personal style, the touch of the artist, that was lost in translation.
-  - each pixel on his dithered patterns was loaded with his intent, now dpaint did most of the thinking through a generic color gradient
-
-    he knows it doesn't get better than making adventure games at Skywalker Ranch, he won't get this thrill anywhere else, much less as a freelance artist, but he won't get it by staying, either, LucasFilm is gone, replaced by LucasArts
-
-    such a typical corporate move, rebranding to LucasArts just as they move them into an insurance office building full of cubicles, a bunch of boring technicians churning out Star Wars flight simulators
+such a typical corporate move, rebranding to LucasArts just as they move them into an insurance office building full of cubicles, a bunch of boring technicians churning out Star Wars flight simulators
 no more rebels, just stormtroopers
-no more lucky breaks.
-
-Memo: /Our new Home!/
-
-he'll start with the landing site
-the c64 version is so brown and plain, it looks like clay pyramids and mud lake
-he was less tied by the old backgrounds here, and less tied by reality
-for the first time he could connect with the fantasy and scifi work were he was most comfortable with
-
-Before his work was derived from the c64 originals, largely limited to delineating shapes and picking a few colors to fill them.
-
-He keeps the experiment to himself. He doesn't want Gary or the programmers see it before it's ready; he wants it to catch them off-guard. When it's done, Mark saves it to a floppy disk, goes over to Ron's desk, and hands it to him.
-
-
-<in parallel with loom, sounded like they were getting bigger. and Mark's dithered backgrounds would feature in both
-<Ron and Brian both had the player in mind, but they couldn't be more different in how they were approaching their games
-<ron popcorn + game design
-<brian fantasy + story telling
-<They were comic books to infocom's novels.
-<despite marketing desperation to sell them as interactive movies
-
-He is suspicious of IP games.
 
 <at first it felt like an independence day to mark they would be free at last from their EGA jail
 but now he wasn't sure how to adapt his work process to a 256 palette. it wasn't driven by the color planning anymore.
