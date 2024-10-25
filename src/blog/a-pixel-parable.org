@@ -358,24 +358,18 @@ He doesn't read it.
 <br/><br/>
 #+end_export
 
-# maybe describe the room? or the demonstration itself?
-The artists are gathered at the Technical Building with for a scanner demonstration. It's a little tray, like a Xerox machine, minus the printer. It's connected to a Macintosh computer. The scanner costs 10 times the computer, the guy said.
+# TODO maybe describe the room? or the demonstration itself?
+The artists are gathered at the Technical Building for a demonstration. The scanner is a little tray, like a Xerox machine, minus the printer. It's connected to a Macintosh computer. The scanner costs 10 times the computer, the speaker said.
 
-"This new guy, Peter, is doing this for the /Monkey 2/ backgrounds,” says Purcell, pointing to the machine.
+"This new guy, Peter, is scanning for his /Monkey 2/ backgrounds,” says Purcell.
 
-"Really?" Mark isn't on the /Monkey Island/ sequel.
+"Really?"
 
-# FIXME some of this, eg vga stuff, is already partially covered by the dialogue below
-<There was a lot of movement around the office during those final /Monkey Island/ weeks. Mark was just too deep in crunch mode to notice.
-They seem to be growing faster, one or two new employees starting every week. They will start a magazine to include in the game boxes. They interviewed Ron and <commissioned> Purcell for one of his comics.
-<Everyone got new PCs, with VGA cards and monitors.
-at first it felt like an independence day to mark they would be free at last from their EGA jail
-but now he wasn't sure how to adapt his work process to a 256 palette. it wasn't driven by the color planning anymore.
-These new computers felt like a career reset to him.
+There was a lot of movement around the office during those final /Monkey Island/ weeks. Mark was just too deep in crunch mode to notice. They seem to be growing faster, one or two new employees starting every week. They will are starting a magazine. They interviewed Ron for the first issue, and asked Purcell for one of his comics. Everyone's got new PCs, too, with VGA cards and monitors. /Monkey Island/ is getting a sequel, and Mark isn't in it.
 
-"The art is gorgeous, but it comes out all fuzzy on the other side of /that/.", he points to the scanner. "He has to go back and clean everything up in DPaint."
+"The art is gorgeous, but it comes out all fuzzy on the other side of /that/." Purcell points to the scanner. "He has to go back and clean everything up in DPaint."
 
-"He might as well do the whole thing in the computer."
+"He might as well do the whole thing in the computer, no?" says Mark.
 
 "He's no fan of the mouse, though."
 
@@ -391,9 +385,7 @@ These new computers felt like a career reset to him.
 
 "We're right here, you know?" someone mumbles at the back.
 
-Mark continues: "It felt like we were finally getting the hang of this, during /Monkey Island/. Now it's like starting all over."
-
-<People said Monkey marked a new beginning for LucasFilm games, but to Mark it felt more like a culmination of the process they started four or five years before. The tools were at their best and for the first time everybody, the designers and the artists, seemed to know exactly what they were doing.
+Mark continues: "It felt like we were finally getting the hang of this, during /Monkey Island/. Now it's like starting all over." People say that /Monkey Island/ is new beginning for LucasFilm Games, but to Mark it feels more like a culmination of the process they started four, five years ago. The tools were at their best and for the first time everybody, the designers and the artists, seemed to know exactly what they were doing.
 
 "A technology is always at its best right before it's obsolete, man", says Purcell.
 
@@ -403,7 +395,7 @@ Mark continues: "It felt like we were finally getting the hang of this, during /
 
 "Smart fella."
 
-He can already see it: after VGA and scanners it will be compact discs, or RGB color, or those 3D models they've been using over at the ILM basement. More colors, more space, more processing power, but also more complications, more time to master the tools. Forget about creativity or innovation, squeezing any art out of the machines, they'll be struggling just to stay competent. Before they know it, they'll be starting over with the next hot thing.
+He can already see it: after VGA and scanners it will be compact discs, or RGB color, or those 3D models they've been using over at the ILM basement. More colors, more space, more processing power, but also more complications, more time to master the tools. Forget about creativity or innovation, squeezing any art out of the machines. They'll be struggling just to stay competent. Before they know it, they'll be starting over with the hot new thing.
 
 #+begin_export html
 <br/><br/>
@@ -550,26 +542,13 @@ but scheduled.
 
 *** tasks                                                          :noexport:
 
-**** TODO design documents
-https://grumpygamer.com/maniac_mansion_design_1
-https://grumpygamer.com/puzzle_dependency_charts
-https://grumpygamer.com/even_more_monkey_island_design_scribbles
-https://grumpygamer.com/rtmi_pdc
-https://grumpygamer.com/stuff_and_things_and_monkey_island
-https://grimfandango.network/media/Grim_Fandango_Puzzle_Document.pdf
-
-**** DONE review the adventurer issues
-CLOSED: [2024-10-19 Sat 21:35]
-https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2003%20Fall%201991/page/n1/mode/2up
-https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2002%20Spring%201991/page/n3/mode/2up
-https://archive.org/details/lucasarts-the-adventurer--magazine-complete/The%20Adventurer%2C%20Issue%20No.%2001%20Fall%201990/page/n1/mode/2up
-
-**** TODO experiment with dpaint
-**** TODO exploration scene?
-e.g amusement park, monkey island style
-**** TODO cleanup quotes
-CLOSED: [2024-10-05 Sat 13:52]
-
+**** TODO wrap up crunch scene
+**** TODO flesh out library description
+**** TODO flesh out adventure segment
+**** TODO cleanup chunks
+**** TODO flesh out remaining placeholders
+**** TODO review remaining TODOs and FIXMEs
+**** TODO cleanup quoutes
 
 *** chunks                                                         :noexport:
 https://i.pinimg.com/originals/53/b1/f1/53b1f1a0961866d25ed578d345945dd4.jpg
@@ -695,3 +674,7 @@ He keeps the experiment to himself. He doesn't want Gary or the programmers see 
 <despite marketing desperation to sell them as interactive movies
 
 He is suspicious of IP games.
+
+<at first it felt like an independence day to mark they would be free at last from their EGA jail
+but now he wasn't sure how to adapt his work process to a 256 palette. it wasn't driven by the color planning anymore.
+These new computers felt like a career reset to him.
