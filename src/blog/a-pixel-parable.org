@@ -5,6 +5,7 @@ layout: post
 lang: en
 tags: [videogames, software, fiction]
 draft: true
+excerpt: An imagined town is at least as real as an actual town.
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
@@ -182,7 +183,7 @@ Ron sticks the floppy in his computer and loads the image. He waits for the frin
 
 "Compress?"
 
-"Those little patterns there, you can't do that, that will take too much space."
+"These noisy patterns here, you can't do that, that will take too much space."
 
 He's been doing this for months and still can't tell when it's right. It's like computers have a bunch of rules that everyone but him knows about. And the programmers, too, come with their own rules, they are another kind of machine that he needs to poke about until something works.
 
@@ -193,45 +194,27 @@ In these situations, Gary gets into the little technical details, not because he
 <br/><br/>
 #+end_export
 
-His bodily reaction to screen time is somehow connected with sleep deprivation. At first, pulling 6 or 8 straight hours in front of the computer seemed to burn him out, but after 10 or 12 he doesn't really care, he just keeps going until he passes out on the keyboard.
+His bodily reaction to screen time is somehow connected with sleep deprivation. At first, pulling 6 or 8 straight hours in front of the computer seemed to burn him out, but after 10 or 12 he doesn't really notice anymore, he just keeps going until he passes out on the keyboard.
 
-<everyone warned him there was going to be crunch time when they got closer to the release date
-<Here's the thing about deadlines: everybody knows they won't make the first one or two deadlines, and that's fine, but also everyone accepts that they'll miss them in crunch mode, if anything to keep up appearences
-mark defaulted to a belligerent attitude towards authority and thus was, in principle, against overtime and having to meet executive demands and meet deadlines
-but, also, he didn't really mind the effort.
-he never once lost sight that
-he was getting paid to be an artist---even though he didn't felt these computer drawings were there yet---
-he was paid handsomely, more than every other job he ever had (more than both of his parents combined)
-he was having fun, he respected his teammates,
-he was working at geek disneyland,
-<most people would continue to show up every day even if they cut their pay checks
+They warned him there was going to be crunch time when they got closer to the release date. "Here's the thing about deadlines," David said: "everybody knows we won't make the first one or two, and that's fine. Nobody really cares. As long as they look out to the hallway and see some glow coming out of the offices, they'll leave us alone."
 
-he was already used to working late, in the quite months they would take long lunches or hikes through the hills or they would toss a softball around in the field out back, so they ended up working late to make up for the time
-most of the people on the team was in their early twenties so they didn't have anywhere better to be anyway
+Mark defaults to a belligerent attitude towards authority so he is, in principle, against overtime, deadlines, and any other management demand. But he doesn't really mind the effort. Never once he loses sight from the fact that he's paid handsomely to make pretty pictures. He may be no artist, but he wasn't at any of his previous jobs, either. Nor did he get to eat gourmet meals, play catch on the field, or hang around in geek Disneyland. Everyone at the office is used to working late, anyway. They just need to pause the afternoon recreations until the game ships.
 
-so as the project deadlines arrived, they just kept working late, only skipping the long breaks during the day.
+During those crunch days he gets into the habit of taking breaks without leaving the computer. Instead of taking a walk, or a nap, or grabbing his sketchbook, he just keeps drawing on DPaint. He saves the picture he's working on, saves  again with a different name, clicks the CLR button, then saves again. And then he's not at work anymore. He doodles absently. Or he loads one of his own pictures. Anything to distract him from those flat and blocky /Zak/ backgrounds he's been staring at all day.
 
-weekends at the ranch, though, were off-limits. they would let him take his computer back home on fridays to work during the weekend
+They told him that dithering is forbidden, so he's been abusing it on his personal projects. It's a form of stress relief. What's a good excuse to put as much dithering as possible on a single picture? What type of image calls for a gradient of as many colors as one can squeeze out of the EGA palette? He remembers a sunset he saw once at the Ranch, a rainbow-colored sky that seemed to spill onto the hills. And then he thinks of how bright the moon and the stars looked that time at the Observatory. The /Wheatfield with Crows/ and /The Starry Night/ come to mind, with all the punch Van Gogh managed to pack in those rough, almost childlike brushstrokes, using a handful of strange colors.
 
-during this periods he got used to taking breaks from the works without getting away from the computer. he always kept one or two personal illustrations on the side, where he <got off> from all the restrictions that the game backgrounds imposed on him
-he would use dithering, and colors otherwise reserved for sprite characters, and unconventional image dimensions
+With all of that in his shaker, he places a line for the horizon. And he piles layers of receding hills. Then he cobbles together a couple of new brushes and plants the hills full of oak trees. He adds a rising moon and starts on a twilight sky. He has to figure out how the light should project on every fragment on screen. In his old /Zak/ background, the idea of Mars forced the reds on him. He was pulled into fire, sulfur, and rust. But here, the theme is day and night, and all forms of light: no pair of colors can fall out of place on this scene. He starts by placing broad patches and fringes, then he tears them apart with dithered brushes, as if burning scraps of paper with a lighter. Wherever he finds a stretch of same-colored pixels, he stops to think how to break it apart. He wants this to be the least-compressible image in computing history.
 
-if they tell him that dithering is off-limits, then he'll put in as much dithering in his personal work as he can.
-what's a good excuse to do this a lot? what type of background would call for a gradient of as many colors as one can think of? A sunset.
-<starry night?
-# I sat down one morning and rendered a twilight scene with a rising moon and stars over receding oak covered Hills all rendered smoothly and subtly and dithered EGA graphics then in silent protest I simply left a picture up on my monitor
-# twilit moonrise
+He works on this twilight scene for minutes at a time, for days in a row. And when /Zak/ is finally done and he enters that weird purgatory in between projects, he turns it into his full-time job to make this picture as good as he can. And he makes it good. And he makes it art. He subverts his materials, just like he used to do with his pencil drawings, them into them paintings. It takes a lot of attention to notice these are just 16 colors, the same old 16 colors.
 
-# FIXME maybe too much stress in the martian background that should be here instead
-# consider at least calling it back
+Before, the limitations of the computer annoyed him. Now that he leaped over them, he's annoyed to see that a computer can produce art, that /he can make the computer/ produce art, and yet he is not allowed to use it in a video game, he's supposed to shelve it.
 
-this was... art. and now he was annoyed that he couldn't put stuff like this in the game. he set it as a screensaver in his computer to send a passive-aggressive message, a kind of protest---against no one in particular, no one in his team, anyway. Ge was protesting Turing and Von Neumann and George Lucas and Ronald Reagan, for making it so damn hard to make art for a living.
+The day after it's finished, he puts the picture up as his screen saver, in silent protest, and leaves for lunch. He's protesting against no one in particular, no one in his team, anyway. He's protesting Turing and Von Neumann, ands George Lucas, and Ronald Reagan, for making it so damn hard to put art in video games---and to make art for a living.
 
-takes a long lunch, when he gets back to his desk the divsion director and gilbert are discussing, why exactly doesn't dither compress? can't we do anything about this? art like this in our games would be a game changer, the differential people came expect from our films, now in the computer.
+When he gets back, Ron and David are having a heated discussion in front of his desk. Why exactly is it that dither can't compress? Is there /really/ nothing they can do about it? Would this be worth the extra disk space? They can't afford not to put this kind of stuff in their games. This is LucasFilms material.
 
-a few weeks later he was informed that dithering was now supported. he realizes the programmers too have their own set of constraints, their own challenging puzzles they need to resolve to get some creative output from these machines
-
-the division head told him they would double down on dithering for the look and feel of the next game, that he would be lead artist for it. your <stock> just went up.
+A week later, David tells Mark that it turns out that dithering is very hard /but not impossible/ to compress. And that Ron is already working improving their SCUMM engine to do it. This is now /his/ puzzle to solve. Mark will get to use dithering on his next project. In fact, until further notice, Mark's dithered backgrounds are the official house style. His stock just went up.
 
 #+begin_export html
 <br/><br/>
@@ -276,7 +259,7 @@ Mark was assigned as Lead Background Artist for /Loom/. Purcell will do animatio
 
 "...but, perhaps too much of an idealist. I can't believe /I'm/ saying this." In a sense, The Professor is like him: they take their work very seriously, they are both driven by a desire to produce art. But Mark knows all too well that, despite his title, he isn't paid to make art. They pay him to produce backgrounds, conforming to a set of specifications. The art, he has to smuggle, in spite of the business. The Professor, on the other hand, seems committed to breaking new artistic ground, and operates as if everyone else shares his vision. Mark couldn't imagine any other company where they would give such a guy /carte blanche/ to make whatever game he wanted.
 
-"I mean, a fantasy game?" Purcell continues as they <cross the hall>, "/The Sleeping Beauty/? Tchaikovsky? Doesn't sound very LucasFilm to me."
+"I mean, a fantasy game?" Purcell continues as they walk across the hall, "/The Sleeping Beauty/? Tchaikovsky? Doesn't sound very LucasFilm to me." They pass by a stormtrooper and a crystal display case with a Yoda model inside.
 
 "I like a good fantasy", says Mark.
 
@@ -287,8 +270,6 @@ Mark was assigned as Lead Background Artist for /Loom/. Purcell will do animatio
 "...or /Sam & Max/."
 
 "Or /Sam & Max/, sure,” Mark concedes. Purcell is on a mission to convince everyone there /could be/ a game based on his comic. If he plants the idea on enough heads, someone will eventually ask him to make one.
-
-They pass by a stormtrooper and a crystal display case with a Yoda model inside.
 
 "Well, I'd say it sounds like /Zork/, obviously... and /King's Quest/?".
 
@@ -455,17 +436,17 @@ The road proceeds, then ends abruptly, an abandoned flooring job. The car rides 
 
 *** quotes                                                         :noexport:
 
-#+begin_quote
-hiking up to the observatory after a long day at the office to do another sort of stargazing
-#+end_quote
-
 *** tasks                                                          :noexport:
 
 **** TODO wrap up crunch scene
+**** TODO review crunch scene
+**** TODO apply proofread corrections
+**** TODO proofread again
 **** TODO cleanup chunks
+**** TODO grammar
 **** TODO flesh out remaining placeholders
 **** TODO review remaining TODOs and FIXMEs
-**** TODO cleanup quoutes
+**** TODO cleanup quotes
 
 *** chunks                                                         :noexport:
 https://i.pinimg.com/originals/53/b1/f1/53b1f1a0961866d25ed578d345945dd4.jpg
@@ -492,3 +473,11 @@ no more rebels, just stormtroopers
 <at first it felt like an independence day to mark they would be free at last from their EGA jail
 but now he wasn't sure how to adapt his work process to a 256 palette. it wasn't driven by the color planning anymore.
 These new computers felt like a career reset to him.
+
+in the quite months they would take long lunches or hikes through the hills or they would toss a softball around in the field out back, so they ended up working late to make up for the time most of the people on the team was in their early twenties so they didn't have anywhere better to be anyway
+
+so as the project deadlines arrived, they just kept working late, only skipping the long breaks during the day.
+weekends at the ranch, though, were off-limits. they would let him take his computer back home on fridays to work during the weekend
+
+<They were working at geek Disneyland,
+<you could do a salary freeze and people would continue to show up every day for months
