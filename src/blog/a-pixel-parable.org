@@ -276,11 +276,7 @@ Mark was assigned as Lead Background Artist for /Loom/. Purcell will do animatio
 
 "...but, perhaps too much of an idealist. I can't believe /I'm/ saying this." In a sense, The Professor is like him: they take their work very seriously, they are both driven by a desire to produce art. But Mark knows all too well that, despite his title, he isn't paid to make art. They pay him to produce backgrounds, conforming to a set of specifications. The art, he has to smuggle, in spite of the business. The Professor, on the other hand, seems committed to breaking new artistic ground, and operates as if everyone else shares his vision. Mark couldn't imagine any other company where they would give such a guy /carte blanche/ to make whatever game he wanted.
 
-# TODO lookup infocom descriptions, maybe one from a moriarty game
-# FIXME should the IF spoof be it's own section? it's kind of weird in the middle of this one without a break
-<They are standing in the hall of the Main House, <DESCRIBE ARCHITECTURE>. The east corridor leads to the solarium. To west corridor, leads to the restaurant. To the north is a large wooden door and, on each side, a staircase. <There's a stormtrooper here.> <There's a crystal display case with a Yoda model in it here.> They go north.
-
-"I mean, a fantasy game?" Purcell continues as they enter the Library, "/The Sleeping Beauty/? Tchaikovsky? Doesn't sound very LucasFilm to me."
+"I mean, a fantasy game?" Purcell continues as they <cross the hall>, "/The Sleeping Beauty/? Tchaikovsky? Doesn't sound very LucasFilm to me."
 
 "I like a good fantasy", says Mark.
 
@@ -292,19 +288,22 @@ Mark was assigned as Lead Background Artist for /Loom/. Purcell will do animatio
 
 "Or /Sam & Max/, sure,” Mark concedes. Purcell is on a mission to convince everyone there /could be/ a game based on his comic. If he plants the idea on enough heads, someone will eventually ask him to make one.
 
-"Well, I'd say it sounds like /Zork/, obviously... and /King's Quest/?"
+They pass by a stormtrooper and a crystal display case with a Yoda model inside.
 
-"Ouch."
+"Well, I'd say it sounds like /Zork/, obviously... and /King's Quest/?".
+
+"Ouch," says Mark shockingly. He pushes one side of the big door.
 
 "Well, what do I know?” says Purcell, "I haven't played any of them."
 
 "Me neither."
 
-There's a counter at the entry of the library. <TODO describe: spiral staircase leading to the 2nd story and to Luca's office, stain glass dome
+The Research Library was the work of an amateur interior designer with unlimited budget: a crackling fireplace,
+leather couches, Tiffany Lamps. The redwood bookshelves continuously bathed by the amber skylight of a 19-foot stained glass dome. A spiral staircase---featured in /Maniac Mansion/---leading to the upper balcony and to Lucas's office door.
 
-They need to register before going in. The librarian asks them what's the purpose of their visit.
+There's a counter near the entrance. The librarian asks them what's the purpose of their visit.
 
-"We're looking for research material for /Loom/,” says Mark.
+"We're looking for research material for /Loom/,” Mark replies.
 
 "He's looking for research material for /Loom/. I'm looking for research material for /Sam & Max/.”
 
@@ -460,30 +459,8 @@ The road proceeds, then ends abruptly, an abandoned flooring job. The car rides 
 hiking up to the observatory after a long day at the office to do another sort of stargazing
 #+end_quote
 
-#+begin_quote
-The Skywalker Ranch Research Library is not your typical library. Yes, it is filled with books, but also much more than that. It houses an impressive collection of research materials curated specifically to assist in the filmmaking process.
-
-In addition to books, the Library contains documents, photographs, props, and other items that have been used in the development of Skywalker Sound projects.
-#+end_quote
-
-#+begin_quote
-contains an impressive collection of Art Nouveau furniture and fixtures. There are Tiffany lamps and original paintings by Norman Rockwell and Thomas Hart Benton. Under a stained glass skylight sit shelves of books relating to all aspects of film production. In addition to their own impressive collection, their holdings also include the Paramount Research Library and the Universal Research Library collections.
-#+end_quote
-
-#+begin_quote
-And to me, the shining star, the Lucas research library -a two story open atrium with books on every topic any writer, artist or musician could need to conceptualize a story. Ladders around the perimeter, a huge fireplace, and lush leather chairs and couches. On walking in, all I could think was something in my life has gone very right to have found that place - and something gone very wrong that I wasn't spending every day there.
-#+end_quote
-
-#+begin_quote
-The team of stained glass artisans took six months to build the 19-foot dome. It was comprised of 400 sheets of glass, finely sculpted into 49 separate panels.
-
-With the dome installed, the library took on a new look. The warm redwood and sensuous curves and details were continuously bathed in the amber light from the dome. Books from Hollywood studios’ abandoned research libraries were purchased and began to fill the shelves. The spiral staircase led to the upper balcony with a door into George’s inner office. This was his library.
-#+end_quote
-
 *** tasks                                                          :noexport:
 
-**** TODO flesh out library description
-**** TODO flesh out adventure segment
 **** TODO wrap up crunch scene
 **** TODO cleanup chunks
 **** TODO flesh out remaining placeholders
