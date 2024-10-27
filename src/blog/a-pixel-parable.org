@@ -411,7 +411,7 @@ He picks up the box. "This box is too full, I can't carry it like this." He puts
 
 The Honda Civic drives out of the underground garage and turns around the Stable House. Lake Ewok is glowing with the reflection of the sky, like a dithered EGA sunset. The car passes by the barn and the corral, then drives away from the security kiosk and onto the main road.
 
-A tall tree goes by, followed by two short ones. Then two short trees go by, followed by a tall one. Then there are no more trees. The hills give way into a plain, Californian unlikely, the Honda moving in front of the darker blue sky, now tallest and deprived of any texture.
+A tall tree goes by, followed by two short ones. Then two short trees go by, followed by a tall one. Then two short trees go by, followed by a tall one. Then there are no more trees. The car proceeds, the hills slowly receding into a plain, Californian unlikely, the darker blue sky, long deprived of any texture, taking their place.
 
 The road proceeds, then ends abruptly, an abandoned flooring job. The car rides on over generic green grass for a while, then reaches an edge and moves out of the picture. But not all of it. I can still make the trunk and the bumper, and a corner of a tire, sitting there, stationary.
 
@@ -456,7 +456,6 @@ whichever kind of gradient fill you choose, you can adjust its dither, the amoun
 #+end_quote
 *** tasks                                                          :noexport:
 
-**** TODO apply proofread corrections
 **** TODO proofread again
 **** TODO grammar
 **** TODO review remaining TODOs and FIXMEs
