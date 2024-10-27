@@ -44,9 +44,9 @@ Mark reads the card again, stops for a second to think what to say next. He need
 
 "That's alright," Gary replies, "we've had better results teaching artists how to program than programmers how to art. I'm not worried about that part."
 
-He drives back home that night, trying to make sense of what just happened. On his first weekend---on his first serious attempt as a professional illustrator---he's offered to interview for a job that he didn't even know existed five minutes before, but that he now thinks is undoubtedly his dream job---and one that he's terribly unqualified for.
+Driving back home that night, Mark tries to make sense of what just happened. On his first weekend---on his first serious attempt as a professional illustrator---he's offered to interview for a role that he didn't even know existed, but that he's now convinced must be his dream job---and one that he's terribly unqualified for.
 
-Mark calls his parents to share the news. His father, he now learns, has just bought a personal computer. That's his third lucky break.
+He calls his parents to share the news. His father, he now learns, has just bought a personal computer. That's his third lucky break.
 
 #+begin_export html
 <br/><br/>
@@ -55,11 +55,11 @@ Mark calls his parents to share the news. His father, he now learns, has just bo
 "What are you doing with this thing, anyway?" Mark is sitting in front of the computer, skimming the manual. The cover reads /Atari 520ST/.
 "The school made a deal for us to get them at half price. They say we should get /computer-literate/ if we want to have a job in five years." The voice comes through the doorway, then his father, leaning on the frame. "I figured I could use it for writing, but they have a different brand at school, so I can't print my files there. And I'm not buying a printer, so I don't see the point. You can have it if you want."
 
-"Let's see if I get the job, first." Mark continues reading the manual. "It says here there's a drawing program in there, 'NeoChrome'. Let's try that out." It takes them about 20 minutes to find the floppy disk and open the program---their first project since his father thought him how to change his oil over a decade ago. Then Mark switches to the NeoChrome manual. Another half hour later, Mark is dropping little green dots over a blue background.
+"Let's see if I get the job, first." Mark continues reading the manual. "It says here there's a drawing program in there, 'NeoChrome'. Let's try that out." It takes them about 20 minutes to find the floppy disk and open the program---their first project since his father thought him how to change his oil over a decade ago. Mark switches to the NeoChrome manual. Another half hour later, Mark is dropping little green dots over a blue background.
 
-For the next few evenings, Mark secludes himself in his old high school bedroom, getting familiar with this computer thing and its painting program. The little mouse feels like a potato, forcing his hand into a claw. Whenever he begins to feel that he's got the hang of it, that he can forget about the tool and focus on the task, whenever his eyes spark a connection between the image on the screen and the image on his brain, his hand jerks to grab a pencil, his phantom limb.
+For the next few evenings, Mark secludes himself in his old high school bedroom, getting familiar with this computer thing and its painting program. The little mouse forces his hand into a claw. Whenever he begins to feel that he's got the hang of it, that he can forget about the tool and focus on the task, whenever his eyes spark a connection between the image on the screen and the image on his brain, his hand jerks to grab a pencil missing like a phantom limb.
 
-He teaches himself to draw a single picture, a little African hut that he repeats over and over until he memorizes the procedure, which he will repeat a few days later to survive his interview.
+He manages to put together a little African hut picture, and teaches himself to reproduce it from scratch, repeating it over and over until he memorizes the procedure, which he executes a few days later to survive his interview.
 
 #+begin_export html
 <br/><br/>
@@ -73,19 +73,19 @@ Mark feels like throwing up.
 
 "I know, it's a lot,” Gary laughs. "Look, the only thing you need to know about this one is how to run the game. And for this one... You'll mostly just be using DPaint."
 
-Nobody around here really knows what they are doing, Gary reassures him, not even the programmers. They are all just trying to figure out what it means to tell a story in this new medium, in this new genre. What a video game worthy of LucasFilm should be like. There are no experts at /that/. "An artist perspective is what we expect you to bring to the table. The tools, you'll figure out. They change all the time, anyway."
+Gary reassures him, nobody around here really knows what they are doing, not even the programmers. They are all just trying to figure out what it means to tell a story with a computer. What a video game worthy of LucasFilm should be. There are no experts at /that/. "An artist's perspective is what we expect you to bring to the table. The tools, you'll figure out. They change all the time, anyway."
 
-They spend the next hour fiddling together with Deluxe Paint II, the drawing program for the PC. It's more or less the same as NeoChrome, but with more sophisticated brushes, or so Gary says. Mark notes the colors are fewer and uglier than the ones he saw in the Atari. "Oh, yeah. Those are the colors of your nightmares, starting tonight."
+They spend the next hour fiddling together with Deluxe Paint II, the drawing program for the PC. It's more or less the same as NeoChrome, but with more sophisticated brushes, or so Gary says. Mark notes the colors are fewer and uglier than the ones he saw on the Atari. "Oh, yeah. Those are the colors of your nightmares, starting tonight."
 
-After lunch, Ron sits with Mark to play /Maniac Mansion/, his B-horror adventure game. He shows Mark how to move around, how to talk with other characters, how to solve puzzles to make progress. /Maniac Mansion/ is a sort of blueprint of the kind of work they are trying to do. There's a newer game they've been working on, David's game, /Zak MacKracken/, but /Maniac Mansion/ is a gentler introduction. It's best if Mark just spends a couple of days playing it, to get the idea. Marks imposter syndrome kicks in now and again, and he apologizes for his dumb questions. He's no gamer, not even an arcade player. That's perfect, says Ron: they want to build something that just about anyone can pick up and have fun with.
+After lunch, Ron sits with Mark to play /Maniac Mansion/, his B-horror adventure game. He shows Mark how to move around, how to talk with other characters, how to solve puzzles to make progress. /Maniac Mansion/ is a blueprint of the kind of work they are trying to do. There's a newer game they've been working on, David's game, /Zak MacKracken/, but Ron says /Maniac Mansion/ is better to get started. It's best if Mark just spends a couple of days playing it. Mark's impostor syndrome kicks in and he apologizes for his dumb questions. He's no gamer, not even an arcade player. "That's perfect,” Ron says: "we want to build something that just about anyone can pick up and have fun with."
 
-He leaves the office with sore eyes from the computer screen and a headache from all the names and images shoved into his brain. He's relieved that no one's around to see him pull his Honda out of the underground garage. He slows down as he drives by the Main House, where they had lunch that day, a new building made to look old---not any old but period-specific old. He confirms that it looks just like the one they put in the game. He circles by the artificial lake and passes the barn, the corral, the vineyard. This little valley surrounded by green hills feels as otherworldly as one of his fantasy landscapes. Or a shot from /Star Wars/.
+He leaves the office with sore eyes from the computer screen and a headache from all the names and images shoved into his brain. He's relieved that no one's around to see him pull his Honda out of the underground garage. He slows down as he drives by the Main House, where they had lunch that day, a new building made to look old---not any old but period-specific old. He confirms that it looks just like the one they put in the game. He circles by the artificial lake and passes the barn, the corral, the vineyard. This little valley surrounded by green hills feels as otherworldly as one of his fantasy landscapes. As a shot from /Star Wars/.
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
-His first assignment is to port /Zak MacKracken/'s Commodore64 backgrounds to the EGA. David hands him a description of each location in the game. They call them /rooms/ even though some are outdoors---outer space, even. Each one has a short description and a list of "hotspots", the things the player can interact with: objects, doors, that kind of thing. Mark has to make sure that those remain visible on his ported backgrounds. Other than the list of rooms, the only design document is a huge puzzle chart posted on the wall, a sort of storyboard for programmers. Mark can't make sense of it, or the game, for that matter. /Zak MacKracken/ is bigger and more ambitious than /Maniac Mansion/; the work is more interesting, but the game is undecipherable to Mark.
+His first assignment is to port /Zak MacKracken/\’s Commodore64 backgrounds to the EGA PC. David hands him a description of each location in the game. They call them /rooms/ even though some are outdoors---outer space, even. Each one has a short description and a list of "hotspots", the things the player can interact with: objects, doors, that kind of thing. Mark has to make sure that those remain visible on his ported backgrounds. Other than the list of rooms, the only design document is a huge puzzle chart posted on a wall, a sort of storyboard for programmers. Mark can't make sense of it, or the game, for that matter. /Zak MacKracken/ is bigger and more ambitious than /Maniac Mansion/; the work is more interesting but the game is undecipherable to Mark.
 
 At first, he tries working from the original c64 bit maps, but that complicates things.
 Both are 16 color systems, but /not the same/ 16 colors, so swapping them is pixel Whac-A-Mole. He turns to redrawing the backgrounds from scratch. He sketches on his notebook to try options, he plots the pixel grid in graph paper and draws on acetate sheets that he then tapes to the monitor. He will try anything before moving to the computer, where nothing flows, where everything is clumsy and rigid as Lego building, and it's hard to tell whether something will work or even fit until it's almost done.
@@ -112,7 +112,7 @@ Black, dark gray, light gray, white, dark blue, light blue, cyan, yellow, mustar
 
 It's Mark's third week, and it's the first time he catches a glimpse of George Lucas. They usually only see him at the restaurant when he has visits. Gary and David are listing all the famous people they saw at lunch. Today it's Spielberg.
 
-"You'll understand, of course,” David turns to Mark, "that while it may seem as if they were right there across the room, we are not breathing the same air. We're worlds apart."
+"You'll understand, of course, that,” David turns to Mark, "while it may seem as if they were right there across the room, we are not breathing the same air. We're worlds apart."
 
 "Galaxies,” Gary suggests.
 
@@ -144,32 +144,32 @@ The owner doesn't care at all for video games. The existence of the games divisi
 
 That part Mark already knows, he learned it on his first week: LucasFilm Games doesn't have the rights to make LucasFilm games. No /Indiana Jones/, no /Star Wars/. Some toy company holds the license.
 They are expected to come up with original ideas for their games, which is both a blessing and a curse:
-they have the creative freedom but they must live up to the Lucas standards without the easy cash of his IP.
+they have the creative freedom to do what they want, but they must live up to the Lucas standards.
+And they have to pay the bills without the easy cash of his IP. "Don't lose money and don't embarrass George."
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
 The mouse, the pixels, the 16-color palette, the hotspots: those are the constraints he has to work with.
-One trick he discovered early on---a /hack/, programmers would say---was that, if he arranged pixels to form a checkerboard pattern, they would blend and bleed as he zoomed out on the computer screen. Much like the eyes finish the job as one steps back from an impressionist painting, the monitor melts the pixel mosaic into something richer than whatever the dull EGA palette was supposedly able to project. At first this is just an accidental observation, he doesn't make much of it. It's only when he starts working on a new batch of /Zak/ backgrounds that he finds himself coming back to those mixed pixels.
+One trick he discovered early on---a /hack/, programmers would say---is that, if he arranges pixels to form a checkerboard pattern, they will blend and bleed as he zooms the image out on the screen. Much like the eyes finish the job as one steps back from an impressionist painting, the monitor melts the pixel mosaic into something richer than what the dull EGA palette is projecting. At first this is just an accidental observation, he doesn't make much of it. It's only when he starts working on a new batch of /Zak/ backgrounds that he finds himself coming back to those mixed pixels.
 
-This section of the game takes place in Mars, a location Mark finds very provocative.
-Here he owes no loyalty to the muddy c64 backgrounds. The acid EGA palette seems strangely fitting. And he needs not abide reality here, he's safely into fantasy territory. He realizes he can weaponize the pixel blending artifact and turn this one of his classic sci-fi landscapes.
+This section of the game takes place in Mars, a location Mark finds very provocative. The acid EGA palette seems strangely fitting, here. He owes no loyalty to the muddy c64 backgrounds and he needs not abide reality, either: he's safely into fantasy territory. He realizes he can weaponize the pixel blending artifact and turn this into one of his old sci-fi landscapes.
 
 
-He settles quickly on a composition, a rocky horizon inspired by the Grand Canyon, sitting on top of a fiery desert and a pale sun, slightly displaced from the center of the screen. It's the palette that gives him more work, hours of trial-and-error to find the right color combinations and the right density of interleaved pixels for each figure, each boundary.
+Drawing from Red Rock and Grand Canyon photos, he easily settles on a composition: a fiery desert, a rocky horizon, and a pale sun, slightly displaced from the center of the picture. It's the palette that gives him the most work, hours of trial-and-error. He needs the right color combinations and the right density of interleaved pixels for each figure, each boundary.
 He wants the image to jump out of the screen; he wants the sky, and the sun, and the ground to bleed into each other distinctly---the sun to set the sky on fire and the earth to bed the ashes.
 
-It's not the original c64 background, nor the EGA palette, nor the hotspots list what mandate his work. It's not what he pictured in his head. It's the braid: each pixel born out of its predecessor, each one birthing the next. They boil with possibility, they serve no purpose but to carry intent.
+It's not the original c64 background, nor the EGA palette, nor the hotspots list what mandate his work. It's not what he pictured in his head. It's the braid: each pixel born out of its predecessor, each one birthing the next. The little squares boil with possibility, they serve no purpose but to carry intent.
 
-For the first time, he doesn't feel constrained by the material. He's so free that the work becomes free, the work now takes life and talks back. He tamed the material into rebelling and becoming something other than what he set out to produce, something better than what he could have imagined. It's then, when the work speaks for itself, that he knows. This may not be art, not yet, but it's better than anything he did and anything he's seen on a computer screen. There's the spark. This is the direction, that's where he needs to go.
+For the first time, he doesn't feel constrained by the material. He's so free that the work becomes free in turn, it takes life and talks back. He tamed the material into rebelling and becoming something other than what he set out to produce, something better than what he could have imagined. It's then, when the work speaks for itself, that he knows. This may not be art, not yet, but it's better than anything he did and anything he's seen on a computer screen. There's the spark. This is the direction, that's where he needs to go.
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
 
-Ron sticks the floppy in his computer and loads the image. He waits for the fringes to cover the screen and gives it a couple more seconds before speaking up.
+Ron sticks the floppy in his computer and loads the image. He waits for the fringes to cover the screen, top to bottom, and gives it a couple more seconds before speaking up.
 
 "What the hell, man?"
 
@@ -185,7 +185,7 @@ Ron sticks the floppy in his computer and loads the image. He waits for the frin
 
 "These noisy patterns here, you can't do that, that will take too much space."
 
-He's been doing this for months and still can't tell when it's right. It's like computers have a bunch of rules that everyone but him knows about. And the programmers, too, come with their own rules, they are another kind of machine that he needs to poke about until something works.
+It's like computers have a bunch of unwritten rules that everyone but him knows about. And the programmers, too, come with their own rules, another kind of machine that needs poking about until it works.
 
 In these situations, Gary gets into the little technical details, not because he cares that Mark understands them but because he wants Mark to know they have important reasons to clip his wings: the image data is run through a compression algorithm so it takes up less storage in the disk. Instead of storing the colors pixel by pixel, they store how many times the current color needs to be repeated; the more same-color segments the image has, the fewer space it will take on disk. His little checkerboard technique---his color "dithering"---completely breaks the process, changing colors at every step, never repeating, making the compressed image take /even more/ space than the source. Dithered backgrounds would double or triple the required disk space, which would double the amount of disks required to ship the game, which would double production costs, which would double the game's price tag, which would surely get them all fired. "Try again with solid colors, please,” he concludes, and pats him on the back. "That was some landscape, though, huh?"
 
@@ -221,9 +221,9 @@ A week later, David tells Mark that it turns out that dithering is very hard /bu
 #+end_export
 
 "Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships." This is how Ron explains his pirate game to anyone that will listen.
-He wants to do something fantasy-like without doing fantasy, which he hates. So he's doing a spoof of the Disney ride.  "You'll inhabit this swashbuckling world, talk to other pirates, sail with them, instead of just watching. That right there is why we make adventure games: to give the player the leading part."
+He wants to do something fantasy-like without doing fantasy, which he hates. So he's doing a spoof of the Disney ride. "You'll inhabit this swashbuckling world, hunt for treasures, board ships, fight other pirates, instead of just watching. That right there is why we make adventure games: to give the player the leading role."
 
-Ron may be a programmer by trade, he may be a decent writer, but game design is /his thing./ And he wants this game to be the ultimate realization of his design philosophy, what he's been preaching ever since /Maniac Mansion/. He even published it in a manifesto that became required reading around the office. /Why Adventure Games Suck/. It was mostly around game play, Mark couldn't make much of it, but one stick stuck with him: Ron wrote that the game should reward players for their accomplishments and in graphic adventures the reward is always a new piece of artwork, a new location they get to explore. That's how Mark realized than his work is more than just a backdrop, more than content to fill the screen.
+Ron may be a programmer by trade, he may be a decent writer, but game design is /his thing./ And he wants this game to be the ultimate realization of his design philosophy, what he's been preaching ever since /Maniac Mansion/. He even published it in a manifesto that became required reading around the office. /Why Adventure Games Suck/. It was mostly around game play, Mark couldn't make much of it, but one stick stuck with him: Ron wrote that the game should reward players for their accomplishments and, in graphic adventures, the reward is always a new piece of artwork, another location they get to explore. That's how Mark realized than his work is more than just a backdrop, more than content to fill the screen.
 
 #+begin_export html
 <br/><br/>
@@ -235,7 +235,7 @@ The Main House is a ten-minute walk from the Stable House. Mark mentioned he wou
 
 "I want to look up some material for /Loom/. Some of that /Sleeping Beauty/ stuff he mentioned."
 
-"Oh, so it's /actual/ research." People in the Games Group use /research/ as keyword for anything that blatantly isn't work. They ask /What are you researching/ to anyone they catch fooling around the office. "Well, I guess I can use some reference material myself".
+"Oh, so it's /actual/ research." People in the Games Group use /research/ as keyword for anything that blatantly isn't work. They ask /What are you researching/ to anyone they catch fooling around the office. "Well, I guess I can use some material myself..
 
 Mark was assigned as Lead Background Artist for /Loom/. Purcell will do animations. It's his first video game project. They are supposed to figure out how to turn an EGA adventure into a "living tapestry", like Eyvind Earle did with /The Sleeping Beauty/.
 
@@ -257,7 +257,7 @@ Mark was assigned as Lead Background Artist for /Loom/. Purcell will do animatio
 
 "He better be. /Be the best/, right?"
 
-"...but, perhaps too much of an idealist. I can't believe /I'm/ saying this." In a sense, The Professor is like him: they take their work very seriously, they are both driven by a desire to produce art. But Mark knows all too well that, despite his title, he isn't paid to make art. They pay him to produce backgrounds, conforming to a set of specifications. The art, he has to smuggle, in spite of the business. The Professor, on the other hand, seems committed to breaking new artistic ground, and operates as if everyone else shares his vision. Mark couldn't imagine any other company where they would give such a guy /carte blanche/ to make whatever game he wanted.
+"...but, perhaps too much of an idealist. I can't believe /I'm/ saying this." In a sense, The Professor is like him: they are both invested in their work, they are driven by a desire to produce art. But Mark knows all too well that, despite his title, he isn't paid to make art. They pay him to produce backgrounds, conforming to a set of specifications. The art, he has to smuggle, in spite of the business. The Professor, on the other hand, seems committed to breaking new artistic ground, and operates as if everyone else shares his vision. Mark can't imagine any other company where they would let such a guy make whatever game he wants.
 
 "I mean, a fantasy game?" Purcell continues as they walk across the hall, "/The Sleeping Beauty/? Tchaikovsky? Doesn't sound very LucasFilm to me." They pass by a stormtrooper and a crystal display case with a Yoda model inside.
 
@@ -273,7 +273,7 @@ Mark was assigned as Lead Background Artist for /Loom/. Purcell will do animatio
 
 "Well, I'd say it sounds like /Zork/, obviously... and /King's Quest/?"
 
-"Ouch,” says Mark. He pushes one side of the big door.
+"Ouch.” Mark pushes one side of the big door.
 
 "Well, what do I know?” says Purcell, "I haven't played any of them."
 
@@ -295,12 +295,12 @@ There's a counter near the entrance. The librarian asks them what's the purpose 
 
 The memo supplied two separate but related pieces of news: LucasFilm secured the rights to make /Indiana Jones/ video games; they have six months to come up with a game based on the new entry Spielberg is shooting.
 
-Management assembles a team with their most experienced designers to lead the project, they pause development on /Monkey Island/ and /Loom/. This is supposed to be a quick and dirty one, no room for Mark's precious imagery and experimentation. He is relieved, if a little worried, that they let him continue his work on /Loom/ while most of his colleagues to switch to /Indiana Jones and the Last Crusade/.
+Management pauses development on /Monkey Island/ and assembles a team with the most experienced designers to lead the new project. This is supposed to be a quick and dirty one, no room for Mark's precious imagery and experimentation. He is relieved, if a little worried, that they let him continue working on /Loom/ while most of his colleagues switch to /Indiana Jones and the Last Crusade/.
 
-The team gets a copy of the script and some early footage to go on. The designers struggle to make the game fit the script and still be playable and fun. They aren't sure how to keep it interesting to the majority of players that will already be familiar with the plot. Artists are similarly constrained by the footage and the production stills. Some of the folks even get to visit the set. Purcell comes back with a whip for "research purposes", which he incorporates to their afternoon sporting events. Someone borrows the Holy Grail and they take pictures drinking coffee from it.
+The team gets a copy of the script and some early footage to go on. The designers struggle to make the game fit the script and still be playable and fun. They aren't sure how to keep it interesting to the majority of players that will already be familiar with the plot. Artists are similarly constrained by the footage and the production stills. <Some of the folks even get to visit the set>. Purcell comes back with a whip for "research purposes", which he incorporates to their afternoon sporting events. Someone borrows the Holy Grail and they take pictures drinking coffee from it.
 
-When Spielberg is done editing at the Ranch, they do a screening on the Art deco theater on the Main House.
-The Games Group people walk back to the Stable House, excited about the film, discussing the scenes that Spielberg cut but that's too late to remove from the game. Mark loved the movie but feels uneasy about the game. It feels rushed and derivative, all about the money. The writing is on the wall. Once they lift the /Star Wars/ embargo, it's going to take a hell of an effort to prevent the suits from putting all hands on deck to milk Chewbacca.
+When Spielberg is done editing, they screen the movie on the theater at the Main House.
+The Games Group people walk back to the Stable House, excited about the film, discussing the scenes that Spielberg cut but that's too late to remove from the game. Mark loved the movie but feels uneasy about the game project. It feels rushed and derivative, all about the money. Once they lift the /Star Wars/ embargo, it's going to be hard to keep the suits from putting all hands on deck to milk Chewbacca.
 
 #+begin_export html
 <br/><br/>
@@ -387,7 +387,7 @@ Mark walks towards the door, then turns. "I can't leave yet, I haven't finished 
 
 A pile of sketchbooks. "They are labeled by month and year."
 
-A worn out DPaint 2 manual. "I haven't used this in ages. I could write one myself by now."
+A worn out DPaint 2 manual, with an Egyptian mask on the cover. "I haven't used this in ages. I could write one myself by now."
 
 A set of colored pencils. "I hand picked them myself, one for each of the 16 EGA colors. I guess won't be needing these anymore."
 
@@ -436,17 +436,33 @@ The road proceeds, then ends abruptly, an abandoned flooring job. The car rides 
 
 *** quotes                                                         :noexport:
 
+#+begin_quote
+In the context of the Deluxe Paint 2 manual:
+
+- **Hue** refers to the color itself, such as red, blue, or yellow. It represents the distinct characteristic that differentiates one color from another.
+
+- **Shade** is a variation of a hue created by adding black, which results in a darker version of the original color. It implies a darker tone while maintaining the core characteristics of the hue.
+
+- **Spread** in this context likely means a range or gradient of shades within the same hue. It provides a variety of subtle transitions from lighter to darker versions of the same color, allowing for more nuanced color work in digital painting.
+
+So, the software allows you to create a gradient or series of subtle, darker variations of a single color, providing more depth and options in your artwork.
+#+end_quote
+
+
+#+begin_quote
+whichever kind of gradient fill you choose, you can adjust its dither, the amount of random overlap between each shade
+#+end_quote
 *** tasks                                                          :noexport:
 
-**** TODO wrap up crunch scene
-**** TODO review crunch scene
 **** TODO apply proofread corrections
 **** TODO proofread again
-**** TODO cleanup chunks
 **** TODO grammar
-**** TODO flesh out remaining placeholders
 **** TODO review remaining TODOs and FIXMEs
+**** TODO read some more about dpaint, maybe improve jargon
+**** TODO proofread again
+**** TODO cleanup chunks
 **** TODO cleanup quotes
+**** TODO proofread again
 
 *** chunks                                                         :noexport:
 https://i.pinimg.com/originals/53/b1/f1/53b1f1a0961866d25ed578d345945dd4.jpg
@@ -478,6 +494,3 @@ in the quite months they would take long lunches or hikes through the hills or t
 
 so as the project deadlines arrived, they just kept working late, only skipping the long breaks during the day.
 weekends at the ranch, though, were off-limits. they would let him take his computer back home on fridays to work during the weekend
-
-<They were working at geek Disneyland,
-<you could do a salary freeze and people would continue to show up every day for months
