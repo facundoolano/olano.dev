@@ -307,20 +307,20 @@ When Spielberg is done editing, they screen the movie on the theater at the Main
 <br/><br/>
 #+end_export
 
-Some times The Professor gives Mark and Purcell story prompts and asks for concept art in return, but more often than not he wants /them/ to come up with stuff he can use for inspiration, based on the reference material and a short treatment document he handed to them. This concept art is Mark's first illustration job since he joined the company, two years ago.
+Some times The Professor gives Mark and Purcell story prompts and asks for concept art in return, but more often he wants /them/ to come up with stuff he can use for inspiration, based on the reference material and a short treatment he handed to them. This concept art is Mark's first traditional illustration job since he joined the company.
 
-He pulled everything he could get from the library on Disney, /The Sleeping Beauty/, Eyvind Earl, and medieval tapestries. He would play the movie on the Media Room, frame-freezing to take notes and make sketches. Mark delivers two or three drawings a week, using his now legendary pencil technique. Most of the times, The Professor comes back with notes to refine an idea, or a request to try again, but occasionally he takes a drawing and uses it to write a segment of the story. In those cases The Professor asks Mark to convert his illustration into an EGA background, one he can wire it up in SCUMM to start experimenting with descriptions and dialog.
+He pulled everything he could get from the library on Disney, /The Sleeping Beauty/, Eyvind Earl, and medieval tapestries. He plays the movie on the Media Room, frame-freezing to take notes and make sketches. Mark delivers two or three drawings a week, using his now legendary pencil technique. Most of the times, The Professor comes back with notes to refine an idea, or a request to try again, but occasionally he takes a drawing and uses it to write a segment of the story. In those cases The Professor asks Mark to convert his illustration into an EGA background, one he can wire up in SCUMM to try dialog and descriptions.
 
 The Professor set up similar work streams for animation and programming and, most importantly, with the sound department. Music and sound will feature in /Loom/ more prominently than in any other LucasFilm game.
 Which is convenient, considering that the Ranch houses the best sound engineering facilities in the world.
 For the sound engineers, it's Tchaikovsky instead of Eyvind Earl.
 
-The Professor sees games as a novel art medium, and he wants to use all of its materials to that end: sound, music, backgrounds, animation, story, and dialog. He made sure everyone on the team picked up on his vision and gave them freedom to figure out how to realize it with their tools.
-Coming from a rather lonely experience writing text adventures, he's betting on collaboration to flourish to unlock this deeper storytelling experience. His so into this craftsmanship ideal that he put it into the story, with the protagonist visiting different Guilds over the course of the game.
+The Professor sees games as a novel art medium, and he wants to use all of its materials to that end: sound, music, backgrounds, animation, story, and dialog. He made sure everyone on the team picked up on his vision and gave them freedom to figure out how to best realize it with their tools.
+Coming from a rather lonely experience writing text adventures, he's betting on collaboration to unlock this deeper storytelling experience. He's so driven by this craftsmanship ideal that he incorporates it to the story, with the protagonist visiting different Guilds over the course of the game.
 
-Mark came up with the idea of using colors scheme to represent each Guild, giving a distinct quality to each section of the game: the striking emerald of the Guild of Glassmakers, the softer pastoral greens of the Guild of Shepherds, the Stygian reds of the Guild of Blacksmiths and the saturated blues and purples of the Guild of Weavers. This is a feat he imposes to himself, with the EGA colors allowing for one or two shades of each color, the rest having to be mocked with his palette tricks.
+Mark came up with the idea of using colors to represent each Guild, giving a distinct quality to each section of the game: the striking emerald of the Guild of Glassmakers, the softer pastoral greens of the Guild of Shepherds, the Stygian reds of the Guild of Blacksmiths and the saturated blues and purples of the Guild of Weavers. This is a feat he imposes to himself, with the EGA palette allowing for one or two shades of each hue, the rest having to be mocked with dithering and other tricks.
 
-The latest version of the SCUMM engine not only supports Mark's dithered backgrounds, but introduced character scaling to represent depth, allowing him to move away from the horizontal axis and add perspective to his scenes. For the first time he won't be adapting someone else's work. He knows his tools and is free to push them in whatever direction he envisions.
+For the first time, he won't be adapting someone else's work. The latest version of the SCUMM engine not only supports Mark's dithered backgrounds, but introduced character scaling to represent depth, enabling him to enhance his scenes with perspective. He knows the tools and he's free to push them where he wants to go.
 
 #+begin_export html
 <br/><br/>
@@ -342,13 +342,14 @@ He doesn't read it.
 #+end_export
 
 # TODO maybe describe the room? or the demonstration itself?
-The artists are gathered at the Technical Building for a demonstration. The scanner is a little tray, like a Xerox machine, minus the printer. It's connected to a Macintosh computer. The scanner costs 10 times the computer, the speaker said.
+
+The artists are gathered at the Technical Building for a demonstration. The scanner is a little tray, like a Xerox machine minus the printer, connected to a Macintosh computer. The scanner costs 10 times the computer, says the speaker.
 
 "This new guy, Peter, is scanning for his /Monkey 2/ backgrounds,” says Purcell.
 
 "Really?"
 
-There was a lot of movement around the office during those final /Monkey Island/ weeks. Mark was just too deep in crunch mode to notice. They seem to be growing faster, one or two new employees starting every week. They will are starting a magazine. They interviewed Ron for the first issue, and asked Purcell for one of his comics. Everyone's got new PCs, too, with VGA cards and monitors. /Monkey Island/ is getting a sequel, and Mark isn't in it.
+There was a lot of movement around the office during the final /Monkey Island/ weeks. Mark was just too deep in crunch mode to notice. They seem to be growing faster, one or two new employees starting every week. They are starting a magazine. They interviewed Ron for the first issue, and asked Purcell for one of his comics. Everyone's got new PCs, too, with VGA cards and monitors. /Monkey Island/ is getting a sequel, and Mark isn't in it.
 
 "The art is gorgeous, but it comes out all fuzzy on the other side of /that/." Purcell points to the scanner. "He has to go back and clean everything up in DPaint."
 
@@ -368,7 +369,7 @@ There was a lot of movement around the office during those final /Monkey Island/
 
 "We're right here, you know?" someone mumbles at the back.
 
-Mark continues: "It felt like we were finally getting the hang of this, during /Monkey Island/. Now it's like starting all over." People say that /Monkey Island/ is new beginning for LucasFilm Games, but to Mark it feels more like a culmination of the process they started four, five years ago. The tools were at their best and for the first time everybody, the designers and the artists, seemed to know exactly what they were doing.
+Mark continues: "It felt like we were finally getting somewhere, during /Monkey/. Now it's like starting all over." People say that /Monkey Island/ starts a new chapter for Games Group, but to Mark it feels more like a culmination. The tools were at their best and for the first time everybody, the designers and the artists, seemed to know exactly what they were doing.
 
 "A technology is always at its best right before it's obsolete, man,” says Purcell.
 
@@ -386,23 +387,23 @@ He can already see it: after VGA and scanners it will be compact discs, or RGB c
 
 Mark walks towards the door, then turns. "I can't leave yet, I haven't finished packing." He looks at his desk. "I should put all this stuff in the box."
 
-A pile of sketchbooks. "They are labeled by month and year."
+He picks up a pile of sketchbooks. "They are labeled by month and year." He puts the pile of sketchbooks in the box.
 
-A worn out DPaint 2 manual, with an Egyptian mask on the cover. "I haven't used this in ages. I could write one myself by now."
+He picks up a worn out DPaint 2 manual. "There's a picture of an Egyptian mask on the cover. I haven't used this in ages." He puts the worn out DPaint 2 manual in the box.
 
-A set of colored pencils. "I hand picked them myself, one for each of the 16 EGA colors. I guess won't be needing these anymore."
+He picks up a set of colored pencils. "I hand picked these myself, one for each of the 16 EGA colors. I guess won't be needing them anymore." He puts the set of colored pencils in the thrash bin.
 
-An issue of /Sam & Max/. "My favorite."
+He picks up a /Sam & Max/ issue. "My favorite." He puts the /Sam & Max/ issue in the box.
 
-An Indiana Jones action figure. "Indy."
+He picks up an Indiana Jones action figure. "Indy." He puts the Indiana Jones action figure in the box.
 
-A Chewbacca action figure. "Chewie."
+He picks up a Chewbacca action figure. "Chewie." He puts the Chewbacca action figure in the box.
 
-A /Sleeping Beauty/ reference book. "I never bothered to return this to the main house."
+He picks up a /Sleeping Beauty/ reference book. "I never bothered returning this to the main house." He puts the /Sleeping Beauty/ reference book in the box.
 
-A signed /Loom/ box. "It's signed by The Professor. I signed another one for him."
+He picks up a signed /Loom/ box. "It's signed by The Professor. I signed another copy for him." He puts the signed /Loom/ box in the box.
 
-He picks up the box. "This box is too full, I can't carry it like this." He puts it back. He walks towards the door, then turns. "I can't leave yet, I haven't finished packing." He looks at the desk. "Neat." He looks at the desk drawer. "It's a desk drawer." He opens the desk drawer. "There's a piece of rope here." He picks up the piece of rope. "This might come in handy." He uses the piece of rope on the box. "Much better." He picks up the box. He walks out.
+He picks up the box. "This box is too full, I can't carry it like this." He puts the box back on the desk. He walks towards the door, then turns. "I can't leave yet, I haven't finished packing." He looks at the desk. "Neat." He looks at the desk drawer. "Neat." He opens the desk drawer. He looks at the open desk drawer. "There's a piece of rope here." He picks up the piece of rope. "This might come in handy." He looks at the open desk drawer. "It's empty." He uses the piece of rope on the box. "Much better." He picks up the box. He walks out.
 
 #+begin_export html
 <br/><br/>
