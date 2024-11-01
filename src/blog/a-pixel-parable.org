@@ -101,8 +101,6 @@ Black, dark gray, light gray, white, dark blue, light blue, cyan, yellow, mustar
 <br/><br/>
 #+end_export
 
-# TODO maybe comment what they are having, some gourmet meal. osso buco with risotto
-
 "Coppola,” says David.
 
 "Coppola, of course,” Gary concurs. "The Rolling Stones."
@@ -225,15 +223,6 @@ A week later, David tells Mark that it turns out that dithering is very hard /bu
 <br/><br/>
 #+end_export
 
-"Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships." This is how Ron explains his pirate game to anyone that will listen.
-He wants to do something fantasy-like without doing fantasy, which he hates. So he's doing a spoof of the Disney ride. "You'll inhabit this swashbuckling world, hunt for treasures, board ships, fight other pirates, instead of just watching. That right there is why we make adventure games: to give the player the leading role."
-
-Ron may be a programmer by trade, he may be a decent writer, but game design is /his thing./ And he wants this game to be the ultimate realization of his design philosophy, what he's been preaching ever since /Maniac Mansion/. He even published it in a manifesto that became required reading around the office. /Why Adventure Games Suck/. It was mostly around game play, Mark couldn't make much of it, but one stick stuck with him: Ron wrote that the game should reward players for their accomplishments and, in graphic adventures, the reward is always a new piece of artwork, another location they get to explore. That's how Mark realized than his work is more than just a backdrop, more than content to fill the screen.
-
-#+begin_export html
-<br/><br/>
-#+end_export
-
 The Main House is a ten-minute walk from the Stable House. Mark mentioned he would go over to the library and Purcell tagged along. Nobody passes on an excuse to visit the Main House.
 
 "What are we researching?", he asks as they leave the porch.
@@ -294,6 +283,16 @@ There's a counter near the entrance. The librarian asks them what's the purpose 
 "He's looking for research material for /Loom/. I'm looking for research material for /Sam & Max/.”
 
 
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+"Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships." This is how Ron explains his pirate game to anyone that will listen.
+He wants to do something fantasy-like without doing fantasy, which he hates. So he's doing a spoof of the Disney ride. "You'll inhabit this swashbuckling world, hunt for treasures, board ships, fight other pirates, instead of just watching. That right there is why we make adventure games: to give the player the leading role."
+
+Ron may be a programmer by trade, he may be a decent writer, but game design is /his thing./ And he wants this game to be the ultimate realization of his design philosophy, what he's been preaching ever since /Maniac Mansion/. He even published it in a manifesto that became required reading around the office. /Why Adventure Games Suck/. It was mostly around game play, Mark couldn't make much of it, but one stick stuck with him: Ron wrote that the game should reward players for their accomplishments and, in graphic adventures, the reward is always a new piece of artwork, another location they get to explore. That's how Mark realized than his work is more than just a backdrop, more than content to fill the screen.
+
 #+begin_export html
 <br/><br/>
 #+end_export
@@ -312,41 +311,6 @@ When Spielberg is done editing, they screen the movie on the theater at the Main
 <br/><br/>
 #+end_export
 
-Some times The Professor gives Mark and Purcell story prompts and asks for concept art in return, but more often he wants /them/ to come up with stuff he can use for inspiration, based on the reference material and a short treatment he handed to them. This concept art is Mark's first traditional illustration job since he joined the company.
-
-He pulled everything he could get from the library on Disney, /The Sleeping Beauty/, Eyvind Earl, and medieval tapestries. He plays the movie on the Media Room, frame-freezing to take notes and make sketches. Mark delivers two or three drawings a week, using his now legendary pencil technique. Most of the times, The Professor comes back with notes to refine an idea, or a request to try again, but occasionally he takes a drawing and uses it to write a segment of the story. In those cases The Professor asks Mark to convert his illustration into an EGA background, one he can wire up in SCUMM to try dialog and descriptions.
-
-The Professor set up similar work streams for animation and programming and, most importantly, with the sound department. Music and sound will feature in /Loom/ more prominently than in any other LucasFilm game.
-Which is convenient, considering that the Ranch houses the best sound engineering facilities in the world.
-For the sound engineers, it's Tchaikovsky instead of Eyvind Earl.
-
-The Professor sees games as a novel art medium, and he wants to use all of its materials to that end: sound, music, backgrounds, animation, story, and dialog. He made sure everyone on the team picked up on his vision and gave them freedom to figure out how to best realize it with their tools.
-Coming from a rather lonely experience writing text adventures, he's betting on collaboration to unlock this deeper storytelling experience. He's so driven by this craftsmanship ideal that he incorporates it to the story, with the protagonist visiting different Guilds over the course of the game.
-
-Mark came up with the idea of using colors to represent each Guild, giving a distinct quality to each section of the game: the striking emerald of the Guild of Glassmakers, the softer pastoral greens of the Guild of Shepherds, the Stygian reds of the Guild of Blacksmiths and the saturated blues and purples of the Guild of Weavers. This is a feat he imposes to himself, with the EGA palette allowing for one or two shades of each hue, the rest having to be mocked with dithering and other tricks.
-
-For the first time, he won't be adapting someone else's work. The latest version of the SCUMM engine not only supports Mark's dithered backgrounds, but introduced character scaling to represent depth, enabling him to enhance his scenes with perspective. He knows the tools and he's free to push them where he wants to go.
-
-#+begin_export html
-<br/><br/>
-#+end_export
-
-The memo sits on his desk:
-
-#+begin_export html
-<div class="center-block">
-<p>The Return of the License</p>
-<p><small>LucasArts Episode I</small></p>
-</div>
-#+end_export
-
-He doesn't read it.
-
-#+begin_export html
-<br/><br/>
-#+end_export
-
-# TODO maybe describe the room? or the demonstration itself?
 
 The artists are gathered at the Technical Building for a demonstration. The scanner is a little tray, like a Xerox machine minus the printer, connected to a Macintosh computer. The scanner costs 10 times the computer, says the speaker.
 
@@ -470,12 +434,8 @@ The smooth mode blurs already existing pixels together, smear smudges and smears
 *** tasks                                                          :noexport:
 **** TODO proofread again
 **** TODO grammar
-**** TODO review remaining TODOs and FIXMEs
-**** TODO read some more about dpaint, maybe improve jargon
 **** TODO proofread again
-**** TODO cleanup chunks
-**** TODO cleanup quotes
-**** TODO proofread again
+**** TODO review/cleanup quotes
 
 *** chunks                                                         :noexport:
 https://i.pinimg.com/originals/53/b1/f1/53b1f1a0961866d25ed578d345945dd4.jpg
@@ -507,3 +467,42 @@ in the quite months they would take long lunches or hikes through the hills or t
 
 so as the project deadlines arrived, they just kept working late, only skipping the long breaks during the day.
 weekends at the ranch, though, were off-limits. they would let him take his computer back home on fridays to work during the weekend
+
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+The memo sits on his desk:
+
+#+begin_export html
+<div class="center-block">
+<p>The Return of the License</p>
+<p><small>LucasArts Episode I</small></p>
+</div>
+#+end_export
+
+He doesn't read it.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+Some times The Professor gives Mark and Purcell story prompts and asks for concept art in return, but more often he wants /them/ to come up with stuff he can use for inspiration, based on the reference material and a short treatment he handed to them. This concept art is Mark's first traditional illustration job since he joined the company.
+
+He pulled everything he could get from the library on Disney, /The Sleeping Beauty/, Eyvind Earl, and medieval tapestries. He plays the movie on the Media Room, frame-freezing to take notes and make sketches. Mark delivers two or three drawings a week, using his now legendary pencil technique. Most of the times, The Professor comes back with notes to refine an idea, or a request to try again, but occasionally he takes a drawing and uses it to write a segment of the story. In those cases The Professor asks Mark to convert his illustration into an EGA background, one he can wire up in SCUMM to try dialog and descriptions.
+
+The Professor set up similar work streams for animation and programming and, most importantly, with the sound department. Music and sound will feature in /Loom/ more prominently than in any other LucasFilm game.
+Which is convenient, considering that the Ranch houses the best sound engineering facilities in the world.
+For the sound engineers, it's Tchaikovsky instead of Eyvind Earl.
+
+The Professor sees games as a novel art medium, and he wants to use all of its materials to that end: sound, music, backgrounds, animation, story, and dialog. He made sure everyone on the team picked up on his vision and gave them freedom to figure out how to best realize it with their tools.
+Coming from a rather lonely experience writing text adventures, he's betting on collaboration to unlock this deeper storytelling experience. He's so driven by this craftsmanship ideal that he incorporates it to the story, with the protagonist visiting different Guilds over the course of the game.
+
+Mark came up with the idea of using colors to represent each Guild, giving a distinct quality to each section of the game: the striking emerald of the Guild of Glassmakers, the softer pastoral greens of the Guild of Shepherds, the Stygian reds of the Guild of Blacksmiths and the saturated blues and purples of the Guild of Weavers. This is a feat he imposes to himself, with the EGA palette allowing for one or two shades of each hue, the rest having to be mocked with dithering and other tricks.
+
+For the first time, he won't be adapting someone else's work. The latest version of the SCUMM engine not only supports Mark's dithered backgrounds, but introduced character scaling to represent depth, enabling him to enhance his scenes with perspective. He knows the tools and he's free to push them where he wants to go.
+
+#+begin_export html
+<br/><br/>
+#+end_export
