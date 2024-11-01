@@ -60,11 +60,11 @@ Later that night, he calls his parents and learns his father has just bought a p
 "What are you doing with this thing, anyway?" Mark is sitting in front of the computer, skimming the manual. The cover reads /Atari 520ST/.
 "The school made a deal for us to get them at half price. They say we should get /computer-literate/ if we want to have a job in five years." The voice comes through the doorway, then his father, leaning on the frame. "I figured I could use it for writing, but they have a different brand at school, so I can't print my files there. And I'm not buying a printer, so I don't see the point. You can have it if you want."
 
-"Let's see if I get the job, first." Mark continues reading the manual. "It says here there's a drawing program in there, 'NeoChrome'. Let's try that out." It takes them about 20 minutes to find the floppy disk and open the program---their first project since his father thought him how to change his oil over a decade ago. Mark switches to the NeoChrome manual. Another half hour later, Mark is dropping little green dots over a blue background.
+"Let's see if I get the job, first." Mark continues reading the manual. "It says here there's a drawing program in there, 'NeoChrome'. Let's try that out." It takes them about 20 minutes to find the floppy disk and open the program---their first project since his father thought him how to change his oil over a decade ago. Mark switches to the NeoChrome manual. Another half hour later, He's dropping little green dots over a blue background.
 
-For the next few evenings, Mark secludes himself in his old high school bedroom, getting familiar with this computer thing and its painting program. The little mouse forces his hand into a claw. Whenever he begins to feel that he's got the hang of it, that he can forget about the tool and focus on the task, whenever his eyes spark a connection between the image on the screen and the image on his brain, his hand jerks to grab a pencil missing like a phantom limb.
+For the next few evenings, Mark secludes himself in his old high school bedroom, getting familiar with this computer thing and its painting program and the constant touch of the mouse forcing his hand into a claw. Whenever he manages to forget the tool and focus on the task, when a connection sparks between the image on the screen and the image in his brain, his hand jerks for the pencil he's been missing like a phantom limb.
 
-He manages to put together a little African hut picture, and teaches himself to reproduce it from scratch, repeating it over and over until he memorizes the procedure, which he executes a few days later to survive his interview.
+He puts together a little African hut picture and teaches himself to reproduce it, repeating it over and over from the blank page. He executes this procedure again, a few days later, and survives his interview.
 
 #+begin_export html
 <br/><br/>
