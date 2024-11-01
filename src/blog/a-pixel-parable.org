@@ -21,7 +21,7 @@ as an actual town./
 
 "How would you like working on video games?"
 
-Mark is holding his "Best of the Show" certificate on one hand and, on the other, the card this guy just handed to him:
+Mark is holding his /Best of the Show/ certificate in one hand and Gary's card in the other:
 #+begin_export html
 <div class="center-block">
 <p>Gary W.</p>
@@ -32,21 +32,26 @@ Mark is holding his "Best of the Show" certificate on one hand and, on the other
 </div>
 #+end_export
 
-LucasFilm as in George Lucas. As in /Star Wars/.
+LucasFilm. As in George Lucas. As in /Star Wars/.
 
-This is his second lucky break of the weekend. A friend recommended he show up to this sci-fi convention, she said that these things were good for networking. He wouldn't mind having one of his illustrations on a trading card, or a rule book, or, who knows? on the cover of one of those fantasy novels he used to read in high school.
+#+begin_export html
+<br/><br/>
+#+end_export
+
+
+This is his second lucky break of the weekend. A friend recommended he went to this sci-fi convention, she said it would good for networking. Mark wouldn't mind having one of his illustrations on a trading card, or a rule book, or, who knows? on the cover of one of those fantasy novels he used to read in high school.
 
 So he shows up to the convention on Friday. Someone notices his work---these pencil landscapes that look hand-painted---, they invite him to join in the art show, he does, two days later he wins  first place. That's his first lucky break. The second is this guy, Gary, coming over to him, handing him a card, asking him to 'audition' for a video game job.
 
 "Could you come over to the Ranch for an interview?" Gary insists.
 
-Mark reads the card again, stops for a second to think what to say next. He needs a job, after all. Honesty has been working wonders for him so far, so he tells it straight: "I'd be happy to come over to do anything at all there but... I don't know the first thing about video games. I never even touched a computer."
+Mark reads the card again, stops for a second to think what to say next. He needs a job, after all. Honesty has been working wonders for him so far: "I'd be happy to come over to do anything at all there but... I don't know the first thing about video games. I never even touched a computer."
 
-"That's alright," Gary replies, "we've had better results teaching artists how to program than programmers how to art. I'm not worried about that part."
+"That's alright," Gary replies, "we've had better results teaching artists how to program than the other way around. I'm not worried about that part."
 
-Driving back home that night, Mark tries to make sense of what just happened. On his first weekend---on his first serious attempt as a professional illustrator---he's offered to interview for a role that he didn't even know existed, but that he's now convinced must be his dream job---and one that he's terribly unqualified for.
+Driving back home, Mark tries to make sense of what just happened. On his first weekend---on his first serious attempt as a professional illustrator---he's offered to interview for a role that he didn't even know existed, but that he's now convinced must be his dream job---and one that he's terribly unqualified for.
 
-He calls his parents to share the news. His father, he now learns, has just bought a personal computer. That's his third lucky break.
+Later that night, he calls his parents and learns his father has just bought a personal computer. That's his third lucky break.
 
 #+begin_export html
 <br/><br/>
@@ -431,6 +436,7 @@ The Honda proceeds and the road proceeds but then ends abruptly, like an abandon
 - [[https://mixnmojo.com/features/sitefeatures/LucasArts-Secret-History-The-Secret-of-Monkey-Island/7][LucasArts' Secret History #5: The Secret of Monkey Island Developer Reflections]].
 - [[https://scummbar.com/resources/articles/index.php?newssniffer=readarticle&article=1033][The Secret of Creating Monkey Island]].
 - [[https://datagubbe.se/crt/][The Effect of CRTs on Pixel Art]].
+- [[https://datagubbe.se/dpaint/][An Ode to Deluxe Paint]].
 - [[https://www.superrune.com/tutorials/lucasfilm_ega.php][Lucasfilm EGA adventures: an appreciation]].
 - [[https://web.archive.org/web/20030326051107fw_/http://lucasfans.mixnmojo.com/features/interview_stevepurcell.html][Steve Purcell Interview]].
 
@@ -452,8 +458,16 @@ So, the software allows you to create a gradient or series of subtle, darker var
 #+begin_quote
 whichever kind of gradient fill you choose, you can adjust its dither, the amount of random overlap between each shade
 #+end_quote
-*** tasks                                                          :noexport:
 
+#+begin_quote
+Your copy of The Secret Of Monkey Island may have been hand-packed by Ron Gilbert himself. “Monkey Island was done and out the door to manufacturing. In those days you couldn’t just upload your game, you had to have someone make floppy disks and put them in a box,” Dave Grossman recalls. “The manufacturing facility didn’t have the capacity to meet the initial orders the next day. So a bunch of us from the games division worked the graveyard shift at this warehouse, staying up all night riveting code wheels, packing and shrink-wrapping boxes, and so on. It was the shortest and most awesome crunch ever in the history of games.”
+#+end_quote
+
+#+begin_quote
+The smooth mode blurs already existing pixels together, smear smudges and smears existing pixels around (great for turning gradient fills into clouds).
+#+end_quote
+
+*** tasks                                                          :noexport:
 **** TODO proofread again
 **** TODO grammar
 **** TODO review remaining TODOs and FIXMEs
