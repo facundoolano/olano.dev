@@ -311,16 +311,28 @@ Ron may be a programmer by trade, he may be a decent writer, but game design is 
 #+begin_export html
 <br/><br/>
 #+end_export
+# maybe start narrating some of the chalice scene
+# what would be amazement in the regular public
+# here, in the main house theater, was the awaited moment
+# and turns into acclaim for purcell
 
-# TODO consider turning this into a scene walking out of the theater and back to the stable house
+# when the nazi drank from the wrong cup and he disintegrated the team cheered Purcell
+# it was the most accomplished ILM work on the movie, and footage had been circling around the Ranch for weeks
+# but the scene was a Games Group's favorite for different reasons
+# with just a few sleepless DPaint sessions
+# he single-handledly delivered the EGA equivalent of a million dollar ILM digital composite
+
 # the art deco theater is only second to the library as a legendary ranch location
-
-# just looking at the place, faded lights and rounded corners, the smell and the sound of its silence, was a shown on its own
-# one more interesting to mark than jumpy and tumbly and punchy Harrison Ford
+# just looking at the place, <dim> faded lights and rounded corners, the smell and the sound of its silence, was a shown on its own
+# a room designed to observe / for observation
+# not for selling tickets or enjoying a film, but to observe, and listen.
+# you can hear the silence of the footsteps and the seats.
+# a place that sounds and smells of silence
+# one more interesting to mark than Harrison Ford rolling and tumbling on screen, again
 
 # mark had visited and seen some footage but never an entire film
 # to add to the overall sense of privilege, they were seeing a premiere of the latst indy entry, months before it's theatrical release
-# Spielberg was allegedly living in the ranch for the last couple of weeks
+# Spielberg had been allegedly living in the ranch for the last couple of weeks
 # ironically that's when they saw him the least
 # secluded in the tech building, editing the film
 
@@ -333,9 +345,6 @@ The memo supplied two separate but related pieces of news: LucasFilm Games secur
 Management pauses development on /Monkey Island/ and assembles a team with the most experienced designers to lead the new project. Mark is relieved, if a little worried, that they let him continue working on /Loom/ while most of his colleagues switch to /Indiana Jones and the Last Crusade/. This is supposed to be a quick and dirty one, no room for his precious imagery and experimentation.
 
 The /Indy/ team gets a copy of the script and some early footage to go on. During development, some of the folks make a couple of visits to the set. Purcell comes back with a whip for "research purposes", which he incorporates to their afternoon sporting events. They borrow the Holy Grail and they take turns to drink coffee from it.
-
-# everybody laughed at the scene of the cups, when they spotted one that they had used for coffee ?
-# when the nazi drank from the wrong cup and he disintegrated the team cheered Purcell, that had managed to reproduce that million dollar special effect within a couple few DPaint sleepless working days
 
 The designers struggle to follow the script while making the game interactive and fun. They aren't sure how to keep it interesting for the majority of players that will already be familiar with the plot. Artists are similarly constrained by the footage and the production stills.
 
@@ -371,7 +380,7 @@ There was a lot of movement around the office during the final /Monkey Island/ w
 
 "The 'enhanced' versions."
 
-"The 'butchered' versions. They just use gradients for everything. It's like they want DPaint to do all the thinking for them."
+"More like the 'butchered' versions. They just use gradients for everything. It's like they want DPaint to do all the thinking for them."
 
 "We're right here, you know?" someone mumbles at the back.
 
@@ -466,6 +475,10 @@ Your copy of The Secret Of Monkey Island may have been hand-packed by Ron Gilber
 
 #+begin_quote
 The smooth mode blurs already existing pixels together, smear smudges and smears existing pixels around (great for turning gradient fills into clouds).
+#+end_quote
+
+#+begin_quote
+Spielberg wanted Donovan's death shown in one shot, so it would not look like an actor having makeup applied between takes. Inflatable pads were applied to Julian Glover's forehead and cheeks by Nick Dudman that made his eyes seem to recede during the character's initial decomposition, as well as a mechanical wig that grew his hair. The shot of Donovan's death was the first all-digital composite scene in a movie,[30] and was created over three months by morphing together three puppets of Donovan created by Stephan Dupuis in separate stages of decay, a technique ILM mastered on Willow (1988).[20] A fourth puppet was used for the decaying clothes, because the puppet's torso mechanics had been exposed. Complications arose because Alison Doody's double had not been filmed for the scene's latter two elements, so the background and hair from the first shot had to be used throughout, with the other faces mapped over it. Donovan's skeleton was hung on wires like a marionette; it required several takes to film it crashing against the wall because not all the pieces released upon impact.[28]
 #+end_quote
 
 *** tasks                                                          :noexport:
