@@ -288,6 +288,15 @@ There's a counter near the entrance. The librarian asks them what's the purpose 
 <br/><br/>
 #+end_export
 
+# TODO potential refactor:
+# move after indy, turn into packaging scene, add production details
+# mix of paused by indy, mixed with loom such that the backgrounds themselves blend in his mind
+# move some of the monkey remarks in the scanner section over here
+# maybe add back some of the extra remarks about ron made game
+# maybe take ideas from the box and the package (dial a pirate, purcell artwork, floppies, read the box description)
+# assembly line
+
+
 "Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships." This is how Ron explains his pirate game to anyone that will listen.
 He wants to do something fantasy-like without doing fantasy, which he hates. So he's doing a spoof of the Disney ride. "You'll inhabit this swashbuckling world, hunt for treasures, board ships, fight other pirates, instead of just watching. That right there is why we make adventure games: to give the player the leading role."
 
@@ -299,6 +308,7 @@ Ron may be a programmer by trade, he may be a decent writer, but game design is 
 
 The memo supplied two separate but related pieces of news: LucasFilm Games secured the rights to /Indiana Jones/; they have six months to come up with a game based on the new entry Spielberg is shooting.
 
+# puts other projects on hold
 Management pauses development on /Monkey Island/ and assembles a team with the most experienced designers to lead the new project. Mark is relieved, if a little worried, that they let him continue working on /Loom/ while most of his colleagues switch to /Indiana Jones and the Last Crusade/. This is supposed to be a quick and dirty one, no room for his precious imagery and experimentation.
 
 The /Indy/ team gets a copy of the script and some early footage to go on. During development, some of the folks make a couple of visits to the set. Purcell comes back with a whip for "research purposes", which he incorporates to their afternoon sporting events. They borrow the Holy Grail and they take turns to drink coffee from it.
@@ -338,7 +348,7 @@ There was a lot of movement around the office during the final /Monkey Island/ w
 
 "We're right here, you know?" someone mumbles at the back.
 
-Mark continues: "It felt like we were finally getting somewhere, during /Monkey/. Now it's like starting all over." People say that /Monkey Island/ starts a new chapter for Games Group, but to Mark it feels more like a culmination. The tools were at their best and for the first time everybody, the designers and the artists, seemed to know exactly what they were doing.
+Mark continues: "It felt like we were finally getting somewhere, during /Monkey/. Now it's like starting all over." People say that /Monkey Island/ starts a new chapter for the Games Group, but to Mark it feels more like a culmination. The tools were at their best and for the first time everybody, the designers and the artists, seemed to know exactly what they were doing.
 
 "A technology is always at its best right before it's obsolete, man,” says Purcell.
 
@@ -346,9 +356,9 @@ Mark continues: "It felt like we were finally getting somewhere, during /Monkey/
 
 "One Purcell."
 
-"Smart fella."
+"Wise fella."
 
-He can already see it: after VGA and scanners it will be compact discs, or RGB color, or those 3D models they've been using over at the ILM basement. More colors, more space, more processing power, but also more complications, more time to master the tools. Forget about creativity or innovation, squeezing any art out of the machines. They'll be struggling just to stay competent. Before they know it, they'll be starting over with the hot new thing.
+After VGA and scanners it will be compact discs, or RGB color, or those 3D models they've been using over at the ILM basement. More colors, more space, more processing power, but also more complications, more time to master the tools. Forget about creativity or innovation, squeezing any art out of the machines. They'll be struggling just to stay competent. Before they know it, they'll be starting over with the hot new thing.
 
 #+begin_export html
 <br/><br/>
@@ -432,8 +442,11 @@ The smooth mode blurs already existing pixels together, smear smudges and smears
 #+end_quote
 
 *** tasks                                                          :noexport:
-**** TODO proofread again
+**** TODO apply pending proofread fixes
 **** TODO grammar
+**** TODO proofread again
+**** TODO review outline/structure
+**** TODO explore new section / refactor
 **** TODO proofread again
 **** TODO review/cleanup quotes
 
