@@ -196,9 +196,7 @@ Ron sticks the floppy in his computer and loads the image. He waits for the frin
 
 "These noisy patterns here, you can't do that, that will take too much space."
 
-It's like computers have a bunch of unwritten rules that everyone but him knows about. And the programmers, too, come with their own rules, another kind of machine that needs poking about until it works.
-
-In these situations, Gary gets into the little technical details, not because he cares that Mark understands them but because he wants Mark to know they have important reasons to clip his wings: the image data is run through a compression algorithm so it takes up less storage in the disk. Instead of storing the colors pixel by pixel, they store how many times the current color needs to be repeated; the more same-color segments the image has, the fewer space it will take on disk. His little checkerboard technique---his color "dithering"---completely breaks the process, changing colors at every step, never repeating, making the compressed image take /even more/ space than the source. Dithered backgrounds would double or triple the required disk space, which would double the amount of disks required to ship the game, which would double production costs, which would double the game's price tag, which would surely get them all fired. "Try again with solid colors, please,” he concludes, and pats him on the back. "That was some landscape, though, huh?"
+It's like computers have a bunch of unwritten rules that everyone knows about but him. And the programmers, too, come with their own rules, another kind of machine that needs poking about until it works. Gary gets into the little technical details, not because he cares that Mark understands them but because he wants him to know they have good reasons to clip his wings: the image data is run through a compression algorithm so it takes up less storage in the disk. Instead of storing the colors pixel by pixel, they store how many times each one needs to be repeated; the more same-color segments the image features, the less space it will take on disk. His little checkerboard technique---the pixel "dithering"---completely breaks this process, changing colors at every step, no repetitions, making the new picture take /even more/ space than the original. Dithered backgrounds would double or triple the required disk space, which would double the amount of disks required to ship the game, which would double production costs, which would double the game's price tag, which would surely get them all fired. "Try again with solid colors, okay?” he concludes, and pats him on the back. "That was some landscape, though, huh?"
 
 
 #+begin_export html
@@ -303,7 +301,7 @@ There's a counter near the entrance. The librarian asks them what's the purpose 
 # maybe add back some of the extra remarks about ron made game
 # maybe take ideas from the box and the package (dial a pirate, purcell artwork, floppies, read the box description)
 # assembly line
-
+# alternatively leave somewhat this as an intro but move the aftermath to the warehouse scene
 
 "Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships." This is how Ron explains his pirate game to anyone that will listen.
 He wants to do something fantasy-like without doing fantasy, which he hates. So he's doing a spoof of the Disney ride. "You'll inhabit this swashbuckling world, hunt for treasures, board ships, fight other pirates, instead of just watching. That right there is why we make adventure games: to give the player the leading role."
@@ -477,6 +475,7 @@ The smooth mode blurs already existing pixels together, smear smudges and smears
 **** TODO proofread again
 **** TODO review outline/structure
 **** TODO explore new section / refactor
+**** TODO consider adding chapters: [start + zak + dither] [loom, indy, monkey] [scanner, out]
 **** TODO proofread again
 **** TODO review/cleanup quotes
 
