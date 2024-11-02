@@ -314,16 +314,37 @@ Ron may be a programmer by trade, he may be a decent writer, but game design is 
 <br/><br/>
 #+end_export
 
+# TODO consider turning this into a scene walking out of the theater and back to the stable house
+# the art deco theater is only second to the library as a legendary ranch location
+
+# just looking at the place, faded lights and rounded corners, the smell and the sound of its silence, was a shown on its own
+# one more interesting to mark than jumpy and tumbly and punchy Harrison Ford
+
+# mark had visited and seen some footage but never an entire film
+# to add to the overall sense of privilege, they were seeing a premiere of the latst indy entry, months before it's theatrical release
+# Spielberg was allegedly living in the ranch for the last couple of weeks
+# ironically that's when they saw him the least
+# secluded in the tech building, editing the film
+
+# the film editing crunch was mirrored at the stable house, and Mark was also a privileged spectator to that
+# months before, they received a corporate memo
+
 The memo supplied two separate but related pieces of news: LucasFilm Games secured the rights to /Indiana Jones/; they have six months to come up with a game based on the new entry Spielberg is shooting.
 
-# puts other projects on hold
+# put other projects on hold
 Management pauses development on /Monkey Island/ and assembles a team with the most experienced designers to lead the new project. Mark is relieved, if a little worried, that they let him continue working on /Loom/ while most of his colleagues switch to /Indiana Jones and the Last Crusade/. This is supposed to be a quick and dirty one, no room for his precious imagery and experimentation.
 
 The /Indy/ team gets a copy of the script and some early footage to go on. During development, some of the folks make a couple of visits to the set. Purcell comes back with a whip for "research purposes", which he incorporates to their afternoon sporting events. They borrow the Holy Grail and they take turns to drink coffee from it.
 
+# everybody laughed at the scene of the cups, when they spotted one that they had used for coffee ?
+# when the nazi drank from the wrong cup and he disintegrated the team cheered Purcell, that had managed to reproduce that million dollar special effect within a couple few DPaint sleepless working days
+
 The designers struggle to follow the script while making the game interactive and fun. They aren't sure how to keep it interesting for the majority of players that will already be familiar with the plot. Artists are similarly constrained by the footage and the production stills.
 
 When Spielberg is done editing, they screen the movie on the theater at the Main House. The Games Group walks back to the Stable House, excited about what everyone agrees is the best entry of the trilogy. They discuss the scenes that Spielberg ended up cutting from the movie, but that it's too late for them to remove. This accident suddenly becomes a selling point of the game. Mark loved the movie but feels uneasy about the project. It feels rushed and derivative, all about the money. Once they lift the /Star Wars/ embargo, it's going to be hard to keep the suits from putting all hands on deck to milk Chewbacca.
+
+# uneasy, perhaps because he felt a bystander to the production
+# but mostly because what he <predicted> for the group
 
 #+begin_export html
 <br/><br/>
@@ -451,6 +472,7 @@ The smooth mode blurs already existing pixels together, smear smudges and smears
 
 *** tasks                                                          :noexport:
 **** TODO apply pending proofread fixes
+**** TODO rewrite/extend indy
 **** TODO grammar
 **** TODO proofread again
 **** TODO review outline/structure
