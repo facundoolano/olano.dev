@@ -16,12 +16,7 @@ as real/ /as an actual town/
 #+end_verse
 
 #+begin_export html
-<br/>
-#+end_export
-
-
-#+begin_export html
-<div class="org-center"><h3>I</h3></div><br/>
+<br/><br/><br/><br/>
 #+end_export
 
 "How would you like working on video games?"
@@ -231,18 +226,6 @@ When he gets back from lunch, Ron and David are having a heated discussion in fr
 A week later, David tells Mark that it turns out that dithering is very hard /but not impossible/ to compress. And that Ron is already working on their SCUMM engine to support it. This is now /his/ puzzle to solve. Mark will get to use dithering on his next project. In fact, until further notice, Mark's dithered backgrounds are the official house style. His stock just went up.
 
 #+begin_export html
-<br/><div class="org-center"><h3>II</h3></div><br/>
-#+end_export
-
-# TODO depending on how the warehouse scene ends up structure, it may be better to send this stuff over there
-# maybe add back some of the extra remarks about ron made game
-
-"Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships." This is how Ron explains his pirate game to anyone that will listen.
-He wants to do something fantasy-like without doing fantasy, which he hates. So he's doing a /Pirates of the Caribbean/ spoof. "You'll get to hunt for treasures, board ships, fight other pirates. That right there is the point of adventure games: to take part in the story, not just be told."
-
-Ron may be a programmer by trade, he may be a decent writer, but game design is /his thing./ And he wants this game to be the ultimate realization of his design philosophy, what he's been preaching ever since /Maniac Mansion/. He even published it in a manifesto that became required reading around the office. /Why Adventure Games Suck/. It was mostly around game play, Mark couldn't make much of it, but one stuck with him: Ron wrote that the game should reward players for their accomplishments and, in graphic adventures, the reward is always a new piece of artwork, another location they get to explore. That's how Mark realized than his work is more than just a backdrop, more than content to fill the screen.
-
-#+begin_export html
 <br/><br/>
 #+end_export
 
@@ -352,8 +335,15 @@ It feels rushed and derivative, all about the money. Once they lift the /Star Wa
 <br/><br/>
 #+end_export
 
-<TODO monkey island packaging scene at a warehouse, at night
+"Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships." This is how Ron explained his pirate game to anyone that would listen.
+He wanted to do something fantasy-like without doing fantasy, which he hates. So he went with a /Pirates of the Caribbean/ spoof. "You'll get to hunt for treasures, board ships, fight other pirates. That right there is the point of adventure games: to take part in the story, not just be told."
 
+Ron may be a programmer by trade, he may be a decent writer, but game design is /his thing./ And he wanted this game to be the ultimate realization of his design philosophy, what he's been preaching ever since /Maniac Mansion/. He even published it in a manifesto that became required reading around the office. It was mostly around game play, Mark couldn't make much of it, but one stuck with him: the game should reward players for their accomplishments and, in graphic adventures, the reward is always a new piece of artwork, another location they get to explore. That's when Mark realized than his work is more than just a backdrop, more than content to fill the screen.
+
+<And that he can see the final product, holding the box with Purcell's artwork on the cover and the goofy description on the back, he realizes just how meticulously Ron achieved what he set out to do.
+
+<TODO monkey island packaging scene at a warehouse, at night
+kung fu, but probably a b horror movie would be more fitting for a LucasFilm field trip
 a couple of programmers were copying and labeling the floppies in the other room
 purcell was riveting manuals, hint books and copy-protection wheels with
 mark was in charge on putting everything in the box and ron took over for shrinkwrapping it
@@ -366,10 +356,10 @@ this was so different from their usual job that almost feels like a thematic goi
 
 the silent fit of the cover in the box, the smell of fresh plastic and the warmth of the printed paper
 even if it's mostly purcell artwork and his background merely made it to a little shot in a corner of the box and another in the manual
-holding the box in his hands make the work he's been doing a little more real
+holding the box in his hands makes the work he's been doing a little more real
 
 #+begin_export html
-<br/><div class="org-center"><h3>III</h3></div><br/>
+<br/><br/>
 #+end_export
 
 The artists are gathered at the Technical Building for a demonstration. The scanner is a little tray, like a Xerox machine minus the printer, connected to a Macintosh computer. The scanner costs 10 times the computer, says the speaker.
