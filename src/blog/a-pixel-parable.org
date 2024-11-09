@@ -1,11 +1,12 @@
 ---
 title: A Pixel Parable
-date: 2024-09-22 17:52:07
+date: 2024-11-09
 layout: post
 lang: en
 tags: [videogames, software, fiction, movies]
 draft: true
 excerpt: An imagined town is at least as real as an actual town.
+image: dither.png
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
@@ -463,15 +464,12 @@ Spielberg wanted Donovan's death shown in one shot, so it would not look like an
 #+end_quote
 
 *** tasks                                                          :noexport:
-**** TODO proofread both new scenes
-**** TODO proofread both new scenes again
-**** TODO review/cleanup quotes and chunks
-**** TODO proofread
-**** TODO let it rest
+**** TODO apply fixes
 **** TODO proofread
 **** TODO grammar
 **** TODO proofread
-
+**** TODO reset date, undraft
+**** TODO review/cleanup quotes and chunks
 *** chunks                                                         :noexport:
 https://i.pinimg.com/originals/53/b1/f1/53b1f1a0961866d25ed578d345945dd4.jpg
 
