@@ -292,31 +292,25 @@ There's a counter near the entrance. The librarian asks them what's the purpose 
 <br/><br/>
 #+end_export
 
-<start narrating some of the chalice scene on screen
-<what will be amazement in the regular public, here, in the stag theater at the tech building, is expected with anticipation
-just sitting in there, <dim> faded lights and rounded corners, the smell and the sound of its silence, was a shown on its own
-but watching a movie in there was an entirely different thing.
-<this is theater is different from others, designed not for selling tickets or for entertainment. it's designed for study and observation.
-<not only did he get to experience a film in the Stag theater, he gets to see an unreleased Spielberg-Lucas collaboration, with both of them sitting in the front row
-Spielberg has allegedly been living in the ranch for the last couple of weeks, but it's ironically the longest stretch they went without seeing him around the Stable House
-he's been secluded in the tech building, editing the film
+"I'm not a historian. I have no idea what it looks like. Which one is it?" <says Donovan>. The Nazi blonde chooses a cup---a solid gold, emerald encrusted goblet. Donovan instantly takes it from her. "Oh, yes. It's more beautiful than I'd ever imagined. This certainly is the cup of the King of Kings." Donovan rushes to the well and fills the goblet with water. "Eternal life!" he says, then he drinks.
 
-<when the face disintegrates, the entire theater wakes up in standing ovation
+What in any other theater will be amazement, here, at the Tech Building, is anticipation. The Stag Theater was designed not for entertainment or ticket-selling but for study and observation. Just sitting there, quietly, with its faded lights and rounded corners, hearing and smelling its silence, is a show of its own. Mark has visited before but this is the first time he gets to see a film there. And not just any film but the latest, unreleased Spielberg-Lucas collaboration. The director and the producer sit in the front row. Spielberg has allegedly been living in the Ranch for the last few weeks, but it's the least they saw of him since Mark started working there.
+
+On the screen, Donovan's entire body starts to convulse. His face contorts in agony. He grabs his stomach and turns toward the Nazi blonde. He starts to age---fast! His hair grows long and gray and brittle. His face sinks. Fingernails curl back on themselves. Milky cataracts coat his eyes. Elsa gasps and screams. His skin turns brown and leathery and stretches across his bones until it splits. His skeletal hands reach for Elsa's throat, choking her. Indy rushes forward and pushes Donovan away. As he falls his body breaks into flames, then shatters against the wall.
+
+"He chose... poorly,” says the Knight.
+
+<the entire theater wakes up in standing ovation
 this is the most accomplished ILM work on the movie, <first all digital composite>
 footage had been circling around the campus for weeks so everyone has seen it in some way or another, everyone in the room feels part of accomplishment, and feers proud of it. this is why the skywalker ranch exists.
-but the scene is a Games Group's favorite for special reasons
-with just a few sleepless DPaint sessions
-he single-handledly delivered the EGA equivalent of a million dollar ILM scene
+but the scene is a Games Group's favorite for another reason. They had to include it in their game, Purcell had to deliver the EGA equivalent of the most expensive special effect in film history. And he did, single-handledly, with just a few sleepless DPaint sessions.
 <
 wearing an indy hat
 < and turns into acclaim for purcell, he bows
 
-Spielberg's crunch to finish the film was mirrored at the stable house,
-that's another thing, like this film premiere, that Mark was a privileged spectator to
+While Spielberg was busy at the Tech Building editing /Indiana Jones and the Last Crusade/, most of the Games Group was crunching at the Stable House to finish a game with the same name. <six months earlier, a corporate memo supplied two separate but related pieces of news: LucasFilm Games secured the rights to make /Indiana Jones/ games; they had to come up with one based on the new entry Spielberg was already shooting.
 
-<six months ago, a corporate memo supplied two separate but related pieces of news: LucasFilm Games secured the rights to make /Indiana Jones/ games; they had to come up with one based on the new entry Spielberg is shooting, to go out together with the theatrical release.
-
-Management put other projects on hold and assembled a team with the most experienced designers to lead the new one. Mark was relieved, if a little worried, that they let him continue with /Loom/ while most of his colleagues switched to /Indiana Jones and the Last Crusade/. This was supposed to be a quick and dirty one, no room for his precious imagery and experimentation.
+Management put other projects on hold and assembled a team of the most experienced designers to lead the new one. Mark was relieved, if a little worried, that they let him continue with /Loom/ while most of his colleagues switched to /Indiana Jones and the Last Crusade/. This was supposed to be a quick and dirty one, no room for his precious imagery and experimentation.
 
 The team got a copy of the script and some early footage to go on.
 <The designers struggle to follow the script while making the game interactive and fun. They aren't sure how to keep it interesting for the majority of players that will already be familiar with the plot. Artists are similarly constrained by the footage and the production stills.
@@ -324,7 +318,7 @@ The team got a copy of the script and some early footage to go on.
 some of the folks make a couple of visits to the set. Purcell comes back with a whip for "research purposes", which he incorporates to their afternoon sporting events.
 <They borrow the Holy Grail and they take turns to drink coffee from it.
 
-The Games Group walks back to the Stable House, excited about what everyone agrees is the best entry of the trilogy. They discuss the scenes that Spielberg ended up cutting from the movie, but that it's too late for them to remove. This accident suddenly becomes a selling point of the game.
+The Games Group walks out of the theater, back to the Stable House, excited about what everyone agrees is the best entry of the trilogy. They discuss the scenes that Spielberg left in the cutting floor, but that it's too late for them to remove. This accident suddenly becomes a selling point of the game.
 
 Mark loved the movie but feels uneasy about the project.
 < uneasy, perhaps because he felt a bystander to the production.
@@ -453,6 +447,8 @@ The Honda proceeds and the road proceeds but then ends abruptly, like an abandon
 - [[https://datagubbe.se/dpaint/][An Ode to Deluxe Paint]].
 - [[https://www.superrune.com/tutorials/lucasfilm_ega.php][Lucasfilm EGA adventures: an appreciation]].
 - [[https://web.archive.org/web/20030326051107fw_/http://lucasfans.mixnmojo.com/features/interview_stevepurcell.html][Steve Purcell Interview]].
+- [[https://www.dailyscript.com/scripts/Indiana%20Jones%20And%20The%20Last%20Crusade.txt][Indiana Jones and the Last Crusade screenplay]].
+
 
 *** quotes                                                         :noexport:
 
