@@ -11,12 +11,17 @@ excerpt: An imagined town is at least as real as an actual town.
 #+LANGUAGE: en
 
 #+begin_verse
-/An imagined town is at least as real
-as an actual town./
+/An imagined town is at least
+as real/ /as an actual town/
 #+end_verse
 
 #+begin_export html
-<br/><br/><br/><br/>
+<br/>
+#+end_export
+
+
+#+begin_export html
+<div class="org-center"><h3>I</h3></div><br/>
 #+end_export
 
 "How would you like working on video games?"
@@ -226,6 +231,18 @@ When he gets back from lunch, Ron and David are having a heated discussion in fr
 A week later, David tells Mark that it turns out that dithering is very hard /but not impossible/ to compress. And that Ron is already working on their SCUMM engine to support it. This is now /his/ puzzle to solve. Mark will get to use dithering on his next project. In fact, until further notice, Mark's dithered backgrounds are the official house style. His stock just went up.
 
 #+begin_export html
+<br/><div class="org-center"><h3>II</h3></div><br/>
+#+end_export
+
+# TODO depending on how the warehouse scene ends up structure, it may be better to send this stuff over there
+# maybe add back some of the extra remarks about ron made game
+
+"Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships." This is how Ron explains his pirate game to anyone that will listen.
+He wants to do something fantasy-like without doing fantasy, which he hates. So he's doing a /Pirates of the Caribbean/ spoof. "You'll get to hunt for treasures, board ships, fight other pirates. That right there is the point of adventure games: to take part in the story, not just be told."
+
+Ron may be a programmer by trade, he may be a decent writer, but game design is /his thing./ And he wants this game to be the ultimate realization of his design philosophy, what he's been preaching ever since /Maniac Mansion/. He even published it in a manifesto that became required reading around the office. /Why Adventure Games Suck/. It was mostly around game play, Mark couldn't make much of it, but one stuck with him: Ron wrote that the game should reward players for their accomplishments and, in graphic adventures, the reward is always a new piece of artwork, another location they get to explore. That's how Mark realized than his work is more than just a backdrop, more than content to fill the screen.
+
+#+begin_export html
 <br/><br/>
 #+end_export
 
@@ -288,76 +305,72 @@ There's a counter near the entrance. The librarian asks them what's the purpose 
 
 "He's looking for research material for /Loom/. I'm looking for research material for /Sam & Max/.”
 
+#+begin_export html
+<br/><br/>
+#+end_export
 
+<start narrating some of the chalice scene on screen
+<what will be amazement in the regular public, here, in the stag theater at the tech building, is expected with anticipation
+just sitting in there, <dim> faded lights and rounded corners, the smell and the sound of its silence, was a shown on its own
+but watching a movie in there was an entirely different thing.
+<this is theater is different from others, designed not for selling tickets or for entertainment. it's designed for study and observation.
+<not only did he get to experience a film in the Stag theater, he gets to see an unreleased Spielberg-Lucas collaboration, with both of them sitting in the front row
+Spielberg has allegedly been living in the ranch for the last couple of weeks, but it's ironically the longest stretch they went without seeing him around the Stable House
+he's been secluded in the tech building, editing the film
+
+<when the face disintegrates, the entire theater wakes up in standing ovation
+this is the most accomplished ILM work on the movie, <first all digital composite>
+footage had been circling around the campus for weeks so everyone has seen it in some way or another, everyone in the room feels part of accomplishment, and feers proud of it. this is why the skywalker ranch exists.
+but the scene is a Games Group's favorite for special reasons
+with just a few sleepless DPaint sessions
+he single-handledly delivered the EGA equivalent of a million dollar ILM scene
+<
+wearing an indy hat
+< and turns into acclaim for purcell, he bows
+
+Spielberg's crunch to finish the film was mirrored at the stable house,
+that's another thing, like this film premiere, that Mark was a privileged spectator to
+
+<six months ago, a corporate memo supplied two separate but related pieces of news: LucasFilm Games secured the rights to make /Indiana Jones/ games; they had to come up with one based on the new entry Spielberg is shooting, to go out together with the theatrical release.
+
+Management put other projects on hold and assembled a team with the most experienced designers to lead the new one. Mark was relieved, if a little worried, that they let him continue with /Loom/ while most of his colleagues switched to /Indiana Jones and the Last Crusade/. This was supposed to be a quick and dirty one, no room for his precious imagery and experimentation.
+
+The team got a copy of the script and some early footage to go on.
+<The designers struggle to follow the script while making the game interactive and fun. They aren't sure how to keep it interesting for the majority of players that will already be familiar with the plot. Artists are similarly constrained by the footage and the production stills.
+
+some of the folks make a couple of visits to the set. Purcell comes back with a whip for "research purposes", which he incorporates to their afternoon sporting events.
+<They borrow the Holy Grail and they take turns to drink coffee from it.
+
+The Games Group walks back to the Stable House, excited about what everyone agrees is the best entry of the trilogy. They discuss the scenes that Spielberg ended up cutting from the movie, but that it's too late for them to remove. This accident suddenly becomes a selling point of the game.
+
+Mark loved the movie but feels uneasy about the project.
+< uneasy, perhaps because he felt a bystander to the production.
+< but mostly because what he felt this experience <foretells> for the group
+It feels rushed and derivative, all about the money. Once they lift the /Star Wars/ embargo, it's going to be hard to keep the suits from putting all hands on deck to milk Chewbacca.
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
-# TODO potential refactor:
-# move after indy, turn into packaging scene, add production details
-# mix of paused by indy, mixed with loom such that the backgrounds themselves blend in his mind
-# move some of the monkey remarks in the scanner section over here
-# maybe add back some of the extra remarks about ron made game
-# maybe take ideas from the box and the package (dial a pirate, purcell artwork, floppies, read the box description)
-# assembly line
-# alternatively leave somewhat this as an intro but move the aftermath to the warehouse scene
+<TODO monkey island packaging scene at a warehouse, at night
 
-"Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships." This is how Ron explains his pirate game to anyone that will listen.
-He wants to do something fantasy-like without doing fantasy, which he hates. So he's doing a /Pirates of the Caribbean/ spoof. "You won't be just passing by: you'll get to /inhabit/ this world. Hunt for treasures, board ships, fight other pirates. That right there is why we make adventure games: to give the player the leading role."
+a couple of programmers were copying and labeling the floppies in the other room
+purcell was riveting manuals, hint books and copy-protection wheels with
+mark was in charge on putting everything in the box and ron took over for shrinkwrapping it
 
-Ron may be a programmer by trade, he may be a decent writer, but game design is /his thing./ And he wants this game to be the ultimate realization of his design philosophy, what he's been preaching ever since /Maniac Mansion/. He even published it in a manifesto that became required reading around the office. /Why Adventure Games Suck/. It was mostly around game play, Mark couldn't make much of it, but one stuck with him: Ron wrote that the game should reward players for their accomplishments and, in graphic adventures, the reward is always a new piece of artwork, another location they get to explore. That's how Mark realized than his work is more than just a backdrop, more than content to fill the screen.
+<after indy was done, they worked /Loom/ and /Monkey/ in parallel and they went out months apart. Not only was Mark Lead Background Artist for both games, but he was there from start to finish. Other than the creative process and the leadership styles of Ron and The Professor, /Loom/ and /Monkey/ melt into each other in Mark's head, and that shows in his backgrounds. To him, the island of Loom is the same as Melee island, the village and the town both below the same blue EGA sky.
 
-#+begin_export html
-<br/><br/>
-#+end_export
+<the most <picturesque> form of crunch
+this was so different from their usual job that almost feels like a thematic going away party for the game, literally pushing it out the door
+<the closer a video game could get to a hand crafted work: personally packaged by its designers
 
-# maybe start narrating some of the chalice scene
-# what would be amazement in the regular public
-# here, in the stag theater at the tech building, was the awaited moment
-# and turns into acclaim for purcell
-
-# when the nazi drank from the wrong cup and he disintegrated the team cheered Purcell
-# it was the most accomplished ILM work on the movie, and footage had been circling around the Ranch for weeks
-# but the scene was a Games Group's favorite for different reasons
-# with just a few sleepless DPaint sessions
-# he single-handledly delivered the EGA equivalent of a million dollar ILM digital composite
-
-# the art deco theater is only second to the library as a legendary ranch location
-# The Stag ?
-# just looking at the place, <dim> faded lights and rounded corners, the smell and the sound of its silence, was a shown on its own
-# a room designed to observe / for observation
-# not for selling tickets or enjoying a film, but to observe, and listen.
-# you can hear the silence of the footsteps and the seats.
-# a place that sounds and smells of silence
-# one more interesting to mark than Harrison Ford rolling and tumbling on screen, again
-
-# mark had visited and seen some footage but never an entire film
-# to add to the overall sense of privilege, they were seeing a premiere of the latst indy entry, months before it's theatrical release
-# Spielberg had been allegedly living in the ranch for the last couple of weeks
-# ironically that's when they saw him the least
-# secluded in the tech building, editing the film
-
-# the film editing crunch was mirrored at the stable house, and Mark was also a privileged spectator to that
-# months before, they received a corporate memo
-
-The memo supplied two separate but related pieces of news: LucasFilm Games secured the rights to /Indiana Jones/; they have six months to come up with a game based on the new entry Spielberg is shooting.
-
-Management puts /Monkey Island/ on hold and assembles a team with the most experienced designers to lead the new project. Mark is relieved, if a little worried, that they let him continue working on /Loom/ while most of his colleagues switch to /Indiana Jones and the Last Crusade/. This is supposed to be a quick and dirty one, no room for his precious imagery and experimentation.
-
-The /Indy/ team gets a copy of the script and some early footage to go on. During development, some of the folks make a couple of visits to the set. Purcell comes back with a whip for "research purposes", which he incorporates to their afternoon sporting events. They borrow the Holy Grail and they take turns to drink coffee from it.
-
-The designers struggle to follow the script while making the game interactive and fun. They aren't sure how to keep it interesting for the majority of players that will already be familiar with the plot. Artists are similarly constrained by the footage and the production stills.
-
-When Spielberg is done editing, they screen the movie on the theater at the Main House. The Games Group walks back to the Stable House, excited about what everyone agrees is the best entry of the trilogy. They discuss the scenes that Spielberg ended up cutting from the movie, but that it's too late for them to remove. This accident suddenly becomes a selling point of the game. Mark loved the movie but feels uneasy about the project. It feels rushed and derivative, all about the money. Once they lift the /Star Wars/ embargo, it's going to be hard to keep the suits from putting all hands on deck to milk Chewbacca.
-
-# uneasy, perhaps because he felt a bystander to the production
-# but mostly because what he <predicted> for the group
+the silent fit of the cover in the box, the smell of fresh plastic and the warmth of the printed paper
+even if it's mostly purcell artwork and his background merely made it to a little shot in a corner of the box and another in the manual
+holding the box in his hands make the work he's been doing a little more real
 
 #+begin_export html
-<br/><br/>
+<br/><div class="org-center"><h3>III</h3></div><br/>
 #+end_export
-
 
 The artists are gathered at the Technical Building for a demonstration. The scanner is a little tray, like a Xerox machine minus the printer, connected to a Macintosh computer. The scanner costs 10 times the computer, says the speaker.
 
@@ -365,7 +378,7 @@ The artists are gathered at the Technical Building for a demonstration. The scan
 
 "Yeah?"
 
-There was a lot of movement around the office during the final /Monkey Island/ weeks. Mark was just too deep in crunch mode to notice. They seem to be growing faster, one or two employees joining every week. Everyone's got new PCs, too, with VGA cards and monitors. /Monkey Island/ is getting a sequel, and Mark isn't in it. He's stuck with the new /Indiana Jones/. In a typical corporate move, they renamed the Games Group to Lucas /Arts/ just as they move them out of the Ranch and into some office building. And they finally got the rights to make /Star Wars/ games.
+<There was a lot of movement around the office during the final /Monkey Island/ weeks. Mark was just too deep in crunch mode to notice. They seem to be growing faster, one or two employees joining every week. Everyone's got new PCs, too, with VGA cards and monitors. /Monkey Island/ is getting a sequel, and Mark isn't in it. He's stuck with the new /Indiana Jones/. In a typical corporate move, they renamed the Games Group to Lucas /Arts/ just as they move them out of the Ranch and into some office building. And they finally got the rights to make /Star Wars/ games.>
 
 "The art is gorgeous, but it comes out all fuzzy on the other side of /that/." Purcell points to the scanner. "He has to go back and clean everything up in DPaint."
 
@@ -385,7 +398,7 @@ There was a lot of movement around the office during the final /Monkey Island/ w
 
 "We're right here, you know?" someone mumbles at the back.
 
-Mark continues: "It felt like we were finally getting somewhere, during /Monkey/. Now it's like starting all over." People say that /Monkey Island/ marks a new chapter for the Games Group, but to him it was more of an end. Like the culmination of something. The tools were at their best and for the first time everybody, the designers and the artists, seemed to know exactly what they were doing.
+Mark continues: "It felt like we were finally getting somewhere, during /Monkey/. Now it's like starting all over."
 
 "A technology is always at its best right before it's obsolete, man,” says Purcell.
 
@@ -488,11 +501,10 @@ Spielberg wanted Donovan's death shown in one shot, so it would not look like an
 #+end_quote
 
 *** tasks                                                          :noexport:
+**** TODO review chalice scene + fx description
 **** TODO rewrite/extend indy
-**** TODO review outline/structure
-**** TODO explore new section / refactor
-**** TODO consider adding chapters: [start + zak + dither] [loom, indy, monkey] [scanner, out]
 **** TODO proofread again
+**** TODO review outline/structure
 **** TODO grammar
 **** TODO proofread again
 **** TODO review/cleanup quotes
@@ -569,3 +581,25 @@ For the first time, he won't be adapting someone else's work. The latest version
 
 
 They are starting a newsletter to put in the boxes---they already interviewed Ron, and asked Purcell for a comic strip
+
+
+the art deco theater is only second to the library as a legendary ranch location
+mark had visited and seen some footage but never an entire film
+
+a room designed to observe / for observation
+
+not for selling tickets or enjoying a film, but to observe, and listen.
+you can hear the silence of the footsteps and the seats.
+a place that sounds and smells of silence
+one more interesting to mark than Harrison Ford rolling and tumbling on screen, again
+
+
+<People say that /Monkey Island/ marks a new chapter for the Games Group, but to him it was more of an end. Like the culmination of something. The tools were at their best and for the first time everybody, the designers and the artists, seemed to know exactly what they were doing.
+
+remark about kung fu movie
+<TODO add some monkey production notes
+<remarks about the box (purcell artwork, read the box description, removed dog)
+
+<this well oiled assembly line
+this seemed like a good metaphor of how team gelled during the production of the game
+brainstorming, lunch jokes made it to the game
