@@ -73,7 +73,7 @@ He puts together a little African hut picture and teaches himself to reproduce i
 
 Mark walks out of the garage and meets Gary at the porch. Gary shows him around the Stable House, introducing him to everyone in the Games Group, and takes him to his desk. He'll be sitting next to Gary and across the hall from Ron and David, the programmers. Mark notices there are not one but two different computers on his desk. And neither looks like the Atari he already knows.
 
-"That's a Commodore 64," points Gary, "and that's a DOS PC. We've been transitioning from c64 to DOS. In fact, your first job will be porting the backgrounds of our new game. You'll notice these are, uh, a bit... clunky, when it comes to graphics. Especially that one," he points at the PC.
+"That's a Commodore 64," points Gary, "and that's a DOS PC. We've been transitioning from C64 to DOS. In fact, your first job will be porting the backgrounds of our new game. You'll notice these are, uh, a bit... clunky, when it comes to graphics. Especially that one," he points at the PC.
 
 Mark feels like throwing up.
 
@@ -93,7 +93,7 @@ Mark leaves the office with sore eyes from the computer screen and a headache fr
 
 His first assignment is to port /Zak MacKracken/\’s Commodore64 backgrounds to the EGA PC. David hands him a description of each location in the game. They call them /rooms/ even though some are outdoors---outer space, even. Each one consists of a short description and a list of "hotspots", the things the player can interact with: objects, doors, that kind of thing. Mark has to make sure those remain visible on the new backgrounds. Other than the list of rooms, the only design document is a huge puzzle chart posted on a wall, a sort of storyboard for programmers. Mark can't make sense of it---or the game, for that matter. /Zak MacKracken/ is bigger and more ambitious than /Maniac Mansion/; the work seems more interesting but the game is undecipherable to Mark.
 
-At first, he tries working from the original c64 bit pictures, but that complicates things.
+At first, he tries working from the original C64 bit pictures, but that complicates things.
 Both are 16 color systems, but /not the same/ 16 colors, so swapping palettes is a kind of pixel Whac-A-Mole. He needs to reproduce the pictures from scratch. He sketches on his notebook, plots a grid in graph paper and tapes acetate sheets to his monitor. Anything to delay the moment when he has to move to the computer, where nothing flows, everything clumsy and rigid and LEGO-like.
 
 Then there's the palette. Black, dark gray, light gray, white, dark blue, light blue, cyan, yellow, mustard brown, dark red, poppy red, peach, magenta, acid-hot pink, grass green, and acid-chartreuse. Always the same suffocating 16 colors for anything he needs to draw. He has to ponder carefully what colors to "spend", an early decision that constraints the rest of his choices: the scene composition, the mood, what's shown, what's hinted. There's no room for impulse or experimentation, everything has to follow a plan. Despite his Digital Artist title, his job doesn't seem much concerned with art. The only creativity is in subverting the tools, working around them, against them, exploiting their limitations.
@@ -169,9 +169,9 @@ Drawing from Red Rock and Grand Canyon photos, he easily settles on a compositio
 He wants the image to jump out of the screen; he wants the sky, and the sun, and the ground to bleed into each other distinctly---the sun to set the sky on fire and the earth to bed the ashes.
 
 
-This section of the game takes place in Mars, a location Mark finds very provocative. The acid EGA palette seems strangely fitting there. He owes no loyalty to the muddy c64 backgrounds and he needs not abide reality, either: he's safely into fantasy territory. He realizes he can weaponize the pixel blending artifact and turn this into one of his old sci-fi landscapes.
+This section of the game takes place in Mars, a location Mark finds very provocative. The acid EGA palette seems strangely fitting there. He owes no loyalty to the muddy C64 backgrounds and he needs not abide reality, either: he's safely into fantasy territory. He realizes he can weaponize the pixel blending artifact and turn this into one of his old sci-fi landscapes.
 
-It's not the original c64 background, nor the EGA palette, nor the hotspots list what dictates his work. It's not what he pictured in his head. It's the braid: each pixel born out of its predecessor, each one birthing the next. Little squares boiling with possibility, with no purpose but to carry intent.
+It's not the original C64 background, nor the EGA palette, nor the hotspots list what dictates his work. It's not what he pictured in his head. It's the braid: each pixel born out of its predecessor, each one birthing the next. Little squares boiling with possibility, with no purpose but to carry intent.
 
 For once, he doesn't feel constrained by the material. He's so free that the work becomes free in turn, it takes life and talks back. He tamed the material into rebelling and becoming something other than what he set out to produce, something better than what he could have imagined. It's then, when the work speaks for itself, that he knows. This may not be art, not yet, but it's better than anything he did and anything he's seen on a computer screen. There's the spark. This is the direction, that's where he needs to go.
 
