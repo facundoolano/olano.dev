@@ -13,11 +13,11 @@ image: dither.png
 
 #+begin_verse
 /An imagined town is at least
-as real/ /as an actual town/
+as real/ /as an actual town/.
 #+end_verse
 
 #+begin_export html
-<br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
 #+end_export
 
 "How would you like working on video games?"
@@ -33,7 +33,7 @@ Mark is holding his /Best of the Show/ certificate in one hand and Gary's card i
 </div>
 #+end_export
 
-LucasFilm. As in George Lucas. As in /Star Wars/.
+LucasFilm Games. As in George Lucas. As in /Star Wars/.
 
 #+begin_export html
 <br/><br/>
@@ -73,17 +73,17 @@ He puts together a little African hut picture and teaches himself to reproduce i
 
 Mark walks out of the garage and meets Gary at the porch. Gary shows him around the Stable House, introducing him to everyone in the Games Group, and takes him to his desk. He'll be sitting next to Gary and across the hall from Ron and David, the programmers. Mark notices there are not one but two different computers on his desk. And neither looks like the Atari he already knows.
 
-"That's a Commodore 64,” points Gary, "and that's a DOS PC. We've been transitioning from c64 to DOS. In fact, your first job will be porting the backgrounds of our new game. You'll notice these are, uh, a bit... clunky, when it comes to graphics. Especially that one,” he points at the PC.
+"That's a Commodore 64," points Gary, "and that's a DOS PC. We've been transitioning from c64 to DOS. In fact, your first job will be porting the backgrounds of our new game. You'll notice these are, uh, a bit... clunky, when it comes to graphics. Especially that one," he points at the PC.
 
 Mark feels like throwing up.
 
-"I know, it's a lot,” Gary laughs. "Look, the only thing you need to know about this one is how to run the game. As for this one... You'll mostly just be using DPaint."
+"I know, it's a lot," Gary laughs. "Look, the only thing you need to know about this one is how to run the game. As for this one... You'll mostly just be using DPaint."
 
 Gary reassures him: nobody around here really knows what they are doing, not even the programmers. They are all just trying to figure out what it means to tell a story with a computer. What a video game worthy of LucasFilm should be. There are no experts at /that/. "An artist's perspective is what we expect you to bring to the table. The tools, you'll figure out. They change all the time, anyway."
 
 They spend the next hour fiddling with Deluxe Paint II, the drawing program for the PC. It's like NeoChrome but better, or so Gary says. Mark notes the colors are fewer and uglier than the ones he saw on the Atari. "Oh, yeah. Those are the colors of your nightmares, starting tonight."
 
-After lunch, Ron sits with Mark to play /Maniac Mansion/, his B-horror adventure game. He shows Mark how to move around, how to talk with other characters, how to solve puzzles to make progress. /Maniac Mansion/ is a blueprint of the kind of work they are trying to do. There's a new game they've been working on, David's game, /Zak MacKracken/, but Ron says /Maniac Mansion/ is better to get started. It's best if Mark spends a couple of days just playing it. His impostor syndrome kicks in again. He's no gamer, not even an arcade player. "That's perfect,” Ron says. "We want to build something that just about anyone can pick up and have fun with."
+After lunch, Ron sits with Mark to play /Maniac Mansion/, his B-horror adventure game. He shows Mark how to move around, how to talk with other characters, how to solve puzzles to make progress. /Maniac Mansion/ is a blueprint of the kind of work they are trying to do. There's a new game they've been working on, David's game, /Zak MacKracken/, but Ron says /Maniac Mansion/ is better to get started. It's best if Mark spends a couple of days just playing it. His impostor syndrome kicks in again. He's no gamer, not even an arcade player. "That's perfect," Ron says. "We want to build something that just about anyone can pick up and have fun with."
 
 Mark leaves the office with sore eyes from the computer screen and a headache from all the names and images shoved into his brain. He's relieved that no one's around to see him pull his Honda out of the underground garage. He slows down as he drives by the Main House, where they had lunch that day, a new building made to look old---not any old but period-specific old. It looks just like the one they put in the game. He circles by an artificial lake, a barn, a vineyard. This little valley surrounded by green hills feels as otherworldly as one of his fantasy landscapes. As a shot from /Star Wars/.
 
@@ -102,9 +102,9 @@ Then there's the palette. Black, dark gray, light gray, white, dark blue, light 
 <br/><br/>
 #+end_export
 
-"Coppola,” says David.
+"Coppola," says David.
 
-"Coppola, of course,” Gary concurs. "The Rolling Stones."
+"Coppola, of course," Gary concurs. "The Rolling Stones."
 
 "Wait, all of them?"
 
@@ -116,9 +116,9 @@ Then there's the palette. Black, dark gray, light gray, white, dark blue, light 
 
 It's Mark's third week, and it's the first time he catches a glimpse of George Lucas. They usually only see him at the restaurant when he has visits. Gary and David are listing all the famous people they saw at lunch. Today it's Spielberg.
 
-"You'll understand, of course,” David turns to Mark, "that, while it may seem as if they were right there across the room, we are not breathing the same air. We're worlds apart."
+"You'll understand, of course," David turns to Mark, "that, while it may seem as if they were right there across the room, we are not breathing the same air. We're worlds apart."
 
-"Galaxies,” Gary suggests.
+"Galaxies," Gary suggests.
 
 "Galaxies apart, thank you. They are holograms, like that Leia message on the first one. We can see them but they don't see us."
 
@@ -132,7 +132,7 @@ It's Mark's third week, and it's the first time he catches a glimpse of George L
 
 The owner doesn't care for video games. The existence of the games division is a sort of corporate accident, a spin-off of the Graphics Group prompted by a frustrated collaboration with Atari. And the fact that they got to stay while the Graphics Group---now called Pixar---was sold to Steve Jobs, is another corporate accident. They're a rounding error, the last hackers standing, the only division totally unrelated to film making. A kind of intruders. So the idea is to make themselves invisible, not to remind George Lucas that they exist, that he still owns this little video game studio, that they are spending his money and---much worse---taking up his precious space.
 
-"Our man Steve, on the other hand, is our biggest fan,” David points his fork to Spielberg. "You'll be seeing a lot of him."
+"Our man Steve, on the other hand, is our biggest fan," David points his fork to Spielberg. "You'll be seeing a lot of him."
 
 "This is like an amusement park to him. He's more into it than Lucas, I think."
 
@@ -190,13 +190,13 @@ Ron sticks the floppy in his computer and loads the image. He waits for the frin
 
 "Dithered?"
 
-"What's up?” Gary joins them. "Wow, that's a neat background. Oh, wait, that won't compress. Yeah, you can't do that."
+"What's up?" Gary joins them. "Wow, that's a neat background. Oh, wait, that won't compress. Yeah, you can't do that."
 
 "Compress?"
 
 "These noisy patterns here, you can't do that, that will take too much space."
 
-It's like computers have a bunch of unwritten rules that everyone knows about but him. And the programmers, too, come with their own rules, another kind of machine that needs poking about until it works. Gary gets into the little technical details, not because he cares that Mark understands them but to convince him that they have good reasons to clip his wings. The image data is run through a compression algorithm so it takes up less storage on disk. Instead of storing the colors pixel by pixel, they store how many times each one needs to be repeated. The more same-color segments in the image, the less space it will take on disk. His little checkerboard technique---his pixel "dithering"---completely breaks this process, changing colors at every step, no repetitions, making the new picture take /even more/ space than the original. Dithered backgrounds would double or triple the required disk space, which would double the amount of disks required to ship the game, which would double production costs, which would double the game's price tag, which would surely get them all fired. "Try again with solid colors, okay?” Gary concludes, and pats him on the back. "That was some landscape, though, huh?"
+It's like computers have a bunch of unwritten rules that everyone knows about but him. And the programmers, too, come with their own rules, another kind of machine that needs poking about until it works. Gary gets into the little technical details, not because he cares that Mark understands them but to convince him that they have good reasons to clip his wings. The image data is run through a compression algorithm so it takes up less storage on disk. Instead of storing the colors pixel by pixel, they store how many times each one needs to be repeated. The more same-color segments in the image, the less space it will take on disk. His little checkerboard technique---his pixel "dithering"---completely breaks this process, changing colors at every step, no repetitions, making the new picture take /even more/ space than the original. Dithered backgrounds would double or triple the required disk space, which would double the amount of disks required to ship the game, which would double production costs, which would double the game's price tag, which would surely get them all fired. "Try again with solid colors, okay?" Gary concludes, and pats him on the back. "That was some landscape, though, huh?"
 
 
 #+begin_export html
@@ -205,7 +205,7 @@ It's like computers have a bunch of unwritten rules that everyone knows about bu
 
 His bodily reaction to screen time is somehow connected with sleep deprivation. At first, pulling 6 or 8 straight hours in front of the computer seemed to burn him out, but after 10 or 12 he doesn't really notice anymore, he just keeps going until he passes out on the keyboard.
 
-They warned him there was going to be crunch time when they got closer to the release date. "Here's the thing about deadlines,” David said: "everybody knows we won't make the first one or two, and that's fine. Nobody really cares. As long as they look out to the hallway and see some glow coming out of the offices, they'll leave us alone."
+They warned him there was going to be crunch time when they got closer to the release date. "Here's the thing about deadlines," David said: "everybody knows we won't make the first one or two, and that's fine. Nobody really cares. As long as they look out to the hallway and see some glow coming out of the offices, they'll leave us alone."
 
 Mark defaults to a belligerent attitude towards authority so he is, in principle, against overtime, deadlines, and any other management demand. But he doesn't really mind the effort. Never once he loses sight of the fact that he's paid handsomely to make pretty pictures. He may be no artist, but he wasn't at any of his previous jobs, either. And he didn't get to eat gourmet meals, play catch on the field, or hang around in geek Disneyland. Everyone at the office is used to working late, anyway. They just need to pause the afternoon recreations until the game ships.
 
@@ -249,11 +249,11 @@ Mark was assigned as Lead Background Artist for /Loom/. Purcell will do characte
 
 "Oh, yeah."
 
-"Maybe he's a bit too...”
+"Maybe he's a bit too..."
 
 "Professorial?"
 
-"...well, I don't want to say /ambitious/, because,” Mark gestures towards the House as they pass by the Solarium, "who isn't around here?"
+"...well, I don't want to say /ambitious/, because," Mark gestures towards the House as they pass by the Solarium, "who isn't around here?"
 
 "He better be. /Be the best/, right?"
 
@@ -261,7 +261,7 @@ Mark was assigned as Lead Background Artist for /Loom/. Purcell will do characte
 
 "I mean, a fantasy game?" Purcell continues as they walk across the hall, "/The Sleeping Beauty/? Tchaikovsky? Doesn't sound very LucasFilm to me."
 
-"I like a good fantasy,” says Mark.
+"I like a good fantasy," says Mark.
 
 "More /Lord of the Rings/ than /Star Wars/. Or /Indiana Jones/."
 
@@ -269,13 +269,13 @@ Mark was assigned as Lead Background Artist for /Loom/. Purcell will do characte
 
 "...or /Sam & Max/?"
 
-"Or /Sam & Max/, sure,” Mark concedes. Purcell is on a mission to convince everyone there /could be/ a game based on his comic. If he plants the idea on enough heads, someone will eventually ask him to make one.
+"Or /Sam & Max/, sure," Mark concedes. Purcell is on a mission to convince everyone there /could be/ a game based on his comic. If he plants the idea on enough heads, someone will eventually ask him to make one.
 
 "Well, I'd say it sounds like /Zork/, obviously... and /King's Quest/?"
 
-"Ouch.” Mark pushes one side of the big door.
+"Ouch." Mark pushes one side of the big door.
 
-"Well, what do I know?” says Purcell, "I haven't played any of them."
+"Well, what do I know?" says Purcell, "I haven't played any of them."
 
 "Me neither."
 
@@ -284,9 +284,9 @@ leather couches, Tiffany Lamps. A stained glass dome, bathing the room in amber 
 
 There's a counter near the entrance. The librarian asks them what's the purpose of their visit.
 
-"We're looking for research material for /Loom/,” Mark replies.
+"We're looking for research material for /Loom/," Mark replies.
 
-"He's looking for research material for /Loom/. I'm looking for research material for /Sam & Max/.”
+"He's looking for research material for /Loom/. I'm looking for research material for /Sam & Max/."
 
 #+begin_export html
 <br/><br/>
@@ -299,7 +299,7 @@ Mark has visited this theater before. Sitting below the rounded walls, hearing a
 
 On the screen, Donovan's entire body starts to convulse. His face contorts in agony. He grabs his stomach and turns toward Elsa. He starts to age, his hair growing long and gray and brittle. His face sinks. Fingernails curl back on themselves. Milky cataracts coat his eyes. Elsa gasps and screams. His skin turns brown and leathery and stretches across his bones until it splits. His skeletal hands reach for Elsa's throat, choking her. Indy rushes forward and pushes Donovan away. As he falls, his body breaks into flames, then shatters against the wall.
 
-"He chose... poorly,” concludes the Knight.
+"He chose... poorly," concludes the Knight.
 
 The public raises in standing ovation. This is the most accomplished Industrial Light & Magic work for the film---for any film to date. The first all-digital composite scene in a movie. Footage has been circling around campus for weeks but this is the first time anyone, other than Spielberg and the editors, watch the sequence in full. Every single person in the room feels they are, in one way or another, part of the achievement. This is why Skywalker Ranch exists.
 
@@ -336,7 +336,7 @@ This is as close as a video game can get to a hand-crafted work of art: personal
 
 The artists are gathered at the Tech Building for a demonstration. The scanner is a little tray, like the top half of a Xerox machine. It's connected to a Macintosh computer. The scanner costs 10 times the computer, says the speaker.
 
-"This new guy, Peter, is scanning for his /Monkey 2/ backgrounds,” says Purcell.
+"This new guy, Peter, is scanning for his /Monkey 2/ backgrounds," says Purcell.
 
 "Yeah?"
 
@@ -360,7 +360,7 @@ The artists are gathered at the Tech Building for a demonstration. The scanner i
 
 Mark continues: "It felt like we were finally getting somewhere, during /Monkey/. Now it's like starting all over."
 
-"A technology is always at its best right before it's obsolete, man,” says Purcell.
+"A technology is always at its best right before it's obsolete, man," says Purcell.
 
 "Who said that?" asks Mark.
 
@@ -451,7 +451,7 @@ whichever kind of gradient fill you choose, you can adjust its dither, the amoun
 #+end_quote
 
 #+begin_quote
-Your copy of The Secret Of Monkey Island may have been hand-packed by Ron Gilbert himself. “Monkey Island was done and out the door to manufacturing. In those days you couldn’t just upload your game, you had to have someone make floppy disks and put them in a box,” Dave Grossman recalls. “The manufacturing facility didn’t have the capacity to meet the initial orders the next day. So a bunch of us from the games division worked the graveyard shift at this warehouse, staying up all night riveting code wheels, packing and shrink-wrapping boxes, and so on. It was the shortest and most awesome crunch ever in the history of games.”
+Your copy of The Secret Of Monkey Island may have been hand-packed by Ron Gilbert himself. “Monkey Island was done and out the door to manufacturing. In those days you couldn’t just upload your game, you had to have someone make floppy disks and put them in a box," Dave Grossman recalls. “The manufacturing facility didn’t have the capacity to meet the initial orders the next day. So a bunch of us from the games division worked the graveyard shift at this warehouse, staying up all night riveting code wheels, packing and shrink-wrapping boxes, and so on. It was the shortest and most awesome crunch ever in the history of games."
 #+end_quote
 
 #+begin_quote
@@ -473,7 +473,7 @@ https://i.pinimg.com/originals/53/b1/f1/53b1f1a0961866d25ed578d345945dd4.jpg
 
 http://iveneverdonethat.com/blog_files/skywalkerranch.html
 
-<The one time Lucas showed his face in the Stable House, he said to the director: “Stay small, be the best, don’t lose any money.” That became their gospel, an easy way to answer the question /what would George want us to do?/,an easy way to settle arguments and make design decisions---and an evergreen source of jokes.
+<The one time Lucas showed his face in the Stable House, he said to the director: “Stay small, be the best, don’t lose any money." That became their gospel, an easy way to answer the question /what would George want us to do?/,an easy way to settle arguments and make design decisions---and an evergreen source of jokes.
 <the only part of this that affected him, Mark thought, was /be the best/, and that was how he intended to operate anyway, he didn't need a manager to tell him. he left to the suits, though, to figure out how his work and that of his teammates was supposed to be connected to the money making.
 
 Mark had tried one of their games. while he was impressed by the thorough descriptions and the setting---it was like they made him the protagonist of a fantasy novel---he was quickly frustrated by the complicated gameplay and all the typing it involved. It was like the complete opposite of everything Ron and Gary were trying to do with the graphic adventures. They were comic books to infocom's novels. <despite marketing desperation to sell them as interactive movies
