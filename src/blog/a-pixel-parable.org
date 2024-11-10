@@ -40,15 +40,15 @@ LucasFilm. As in George Lucas. As in /Star Wars/.
 #+end_export
 
 
-This is his second lucky break of the weekend. A friend recommended he went to this sci-fi convention, she said it would good for networking. Mark wouldn't mind having one of his illustrations on a trading card, or a rule book, or, who knows? on the cover of one of those fantasy novels he used to read in high school.
+This is his second lucky break of the weekend. A friend recommended he went to this sci-fi convention, she said it would be good for networking. Mark wouldn't mind having one of his illustrations on a trading card, or a rule book, or, who knows? one of those fantasy novels he used to read in high school.
 
-So he shows up to the convention on Friday. Someone notices his work---these pencil landscapes that look hand-painted---, they invite him to join in the art show, he does, two days later he wins  first place. That's his first lucky break. The second is this guy, Gary, coming over to him, handing him a card, asking him to 'audition' for a video game job.
+So he shows up to the convention on Friday. Someone notices his work---his pencil landscapes that look hand-painted---, they invite him to join in the art show, he does, two days later he wins  first place. That's his first lucky break. The second is this guy, Gary, coming over to him, handing him a card, asking him to 'audition' for a video game job.
 
 "Could you come over to the Ranch for an interview?" Gary insists.
 
 Mark reads the card again, stops for a second to think what to say next. He needs a job, after all. Honesty has been working wonders for him so far: "I'd be happy to come over to do anything at all there but... I don't know the first thing about video games. I never even touched a computer."
 
-"That's alright," Gary replies, "we've had better results teaching artists how to program than the other way around. I'm not worried about that part."
+"That's alright," Gary replies, "we've had better luck teaching artists how to program than the other way around. I'm not worried about that part."
 
 Driving back home, Mark tries to make sense of what just happened. On his first weekend---on his first serious attempt as a professional illustrator---he's offered to interview for a role that he didn't even know existed, but that he's now convinced must be his dream job---and one that he's terribly unqualified for.
 
@@ -61,9 +61,9 @@ Later that night, he calls his parents and learns his father has just bought a p
 "What are you doing with this thing, anyway?" Mark is sitting in front of the computer, skimming the manual. The cover reads /Atari 520ST/.
 "The school made a deal for us to get them at half price. They say we should get /computer-literate/ if we want to have a job in five years." The voice comes through the doorway, then his father, leaning on the frame. "I figured I could use it for writing, but they have a different brand at school, so I can't print my files there. And I'm not buying a printer, so I don't see the point. You can have it if you want."
 
-"Let's see if I get the job, first." Mark continues reading the manual. "It says here there's a drawing program in there, 'NeoChrome'. Let's try that out." It takes them about 20 minutes to find the floppy disk and open the program---their first project since his father thought him how to change his oil over a decade ago. Mark switches to the NeoChrome manual. Another half hour later, He's dropping little green dots over a blue background.
+"Let's see if I get the job, first." Mark keeps reading the manual. "It says here there's a drawing program in there, 'NeoChrome'. Let's try that out." It takes them about 20 minutes to find the floppy disk and open the program---their first project since his father thought him how to change his oil over a decade ago. Mark switches to the NeoChrome manual. Another half hour later, He's dropping little green dots over a blue background.
 
-For the next few evenings, Mark secludes himself in his old high school bedroom, getting familiar with this computer thing and its painting program and the constant touch of the mouse forcing his hand into a claw. Whenever he manages to forget the tool and focus on the task, when a connection sparks between the image on the screen and the image in his brain, his hand jerks for the pencil he's been missing like a phantom limb.
+For the next few evenings, Mark secludes himself in his old high school bedroom, getting familiar with this computer thing and its painting program. The constant touch of the mouse turn his hand into a claw. Whenever he manages to forget the tool and focus on the task---when a connection sparks between the image on the screen and the image in his brain---, he jerks to grab the pencil that's been missing like a phantom limb.
 
 He puts together a little African hut picture and teaches himself to reproduce it, repeating it over and over from the blank page. He executes this procedure again, a few days later, and survives his interview.
 
@@ -567,3 +567,20 @@ brainstorming, lunch jokes made it to the game
 
 /Loom/ and /Monkey/ were developed in tandem, and went out months apart. Despite the differences in the leadership styles of Ron and The Professor, Mark had been pushing one background after another for months to the point that it became hard to tell them apart. To him, the island of Loom is the same as Melee island, the village and the town both below the same blue EGA sky.
 Not only was Mark Lead Background Artist on both games, but for the first time he saw the process of making a game, from start to finish.
+
+forcing his hand into a claw
+<a pencil he's been missing like a phantom limb.>
+
+the <constant perception> of his body gets in the way of the work
+turning the missing pencil in his phantom limb
+
+the constant touch of the mouse turns his hand into a claw and the missing pencil into a phantom limb
+the constant touch of the mouse forces his hand into a claw, missing his pencil like a phantom limb
+the touch of the mouse forces his hand into a claw and reminds him of his pencil like a phantom limb
+the touch of the mouse forces his hand into a claw and turns his missing pencil into a phantom limb
+the touch of the mouse forces his hand into a claw, missing a pencil like a phantom limb
+
+
+<and the constant touch of the mouse. Whenever he manages to forget the tool and focus on the task, when a connection sparks between the image on the screen and the image in his brain, his hand jerks for a pencil, missing like a phantom limb.>
+
+The constant touch of the mouse turn his hand into a claw. Whenever he manages to forget the tool and focus on the task---when a connection sparks between the image on the screen and the image in his brain---, he jerks to grab the pencil that's been missing like a phantom limb.
