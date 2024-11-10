@@ -63,9 +63,9 @@ Later that night, he calls his parents and learns his father has just bought a p
 
 "Let's see if I get the job, first." Mark keeps reading the manual. "It says here there's a drawing program in there, 'NeoChrome'. Let's try that out." It takes them about 20 minutes to find the floppy disk and open the program---their first project since his father thought him how to change his oil over a decade ago. Mark switches to the NeoChrome manual. Another half hour later, He's dropping little green dots over a blue background.
 
-For the next few evenings, Mark secludes himself in his old high school bedroom, getting familiar with this computer thing and its painting program. The constant touch of the mouse turn his hand into a claw. Whenever he manages to forget the tool and focus on the task---when a connection sparks between the image on the screen and the image in his brain---, he jerks to grab the pencil that's been missing like a phantom limb.
+For the next few evenings, Mark secludes himself in his old high school bedroom, getting familiar with this computer thing and its painting program. The constant touch of the mouse turn his hand into a claw; whenever a connection sparks between the image on the screen and the image in his brain, he jerks to grab a pencil that is missing like a phantom limb. The machine won't let him forget his body.
 
-He puts together a little African hut picture and teaches himself to reproduce it, repeating it over and over from the blank page. He executes this procedure again, a few days later, and survives his interview.
+He puts together a little African hut picture and teaches himself to reproduce it, repeating it over and over from the blank page. He executes this procedure again, a few days later, to survive his interview.
 
 #+begin_export html
 <br/><br/>
@@ -568,19 +568,15 @@ brainstorming, lunch jokes made it to the game
 /Loom/ and /Monkey/ were developed in tandem, and went out months apart. Despite the differences in the leadership styles of Ron and The Professor, Mark had been pushing one background after another for months to the point that it became hard to tell them apart. To him, the island of Loom is the same as Melee island, the village and the town both below the same blue EGA sky.
 Not only was Mark Lead Background Artist on both games, but for the first time he saw the process of making a game, from start to finish.
 
-forcing his hand into a claw
-<a pencil he's been missing like a phantom limb.>
-
-the <constant perception> of his body gets in the way of the work
-turning the missing pencil in his phantom limb
-
-the constant touch of the mouse turns his hand into a claw and the missing pencil into a phantom limb
-the constant touch of the mouse forces his hand into a claw, missing his pencil like a phantom limb
-the touch of the mouse forces his hand into a claw and reminds him of his pencil like a phantom limb
-the touch of the mouse forces his hand into a claw and turns his missing pencil into a phantom limb
-the touch of the mouse forces his hand into a claw, missing a pencil like a phantom limb
-
-
-<and the constant touch of the mouse. Whenever he manages to forget the tool and focus on the task, when a connection sparks between the image on the screen and the image in his brain, his hand jerks for a pencil, missing like a phantom limb.>
+----------
 
 The constant touch of the mouse turn his hand into a claw. Whenever he manages to forget the tool and focus on the task---when a connection sparks between the image on the screen and the image in his brain---, he jerks to grab the pencil that's been missing like a phantom limb.
+
+The machine makes it impossible to forget about his body.
+The machine is a reminder of the limits of his body.
+
+The constant touch of the mouse turn his hand into a claw. Whenever a connection sparks between the image on the screen and the image in his brain, he jerks to grab a pencil that is missing like a phantom limb.
+The machine won't let him forget his body.
+
+The machine won't let him go of his body.
+The machine won't let him off his body.
