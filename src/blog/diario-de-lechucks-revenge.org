@@ -3,8 +3,9 @@ title: Diario de Lechuck's Revenge
 date: 2024-11-16 11:44:19
 layout: post
 lang: es
-tags: [videojuegos]
+tags: [videojuegos, memorias]
 draft: true
+excerpt: Mi magdalena es un diskette.
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
@@ -79,17 +80,22 @@ Terminé googleando la solución, nomás. Qué vergüenza. Requería notar un de
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-Con esa trampa cierro rápidamente el segundo capítulo del juego, que es el más largo y el mejor. Ingreso en el terreno sinuoso en que la aventura se empieza a cerrar.
+Los juegos de Ron Gilbert suelen seguir un patrón: un comienzo sencillo y acotado que, cuando da la impresión de que está por agotarse, se abre en una multiplicidad de escenarios, personajes y puzzles. Después se vuelve a cerrar hacia el clímax de la historia. Por el formato de estos juegos, el final rara vez es está a la altura del inicio y el medio.
 
-<
-
-Acá está el mayor riesgo de desinteresarme y abandonar. Un riesgo agravado porque finalmente empecé con el trabajo nuevo.
+<Con esa trampa cierro rápidamente el segundo capítulo, que es el más largo y el mejor. Ingreso en el terreno sinuoso de las aventuras gráficas, cuando se empiezan a cerrar. Acá está el mayor riesgo de desinteresarme y abandonar. Un riesgo agravado porque finalmente empecé con el trabajo nuevo.
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-<efecto clasico + variante puzzle
+Otro patrón que detecto en las buenas aventuras, supongo que derivado del viaje del héroe, es el de obligar al jugador a terminar en el punto de partida, enfrentándolo a la transformación que el protagonista y el mundo sufrieron en el trayecto. En el caso de /Secret of Monkey Island/, Guybrush volvía a Mêlée Island para el enfrentamiento final con Lechuck.
+
+En la secuela detecto una alternativa a este patrón que no recuerdo en otros juegos. /Lechuck's Revenge/ es, más que ninguna otra, una aventura centrada en los puzzles de inventario. En criollo: se trata largamente de juntar objetos y usarlos creativamente, a lo MacGyver. Al entrar en una habitación nos fijamos en qué nos podemos llevar y cómo; esa actitud nos arrastra por el juego más que la de hablar con personajes o explorar el mapa.
+
+<En el clímax del juego, Gilbert y compañía no nos mandan de vuelta a la Scabb Island donde empezamos ---una isla pintoresca pero sin mucha relevancia argumental, una isla como cualquier otra de la saga--- si no que nos confinan a un espacio cerrado y nos enfrentan con el villano sin indicaciones de cómo salir. La genialidad del diseño es que el regreso al inicio no se da en escenario sino en inventario: tenemos que prestar atención a todos los objetos que ya tenemos encima porque los tuvimos que usar para una u otra cosa durante el juego. Si los miramos con atención y nos acordamos de lo que hubo que atravesar para llegar hasta ahí, nos vamos a dar cuenta que ya tenemos todo lo que hace falta para resolver el último puzzle.
+
+<Yo ya sabía lo que tenía que hacer y solo tuve que encontrar los pasos intermedios.
+Me imagino que debe haber pocas cosas más gratificantes que resolver el final de este juego sin ayuda, a pura deducción.
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
@@ -115,7 +121,7 @@ Otra semana. El juego sigue presente porque en mis pensamientos por otro texto e
 
 Vuelvo al juego después de mucho tiempo, como quien termina un trámite postergado, como quien retoma un diario ---este.
 
-Se confirmaron las preocupaciones que había consignado: después del segundo capítulo el juego entra en un embudo, se vuelve lineal y poco queda de su encanto. Los comentarios de los desarrolladores se apagan a su vez. Los últimos puzzles quizás sean los más difíciles pero estos sí que me los acuerdo bien. Despacho lo que queda del juego en una o dos horas, sin demoras, en una sentada.
+Se justifican mis preocupaciones anteriores: después del segundo capítulo el juego entra en un embudo, se vuelve lineal y poco queda de su encanto. Los comentarios de los desarrolladores se apagan a su vez. Los últimos puzzles quizás sean los más difíciles pero estos sí que me los acuerdo bien. Despacho lo que queda del juego en una o dos horas, sin demoras, en una sentada.
 
 Con el [[file:volviendo-los-monos][recuerdo fresco]] de /Return to Monkey Island/, el final me resulta mucho menos abierto de lo que esperaba, lejos del mito que la espera de treinta años había ayudado a construir. Me parece un buen desenlace, elegante, el cierre de una historia en dos partes. Lo que vino después fue una franquicia improvisada ---aún con buenas entregas.
 
