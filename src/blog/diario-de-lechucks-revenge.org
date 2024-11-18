@@ -29,7 +29,7 @@ Por buenas que sean, las aventuras gráficas no se prestan bien a jugarlas por s
 Como adulto, programador, veterano de aventuras y de libros, reparo en otros detalles, en la narrativa, en el diseño.
 Los gráficos de la /Special Edition/ son una aberración y me atengo estrictamente a jugar en modo retro, pero hay algo que sí vale la pena del remaster: el audio con comentarios de los diseñadores del juego.
 
-En sus mandamientos para el diseño de aventuras, que ya cité muchas veces en este blog, Ron Gilbert decía que es fundamental recompensar al jugador por sus logros, y que la recompensa suele venir en forma de arte: un escenario nuevo, otro lugar para explorar. Me doy cuenta que, conociendo bien cada rincón del juego, me incentiva ahora escuchar qué tendrán para decir los diseñadores, qué anécdota o qué chiste sobre el próximo lugar que vaya a visitar.
+En sus mandamientos para el diseño de aventuras, que ya cité [[llegando-los-monos][muchas]] [[del-videojuego-como-puzzle][veces]], Ron Gilbert decía que es fundamental recompensar al jugador por sus logros, y que la recompensa suele venir en forma de arte: un escenario nuevo, otro lugar para explorar. Me doy cuenta que, conociendo bien cada rincón del juego, me incentiva ahora escuchar qué tendrán para decir los diseñadores, qué anécdota o qué chiste sobre el próximo lugar que vaya a visitar.
 
 #+begin_export html
 <br/><br/>
@@ -48,13 +48,14 @@ La familia de Diego se fue mudando cada vez más lejos, hasta que se fueron a Ch
 <br/><br/>
 #+end_export
 
-<la oficina
+Por segunda vez me postergaron la fecha de inicio en mi trabajo nuevo. Sigo jugando.
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
-Por segunda vez me postergaron la fecha de inicio en mi trabajo nuevo. Sigo jugando.
+<la oficina
+
 
 #+begin_export html
 <br/><br/>
@@ -130,9 +131,3 @@ Con el [[file:volviendo-los-monos][recuerdo fresco]] de /Return to Monkey Island
 Es simpático ver pasar los créditos. Más que cualquier otro elemento del juego, son una cápsula del tiempo, me transportan momentáneamente a 1991, a un 1991 imaginado, distinto del que yo viví.
 
 ** Discard :noexport:
-
-<Nuestras familias eran amigas; Hugo, el papá de Diego, había sido compañero de la facultad de mi viejo.
-
-<wolf3d, destruction derby
-
-<Fue una iniciación. El culto a un
