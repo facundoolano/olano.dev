@@ -125,12 +125,6 @@ Los *ejercicios de estilo*, por ejemplo, invierten la idea de que "la forma es l
 El *vidrio* como *puñalada* provee una *saudade* parecida a la del *ron* y, acaso, a la de animar *piñas* en ocho *columnas*, a la de traducir un *pogrom*, a la de demostrar una *teosofía*, a la de escribir un *novillo* oulipiano, a la de escribir esto, a la de programar.
 #+end_quote
 
-#+BEGIN_EXPORT html
-<div class="text-center">
- <img src="{{site.config.static_root}}/img/puzzle/steinberg.jpg">
-</div>
-#+END_EXPORT
-
 Lo que en este caso es un mero entretenimiento constituye el proyecto literario de algunos autores. De los miembros de Oulipo, Georges Perec es ---con la posible excepción de Italo Calvino--- el más notorio. Toda su obra está atravesada por el uso de la restricción y la exploración de la forma. Escribió novelas que inventarian recuerdos, cosas y lugares, respectivamente; escribió una novela lipogramática, /La disparition/, que excluye la letra /e/, la más frecuente en la lengua francesa (traducida al español como /El secuestro/, omitiendo la /a/); escribió, incluso, una obra de teatro basada en un diagrama de flujo sobre /El arte de abordar a su jefe para pedirle un aumento/. Y escribió, durante 10 años, una obra maestra que contiene a todas las demás.
 
 #+BEGIN_EXPORT html
@@ -142,9 +136,16 @@ Lo que en este caso es un mero entretenimiento constituye el proyecto literario 
 #+END_EXPORT
 
 Así explica Perec su proyecto para /La vida instrucciones de uso/:
+
 #+begin_quote
 Me imagino un edificio parisino al que se ha quitado la fachada de modo que, desde la planta baja a la buhardilla, todos los aposentos que se hallan en la parte anterior del edificio sean inmediata y simultáneamente visibles. La novela se limita a describir las habitaciones puestas al descubierto y las actividades que en ellas se desarrollan, todo ello siguiendo procesos formales.
 #+end_quote
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/puzzle/steinberg.jpg">
+</div>
+#+END_EXPORT
 
 El edificio forma una grilla de 10x10: diez ambientes en cada uno de sus diez pisos, incluyendo sótanos, escaleras, habitaciones de servicio, etc. No los visitamos en orden, sino siguiendo una solución al [[https://es.wikipedia.org/wiki/Problema_del_caballo][problema del caballo]]: como si el edificio fuera un tablero de ajedrez, saltamos de una habitación a otra hasta cubrirlas todas, sin repeticiones.
 
