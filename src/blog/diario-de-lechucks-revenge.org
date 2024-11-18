@@ -27,9 +27,9 @@ Por buenas que sean, las aventuras gráficas no se prestan bien a jugarlas por s
 #+end_export
 
 Como adulto, programador, veterano de aventuras y de libros, reparo en otros detalles, en la narrativa, en el diseño.
-Los gráficos de la /Special Edition/ son una aberración y me atengo estrictamente a jugar en modo retro, pero hay algo que sí vale la pena del remaster: el audio con comentarios de los diseñadores del juego.
+Los gráficos de la /Special Edition/ son una aberración y me atengo estrictamente a jugar en modo retro, pero hay algo que sí vale la pena del remaster: el audio con comentarios de los autores.
 
-En sus mandamientos para el diseño de aventuras, que ya cité [[llegando-los-monos][muchas]] [[del-videojuego-como-puzzle][veces]], Ron Gilbert decía que es fundamental recompensar al jugador por sus logros, y que la recompensa suele venir en forma de arte: un escenario nuevo, otro lugar para explorar. Me doy cuenta que, conociendo bien cada rincón del juego, me incentiva ahora escuchar qué tendrán para decir los diseñadores, qué anécdota o qué chiste sobre el próximo lugar que vaya a visitar.
+En sus mandamientos para el diseño de aventuras, que ya cité [[llegando-los-monos][muchas]] [[del-videojuego-como-puzzle][veces]], Ron Gilbert decía que es fundamental recompensar al jugador por sus logros, y que la recompensa suele venir en forma de arte: un escenario nuevo, otro lugar para explorar. Me doy cuenta que, conociendo bien cada rincón del juego, mi incentivo ahora es escuchar qué tendrán para decir los diseñadores, qué anécdota o qué chiste sobre el próximo lugar que vaya a visitar.
 
 #+begin_export html
 <br/><br/>
@@ -37,9 +37,9 @@ En sus mandamientos para el diseño de aventuras, que ya cité [[llegando-los-mo
 
 La primera vez que jugué al /Monkey Island/ fue en lo de Diego. La primera vez que jugué cualquier aventura, en realidad. Fue él quien me suministró esa denominación, /aventura gráfica/, que quizás no entendí. ¿Acaso no todos los videojuegos eran /gráficos/? Diego me resumió la historia de Guybrush y me mostró cómo jugar. Yo era tres años más chico que él, se me escapaba su método deductivo, así que me limitaba a mirar y hacer sugerencias, un /Elige tu propia aventura/ a control remoto. La experienica era fundamentalmente distinta a la que yo tenía de consolas y fichines, estos juegos  solo podían existir en el hábitat de la computadora.
 
-Algunas veces Diego venía a casa por el fin de semana y otras veces iba yo. Parecía que cada vez que lo visitaba vivían en una casa y un barrio distinto: un complejo de edificios frente a la autopista, un chalet con jardín y pileta al fondo, la casona de su abuela en Castelar. También iban cambiando los juegos que tenía para mostrarme: el /Monkey Island/, el /DotT/, el /Sam & Max/, el /Full Throttle/. En esa época yo todavía no tenía computadora, o tenía esa 286 horripilante que no servía para nada, pero los domingos, antes de que me pasaran a buscar, Diego me hacía copias para que yo pudiera seguir jugando en la oficina de mi viejo.
+Algunas veces Diego venía a casa por el fin de semana y otras veces iba yo. Parecía que cada vez que lo visitaba vivían en una casa y un barrio distinto: un complejo de edificios frente a la autopista, un chalet con jardín y pileta al fondo, la casona de su abuela en Castelar. También iban cambiando los juegos que tenía para mostrarme: el /Monkey Island/, el /DotT/, el /Sam & Max/, el /Full Throttle/. En esa época yo todavía no tenía computadora, o tenía esa 286 horripilante que no servía para nada, pero los domingos, antes de que me pasaran a buscar, Diego me hacía copias para que yo pudiera seguir jugando en la oficina de mis viejos.
 
-Una de las últimas veces que me quedé en su casa, Diego ya tenía una computadora nueva, una computadora /multimedia/ con Windows 95 en vez de DOS. Ver la bandeja casi robótica desplegándose para recibir el disco de /Curse of Monkey Island/, escuchar el grito de los monos al abrirse el launcher, escuchar a Guybrush hablar y moverse como en una película de Disney,
+Una de las últimas veces que me quedé en su casa, Diego ya tenía una computadora nueva, una /multimedia/ con Windows 95 en vez de DOS. Ver la bandeja casi robótica desplegándose para recibir el disco de /Curse of Monkey Island/, sentir el grito de los monos al abrirse el launcher, escuchar a Guybrush hablar y moverse como en una película de Disney,
 fue el anuncio de que el futuro había llegado. Por lo menos para quienes tuvieran una Pentium.
 
 La familia de Diego se fue mudando cada vez más lejos, hasta que se fueron a Chubut y les perdí el rastro. Pero yo seguí jugando.
@@ -54,7 +54,11 @@ Por segunda vez me postergaron la fecha de inicio en mi trabajo nuevo. Sigo juga
 <br/><br/>
 #+end_export
 
-<la oficina
+La puerta parecía pesar una tonelada y hacía un ruido como de lluvia al empujarla. Ya adentro del hall retumbaba el silencio y la temperatura parecía un par de grados más baja que la de la calle. Caminaba hasta el final del pasillo, pasaba de largo frente a la puerta del ascensor, subía las escaleras a los saltos y deshacía el camino por el pasillo del primer piso. Ahí tenía que esperar a mi viejo, que tenía las llaves.
+
+Lo primero era el aroma a encierro. No el encierro de una habitación adolescente o del verano porteño sin ventilar, sino un encierro oficioso de papel crujiente, tinta de impresora y puchos aplastados contra el cenicero. El olor de una redaccioncita embutida en un dos ambientes del primer cordón del conurbano.
+
+Una vez adentro, era mi viejo el que tomaba la delantera, siempre siguiendo el mismo procedimiento: del hall al pasillo y del final pasillo a la última oficina, la suya. Prendía la luz y la computadora ---las dos se  tomaban su tiempo---, y levantaba la persiana. La ventana estaba cruzada verticalmente por unas rejas y horizontalmente por las vías del ferrocarril, al otro lado de la calle. Había también algo de andén.
 
 
 #+begin_export html
@@ -105,7 +109,7 @@ Otra semana. Sigo pensando en el juego a raíz de otro texto que estoy escribien
 
 Vuelvo al juego después de mucho tiempo, como quien termina un trámite postergado, como quien retoma un diario ---este.
 
-Se justifican mis preocupaciones anteriores: después del segundo capítulo el juego entra en un embudo, se vuelve lineal y poco queda de su encanto. Los comentarios de los desarrolladores se apagan a su vez. Los últimos puzzles quizás sean los más difíciles pero estos sí que me los acuerdo bien. Despacho lo que queda del juego en una o dos horas, sin demoras, en una sentada.
+Se justifican mis preocupaciones anteriores: después del segundo capítulo el juego entra en un embudo, se vuelve lineal y poco queda de su encanto. Los comentarios de los desarrolladores se apagan a su vez. Los últimos puzzles quizás sean los más difíciles pero estos sí que me los acuerdo bien. Despacho lo que queda del juego en una o dos horas, sin demoras, en una sola sentada.
 
 #+begin_export html
 <br/><br/>
