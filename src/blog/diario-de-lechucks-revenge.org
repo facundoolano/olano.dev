@@ -56,9 +56,18 @@ Por segunda vez me postergaron la fecha de inicio en mi trabajo nuevo. Sigo juga
 
 La puerta parecía pesar una tonelada y hacía un ruido como de lluvia al empujarla. Ya adentro del hall retumbaba el silencio y la temperatura parecía un par de grados más baja que la de la calle. Caminaba hasta el final del pasillo, pasaba de largo frente a la puerta del ascensor, subía las escaleras a los saltos y deshacía el camino por el pasillo del primer piso. Ahí tenía que esperar a mi viejo, que tenía las llaves.
 
-Lo primero era el aroma a encierro. No el encierro de una habitación adolescente o del verano porteño sin ventilar, sino un encierro oficioso de papel crujiente, tinta de impresora y puchos aplastados contra el cenicero. El olor de una redaccioncita embutida en un dos ambientes del primer cordón del conurbano.
+Lo primero era el aroma a encierro. No el encierro de una habitación adolescente o del verano porteño sin ventilar, sino un encierro oficioso de papel crujiente, de impresoras y de puchos aplastados. Un olor a redacción embutida en un dos ambientes del primer cordón del conurbano.
 
-Una vez adentro, era mi viejo el que tomaba la delantera, siempre siguiendo el mismo procedimiento: del hall al pasillo y del final pasillo a la última oficina, la suya. Prendía la luz y la computadora ---las dos se  tomaban su tiempo---, y levantaba la persiana. La ventana estaba cruzada verticalmente por unas rejas y horizontalmente por las vías del ferrocarril, al otro lado de la calle. Había también algo de andén.
+Una vez adentro, era mi viejo el que tomaba la delantera, siempre siguiendo el mismo procedimiento: del hall al pasillo y del pasillo a la última oficina, la suya. Prendía la luz y la computadora ---las dos se  tomaban su tiempo--- y levantaba la persiana. La ventana estaba cruzada verticalmente por unas rejas y horizontalmente por las vías del ferrocarril, al otro lado de la calle. Zumbaba la computadora y zumbaba el tubo de luz y, cada veinte o treinta minutos, zumbaban los vidrios y las paredes con el paso del tren.
+
+Atrás del monitor había estantes altos con biblioratos apilados y estantes bajos con cajitas de diskettes.
+Los de 5¼, blandengues y aburridos, no tenían nada para ofrecer: documentos de texto y planos de AutoCAD.
+Los de 3½ eran más chicos pero más sustanciosos, como libros de tapa dura. Era ahí donde se podían guardar juegos. Entre los estantes y el marco de la ventana había unos dibujos míos pegados y una foto de mi viejo con Hugo (el papá de Diego) y Claudio Marangoni (el 5 de Boca).
+
+Mi viejo se iba a trabajar a la oficina de al lado y yo me quedaba jugando al /Monkey Island/, al /PC Fútbol/, al /Wolf3D/, hasta que se hacía de noche y teníamos que volver. A esa hora del domingo, por la ventana, desfilaban tristes las lucecitas amarillas del Sarmiento.
+
+
+
 
 
 #+begin_export html
@@ -135,3 +144,5 @@ Con el [[file:volviendo-los-monos][recuerdo fresco]] de /Return to Monkey Island
 Es simpático ver pasar los créditos. Más que cualquier otro elemento del juego, son una cápsula del tiempo, me transportan momentáneamente a 1991, a un 1991 imaginado, distinto del que yo viví.
 
 ** Discard :noexport:
+
+<El monitor había sido gris pero ahora era amarillo, y estaba cubierto con una pantalla para proteger la vista yo la retiraba para que no me retaceen esos 256 colores que había ido a buscar
