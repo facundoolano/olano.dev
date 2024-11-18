@@ -35,19 +35,20 @@ En sus mandamientos para el diseño de aventuras, que ya cité muchas veces en e
 <br/><br/>
 #+end_export
 
-<diego
+La primera vez que jugué al /Monkey Island/ fue en lo de Diego. La primera vez que jugué cualquier aventura, en realidad. Fue él quien me suministró esa denominación, /aventura gráfica/, que quizás no entendí. ¿Acaso no todos los videojuegos eran /gráficos/? Diego me resumió la historia de Guybrush y me mostró cómo jugar. Yo era tres años más chico que él, se me escapaba su método deductivo, así que me limitaba a mirar y hacer sugerencias, un /Elige tu propia aventura/ a control remoto. La experienica era fundamentalmente distinta a la que yo tenía de consolas y fichines, estos juegos  solo podían existir en el hábitat de la computadora.
+
+Algunas veces Diego venía a casa por el fin de semana y otras veces iba yo. Parecía que cada vez que lo visitaba vivían en una casa y un barrio distinto: un complejo de edificios frente a la autopista, un chalet con jardín y pileta al fondo, la casona de su abuela en Castelar. También iban cambiando los juegos que tenía para mostrarme: el /Monkey Island/, el /DotT/, el /Sam & Max/, el /Full Throttle/. En esa época yo todavía no tenía computadora, o tenía esa 286 horripilante que no servía para nada, pero los domingos, antes de que me pasaran a buscar, Diego me hacía copias para que yo pudiera seguir jugando en la oficina de mi viejo.
+
+Una de las últimas veces que me quedé en su casa, Diego ya tenía una computadora nueva, una computadora /multimedia/ con Windows 95 en vez de DOS. Ver la bandeja casi robótica desplegándose para recibir el disco de /Curse of Monkey Island/, escuchar el grito de los monos al abrirse el launcher, escuchar a Guybrush hablar y moverse como en una película de Disney,
+fue el anuncio de que el futuro había llegado. Por lo menos para quienes tuvieran una Pentium.
+
+La familia de Diego se fue mudando cada vez más lejos, hasta que se fueron a Chubut y les perdí el rastro. Pero yo seguí jugando.
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
 <la oficina
-
-#+begin_export html
-<br/><br/>
-#+end_export
-
-<mi propia pc
 
 #+begin_export html
 <br/><br/>
@@ -127,3 +128,11 @@ Me imagino que debe haber pocas cosas más gratificantes que resolver el final d
 Con el [[file:volviendo-los-monos][recuerdo fresco]] de /Return to Monkey Island/, el final me resulta mucho menos abierto de lo que esperaba, lejos del mito que la espera de treinta años había ayudado a construir. Me parece un buen desenlace, elegante, el cierre de una historia de dos partes. Lo que vino después, aún con buenas entregas, fue la improvisación de una franquicia.
 
 Es simpático ver pasar los créditos. Más que cualquier otro elemento del juego, son una cápsula del tiempo, me transportan momentáneamente a 1991, a un 1991 imaginado, distinto del que yo viví.
+
+** Discard :noexport:
+
+<Nuestras familias eran amigas; Hugo, el papá de Diego, había sido compañero de la facultad de mi viejo.
+
+<wolf3d, destruction derby
+
+<Fue una iniciación. El culto a un
