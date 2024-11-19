@@ -6,6 +6,8 @@ lang: es
 tags: [videojuegos, memorias]
 draft: true
 excerpt: Mi magdalena es un diskette.
+cover-img: wally.png
+img: wally.png
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
