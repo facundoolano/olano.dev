@@ -4,7 +4,6 @@ date: 2024-11-19
 layout: post
 lang: es
 tags: [videojuegos, memorias]
-draft: true
 excerpt: Mi magdalena es un diskette.
 cover-img: wally.png
 img: wally.png
