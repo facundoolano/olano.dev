@@ -1,0 +1,143 @@
+---
+title: Diario de Lechuck's Revenge
+date: 2024-11-19
+layout: post
+lang: es
+tags: [videojuegos, memorias]
+excerpt: Mi magdalena es un diskette.
+cover-img: wally.png
+img: wally.png
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+
+Me postergaron la fecha de inicio en el trabajo nuevo. Otra semana libre.
+Busco algún juego para llenar el tiempo, algo que pueda empezar y terminar en unos días o que, en todo caso, pueda abandonar sin culpas. Veo /Lechuck's Revenge/ en mi lista de Steam y lo instalo en un impulso.
+
+Debe hacer casi veinte años desde que lo jugué por última vez. No por falta de interés sino por logística: para repasar la saga /Monkey Island/ me resultaba más ordenado empezar por el primero y solo después pasar a la secuela. En estas dos décadas debo haber empezado /The Secret of Monkey Island/ cinco o seis veces y siempre lo abandoné al completar el primer capítulo. Entonces a /Lechuck's Revenge/ no volví nunca.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+Por buenas que sean, las aventuras gráficas no se prestan bien a jugarlas por segunda vez. El motor son los puzzles; una vez que conocés las soluciones se hace difícil sostener el interés, lo que queda es una trabajosa película interactiva. Pero /Lechuck's Revenge/ es tan vasto, sus puzzles tan complejos, que el efecto se atenúa. Todavía me acuerdo de algunas soluciones ---las del principio, las obvias, las que más trabajo me dieron--- pero tuve oportunidad de olvidarme de otras.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+Como adulto, programador, veterano de aventuras y de libros, reparo en otros detalles, en la narrativa, en el diseño.
+Los gráficos de la /Special Edition/ son una aberración y me atengo estrictamente a jugar en modo retro, pero hay algo que sí vale la pena del remaster: el audio con comentarios de los autores.
+
+En sus mandamientos para el diseño de aventuras, que ya cité [[llegando-los-monos][muchas]] [[del-videojuego-como-puzzle][veces]], Ron Gilbert decía que es fundamental recompensar al jugador por sus logros, y que la recompensa suele venir en forma de arte: un escenario nuevo, otro lugar para explorar. Me doy cuenta que, conociendo bien cada rincón del juego, mi incentivo ahora es saber qué tendrán para decir los diseñadores, qué anécdota o qué chiste sobre el próximo lugar que vaya a visitar.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+La primera vez que jugué al /Monkey Island/ fue en lo de Diego. La primera vez que jugué cualquier aventura, en realidad. Fue él quien me suministró esa denominación, /aventura gráfica/, que quizás no entendí. ¿Acaso no todos los videojuegos eran /gráficos/? Diego me resumió la historia de Guybrush y me mostró cómo jugar. Yo era tres años más chico que él, se me escapaba su método deductivo, así que me limitaba a mirar y a hacer sugerencias, un /Elige tu propia aventura/ a control remoto. La experiencia era fundamentalmente distinta a la que yo conocía de consolas y fichines; estos juegos solo podían entenderse en una computadora.
+
+Algunas veces Diego venía a casa por el fin de semana y otras veces iba yo. Parecía que cada vez que lo visitaba vivía en una casa y un barrio distinto: un complejo de edificios frente a la autopista, un chalet con jardín y pileta al fondo, la casona de su abuela en Castelar. También iban cambiando los juegos que tenía para mostrarme: el /Monkey Island/, el /DotT/, el /Sam & Max/, el /Full Throttle/. En esa época yo todavía no tenía computadora, o tenía esa 286 horripilante que no servía para nada, pero los domingos, antes de que me pasaran a buscar, Diego me hacía copias para que yo pudiera seguir jugando en la oficina de mis viejos.
+
+La familia de Diego se fue mudando cada vez más lejos, hasta que se fueron a Chubut y les perdí el rastro. Una de las últimas veces que lo vi, Diego ya tenía una computadora nueva, una /multimedia/ con Windows 95. Ver esa bandeja casi robótica desplegándose para recibir el disco de /Curse of Monkey Island/, sentir el grito automático de los monos, escuchar a Guybrush hablar y moverse como en una película de Disney,
+fue el anuncio de que el futuro había llegado. Por lo menos para los que tuvieran una Pentium.
+
+
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+Por segunda vez me postergaron la fecha de inicio en el trabajo. Sigo jugando.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+La puerta parecía pesar una tonelada y hacía un ruido lluvioso al empujarla. En el hall del edificio retumbaba el silencio y la temperatura parecía un par de grados más baja que en la calle. Caminaba hasta el final del pasillo, pasaba de largo frente a la puerta del ascensor, subía las escaleras a los saltos y deshacía el camino por el pasillo del primer piso. Ahí tenía que esperar a mi viejo, que tenía las llaves.
+
+Lo primero que percibía era el aroma a encierro. No el encierro de una habitación adolescente o del verano porteño sin ventilar, sino un encierro oficioso de papel crujiente, de impresoras y de puchos aplastados. Un olor como a redacción de diario, una redaccioncita embutida en un dos ambientes del primer cordón del conurbano.
+
+Una vez adentro, era mi viejo el que tomaba la delantera, siempre siguiendo el mismo procedimiento: del hall al pasillo y del pasillo a la última oficina, la suya. Prendía la luz y la computadora ---las dos se  tomaban su tiempo--- y levantaba la persiana. La ventana estaba cruzada verticalmente por unas rejas y horizontalmente por las vías del ferrocarril, al otro lado de la calle. Zumbaba la computadora y zumbaba el tubo de luz y, cada veinte o treinta minutos, zumbaban los vidrios y las paredes con el paso del tren.
+
+El monitor estaba cubierto con una de esas pantallas para proteger la vista, que yo levantaba para ver más color. Arriba había estantes altos con biblioratos apilados y estantes bajos con cajitas de diskettes.
+Los de 5¼, blandengues y aburridos, no tenían nada que ofrecerme: documentos de texto y planos de AutoCAD.
+Los de 3½ eran más chicos pero más sustanciosos, como libros de tapa dura, era ahí donde se podían guardar juegos. Entre los estantes y el marco de la ventana había unos dibujos míos pegados a la pared y una foto de mi viejo con su amigo Hugo, el papá de Diego, y Claudio Marangoni, el 5 de Boca.
+
+Mi viejo se iba a trabajar a la oficina de al lado y yo me quedaba jugando al /Monkey Island/ o al /PC Fútbol/ o al /Wolf3D/, hasta que se hacía de noche y teníamos que volver. A esa hora del domingo, por la ventana, desfilaban tristes las lucecitas amarillas del Sarmiento.
+
+
+
+
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+Me está costando el puzzle del torneo de escupidas.
+
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+Me sigue costando. Ya entré en la etapa de negación: /a lo mejor no soy yo, a lo mejor hay un bug en esta edición/. Me tienta usar una guía para destrabarme, para no terminar abandonando. Claro que usar una guía también constituye una forma de abandono, un riesgo de convertir el juego en un trámite, un seguir las instrucciones de alguien. Nunca me recuperé de haber quemado el /Grim Fandango/, que le quedaba muy grande a mis 12 años, con una guía de la XTREME PC.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+Terminé googleando la solución, nomás. Qué vergüenza. Requería notar un detalle demasiado sutil en el movimiento de un pixel. El diseño es flojo pero tendría que haberlo logrado. Fallé.
+
+
+Con esa trampa cierro rápidamente el segundo capítulo, que es el más largo y el mejor. Ingreso en el terreno pantanoso de las aventuras gráficas, donde se empiezan a cerrar. Acá está el mayor riesgo de desinteresarme y dejar el juego. Un riesgo agravado porque ahora sí voy a empezar a trabajar.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+
+Ya trabajando. Pasé una semana sin jugar.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+Otra semana sin jugar. Son estas notas, esta especie de diario, las que me impiden abandonar.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+Otra semana.
+
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+Vuelvo después de mucho tiempo, como quien termina un trámite postergado, como quien retoma un diario ---este. Se justifican mis preocupaciones anteriores: después del segundo capítulo el juego entra en un embudo, se vuelve lineal, poco queda de su encanto. Los comentarios de los desarrolladores se apagan a su vez. Los últimos puzzles quizás sean los más difíciles pero estos sí que me los acuerdo. Despacho lo que queda del juego en una o dos horas, sin demoras, en una sentada.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+Los juegos de Ron Gilbert suelen seguir un patrón: un comienzo sencillo y acotado que, cuando da la impresión de que está por agotarse, se multiplica en escenarios, personajes y puzzles. Después se vuelve a cerrar hacia el clímax de la historia. Por el formato del género, el final rara vez es está a la altura de todo lo anterior.
+
+Otro patrón que encuentro en las buenas aventuras es el de obligar al jugador a terminar en el punto de partida, enfrentándolo a la transformación que el protagonista y su mundo sufrieron en el trayecto. Es el caso de /Secret of Monkey Island/, en que Guybrush volvía a Mêlée Island para el enfrentamiento final con Lechuck.
+
+En la secuela detecto una variante original de este patrón. /Lechuck's Revenge/ es, ante todo, una aventura centrada en puzzles de inventario. En criollo: se trata largamente de juntar objetos y usarlos ingeniosamente. Al entrar en una habitación nos fijamos en qué nos podemos llevar y cómo; esa actitud nos arrastra por el juego más que la de hablar con personajes o recorrer el mapa.
+
+Para el final, Gilbert no nos manda de vuelta a la Scabb Island donde empezamos ---una isla pintoresca pero sin mucho peso argumental, una isla como cualquier otra de la saga--- sino que nos confina a un espacio cerrado y nos enfrenta con el villano, sin indicaciones para salir. Somos MacGyver. La genialidad del diseño es que el retorno al inicio no se da en escenario sino en inventario: tenemos que volver a los objetos que ya tenemos encima, que fuimos recolectando durante el juego. Si miramos con atención y repasamos lo que hubo que atravesar para llegar hasta acá, nos damos cuenta que tenemos lo necesario para resolver este último puzzle.
+
+Yo ya sabía lo que había que hacer, solo tuve que descifrar los pasos intermedios.
+Me imagino que debe haber pocas cosas tan gratificantes como terminar este juego sin ayuda, a pura deducción.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+Con /Return to Monkey Island/ [[file:volviendo-los-monos][fresco en la memoria]], el final de esta segunda parte me resulta mucho menos abierto de lo que recordaba, lejos del mito que los treinta años de espera ayudaron a construir. Me parece un buen desenlace, elegante, el cierre de una historia de dos partes. Lo que vino después, aún con buenas entregas, fue la improvisación de una franquicia.
+
+Es simpático ver pasar los créditos. Más que cualquier otro elemento del juego, son una cápsula del tiempo, me transportan momentáneamente a 1991, a un 1991 imaginado, distinto del que yo viví.
