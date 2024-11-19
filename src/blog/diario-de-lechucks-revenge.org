@@ -125,14 +125,14 @@ Vuelvo después de mucho tiempo, como quien termina un trámite postergado, como
 
 Los juegos de Ron Gilbert suelen seguir un patrón: un comienzo sencillo y acotado que, cuando da la impresión de que está por agotarse, se multiplica en escenarios, personajes y puzzles. Después se vuelve a cerrar hacia el clímax de la historia. Por el formato del género, el final rara vez es está a la altura de todo lo anterior.
 
-Otro patrón que encuentro en las buenas aventuras es el de obligar al jugador a terminar en el punto de partida, enfrentándolo a la transformación que el protagonista y su mundo sufrieron en el trayecto. En el caso de /Secret of Monkey Island/, Guybrush volvía a Mêlée Island para el enfrentamiento final con Lechuck.
+Otro patrón que encuentro en las buenas aventuras es el de obligar al jugador a terminar en el punto de partida, enfrentándolo a la transformación que el protagonista y su mundo sufrieron en el trayecto. Es el caso de /Secret of Monkey Island/, en que Guybrush volvía a Mêlée Island para el enfrentamiento final con Lechuck.
 
-En la secuela detecto una variante original de este patrón. /Lechuck's Revenge/ es, más que ninguna otra, una aventura centrada en los puzzles de inventario. En criollo: se trata largamente de juntar objetos y usarlos creativamente. Al entrar en una habitación nos fijamos en qué nos podemos llevar y cómo; esa actitud nos arrastra por el juego más que la de hablar con personajes o recorrer el mapa.
+En la secuela detecto una variante original de este patrón. /Lechuck's Revenge/ es, ante todo, una aventura centrada en puzzles de inventario. En criollo: se trata largamente de juntar objetos y usarlos ingeniosamente. Al entrar en una habitación nos fijamos en qué nos podemos llevar y cómo; esa actitud nos arrastra por el juego más que la de hablar con personajes o recorrer el mapa.
 
-Para el final, Gilbert no nos manda de vuelta a la Scabb Island donde empezamos ---una isla pintoresca pero sin mucha relevancia argumental, una isla como cualquier otra de la saga--- sino que nos confina a un espacio cerrado y nos enfrentan con el villano, sin indicaciones para salir. Somos MacGyver. La genialidad del diseño es que el retorno al inicio no se da en la escena sino en el inventario: tenemos que volver a los objetos que ya tenemos encima, que fuimos recolectando durante el juego. Si los miramos con atención y repasamos lo que tuvimos que atravesar para llegar hasta acá, nos vamos a dar cuenta de que tenemos lo necesario para resolver este último puzzle.
+Para el final, Gilbert no nos manda de vuelta a la Scabb Island donde empezamos ---una isla pintoresca pero sin mucho peso argumental, una isla como cualquier otra de la saga--- sino que nos confina a un espacio cerrado y nos enfrenta con el villano, sin indicaciones para salir. Somos MacGyver. La genialidad del diseño es que el retorno al inicio no se da en escenario sino en inventario: tenemos que volver a los objetos que ya tenemos encima, que fuimos recolectando durante el juego. Si miramos con atención y repasamos lo que hubo que atravesar para llegar hasta acá, nos damos cuenta que tenemos lo necesario para resolver este último puzzle.
 
-Yo ya sabía lo que había que hacer, solo tuve que recordar los pasos intermedios.
-Me imagino que debe haber pocas cosas tan gratificantes como resolver el final de este juego sin ayuda, a pura deducción.
+Yo ya sabía lo que había que hacer, solo tuve que descifrar los pasos intermedios.
+Me imagino que debe haber pocas cosas tan gratificantes como terminar este juego sin ayuda, a pura deducción.
 
 #+begin_export html
 <br/><br/>
