@@ -1,6 +1,6 @@
 ---
 title: Diario de Lechuck's Revenge
-date: 2024-11-16 11:44:19
+date: 2024-11-19
 layout: post
 lang: es
 tags: [videojuegos, memorias]
@@ -37,7 +37,7 @@ En sus mandamientos para el diseño de aventuras, que ya cité [[llegando-los-mo
 <br/><br/>
 #+end_export
 
-La primera vez que jugué al /Monkey Island/ fue en lo de Diego. La primera vez que jugué cualquier aventura, en realidad. Fue él quien me suministró esa denominación, /aventura gráfica/, que quizás no entendí. ¿Acaso no todos los videojuegos eran /gráficos/? Diego me resumió la historia de Guybrush y me mostró cómo jugar. Yo era tres años más chico que él, se me escapaba su método deductivo, así que me limitaba a mirar y a hacer sugerencias, un /Elige tu propia aventura/ a control remoto. La experienica era fundamentalmente distinta a la que yo conocía de consolas y fichines; estos juegos  solo podían existir en el hábitat de la computadora.
+La primera vez que jugué al /Monkey Island/ fue en lo de Diego. La primera vez que jugué cualquier aventura, en realidad. Fue él quien me suministró esa denominación, /aventura gráfica/, que quizás no entendí. ¿Acaso no todos los videojuegos eran /gráficos/? Diego me resumió la historia de Guybrush y me mostró cómo jugar. Yo era tres años más chico que él, se me escapaba su método deductivo, así que me limitaba a mirar y a hacer sugerencias, un /Elige tu propia aventura/ a control remoto. La experiencia era fundamentalmente distinta a la que yo conocía de consolas y fichines; estos juegos solo podían entenderse en una computadora.
 
 Algunas veces Diego venía a casa por el fin de semana y otras veces iba yo. Parecía que cada vez que lo visitaba vivía en una casa y un barrio distinto: un complejo de edificios frente a la autopista, un chalet con jardín y pileta al fondo, la casona de su abuela en Castelar. También iban cambiando los juegos que tenía para mostrarme: el /Monkey Island/, el /DotT/, el /Sam & Max/, el /Full Throttle/. En esa época yo todavía no tenía computadora, o tenía esa 286 horripilante que no servía para nada, pero los domingos, antes de que me pasaran a buscar, Diego me hacía copias para que yo pudiera seguir jugando en la oficina de mis viejos.
 
@@ -58,15 +58,15 @@ Por segunda vez me postergaron la fecha de inicio en el trabajo. Sigo jugando.
 
 La puerta parecía pesar una tonelada y hacía un ruido lluvioso al empujarla. En el hall del edificio retumbaba el silencio y la temperatura parecía un par de grados más baja que en la calle. Caminaba hasta el final del pasillo, pasaba de largo frente a la puerta del ascensor, subía las escaleras a los saltos y deshacía el camino por el pasillo del primer piso. Ahí tenía que esperar a mi viejo, que tenía las llaves.
 
-Lo primero que percibía era el aroma a encierro. No el encierro de una habitación adolescente o del verano porteño sin ventilar, sino un encierro oficioso de papel crujiente, de impresoras y de puchos aplastados. Un olor como a la redacción de un diario, una redaccioncita embutida en un dos ambientes del primer cordón del conurbano.
+Lo primero que percibía era el aroma a encierro. No el encierro de una habitación adolescente o del verano porteño sin ventilar, sino un encierro oficioso de papel crujiente, de impresoras y de puchos aplastados. Un olor como a redacción de diario, una redaccioncita embutida en un dos ambientes del primer cordón del conurbano.
 
-Una vez adentro del departamento, era mi viejo el que tomaba la delantera, siempre siguiendo el mismo procedimiento: del hall al pasillo y del pasillo a la última oficina, la suya. Prendía la luz y la computadora ---las dos se  tomaban su tiempo--- y levantaba la persiana. La ventana estaba cruzada verticalmente por unas rejas y horizontalmente por las vías del ferrocarril, al otro lado de la calle. Zumbaba la computadora y zumbaba el tubo de luz y, cada veinte o treinta minutos, zumbaban los vidrios y las paredes con el paso del tren.
+Una vez adentro, era mi viejo el que tomaba la delantera, siempre siguiendo el mismo procedimiento: del hall al pasillo y del pasillo a la última oficina, la suya. Prendía la luz y la computadora ---las dos se  tomaban su tiempo--- y levantaba la persiana. La ventana estaba cruzada verticalmente por unas rejas y horizontalmente por las vías del ferrocarril, al otro lado de la calle. Zumbaba la computadora y zumbaba el tubo de luz y, cada veinte o treinta minutos, zumbaban los vidrios y las paredes con el paso del tren.
 
 El monitor estaba cubierto con una de esas pantallas para proteger la vista, que yo levantaba para ver más color. Arriba había estantes altos con biblioratos apilados y estantes bajos con cajitas de diskettes.
-Los de 5¼, blandengues y aburridos, no tenían nada para ofrecer: documentos de texto y planos de AutoCAD.
+Los de 5¼, blandengues y aburridos, no tenían nada que ofrecerme: documentos de texto y planos de AutoCAD.
 Los de 3½ eran más chicos pero más sustanciosos, como libros de tapa dura, era ahí donde se podían guardar juegos. Entre los estantes y el marco de la ventana había unos dibujos míos pegados a la pared y una foto de mi viejo con su amigo Hugo, el papá de Diego, y Claudio Marangoni, el 5 de Boca.
 
-Mi viejo se iba a trabajar a la oficina de al lado y yo me quedaba jugando al /Monkey Island/, al /PC Fútbol/, al /Wolf3D/, hasta que se hacía de noche y teníamos que volver. A esa hora del domingo, por la ventana, desfilaban tristes las lucecitas amarillas del Sarmiento.
+Mi viejo se iba a trabajar a la oficina de al lado y yo me quedaba jugando al /Monkey Island/ o al /PC Fútbol/ o al /Wolf3D/, hasta que se hacía de noche y teníamos que volver. A esa hora del domingo, por la ventana, desfilaban tristes las lucecitas amarillas del Sarmiento.
 
 
 
@@ -83,7 +83,7 @@ Me está costando el puzzle del torneo de escupidas.
 <br/><br/>
 #+end_export
 
-Me sigue costando. Ya entré en la etapa de negación: /a lo mejor no soy yo, a lo mejor hay un bug en esta edición/. Me tienta usar una guía para destrabarme, para no terminar abandonando el juego. Claro que usar una guía también constituye una forma de abandono, un riesgo de convertir el juego en una suerte de trámite, un seguir las instrucciones que escribió alguien. Nunca me recuperé de haber quemado el /Grim Fandango/, que me quedaba muy grande a mis 12 años, con una guía de la XTREME PC.
+Me sigue costando. Ya entré en la etapa de negación: /a lo mejor no soy yo, a lo mejor hay un bug en esta edición/. Me tienta usar una guía para destrabarme, para no terminar abandonando. Claro que usar una guía también constituye una forma de abandono, un riesgo de convertir el juego en un trámite, un seguir las instrucciones de alguien. Nunca me recuperé de haber quemado el /Grim Fandango/, que le quedaba muy grande a mis 12 años, con una guía de la XTREME PC.
 
 #+begin_export html
 <br/><br/>
@@ -92,7 +92,7 @@ Me sigue costando. Ya entré en la etapa de negación: /a lo mejor no soy yo, a 
 Terminé googleando la solución, nomás. Qué vergüenza. Requería notar un detalle demasiado sutil en el movimiento de un pixel. El diseño es flojo pero tendría que haberlo logrado. Fallé.
 
 
-Con esa trampa cierro rápidamente el segundo capítulo, que es el más largo y el mejor. Ingreso en el terreno pantanoso de las aventuras gráficas, donde se empiezan a cerrar. Acá está el mayor riesgo de desinteresarme y dejar el juego. Un riesgo agravado porque ahora sí voy a empezar el trabajo nuevo.
+Con esa trampa cierro rápidamente el segundo capítulo, que es el más largo y el mejor. Ingreso en el terreno pantanoso de las aventuras gráficas, donde se empiezan a cerrar. Acá está el mayor riesgo de desinteresarme y dejar el juego. Un riesgo agravado porque ahora sí voy a empezar a trabajar.
 
 #+begin_export html
 <br/><br/>
@@ -111,7 +111,7 @@ Otra semana sin jugar. Son estas notas, esta especie de diario, las que me impid
 <br/><br/>
 #+end_export
 
-Otra semana. Sigo pensando en el juego a raíz de otro texto que estoy escribiendo.
+Otra semana.
 
 
 #+begin_export html
@@ -126,23 +126,19 @@ Vuelvo después de mucho tiempo, como quien termina un trámite postergado, como
 
 Los juegos de Ron Gilbert suelen seguir un patrón: un comienzo sencillo y acotado que, cuando da la impresión de que está por agotarse, se multiplica en escenarios, personajes y puzzles. Después se vuelve a cerrar hacia el clímax de la historia. Por el formato del género, el final rara vez es está a la altura de todo lo anterior.
 
-Otro patrón que detecto en las buenas aventuras, supongo que derivado del viaje del héroe, es el de obligar al jugador a terminar en el punto de partida, enfrentándolo a la transformación que el protagonista y su mundo sufrieron en el trayecto. En el caso de /Secret of Monkey Island/, Guybrush volvía a Mêlée Island para el enfrentamiento final con Lechuck.
+Otro patrón que encuentro en las buenas aventuras es el de obligar al jugador a terminar en el punto de partida, enfrentándolo a la transformación que el protagonista y su mundo sufrieron en el trayecto. En el caso de /Secret of Monkey Island/, Guybrush volvía a Mêlée Island para el enfrentamiento final con Lechuck.
 
-En la secuela detecto una alternativa a este patrón que no recuerdo en otros juegos. /Lechuck's Revenge/ es, más que ninguna otra, una aventura centrada en los puzzles de inventario. En criollo: se trata largamente de juntar objetos y usarlos creativamente. Al entrar en una habitación nos fijamos en qué nos podemos llevar y cómo; esa actitud nos arrastra por el juego más que la de hablar con personajes o explorar el mapa.
+En la secuela detecto una variante original de este patrón. /Lechuck's Revenge/ es, más que ninguna otra, una aventura centrada en los puzzles de inventario. En criollo: se trata largamente de juntar objetos y usarlos creativamente. Al entrar en una habitación nos fijamos en qué nos podemos llevar y cómo; esa actitud nos arrastra por el juego más que la de hablar con personajes o recorrer el mapa.
 
-Para el final, Gilbert no nos manda de vuelta a la Scabb Island donde empezamos ---una isla pintoresca pero sin mucha relevancia argumental, una isla como cualquier otra de la saga--- si no que nos confina a un espacio cerrado y nos enfrentan con el villano, sin indicaciones para salir. Somos MacGyver. La genialidad del diseño es que el retorno al inicio no se da en la escena sino en el inventario: tenemos que volver a los objetos que ya tenemos encima, que fuimos recolectando durante el juego. Si los miramos con atención y repasamos lo que tuvimos que atravesar para llegar hasta acá, nos vamos a dar cuenta de que tenemos lo necesario para resolver este último puzzle.
+Para el final, Gilbert no nos manda de vuelta a la Scabb Island donde empezamos ---una isla pintoresca pero sin mucha relevancia argumental, una isla como cualquier otra de la saga--- sino que nos confina a un espacio cerrado y nos enfrentan con el villano, sin indicaciones para salir. Somos MacGyver. La genialidad del diseño es que el retorno al inicio no se da en la escena sino en el inventario: tenemos que volver a los objetos que ya tenemos encima, que fuimos recolectando durante el juego. Si los miramos con atención y repasamos lo que tuvimos que atravesar para llegar hasta acá, nos vamos a dar cuenta de que tenemos lo necesario para resolver este último puzzle.
 
-Yo ya sabía lo que había que hacer, solo tuve que encontrar los pasos intermedios.
+Yo ya sabía lo que había que hacer, solo tuve que recordar los pasos intermedios.
 Me imagino que debe haber pocas cosas tan gratificantes como resolver el final de este juego sin ayuda, a pura deducción.
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
-Con el [[file:volviendo-los-monos][recuerdo fresco]] de /Return to Monkey Island/, el final me resulta mucho menos abierto de lo que esperaba, lejos del mito que los treinta años de espera ayudaron a construir. Me parece un buen desenlace, elegante, el cierre de una historia de dos partes. Lo que vino después, aún con buenas entregas, fue la improvisación de una franquicia.
+Con /Return to Monkey Island/ [[file:volviendo-los-monos][fresco en la memoria]], el final de esta segunda parte me resulta mucho menos abierto de lo que recordaba, lejos del mito que los treinta años de espera ayudaron a construir. Me parece un buen desenlace, elegante, el cierre de una historia de dos partes. Lo que vino después, aún con buenas entregas, fue la improvisación de una franquicia.
 
 Es simpático ver pasar los créditos. Más que cualquier otro elemento del juego, son una cápsula del tiempo, me transportan momentáneamente a 1991, a un 1991 imaginado, distinto del que yo viví.
-
-** Discard :noexport:
-
-<El monitor había sido gris pero ahora era amarillo, y estaba cubierto con una pantalla para proteger la vista yo la retiraba para que no me retaceen esos 256 colores que había ido a buscar
