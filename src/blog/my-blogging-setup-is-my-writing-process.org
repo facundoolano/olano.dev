@@ -1,0 +1,58 @@
+---
+title: my blogging setup is my writing process
+subtitle: (my writing process is my blogging setup)
+date: 2024-11-21
+layout: post
+lang: en
+tags: [meta]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+I do all of my writing in Emacs, with org-mode.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+
+Any post begins as a TODO entry in an ~ideas.org~ file I have. The entry can be a tentative title, the thing I want to write about, or a list of ideas I want to connect.
+
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+
+The entry sits there for weeks, months, even years. Whenever I think about something that seems connected to that post, I add it as a note in that entry. Or, if I'm away from my personal computer, I jot it down in a ny of the notebooks I keep around---on the desk, in my bag, in my nightstand drawer.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+At some point I gather enough notes or I find myself thinking frequently about the ideas in the post, even chaining full sentences in my head, over and over. Then I know it's about time to start writing.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+I don't have a strict method for what comes next, which is for the better, I think. Sometimes I try to shuffle my notes into cohesive paragraphs. Sometimes I toss the notes and start with an outline. Increasingly, I take a stab at a handwriting in my notebook. Whatever the route my goal at this point is to arrive as quickly as possible to a first draft. To me, a first drat means a sequence of paragraphs without placeholders or missing pieces. When I get to that, if I get to that, the post will cascade into existence, even if I end up rewriting every line of thing.
+
+
+
+
+*** stuff                                                          :noexport:
+
+#+begin_src org
+---
+title: My Blogging Setup is My Writing Process
+date: 2024-11-21 19:47:20
+layout: post
+lang: en
+tags: []
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+#+end_src
