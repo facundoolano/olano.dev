@@ -25,13 +25,13 @@ Any post begins as a TODO entry in an ~ideas.org~ file I have. The entry can be 
 #+end_export
 
 
-The entry sits there for weeks, months, even years. Whenever I think about something that seems connected to that post, I add it as a note in that entry. Or, if I'm away from my personal computer, I jot it down in a ny of the notebooks I keep around---on the desk, in my bag, in my nightstand drawer.
+The entry sits there for weeks, months, even years. Whenever I think about something that seems connected to that post, I add it as a note in that entry. Or, if I'm away from my personal computer, I jot it down in any of the notebooks I keep around---on the desk, in my bag, in my nightstand drawer.
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
-At some point I gather enough notes or I find myself thinking frequently about the ideas in the post, even chaining full sentences in my head, over and over. Then I know it's about time to start writing.
+At some point I gather enough notes or I find myself thinking frequently about the ideas in the post, even chaining full sentences in my head, over and over. Then I know I'm ready to start writing.
 
 #+begin_export html
 <br/><br/>
@@ -39,12 +39,19 @@ At some point I gather enough notes or I find myself thinking frequently about t
 
 I don't have a strict method for what comes next, which is for the better, I think. Sometimes I try to shuffle my notes into cohesive paragraphs. Sometimes I toss the notes and start with an outline. Increasingly, I take a stab at a handwriting in my notebook. Whatever the route my goal at this point is to arrive as quickly as possible to a first draft. To me, a first drat means a sequence of paragraphs without placeholders or missing pieces. When I get to that, if I get to that, the post will cascade into existence, even if I end up rewriting every line of thing.
 
+#+begin_export html
+<br/><br/>
+#+end_export
 
+The good thing about a handwritten first draft is that I can take as much time as I want revising and rephrasing as I type it in, without derailing or losing momentum. I can always channel back to the next paragraph in the notebook.
 
+#+begin_export html
+<br/><br/>
+#+end_export
 
-*** stuff                                                          :noexport:
+Notebook or not, before I start typing I need to a new file. I use my own static site generator [LINK] and it's integrated to my Emacs configuration, so I start with ~M-x org-blog-new-post~. This prompts for a title and visits a buffer in org-blog-mode with these contents:
 
-#+begin_src org
+#+begin_src yaml
 ---
 title: My Blogging Setup is My Writing Process
 date: 2024-11-21 19:47:20
@@ -56,3 +63,40 @@ draft: true
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 #+end_src
+
+And this is most of my Emacs setup:
+
+#+begin_src elisp
+(defun org-blog-setup ()
+  "Setup the blog mode."
+  (if (string= "es" (org-kw-language))
+      (progn (ispell-change-dictionary "spanish")
+          (set-input-method "spanish-prefix")))
+  (setq-local org-footnote-section nil)
+  (flyspell-mode 1)
+  (company-mode -1)
+  (writeroom-mode 1)
+  (hl-line-mode -1)
+  (global-hl-line-mode -1)
+  (text-scale-increase 1))
+
+(add-hook 'org-blog-mode-hook 'org-blog-setup)
+
+(defun org-blog-new-post (title)
+  "Create a new jorge post with the given TITLE and switch to it in blog mode."
+  (interactive "MPost title: ")
+  (let* ((project-root (projectile-project-root))
+         (default-directory project-root)
+         (output (shell-command-to-string (concat "jorge post \"" title "\"")))
+         (post-path (string-trim (string-remove-prefix "added " output))))
+    (find-file (expand-file-name post-path project-root))
+    (org-blog-mode)))
+#+end_src
+
+I use [[https://github.com/joostkremers/writeroom-mode][writeroom-mode]] to get a centered block of text with minimal interface and a big font. And I adjust the input method and spell checking to the language of the post. ~org-blog-new-post~ just calls ~jorge post~ on the root of the project to create a new post file, and visits it in an org-blog-mode buffer. While I work on the file I keep ~jorge serve~ running on the terminal and the post open on a browser tab[fn:1]. And I save my progress with [[https://magit.vc/][Magit]] just as I would do with code.
+
+
+
+
+*** Notes
+[fn:1] The implementation of this dev server is described [[https://jorge.olano.dev/blog/a-site-server-with-live-reload/][here]].
