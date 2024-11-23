@@ -7,11 +7,12 @@ lang: en
 tags: [meta]
 draft: true
 excerpt: To dissect a word with a keystroke feels like a superpower.
+image: blog.png
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-I do all of my writing in Emacs, with org-mode.
+I do all my writing in Emacs, with org-mode.
 
 #+begin_export html
 <br/><br/>
@@ -163,6 +164,7 @@ layout: post
 lang: en
 tags: [meta]
 excerpt: To dissect a word with a keystroke feels like a superpower.
+image: blog.png
 ---
 #+end_src
 
