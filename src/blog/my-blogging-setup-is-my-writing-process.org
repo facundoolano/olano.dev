@@ -65,7 +65,7 @@ draft: true
 #+LANGUAGE: en
 #+end_src
 
-And this is most of my Emacs setup:
+This is the relevant Emacs config:
 
 #+begin_src elisp
 (defun org-blog-new-post (title)
@@ -94,25 +94,25 @@ TITLE and switch to it in blog mode."
 (add-hook 'org-blog-mode-hook 'org-blog-setup)
 #+end_src
 
-I use [[https://github.com/joostkremers/writeroom-mode][writeroom-mode]] to get a centered block of text with minimal interface and a big font. And I adjust the input method and spell checking to the language of the post. ~org-blog-new-post~ just calls [[https://jorge.olano.dev/tutorial/4-jorge-post/][~jorge post~]] on the root of the project to create a new post file, and visits it in an org-blog-mode buffer. While I work on the file I keep [[https://jorge.olano.dev/tutorial/3-jorge-serve/][~jorge serve~]] running on the terminal and the post open on a browser tab[fn:1]. And I save my progress with [[https://magit.vc/][Magit]] just as I would do with code.
+I use [[https://github.com/joostkremers/writeroom-mode][writeroom-mode]] to get a centered block of text with minimal interface, and a bigger font. And I adjust the input method and spell checking to the language of the post. ~org-blog-new-post~ just calls [[https://jorge.olano.dev/tutorial/4-jorge-post/][~jorge post~]] on the root of the project to initialize a post file, then visits it in an org-blog-mode buffer. While I work on the file I keep [[https://jorge.olano.dev/tutorial/3-jorge-serve/][~jorge serve~]] running on the terminal and the post open on a browser tab[fn:1]. And I save my progress with [[https://magit.vc/][Magit]] just as I would if I was programming.
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
-With a first draft typed in, I just revise over and over until I can't find anything obviously wrong with the text---or until I can't stand the thing anymore, whatever happens first.
+With the first draft typed in, I just revise over and over until I can't find anything obviously wrong with the text---or until I can't stand it anymore. Whatever happens first.
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
-You'll see a lot of blogging advice around lowering the bar, writing about anything, not worrying about the quality of the post or whether anyone would want to read it. This is good advice to get started and I followed it here, for instance in my initial decision to write exclusively in Spanish, to write about personal stuff and about things I'm not qualified at. But once I got the hang of it---now that I have more ideas than time to write, and I'm good enough at finishing what I start---I shifted my focus to form, style, play, and experimentation. Trying to make the text as good as I can, no matter how long it takes[fn:2].
+You'll see a lot of blogging advice around lowering the bar, writing about anything, not worrying about the quality of the post or whether anyone would want to read it. This is good advice and I followed it here, for instance in my initial decision to write exclusively in Spanish, to write about personal stuff and about things I'm not qualified at. But once I got the hang of it---now that I have more ideas than time and I'm good enough at finishing what I start---I shifted my focus to form, style, play, and experimentation. I take my time with the text, making it as good as I can[fn:2].
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
-This means that I may spend hours trimming the paragraphs, rearranging the sentences, searching for verbs, removing the superfluous adjective, counting the syllables until the rhythm feels right. This also means that, while I don't cater for a specific audience, I keep a model reader in mind while I write; that I don't publish what I can't make interesting for someone other than me; that I won't let the text grow unnecessarily long, or cryptic, or boring[fn:3].
+I may spend hours trimming the paragraphs, rearranging the sentences, searching for verbs, removing the superfluous adjective, counting the syllables until the rhythm feels right. And, while I don't cater for an audience, I keep a model reader in mind. This means that I don't publish what I can't make interesting for someone other than me; that I won't let the text grow long, or cryptic, or boring[fn:3].
 
 
 #+begin_export html
@@ -139,7 +139,7 @@ I wouldn't be caught dead asking an LLM to write or rewrite for me but, since I'
 <br/><br/>
 #+end_export
 
-After every revision, I send the text to my Kindle to read away from my laptop. This lets me look at it with slightly fresher eyes, at the beginning or the end of the day. I highlight and make notes for any error and anything that sounds off or unnecessary or confusing, and fix it next time I sit to work on my desk. I repeat this for a few days until I stop finding new things to fix, which I take as a sign that I'm ready to publish.
+After every revision, I send the text to my Kindle to read away from my laptop. This lets me look at it with slightly fresher eyes, at the beginning or the end of the day. I highlight and make notes for any error and anything that sounds off or unnecessary or confusing, and fix it the next time I sit to work on my desk. I repeat this for a few days until I stop finding new things to fix, which I take as a sign that I'm ready to publish.
 
 #+begin_export html
 <br/><br/>
