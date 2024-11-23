@@ -6,7 +6,7 @@ layout: post
 lang: en
 tags: [meta]
 draft: true
-excerpt: If I keep writing for an infinite number of years, my posts will converge into poetry.
+excerpt: To dissect a word with a keystroke feels like a superpower.
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
@@ -126,7 +126,7 @@ Of course, I fail.
 #+end_export
 
 I rely heavily on the dictionary and the thesaurus during revision, so I have handy commands for [[https://github.com/atykhonov/google-translate][google-translate]].
-This is my favorite feature of writing in Emacs. The ability to dissect a word with a keystroke feels almost like a superpower.
+This is my favorite feature of writing in Emacs. To dissect a word with a keystroke feels like a superpower.
 
 #+begin_export html
 <br/><br/>
@@ -162,9 +162,7 @@ date: 2024-11-25
 layout: post
 lang: en
 tags: [meta]
-excerpt: >
-  If I keep writing for an infinite number of years,
-  my posts will converge into poetry.
+excerpt: To dissect a word with a keystroke feels like a superpower.
 ---
 #+end_src
 
