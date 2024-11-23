@@ -1,11 +1,12 @@
 ---
 title: my blogging setup is my writing process
 subtitle: (my writing process is my blogging setup)
-date: 2024-11-21
+date: 2024-11-25
 layout: post
 lang: en
 tags: [meta]
 draft: true
+excerpt: If I keep writing for an infinite number of years, my posts will converge into poetry.
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
@@ -37,7 +38,7 @@ At some point I gather enough notes or I find myself thinking frequently about t
 <br/><br/>
 #+end_export
 
-I don't have a strict method for what comes next, which is for the better, I think. Sometimes I try to shuffle my notes into cohesive paragraphs. Sometimes I toss the notes and start with an outline. Increasingly, <I take a stab at  handwriting in my notebook. Whatever the route my goal at this point is to arrive as quickly as possible to a first draft>. By draft I mean a sequence of paragraphs without gaps or placeholders. When I get to that, if I get to that, I know the post will cascade into existence, even if I have to rewrite every line of it.
+I don't have a strict method for what comes next, which is for the better, I think. Sometimes I shuffle my notes into cohesive paragraphs. Sometimes I toss the notes and start with an outline. Increasingly, I try with a handwritten first draft. My goal is to arrive as fast as possible to a sequence of paragraphs, without gaps or placeholders. When I get to that, if I get to that, I know the post will cascade into existence, even if I have to rewrite every line of it.
 
 #+begin_export html
 <br/><br/>
@@ -49,7 +50,7 @@ The good thing about a handwritten first draft is that I can take as much time a
 <br/><br/>
 #+end_export
 
-Before I start typing I need a new file. I use [[https://jorge.olano.dev/][my own]] static site generator <and it's integrated in my [[https://github.com/facundoolano/emacs.d/blob/784b20e7bb25f861dc1450ace7ce5e4719c001f9/modules/facundo-blog.el][Emacs configuration]], so I start with ~M-x org-blog-new-post~. This prompts for a title and visits a buffer in org-blog-mode with these contents:
+Before I start typing I need a new file. I run ~M-x org-blog-new-post~, which prompts for a title and visits a buffer in [[https://github.com/facundoolano/emacs.d/blob/784b20e7bb25f861dc1450ace7ce5e4719c001f9/modules/facundo-blog.el][org-blog-mode]] with these contents:
 
 #+begin_src yaml
 ---
@@ -67,33 +68,33 @@ draft: true
 And this is most of my Emacs setup:
 
 #+begin_src elisp
+(defun org-blog-new-post (title)
+  "Create a new jorge post with the given \
+TITLE and switch to it in blog mode."
+  (interactive "MPost title: ")
+  (let* ((project-root (projectile-project-root))
+         (default-directory project-root)
+         (output (shell-command-to-string
+                  (concat "jorge post \"" title "\"")))
+         (post-path
+          (string-trim (string-remove-prefix "added " output))))
+    (find-file (expand-file-name post-path project-root))
+    (org-blog-mode)))
+
+
 (defun org-blog-setup ()
   "Setup the blog mode."
   (if (string= "es" (org-kw-language))
       (progn (ispell-change-dictionary "spanish")
           (set-input-method "spanish-prefix")))
-  (setq-local org-footnote-section nil)
   (flyspell-mode 1)
-  (company-mode -1)
   (writeroom-mode 1)
-  (hl-line-mode -1)
-  (global-hl-line-mode -1)
   (text-scale-increase 1))
 
 (add-hook 'org-blog-mode-hook 'org-blog-setup)
-
-(defun org-blog-new-post (title)
-  "Create a new jorge post with the given TITLE and switch to it in blog mode."
-  (interactive "MPost title: ")
-  (let* ((project-root (projectile-project-root))
-         (default-directory project-root)
-         (output (shell-command-to-string (concat "jorge post \"" title "\"")))
-         (post-path (string-trim (string-remove-prefix "added " output))))
-    (find-file (expand-file-name post-path project-root))
-    (org-blog-mode)))
 #+end_src
 
-I use [[https://github.com/joostkremers/writeroom-mode][writeroom-mode]] to get a centered block of text with minimal interface and a big font. And I adjust the input method and spell checking to the language of the post. ~org-blog-new-post~ just calls ~jorge post~ on the root of the project to create a new post file, and visits it in an org-blog-mode buffer. While I work on the file I keep ~jorge serve~ running on the terminal and the post open on a browser tab[fn:1]. And I save my progress with [[https://magit.vc/][Magit]] just as I would do with code.
+I use [[https://github.com/joostkremers/writeroom-mode][writeroom-mode]] to get a centered block of text with minimal interface and a big font. And I adjust the input method and spell checking to the language of the post. ~org-blog-new-post~ just calls [[https://jorge.olano.dev/tutorial/4-jorge-post/][~jorge post~]] on the root of the project to create a new post file, and visits it in an org-blog-mode buffer. While I work on the file I keep [[https://jorge.olano.dev/tutorial/3-jorge-serve/][~jorge serve~]] running on the terminal and the post open on a browser tab[fn:1]. And I save my progress with [[https://magit.vc/][Magit]] just as I would do with code.
 
 #+begin_export html
 <br/><br/>
@@ -105,7 +106,7 @@ With a first draft typed in, I just revise over and over until I can't find anyt
 <br/><br/>
 #+end_export
 
-You'll see a lot of blogging advice around lowering the bar, writing about anything, not worrying about the quality of the post or whether anyone would want to read it. This is good advice to get started and I followed it here, for instance in my initial decision to write exclusively in Spanish, to write about personal stuff and about things I'm not qualified at. But once I got the hang of it---now that I have more ideas than time to write, and I'm good enough at finishing what I start---I shifted my focus to form, style, play, and experimentation. Trying to make the text as good as I can, no matter how long it takes. That's what I enjoy about this[fn:2].
+You'll see a lot of blogging advice around lowering the bar, writing about anything, not worrying about the quality of the post or whether anyone would want to read it. This is good advice to get started and I followed it here, for instance in my initial decision to write exclusively in Spanish, to write about personal stuff and about things I'm not qualified at. But once I got the hang of it---now that I have more ideas than time to write, and I'm good enough at finishing what I start---I shifted my focus to form, style, play, and experimentation. Trying to make the text as good as I can, no matter how long it takes[fn:2].
 
 #+begin_export html
 <br/><br/>
@@ -151,14 +152,28 @@ After every revision, I send the text to my Kindle to read away from my laptop. 
 <br/><br/>
 #+end_export
 
-When I think the post is ready to ship I update the ~date~, remove the ~draft~ flag, set an ~excerpt~---usually some phrase I like from the text---and a thumbnail ~image~ in the post front matter.
+When the post is ready I update the ~date~, remove the ~draft~, set an ~excerpt~---some phrase I like from the text---and a thumbnail ~image~ in the front matter:
+
+#+begin_src yaml
+---
+title: my blogging setup is my writing process
+subtitle: (my writing process is my blogging setup)
+date: 2024-11-25
+layout: post
+lang: en
+tags: [meta]
+excerpt: >
+  If I keep writing for an infinite number of years,
+  my posts will converge into poetry.
+---
+#+end_src
 
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
-This blog runs on debian and nginx, on a 4-dollar Hetzner box. When I'm done I run ~jorge build~ and [[https://github.com/facundoolano/olano.dev/blob/81563d563d9cf2f9fcdf5cc84b47544da2ba1f65/Makefile#L9-L10][rsync]] with it.
+This blog runs on debian and nginx, on a 4-dollar Hetzner box. When I'm done I run [[https://jorge.olano.dev/tutorial/5-jorge-build/][~jorge build~]] and [[https://github.com/facundoolano/olano.dev/blob/81563d563d9cf2f9fcdf5cc84b47544da2ba1f65/Makefile#L9-L10][rsync]] with it.
 
 
 #+begin_export html
@@ -168,6 +183,6 @@ This blog runs on debian and nginx, on a 4-dollar Hetzner box. When I'm done I r
 
 *** Notes
 [fn:1] The implementation of this dev server is described [[https://jorge.olano.dev/blog/a-site-server-with-live-reload/][here]].
-[fn:2] The more I write, the more I care about form and the less about content. /You must switch your allegiance from the triggering subject to the words/. If I keep writing for an infinite number of years, my blog posts would converge on poetry.
+[fn:2] /You must switch your allegiance from the triggering subject to the words/. The more I write, the more I care about form, the less I care about truth, the less I care about fact. If I keep writing for an infinite number of years, my posts will converge into poetry.
 [fn:3] And if I can't resist the urge for a joke or a digression, at least I have the courtesy of sending it to a footnote.
 [fn:4] Before LLMs I would google the phrase and count the results, something that doesn't even work anymore.
