@@ -131,6 +131,34 @@ I wouldn't be caught dead asking an LLM to write or rewrite for me but, since I'
 <br/><br/>
 #+end_export
 
+After every revision, I send the text to my Kindle to read away from my laptop. This lets me look at it with slightly fresher eyes, at the beginning or the end of the day. I highlight and make notes for any error and anything that sounds off or unnecessary or confusing, and fix it next time I sit to work on my desk. I repeat this for a few days until I stop finding obvious things to fix, which I take as a sign that I'm ready to publish.
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+(I mentioned how my process differs from typical blogging. This is how it's different from "serious" writing: if I really wanted to make the text as good as I can, I would shelve it for a few months, let myself forget about it, and go back to it as if someone else had written it, maybe starting a new draft from scratch. But I don't do that; I prefer a shorter life cycle, to get the thing out of my list and off of my head and move on to the next one.)
+
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+When I think the post is ready to ship I update the date, remove the ~draft~ flag, set an ~excerpt~---usually some phrase I like from the text---and a thumbnail picture.
+
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+This blog runs on debian and nginx, on a 4-dollar Hetzner box. When I'm done I run ~jorge build~ and [[https://github.com/facundoolano/olano.dev/blob/81563d563d9cf2f9fcdf5cc84b47544da2ba1f65/Makefile#L9-L10][rsync]] the files to it.
+
+
+#+begin_export html
+<br/><br/>
+#+end_export
+
+
 *** Notes
 [fn:1] The implementation of this dev server is described [[https://jorge.olano.dev/blog/a-site-server-with-live-reload/][here]].
 [fn:2] The more I write, the more I care about form and the less about content. /You must switch your allegiance from the triggering subject to the words/. If I keep writing for an infinite number of years, my blog posts would converge on poetry.
