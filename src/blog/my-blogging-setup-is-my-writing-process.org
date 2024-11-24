@@ -1,11 +1,10 @@
 ---
 title: my blogging setup is my writing process
 subtitle: (my writing process is my blogging setup)
-date: 2024-11-25
+date: 2024-11-24
 layout: post
 lang: en
 tags: [meta]
-draft: true
 excerpt: To dissect a word with a keystroke feels like a superpower.
 image: blog.png
 ---
