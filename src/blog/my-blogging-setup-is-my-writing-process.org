@@ -27,13 +27,13 @@ Any post begins as a TODO entry in an ~ideas.org~ file. The entry can be a tenta
 #+end_export
 
 
-The entry sits there for weeks, months, even years. Whenever I think about something relevant, I attach a note to the entry. Or, if I'm away from my personal computer, I jot something down in any of the notebooks I keep around---on the desk, in my bag, in my nightstand drawer.
+The entry sits there for weeks, months, even years. Whenever I think about something relevant, I attach a note to the entry. Or I jot something down in any of the notebooks I keep around---on the desk, in my bag, in my nightstand drawer.
 
 #+begin_export html
 <br/><br/>
 #+end_export
 
-I eventually find myself thinking about the post when I wake up, or while I'm running,
+Eventually I find myself thinking about the post when I wake up, or while I'm running,
 instinctively composing it in my head, one sentence after another. Then I know it's time to start writing.
 
 #+begin_export html
@@ -96,7 +96,7 @@ In this [[https://github.com/facundoolano/emacs.d/blob/784b20e7bb25f861dc1450ace
 (add-hook 'org-blog-mode-hook 'org-blog-setup)
 #+end_src
 
-I use [[https://github.com/joostkremers/writeroom-mode][writeroom-mode]] to get a centered block of text with minimal interface, and a bigger font. And I adjust the input method and spell checking to the language of the post. ~org-blog-new-post~ just calls [[https://jorge.olano.dev/tutorial/4-jorge-post/][~jorge post~]] on the root of the project to initialize the file, then visits it in an org-blog-mode buffer. While I work on the file I keep [[https://jorge.olano.dev/tutorial/3-jorge-serve/][~jorge serve~]] running on the terminal and the post open on a browser tab[fn:1]. And I save my progress with [[https://magit.vc/][Magit]] just as I would if I was programming.
+I use [[https://github.com/joostkremers/writeroom-mode][writeroom-mode]] to get a centered block of text with minimal interface. I increase the text size and set the spell checking language. ~org-blog-new-post~ just calls [[https://jorge.olano.dev/tutorial/4-jorge-post/][~jorge post~]] to initialize the file, then visits it in an org-blog-mode buffer. While I work on the file I keep [[https://jorge.olano.dev/tutorial/3-jorge-serve/][~jorge serve~]] running on the terminal and the post open on the browser[fn:1]. And I save my progress with [[https://magit.vc/][Magit]] just as I would if I was programming.
 
 #+begin_export html
 <br/><br/>
@@ -108,7 +108,7 @@ With the first draft typed in, I just revise over and over until I can't find an
 <br/><br/>
 #+end_export
 
-You'll see a lot of blogging advice around lowering the bar, writing about anything, not worrying about the quality of the post or whether anyone would want to read it. This is good advice and I followed it here, for instance in my initial decision to write exclusively in Spanish, to write about personal stuff and about things I'm not qualified at. But once I got the hang of it---now that I have more ideas than time and I'm good enough at finishing what I start---I shifted my focus to form, style, play, and experimentation. I take my time with the text, making it as good as I can[fn:2].
+You'll see a lot of blogging advice around lowering the bar, writing about anything, not worrying about the quality of the post or whether anyone would want to read it. This is good advice and I followed it here, for instance in my initial decision to write exclusively in Spanish, to write about personal stuff and about things I'm not qualified at. But once I got the hang of it---now that I have more ideas than time and I'm good enough at finishing what I start---I shifted my focus to form, style, play, and experimentation[fn:2]. I take my time with the text, making it as good as I can.
 
 #+begin_export html
 <br/><br/>
@@ -134,7 +134,7 @@ This is my favorite feature of writing in Emacs. To dissect a word with a keystr
 <br/><br/>
 #+end_export
 
-I wouldn't be caught dead asking an LLM to write or rewrite for me but, since I'm not a native English speaker, I keep a [[https://github.com/karthink/gptel][gptel]] session to help when an expression sounds awkward or I'm unsure about a preposition[fn:4]. This is one of the few places where the tool shines---or where I'm ignorant enough to miss in what way it sucks. Similarly, when I'm about done, I paste the text on Grammarly for corrections. I don't use their advanced features, much like I don't ask GPT to proofread. I sense these tools want to push me towards a blander style, and I'd much rather own my flawed weirdness.
+I wouldn't be caught dead asking an LLM to write or rewrite for me but, since I'm not a native English speaker, I keep a [[https://github.com/karthink/gptel][gptel]] session to help when an expression sounds awkward or I'm unsure about a preposition[fn:4]. This is the one place where GPT shines---or where I'm ignorant enough to miss in what way it sucks. Similarly, when I'm about done, I paste the text on Grammarly for corrections. I don't use their advanced features, much like I don't ask GPT to proofread. I sense these tools want to push me towards a blander style, and I'd much rather own my flawed weirdness.
 
 
 #+begin_export html
@@ -147,7 +147,7 @@ After every revision, I send the text to my Kindle to read away from the keyboar
 <br/><br/>
 #+end_export
 
-(I mentioned how my process differs from typical blogging. This is how it's different from "serious" writing: if I wanted to make the text as good as I could, I would shelve it for a few months, let myself forget, and go back to it as if someone else had written it. I would maybe even start on a new draft. But I don't do that; I prefer this shorter life cycle, to get the thing off my list, out of my head, and move on.)
+(I mentioned how my process differs from typical blogging. This is how it differs from "serious" writing: if I wanted to make the text as good as I could, I would shelve it for a few months, let myself forget, and go back to it as if someone else had written it. I would maybe even start on a new draft. But I don't do that; I prefer this shorter life cycle, to get the thing off my list, out of my head, and move on.)
 
 
 #+begin_export html
@@ -184,6 +184,6 @@ This blog runs on debian and nginx, on a 4-dollar Hetzner box. When I'm done I r
 
 *** Notes
 [fn:1] The implementation of this dev server is described [[https://jorge.olano.dev/blog/a-site-server-with-live-reload/][here]].
-[fn:2] /You must switch your allegiance from the triggering subject to the words/. The more I write, the more I care about form, the less I care about truth, the less I care about fact. If I keep writing for an infinite number of years, my posts will converge into poetry.
+[fn:2] /You must switch your allegiance from the triggering subject to the words/. The more I write, the more I care about form, the less I care about truth, the less I care about fact. If I keep on for an infinite number of years, my posts will slowly turn into poems.
 [fn:3] And if I can't resist the urge for a joke or a digression, at least I have the courtesy of sending it to a footnote.
-[fn:4] Before LLMs I would google the phrase and count the results, something that doesn't even work anymore.
+[fn:4] Before LLMs I would google the phrase and count the results, something that doesn't work anymore.
