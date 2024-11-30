@@ -1,6 +1,6 @@
 ---
 title: A Pixel Parable
-date: 2024-11-09
+date: 2024-12-10
 layout: post
 lang: en
 tags: [videogames, software, fiction, movies]
