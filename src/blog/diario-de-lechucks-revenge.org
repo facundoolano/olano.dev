@@ -6,16 +6,13 @@ lang: es
 tags: [videojuegos, memorias]
 excerpt: Mi magdalena es un diskette.
 cover-img: wally.png
-img: wally.png
+image: wally.png
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
 
 
-Me postergaron la fecha de inicio en el trabajo nuevo. Otra semana libre.
-Busco algún juego para llenar el tiempo, algo que pueda empezar y terminar en unos días o que, en todo caso, pueda abandonar sin culpas. Veo /Lechuck's Revenge/ en mi lista de Steam y lo instalo en un impulso.
-
-Debe hacer casi veinte años desde que lo jugué por última vez. No por falta de interés sino por logística: para repasar la saga /Monkey Island/ me resultaba más ordenado empezar por el primero y solo después pasar a la secuela. En estas dos décadas debo haber empezado /The Secret of Monkey Island/ cinco o seis veces y siempre lo abandoné al completar el primer capítulo. Entonces a /Lechuck's Revenge/ no volví nunca.
+Me postergaron la fecha de inicio en el trabajo nuevo. Otra semana libre. Busco algún juego para llenar el tiempo, algo que pueda empezar y terminar en unos días o que, en todo caso, pueda abandonar sin culpas. Veo /Lechuck's Revenge/ en mi lista de Steam y lo instalo en un impulso. Debe hacer casi veinte años desde que lo jugué por última vez. No por falta de interés sino por logística: para repasar la saga /Monkey Island/ me resultaba más ordenado empezar por el primero y solo después pasar a la secuela. En estas dos décadas debo haber empezado /The Secret of Monkey Island/ cinco o seis veces y siempre lo abandoné al completar el primer capítulo. Entonces a /Lechuck's Revenge/ no volví nunca.
 
 #+begin_export html
 <br/><br/>
@@ -123,9 +120,9 @@ Vuelvo después de mucho tiempo, como quien termina un trámite postergado, como
 <br/><br/>
 #+end_export
 
-Los juegos de Ron Gilbert suelen seguir un patrón: un comienzo sencillo y acotado que, cuando da la impresión de que está por agotarse, se multiplica en escenarios, personajes y puzzles. Después se vuelve a cerrar hacia el clímax de la historia. Por el formato del género, el final rara vez es está a la altura de todo lo anterior.
+Los juegos de Ron Gilbert suelen seguir un patrón: un comienzo sencillo y acotado que, cuando da la impresión de que está por agotarse, se multiplica en escenarios, personajes y puzzles. Después se vuelve a cerrar hacia el clímax de la historia. Por el formato del género, el final rara vez está a la altura de todo lo anterior.
 
-Otro patrón que encuentro en las buenas aventuras es el de obligar al jugador a terminar en el punto de partida, enfrentándolo a la transformación que el protagonista y su mundo sufrieron en el trayecto. Es el caso de /Secret of Monkey Island/, en que Guybrush volvía a Mêlée Island para el enfrentamiento final con Lechuck.
+Otro recurso que encuentro en las buenas aventuras es el de obligar al jugador a terminar en el punto de partida, enfrentándolo a la transformación que el protagonista y su mundo sufrieron en el trayecto. Es el caso de /Secret of Monkey Island/, en que Guybrush volvía a Mêlée Island para el enfrentamiento final con Lechuck.
 
 En la secuela detecto una variante original de este patrón. /Lechuck's Revenge/ es, ante todo, una aventura centrada en puzzles de inventario. En criollo: se trata largamente de juntar objetos y usarlos ingeniosamente. Al entrar en una habitación nos fijamos en qué nos podemos llevar y cómo; esa actitud nos arrastra por el juego más que la de hablar con personajes o recorrer el mapa.
 
@@ -138,6 +135,6 @@ Me imagino que debe haber pocas cosas tan gratificantes como terminar este juego
 <br/><br/>
 #+end_export
 
-Con /Return to Monkey Island/ [[file:volviendo-los-monos][fresco en la memoria]], el final de esta segunda parte me resulta mucho menos abierto de lo que recordaba, lejos del mito que los treinta años de espera ayudaron a construir. Me parece un buen desenlace, elegante, el cierre de una historia de dos partes. Lo que vino después, aún con buenas entregas, fue la improvisación de una franquicia.
+El final de esta segunda parte me resulta mucho menos abierto de lo que recordaba, lejos del mito que los [[llegando-los-monos-2][treinta años de espera]] ayudaron a construir. Me parece un buen desenlace, elegante, el cierre de una historia de dos partes. Lo que vino después, aún con buenas entregas, fue la improvisación de una franquicia.
 
 Es simpático ver pasar los créditos. Más que cualquier otro elemento del juego, son una cápsula del tiempo, me transportan momentáneamente a 1991, a un 1991 imaginado, distinto del que yo viví.

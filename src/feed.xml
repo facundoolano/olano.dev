@@ -28,8 +28,9 @@
             {% endfor %}
             <summary type="html"><![CDATA[{{ post.excerpt | strip_html | normalize_whitespace }}]]></summary>
             {% if post.image %}
-            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post.image | absolute_url }}"/>
-            <media:content medium="image" url="{{ post.image | absolute_url }}"  xmlns:media="http://search.yahoo.com/mrss/"/>
+            {% assign img_url = "/assets/img/" | append: post.image | absolute_url %}
+            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ img_url }}"/>
+            <media:content medium="image" url="{{ img_url }}"  xmlns:media="http://search.yahoo.com/mrss/"/>
             {% endif %}
         </entry>
     {% endfor %}
