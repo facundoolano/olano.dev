@@ -4,7 +4,6 @@ date: 2024-12-03
 layout: post
 lang: en
 tags: [videogames, software, fiction, movies]
-draft: true
 excerpt: An imagined town is at least as real as an actual town.
 image: dither.png
 ---
