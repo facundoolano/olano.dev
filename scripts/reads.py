@@ -25,10 +25,13 @@ def fetch_feeds(feed_url, outfile, with_images=False):
 
     if with_images:
         # TODO fetch images
+        # only if not already present
+        for book in books:
+            pass
         pass
 
     with open(outfile, "w") as file:
-        yaml.dump(books, file, default_flow_style=False)
+        yaml.dump(books, file, default_flow_style=False, allow_unicode=True)
 
 
 def feed_to_dict(data):
@@ -38,10 +41,15 @@ def feed_to_dict(data):
         user_date = entry.user_read_at or entry.user_date_added
         user_date = datetime.strptime(user_date, DATE_FORMAT)
 
+        cover_url = entry.book_large_image_url
+        ext = cover_url.split(".")[-1]
+        cover_file = f"{sluggify(entry.author_name)}-{sluggify(entry.title)}.{ext}"
+
         book = {
             "title": entry.title,
             "author": entry.author_name,
-            "cover": entry.book_large_image_url,
+            "cover_url": cover_url,
+            "cover_file": cover_file,
             "rating": entry.user_rating,
             "published_at": published,
             "read_at": user_date,
