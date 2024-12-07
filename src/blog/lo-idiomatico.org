@@ -5,6 +5,7 @@ date: 2021-04-12
 tags: [programación, software]
 css: "highlight"
 lang: es
+refs: [learnyou, queneau, videira]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

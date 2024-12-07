@@ -5,6 +5,7 @@ subtitle: Programming and writing
 date: 2021-09-22
 lang: en
 tags: [programming, software, literature]
+refs: [literate, parisreview]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en

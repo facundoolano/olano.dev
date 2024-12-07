@@ -9,6 +9,7 @@ share-img: jurassic/trex.jpg
 image: jurassic/trex.jpg
 lang: es
 book: "vol1"
+refs: [jurassic,t2]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

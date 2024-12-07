@@ -1,0 +1,48 @@
+- id: modoom
+  name: "Masters of Doom"
+- id: elementsclojure
+  name: "Elements of Clojure"
+- id: inanger
+  name: "Erlang in Anger"
+- id: funarch
+  name: "Fundamentals of Software Architecture"
+- id: goodparts
+  name: "JavaScript: The Good Parts"
+- id: literate
+  name: "Literate Programming"
+- id: parisreview
+  name: "The Paris Review Interviews"
+- id: thestand
+  name: "The Stand"
+- id: tlotr
+  name: "The Lord of the Rings"
+- id: maiakovski
+  name: "Mi Descubrimiento de América"
+- id: learnyou
+  name: "Learn You Some Erlang for Great Good"
+- id: queneau
+  name: "Excercises in Style"
+- id: videira
+  name: "Exercises in Programming Style"
+- id: codersatwork
+  name: "Coders At Work"
+- id: zenoferlang
+  name: "The Zen of Erlang"
+- id: jurassic
+  name: "Jurassic Park"
+- id: t2
+  name: "Terminator 2"
+- id: sanglard
+  name: "Wolfenstein 3D"
+- id: bloodpixels
+  name: "Blood, Sweat and Pixels"
+- id: replay
+  name: "Replay"
+- id: maher
+  name: "The Digital Antiquarian"
+- id: aopnc
+  name: "The Art of Point-and-Click Adventure Games"
+- id: crpg
+  name: "The CRPG Book"
+- id: nbajam
+  name: "NBA Jam"

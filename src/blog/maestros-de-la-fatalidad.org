@@ -8,6 +8,7 @@ image: doom.png
 tags: [videojuegos, software, libros, memorias]
 lang: es
 book: "vol1"
+refs: [modoom]
 ---
 #+OPTIONS: toc:nil num:nil
 

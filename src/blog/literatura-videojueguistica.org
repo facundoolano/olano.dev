@@ -4,6 +4,7 @@ title: "Literatura videojueguística"
 date: 2021-10-12
 tags: [videojuegos, software, libros]
 lang: es
+refs: [modoom, sanglard, bloodpixels, replay, maher,aopnc,crpg,nbajam]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

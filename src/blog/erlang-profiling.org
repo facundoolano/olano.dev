@@ -6,5 +6,6 @@ external: "https://tech.nextroll.com/blog/dev/2020/04/07/erlang-profiling.html"
 lang: en
 image: https://tech.nextroll.com/images/post_images/erlang_joe.jpg
 tags: [software, programming]
+refs: [inanger]
 ---
 #+LANGUAGE: en

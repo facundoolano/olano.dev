@@ -10,6 +10,7 @@ tags: [libros, literatura, ficción, distopías, memorias]
 favorite: true
 lang: es
 book: "vol1"
+refs: [thestand, tlotr]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

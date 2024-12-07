@@ -6,6 +6,7 @@ date: 2020-08-31 11:29:56
 tags: [software, programación]
 css: "highlight"
 lang: es
+refs: [elementsclojure, ]
 ---
 #+LANGUAGE: es
 

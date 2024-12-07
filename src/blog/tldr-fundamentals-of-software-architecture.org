@@ -5,6 +5,7 @@ date: 2020-09-15
 image: architecture2.jpg
 tags: [software, libros, tldr]
 lang: es
+refs: [funarch]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
