@@ -48,7 +48,7 @@ def feed_to_dict(data):
             "author": entry.author_name,
             "cover_url": cover_url,
             "cover_file": cover_file,
-            "rating": entry.user_rating,
+            "rating": int(entry.user_rating),
             "published_at": published,
             "read_at": user_date,
         }
@@ -89,4 +89,4 @@ def sluggify(title):
 
 if __name__ == "__main__":
     fetch_feeds(READING_FEED, "data/reading.yaml", with_images=True)
-    fetch_feeds(READ_FEED, "data/read.yaml")
+    fetch_feeds(READ_FEED, "data/read.yaml", with_images=False)
