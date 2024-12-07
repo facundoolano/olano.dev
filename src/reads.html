@@ -1,0 +1,72 @@
+---
+layout: default
+title: /reads
+head_title: Reads
+---
+
+<style type="text/css">
+ /* mysterious gpt generated css better put it here than clutter hand crafted styles */
+ .book-list {
+     display: flex;
+     flex-wrap: wrap; /* Allows items to wrap to the next line */
+     justify-content: space-evenly; /* Ensures even spacing around items */
+     gap: 10px; /* Adds spacing between book items */
+ }
+
+ .book {
+     flex: 1 1 calc(24% - 10px); /* Slight adjustment to fit all items properly */
+     box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+ }
+
+ .book img {
+     max-width: 100%;
+     height: 200px; /* Fixed height for consistent sizing */
+     object-fit: cover; /* Ensures image covers the area without distortion */
+     display: block;
+ }
+
+ .book-details {
+     text-align: center;
+     margin-top: 10px;
+ }
+
+ @media (max-width: 600px) {
+     .book {
+         flex: 1 1 100%; /* Each book takes full width on mobile */
+         max-width: 100%;
+     }
+ }
+</style>
+
+<h4>Currently reading</h4>
+<div class="book-list">
+    {% for book in site.data.reading %}
+    <article class="book">
+        <img src="{{site.config.static_root}}/img/reads/{{book.cover_file}}" alt="{{book.title}} cover">
+        <span class="book-details">
+            <small><b>{{book.title}}</b><br/>{{book.author}}</small>
+
+        </span>
+    </article>
+    {% endfor %}
+</div>
+
+{% assign books_by_year = site.data.read | group_by_exp:"book", "book.read_at | date: '%Y'" %}
+{% for year in books_by_year %}
+{% unless forloop.last %}
+<h4>{{year.name}}</h4>
+<ol>
+    {% for book in year.items %}
+    <li><small><b>{{book.title}}</b>, {{book.author}}
+        {% if book.rating %}
+        <span>{% for i in (1..book.rating) %}⭐{% endfor %}</span>
+        {% endif %}
+    </small></li>
+    {% endfor %}
+</ol>
+{% endunless %}
+{% endfor %}

@@ -12,3 +12,8 @@ ideas.org
 
 
 .jekyll-metadata
+
+venv
+__pycache__
+
+src/assets/img/reads/
