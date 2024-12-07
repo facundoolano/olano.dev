@@ -703,3 +703,708 @@
   rating: 0
   read_at: 2022-05-12
   title: Ellis Island
+- author: The Paris Review
+  cover_file: the-paris-review-the-paris-review-interviews-iii.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1317793359l/4629012.jpg
+  published_at: 2022-05-07
+  rating: 4
+  read_at: 2022-05-07
+  title: 'The Paris Review Interviews, III: The Indispensable Collection of Literary
+    Wisdom'
+- author: Georges Simenon
+  cover_file: georges-simenon-entre-los-flamencos.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401351889l/140897.jpg
+  published_at: 2022-03-20
+  rating: 3
+  read_at: 2022-03-20
+  title: Entre los flamencos
+- author: Taeko Kōno
+  cover_file: taeko-kono-caceria-de-ninos.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638476505l/59743071._SY475_.jpg
+  published_at: 2022-03-12
+  rating: 3
+  read_at: 2022-03-12
+  title: Cacería de niños
+- author: Raymond Chandler
+  cover_file: raymond-chandler-farewell-my-lovely.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560281655l/46262177._SY475_.jpg
+  published_at: 2022-03-01
+  rating: 4
+  read_at: 2022-03-01
+  title: Farewell, My Lovely
+- author: Jimmy Maher
+  cover_file: jimmy-maher-the-digital-antiquarian-volume-4.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1492190114l/34857599._SY475_.jpg
+  published_at: 2022-02-20
+  rating: 3
+  read_at: 2022-02-20
+  title: 'The Digital Antiquarian Volume 4: 1982'
+- author: Jorge Asís
+  cover_file: jorge-asis-cuaderno-del-acostado.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1583607903l/52191927._SY475_.jpg
+  published_at: 2022-02-16
+  rating: 1
+  read_at: 2022-02-16
+  title: Cuaderno del acostado
+- author: Juan Forn
+  cover_file: juan-forn-yo-recordare-por-ustedes.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627779012l/58671000._SY475_.jpg
+  published_at: 2022-04-07
+  rating: 5
+  read_at: 2022-02-09
+  title: Yo recordaré por ustedes
+- author: Gene Kim
+  cover_file: gene-kim-the-phoenix-project.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1361113128l/17255186.jpg
+  published_at: 2022-01-22
+  rating: 3
+  read_at: 2022-01-22
+  title: 'The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business
+    Win'
+- author: Matías Serra Bradford
+  cover_file: matias-serra-bradford-como-falsificar-una-sombra.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660247080l/59224398.jpg
+  published_at: 2022-01-16
+  rating: 3
+  read_at: 2022-01-16
+  title: Cómo falsificar una sombra
+- author: Zygmunt Bauman
+  cover_file: zygmunt-bauman-modernidad-liquida.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517314227l/38252146._SX318_.jpg
+  published_at: 2022-01-15
+  rating: 4
+  read_at: 2022-01-15
+  title: Modernidad líquida
+- author: Benjamín Labatut
+  cover_file: benjamin-labatut-un-verdor-terrible.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603304288l/55756916._SY475_.jpg
+  published_at: 2022-01-13
+  rating: 5
+  read_at: 2022-01-13
+  title: Un verdor terrible
+- author: Michael McDowell
+  cover_file: michael-mcdowell-los-elementales.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510862707l/36607375._SY475_.jpg
+  published_at: 2022-01-12
+  rating: 5
+  read_at: 2022-01-12
+  title: Los elementales
+- author: Sándor Márai
+  cover_file: sandor-marai-el-ultimo-encuentro.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484659403l/267854._SY475_.jpg
+  published_at: 2021-12-31
+  rating: 2
+  read_at: 2021-12-31
+  title: El último encuentro
+- author: Kurt Vonnegut Jr.
+  cover_file: kurt-vonnegut-jr-un-hombre-sin-patria.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1614007404l/57169362._SY475_.jpg
+  published_at: 2021-12-21
+  rating: 3
+  read_at: 2021-12-21
+  title: Un hombre sin patria
+- author: C.E. Feiling
+  cover_file: c-e-feiling-el-mal-menor.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634074105l/59338708._SY475_.jpg
+  published_at: 2021-12-12
+  rating: 2
+  read_at: 2021-12-12
+  title: El mal menor
+- author: Mark Fisher
+  cover_file: mark-fisher-realismo-capitalista.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1675203332l/30325260._SY475_.jpg
+  published_at: 2021-12-07
+  rating: 3
+  read_at: 2021-12-07
+  title: 'Realismo capitalista: ¿No hay alternativa?'
+- author: Marina Yuszczuk
+  cover_file: marina-yuszczuk-la-sed.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603644718l/55781551._SX318_.jpg
+  published_at: 2021-11-30
+  rating: 4
+  read_at: 2021-11-30
+  title: La sed
+- author: Ed Catmull
+  cover_file: ed-catmull-creativity-inc.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400863577l/18077903.jpg
+  published_at: 2021-11-21
+  rating: 4
+  read_at: 2021-11-21
+  title: 'Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of
+    True Inspiration'
+- author: Stephen Dixon
+  cover_file: stephen-dixon-ventanas-y-otros-relatos.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1428023791l/25272713.jpg
+  published_at: 2021-11-14
+  rating: 2
+  read_at: 2021-11-14
+  title: Ventanas y otros relatos
+- author: Werner Herzog
+  cover_file: werner-herzog-del-caminar-sobre-hielo.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1425752673l/25093257.jpg
+  published_at: 2021-11-06
+  rating: 4
+  read_at: 2021-11-06
+  title: Del caminar sobre hielo
+- author: Jason Schreier
+  cover_file: jason-schreier-blood-sweat-and-pixels.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490632202l/33640770.jpg
+  published_at: 2021-10-27
+  rating: 4
+  read_at: 2021-10-27
+  title: 'Blood, Sweat, and Pixels: The Triumphant, Turbulent Stories Behind How Video
+    Games Are Made'
+- author: Stephen Dixon
+  cover_file: stephen-dixon-calles-y-otros-relatos.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401841263l/22400025.jpg
+  published_at: 2021-10-20
+  rating: 4
+  read_at: 2021-10-20
+  title: Calles y otros relatos
+- author: Camille Fournier
+  cover_file: camille-fournier-the-manager-s-path.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484107737l/33369254._SY475_.jpg
+  published_at: 2021-10-18
+  rating: 5
+  read_at: 2021-10-18
+  title: 'The Manager''s Path: A Guide for Tech Leaders Navigating Growth and Change'
+- author: Stefan Zweig
+  cover_file: stefan-zweig-una-partida-de-ajedrez.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617383369l/57533169._SY475_.jpg
+  published_at: 2022-01-14
+  rating: 3
+  read_at: 2021-10-10
+  title: Una partida de ajedrez
+- author: Florencia Gomez Garcia
+  cover_file: florencia-gomez-garcia-chau-chau-chau.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1571663305l/48532475._SX318_.jpg
+  published_at: 2021-09-24
+  rating: 3
+  read_at: 2021-09-24
+  title: Chau chau chau
+- author: Marianne Bellotti
+  cover_file: marianne-bellotti-kill-it-with-fire.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612209971l/54716655.jpg
+  published_at: 2021-09-19
+  rating: 3
+  read_at: 2021-09-19
+  title: 'Kill It with Fire: Manage Aging Computer Systems'
+- author: Roberto Bolaño
+  cover_file: roberto-bolano-la-literatura-nazi-en-america.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1295959859l/71543.jpg
+  published_at: 2021-09-04
+  rating: 4
+  read_at: 2021-09-04
+  title: La literatura nazi en América
+- author: Sebastián Robles
+  cover_file: sebastian-robles-la-maquina-sovietica.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1625419244l/58485995._SY475_.jpg
+  published_at: 2021-08-29
+  rating: 4
+  read_at: 2021-08-29
+  title: La Máquina Soviética
+- author: Carlos Busqued
+  cover_file: carlos-busqued-magnetizado.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519312025l/38721127._SY475_.jpg
+  published_at: 2021-08-28
+  rating: 4
+  read_at: 2021-08-28
+  title: Magnetizado
+- author: Tomás Downey
+  cover_file: tomas-downey-flores-que-se-abren-de-noche.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621381894l/58091729._SY475_.jpg
+  published_at: 2021-08-22
+  rating: 3
+  read_at: 2021-08-22
+  title: Flores que se abren de noche
+- author: Charles Baxter
+  cover_file: charles-baxter-primera-luz.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1621466698l/58099573._SY475_.jpg
+  published_at: 2022-11-28
+  rating: 4
+  read_at: 2021-08-07
+  title: Primera luz
+- author: Juan Forn
+  cover_file: juan-forn-el-hombre-que-fue-viernes.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1343236596l/15727314.jpg
+  published_at: 2021-07-22
+  rating: 5
+  read_at: 2021-07-22
+  title: El hombre que fue viernes
+- author: Martín Zariello
+  cover_file: martin-zariello-no-bombardeen-barrio-norte.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480532804l/33190858._SX318_.jpg
+  published_at: 2021-07-21
+  rating: 3
+  read_at: 2021-07-21
+  title: No bombardeen Barrio Norte
+- author: Leila Guerriero
+  cover_file: leila-guerriero-teoria-de-la-gravedad.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599807801l/50752940._SY475_.jpg
+  published_at: 2021-07-14
+  rating: 4
+  read_at: 2021-07-14
+  title: Teoría de la gravedad
+- author: Carolina Sanín
+  cover_file: carolina-sanin-tu-cruz-en-el-cielo-desierto.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586264016l/53022565._SX318_.jpg
+  published_at: 2021-06-22
+  rating: 1
+  read_at: 2021-06-22
+  title: Tu cruz en el cielo desierto
+- author: Mario Levrero
+  cover_file: mario-levrero-irrupciones.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1399516530l/22051539.jpg
+  published_at: 2021-06-17
+  rating: 3
+  read_at: 2021-06-17
+  title: Irrupciones
+- author: Pedro Mairal
+  cover_file: pedro-mairal-salvatierra.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617532871l/57622442._SY475_.jpg
+  published_at: 2021-06-01
+  rating: 5
+  read_at: 2021-05-22
+  title: Salvatierra
+- author: Ágota Kristóf
+  cover_file: agota-kristof-da-igual.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1614781487l/57298394._SY475_.jpg
+  published_at: 2021-05-20
+  rating: 2
+  read_at: 2021-05-20
+  title: 'Da igual: Los veinticinco cuentos despiadados de Agota Kristof'
+- author: Jimmy Maher
+  cover_file: jimmy-maher-the-digital-antiquarian-volume-3.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495952692l/31846346.jpg
+  published_at: 2021-05-18
+  rating: 4
+  read_at: 2021-05-18
+  title: 'The Digital Antiquarian Volume 3: 1981'
+- author: Vladimir Mayakovsky
+  cover_file: vladimir-mayakovsky-mi-descubrimiento-de-america.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1454188183l/28808807.jpg
+  published_at: 2021-05-09
+  rating: 4
+  read_at: 2021-05-09
+  title: Mi descubrimiento de América
+- author: Cynan Jones
+  cover_file: cynan-jones-tiempo-sin-lluvia.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1584393790l/52429658.jpg
+  published_at: 2021-05-08
+  rating: 3
+  read_at: 2021-05-08
+  title: Tiempo sin lluvia
+- author: Kjell Askildsen
+  cover_file: kjell-askildsen-el-precio-de-la-amistad.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1576530019l/49334360._SY475_.jpg
+  published_at: 2021-04-20
+  rating: 3
+  read_at: 2021-04-20
+  title: El precio de la amistad
+- author: Graham Greene
+  cover_file: graham-greene-el-final-del-affaire.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559030789l/43687310.jpg
+  published_at: 2021-04-16
+  rating: 4
+  read_at: 2021-04-16
+  title: El final del affaire
+- author: Ted Chiang
+  cover_file: ted-chiang-exhalation.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1646250474l/50624715._SY475_.jpg
+  published_at: 2021-04-07
+  rating: 5
+  read_at: 2021-04-07
+  title: Exhalation
+- author: Mariana Sández
+  cover_file: mariana-sandez-una-casa-llena-de-gente.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1571941827l/48571799._SY475_.jpg
+  published_at: 2021-04-04
+  rating: 3
+  read_at: 2021-04-04
+  title: Una casa llena de gente
+- author: Robert Louis Stevenson
+  cover_file: robert-louis-stevenson-el-extrano-caso-del-dr-jekyll-y-mr-hyde.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375557358l/18280908.jpg
+  published_at: 2021-03-20
+  rating: 4
+  read_at: 2021-03-20
+  title: El extraño caso del Dr. Jekyll y Mr. Hyde
+- author: J.D. Salinger
+  cover_file: j-d-salinger-the-catcher-in-the-rye.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398034300l/5107.jpg
+  published_at: 2021-03-17
+  rating: 4
+  read_at: 2021-03-16
+  title: The Catcher in the Rye
+- author: Stephen        King
+  cover_file: stephen-king-apocalipsis.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354381697l/5410.jpg
+  published_at: 2021-03-15
+  rating: 4
+  read_at: 2021-03-07
+  title: Apocalipsis
+- author: Franz Kafka
+  cover_file: franz-kafka-cuentos-selectos.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603238080l/55750391._SY475_.jpg
+  published_at: 2021-02-09
+  rating: 3
+  read_at: 2021-02-09
+  title: Cuentos Selectos
+- author: Jorge Luis Borges
+  cover_file: jorge-luis-borges-la-biblioteca-de-babel.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1176144066l/597045._SY475_.jpg
+  published_at: 2024-12-07
+  rating: 4
+  read_at: 2021-02-08
+  title: 'La biblioteca de Babel: Prólogos'
+- author: Martín Kohan
+  cover_file: martin-kohan-confesion.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1584031672l/52324086._SY475_.jpg
+  published_at: 2021-01-29
+  rating: 2
+  read_at: 2021-01-29
+  title: Confesión
+- author: Samuel Beckett
+  cover_file: samuel-beckett-esperando-a-godot.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636742846l/236176._SY475_.jpg
+  published_at: 2021-01-25
+  rating: 0
+  read_at: 2021-01-25
+  title: Esperando a Godot
+- author: Luciano Lamberti
+  cover_file: luciano-lamberti-los-abetos.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1608076664l/56304716.jpg
+  published_at: 2021-01-23
+  rating: 5
+  read_at: 2021-01-23
+  title: Los abetos
+- author: Federico Falco
+  cover_file: federico-falco-los-llanos.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1605543489l/55883115._SY475_.jpg
+  published_at: 2021-01-19
+  rating: 5
+  read_at: 2021-01-19
+  title: Los llanos
+- author: Ted Chiang
+  cover_file: ted-chiang-stories-of-your-life-and-others.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1646250645l/53934234._SY475_.jpg
+  published_at: 2021-01-14
+  rating: 5
+  read_at: 2021-01-14
+  title: Stories of Your Life and Others
+- author: Yan Lianke
+  cover_file: yan-lianke-dias-meses-anos.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567279600l/49394173._SX318_SY475_.jpg
+  published_at: 2021-01-08
+  rating: 5
+  read_at: 2021-01-08
+  title: Días, meses, años
+- author: Francisco Bitar
+  cover_file: francisco-bitar-historia-oral-de-la-cerveza.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473083893l/31840063.jpg
+  published_at: 2021-01-06
+  rating: 4
+  read_at: 2021-01-06
+  title: Historia oral de la cerveza
+- author: Guadalupe Nettel
+  cover_file: guadalupe-nettel-la-hija-unica.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598622338l/55152903._SY475_.jpg
+  published_at: 2021-01-08
+  rating: 4
+  read_at: 2021-01-03
+  title: La hija única
+- author: Tali Goldman
+  cover_file: tali-goldman-larga-distancia.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600968542l/54766591._SY475_.jpg
+  published_at: 2021-01-01
+  rating: 2
+  read_at: 2021-01-01
+  title: Larga distancia
+- author: Verna B. Carleton
+  cover_file: verna-b-carleton-regreso-a-berlin.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490609618l/34700428._SY475_.jpg
+  published_at: 2020-12-31
+  rating: 4
+  read_at: 2020-12-31
+  title: Regreso a Berlín
+- author: Jorge Luis Borges
+  cover_file: jorge-luis-borges-el-hacedor.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595576939l/929582._SY475_.jpg
+  published_at: 2024-01-22
+  rating: 4
+  read_at: 2020-12-28
+  title: El hacedor
+- author: Emmanuel Carrère
+  cover_file: emmanuel-carrere-yo-estoy-vivo-y-vosotros-estais-muertos-philip-k-dick-1928-1982.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1291586781l/226508.jpg
+  published_at: 2020-12-19
+  rating: 2
+  read_at: 2020-12-19
+  title: Yo estoy vivo y vosotros estáis muertos. Philip K. Dick 1928-1982
+- author: Jimmy Maher
+  cover_file: jimmy-maher-the-digital-antiquarian-volume-2.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495952701l/31836166.jpg
+  published_at: 2020-12-12
+  rating: 4
+  read_at: 2020-12-12
+  title: 'The Digital Antiquarian Volume 2: 1980'
+- author: Tim Hwang
+  cover_file: tim-hwang-subprime-attention-crisis.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585632824l/50403486.jpg
+  published_at: 2020-12-12
+  rating: 3
+  read_at: 2020-12-12
+  title: Subprime Attention Crisis
+- author: Muriel Spark
+  cover_file: muriel-spark-robinson.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375321760l/18273898.jpg
+  published_at: 2020-12-07
+  rating: 3
+  read_at: 2020-12-07
+  title: Robinson
+- author: Diego Zúñiga
+  cover_file: diego-zuniga-camanchaca.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1285648058l/9409688.jpg
+  published_at: 2020-11-28
+  rating: 4
+  read_at: 2020-11-28
+  title: Camanchaca
+- author: Sergio Bizzio
+  cover_file: sergio-bizzio-el-dia-feliz-de-charlie-feiling.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335197167l/4078317.jpg
+  published_at: 2020-11-22
+  rating: 3
+  read_at: 2020-11-22
+  title: El día feliz de Charlie Feiling
+- author: Lucia Berlin
+  cover_file: lucia-berlin-manual-para-mujeres-de-la-limpieza.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483357720l/29862794._SY475_.jpg
+  published_at: 2022-05-09
+  rating: 4
+  read_at: 2020-11-21
+  title: Manual para mujeres de la limpieza
+- author: Charles   Williams
+  cover_file: charles-williams-zona-caliente.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1478094388l/32858453._SY475_.jpg
+  published_at: 2024-09-08
+  rating: 3
+  read_at: 2020-11-12
+  title: Zona caliente
+- author: Jimmy Maher
+  cover_file: jimmy-maher-the-digital-antiquarian-volume-1.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1452664699l/28530188.jpg
+  published_at: 2020-10-28
+  rating: 4
+  read_at: 2020-10-28
+  title: 'The Digital Antiquarian Volume 1: 1966-1979'
+- author: Alejandro Zambra
+  cover_file: alejandro-zambra-poeta-chileno.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1578152767l/50272339._SY475_.jpg
+  published_at: 2020-08-25
+  rating: 4
+  read_at: 2020-08-25
+  title: Poeta chileno
+- author: Peter Orner
+  cover_file: peter-orner-hay-alguien-ahi.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590973059l/53716972._SY475_.jpg
+  published_at: 2021-02-17
+  rating: 3
+  read_at: 2020-08-15
+  title: '¿Hay alguien ahí?: apuntes sobre vivir para leer y leer para vivir'
+- author: Richard Sennett
+  cover_file: richard-sennett-la-corrosion-del-caracter.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417883643l/1379789.jpg
+  published_at: 2020-08-07
+  rating: 2
+  read_at: 2020-08-07
+  title: 'La corrosión del carácter: Las consecuencias personales del trabajo en el
+    nuevo capitalismo'
+- author: Virginia Woolf
+  cover_file: virginia-woolf-al-faro.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1306752598l/1783060.jpg
+  published_at: 2020-07-25
+  rating: 5
+  read_at: 2020-07-25
+  title: Al faro
+- author: The Paris Review
+  cover_file: the-paris-review-the-paris-review-interviews-ii.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438626463l/596060._SX318_.jpg
+  published_at: 2023-07-31
+  rating: 4
+  read_at: 2020-07-25
+  title: 'The Paris Review Interviews, II: Wisdom from the World''s Literary Masters'
+- author: Martín Kohan
+  cover_file: martin-kohan-fuera-de-lugar.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1461549916l/29992353._SY475_.jpg
+  published_at: 2020-07-18
+  rating: 3
+  read_at: 2020-07-18
+  title: Fuera de lugar
+- author: Vladimir Nabokov
+  cover_file: vladimir-nabokov-lolita.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568101297l/53041006._SX318_SY475_.jpg
+  published_at: 2020-07-10
+  rating: 5
+  read_at: 2020-07-10
+  title: Lolita
+- author: Rainer Maria Rilke
+  cover_file: rainer-maria-rilke-cartas-a-un-joven-poeta.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170978944l/80173._SY475_.jpg
+  published_at: 2020-06-24
+  rating: 3
+  read_at: 2020-06-24
+  title: Cartas a un joven poeta
+- author: E.H. Gombrich
+  cover_file: e-h-gombrich-a-little-history-of-the-world.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388179842l/61505.jpg
+  published_at: 2020-06-22
+  rating: 5
+  read_at: 2020-06-22
+  title: A Little History of the World
+- author: Sigrid Nunez
+  cover_file: sigrid-nunez-el-amigo.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560932141l/45479295.jpg
+  published_at: 2020-07-10
+  rating: 4
+  read_at: 2020-06-15
+  title: El amigo
+- author: Chris Kohler
+  cover_file: chris-kohler-final-fantasy-v.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502837009l/34552804._SX318_.jpg
+  published_at: 2020-05-31
+  rating: 4
+  read_at: 2020-05-31
+  title: Final Fantasy V
+- author: Juan José Saer
+  cover_file: juan-jose-saer-el-entenado.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390917751l/730626.jpg
+  published_at: 2020-05-24
+  rating: 3
+  read_at: 2020-05-24
+  title: El entenado
+- author: Francisco Bitar
+  cover_file: francisco-bitar-aca-habia-un-rio.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444903846l/27209676._SX318_.jpg
+  published_at: 2020-05-16
+  rating: 4
+  read_at: 2020-05-16
+  title: Acá había un río
+- author: P.M. Hubbard
+  cover_file: p-m-hubbard-la-colmena-de-cristal.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464791634l/30330833._SY475_.jpg
+  published_at: 2020-05-10
+  rating: 4
+  read_at: 2020-05-10
+  title: La colmena de cristal
+- author: Michel Houellebecq
+  cover_file: michel-houellebecq-sumision.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1428173791l/25293873.jpg
+  published_at: 2020-05-05
+  rating: 3
+  read_at: 2020-05-05
+  title: Sumisión
+- author: Stephen        King
+  cover_file: stephen-king-mr-mercedes.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410236855l/23150727.jpg
+  published_at: 2020-04-30
+  rating: 3
+  read_at: 2020-04-30
+  title: Mr. Mercedes
+- author: Michael P. Williams
+  cover_file: michael-p-williams-chrono-trigger.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1392405323l/20809893.jpg
+  published_at: 2020-04-29
+  rating: 1
+  read_at: 2020-04-29
+  title: Chrono Trigger
+- author: Reyan Ali
+  cover_file: reyan-ali-nba-jam.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519454368l/36597600.jpg
+  published_at: 2020-04-23
+  rating: 4
+  read_at: 2020-04-23
+  title: NBA Jam
+- author: César Aira
+  cover_file: cesar-aira-relatos-reunidos.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367603583l/17569591.jpg
+  published_at: 2020-04-18
+  rating: 1
+  read_at: 2020-04-18
+  title: Relatos reunidos
+- author: Alfred Hayes
+  cover_file: alfred-hayes-que-el-mundo-me-conozca.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340673097l/15722602.jpg
+  published_at: 2020-04-11
+  rating: 2
+  read_at: 2020-04-11
+  title: Que el mundo me conozca
+- author: Elizabeth Taylor
+  cover_file: elizabeth-taylor-prohibido-morir-aqui.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1541421771l/42633854._SY475_.jpg
+  published_at: 2020-04-05
+  rating: 4
+  read_at: 2020-04-05
+  title: Prohibido morir aquí
+- author: Alejandro Zambra
+  cover_file: alejandro-zambra-tema-libre.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558196055l/45479297.jpg
+  published_at: 2020-03-27
+  rating: 3
+  read_at: 2020-03-27
+  title: Tema libre
+- author: Raymond Queneau
+  cover_file: raymond-queneau-exercises-in-style.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1720874351l/15956698._SY475_.jpg
+  published_at: 2020-03-23
+  rating: 4
+  read_at: 2020-03-23
+  title: Exercises in Style
+- author: Nona Fernández
+  cover_file: nona-fernandez-space-invaders.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1409504287l/23125991.jpg
+  published_at: 2020-03-19
+  rating: 3
+  read_at: 2020-03-19
+  title: Space Invaders
+- author: Fabien Sanglard
+  cover_file: fabien-sanglard-game-engine-black-book-wolfenstein-3d.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505800605l/36165638._SX318_.jpg
+  published_at: 2020-03-18
+  rating: 4
+  read_at: 2020-03-18
+  title: Game Engine Black Book, Wolfenstein 3D
+- author: Luciano Lamberti
+  cover_file: luciano-lamberti-la-masacre-de-kruguer.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1570205487l/52281639._SX318_SY475_.jpg
+  published_at: 2020-03-11
+  rating: 4
+  read_at: 2020-02-29
+  title: La masacre de Kruguer
+- author: Federico Falco
+  cover_file: federico-falco-222-patitos-y-otros-cuentos.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415186567l/23503143.jpg
+  published_at: 2020-02-14
+  rating: 1
+  read_at: 2020-02-14
+  title: 222 patitos y otros cuentos
+- author: Matías Amoedo
+  cover_file: matias-amoedo-noche-en-la-playa-encendida.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575632541l/48996960._SX318_.jpg
+  published_at: 2020-01-29
+  rating: 2
+  read_at: 2020-01-29
+  title: Noche en la playa encendida
+- author: Peter Rock
+  cover_file: peter-rock-mi-abandono.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564613341l/49986835._SX318_SY475_.jpg
+  published_at: 2020-01-18
+  rating: 2
+  read_at: 2020-01-18
+  title: Mi abandono
+- author: Juan José Morosoli
+  cover_file: juan-jose-morosoli-el-campo.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577204375l/49829432.jpg
+  published_at: 2020-01-12
+  rating: 2
+  read_at: 2020-01-12
+  title: El Campo

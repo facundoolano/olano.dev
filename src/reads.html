@@ -52,11 +52,12 @@ head_title: Reads
 
         </span>
     </article>
-{% endfor %}
+    {% endfor %}
 </div>
 
 {% assign books_by_year = site.data.read | group_by_exp:"book", "book.read_at | date: '%Y'" %}
 {% for year in books_by_year %}
+{% unless forloop.last %}
 <h4>{{year.name}}</h4>
 <ol>
     {% for book in year.items %}
@@ -67,4 +68,5 @@ head_title: Reads
     </small></li>
     {% endfor %}
 </ol>
+{% endunless %}
 {% endfor %}

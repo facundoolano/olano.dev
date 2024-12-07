@@ -19,9 +19,12 @@ DATE_FORMAT = "%a, %d %b %Y %H:%M:%S %z"
 ASSETS_DIR = "src/assets/img/reads"
 
 
-def fetch_feeds(feed_url, outfile, with_images=False):
-    feed_data = feedparser.parse(feed_url)
-    books = feed_to_dict(feed_data)
+def fetch_feeds(feed_url, outfile, with_images=False, pages=1):
+    books = []
+    for page in range(1, pages + 1):
+        page_feed_url = f"{feed_url}&page={page}"
+        feed_data = feedparser.parse(page_feed_url)
+        books += feed_to_dict(feed_data)
 
     if with_images:
         # fetch images only if not already present
@@ -96,4 +99,4 @@ def sluggify(title):
 
 if __name__ == "__main__":
     fetch_feeds(READING_FEED, "data/reading.yaml", with_images=True)
-    fetch_feeds(READ_FEED, "data/read.yaml", with_images=False)
+    fetch_feeds(READ_FEED, "data/read.yaml", with_images=False, pages=2)
