@@ -1,0 +1,23 @@
+---
+layout: default
+title: /reads
+head_title: Reads
+---
+
+<h4>Currently reading</h4>
+<ul>
+    {% for book in site.data.reading %}
+    <li><small><b>{{book.title}}</b>, {{book.author}}.</small></li>
+    {% endfor %}
+</ul>
+
+<h4>Read</h4>
+<ul>
+    {% for book in site.data.read %}
+    <li><small><b>{{book.title}}</b>, {{book.author}}
+        {% if book.rating %}
+        <span>{% for i in (1..book.rating) %}⭐{% endfor %}</span>
+        {% endif %}
+    </small></li>
+    {% endfor %}
+</ul>
