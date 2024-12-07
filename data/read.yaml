@@ -20,19 +20,19 @@
   read_at: 2024-10-28 00:00:00+00:00
   title: 'The Triggering Town: Lectures and Essays on Poetry and Writing'
 - author: Bob Mackey
-  cover_file: bob-mackey-day-of-the-tentacle-boss-fight-books-32.jpg
+  cover_file: bob-mackey-day-of-the-tentacle.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677602124l/123029070._SX318_.jpg
   published_at: 2024-10-13 06:40:59-07:00
   rating: 3
   read_at: 2024-10-13 00:00:00+00:00
-  title: 'Day of the Tentacle (Boss Fight Books, #32)'
+  title: Day of the Tentacle
 - author: Satoshi Yagisawa
-  cover_file: satoshi-yagisawa-mis-dias-en-la-libreria-morisaki-libreria-morisaki-1.jpg
+  cover_file: satoshi-yagisawa-mis-dias-en-la-libreria-morisaki.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1670958091l/66421161._SY475_.jpg
   published_at: 2024-10-10 05:22:59-07:00
   rating: 2
   read_at: 2024-10-10 00:00:00+00:00
-  title: 'Mis días en la librería Morisaki (Librería Morisaki, #1)'
+  title: Mis días en la librería Morisaki
 - author: Michel Houellebecq
   cover_file: michel-houellebecq-serotonina.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551539064l/44173772._SY475_.jpg
@@ -41,12 +41,12 @@
   read_at: 2024-09-26 00:00:00+00:00
   title: Serotonina
 - author: Matt   Bell
-  cover_file: matt-bell-baldur-s-gate-ii-boss-fight-books-8.jpg
+  cover_file: matt-bell-baldur-s-gate-ii.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433470273l/25667759._SX318_.jpg
   published_at: 2024-09-21 07:53:35-07:00
   rating: 3
   read_at: 2024-09-21 00:00:00+00:00
-  title: 'Baldur''s Gate II (Boss Fight Books, #8)'
+  title: Baldur's Gate II
 - author: Maggie O'Farrell
   cover_file: maggie-o-farrell-hamnet.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610434329l/56644361._SY475_.jpg
@@ -181,12 +181,12 @@
   read_at: 2024-02-18 00:00:00+00:00
   title: Anhelo de raíces
 - author: Juan José Saer
-  cover_file: juan-jose-saer-lugar-biblioteca-breve-spanish-edition.jpg
+  cover_file: juan-jose-saer-lugar.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328046000l/8115187.jpg
   published_at: 2024-02-17 06:42:48-08:00
   rating: 3
   read_at: 2024-02-17 00:00:00+00:00
-  title: Lugar (Biblioteca breve) (Spanish Edition)
+  title: Lugar
 - author: Emmanuel Carrère
   cover_file: emmanuel-carrere-el-adversario.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617482470l/57617909._SY475_.jpg
@@ -209,12 +209,12 @@
   read_at: 2024-01-19 00:00:00+00:00
   title: Borges a contraluz
 - author: Rachel Cusk
-  cover_file: rachel-cusk-a-contraluz-outline-1.jpg
+  cover_file: rachel-cusk-a-contraluz.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472977764l/31833168.jpg
   published_at: 2024-01-18 16:45:20-08:00
   rating: 1
   read_at: 2024-01-18 00:00:00+00:00
-  title: 'A contraluz (Outline, #1)'
+  title: A contraluz
 - author: Alessandro Baricco
   cover_file: alessandro-baricco-seda.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364184060l/60049.jpg
@@ -548,12 +548,12 @@
   read_at: 2023-01-26 00:00:00+00:00
   title: La horda primitiva
 - author: Antonio Skármeta
-  cover_file: antonio-skarmeta-el-cartero-de-neruda-ardiente-paciencia.jpg
+  cover_file: antonio-skarmeta-el-cartero-de-neruda.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663933247l/1219634._SY475_.jpg
   published_at: 2023-01-22 16:46:17-08:00
   rating: 3
   read_at: 2023-01-22 00:00:00+00:00
-  title: El cartero de Neruda (Ardiente paciencia)
+  title: El cartero de Neruda
 - author: Nora Ephron
   cover_file: nora-ephron-no-me-acuerdo-de-nada.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649535641l/59747182._SY475_.jpg
@@ -697,9 +697,9 @@
   read_at: 2022-05-20 00:00:00+00:00
   title: 'Release It!: Design and Deploy Production-Ready Software'
 - author: Georges Perec
-  cover_file: georges-perec-ellis-island-spanish-edition.jpg
+  cover_file: georges-perec-ellis-island.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1266595944l/602664.jpg
   published_at: 2022-05-11 20:39:00-07:00
   rating: 0
   read_at: 2022-05-12 00:00:00+00:00
-  title: Ellis Island (Spanish Edition)
+  title: Ellis Island

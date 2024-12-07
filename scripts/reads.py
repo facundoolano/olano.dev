@@ -39,12 +39,14 @@ def feed_to_dict(data):
         user_date = entry.user_read_at or entry.user_date_added
         user_date = datetime.strptime(user_date, DATE_FORMAT)
 
+        title = remove_parenthesized_suffix(entry.title)
+
         cover_url = entry.book_large_image_url
         ext = cover_url.split(".")[-1]
-        cover_file = f"{sluggify(entry.author_name)}-{sluggify(entry.title)}.{ext}"
+        cover_file = f"{sluggify(entry.author_name)}-{sluggify(title)}.{ext}"
 
         book = {
-            "title": entry.title,
+            "title": title,
             "author": entry.author_name,
             "cover_url": cover_url,
             "cover_file": cover_file,
@@ -68,6 +70,11 @@ def download_image(url, filename):
             file.write(response.content)
     else:
         print(f"Failed to download image. Status code: {response.status_code}")
+
+
+def remove_parenthesized_suffix(s):
+    # This regex will match one or more groups of parentheses at the end of the string
+    return re.sub(r"(?:\s*\([^)]*\))+$", "", s)
 
 
 def sluggify(title):
