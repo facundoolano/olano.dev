@@ -9,7 +9,7 @@ venv:
 serve:
 	jorge serve
 
-build:
+build: reads
 	jorge build
 
 push: build
