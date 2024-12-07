@@ -108,6 +108,39 @@ hr {
     margin: 2rem 0;
 }
 
+.book-list {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: space-around; /* Ensures even spacing between items */
+}
+
+.book {
+    flex: 1 1 30%; /* Grow and shrink to take up about a third of the container */
+    max-width: 30%; /* Prevents items from getting too wide */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    margin: 10px; /* Adds some spacing around each book */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.book-details {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .book {
+        flex: 1 1 100%; /* Each book takes full width on mobile */
+        max-width: 100%;
+    }
+}
 
 .blog-index article {
     padding-bottom: .5rem;
