@@ -1,5 +1,11 @@
 .PHONY: book
 
+venv=. venv/bin/activate &&
+
+venv:
+	python -m venv venv
+	$(venv) pip install pyyaml feedparser ipython requests
+
 serve:
 	jorge serve
 
@@ -16,3 +22,6 @@ resume: push
 
 book:
 	cd book && make && mv book.pdf book.epub ../src/
+
+reads: venv
+	$(venv) ./scripts/reads.py
