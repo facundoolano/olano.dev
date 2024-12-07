@@ -35,9 +35,9 @@ def fetch_feeds(feed_url, outfile, with_images=False):
 def feed_to_dict(data):
     reads = []
     for entry in data.entries:
-        published = datetime.strptime(entry.published, DATE_FORMAT)
+        published = datetime.strptime(entry.published, DATE_FORMAT).date()
         user_date = entry.user_read_at or entry.user_date_added
-        user_date = datetime.strptime(user_date, DATE_FORMAT)
+        user_date = datetime.strptime(user_date, DATE_FORMAT).date()
 
         title = remove_parenthesized_suffix(entry.title)
 
