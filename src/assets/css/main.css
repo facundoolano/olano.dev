@@ -314,7 +314,7 @@ details summary {
     cursor: pointer;
 }
 
-details summary h3::after {
+details summary h3::after, details summary h4::after {
     content: "[+]";
     font-size: small;
     font-weight: normal;
