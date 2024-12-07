@@ -12,3 +12,6 @@ ideas.org
 
 
 .jekyll-metadata
+
+venv
+__pycache__
