@@ -2,10 +2,10 @@
 # Fetch goodreads RSS feeds and dump to data files
 
 from datetime import datetime
-import os
+import requests
 import re
 import unicodedata
-import sys
+from pathlib import Path
 
 import yaml
 import feedparser
@@ -24,11 +24,9 @@ def fetch_feeds(feed_url, outfile, with_images=False):
     books = feed_to_dict(feed_data)
 
     if with_images:
-        # TODO fetch images
-        # only if not already present
+        # fetch images only if not already present
         for book in books:
-            pass
-        pass
+            download_image(book["cover_url"], book["cover_file"])
 
     with open(outfile, "w") as file:
         yaml.dump(books, file, default_flow_style=False, allow_unicode=True)
@@ -58,6 +56,20 @@ def feed_to_dict(data):
     return reads
 
 
+def download_image(url, filename):
+    file_path = Path(ASSETS_DIR, filename)
+    if file_path.exists():
+        return
+
+    print("downloading", url)
+    response = requests.get(url)
+    if response.status_code == 200:
+        with open(file_path, "wb") as file:
+            file.write(response.content)
+    else:
+        print(f"Failed to download image. Status code: {response.status_code}")
+
+
 def sluggify(title):
     # Skip subtitle portion:
     title = title.split(":")[0]
@@ -76,5 +88,5 @@ def sluggify(title):
 
 
 if __name__ == "__main__":
-    fetch_feeds(READING_FEED, "data/reading.yaml")
+    fetch_feeds(READING_FEED, "data/reading.yaml", with_images=True)
     fetch_feeds(READ_FEED, "data/read.yaml")
