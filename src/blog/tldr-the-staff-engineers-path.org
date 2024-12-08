@@ -7,6 +7,7 @@ thumbnail-img: staff/cover.jpg
 image: staff/cover.jpg
 excerpt: El libro de Tanya Reilly muestra un camino de crecimiento desde el liderazgo técnico y nos recuerda que estamos en el negocio de la comunicación y de las interacciones humanas, que los "soft skills" no son territorio exclusivo de los PMs.
 lang: es
+refs: [peopleware, staffs, managers, ousterhout, boring, stafflarson, glue]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

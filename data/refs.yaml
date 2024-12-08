@@ -93,7 +93,7 @@
 - id: maher
   name: "The Digital Antiquarian"
   author: Jimmy Maher
-  year: 2018
+  year: 2011-
 - id: parentesis
   name: "Entre paréntesis"
   author: Roberto Bolaño
@@ -197,3 +197,63 @@
   name: The Art of Unix Programming
   author: Eric S. Raymond
   year: 2003
+- id: peopleware
+  name: "Peopleware: Productive Projects and Teams"
+  author: Tom DeMarco, Timothy Lister
+  year: 1987
+- id: staffs
+  name: "The Staff Engineer's Path"
+  author: Tanya Reilly
+  year: 2022
+- id: managers
+  name: "The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change"
+  author: Camille Fournier
+  year: 2017
+- id: boring
+  name: "Choose Boring Technology"
+  author: Dan McKinley
+  year: 2015
+- id: stafflarson
+  name: "Staff Engineer: Leadership beyond the management track"
+  author: Will Larson
+  year: 2021
+- id: glue
+  name: "Being Glue: A Guide to the Craft of Soft Skills"
+  author: Tanya Reilly
+  year: 2022
+- id: worse
+  name: "The Rise of Worse is Better"
+  author: Richard P. Gabriel
+  year: 1991
+- id: chiusano
+  name: "The Problematic Culture of 'Worse is Better'"
+  author: Paul Chiusano
+  year: 2014
+- id: painters
+  name: "Hackers and Painters: Big Ideas from the Computer Age"
+  author: Paul Graham
+  year: 2004
+- id: bazaar
+  name: "The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary"
+  author: Eric S. Raymond
+  year: 1999
+- id: allgame
+  name: "It's All a Game: The History of Board Games from Monopoly to Settlers of Catan"
+  author: Tristan Donovan
+  year: 2017
+- id: fallacies
+  name: "Fallacies of Distributed Computing"
+  author: L. Peter Deutsch
+  year: 1994
+- id: microservices
+  name: "Building Microservices: Designing Fine-Grained Systems"
+  author: Sam Newman
+  year: 2015
+- id: radical
+  name: "Radical Simplicity in Technology"
+  author: Stephan Schmidt
+  year: 2021
+- id: hamilton
+  name: "On Designing and Deploying Internet Scale Services"
+  author: James Hamilton
+  year: 2007
