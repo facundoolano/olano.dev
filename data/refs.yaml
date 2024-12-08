@@ -1,48 +1,96 @@
-- id: modoom
-  name: "Masters of Doom"
-- id: elementsclojure
-  name: "Elements of Clojure"
-- id: inanger
-  name: "Erlang in Anger"
-- id: funarch
-  name: "Fundamentals of Software Architecture"
-- id: goodparts
-  name: "JavaScript: The Good Parts"
-- id: literate
-  name: "Literate Programming"
-- id: parisreview
-  name: "The Paris Review Interviews"
-- id: thestand
-  name: "The Stand"
-- id: tlotr
-  name: "The Lord of the Rings"
-- id: maiakovski
-  name: "Mi Descubrimiento de América"
-- id: learnyou
-  name: "Learn You Some Erlang for Great Good"
-- id: queneau
-  name: "Excercises in Style"
-- id: videira
-  name: "Exercises in Programming Style"
-- id: codersatwork
-  name: "Coders At Work"
-- id: zenoferlang
-  name: "The Zen of Erlang"
-- id: jurassic
-  name: "Jurassic Park"
-- id: t2
-  name: "Terminator 2"
-- id: sanglard
-  name: "Wolfenstein 3D"
-- id: bloodpixels
-  name: "Blood, Sweat and Pixels"
-- id: replay
-  name: "Replay"
-- id: maher
-  name: "The Digital Antiquarian"
-- id: aopnc
-  name: "The Art of Point-and-Click Adventure Games"
-- id: crpg
-  name: "The CRPG Book"
 - id: nbajam
   name: "NBA Jam"
+  author: Reyan Ali
+  year: 2019
+- id: bloodpixels
+  name: "Blood, Sweat, and Pixels: The Triumphant, Turbulent Stories Behind How Video Games Are Made"
+  author: Jason Schreier
+  year: 2017
+- id: sanglard
+  name: "Game Engine Black Book: Wolfenstein 3D"
+  author: Fabien Sanglard
+  year: 2017
+- id: goodparts
+  name: "JavaScript: The Good Parts"
+  author: Douglas Crockford
+  year: 2008
+- id: replay
+  name: "Replay: The History of Video Games"
+  author: Tristan Donovan
+  year: 2010
+- id: crpg
+  name: "The CRPG Book: A Guide to Computer Role-Playing Games"
+  author: Felipe Pepe
+  year: 2019
+- id: t2
+  name: "Terminator 2: Judgment Day"
+  author: James Cameron
+  year: 1991
+- id: jurassic
+  name: "Jurassic Park"
+  author: Steven Spielberg
+  year: 1993
+- id: parisreview
+  name: "The Paris Review Interviews"
+  author: Various
+  year: 2006
+- id: queneau
+  name: "Exercises in Style"
+  author: Raymond Queneau
+  year: 1947
+- id: aopnc
+  name: "The Art of Point-and-Click Adventure Games"
+  author: Steve Jarrett
+  year: 2018
+- id: codersatwork
+  name: "Coders at Work: Reflections on the Craft of Programming"
+  author: Peter Seibel
+  year: 2009
+- id: literate
+  name: "Literate Programming"
+  author: Donald E. Knuth
+  year: 1984
+- id: funarch
+  name: "Fundamentals of Software Architecture: An Engineering Approach"
+  author: Mark Richards, Neal Ford
+  year: 2020
+- id: learnyou
+  name: "Learn You Some Erlang for Great Good!"
+  author: Fred Hébert
+  year: 2013
+- id: inanger
+  name: "Erlang in Anger: A Survival Guide to the Erlang Ecosystem"
+  author: Fred Hébert
+  year: 2014
+- id: zenoferlang
+  name: "The Zen of Erlang"
+  author: Fred Hébert
+  year: 2016
+- id: elementsclojure
+  name: "Elements of Clojure"
+  author: Zachary Tellman
+  year: 2018
+- id: maiakovski
+  name: "Mi Descubrimiento de América"
+  author: Vladimir Mayakovsky
+  year: 1925
+- id: thestand
+  name: "The Stand"
+  author: Stephen King
+  year: 1978
+- id: tlotr
+  name: "The Lord of the Rings"
+  author: J.R.R. Tolkien
+  year: 1954
+- id: modoom
+  name: "Masters of Doom"
+  author: David Kushner
+  year: 2003
+- id: videira
+  name: "Exercises in Programming Style"
+  author: Cristina Videira Lopes
+  year: 2014
+- id: maher
+  name: "The Digital Antiquarian"
+  author: Jimmy Maher
+  year: 2018
