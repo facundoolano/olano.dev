@@ -6,6 +6,7 @@ tags: [software]
 lang: es
 favorite: true
 book: "vol1"
+refs: [killfire, releaseit,ousterhout]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

@@ -94,3 +94,76 @@
   name: "The Digital Antiquarian"
   author: Jimmy Maher
   year: 2018
+- id: parentesis
+  name: "Entre paréntesis"
+  author: Roberto Bolaño
+- id: fornaires
+  name: "Buenos Aires"
+  author: Juan Forn
+- id: fornuds
+  name: "Yo recordaré por ustedes"
+  author: Juan Forn
+- id: nadar
+  name: Nadar de noche
+  author: Juan Forn
+- id: fornviernes
+  author: Juan Forn
+  name: "El hombre que fue viernes"
+- id: ousterhout
+  name: A Philosophy of Software Design
+  author: John Ousterhout
+- id: killfire
+  name: Kill It with Fire
+  author: Marianne Bellotti
+- id: releaseit
+  name: Release It!
+  author: Michael T. Nygard
+- id: indemnity
+  name: Double Indemnity
+  author: Billy Wilder, Raymond Chandler
+- id: barton
+  name: Barton Fink
+  author: Joel Coen, Ethan Coen
+- id: bigsleep
+  name: The Big Sleep
+  author: Raymond Chandler
+- id: chandlercartas
+  name: Ensayos y cartas selectos
+  author: Raymond Chandler
+- id: innovators
+  name: The Innovators
+  author: Walter Isaacson
+- id: ideasfuture
+  name: Ideas That Created the Future
+  author: Harry R. Lewis
+- id: colossal
+  name: Colossal Cave Adventure
+  author: William Crowther, Don Woods
+- id: mysteryhouse
+  name: Mystery House
+  author: Roberta Williams, Ken Williams
+- id: kings
+  name: King's Quest
+  author: Roberta Williams, Ken Williams
+- id: maniac
+  name: Maniac Mansion
+  author: Ron Gilbert
+- id: monkey
+  name: The Secret of Monkey Island
+  author: Ron Gilbert
+- id: whysuck
+  name: Why adventure games suck
+  author: Ron Gilbert
+- id: grumpy
+  name: Grumpy Gamer
+  author: Ron Gilbert
+- id: craftadventure
+  name: The Craft of Adventure
+  author: Graham Nelson
+- id: dott
+- id: throttle
+- id: grim
+- id: doublefine
+  name: Double Fine Adventure
+  author: Tim Schafer
+- id: thimbleweed

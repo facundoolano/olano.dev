@@ -8,6 +8,7 @@ tags: [videojuegos]
 thumbnail-img: return.jpg
 image: return.jpg
 lang: es
+refs: [monkey]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

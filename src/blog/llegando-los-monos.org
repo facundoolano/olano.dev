@@ -10,6 +10,7 @@ tags: [videojuegos, software, cine]
 favorite: true
 lang: es
 book: "vol1"
+refs: [aopnc, maher, colossal, mysteryhouse, kings, maniac, monkey, whysuck, craftadventure]
 ---
 #+OPTIONS: toc:nil num:nil ^:{}
 #+LANGUAGE: es

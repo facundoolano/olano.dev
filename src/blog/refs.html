@@ -23,7 +23,7 @@ head_title: Refs
     {% for ref in site.data.refs %}
     <details>
         <summary>
-            <span class="ref"><b>{{ref.name}}</b>{%if ref.author%}, {{ref.author}}{%endif%}{%if ref.year%} ({{ref.year}}){%endif%}</span>
+            <span id="{{ref.id}}" class="ref"><b>{{ref.name}}</b>{%if ref.author%}, {{ref.author}}{%endif%}{%if ref.year%} ({{ref.year}}){%endif%}</span>
         </summary>
         {% assign posts = site.posts | where_exp:"post", "post.refs contains ref.id" %}
         {% assign skip_years = true %}
