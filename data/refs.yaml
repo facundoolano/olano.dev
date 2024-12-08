@@ -161,9 +161,39 @@
   name: The Craft of Adventure
   author: Graham Nelson
 - id: dott
+  name: Day of the Tentacle
+  author: Tim Schafer, Dave Grossman
 - id: throttle
+  name: Full Throttle
+  author: Tim Schafer
 - id: grim
+  name: Grim Fandango
+  author: Tim Schafer
 - id: doublefine
   name: Double Fine Adventure
   author: Tim Schafer
 - id: thimbleweed
+  name: Thimbleweed Park
+  author: Ron Gilbert
+- id: bullet
+  author: Fred Brooks.
+  name: "No Silver Bullet: Essence and Accidents of Software Engineering"
+  year: 1987
+- id: tarpit
+  name: Out of the Tar Pit
+  author: Ben Moseley, Peter Marks
+- id: pragmatic
+  name: "The Pragmatic Programmer: your journey to mastery"
+  year: 2019
+- id: hickey
+  name: Simple Made Easy
+  author: Rich Hickey
+  year: 2011
+- id: clarity
+  name: Clarity
+  author: Saša Jurić
+  year: 2021
+- id: unix
+  name: The Art of Unix Programming
+  author: Eric S. Raymond
+  year: 2003
