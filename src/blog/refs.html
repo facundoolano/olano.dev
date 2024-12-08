@@ -20,10 +20,10 @@ head_title: Refs
 </script>
 
 <div class="blog-index">
-    {% for ref in site.data.refs %}
+    {% for ref in site.data.refs | sort: "author" %}
     <details>
         <summary>
-            <span id="{{ref.id}}" class="ref"><b>{{ref.name}}</b>{%if ref.author%}, {{ref.author}}{%endif%}{%if ref.year%} ({{ref.year}}){%endif%}</span>
+            <span id="{{ref.id}}" class="ref">{% if ref.author %}{{ref.author}}. {%endif%}<i>{{ref.name}}</i>{%if ref.year%} ({{ref.year}}){%endif%}.</span>
         </summary>
         {% assign posts = site.posts | where_exp:"post", "post.refs contains ref.id" %}
         {% assign skip_years = true %}
