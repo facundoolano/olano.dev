@@ -7,6 +7,7 @@ lang: en
 image: readrun.png
 favorite: true
 excerpt: "Code is read more than written, code is run more than read. I think this line of thought can be extended beyond code-writing, and used as a rule of thumb to identify problems and make decisions."
+refs: [boring, worse]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en

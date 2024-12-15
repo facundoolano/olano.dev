@@ -8,6 +8,7 @@ image: mastodon.jpeg
 thumbnail-img: mastodon.jpeg
 excerpt: La proliferación de aplicaciones federadas con ActivityPub, el renovado interés en los lectores RSS y los esfuerzos de la web indie son miniaturas de un proyecto de desmantelar las plataformas monopólicas mediante el uso de tecnología abierta.
 lang: es
+refs: [indie, garden, indiereader, protocols, local]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

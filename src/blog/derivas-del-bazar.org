@@ -7,6 +7,7 @@ image: libre.jpg
 excerpt: Linux y Wikipedia demostraron, durante lo que posiblemente haya sido el período de mayor hegemonía del individualismo liberal, que la innovación y el bien público son mejor propiciadas por la colaboración voluntaria entre pares que por la competencia de mercado.
 lang: es
 book: "vol1"
+refs: [bazaar, hackerethic, varoufakis, makohill]
 ---
 #+OPTIONS: toc:nil num:nil ^:{}
 #+LANGUAGE: es

@@ -8,6 +8,7 @@ image: obradinn.jpg
 thumbnail-img: obradinn.jpg
 lang: es
 book: "vol1"
+refs: [dinn]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

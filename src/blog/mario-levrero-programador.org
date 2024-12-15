@@ -10,6 +10,7 @@ cover-img: levrero.jpg
 excerpt: Pienso que, si hubiera nacido en otra época o en otro lugar, Mario Levrero habría sido hacker de profesión o de vocación, habría encontrado ahí lo que penosamente le arrancaba a la literatura.
 lang: es
 book: "vol1"
+refs: [luminosa, discurso]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

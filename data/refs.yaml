@@ -1,276 +1,309 @@
 - id: nbajam
-  name: "NBA Jam"
+  title: "NBA Jam"
   author: Reyan Ali
   year: 2019
 - id: bloodpixels
-  name: "Blood, Sweat, and Pixels: The Triumphant, Turbulent Stories Behind How Video Games Are Made"
+  title: "Blood, Sweat, and Pixels: The Triumphant, Turbulent Stories Behind How Video Games Are Made"
   author: Jason Schreier
   year: 2017
 - id: sanglard
-  name: "Game Engine Black Book: Wolfenstein 3D"
+  title: "Game Engine Black Book: Wolfenstein 3D"
   author: Fabien Sanglard
   year: 2017
 - id: goodparts
-  name: "JavaScript: The Good Parts"
+  title: "JavaScript: The Good Parts"
   author: Douglas Crockford
   year: 2008
 - id: replay
-  name: "Replay: The History of Video Games"
+  title: "Replay: The History of Video Games"
   author: Tristan Donovan
   year: 2010
 - id: crpg
-  name: "The CRPG Book: A Guide to Computer Role-Playing Games"
+  title: "The CRPG Book: A Guide to Computer Role-Playing Games"
   author: Felipe Pepe
   year: 2019
 - id: t2
-  name: "Terminator 2: Judgment Day"
+  title: "Terminator 2: Judgment Day"
   author: James Cameron
   year: 1991
 - id: jurassic
-  name: "Jurassic Park"
+  title: "Jurassic Park"
   author: Steven Spielberg
   year: 1993
 - id: parisreview
-  name: "The Paris Review Interviews"
+  title: "The Paris Review Interviews"
   author: Various
   year: 2006
 - id: queneau
-  name: "Exercises in Style"
+  title: "Exercises in Style"
   author: Raymond Queneau
   year: 1947
 - id: aopnc
-  name: "The Art of Point-and-Click Adventure Games"
+  title: "The Art of Point-and-Click Adventure Games"
   author: Steve Jarrett
   year: 2018
 - id: codersatwork
-  name: "Coders at Work: Reflections on the Craft of Programming"
+  title: "Coders at Work: Reflections on the Craft of Programming"
   author: Peter Seibel
   year: 2009
 - id: literate
-  name: "Literate Programming"
+  title: "Literate Programming"
   author: Donald E. Knuth
   year: 1984
 - id: funarch
-  name: "Fundamentals of Software Architecture: An Engineering Approach"
+  title: "Fundamentals of Software Architecture: An Engineering Approach"
   author: Mark Richards, Neal Ford
   year: 2020
 - id: learnyou
-  name: "Learn You Some Erlang for Great Good!"
+  title: "Learn You Some Erlang for Great Good!"
   author: Fred Hébert
   year: 2013
 - id: inanger
-  name: "Erlang in Anger: A Survival Guide to the Erlang Ecosystem"
+  title: "Erlang in Anger: A Survival Guide to the Erlang Ecosystem"
   author: Fred Hébert
   year: 2014
 - id: zenoferlang
-  name: "The Zen of Erlang"
+  title: "The Zen of Erlang"
   author: Fred Hébert
   year: 2016
 - id: elementsclojure
-  name: "Elements of Clojure"
+  title: "Elements of Clojure"
   author: Zachary Tellman
   year: 2018
 - id: maiakovski
-  name: "Mi Descubrimiento de América"
+  title: "Mi Descubrimiento de América"
   author: Vladimir Mayakovsky
   year: 1925
 - id: thestand
-  name: "The Stand"
+  title: "The Stand"
   author: Stephen King
   year: 1978
 - id: tlotr
-  name: "The Lord of the Rings"
+  title: "The Lord of the Rings"
   author: J.R.R. Tolkien
   year: 1954
 - id: modoom
-  name: "Masters of Doom"
+  title: "Masters of Doom"
   author: David Kushner
   year: 2003
 - id: videira
-  name: "Exercises in Programming Style"
+  title: "Exercises in Programming Style"
   author: Cristina Videira Lopes
   year: 2014
 - id: maher
-  name: "The Digital Antiquarian"
+  title: "The Digital Antiquarian"
   author: Jimmy Maher
   year: 2011-
 - id: parentesis
-  name: "Entre paréntesis"
+  title: "Entre paréntesis"
   author: Roberto Bolaño
 - id: fornaires
-  name: "Buenos Aires"
+  title: "Buenos Aires"
   author: Juan Forn
 - id: fornuds
-  name: "Yo recordaré por ustedes"
+  title: "Yo recordaré por ustedes"
   author: Juan Forn
 - id: nadar
-  name: Nadar de noche
+  title: Nadar de noche
   author: Juan Forn
 - id: fornviernes
   author: Juan Forn
-  name: "El hombre que fue viernes"
+  title: "El hombre que fue viernes"
 - id: ousterhout
-  name: A Philosophy of Software Design
+  title: A Philosophy of Software Design
   author: John Ousterhout
 - id: killfire
-  name: Kill It with Fire
+  title: Kill It with Fire
   author: Marianne Bellotti
 - id: releaseit
-  name: Release It!
+  title: Release It!
   author: Michael T. Nygard
 - id: indemnity
-  name: Double Indemnity
+  title: Double Indemnity
   author: Billy Wilder, Raymond Chandler
 - id: barton
-  name: Barton Fink
+  title: Barton Fink
   author: Joel Coen, Ethan Coen
 - id: bigsleep
-  name: The Big Sleep
+  title: The Big Sleep
   author: Raymond Chandler
 - id: chandlercartas
-  name: Ensayos y cartas selectos
+  title: Ensayos y cartas selectos
   author: Raymond Chandler
 - id: innovators
-  name: The Innovators
+  title: The Innovators
   author: Walter Isaacson
 - id: ideasfuture
-  name: Ideas That Created the Future
+  title: Ideas That Created the Future
   author: Harry R. Lewis
 - id: colossal
-  name: Colossal Cave Adventure
+  title: Colossal Cave Adventure
   author: William Crowther, Don Woods
 - id: mysteryhouse
-  name: Mystery House
+  title: Mystery House
   author: Roberta Williams, Ken Williams
 - id: kings
-  name: King's Quest
+  title: King's Quest
   author: Roberta Williams, Ken Williams
 - id: maniac
-  name: Maniac Mansion
+  title: Maniac Mansion
   author: Ron Gilbert
 - id: monkey
-  name: The Secret of Monkey Island
+  title: The Secret of Monkey Island
   author: Ron Gilbert
 - id: whysuck
-  name: Why adventure games suck
+  title: Why adventure games suck
   author: Ron Gilbert
 - id: grumpy
-  name: Grumpy Gamer
+  title: Grumpy Gamer
   author: Ron Gilbert
 - id: craftadventure
-  name: The Craft of Adventure
+  title: The Craft of Adventure
   author: Graham Nelson
 - id: dott
-  name: Day of the Tentacle
+  title: Day of the Tentacle
   author: Tim Schafer, Dave Grossman
 - id: throttle
-  name: Full Throttle
+  title: Full Throttle
   author: Tim Schafer
 - id: grim
-  name: Grim Fandango
+  title: Grim Fandango
   author: Tim Schafer
 - id: doublefine
-  name: Double Fine Adventure
+  title: Double Fine Adventure
   author: Tim Schafer
 - id: thimbleweed
-  name: Thimbleweed Park
+  title: Thimbleweed Park
   author: Ron Gilbert
 - id: bullet
   author: Fred Brooks.
-  name: "No Silver Bullet: Essence and Accidents of Software Engineering"
+  title: "No Silver Bullet: Essence and Accidents of Software Engineering"
   year: 1987
 - id: tarpit
-  name: Out of the Tar Pit
+  title: Out of the Tar Pit
   author: Ben Moseley, Peter Marks
 - id: pragmatic
-  name: "The Pragmatic Programmer: your journey to mastery"
+  title: "The Pragmatic Programmer: your journey to mastery"
   year: 2019
 - id: hickey
-  name: Simple Made Easy
+  title: Simple Made Easy
   author: Rich Hickey
   year: 2011
 - id: clarity
-  name: Clarity
+  title: Clarity
   author: Saša Jurić
   year: 2021
 - id: unix
-  name: The Art of Unix Programming
+  title: The Art of Unix Programming
   author: Eric S. Raymond
   year: 2003
 - id: peopleware
-  name: "Peopleware: Productive Projects and Teams"
+  title: "Peopleware: Productive Projects and Teams"
   author: Tom DeMarco, Timothy Lister
   year: 1987
 - id: staffs
-  name: "The Staff Engineer's Path"
+  title: "The Staff Engineer's Path"
   author: Tanya Reilly
   year: 2022
 - id: managers
-  name: "The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change"
+  title: "The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change"
   author: Camille Fournier
   year: 2017
 - id: boring
-  name: "Choose Boring Technology"
+  title: "Choose Boring Technology"
   author: Dan McKinley
   year: 2015
 - id: stafflarson
-  name: "Staff Engineer: Leadership beyond the management track"
+  title: "Staff Engineer: Leadership beyond the management track"
   author: Will Larson
   year: 2021
 - id: glue
-  name: "Being Glue: A Guide to the Craft of Soft Skills"
+  title: "Being Glue: A Guide to the Craft of Soft Skills"
   author: Tanya Reilly
   year: 2022
 - id: worse
-  name: "The Rise of Worse is Better"
+  title: "The Rise of Worse is Better"
   author: Richard P. Gabriel
   year: 1991
 - id: chiusano
-  name: "The Problematic Culture of 'Worse is Better'"
+  title: "The Problematic Culture of 'Worse is Better'"
   author: Paul Chiusano
   year: 2014
 - id: painters
-  name: "Hackers and Painters: Big Ideas from the Computer Age"
+  title: "Hackers and Painters: Big Ideas from the Computer Age"
   author: Paul Graham
   year: 2004
 - id: bazaar
-  name: "The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary"
+  title: "The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary"
   author: Eric S. Raymond
   year: 1999
 - id: allgame
-  name: "It's All a Game: The History of Board Games from Monopoly to Settlers of Catan"
+  title: "It's All a Game: The History of Board Games from Monopoly to Settlers of Catan"
   author: Tristan Donovan
   year: 2017
 - id: fallacies
-  name: "Fallacies of Distributed Computing"
+  title: "Fallacies of Distributed Computing"
   author: L. Peter Deutsch
   year: 1994
 - id: microservices
-  name: "Building Microservices: Designing Fine-Grained Systems"
+  title: "Building Microservices: Designing Fine-Grained Systems"
   author: Sam Newman
   year: 2015
 - id: radical
-  name: "Radical Simplicity in Technology"
+  title: "Radical Simplicity in Technology"
   author: Stephan Schmidt
   year: 2021
 - id: hamilton
-  name: "On Designing and Deploying Internet Scale Services"
+  title: "On Designing and Deploying Internet Scale Services"
   author: James Hamilton
   year: 2007
 - id: rogue
-  name: Rogue
+  title: Rogue
 - id: prince
-  name: Prince of Persia
+  title: Prince of Persia
   author: Jordan Mechner
 - id: dinn
-  name: Return of the Obra Dinn
+  title: Return of the Obra Dinn
   author: Lucas Pope
 - id: perec
-  name: "La vida: instrucciones de uso"
+  title: "La vida: instrucciones de uso"
   author: Georges Perec
 - id: tetris
-  name: Tetris
+  title: Tetris
   author: Alekséi Pázhitnov
 - id: ditherpunk
-  name: "Ditherpunk — The article I wish I had about monochrome image dithering"
+  title: "Ditherpunk — The article I wish I had about monochrome image dithering"
   athor: Surma
+  year: 2021
+- id: luminosa
+  title: La novela luminosa
+  author: Mario Levrero
+- id: discurso
+  title: El discurso vacío
+  author: Mario Levrero
+- id: turing
+- id: inquisiciones
+- id: bullshit
+  title: "On the Phenomenon of Bullshit Jobs: A Work Rant"
+  year: 2013
+  author: David Graeber
+- id: indie
+  author: Jamie Tanna
+  year: 2019
+  title: "The IndieWeb Movement: Owning Your Data and Being the Change You Want to See in the Web"
+- id: garden
+- id: indiereader
+- id: protocols
+- id: local
+- id: hackerethic
+- id: varoufakis
+- id: makohill
+  title: "How markets coopted free software’s most powerful weapon"
+  author: Benjamin Mako Hill
+  year: 2018
+- id: burkeman
+- id: tomorrow
+- id: dottbook
+- id: if50
+- id: procedural
+- id: psychodyssey
