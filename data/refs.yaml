@@ -257,3 +257,20 @@
   name: "On Designing and Deploying Internet Scale Services"
   author: James Hamilton
   year: 2007
+- id: rogue
+  name: Rogue
+- id: prince
+  name: Prince of Persia
+  author: Jordan Mechner
+- id: dinn
+  name: Return of the Obra Dinn
+  author: Lucas Pope
+- id: perec
+  name: "La vida: instrucciones de uso"
+  author: Georges Perec
+- id: tetris
+  name: Tetris
+  author: Alekséi Pázhitnov
+- id: ditherpunk
+  name: "Ditherpunk — The article I wish I had about monochrome image dithering"
+  athor: Surma
