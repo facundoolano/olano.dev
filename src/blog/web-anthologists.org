@@ -7,6 +7,7 @@ tags: [web, ideas, meta]
 lang: en
 excerpt: "The problem with organizing content chronologically is that it makes everything ephemeral by default. Even if at a slower pace than social media, blogging still submits us to the clock. Just as we need discovery and curation to navigate through information overflow, we need archiving and anthologizing to stay aware of what came before."
 image: auto2.jpg
+refs: [garden2, maher]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en

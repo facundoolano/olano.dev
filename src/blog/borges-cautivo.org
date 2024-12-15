@@ -7,6 +7,7 @@ excerpt: "Hubo un Borges antes y otro después de Norah Lange, uno antes y otro 
 image: rata.jpg
 lang: es
 book: "vol1"
+refs: [cautivos]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

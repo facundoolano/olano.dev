@@ -273,7 +273,7 @@
   author: Alekséi Pázhitnov
 - id: ditherpunk
   title: "Ditherpunk — The article I wish I had about monochrome image dithering"
-  athor: Surma
+  author: Surma
   year: 2021
 - id: luminosa
   title: La novela luminosa
@@ -292,6 +292,13 @@
   year: 2019
   title: "The IndieWeb Movement: Owning Your Data and Being the Change You Want to See in the Web"
 - id: garden
+  title: "The Garden and the Stream: A Technopastoral"
+  year: 2015
+  author: Mike Caulfield
+- id: garden2
+  title: A Brief History & Ethos of the Digital Garden
+  author: Maggie Appleton
+  year: 2020
 - id: indiereader
 - id: protocols
 - id: local
@@ -307,3 +314,19 @@
 - id: if50
 - id: procedural
 - id: psychodyssey
+- id: cautivos
+  title: Textos Cautivos
+  author: Jorge Luis Borges
+- id: suikoden
+- id: dnd
+- id: iamerror
+- id: jrpg
+- id: homecook
+- id: zak
+- id: loom
+- id: crusade
+- id: starwars
+- id: soul
+- id: mythical
+- id: nystrom
+- id: kleppman

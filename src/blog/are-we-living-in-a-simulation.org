@@ -6,6 +6,7 @@ lang: en
 tags: [software]
 image: pills.jpg
 excerpt: I posit that it’s statistically unlikely for an engineer to get a job working on a system that isn’t either imaginary or legacy software. There is no middle ground.
+refs: [ousterhout, releaseit]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en

@@ -5,6 +5,7 @@ layout: post
 lang: en
 tags: [projects, software]
 external: https://jorge.olano.dev/blog/why
+refs: [boring]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en

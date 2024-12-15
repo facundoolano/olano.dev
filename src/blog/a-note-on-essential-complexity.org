@@ -8,6 +8,7 @@ cover-img: labrea.jpg
 image: tarpit.png
 excerpt: The fact that we can’t remove essential complexity with a software redesign doesn’t mean that there’s nothing we can do about it. What if the problem definition wasn’t outside of our purview? What if we could get the world to conform to the software, and not just the other way around?
 favorite: true
+refs: [ousterhout, bullet, tarpit, killfire]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
