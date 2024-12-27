@@ -86,41 +86,26 @@ behind the program text.
 #+end_quote
 
 #+begin_quote
-much current discus-
-sion of programming seems to assume that
-programming is similar to industrial pro-
-duction, the programmer being regarded
-as a component of that production, a com-
-ponent that has to be controlled by rules of
-procedure and which can be replaced eas-
-ily. Another related view is that human
-beings perform best if they act like
-machines, by following rules, with a conse-
-quent stress on formal modes of expres-
-sion, which make it possible to formulate
-certain arguments in terms of rules of for-
-mal manipulation. Such views agree well
-with the notion, seemingly common
-among persons working with computers,
-that the human mind works like a com-
-puter. At the level of industrial manage-
-ment these views support treating
-programmers as workers of fairly low
-responsibility, and only brief education.
-On the Theory Building View the pri-
-mary result of the programming activity is
-the theory held by the programmers. Since
-this theory by its very nature is part of the
-mental possession of each programmer, it
-follows that the notion of the programmer
-as an easily replaceable component in the
-program production activity has to be
-abandoned. Instead the programmer must
-be regarded as a responsible developer
-and manager of the activity in which the
-computer is a part.
+much current discussion of programming seems to assume that programming is similar to industrial production, the programmer being regarded as a component of that production, a component that has to be controlled by rules of procedure and which can be replaced easily. Another related view is that human beings perform best if they act like machines, by following rules, with a consequent stress on formal modes of expression, which make it possible to formulate certain arguments in terms of rules of formal manipulation. Such views agree well with the notion, seemingly common among persons working with computers, that the human mind works like a computer. At the level of industrial management these views support treating programmers as workers of fairly low responsibility, and only brief education. On the Theory Building View the primary result of the programming activity is the theory held by the programmers. Since this theory by its very nature is part of the mental possession of each programmer, it follows that the notion of the programmer as an easily replaceable component in the program production activity has to be abandoned. Instead the programmer must
+be regarded as a responsible developer and manager of the activity in which the computer is a part.
 #+end_quote
 
 *** Explaining Software
+
+#+begin_quote
+Software development can be reduced to a single, iterative action. Almost everything we do in the course of a day — the pull requests, the meetings, the whiteboard diagrams, the hallway conversations — is an explanation. Our job is to explain, over and over, the meaning of our software: what it is, and what we expect it to become.
+#+end_quote
+
+#+begin_quote
+As software designers, our goal is to reduce complexity. We want our software to be easier to understand, and easier to change.
+
+These are not distinct concerns. For our software to be understood or changed, it must be explained; we must tell a story about what our software is, and what it's expected to become. When understanding software, we tell that story to ourselves. When changing software, we tell that story to others. Software which is complex takes a long time to explain.
+#+end_quote
+
+#+begin_quote
+Design often occurs around our code, rather than within it. A README is software design. Onboarding is software design. Code review is software design. Answering a question is software design.
+
+In literary theory, these external documents and discussions are called paratexts. These paratexts "surround, shape, support, and provide context for texts. They may alter the meaning of texts, further enhance meaning, or provide challenges to sedimented meanings."
+#+end_quote
 
 ** 5. Musings
