@@ -283,6 +283,8 @@
   author: Mario Levrero
 - id: turing
 - id: inquisiciones
+  author: Jorge Luis Borges
+  title: Otras inquisiciones
 - id: bullshit
   title: "On the Phenomenon of Bullshit Jobs: A Work Rant"
   year: 2013
@@ -314,11 +316,20 @@
 - id: if50
 - id: procedural
 - id: psychodyssey
+  title: PsychOdyssey
+  author: Tim Schafer
+  year: 2023
 - id: cautivos
-  title: Textos Cautivos
+  title: Textos cautivos
   author: Jorge Luis Borges
 - id: suikoden
+  title: Suikoden II
+  year: 1998
+  author: Junko Kawano
 - id: dnd
+  title: Dungeons & Dragons
+  year: 1974
+  author: Gary Gygax, Dave Arneson
 - id: iamerror
 - id: jrpg
 - id: homecook
