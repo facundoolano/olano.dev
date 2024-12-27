@@ -1,0 +1,126 @@
+---
+title: Software Design is Knowledge Building
+date: 2024-12-26
+layout: post
+lang: en
+tags: [software]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+** 1. Background
+
+** 2. The Story
+
+** 3. Discussion
+
+** 4. Readings
+*** Programming as Theory Building
+
+#+begin_quote
+programming properly should be regarded as an activity by which the programmers form or achieve a certain kind of insight, a theory, of the matters at hand. This suggestion is in contrast to what appears to be a more common notion, that programming should be regarded as a production of a program and certain other texts.
+#+end_quote
+
+#+begin_quote
+One way of stating the main point I want to make is that programming in this sense primarily must be the programmers’ building up knowledge of a certain kind, knowledge taken to be basically the programmers’ immediate possession, any documentation being an auxiliary, secondary product.
+#+end_quote
+
+#+begin_quote
+The conclusion seems inescapable that at least with certain kinds of large programs, the continued adaptation, modification, and correction of errors in them, is essentially dependent on a certain kind of
+knowledge possessed by a group of programmers who are closely and continuously connected with them.
+#+end_quote
+
+#+begin_quote
+What characterizes intellectual activity, over and beyond activity that is merely intelligent, is the person’s building and having a theory, where theory is understood as the knowledge a person must have in order not only to do certain things intelligently but also to explain them, to answer queries about them, to
+argue about them, and so forth.
+#+end_quote
+
+#+begin_quote
+What has to be built by the programmer is a theory of how certain affairs of the world will be handled by, or supported by, a computer program. On the Theory Building View of programming the theory built by the programmers has primacy over such other products as program texts, user documentation, and additional documentation such as specifications. (...) The programmer’s knowledge transcends that given in documentation in at least three essential areas:
+
+1) The programmer having the theory of the program can explain how the solution relates to the affairs of the world that it helps to handle. Thus the programmer must be able to explain, for each part of the program text and for each of its overall structural characteristics, what aspect or activity of the world is matched by it. Conversely, for any aspect or activity of the world the programmer is able to state its manner of mapping into the program text.
+
+2) The programmer having the theory of the program can explain why each part of the program is what it is, in other words is able to support the actual program text with a justification of some sort.
+
+3) The programmer having the theory of the program is able to respond constructively to any demand for a modification of the program so as to support the affairs of the world in a new manner. Designing how a modification is best incorporated into an established program depends on the perception of the similarity of the new demand with the operational facilities already built into the program. The kind of similarity that has to be perceived is one between aspects of the world.
+#+end_quote
+
+#+begin_quote
+On the basis of the Theory Building View the decay of a program text as a result of modifications made by programmers without a proper grasp of the underlying theory becomes understandable. As a matter of fact, if viewed merely as a change of the program text and of the external behaviour of the execution, a given desired modification may usually be realized in many different ways, all correct. At the same time, if viewed in relation to the theory of the program these ways may look very different, some of them perhaps conforming to that theory or extending it in a natural way, while others may be wholly inconsistent with
+that theory, perhaps having the character of unintegrated patches on the main part of the program. This difference of character of various changes is one that can only make sense to the programmer who possesses the theory of the program. At the same time the character of changes made in a program text is vital to the longer term viability of the program. For a program to retain its quality it is mandatory that each modification is firmly grounded in the theory of it.
+#+end_quote
+
+#+begin_quote
+The building of the
+program is the same as the building of the
+theory of it by and in the team of program-
+mers. During the program life a program-
+mer team possessing its theory remains in
+The building of the
+program is the same as the building of the
+theory of it by and in the team of program-
+mers. During the program life a program-
+mer team possessing its theory remains in
+active control of the program, and in par-
+ticular retains control over all modifica-
+tions. The death of a program happens
+when the programmer team possessing its
+theory is dissolved. A dead program may
+continue to be used for execution in a com-
+puter and to produce useful results. The
+actual state of death becomes visible when
+demands for modifications of the program
+cannot be intelligently answered. Revival
+of a program is the rebuilding of its theory
+by a new programmer team.
+#+end_quote
+
+#+begin_quote
+A very important consequence of the
+Theory Building View is that program
+revival, that is reestablishing the theory of
+a program merely from the documentation, is strictly impossible.
+(...) The point is that building a theory to fit and support an existing program text is a difficult, frustrating, and time consuming activity. The new programmer is likely to feel torn between loyalty to the existing program text, with whatever obscurities and weaknesses it may contain, and the new theory that he or she has to build up, and which, for better or worse, most likely will differ from the original theory
+behind the program text.
+#+end_quote
+
+#+begin_quote
+much current discus-
+sion of programming seems to assume that
+programming is similar to industrial pro-
+duction, the programmer being regarded
+as a component of that production, a com-
+ponent that has to be controlled by rules of
+procedure and which can be replaced eas-
+ily. Another related view is that human
+beings perform best if they act like
+machines, by following rules, with a conse-
+quent stress on formal modes of expres-
+sion, which make it possible to formulate
+certain arguments in terms of rules of for-
+mal manipulation. Such views agree well
+with the notion, seemingly common
+among persons working with computers,
+that the human mind works like a com-
+puter. At the level of industrial manage-
+ment these views support treating
+programmers as workers of fairly low
+responsibility, and only brief education.
+On the Theory Building View the pri-
+mary result of the programming activity is
+the theory held by the programmers. Since
+this theory by its very nature is part of the
+mental possession of each programmer, it
+follows that the notion of the programmer
+as an easily replaceable component in the
+program production activity has to be
+abandoned. Instead the programmer must
+be regarded as a responsible developer
+and manager of the activity in which the
+computer is a part.
+#+end_quote
+
+*** Explaining Software
+
+** 5. Musings
