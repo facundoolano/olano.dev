@@ -19,12 +19,20 @@ This is the story of system ~SVC~ from company ~ORG~. It's a true story. I've sm
 4. Some dutiful executive figures that, since they are already spending a lot of money to pay their software engineers, they should be able to replace ~SaaS~ with an in-house built system, to be called ~SVC~.
 5. Some dutiful manager tasks X_{10}, one of ~ORG~ ’s finest engineers, with the job of building ~SVC~. X_{10} will be working alone and on a tight schedule, as the executive wants to get rid of ~SaaS~ before the next billing cycle kicks in.
 6. X_{10} gets the job done in time, as everyone in ~ORG~ has come to expect from them. With ~SVC~ working and ~SaaS~ out of the way, X_{10} moves on to more important---or more pressing---matters. ~TEAM~ takes over ownership of the system. For all intents and purposes, ~SVC~ is /done/, they only need to keep the lights on.
-7. Requirements change, some assumption is proven wrong, or some unknown unknown is uncovered. A dutiful product owner realizes the business now demands some changes to ~SVC~, so they assign some ~TEAM~ cycles to work on it.
-8. ~TEAM~ fails miserably to deliver. They don't seem to know what they are doing, taking forever to apply the smallest changes, always side-tracked by production outages.
-9. ~TEAM~ is, uh, /restructured/ into ~TEAM++~, of higher average seniority. ~TEAM++~ takes over work on ~SVC~.
-10. ~TEAM++~ fails miserably to deliver. They don't seem to know what they are doing, taking forever to apply the smallest changes, always side-tracked by production outages.
+7. After a few more successful projects, X_{10} leaves the company.
+8. Requirements change, some assumption is proven wrong, or some unknown unknown is uncovered. A dutiful product owner realizes the business now demands some changes to ~SVC~, so they assign some ~TEAM~ cycles to work on it.
+9. ~TEAM~ fails miserably to deliver. They don't seem to know what they are doing, taking forever to apply the smallest changes, always side-tracked by production outages.
+10. ~TEAM~ is, uh, /restructured/ into ~TEAM++~, of higher average seniority. ~TEAM++~ takes over work on ~SVC~.
+11. ~TEAM++~ fails miserably to deliver. They don't seem to know what they are doing, taking forever to apply the smallest changes, always side-tracked by production outages.
+
+This entire process takes less than a year.
 
 *** 2. Commentary
+
+What is going on with ~SVC~? Did X_{10} do a bad job? By all accounts they did not. The project was done in time, according to specification. Thanks to it, ~ORG~ will save a lot of money. X_{10} followed good practices too, good test coverage, no over-engineering. Surely they cut some corners; they didn't think twice about the design of the system. As with any project, there's a lot of room for improvement, but nothing that a team of competent engineers couldn't handle.
+
+But, if X_{10} got the hard part of the job done, how come not one but two (maybe more) teams of competent engineers failed to keep the system running?
+
 
 
 *** 3. The Theory
