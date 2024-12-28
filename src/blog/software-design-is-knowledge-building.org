@@ -43,7 +43,14 @@ Let's reach to the literature to interpret our story.
 
 **** Software Aging
 
-TODO quote initial bit about changed ownership and careless maintenance
+#+begin_quote
+Although it is essential to upgrade software to prevent aging, changing software can cause a different form of aging. The designer of a piece of software usually had a simple concept in mind when writing the program. If the program is large, understanding that concept allows one to find those sections of the program that must be altered when an update or correction is needed. Understanding that concept also implies understanding the interfaces used within the
+system and between the system and its environment.
+
+Changes are made by people who do not understand the original design concept almost always cause the structure of the program to degrade. Under those circumstances, changes will be inconsistent with the original concept; in fact, they will invalidate the original concept. Sometimes the damage is small, but often it is quite severe. After those changes, one must know both the original design rules, and the newly introduced exceptions to the rules, to understand the product. After many such changes, the original designers no longer understand the product. Those who
+made the changes, never did. In other words, nobody understands the modified product. Software that has been repeatedly modified (maintained) in this way becomes very expensive to update. Changes take longer and are more likely to introduce new “bugs”. Change induced aging is often exacerbated by the fact that the maintainers feel that they do not have time to update the documentation. The documentation becomes increasingly inaccurate thereby making
+future changes even more difficult.
+#+end_quote
 
 **** Programming as Theory Building
 
@@ -120,7 +127,7 @@ be regarded as a responsible developer and manager of the activity in which the 
 #+end_quote
 
 - ~SVC~ deteriorated when X_{10} left the project, and then again when they left ~ORG~.
-- thinking that just hadning it over to another team was a consequence of assuming that a system is an asset, a bunch of code and some data running in a server, and programmers more or less interchangeable operators.
+- thinking that just handing it over to another team was a consequence of assuming that a system is an asset, a bunch of code and some data running in a server, and programmers more or less interchangeable operators.
 - but code is a liability; the real asset was the context that X_{10} took with them
 - in naur's terms, the system, while still operational, was dead as soon as no one with a theory of the system was capable of explaining it,
 
@@ -137,16 +144,16 @@ For our software to be understood or changed, it must be explained; we must tell
 
 **** A Philosophy of Software Design
 [TODO revisit book]
+[maybe move to the conclusion]
 
 <a more conventional take on software design is that of the management and reducing of complexity [link] post. My personal favorite formulation is in John Ousterhout's book[link]. If we note that complexity often manifests as cognitive load [link], obscurity and unknown unkowns, it's fair to say that the knowledge building model is compatible, if not equivalent to that of complexity reduction.
 
 
 
-*** 4. Conclusion
+*** 4. A Postscript
 
 <It's true that reviving a project is very hard, but I disagree with Naur in that it's impossible. And I especially disagree in that the new owners are always more likely to succeed by rewriting it from scratch.
-<I also think that we can make a difference if we approach our work right, we can leave the right crumbs for the people who will need to take a project out of its coma
-- in the style of the code and structure of the system, but also in its paratext: the comments, docstrings, READMEs, PR descriptions, commit messages, jira tickets, and confluence pages.
+<I also think that we can make a difference if we approach our work right, we can leave the right crumbs for the people who will need to take a project out of its coma: in the style of the code and the structure of the system, but also in its paratexts: the comments, docstrings, READMEs, PR descriptions, commit messages, jira tickets, and confluence pages.
 
 The story above a too perfect match to Naur's theory, but I suspect that we can benefit from accepting it as a general rule, in the same vein of treating any system as a legacy system: the ultimate goal of software design is to build knowledge.
 
