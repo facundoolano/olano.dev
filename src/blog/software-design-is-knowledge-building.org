@@ -39,9 +39,9 @@ Members of ~TEAM~ and ~TEAM++~ don't have the elements to build a satisfactory m
 
 *** 3. The Theory
 
-Let's reach to the literature to interpret our story.
+Underlying the decision to move X_{10} out of the project once the system was operational is the common misconception that software development consists in producing code, and that programmers are interchangeable operators of varying qualities[fn:1].
 
-**** Software Aging
+In his [[https://dl.acm.org/doi/pdf/10.5555/257734.257788][/Software Aging/]] paper, David Parnas warns against putting software in the hands of developers that didn't participate in (and don't understand) its original design:
 
 #+begin_quote
 Although it is essential to upgrade software to prevent aging, changing software can cause a different form of aging. The designer of a piece of software usually had a simple concept in mind when writing the program. If the program is large, understanding that concept allows one to find those sections of the program that must be altered when an update or correction is needed. Understanding that concept also implies understanding the interfaces used within the
@@ -52,7 +52,9 @@ made the changes, never did. In other words, nobody understands the modified pro
 future changes even more difficult.
 #+end_quote
 
-**** Programming as Theory Building
+~TEAM~ and ~TEAM++~ where bound to make what Parnas calls "ignorant surgery", the system degrading over time. But that doesn't quite explain why they were immediately helpless when they took over the project. I find a more fitting description in Peter Naur's [[https://pages.cs.wisc.edu/~remzi/Naur.pdf][/Programming as Theory Building/]]:
+
+TODO select more appropriate quotes
 
 #+begin_quote
 programming properly should be regarded as an activity by which the programmers form or achieve a certain kind of insight, a theory, of the matters at hand. This suggestion is in contrast to what appears to be a more common notion, that programming should be regarded as a production of a program and certain other texts.
@@ -88,47 +90,16 @@ that theory, perhaps having the character of unintegrated patches on the main pa
 #+end_quote
 
 #+begin_quote
-The building of the
-program is the same as the building of the
-theory of it by and in the team of program-
-mers. During the program life a program-
-mer team possessing its theory remains in
-The building of the
-program is the same as the building of the
-theory of it by and in the team of program-
-mers. During the program life a program-
-mer team possessing its theory remains in
-active control of the program, and in par-
-ticular retains control over all modifica-
-tions. The death of a program happens
-when the programmer team possessing its
-theory is dissolved. A dead program may
-continue to be used for execution in a com-
-puter and to produce useful results. The
-actual state of death becomes visible when
-demands for modifications of the program
-cannot be intelligently answered. Revival
-of a program is the rebuilding of its theory
-by a new programmer team.
+The building of the program is the same as the building of the theory of it by and in the team of programmers. During the program life a programmer team possessing its theory remains in active control of the program, and in particular retains control over all modifications. The death of a program happens when the programmer team possessing its theory is dissolved. A dead program may continue to be used for execution in a computer and to produce useful results. The
+actual state of death becomes visible when demands for modifications of the program cannot be intelligently answered. Revival of a program is the rebuilding of its theory by a new programmer team.
 #+end_quote
 
 #+begin_quote
-A very important consequence of the
-Theory Building View is that program
-revival, that is reestablishing the theory of
-a program merely from the documentation, is strictly impossible.
-(...) The point is that building a theory to fit and support an existing program text is a difficult, frustrating, and time consuming activity. The new programmer is likely to feel torn between loyalty to the existing program text, with whatever obscurities and weaknesses it may contain, and the new theory that he or she has to build up, and which, for better or worse, most likely will differ from the original theory
-behind the program text.
-#+end_quote
-
-#+begin_quote
-much current discussion of programming seems to assume that programming is similar to industrial production, the programmer being regarded as a component of that production, a component that has to be controlled by rules of procedure and which can be replaced easily. Another related view is that human beings perform best if they act like machines, by following rules, with a consequent stress on formal modes of expression, which make it possible to formulate certain arguments in terms of rules of formal manipulation. Such views agree well with the notion, seemingly common among persons working with computers, that the human mind works like a computer. At the level of industrial management these views support treating programmers as workers of fairly low responsibility, and only brief education. On the Theory Building View the primary result of the programming activity is the theory held by the programmers. Since this theory by its very nature is part of the mental possession of each programmer, it follows that the notion of the programmer as an easily replaceable component in the program production activity has to be abandoned. Instead the programmer must
-be regarded as a responsible developer and manager of the activity in which the computer is a part.
+A very important consequence of the Theory Building View is that program revival, that is reestablishing the theory of
+a program merely from the documentation, is strictly impossible. (...) The point is that building a theory to fit and support an existing program text is a difficult, frustrating, and time consuming activity. The new programmer is likely to feel torn between loyalty to the existing program text, with whatever obscurities and weaknesses it may contain, and the new theory that he or she has to build up, and which, for better or worse, most likely will differ from the original theory behind the program text.
 #+end_quote
 
 - ~SVC~ deteriorated when X_{10} left the project, and then again when they left ~ORG~.
-- thinking that just handing it over to another team was a consequence of assuming that a system is an asset, a bunch of code and some data running in a server, and programmers more or less interchangeable operators.
-- but code is a liability; the real asset was the context that X_{10} took with them
 - in naur's terms, the system, while still operational, was dead as soon as no one with a theory of the system was capable of explaining it,
 
 **** Explaining Software
@@ -148,8 +119,6 @@ For our software to be understood or changed, it must be explained; we must tell
 
 <a more conventional take on software design is that of the management and reducing of complexity [link] post. My personal favorite formulation is in John Ousterhout's book[link]. If we note that complexity often manifests as cognitive load [link], obscurity and unknown unkowns, it's fair to say that the knowledge building model is compatible, if not equivalent to that of complexity reduction.
 
-
-
 *** 4. A Postscript
 
 <It's true that reviving a project is very hard, but I disagree with Naur in that it's impossible. And I especially disagree in that the new owners are always more likely to succeed by rewriting it from scratch.
@@ -158,3 +127,6 @@ For our software to be understood or changed, it must be explained; we must tell
 The story above a too perfect match to Naur's theory, but I suspect that we can benefit from accepting it as a general rule, in the same vein of treating any system as a legacy system: the ultimate goal of software design is to build knowledge.
 
 This idea, complementary to the goal of complexity reduction, can offer an interesting perspective to our everyday activities. So the next time you choose a name, or factor a project, or ponder whether to write or omit a certain comment, instead of thinking in terms of the burden to the future maintainers of the artifact, think: how much will this decision affect---how much will it help or hinder---their building of a mental model of the system, of the business, of the world.
+
+*** Notes
+[fn:1] A misconception similarly made by those who intend to replace programmers with statistical models.
