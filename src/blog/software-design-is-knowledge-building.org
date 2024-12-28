@@ -9,13 +9,25 @@ draft: true
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-** 1. Background
+** 1. The Story
 
-** 2. The Story
+This is the story of system ~SVC~ from company ~ORG~. It's a true story. I've smoothed out some of the details; by making it more generic, I believe it will sound familiar.
 
-** 3. Discussion
+1. ~ORG~ relies on an integration service, ~SaaS~, to separate their business-related systems from vendor software dealing with billing, analytics, customer management, etc.
+2. At some point, ~ORG~ shifts from /assume we have infinite budget/ mode to /we need to break even next year or we'll die/.
+3. Some dutiful analyst notices that ~ORG~ spends an egregious amount of money in seemingly innocuous middleware ~SaaS~.
+4. Some dutiful executive figures that, since they are already spending a lot of money to pay their software engineers, they should be able to replace ~SaaS~ with an in-house built system, to be called ~SVC~.
+5. Some dutiful manager tasks X_{10}, one of ~ORG~ ’s finest engineers, with the job of building ~SVC~. X_{10} will be working alone and on a tight schedule, as the executive wants to get rid of ~SaaS~ before the next billing cycle kicks in.
+6. X_{10} gets the job done in time, as everyone in ~ORG~ has come to expect from them. With ~SVC~ working and ~SaaS~ out of the way, X_{10} moves on to more important---or more pressing---matters. ~TeamB~ takes over ownership of the system. For all intents and purposes, ~SVC~ is /done/, they only need to keep the lights on.
+7. Requirements change, some assumption is proven wrong, or some unknown unknown is uncovered. A dutiful product owner realizes the business now demands some changes to ~SVC~, so they assign some ~TeamB~ cycles to work on it.
+8. ~TeamB~ fails miserably to deliver. They don't seem to know what they are doing, taking forever to apply the smallest changes, always side-tracked by production firefighting.
+9. ~TeamB~ is, uh, /restructured/ into ~TeamA~, of slightly higher average seniority. ~TeamA~ takes over work on ~SVC~.
+10. ~TeamB~ fails miserably to deliver. They don't seem to know what they are doing, taking forever to apply the smallest changes, always side-tracked by production firefighting.
 
-** 4. Readings
+
+
+
+** quotes
 *** Programming as Theory Building
 
 #+begin_quote
@@ -97,15 +109,7 @@ Software development can be reduced to a single, iterative action. Almost everyt
 #+end_quote
 
 #+begin_quote
-As software designers, our goal is to reduce complexity. We want our software to be easier to understand, and easier to change.
-
-These are not distinct concerns. For our software to be understood or changed, it must be explained; we must tell a story about what our software is, and what it's expected to become. When understanding software, we tell that story to ourselves. When changing software, we tell that story to others. Software which is complex takes a long time to explain.
-#+end_quote
-
-#+begin_quote
-Design often occurs around our code, rather than within it. A README is software design. Onboarding is software design. Code review is software design. Answering a question is software design.
-
-In literary theory, these external documents and discussions are called paratexts. These paratexts "surround, shape, support, and provide context for texts. They may alter the meaning of texts, further enhance meaning, or provide challenges to sedimented meanings."
+For our software to be understood or changed, it must be explained; we must tell a story about what our software is, and what it's expected to become. When understanding software, we tell that story to ourselves. When changing software, we tell that story to others. Software which is complex takes a long time to explain.
 #+end_quote
 
 ** 5. Musings
