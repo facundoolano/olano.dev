@@ -101,12 +101,11 @@ For our software to be understood or changed, it must be explained; we must tell
 
 *** 4. Postscript
 
-<It's true that reviving a project is very hard, but I disagree with Naur in that it's impossible. And I especially disagree in that the new owners are always more likely to succeed by rewriting it from scratch.
-<I also think that we can make a difference if we approach our work right, we can leave the right crumbs for the people who will need to take a project out of its coma: in the style of the code and the structure of the system, but also in its paratexts: the comments, docstrings, READMEs, PR descriptions, commit messages, jira tickets, and confluence pages.
+In his paper, Naur suggests that program revival is almost impossible. The program should rather be discarded and the new team given the opportunity to resolve the problem from scratch. With my three decades of hindsight, I tend to disagree. Revival is very hard, yes, but I've seen it happen. Ultimately, it may require that the new team rewrites the original program line by line, but I've seen fresh starts fail more consistently.
 
-The story above a too perfect match to Naur's theory, but I suspect that we can benefit from accepting it as a general rule, in the same vein of treating any system as a legacy system: the ultimate goal of software design is to build knowledge.
+Knowing that program revival is a plausible future need can have powerful consequences on our work. To approach it correctly, we should mind the people that one day will take the project out of its coma: in the style of the code and the structure of the system, but also in its paratexts---comments, docstrings, READMEs, PR descriptions, commit messages, Jira tickets, and Confluence pages.
 
-This idea, complementary to the goal of complexity reduction, can offer an interesting perspective to our everyday activities. So the next time you choose a name, or factor a project, or ponder whether to write or omit a certain comment, instead of thinking in terms of the burden to the future maintainers of the artifact, think: how much will this decision affect---how much will it help or hinder---their building of a mental model of the system, of the business, of the world.
+Granted, my story was an all-too-perfect illustration of Naur's ideas. But I suspect that we could benefit from accepting his theory as a law: the ultimate goal of software design should be (organizational) knowledge building. So the next time you choose a name, or factor a project, or ponder whether to write or omit a certain comment, rather than thinking in terms of the burden on future maintainers, think: how much will this decision affect---how much will it help or hinder---their building of a mental model of the system, of the business, of the world.
 
 *** Notes
 [fn:1] A misconception similarly made by those who intend to replace programmers with statistical models.
