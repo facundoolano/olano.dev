@@ -33,9 +33,16 @@ What is going on with ~SVC~? Did X_{10} do a bad job? By all accounts they did n
 
 But, if X_{10} got the hard part of the job done, how come not one but two (maybe more) teams of competent engineers failed to keep the system running?
 
+What fascinates me about this scenario is how a seemingly functional 6-month old project automatically turns into a haunted forest just by changing hands. Regardless of its age, ~SVC~ is textbook legacy software because, more often than not, a question posed about the system, to any team member, results in the same answer: /we don't know/.
 
+Members of ~TEAM~ and ~TEAM++~ don't have the elements to build a satisfactory mental model of ~SVC~. They need to go by the external stakeholder's interpretation of what the system /should be/, and what the code /actually is/. These views can be disconnected or contradictory. The code may tell the /what/ and the /how/ but often not the /why/. Only X_{10} could tell what was a functional requirement, what a technical necessity, what a whim, what an accident. The team has to resort to reverse-engineering, extrapolating, and guessing.
 
 *** 3. The Theory
+
+Let's reach to the literature to interpret our story.
+
+**** Software Aging
+
 **** Programming as Theory Building
 
 #+begin_quote
@@ -111,6 +118,7 @@ be regarded as a responsible developer and manager of the activity in which the 
 #+end_quote
 
 **** Explaining Software
+Naur stresses the ability to explain the system and its relation to the world as the distinguishing factor of the programming as theory building conception. Zach Tellman's ongoing newsletter (and related book) propose something similar:
 
 #+begin_quote
 Software development can be reduced to a single, iterative action. Almost everything we do in the course of a day — the pull requests, the meetings, the whiteboard diagrams, the hallway conversations — is an explanation. Our job is to explain, over and over, the meaning of our software: what it is, and what we expect it to become.
@@ -120,4 +128,13 @@ Software development can be reduced to a single, iterative action. Almost everyt
 For our software to be understood or changed, it must be explained; we must tell a story about what our software is, and what it's expected to become. When understanding software, we tell that story to ourselves. When changing software, we tell that story to others. Software which is complex takes a long time to explain.
 #+end_quote
 
-*** Conclusion?
+**** A Philosophy of Software Design
+
+
+*** 4. Conclusion
+
+<It's true that reviving a project is very hard, but I disagree with Naur in that it's impossible. And I especially disagree in that the new owners are always more likely to succeed by rewriting it from scratch.
+
+The story above is a perfect match to Naur's theory, but I suspect that we can benefit from accepting it as a general rule, in the same vein of treating any system as a legacy system: the ultimate goal of software design is to build knowledge.
+
+This idea, complementary to the goal of complexity reduction, can offer an interesting perspective to our everyday activities. So the next time you choose a name, or factor a project, or ponder whether to write or omit a certain comment, instead of thinking in terms of the burden to the future maintainers of the artifact, think: how much will this decision affect---how much will it help or hinder---their building of a mental model.
