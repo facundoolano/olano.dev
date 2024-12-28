@@ -54,29 +54,18 @@ future changes even more difficult.
 
 ~TEAM~ and ~TEAM++~ where bound to make what Parnas calls "ignorant surgery", the system degrading over time. But that doesn't quite explain why they were immediately helpless when they took over the project. I find a more fitting description in Peter Naur's [[https://pages.cs.wisc.edu/~remzi/Naur.pdf][/Programming as Theory Building/]]:
 
-TODO select more appropriate quotes
-
-#+begin_quote
-programming properly should be regarded as an activity by which the programmers form or achieve a certain kind of insight, a theory, of the matters at hand. This suggestion is in contrast to what appears to be a more common notion, that programming should be regarded as a production of a program and certain other texts.
-#+end_quote
-
-#+begin_quote
-One way of stating the main point I want to make is that programming in this sense primarily must be the programmers’ building up knowledge of a certain kind, knowledge taken to be basically the programmers’ immediate possession, any documentation being an auxiliary, secondary product.
-#+end_quote
-
 #+begin_quote
 The conclusion seems inescapable that at least with certain kinds of large programs, the continued adaptation, modification, and correction of errors in them, is essentially dependent on a certain kind of
 knowledge possessed by a group of programmers who are closely and continuously connected with them.
 #+end_quote
 
 #+begin_quote
-What characterizes intellectual activity, over and beyond activity that is merely intelligent, is the person’s building and having a theory, where theory is understood as the knowledge a person must have in order not only to do certain things intelligently but also to explain them, to answer queries about them, to
-argue about them, and so forth.
+Programming should be regarded as an activity by which the programmers form or achieve a certain kind of insight, a theory, of the matters at hand. This suggestion is in contrast to what appears to be a more common notion, that programming should be regarded as a production of a program and certain other texts.
 #+end_quote
 
-#+begin_quote
-What has to be built by the programmer is a theory of how certain affairs of the world will be handled by, or supported by, a computer program. On the Theory Building View of programming the theory built by the programmers has primacy over such other products as program texts, user documentation, and additional documentation such as specifications. (...) The programmer’s knowledge transcends that given in documentation in at least three essential areas:
+This theory, the mental model that allows the software designer to map a subset of the world (the domain) to and from the system, and not the system itself, is the primary product of software design:
 
+#+begin_quote
 1) The programmer having the theory of the program can explain how the solution relates to the affairs of the world that it helps to handle. Thus the programmer must be able to explain, for each part of the program text and for each of its overall structural characteristics, what aspect or activity of the world is matched by it. Conversely, for any aspect or activity of the world the programmer is able to state its manner of mapping into the program text.
 
 2) The programmer having the theory of the program can explain why each part of the program is what it is, in other words is able to support the actual program text with a justification of some sort.
@@ -84,27 +73,20 @@ What has to be built by the programmer is a theory of how certain affairs of the
 3) The programmer having the theory of the program is able to respond constructively to any demand for a modification of the program so as to support the affairs of the world in a new manner. Designing how a modification is best incorporated into an established program depends on the perception of the similarity of the new demand with the operational facilities already built into the program. The kind of similarity that has to be perceived is one between aspects of the world.
 #+end_quote
 
-#+begin_quote
-On the basis of the Theory Building View the decay of a program text as a result of modifications made by programmers without a proper grasp of the underlying theory becomes understandable. As a matter of fact, if viewed merely as a change of the program text and of the external behaviour of the execution, a given desired modification may usually be realized in many different ways, all correct. At the same time, if viewed in relation to the theory of the program these ways may look very different, some of them perhaps conforming to that theory or extending it in a natural way, while others may be wholly inconsistent with
-that theory, perhaps having the character of unintegrated patches on the main part of the program. This difference of character of various changes is one that can only make sense to the programmer who possesses the theory of the program. At the same time the character of changes made in a program text is vital to the longer term viability of the program. For a program to retain its quality it is mandatory that each modification is firmly grounded in the theory of it.
-#+end_quote
+~SVC~ deteriorated when X_{10} left the project, and then again when they left ~ORG~. In Naur's terms, the system, while still operational, was dead:
 
 #+begin_quote
 The building of the program is the same as the building of the theory of it by and in the team of programmers. During the program life a programmer team possessing its theory remains in active control of the program, and in particular retains control over all modifications. The death of a program happens when the programmer team possessing its theory is dissolved. A dead program may continue to be used for execution in a computer and to produce useful results. The
 actual state of death becomes visible when demands for modifications of the program cannot be intelligently answered. Revival of a program is the rebuilding of its theory by a new programmer team.
 #+end_quote
 
+Naur defines software design as an intellectual activity, consisting in building and having a theory,
+
 #+begin_quote
-A very important consequence of the Theory Building View is that program revival, that is reestablishing the theory of
-a program merely from the documentation, is strictly impossible. (...) The point is that building a theory to fit and support an existing program text is a difficult, frustrating, and time consuming activity. The new programmer is likely to feel torn between loyalty to the existing program text, with whatever obscurities and weaknesses it may contain, and the new theory that he or she has to build up, and which, for better or worse, most likely will differ from the original theory behind the program text.
+where theory is understood as the knowledge a person must have in order not only to do certain things intelligently but also to explain them, to answer queries about them, to argue about them, and so forth.
 #+end_quote
 
-- ~SVC~ deteriorated when X_{10} left the project, and then again when they left ~ORG~.
-- in naur's terms, the system, while still operational, was dead as soon as no one with a theory of the system was capable of explaining it,
-
-**** Explaining Software
-Naur stresses the ability to explain the system and its relation to the world as the distinguishing factor of the programming as theory building conception. Zach Tellman's ongoing newsletter (and related book) propose something similar:
-
+Compare with the thesis of Zach Tellman's [[https://explaining.software/][ongoing newsletter]]:
 #+begin_quote
 Software development can be reduced to a single, iterative action. Almost everything we do in the course of a day — the pull requests, the meetings, the whiteboard diagrams, the hallway conversations — is an explanation. Our job is to explain, over and over, the meaning of our software: what it is, and what we expect it to become.
 #+end_quote
@@ -113,13 +95,11 @@ Software development can be reduced to a single, iterative action. Almost everyt
 For our software to be understood or changed, it must be explained; we must tell a story about what our software is, and what it's expected to become. When understanding software, we tell that story to ourselves. When changing software, we tell that story to others. Software which is complex takes a long time to explain.
 #+end_quote
 
-**** A Philosophy of Software Design
 [TODO revisit book]
-[maybe move to the conclusion]
 
 <a more conventional take on software design is that of the management and reducing of complexity [link] post. My personal favorite formulation is in John Ousterhout's book[link]. If we note that complexity often manifests as cognitive load [link], obscurity and unknown unkowns, it's fair to say that the knowledge building model is compatible, if not equivalent to that of complexity reduction.
 
-*** 4. A Postscript
+*** 4. Postscript
 
 <It's true that reviving a project is very hard, but I disagree with Naur in that it's impossible. And I especially disagree in that the new owners are always more likely to succeed by rewriting it from scratch.
 <I also think that we can make a difference if we approach our work right, we can leave the right crumbs for the people who will need to take a project out of its coma: in the style of the code and the structure of the system, but also in its paratexts: the comments, docstrings, READMEs, PR descriptions, commit messages, jira tickets, and confluence pages.
