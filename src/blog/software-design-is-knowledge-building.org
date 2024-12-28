@@ -95,9 +95,8 @@ Software development can be reduced to a single, iterative action. Almost everyt
 For our software to be understood or changed, it must be explained; we must tell a story about what our software is, and what it's expected to become. When understanding software, we tell that story to ourselves. When changing software, we tell that story to others. Software which is complex takes a long time to explain.
 #+end_quote
 
-[TODO revisit book]
-
-<a more conventional take on software design is that of the management and reducing of complexity [link] post. My personal favorite formulation is in John Ousterhout's book[link]. If we note that complexity often manifests as cognitive load [link], obscurity and unknown unkowns, it's fair to say that the knowledge building model is compatible, if not equivalent to that of complexity reduction.
+A more conventional way to define the software design activity is in terms of [[a-note-on-essential-complexity][minimizing complexity]].
+If we acknowledge that reducing ambiguity, obscurity, unknown unknowns, and cognitive load---all of them forms of removing complexity---, also make software easier to explain and reason about, then we should conclude that both models are compatible, if not equivalent.
 
 *** 4. Postscript
 
