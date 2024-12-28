@@ -14,57 +14,54 @@ excerpt: "The product of software development is not code but a mental model, a 
 
 This is the story of system ~SVC~ from company ~ORG~. It's a true story. I've smoothed out the details: by making it more generic, I believe it will become more familiar.
 
-1. ~ORG~ relies on an integration service, ~SaaS~, to separate their business-related systems from vendor software dealing with billing, analytics, customer management, etc.
+1. ~ORG~ relies on an integration service, ~SaaS~, to separate their business logic from vendor software dealing with billing, analytics, customer management, etc.
 2. At some point, ~ORG~ shifts from /assume we have infinite budget/ mode to /we need to break even next year or we'll die/.
 3. Some dutiful analyst notices that ~ORG~ spends an egregious amount of money in seemingly innocuous middleware ~SaaS~.
-4. Some dutiful executive figures that, since they are already spending a lot of money to pay their software engineers, they should be able to replace ~SaaS~ with an in-house built system, to be called ~SVC~.
+4. Some dutiful executive figures that, since they are already spending a lot of money on software engineers, they should be able to replace ~SaaS~ with an in-house built system, to be called ~SVC~.
 5. Some dutiful manager tasks X_{10}, one of ~ORG~ ’s finest engineers, with the job of building ~SVC~. X_{10} will be working alone and on a tight schedule, as the executive wants to get rid of ~SaaS~ before the next billing cycle kicks in.
 6. X_{10} gets the job done in time, as everyone in ~ORG~ has come to expect from them. With ~SVC~ working and ~SaaS~ out of the way, X_{10} moves on to more important---or more pressing---matters. ~TEAM~ takes over ownership of the system. For all intents and purposes, ~SVC~ is /done/, they only need to keep the lights on.
 7. After a few more successful projects, X_{10} leaves the company.
-8. Requirements change, some assumption is proven wrong, or some unknown unknown is uncovered. A dutiful product owner realizes the business now demands some changes to ~SVC~, so they assign some ~TEAM~ cycles to work on it.
-9. ~TEAM~ fails miserably to deliver. They don't seem to know what they are doing, taking forever to apply the smallest changes, always side-tracked by production outages.
+8. Requirements change, some assumption is proven wrong, or some unknown unknown is uncovered. A dutiful product owner realizes that the business now demands some changes to ~SVC~, so they write down some tickets for ~TEAM~ to work on.
+9. ~TEAM~ fails miserably to deliver. They don't seem to know what they are doing, taking forever to apply the smallest changes, always side-tracked by bugs and production outages.
 10. ~TEAM~ is, uh, /restructured/ into ~TEAM++~, of higher average seniority. ~TEAM++~ takes over work on ~SVC~.
-11. ~TEAM++~ fails miserably to deliver. They don't seem to know what they are doing, taking forever to apply the smallest changes, always side-tracked by production outages.
+11. ~TEAM++~ fails miserably to deliver. They don't seem to know what they are doing, taking forever to apply the smallest changes, always side-tracked by bugs and production outages.
 
 This entire process takes less than a year.
 
 *** 2. Commentary
 
-What is going on with ~SVC~? Did X_{10} do a bad job? By all accounts they did not. The project was done in time, according to specification. Thanks to it, ~ORG~ will save a lot of money. X_{10} followed good practices too, good test coverage, no over-engineering. Surely they cut some corners; they didn't think twice about the design of the system. As with any project, there's a lot of room for improvement, but nothing that a team of competent engineers couldn't handle.
+What is going on with ~SVC~? Did X_{10} do a bad job? By all accounts they did not. The project was done in time, according to specification. Thanks to it, ~ORG~ will save a lot of money next year. X_{10} followed good practices, too, good test coverage, no over-engineering. Surely they cut some corners; they didn't think twice about the design of the system. As with any project, there's a lot of room for improvement, but nothing that a team of competent engineers couldn't handle. But, if X_{10} got the hard part of the job done, how come not one but two (maybe more) teams of competent engineers failed to apply a few small changes to the system?
 
-But, if X_{10} got the hard part of the job done, how come not one but two (maybe more) teams of competent engineers failed to keep the system running?
+What fascinates me about this scenario is how a seemingly functional 6-month old project automatically turns into a haunted forest just by changing hands. Regardless of its age, ~SVC~ is textbook legacy software because, more often than not, a question posed about the system, to any team member, results in the same answer: /I don't know/.
 
-What fascinates me about this scenario is how a seemingly functional 6-month old project automatically turns into a haunted forest just by changing hands. Regardless of its age, ~SVC~ is textbook legacy software because, more often than not, a question posed about the system, to any team member, results in the same answer: /we don't know/.
-
-Members of ~TEAM~ and ~TEAM++~ don't have the elements to build a satisfactory mental model of ~SVC~. They need to go by the external stakeholder's interpretation of what the system /should be/, and what the code /actually is/. These views can be disconnected or contradictory. The code may tell the /what/ and the /how/ but often not the /why/. Only X_{10} could tell what was a functional requirement, what a technical necessity, what a whim, what an accident. The team has to resort to reverse-engineering, extrapolating, and guessing.
+Members of ~TEAM~ and ~TEAM++~ don't have enough elements to build a satisfactory mental model of ~SVC~. They need to go by a mix of the customer's interpretation of what the system /should be/, and what they can tell from the code that the system /actually is/. These views can be disconnected and contradictory. The code may tell the /what/ and the /how/ but often not the /why/. Only X_{10} could say what is a functional requirement, what a technical necessity, what a whim, what an accident. The team has to resort to reverse-engineering, extrapolating, and guessing.
 
 *** 3. The Theory
 
-Underlying the decision to move X_{10} out of the project once the system was operational is the common misconception that software development consists in producing code, and that programmers are interchangeable operators of varying qualities[fn:1].
+Underlying the decision to move X_{10} out of the project once the system was operational was the common misconception that software development consists of producing code; that, given functional code, programmers are interchangeable operators of varying qualities[fn:1].
 
-In his [[https://dl.acm.org/doi/pdf/10.5555/257734.257788][/Software Aging/]] paper, David Parnas warns against putting software in the hands of developers that didn't participate in (and don't understand) its original design:
+In his [[https://dl.acm.org/doi/pdf/10.5555/257734.257788][/Software Aging/]] paper, David Parnas warns against putting software in the hands of developers that haven't contributed to (and thus don't understand) its design:
 
 #+begin_quote
 Although it is essential to upgrade software to prevent aging, changing software can cause a different form of aging. The designer of a piece of software usually had a simple concept in mind when writing the program. If the program is large, understanding that concept allows one to find those sections of the program that must be altered when an update or correction is needed. Understanding that concept also implies understanding the interfaces used within the
 system and between the system and its environment.
 
-Changes are made by people who do not understand the original design concept almost always cause the structure of the program to degrade. Under those circumstances, changes will be inconsistent with the original concept; in fact, they will invalidate the original concept. Sometimes the damage is small, but often it is quite severe. After those changes, one must know both the original design rules, and the newly introduced exceptions to the rules, to understand the product. After many such changes, the original designers no longer understand the product. Those who
+Changes made by people who do not understand the original design concept almost always cause the structure of the program to degrade. Under those circumstances, changes will be inconsistent with the original concept; in fact, they will invalidate the original concept. Sometimes the damage is small, but often it is quite severe. After those changes, one must know both the original design rules, and the newly introduced exceptions to the rules, to understand the product. After many such changes, the original designers no longer understand the product. Those who
 made the changes, never did. In other words, nobody understands the modified product. Software that has been repeatedly modified (maintained) in this way becomes very expensive to update. Changes take longer and are more likely to introduce new “bugs”. Change induced aging is often exacerbated by the fact that the maintainers feel that they do not have time to update the documentation. The documentation becomes increasingly inaccurate thereby making
 future changes even more difficult.
 #+end_quote
 
-~TEAM~ and ~TEAM++~ where bound to make what Parnas calls "ignorant surgery", the system degrading over time. But that doesn't quite explain why they were immediately helpless when they took over the project. I find a more fitting description in Peter Naur's [[https://pages.cs.wisc.edu/~remzi/Naur.pdf][/Programming as Theory Building/]]:
+~TEAM~ and ~TEAM++~ where bound to make what Parnas calls "ignorant surgery", the system degrading over time. But that doesn't quite explain why they were immediately helpless as they took over the project. I find a better characterization in Peter Naur's [[https://pages.cs.wisc.edu/~remzi/Naur.pdf][/Programming as Theory Building/]]:
 
 #+begin_quote
-The conclusion seems inescapable that at least with certain kinds of large programs, the continued adaptation, modification, and correction of errors in them, is essentially dependent on a certain kind of
-knowledge possessed by a group of programmers who are closely and continuously connected with them.
+At least with certain kinds of large programs, the continued adaptation, modification, and correction of errors in them, is essentially dependent on a certain kind of knowledge possessed by a group of programmers who are closely and continuously connected with them.
 #+end_quote
 
 #+begin_quote
 Programming should be regarded as an activity by which the programmers form or achieve a certain kind of insight, a theory, of the matters at hand. This suggestion is in contrast to what appears to be a more common notion, that programming should be regarded as a production of a program and certain other texts.
 #+end_quote
 
-This theory, the mental model that allows the software designer to map a subset of the world (the domain) to and from the system, and not the system itself, is the primary product of software design:
+In this view, the mental model that allows the software designer to map a subset of the world (the domain) to and from the system, and not the system itself, is the primary product of software design:
 
 #+begin_quote
 1) The programmer having the theory of the program can explain how the solution relates to the affairs of the world that it helps to handle. Thus the programmer must be able to explain, for each part of the program text and for each of its overall structural characteristics, what aspect or activity of the world is matched by it. Conversely, for any aspect or activity of the world the programmer is able to state its manner of mapping into the program text.
@@ -74,17 +71,17 @@ This theory, the mental model that allows the software designer to map a subset 
 3) The programmer having the theory of the program is able to respond constructively to any demand for a modification of the program so as to support the affairs of the world in a new manner. Designing how a modification is best incorporated into an established program depends on the perception of the similarity of the new demand with the operational facilities already built into the program. The kind of similarity that has to be perceived is one between aspects of the world.
 #+end_quote
 
-~SVC~ deteriorated when X_{10} left the project, and then again when they left ~ORG~. In Naur's terms, the system, while still operational, was dead:
+This explains why ~TEAM~ couldn't take ownership of ~SVC~. When X_{10} left the project, the system deteriorated. And, in Naur's terms, when X_{10} left ~ORG~, the system, while still operational, was dead:
 
 #+begin_quote
-The building of the program is the same as the building of the theory of it by and in the team of programmers. During the program life a programmer team possessing its theory remains in active control of the program, and in particular retains control over all modifications. The death of a program happens when the programmer team possessing its theory is dissolved. A dead program may continue to be used for execution in a computer and to produce useful results. The
+The building of the program is the same as the building of the theory of it by the team of programmers. During the program life a programmer team possessing its theory remains in active control of the program, and in particular retains control over all modifications. The death of a program happens when the programmer team possessing its theory is dissolved. A dead program may continue to be used for execution in a computer and to produce useful results. The
 actual state of death becomes visible when demands for modifications of the program cannot be intelligently answered. Revival of a program is the rebuilding of its theory by a new programmer team.
 #+end_quote
 
-Naur defines software design as an intellectual activity, consisting in building and having a theory,
+Naur defines software design as an intellectual activity, consisting in building and having a theory, where theory is understood as:
 
 #+begin_quote
-where theory is understood as the knowledge a person must have in order not only to do certain things intelligently but also to explain them, to answer queries about them, to argue about them, and so forth.
+ the knowledge a person must have in order not only to do certain things intelligently but also to explain them, to answer queries about them, to argue about them, and so forth.
 #+end_quote
 
 Compare with the thesis of Zach Tellman's [[https://explaining.software/][ongoing newsletter]]:
@@ -97,15 +94,17 @@ For our software to be understood or changed, it must be explained; we must tell
 #+end_quote
 
 A more conventional way to define the software design activity is in terms of [[a-note-on-essential-complexity][minimizing complexity]].
-If we acknowledge that reducing ambiguity, obscurity, unknown unknowns, and cognitive load---all of them forms of removing complexity---, also make software easier to explain and reason about, then we should conclude that both models are compatible, if not equivalent.
+If we acknowledge that reducing ambiguity, obscurity, unknown unknowns, and cognitive load---all of them forms of removing complexity---make software easier to explain and reason about, then we should conclude that both models are compatible, if not equivalent.
 
 *** 4. Postscript
 
-In his paper, Naur suggests that program revival is almost impossible. The program should rather be discarded and the new team given the opportunity to resolve the problem from scratch. With my three decades of hindsight, I tend to disagree. Revival is very hard, yes, but I've seen it happen. Ultimately, it may require that the new team rewrites the original program line by line, but I've seen fresh starts fail more consistently.
+In his paper, Naur suggests that program revival is almost impossible. The program should rather be discarded and the new team given the opportunity to resolve the problem from scratch. With three extra decades of hindsight, I tend to disagree. Revival is very hard, yes, but I've seen it happen. Ultimately, it may require that the new team rewrites every line of the original, one at a time. But I've seen fresh starts fail more consistently than that.
 
-Knowing that program revival is a plausible future need can have powerful consequences on our work. To approach it correctly, we should mind the people that one day will take the project out of its coma: in the style of the code and the structure of the system, but also in its paratexts---comments, docstrings, READMEs, PR descriptions, commit messages, Jira tickets, and Confluence pages.
+Knowing that revival is a plausible future need has powerful consequences on our work. To approach it correctly, we should mind the people that one day will have to take the project out of its coma: in the style of the code and the structure of the system, but also in its paratexts---comments, docstrings, READMEs, Pull Requests, commit messages, Jira tickets, and Confluence pages.
 
-Granted, my story was an all-too-perfect illustration of Naur's ideas. But I suspect that we could benefit from accepting his theory as a law: the ultimate goal of software design should be (organizational) knowledge building. So the next time you choose a name, or factor a project, or ponder whether to write or omit a certain comment, rather than thinking in terms of the burden on future maintainers, think: how much will this decision affect---how much will it help or hinder---their building of a mental model of the system, of the business, of the world.
+Granted, my story was an all-too-perfect illustration of Naur's ideas. But I suspect that we could benefit from accepting his theory as a law: the ultimate goal of software design should be (organizational) knowledge building.
+
+So the next time you choose a name, or structure a project, or ponder whether to write or omit a certain comment, rather than thinking in terms of the burden on future maintainers, think: how much will this decision affect---how much will it help or hinder---their building of a mental model of the system, of the business, of the world.
 
 *** Notes
 [fn:1] A misconception similarly made by those who intend to replace programmers with statistical models.
