@@ -1,17 +1,18 @@
 ---
 title: Software Design is Knowledge Building
-date: 2024-12-26
+date: 2024-12-30
 layout: post
 lang: en
 tags: [software]
 draft: true
+excerpt: "The product of software development is not code but a mental model, a theory: a specific way of explaining the world."
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
 *** 1. The Story
 
-This is the story of system ~SVC~ from company ~ORG~. It's a true story. I've smoothed out the details: by making it more generic, I believe it will become familiar.
+This is the story of system ~SVC~ from company ~ORG~. It's a true story. I've smoothed out the details: by making it more generic, I believe it will become more familiar.
 
 1. ~ORG~ relies on an integration service, ~SaaS~, to separate their business-related systems from vendor software dealing with billing, analytics, customer management, etc.
 2. At some point, ~ORG~ shifts from /assume we have infinite budget/ mode to /we need to break even next year or we'll die/.
