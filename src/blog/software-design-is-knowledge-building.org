@@ -20,7 +20,7 @@ This is the story of system ~SVC~ from company ~ORG~. It's a true story, but I'v
 4. Some dutiful executive figures that, seeing as they already spend a lot of money on software engineers, they should be able to replace ~SaaS~ with a system built in-house, to be called ~SVC~.
 5. Some dutiful manager tasks X_{10}, one of ~ORG~ ’s finest engineers, with the job of building ~SVC~. X_{10} will be working alone and on a tight schedule, as the executive wants to get rid of ~SaaS~ before the next billing cycle kicks in.
 6. X_{10} gets the job done in time, as everyone in ~ORG~ has come to expect from her. With ~SVC~ working and ~SaaS~ out of the way, X_{10} moves on to more important---or more pressing---matters and, eventually, leaves ~ORG~.
-7. ~TEAM~ takes over ownership of the system. For all intents and purposes, ~SVC~ is /done/, they only need to keep the lights on.
+7. ~TEAM~ takes over ownership of ~SVC~. For all intents and purposes, development is /done/, they only need to keep the lights on.
 9. Requirements change, assumptions are proven wrong, unknown unknowns are uncovered. A dutiful product owner realizes that the business now demands changes to ~SVC~, so he writes down some tickets for ~TEAM~ to work on.
 10. ~TEAM~ fails miserably to deliver. They don't seem to know what they are doing, taking forever to apply the smallest changes, always side-tracked by bugs and production outages.
 11. ~TEAM~ is, uh, /restructured/ into ~TEAM++~, of higher average seniority, and continues working on ~SVC~.
@@ -80,11 +80,11 @@ Naur defines software design as an intellectual activity, consisting of building
 Notice the similarity to Zach Tellman's thesis in his [[https://explaining.software/][ongoing newsletter]]:
 
 #+begin_quote
-Software development can be reduced to a single, iterative action. Almost everything we do in the course of a day — the pull requests, the meetings, the whiteboard diagrams, the hallway conversations — is an explanation. Our job is to explain, over and over, the meaning of our software: what it is, and what we expect it to become.
+Software development can be reduced to a single, iterative action. Almost everything we do in the course of a day — the pull requests, the meetings, the whiteboard diagrams, the hallway conversations — is an explanation. Our job is to explain, over and over, the meaning of our software.
 #+end_quote
 
 #+begin_quote
-For our software to be understood or changed, it must be explained; we must tell a story about what our software is, and what it's expected to become. When understanding software, we tell that story to ourselves. When changing software, we tell that story to others. Software which is complex takes a long time to explain.
+We must tell a story about what our software is, and what it's expected to become. When understanding software, we tell that story to ourselves. When changing software, we tell that story to others. Software which is complex takes a long time to explain.
 #+end_quote
 
 A more conventional way to define the software design activity is in terms of [[a-note-on-essential-complexity][minimizing complexity]].
@@ -99,7 +99,7 @@ The building of the program is the same as the building of the theory of it by t
 actual state of death becomes visible when demands for modifications of the program cannot be intelligently answered. Revival of a program is the rebuilding of its theory by a new programmer team.
 #+end_quote
 
-~TEAM~ ’s duty, then, is to revive the system by building a new theory for it. But reconstructing the model of the system, while keeping it operational, is a slow and difficult process, hard to sell to an organization convinced that development has just finished. Naur goes as far as saying that program revival, from code and documentation alone, is impossible. The program should preferably be discarded, and the new team should be given the opportunity to resolve the problem from scratch.
+~TEAM~ ’s duty, then, is to revive the system by building a new theory of it. But reconstructing the model while keeping the system operational is a slow and difficult process---a hard sell for an organization convinced that development has just finished. Naur goes as far as saying that program revival, from code and documentation alone, is impossible. The program should preferably be discarded, and the new team should be given the opportunity to resolve the problem from scratch.
 
 With three extra decades of hindsight, I tend to disagree. Revival is very hard, yes, but I've seen it happen. It may require that the new team ultimately rewrite every line of the original, one at a time. And I've seen fresh starts fail more consistently than that[fn:2].
 
