@@ -101,7 +101,7 @@ actual state of death becomes visible when demands for modifications of the prog
 
 ~TEAM~ ’s duty, then, is to revive the system by building a new theory for it. But reconstructing the model of the system, while keeping it operational, is a slow and difficult process, hard to sell to an organization convinced that development has just finished. Naur goes as far as saying that program revival, from code and documentation alone, is impossible. The program should preferably be discarded, and the new team should be given the opportunity to resolve the problem from scratch.
 
-With three extra decades of hindsight, I tend to disagree. Revival is very hard, yes, but I've seen it happen. It may require that the new team ultimately rewrite every line of the original, one at a time. But I've seen fresh starts fail more consistently than that.
+With three extra decades of hindsight, I tend to disagree. Revival is very hard, yes, but I've seen it happen. It may require that the new team ultimately rewrite every line of the original, one at a time. And I've seen fresh starts fail more consistently than that[fn:2].
 
 Knowing that revival is a plausible future need has powerful consequences for our work. To approach it correctly, we should mind the people that one day will have to take the project out of its coma: in the style of the code and the structure of the system, but also in its paratexts---comments, docstrings, READMEs, Pull Requests, commit messages, Jira tickets, and Confluence pages.
 
@@ -111,3 +111,5 @@ So the next time you choose a name, or structure a project, or ponder whether to
 
 *** Notes
 [fn:1] A misconception similarly made by those who intend to replace programmers with statistical models.
+
+[fn:2] In my experience, developers advocate for greenfield rewrites to escape the operational annoyances of production systems. They, too, fall in the trap of assuming that clean code is the hard part of software development. Even in the unlikely case that they produce a replacement matching or improving on the original system, they won't stick around to run it in production when development slows down. What is left is another stillborn like ~SVC~.
