@@ -14,10 +14,10 @@ excerpt: "The product of software development is not code but a mental model, a 
 
 This is the story of system ~SVC~ from company ~ORG~. It's a true story, but I've smoothed out the details: by making it generic, I hope that it will be more familiar.
 
-1. ~ORG~ relies on an integration service, ~SaaS~, to decouple their business logic from vendor software dealing with billing, analytics, customer management, etc.
+1. ~ORG~ relies on an integration service, ~SaaS~, to decouple its business logic from vendor software dealing with billing, analytics, customer management, etc.
 2. ~ORG~ shifts from /assume we have infinite budget/ mode to /we need to break even next year or we'll die/.
-3. Some dutiful analyst notices that ~ORG~ spends an egregious amount of money in seemingly innocuous middleware ~SaaS~.
-4. Some dutiful executive figures that, since they are already spending a lot of money on software engineers, they should be able to replace ~SaaS~ with a system built in-house, to be called ~SVC~.
+3. Some dutiful analyst notices that ~ORG~ spends an egregious amount of money on seemingly innocuous middleware ~SaaS~.
+4. Some dutiful executive figures that, seeing as they already spend a lot of money on software engineers, they should be able to replace ~SaaS~ with a system built in-house, to be called ~SVC~.
 5. Some dutiful manager tasks X_{10}, one of ~ORG~ ’s finest engineers, with the job of building ~SVC~. X_{10} will be working alone and on a tight schedule, as the executive wants to get rid of ~SaaS~ before the next billing cycle kicks in.
 6. X_{10} gets the job done in time, as everyone in ~ORG~ has come to expect from her. With ~SVC~ working and ~SaaS~ out of the way, X_{10} moves on to more important---or more pressing---matters and, eventually, leaves ~ORG~.
 7. ~TEAM~ takes over ownership of the system. For all intents and purposes, ~SVC~ is /done/, they only need to keep the lights on.
@@ -30,17 +30,17 @@ This entire process takes less than a year.
 
 *** 2. Commentary
 
-What is going on with ~SVC~? Did X_{10} do a bad job? By all accounts she did not. The project was finished on time, according to specification; ~ORG~ will save a lot of money next year. X_{10} followed best practices, too: good test coverage, no over-engineering. Surely she cut some corners; she didn't think twice about the design of the system. As in any project, there's a lot of room for improvement, but nothing that a team of competent engineers couldn't handle. But, if X_{10} got the hard part of the job done, how come not one but many teams of competent engineers fail to apply a few small changes to the system?
+What is going on with ~SVC~? Did X_{10} do a bad job? By all accounts, she did not. The project was finished on time, according to specifications; ~ORG~ will save a lot of money next year. X_{10} followed best practices, too: good test coverage, no over-engineering. Surely she cut some corners; she didn't think twice about the design of the system. As in any project, there's a lot of room for improvement, but nothing that a team of competent engineers couldn't handle. But, if X_{10} got the hard part of the job done, how come not one but many teams of competent engineers fail to apply a few small changes to the system?
 
-What fascinates me about this scenario is how a seemingly functional 6-month old project automatically turns into a haunted forest just by changing hands. Regardless of its age, ~SVC~ is textbook legacy software because, more often than not, a question posed about the system, to any team member, results in the same answer: /I don't know/.
+What fascinates me about this scenario is how a seemingly functional 6-month-old project automatically turns into a haunted forest just by changing hands. Regardless of its age, ~SVC~ is textbook legacy software because, more often than not, a question posed about the system, to any team member, results in the same answer: /I don't know/.
 
-The problem is that ~TEAM~ members don't have enough elements to build a satisfactory mental model of ~SVC~. They need to go by a mix of the client's interpretation of what the system /should be/, and what they can tell from the code that the system /actually is/. These views can be disconnected and contradictory. The code may tell the /what/ and the /how/, but it doesn't tell the /why/. Only X_{10} could say what was a functional requirement, what a technical necessity, what a whim, what an accident. The team has to resort to reverse-engineering, extrapolating, and guessing.
+The problem is that ~TEAM~ members don't have enough elements to build a satisfactory mental model of ~SVC~. They need to go by a mix of the client's interpretation of what the system /should be/, and what they can tell from the code that the system /actually is/. These views can be disconnected and contradictory. The code may tell the /what/ and the /how/, but it doesn't tell the /why/. Only X_{10} could say what was a functional requirement, what a technical necessity, what a whim, what an accident. The team has to resort to reverse engineering, extrapolating, and guessing.
 
 *** 3. The Theory
 
 Underlying the decision to move X_{10} out of the project once the system was operational, is the common misconception that software development consists of producing code; that, once working code exists, programmers should act as interchangeable operators of varying qualities[fn:1].
 
-In his [[https://dl.acm.org/doi/pdf/10.5555/257734.257788][/Software Aging/]] paper, David Parnas warns against putting software in the hands of developers that haven't contributed to (and thus don't understand) its design:
+In his [[https://dl.acm.org/doi/pdf/10.5555/257734.257788][/Software Aging/]] paper, David Parnas warns against putting software in the hands of developers who haven't contributed to (and thus don't understand) its design:
 
 #+begin_quote
 Although it is essential to upgrade software to prevent aging, changing software can cause a different form of aging. The designer of a piece of software usually had a simple concept in mind when writing the program. If the program is large, understanding that concept allows one to find those sections of the program that must be altered when an update or correction is needed. Understanding that concept also implies understanding the interfaces used within the
@@ -51,7 +51,7 @@ made the changes, never did. In other words, nobody understands the modified pro
 future changes even more difficult.
 #+end_quote
 
-~TEAM~ were bound to make what Parnas calls "ignorant surgery", the system degrading over time. But that doesn't quite explain why they were immediately helpless as they took over the project. I find a better characterization in Peter Naur's [[https://pages.cs.wisc.edu/~remzi/Naur.pdf][/Programming as Theory Building/]]:
+~TEAM~ was bound to make what Parnas calls "ignorant surgery", the system degrading over time. But that doesn't quite explain why they were immediately helpless as they took over the project. I find a better characterization in Peter Naur's [[https://pages.cs.wisc.edu/~remzi/Naur.pdf][/Programming as Theory Building/]]:
 
 #+begin_quote
 At least with certain kinds of large programs, the continued adaptation, modification, and correction of errors in them, is essentially dependent on a certain kind of knowledge possessed by a group of programmers who are closely and continuously connected with them.
@@ -88,11 +88,11 @@ For our software to be understood or changed, it must be explained; we must tell
 #+end_quote
 
 A more conventional way to define the software design activity is in terms of [[a-note-on-essential-complexity][minimizing complexity]].
-If we acknowledge that reducing ambiguity, obscurity, unknown unknowns, and cognitive load---all of them forms of removing complexity---also enable better understanding and easier explanations, then we should conclude that both models are compatible, if not equivalent.
+If we acknowledge that reducing ambiguity, obscurity, unknown unknowns, and cognitive load---all of them forms of removing complexity---also enables better understanding and easier explanations, then we should conclude that both models are compatible, if not equivalent.
 
 *** 4. Postscript
 
-The Theory Building view explains why ~TEAM~ couldn't take ownership of ~SVC~. When X_{10} left the company, taking the development context---the mental model---with her, the system deteriorated. In Naur's terms, while still operational, the system was dead:
+The theory-building view explains why ~TEAM~ couldn't take ownership of ~SVC~. When X_{10} left the company, taking the development context---the mental model---with her, the system deteriorated. In Naur's terms, while still operational, the system was dead:
 
 #+begin_quote
 The building of the program is the same as the building of the theory of it by the team of programmers. During the program life a programmer team possessing its theory remains in active control of the program, and in particular retains control over all modifications. The death of a program happens when the programmer team possessing its theory is dissolved. A dead program may continue to be used for execution in a computer and to produce useful results. The
