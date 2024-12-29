@@ -30,15 +30,15 @@ This entire process takes less than a year.
 
 *** 2. Commentary
 
-What is going on with ~SVC~? Did X_{10} do a bad job? By all accounts she did not. The project was finished on time, according to specification; ~ORG~ will save a lot of money next year. X_{10} followed best practices, too: good test coverage, no over-engineering. Surely she cut some corners; she didn't think twice about the design of the system. As in any project, there's a lot of room for improvement, but nothing that a team of competent engineers couldn't handle. But, if X_{10} got the hard part of the job done, how come not one but two (maybe more) teams of competent engineers failed to apply a few small changes to the system?
+What is going on with ~SVC~? Did X_{10} do a bad job? By all accounts she did not. The project was finished on time, according to specification; ~ORG~ will save a lot of money next year. X_{10} followed best practices, too: good test coverage, no over-engineering. Surely she cut some corners; she didn't think twice about the design of the system. As in any project, there's a lot of room for improvement, but nothing that a team of competent engineers couldn't handle. But, if X_{10} got the hard part of the job done, how come not one but many teams of competent engineers fail to apply a few small changes to the system?
 
 What fascinates me about this scenario is how a seemingly functional 6-month old project automatically turns into a haunted forest just by changing hands. Regardless of its age, ~SVC~ is textbook legacy software because, more often than not, a question posed about the system, to any team member, results in the same answer: /I don't know/.
 
-The problem is that ~TEAM~ members don't have enough elements to build a satisfactory mental model of ~SVC~. They need to go by a mix of the customer's interpretation of what the system /should be/, and what they can tell from the code that the system /actually is/. These views can be disconnected and contradictory. The code may tell the /what/ and the /how/, but it doesn't tell the /why/. Only X_{10} could say what is a functional requirement, what a technical necessity, what a whim, what an accident. The team has to resort to reverse-engineering, extrapolating, and guessing.
+The problem is that ~TEAM~ members don't have enough elements to build a satisfactory mental model of ~SVC~. They need to go by a mix of the client's interpretation of what the system /should be/, and what they can tell from the code that the system /actually is/. These views can be disconnected and contradictory. The code may tell the /what/ and the /how/, but it doesn't tell the /why/. Only X_{10} could say what was a functional requirement, what a technical necessity, what a whim, what an accident. The team has to resort to reverse-engineering, extrapolating, and guessing.
 
 *** 3. The Theory
 
-Underlying the decision to move X_{10} out of the project once the system was operational, is the common misconception that software development consists of producing code; that, given working code, programmers should behave as interchangeable operators of varying qualities[fn:1].
+Underlying the decision to move X_{10} out of the project once the system was operational, is the common misconception that software development consists of producing code; that, once working code exists, programmers should act as interchangeable operators of varying qualities[fn:1].
 
 In his [[https://dl.acm.org/doi/pdf/10.5555/257734.257788][/Software Aging/]] paper, David Parnas warns against putting software in the hands of developers that haven't contributed to (and thus don't understand) its design:
 
@@ -51,7 +51,7 @@ made the changes, never did. In other words, nobody understands the modified pro
 future changes even more difficult.
 #+end_quote
 
-~TEAM~ where bound to make what Parnas calls "ignorant surgery", the system degrading over time. But that doesn't quite explain why they were immediately helpless as they took over the project. I find a better characterization in Peter Naur's [[https://pages.cs.wisc.edu/~remzi/Naur.pdf][/Programming as Theory Building/]]:
+~TEAM~ were bound to make what Parnas calls "ignorant surgery", the system degrading over time. But that doesn't quite explain why they were immediately helpless as they took over the project. I find a better characterization in Peter Naur's [[https://pages.cs.wisc.edu/~remzi/Naur.pdf][/Programming as Theory Building/]]:
 
 #+begin_quote
 At least with certain kinds of large programs, the continued adaptation, modification, and correction of errors in them, is essentially dependent on a certain kind of knowledge possessed by a group of programmers who are closely and continuously connected with them.
@@ -99,7 +99,7 @@ If we acknowledge that reducing ambiguity, obscurity, unknown unknowns, and cogn
 
 *** 4. Postscript
 
-In his paper, Naur suggests that program revival is almost impossible. The program should preferably be discarded, and the new team should be given the opportunity to resolve the problem from scratch. With three extra decades of hindsight, I tend to disagree. Revival is very hard, yes, but I've seen it happen. It may require that the new team ultimately rewrite every line of the original, one at a time. But I've seen fresh starts fail more consistently than that.
+Naur suggests that program revival is almost impossible. The program should preferably be discarded, and the new team should be given the opportunity to resolve the problem from scratch. With three extra decades of hindsight, I tend to disagree. Revival is very hard, yes, but I've seen it happen. It may require that the new team ultimately rewrite every line of the original, one at a time. But I've seen fresh starts fail more consistently than that.
 
 Knowing that revival is a plausible future need has powerful consequences for our work. To approach it correctly, we should mind the people that one day will have to take the project out of its coma: in the style of the code and the structure of the system, but also in its paratexts---comments, docstrings, READMEs, Pull Requests, commit messages, Jira tickets, and Confluence pages.
 
