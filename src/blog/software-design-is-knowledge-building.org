@@ -99,13 +99,13 @@ The building of the program is the same as the building of the theory of it by t
 actual state of death becomes visible when demands for modifications of the program cannot be intelligently answered. Revival of a program is the rebuilding of its theory by a new programmer team.
 #+end_quote
 
-~TEAM~'s duty, then, is to revive the system by building a new theory for it. But reconstructing the model of the system, while keeping it operational, is a slow and difficult process, hard to sell to an organization convinced the implementation has just finished. Naur goes as far as saying that program revival, from code and documentation alone, is impossible. The program should preferably be discarded, and the new team should be given the opportunity to resolve the problem from scratch.
+~TEAM~ ’s duty, then, is to revive the system by building a new theory for it. But reconstructing the model of the system, while keeping it operational, is a slow and difficult process, hard to sell to an organization convinced that development has just finished. Naur goes as far as saying that program revival, from code and documentation alone, is impossible. The program should preferably be discarded, and the new team should be given the opportunity to resolve the problem from scratch.
 
 With three extra decades of hindsight, I tend to disagree. Revival is very hard, yes, but I've seen it happen. It may require that the new team ultimately rewrite every line of the original, one at a time. But I've seen fresh starts fail more consistently than that.
 
 Knowing that revival is a plausible future need has powerful consequences for our work. To approach it correctly, we should mind the people that one day will have to take the project out of its coma: in the style of the code and the structure of the system, but also in its paratexts---comments, docstrings, READMEs, Pull Requests, commit messages, Jira tickets, and Confluence pages.
 
-Granted, my story was an all-too-perfect illustration of Naur's ideas. But I suspect that we could benefit from accepting his theory as a law: the ultimate goal of software design should be (organizational) knowledge building.
+Granted, my story was an all-too-perfect illustration of Naur's thesis. I can't prove it, but I suspect that we could benefit from accepting his theory as a law: the ultimate goal of software design should be (organizational) knowledge building.
 
 So the next time you choose a name, or structure a project, or ponder whether to write or omit a certain comment, rather than thinking in terms of the burden on future maintainers, think: how much will this decision affect---how much will it help or hinder---their building of a mental model of the system, of the business, of the world.
 
