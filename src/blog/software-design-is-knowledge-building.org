@@ -24,7 +24,7 @@ This is the story of system ~SVC~ from company ~ORG~. It's a true story, but I'v
 9. Requirements change, assumptions are proven wrong, unknown unknowns are uncovered. A dutiful product owner realizes that the business now demands changes to ~SVC~, so he writes down some tickets for ~TEAM~ to work on.
 10. ~TEAM~ fails miserably to deliver. They don't seem to know what they are doing, taking forever to apply the smallest changes, always side-tracked by bugs and production outages.
 11. ~TEAM~ is, uh, /restructured/ into ~TEAM++~, of higher average seniority, and continues working on ~SVC~.
-12. GOTO (10).
+12. GOTO 9.
 
 This entire process takes less than a year.
 
