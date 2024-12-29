@@ -71,13 +71,6 @@ In this view, the mental model that allows the designer to map a subset of the w
 3) The programmer having the theory of the program is able to respond constructively to any demand for a modification of the program so as to support the affairs of the world in a new manner. Designing how a modification is best incorporated into an established program depends on the perception of the similarity of the new demand with the operational facilities already built into the program. The kind of similarity that has to be perceived is one between aspects of the world.
 #+end_quote
 
-This explains why ~TEAM~ couldn't take ownership of ~SVC~. When X_{10} left the project, the system deteriorated. And, in Naur's terms, when X_{10} left ~ORG~, the system, while still operational, was dead:
-
-#+begin_quote
-The building of the program is the same as the building of the theory of it by the team of programmers. During the program life a programmer team possessing its theory remains in active control of the program, and in particular retains control over all modifications. The death of a program happens when the programmer team possessing its theory is dissolved. A dead program may continue to be used for execution in a computer and to produce useful results. The
-actual state of death becomes visible when demands for modifications of the program cannot be intelligently answered. Revival of a program is the rebuilding of its theory by a new programmer team.
-#+end_quote
-
 Naur defines software design as an intellectual activity, consisting of building and having a theory, where theory is understood as
 
 #+begin_quote
@@ -99,7 +92,16 @@ If we acknowledge that reducing ambiguity, obscurity, unknown unknowns, and cogn
 
 *** 4. Postscript
 
-Naur suggests that program revival is almost impossible. The program should preferably be discarded, and the new team should be given the opportunity to resolve the problem from scratch. With three extra decades of hindsight, I tend to disagree. Revival is very hard, yes, but I've seen it happen. It may require that the new team ultimately rewrite every line of the original, one at a time. But I've seen fresh starts fail more consistently than that.
+The Theory Building view explains why ~TEAM~ couldn't take ownership of ~SVC~. When X_{10} left the company, taking the development context---the mental model---with her, the system deteriorated. In Naur's terms, while still operational, the system was dead:
+
+#+begin_quote
+The building of the program is the same as the building of the theory of it by the team of programmers. During the program life a programmer team possessing its theory remains in active control of the program, and in particular retains control over all modifications. The death of a program happens when the programmer team possessing its theory is dissolved. A dead program may continue to be used for execution in a computer and to produce useful results. The
+actual state of death becomes visible when demands for modifications of the program cannot be intelligently answered. Revival of a program is the rebuilding of its theory by a new programmer team.
+#+end_quote
+
+~TEAM~'s duty, then, is to revive the system by building a new theory for it. But reconstructing the model of the system, while keeping it operational, is a slow and difficult process, hard to sell to an organization convinced the implementation has just finished. Naur goes as far as saying that program revival, from code and documentation alone, is impossible. The program should preferably be discarded, and the new team should be given the opportunity to resolve the problem from scratch.
+
+With three extra decades of hindsight, I tend to disagree. Revival is very hard, yes, but I've seen it happen. It may require that the new team ultimately rewrite every line of the original, one at a time. But I've seen fresh starts fail more consistently than that.
 
 Knowing that revival is a plausible future need has powerful consequences for our work. To approach it correctly, we should mind the people that one day will have to take the project out of its coma: in the style of the code and the structure of the system, but also in its paratexts---comments, docstrings, READMEs, Pull Requests, commit messages, Jira tickets, and Confluence pages.
 
