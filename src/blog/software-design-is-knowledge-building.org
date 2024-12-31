@@ -5,6 +5,7 @@ layout: post
 lang: en
 tags: [software]
 excerpt: "The product of software development is not code but a mental model, a theory: a specific way of explaining the world."
+favorite: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en

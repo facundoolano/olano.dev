@@ -6,6 +6,7 @@ lang: en
 excerpt: The easiest way to make a to-read pile grow is to read a book from it.
 tags: [software, books, memoirs]
 image: bookshelf.png
+favorite: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en

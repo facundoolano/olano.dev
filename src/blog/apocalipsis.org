@@ -7,7 +7,6 @@ cover-img: thestand2.png
 thumbnail-img: thestand.jpg
 image: thestand.jpg
 tags: [libros, literatura, ficción, distopías, memorias]
-favorite: true
 lang: es
 book: "vol1"
 ---

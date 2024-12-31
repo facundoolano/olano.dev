@@ -4,7 +4,6 @@ title: "¿Sueñan los programadores con poemas eléctricos?"
 subtitle: Programación y escritura
 date: 2021-02-01
 tags: [programación, software, literatura]
-favorite: true
 lang: es
 book: "vol1"
 ---
