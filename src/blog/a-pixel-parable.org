@@ -5,7 +5,8 @@ layout: post
 lang: en
 tags: [videogames, software, fiction, movies]
 excerpt: An imagined town is at least as real as an actual town.
-image: dither.png
+image: loom.png
+cover-img: loom2.png
 favorite: true
 ---
 #+OPTIONS: toc:nil num:nil
