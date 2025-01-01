@@ -4,7 +4,6 @@ title: "Mi descubrimiento de América"
 subtitle: Subrayados
 date: 2021-06-01
 tags: [literatura, libros]
-favorite: true
 thumbnail-img: maiakovski.jpg
 image: maiakovski.jpg
 lang: es

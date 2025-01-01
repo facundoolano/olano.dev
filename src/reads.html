@@ -59,7 +59,7 @@ head_title: Reads
 {% for year in books_by_year %}
 {% unless forloop.last %}
 <h4>{{year.name}}</h4>
-<ol>
+<ol reversed>
     {% for book in year.items %}
     <li><small><b>{{book.title}}</b>, {{book.author}}
         {% if book.rating %}

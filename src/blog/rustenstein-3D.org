@@ -7,5 +7,6 @@ lang: en
 image: https://tech.nextroll.com/images/post_images/rustestein/start.png
 tags: [programming, videogames, projects]
 refs: [modoom, sanglard]
+favorite: true
 ---
 #+LANGUAGE: en
