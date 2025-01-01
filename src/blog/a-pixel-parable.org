@@ -8,6 +8,7 @@ excerpt: An imagined town is at least as real as an actual town.
 image: loom.png
 cover-img: loom2.png
 favorite: true
+refs: [monkey, maniac, zak, aopnc, maher, loom, crusade, starwars, dottbook]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en

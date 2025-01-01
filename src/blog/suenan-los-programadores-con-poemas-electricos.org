@@ -6,6 +6,7 @@ date: 2021-02-01
 tags: [programación, software, literatura]
 lang: es
 book: "vol1"
+refs: [literate, parisreview]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

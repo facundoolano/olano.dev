@@ -10,6 +10,7 @@ thumbnail-img: tortoise.jpg
 cover-img: tortoise2.png
 lang: es
 book: "vol1"
+refs: [turing, ideasfuture, innovators, inquisiciones, bullshit]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

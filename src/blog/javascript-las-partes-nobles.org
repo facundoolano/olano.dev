@@ -7,6 +7,7 @@ date: 2020-09-22
 tags: [programación, ideas]
 css: "highlight"
 lang: es
+refs: [goodparts]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

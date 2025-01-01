@@ -6,6 +6,7 @@ tags: [software, libros, projects]
 thumbnail-img: lewis.jpeg
 image: lewis.jpeg
 lang: es
+refs: [innovators, ideasfuture,]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

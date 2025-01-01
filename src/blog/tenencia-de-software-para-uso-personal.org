@@ -8,6 +8,7 @@ share-img: pc.jpg
 image: pc.jpg
 thumbnail-img: pc.jpg
 lang: es
+refs: [protocols, local]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

@@ -1,0 +1,36 @@
+---
+layout: default
+title: /blog/refs
+head_title: Refs
+---
+
+<script>
+  // unfold the post list of the tag from the url fragment
+  document.addEventListener("DOMContentLoaded", function () {
+    var hash = window.location.hash;
+
+    if (hash) {
+      var id = hash.substring(1);
+      var details = document.getElementById(id).closest("details");
+      if (details) {
+        details.setAttribute("open", "");
+      }
+    }
+  });
+</script>
+
+<div class="refs-index">
+  {% for ref in site.data.refs | sort: "author" %}
+  <details>
+    <summary>
+      <span id="{{ref.id}}" class="ref"
+        >{% if ref.author %}{{ref.author}}. {%endif%}<i>{{ref.title}}</i>{%if
+        ref.year%} ({{ref.year}}){%endif%}.</span
+      >
+    </summary>
+    {% assign posts = site.posts | where_exp:"post", "post.refs contains ref.id"
+    %} {% assign skip_years = true %} {% include posts.html %}
+  </details>
+  <br />
+  {% endfor %}
+</div>

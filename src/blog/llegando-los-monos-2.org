@@ -9,6 +9,7 @@ image: adventures/return2.png
 tags: [videojuegos, cine]
 lang: es
 book: "vol1"
+refs: [aopnc, maher, grumpy, dott, throttle, grim, doublefine, thimbleweed, monkey]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

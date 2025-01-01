@@ -7,6 +7,7 @@ thumbnail-img: imaginary.png
 share-img: imaginary2.png
 image: imaginary2.png
 lang: es
+refs: [fallacies, microservices, boring, radical, painters, hamilton]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

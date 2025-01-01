@@ -6,6 +6,7 @@ lang: en
 tags: [software, web]
 image: img/pc.jpg
 excerpt: A little rest area by the road to a better web.
+refs: [local, protocols, indie, homecook, unix, ousterhout, worse]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en

@@ -7,6 +7,7 @@ thumbnail-img: erlang/erlang.png
 image: erlang/erlang.png
 css: "highlight"
 lang: es
+refs: [learnyou, zenoferlang,codersatwork]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

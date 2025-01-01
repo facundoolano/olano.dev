@@ -8,6 +8,7 @@ share-img: satriales2.png
 image: satriales2.png
 cover-img: satriales1.png
 lang: es
+refs: [worse, ousterhout, chiusano, painters, bazaar]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

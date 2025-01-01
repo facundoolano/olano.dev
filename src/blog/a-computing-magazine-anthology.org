@@ -6,6 +6,7 @@ lang: en
 tags: [projects, ideas, books]
 image: byte.jpg
 excerpt: "Between the '70s and the '90s a lot of the action happened in newsletters and magazines like The Whole Earth Catalog, Byte, or Dr. Dobb's. An anthology of articles from those magazines would tell a compelling history of personal computing: that's a book I'd like to read."
+refs: [innovators, ideasfuture]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en

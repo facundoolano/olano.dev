@@ -10,6 +10,7 @@ image: fink-thumb.png
 cover-img: fink.png
 lang: es
 book: "vol1"
+refs: [parisreview, indemnity, barton, bigsleep, chandlercartas]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

@@ -7,6 +7,7 @@ tags: [projects, ideas, videogames]
 image: rpgcli.png
 excerpt: To me, a classic JRPG is pure mechanism, a kind of puzzle. Was there some way of getting the fun out of building such a mechanism—of solving that puzzle—, wrapping it with the minimal amount of functionality, the simplest thing that could possibly pass as a video game?
 favorite: true
+refs: [suikoden, dnd, rogue, procedural, crpg, maher, iamerror, jrpg]
 ---
 #+OPTIONS: toc:nil num:1
 #+LANGUAGE: en

@@ -8,6 +8,7 @@ image: tarpit.png
 cover-img: labrea.jpg
 excerpt: "Librado a su voluntad, el ingeniero de software simplifica las organizaciones y sus sistemas al punto de disolverlos, al punto de que algunos de ellos dejan de existir. El software es la navaja de Ockham, la topadora que arrasa con la complejidad del mundo."
 lang: es
+refs: [bullet, tarpit, ousterhout, pragmatic, unix, hickey, clarity, killfire]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

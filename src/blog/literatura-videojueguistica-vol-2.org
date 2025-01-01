@@ -6,6 +6,7 @@ tags: [videojuegos, libros]
 image: vol2/tomorrow.webp
 excerpt: Un nuevo compendio de libros sobre videojuegos seguido de un comentario del último documental de DoubleFine.
 lang: es
+refs: [tomorrow, modoom, dottbook, maher, if50, prince, procedural, allgame, psychodyssey, iamerror]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

@@ -110,7 +110,14 @@ hr {
 
 .blog-index article {
     padding-bottom: .5rem;
+.refs-index article {
+    padding-bottom: 0.5rem;
 }
+
+.refs-index summary {
+    padding-bottom: 0.5rem;
+}
+
 .projects-index article {
     padding-bottom: .75rem;
 }
@@ -306,25 +313,30 @@ blockquote {
     }
 }
 
-
-
-
 details summary {
-    list-style: none;
     cursor: pointer;
+}
+
+.tags details summary {
+    list-style: none;
 }
 
 details summary h3::after {
     content: "[+]";
+}
+
+details[open] summary h3::after {
+    content: "[-]"
+}
+
+details summary *::after {
     font-size: small;
     font-weight: normal;
     font-family: monospace;
     vertical-align: middle;
 }
 
-details[open] summary h3::after {
-    content: "[-]"
-}
+
 
 details > summary::-webkit-details-marker {
     display: none;

@@ -6,6 +6,7 @@ external: "https://tech.nextroll.com/blog/dev/2022/02/02/rustenstein.html"
 lang: en
 image: https://tech.nextroll.com/images/post_images/rustestein/start.png
 tags: [programming, videogames, projects]
+refs: [modoom, sanglard]
 favorite: true
 ---
 #+LANGUAGE: en

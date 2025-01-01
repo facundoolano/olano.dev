@@ -8,6 +8,7 @@ thumbnail-img: maiakovski.jpg
 image: maiakovski.jpg
 lang: es
 book: "vol1"
+refs: [maiakovski]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
