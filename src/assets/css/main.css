@@ -110,7 +110,14 @@ hr {
 
 .blog-index article {
     padding-bottom: .5rem;
+.refs-index article {
+    padding-bottom: 0.5rem;
 }
+
+.refs-index summary {
+    padding-bottom: 0.5rem;
+}
+
 .projects-index article {
     padding-bottom: .75rem;
 }
