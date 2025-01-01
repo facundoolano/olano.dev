@@ -259,6 +259,8 @@
   year: 2007
 - id: rogue
   title: Rogue
+  author: Michael Toy, Glenn Wichman, Ken Arnold
+  year: 1980
 - id: prince
   title: Prince of Persia
   author: Jordan Mechner
@@ -282,6 +284,9 @@
   title: El discurso vacío
   author: Mario Levrero
 - id: turing
+  author: Alan Turing
+  title: Computing Machinery and Intelligence
+  year: 1950
 - id: inquisiciones
   author: Jorge Luis Borges
   title: Otras inquisiciones
@@ -302,19 +307,44 @@
   author: Maggie Appleton
   year: 2020
 - id: indiereader
+  author: Aaron Parecki
+  title: "An IndieWeb reader: My new home on the internet"
+  year: 2018
 - id: protocols
+  title: "Protocols, Not Platforms: A Technological Approach to Free Speech"
+  author: Mike Masnick
+  year: 2019
 - id: local
+  title: "Local-first software: You own your data, in spite of the cloud"
+  year: 2019
+  author: Martin Kleppmann, Adam Wiggins, Peter van Hardenberg, Mark McGranaghan
 - id: hackerethic
 - id: varoufakis
+  title: "Technofeudalism: What Killed Capitalism"
+  author: Yanis Varoufakis
+  year: 2023
 - id: makohill
   title: "How markets coopted free software’s most powerful weapon"
   author: Benjamin Mako Hill
   year: 2018
 - id: burkeman
+  title: "Treat your to-read pile like a river, not a bucket"
+  author: Oliver Burkeman
+  year: 2023
 - id: tomorrow
+  title: Tomorrown and Tomorrow and Tomorrow
 - id: dottbook
+  title: Day of The Tentacle
+  author: Bob Mackey
+  year: 2023
 - id: if50
+  title: 50 Years of Text Games
+  author: Aaron A. Reed
+  year: 2023
 - id: procedural
+  title: Procedural Generation in Game Design
+  author: Tanya Short, Tarn Adams
+  year: 2017
 - id: psychodyssey
   title: PsychOdyssey
   author: Tim Schafer
@@ -331,16 +361,58 @@
   year: 1974
   author: Gary Gygax, Dave Arneson
 - id: iamerror
+  title: "I Am Error: The Nintendo Family Computer / Entertainment System Platform"
+  author: Nathan Altice
+  year: 2017
 - id: jrpg
+  title: A Guide to Japanese Role-Playing Games
+  year: 2021
+  author: Bitmap Books
 - id: homecook
+  author: Maggie Appleton
+  title: Home-Cooked Software and Barefoot Developers
+  year: 2024
 - id: zak
+  title: Zak McKracken and the Alien Mindbenders
+  author: David B. Fox
+  year: 1988
 - id: loom
+  title: Loom
+  author: Brian Moriarty
+  year: 1990
 - id: crusade
+  title: Indiana Jones and the Last Crusade
+  year: 1989
+  author: Steven Spielberg
 - id: starwars
+  title: Star Wars
+  year: 1977
+  author: George Lucas
 - id: soul
+  title: The Soul of a New Machine
+  author: Tracy Kidder
+  year: 1981
 - id: mythical
+  title: "The Mythical Man-Month: Essays on Software Engineering"
+  year: 1975
+  author: Fred Brooks
 - id: nystrom
+  title: Crafting Intrepreters
+  author: Robert Nystrom
+  year: 2021
 - id: kleppman
+  author: Martin Kleppmann
+  title: "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems"
+  year: 2017
 - id: naur
+  title: Programming as Theory Building
+  author: Peter Naur
+  year: 1985
 - id: aging
+  author: David Parnas
+  title: Software Aging
+  year: 1994
 - id: tellman
+  title: Explaining Software
+  author: Zachary Tellman
+  year: 2024
