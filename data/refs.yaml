@@ -93,85 +93,111 @@
 - id: maher
   title: "The Digital Antiquarian"
   author: Jimmy Maher
-  year: 2011-
+  year: "2011-"
 - id: parentesis
   title: "Entre paréntesis"
   author: Roberto Bolaño
+  year: 2004
 - id: fornaires
   title: "Buenos Aires"
   author: Juan Forn
+  year: 1992
 - id: fornuds
   title: "Yo recordaré por ustedes"
   author: Juan Forn
+  year: 2021
 - id: nadar
   title: Nadar de noche
   author: Juan Forn
+  year: 1991
 - id: fornviernes
   author: Juan Forn
   title: "El hombre que fue viernes"
+  year: 2012
 - id: ousterhout
   title: A Philosophy of Software Design
   author: John Ousterhout
+  year: 2018
 - id: killfire
   title: Kill It with Fire
   author: Marianne Bellotti
+  year: 2021
 - id: releaseit
   title: Release It!
   author: Michael T. Nygard
+  year: 2017
 - id: indemnity
   title: Double Indemnity
   author: Billy Wilder, Raymond Chandler
+  year: 1944
 - id: barton
   title: Barton Fink
   author: Joel Coen, Ethan Coen
+  year: 1991
 - id: bigsleep
   title: The Big Sleep
   author: Raymond Chandler
+  year: 1939
 - id: chandlercartas
-  title: Ensayos y cartas selectos
+  title: Cartas y ensayos selectos
   author: Raymond Chandler
+  year: 2013
 - id: innovators
   title: The Innovators
   author: Walter Isaacson
+  year: 2014
 - id: ideasfuture
   title: Ideas That Created the Future
   author: Harry R. Lewis
+  year: 2021
 - id: colossal
   title: Colossal Cave Adventure
   author: William Crowther, Don Woods
+  year: 1976
 - id: mysteryhouse
   title: Mystery House
   author: Roberta Williams, Ken Williams
+  year: 1980
 - id: kings
   title: King's Quest
   author: Roberta Williams, Ken Williams
+  year: 1984
 - id: maniac
   title: Maniac Mansion
   author: Ron Gilbert
+  year: 1987
 - id: monkey
   title: The Secret of Monkey Island
   author: Ron Gilbert
+  year: 1990
 - id: whysuck
   title: Why adventure games suck
   author: Ron Gilbert
+  year: 1989
 - id: grumpy
   title: Grumpy Gamer
   author: Ron Gilbert
+  year: 2004
 - id: craftadventure
   title: The Craft of Adventure
   author: Graham Nelson
+  year: 1995
 - id: dott
   title: Day of the Tentacle
   author: Tim Schafer, Dave Grossman
+  year: 1993
 - id: throttle
   title: Full Throttle
   author: Tim Schafer
+  year: 1995
 - id: grim
   title: Grim Fandango
   author: Tim Schafer
+  year: 1998
 - id: doublefine
   title: Double Fine Adventure
   author: Tim Schafer
+  year: 2012
 - id: thimbleweed
   title: Thimbleweed Park
   author: Ron Gilbert
@@ -270,6 +296,7 @@
 - id: perec
   title: "La vida: instrucciones de uso"
   author: Georges Perec
+  year: 1978
 - id: tetris
   title: Tetris
   author: Alekséi Pázhitnov
@@ -280,9 +307,11 @@
 - id: luminosa
   title: La novela luminosa
   author: Mario Levrero
+  year: 2005
 - id: discurso
   title: El discurso vacío
   author: Mario Levrero
+  year: 1996
 - id: turing
   author: Alan Turing
   title: Computing Machinery and Intelligence
@@ -290,6 +319,7 @@
 - id: inquisiciones
   author: Jorge Luis Borges
   title: Otras inquisiciones
+  year: 1952
 - id: bullshit
   title: "On the Phenomenon of Bullshit Jobs: A Work Rant"
   year: 2013
@@ -319,6 +349,9 @@
   year: 2019
   author: Martin Kleppmann, Adam Wiggins, Peter van Hardenberg, Mark McGranaghan
 - id: hackerethic
+  title: The Hacker Ethic and the Spirit of the Information Age
+  author: Pekka Himanen
+  year: 2001
 - id: varoufakis
   title: "Technofeudalism: What Killed Capitalism"
   author: Yanis Varoufakis
@@ -332,7 +365,9 @@
   author: Oliver Burkeman
   year: 2023
 - id: tomorrow
-  title: Tomorrown and Tomorrow and Tomorrow
+  title: Tomorrow, and Tomorrow, and Tomorrow
+  year: 2022
+  author: Gabrielle Zevin
 - id: dottbook
   title: Day of The Tentacle
   author: Bob Mackey
@@ -352,6 +387,7 @@
 - id: cautivos
   title: Textos cautivos
   author: Jorge Luis Borges
+  year: 1986
 - id: suikoden
   title: Suikoden II
   year: 1998
