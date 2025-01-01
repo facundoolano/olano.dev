@@ -40,7 +40,7 @@
   year: 1947
 - id: aopnc
   title: "The Art of Point-and-Click Adventure Games"
-  author: Steve Jarrett
+  author: Bitmap Books
   year: 2018
 - id: codersatwork
   title: "Coders at Work: Reflections on the Craft of Programming"
@@ -201,6 +201,7 @@
 - id: thimbleweed
   title: Thimbleweed Park
   author: Ron Gilbert
+  year: 2017
 - id: bullet
   author: Fred Brooks.
   title: "No Silver Bullet: Essence and Accidents of Software Engineering"
@@ -208,9 +209,11 @@
 - id: tarpit
   title: Out of the Tar Pit
   author: Ben Moseley, Peter Marks
+  year: 2006
 - id: pragmatic
   title: "The Pragmatic Programmer: your journey to mastery"
   year: 2019
+  author: Andy Hunt, Dave Thomas
 - id: hickey
   title: Simple Made Easy
   author: Rich Hickey
@@ -290,9 +293,11 @@
 - id: prince
   title: Prince of Persia
   author: Jordan Mechner
+  year: 1989
 - id: dinn
   title: Return of the Obra Dinn
   author: Lucas Pope
+  year: 2018
 - id: perec
   title: "La vida: instrucciones de uso"
   author: Georges Perec
@@ -300,6 +305,7 @@
 - id: tetris
   title: Tetris
   author: Alekséi Pázhitnov
+  year: 1984
 - id: ditherpunk
   title: "Ditherpunk — The article I wish I had about monochrome image dithering"
   author: Surma
