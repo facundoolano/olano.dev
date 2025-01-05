@@ -1,0 +1,24 @@
+- date: 2025-01-05
+  txt: added this site log
+  tags: [site]
+- date: 2025-01-01
+  txt: added [referenced works](/blog/refs) to the blog
+  tags: [site]
+- date: 2024-12-29
+  txt: published [Software Design is Knowledge Building](/blog/software-design-is-knowledge-building)
+  tags: [blog]
+- date: 2024-12-25
+  txt: updated my [software-papres project](https://github.com/facundoolano/software-papers) to 150 papers
+  tags: [projects]
+- date: 2024-12-07
+  txt: added a [reads](/reads) section to the site
+  tags: [site]
+- date: 2024-12-02
+  txt: published [A Pixel Parable](/blog/a-pixel-parable)
+  tags: [blog]
+- date: 2024-11-24
+  txt: published [my blogging setup is my writing process](/blog/my-blogging-setup-is-my-writing-process)
+  tags: [blog]
+- date: 2024-11-19
+  txt: published [Diario de Lechuck’s Revenge](/blog/diario-de-lechucks-revenge)
+  tags: [blog]
