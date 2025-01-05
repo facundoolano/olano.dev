@@ -71,9 +71,18 @@ His hand feels like a claw as he holds that little mouse. Whenever a connection 
 
 For a few evenings, Mark secludes himself in his old high school bedroom, getting familiar with the computer and its painting program. He puts together a little African hut picture and teaches himself to reproduce it, over and over, from a blank page. He repeats it one last time at Skywalker Ranch, a few days later, to survive his interview.
 
+
+
 #+begin_export html
 <br/><br/>
+[TODO skywalker lake]
+<br/><br/>
+<br/><br/>
 #+end_export
+
+
+
+
 
 Mark walks out of the garage and meets Gary on the porch. Gary shows him around the Stable House, introducing  everyone in the Games Group, and takes him to his desk. He'll be sitting next to Gary and across the hall from Ron and David, the programmers. Mark notices there are not one but two different computers on his desk. And neither looks like the Atari he knows.
 
@@ -101,6 +110,9 @@ Both are 16-color systems, but /not the same/ 16 colors, so swapping palettes is
 Then there's the palette: black, dark gray, light gray, white, dark blue, light blue, cyan, yellow, mustard brown, dark red, poppy red, peach, magenta, acid-hot pink, grass green, and acid-chartreuse. Always the same suffocating 16 colors for anything he needs to draw. He has to ponder carefully what colors to "spend", an early decision that constraints the rest of his choices: the scene composition, the mood, what's shown, what's hinted. There's no room for impulse or experimentation, everything has to follow a plan. Despite his Digital Artist title, his job doesn't seem much concerned with art. The only creativity is in subverting the tools, working around them, against them, exploiting their limitations.
 
 #+begin_export html
+<br/><br/>
+[TODO computer desk]
+<br/><br/>
 <br/><br/>
 #+end_export
 
@@ -226,7 +238,11 @@ A week later, David tells Mark that it turns out that dithering is very hard /bu
 
 #+begin_export html
 <br/><br/>
+[TODO library]
+<br/><br/>
+<br/><br/>
 #+end_export
+
 
 The Main House is a ten-minute walk from the Stable House. Mark mentioned he would go over to the library and Purcell tagged along. Nobody passes on an excuse to visit the Main House.
 
@@ -289,7 +305,11 @@ There's a counter near the entrance. The librarian asks them what's the purpose 
 
 #+begin_export html
 <br/><br/>
+[TODO loom scene]
+<br/><br/>
+<br/><br/>
 #+end_export
+
 
 "I'm not a historian. I have no idea what it looks like." Donovan walks along the altar, pondering the chalices. Many sizes, many shapes, some gold, some silver, but they all glitter and shine. "Which one is it?" Elsa chooses a cup---a solid gold, emerald-encrusted goblet. Donovan instantly takes it from her. "Oh, yes. It's more beautiful than I'd ever imagined. This certainly is the cup of the King of Kings." Donovan rushes to the well and fills the goblet with water. "Eternal life!" he says, then drinks.
 
@@ -316,6 +336,9 @@ Once they lift the /Star Wars/ embargo, it's going to be hard to keep the suits 
 
 #+begin_export html
 <br/><br/>
+[TODO Indy last crusade]
+<br/><br/>
+<br/><br/>
 #+end_export
 
 "Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships." This is how Ron explained his pirate game to anyone who would listen.
@@ -331,7 +354,11 @@ It almost feels like a thematic going away party for the game, literally pushing
 
 #+begin_export html
 <br/><br/>
+[TODO shrinkwrap]
+<br/><br/>
+<br/><br/>
 #+end_export
+
 
 The artists are gathered at the Tech Building for a demonstration. The scanner is a little tray, like the top half of a Xerox machine. It's connected to a Macintosh computer. The scanner costs 10 times the computer, according to the speaker.
 
@@ -371,6 +398,9 @@ He can already see it: after VGA and scanners, it will be compact discs, or RGB 
 
 #+begin_export html
 <br/><br/>
+[TODO monkey 1 sunset]
+<br/><br/>
+<br/><br/>
 #+end_export
 
 Mark walks towards the door, then turns. "I can't leave yet, I haven't finished packing." He looks at his desk. "I should put all this stuff in the box."
@@ -394,6 +424,9 @@ He picks up a signed /Loom/ box. "It's signed by The Professor. I signed another
 He picks up the box. "This box is too full, I can't carry it like this." He puts the box back on the desk. He walks towards the door, then turns. "I can't leave yet, I haven't finished packing." He looks at the desk. "Neat." He looks at the desk drawer. "Neat." He opens the desk drawer. He looks at the open desk drawer. "There's a piece of rope here." He picks up the piece of rope. "This might come in handy." He looks at the open desk drawer. "It's empty." He uses the piece of rope on the box. "Much better." He picks up the box. He walks out.
 
 #+begin_export html
+<br/><br/>
+[TODO rearview]
+<br/><br/>
 <br/><br/>
 #+end_export
 
