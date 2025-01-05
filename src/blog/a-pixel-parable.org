@@ -5,8 +5,8 @@ layout: post
 lang: en
 tags: [videogames, software, fiction, movies]
 excerpt: An imagined town is at least as real as an actual town.
-image: loom.png
-cover-img: loom2.png
+image: parable/loom.png
+cover-img: parable/loom2.png
 favorite: true
 refs: [monkey, maniac, zak, aopnc, maher, loom, crusade, starwars, dottbook]
 ---
