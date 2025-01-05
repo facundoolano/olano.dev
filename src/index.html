@@ -1,27 +1,54 @@
 ---
 layout: default
 ---
+
 <div class="h-card">
-    <link href="/" class="u-url u-uid"/>
+  <link href="/" class="u-url u-uid" />
   <h2><a href="#about" class="title" id="about">#about</a></h2>
-  <p class="p-note">I'm <span class="p-name">Facundo Olano</span>, a <span class="p-job-title">software engineer</span> from <span class="p-locality">Buenos Aires</span>, <span class="p-country-name">Argentina</span>.</p>
+  <p class="p-note">
+    I'm <span class="p-name">Facundo Olano</span>, a
+    <span class="p-job-title">software engineer</span> from
+    <span class="p-locality">Buenos Aires</span>,
+    <span class="p-country-name">Argentina</span>.
+  </p>
 
-  <p class="p-note">I use this place mostly to publish my <a href="/blog/">writing</a>. If you want to know more, just click around.</p>
+  <p class="p-note">
+    I use this place mostly to publish my <a href="/blog/">writing</a>. If you
+    want to know more, just click around.
+  </p>
 
-  <h2><a href="#contact" class="title" id="contact">#contact</a></h2>
-  <ul>
-      <li><a href="mailto:facundo.olano@gmail.com" rel="me" class="u-email">@gmail</a></li>
-      <li><a href="https://hachyderm.io/@facundoolano" rel="me">@mastodon</a></li>
-      <li><a href="https://github.com/facundoolano" rel="me">@github</a></li>
+  <h2><a href="#log" class="title" id="contact">#log</a></h2>
+  <div class="blog-index">
+    {% for entry in site.data.log %}
+      <article class="post">
+          <span class="date">{{ entry.date | date: "%Y-%m-%d" }}</span>
+          <div>
+      <span>{{entry.txt| markdownify }} </span>
+      <small>
+      </small>
+          </div>
+    </article>
+    {% endfor %}
   </ul>
 
   <h2><a href="#etc" class="title" id="etc">#etc</a></h2>
   <ul>
-      <li><a href="/blog">/blog</a></li>
-      <li><a href="/feed.xml">/feed</a></li>
-      <li><a href="/projects">/projects</a></li>
-      <li><a href="/reads">/reads</a></li>
-      <li><a href="/resume">/resume</a></li>
-      <li><a href="/blog/tags#ideas">/ideas</a></li>
+    <li><a href="/blog">/blog</a></li>
+    <li><a href="/feed.xml">/feed</a></li>
+    <li><a href="/projects">/projects</a></li>
+    <li><a href="/reads">/reads</a></li>
+    <li><a href="/resume">/resume</a></li>
+    <li><a href="/blog/tags#ideas">/ideas</a></li>
+  </ul>
+
+  <h2><a href="#contact" class="title" id="contact">#contact</a></h2>
+  <ul>
+    <li>
+      <a href="mailto:facundo.olano@gmail.com" rel="me" class="u-email"
+        >@gmail</a
+      >
+    </li>
+    <li><a href="https://hachyderm.io/@facundoolano" rel="me">@mastodon</a></li>
+    <li><a href="https://github.com/facundoolano" rel="me">@github</a></li>
   </ul>
 </div>
