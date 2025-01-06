@@ -5,8 +5,8 @@ layout: post
 lang: en
 tags: [videogames, software, fiction, movies]
 excerpt: An imagined town is at least as real as an actual town.
-image: loom.png
-cover-img: loom2.png
+image: parable/loom.png
+cover-img: parable/loom2.png
 favorite: true
 refs: [monkey, maniac, zak, aopnc, maher, loom, crusade, starwars, dottbook]
 ---
@@ -71,9 +71,16 @@ His hand feels like a claw as he holds that little mouse. Whenever a connection 
 
 For a few evenings, Mark secludes himself in his old high school bedroom, getting familiar with the computer and its painting program. He puts together a little African hut picture and teaches himself to reproduce it, over and over, from a blank page. He repeats it one last time at Skywalker Ranch, a few days later, to survive his interview.
 
-#+begin_export html
-<br/><br/>
-#+end_export
+
+
+#+BEGIN_EXPORT html
+<br/>
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/parable/ranch.jpg">
+</div>
+<div><br/></div>
+#+END_EXPORT
+
 
 Mark walks out of the garage and meets Gary on the porch. Gary shows him around the Stable House, introducing  everyone in the Games Group, and takes him to his desk. He'll be sitting next to Gary and across the hall from Ron and David, the programmers. Mark notices there are not one but two different computers on his desk. And neither looks like the Atari he knows.
 
@@ -89,9 +96,13 @@ After lunch, Ron sits with Mark to play /Maniac Mansion/, his B-horror adventure
 
 Mark leaves the office with sore eyes from the computer screen and a headache from all the names and images shoved into his brain. He's relieved that no one's around to see him pull his Honda out of the underground garage. He slows down as he drives by the Main House, where they had lunch that day, a new building made to look old---period-specific old. Just like the one they put in the game. He circles by an artificial lake, a barn, a vineyard. This little valley is as otherworldly as any of his fantasy landscapes. As a shot from /Star Wars/.
 
-#+begin_export html
-<br/><br/>
-#+end_export
+#+BEGIN_EXPORT html
+<br/>
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/adventures/maniac.png" style="width:100%">
+</div>
+<div><br/></div>
+#+END_EXPORT
 
 His first assignment is to port /Zak MacKracken/\’s Commodore64 backgrounds to the EGA PC. David hands him a description of each location in the game. They call them /rooms/ even though some are outdoors---outer space, even. Each one consists of a short description and a list of "hotspots", the things the player can interact with: objects, doors, that kind of thing. He has to make sure those remain visible on the new backgrounds. Other than the list of rooms, the only design document is a huge chart posted on a wall, a sort of storyboard for programmers. Mark can't make sense of it---or the game, for that matter. /Zak MacKracken/ is bigger and more ambitious than /Maniac Mansion/; the work seems more interesting but the game is undecipherable to Mark.
 
@@ -100,9 +111,13 @@ Both are 16-color systems, but /not the same/ 16 colors, so swapping palettes is
 
 Then there's the palette: black, dark gray, light gray, white, dark blue, light blue, cyan, yellow, mustard brown, dark red, poppy red, peach, magenta, acid-hot pink, grass green, and acid-chartreuse. Always the same suffocating 16 colors for anything he needs to draw. He has to ponder carefully what colors to "spend", an early decision that constraints the rest of his choices: the scene composition, the mood, what's shown, what's hinted. There's no room for impulse or experimentation, everything has to follow a plan. Despite his Digital Artist title, his job doesn't seem much concerned with art. The only creativity is in subverting the tools, working around them, against them, exploiting their limitations.
 
-#+begin_export html
-<br/><br/>
-#+end_export
+#+BEGIN_EXPORT html
+<br/>
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/parable/desk.png">
+</div>
+<div><br/></div>
+#+END_EXPORT
 
 "Coppola," says David.
 
@@ -158,9 +173,13 @@ they have creative freedom but they must live up to the Lucas name: "Stay small,
 
 "And don't embarrass George."
 
-#+begin_export html
-<br/><br/>
-#+end_export
+#+BEGIN_EXPORT html
+<br/>
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/parable/mars.png" style="max-width:100%">
+</div>
+<div><br/></div>
+#+END_EXPORT
 
 The mouse, the pixels, the 16-color palette, the hotspots: those are the constraints he has to work with.
 One trick he discovered early on---a /hack/, programmers would say---is that, when he arranges the pixels in a checkerboard pattern, they will bleed and blend as he zooms them out on the screen. Much like the eyes finish the job as one steps back from an impressionist painting, the monitor melts the pixel mosaic into something richer than what that dull EGA palette could ever project. At first, this is just an accidental observation, he doesn't make much of it. It's only when he starts working on a new batch of /Zak/ backgrounds that he finds himself thinking about those mixed pixels again.
@@ -224,9 +243,14 @@ When he gets back from lunch, Ron and David are having a heated discussion in fr
 
 A week later, David tells Mark that it turns out that dithering is very hard /but not impossible/ to compress. And that Ron is already working on their SCUMM engine to support it. This is now /his/ puzzle to solve. Mark will get to use dithering on their next project. In fact, until further notice, Mark's dithered backgrounds are the official house style. His stock just went up.
 
-#+begin_export html
-<br/><br/>
-#+end_export
+#+BEGIN_EXPORT html
+<br/>
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/parable/loom.gif" style="max-width:100%">
+</div>
+<div><br/></div>
+#+END_EXPORT
+
 
 The Main House is a ten-minute walk from the Stable House. Mark mentioned he would go over to the library and Purcell tagged along. Nobody passes on an excuse to visit the Main House.
 
@@ -287,9 +311,13 @@ There's a counter near the entrance. The librarian asks them what's the purpose 
 
 "He's looking for research material for /Loom/. I'm looking for research material for /Sam & Max/."
 
-#+begin_export html
-<br/><br/>
-#+end_export
+#+BEGIN_EXPORT html
+<br/>
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/parable/library.jpg">
+</div>
+<div><br/></div>
+#+END_EXPORT
 
 "I'm not a historian. I have no idea what it looks like." Donovan walks along the altar, pondering the chalices. Many sizes, many shapes, some gold, some silver, but they all glitter and shine. "Which one is it?" Elsa chooses a cup---a solid gold, emerald-encrusted goblet. Donovan instantly takes it from her. "Oh, yes. It's more beautiful than I'd ever imagined. This certainly is the cup of the King of Kings." Donovan rushes to the well and fills the goblet with water. "Eternal life!" he says, then drinks.
 
@@ -314,9 +342,13 @@ As they walk out of the theater and back to the Stable House, the team discusses
 
 Once they lift the /Star Wars/ embargo, it's going to be hard to keep the suits from putting all hands on deck to milk Chewbacca.
 
-#+begin_export html
-<br/><br/>
-#+end_export
+#+BEGIN_EXPORT html
+<br/>
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/parable/sunset.png" style="max-width:100%">
+</div>
+<div><br/></div>
+#+END_EXPORT
 
 "Imagine that you can get off the boat and wander around, learn more about the characters, and find a way onto those ships." This is how Ron explained his pirate game to anyone who would listen.
 He wanted to do something fantasy-like without doing fantasy, which he hates. So he went with a /Pirates of the Caribbean/ spoof. "You'll get to hunt for treasures, board ships, fight other pirates. That's the whole point of adventure games: to take part in the story, not just be told."
@@ -329,9 +361,13 @@ Tonight, his job is to put everything in the box---the disks, the manual, the hi
 
 It almost feels like a thematic going away party for the game, literally pushing it out of the door. This is as close as a video game can get to a hand-crafted work of art, Mark realizes: to be personally packaged by its authors. The dry smell of plastic, the warmth of freshly printed paper, the slow fit of the cover as he pushes it onto the base of the box, all provide him with a strange satisfaction. Even if his backgrounds merely made it to a corner of the box and a few shots on the manual, seeing and touching them makes his effort a little more worthwhile, his work a little more real.
 
-#+begin_export html
-<br/><br/>
-#+end_export
+#+BEGIN_EXPORT html
+<br/>
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/parable/packaging.jpg">
+</div>
+<div><br/></div>
+#+END_EXPORT
 
 The artists are gathered at the Tech Building for a demonstration. The scanner is a little tray, like the top half of a Xerox machine. It's connected to a Macintosh computer. The scanner costs 10 times the computer, according to the speaker.
 
@@ -393,18 +429,24 @@ He picks up a signed /Loom/ box. "It's signed by The Professor. I signed another
 
 He picks up the box. "This box is too full, I can't carry it like this." He puts the box back on the desk. He walks towards the door, then turns. "I can't leave yet, I haven't finished packing." He looks at the desk. "Neat." He looks at the desk drawer. "Neat." He opens the desk drawer. He looks at the open desk drawer. "There's a piece of rope here." He picks up the piece of rope. "This might come in handy." He looks at the open desk drawer. "It's empty." He uses the piece of rope on the box. "Much better." He picks up the box. He walks out.
 
-#+begin_export html
-<br/><br/>
-#+end_export
+#+BEGIN_EXPORT html
+<br/>
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/parable/rearview2.jpg">
+</div>
+<div><br/></div>
+#+END_EXPORT
+
+
 
 The Honda Civic drives out of the underground garage and turns around the Stable House. Lake Ewok glows like a dithered mirror. The car passes by the barn and the corral then drives away from the security kiosk and onto the main road. A tall tree goes by, followed by two short ones. Then two short trees go by, followed by a tall one. Then two short trees go by, followed by a tall one. Then there are no more trees, just hills and grass and road. The hills smooth down into a plain, Californian unlikely, and the flat darker blue sky grows naked in turn.
 
 The Honda proceeds and the road proceeds but then ends abruptly, like an abandoned flooring job. The car rides on over generic green grass for a while, approaching an edge, moving out of the picture. But not all of it. Halfway out, it freezes. I can still make out the trunk and the glass, and the corner of a tire, sitting there, stationary.
 
-
 #+begin_export html
 <br/><br/><br/>
 #+end_export
+
 
 *** Sources
 - [[https://www.bitmapbooks.com/en-ar/products/the-art-of-point-click-adventure-games][The Art of Point-and-Click Adventure Games]].
