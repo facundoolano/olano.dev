@@ -73,15 +73,13 @@ For a few evenings, Mark secludes himself in his old high school bedroom, gettin
 
 
 
-#+begin_export html
-<br/><br/>
-[TODO skywalker lake]
-<br/><br/>
-<br/><br/>
-#+end_export
-
-
-
+#+BEGIN_EXPORT html
+<br/>
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/parable/ranch.jpg">
+</div>
+<div><br/></div>
+#+END_EXPORT
 
 
 Mark walks out of the garage and meets Gary on the porch. Gary shows him around the Stable House, introducing  everyone in the Games Group, and takes him to his desk. He'll be sitting next to Gary and across the hall from Ron and David, the programmers. Mark notices there are not one but two different computers on his desk. And neither looks like the Atari he knows.
@@ -237,12 +235,13 @@ When he gets back from lunch, Ron and David are having a heated discussion in fr
 
 A week later, David tells Mark that it turns out that dithering is very hard /but not impossible/ to compress. And that Ron is already working on their SCUMM engine to support it. This is now /his/ puzzle to solve. Mark will get to use dithering on their next project. In fact, until further notice, Mark's dithered backgrounds are the official house style. His stock just went up.
 
-#+begin_export html
-<br/><br/>
-[TODO library]
-<br/><br/>
-<br/><br/>
-#+end_export
+#+BEGIN_EXPORT html
+<br/>
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/parable/library.jpg">
+</div>
+<div><br/></div>
+#+END_EXPORT
 
 
 The Main House is a ten-minute walk from the Stable House. Mark mentioned he would go over to the library and Purcell tagged along. Nobody passes on an excuse to visit the Main House.
