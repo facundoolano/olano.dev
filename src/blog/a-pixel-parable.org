@@ -96,9 +96,13 @@ After lunch, Ron sits with Mark to play /Maniac Mansion/, his B-horror adventure
 
 Mark leaves the office with sore eyes from the computer screen and a headache from all the names and images shoved into his brain. He's relieved that no one's around to see him pull his Honda out of the underground garage. He slows down as he drives by the Main House, where they had lunch that day, a new building made to look old---period-specific old. Just like the one they put in the game. He circles by an artificial lake, a barn, a vineyard. This little valley is as otherworldly as any of his fantasy landscapes. As a shot from /Star Wars/.
 
-#+begin_export html
-<br/><br/>
-#+end_export
+#+BEGIN_EXPORT html
+<br/>
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/adventures/maniac.png" style="width:100%">
+</div>
+<div><br/></div>
+#+END_EXPORT
 
 His first assignment is to port /Zak MacKracken/\’s Commodore64 backgrounds to the EGA PC. David hands him a description of each location in the game. They call them /rooms/ even though some are outdoors---outer space, even. Each one consists of a short description and a list of "hotspots", the things the player can interact with: objects, doors, that kind of thing. He has to make sure those remain visible on the new backgrounds. Other than the list of rooms, the only design document is a huge chart posted on a wall, a sort of storyboard for programmers. Mark can't make sense of it---or the game, for that matter. /Zak MacKracken/ is bigger and more ambitious than /Maniac Mansion/; the work seems more interesting but the game is undecipherable to Mark.
 
@@ -169,9 +173,13 @@ they have creative freedom but they must live up to the Lucas name: "Stay small,
 
 "And don't embarrass George."
 
-#+begin_export html
-<br/><br/>
-#+end_export
+#+BEGIN_EXPORT html
+<br/>
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/parable/mars.png" style="max-width:100%">
+</div>
+<div><br/></div>
+#+END_EXPORT
 
 The mouse, the pixels, the 16-color palette, the hotspots: those are the constraints he has to work with.
 One trick he discovered early on---a /hack/, programmers would say---is that, when he arranges the pixels in a checkerboard pattern, they will bleed and blend as he zooms them out on the screen. Much like the eyes finish the job as one steps back from an impressionist painting, the monitor melts the pixel mosaic into something richer than what that dull EGA palette could ever project. At first, this is just an accidental observation, he doesn't make much of it. It's only when he starts working on a new batch of /Zak/ backgrounds that he finds himself thinking about those mixed pixels again.
@@ -238,7 +246,7 @@ A week later, David tells Mark that it turns out that dithering is very hard /bu
 #+BEGIN_EXPORT html
 <br/>
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/parable/library.jpg">
+ <img src="{{site.config.static_root}}/img/parable/loom.gif" style="max-width:100%">
 </div>
 <div><br/></div>
 #+END_EXPORT
@@ -306,7 +314,7 @@ There's a counter near the entrance. The librarian asks them what's the purpose 
 #+BEGIN_EXPORT html
 <br/>
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/parable/loom.gif" style="max-width:100%">
+ <img src="{{site.config.static_root}}/img/parable/library.jpg">
 </div>
 <div><br/></div>
 #+END_EXPORT
@@ -337,7 +345,7 @@ Once they lift the /Star Wars/ embargo, it's going to be hard to keep the suits 
 #+BEGIN_EXPORT html
 <br/>
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/parable/crusade.jpg" style="max-width:100%">
+ <img src="{{site.config.static_root}}/img/parable/sunset.png" style="max-width:100%">
 </div>
 <div><br/></div>
 #+END_EXPORT
@@ -360,7 +368,6 @@ It almost feels like a thematic going away party for the game, literally pushing
 </div>
 <div><br/></div>
 #+END_EXPORT
-
 
 The artists are gathered at the Tech Building for a demonstration. The scanner is a little tray, like the top half of a Xerox machine. It's connected to a Macintosh computer. The scanner costs 10 times the computer, according to the speaker.
 
@@ -398,13 +405,9 @@ Mark continues: "It felt like we were finally getting somewhere, during /Monkey/
 
 He can already see it: after VGA and scanners, it will be compact discs, or RGB color, or those 3D models they've been using over at the ILM basement. More colors, more space, more processing power, but also more complications, more time to master the tools. Forget about creativity or innovation, squeezing any art out of the machines. They'll be struggling just to stay competent. Before they know it, they'll have to start over with the hot new thing.
 
-#+BEGIN_EXPORT html
-<br/>
-<div class="text-center">
- <img src="{{site.config.static_root}}/img/parable/sunset.png" style="max-width:100%">
-</div>
-<div><br/></div>
-#+END_EXPORT
+#+begin_export html
+<br/><br/>
+#+end_export
 
 Mark walks towards the door, then turns. "I can't leave yet, I haven't finished packing." He looks at his desk. "I should put all this stuff in the box."
 
@@ -434,14 +437,16 @@ He picks up the box. "This box is too full, I can't carry it like this." He puts
 <div><br/></div>
 #+END_EXPORT
 
+
+
 The Honda Civic drives out of the underground garage and turns around the Stable House. Lake Ewok glows like a dithered mirror. The car passes by the barn and the corral then drives away from the security kiosk and onto the main road. A tall tree goes by, followed by two short ones. Then two short trees go by, followed by a tall one. Then two short trees go by, followed by a tall one. Then there are no more trees, just hills and grass and road. The hills smooth down into a plain, Californian unlikely, and the flat darker blue sky grows naked in turn.
 
 The Honda proceeds and the road proceeds but then ends abruptly, like an abandoned flooring job. The car rides on over generic green grass for a while, approaching an edge, moving out of the picture. But not all of it. Halfway out, it freezes. I can still make out the trunk and the glass, and the corner of a tire, sitting there, stationary.
 
-
 #+begin_export html
 <br/><br/><br/>
 #+end_export
+
 
 *** Sources
 - [[https://www.bitmapbooks.com/en-ar/products/the-art-of-point-click-adventure-games][The Art of Point-and-Click Adventure Games]].
