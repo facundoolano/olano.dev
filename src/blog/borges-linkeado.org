@@ -1,5 +1,5 @@
 ---
-title: El escritor y sus vínculos
+title: Borges linkeado
 date: 2025-01-15
 layout: post
 lang: es
@@ -40,11 +40,7 @@ destinadas a detener la muerte. Todas las cosas quieren persistir en su ser, ha 
 Emperador y sus magos creyeron que la inmortalidad es intrínseca y que la corrupción no puede entrar en un orbe cerrado. Quizá el Emperador quiso recrear el principio del tiempo y se llamó [[https://en.wiktionary.org/wiki/%E5%A7%8B#Definitions][Primero]], para
 ser realmente primero, y se llamó [[https://es.wikipedia.org/wiki/Emperador_de_China][Huang Ti]], para ser de algún modo [[https://es.wikipedia.org/wiki/Emperador_amarillo][Huang Ti]], el
 legendario emperador que inventó la escritura y la brújula. Este, según el [[https://es.wikipedia.org/wiki/Libro_de_los_Ritos][/Libro de los ritos/]], dio su nombre verdadero a las cosas[fn:1]; parejamente Shih Huang Ti se jactó, en inscripciones que perduran, de que todas las cosas, bajo
-su imperio, tuvieran el nombre que les conviene[fn:9]. Soñó fundar una dinastía inmortal; ordenó que sus herederos se llamaran Segundo Emperador, Tercer Emperador, Cuarto Emperador, y así hasta lo infinito... He hablado de un propósito mágico; también cabría suponer que erigir la muralla y quemar los libros no fueron actos simultáneos. Esto (según el orden que eligiéramos) nos daría la imagen de un rey que empezó por destruir y luego se resignó a conservar, o la de un rey desengañado que destruyó lo que antes defendía. Ambas conjeturas son dramáticas, pero carecen, que yo sepa, de base histórica. [[https://es.wikipedia.org/wiki/Herbert_Giles][Herbert Allen Giles]] cuenta que quienes ocultaron libros fueron marcados con un
-hierro candente y condenados a construir, hasta el día de su muerte, la desaforada
-muralla[fn:8]. Esta noticia favorece o tolera otra interpretación. Acaso la muralla fue una
-metáfora, acaso Shih Huang Ti condenó a quienes adoraban el pasado a una obra
-tan vasta como el pasado, tan torpe y tan inútil. Acaso la muralla fue un desafío y Shih Huang Ti pensó: “Los hombres aman el pasado y contra ese amor nada puedo, ni pueden mis verdugos, pero alguna vez habrá un hombre que sienta como yo, y ése destruirá mi muralla, como yo he destruido los libros, y ése borrará mi memoria y será mi sombra y mi espejo y no lo sabrá”. Acaso Shih Huang Ti amuralló el imperio porque sabía que éste era deleznable y
+su imperio, tuvieran el nombre que les conviene[fn:9]. Soñó fundar una dinastía inmortal; ordenó que sus herederos se llamaran Segundo Emperador, Tercer Emperador, Cuarto Emperador, y así hasta lo infinito... He hablado de un propósito mágico; también cabría suponer que erigir la muralla y quemar los libros no fueron actos simultáneos. Esto (según el orden que eligiéramos) nos daría la imagen de un rey que empezó por destruir y luego se resignó a conservar, o la de un rey desengañado que destruyó lo que antes defendía. Ambas conjeturas son dramáticas, pero carecen, que yo sepa, de base histórica. [[https://es.wikipedia.org/wiki/Herbert_Giles][Herbert Allen Giles]] cuenta que quienes ocultaron libros fueron marcados con un hierro candente y condenados a construir, hasta el día de su muerte, la desaforada muralla[fn:8]. Esta noticia favorece o tolera otra interpretación. Acaso la muralla fue una metáfora, acaso Shih Huang Ti condenó a quienes adoraban el pasado a una obra tan vasta como el pasado, tan torpe y tan inútil. Acaso la muralla fue un desafío y Shih Huang Ti pensó: “Los hombres aman el pasado y contra ese amor nada puedo, ni pueden mis verdugos, pero alguna vez habrá un hombre que sienta como yo, y ése destruirá mi muralla, como yo he destruido los libros, y ése borrará mi memoria y será mi sombra y mi espejo y no lo sabrá”. Acaso Shih Huang Ti amuralló el imperio porque sabía que éste era deleznable y
 destruyó los libros por entender que eran libros sagrados, o sea libros que enseñan lo que enseña el universo entero o la conciencia de cada hombre. Acaso el incendio de las bibliotecas y la edificación de la muralla son operaciones
 que de un modo secreto se anulan.
 
@@ -58,7 +54,7 @@ La muralla tenaz que en este momento, y en todos, proyecta sobre tierras que no 
 #+end_export
 
 *** Referencias
-[fn:11] /The Renaissance: Studies in Art and Poetry/, Walter Pater, 1888.
+[fn:11] /The Renaissance: Studies in Art and Poetry/, Walter Pater, 1877.
 
 [fn:10] /Estetica come scienza dell’espressione e Linguistica generale/, Benedetto Croce, 1904.
 
