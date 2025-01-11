@@ -1,6 +1,6 @@
 ---
 title: El escritor y sus vínculos
-date: 2025-01-01
+date: 2025-01-15
 layout: post
 lang: es
 tags: [literatura, web, borges]
@@ -30,7 +30,7 @@ Shih Huang Ti había desterrado a [[https://en.wikipedia.org/wiki/Queen_Dowager_
 ortodoxos no vieron otra cosa que una impiedad; Shih Huang Ti, tal vez, quiso
 borrar los libros canónigos porque éstos lo acusaban; Shih Huang Ti, tal vez, quiso
 abolir todo el pasado para abolir un solo recuerdo; la infamia de su madre. (No de
-otra suerte [[https://es.wikipedia.org/wiki/Herodes_I_el_Grande][un rey]], en Judea, [[https://es.wikipedia.org/wiki/Matanza_de_los_Inocentes][hizo matar]] a todos los niños para matar a [[https://es.wikipedia.org/wiki/Jes%C3%BAs_de_Nazaret][uno]][fn:5].)
+otra suerte [[https://es.wikipedia.org/wiki/Herodes_I_el_Grande][un rey]], en Judea, [[https://es.wikipedia.org/wiki/Matanza_de_los_Inocentes][hizo matar]] a todos los niños para matar a [[https://es.wikipedia.org/wiki/Jes%C3%BAs_de_Nazaret][uno]].)
 Esta conjetura es atendible, pero nada nos dice de la muralla, de la segunda cara
 del mito. Shih Huang Ti, según los historiadores, prohibió que se mencionara la
 muerte y buscó el elixir de la inmortalidad y se recluyó en un palacio figurativo, que
@@ -58,15 +58,15 @@ La muralla tenaz que en este momento, y en todos, proyecta sobre tierras que no 
 #+end_export
 
 *** Referencias
-[fn:11] pater
+[fn:11] /The Renaissance: Studies in Art and Poetry/, Walter Pater, 1888.
 
-[fn:10] benedetto
+[fn:10] /Estetica come scienza dell’espressione e Linguistica generale/, Benedetto Croce, 1904.
 
 [fn:8] herbert allen gilles
 
 [fn:9] inscripciones que perduran
 
-[fn:7] spinoza
+[fn:7] /Ethica, ordine geometrico demonstrata/, Baruch Spinoza, 1677.
 
 [fn:1] /Sacred Books of the East, volume 28, part 4: The Li Ki/, James Legge, 1885.
 
@@ -75,7 +75,5 @@ La muralla tenaz que en este momento, y en todos, proyecta sobre tierras que no 
 [fn:3] qué sinólogos?
 
 [fn:4] madre libertina
-
-[fn:5] evangelios
 
 [fn:6] segun qué historiadores
