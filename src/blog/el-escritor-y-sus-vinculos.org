@@ -1,0 +1,81 @@
+---
+title: El escritor y sus vínculos
+date: 2025-01-01
+layout: post
+lang: es
+tags: [literatura, web, borges]
+refs: [inquisiciones]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+
+#+begin_center
+** La muralla y los libros
+#+end_center
+
+
+#+begin_export html
+<br/>
+#+end_export
+
+Leí, días pasados, que el hombre que ordenó la edificación de la casi infinita [[https://es.wikipedia.org/wiki/Gran_Muralla_China][muralla china]] fue aquel primer emperador, [[https://es.wikipedia.org/wiki/Qin_Shi_Huang][Shih Huang Ti]], que asimismo dispuso que se [[https://es.wikipedia.org/wiki/Quema_de_libros_y_sepultura_de_intelectuales][quemaran todos los libros]] anteriores a él[fn:2]. Que las dos vastas operaciones ---las quinientas a seiscientas leguas de piedra opuestas a los [[https://es.wikipedia.org/wiki/Xiongnu][bárbaros]], la rigurosa abolición de la historia, es decir del pasado--- procedieran de una persona y fueran de algún modo sus atributos, inexplicablemente me satisfizo y, a la vez, me inquietó. Indagar las razones de esa emoción es el fin de esta nota.
+
+Históricamente, no hay misterio en las dos medidas. Contemporáneo de las [[https://es.wikipedia.org/wiki/Guerras_p%C3%BAnicas][guerras]] de [[https://es.wikipedia.org/wiki/An%C3%ADbal][Aníbal]], Shih Huang
+Ti, rey de [[https://es.wikipedia.org/wiki/Estado_Qin][Tsin]], [[https://es.wikipedia.org/wiki/Guerras_de_unificaci%C3%B3n_chinas][redujo a su poder]] los [[https://es.wikipedia.org/wiki/Reinos_combatientes][Seis Reinos]] y borró el [[https://es.wikipedia.org/wiki/Fengjian][sistema feudal]]: erigió la muralla, porque las murallas eran defensas; quemó los libros, porque la oposición los invocaba para alabar a los antiguos emperadores.
+Quemar libros y erigir fortificaciones es tarea común de los príncipes; lo único singular en Shih Huang Ti fue la escala en que obró. Así lo dejan entender algunos sinólogos[fn:3], pero yo siento que los hechos que he referido son algo más que una exageración o una hipérbole de disposiciones triviales. Cercar un huerto o un jardín es común; no, cercar un imperio. Tampoco es [[https://es.wiktionary.org/wiki/balad%C3%AD][baladí]] pretender que la más tradicional de las razas renuncie a la memoria de su pasado, mítico o verdadero. [[https://es.wikipedia.org/wiki/Historia_de_China][Tres mil años]] de cronología tenían los chinos (y en esos años, el [[https://es.wikipedia.org/wiki/Emperador_amarillo][Emperador Amarillo]] y [[https://es.wikipedia.org/wiki/Zhuangzi][Chuang Tzu]] y [[https://es.wikipedia.org/wiki/Confucio][Confucio]] y [[https://es.wikipedia.org/wiki/Lao-Tse][Lao Tzu]]), cuando Shih Huang Ti ordenó que la historia comenzara con él.
+
+Shih Huang Ti había desterrado a [[https://en.wikipedia.org/wiki/Queen_Dowager_Zhao][su madre]] por libertina[fn:4]; en su dura justicia, los
+ortodoxos no vieron otra cosa que una impiedad; Shih Huang Ti, tal vez, quiso
+borrar los libros canónigos porque éstos lo acusaban; Shih Huang Ti, tal vez, quiso
+abolir todo el pasado para abolir un solo recuerdo; la infamia de su madre. (No de
+otra suerte [[https://es.wikipedia.org/wiki/Herodes_I_el_Grande][un rey]], en Judea, [[https://es.wikipedia.org/wiki/Matanza_de_los_Inocentes][hizo matar]] a todos los niños para matar a [[https://es.wikipedia.org/wiki/Jes%C3%BAs_de_Nazaret][uno]][fn:5].)
+Esta conjetura es atendible, pero nada nos dice de la muralla, de la segunda cara
+del mito. Shih Huang Ti, según los historiadores, prohibió que se mencionara la
+muerte y buscó el elixir de la inmortalidad y se recluyó en un palacio figurativo, que
+constaba de tantas habitaciones como hay días en el año[fn:6]; estos datos sugieren que
+la muralla en el espacio y el incendio en el tiempo fueron barreras mágicas
+destinadas a detener la muerte. Todas las cosas quieren persistir en su ser, ha escrito [[https://es.wikipedia.org/wiki/Baruch_Spinoza][Baruch Spinoza]][fn:7]; quizá el
+Emperador y sus magos creyeron que la inmortalidad es intrínseca y que la corrupción no puede entrar en un orbe cerrado. Quizá el Emperador quiso recrear el principio del tiempo y se llamó [[https://en.wiktionary.org/wiki/%E5%A7%8B#Definitions][Primero]], para
+ser realmente primero, y se llamó [[https://es.wikipedia.org/wiki/Emperador_de_China][Huang Ti]], para ser de algún modo [[https://es.wikipedia.org/wiki/Emperador_amarillo][Huang Ti]], el
+legendario emperador que inventó la escritura y la brújula. Este, según el [[https://es.wikipedia.org/wiki/Libro_de_los_Ritos][/Libro de los ritos/]], dio su nombre verdadero a las cosas[fn:1]; parejamente Shih Huang Ti se jactó, en inscripciones que perduran, de que todas las cosas, bajo
+su imperio, tuvieran el nombre que les conviene[fn:9]. Soñó fundar una dinastía inmortal; ordenó que sus herederos se llamaran Segundo Emperador, Tercer Emperador, Cuarto Emperador, y así hasta lo infinito... He hablado de un propósito mágico; también cabría suponer que erigir la muralla y quemar los libros no fueron actos simultáneos. Esto (según el orden que eligiéramos) nos daría la imagen de un rey que empezó por destruir y luego se resignó a conservar, o la de un rey desengañado que destruyó lo que antes defendía. Ambas conjeturas son dramáticas, pero carecen, que yo sepa, de base histórica. [[https://es.wikipedia.org/wiki/Herbert_Giles][Herbert Allen Giles]] cuenta que quienes ocultaron libros fueron marcados con un
+hierro candente y condenados a construir, hasta el día de su muerte, la desaforada
+muralla[fn:8]. Esta noticia favorece o tolera otra interpretación. Acaso la muralla fue una
+metáfora, acaso Shih Huang Ti condenó a quienes adoraban el pasado a una obra
+tan vasta como el pasado, tan torpe y tan inútil. Acaso la muralla fue un desafío y Shih Huang Ti pensó: “Los hombres aman el pasado y contra ese amor nada puedo, ni pueden mis verdugos, pero alguna vez habrá un hombre que sienta como yo, y ése destruirá mi muralla, como yo he destruido los libros, y ése borrará mi memoria y será mi sombra y mi espejo y no lo sabrá”. Acaso Shih Huang Ti amuralló el imperio porque sabía que éste era deleznable y
+destruyó los libros por entender que eran libros sagrados, o sea libros que enseñan lo que enseña el universo entero o la conciencia de cada hombre. Acaso el incendio de las bibliotecas y la edificación de la muralla son operaciones
+que de un modo secreto se anulan.
+
+La muralla tenaz que en este momento, y en todos, proyecta sobre tierras que no veré su sistema de sombras es la sombra de un [[https://es.wikipedia.org/wiki/C%C3%A9sar_(t%C3%ADtulo)][César]] que ordenó que la más reverente de las naciones quemara su pasado; es verosímil que la idea nos toque de por sí, fuera de las conjeturas que permite. (Su virtud puede estar en la oposición de construir y destruir, en enorme escala.) Generalizando el caso anterior, podríamos inferir que todas las formas tienen su virtud en sí mismas y no en un “contenido” conjetural. Eso concordaría con la tesis de [[https://es.wikipedia.org/wiki/Benedetto_Croce][Benedetto Croce]][fn:10]; ya [[https://es.wikipedia.org/wiki/Walter_Pater][Pater]], en 1877, afirmó que todas las artes aspiran a la condición de la música, que no es otra cosa que forma[fn:11]. La música, los estados de la felicidad, la mitología, las caras trabajadas por el tiempo, ciertos crepúsculos y ciertos lugares, quieren decirnos algo, o algo dijeron que no hubiéramos debido perder, o están por decir algo; esta inminencia de una revelación, que no se produce, es, quizá, el hecho estético.
+
+#+begin_export html
+<br/>
+<br/>
+<div align="right"><i>Buenos Aires, 1950.</i></div>
+<br/>
+#+end_export
+
+*** Referencias
+[fn:11] pater
+
+[fn:10] benedetto
+
+[fn:8] herbert allen gilles
+
+[fn:9] inscripciones que perduran
+
+[fn:7] spinoza
+
+[fn:1] /Sacred Books of the East, volume 28, part 4: The Li Ki/, James Legge, 1885.
+
+[fn:2] DONDE LO LEE
+
+[fn:3] qué sinólogos?
+
+[fn:4] madre libertina
+
+[fn:5] evangelios
+
+[fn:6] segun qué historiadores
