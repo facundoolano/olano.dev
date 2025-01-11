@@ -2,7 +2,7 @@
 layout: post
 title: "Mario Levrero, programador"
 date: 2023-06-29
-tags: [literatura, software]
+tags: [literatura, software, borges]
 thumbnail-img: levrero.jpg
 share-img: levrero.jpg
 image: levrero.jpg
