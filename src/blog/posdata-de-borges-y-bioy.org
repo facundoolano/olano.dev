@@ -3,7 +3,7 @@ title: Posdata de Borges y Bioy
 date: 2024-07-01 13:59:14
 layout: post
 lang: es
-tags: [literatura]
+tags: [literatura, borges]
 image: borgesbioy.png
 ---
 #+OPTIONS: toc:nil num:nil
