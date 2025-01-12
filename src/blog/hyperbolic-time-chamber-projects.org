@@ -1,40 +1,42 @@
 ---
 title: Hyperbolic Time Chamber Projects
 subtitle: A working list
-date: 2025-01-12 17:22:24
+date: 2025-01-13
 layout: post
 lang: en
 tags: [projects, ideas]
 draft: true
 cover-img: hyperbolic2.png
+excerpt: Writing a list is a little bit like getting started and a little bit like letting go.
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
 In my ever growing list of project ideas, there's a subset that I mentally shelve as "I would totally work on this if only I had the time".
 
-One interesting thing I learned during a sabbatical I took a couple of years ago: even with all the time in the world, even when I was inclined to work on personal projects, I never looked into that mental drawer. As it turns out, what's not appealing enough when you don't have time is still unappealing when you have it.
+One interesting thing I learned during a recent sabbatical year: even with all the time in the world, even when I was inclined to work on personal projects, I never reached for that mental drawer. There was always something better to do. As it turns out, what's not appealing enough when you don't have time is still unappealing when you have it.
 
-But I seriously wish I could work on my Game Boy emulator. Honest. I could work out a routine, do some data structure exercises in the morning, work on my search engine in the afternoon. And let my novel marinate in the back.
+But I seriously wish I could get to work on my Game Boy emulator, honest. I could work out a routine, do some data structure exercises in the morning, work on my search engine in the afternoon. And let my novel marinate in the back.
 
-Now, if the sabbatical wasn't enough, what would it take? Maybe I need to figure my early retirement. Maybe when the CEOs flee to Mars and Universal Basic Income is instituted. Or if time would kindly stood still while I do the work, like in that Borges [[https://en.wikipedia.org/wiki/The_Secret_Miracle][short story]] or that Dragon Ball [[https://en.wikipedia.org/wiki/Dragon_Ball_Z_season_5#ep147][episode]].
+Now, if the sabbatical wasn't enough, what would it take? Maybe I need to figure out how to retire early and stop worrying about the future. Or wait until the CEOs flee to Mars and Universal Basic Income is instituted. Or, if time could kindly stand still, like in that Borges [[https://en.wikipedia.org/wiki/The_Secret_Miracle][short story]] or that Dragon Ball [[https://en.wikipedia.org/wiki/Dragon_Ball_Z_season_5#ep147][episode]], while I do my thing.
 
-In the meantime, what better than to make a list? To be prepared, for when the time comes. So here they are, my Hyperbolic Time Chamber Projects:
+In the meantime, what better than to make a list? To be ready, for when the time comes:
 
 
-1. Go through an algorithms and data structures book in full, excercises included;
+1. Go through an algorithms and data structures book in full, exercises included;
 2. implement some web related protocol, like HTTP,
 3. a web search engine,
-4. a text editor;
-5. build an embedded system, Something to use at home, maybe with an e-ink display;
-6. implement a minimal OS, perhaps something that could run on a raspberry pi,
+4. or a text editor;
+5. build an embedded system, something I can use at home, maybe with an e-ink display;
+6. implement a little OS, perhaps for my Raspberry Pi,
 7. a retro console emulator,
-8. a fantasy console mini game,
-9. a point-and-click graphic adventure,
-10. an online multiplayer game;
-11. write a novel,
-12. a software design book;
-13. design a programming language.
+8. a fantasy console mini-game,
+9. an online multiplayer game,
+10. a point-and-click graphic adventure
+11. if not a graphic adventure engine;
+12. write a novel
+13. and a software design book;
+14. design a programming language.
 
 
-Ah, that felt good. Writing a list is a little bit like getting started and a little bit like letting go. For some reason, now that it's out there, one or two of those projects---god knows which---just got closer to getting done.
+Ah, that felt good. Writing a list is a bit like getting started and a bit like letting go. Now that they're out there, one or two of those projects---god knows which ones---just got a little closer to getting done.
