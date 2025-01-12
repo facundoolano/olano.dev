@@ -1,0 +1,42 @@
+---
+title: Hyperbolic Time Chamber Projects
+subtitle: A working list
+date: 2025-01-12 17:22:24
+layout: post
+lang: en
+tags: [projects, ideas]
+draft: true
+cover-img: hyperbolic2.png
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+As you may have guessed if you looked around, I enjoy tackling side-projects on my free time. And it's more than a hobby, I take these projects seriously, in some regards more seriously than my day job.
+
+As I guess is the case with anyone with such inclinations, I always have more [[/blog/tags#ideas][ideas]] that what I will ever be able to tackle. I keep a list of projects that I would work on, if I only had the time. A little hack for the weekend, a textbook for my vacation, a game for my sabbatical, a language design for when I retire.
+
+When I decided to take a sabbatical a couple of years ago, I didn't had concrete plans, but I vaguely assumed that I would eventually get to work on some of those shelved projects. As it turned out, [[reclaiming-the-web-with-a-personal-reader][my first project]] was learning to be in peace with doing nothing at all. The interesting thing is that, even when I was ready to work on something new, it wasn't any of those "if I only had the time" projects. Even with all the time in the world, those were left shelved.
+
+I have come to accept I won't likely ever work on these, not because they are not worth it, but because I can't imagine a combination of events in which I get the motivation to postpone other things in my life---other projects, even---in order to work on them. To be inclined to tackle them I'd have to have infinite time and no economical pressures. I had to be like that condemned playwright that's gifted a secret miracle in the Borges's story. Or get access to that weird room in Dragon Ball Z, where one year passes while one year passes on earth.
+
+Having accepted that, what better than to make a list? So here they are, my Hyperbolic Time Chamber Projects:
+
+1. Go through an algorithms and data structures book in full, excercises included;
+2. implement some web related protocol, like HTTP,
+3. a web search engine,
+4. a text editor;
+5. build an embedded system, Something to use at home, maybe with an e-ink display;
+6. implement a minimal OS, perhaps something that could run on a raspberry pi,
+7. a retro console emulator,
+8. a fantasy console mini game,
+9. a point-and-click graphic adventure,
+10. an online multiplayer game;
+11. write a novel,
+12. a software design book;
+13. Design a programming language.
+
+<The common theme among these is that they are exercises. They meet a personal need, or build my portfolio, or gain a skill I plan to use elsewhere. They are standards, I don't expect to bring anything original with them.
+<these are the kinds of things that I wish I was forced to do back in college.
+
+<I know that by writing I'll never do them, I immediately increased the chance that I do work on them. I just don't know when, and I have no pressure. I'll feel satisfied if live long enough to try two or three of those
+<
