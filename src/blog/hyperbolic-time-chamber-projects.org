@@ -6,6 +6,7 @@ layout: post
 lang: en
 tags: [projects, ideas]
 cover-img: hyperbolic2.png
+image: hyperbolic.jpg
 excerpt: Writing a list is a little bit like getting started and a little bit like letting go.
 ---
 #+OPTIONS: toc:nil num:nil
