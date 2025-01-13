@@ -5,7 +5,6 @@ date: 2025-01-13
 layout: post
 lang: en
 tags: [projects, ideas]
-draft: true
 cover-img: hyperbolic2.png
 excerpt: Writing a list is a little bit like getting started and a little bit like letting go.
 ---
