@@ -1,0 +1,20 @@
+---
+title: Unit Testing: dogma, intuition, and principles
+date: 2025-01-18 13:57:57
+layout: post
+lang: en
+tags: [software, books]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+** Background
+
+** What I thought I knew about testing
+
+** Dogma, intuition, and principles
+
+** Book Commentary
+
+** Highlights
