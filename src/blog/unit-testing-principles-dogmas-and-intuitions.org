@@ -6,13 +6,13 @@ lang: en
 tags: [software, books, tldr]
 draft: true
 refs: [clarity, testing]
+image: reads/vladimir-khorikov-unit-testing.jpg
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
 ** Background
 [[https://enterprisecraftsmanship.com/book/][Unit Testing: Principles, Practices, and Patterns]] by Vladimir Khorikov
-
 
 - how did I learn about the book
   - pragmatism
@@ -60,6 +60,8 @@ TODO quote introduction to the book
 - perhaps because of that, it's more a software design than a software testing book. which is interesting: striving for a good test suite is a good way to arrive to a good the system design.
   - a good design is one that lends itself to efficient testing; which isn't the same as code adjusted to be testable.
   - the pursuit of an efficient test suite informs the design of the code; which isn't the same as: the writing of the tests drives the writing of the code.
+
+- TODO consider bringing ch 7 diagrams here, and compare with ousterhout's module depth notion
 
 ** Highlights
 
@@ -131,3 +133,24 @@ TODO quote introduction to the book
 - If an out-of-process dependency is only accessible through your application, then communications with such a dependency are not part of your system's observable behaviour. An out-of-process dependency that can't be observed externally, in effect, acts as part of your application.
   - The use of mocks for out-of-process dependencies that you have a full control over leads to brittle tests.
   - The database and your application must be treated as one system.
+
+
+*** Chapter 7: Refactoring toward valuable unit tests
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/testing1.png">
+</div>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/testing2.png">
+</div>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/deep.png" width="60%">
+</div>
+#+END_EXPORT
