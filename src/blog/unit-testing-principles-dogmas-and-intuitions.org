@@ -41,17 +41,17 @@ But before getting into that, what were those intuitions?
 
 - TODO copy list from notebook
 
-(I'm a proud [[https://grugbrain.dev/#grug-on-testing][Grug Brained Developer]])
+(I'm a proud [[https://grugbrain.dev/#grug-on-testing][grug-brained developer]].)
+
+** Dogma, intuition, and principles
 
 - the specific problems I detected in my new project's test suite
 - it was obvious I will have to spend time improving the testing approach, either with dedicated tasks or as I worked on other stuff
 - reading the unit testing book may equip me with tools to spend the time effectively, to avoid pitfalls that could <discredit> the effort, but, most importantly, it would arm me with justification for the cultural change I wanted to <foster>
 
 the book proved a perfect fit for my intentions, I think mainly because of it's principled approach:
-TODO quote introduction to the bookr
+TODO quote introduction to the book
 
-
-** Dogma, intuition, and principles
 
 ** Commentary
 
@@ -99,3 +99,18 @@ TODO quote introduction to the bookr
   - and does it in isolation /from other tests/.
 
 *** Chapter 4: The four pillars of a good unit test
+- A good unit test has the following four attributes:
+  - Protection against regressions
+  - Resistance to refactoring
+  - Fast feedback
+  - Maintainability
+- To maximize protection against regressions, the test needs to aim at exercising as much code as possible
+- Resistance to refactoring means the tests won't fail if the code changes without modifying its observable behavior (no false positives). When present, the benefit of this attribute are:
+  - Tests provide an early warning when you break existing functionality.
+  - You become confident that your code changes won't lead to regressions. Without such confidence, you will be much more hesitant to refactor and much more likely to leave the code base to deteriorate.
+- The more the test is coupled to the implementation details of the system under test (SUT), the more false alarms it generates. You need to make sure the test verifies the end result the SUT delivers: its observable behavior, not the steps it takes to do that.
+- Resistance to refactoring is non-negotiable because whether a test possesses this attribute is mostly a binary choice: the test either has resistance to refactoring or it doesn't.
+  - the trade-off, then, comes down to the choice between how good your tests are at pointing out bugs and how fast they do that" that is, between /protection against regressions/ and /fast feedback/.
+  - eradicating brittleness (false positives) in tests is the first priority on the path to a robust test suite.
+- Choose black-box testing over white-box testing by default. If you can't trace a test back to a business requirement, it's an indication of the test's brittleness. Either restructure or delete this test.
+  - The only exception is when the test covers utility code with high algorithmic complexity.
