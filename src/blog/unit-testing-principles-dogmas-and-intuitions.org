@@ -57,16 +57,16 @@ TODO quote introduction to the book
 
 - it aligns with a lot of my intuition, but derives them from core principles (no subjectivity and no dogma)
 - it's not dogmatic: it focuses on principles, not in rules, and not in methodologies or tools
-- perhaps because of that, it's more a software design than a software testing book. which is interesting: striving for a good test suite is a good way to drive the system design. which is a totally different mindset than trying to drive the design by writing tests.
-
-- what is an enterprise application?
+- perhaps because of that, it's more a software design than a software testing book. which is interesting: striving for a good test suite is a good way to arrive to a good the system design.
+  - a good design is one that lends itself to efficient testing; which isn't the same as code adjusted to be testable.
+  - the pursuit of an efficient test suite informs the design of the code; which isn't the same as: the writing of the tests drives the writing of the code.
 
 ** Highlights
 
 *** Chapter 1: The goal of unit testing
 - The goal of testing is to enable /sustainable/ growth of the software project
 - Code is a liability, not an asset. It's always better to solve problem with the minimum amount of code. Testing code is no different on this regard.
-- Some tests are valuable and contribute a lot to overall software quality. Others don't. They raise false alamrs, don't help you catch regression errors, and are slow and difficult to maintain.
+- Some tests are valuable and contribute a lot to overall software quality. Others don't. They raise false alarms, don't help you catch regression errors, and are slow and difficult to maintain.
 - You need to consider both the test's value and its upkeep cost---time spent in:
   - refactoring the test whe you refactor the underlying code
   - running the test on each code change
@@ -114,3 +114,20 @@ TODO quote introduction to the book
   - eradicating brittleness (false positives) in tests is the first priority on the path to a robust test suite.
 - Choose black-box testing over white-box testing by default. If you can't trace a test back to a business requirement, it's an indication of the test's brittleness. Either restructure or delete this test.
   - The only exception is when the test covers utility code with high algorithmic complexity.
+
+*** Chapter 5: Mocks and test fragility
+- All production code can be categorized along two dimensions:
+  - Public API vs private API
+  - Observable behavior vs. implementation details.
+- For a piece of code to be part of the system's observable behavior, it has to do one of the following things:
+  - Expose an *operation* that helps the client achieve one of its goals.
+  - Expose a *state* that helps the client achieve one of its goals.
+  Any code that does neither of those two things is an implementation detail.
+- Ideally, the system's public API surface should coincide with its observable behavior, and all its implementation details should be hidden from the eyes of the clients. Such a system has a /well-designed/ API.
+  - Making the API well-designed automatically improves unit tests.
+- If the number of operations the client has to invoke on the class to achieve a single goal is greater than one, then that class is likely leaking implementation details. /Ideally, any individual goal should be achieved with a single operation/.
+- The way your system talks to the external world forms the observable behavior of that system as a whole. It's part of the contract your application must hold at all times.
+- The use of mocks is beneficial when verifying the communication pattern between your system and external applications. Conversely, using mocks to verify communications between classes inside your system results in tests that couple to implementation details and therefore fall short of the resistance-to-refactoring metric.
+- If an out-of-process dependency is only accessible through your application, then communications with such a dependency are not part of your system's observable behaviour. An out-of-process dependency that can't be observed externally, in effect, acts as part of your application.
+  - The use of mocks for out-of-process dependencies that you have a full control over leads to brittle tests.
+  - The database and your application must be treated as one system.
