@@ -5,11 +5,15 @@ layout: post
 lang: en
 tags: [software, books, tldr]
 draft: true
+refs: [clarity, testing]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
 ** Background
+[[https://enterprisecraftsmanship.com/book/][Unit Testing: Principles, Practices, and Patterns]] by Vladimir Khorikov
+
+
 - how did I learn about the book
   - pragmatism
   - readability?
@@ -29,13 +33,15 @@ the scenario there was different than what I was used to. you see, I had experie
 
 What I hadn't dealt with in the past was a disciplined team, with an extensive but ineffective test suite. What's worse, they didn't quite realise it was ineffective. Unit tests took a lot of effort to write, they didn't catch many bugs, and they broken on small refactors, but that wasn't perceived as a problem.
 
-I had opinions about testing practices and ideas on how to improve this test suite. But they were based on my past experience, on ultimately subjective instincts. I would need something better than that to convince the team to change the status quo and justify the effort to the manager.
+I had opinions about testing practices and ideas on how to improve this test suite. But they were based on my past experience---ultimately, on subjective intuitions. I would need something better than that to convince the team to change their habits and to justify the effort to my manager.
 
-But before getting into that, what was it that I thought I know about testing?
+But before getting into that, what were those intuitions?
 
 ** What I thought I knew about testing
 
 - TODO copy list from notebook
+
+(I'm a proud [[https://grugbrain.dev/#grug-on-testing][Grug Brained Developer]])
 
 - the specific problems I detected in my new project's test suite
 - it was obvious I will have to spend time improving the testing approach, either with dedicated tasks or as I worked on other stuff
@@ -43,6 +49,8 @@ But before getting into that, what was it that I thought I know about testing?
 
 the book proved a perfect fit for my intentions, I think mainly because of it's principled approach:
 TODO quote introduction to the bookr
+
+
 ** Dogma, intuition, and principles
 
 ** Commentary
@@ -57,15 +65,15 @@ TODO quote introduction to the bookr
 
 *** Chapter 1: The goal of unit testing
 - The goal of testing is to enable /sustainable/ growth of the software project
+- Code is a liability, not an asset. It's always better to solve problem with the minimum amount of code. Testing code is no different on this regard.
 - Some tests are valuable and contribute a lot to overall software quality. Others don't. They raise false alamrs, don't help you catch regression errors, and are slow and difficult to maintain.
 - You need to consider both the test's value and its upkeep cost---time spent in:
   - refactoring the test whe you refactor the underlying code
   - running the test on each code change
   - dealing with false alarms raised by the test
   - reading the test when you're trying to understand how the underlying code behaves
-- Code is a liability, not an asset. It's always better to solve problem with the minimum amount of code. Testing code is no different on this regard.
 - To enable sustainable project growth, you have to exclusively focus on high-quality tests---those are the only type of tests that are worth keeping in the test suite.
-- Coverage metrics are a good negative (low coverage indicates you're not testing enough) indicator but a bad positive one (high coverage doesn't guarantee testing quality).
+- Coverage metrics are a good negative indicator (low coverage means you're not testing enough) but a bad positive one (high coverage doesn't guarantee good testing quality).
   - Targeting a specific coverage number creates a perverse incentive that goes against the goal of unit testing.
 - A successful test suite has the following properties:
   - it's integrated into the development cycle
@@ -89,3 +97,5 @@ TODO quote introduction to the bookr
   - verifies a /single unit of behavior/,
   - does it quickly,
   - and does it in isolation /from other tests/.
+
+*** Chapter 4: The four pillars of a good unit test
