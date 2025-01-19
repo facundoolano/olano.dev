@@ -3,7 +3,7 @@ title: "Unit Testing: dogma, intuition, and principles"
 date: 2025-01-18 13:57:57
 layout: post
 lang: en
-tags: [software, books]
+tags: [software, books, tldr]
 draft: true
 ---
 #+OPTIONS: toc:nil num:nil
@@ -36,4 +36,32 @@ But before getting into that, what was it that I thought I know about testing?
 
 ** Book Commentary
 
+- it aligns with a lot of my intuition, but derives them from core principles (no subjectivity and no dogma)
+- it's not dogmatic: it focuses on principles, not in rules, and not in methodologies or tools
+- perhaps because of that, it's more a software design than a software testing book. which is interesting: striving for a good test suite is a good way to drive the system design. which is a totally different mindset than trying to drive the design by writing tests.
+
+- what is an enterprise application?
+
 ** Highlights
+
+*** Chapter 1: the goal of unit testing
+- The goal of testing is to enable /sustainable/ growth of the software project
+-
+       #+begin_quote
+       Not all tests are created equal. Some of the are valuable and contribute a lot to overall software quality. Others don't. They raise false alamrs, don't help you catch regression errors, and are slow and difficult to maintain. It's easy to fall into the trap of writing unit tests for the sake of unit testing without a clear picture of whether it helps the project
+       #+end_quote
+- You need to consider both the test's value and its upkeep cost---time spent in:
+  - refactoring the test whe you refactor the underlying code
+  - running the test on each code change
+  - dealing with false alarms raised by the test
+  - reading the test when you're trying to understand how the underlying code behaves
+- To enable sustainable project growth, you have to exclusively focus on high-quality tests---those are the only type of tests that are worth keeping in the test suite
+- Code is a liability, not an asset. It's always better to solve problem with the minimum amount of code. Testing code is no different on this regard.
+- Coverage metrics are a good negative (low coverage indicates you're not testing enough) indicator but a bad positive one (high coverage doesn't guarantee testing quality).
+  - Targeting a specific coverage number creates a perverse incentive that goes against the goal of unit testing.
+- A successful test suite has the following properties:
+  - it's integrated into the development cycle
+  - it provides maximum value with minimum maintenance costs
+  - it targets only the most important parts of your code base
+    - in most applications this is the domain model
+      - in order to follow this guideline, you should isolate the domain model from the non-essential parts of the code base.
