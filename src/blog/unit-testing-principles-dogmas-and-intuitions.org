@@ -1,5 +1,5 @@
 ---
-title: Unit Testing: dogma, intuition, and principles
+title: "Unit Testing: dogma, intuition, and principles"
 date: 2025-01-18 13:57:57
 layout: post
 lang: en
@@ -10,6 +10,25 @@ draft: true
 #+LANGUAGE: en
 
 ** Background
+- how did I learn about the book
+- i bought it but didn't consider reading it seriously
+  - didn't even include it in my list
+- because, I had a good idea of what worked and what didn't with testing, been doing it for a decade an a half. probably could pick some good stuff from the book, but I lacked the motivation. there were plenty of other books that seemed a better time investment.
+
+I knew enough to get by.
+
+things changed after recently starting a new job and joining a new team.
+the scenario there was different than what I was used to. you see, I had experience in these:
+- extending an already effective test suite
+- adding tests as part of greenfield project development
+- adding tests to an undertested old project
+- improving or extending a test suite that team agreed was ineffective
+
+What I hadn't dealt with in the past was a disciplined team, with an extensive but ineffective test suite. What's worse, they didn't quite realise it was ineffective. Unit tests took a lot of effort to write, they didn't catch many bugs, and they broken on small refactors, but that wasn't perceived as a problem.
+
+I had opinions about testing practices and ideas on how to improve this test suite. But they were based on my past experience, on ultimately subjective instincts. I would need something better than that to convince the team to change the status quo and justify the effort to the manager.
+
+But before getting into that, what was it that I thought I know about testing?
 
 ** What I thought I knew about testing
 
