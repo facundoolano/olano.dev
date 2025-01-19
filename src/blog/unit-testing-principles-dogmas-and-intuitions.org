@@ -57,17 +57,14 @@ TODO quote introduction to the bookr
 
 *** Chapter 1: The goal of unit testing
 - The goal of testing is to enable /sustainable/ growth of the software project
--
-       #+begin_quote
-       Not all tests are created equal. Some of the are valuable and contribute a lot to overall software quality. Others don't. They raise false alamrs, don't help you catch regression errors, and are slow and difficult to maintain. It's easy to fall into the trap of writing unit tests for the sake of unit testing without a clear picture of whether it helps the project
-       #+end_quote
+- Some tests are valuable and contribute a lot to overall software quality. Others don't. They raise false alamrs, don't help you catch regression errors, and are slow and difficult to maintain.
 - You need to consider both the test's value and its upkeep cost---time spent in:
   - refactoring the test whe you refactor the underlying code
   - running the test on each code change
   - dealing with false alarms raised by the test
   - reading the test when you're trying to understand how the underlying code behaves
-- To enable sustainable project growth, you have to exclusively focus on high-quality tests---those are the only type of tests that are worth keeping in the test suite
 - Code is a liability, not an asset. It's always better to solve problem with the minimum amount of code. Testing code is no different on this regard.
+- To enable sustainable project growth, you have to exclusively focus on high-quality tests---those are the only type of tests that are worth keeping in the test suite.
 - Coverage metrics are a good negative (low coverage indicates you're not testing enough) indicator but a bad positive one (high coverage doesn't guarantee testing quality).
   - Targeting a specific coverage number creates a perverse incentive that goes against the goal of unit testing.
 - A successful test suite has the following properties:
@@ -78,3 +75,17 @@ TODO quote introduction to the bookr
       - in order to follow this guideline, you should isolate the domain model from the non-essential parts of the code base.
 
 *** Chapter 2: What is a unit test?
+- A unit test is an automated test that:
+  - verifies a small piece of code (also known as a /unit/),
+  - does it quickly,
+  - and does it in an isolated manner.
+- There are two distinct views on how to approach unit testing: the /classical/ and the /London/ (a.k.a. /mockist/) schools of unit testing.
+  - The root of the differences is the isolation attribute. The London school views it as isolation of the system under test from its collaborators, whereas the classical school views it as isolation of unit tests themselves from each other.
+- Tests shouldn't verify /units of code/. Rather, they should verify /units of behavior/, something that is meaningful for the problem domaiun and, ideally, something that a business person can recognize as useful. The number of classes it takes to implement such a unit of behavior is irrelevant. The unit could span across multiple classes or only one class, or even take up just a tiny method.
+- A test should tell a story about the problem your code helps to solve, and this story should be cohesive and meaningful to a non-programmer.
+- Instead of reaching for mocks to test a large, complicated graph of interconnected classes, you should focus on not having such a graph of classes in the first place. More often than not, a large class graph is a result of a code design problem.
+- The London style tends to produce tests that couple to the implementation more often than the classical style. This is the main objection against the ubiquitous use of mocks and the London style in general.
+- Assuming the classical view, a unit test can then be redefined as an automated test that:
+  - verifies a /single unit of behavior/,
+  - does it quickly,
+  - and does it in isolation /from other tests/.
