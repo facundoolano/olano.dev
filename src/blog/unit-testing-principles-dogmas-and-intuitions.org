@@ -11,6 +11,9 @@ draft: true
 
 ** Background
 - how did I learn about the book
+  - pragmatism
+  - readability?
+  - unit of behavior
 - i bought it but didn't consider reading it seriously
   - didn't even include it in my list
 - because, I had a good idea of what worked and what didn't with testing, been doing it for a decade an a half. probably could pick some good stuff from the book, but I lacked the motivation. there were plenty of other books that seemed a better time investment.
@@ -32,9 +35,17 @@ But before getting into that, what was it that I thought I know about testing?
 
 ** What I thought I knew about testing
 
+- TODO copy list from notebook
+
+- the specific problems I detected in my new project's test suite
+- it was obvious I will have to spend time improving the testing approach, either with dedicated tasks or as I worked on other stuff
+- reading the unit testing book may equip me with tools to spend the time effectively, to avoid pitfalls that could <discredit> the effort, but, most importantly, it would arm me with justification for the cultural change I wanted to <foster>
+
+the book proved a perfect fit for my intentions, I think mainly because of it's principled approach:
+TODO quote introduction to the bookr
 ** Dogma, intuition, and principles
 
-** Book Commentary
+** Commentary
 
 - it aligns with a lot of my intuition, but derives them from core principles (no subjectivity and no dogma)
 - it's not dogmatic: it focuses on principles, not in rules, and not in methodologies or tools
@@ -44,7 +55,7 @@ But before getting into that, what was it that I thought I know about testing?
 
 ** Highlights
 
-*** Chapter 1: the goal of unit testing
+*** Chapter 1: The goal of unit testing
 - The goal of testing is to enable /sustainable/ growth of the software project
 -
        #+begin_quote
@@ -65,3 +76,5 @@ But before getting into that, what was it that I thought I know about testing?
   - it targets only the most important parts of your code base
     - in most applications this is the domain model
       - in order to follow this guideline, you should isolate the domain model from the non-essential parts of the code base.
+
+*** Chapter 2: What is a unit test?
