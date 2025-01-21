@@ -85,39 +85,19 @@ TODO quote introduction to the book
 ** Highlights
 
 *** Chapter 1: The goal of unit testing
-- The goal of testing is to enable /sustainable/ growth of the software project
-- Code is a liability, not an asset. It's always better to solve problem with the minimum amount of code. Testing code is no different on this regard.
+- The goal of testing is to enable /sustainable/ growth of the software project.
 - Some tests are valuable and contribute a lot to overall software quality. Others don't. They raise false alarms, don't help you catch regression errors, and are slow and difficult to maintain.
-- You need to consider both the test's value and its upkeep cost---time spent in:
-  - refactoring the test whe you refactor the underlying code
-  - running the test on each code change
-  - dealing with false alarms raised by the test
-  - reading the test when you're trying to understand how the underlying code behaves
 - To enable sustainable project growth, you have to exclusively focus on high-quality tests---those are the only type of tests that are worth keeping in the test suite.
-- Coverage metrics are a good negative indicator (low coverage means you're not testing enough) but a bad positive one (high coverage doesn't guarantee good testing quality).
-  - Targeting a specific coverage number creates a perverse incentive that goes against the goal of unit testing.
-- A successful test suite has the following properties:
-  - it's integrated into the development cycle
-  - it provides maximum value with minimum maintenance costs
-  - it targets only the most important parts of your code base
-    - in most applications this is the domain model
-      - in order to follow this guideline, you should isolate the domain model from the non-essential parts of the code base.
+- Coverage metrics are a good negative indicator (low coverage means you're not testing enough) but a bad positive one (high coverage doesn't guarantee good testing quality). Targeting a specific coverage number creates a perverse incentive that goes against the goal of unit testing.
 
 *** Chapter 2: What is a unit test?
 - A unit test is an automated test that:
-  - verifies a small piece of code (also known as a /unit/),
-  - does it quickly,
-  - and does it in an isolated manner.
-- There are two distinct views on how to approach unit testing: the /classical/ and the /London/ (a.k.a. /mockist/) schools of unit testing.
-  - The root of the differences is the isolation attribute. The London school views it as isolation of the system under test from its collaborators, whereas the classical school views it as isolation of unit tests themselves from each other.
-- Tests shouldn't verify /units of code/. Rather, they should verify /units of behavior/, something that is meaningful for the problem domaiun and, ideally, something that a business person can recognize as useful. The number of classes it takes to implement such a unit of behavior is irrelevant. The unit could span across multiple classes or only one class, or even take up just a tiny method.
-- A test should tell a story about the problem your code helps to solve, and this story should be cohesive and meaningful to a non-programmer.
-- Instead of reaching for mocks to test a large, complicated graph of interconnected classes, you should focus on not having such a graph of classes in the first place. More often than not, a large class graph is a result of a code design problem.
-- The London style tends to produce tests that couple to the implementation more often than the classical style. This is the main objection against the ubiquitous use of mocks and the London style in general.
-- Assuming the classical view, a unit test can then be redefined as an automated test that:
   - verifies a /single unit of behavior/,
   - does it quickly,
   - and does it in isolation /from other tests/.
+- Tests shouldn't verify /units of code/. Rather, they should verify /units of behavior/, something that is meaningful for the problem domain and, ideally, something that a business person can recognize as useful. The number of classes it takes to implement such a unit of behavior is irrelevant.
+- The ubiquitous use of mocks produces tests that couple too tightly to the implementation.
+- Instead of reaching for mocks to test a large, complicated graph of interconnected classes, you should focus on not having such a graph of classes in the first place. More often than not, a large class graph is a result of a code design problem.
 
 *** Chapter 4: The four pillars of a good unit test
 - A good unit test has the following four attributes:
@@ -125,37 +105,21 @@ TODO quote introduction to the book
   - Resistance to refactoring
   - Fast feedback
   - Maintainability
-- To maximize protection against regressions, the test needs to aim at exercising as much code as possible
-- Resistance to refactoring means the tests won't fail if the code changes without modifying its observable behavior (no false positives). When present, the benefit of this attribute are:
-  - Tests provide an early warning when you break existing functionality.
-  - You become confident that your code changes won't lead to regressions. Without such confidence, you will be much more hesitant to refactor and much more likely to leave the code base to deteriorate.
+- When there is resistance to refactoring, you become confident that your code changes won't lead to regressions. Without such confidence, you will be much more hesitant to refactor and much more likely to leave the code base to deteriorate.
 - The more the test is coupled to the implementation details of the system under test (SUT), the more false alarms it generates. You need to make sure the test verifies the end result the SUT delivers: its observable behavior, not the steps it takes to do that.
-- Resistance to refactoring is non-negotiable because whether a test possesses this attribute is mostly a binary choice: the test either has resistance to refactoring or it doesn't.
-  - the trade-off, then, comes down to the choice between how good your tests are at pointing out bugs and how fast they do that; that is, between /protection against regressions/ and /fast feedback/.
-  - eradicating brittleness (false positives) in tests is the first priority on the path to a robust test suite.
 - Choose black-box testing over white-box testing by default. If you can't trace a test back to a business requirement, it's an indication of the test's brittleness. Either restructure or delete this test.
-  - The only exception is when the test covers utility code with high algorithmic complexity.
 
 *** Chapter 5: Mocks and test fragility
-- All production code can be categorized along two dimensions:
-  - Public API vs private API
-  - Observable behavior vs. implementation details.
 - For a piece of code to be part of the system's observable behavior, it has to do one of the following things:
   - Expose an *operation* that helps the client achieve one of its goals.
   - Expose a *state* that helps the client achieve one of its goals.
   Any code that does neither of those two things is an implementation detail.
-- Ideally, the system's public API surface should coincide with its observable behavior, and all its implementation details should be hidden from the eyes of the clients. Such a system has a /well-designed/ API.
-  - Making the API well-designed automatically improves unit tests.
-- If the number of operations the client has to invoke on the class to achieve a single goal is greater than one, then that class is likely leaking implementation details. /Ideally, any individual goal should be achieved with a single operation/.
+- Ideally, the system's public API surface should coincide with its observable behavior, and all its implementation details should be hidden from the eyes of the clients. Such a system has a /well-designed/ API. Making the API well-designed automatically improves unit tests.
 - The way your system talks to the external world forms the observable behavior of that system as a whole. It's part of the contract your application must hold at all times.
 - The use of mocks is beneficial when verifying the communication pattern between your system and external applications. Conversely, using mocks to verify communications between classes inside your system results in tests that couple to implementation details and therefore fall short of the resistance-to-refactoring metric.
-- If an out-of-process dependency is only accessible through your application, then communications with such a dependency are not part of your system's observable behaviour. An out-of-process dependency that can't be observed externally, in effect, acts as part of your application.
-  - The use of mocks for out-of-process dependencies that you have a full control over leads to brittle tests.
-  - The database and your application must be treated as one system.
 
 
 *** Chapter 7: Refactoring toward valuable unit tests
-- It's rarely possible to significantly improve a test suite without refactoring the underlying code.
 - All production code can be categorized along two dimensions:
   - Complexity or domain significance.
   - The number of collaborators.
@@ -164,17 +128,12 @@ TODO quote introduction to the book
   - *Domain model and algorithms* (high complexity/significance, few collaborators): this code should be unit tested. The resulting unit tests are highly valuable and cheap.
   - *Controllers* (low complexity/significance, many collaborators): controllers should be briefly tested as part of overarching integration tests.
   - *Overcomplicated code*: this code is hard to test, and as such it's better to split it into domain/algorithms and controllers.
-- The more important or complex the code, the fewer collaborators it should have.
 - Getting rid of the overcomplicated code and unit testing only the domain model and algorithms is the path to a highly valuable, easily maintainable test suite. With this approach, you won't have 100% test coverage, but you don't need to.
-- The Humble Object pattern helps make overcomplicated code testable by extracting business logic out of that code into a separate class. As a result, the remaining code becomes a controller---a thin, /humble/ wrapper around the business logic.
-  - the domain model encapsulates the business logic and the controller deals with the orchestration of collaborators.
-  - You can think of these two responsibilities in terms of /code depth/ versus /code width/. Your code can be either deep (complex or important) or wide (work with many collaborators), but not both.
+- The domain model encapsulates the business logic and the controller deals with the orchestration of collaborators. You can think of these two responsibilities in terms of /code depth/ versus /code width/. Your code can be either deep (complex or important) or wide (work with many collaborators), but not both.
 
 *** Chapter 8: Why integration testing?
 - Check as many of the business scenario's edge cases as possible with unit tests; use integration tests to cover one happy path, as well as any edge cases that can't be covered by unit tests.
 - In the most trivial cases, you might have no unit tests whatsoever. Integration tests retain their value even in simple applications.
-- Making bugs manifest themselves quickly is called the /Fail Fast principle/, and it's a viable alternative to integration testing. This principle makes your application more stable by shortening the feedback loop and protecting the persistence state.
 - Try to always have an explicit, well-known place for the domain model in your code base. The explicit boundary makes it easier to tell the difference between unit and integration tests.
 - Layers of indirection negatively affect your ability to reason about the code. This results in a lot of low-value integration tests, that provide insufficient protection against regressions combined with low resistance to refactoring.
   - In most backend systems, you can get away with just three layers: the domain model, application services layer (controllers), and infrastructure layer.
-- Logging ultimately results in side effects in an out-of-process dependency such as a text file or a database. If these side effects are meant to be observed by your customer, the application's clients, or anyone else other than the developers themselves, then logging /is/ an observable behavior and this must be tested. If the only audience is the developers, then it's an implementation detail that can be freely modified without anyone noticing, in which case it shouldn't be tested.
