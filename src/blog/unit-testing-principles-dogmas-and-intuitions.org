@@ -131,7 +131,7 @@ TODO quote introduction to the book
   - You become confident that your code changes won't lead to regressions. Without such confidence, you will be much more hesitant to refactor and much more likely to leave the code base to deteriorate.
 - The more the test is coupled to the implementation details of the system under test (SUT), the more false alarms it generates. You need to make sure the test verifies the end result the SUT delivers: its observable behavior, not the steps it takes to do that.
 - Resistance to refactoring is non-negotiable because whether a test possesses this attribute is mostly a binary choice: the test either has resistance to refactoring or it doesn't.
-  - the trade-off, then, comes down to the choice between how good your tests are at pointing out bugs and how fast they do that" that is, between /protection against regressions/ and /fast feedback/.
+  - the trade-off, then, comes down to the choice between how good your tests are at pointing out bugs and how fast they do that; that is, between /protection against regressions/ and /fast feedback/.
   - eradicating brittleness (false positives) in tests is the first priority on the path to a robust test suite.
 - Choose black-box testing over white-box testing by default. If you can't trace a test back to a business requirement, it's an indication of the test's brittleness. Either restructure or delete this test.
   - The only exception is when the test covers utility code with high algorithmic complexity.
@@ -171,3 +171,10 @@ TODO quote introduction to the book
   - You can think of these two responsibilities in terms of /code depth/ versus /code width/. Your code can be either deep (complex or important) or wide (work with many collaborators), but not both.
 
 *** Chapter 8: Why integration testing?
+- Check as many of the business scenario's edge cases as possible with unit tests; use integration tests to cover one happy path, as well as any edge cases that can't be covered by unit tests.
+- In the most trivial cases, you might have no unit tests whatsoever. Integration tests retain their value even in simple applications.
+- Making bugs manifest themselves quickly is called the /Fail Fast principle/, and it's a viable alternative to integration testing. This principle makes your application more stable by shortening the feedback loop and protecting the persistence state.
+- Try to always have an explicit, well-known place for the domain model in your code base. The explicit boundary makes it easier to tell the difference between unit and integration tests.
+- Layers of indirection negatively affect your ability to reason about the code. This results in a lot of low-value integration tests, that provide insufficient protection against regressions combined with low resistance to refactoring.
+  - In most backend systems, you can get away with just three layers: the domain model, application services layer (controllers), and infrastructure layer.
+- Logging ultimately results in side effects in an out-of-process dependency such as a text file or a database. If these side effects are meant to be observed by your customer, the application's clients, or anyone else other than the developers themselves, then logging /is/ an observable behavior and this must be tested. If the only audience is the developers, then it's an implementation detail that can be freely modified without anyone noticing, in which case it shouldn't be tested.
