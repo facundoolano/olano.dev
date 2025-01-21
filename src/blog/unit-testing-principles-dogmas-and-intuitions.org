@@ -63,6 +63,25 @@ TODO quote introduction to the book
 
 - TODO consider bringing ch 7 diagrams here, and compare with ousterhout's module depth notion
 
+  #+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/testing1.png">
+</div>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/testing2.png">
+</div>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/deep.png" width="60%">
+</div>
+#+END_EXPORT
+
+
 ** Highlights
 
 *** Chapter 1: The goal of unit testing
@@ -136,21 +155,19 @@ TODO quote introduction to the book
 
 
 *** Chapter 7: Refactoring toward valuable unit tests
+- It's rarely possible to significantly improve a test suite without refactoring the underlying code.
+- All production code can be categorized along two dimensions:
+  - Complexity or domain significance.
+  - The number of collaborators.
+- This categorization gives us four kinds of code:
+  - *Trivial code* (low complexity/significance, few collaborators): this code shouldn't be tested at all
+  - *Domain model and algorithms* (high complexity/significance, few collaborators): this code should be unit tested. The resulting unit tests are highly valuable and cheap.
+  - *Controllers* (low complexity/significance, many collaborators): controllers should be briefly tested as part of overarching integration tests.
+  - *Overcomplicated code*: this code is hard to test, and as such it's better to split it into domain/algorithms and controllers.
+- The more important or complex the code, the fewer collaborators it should have.
+- Getting rid of the overcomplicated code and unit testing only the domain model and algorithms is the path to a highly valuable, easily maintainable test suite. With this approach, you won't have 100% test coverage, but you don't need to.
+- The Humble Object pattern helps make overcomplicated code testable by extracting business logic out of that code into a separate class. As a result, the remaining code becomes a controller---a thin, /humble/ wrapper around the business logic.
+  - the domain model encapsulates the business logic and the controller deals with the orchestration of collaborators.
+  - You can think of these two responsibilities in terms of /code depth/ versus /code width/. Your code can be either deep (complex or important) or wide (work with many collaborators), but not both.
 
-#+BEGIN_EXPORT html
-<div class="text-center">
- <img src="{{site.config.static_root}}/img/testing1.png">
-</div>
-#+END_EXPORT
-
-#+BEGIN_EXPORT html
-<div class="text-center">
- <img src="{{site.config.static_root}}/img/testing2.png">
-</div>
-#+END_EXPORT
-
-#+BEGIN_EXPORT html
-<div class="text-center">
- <img src="{{site.config.static_root}}/img/deep.png" width="60%">
-</div>
-#+END_EXPORT
+*** Chapter 8: Why integration testing?
