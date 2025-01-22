@@ -39,7 +39,22 @@ But before getting into that, what were those intuitions?
 
 ** What I thought I knew about testing
 
-- TODO copy list from notebook
+1. Convincing your organization that unit tests are a good investment was a 1999 problem. Everyone tests now, the conversation should be about testing /effectively/.
+2. The goal of testing is not producing a good design. At best, that's a nice side-effect.
+3. The goal of testing is not documenting the use cases. At best, that's a nice side-effect.
+4. The goals of testing are catching bugs and preventing regressions.
+5. Prescribing TDD is like prescribing top-down programming or dark mode. If it works for you, fine; if it doesn't, fine.
+6. Not every layer of the code needs to be tested in isolation.
+7. Hell, not every layer of the code needs to be tested.
+8. The more tests are not the merrier.
+9. It's OK to skip tests on a prototype.
+10. If you haven't added tests, it's still a prototype.
+11. Coverage metrics can tell you what you missed. Targeting a specific coverage number is silly.
+12. Integration tests are almost always preferable to unit tests.
+13. Integration tests should be as close as possible to end-to-end---as long as they aren't brittle, slow, or hard to setup.
+14. Mocks are a bad smell.
+15. The database should not be mocked.
+16. Beyond helper functions, trying to remove duplication from test code makes the test suite worse.
 
 (I'm a proud [[https://grugbrain.dev/#grug-on-testing][grug-brained developer]].)
 
