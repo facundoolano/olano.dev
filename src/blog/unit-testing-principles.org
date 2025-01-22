@@ -7,6 +7,7 @@ tags: [software, books, tldr]
 draft: true
 refs: [clarity, testing, wtf, ousterhout]
 image: reads/testing.png
+excerpt: "If we backtrack to the foundation of our discipline, we’ll land on what testing and design have in common: the pursuit of sustainable software."
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
@@ -31,20 +32,23 @@ I have strong [[what-i-think-i-know-about-testing][strong opinions]] about testi
 
 ** Commentary
 
-right from the introduction, this book proved to be what I needed:
-- it's not dogmatic: it focuses on principles, not in rules, and not in methodologies or tools
+Right from the introduction, this book proved to be what I was looking for:
 
-TODO quote intro about explaining first principles
+  #+begin_quote
+This book can help you articulate why the techniques and best practices you’ve been using all along are so helpful. Don’t underestimate this skill. The ability to clearly communicate your ideas to colleagues is priceless. A software developer—even a great one—rarely gets full credit for a design decision if they can’t explain why, exactly, that decision was made. This book can help you transform your knowledge from the realm of the unconscious to something you are able to talk about with anyone.
+  #+end_quote
 
+#+begin_quote
+I come from a mathematical background and strongly believe that guidelines in programming, like theorems in math, should be derived from first principles. I’ve tried to structure this book in a similar way: start with a blank slate by not jumping to conclusions or throwing around unsubstantiated claims, and gradually build my case from the ground up. Interestingly enough, once you establish such first principles, guidelines and best practices often flow naturally as mere implications.
+#+end_quote
 
-- perhaps because of that, it's more a software design than a software testing book.
-  which is interesting: striving for a good test suite is a good way to arrive to a good the system design.
-  - a good design is one that lends itself to efficient testing; which isn't the same as code adjusted to be testable.
-  - the pursuit of an efficient test suite informs the design of the code; which isn't the same as: the writing of the tests drives the writing of the code.
+What pleasantly surprised me was that, without trying too hard, this book says a lot about software design.
+It makes sense, when you think about it: if, as the author suggests, we backtrack to the foundation of our discipline, we'll land on what testing and design have in common: the pursuit of sustainable software.
 
-TODO quote side bar about relation to design
+A good design is one that lends itself to efficient testing---striving for a good test suite helps arriving to a good design. Which is not to say that the code should be adjusted to the tests. Or that the tests should be driving the implementation.
 
-- most meaty chapter, how to structure the codebase, how to refactor into that structure and thus enable a valuable testing strategy.
+- most meaty chapter,
+  how to structure a codebase, how to refactor complicated code to fit that structure, thus enabling an ideal testing strategy.
 
   #+BEGIN_EXPORT html
 <div class="text-center">
@@ -74,7 +78,7 @@ But where John Ousterhout advocates for removing shallow modules, Khorikov sugge
 
 *** Chapter 1: The goal of unit testing
 - The goal of testing is to enable /sustainable/ growth of the software project.
-- Some tests are valuable and contribute a lot to overall software quality. Others don't. They raise false alarms, don't help you catch regression errors, and are slow and difficult to maintain.
+- Some tests are valuable and contribute a lot to the overall software quality. Others don't. They raise false alarms, don't help you catch regression errors, and are slow and difficult to maintain.
 - To enable sustainable project growth, you have to exclusively focus on high-quality tests---those are the only type of tests that are worth keeping in the test suite.
 - Coverage metrics are a good negative indicator (low coverage means you're not testing enough) but a bad positive one (high coverage doesn't guarantee good testing quality). Targeting a specific coverage number creates a perverse incentive that goes against the goal of unit testing.
 
