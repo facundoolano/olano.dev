@@ -5,6 +5,7 @@ layout: post
 lang: en
 tags: [programming, software]
 refs: [grug]
+excerpt: "Convincing your organization that unit tests are a good investment is a 1999 problem. Everyone tests now, the conversation should be about testing effectively."
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
