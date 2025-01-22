@@ -1,3 +1,9 @@
+- date: 2025-01-24
+  txt: published [Unit Testing Principles](/blog/unit-testing-principles)
+  tags: [blog]
+- date: 2025-01-22
+  txt: published [What I think I know about testing](/blog/what-i-think-i-know-about-testing)
+  tags: [blog]
 - date: 2025-01-13
   txt: published [Hyperbolic Time Chamber Projects](/blog/hyperbolic-time-chamber-projects)
   tags: [blog]
