@@ -1,10 +1,17 @@
-- author: Vladimir Khorikov
-  cover_file: vladimir-khorikov-unit-testing.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596211471l/48927138._SX318_.jpg
-  published_at: 2024-10-17
+- author: Richard Sennett
+  cover_file: richard-sennett-el-artesano.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417883343l/7778891.jpg
+  published_at: 2025-01-19
   rating: 0
-  read_at: 2024-10-17
-  title: 'Unit Testing: Principles, Practices, and Patterns'
+  read_at: 2025-01-19
+  title: El artesano
+- author: Stephen        King
+  cover_file: stephen-king-it.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533581382l/10576._SX318_.jpg
+  published_at: 2025-01-18
+  rating: 0
+  read_at: 2025-01-18
+  title: It
 - author: Virginia Tufte
   cover_file: virginia-tufte-artful-sentences.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330740954l/60029.jpg

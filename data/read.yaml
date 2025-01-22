@@ -1,3 +1,10 @@
+- author: Vladimir Khorikov
+  cover_file: vladimir-khorikov-unit-testing.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596211471l/48927138._SX318_.jpg
+  published_at: 2025-01-16
+  rating: 4
+  read_at: 2025-01-16
+  title: 'Unit Testing: Principles, Practices, and Patterns'
 - author: Michael Cunningham
   cover_file: michael-cunningham-las-horas.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601455497l/55515213.jpg
@@ -1401,10 +1408,3 @@
   rating: 2
   read_at: 2020-01-29
   title: Noche en la playa encendida
-- author: Peter Rock
-  cover_file: peter-rock-mi-abandono.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564613341l/49986835._SX318_SY475_.jpg
-  published_at: 2020-01-18
-  rating: 2
-  read_at: 2020-01-18
-  title: Mi abandono
