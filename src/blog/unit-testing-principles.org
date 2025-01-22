@@ -47,22 +47,22 @@ It makes sense, when you think about it: if, as the author suggests, we backtrac
 
 A good design is one that lends itself to efficient testing---striving for a good test suite helps arriving to a good design. Which is not to say that the code should be adjusted to the tests. Or that the tests should be driving the implementation.
 
-- most meaty chapter,
-  how to structure a codebase, how to refactor complicated code to fit that structure, thus enabling an ideal testing strategy.
-
   #+BEGIN_EXPORT html
 <div class="text-center">
  <img src="{{site.config.static_root}}/img/testing1.png">
 </div>
 #+END_EXPORT
 
-Splitting overcomplicated code into deep domain classes to be extensively unit tested, and wide controllers to covered sparingly with integration tests.
+This interrelation between design and testing is best illustrated in chapter 7, where the author suggests an ideal structure for the codebase, and shows how to refactor code towards that structure, thus enabling an effective testing strategy.
+
+<Splitting overcomplicated code into deep domain classes to be extensively unit tested, and wide controllers to be covered sparingly with integration tests.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
  <img src="{{site.config.static_root}}/img/testing2.png">
 </div>
 #+END_EXPORT
+
 
 I found this notion interestingly similar to the discussion of /module depth/ from /A Philosophy of Software Design/:
 
