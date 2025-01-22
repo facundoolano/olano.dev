@@ -1,25 +1,27 @@
 ---
-title: "Unit Testing Principles"
+title: "[tl;dr] Unit Testing Principles"
 date: 2025-01-28 13:57:57
 layout: post
 lang: en
 tags: [software, books, tldr]
 draft: true
 refs: [clarity, testing]
-image: reads/vladimir-khorikov-unit-testing.jpg
+image: reads/testing.png
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-** Background
-[[https://enterprisecraftsmanship.com/book/][Unit Testing: Principles, Practices, and Patterns]] by Vladimir Khorikov
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/testing.png" width="320">
+</div>
+#+END_EXPORT
 
-- how did I learn about the book
-  - pragmatism
-  - readability?
-  - unit of behavior
-- i bought it but didn't consider reading it seriously
-  - didn't even include it in my list
+
+I first learned about the [[https://enterprisecraftsmanship.com/book/][/Unit Testing/]] book through Saša Jurić’s [[https://www.youtube.com/watch?v=6sNmJtoKDCo][Clarity talk]]. The entire talk is brilliant but the last 15 minutes, when he applies everything he's been discussing so far to the realm if tests, was eye-opening. Jurić attributed his style, that of testing units /of behavior/ instead of units /of code/, to Vladimir Khorikov /Unit Testing/ book, so I decided to buy a copy.
+
+I had the book but, truth is, I never made serious plans to read it. It didn't even make it to my [[my-software-bookshelf][software bookshelf]] post.
+
 - because, I had a good idea of what worked and what didn't with testing, been doing it for a decade an a half. probably could pick some good stuff from the book, but I lacked the motivation. there were plenty of other books that seemed a better time investment.
 
 I knew enough to get by.
@@ -33,25 +35,28 @@ the scenario there was different than what I was used to. you see, I had experie
 
 What I hadn't dealt with in the past was a disciplined team, with an extensive but ineffective test suite. What's worse, they didn't quite realise it was ineffective. Unit tests took a lot of effort to write, they didn't catch many bugs, and they broken on small refactors, but that wasn't perceived as a problem.
 
-I have <strong and somewhat unpopular> opinions about testing [LINK] practices and ideas on how to improve this test suite. But they were based on my past experience---ultimately, on subjective intuitions. I would need something better than that to convince the team to change their habits and to justify the effort to my manager.
+I have <strong and somewhat unpopular> opinions about testing [LINK],
+so I immediately knew what I wanted to improve on this test suite.
+But they were based on my past experience---ultimately, on subjective intuitions. I would need something better than that to convince the team to change their habits and to justify the effort to my manager.
 
-** Dogma, intuition, and principles
 
-- the specific problems I detected in my new project's test suite
-- it was obvious I will have to spend time improving the testing approach, either with dedicated tasks or as I worked on other stuff
-- reading the unit testing book may equip me with tools to spend the time effectively, to avoid pitfalls that could <discredit> the effort, but, most importantly, it would arm me with justification for the cultural change I wanted to <foster>
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
+
 
 the book proved a perfect fit for my intentions, I think mainly because of it's principled approach:
 TODO quote introduction to the book
 
-** Commentary
-
 - it aligns with a lot of my intuition, but derives them from core principles (no subjectivity and no dogma)
 - it's not dogmatic: it focuses on principles, not in rules, and not in methodologies or tools
-- perhaps because of that, it's more a software design than a software testing book. which is interesting: striving for a good test suite is a good way to arrive to a good the system design.
+- perhaps because of that, it's more a software design than a software testing book.
+  which is interesting: striving for a good test suite is a good way to arrive to a good the system design.
   - a good design is one that lends itself to efficient testing; which isn't the same as code adjusted to be testable.
   - the pursuit of an efficient test suite informs the design of the code; which isn't the same as: the writing of the tests drives the writing of the code.
+- todo quote side bar about testing
 
+- most meaty chapter
 - TODO consider bringing ch 7 diagrams here, and compare with ousterhout's module depth notion
 
   #+BEGIN_EXPORT html
