@@ -1,6 +1,6 @@
 ---
-title: "Unit Testing: dogma, intuition, and principles"
-date: 2025-01-18 13:57:57
+title: "Unit Testing Principles"
+date: 2025-01-28 13:57:57
 layout: post
 lang: en
 tags: [software, books, tldr]
@@ -33,30 +33,7 @@ the scenario there was different than what I was used to. you see, I had experie
 
 What I hadn't dealt with in the past was a disciplined team, with an extensive but ineffective test suite. What's worse, they didn't quite realise it was ineffective. Unit tests took a lot of effort to write, they didn't catch many bugs, and they broken on small refactors, but that wasn't perceived as a problem.
 
-I had opinions about testing practices and ideas on how to improve this test suite. But they were based on my past experience---ultimately, on subjective intuitions. I would need something better than that to convince the team to change their habits and to justify the effort to my manager.
-
-But before getting into that, what were those intuitions?
-
-** What I thought I knew about testing
-
-1. Convincing your organization that unit tests are a good investment was a 1999 problem. Everyone tests now, the conversation should be about testing /effectively/.
-2. The goal of testing is not producing a good design. At best, that's a nice side-effect.
-3. The goal of testing is not documenting the use cases. At best, that's a nice side-effect.
-4. The goals of testing are catching bugs and preventing regressions.
-5. Prescribing TDD is like prescribing top-down programming or dark mode. If it works for you, fine; if it doesn't, fine.
-6. Not every layer of the code needs to be tested in isolation.
-7. Hell, not every layer of the code needs to be tested.
-8. The more tests are not the merrier.
-9. It's OK to skip tests on a prototype.
-10. If you haven't added tests, it's still a prototype.
-11. Coverage metrics can tell you what you missed. Targeting a specific coverage number is silly.
-12. Integration tests are almost always preferable to unit tests.
-13. Integration tests should be as close as possible to end-to-end---as long as they aren't brittle, slow, or hard to setup.
-14. Mocks are a bad smell.
-15. The database should not be mocked.
-16. Beyond helper functions, trying to remove duplication from test code makes the test suite worse.
-
-(I'm a proud [[https://grugbrain.dev/#grug-on-testing][grug-brained developer]].)
+I have <strong and somewhat unpopular> opinions about testing [LINK] practices and ideas on how to improve this test suite. But they were based on my past experience---ultimately, on subjective intuitions. I would need something better than that to convince the team to change their habits and to justify the effort to my manager.
 
 ** Dogma, intuition, and principles
 
@@ -66,7 +43,6 @@ But before getting into that, what were those intuitions?
 
 the book proved a perfect fit for my intentions, I think mainly because of it's principled approach:
 TODO quote introduction to the book
-
 
 ** Commentary
 
