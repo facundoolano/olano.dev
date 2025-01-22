@@ -47,15 +47,15 @@ It makes sense, when you think about it: if, as the author suggests, we backtrac
 
 A good design is one that lends itself to efficient testing---striving for a good test suite helps arriving to a good design. Which is not to say that the code should be adjusted to the tests. Or that the tests should be driving the implementation.
 
+This interrelation between design and testing is best illustrated in chapter 7, where the author suggests an ideal structure for the codebase, and shows how to refactor code towards that structure, thus enabling an effective testing strategy.
+
   #+BEGIN_EXPORT html
 <div class="text-center">
  <img src="{{site.config.static_root}}/img/testing1.png">
 </div>
 #+END_EXPORT
 
-This interrelation between design and testing is best illustrated in chapter 7, where the author suggests an ideal structure for the codebase, and shows how to refactor code towards that structure, thus enabling an effective testing strategy.
-
-<Splitting overcomplicated code into deep domain classes to be extensively unit tested, and wide controllers to be covered sparingly with integration tests.
+Overcomplicated code should be split into /deep/ domain classes, to be extensively unit tested, and /wide/ controllers with many collaborators, exercised by integration tests.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -72,7 +72,7 @@ I found this notion interestingly similar to the discussion of /module depth/ fr
 </div>
 #+END_EXPORT
 
-But where John Ousterhout advocates for removing shallow modules, Khorikov suggests that there's a role for such wide (and thin) classes: to orchestrate the collaborators involved in any meaningful operation, freeing the domain model to encapsulate the business logic---the essence of the program.
+But where Ousterhout advocates for avoiding shallow modules, Khorikov suggests that there's a role for such wide (and thin) classes: to orchestrate the pieces involved in any meaningful operation, freeing the domain model to focus on business logic---a program's essence.
 
 ** Highlights
 
