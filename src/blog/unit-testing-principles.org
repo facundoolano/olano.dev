@@ -1,11 +1,11 @@
 ---
-title: "[tl;dr] Unit Testing Principles"
+title: "Unit Testing Principles"
 date: 2025-01-28 13:57:57
 layout: post
 lang: en
 tags: [software, books, tldr]
 draft: true
-refs: [clarity, testing]
+refs: [clarity, testing, wtf]
 image: reads/testing.png
 ---
 #+OPTIONS: toc:nil num:nil
@@ -18,43 +18,32 @@ image: reads/testing.png
 #+END_EXPORT
 
 
-I first learned about the [[https://enterprisecraftsmanship.com/book/][/Unit Testing/]] book through Saša Jurić’s [[https://www.youtube.com/watch?v=6sNmJtoKDCo][Clarity talk]]. The entire talk is brilliant but the last 15 minutes, when he applies everything he's been discussing so far to the realm if tests, was eye-opening. Jurić attributed his style, that of testing units /of behavior/ instead of units /of code/, to Vladimir Khorikov /Unit Testing/ book, so I decided to buy a copy.
+I first learned about the [[https://enterprisecraftsmanship.com/book/][/Unit Testing/]] book through Saša Jurić’s [[https://www.youtube.com/watch?v=6sNmJtoKDCo][Clarity talk]]. The entire talk is brilliant but especially the last 15 minutes, when he turns the discussion to testing, were eye-opening. Jurić attributed his style, that of testing units /of behavior/ instead of units /of code/, to Vladimir Khorikov /Unit Testing/ book, so I decided to buy a copy.
 
-I had the book but, truth is, I never made serious plans to read it. It didn't even make it to my [[my-software-bookshelf][software bookshelf]] post.
+I had the book but, truth is, I didn't plan to read it. It didn't even make it to my [[my-software-bookshelf][software bookshelf]] post. After all, I knew what worked for me and what didn't when it came to tests. There surely was plenty to learn from the book, but I had enough to get by. I'd rather spent my time reading something else.
 
-- because, I had a good idea of what worked and what didn't with testing, been doing it for a decade an a half. probably could pick some good stuff from the book, but I lacked the motivation. there were plenty of other books that seemed a better time investment.
+But then I started on a new job, joining a new team. What I found there was curious:
+my colleagues were very disciplined, they had an extensive test suite, every public function on every module had its test, coverage was high. And, still, this was an /ineffective/ test suite. Tests were a lot of work to write, breaking on the smallest of refactors, bugs slipping through the cracks.
+What's worse, this wasn't perceived as a problem; the team didn't realise they could do better.
 
-I knew enough to get by.
-
-things changed after recently starting a new job and joining a new team.
-the scenario there was different than what I was used to. you see, I had experience in these:
-- extending an already effective test suite
-- adding tests as part of greenfield project development
-- adding tests to an undertested old project
-- improving or extending a test suite that team agreed was ineffective
-
-What I hadn't dealt with in the past was a disciplined team, with an extensive but ineffective test suite. What's worse, they didn't quite realise it was ineffective. Unit tests took a lot of effort to write, they didn't catch many bugs, and they broken on small refactors, but that wasn't perceived as a problem.
-
-I have <strong and somewhat unpopular> opinions about testing [LINK],
-so I immediately knew what I wanted to improve on this test suite.
-But they were based on my past experience---ultimately, on subjective intuitions. I would need something better than that to convince the team to change their habits and to justify the effort to my manager.
-
+I have strong [[what-i-think-i-know-about-testing][strong opinions]] about testing, so I immediately knew what I wanted to change on this project. The problem was that my opinions were that: opinions---based on experience, yes, but, ultimately,  just subjective intuitions. And I was the new guy, without reputation credits to spend; I would need something better than gut feeling to convince the team to change habits, and to justify the effort to my manager. I [[https://www.simplermachines.com/why-you-need-a-wtf-notebook/][refrained from proposing any changes]], and started reading the testing book instead.
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-
-the book proved a perfect fit for my intentions, I think mainly because of it's principled approach:
-TODO quote introduction to the book
-
-- it aligns with a lot of my intuition, but derives them from core principles (no subjectivity and no dogma)
+right from the introduction, this book proved to be what I needed:
 - it's not dogmatic: it focuses on principles, not in rules, and not in methodologies or tools
+
+TODO quote intro about explaining first principles
+
+
 - perhaps because of that, it's more a software design than a software testing book.
   which is interesting: striving for a good test suite is a good way to arrive to a good the system design.
   - a good design is one that lends itself to efficient testing; which isn't the same as code adjusted to be testable.
   - the pursuit of an efficient test suite informs the design of the code; which isn't the same as: the writing of the tests drives the writing of the code.
-- todo quote side bar about testing
+
+TODO quote side bar about relation to design
 
 - most meaty chapter
 - TODO consider bringing ch 7 diagrams here, and compare with ousterhout's module depth notion
@@ -78,7 +67,10 @@ TODO quote introduction to the book
 #+END_EXPORT
 
 
+
 ** Highlights
+
+These are my favorite passages of the book.
 
 *** Chapter 1: The goal of unit testing
 - The goal of testing is to enable /sustainable/ growth of the software project.
