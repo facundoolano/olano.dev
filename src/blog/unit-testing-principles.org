@@ -5,7 +5,7 @@ layout: post
 lang: en
 tags: [software, books, tldr]
 draft: true
-refs: [clarity, testing, wtf]
+refs: [clarity, testing, wtf, ousterhout]
 image: reads/testing.png
 ---
 #+OPTIONS: toc:nil num:nil
@@ -13,7 +13,7 @@ image: reads/testing.png
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/testing.png" width="320">
+ <a href="https://enterprisecraftsmanship.com/book/"> <img src="{{site.config.static_root}}/img/testing.png" width="320"></a>
 </div>
 #+END_EXPORT
 
@@ -44,8 +44,7 @@ TODO quote intro about explaining first principles
 
 TODO quote side bar about relation to design
 
-- most meaty chapter
-- TODO consider bringing ch 7 diagrams here, and compare with ousterhout's module depth notion
+- most meaty chapter, how to structure the codebase, how to refactor into that structure and thus enable a valuable testing strategy.
 
   #+BEGIN_EXPORT html
 <div class="text-center">
@@ -53,11 +52,15 @@ TODO quote side bar about relation to design
 </div>
 #+END_EXPORT
 
+Splitting overcomplicated code into deep domain classes to be extensively unit tested, and wide controllers to covered sparingly with integration tests.
+
 #+BEGIN_EXPORT html
 <div class="text-center">
  <img src="{{site.config.static_root}}/img/testing2.png">
 </div>
 #+END_EXPORT
+
+I found this notion interestingly similar to the discussion of /module depth/ from /A Philosophy of Software Design/:
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -65,7 +68,7 @@ TODO quote side bar about relation to design
 </div>
 #+END_EXPORT
 
-
+But where John Ousterhout advocates for removing shallow modules, Khorikov suggests that there's a role for such wide (and thin) classes: to orchestrate the collaborators involved in any meaningful operation, freeing the domain model to encapsulate the business logic---the essence of the program.
 
 ** Highlights
 
