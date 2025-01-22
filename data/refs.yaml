@@ -458,3 +458,10 @@
   title: Explaining Software
   author: Zachary Tellman
   year: 2024
+- id: testing
+  title: "Unit Testing: Principles, Practices, and Patterns"
+  author: Vladimir Khorikov
+  year: 2020
+- id: grug
+  title: "The Grug Brained Developer: A layman's guide to thinking like the self-aware smol brained"
+  year: 2022

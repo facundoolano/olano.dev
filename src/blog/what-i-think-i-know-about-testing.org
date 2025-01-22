@@ -1,0 +1,33 @@
+---
+title: What I think I know about testing
+date: 2025-01-22
+layout: post
+lang: en
+tags: [programming, software]
+refs: [grug]
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+1. Convincing your organization that unit tests are a good investment is a 1999 problem. Everyone tests now, the conversation should be about testing /effectively/.
+2. The goal of testing is not to produce a good design. At best, that's a nice side-effect.
+3. The goal of testing is not to document the business. At best, that's a nice side-effect.
+4. The goal of testing is to catch bugs and prevent regressions.
+5. Prescribing TDD is like prescribing top-down programming or dark mode. If it works for you, fine; if it doesn't, fine.
+6. Not every layer of the code needs to be tested in isolation.
+7. Hell, not every layer of the code needs to be tested.
+8. The more tests are not the merrier.
+9. It's OK to skip tests on a prototype.
+10. If it doesn't have tests, it's a prototype.
+11. Coverage metrics can tell you what you missed. Targeting a specific coverage number is silly.
+12. Integration tests are almost always preferable to unit tests.
+13. Integration tests should be pushed as close as possible to end-to-end tests---without making them slow, brittle, or hard to set up.
+14. Mocks are a bad smell.
+15. The database should not be mocked.
+16. Beyond helper functions, trying to remove duplication makes test code worse.
+
+    #+begin_export html
+    <br/>
+    #+end_export
+
+(I'm a proud [[https://grugbrain.dev/#grug-on-testing][grug-brained developer]].)
