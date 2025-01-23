@@ -19,7 +19,7 @@ layout: default
 
   <h2><a href="#log" class="title" id="contact">#log</a></h2>
   <div class="blog-index">
-    {% for entry in site.data.log %}
+    {% for entry in site.data.log limit:5 %}
       <article class="post">
           <span class="date">{{ entry.date | date: "%Y-%m-%d" }}</span>
           <div>

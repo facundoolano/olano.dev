@@ -1,0 +1,130 @@
+---
+title: "Unit Testing Principles"
+date: 2025-01-23
+layout: post
+lang: en
+tags: [software, books, tldr]
+refs: [clarity, testing, wtf, ousterhout]
+image: reads/testing.png
+excerpt: "If we backtrack to the foundation of our discipline, we’ll land on what testing and design have in common: the pursuit of sustainable software."
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <a href="https://enterprisecraftsmanship.com/book/"> <img src="{{site.config.static_root}}/img/testing.png" width="320"></a>
+</div>
+#+END_EXPORT
+
+
+** Background
+I learned about the [[https://enterprisecraftsmanship.com/book/][/Unit Testing/]] book through Saša Jurić’s [[https://www.youtube.com/watch?v=6sNmJtoKDCo][Clarity talk]]. The entire talk was brilliant but the last 15 minutes especially, when he turned the discussion to testing, were eye-opening. Jurić attributed his style of testing units /of behavior/ instead of units /of code/ to Vladimir Khorikov's /Unit Testing/ book, so I decided to buy a copy.
+
+I had the book but, truth is, I didn't plan to read it. It didn't even make it to my [[my-software-bookshelf][software bookshelf]] post. After all, I knew what worked for me and what didn't when it came to tests; there sure was plenty to learn from the book, but I had enough to get by. I'd rather spend my reading time in some other book.
+
+But then I started a new job, joining a new team. What I found there was curious:
+my new colleagues had been maintaining an extensive test suite, they were very disciplined about it, coverage was high, every public function on every module had its own test. And, yet, this was an /ineffective/ test suite. Tests were a lot of work to write, breaking on the smallest of refactors, bugs slipping through the cracks.
+What's worse, this wasn't perceived as a problem; the team didn't realize they could do better.
+
+I have [[what-i-think-i-know-about-testing][strong opinions]] about testing, so I immediately knew what I wanted to change on this project. The problem was that my opinions were that: just opinions---based on experience but ultimately subjective intuitions. And I was the new guy, without reputation credits to spend; I would need something better than my gut feeling to convince the team to change habits, and to justify the effort to my manager. So for a while, I [[https://www.simplermachines.com/why-you-need-a-wtf-notebook/][refrained from proposing any changes]] and started reading the testing book instead.
+
+** Commentary
+
+Right from the introduction, this book proved to be what I was looking for:
+
+  #+begin_quote
+This book can help you articulate why the techniques and best practices you’ve been using all along are so helpful. Don’t underestimate this skill. The ability to clearly communicate your ideas to colleagues is priceless. A software developer—even a great one—rarely gets full credit for a design decision if they can’t explain why, exactly, that decision was made. This book can help you transform your knowledge from the realm of the unconscious to something you are able to talk about with anyone.
+  #+end_quote
+
+#+begin_quote
+I come from a mathematical background and strongly believe that guidelines in programming, like theorems in math, should be derived from first principles. I’ve tried to structure this book in a similar way: start with a blank slate by not jumping to conclusions or throwing around unsubstantiated claims, and gradually build my case from the ground up. Interestingly enough, once you establish such first principles, guidelines and best practices often flow naturally as mere implications.
+#+end_quote
+
+What pleasantly surprised me was that, without trying too hard, this book says a lot about software design.
+It makes sense when you think about it: if, as the author suggests, we backtrack to the foundation of our discipline, we'll land on what testing and design have in common: the pursuit of sustainable software.
+
+A good design lends itself to efficient testing---striving for a good test suite helps arrive at a good design. This is not to say that the code should be adjusted to the tests. And is not to say that the tests should be driving the implementation.
+
+This interrelation between design and testing is best illustrated in chapter 7, where the author suggests an ideal structure for the codebase, and shows how to refactor code towards that structure, thus enabling effective tests.
+
+  #+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/testing1.png">
+</div>
+#+END_EXPORT
+
+Overcomplicated code should be split into /deep/ domain classes, to be thoroughly unit tested, and /wide/ controllers,  exercised by strategic integration tests.
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/testing2.png">
+</div>
+#+END_EXPORT
+
+
+I found this notion interestingly similar to the discussion of /module depth/ from /A Philosophy of Software Design/:
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/deep.png" width="60%">
+</div>
+#+END_EXPORT
+
+But where Ousterhout advocates for avoiding shallow modules, Khorikov suggests that there's a role for such wide (and thin) classes: to orchestrate the pieces involved in any meaningful operation, freeing the domain model to focus on business logic---the program's essence.
+
+** Highlights
+
+*** Chapter 1: The goal of unit testing
+- The goal of testing is to enable /sustainable/ growth of the software project.
+- Some tests are valuable and contribute a lot to overall software quality. Others don't. They raise false alarms, don't help you catch regression errors, and are slow and difficult to maintain.
+- To enable sustainable project growth, you have to exclusively focus on high-quality tests---those are the only type of tests that are worth keeping in the test suite.
+- Coverage metrics are a good negative indicator (low coverage means you're not testing enough) but a bad positive one (high coverage doesn't guarantee good testing quality). Targeting a specific coverage number creates a perverse incentive that goes against the goal of unit testing.
+
+*** Chapter 2: What is a unit test?
+- A unit test is an automated test that:
+  - verifies a /single unit of behavior/,
+  - does it quickly,
+  - and does it in isolation /from other tests/.
+- Tests shouldn't verify /units of code/. Rather, they should verify /units of behavior/, something that is meaningful for the problem domain and, ideally, something that a business person can recognize as useful. The number of classes it takes to implement such a unit of behavior is irrelevant.
+- The ubiquitous use of mocks produces tests that couple too tightly to the implementation.
+- Instead of reaching for mocks to test a large, complicated graph of interconnected classes, you should focus on not having such a graph of classes in the first place. More often than not, a large class graph is a result of a code design problem.
+
+*** Chapter 4: The four pillars of a good unit test
+- A good unit test has the following four attributes:
+  - Protection against regressions
+  - Resistance to refactoring
+  - Fast feedback
+  - Maintainability
+- When there is resistance to refactoring, you become confident that your code changes won't lead to regressions. Without such confidence, you will be much more hesitant to refactor and much more likely to leave the code base to deteriorate.
+- The more the test is coupled to the implementation details of the system under test (SUT), the more false alarms it generates. You need to make sure the test verifies the end result the SUT delivers: its observable behavior, not the steps it takes to do that.
+- Choose black-box testing over white-box testing by default. If you can't trace a test back to a business requirement, it's an indication of the test's brittleness. Either restructure or delete this test.
+
+*** Chapter 5: Mocks and test fragility
+- For a piece of code to be part of the system's observable behavior, it has to do one of the following things:
+  - Expose an *operation* that helps the client achieve one of its goals.
+  - Expose a *state* that helps the client achieve one of its goals.
+  Any code that does neither of those two things is an implementation detail.
+- Ideally, the system's public API surface should coincide with its observable behavior, and all its implementation details should be hidden from the eyes of the clients. Such a system has a /well-designed/ API. Making the API well-designed automatically improves unit tests.
+- The way your system talks to the external world forms the observable behavior of that system as a whole. It's part of the contract your application must hold at all times.
+- The use of mocks is beneficial when verifying the communication pattern between your system and external applications. Conversely, using mocks to verify communications between classes inside your system results in tests that couple to implementation details and therefore fall short of the resistance-to-refactoring metric.
+
+
+*** Chapter 7: Refactoring toward valuable unit tests
+- All production code can be categorized along two dimensions:
+  - Complexity or domain significance.
+  - The number of collaborators.
+- This categorization gives us four kinds of code:
+  - *Trivial code* (low complexity/significance, few collaborators): this code shouldn't be tested at all
+  - *Domain model and algorithms* (high complexity/significance, few collaborators): this code should be unit tested. The resulting unit tests are highly valuable and cheap.
+  - *Controllers* (low complexity/significance, many collaborators): controllers should be briefly tested as part of overarching integration tests.
+  - *Overcomplicated code* (high complexity/significance, many collaborators): this code is hard to test, and as such it's better to split it into domain/algorithms and controllers.
+- The domain model encapsulates the business logic and the controllers deal with the orchestration of collaborators. You can think of these two responsibilities in terms of /code depth/ versus /code width/. Your code can be either deep (complex or important) or wide (work with many collaborators), but not both.
+- Getting rid of the overcomplicated code and unit testing only the domain model and algorithms is the path to a highly valuable, easily maintainable test suite. With this approach, you won't have 100% test coverage, but you don't need to.
+
+*** Chapter 8: Why integration testing?
+- Check as many of the business scenario's edge cases as possible with unit tests; use integration tests to cover one happy path, as well as any edge cases that can't be covered by unit tests.
+- In the most trivial cases, you might have no unit tests whatsoever. Integration tests retain their value even in simple applications.
+- Try to always have an explicit, well-known place for the domain model in your code base. The explicit boundary makes it easier to tell the difference between unit and integration tests.
+- Layers of indirection negatively affect your ability to reason about the code. This results in a lot of low-value integration tests, that provide insufficient protection against regressions combined with low resistance to refactoring.
+- In most backend systems, you can get away with just three layers: the domain model, application services layer (controllers), and infrastructure layer.
