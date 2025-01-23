@@ -5,7 +5,7 @@ layout: post
 lang: en
 tags: [software, books, tldr]
 refs: [clarity, testing, wtf, ousterhout]
-image: reads/testing.png
+image: testing.png
 excerpt: "If we backtrack to the foundation of our discipline, we’ll land on what testing and design have in common: the pursuit of sustainable software."
 ---
 #+OPTIONS: toc:nil num:nil
