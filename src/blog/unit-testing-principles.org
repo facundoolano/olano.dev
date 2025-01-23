@@ -20,15 +20,15 @@ excerpt: "If we backtrack to the foundation of our discipline, we’ll land on w
 
 
 ** Background
-I first learned about the [[https://enterprisecraftsmanship.com/book/][/Unit Testing/]] book through Saša Jurić’s [[https://www.youtube.com/watch?v=6sNmJtoKDCo][Clarity talk]]. The entire talk is brilliant but the last 15 minutes especially, when he turns the discussion to testing, were eye-opening. Jurić attributed his style of testing units /of behavior/ instead of units /of code/ to Vladimir Khorikov's /Unit Testing/ book, so I decided to buy a copy.
+I learned about the [[https://enterprisecraftsmanship.com/book/][/Unit Testing/]] book through Saša Jurić’s [[https://www.youtube.com/watch?v=6sNmJtoKDCo][Clarity talk]]. The entire talk was brilliant but the last 15 minutes especially, when he turned the discussion to testing, were eye-opening. Jurić attributed his style of testing units /of behavior/ instead of units /of code/ to Vladimir Khorikov's /Unit Testing/ book, so I decided to buy a copy.
 
-I had the book but, truth is, I didn't plan to read it. It didn't even make it to my [[my-software-bookshelf][software bookshelf]] post. After all, I knew what worked for me and what didn't when it came to tests; there sure was plenty to learn from the book, but I had enough to get by. I'd rather spent my time reading something else.
+I had the book but, truth is, I didn't plan to read it. It didn't even make it to my [[my-software-bookshelf][software bookshelf]] post. After all, I knew what worked for me and what didn't when it came to tests; there sure was plenty to learn from the book, but I had enough to get by. I'd rather spend my reading time in some other book.
 
-But then I started on a new job, joining a new team. What I found there was curious:
+But then I started a new job, joining a new team. What I found there was curious:
 my new colleagues had been maintaining an extensive test suite, they were very disciplined about it, coverage was high, every public function on every module had its own test. And, yet, this was an /ineffective/ test suite. Tests were a lot of work to write, breaking on the smallest of refactors, bugs slipping through the cracks.
-What's worse, this wasn't perceived as a problem; the team didn't realise they could do better.
+What's worse, this wasn't perceived as a problem; the team didn't realize they could do better.
 
-I have [[what-i-think-i-know-about-testing][strong opinions]] about testing, so I immediately knew what I wanted to change on this project. The problem was that my opinions were that: opinions---based on experience but ultimately subjective intuitions. And I was the new guy, without reputation credits to spend; I would need something better than my gut feeling to convince the team to change habits, and to justify the effort to my manager. So for a while I [[https://www.simplermachines.com/why-you-need-a-wtf-notebook/][refrained from proposing any changes]], and started reading the testing book instead.
+I have [[what-i-think-i-know-about-testing][strong opinions]] about testing, so I immediately knew what I wanted to change on this project. The problem was that my opinions were that: just opinions---based on experience but ultimately subjective intuitions. And I was the new guy, without reputation credits to spend; I would need something better than my gut feeling to convince the team to change habits, and to justify the effort to my manager. So for a while, I [[https://www.simplermachines.com/why-you-need-a-wtf-notebook/][refrained from proposing any changes]] and started reading the testing book instead.
 
 ** Commentary
 
@@ -43,9 +43,9 @@ I come from a mathematical background and strongly believe that guidelines in pr
 #+end_quote
 
 What pleasantly surprised me was that, without trying too hard, this book says a lot about software design.
-It makes sense, when you think about it: if, as the author suggests, we backtrack to the foundation of our discipline, we'll land on what testing and design have in common: the pursuit of sustainable software.
+It makes sense when you think about it: if, as the author suggests, we backtrack to the foundation of our discipline, we'll land on what testing and design have in common: the pursuit of sustainable software.
 
-A good design is one that lends itself to efficient testing---striving for a good test suite helps arriving to a good design. Which is not to say that the code should be adjusted to the tests. And is not to say that the tests should be driving the implementation.
+A good design lends itself to efficient testing---striving for a good test suite helps arrive at a good design. This is not to say that the code should be adjusted to the tests. And is not to say that the tests should be driving the implementation.
 
 This interrelation between design and testing is best illustrated in chapter 7, where the author suggests an ideal structure for the codebase, and shows how to refactor code towards that structure, thus enabling effective tests.
 
