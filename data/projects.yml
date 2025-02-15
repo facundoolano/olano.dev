@@ -1,3 +1,7 @@
+- date: 2025
+  name: news.olano.dev
+  url: https://news.olano.dev
+  description: A transient feed aggregator built with Gleam.
 - date: 2024
   name: ngtop
   url: https://github.com/facundoolano/ngtop
