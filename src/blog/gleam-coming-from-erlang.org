@@ -1,0 +1,90 @@
+---
+title: Gleam, coming from Erlang
+date: 2025-02-21 08:28:59
+layout: post
+lang: en
+tags: [programming, web, projects, ideas]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+I made some time to try Gleam, the type safe language that runs on the Erlang virtual machine (the BEAM).
+For a couple of weeks, I used it to build a little [[https://github.com/facundoolano/news.olano.dev/][open source]] feed aggregator, that's now [[https://news.olano.dev/][live]].
+These are my notes.
+
+** why I'm interested in Gleam
+
+- rust without systems programming and with better concurrency
+- kind of, erlang with better types
+  - I actually like erlang, elixir not so much. erlang leans towards simplicity, elixir leans towards magic
+  - dialyzer never felt like a good trade off
+
+just like the concurrency model, a typing system is something that doesn't really work as an add-on to the original language design
+compile time checks, IDE integration and better errors are definitely weak spots for Erlang
+
+** the project
+
+** the design
+
+- poller jobs
+- ets, then persistent term
+
+** env setup
+- emacs lsp
+- interesting how lsp-first gleam is
+
+** learning
+
+- you can read the tour in 20 mins and that will tell you most of what you need to know.
+  - this perhaps speaks of the simplicity of the language, but it could also be that if you are already familiar with Rust and Erlang, most of the work is already done
+  - then the hex docs for the libraries / builtin modules
+  - for the more conceptual / idiomatic knowledge, google is obviously not an option. it seems like a lot of this knowledge lives in discord discussions (as opposed of e.g. github issues), so at least for the moment getting into the discord channel seems like a must for gleam
+
+** the language
+
+- simple
+- stable / complete
+- functional (akin to clojure and elixir)
+- pipes
+- namespaces
+
+** error handling
+
+- use <-
+
+** otp
+
+- otp, different concepts, more distance, less mature than the rest of the language
+- otp gen server, example how to reason about and write it
+
+** erlang interop
+- atoms
+- erlsom
+- ffi module
+- decoder
+
+** supervisors
+- awkward initialization/connectivity
+- static vs buggy
+- no registered processes
+
+** libraries
+
+** exporting / deploying
+
+look into attaching to release
+
+** more on the project
+- failed cookie implementation
+- maybe comments
+
+** thoughts
+
+- to me, the language killer feature is the erlang/otp integration
+  - and this part, as opposed to the language design itself, doesn't seem to be stable yet
+  - so no production, but pleasant to work with for personal project, a very nice way to revisit the erlang ecosystem
+
+- the type system, lsp integration, error handling definitely bring something distinct to the ecosystem, and it surely will continue to get better.
+
+- let it crash and type safe?
