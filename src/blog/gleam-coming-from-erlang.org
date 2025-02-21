@@ -5,31 +5,34 @@ layout: post
 lang: en
 tags: [programming, web, projects, ideas]
 draft: true
+refs: [zenoferlang]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-I made some time to try Gleam, the type safe language that runs on the Erlang virtual machine (the BEAM).
+I made some time to try Gleam, the type safe language that runs on the Erlang virtual machine.
 For a couple of weeks, I used it to build a little [[https://github.com/facundoolano/news.olano.dev/][open source]] feed aggregator, that's now [[https://news.olano.dev/][live]].
 These are my notes.
 
 ** why I'm interested in Gleam
 
-my background: my first languages were Pascal, C++ and Java. The type systems on those felt more like a burden than a help, and moving to Python, JavaScript and Clojure felt like a relief, like it made me more productive and less dependent on the IDE to fill in the blanks for me.
+My background: I learned to program with "traditional" statically typed languages: Pascal, C++, and Java, because that's what they were +preaching+ teaching at school. When I tried Python it felt like a relief, like it made me more productive and less dependent on the IDE to fill in the blanks for me. So that's where I spend most of my career, then JavaScript, then Clojure, and finally Erlang. I don't claim to be an expert but I think the Erlang VM is the piece of technology I've became more intimately familiar with.
+There is no way around it, I think: if you're running Erlang in production you need to be thinking in terms of processes, scheduling, failure modules, resource utilisation. I'd be still happily living in the BEAM, but it doesn't seem like there are many companies willing to use it anymore, or companies willing to hire Erlang devs from South America. Their loss.
 
-From Clojure I moved to Erlang, where I spent a good chunk of my professional career several years. I just love that ecosystem, its tooling, its philosophy. Finally I dabbled in Rust, both professionally and for personal projects, and I was very impressed, it removed my prejudices toward static typing.
 
-The thing is, Rust comes with all this systems programming overhead, which in my opinion is not a good trade-off if you are not, you know, doing systems programming. Coming from Erlang, Rust's async concurrency model (like JavaScript's, like Python's) just made me very sad inside.
+After Erlang, I dabbled in Rust, both professionally and for [[deconstructing-the-role-playing-videogame][personal projects]], and I was very impressed the language, its typing system, its error handling, the developer experience it enabled. The thing is, Rust comes with all the systems programming overhead, which in my opinion is not a good trade-off if you are not, you know, programming systems. Alas, I'm too old to pick up my garbage. And, coming from Erlang, Rust's async concurrency model (like JavaScript's, like Python's) just made me very sad inside.
 
-Given this background, you can imagine why Gleam sounded interesting to me:
+You can imagine why Gleam sounded interesting to me:
 
 - rust without systems programming and with better concurrency
-- kind of, erlang with better types
+- kind of, erlang with better types[fn:1]
   - I actually like erlang, elixir not so much. erlang leans towards simplicity, elixir leans towards magic
   - dialyzer never felt like a good trade off
 
 just like the concurrency model, a typing system is something that doesn't really work as an add-on to the original language design
 compile time checks, IDE integration and better errors are definitely weak spots for Erlang
+
+
 
 ** the project
 
@@ -57,9 +60,23 @@ compile time checks, IDE integration and better errors are definitely weak spots
 - pipes
 - namespaces
 
+  https://erikarow.land/notes/gleam-favorite-feature
+
 ** error handling
 
 - use <-
+https://gleam.run/news/v0.25-introducing-use-expressions/
+
+rust has the question mark operator
+go has, uh, if statements
+elixir has with
+gleam has the use expression
+
+I'm probably haven't reached my a-ha moment with use expressions, but in my short experience, I see more Result and Option return values than functions requiring callbacks, which for one requires me to do result.try and option.to_result to make it fit. What's much more problematic to me is that different functions would return differnt error types eg. Error(Nil), Error(String), Error(httpc.HttpError), so to make this fit I'd also need to coerce the errors to a common type, e.g. result.map_error(string.inspect), something that, as far as I understand, doesn't really fit in the context of `use` expressions.
+
+https://discord.com/channels/768594524158427167/768594524158427170/1322962517051445300
+
+I wonder if this is a trade-off made in favor of the javascript target, where concurrency is driven by callbacks.
 
 ** otp
 
@@ -89,7 +106,7 @@ look into attaching to release
 
 ** thoughts
 
-- to me, the language killer feature is the erlang/otp integration
+- not sure if the designers or the community would agree but, to me, Gleam's killer feature is the erlang/otp integration
   - and this part, as opposed to the language design itself, doesn't seem to be stable yet
   - so no production, but pleasant to work with for personal project, a very nice way to revisit the erlang ecosystem
 
@@ -98,3 +115,6 @@ look into attaching to release
 - as far as a "rust without memory management and with better concurrency", I knew going in that Gleam could only be part of the answer. I don't think Gleam can be a general purpose language, just like Erlang can't: its VM makes very specific and unusual trade-offs, which don't make it a reasonable choice for applications that require computation efficiency or that don't benefit for high concurrency.
 
 Perhaps the most interesting question, which I certainly won't try to answer here, is: are type safety and /let it crash/ compatible? Can they be complementary? Erlang is [[https://ferd.ca/the-zen-of-erlang.html][all about]] tolerating faults: accepting that you can't possibly catch all errors, and you'd be better off to design your application to recover in the presence of the unexpected. This has the consequence that some error handling code goes away, absorbed by the application structure and its supervision tree. Gleam, like Rust, makes you think preemptively about errors, and spend a much larger amount of time on handling them while writing code. One could argue that by doing this, an entire problem space disappears, leaving OTP to deal with the truly unexpected, as opposed to the silly typing errors that inevitably slip into all dynamically typed programs. There's a tension, but there's also an interesting balance to strike here, and I'm definitely curious to see how the Gleam community settles it.
+
+*** Notes
+[fn:1] No, not dialyzer.
