@@ -18,7 +18,6 @@ These are my notes.
 
 I spent most of my career working with dynamic languages: Python, JavaScript, Clojure, finally Erlang. I don't claim to be an expert but the Erlang VM is the piece of technology I've became more intimately familiar with. There is no way around it, I think: if you're running Erlang in production sooner or later you'll be thinking in terms of processes, scheduling, failure modules, resource utilisation. I'd be still happily living in the BEAM, but it seems there aren't many companies willing to use it anymore. Or willing to hire Erlang devs from South America, anyway. Their loss.
 
-
 After Erlang, I dabbled in Rust, both professionally and on [[deconstructing-the-role-playing-videogame][personal projects]], and I was very impressed by its typing system, its error handling, the developer experience it enabled. The thing is, Rust comes with all the systems programming overhead, which in my opinion is not a good bargain if you are not, you know, programming systems. Alas, I'm too old to pick up my garbage. And, coming from Erlang, Rust's async concurrency model (like JavaScript's, like Python's) just makes me very sad inside.
 
 You can imagine why Gleam sounded interesting to me:
@@ -26,13 +25,13 @@ You can imagine why Gleam sounded interesting to me:
 - I would like a Rust minus the memory management and with gentler concurrency;
 - I would like a BEAM language without Erlang's rough edges and with the goodies of a modern type system[fn:1].
 
-(I'm not claiming Gleam is one of those things, but it seemed close enough to spike my interest).
+(I'm not claiming Gleam is one of those things, but it seems close enough to spike my interest).
 
 ** the project
 
 After happily running [[https://olano.dev/blog/reclaiming-the-web-with-a-personal-reader/][my personal feed reader]] for over a year, several spin-off projects have been coming to mind: turning my list of feeds into a blog roll, my list of favorites into a link blog, making a public version of my feed, etc.
 
-The one unique feature of my reader is that I don't just sort posts chronologically but by "frequency bucket". If I follow a news site that publishes twice an hour and an essayist that publishes every two months, I want the essayist at the top of my list if they published yesterday, even though there are 30 more recent posts from the news site[fn:2]. To get this effect I distribute the feeds in frequency buckets and sort by reverse frequency first, publish date later. This is what the bucket calculation looks like in Gleam:
+The one unique feature of my reader is that I don't just sort posts chronologically but by "frequency bucket". If I follow a news site that publishes twice an hour and an essayist that publishes every two months, I want the essayist at the top of my list if they published yesterday, even though there are 30 more recent posts from the news site[fn:2]. To get this effect I distribute the feeds in frequency buckets and sort by reverse frequency first, publish date later. This is what the bucket calculation looks like in Gleam[fn:3]:
 
 #+begin_src gleam
 /// Calculate the frequency bucket of the feed,
@@ -89,62 +88,125 @@ What I thought about was:
 
 I wouldn't bother with persisting the entries to a data store, although I would keep a file cache of feed responses to rebuild the state on app restarts without spamming the source sites.
 
-In practice I managed to implement something very close to the initial design, with the exception that I opted for a [[https://www.erlang.org/doc/apps/erts/persistent_term.html][persistent_term]] instead of an ETS table, since I didn't want to get entries by key but read the full list on every request.
+The final result was very close to the initial design, with the exception that I opted for a [[https://www.erlang.org/doc/apps/erts/persistent_term.html][persistent_term]] instead of an ETS table, since I didn't want to get entries by key but read the full list on every request.
 
 ** env setup
-- emacs lsp
-- interesting how lsp-first gleam is
+
+I want to echo something I [[https://batsov.com/articles/2024/02/27/m-x-reloaded-the-second-golden-age-of-emacs/][recently read]]: this is a great time to be an Emacs user. Thanks to LSP, treesitter and [[https://github.com/radian-software/apheleia][apheleia]], I get a very consistent UX for new languages practically out of the box, something that a couple of years ago required a few days of tweaking to get right[fn:4].
+
+I don't know if it's a particular inclination of the language designer or it's just how things are done today, but I was surprised to see how much emphasis is put in improving the developer experience and, specifically, adding features to the Language Server implementation for Gleam. During my first week of development, I constantly missed the ability to ~lsp-rename~ I have in other languages; during my second week, [[https://gleam.run/news/gleam-gets-rename-variable/][a new Gleam version]] came out adding that very feature!
 
 ** learning
-
-- you can read the tour in 20 mins and that will tell you most of what you need to know.
-  - this perhaps speaks of the simplicity of the language, but it could also be that if you are already familiar with Rust and Erlang, most of the work is already done
-  - then the hex docs for the libraries / builtin modules
-  - for the more conceptual / idiomatic knowledge, google is obviously not an option. it seems like a lot of this knowledge lives in discord discussions (as opposed of e.g. github issues), so at least for the moment getting into the discord channel seems like a must for gleam
+- I learned most of why needed to know about the language in 30 mins, through the [[https://tour.gleam.run/][official tour]]. I had the advantage of being already familiar with Rust and Erlang, but I would say that the fact that everything can be covered so succinctly speaks of the effort that was put into keeping the language small and simple.
+- For the standard libraries and external dependencies, their respective hex docs pages are the way to go.
+- To pick up on conceptual discussions, ask questions and learn what's idiomatic, I found that (unfortunately for me) the discord channel is more effective than searching GitHub.
 
 ** the language
 
-- simple
-- stable / complete
-- functional (akin to clojure and elixir)
-- pipes
-- namespaces
+- The syntax pretty much feels like a functional subset of Rust, with Elixir-like pipes (~|>~) and a standard library adjusted to take advantage of them.
+- The language specification is already stable, having reached 1.0 about [[https://gleam.run/news/gleam-version-1/][a year ago]].
+- To me, one of the most important features of a language, and one that can be a good indicator of its "vibe" is how it deals with imports and namespaces. I think Gleam gets this /exactly/ right[fn:5], with qualified imports the easy default:
 
-  https://erikarow.land/notes/gleam-favorite-feature
+  #+begin_src Gleam
+import gleam/io
+import gleam/string as text
+
+pub fn main() {
+    // Use a function from the `gleam/io` module
+    io.println("Hello, Mike!")
+
+    // Use a function from the `gleam/string` module
+    io.println(text.reverse("Hello, Joe!"))
+}
+
+  #+end_src
+
+- The is no magic: no macros, no meta programming, no traits, no default or rest arguments. This is usually fine for me, with the exception of printing values for debugging, which becomes very tedious since everything needs to be coerced to a string and manually concatenated:
+  #+begin_src gleam
+io.println(
+    "ERROR requesting "
+    <> feed.url
+    <> "\n"
+    <> string.inspect(resp.status)
+    <> " "
+    <> string.inspect(error),
+)
+  #+end_src
 
 ** error handling
 
-- use <-
-https://gleam.run/news/v0.25-introducing-use-expressions/
+Error handling is always a contentious topic, especially in languages that have errors-as-values. There's usually some language support to ease the burden of checking results: Elixir has [[https://hexdocs.pm/elixir/1.15.8/Kernel.SpecialForms.html#with/1][with expressions]], Rust has the [[https://doc.rust-lang.org/rust-by-example/std/result/question_mark.html][question mark operator]], Go has, uh, if statements. The Gleam equivalent are [[https://tour.gleam.run/advanced-features/use/][use <- expressions]][fn:6].
 
-rust has the question mark operator
-go has, uh, if statements
-elixir has with
-gleam has the use expression
+Use is perhaps the only "special" bit of syntax of the language, and the one that requires more effort to get used to. One way to think about use is that it "absorbs" the callback argument of a function much like the pipe "absorbs" the first argument of an operation:
 
-I'm probably haven't reached my a-ha moment with use expressions, but in my short experience, I see more Result and Option return values than functions requiring callbacks, which for one requires me to do result.try and option.to_result to make it fit. What's much more problematic to me is that different functions would return differnt error types eg. Error(Nil), Error(String), Error(httpc.HttpError), so to make this fit I'd also need to coerce the errors to a common type, e.g. result.map_error(string.inspect), something that, as far as I understand, doesn't really fit in the context of `use` expressions.
+#+begin_src gleam
+pub fn handle_request(request: HttpRequest) {
+  logger.span("handle_request", fn() {
+    database.connection(fn(conn) {
+      case request.method {
+        Post ->
+          case database.insert(conn, request.body) {
+            Ok(record) -> created_response(record)
+            Error(exc) -> bad_request_response(exc)
+          }
+        _ -> method_not_allowed_response()
+      }
+    })
+  })
+}
+#+end_src
 
-https://discord.com/channels/768594524158427167/768594524158427170/1322962517051445300
+Becomes:
 
-I wonder if this is a trade-off made in favor of the javascript target, where concurrency is driven by callbacks.
+#+begin_src gleam
+pub fn handle_request(request: HttpRequest) {
+  use <- logger.span("handle_request")
+  use <- require_method(request, Post)
+  use conn <- database.connection()
+
+  case database.insert(conn, request.body) {
+    Ok(record) -> created_response(record)
+    Error(exc) -> bad_request_response(exc)
+  }
+}
+#+end_src
+
+I admit I haven't my got a-ha! moment with ~use~ yet, and I still struggle with error handling. Part of the problem, I think, is that ~use~ helps with callbacks, which are much less frequent than ~Result~ values, so function calls typically need to be wrapped in ~result.try~ and, since different functions tend to return different error types, this occasionally needs to be paired with ~result.replace_error~ to make it work:
+
+#+begin_src Gleam
+use resp <- result.try(
+  httpc.configure()
+  |> httpc.follow_redirects(True)
+  |> httpc.dispatch(req)
+  |> result.replace_error(RequestError),
+)
+io.println(resp.body)
+#+end_src
+
+One of the patterns that emerges of this, I believe, is to define an app-specific error type and use it everywhere, mapping external errors to it.
+
+** erlang interop
+- more distance compared to eg elixir
+  - part bc of the type system
+  - part bc gleam seems to want to be able to stand conceptually on its own, independent of its target platform (it compiles to JavaScript in addition to Erlang)
+- example persistent term
+- atoms, charlists
+- erlsom
+- fool the type checker
+- decoder
+- ffi module
+  - TODO example parser
+
 
 ** otp
 
-- otp, different concepts, more distance, less mature than the rest of the language
+- otp, different concepts, less mature than the rest of the language
 - otp gen server, example how to reason about and write it
 
-** erlang interop
-- atoms
-- erlsom
-- ffi module
-- decoder
-
-** supervisors
-- awkward initialization/connectivity
-- static vs buggy
-- no registered processes
-
-** libraries
+- supervisors
+  - awkward initialization/connectivity
+  - static vs buggy
+  - no registered processes
 
 ** exporting / deploying
 
@@ -166,3 +228,11 @@ Perhaps the most interesting question, which I certainly won't try to answer her
 [fn:1] No, not dialyzer.
 
 [fn:2] In the reader, this is paired with an "auto mark as read on scroll" feature so the same "infrequent" posts aren't displayed at the top every time you open the app. This feature doesn't seem to be a good fit for a link aggregator without scrolling, but I'm still thinking about it.
+
+[fn:3] Can you spot the bug?
+
+[fn:4] My Emacs setup for Gleam is just [[https://github.com/gleam-lang/gleam-mode][gleam-ts-mode]] and ~(add-hook 'gleam-ts-mode-hook 'lsp-deferred)~.
+
+[fn:5] I finally decided to put learning Gleam in my short to-do list after reading about its namespaces in [[ https://erikarow.land/notes/gleam-favorite-feature][this blog post]].
+
+[fn:6] More about use expressions [[https://gleam.run/news/v0.25-introducing-use-expressions/][here]] and [[https://erikarow.land/notes/using-use-gleam][here]].
