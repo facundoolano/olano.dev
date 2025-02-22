@@ -16,19 +16,28 @@ These are my notes.
 
 ** why I'm interested in Gleam
 
-I spent most of my career working with dynamic languages: Python, JavaScript, Clojure, finally Erlang. I don't claim to be an expert but I think the Erlang VM is the piece of technology I've became more intimately familiar with. There is no way around it, I think: if you're running Erlang in production you need to be thinking in terms of processes, scheduling, failure modules, resource utilisation. I'd be still happily living in the BEAM, but it doesn't seem like there are many companies willing to use Erlang anymore. Or willing to hire Erlang devs from South America, anyway. Their loss.
+I spent most of my career working with dynamic languages: Python, JavaScript, Clojure, finally Erlang. I don't claim to be an expert but the Erlang VM is the piece of technology I've became more intimately familiar with. There is no way around it, I think: if you're running Erlang in production sooner or later you'll be thinking in terms of processes, scheduling, failure modules, resource utilisation. I'd be still happily living in the BEAM, but it seems there aren't many companies willing to use it anymore. Or willing to hire Erlang devs from South America, anyway. Their loss.
 
 
-After Erlang, I dabbled in Rust, both professionally and on [[deconstructing-the-role-playing-videogame][personal projects]], and I was very impressed by its typing system, its error handling, the developer experience it enabled. The thing is, Rust comes with all the systems programming overhead, which in my opinion is not a good trade-off if you are not, you know, programming systems. Alas, I'm too old to pick up my garbage. And, coming from Erlang, Rust's async concurrency model (like JavaScript's, like Python's) just makes me very sad inside.
+After Erlang, I dabbled in Rust, both professionally and on [[deconstructing-the-role-playing-videogame][personal projects]], and I was very impressed by its typing system, its error handling, the developer experience it enabled. The thing is, Rust comes with all the systems programming overhead, which in my opinion is not a good bargain if you are not, you know, programming systems. Alas, I'm too old to pick up my garbage. And, coming from Erlang, Rust's async concurrency model (like JavaScript's, like Python's) just makes me very sad inside.
 
 You can imagine why Gleam sounded interesting to me:
 
-- I would like a Rust minus the memory management features and with better concurrency;
-- I would like a BEAM language with the rough edges of erlang and the goodies of a modern typing system[fn:1].
+- I would like a Rust minus the memory management and with gentler concurrency;
+- I would like a BEAM language without Erlang's rough edges and with the goodies of a modern type system[fn:1].
 
-(I'm not saying Gleam is necessarily any of those things, but it gets close enough to spike my interest).
+(I'm not claiming Gleam is one of those things, but it seemed close enough to spike my interest).
 
 ** the project
+
+After happily running [[https://olano.dev/blog/reclaiming-the-web-with-a-personal-reader/][my personal feed reader]] for over a year, several spin-off projects have been coming to mind:
+
+- turning the list of feeds I'm subscribed to into a blog roll;
+- turning my stream of favorited posts into a link blog;
+- making a public version of my feed;
+- building a link aggregator in the style of hacker news or lobste.rs, where users submit and vote for RSS feeds instead of individual links;
+-
+
 
 ** the design
 
