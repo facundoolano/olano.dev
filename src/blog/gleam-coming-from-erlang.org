@@ -16,23 +16,17 @@ These are my notes.
 
 ** why I'm interested in Gleam
 
-My background: I learned to program with "traditional" statically typed languages: Pascal, C++, and Java, because that's what they were +preaching+ teaching at school. When I tried Python it felt like a relief, like it made me more productive and less dependent on the IDE to fill in the blanks for me. So that's where I spend most of my career, then JavaScript, then Clojure, and finally Erlang. I don't claim to be an expert but I think the Erlang VM is the piece of technology I've became more intimately familiar with.
-There is no way around it, I think: if you're running Erlang in production you need to be thinking in terms of processes, scheduling, failure modules, resource utilisation. I'd be still happily living in the BEAM, but it doesn't seem like there are many companies willing to use it anymore, or companies willing to hire Erlang devs from South America. Their loss.
+I spent most of my career working with dynamic languages: Python, JavaScript, Clojure, finally Erlang. I don't claim to be an expert but I think the Erlang VM is the piece of technology I've became more intimately familiar with. There is no way around it, I think: if you're running Erlang in production you need to be thinking in terms of processes, scheduling, failure modules, resource utilisation. I'd be still happily living in the BEAM, but it doesn't seem like there are many companies willing to use Erlang anymore. Or willing to hire Erlang devs from South America, anyway. Their loss.
 
 
-After Erlang, I dabbled in Rust, both professionally and for [[deconstructing-the-role-playing-videogame][personal projects]], and I was very impressed the language, its typing system, its error handling, the developer experience it enabled. The thing is, Rust comes with all the systems programming overhead, which in my opinion is not a good trade-off if you are not, you know, programming systems. Alas, I'm too old to pick up my garbage. And, coming from Erlang, Rust's async concurrency model (like JavaScript's, like Python's) just made me very sad inside.
+After Erlang, I dabbled in Rust, both professionally and on [[deconstructing-the-role-playing-videogame][personal projects]], and I was very impressed by its typing system, its error handling, the developer experience it enabled. The thing is, Rust comes with all the systems programming overhead, which in my opinion is not a good trade-off if you are not, you know, programming systems. Alas, I'm too old to pick up my garbage. And, coming from Erlang, Rust's async concurrency model (like JavaScript's, like Python's) just makes me very sad inside.
 
 You can imagine why Gleam sounded interesting to me:
 
-- rust without systems programming and with better concurrency
-- kind of, erlang with better types[fn:1]
-  - I actually like erlang, elixir not so much. erlang leans towards simplicity, elixir leans towards magic
-  - dialyzer never felt like a good trade off
+- I would like a Rust minus the memory management features and with better concurrency;
+- I would like a BEAM language with the rough edges of erlang and the goodies of a modern typing system[fn:1].
 
-just like the concurrency model, a typing system is something that doesn't really work as an add-on to the original language design
-compile time checks, IDE integration and better errors are definitely weak spots for Erlang
-
-
+(I'm not saying Gleam is necessarily any of those things, but it gets close enough to spike my interest).
 
 ** the project
 
