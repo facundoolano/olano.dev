@@ -198,15 +198,6 @@ fn put_entries(key: String, value: List(Entry)) -> ok
 fn get_entries(key: String) -> List(Entry)
 #+end_src
 
-The same target function can be reused on a different declaration:
-#+begin_src Gleam
-@external(erlang, "persistent_term", "put")
-fn put_subject(key: String, value: Table) -> ok
-
-@external(erlang, "persistent_term", "get")
-fn get_subject(key: String) -> Table
-#+end_src
-
 Things got tricky for me when I wanted to use [[https://github.com/willemdj/erlsom][erlsom]], a quirky Erlang library to parse XML documents. For one, I had to use ~atom.create_from_string~ and ~charlist.to_string~ to make it work in Gleam, which was a minor inconvenience. What was more of a problem is that, XML docs being very flexible, parsing an Atom feed yielded a different tuple structure than parsing an RSS feed, and that didn't make sense to Gleam's type checker.
 
 My initial implementation hacked away the problem, by parsing the doc multiple types to "fool" the type checker---once to figure out what type of feed the document was, another to parse it. The proper Gleam way of treating dynamic structures like these would be through the [[https://hexdocs.pm/gleam_stdlib/gleam/dynamic/decode.html#run][~dynamic/decode~]] module, but I found this to be overly complicated. After looking at other libraries, I realized the right solution for this situation is to just write thin Erlang ffi modules to adjust the data for easier translation to the Gleam world. So I put together a very basic feed parser, to get only the few fields I was interested in into an erlang map:
@@ -255,13 +246,86 @@ parse_rss_entry(Attrs, Acc) -> ...
 
 ** otp
 
-- otp, different concepts, less mature than the rest of the language
-- otp gen server, example how to reason about and write it
+OTP in Gleam is what took me the most effort to figure out. The [[https://hexdocs.pm/gleam_otp/index.html][hexdocs]] cover most of the ground but I found it wasn't enough to get the concepts right, especially when they differed from their Erlang counterparts. For that, I reached to [[https://github.com/bcpeinhardt/learn_otp_with_gleam][this GitHub project]], the tests in there and in the gleam_otp repositories, and Gleam's discord channel history.
 
-- supervisors
-  - awkward initialization/connectivity
-  - static vs buggy
-  - no registered processes
+The first big difference is that, in Gleam, you typically don't pass around process ids to send messages to; instead a process "declares" what type of messages it expects to receive by creating a [[https://hexdocs.pm/gleam_erlang/gleam/erlang/process.html#Subject][Subject]]:
+#+begin_src gleam
+let subject = new_subject()
+
+// Send a message with the subject
+send(subject, "Hello, Joe!")
+
+// Receive the message
+receive(subject, within: 10)
+#+end_src
+
+Creating a subject is akin to opening a channel in other languages[fn:7].
+
+So when you create an [[https://hexdocs.pm/gleam_otp/gleam/otp/actor.html][actor]], Gleam's equivalent of a gen_server, what you get is not Pid but a subject. The basic boilerplate for a server, in this case the one managing the entry table, looks like this:
+
+#+begin_src gleam
+// type alias for convenience
+pub type Table = Subject(Message)
+
+// Declare what types of messages this actor is going to deal with
+pub type Message {
+  // send a message to itself to rebuild the table
+  Rebuild(Table)
+
+  // save a new feed poller to the internal state
+  RegisterFeed(String, Poller)
+}
+
+// What internal state will the server have
+type State {
+  State(feeds: dict.Dict(String, Poller))
+}
+
+pub fn start() -> Table {
+  let state = State(dict.new())
+  let assert Ok(table) = actor.start(state, handle_message)
+  put_entries(table_key, [])
+  process.send(table, Rebuild(table))
+  table
+}
+#+end_src
+
+The loop function just deals with the different Message variants:
+
+#+begin_src Gleam
+fn handle_message(message: Message, state: State) {
+  let state = case message {
+    RegisterFeed(name, poller) -> {
+      State(dict.insert(state.feeds, name, poller))
+    }
+    Rebuild(self) -> {
+      let entries = latest_entries(dict.values(state.feeds))
+      put_entries(table_key, entries)
+      process.send_after(self, rebuild_interval, Rebuild(self))
+      state
+    }
+  }
+  actor.continue(state)
+}
+#+end_src
+
+The module's public API has a function to register a feed in the table and another to get the latest entries:
+
+#+begin_src Gleam
+/// Add a poller to the table manager process, so its entries are included when refreshing the table.
+pub fn register(table: Table, name: String, poller: Poller) {
+  process.send(table, RegisterFeed(name, poller))
+}
+
+/// Return the current list of entries, sorted by "inverted frequency".
+pub fn get() -> List(FeedEntry) {
+  get_entries(table_key) |> list.map(fn(e) { e.entry })
+}
+#+end_src
+
+The latter doesn't need to receive a table (i.e. a ~Subject(Message)~) because the entries are stored in a globally accessible persistent term.
+
+Unlike the rest of the language, the OTP abstractions doesn't seem to be stable yet. In other words, gleam_otp hasn't reached 1.0 yet. This was the case with Supervisors, in particular. There are two flavors: the older [[https://hexdocs.pm/gleam_otp/gleam/otp/supervisor.html][otp/supervisor]], which apparently is discouraged and has a few bugs, and the newer [[https://hexdocs.pm/gleam_otp/gleam/otp/static_supervisor.html][static_supervisor]] which works better but is less flexible. I went with the second [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/src/table_sup.gleam][for my project]], but I couldn't find a way to either pass the pollers to the table or the table to the pollers while still having every actor in the supervision tree. And I couldn't work around it by making the table a named process, since I need a subject, not a Pid/process name to send messages to it, so I [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/src/table.gleam#L45-L47][hacked it]] by storing the subject on another persistent term every time a new Table actor is spawned by the supervisor.
 
 ** exporting / deploying
 
@@ -291,3 +355,5 @@ Perhaps the most interesting question, which I certainly won't try to answer her
 [fn:5] I finally decided to put learning Gleam in my short to-do list after reading about its namespaces in [[ https://erikarow.land/notes/gleam-favorite-feature][this blog post]].
 
 [fn:6] More about use expressions [[https://gleam.run/news/v0.25-introducing-use-expressions/][here]] and [[https://erikarow.land/notes/using-use-gleam][here]].
+
+[fn:7] gleam_otp also introduces the concept of a [[https://hexdocs.pm/gleam_erlang/gleam/erlang/process.html#Selector][Selector]], to be able to receive messages from different subjects at once. I found this one harder to understand intuitively, but it's less frequently used, I think.
