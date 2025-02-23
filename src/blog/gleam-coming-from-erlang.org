@@ -16,9 +16,9 @@ These are my notes.
 
 ** why I'm interested in Gleam
 
-I spent most of my career working with dynamic languages: Python, JavaScript, Clojure, finally Erlang. I don't claim to be an expert but the Erlang VM is the piece of technology I've became more intimately familiar with. There is no way around it, I think: if you're running Erlang in production sooner or later you'll be thinking in terms of processes, scheduling, failure modules, resource utilisation. I'd be still happily living in the BEAM, but it seems there aren't many companies willing to use it anymore. Or willing to hire Erlang devs from South America, anyway. Their loss.
+I spent most of my career working with dynamic languages: Python, JavaScript, Clojure, finally Erlang. I don't claim to be an expert but the Erlang VM is the piece of technology I've became more intimately familiar with. There is no way around it, I think: if you're running Erlang in production sooner or later you'll be thinking in terms of processes, scheduling, failure modules, resource utilisation. I'd still be happily living in the BEAM, if it wasn't that there doesn't seem to be many companies willing to use it anymore. Or willing to hire Erlang devs from South America, anyway. Their loss.
 
-After Erlang, I dabbled in Rust, both professionally and on [[deconstructing-the-role-playing-videogame][personal projects]], and I was very impressed by its typing system, its error handling, the developer experience it enabled. The thing is, Rust comes with all the systems programming overhead, which in my opinion is not a good bargain if you are not, you know, programming systems. Alas, I'm too old to pick up my garbage. And, coming from Erlang, Rust's async concurrency model (like JavaScript's, like Python's) just makes me very sad inside.
+After Erlang, I dabbled in Rust, both professionally and on [[deconstructing-the-role-playing-videogame][personal projects]], and I was very impressed by its type system, its error handling, the developer experience it enabled. The thing is, Rust comes with all the systems programming overhead, which in my opinion is not a good bargain if you are not, you know, programming systems. Alas, I'm too old to pick up my garbage. And, coming from Erlang, Rust's async concurrency model (like JavaScript's, like Python's) just makes me very sad inside.
 
 You can imagine why Gleam sounded interesting to me:
 
@@ -31,7 +31,7 @@ You can imagine why Gleam sounded interesting to me:
 
 After happily running [[https://olano.dev/blog/reclaiming-the-web-with-a-personal-reader/][my personal feed reader]] for over a year, several spin-off projects have been coming to mind: turning my list of feeds into a blog roll, my list of favorites into a link blog, making a public version of my feed, etc.
 
-The one unique feature of my reader is that I don't just sort posts chronologically but by "frequency bucket". If I follow a news site that publishes twice an hour and an essayist that publishes every two months, I want the essayist at the top of my list if they published yesterday, even though there are 30 more recent posts from the news site[fn:2]. To get this effect I distribute the feeds in frequency buckets and sort by reverse frequency first, publish date later. This is what the bucket calculation looks like in Gleam[fn:3]:
+The single remarkable feature of my reader is that I don't just sort posts chronologically but by "reverse frequency". If I follow a news site that publishes twice an hour and an essayist that publishes every two months, I want the essayist at the top of my list if they published yesterday, even though there are 30 more recent posts from the news site[fn:2]. To get this effect I distribute the feeds in frequency buckets and sort by reverse frequency first, publish date later. This is what the bucket calculation looks like in Gleam[fn:3]:
 
 #+begin_src gleam
 /// Calculate the frequency bucket of the feed,
@@ -72,10 +72,10 @@ fn calc_bucket(entries: List(FeedEntry)) -> Int {
 
 The minimal feed reader spin-off I could think of was then to:
 
-  1. dump my followed list into a file,
-  2. write a program that periodically pulls feed entries,
-  3. sorts them in reverse frequency, and
-  4. serve them as a link list.
+  1. dump my followed feeds into a file,
+  2. write a program that periodically pulls entries from each feed on the list,
+  3. sorts them in reverse frequency,
+  4. serves them as a list of links.
 
 ** the design
 
@@ -92,12 +92,12 @@ The final result was very close to the initial design, with the exception that I
 
 ** env setup
 
-I want to echo something I [[https://batsov.com/articles/2024/02/27/m-x-reloaded-the-second-golden-age-of-emacs/][recently read]]: this is a great time to be an Emacs user. Thanks to LSP, treesitter and [[https://github.com/radian-software/apheleia][apheleia]], I get a very consistent UX for new languages practically out of the box, something that a couple of years ago required a few days of tweaking to get right[fn:4].
+As a digression, I want to echo something I [[https://batsov.com/articles/2024/02/27/m-x-reloaded-the-second-golden-age-of-emacs/][recently read]]: this is a great time to be an Emacs user. Thanks to LSP, treesitter and [[https://github.com/radian-software/apheleia][apheleia]], I get a very consistent UX for new languages practically out of the box, something that a couple of years ago required a few days of tweaking to get right[fn:4].
 
-I don't know if it's a particular inclination of the language designer or it's just how things are done today, but I was surprised to see how much emphasis is put in improving the developer experience and, specifically, adding features to the Language Server implementation for Gleam. During my first week of development, I constantly missed the ability to ~lsp-rename~ I have in other languages; during my second week, [[https://gleam.run/news/gleam-gets-rename-variable/][a new Gleam version]] came out adding that very feature!
+I don't know if it's a particular inclination of the language designer or it's just how things are done today, but I was surprised to see how much emphasis is put in improving the developer experience and, specifically, adding features to the Language Server implementation. During my first week of development, I constantly missed the ability to ~lsp-rename~ I have in other languages; during my second week, [[https://gleam.run/news/gleam-gets-rename-variable/][a new Gleam version]] came out adding that very feature!
 
 ** learning
-- I learned most of why needed to know about the language in 30 mins, through the [[https://tour.gleam.run/][official tour]]. I had the advantage of being already familiar with Rust and Erlang, but I would say that the fact that everything can be covered so succinctly speaks of the effort that was put into keeping the language small and simple.
+- I learned most of what I needed to know in 30 minutes, through the [[https://tour.gleam.run/][official tour]]. I had the advantage of being already familiar with Rust and Erlang, but I would say that the fact that everything can be covered so succinctly speaks of the effort that was put into keeping the language small and simple.
 - For the standard libraries and external dependencies, their respective hex docs pages are the way to go.
 - To pick up on conceptual discussions, ask questions and learn what's idiomatic, I found that (unfortunately for me) the discord channel is more effective than searching GitHub.
 
