@@ -186,17 +186,72 @@ io.println(resp.body)
 One of the patterns that emerges of this, I believe, is to define an app-specific error type and use it everywhere, mapping external errors to it.
 
 ** erlang interop
-- more distance compared to eg elixir
-  - part bc of the type system
-  - part bc gleam seems to want to be able to stand conceptually on its own, independent of its target platform (it compiles to JavaScript in addition to Erlang)
-- example persistent term
-- atoms, charlists
-- erlsom
-- fool the type checker
-- decoder
-- ffi module
-  - TODO example parser
+The overall impression I got is that, compared to Elixir, Gleam puts more distance to Erlang. This in part a necessity, since they are fundamentally different languages; it requires more work to make them fit together. But I also sense an intention in Gleam's design to "make sense" on its own, to have conceptual integrity independently from the target platform of choice (Gleam transpiles to JavaScript in addition to the BEAM). This shows in that there is no direct mapping for some of the Erlang types, there is no REPL and no attaching to a running release, no discussion of concurrency in the base documentation (not even in that [[https://gleam.run/cheatsheets/gleam-for-erlang-users/][targeted to Erlang users]]). Erlang processes and OTP are better considered as an optional add-on libraries than part of the foundation of the language.
 
+Interop is straightforward, just declaring a function and it's target equivalent, with some type specs:
+
+#+begin_src Gleam
+@external(erlang, "persistent_term", "put")
+fn put_entries(key: String, value: List(Entry)) -> ok
+
+@external(erlang, "persistent_term", "get")
+fn get_entries(key: String) -> List(Entry)
+#+end_src
+
+The same target function can be reused on a different declaration:
+#+begin_src Gleam
+@external(erlang, "persistent_term", "put")
+fn put_subject(key: String, value: Table) -> ok
+
+@external(erlang, "persistent_term", "get")
+fn get_subject(key: String) -> Table
+#+end_src
+
+Things got tricky for me when I wanted to use [[https://github.com/willemdj/erlsom][erlsom]], a quirky Erlang library to parse XML documents. For one, I had to use ~atom.create_from_string~ and ~charlist.to_string~ to make it work in Gleam, which was a minor inconvenience. What was more of a problem is that, XML docs being very flexible, parsing an Atom feed yielded a different tuple structure than parsing an RSS feed, and that didn't make sense to Gleam's type checker.
+
+My initial implementation hacked away the problem, by parsing the doc multiple types to "fool" the type checker---once to figure out what type of feed the document was, another to parse it. The proper Gleam way of treating dynamic structures like these would be through the [[https://hexdocs.pm/gleam_stdlib/gleam/dynamic/decode.html#run][~dynamic/decode~]] module, but I found this to be overly complicated. After looking at other libraries, I realized the right solution for this situation is to just write thin Erlang ffi modules to adjust the data for easier translation to the Gleam world. So I put together a very basic feed parser, to get only the few fields I was interested in into an erlang map:
+
+#+begin_src erl
+-module(parser).
+-export([parse_feed/1]).
+
+parse_feed(Body) ->
+    Result = erlsom:simple_form(
+               Body,
+               [{nameFun, fun(Name, _,_) ->
+                                  unicode:characters_to_binary(Name)
+                          end }]
+              ),
+    try Result of
+        {ok, {<<"rss">>, _, [{_, _, Elements}|_]}, _} ->
+            {<<"rss">>, parse_rss(Elements)};
+        {ok, {<<"feed">>, _, Elements}, _} ->
+            {<<"atom">>, parse_atom(Elements)};
+        Error ->
+            {<<"error">>, Error}
+    catch _:_ ->
+            {<<"error">>, bad_parse}
+    end.
+
+
+parse_atom(Elements) ->
+    lists:foldl(fun({<<"entry">>, _, Attrs}, Acc) ->
+                        [parse_atom_entry(Attrs, #{}) |Acc];
+                   (_, Acc) -> Acc
+                end, [], Elements).
+
+parse_rss(Elements) ->
+    lists:foldl(fun({<<"item">>, _, Attrs}, Acc) ->
+                        [parse_rss_entry(Attrs, #{}) |Acc];
+                   (_, Acc) -> Acc
+                end, [], Elements).
+
+parse_atom_entry(Attrs, Acc) ->
+    % ...
+
+parse_rss_entry(Attrs, Acc) -> ...
+    % ...
+#+end_src
 
 ** otp
 
