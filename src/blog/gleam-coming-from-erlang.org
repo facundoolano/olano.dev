@@ -325,7 +325,20 @@ pub fn get() -> List(FeedEntry) {
 
 The latter doesn't need to receive a table (i.e. a ~Subject(Message)~) because the entries are stored in a globally accessible persistent term.
 
-Unlike the rest of the language, the OTP abstractions doesn't seem to be stable yet. In other words, gleam_otp hasn't reached 1.0 yet. This was the case with Supervisors, in particular. There are two flavors: the older [[https://hexdocs.pm/gleam_otp/gleam/otp/supervisor.html][otp/supervisor]], which apparently is discouraged and has a few bugs, and the newer [[https://hexdocs.pm/gleam_otp/gleam/otp/static_supervisor.html][static_supervisor]] which works better but is less flexible. I went with the second [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/src/table_sup.gleam][for my project]], but I couldn't find a way to either pass the pollers to the table or the table to the pollers while still having every actor in the supervision tree. And I couldn't work around it by making the table a named process, since I need a subject, not a Pid/process name to send messages to it, so I [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/src/table.gleam#L45-L47][hacked it]] by storing the subject on another persistent term every time a new Table actor is spawned by the supervisor.
+Unlike the rest of the language, the OTP abstractions haven't stabilized yet. In other words, gleam_otp hasn't reached 1.0. This was most evident with Supervisors. There are two flavors: the older [[https://hexdocs.pm/gleam_otp/gleam/otp/supervisor.html][otp/supervisor]], which apparently is discouraged and has a few bugs, and the newer [[https://hexdocs.pm/gleam_otp/gleam/otp/static_supervisor.html][otp/static_supervisor]] which works better but is less flexible.
+
+I went with a static supervisor [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/src/table_sup.gleam][for my project]]. The supervision tree looks like this:
+
+#+begin_src
+ table_sup
+ ├── table_worker
+ └── poller_sup
+     ├── feed_poller_worker
+     ├── feed_poller_worker
+     └── ...
+#+end_src
+
+I couldn't find a way to either pass the pollers to the table or the table to the pollers while still having every actor spawned by its supervisor. And I couldn't work around it by making the table a named process, since I needed a Subject, not a process to send messages to. So I [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/src/table.gleam#L45-L47][hacked it]] by storing the Subject on another persistent term every time a new Table actor starts.
 
 ** deployment
 
@@ -387,7 +400,7 @@ I'm not sure if the designer or the community would agree but, to me, Gleam's ki
 
 As far as a "Rust without memory management and with better concurrency" goes, I knew going in that Gleam could only be part of the answer. I don't think Gleam can be a general purpose language, just like Erlang can't: the BEAM makes very specific and unusual trade-offs, which don't make it a reasonable choice for applications that require computation efficiency, that don't benefit from high concurrency, or that need to be easy to distribute and operate.
 
-Perhaps the most interesting question, which I certainly won't try to answer here, is: are type safety and /let it crash/ compatible? Can they be complementary? Erlang is [[https://ferd.ca/the-zen-of-erlang.html][all about]] tolerating faults: accepting that you can't possibly catch all errors, and you'd be better off to design your application to recover in the presence of the unexpected. This has the consequence that some error handling code goes away, absorbed by the application structure and its supervision tree. Gleam, like Rust, makes you think preemptively about errors, and spend a much larger amount of time on handling them while writing code. One could argue that by doing this, an entire problem space disappears, leaving OTP to deal with the truly unexpected, as opposed to the silly typing errors that inevitably slip into all dynamically typed programs. There's a tension, but there's also an interesting balance to strike here, and I'm definitely curious to see how the Gleam community settles it.
+Perhaps the most interesting question, which I certainly won't try to answer here, is: are type safety and /let it crash/ compatible? Can they be complementary? Erlang is [[https://ferd.ca/the-zen-of-erlang.html][all about]] tolerating faults: accepting that you can't possibly catch all errors, and you'd be better off to design your application to recover in the presence of the unexpected. This has the benefit that some error handling code goes away, absorbed by the application structure and its supervision tree. Gleam, like Rust, makes you think preemptively about errors, and spend a much larger amount of time on handling them while writing code. One could argue that by doing this, an entire problem space disappears, the silly type errors that inevitably slip into all dynamically typed programs, leaving OTP to deal with the truly unexpected. There's a tension, but there's also an interesting balance to strike here, and I'm definitely curious to see where the Gleam community settles it.
 
 *** Notes
 [fn:1] No, not dialyzer.
