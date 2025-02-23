@@ -240,7 +240,7 @@ parse_rss(Elements) ->
 parse_atom_entry(Attrs, Acc) ->
     % ...
 
-parse_rss_entry(Attrs, Acc) -> ...
+parse_rss_entry(Attrs, Acc) ->
     % ...
 #+end_src
 
@@ -327,9 +327,59 @@ The latter doesn't need to receive a table (i.e. a ~Subject(Message)~) because t
 
 Unlike the rest of the language, the OTP abstractions doesn't seem to be stable yet. In other words, gleam_otp hasn't reached 1.0 yet. This was the case with Supervisors, in particular. There are two flavors: the older [[https://hexdocs.pm/gleam_otp/gleam/otp/supervisor.html][otp/supervisor]], which apparently is discouraged and has a few bugs, and the newer [[https://hexdocs.pm/gleam_otp/gleam/otp/static_supervisor.html][static_supervisor]] which works better but is less flexible. I went with the second [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/src/table_sup.gleam][for my project]], but I couldn't find a way to either pass the pollers to the table or the table to the pollers while still having every actor in the supervision tree. And I couldn't work around it by making the table a named process, since I need a subject, not a Pid/process name to send messages to it, so I [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/src/table.gleam#L45-L47][hacked it]] by storing the subject on another persistent term every time a new Table actor is spawned by the supervisor.
 
-** exporting / deploying
+** deployment
 
-look into attaching to release
+The documentation always uses ~gleam run~ to run a program, but what if I want to deploy a release it to a server without installing gleam in it? Some digging revealed there's a ~gleam export erlang-shipment~ command that will build the project with Erlang modules in production mode, and with an entrypoint script to run it (provided ~erl~ is in the path):
+
+#+begin_src sh
+run() {
+  erl \
+    -pa "$BASE"/*/ebin \
+    -eval "$PACKAGE@@main:run($PACKAGE)" \
+    -noshell \
+    -extra "$@"
+}
+
+shell() {
+  erl -pa "$BASE"/*/ebin
+}
+#+end_src
+
+A neat trick is to change this script to allow for the shell to attach to a running release:
+
+#+begin_src diff
+ run() {
+   erl \
+     -pa "$BASE"/*/ebin \
+     -eval "$PACKAGE@@main:run($PACKAGE)" \
+     -noshell \
++    -name news@127.0.0.1 \
+     -extra "$@"
+ }
+
+ shell() {
+-   erl -pa "$BASE"/*/ebin
++   erl -pa "$BASE"/*/ebin -name sh@127.0.0.1 -remsh news@127.0.0.1
+ }
+#+end_src
+
+#+begin_src
+$ build/erlang-shipment/entrypoint.sh shell
+Erlang/OTP 27 [erts-15.0] [source] [64-bit] [smp:10:10] [ds:10:10:10] [async-threads:1] [jit]
+
+Eshell V15.0 (press Ctrl+G to abort, type help(). for help)
+(news@127.0.0.1)1> table:get().
+[{entry,<<"Copy first, create later">>,
+        <<"https://resextensa.co/p/copy-first-create-later">>,
+        {time,1740158441000000,0,none,none}},
+ {entry,<<"The CRPG Renaissance, Part 3: TSR is Dead"...>>,
+        <<"https://filfre.net/2025/02/the-crpg-renaissance-part-3-tsr-is-dead">>,
+        {time,1740157523000000,0,none,none}},
+ {entry,...},
+ {...}|...]
+#+end_src
+
+I briefly documented my deploy setup [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/README.md#deploy][here]].
 
 ** thoughts
 
