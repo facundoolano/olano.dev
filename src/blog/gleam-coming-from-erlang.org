@@ -383,13 +383,9 @@ I briefly documented my deploy setup [[https://github.com/facundoolano/news.olan
 
 ** thoughts
 
-- not sure if the designers or the community would agree but, to me, Gleam's killer feature is the erlang/otp integration
-  - and this part, as opposed to the language design itself, doesn't seem to be stable yet
-  - so no production, but pleasant to work with for personal project, a very nice way to revisit the erlang ecosystem
+I'm not sure if the designer or the community would agree but, to me, Gleam's killer feature is its Erlang/OTP integration. That part of the language doesn't seem stable yet---a custom Gleam wrapper to the Erlang libraries may be a better option for now. And, while I wouldn't use this in production yet, it feels ready enough, and pleasant enough to work with, that I would make it my default for personal projects that are good fit for the BEAM. The type system, the LSP integration, and the error handling bring something distinct to the ecosystem, and I only expect the language to get better on those fronts.
 
-- the type system, lsp integration, error handling definitely bring something distinct to the ecosystem, and it surely will continue to get better.
-
-- as far as a "rust without memory management and with better concurrency", I knew going in that Gleam could only be part of the answer. I don't think Gleam can be a general purpose language, just like Erlang can't: its VM makes very specific and unusual trade-offs, which don't make it a reasonable choice for applications that require computation efficiency or that don't benefit for high concurrency.
+As far as a "Rust without memory management and with better concurrency" goes, I knew going in that Gleam could only be part of the answer. I don't think Gleam can be a general purpose language, just like Erlang can't: the BEAM makes very specific and unusual trade-offs, which don't make it a reasonable choice for applications that require computation efficiency, that don't benefit from high concurrency, or that need to be easy to distribute and operate.
 
 Perhaps the most interesting question, which I certainly won't try to answer here, is: are type safety and /let it crash/ compatible? Can they be complementary? Erlang is [[https://ferd.ca/the-zen-of-erlang.html][all about]] tolerating faults: accepting that you can't possibly catch all errors, and you'd be better off to design your application to recover in the presence of the unexpected. This has the consequence that some error handling code goes away, absorbed by the application structure and its supervision tree. Gleam, like Rust, makes you think preemptively about errors, and spend a much larger amount of time on handling them while writing code. One could argue that by doing this, an entire problem space disappears, leaving OTP to deal with the truly unexpected, as opposed to the silly typing errors that inevitably slip into all dynamically typed programs. There's a tension, but there's also an interesting balance to strike here, and I'm definitely curious to see how the Gleam community settles it.
 
