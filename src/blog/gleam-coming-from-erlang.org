@@ -10,22 +10,22 @@ refs: [zenoferlang]
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-I made some time to try Gleam, the type safe language that runs on the Erlang virtual machine.
+I made some time to try [[https://gleam.run/][Gleam]], the type safe language that runs on the Erlang virtual machine.
 For a couple of weeks, I used it to build a little [[https://github.com/facundoolano/news.olano.dev/][open source]] feed aggregator, that's now [[https://news.olano.dev/][live]].
 These are my notes.
 
 ** why I'm interested in Gleam
 
-I spent most of my career working with dynamic languages: Python, JavaScript, Clojure, finally Erlang. I don't claim to be an expert but the Erlang VM is the piece of technology I've became more intimately familiar with. There is no way around it, I think: if you're running Erlang in production sooner or later you'll be thinking in terms of processes, scheduling, failure modules, resource utilisation. I'd still be happily living in the BEAM, if it wasn't that there doesn't seem to be many companies willing to use it anymore. Or willing to hire Erlang devs from South America, anyway. Their loss.
+I spent most of my career working with dynamic languages: Python, JavaScript, Clojure, finally Erlang. I don't claim to be an expert but the Erlang VM is the piece of technology I've became most intimately familiar with. There is no way around it, I think: if you're running Erlang in production sooner or later you'll be thinking in terms of processes, scheduling, failure modules, resource utilisation[fn:8].
 
-After Erlang, I dabbled in Rust, both professionally and on [[deconstructing-the-role-playing-videogame][personal projects]], and I was very impressed by its type system, its error handling, the developer experience it enabled. The thing is, Rust comes with all the systems programming overhead, which in my opinion is not a good bargain if you are not, you know, programming systems. Alas, I'm too old to pick up my garbage. And, coming from Erlang, Rust's async concurrency model (like JavaScript's, like Python's) just makes me very sad inside.
+After Erlang, I dabbled in Rust, both professionally and on [[deconstructing-the-role-playing-videogame][personal projects]], and I was very impressed by its type system, its error handling, the developer experience it enabled. The thing is: Rust comes with all the systems programming overhead, which in my opinion is not a good bargain if you are not, you know, programming systems. Alas, I'm too old to pick up my own garbage. And, coming from Erlang, Rust's async concurrency (like JavaScript's, like Python's) just makes me very sad inside.
 
-You can imagine why Gleam sounded interesting to me:
+So you can imagine why Gleam looks interesting to me:
 
-- I would like a Rust minus the memory management and with gentler concurrency;
+- I would like a Rust minus the memory management and with a gentler concurrency model;
 - I would like a BEAM language without Erlang's rough edges and with the goodies of a modern type system[fn:1].
 
-(I'm not claiming Gleam is one of those things, but it seems close enough to spike my interest).
+I'm not claiming Gleam is one of those things, but it seems close enough to spike my interest.
 
 ** the project
 
@@ -97,7 +97,7 @@ As a digression, I want to echo something I [[https://batsov.com/articles/2024/0
 I don't know if it's a particular inclination of the language designer or it's just how things are done today, but I was surprised to see how much emphasis is put in improving the developer experience and, specifically, adding features to the Language Server implementation. During my first week of development, I constantly missed the ability to ~lsp-rename~ I have in other languages; during my second week, [[https://gleam.run/news/gleam-gets-rename-variable/][a new Gleam version]] came out adding that very feature!
 
 ** learning
-- I learned most of what I needed to know in 30 minutes, through the [[https://tour.gleam.run/][official tour]]. I had the advantage of being already familiar with Rust and Erlang, but I would say that the fact that everything can be covered so succinctly speaks of the effort that was put into keeping the language small and simple.
+- I learned most of what I needed to know in 30 minuntes, through the [[https://tour.gleam.run/][official tour]]. I had the advantage of being already familiar with Rust and Erlang, but I would say that the fact that everything can be covered so succinctly speaks of the effort that was put into keeping the language small and simple.
 - For the standard libraries and external dependencies, their respective hex docs pages are the way to go.
 - To pick up on conceptual discussions, ask questions and learn what's idiomatic, I found that (unfortunately for me) the discord channel is more effective than searching GitHub.
 
@@ -402,8 +402,8 @@ As far as a "Rust without memory management and with better concurrency" goes, I
 
 Perhaps the most interesting question, which I certainly won't try to answer here, is: are type safety and /let it crash/ compatible? Can they be complementary? Erlang is [[https://ferd.ca/the-zen-of-erlang.html][all about]] tolerating faults: accepting that you can't possibly catch all errors, and you'd be better off to design your application to recover in the presence of the unexpected. This has the benefit that some error handling code goes away, absorbed by the application structure and its supervision tree. Gleam, like Rust, makes you think preemptively about errors, and spend a much larger amount of time on handling them while writing code. One could argue that by doing this, an entire problem space disappears, the silly type errors that inevitably slip into all dynamically typed programs, leaving OTP to deal with the truly unexpected. There's a tension, but there's also an interesting balance to strike here, and I'm definitely curious to see where the Gleam community settles it.
 
-*** Notes
-[fn:1] No, not dialyzer.
+*** notes
+[fn:1] No, not [[https://www.erlang.org/doc/apps/dialyzer/dialyzer.html][dialyzer]].
 
 [fn:2] In the reader, this is paired with an "auto mark as read on scroll" feature so the same "infrequent" posts aren't displayed at the top every time you open the app. This feature doesn't seem to be a good fit for a link aggregator without scrolling, but I'm still thinking about it.
 
@@ -416,3 +416,5 @@ Perhaps the most interesting question, which I certainly won't try to answer her
 [fn:6] More about use expressions [[https://gleam.run/news/v0.25-introducing-use-expressions/][here]] and [[https://erikarow.land/notes/using-use-gleam][here]].
 
 [fn:7] gleam_otp also introduces the concept of a [[https://hexdocs.pm/gleam_erlang/gleam/erlang/process.html#Selector][Selector]], to be able to receive messages from different subjects at once. I found this one harder to understand intuitively, but it's less frequently used, I think.
+
+[fn:8] I'd still be happily living in the BEAM, if it wasn't that there doesn't seem to be many companies willing to use it anymore. Or willing to hire Erlang devs from South America, anyway. Their loss.
