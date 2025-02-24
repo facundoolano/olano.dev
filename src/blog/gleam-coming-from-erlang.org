@@ -200,21 +200,21 @@ io.println(resp.body)
 One of the patterns that emerges of this, I believe, is to define an app-specific error type and use it everywhere, mapping external errors to it.
 
 ** erlang interop
-The overall impression I got is that, compared to Elixir, Gleam puts more distance to Erlang. This in part a necessity, since they are fundamentally different languages; it requires more work to make them fit together. But I also sense an intention in Gleam's design to "make sense" on its own, to have conceptual integrity independently from the target platform of choice (Gleam transpiles to JavaScript in addition to the BEAM). This shows in that there is no direct mapping for some of the Erlang types, there is no REPL and no attaching to a running release, no discussion of concurrency in the base documentation (not even in that [[https://gleam.run/cheatsheets/gleam-for-erlang-users/][targeted to Erlang users]]). Erlang processes and OTP are better considered as an optional add-on libraries than part of the foundation of the language.
+The overall impression I got is that, compared to Elixir, Gleam is more distanced from Erlang. This in part a necessity, since they are fundamentally different languages: type safety is not a direct fit to the BEAM. But I also sense an intention in Gleam's design to "make sense" on its own, to have conceptual integrity independently from its target platform (Gleam compiles to JavaScript in addition to Erlang). This shows in that there is no direct mapping for some of the Erlang types, there is no REPL and no attaching to a running release, no discussion of concurrency in the base documentation (not even in that [[https://gleam.run/cheatsheets/gleam-for-erlang-users/][targeted to Erlang users]]). Erlang processes and OTP look more like add-on libraries than part of the language foundation.
 
-Interop is straightforward, just declaring a function and it's target equivalent, with some type specs:
+Interop is straightforward, just declaring a function and its Erlang counterpart, with some type specs:
 
 #+begin_src Gleam
 @external(erlang, "persistent_term", "put")
-fn put_entries(key: String, value: List(Entry)) -> ok
+fn put_entries(key: String, value: List(Entry)) -> atom.Atom
 
 @external(erlang, "persistent_term", "get")
 fn get_entries(key: String) -> List(Entry)
 #+end_src
 
-Things got tricky for me when I wanted to use [[https://github.com/willemdj/erlsom][erlsom]], a quirky Erlang library to parse XML documents. For one, I had to use ~atom.create_from_string~ and ~charlist.to_string~ to make it work in Gleam, which was a minor inconvenience. What was more of a problem is that, XML docs being very flexible, parsing an Atom feed yielded a different tuple structure than parsing an RSS feed, and that didn't make sense to Gleam's type checker.
+Things got tricky for me when I wanted to use [[https://github.com/willemdj/erlsom][erlsom]], a quirky Erlang library to parse XML documents. For one, I had to use ~atom.create_from_string~ and ~charlist.to_string~ pervasively to interface with Gleam, which was a minor inconvenience. What was more of a problem is that, XML docs being structurally free form, parsing an Atom feed yielded a different data structure than parsing an RSS feed, and that didn't make sense to Gleam's type checker.
 
-My initial implementation hacked away the problem, by parsing the doc multiple types to "fool" the type checker---once to figure out what type of feed the document was, another to parse it. The proper Gleam way of treating dynamic structures like these would be through the [[https://hexdocs.pm/gleam_stdlib/gleam/dynamic/decode.html#run][~dynamic/decode~]] module, but I found this to be overly complicated. After looking at other libraries, I realized the right solution for this situation is to just write thin Erlang ffi modules to adjust the data for easier translation to the Gleam world. So I put together a very basic feed parser, to get only the few fields I was interested in into an erlang map:
+My initial implementation [[https://github.com/facundoolano/news.olano.dev/blob/afc2dbff7870217744d09f106fce081367904f63/src/parser.gleam#L13-L26][hacked away]] this problem by parsing the document multiple times to "fool" the compiler---once to figure out what type of feed the document was, another to actually extract the entry data. The proper Gleam way of treating dynamic structures like these would be through the [[https://hexdocs.pm/gleam_stdlib/gleam/dynamic/decode.html#run][~dynamic/decode~]] module, but I found that too complicated for my purposes. After looking at other libraries, I realized that the right solution was to write a thin Erlang FFI module to normalize the data before passing it to Gleam. So I put together a very basic feed parser that extracts the few fields I needed into an Erlang map:
 
 #+begin_src erl
 -module(parser).
@@ -416,7 +416,7 @@ As far as a "Rust without memory management and with better concurrency" goes, I
 
 Perhaps the most interesting question, which I certainly won't try to answer here, is: are type safety and /let it crash/ compatible? Can they be complementary? Erlang is [[https://ferd.ca/the-zen-of-erlang.html][all about]] tolerating faults: accepting that you can't possibly catch all errors, and you'd be better off to design your application to recover in the presence of the unexpected. This has the benefit that some error handling code goes away, absorbed by the application structure and its supervision tree. Gleam, like Rust, makes you think preemptively about errors, and spend a much larger amount of time on handling them while writing code. One could argue that by doing this, an entire problem space disappears, the silly type errors that inevitably slip into all dynamically typed programs, leaving OTP to deal with the truly unexpected. There's a tension, but there's also an interesting balance to strike here, and I'm definitely curious to see where the Gleam community settles it.
 
-*** notes
+** notes
 [fn:1] No, not [[https://www.erlang.org/doc/apps/dialyzer/dialyzer.html][dialyzer]].
 
 [fn:2] In the reader, this is paired with an "auto mark as read on scroll" feature so the "infrequent" posts don't stick at the top every time you open the app. This feature doesn't seem to be a good fit for a link aggregator without pagination, but I'm still thinking about it.
