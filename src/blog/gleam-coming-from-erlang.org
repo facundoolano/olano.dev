@@ -31,7 +31,7 @@ I'm not claiming Gleam is one of those things, but it seems close enough to spik
 
 After happily running [[https://olano.dev/blog/reclaiming-the-web-with-a-personal-reader/][my personal feed reader]] for over a year, several spin-off projects have been coming to mind: turning my list of feeds into a blog roll, my list of favorites into a link blog, making a public version of my feed, etc.
 
-The single remarkable feature of my reader is that I don't just sort posts chronologically but by "reverse frequency". If I follow a news site that publishes twice an hour and an essayist that publishes every two months, I want the essayist at the top of my list if they published yesterday, even though there are 30 more recent posts from the news site[fn:2]. To get this effect I distribute the feeds in frequency buckets and sort by reverse frequency first, publish date later. This is what the bucket calculation looks like in Gleam[fn:3]:
+The single remarkable feature of my reader is that I don't sort posts chronologically but by "reverse frequency". If I follow a news site that publishes twice an hour and an essayist that publishes every two months, I want the essayist at the top of my feed if they published yesterday, even if there are 30 more recent news posts[fn:2]. To get this effect I distribute the feeds in frequency buckets and sort by reverse frequency first, publish date later. This is what the bucket calculation looks like in Gleam[fn:3]:
 
 #+begin_src gleam
 /// Calculate the frequency bucket of the feed,
@@ -79,22 +79,21 @@ The minimal feed reader spin-off I could think of was then to:
 
 ** the design
 
-The approach I took to design the app was: try to do what you would do in Erlang and see if that fits in Gleam.
+The approach I took to design the app was: try to do what you would do in Erlang and see if that fits in Gleam. I came up with this:
 
-What I thought about was:
 - A set of [[https://www.erlang.org/docs/24/man/gen_server][gen_servers]], one per feed, that would periodically request the feed url, parse the entries and store them in the process state.
-- Another gen_server that would periodically query each feed poller process for its most recent list of entries, sort them and dump them to a globally accessible [[https://www.erlang.org/docs/24/man/ets][ETS table]]. (That way, no process becomes a source of contention between clients trying to read the data, and the rebuilding of the data doesn't affect them either).
+- Another gen_server that would periodically query each feed poller process for its most recent list of entries, sort them and dump them into a globally accessible [[https://www.erlang.org/docs/24/man/ets][ETS table]]. (That way, no process becomes a source of contention between clients trying to read the data, and the rebuilding of the table doesn't delay its reading).
 - A minimal web server that would just query the table and build an HTML list of the current entries.
 
-I wouldn't bother with persisting the entries to a data store, although I would keep a file cache of feed responses to rebuild the state on app restarts without spamming the source sites.
+I wouldn't bother with persisting the entries to a data store, although I would keep a file cache of XML  responses to rebuild the state on app restarts without spamming the source sites.
 
-The final result was very close to the initial design, with the exception that I opted for a [[https://www.erlang.org/doc/apps/erts/persistent_term.html][persistent_term]] instead of an ETS table, since I didn't want to get entries by key but read the full list on every request.
+The final result was very close to this initial design, with the exception that I opted for a [[https://www.erlang.org/doc/apps/erts/persistent_term.html][persistent_term]] instead of an ETS table, since I didn't want to get entries by key but read the full list on every request.
 
 ** env setup
 
-As a digression, I want to echo something I [[https://batsov.com/articles/2024/02/27/m-x-reloaded-the-second-golden-age-of-emacs/][recently read]]: this is a great time to be an Emacs user. Thanks to LSP, treesitter and [[https://github.com/radian-software/apheleia][apheleia]], I get a very consistent UX for new languages practically out of the box, something that a couple of years ago required a few days of tweaking to get right[fn:4].
+As a digression, I want to echo something I [[https://batsov.com/articles/2024/02/27/m-x-reloaded-the-second-golden-age-of-emacs/][read recently]]: this is a great time to be an Emacs user. Thanks to LSP, tree-sitter and [[https://github.com/radian-software/apheleia][apheleia]], I get a very consistent UX for new languages practically out of the box, something that a couple of years ago required days of tweaking to get right[fn:4].
 
-I don't know if it's a particular inclination of the language designer or it's just how things are done today, but I was surprised to see how much emphasis is put in improving the developer experience and, specifically, adding features to the Language Server implementation. During my first week of development, I constantly missed the ability to ~lsp-rename~ I have in other languages; during my second week, [[https://gleam.run/news/gleam-gets-rename-variable/][a new Gleam version]] came out adding that very feature!
+I don't know if it's a particular inclination of the language designer or that's just how things are done today, but I was surprised to see how much emphasis is put in improving the developer experience and, specifically, adding features to the Language Server implementation. During my first week of development, I constantly missed the ability to ~lsp-rename~ I have in other languages; during my second week, [[https://gleam.run/news/gleam-gets-rename-variable/][a new Gleam version]] came out adding that very feature!
 
 ** learning
 - I learned most of what I needed to know in 30 minuntes, through the [[https://tour.gleam.run/][official tour]]. I had the advantage of being already familiar with Rust and Erlang, but I would say that the fact that everything can be covered so succinctly speaks of the effort that was put into keeping the language small and simple.
@@ -405,7 +404,7 @@ Perhaps the most interesting question, which I certainly won't try to answer her
 *** notes
 [fn:1] No, not [[https://www.erlang.org/doc/apps/dialyzer/dialyzer.html][dialyzer]].
 
-[fn:2] In the reader, this is paired with an "auto mark as read on scroll" feature so the same "infrequent" posts aren't displayed at the top every time you open the app. This feature doesn't seem to be a good fit for a link aggregator without scrolling, but I'm still thinking about it.
+[fn:2] In the reader, this is paired with an "auto mark as read on scroll" feature so the "infrequent" posts don't stick at the top every time you open the app. This feature doesn't seem to be a good fit for a link aggregator without pagination, but I'm still thinking about it.
 
 [fn:3] Can you spot the bug?
 
