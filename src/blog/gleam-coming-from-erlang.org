@@ -260,7 +260,7 @@ parse_rss_entry(Attrs, Acc) ->
 
 ** otp
 
-OTP in Gleam is what took me the most effort to figure out. The [[https://hexdocs.pm/gleam_otp/index.html][hexdocs]] cover most of the ground but I found it wasn't enough to get the concepts right, especially when they differed from their Erlang counterparts. For that, I reached to [[https://github.com/bcpeinhardt/learn_otp_with_gleam][this GitHub project]], the tests in there and in the gleam_otp repositories, and Gleam's discord channel history.
+OTP in Gleam is what took me the most effort to figure out. The [[https://hexdocs.pm/gleam_otp/index.html][hexdocs]] cover the basics but that wasn't enough for me to get the concepts right, especially where they differed from their Erlang counterparts. For that, I reached to [[https://github.com/bcpeinhardt/learn_otp_with_gleam][this GitHub project]], its tests and the tests the gleam_otp repo, and the Gleam's Discord discussion history.
 
 The first big difference is that, in Gleam, you typically don't pass around process ids to send messages to; instead a process "declares" what type of messages it expects to receive by creating a [[https://hexdocs.pm/gleam_erlang/gleam/erlang/process.html#Subject][Subject]]:
 #+begin_src gleam
@@ -275,22 +275,25 @@ receive(subject, within: 10)
 
 Creating a subject is akin to opening a channel in other languages[fn:7].
 
-So when you create an [[https://hexdocs.pm/gleam_otp/gleam/otp/actor.html][actor]], Gleam's equivalent of a gen_server, what you get is not Pid but a subject. The basic boilerplate for a server, in this case the one managing the entry table, looks like this:
+When you create an [[https://hexdocs.pm/gleam_otp/gleam/otp/actor.html][actor]], Gleam's equivalent of a gen_server, what you get is not a Pid but a Subject. The basic boilerplate for a server, in this case the one managing the entry table, looks like this:
 
 #+begin_src gleam
 // type alias for convenience
 pub type Table = Subject(Message)
 
-// Declare what types of messages this actor is going to deal with
+// Declare what types of messages this actor is going to receive
 pub type Message {
   // send a message to itself to rebuild the table
+  // the subject is passed again for scheduling the next message
   Rebuild(Table)
 
   // save a new feed poller to the internal state
+  // the poller (another subject) is passed to request entries
+  // during table building
   RegisterFeed(String, Poller)
 }
 
-// What internal state will the server have
+// Declare the shape of the server's internal state
 type State {
   State(feeds: dict.Dict(String, Poller))
 }
@@ -326,12 +329,13 @@ fn handle_message(message: Message, state: State) {
 The module's public API has a function to register a feed in the table and another to get the latest entries:
 
 #+begin_src Gleam
-/// Add a poller to the table manager process, so its entries are included when refreshing the table.
+/// Add a poller to the table manager process
+/// so its entries are included when refreshing the table.
 pub fn register(table: Table, name: String, poller: Poller) {
   process.send(table, RegisterFeed(name, poller))
 }
 
-/// Return the current list of entries, sorted by "inverted frequency".
+/// Return the current list of entries.
 pub fn get() -> List(FeedEntry) {
   get_entries(table_key) |> list.map(fn(e) { e.entry })
 }
@@ -339,9 +343,7 @@ pub fn get() -> List(FeedEntry) {
 
 The latter doesn't need to receive a table (i.e. a ~Subject(Message)~) because the entries are stored in a globally accessible persistent term.
 
-Unlike the rest of the language, the OTP abstractions haven't stabilized yet. In other words, gleam_otp hasn't reached 1.0. This was most evident with Supervisors. There are two flavors: the older [[https://hexdocs.pm/gleam_otp/gleam/otp/supervisor.html][otp/supervisor]], which apparently is discouraged and has a few bugs, and the newer [[https://hexdocs.pm/gleam_otp/gleam/otp/static_supervisor.html][otp/static_supervisor]] which works better but is less flexible.
-
-I went with a static supervisor [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/src/table_sup.gleam][for my project]]. The supervision tree looks like this:
+Unlike the rest of the language, the OTP abstractions haven't stabilized yet. In other words, gleam_otp hasn't reached 1.0. This was most evident with Supervisors. There are two flavors: the older [[https://hexdocs.pm/gleam_otp/gleam/otp/supervisor.html][otp/supervisor]], which is discouraged and has a few bugs, and the newer [[https://hexdocs.pm/gleam_otp/gleam/otp/static_supervisor.html][otp/static_supervisor]], which works better but is less flexible. I went with a static supervisor [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/src/table_sup.gleam][for my project]]. The supervision tree looks like this:
 
 #+begin_src
  table_sup
@@ -352,11 +354,11 @@ I went with a static supervisor [[https://github.com/facundoolano/news.olano.dev
      └── ...
 #+end_src
 
-I couldn't find a way to either pass the pollers to the table or the table to the pollers while still having every actor spawned by its supervisor. And I couldn't work around it by making the table a named process, since I needed a Subject, not a process to send messages to. So I [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/src/table.gleam#L45-L47][hacked it]] by storing the Subject on another persistent term every time a new Table actor starts.
+I couldn't find a way to either pass the pollers to the table or the table to the pollers while still having every actor spawned by its supervisor. And I couldn't work around it by making the table a named process, since I needed a Subject, not a process, to send messages to. So I [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/src/table.gleam#L45-L47][hacked it]] by storing the Subject on another persistent term every time a new Table actor starts.
 
 ** deployment
 
-The documentation always uses ~gleam run~ to run a program, but what if I want to deploy a release it to a server without installing gleam in it? Some digging revealed there's a ~gleam export erlang-shipment~ command that will build the project with Erlang modules in production mode, and with an entrypoint script to run it (provided ~erl~ is in the path):
+The documentation always uses ~gleam run~ to run a program, but what if I want to deploy a release it to a server without installing Gleam in it? Some digging revealed there's a ~gleam export erlang-shipment~ command that will build the project with Erlang modules in production mode, and with an entrypoint script to run it (provided ~erl~ is in the path):
 
 #+begin_src sh
 run() {
@@ -372,7 +374,7 @@ shell() {
 }
 #+end_src
 
-A neat trick is to change this script to allow for the shell to attach to a running release:
+A neat trick is to change this script to allow for the shell to attach to a running node:
 
 #+begin_src diff
  run() {
@@ -390,6 +392,8 @@ A neat trick is to change this script to allow for the shell to attach to a runn
  }
 #+end_src
 
+That way one can interact with the (Erlang compiled) Gleam modules:
+
 #+begin_src
 $ build/erlang-shipment/entrypoint.sh shell
 Erlang/OTP 27 [erts-15.0] [source] [64-bit] [smp:10:10] [ds:10:10:10] [async-threads:1] [jit]
@@ -406,7 +410,7 @@ Eshell V15.0 (press Ctrl+G to abort, type help(). for help)
  {...}|...]
 #+end_src
 
-I briefly documented my deploy setup [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/README.md#deploy][here]].
+I briefly documented the rest of my deploy setup [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/README.md#deploy][here]].
 
 ** thoughts
 
