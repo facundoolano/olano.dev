@@ -6,6 +6,8 @@ lang: en
 tags: [programming, web, projects, ideas]
 draft: true
 refs: [zenoferlang]
+image: gleam.png
+excerpt: "I made some time to try Gleam, the type safe language that runs on the Erlang virtual machine. For a couple of weeks, I used it to build a little feed aggregator, that's now live. These are my notes."
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
