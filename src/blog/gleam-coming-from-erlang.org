@@ -102,9 +102,9 @@ I don't know if it's a particular inclination of the language designer or that's
 
 ** the language
 
-- The syntax pretty much feels like a functional subset of Rust, with Elixir-like pipes (~|>~) and a standard library adjusted to take advantage of them.
 - The language specification is already stable, having reached 1.0 about [[https://gleam.run/news/gleam-version-1/][a year ago]].
-- To me, one of the most important features of a language, and one that can be a good indicator of its "vibe" is how it deals with imports and namespaces. I think Gleam gets this /exactly/ right[fn:5], with qualified imports the easy default:
+- The syntax pretty much feels like a functional subset of Rust, with Elixir-like pipes (~|>~) and a standard library adjusted to take advantage of them.
+- One of the things I pay more attention to in a programming language, and one that can be a good indicator of its "vibe", is how it deals with imports and namespaces. I think Gleam gets this /exactly/ right[fn:5], with namespaces matching modules matching filenames, a single directive for imports, and qualified imports as [[https://tour.gleam.run/basics/modules/][the easy default]]:
 
   #+begin_src Gleam
 import gleam/io
@@ -118,6 +118,21 @@ pub fn main() {
     io.println(text.reverse("Hello, Joe!"))
 }
 
+  #+end_src
+
+  Qualified imports are the best default in my opinion, but they can be redundant when importing types. Gleam [[https://tour.gleam.run/basics/type-imports/][has that covered]] too:
+
+  #+begin_src Gleam
+  import gleam/bytes_tree
+  import gleam/string_tree.{type StringTree}
+
+  pub fn main() {
+    // Referring to a type in a qualified way
+    let _bytes: bytes_tree.BytesTree = bytes_tree.new()
+
+    // Refering to a type in an unqualified way
+    let _text: StringTree = string_tree.new()
+  }
   #+end_src
 
 - The is no magic: no macros, no meta programming, no traits, no default or rest arguments. This is usually fine for me, with the exception of printing values for debugging, which becomes very tedious since everything needs to be coerced to a string and manually concatenated:
@@ -134,9 +149,9 @@ io.println(
 
 ** error handling
 
-Error handling is always a contentious topic, especially in languages that have errors-as-values. There's usually some language support to ease the burden of checking results: Elixir has [[https://hexdocs.pm/elixir/1.15.8/Kernel.SpecialForms.html#with/1][with expressions]], Rust has the [[https://doc.rust-lang.org/rust-by-example/std/result/question_mark.html][question mark operator]], Go has, uh, if statements. The Gleam equivalent are [[https://tour.gleam.run/advanced-features/use/][use <- expressions]][fn:6].
+Error handling is always a contentious topic, especially in languages that have errors as values. There's usually some language support to ease the burden of checking results: Elixir has [[https://hexdocs.pm/elixir/1.15.8/Kernel.SpecialForms.html#with/1][with expressions]], Rust has the [[https://doc.rust-lang.org/rust-by-example/std/result/question_mark.html][question mark operator]], Go has, uh, if statements. The Gleam equivalent to those is the [[https://tour.gleam.run/advanced-features/use/][use <- expressions]][fn:6].
 
-Use is perhaps the only "special" bit of syntax of the language, and the one that requires more effort to get used to. One way to think about use is that it "absorbs" the callback argument of a function much like the pipe "absorbs" the first argument of an operation:
+Use is perhaps the only "special" bit of syntax of the language, and the one that requires more effort to get used to. One way to think about ~use~ is that it "absorbs" the callback argument of a function much like the pipe "absorbs" the first argument of an operation. For example:
 
 #+begin_src gleam
 pub fn handle_request(request: HttpRequest) {
@@ -170,7 +185,7 @@ pub fn handle_request(request: HttpRequest) {
 }
 #+end_src
 
-I admit I haven't my got a-ha! moment with ~use~ yet, and I still struggle with error handling. Part of the problem, I think, is that ~use~ helps with callbacks, which are much less frequent than ~Result~ values, so function calls typically need to be wrapped in ~result.try~ and, since different functions tend to return different error types, this occasionally needs to be paired with ~result.replace_error~ to make it work:
+I admit I haven't my got a-ha! moment with ~use~ yet, and I still struggle with error handling. Part of the problem, I think, is that ~use~ helps with callbacks, which are much less frequent than ~Result~ values, so function calls typically need to be wrapped in [[https://hexdocs.pm/gleam_stdlib/gleam/result.html#try][~result.try~]] and, since different functions tend to return different error types, this occasionally needs to be paired with [[https://hexdocs.pm/gleam_stdlib/gleam/result.html#replace_error][~result.replace_error~]] to make it work:
 
 #+begin_src Gleam
 use resp <- result.try(
