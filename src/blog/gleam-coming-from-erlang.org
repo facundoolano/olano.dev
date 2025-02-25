@@ -7,13 +7,13 @@ tags: [programming, web, projects, ideas]
 draft: true
 refs: [zenoferlang]
 image: gleam.png
-excerpt: "I made some time to try Gleam, the type safe language that runs on the Erlang virtual machine. For a couple of weeks, I used it to build a little feed aggregator, that's now live. These are my notes."
+excerpt: "I recently took some time to try Gleam, the type safe language that runs on the Erlang virtual machine. For a couple of weeks, I used it to build a little feed aggregator. These are my notes."
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-I made some time to try [[https://gleam.run/][Gleam]], the type safe language that runs on the Erlang virtual machine.
-For a couple of weeks, I used it to build a little [[https://github.com/facundoolano/news.olano.dev/][open source]] feed aggregator, that's now [[https://news.olano.dev/][live]].
+I recently took some time to try [[https://gleam.run/][Gleam]], the type safe language that runs on the Erlang virtual machine.
+For a couple of weeks, I used it to build a little [[https://github.com/facundoolano/news.olano.dev/][open source]] feed aggregator that's now [[https://news.olano.dev/][live]].
 These are my notes.
 
 ** why I'm interested in Gleam
@@ -22,7 +22,7 @@ I spent most of my career working with dynamic languages: Python, JavaScript, Cl
 
 After Erlang, I dabbled in Rust, both professionally and on [[deconstructing-the-role-playing-videogame][personal projects]], and I was very impressed by its type system, its error handling, the developer experience it enabled. The thing is: Rust comes with all the systems programming overhead, which in my opinion is not a good bargain if you are not, you know, programming systems. Alas, I'm too old to pick up my own garbage. And, coming from Erlang, Rust's async concurrency (like JavaScript's, like Python's) just makes me very sad inside.
 
-So you can imagine why Gleam looks interesting to me:
+By now you may imagine why Gleam looks interesting to me:
 
 - I would like a Rust minus the memory management and with a gentler concurrency model;
 - I would like a BEAM language without Erlang's rough edges and with the goodies of a modern type system[fn:1].
@@ -98,14 +98,14 @@ As a digression, I want to echo something I [[https://batsov.com/articles/2024/0
 I don't know if it's a particular inclination of the language designer or that's just how things are done today, but I was surprised to see how much emphasis is put in improving the developer experience and, specifically, adding features to the Language Server implementation. During my first week of development, I constantly missed the ability to ~lsp-rename~ I have in other languages; during my second week, [[https://gleam.run/news/gleam-gets-rename-variable/][a new Gleam version]] came out adding that very feature!
 
 ** learning
-- I learned most of what I needed to know in 30 minuntes, through the [[https://tour.gleam.run/][official tour]]. I had the advantage of being already familiar with Rust and Erlang, but I would say that the fact that everything can be covered so succinctly speaks of the effort that was put into keeping the language small and simple.
+- I learned most of what I needed to know in 30 minuntes, through the [[https://tour.gleam.run/][official tour]]. I had the advantage of being already familiar with Rust and Erlang, but I would say that the fact that everything can be covered so succinctly speaks of the effort that went into keeping the language small and simple.
 - For the standard libraries and external dependencies, their respective hex docs pages are the way to go.
 - To pick up on conceptual discussions, ask questions and learn what's idiomatic, I found that (unfortunately for me) the discord channel is more effective than searching GitHub.
 
 ** the language
 
 - The language specification is already stable, having reached 1.0 about [[https://gleam.run/news/gleam-version-1/][a year ago]].
-- The syntax pretty much feels like a functional subset of Rust, with Elixir-like pipes (~|>~) and a standard library adjusted to take advantage of them.
+- The syntax feels like a functional subset of Rust, with Elixir-like pipes (~|>~) and a standard library adjusted to take advantage of them.
 - One of the things I pay more attention to in a programming language, and one that can be a good indicator of its "vibe", is how it deals with imports and namespaces. I think Gleam gets this /exactly/ right[fn:5], with namespaces matching modules matching filenames, a single directive for imports, and qualified imports as [[https://tour.gleam.run/basics/modules/][the easy default]]:
 
   #+begin_src Gleam
@@ -151,9 +151,9 @@ io.println(
 
 ** error handling
 
-Error handling is always a contentious topic, especially in languages that have errors as values. There's usually some language support to ease the burden of checking results: Elixir has [[https://hexdocs.pm/elixir/1.15.8/Kernel.SpecialForms.html#with/1][with expressions]], Rust has the [[https://doc.rust-lang.org/rust-by-example/std/result/question_mark.html][question mark operator]], Go has, uh, if statements. The Gleam equivalent to those is the [[https://tour.gleam.run/advanced-features/use/][use <- expressions]][fn:6].
+Error handling is always a contentious topic, especially in languages that have errors as values. There's usually some language support to ease the burden of checking results: Elixir has [[https://hexdocs.pm/elixir/1.15.8/Kernel.SpecialForms.html#with/1][with expressions]], Rust has the [[https://doc.rust-lang.org/rust-by-example/std/result/question_mark.html][question mark operator]], Go has, uh, if statements. The Gleam equivalent to those is the [[https://tour.gleam.run/advanced-features/use/][use <- expression]][fn:6].
 
-Use is perhaps the only "special" bit of syntax of the language, and the one that requires more effort to get used to. One way to think about ~use~ is that it "absorbs" the callback argument of a function much like the pipe "absorbs" the first argument of an operation. For example:
+~use~ is perhaps the only "special" bit of syntax of the language, and the one that requires more effort to get used to. One way to think about ~use~ is that it "absorbs" the callback argument of a function much like the pipe "absorbs" the first argument of an operation. For example:
 
 #+begin_src gleam
 pub fn handle_request(request: HttpRequest) {
@@ -202,7 +202,7 @@ io.println(resp.body)
 One of the patterns that emerges of this, I believe, is to define an app-specific error type and use it everywhere, mapping external errors to it.
 
 ** erlang interop
-The overall impression I got is that, compared to Elixir, Gleam is more distanced from Erlang. This in part a necessity, since they are fundamentally different languages: type safety is not a direct fit to the BEAM. But I also sense an intention in Gleam's design to "make sense" on its own, to have conceptual integrity independently from its target platform (Gleam compiles to JavaScript in addition to Erlang). This shows in that there is no direct mapping for some of the Erlang types, there is no REPL and no attaching to a running release, no discussion of concurrency in the base documentation (not even in that [[https://gleam.run/cheatsheets/gleam-for-erlang-users/][targeted to Erlang users]]). Erlang processes and OTP look more like add-on libraries than part of the language foundation.
+The overall impression I got is that, compared to Elixir, Gleam is more distanced from Erlang. This in part a necessity, since they are fundamentally different languages: type safety is not a straight fit to the BEAM. But I also sense an intention in Gleam's design to "make sense" on its own, to have conceptual integrity independently from its target platform (Gleam compiles to JavaScript in addition to Erlang). This shows in that there is no direct mapping for some of the Erlang types, there is no REPL and no attaching to a running release, no discussion of concurrency in the base documentation (not even in that [[https://gleam.run/cheatsheets/gleam-for-erlang-users/][targeted to Erlang users]]). Erlang processes and OTP look more like add-on libraries than part of the language foundation.
 
 Interop is straightforward, just declaring a function and its Erlang counterpart, with some type specs:
 
@@ -262,9 +262,9 @@ parse_rss_entry(Attrs, Acc) ->
 
 ** otp
 
-OTP in Gleam is what took me the most effort to figure out. The [[https://hexdocs.pm/gleam_otp/index.html][hexdocs]] cover the basics but that wasn't enough for me to get the concepts right, especially where they differed from their Erlang counterparts. For that, I reached to [[https://github.com/bcpeinhardt/learn_otp_with_gleam][this GitHub project]], its tests and the tests the gleam_otp repo, and the Gleam's Discord discussion history.
+OTP in Gleam is what took me the most effort to figure out. The [[https://hexdocs.pm/gleam_otp/index.html][hexdocs]] cover the basics but that wasn't enough for me to get the concepts right, especially where they differed from their Erlang counterparts. For that, I reached to [[https://github.com/bcpeinhardt/learn_otp_with_gleam][this GitHub project]], its tests and those of the [[https://github.com/gleam-lang/otp][gleam/otp]] repo, and the Gleam Discord history.
 
-The first big difference is that, in Gleam, you typically don't pass around process ids to send messages to; instead a process "declares" what type of messages it expects to receive by creating a [[https://hexdocs.pm/gleam_erlang/gleam/erlang/process.html#Subject][Subject]]:
+The first big difference is that, in Gleam, you typically don't pass around process ids to send messages to; instead, a process "declares" what type of messages it expects to receive by creating a [[https://hexdocs.pm/gleam_erlang/gleam/erlang/process.html#Subject][Subject]]:
 #+begin_src gleam
 let subject = new_subject()
 
@@ -277,7 +277,7 @@ receive(subject, within: 10)
 
 Creating a subject is akin to opening a channel in other languages[fn:7].
 
-When you create an [[https://hexdocs.pm/gleam_otp/gleam/otp/actor.html][actor]], Gleam's equivalent of a gen_server, what you get is not a Pid but a Subject. The basic boilerplate for a server, in this case the one managing the entry table, looks like this:
+Therefore, when you create an [[https://hexdocs.pm/gleam_otp/gleam/otp/actor.html][actor]]---Gleam's equivalent of a ~gen_server~---what you get is not a Pid but a Subject. The basic boilerplate for a server, in this case the one managing the entry table, looks like this:
 
 #+begin_src gleam
 // type alias for convenience
@@ -345,7 +345,7 @@ pub fn get() -> List(FeedEntry) {
 
 The latter doesn't need to receive a table (i.e. a ~Subject(Message)~) because the entries are stored in a globally accessible persistent term.
 
-Unlike the rest of the language, the OTP abstractions haven't stabilized yet. In other words, gleam_otp hasn't reached 1.0. This was most evident with Supervisors. There are two flavors: the older [[https://hexdocs.pm/gleam_otp/gleam/otp/supervisor.html][otp/supervisor]], which is discouraged and has a few bugs, and the newer [[https://hexdocs.pm/gleam_otp/gleam/otp/static_supervisor.html][otp/static_supervisor]], which works better but is less flexible. I went with a static supervisor [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/src/table_sup.gleam][for my project]]. The supervision tree looks like this:
+Unlike the rest of the language, the OTP abstractions haven't stabilized yet. In other words, gleam_otp hasn't reached 1.0. This was most evident with Supervisors. They come in two flavors: the older [[https://hexdocs.pm/gleam_otp/gleam/otp/supervisor.html][otp/supervisor]], which is discouraged and has a few bugs, and the newer [[https://hexdocs.pm/gleam_otp/gleam/otp/static_supervisor.html][otp/static_supervisor]], which works better but is less flexible. I went with a static supervisor [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/src/table_sup.gleam][for my project]]. The supervision tree looks like this:
 
 #+begin_src
  table_sup
@@ -376,7 +376,7 @@ shell() {
 }
 #+end_src
 
-A neat trick is to change this script to allow for the shell to attach to a running node:
+A neat trick is to change this script to make the shell command attach to a running node:
 
 #+begin_src diff
  run() {
@@ -416,7 +416,7 @@ I briefly documented the rest of my deploy setup [[https://github.com/facundoola
 
 ** thoughts
 
-I'm not sure if the designer or the community would agree but, to me, Gleam's killer feature---the reason I would chose it over other languages---is its Erlang/OTP integration. Since that part of the language doesn't seem stable yet, a custom Gleam wrapper to the Erlang libraries may be a better option for now. And, while I wouldn't use this in production yet, it feels ready enough, and pleasant enough to work with, that I would make it my default for personal projects that are good fit to the BEAM. The type system, the LSP integration, and the error handling bring something distinct to the ecosystem, and I only expect it to get better on those fronts.
+I'm not sure if the designer or the community would agree but, to me, Gleam's killer feature---the reason I would chose it over other languages---is its Erlang/OTP integration. Since that part of the language doesn't seem stable yet, a custom Gleam wrapper to the Erlang libraries may be a better option for now. And, while I wouldn't use this in production yet, it feels ready enough, and pleasant enough to work with, that I would make it my default for personal projects that are a good fit to the BEAM. The type system, the LSP integration, and the error handling bring something distinct to the ecosystem, and I only expect it to get better on those fronts.
 
 As far as a "Rust without memory management and with better concurrency" goes, I knew going in that Gleam could only be part of the answer. I don't think Gleam can be a general purpose language, just like Erlang cannot: the BEAM makes very specific and unusual trade-offs, which don't make it a reasonable choice for applications that require computation efficiency, that need to be easy to distribute and operate, or that don't benefit from high concurrency.
 
