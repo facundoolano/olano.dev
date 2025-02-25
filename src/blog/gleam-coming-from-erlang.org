@@ -7,20 +7,20 @@ tags: [programming, web, projects, ideas]
 draft: true
 refs: [zenoferlang]
 image: gleam.png
-excerpt: "I recently took some time to try Gleam, the type safe language that runs on the Erlang virtual machine. For a couple of weeks, I used it to build a little feed aggregator. These are my notes."
+excerpt: "I recently took some time to try Gleam, the type-safe language that runs on the Erlang virtual machine. For a couple of weeks, I used it to build a little feed aggregator. These are my notes."
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-I recently took some time to try [[https://gleam.run/][Gleam]], the type safe language that runs on the Erlang virtual machine.
-For a couple of weeks, I used it to build a little [[https://github.com/facundoolano/news.olano.dev/][open source]] feed aggregator that's now [[https://news.olano.dev/][live]].
+I recently took some time to try [[https://gleam.run/][Gleam]], the type-safe language that runs on the Erlang virtual machine.
+For a couple of weeks, I used it to build a little [[https://github.com/facundoolano/news.olano.dev/][open-source]] feed aggregator that's now [[https://news.olano.dev/][live]].
 These are my notes.
 
 ** why I'm interested in Gleam
 
-I spent most of my career working with dynamic languages: Python, JavaScript, Clojure, finally Erlang. I don't claim to be an expert but the Erlang VM is the piece of technology I've became most intimately familiar with. There is no way around it, I think: if you're running Erlang in production sooner or later you'll be thinking in terms of processes, scheduling, failure modules, resource utilisation[fn:8].
+I spent most of my career working with dynamic languages: Python, JavaScript, Clojure, finally Erlang. I don't claim to be an expert but the Erlang VM is the piece of technology I've become most intimately familiar with. There is no way around it, I think: if you're running Erlang in production sooner or later you'll be thinking in terms of processes, scheduling, failure modules, resource utilisation[fn:8].
 
-After Erlang, I dabbled in Rust, both professionally and on [[deconstructing-the-role-playing-videogame][personal projects]], and I was very impressed by its type system, its error handling, the developer experience it enabled. The thing is: Rust comes with all the systems programming overhead, which in my opinion is not a good bargain if you are not, you know, programming systems. Alas, I'm too old to pick up my own garbage. And, coming from Erlang, Rust's async concurrency (like JavaScript's, like Python's) just makes me very sad inside.
+After Erlang, I dabbled in Rust, both professionally and on [[deconstructing-the-role-playing-videogame][personal projects]], and I was very impressed by its type system, its error handling, and the developer experience it enabled. The thing is: Rust comes with all the systems programming overhead, which in my opinion is not a good bargain if you are not, you know, programming systems. Alas, I'm too old to pick up my own garbage. And, coming from Erlang, Rust's async concurrency (like JavaScript's, like Python's) just makes me very sad inside.
 
 By now you may imagine why Gleam looks interesting to me:
 
@@ -83,8 +83,8 @@ The minimal feed reader spin-off I could think of was then to:
 
 The approach I took to design the app was: try to do what you would do in Erlang and see if that fits in Gleam. I came up with this:
 
-- A set of [[https://www.erlang.org/docs/24/man/gen_server][gen_servers]], one per feed, that would periodically request the feed url, parse the entries and store them in the process state.
-- Another gen_server that would periodically query each feed poller process for its most recent list of entries, sort them and dump them into a globally accessible [[https://www.erlang.org/docs/24/man/ets][ETS table]]. (That way, no process becomes a source of contention between clients trying to read the data, and the rebuilding of the table doesn't delay its reading).
+- A set of [[https://www.erlang.org/docs/24/man/gen_server][gen_servers]], one per feed, that would periodically request the feed URL, parse the entries, and store them in the process state.
+- Another gen_server that would periodically query each feed poller process for its most recent list of entries, sort them, and dump them into a globally accessible [[https://www.erlang.org/docs/24/man/ets][ETS table]]. (That way, no process becomes a source of contention between clients trying to read the data, and the rebuilding of the table doesn't delay its reading).
 - A minimal web server that would just query the table and build an HTML list of the current entries.
 
 I wouldn't bother with persisting the entries to a data store, although I would keep a file cache of XML  responses to rebuild the state on app restarts without spamming the source sites.
@@ -93,14 +93,14 @@ The final result was very close to this initial design, with the exception that 
 
 ** env setup
 
-As a digression, I want to echo something I [[https://batsov.com/articles/2024/02/27/m-x-reloaded-the-second-golden-age-of-emacs/][read recently]]: this is a great time to be an Emacs user. Thanks to LSP, tree-sitter and [[https://github.com/radian-software/apheleia][apheleia]], I get a very consistent UX for new languages practically out of the box, something that a couple of years ago required days of tweaking to get right[fn:4].
+As a digression, I want to echo something I [[https://batsov.com/articles/2024/02/27/m-x-reloaded-the-second-golden-age-of-emacs/][read recently]]: this is a great time to be an Emacs user. Thanks to LSP, tree-sitter, and [[https://github.com/radian-software/apheleia][apheleia]], I get a very consistent UX for new languages practically out of the box, something that a couple of years ago required days of tweaking to get right[fn:4].
 
-I don't know if it's a particular inclination of the language designer or that's just how things are done today, but I was surprised to see how much emphasis is put in improving the developer experience and, specifically, adding features to the Language Server implementation. During my first week of development, I constantly missed the ability to ~lsp-rename~ I have in other languages; during my second week, [[https://gleam.run/news/gleam-gets-rename-variable/][a new Gleam version]] came out adding that very feature!
+I don't know if it's a particular inclination of the language designer or that's just how things are done today, but I was surprised to see how much emphasis is put on improving the developer experience and, specifically, adding features to the Language Server implementation. During my first week of development, I constantly missed the ability to ~lsp-rename~ I have in other languages; during my second week, [[https://gleam.run/news/gleam-gets-rename-variable/][a new Gleam version]] came out adding that very feature!
 
 ** learning
-- I learned most of what I needed to know in 30 minuntes, through the [[https://tour.gleam.run/][official tour]]. I had the advantage of being already familiar with Rust and Erlang, but I would say that the fact that everything can be covered so succinctly speaks of the effort that went into keeping the language small and simple.
+- I learned most of what I needed to know in 30 minutes, through the [[https://tour.gleam.run/][official tour]]. I had the advantage of being already familiar with Rust and Erlang, but I would say that the fact that everything can be covered so succinctly speaks of the effort that went into keeping the language small and simple.
 - For the standard libraries and external dependencies, their respective hex docs pages are the way to go.
-- To pick up on conceptual discussions, ask questions and learn what's idiomatic, I found that (unfortunately for me) the discord channel is more effective than searching GitHub.
+- To pick up on conceptual discussions, ask questions, and learn what's idiomatic, I found that (unfortunately for me) the discord channel is more effective than searching GitHub.
 
 ** the language
 
@@ -137,7 +137,7 @@ pub fn main() {
   }
   #+end_src
 
-- The is no magic: no macros, no meta programming, no traits, no default or rest arguments. This is usually fine for me, with the exception of printing values for debugging, which becomes very tedious since everything needs to be coerced to a string and manually concatenated:
+- There is no magic: no macros, no meta-programming, no traits, no default or rest arguments. This is usually fine for me, except when printing values for debugging, which becomes very tedious since everything needs to be coerced to a string and manually concatenated:
   #+begin_src gleam
 io.println(
     "ERROR requesting "
@@ -199,10 +199,10 @@ use resp <- result.try(
 io.println(resp.body)
 #+end_src
 
-One of the patterns that emerges of this, I believe, is to define an app-specific error type and use it everywhere, mapping external errors to it.
+One of the patterns that emerges from this, I believe, is to define an app-specific error type and use it everywhere, mapping external errors to it.
 
 ** erlang interop
-The overall impression I got is that, compared to Elixir, Gleam is more distanced from Erlang. This in part a necessity, since they are fundamentally different languages: type safety is not a straight fit to the BEAM. But I also sense an intention in Gleam's design to "make sense" on its own, to have conceptual integrity independently from its target platform (Gleam compiles to JavaScript in addition to Erlang). This shows in that there is no direct mapping for some of the Erlang types, there is no REPL and no attaching to a running release, no discussion of concurrency in the base documentation (not even in that [[https://gleam.run/cheatsheets/gleam-for-erlang-users/][targeted to Erlang users]]). Erlang processes and OTP look more like add-on libraries than part of the language foundation.
+The overall impression I got is that, compared to Elixir, Gleam is more distanced from Erlang. This in part a necessity, since they are fundamentally different languages: type safety is not a straight fit to the BEAM. But I also sense an intention in Gleam's design to "make sense" on its own, to have conceptual integrity independently from its target platform (Gleam compiles to JavaScript in addition to Erlang). There is no direct mapping for some of the Erlang types, no REPL, no discussion of concurrency in the base documentation (not even in [[https://gleam.run/cheatsheets/gleam-for-erlang-users/][the section]] targeted to Erlang users). Erlang processes and OTP seem more like add-on libraries than part of the language foundation.
 
 Interop is straightforward, just declaring a function and its Erlang counterpart, with some type specs:
 
@@ -214,9 +214,9 @@ fn put_entries(key: String, value: List(Entry)) -> atom.Atom
 fn get_entries(key: String) -> List(Entry)
 #+end_src
 
-Things got tricky for me when I wanted to use [[https://github.com/willemdj/erlsom][erlsom]], a quirky Erlang library to parse XML documents. For one, I had to use ~atom.create_from_string~ and ~charlist.to_string~ pervasively to interface with Gleam, which was a minor inconvenience. What was more of a problem is that, XML docs being structurally free form, parsing an Atom feed yielded a different data structure than parsing an RSS feed, and that didn't make sense to Gleam's type checker.
+Things got tricky for me when I wanted to use [[https://github.com/willemdj/erlsom][erlsom]], a quirky Erlang library to parse XML documents. For one, I had to use ~atom.create_from_string~ and ~charlist.to_string~ pervasively to interface with Gleam, which was a minor inconvenience. What was more of a problem is that, with XML docs being structurally free form, parsing an Atom feed yielded a different data structure than parsing an RSS feed, and that didn't make sense to Gleam's type checker.
 
-My initial implementation [[https://github.com/facundoolano/news.olano.dev/blob/afc2dbff7870217744d09f106fce081367904f63/src/parser.gleam#L13-L26][hacked away]] this problem by parsing the document multiple times to "fool" the compiler---once to figure out what type of feed the document was, another to actually extract the entry data. The proper Gleam way of treating dynamic structures like these would be through the [[https://hexdocs.pm/gleam_stdlib/gleam/dynamic/decode.html#run][~dynamic/decode~]] module, but I found that too complicated for my purposes. After looking at other libraries, I realized that the right solution was to write a thin Erlang FFI module to normalize the data before passing it to Gleam. So I put together a very basic feed parser that extracts the few fields I needed into an Erlang map:
+My initial implementation [[https://github.com/facundoolano/news.olano.dev/blob/afc2dbff7870217744d09f106fce081367904f63/src/parser.gleam#L13-L26][hacked away]] this problem by parsing the document multiple times to "fool" the compiler---once to figure out what type of feed the document was, another to extract the entry data. The proper Gleam way of treating dynamic structures like these would be through the [[https://hexdocs.pm/gleam_stdlib/gleam/dynamic/decode.html#run][~dynamic/decode~]] module, but I found that too complicated for my purposes. After looking at other libraries, I realized that the right solution was to write a thin Erlang FFI module to normalize the data before passing it to Gleam. So I put together a very basic feed parser that extracts the few fields I needed into an Erlang map:
 
 #+begin_src erl
 -module(parser).
@@ -262,7 +262,7 @@ parse_rss_entry(Attrs, Acc) ->
 
 ** otp
 
-OTP in Gleam is what took me the most effort to figure out. The [[https://hexdocs.pm/gleam_otp/index.html][hexdocs]] cover the basics but that wasn't enough for me to get the concepts right, especially where they differed from their Erlang counterparts. For that, I reached to [[https://github.com/bcpeinhardt/learn_otp_with_gleam][this GitHub project]], its tests and those of the [[https://github.com/gleam-lang/otp][gleam/otp]] repo, and the Gleam Discord history.
+OTP in Gleam is what took me the most effort to figure out. The [[https://hexdocs.pm/gleam_otp/index.html][hexdocs]] cover the basics but that wasn't enough for me to get the concepts right, especially where they differed from their Erlang counterparts. For that, I reached out to [[https://github.com/bcpeinhardt/learn_otp_with_gleam][this GitHub project]], its tests and those of the [[https://github.com/gleam-lang/otp][gleam/otp]] repo, and the Gleam Discord history.
 
 The first big difference is that, in Gleam, you typically don't pass around process ids to send messages to; instead, a process "declares" what type of messages it expects to receive by creating a [[https://hexdocs.pm/gleam_erlang/gleam/erlang/process.html#Subject][Subject]]:
 #+begin_src gleam
@@ -360,7 +360,7 @@ I couldn't find a way to either pass the pollers to the table or the table to th
 
 ** deployment
 
-The documentation always uses ~gleam run~ to run a program, but what if I want to deploy a release it to a server without installing Gleam in it? Some digging revealed there's a ~gleam export erlang-shipment~ command that will build the project with Erlang modules in production mode, and with an entrypoint script to run it (provided ~erl~ is in the path):
+The documentation always uses ~gleam run~ to run a program, but what if I want to deploy a release to a server without installing Gleam in it? Some digging revealed there's a ~gleam export erlang-shipment~ command that will build the project with Erlang modules in production mode, and with an entrypoint script to run it (provided ~erl~ is in the path):
 
 #+begin_src sh
 run() {
@@ -412,15 +412,15 @@ Eshell V15.0 (press Ctrl+G to abort, type help(). for help)
  {...}|...]
 #+end_src
 
-I briefly documented the rest of my deploy setup [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/README.md#deploy][here]].
+I briefly documented the rest of my deployment setup [[https://github.com/facundoolano/news.olano.dev/blob/55c4230cc454cdec1c4b81d45453580e4ae8b320/README.md#deploy][here]].
 
 ** thoughts
 
-I'm not sure if the designer or the community would agree but, to me, Gleam's killer feature---the reason I would chose it over other languages---is its Erlang/OTP integration. Since that part of the language doesn't seem stable yet, a custom Gleam wrapper to the Erlang libraries may be a better option for now. And, while I wouldn't use this in production yet, it feels ready enough, and pleasant enough to work with, that I would make it my default for personal projects that are a good fit to the BEAM. The type system, the LSP integration, and the error handling bring something distinct to the ecosystem, and I only expect it to get better on those fronts.
+I'm not sure if the designer or the community would agree but, to me, Gleam's killer feature---the reason I would choose it over other languages---is its Erlang/OTP integration. Since that part of the language doesn't seem stable yet, a custom Gleam wrapper to the Erlang libraries may be a better option for now. And, while I wouldn't use this in production yet, it feels ready enough, and pleasant enough to work with, that I would make it my default for personal projects that are a good fit for the BEAM. The type system, the LSP integration, and the error handling bring something distinct to the ecosystem, and I only expect it to get better on those fronts.
 
-As far as a "Rust without memory management and with better concurrency" goes, I knew going in that Gleam could only be part of the answer. I don't think Gleam can be a general purpose language, just like Erlang cannot: the BEAM makes very specific and unusual trade-offs, which don't make it a reasonable choice for applications that require computation efficiency, that need to be easy to distribute and operate, or that don't benefit from high concurrency.
+As far as a "Rust without memory management and with better concurrency" goes, I knew going in that Gleam could only be part of the answer. I don't think Gleam can be a general-purpose language, just like Erlang cannot: the BEAM makes very specific and unusual trade-offs, which don't make it a reasonable choice for applications that require computation efficiency, that need to be easy to distribute and operate, or that don't benefit from high concurrency.
 
-Perhaps the most interesting question, which I certainly won't try to answer here, is: are type safety and /let it crash/ compatible? Can they be complementary? Erlang is [[https://ferd.ca/the-zen-of-erlang.html][all about]] tolerating faults: accepting that you can't possibly catch all errors, and you'd be better off to design your application to recover in the presence of the unexpected. This has the benefit that some error handling code goes away, absorbed by the application structure and its supervision tree. Gleam, like Rust, makes you think preemptively about errors and spend more time on handling them while writing code. One could argue that, by doing this, an entire problem space disappears---the silly type errors that inevitably slip into all dynamically typed programs---leaving OTP to deal with the truly unexpected. There's a tension, but there's also an interesting balance to strike here, and I'm curious to see where the Gleam community settles it.
+Perhaps the most interesting question, which I certainly won't try to answer here, is: are type safety and /let it crash/ compatible? Can they be complementary? Erlang is [[https://ferd.ca/the-zen-of-erlang.html][all about]] tolerating faults: accepting that you can't possibly catch all errors, and you'd be better off designing your application to recover in the presence of the unexpected. This has the benefit that some error-handling code goes away, absorbed by the application structure and its supervision tree. Gleam, like Rust, makes you think preemptively about errors and spend more time dealing with them while writing code. One could argue that, by doing this, an entire problem space disappears---the silly type errors that inevitably slip into all dynamically typed programs---leaving OTP to deal with the truly unexpected. There's a tension, but there's also an interesting balance to strike here, and I'm curious to see where the Gleam community settles it.
 
 ** notes
 [fn:1] No, not [[https://www.erlang.org/doc/apps/dialyzer/dialyzer.html][dialyzer]].
@@ -431,10 +431,10 @@ Perhaps the most interesting question, which I certainly won't try to answer her
 
 [fn:4] My Emacs setup for Gleam is just [[https://github.com/gleam-lang/gleam-mode][gleam-ts-mode]] and ~(add-hook 'gleam-ts-mode-hook 'lsp-deferred)~.
 
-[fn:5] I finally decided to put learning Gleam in my short to-do list after reading about its namespaces in [[ https://erikarow.land/notes/gleam-favorite-feature][this blog post]].
+[fn:5] I finally decided to put "learn Gleam" on my short to-do list after reading about its namespaces in [[ https://erikarow.land/notes/gleam-favorite-feature][this blog post]].
 
-[fn:6] More about use expressions [[https://gleam.run/news/v0.25-introducing-use-expressions/][here]] and [[https://erikarow.land/notes/using-use-gleam][here]].
+[fn:6] More about ~use~ expressions [[https://gleam.run/news/v0.25-introducing-use-expressions/][here]] and [[https://erikarow.land/notes/using-use-gleam][here]].
 
 [fn:7] gleam_otp also introduces the concept of a [[https://hexdocs.pm/gleam_erlang/gleam/erlang/process.html#Selector][Selector]], to be able to receive messages from different subjects at once. I found this one harder to understand intuitively, but it's less frequently used, I think.
 
-[fn:8] I'd still be happily living in the BEAM, if it wasn't that there doesn't seem to be many companies willing to use it anymore. Or willing to hire Erlang devs from South America, anyway. Their loss.
+[fn:8] I'd still be happily living in the BEAM if it wasn't that there don't seem to be many companies willing to use it anymore. Or willing to hire Erlang devs from South America, anyway. Their loss.
