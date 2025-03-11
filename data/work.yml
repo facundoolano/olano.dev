@@ -1,8 +1,17 @@
-- org: Freelance
+- org: '<a href="https://marsie.io/">Marsie</a>'
   positions:
-    - date: Mar 2024 - Present
+    - date: Sep 2024 - Present
+      title: Senior Software Engineer
+      tech: Python, FastAPI, SqlAlchemy, Kubernetes, Helm, React, Temporal, Datadog
+      description: >
+        Design, development, and operation of the Billing Service for a genetic testing company.
+
+- date: 6 months
+  org: Freelance
+  positions:
+    - date: Mar 2024 - Sep 2024
       title: Software Engineering Consultant
-      tech: Python, Flask, LLMs, Azure
+      tech: Python, Flask, OpenAI, Anthropic, Azure
       description: >
         Assist an early-stage startup building a data extraction service around Large Language Models.
 - date: 4 years 5 months
