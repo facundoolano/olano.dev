@@ -83,9 +83,8 @@
       date: May 2013 - Dec 2014
       title: Tech Lead
       description: >
-        As part of the Services Team, I designed and developed a set of RESTful services used by systems across the organization
-        (CMS backend, authentication & authorization, taxonomy graph database).
-        As the leader of a team of 4 engineers, I interviewed candidates, mentored new members of the team, scoped projects and
+        As the lead Engineer of the Services Team, I designed and developed a set of RESTful services used by systems across the organization.
+        I interviewed candidates, mentored new members of the team, scoped projects and
         acted as the technical touchpoint between the customer and the consultancy managers.
 
       tech: Python, Django, DjangoRestFramework, ElasticSearch, Haystack, PostgreSQL, WSO2
@@ -96,13 +95,7 @@
       title: Python/Django Developer
       tech: Python, Django, MySQL, PostgreSQL, Solr, Haystack, Celery, RabbitMQ, Apache, nginx, JQuery
       description: >
-        Full stack development of web applications for both local and US-based customers:
-          <ul>
-          <li> FreeSwitch web controller and real-time call-center management. Deployed to SheevaPlug servers and integrated to USB LCD displays.</li>
-          <li> Reverse auctions Facebook app with real-time interface updates. Facebook credits and PayPal integration.</li>
-          <li> App Store catalog. Consumption of the Apple's Enterprise Partner Feed (Tables of 60+ millons of records). Caching, database and query optimizations.</li>
-          <li> Digital Contracts management web application.</li>
-          <li> Professional social network.</li></ul>
+        Full stack development of web applications for both local and US-based customers.
 - date: 1 year 7 months
   org: '<a href="https://www.globant.com/">Globant</a>'
   positions:
