@@ -1,0 +1,16 @@
+---
+title: Ese chicle que te gusta va a volver a estar de moda
+date: 2025-03-21 18:15:53
+layout: post
+lang: es
+tags: [cine, memorias]
+refs: []
+draft: true
+img: lynch.png
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+Me despertaba la radio a las 5:50, me tomaba un colectivo abajo del puente y otro al costado de la Gral. Paz, todavía de noche, con olor a tortilla parrillera, intimando con trabajadores y estudiantes de Arquitectura, o, más bien, con las puntas de sus trabajos prácticos. Nos bajábamos los últimos, ya de día, cuarenta segundos de pasto seco y aire de río, un subsuelo con olor a medialuna recalentada y café quemado y listas de nombres en las paredes, un habitáculo que había sido cancha de básquet y pretendía ser aula pero que no era otra cosa que un freezer. Los días que no tenía clase igual me levantaba a las 6 y me pasaba la mañana haciendo los mismos ejercicios de Análisis Matemático, encadenando tazas de té como los personajes de las novela rusa ---que no había leído.
+
+A la par de esa colimba universitaria inicié un proceso autodidacta, reconociendo que mi ignorancia se extendía mucho más allá de la matemática y avergonzándome de ello. Resolví enfocar mi educación cultural en el cine y la literatura. Empecé a leer y mirar sistemáticamente todo lo que pude encontrar, con la torpeza de aque personaje de Sartre ---a quien no conocía--- que se lee toda la biblioteca pública en orden alfabético.
