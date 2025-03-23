@@ -44,3 +44,10 @@ La música, los estados de la felicidad, la mitología, las caras trabajadas por
 #+end_quote
 
 ¿Hay una concepción más lyncheana del arte que esa?
+
+El bebé de Henry, la mujer del radiador, las cortinas azules, la oreja entre los yuyos, la canción de Roy Orbison, que Laura esté muerta ---envuelta en plástico---, el tronco de Margaret, Bob junto a la cama y Bob sobre el sillón y Bob en el espejo, las cortinas rojas y la alfombra, el gigante, el hombre de otro lugar, el hombre misterioso, el incendio en reversa, el mostrolinyera atrás del Burger, que no haya banda, el silencio, el silencio entre hermanos, la cortadora de pasto, el cielo, la ruta, las risas a destiempo, los trajes de conejo, el doppelgänger, el plano aéreo de la 9 de Julio y la detonación de Nuevo México, que Laura esté viva, el número del día, todos los días, el tiempo en Los Angeles ---farenheit y celcius--- y que cada viernes, creáse o no, sea viernes, otra vez. Cada una de esas cosas parece tener un significado, parece encerrar un sentido ulterior que deberíamos descifrar pero que es inaccesible. Esa imposibilidad de la explicación, esa búsqueda de un significado que constituye en sí misma el significado, que, como la poesía, es actualizada por cada lector, en cada lectura, es algo así como lo lyncheano, es algo así como la belleza, es algo así como el arte.
+
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
