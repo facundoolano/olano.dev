@@ -4,9 +4,10 @@ date: 2025-03-21 18:15:53
 layout: post
 lang: es
 tags: [cine, memorias]
-refs: []
+refs: [losthighway, twinpeaks, dfw, seriousman, inquisiciones]
 draft: true
-img: lynch.png
+image: lynch.png
+excerpt: Sobre Lynch.
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
