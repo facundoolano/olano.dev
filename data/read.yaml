@@ -1,3 +1,10 @@
+- author: Virginia Woolf
+  cover_file: virginia-woolf-un-cuarto-propio.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171047682l/83843._SY475_.jpg
+  published_at: 2025-03-04
+  rating: 4
+  read_at: 2025-03-04
+  title: Un cuarto propio
 - author: Georges Perec
   cover_file: georges-perec-las-cosas.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1300122134l/629770.jpg
@@ -1401,10 +1408,3 @@
   rating: 4
   read_at: 2020-02-29
   title: La masacre de Kruguer
-- author: Federico Falco
-  cover_file: federico-falco-222-patitos-y-otros-cuentos.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415186567l/23503143.jpg
-  published_at: 2020-02-14
-  rating: 1
-  read_at: 2020-02-14
-  title: 222 patitos y otros cuentos

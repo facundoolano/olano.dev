@@ -1,3 +1,32 @@
+- author: Jimmy Maher
+  cover_file: jimmy-maher-the-digital-antiquarian-volume-8.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496295178l/35277757._SY475_.jpg
+  published_at: 2025-03-15
+  rating: 0
+  read_at: 2025-03-15
+  title: 'The Digital Antiquarian Volume 8: 1986'
+- author: Vladik Khononov
+  cover_file: vladik-khononov-learning-domain-driven-design.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635258056l/57573212.jpg
+  published_at: 2025-03-14
+  rating: 0
+  read_at: 2025-03-14
+  title: 'Learning Domain-Driven Design: Aligning Software Architecture and Business
+    Strategy'
+- author: David Foster Wallace
+  cover_file: david-foster-wallace-algo-supuestamente-divertido-que-nunca-volvere-a-hacer.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360175991l/7896319.jpg
+  published_at: 2025-03-01
+  rating: 0
+  read_at: 2025-03-01
+  title: Algo supuestamente divertido que nunca volveré a hacer
+- author: Sylvia Plath
+  cover_file: sylvia-plath-antologia-poetica.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1734570355l/222759576.jpg
+  published_at: 2025-03-01
+  rating: 0
+  read_at: 2025-03-01
+  title: Antología poética
 - author: Patricio Pron
   cover_file: patricio-pron-lo-que-esta-y-no-se-usa-nos-fulminara.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1513554045l/37558056._SY475_.jpg
@@ -5,17 +34,3 @@
   rating: 5
   read_at: 2018-08-16
   title: Lo que está y no se usa nos fulminará
-- author: David Foster Wallace
-  cover_file: david-foster-wallace-a-supposedly-fun-thing-i-ll-never-do-again.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438206388l/6748._SY475_.jpg
-  published_at: 2025-02-26
-  rating: 0
-  read_at: 2025-02-26
-  title: 'A Supposedly Fun Thing I''ll Never Do Again:  Essays and Arguments'
-- author: Various
-  cover_file: various-camellia-mujeres-que-toman-te.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1628559527l/58740264._SX318_.jpg
-  published_at: 2025-02-26
-  rating: 0
-  read_at: 2025-02-26
-  title: Camellia. Mujeres que toman té
