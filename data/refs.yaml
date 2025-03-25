@@ -469,3 +469,23 @@
   title: 'Why you need a "WTF Notebook"'
   year: 2021
   author: Nat Bennett
+- id: losthighway
+  title: Lost Highway
+  author: David Lynch
+  year: 1997
+- id: twinpeaks
+  title: Twin Peaks
+  author: David Lynch
+  year: 1990
+- id: inland
+  title: Inland Empire
+  year: 2006
+  author: David Lynch
+- id: dfw
+  title: Algo supuestamente divertido que nunca volveré a hacer
+  author: David Foster Wallace
+  year: 1997
+- id: seriousman
+  title: A Serious Man
+  year: 2009
+  author: Joel Coen, Ethan Coen
