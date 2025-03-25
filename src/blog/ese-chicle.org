@@ -1,11 +1,10 @@
 ---
 title: Ese chicle que te gusta va a volver a estar de moda
-date: 2025-03-21 18:15:53
+date: 2025-03-25
 layout: post
 lang: es
 tags: [cine, memorias]
 refs: [losthighway, twinpeaks, dfw, seriousman, inquisiciones]
-draft: true
 image: lynch.png
 excerpt: Sobre Lynch.
 ---
