@@ -1,27 +1,37 @@
 ---
 layout: default
-submenu: [["/feed", "/feed.xml"], ["/refs", "/blog/refs"]]
-title: /blog/es
+submenu: [["feed", "/feed.xml"], ["refs", "/blog/refs"]]
+title: blog/es
 head_title: Blog
 ---
 
 <h3>Cómo leer este blog?</h3>
 
 <ul>
-    <li>Cronológicamente, a través de su <a href="/blog/#archive">archivo</a>;</li>
-    <li>en idioma <a href="/blog/en">inglés</a>, <a href="/blog/es">español</a> o <a href="/blog/">cualquiera</a> de los dos;</li>
-    <li>con un lector RSS, subscribiéndose al <a href="/feed.xml">feed</a>;</li>
-    <li>empazando por uno de mis posts <a href="/blog/tags/#⭐">favoritos</a> <a style="text-decoration:none" href="/blog/tags/#⭐">⭐</a></li>
-    <li>o por un <a href="/blog/tags">tag</a> temático</li>
-    <li>o por una de las <a href="/blog/refs">obras referidas</a>.</li>
-    <li>O como libro, en formato <a href="/book.epub">epub</a> o <a href="/book.pdf">pdf</a>.</li>
+  <li>
+    Cronológicamente, a través de su <a href="/blog/#archive">archivo</a>;
+  </li>
+  <li>
+    en idioma <a href="/blog/en">inglés</a>, <a href="/blog/es">español</a> o
+    <a href="/blog/">cualquiera</a> de los dos;
+  </li>
+  <li>con un lector RSS, subscribiéndose al <a href="/feed.xml">feed</a>;</li>
+  <li>
+    empazando por uno de mis posts <a href="/blog/tags/#⭐">favoritos</a>
+    <a style="text-decoration: none" href="/blog/tags/#⭐">⭐</a>
+  </li>
+  <li>o por un <a href="/blog/tags">tag</a> temático</li>
+  <li>o por una de las <a href="/blog/refs">obras referidas</a>.</li>
+  <li>
+    O como libro, en formato <a href="/book.epub">epub</a> o
+    <a href="/book.pdf">pdf</a>.
+  </li>
 </ul>
-<br/>
-
+<br />
 
 <h3><a href="#archive" class="title" id="archive">#archivo</a></h3>
 
 <div class="blog-index">
-    {% assign posts = site.posts|where_exp:"post", "post.lang == nil or post.lang == 'es'" %}
-    {% include posts.html %}
+  {% assign posts = site.posts|where_exp:"post", "post.lang == nil or post.lang
+  == 'es'" %} {% include posts.html %}
 </div>

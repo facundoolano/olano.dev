@@ -1,26 +1,24 @@
 ---
 layout: base
 ---
-<nav class="nav">
-    <a href="/">olano.dev</a>
-    <a href="/blog/">/blog</a>
-    <a href="/#etc">/etc</a>
 
-    <div class="nav-right hidden-mobile">
-    {% assign sections = page.submenu %}
-    {% for section in sections %}
+<nav class="nav">
+  <a href="/">olano.dev</a>
+  <a href="/blog/">blog</a>
+  <a href="/#etc">etc</a>
+
+  <div class="nav-right hidden-mobile">
+    {% assign sections = page.submenu %} {% for section in sections %}
     <a href="{{section[1]}}">{{section[0]}}</a>
     {% endfor %}
-    </div>
+  </div>
 </nav>
 
 <div class="content layout-{{ page.layout }}">
-    {% if page.title %}
-    <h2>{{page.title}}</h2>
+  {% if page.title %}
+  <h2>{{page.title}}</h2>
 
-    {% endif %}
+  {% endif %} {{ content }}
 
-    {{ content }}
-
-    <br/>
+  <br />
 </div>

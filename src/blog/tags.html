@@ -1,42 +1,42 @@
 ---
 layout: default
-title: /blog/tags
+title: blog/tags
 head_title: Tags
 ---
 
 <script>
- // unfold the post list of the tag from the url fragment
- document.addEventListener("DOMContentLoaded", function() {
-     var hash = window.location.hash;
+  // unfold the post list of the tag from the url fragment
+  document.addEventListener("DOMContentLoaded", function () {
+    var hash = window.location.hash;
 
-     if(hash) {
-         var id = hash.substring(1);
-         var details = document.getElementById(id).closest('details');
-         if(details) {
-             details.setAttribute("open", "");
-         }
-     }
- });
+    if (hash) {
+      var id = hash.substring(1);
+      var details = document.getElementById(id).closest("details");
+      if (details) {
+        details.setAttribute("open", "");
+      }
+    }
+  });
 </script>
 
 <div class="blog-index tags">
-    <details open="">
-        <summary>
-            <h3>⭐ <a href="#⭐" class="title" id="⭐">favorites</a></h3>
-        </summary>
-        {% assign skip_years = true %}
-        {% assign posts = site.posts | where:"favorite","true" %}
-        {% include posts.html %}
-    </details>
+  <details open="">
+    <summary>
+      <h3>⭐ <a href="#⭐" class="title" id="⭐">favorites</a></h3>
+    </summary>
+    {% assign skip_years = true %} {% assign posts = site.posts |
+    where:"favorite","true" %} {% include posts.html %}
+  </details>
 
-    {% for tag in site.tags %}
-    <details>
-        <summary>
-            <h3><a href="#{{tag[0]}}" class="title" id="{{tag[0]}}">#{{tag[0]}}</a></h3>
-        </summary>
+  {% for tag in site.tags %}
+  <details>
+    <summary>
+      <h3>
+        <a href="#{{tag[0]}}" class="title" id="{{tag[0]}}">#{{tag[0]}}</a>
+      </h3>
+    </summary>
 
-        {% assign posts = tag[1] %}
-        {% include posts.html %}
-    </details>
-    {% endfor %}
+    {% assign posts = tag[1] %} {% include posts.html %}
+  </details>
+  {% endfor %}
 </div>

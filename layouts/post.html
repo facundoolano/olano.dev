@@ -1,62 +1,72 @@
 ---
 layout: base
 ---
+
 <div class="h-entry">
   <nav class="nav">
-      <a href="/">olano.dev</a>
-      <a href="/blog">/blog</a>
-      <a href="/#etc">/etc</a>
+    <a href="/">olano.dev</a>
+    <a href="/blog">blog</a>
+    <a href="/#etc">etc</a>
   </nav>
 
-  <div class="content layout-{{ page.layout }} e-content" lang="{{ page.lang | default:'es'}}">
-      <header {% if page.cover-img %}class="with-cover"{% endif %}>
-          <h1 class="title p-name">{{ page.title }}</h1>
-          {% if page.subtitle %}<h3 class="subtitle">{{ page.subtitle }}</h3>{% endif  %}
-          <div class="date-tags">
-              <span class="date">{{ page.date | date: "%Y-%m-%d" }}</span>
-              <span class="tags">
-                  {% for tag in page.tags %}
-                  <a class="p-category" href="/blog/tags#{{tag}}">#{{tag}}</a>
-                  {% endfor %}
-              </span>
-          </div>
-          {% if page.cover-img %}
-          <img class="cover-img" src="{{site.config.static_root}}/img/{{ page.cover-img }}">
-          {% endif %}
-
-      </header>
-
-      {% if page.external%}
-      Post available <a href="{{page.external}}">at an external site</a>.
-      {% else %}
-      {{ content }}
+  <div
+    class="content layout-{{ page.layout }} e-content"
+    lang="{{ page.lang | default:'es'}}"
+  >
+    <header {% if page.cover-img %}class="with-cover" {% endif %}>
+      <h1 class="title p-name">{{ page.title }}</h1>
+      {% if page.subtitle %}
+      <h3 class="subtitle">{{ page.subtitle }}</h3>
       {% endif %}
-
-      <br/>
-      <br/>
-
-      <div class="pagination">
-          {% if page.next %}
-          <div>
-          <span style="padding-right: 0.5rem">←</span>
-          <span>
-              <a class="title" href="{{page.next.url}}"> {{ page.next.subtitle | default:page.next.title}}</a>
-          </span>
-          </div>
-          {% endif %}
-
-          {% if page.previous %}
-          <div style="margin-left: auto; text-align: right" >
-              <span ><a class="title" href="{{page.previous.url}}">{{ page.previous.subtitle | default:page.previous.title}}</a></span>
-              <span style="padding-left: 0.5rem">→</span>
-          </div>
-              {% endif %}
+      <div class="date-tags">
+        <span class="date">{{ page.date | date: "%Y-%m-%d" }}</span>
+        <span class="tags">
+          {% for tag in page.tags %}
+          <a class="p-category" href="/blog/tags#{{tag}}">#{{tag}}</a>
+          {% endfor %}
+        </span>
       </div>
+      {% if page.cover-img %}
+      <img
+        class="cover-img"
+        src="{{site.config.static_root}}/img/{{ page.cover-img }}"
+      />
+      {% endif %}
+    </header>
+
+    {% if page.external%} Post available
+    <a href="{{page.external}}">at an external site</a>. {% else %} {{ content
+    }} {% endif %}
+
+    <br />
+    <br />
+
+    <div class="pagination">
+      {% if page.next %}
+      <div>
+        <span style="padding-right: 0.5rem">←</span>
+        <span>
+          <a class="title" href="{{page.next.url}}">
+            {{ page.next.subtitle | default:page.next.title}}</a
+          >
+        </span>
+      </div>
+      {% endif %} {% if page.previous %}
+      <div style="margin-left: auto; text-align: right">
+        <span
+          ><a class="title" href="{{page.previous.url}}"
+            >{{ page.previous.subtitle | default:page.previous.title}}</a
+          ></span
+        >
+        <span style="padding-left: 0.5rem">→</span>
+      </div>
+      {% endif %}
+    </div>
   </div>
 
   <div style="display: none">
-      <a href="{{page.url | absolute_url }}" class="u-url u-uid"></a>
-      <a href="/" class="h-card p-author">Facundo Olano</a>
-      <span class="p-summary">{{page.excerpt}}</span>
+    <a href="{{page.url | absolute_url }}" class="u-url u-uid"></a>
+    <a href="/" class="h-card p-author">Facundo Olano</a>
+    <span class="p-summary">{{page.excerpt}}</span>
   </div>
 </div>

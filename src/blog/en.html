@@ -1,26 +1,38 @@
 ---
 layout: default
-submenu: [["/feed", "/feed.xml"], ["/refs", "/blog/refs"]]
-title: /blog/en
+submenu: [["rss", "/feed.xml"], ["refs", "/blog/refs"]]
+title: blog/en
 head_title: Blog
 ---
 
 <h3>How to read this blog?</h3>
 
 <ul>
-    <li>Chronologically, through the <a href="/blog/#archive">archive</a> below;</li>
-    <li>in <a href="/blog/en">English</a>, or <a href="/blog/es">Spanish</a>, or <a href="/blog/">any</a> language;</li>
-    <li>with an RSS reader, by subscribing to the <a href="/feed.xml">feed</a>;</li>
-    <li>starting from one of my <a href="/blog/tags/#⭐">favorite</a> <a style="text-decoration:none" href="/blog/tags/#⭐">⭐</a> posts,</li>
-    <li>or from a <a href="/blog/tags">topic tag</a>,</li>
-    <li>or from one of the <a href="/blog/refs">referenced works</a>.</li>
-    <li>Or, if you read Spanish, as a book, in <a href="/book.epub">epub</a> and <a href="/book.pdf">pdf</a> formats.</li>
+  <li>
+    Chronologically, through the <a href="/blog/#archive">archive</a> below;
+  </li>
+  <li>
+    in <a href="/blog/en">English</a>, or <a href="/blog/es">Spanish</a>, or
+    <a href="/blog/">any</a> language;
+  </li>
+  <li>
+    with an RSS reader, by subscribing to the <a href="/feed.xml">feed</a>;
+  </li>
+  <li>
+    starting from one of my <a href="/blog/tags/#⭐">favorite</a>
+    <a style="text-decoration: none" href="/blog/tags/#⭐">⭐</a> posts,
+  </li>
+  <li>or from a <a href="/blog/tags">topic tag</a>,</li>
+  <li>or from one of the <a href="/blog/refs">referenced works</a>.</li>
+  <li>
+    Or, if you read Spanish, as a book, in <a href="/book.epub">epub</a> and
+    <a href="/book.pdf">pdf</a> formats.
+  </li>
 </ul>
 
-<br/>
+<br />
 <h3><a href="#archive" class="title" id="archive">#archive</a></h3>
 
 <div class="blog-index">
-    {% assign posts = site.posts|where:"lang", "en" %}
-    {% include posts.html %}
+  {% assign posts = site.posts|where:"lang", "en" %} {% include posts.html %}
 </div>
