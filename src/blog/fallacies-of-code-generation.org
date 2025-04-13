@@ -1,0 +1,29 @@
+---
+title: Fallacies of Code Generation
+date: 2025-04-13
+layout: post
+lang: en
+tags: [software, ai]
+excerpt: Writing code is the hardest part of software development.
+image: bird.png
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+
+1. Code is an asset
+2. The product of software design is working code
+3. Writing code is the hardest part of software development
+4. The programmer's job is to write code
+5. The programmer's productivity can be measured in lines of code
+6. Programmers are slow and expensive code generators
+7. Software is expensive because programmers are expensive
+8. The job is done when the code is running
+9. A system can be maintained without being understood
+10. Engineers can delegate the thinking and remain competent
+11. LLMs will become reliable decision makers
+12. LLMs will be cheap enough to replace all programmers
+13. Broken prototypes will become usable apps
+14. Users will tolerate bad quality
+15. LLM providers will turn a profit
+16. Growth at all costs still pays off
