@@ -17,9 +17,9 @@ In the year since [[https://jorge.olano.dev/blog/on-ai-assistance/][I first wrot
 - a fast, knowledgeable, overeager albeit sloppy junior programmer[fn:5];
 - an English proofreader with bad taste.
 
-Beyond these specific use cases, I see much potential in the malleability of the technology and its tooling. As it continues to improve, I can see myself building more sophisticated workflows and personal applications; using voice instructions while pair programming, having agents run commands in the shell and integrating applications; building a local knowledge base with all my code repositories and my writings and any note I ever scribble in the margin of my editor: a second brain that I can query and look at from all angles.
+Beyond these specific use cases, I see much potential in the malleability of the technology and its tooling. As it continues to improve, I can see myself building more sophisticated workflows and personal applications[fn:2]; using voice instructions while pair programming, having agents run commands in the shell and integrating applications; building a local knowledge base with all my code repositories and my writings and any note I ever scribble in the margin of my editor: a second brain that I can query and look at from all angles.
 
-If I filter all the noise---which is loud---and try to be objective, I acknowledge that even in their present flawed incarnation, LLMs may well be the most powerful human augmentation tool in the history of computing[fn:1]. But for all its current and future power, I'm convinced that generative AI is a mediocre human replacement for intellectual and creative work[fn:6].
+If I filter all the noise---which is loud---and try to be objective, I acknowledge that even in their present flawed incarnation, LLMs may well be the most powerful human augmentation tool in the history of computing[fn:1]. But for all its current and future power, I'm still convinced that generative AI is a mediocre human replacement for intellectual and creative work[fn:6].
 
 #+BEGIN_CENTER
 \lowast{}
@@ -47,6 +47,8 @@ Companies that push today for AI to replace engineers will only get faster at pr
 So while we may be on the verge of dramatic changes in the way we go about our work, rather than trying to predict the future, let's do what software development has taught us to do: understand what is the most effective way to solve the problems of today with resources available today; keeping things lean and simple, ready to execute when most are shifting gears.
 
 *** Notes
+
+[fn:2] The fact that I'm an Emacs user helps here: I'm already used to paying attention to my habits, and my editor works like an almost limitless canvas to try any feature that I can imagine. As [[https://simonwillison.net/2023/Mar/27/ai-enhanced-development/][Simon Willison]] often puts it, AI can provide that extra boost of ambition to experiment with things that otherwise wouldn't be worth the time investment. This is why, as the industry seems to [[https://www.jonashietala.se/blog/2025/02/18/ill_give_up_neovim_when_you_pry_it_from_my_cold_dead_hands/][push for uniformity]], I'm encouraged to double down on personalized tools.
 
 [fn:6] It's not that I don't think capitalists will attempt to replace knowledge workers---or that they won't succeed. It's just that when they do, the proportion of bullshit jobs will increase, and the average quality of the work will get worse. That's not a future I look forward to and not something I can call progress.
 
