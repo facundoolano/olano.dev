@@ -10,16 +10,16 @@ excerpt: A bicycle of the mind, with E.T. sitting in the basket.
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-In the year since [[https://jorge.olano.dev/blog/on-ai-assistance/][I first wrote]] about AI assistance, I've been using LLMs increasingly for my job, for personal projects, and for writing. They take several roles for me:
+In the year since [[https://jorge.olano.dev/blog/on-ai-assistance/][I first wrote]] about AI assistance, I've been using LLMs increasingly for my job, for personal projects, and for writing. They fill several roles for me:
 
 - a sophisticated search engine with the most flexible of query languages and arbitrarily customizable output formats[fn:4];
-- the ultimate rubber duck, one that quacks statistical opinions;
+- the ultimate rubber duck, one that quacks statistically generated opinions;
 - a fast, knowledgeable, overeager albeit sloppy junior programmer[fn:5];
 - an English proofreader with a bad taste.
 
-But beyond concrete use cases, I see much potential in the malleability of the technology and the tooling. As it continues to improve, I can see myself building more sophisticated workflows and personal applications; using voice instructions while pair programming, having agents run commands in the shell and integrating applications; relying less on Google to provide answers and reducing the need for fact checking; building a local knowledge base with all my code repositories and my writings and any note I happen to scribble in the margin of my editor: a second brain that I can query and look at from all angles.
+Beyond these specific use cases, I see much potential in the malleability of the technology and its tooling. As it continues to improve, I can see myself building more sophisticated workflows and personal applications; using voice instructions while pair programming, having agents run commands in the shell and integrating applications; building a local knowledge base with all my code repositories and my writings and any note I ever scribble in the margin of my editor: a second brain that I can query and look at from all angles.
 
-If I filter all the noise---which is loud---and try to be objective, I acknowledge that even in their present flawed incarnation, LLMs may well be the most powerful human augmentation tool in the history of computing[fn:1]. But for all their current and future power, I'm convinced that generative AI is a mediocre human replacement for intellectual and creative work[fn:6].
+If I filter all the noise---which is loud---and try to be objective, I acknowledge that even in their present flawed incarnation, LLMs may well be the most powerful human augmentation tool in the history of computing[fn:1]. But for all its current and future power, I'm convinced that generative AI is a mediocre human replacement for intellectual and creative work[fn:6].
 
 #+BEGIN_CENTER
 \lowast{}
@@ -28,13 +28,13 @@ If I filter all the noise---which is loud---and try to be objective, I acknowled
 I keep reading enthusiasts, both technical and non technical, insisting that software development has already changed, that the future is now and programmers still typing code will soon be left behind.
 We should instead be running agent fleets, our work now consisting of feeding them prompts, reviewing their outputs, and getting them unstuck.
 
-Even in that imagined future where LLMs are flawless and inexpensive, I would have objections about letting the machines do all the work:
+But even in that imagined future where LLMs are flawless and inexpensive, I would have objections about letting the machines do all the work:
 
-- Code is a liability, not an asset: our job is to [[a-note-on-essential-complexity][minimize complexity]], looking for ways to remove code or, better, prevent it from being written. By design and by their economic incentives, LLMs push in the opposite direction.
+- Code is a liability, not an asset: our job is to [[a-note-on-essential-complexity][minimize complexity]], looking for ways to remove code or, better, prevent it from being written. By design and by economic incentive, LLMs push in the opposite direction.
 - [[software-design-is-knowledge-building][Software design is knowledge building]]: the output of our work is organizational knowledge, the mental model the team builds, not the source code they produce. If we delegate all code writing to AIs, even if we feed them the prompts and review the results, we end up with a superficial grasp of our own systems.
-- [[code-is-run-more-than-read][Code is run more than written]]: we still need humans in the loop to operate, diagnose, fix, and modify the systems. Even if we could have agents do that for us, [[https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf][we wouldn't be equipped]] to jump in when they fail.
+- [[code-is-run-more-than-read][Code is run more than written]]: we still need humans in the loop to operate, diagnose, fix, and modify the systems. Even if we could have agents do that for us, [[https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf][we wouldn't be equipped]] to jump in when something fails.
 
-The hardest part of software building is not writing code but figuring out what needs to be built: talking with colleagues, fleshing out and disambiguating product requirements, analyzing data, reading code and documentation, weighing alternatives, making a myriad of little decisions. Most of which that can be enhanced by but not completely delegated to LLMs: by the time a sufficiently precise prompt can be written, most of the work would already be done. Unless your line of business is building throw-away prototypes, automating code generation is optimizing the wrong part of the process.
+The hardest part of software building is not writing code but figuring out what needs to be built: talking with colleagues, fleshing out and disambiguating product requirements, analyzing data, reading code and documentation, weighing alternatives, making a myriad of little decisions. Most of which can be enhanced by but not completely delegated to LLMs: by the time a sufficiently precise prompt can be written, most of the work would already be done. Unless your line of business is building throw-away prototypes, automating code generation is optimizing the wrong part of the process.
 
 #+BEGIN_CENTER
 \lowast{}
