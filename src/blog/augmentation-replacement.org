@@ -14,10 +14,10 @@ In the year since [[https://jorge.olano.dev/blog/on-ai-assistance/][I first wrot
 
 - a sophisticated search engine with the most flexible of query languages and arbitrarily customizable output formats[fn:4];
 - the ultimate rubber duck, one that quacks statistical opinions;
-- a fast, knowledgeable, overeager, and sloppy junior programmer[fn:5];
+- a fast, knowledgeable, overeager albeit sloppy junior programmer[fn:5];
 - an English proofreader with a bad taste.
 
-But beyond concrete use cases, I see much potential in the malleability of the technology and the tooling. As they continue to improve, I can see myself building more sophisticated workflows and personal applications; using voice instructions for pair programming, having agents run commands in the shell and integrating applications; relying less on Google to provide answers and reducing the need for fact checking; building local knowledge bases with all my code repositories and my writings and any note I happen to scribble in the margin of my editor, a second brain that I can query and look at from all angles[fn:2].
+But beyond concrete use cases, I see much potential in the malleability of the technology and the tooling. As it continues to improve, I can see myself building more sophisticated workflows and personal applications; using voice instructions while pair programming, having agents run commands in the shell and integrating applications; relying less on Google to provide answers and reducing the need for fact checking; building a local knowledge base with all my code repositories and my writings and any note I happen to scribble in the margin of my editor: a second brain that I can query and look at from all angles.
 
 If I filter all the noise---which is loud---and try to be objective, I acknowledge that even in their present flawed incarnation, LLMs may well be the most powerful human augmentation tool in the history of computing[fn:1]. But for all their current and future power, I'm convinced that generative AI is a mediocre human replacement for intellectual and creative work[fn:6].
 
@@ -25,34 +25,32 @@ If I filter all the noise---which is loud---and try to be objective, I acknowled
 \lowast{}
 #+END_CENTER
 
-I keep reading enthusiasts, both technical and non technical, insisting that software development has already changed, that the future is now, and programmers still typing code will soon be left behind.
+I keep reading enthusiasts, both technical and non technical, insisting that software development has already changed, that the future is now and programmers still typing code will soon be left behind.
 We should instead be running agent fleets, our work now consisting of feeding them prompts, reviewing their outputs, and getting them unstuck.
 
 Even in that imagined future where LLMs are flawless and inexpensive, I would have objections about letting the machines do all the work:
 
-- Code is a liability, not an asset. Our job is to [[a-note-on-essential-complexity][minimize complexity]], looking for ways to remove code or, better, prevent it from being written. By design and by their economic incentives, LLMs push in the opposite direction.
-- [[software-design-is-knowledge-building][Software design is knowledge building]]. The output of our work is organizational knowledge: the mental model the team builds, not the source code they produce. If we delegate all code writing to AIs, even if we feed them the prompts and review the results, we end up with a superficial grasp of our own systems.
-- [[code-is-run-more-than-read][Code is run more than written]]. We still need humans in the loop to operate, diagnose, fix, and modify the systems. Even if we could let the machines operate the system for us, [[https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf][we wouldn't be equipped]] to jump in when they fail.
+- Code is a liability, not an asset: our job is to [[a-note-on-essential-complexity][minimize complexity]], looking for ways to remove code or, better, prevent it from being written. By design and by their economic incentives, LLMs push in the opposite direction.
+- [[software-design-is-knowledge-building][Software design is knowledge building]]: the output of our work is organizational knowledge, the mental model the team builds, not the source code they produce. If we delegate all code writing to AIs, even if we feed them the prompts and review the results, we end up with a superficial grasp of our own systems.
+- [[code-is-run-more-than-read][Code is run more than written]]: we still need humans in the loop to operate, diagnose, fix, and modify the systems. Even if we could have agents do that for us, [[https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf][we wouldn't be equipped]] to jump in when they fail.
 
-The hardest part of software building is not writing code but figuring out what needs to be built: talking with colleagues, fleshing out and disambiguating product requirements, analyzing data, reading code and documentation, weighing alternatives, making a myriad of little decisions. All tasks that can be assisted by but not completely delegated to LLMs. Unless your line of business is building throw-away prototypes, automating code generation is optimizing the wrong part of the job.
+The hardest part of software building is not writing code but figuring out what needs to be built: talking with colleagues, fleshing out and disambiguating product requirements, analyzing data, reading code and documentation, weighing alternatives, making a myriad of little decisions. Most of which that can be enhanced by but not completely delegated to LLMs: by the time a sufficiently precise prompt can be written, most of the work would already be done. Unless your line of business is building throw-away prototypes, automating code generation is optimizing the wrong part of the process.
 
 #+BEGIN_CENTER
 \lowast{}
 #+END_CENTER
 
-There's a lot of potential for software engineers in embracing AI as a human augmentation tool. Not a silver bullet, not an order of magnitude increase in productivity, but more efficacy, more reach and engagement in our work. A bicycle of the mind, with E.T. sitting in the basket.
+As a software engineer, I see a lot of potential in embracing AI as a human augmentation tool. Not a silver bullet, not an order of magnitude increase in productivity, but more efficacy, more reach and engagement in our work. A bicycle of the mind, with E.T. sitting in the basket.
 
-Companies that push for AI to replace engineers today will only get faster at producing bad software. They'll hit a dead end when trying to turn prototypes into products, and they won't be have the organizational knowledge to go back.
+Companies that push today for AI to replace engineers will only get faster at producing bad software. They'll hit a dead end when trying to turn prototypes into products, and won't have sufficient organizational knowledge to backtrack.
 
-So while we may be on the verge of dramatic changes in the way we go about our work, rather than trying to predict the future, let's do what software development has taught us to do: understand what's the most effective way to solve the problems of today, with resources available today; keep things lean and simple, and be ready to execute while most are shifting gears.
+So while we may be on the verge of dramatic changes in the way we go about our work, rather than trying to predict the future, let's do what software development has taught us to do: understand what is the most effective way to solve the problems of today with resources available today; keeping things lean and simple, ready to execute when most are shifting gears.
 
 *** Notes
 
 [fn:6] It's not that I don't think capitalists will attempt to replace knowledge workers---or that they won't succeed at it. It's just that when they do, the proportion of bullshit jobs will increase, and the average quality of the work will get worse. That's not a future I look forward to and not something I can call progress.
 
-[fn:1] I'm less impressed by the models and their underlying technology, than by the collective knowledge-building effort that led us to produce enough data to train them.
-
-[fn:2] <I believe it helps that I use Emacs as my "center of computing operations": since I already pay a lot of attention to my coding and writing habits, I can be deliberate and precise on how to improve them with such a malleable tool.
+[fn:1] I'm less impressed by the models and their underlying technology than by the collective knowledge-building effort that enabled their training.
 
 [fn:4] ...but that operates on stale data and is somewhat inaccurate.
 
