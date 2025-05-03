@@ -16,23 +16,28 @@ I settled on a convenient way[fn:7] to integrate LLMs to my workflow and I've be
 - a fast, knowledgeable, overeager, and sloppy junior programmer[fn:5];
 - an English proofreader with a bad taste.
 
-But beyond these concrete use cases, I see much potential in its flexibility. I unlocked some of that extra ambition Simon Willison keeps talking about: that of tackling projects that I would otherwise skip not because I couldn't do them but because they wouldn't be worth the effort[fn:2]. As the technology and the tooling continue to improve, I can see myself building more sophisticated workflows and personal applications; I can see myself using voice instructions for pair programming, letting it run commands in the terminal; relying rely less and less on google and fact checking; building local knowledge bases with all my code repositories and my writings and any note I want to scribble in the margin of my editor, a second brain to query and look at from all angles.
+I unlocked some of that extra ambition Simon Willison keeps talking about: that of tackling projects that I would otherwise skip not because I couldn't do them but because they wouldn't be worth the effort[fn:2].
+But beyond concrete use cases, I see much potential in its flexibility. As the technology and the tooling continue to improve, I can see myself building more sophisticated workflows and personal applications; I can see myself using voice instructions for pair programming, letting it run commands in the terminal; relying rely less and less on google and fact checking; building local knowledge bases with all my code repositories and my writings and any note I want to scribble in the margin of my editor, a second brain to query and look at from all angles.
 
-I don't tend to get excited about technology in and of itself, and LLMs aren't the exception, but if I filter all the noise---which is loud---and try to be objective, I acknowledge that even in their present flawed incarnation they may well be the most powerful human augmentation tool in the history of computing[fn:1]. But for all this current and future power, I'm convinced that generative AI will continue to be a mediocre human replacement when it comes to intellectual and creative work[fn:6].
-
-#+BEGIN_CENTER
-\lowast{}
-#+END_CENTER
-
-1. non technical folks tend to think that software engineering is limited to writing working code
-    software engineering is writing code, so an engineer is a slow and expensive alternative to an LLM
+If I filter all the noise---which is loud---and try to be objective, I acknowledge that even in their present flawed incarnation, LLMs may well be the most powerful human augmentation tool in the history of computing[fn:1]. But for all their current and future power, I'm convinced that generative AI will continue to be a mediocre human replacement when it comes to intellectual and creative work[fn:6].
 
 #+BEGIN_CENTER
 \lowast{}
 #+END_CENTER
 
-I'm thrown off when the ones preaching <> are bright software engineers.
-It makes me wonder how different their day-to-day must be from mine for them to reach that conclusion.
+TODO summarize significantly (one paragraph)
+<It's not a surprise that non-technical folks are already bought on the idea that LLMs are a plausible replacement for professional programmers.
+
+<after all, coding seems to be one of the tasks the LLMs perform best at
+
+<And there has always been a market for [silver bullets]. The wish to get the computer to do what you want without putting in the effort to learn to control it is as old as computers themselves.
+
+<underlying this pretension is the reductionist assumption that <software engineering is limited to producing working code. seen like that, of course an engineer is a slow and expensive alternative to an LLM
+- a code generation agent
+- a sort of translator of ideas into machine code, a gatekeeper profiting from a privileged position
+
+I'm thrown off when the ones prophesying the death of programmers are programmers themselves.
+It makes me wonder how different their day-to-day must be from mine for them to <reach that conclusion>.
 
 The first obvious note is that, as a senior software engineer, it's been a while since most of my day was about just writing code. So it's hard to buy the idea that we could unlock high productivity boosts by letting the machines write the code while we do something else (even if there weren't downsides to that). But ignoring that fact for now and looking specifically at the tasks that involve code writing, I can see three typical /modes/ in which I operate:
 
@@ -40,29 +45,33 @@ The first obvious note is that, as a senior software engineer, it's been a while
 2. Meaty coding tasks where I first spend a fair amount of time thinking, doodling and making lists of what I need to do. 90% of the effort is in that stage, writing the code is like the prize. By the time I know enough that I could write a precise prompt, most of the work would already be done. If I had a problem with typing, I guess I could offload to an LLM, but I rather just do it myself most of the times, and it doesn't significantly affect the time spent on the entire task---I'm a fairly fast coder when I know what I'm doing.
 3. Greenfield or exploratory coding tasks the goal is not exclusively to get working code, but to learn something /through the process/ of writing it. I can obviously rely on LLMs to iterate on pieces of it, to rubber duck and evaluate alternatives, but if I just filled an initial prompt and reviewed results, I couldn't consider the work done even if the code worked, as I would be left with just superficial knowledge---weak ownership---of the system.
 
-#+BEGIN_CENTER
-\lowast{}
-#+END_CENTER
-
-
-<but even if llms were cheap and didn't hallucinate and could consistently produce good code, and even if we ignored that there's a lot more to development than just writing the code,
-<instead: but less assume that
-there would still be serious trade-offs in trying to delegate all the coding to AIs.
-
-even if
-3. There aren't any downsides to letting LLMs doing the work
-   - design and economic incentive: producing more output
-   - code is liability, not an asset.
-   - we're better off removing code or preventing it from being written, which is the exact opposite of the llms modus operandi
-   - complexity reduction
-   - ironies of automation
-   - knowledge building
+<both 2 and 3 can be AI assisted. A senior engineer can work effectively with a powerful search engine, the ultimate rubber duck, the overeager junior programmer.
+but reducing the work to build the right prompt would be either solving the wrong problem, or solving it without significant productivity gains
 
 #+BEGIN_CENTER
 \lowast{}
 #+END_CENTER
 
-My understanding is that burning money to churn out broken MVPs has been a plausible business model for a long time. And I guess it may still be if you work for a startup in California. If you live in that world, then an LLM may well replace half of your programmers. Based on the headlines, it sounds as that world has ended or is coming to end. Maybe it's not, who can tell? I wouldn't make any hard bets on what software engineering will look like in a year or two.
+Even if LLMs could be trusted to consistently produce correct solutions for the input problem, there would still be trade-offs.
+
+- code is liability, not an asset.
+- we're better off removing code or preventing it from being written, which is the exact opposite of how LLMs operate--by design and by economic incentive.
+- our job is to reduce complexity
+
+- and then there's the problem that [code is run more than written]. you still need the human in the loop to operate, diagnose, fix, and make design decisions
+- you need engineers with the proper mental model [knowledge building] to answer questions, make design decisions, and solve problems.
+- and you need operational experience for when automation alone can manage a situation  [ironies of automation]
+
+- <programmer replacement proponents would perhaps argue that LLMs will get better or coul be instructed to detect complexity and reduce it as well.
+  that they will be able to diagnose and design and make the hard decisions without technical human involvement
+  that there won't be exceptional cases that couldn't be handled by the AIs themselves
+but that's a far cry from the technology we have today. that's sci-fi territory. Even if it ends up materializing in one or two years, building software like that today is a recipe for disaster.
+
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
+
+LLMs are exceptional at application prototyping. If software development was all about putting together demos and MVPs, then you wouldn't need software engineers anymore. So it figures why many smart people are convinced that the future is now. My understanding is that burning money to churn out broken MVPs has been a plausible business model for a long time. And I guess it may still be if you work for a startup in California. Based on the headlines, it sounds as that world has ended or is coming to end. Maybe it's not, who can tell? I wouldn't make any hard bets on what software engineering will look like in a year or two.
 
 If you are in the business of building stable software and solving problems efficiently today, you can certainly benefit from augmenting smart engineers with AI, but if you try to replace them with the AIs available today, <you'll hit a dead end, not next week or next month, but next year.
 
