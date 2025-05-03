@@ -19,7 +19,7 @@ In the year since [[https://jorge.olano.dev/blog/on-ai-assistance/][I first wrot
 
 But beyond concrete use cases, I see much potential in the malleability of the technology and the tooling. As they continue to improve, I can see myself building more sophisticated workflows and personal applications; using voice instructions for pair programming, having agents run commands in the shell and integrating applications; relying less on Google to provide answers and reducing the need for fact checking; building local knowledge bases with all my code repositories and my writings and any note I happen to scribble in the margin of my editor, a second brain that I can query and look at from all angles[fn:2].
 
-If I filter all the noise---which is loud---and try to be objective, I acknowledge that even in their present flawed incarnation, LLMs may well be the most powerful human augmentation tool in the history of computing[fn:1]. But for all their current and future power, I'm convinced that generative AI will continue to be a mediocre human replacement when it comes to intellectual and creative work[fn:6].
+If I filter all the noise---which is loud---and try to be objective, I acknowledge that even in their present flawed incarnation, LLMs may well be the most powerful human augmentation tool in the history of computing[fn:1]. But for all their current and future power, I'm convinced that generative AI is a mediocre human replacement for intellectual and creative work[fn:6].
 
 #+BEGIN_CENTER
 \lowast{}
@@ -30,21 +30,21 @@ We should instead be running agent fleets, our work now consisting of feeding th
 
 Even in that imagined future where LLMs are flawless and inexpensive, I would have objections about letting the machines do all the work:
 
-- Code is a liability, not an asset. Our job is to [minimize complexity], looking for ways to remove code or, better, prevent it from being written. By design and by their economic incentives, LLMs push in the opposite direction.
-- [Software design is knowledge building]. The output of our work is organizational knowledge: the mental model the team builds, not the source code they produce. If we delegate all code writing to AIs, even if we feed them the prompts and review the results, we end up with a superficial grasp of the systems.
-- [Code is run more than written]. <we still need a human in the loop to operate, diagnose, fix, and make design decisions. Even if we could let the machines operate the system for us, there would be trade-offs to that [ironies of automation].
+- Code is a liability, not an asset. Our job is to [[a-note-on-essential-complexity][minimize complexity]], looking for ways to remove code or, better, prevent it from being written. By design and by their economic incentives, LLMs push in the opposite direction.
+- [[software-design-is-knowledge-building][Software design is knowledge building]]. The output of our work is organizational knowledge: the mental model the team builds, not the source code they produce. If we delegate all code writing to AIs, even if we feed them the prompts and review the results, we end up with a superficial grasp of our own systems.
+- [[code-is-run-more-than-read][Code is run more than written]]. We still need humans in the loop to operate, diagnose, fix, and modify the systems. Even if we could let the machines operate the system for us, [[https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf][we wouldn't be equipped]] to jump in when they fail.
 
-The hardest part of software building is not writing code but figuring out what needs to get built: talking with colleagues, fleshing out and disambiguating product requirements, analyzing data, reading code and documentation, weighing alternatives, making a myriad of little decisions. All tasks that can be assisted by but not completely delegated to LLMs. Unless your line of business is building throw-away prototypes, automating code generation is optimizing the wrong part of the job.
+The hardest part of software building is not writing code but figuring out what needs to be built: talking with colleagues, fleshing out and disambiguating product requirements, analyzing data, reading code and documentation, weighing alternatives, making a myriad of little decisions. All tasks that can be assisted by but not completely delegated to LLMs. Unless your line of business is building throw-away prototypes, automating code generation is optimizing the wrong part of the job.
 
 #+BEGIN_CENTER
 \lowast{}
 #+END_CENTER
 
-The way I see it, there's a lot of potential for engineers in embracing AI as a human augmentation tool. Not a silver bullet, not an order of magnitude increase in productivity, but more efficacy, more reach and engagement in our work. A bicycle of the mind, with E.T. sitting in the basket.
+There's a lot of potential for software engineers in embracing AI as a human augmentation tool. Not a silver bullet, not an order of magnitude increase in productivity, but more efficacy, more reach and engagement in our work. A bicycle of the mind, with E.T. sitting in the basket.
 
 Companies that push for AI to replace engineers today will only get faster at producing bad software. They'll hit a dead end when trying to turn prototypes into products, and they won't be have the organizational knowledge to go back.
 
-So while we may be on the verge of dramatic changes in the way we go about our work, rather than trying to predict the future, I'll do what software development has taught me to do: understand what's the most effective way to solve the problems of today, with resources available today; keep things lean and simple, and be ready to execute while the rest are shifting gears.
+So while we may be on the verge of dramatic changes in the way we go about our work, rather than trying to predict the future, let's do what software development has taught us to do: understand what's the most effective way to solve the problems of today, with resources available today; keep things lean and simple, and be ready to execute while most are shifting gears.
 
 *** Notes
 
