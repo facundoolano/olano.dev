@@ -6,6 +6,7 @@ lang: en
 tags: [ai, software]
 draft: true
 excerpt: A bicycle of the mind, with E.T. sitting in the basket.
+image: bike.png
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
