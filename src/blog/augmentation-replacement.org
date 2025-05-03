@@ -1,6 +1,6 @@
 ---
 title: Augmentation / Replacement
-date: 2025-05-04
+date: 2025-05-03
 layout: post
 lang: en
 tags: [ai, software]
@@ -13,13 +13,13 @@ image: bike.jpg
 In the year since [[https://jorge.olano.dev/blog/on-ai-assistance/][I first wrote]] about AI assistance, I've been using LLMs increasingly for my job, personal projects, and writing. They fill several roles for me:
 
 - a sophisticated search engine with the most flexible of query languages and arbitrarily customizable output formats[fn:4];
-- the ultimate rubber duck, one that quacks statistically generated opinions;
+- the ultimate rubber duck, one that quacks back statistically generated opinions;
 - a fast, knowledgeable, overeager albeit sloppy junior programmer[fn:5];
-- an English proofreader with bad taste.
+- an English proofreader with a bad taste.
 
-Beyond these specific use cases, I see much potential in the malleability of the technology and its tooling. As it continues to improve, I can see myself building more sophisticated workflows and personal applications[fn:2]; using voice instructions while pair programming, having agents run commands in the shell and integrating applications; building a local knowledge base with all my code repositories and my writings and any note I ever scribble in the margin of my editor: a second brain that I can query and look at from all angles.
+Beyond these specific uses, I see much potential in the malleability of tool. As it continues to improve, I can see myself building more sophisticated workflows and personal applications[fn:2]; using voice instructions while pair programming; having agents run commands in the shell and integrating applications; building local knowledge bases from code, text, and every little note I can scribble in the margin of my editor: a second brain to query and look at from all angles.
 
-If I filter all the noise---which is loud---and try to be objective, I acknowledge that even in their present flawed incarnation, LLMs may well be the most powerful human augmentation tool in the history of computing[fn:1]. But for all its current and future power, I'm still convinced that generative AI is a mediocre human replacement for intellectual and creative work[fn:6].
+If I filter all the noise---which is loud---and try to be objective, I admit that even in their present flawed incarnation, LLMs may well be the most powerful human augmentation tool in the history of computing[fn:1]. But for all its current and future power, I'm still convinced that they are a mediocre human replacement for intellectual and creative work[fn:6].
 
 #+BEGIN_CENTER
 \lowast{}
