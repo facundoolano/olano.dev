@@ -1,10 +1,9 @@
 ---
 title: Augmentation / Replacement
-date: 2025-05-01 13:40:49
+date: 2025-05-04
 layout: post
 lang: en
 tags: [ai, software]
-draft: true
 excerpt: A bicycle of the mind, with E.T. sitting in the basket.
 image: bike.png
 ---
