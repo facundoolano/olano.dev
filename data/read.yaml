@@ -1,3 +1,31 @@
+- author: Tomás Downey
+  cover_file: tomas-downey-lopez-lopez.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1741046910l/223905891._SX318_.jpg
+  published_at: 2025-05-03
+  rating: 3
+  read_at: 2025-05-03
+  title: López López
+- author: David Foster Wallace
+  cover_file: david-foster-wallace-el-tenis-como-experiencia-religiosa.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471208140l/30119429._SY475_.jpg
+  published_at: 2025-04-25
+  rating: 3
+  read_at: 2025-04-25
+  title: El tenis como experiencia religiosa
+- author: David Foster Wallace
+  cover_file: david-foster-wallace-algo-supuestamente-divertido-que-nunca-volvere-a-hacer.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360175991l/7896319.jpg
+  published_at: 2025-04-20
+  rating: 4
+  read_at: 2025-04-20
+  title: Algo supuestamente divertido que nunca volveré a hacer
+- author: Thomas Bernhard
+  cover_file: thomas-bernhard-el-malogrado.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358945852l/12129384.jpg
+  published_at: 2025-04-02
+  rating: 2
+  read_at: 2025-04-02
+  title: El malogrado
 - author: Samanta Schweblin
   cover_file: samanta-schweblin-el-buen-mal.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1741363227l/228879035._SY475_.jpg
@@ -553,7 +581,7 @@
   published_at: 2023-02-21
   rating: 4
   read_at: 2023-02-21
-  title: I Feel Bad About My Neck, And Other Thoughts on Being a Woman
+  title: I Feel Bad About My Neck and Other Thoughts on Being a Woman
 - author: David James Poissant
   cover_file: david-james-poissant-el-cielo-de-los-animales.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1458579157l/28354936._SY475_.jpg
@@ -1380,31 +1408,3 @@
   rating: 4
   read_at: 2020-04-05
   title: Prohibido morir aquí
-- author: Alejandro Zambra
-  cover_file: alejandro-zambra-tema-libre.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558196055l/45479297.jpg
-  published_at: 2020-03-27
-  rating: 3
-  read_at: 2020-03-27
-  title: Tema libre
-- author: Raymond Queneau
-  cover_file: raymond-queneau-exercises-in-style.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1720874351l/15956698._SY475_.jpg
-  published_at: 2020-03-23
-  rating: 4
-  read_at: 2020-03-23
-  title: Exercises in Style
-- author: Nona Fernández
-  cover_file: nona-fernandez-space-invaders.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1409504287l/23125991.jpg
-  published_at: 2020-03-19
-  rating: 3
-  read_at: 2020-03-19
-  title: Space Invaders
-- author: Fabien Sanglard
-  cover_file: fabien-sanglard-game-engine-black-book-wolfenstein-3d.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505800605l/36165638._SX318_.jpg
-  published_at: 2020-03-18
-  rating: 4
-  read_at: 2020-03-18
-  title: Game Engine Black Book, Wolfenstein 3D

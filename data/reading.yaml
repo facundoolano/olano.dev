@@ -1,10 +1,17 @@
-- author: Thomas Bernhard
-  cover_file: thomas-bernhard-el-malogrado.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358945852l/12129384.jpg
-  published_at: 2025-03-30
+- author: FORN JUAN
+  cover_file: forn-juan-la-tierra-elegida.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1267785440l/3112886.jpg
+  published_at: 2025-04-26
   rating: 0
-  read_at: 2025-03-30
-  title: El malogrado
+  read_at: 2025-04-26
+  title: La tierra elegida
+- author: Juan José Saer
+  cover_file: juan-jose-saer-el-concepto-de-ficcion.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1173947407l/348253._SY475_.jpg
+  published_at: 2025-04-04
+  rating: 0
+  read_at: 2025-04-04
+  title: El concepto de ficción
 - author: Vladik Khononov
   cover_file: vladik-khononov-learning-domain-driven-design.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635258056l/57573212.jpg
@@ -13,17 +20,3 @@
   read_at: 2025-03-14
   title: 'Learning Domain-Driven Design: Aligning Software Architecture and Business
     Strategy'
-- author: David Foster Wallace
-  cover_file: david-foster-wallace-algo-supuestamente-divertido-que-nunca-volvere-a-hacer.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360175991l/7896319.jpg
-  published_at: 2025-03-01
-  rating: 0
-  read_at: 2025-03-01
-  title: Algo supuestamente divertido que nunca volveré a hacer
-- author: Sylvia Plath
-  cover_file: sylvia-plath-antologia-poetica.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1734570355l/222759576.jpg
-  published_at: 2025-03-01
-  rating: 0
-  read_at: 2025-03-01
-  title: Antología poética
