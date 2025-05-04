@@ -1,0 +1,17 @@
+---
+layout: default
+title: log
+head_title: log
+---
+
+<div class="blog-index">
+  {% for entry in site.data.log %}
+  <article class="post">
+    <span class="date">{{ entry.date | date: "%Y-%m-%d" }}</span>
+    <div>
+      <span>{{entry.txt| markdownify }} </span>
+      <small> </small>
+    </div>
+  </article>
+  {% endfor %}
+</div>
