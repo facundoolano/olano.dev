@@ -5,8 +5,6 @@ layout: post
 lang: es
 tags: [literatura, web, borges]
 refs: [inquisiciones]
-image: wall.jpg
-cover-img: wall.jpg
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
