@@ -1,0 +1,28 @@
+---
+title: Domain-Driven Design Revisited
+date: 2025-05-25 15:29:30
+layout: post
+lang: en
+tags: [software, books, tldr]
+refs: [ddd]
+draft: true
+subtitle: Reading notes
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <a href="https://vladikk.com/page/books/#learning-domain-driven-design-o-reilly-2021"> <img src="{{site.config.static_root}}/img/ddd.jpg" width="320"></a>
+</div>
+#+END_EXPORT
+
+** Introduction
+
+** Part I: Strategic Design
+
+** Part II: Tactical Design
+
+** Part III: Applying Domain-Driven Design
+
+** Part IV: Relationships to Other Methodologies and Patterns
