@@ -68,7 +68,12 @@ Some of these challenges of applying the theory are covered later on the book, b
 - I found it too prescriptive, too pattern-y, perhaps too indebted to the original applications of the DDD ideas that, coupled with some of the patterns for Enteprise architectures described in Martin Fowler's book.
 
 - This part converge in to a design heuristics decision-tree, where the subdomain type and a few other attributes cascade into each design decision (data modeling, application architecture, testing strategy):
-  TODO image
+  #+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/heuristics.png">
+</div>
+#+END_EXPORT
+
 
 - I should stress that the tone of the book is not dogmatic, heuristic usually come with the required disclaimers.
 - but nevertheless, the problem is that the discussion and the emphasis is still put on specific techniques rather than in the principles they derive from. I found the techniques of little applicability in my day to day, so I was hard to keep up with the discussion.
@@ -84,6 +89,11 @@ The book starts to pick up again by the end of Part III when it tackles evolving
   - maybe I'm looking for something like arch modernization
 
 - I unexpectedly found a lot of value in the last few chapters, when the DDD approach is integrated with other methodologies, even if I'm not using any of them.
-- The chapter on microservices, in particular, was one of the best treatments I've seen of the topic, putting it not only in the context of DDD but of modular design as explained by John Ousterhout and unearthing one Glenford Myers, with this <joya/jewel>:
-  QUOTE
+- The chapter on microservices, in particular, was one of the best treatments I've seen of the subject, putting it not only in the context of DDD but of modular design as explained by John Ousterhout and of the work by one Glenford Myers, to whom we owe this gem:
+
+#+begin_quote
+There is much more to the subject of complexity than simply attempting to minimize the local complexity of each part of a program. A much more important type of complexity is global complexity: the complexity of the overall structure of a program or system (i.e., the degree of association or interdependence among the major pieces of a program).
+#+end_quote
+
+- the treatment is similar to this earlier blog post, although I prefer the one in the book.
 - this chapter convinced me that the author is onto something, and I found out that he recently published a more principled book on software design. So while I didn't totally like his /Learning Domain-Driven Design/, I'll definitely be checking that one out.
