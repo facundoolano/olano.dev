@@ -6,7 +6,6 @@ lang: en
 tags: [software, books, tldr]
 refs: [ddd]
 draft: true
-subtitle: Reading notes
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
@@ -17,12 +16,32 @@ subtitle: Reading notes
 </div>
 #+END_EXPORT
 
-** Introduction
+** Background
 
-** Part I: Strategic Design
+Early in my career, when I was working at a Java shop, there was a lot of buzz about /enterprise applications/. You would use Java /Enterprise Edition/ to apply Patterns of /Enterprise/ Architecture, implemented through /Enterprise/ Java Beans. It all sounded like shallow marketing, part of the Java echo chamber. To me they were all just applications, it wasn't clear what made some /enterprise/ or why
+following that specific set of ceremonies was supposed to yield better solutions to their problems.
 
-** Part II: Tactical Design
+Later on, I moved away from that Java shop and from Java in general, and worked with different languages in user-facing web apps, media publishing, ad tech, crypto and AI startups. (Which, read like that, kind of explains why I ended up needing a career break). Last year I took what I would call a less pretentious, more [[https://boringtechnology.club/][technologically boring]] job in the healthcare sector. The challenge in this company comes not from scale or growth or sophisticated tools but from the complexity of the domain, and the need to design an organization, and consequentially a software architecture, that automates and eventually simplifies its business processes.
 
-** Part III: Applying Domain-Driven Design
+This shift in focus is why I went back to the basics and been reading and writing about [[software-design-is-knowledge-building][knowledge building]] and [[unit-testing-principles/][testing-as-design]]. It through that /Unit Testing/ book that I finally came to terms with the /enterprise application/ concept:
 
-** Part IV: Relationships to Other Methodologies and Patterns
+#+begin_quote
+An enterprise application is an application that aims at automating or assisting an organization’s inner processes. It can take many forms, but usually the characteristics of an enterprise software are
+-  High business logic complexity
+-  Long project lifespan
+-  Moderate amounts of data
+-  Low or moderate performance requirements
+#+end_quote
+
+This sounds like a pretty accurate description of what I'm working on. Given the kind of challenges I currently face---discovering what the business processes are, reconciliating naming conflicts, breaking apart the legacy monolith, figuring out what the domain entities are and who should own them, etc.---a natural next step for me was to take another look at Domain-Driven Design.
+
+** Strategic Design
+
+Vlad Khononov's /Learning Domain-Driven Design/ is a modern alternative to the classic Eric Evan's blue book[fn:1].
+
+** Tactical Design, Application
+
+** Relationships
+
+** Notes
+[fn:1] I wasn't up for 500 pages from 20 years ago.
