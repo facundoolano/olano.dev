@@ -6,6 +6,7 @@ lang: en
 tags: [software, books, tldr]
 refs: [ddd]
 draft: true
+excerpt: all that glitters is not Enterprise JavaBeans
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
@@ -18,12 +19,12 @@ draft: true
 
 ** Background
 
-Early in my career, when I was working at a Java shop, there was a lot of buzz about /enterprise applications/. You would use Java /Enterprise/ Edition to apply Patterns of /Enterprise/ Architecture, implemented through /Enterprise/ Java Beans. It all sounded like shallow marketing, another room in the Java echo chamber. To me they were all just applications, it wasn't clear what made some /enterprise/ or why
-following that specific set of ceremonies was supposed to yield better solutions to their problems.
+Early in my career, when I was working at a Java shop, there was a lot of buzz about /enterprise applications/. You would use Java /Enterprise/ Edition to apply Patterns of /Enterprise/ Architecture, implemented through /Enterprise/ Java Beans. It wasn't clear to me what made some applications more /enterprise/ than others, or why following a specific set of ceremonies was supposed to yield more adequate solutions to their problems. I tended to dismiss these programming concepts that seemed to exist exclusively inside the Java +echo chamber+ ecosystem.
 
-Later on, I moved away from that Java shop and from Java in general, and worked with different languages in user-facing web apps, media publishing, ad tech, crypto and AI startups. (Which, read like that, kind of explains why I ended up needing a career break). Last year I took what I would call a less pretentious, more [[https://boringtechnology.club/][technologically boring]] job in the healthcare sector. The challenge in this company comes not from scale or growth or sophisticated tools but from the complexity of the domain, and the need to design an organization, and consequentially a software architecture, that automates and eventually simplifies its business processes.
 
-This shift in focus is why I went back to the basics and been reading and writing about [[software-design-is-knowledge-building][knowledge building]] and [[unit-testing-principles/][testing-as-design]]. It was through that /Unit Testing/ book that I finally came to terms with the /enterprise application/ concept:
+I shortly moved away from that Java shop and from Java programming in general to work with other languages on user-facing web apps, media publishing, ad tech, crypto, and AI startups[fn:1]. Last year I took what I would call a less pretentious, more [[https://boringtechnology.club/][technologically boring]] job in the healthcare sector. The challenge in this new company comes not from scale or growth or sophisticated tools but from the complexity of the domain---from the need to design an organization, and consequentially a software architecture, that automates and eventually simplifies its business processes.
+
+This shift in focus is why I went back to the basics and have been reading about [[software-design-is-knowledge-building][knowledge building]] and [[unit-testing-principles/][testing-as-design]]. It was through that /Unit Testing/ book that I finally came to terms with the /enterprise application/ concept:
 
 #+begin_quote
 An enterprise application is an application that aims at automating or assisting an organization’s inner processes. It can take many forms, but usually the characteristics of an enterprise software are
@@ -33,11 +34,15 @@ An enterprise application is an application that aims at automating or assisting
 -  Low or moderate performance requirements
 #+end_quote
 
-This sounds like a pretty accurate description of what my current job is about. Given the kind of challenges I face---discovering what the business processes are, reconciliating naming conflicts, breaking apart the legacy monolith, figuring out what the domain entities are and who should own them, etc.---a natural next step for me was to take another look at Domain-Driven Design.
+This sounded like a pretty accurate description of what I work on at my current job,
+especially when contrasted with what I did before. Given the kind of challenges I currently face---fleshing out business processes, reconciliating terminology, breaking apart the legacy monolith, figuring out what the domain entities are and who should own them, etc.---a natural next step for me was to take another look at Domain-Driven Design.
+
+[fn:1] Which, read like that, kind of explains why I ended up needing a career break
+
 
 ** Strategic Design
 
-Vlad Khononov's /Learning Domain-Driven Design/ is a modern alternative to the classic Eric Evan's blue book. It summarizes and updates the same ideas, and finally connects them to modern techniques like microservices, event-driven architectures, and data mesh. The first part, /Strategic Design/, the most useful for my purposes, covers the core DDD concepts.
+I picked up Vlad Khononov's /Learning Domain-Driven Design/ as a modern alternative to the classic Eric Evan's blue book. It summarizes and updates the same ideas, and finally relates them to newer techniques like microservices, event-driven architecture, and data mesh. The first part, /Strategic Design/, covering the core DDD concepts, was the most useful for my purposes.
 
 *** Definitions
 - domain
@@ -96,4 +101,4 @@ There is much more to the subject of complexity than simply attempting to minimi
 #+end_quote
 
 - the treatment is similar to this earlier blog post, although I prefer the one in the book.
-- this chapter convinced me that the author is onto something, and I found out that he recently published a more principled book on software design. So while I didn't totally like his /Learning Domain-Driven Design/, I'll definitely be checking that one out.
+- /Learning Domain-Driven Design/ worked well as a refresher of the DDD core concepts and to familiarize with a few techniques I'd only knew by name. <I didn't get quite as much as I was expecting in terms of applicability to my day to day job, but the last few chapters convinced me that the author is onto something. I found out that he recently published a more principled book on software design, so I'll definitely be checking that one out.
