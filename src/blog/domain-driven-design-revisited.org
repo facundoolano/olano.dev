@@ -22,7 +22,7 @@ excerpt: all that glitters is not Enterprise JavaBeans
 
 Early in my career, when I was working at a Java shop, there was a lot of buzz about /enterprise applications/. You would use Java /Enterprise/ Edition to apply Patterns of /Enterprise/ Architecture, implemented through /Enterprise/ Java Beans. It wasn't clear to me what made some applications more /enterprise/ than others, or why following a specific set of ceremonies was supposed to yield more adequate solutions to their problems. I tended to dismiss these programming concepts that seemed to exist exclusively inside the Java +echo chamber+ ecosystem.
 
-I shortly moved away from that Java shop and from Java programming in general to work with other languages on a few web apps, a media outlet, an MTG online community, a SaaS provider, an ad tech company, a crypto startup, then an AI one[fn:1]. Last year I took what I would call a less pretentious, more [[https://boringtechnology.club/][technologically boring]] job in the healthcare sector. The challenge in this new company comes not from scale or growth or sophisticated tools but from the complexity of the domain---from the need to design an organization, and consequentially a software architecture, that automates and eventually simplifies its business processes.
+I shortly moved away from that Java shop and from Java programming in general to work with other languages on a few web apps, a media outlet, an MTG online community, a SaaS provider, an ad tech company, a crypto startup, and then an AI one[fn:1]. Last year I took what I would call a less pretentious, more [[https://boringtechnology.club/][technologically boring]] job in the healthcare sector. The challenge in this new company comes not from scale or growth or sophisticated tools but from the complexity of the domain---from the need to design an organization, and consequentially a software architecture, that automates and eventually simplifies its business processes.
 
 This shift in focus is why I went back to the basics and have been reading about [[software-design-is-knowledge-building][knowledge building]] and [[unit-testing-principles/][testing-as-design]]. It was through that /Unit Testing/ book that I finally came to terms with the /enterprise application/ concept:
 
@@ -89,19 +89,23 @@ I picked up Vlad Khononov's /Learning Domain-Driven Design/ as a modern alternat
 
 1. I find the distinction of core, generic, and supporting subdomains useful to build heuristics for technical decision making, e.g. to decide where it's worth investing[fn:2]: if you're investing in sophisticated software development outside your core subdomain, you're probably doing it wrong. And if you don't know what your core subdomain is then you are in trouble!
 
-2. I wholeheartedly sympathize with the pursuit of an ubiquitous language. I find it impossible to build a mental model of the business while juggling with synonyms and conflicting definitions.
+2. I wholeheartedly sympathize with the pursuit of an ubiquitous language. <Nothing adds more friction to software development than having to stop and think during discussions because you don't know what a word means, or don't know what's the best work to convey a specific concept <to> a particular audience>. It feels like group decision making with short term memory loss. If you don't build language you can't build knowledge, and if you don't build knowledge you can't build software.
 
-3. Since subdomains and domain experts will necessarily need slightly different views and terminology, I see the value in the notion of the bounded context to ensure internal consistency.
+3. Trying to push an universal domain model across a large company tends to fail like Esperanto
+   <even if there is a world where such model exist, trying to jump to it is like rewrite from scratch, it's more realistic to work with what you have, improve iteratively, and knowing when to stop.
+   <you need to learn to live with imperfection
+   in that context, bounded contexts are an obvious advantage, is how you draw the line to keep things realistic
+<Since subdomains and domain experts will necessarily need slightly different views and terminology, I see the value in the notion of the bounded context to ensure internal consistency.
 
-That being said, I find big challenges in trying to carry out the strategic design techniques in real world settings:
-   - it places too much expectations on domain experts to articulate their business knowledge and to provide, directly or indirectly, the requirements of the software.
-   - much like traditional Agile methodologies, it assumes fluid communication between the development team and the software users. <But companies tend to put intermediaries (product owners or software analysts) in between[fn:3]. it's hard to carry the intention to build bounded context through these intermediaries.
+- it places too much expectations on domain experts to articulate their business knowledge and to provide, directly or indirectly, the requirements of the software.
+
+<Beyond the co-creation of a shared language, I believe the best outcomes stem from a feedback loop between domain experts and software designers: designers should be constantly incorporating business knowledge from the experts, but also, [[a-note-on-essential-complexity][ideally]], become catalysts for change, e.g. not just capturing domain processes and rules but discovering opportunities to simplify them.
+
+- much like traditional Agile methodologies, it assumes fluid communication between the development team and the software users. <But companies tend to put intermediaries (product owners or software analysts) in between[fn:3]. it's hard to carry the intention to build bounded context through these intermediaries.
 
 Some of these challenges are mentioned in the book, but without offering satisfying solutions, perhaps because those depend on organizational direction more than on the software design process. <In my experience, the default is for stakeholders to lack the incentives and the involvement in the software development process to make DDD successful. I can only imagine two scenarios to apply the methodology in practice:
   - The company direction is already sold on DDD and can mandate the domain experts to collaborate: the organizational the supports this development strategy /by design/.
   - The software designers are on their own, and need to do what the book calls /undercover DDD/. In this case, they can leverage the software itself as a tool to favor DDD. <For instance, instead of trying to convincing stakeholders to adopt a consistent domain language, promote it by using it in software that stakeholders are already compelled to adopt for the capabilities it offer.
-
-Beyond the co-creation of a shared language, I believe the best outcomes stem from a feedback loop between domain experts and software designers: designers should be constantly incorporating business knowledge from the experts, but also, [[a-note-on-essential-complexity][ideally]], become catalysts for change, e.g. not just capturing domain processes and rules but discovering opportunities to simplify them.
 
 ** Applying DDD
 - my least favorite part of the book is where it describes tactical design
@@ -121,7 +125,7 @@ Beyond the co-creation of a shared language, I believe the best outcomes stem fr
 As an example, the book discusses low level data modeling patterns like Transaction Script, Active Record, and Domain Model.
 - any real world project that I've worked on professionally had a recommended, standardized stack: e.g. the data managed by Django, Rails, SqlAlchemy, etc. So I'm much less interested in seeing implementation details of a domain model or active record, than in seeing what are the principles behind using one or another, so I can try to bend my available tools to get some of those benefits, without having to sell a tech stack change /in addition/ to selling the domain-driven design model.
 
-** Relationships With Other Models
+** Other models and further reading
 
 The book starts to pick up again by the end of Part III when it tackles evolving design decisions and how to implement DDD in "brownfield" projects.
   - TODO review topics: eg. how to sell DDD or how to do it undercover, or to partially.
