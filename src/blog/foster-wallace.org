@@ -1,0 +1,88 @@
+---
+title: En realidad quería hablar de Foster Wallace
+date: 2025-05-31 10:26:31
+layout: post
+lang: es
+tags: [literatura, memorias]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+18/4. Retomo esta libretita claustrofóbica porque al cuaderno que venía usando le quedan dos páginas y me vine de viaje a la costa y no tenía sentido traer ese cuaderno inconcluso ni traer uno totalmente nuevo, ni mucho menos los dos. Y menos que menos volver a ese otro cuaderno, el cuaderno japonés <B2> de mi /Diario de la Separación/, que quedó trunco tras El Episodio[fn:1].
+
+Retomo, entonces, esta libreta, específicamente para consignar dos o tres ideas sobre lo que estoy leyendo, y no para usarla, como hacía antes, como diario. Porque tomé hace un tiempo la decisión de salir de ese círculo vicioso, de ese solipsismo autoficcional que siempre redunda en hablar de lo que hay adentro de la cabeza en vez de lo que hay afuera. Porque lo que hay adentro de la cabeza es, casi siempre, día tras día, alarmantemente lo mismo. Y porque lo único peor que alguien escribiendo /sobre sí mismo/ es alguien escribiendo /sobre sí mismo escribiendo/, con la excepción, claro está, de alguien escribiendo en un cuaderno /sobre sí mismo escribiendo en ese cuaderno/[fn:11].
+
+Así que basta de escribir sobre mí ---empezando... ya.
+
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
+
+Como la idea es no hablar de mí, puedo resumir un poco[fn:10], como dice Calamaro, y pasar directamente a que me encuentro en Mar de las Pampas, leyendo /Algo supuestamente divertido que nunca volveré a hacer/, maravillado específicamente con los ensayos sobre tenis, al punto que me dieron ganas de anotar algunas cosas, y así es como volví a la libretita claustrofóbica.
+
+
+todos los ensayos de DFW entran en esa categoría "quién hubiera dicho que podría interesarme leer sobre esto"
+en todos transpira la brillantez del autor pero casi siempre es un constante poner a prueba la paciencia
+
+pero hay algo con los de tenis que me los hizo fascinantes
+hay algo en mi
+hay algo en el tenis como tema literario
+y hay algo en DFW hablando sobre tenis
+
+pienso que bien me vendría la existencia de un libro de ensayos de DFW en el que solo hablara de tenis. Y me acuerdo haber visto un librito /El tenis como experiencia religiosa/ que podría haber sido eso, pero en realidad es una de esas estafas editoriales, dos ensayos de 15 y 60 páginas estirados a 120. Pero también descubro, buceando un poco, que sí existe, en inglés, ese libro que imaginaba.
+
+hay algo en mi, pero como la idea es no ahondar en el tema me apresuro a aclarar que yo nunca agarré una raqueta ni fui a un partido de tenis pero si que miraba mucho por la tele en la época de la legión argentina, que fui hincha de algunos de esos tenistas
+
+hay algo en el tenis. pienso (y me agarro de algunas cosas que escribe DFW) que hay algo en el hecho de que los tenistas sean seres humanos absolutamente entregados a una única actividad, a su profesion, que haya un ranking, una medida incontrastable de cuanto valen en esa actividad, cuanta levantaron,
+hay algo muy yanqui en todo eso pero como estamos metidos en una cultura muy yanqui nos entra la balubi
+
+pero también hay algo en el hecho de que sea un deporte individual, solitario, que pasa largamente en la cabeza del jugador, que le da su atractivo narrativo
+
+¿Por qué, si me gusta menos el tenis que el fútbol, me fascina [[https://www.revistaanfibia.com/gaudio-coria-psicoanalisis-a-cielo-abierto/][lo que le pasa por la cabeza a Gaudio]] en la ola de París y no lo que le pasa a por la cabeza a Messi en Lusail? ¿Por qué, si nunca la vi jugar, [[https://archive.is/wMoEk][el arco narrativo de Gaby Sabatini]] me atrae más que el de Di María?
+
+
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
+
+# TODO ver donde engacha esto, quizas footnote
+Al final me bajé y leí el libro de entrevistas que había visto en Mar de las Pampas, y aunque empezó brillante [buscar alguna cita] e incluso clarificador de algunas de las lecturas anteriores---el entrevistador de alguna forma resultaba un dique de contención para DFW, que terminaba destilando brevemente algunas de las genialidades que en sus ensayos le demoraban 30 páginas de preparación, una especie de ensayitos fast food que seguramente al autor le parecería una manara espeluznante de acercarse a su obra---, terminé dándome cuenta que si bien en el pasado leí y disfruté libros de entrevistas e incluso libros de entrevistas a escritores, nunca había leído un libro de muchas entrevistas a un mismo escritor, a través de los años. Y el efecto termina siendo un poco resacoso, porque por muy creativos que se pongan los entrevistadores los preámbulos siempre se parecen un poco y crean un facsímil del personaje, de forma que la sensación es la de leer un resumen de la vida de DFW repetidamente, como si me preparara para dar un final. ¿Cuántas veces se puede leer que el autor estudió filosofía, <ahmerst>, y que su primera fue su tesis de doctorado, <que daba clases de escritura creativa en>, que se convirtió en celebridad con una novela de 1079 páginas, que su madre enseñaba inglés y que su padre fue alumno del último alumno de Wittgenstein? ¿de qué me sirve saber que su padre le leía el Ulises a su madre en la cama, y que DFW era adicto a la tele---antes de ser adicto a otras cosas---, que vivía con dos perros y usaba una bandana para taparle el sudor---.
+y en todos los casos, salvo en la nota final, saber que esos <facsímiles> tenían necesariamente que estar obviando algo, que no explicaban lo que sabemos por fuera del texto, que el autor sufría depresión crónica y se terminaba suicidando.
+
+<toda esa minucia biográfica en sí misma no sirve para nada, excepto, claro, cuando el propio autor la pone al servicio de su obra>
+
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
+
+fin hablando desde la propia experiencia[fn:9]
+
+
+
+*** Notas
+
+[fn:11] Adjunto retroactivamente una cita de Verlyn Klinkenborg:
+#+begin_quote
+/A personal journal in our time comes to seem less like a valuable cache of perceptions than a naive recitation of symptoms that the writer lacks the authority to analyze. Many of the great journals are marked by a dogged absence of self-consciousness, a willingness to suspend judgment of the journal itself, if not of its author, in order to keep the enterpreise going. The value is in the world they depict and only incidentally the depiction of their authors/.
+#+end_quote
+
+[fn:10] Si me fuera dado hablar de mí, podría empezar recapitulando mis experiencias previas con David Foster Wallace, por ejemplo podría ir a revisar el blog de Martín Zariello, donde estoy casi seguro que leí de él por primera vez[fn:2], podría decir que me interesé por primera vez en su obra después de ver su biopic[fn:8], hablar del libro de ensayos que me bajé y nunca tuve el coraje de empezar[fn:3] o del libro de cuentos que empecé y abandoné[fn:4], o contar que entró de nuevo en mi radar a raíz de un ensayo sobre David Lynch[fn:5] y porque casi al mismo tiempo asistí a un taller de ensayo en que era lectura obligatoria[fn:6].
+
+[fn:9] <me acuerdo que Zariello acostumbraba encajar un embed de youtoube al final de sus posts, al que nunca le daba play pero que igual me servían de alguna manera para imprimirle una determinada melodía, un eco, al final del texto. Y pienso que si tuviera que elegir uno para este tendría que ser la canción de Manal /Si no hablo de mí, ¿de quién voy a hablar?/
+
+[fn:8] <protagonizada por Marshall de /How I Met Your Mother/ y Mark Zuckerberg, la vi en un avión, no me acuerdo de qué viaje, si estaba solo o acompañado, pero sí me acuerdo de, o en todo caso integro a mi recuerdo, la pantallita en el respaldo de los asiento---esa pantallita ominosa que se multiplica al volver del baño---, las sobras de pollo-o-pasta apilados sobre la bandeja desplegable, los auriculares descartables en los que se escucha mejor el murmullo aéreo que el diálogo de la película, los popups anticlimáticos cada vez que el piloto hace un anuncio.
+
+[fn:6] <taller de tamara tenenbaum>. e unibus puram[fn:7]
+
+[fn:7] e unibus puram -> libro completo, intentos fallidos de terminarlo
+
+[fn:5] TODO del que [[ese-chicle][hablé antes]], que en ese momento no sabía que era uno más en la serie de trabajos cuasi periodísticos que revistas de lo más variadas le encargaban, que resultaban en sus típicos mamotretos, que las revistas tenían que recortar y de todas formas terminaban constituyendo los artículos más largos de las respectivas revistas, y que el autor después recopilaba en modo /Director's Cut/ en sus colecciones de ensayos, en toda su gloria verborrágica y rebosantes de sus distintivas notas al pie ---aunque esto recién lo llegaría a identificar en lecturas subsiguientes[fn:7].
+
+[fn:4] TODO /La niña del pelo raro/, demasiado largos, demasiado yanquis, el conductor de jeopardy! alex trebek, el vicepresidente lyndon johnson
+
+[fn:3] Me pareció que empezar por ensayos podría ser más accesible que la narrativa, considerando que la obra más recomendada es un mamotreto de 1000 páginas, pero resulta que sus ensayos también son, a su manera, pequeños mamotretos, y solo atravesándolos uno se da cuenta que el mamotretismo es un feature no un bug de la escritura de Foster Wallace, algo que no estaba equipado para resolver en aquel primer intento cuando me vi que el primer ensayo de /Hablemos de Langostas/ era sobre una convención de cine porno y duraba 50 páginas.
+
+[fn:2] TODO corvino [fn:9]
+
+[fn:1] El plan original era que la Separación durase por lo menos lo que me llevara completar el cuaderno y hasta me tome el trabajo de numerar las páginas, hasta el <66>. Pero llegué hasta el <33>.
