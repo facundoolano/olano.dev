@@ -37,7 +37,7 @@ An enterprise application is an application that aims at automating or assisting
 <This sounded like a pretty accurate description of what I work on at my current job,
 especially when contrasted with what I did before>. Given the kind of challenges I currently face---fleshing out business processes, reconciliating terminology, breaking apart the legacy monolith, figuring out what the domain entities are and who should own them, etc.---a natural next step for me was to take another look at Domain-Driven Design.
 
-** Strategic Design
+** Design
 
 I picked up Vlad Khononov's /Learning Domain-Driven Design/ as a modern alternative to the classic Eric Evan's blue book. It summarizes and updates the same ideas, and finally relates them to newer techniques like microservices, event-driven architecture, and data mesh. The first part, /Strategic Design/, covering the core DDD concepts, was the most useful for my purposes.
 
@@ -77,7 +77,7 @@ I picked up Vlad Khononov's /Learning Domain-Driven Design/ as a modern alternat
   - both are ways of decomposing a business domain.
   - Subdomains are /identified/ as part of the business domain analysis. They are a set of use cases that are discovered.
   - Bounded contexts are /designed/ to model the business as smaller, more manageable problem domains.
-- TODO Bounded context express different, internally-conflicting, views of the business domain, but they still need to interact to build useful systems. There are a few approaches the owning teams can take on the integration:
+- Bounded context express different, internally-conflicting, views of the business domain, but they still need to interact with each other to build useful systems. There are a few approaches the owning teams can take on the integration:
   - An ad hoc *partnership*, where changes are coordinated between the teams.
   - A *shared kernel*, where a subset of both bounded contexts is shared and kept consistent.
   - A *conformist* integration, when one of the bounded contexts (the consumer) inherits the <terminology> of the other (the supplier).
@@ -87,27 +87,25 @@ I picked up Vlad Khononov's /Learning Domain-Driven Design/ as a modern alternat
 
 *** Commentary
 
-1. I find the distinction of core, generic, and supporting subdomains useful to build heuristics for technical decision making, e.g. to decide where it's worth investing[fn:2]: if you're investing in sophisticated software development outside your core subdomain, you're probably doing it wrong. And if you don't know what your core subdomain is then you are in trouble!
+1. I find the distinction of core, generic, and supporting subdomains useful to build heuristics for technical decision making, e.g. to decide where it's worth investing[fn:2]: if you're investing in sophisticated software development outside your core subdomain, you're probably doing it wrong. And if you don't know what your core subdomain is, then you are in trouble!
 
-2. I wholeheartedly sympathize with the pursuit of an ubiquitous language. <Nothing adds more friction to software development than having to stop and think during discussions because you don't know what a word means, or don't know what's the best work to convey a specific concept <to> a particular audience>. It feels like group decision making with short term memory loss. If you don't build language you can't build knowledge, and if you don't build knowledge you can't build software.
+2. I wholeheartedly sympathize with the pursuit of an ubiquitous language. Having to stop and think because you don't know what a word means or how to best convey a specific concept to a particular audience adds a fatal amount. Domain modeling in those conditions is like working on a team where everyone has short-term memory loss. If you don't build language you can't build knowledge, and if you don't build knowledge you can't build software.
 
-3. Trying to push an universal domain model across a large company tends to fail like Esperanto
-   <even if there is a world where such model exist, trying to jump to it is like rewrite from scratch, it's more realistic to work with what you have, improve iteratively, and knowing when to stop.
-   <you need to learn to live with imperfection
-   in that context, bounded contexts are an obvious advantage, is how you draw the line to keep things realistic
-<Since subdomains and domain experts will necessarily need slightly different views and terminology, I see the value in the notion of the bounded context to ensure internal consistency.
+3. Trying to push an universal domain model across a large company tends to fail like Esperanto. Even if such universal model was possible, trying to jump directly into it is like the infamous software rewrite from scratch. It's more realistic to start from where you are at, improving iteratively, knowing what good enough looks like, and when it's better to stop modeling---tolerating imperfection. The bounded context is a great tool for that, it's how you reconcile conflicting domain views and terminology, enabling useful and internally consistent (maintainable) software.
 
-- it places too much expectations on domain experts to articulate their business knowledge and to provide, directly or indirectly, the requirements of the software.
+4. <Beyond the co-creation of a shared language, I believe the best outcomes stem from a feedback loop between domain experts and software designers: designers should be constantly incorporating business knowledge from the experts, but also, [[a-note-on-essential-complexity][ideally]], become catalysts for change, e.g. not just capturing domain processes and rules but discovering opportunities to simplify them.
 
-<Beyond the co-creation of a shared language, I believe the best outcomes stem from a feedback loop between domain experts and software designers: designers should be constantly incorporating business knowledge from the experts, but also, [[a-note-on-essential-complexity][ideally]], become catalysts for change, e.g. not just capturing domain processes and rules but discovering opportunities to simplify them.
+5. <it requires a lot of collaboration from domain experts: a tight collaboration with software designers to articulate and transfer domain knowledge, and to co-create an ubiquitous language.
+  this is a potential weakness of the methodology because most real-world organization are not set up for this type of collaboration
+  - companies tend to put intermediaries (product owners or software analysts) in between[fn:3].
+  - lack an incentive to spend time on the software and to change their current language
 
-- much like traditional Agile methodologies, it assumes fluid communication between the development team and the software users. <But companies tend to put intermediaries (product owners or software analysts) in between[fn:3]. it's hard to carry the intention to build bounded context through these intermediaries.
-
-Some of these challenges are mentioned in the book, but without offering satisfying solutions, perhaps because those depend on organizational direction more than on the software design process. <In my experience, the default is for stakeholders to lack the incentives and the involvement in the software development process to make DDD successful. I can only imagine two scenarios to apply the methodology in practice:
+6. Some of the challenges are acknowledged in the book, but without offering satisfying solutions, perhaps because they involve organizational rather than software design. <The two ways I see this work in practice are:
   - The company direction is already sold on DDD and can mandate the domain experts to collaborate: the organizational the supports this development strategy /by design/.
-  - The software designers are on their own, and need to do what the book calls /undercover DDD/. In this case, they can leverage the software itself as a tool to favor DDD. <For instance, instead of trying to convincing stakeholders to adopt a consistent domain language, promote it by using it in software that stakeholders are already compelled to adopt for the capabilities it offer.
+  - The software designers are on their own, and need to do what the book calls /undercover DDD/. In this case, they can leverage the software itself as a tool to favor DDD.
+    using the ubiquitous language as example, designers can either chose to adopt terminology from experts as is, or push for consistency by changing it through the software they build (possibly at the expense of domain effectiveness).
 
-** Applying DDD
+** Development
 - my least favorite part of the book is where it describes tactical design
 - I found it too prescriptive, too pattern-y, perhaps too indebted to the original applications of the DDD ideas that, coupled with some of the patterns for Enteprise architectures described in Martin Fowler's book.
 
@@ -125,7 +123,7 @@ Some of these challenges are mentioned in the book, but without offering satisfy
 As an example, the book discusses low level data modeling patterns like Transaction Script, Active Record, and Domain Model.
 - any real world project that I've worked on professionally had a recommended, standardized stack: e.g. the data managed by Django, Rails, SqlAlchemy, etc. So I'm much less interested in seeing implementation details of a domain model or active record, than in seeing what are the principles behind using one or another, so I can try to bend my available tools to get some of those benefits, without having to sell a tech stack change /in addition/ to selling the domain-driven design model.
 
-** Other models and further reading
+** Deployment
 
 The book starts to pick up again by the end of Part III when it tackles evolving design decisions and how to implement DDD in "brownfield" projects.
   - TODO review topics: eg. how to sell DDD or how to do it undercover, or to partially.
@@ -144,5 +142,5 @@ There is much more to the subject of complexity than simply attempting to minimi
 
 *** Notes
 [fn:1] Which, read like that, kind of explains why I ended up needing a career break.
-[fn:2] This is similar to the "innovation tokens" idea from /Choose Boring Tech/.
+[fn:2] This is similar to the [[https://mcfunley.com/choose-boring-technology][innovation tokens]] concept.
 [fn:3] Understandably: more often than not, engineers are unwilling or unprepared to talk in non technical terms; more often than not, business people lack the patience of the time to deal with engineers.
