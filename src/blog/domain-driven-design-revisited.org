@@ -24,7 +24,7 @@ Early in my career, when I was working at a Java shop, there was a lot of buzz a
 
 I shortly moved away from that Java shop and from Java programming in general to work with other languages on a few web apps, a media outlet, an MTG online community, a SaaS provider, an ad tech company, a crypto startup, and then an AI one[fn:1]. Last year I took what I would call a less pretentious, more [[https://boringtechnology.club/][technologically boring]] job in the healthcare sector. The challenge in this new company comes not from scale or growth or sophisticated tools but from the complexity of the domain---from the need to design an organization, and consequentially a software architecture, that automates and eventually simplifies its business processes.
 
-This shift in focus is why I went back to the basics and have been reading about [[software-design-is-knowledge-building][knowledge building]] and [[unit-testing-principles/][testing-as-design]]. It was through that /Unit Testing/ book that I finally came to terms with the /enterprise application/ concept:
+This shift in focus is why I went back to the basics and have been reading about [[software-design-is-knowledge-building][knowledge building]] and [[unit-testing-principles/][testing-as-design]]. It was through the /Unit Testing/ book that I finally came to terms with the /enterprise application/ concept:
 
 #+begin_quote
 An enterprise application is an application that aims at automating or assisting an organization’s inner processes. It can take many forms, but usually the characteristics of an enterprise software are
@@ -34,14 +34,14 @@ An enterprise application is an application that aims at automating or assisting
 -  Low or moderate performance requirements
 #+end_quote
 
-This sounded like a pretty accurate description of what I work on at my current job,
-especially when contrasted with what I did before. Given the kind of challenges I currently face---fleshing out business processes, reconciliating terminology, breaking apart the legacy monolith, figuring out what the domain entities are and who should own them, etc.---a natural next step for me was to take another look at Domain-Driven Design.
+<This sounded like a pretty accurate description of what I work on at my current job,
+especially when contrasted with what I did before>. Given the kind of challenges I currently face---fleshing out business processes, reconciliating terminology, breaking apart the legacy monolith, figuring out what the domain entities are and who should own them, etc.---a natural next step for me was to take another look at Domain-Driven Design.
 
 ** Strategic Design
 
 I picked up Vlad Khononov's /Learning Domain-Driven Design/ as a modern alternative to the classic Eric Evan's blue book. It summarizes and updates the same ideas, and finally relates them to newer techniques like microservices, event-driven architecture, and data mesh. The first part, /Strategic Design/, covering the core DDD concepts, was the most useful for my purposes.
 
-*** Definitions
+*** Summary
 
 - A *business domain* defines a company’s main area of activity, the service the company provides to its customers. A company can operate on multiple domains or change them over time.
 - A *subdomain* is a fine-grained area of business activity. All of a company’s subdomains form its business domain. From a technical perspective, subdomains resemble sets of interrelated, coherent use cases. Such sets of use cases usually involve the same actor, the business entities, and they all manipulate a closely related set of data. Domain-driven design distinguishes between three types of subdomains:
@@ -77,13 +77,13 @@ I picked up Vlad Khononov's /Learning Domain-Driven Design/ as a modern alternat
   - both are ways of decomposing a business domain.
   - Subdomains are /identified/ as part of the business domain analysis. They are a set of use cases that are discovered.
   - Bounded contexts are /designed/ to model the business as smaller, more manageable problem domains.
-- TODO bounded context integration patterns:
-  - partnership
-  - shared kernel
-  - conformist
-  - anti corruption layer
-  - open host service
-  - separate ways
+- TODO Bounded context express different, internally-conflicting, views of the business domain, but they still need to interact to build useful systems. There are a few approaches the owning teams can take on the integration:
+  - An ad hoc *partnership*, where changes are coordinated between the teams.
+  - A *shared kernel*, where a subset of both bounded contexts is shared and kept consistent.
+  - A *conformist* integration, when one of the bounded contexts (the consumer) inherits the <terminology> of the other (the supplier).
+  - *anti corruption layer*, where the consumer context adjusts to the supplier <terminology> through a separate translation layer, to "protect itself" from upstream changes.
+  - *open host service* where its the upstream bounded context that exposes a public interface to protect its consumers from internal changes.
+  - *separate ways*, where it's considered cheaper to duplicate logic and definitions to avoid the integration entirely.
 
 *** Commentary
 
