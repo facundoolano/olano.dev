@@ -19,13 +19,32 @@ Así que basta de escribir sobre mí ---empezando... ya.
 \lowast{}
 #+END_CENTER
 
-Como la idea es no hablar de mí, puedo resumir un poco[fn:10], como dice Calamaro, y pasar directamente a que me encuentro en Mar de las Pampas, leyendo /Algo supuestamente divertido que nunca volveré a hacer/, maravillado específicamente con los ensayos sobre tenis, al punto que me dieron ganas de anotar algunas cosas, y así es como volví a la libretita claustrofóbica.
+Como la idea es no hablar de mí puedo, como dice Calamaro, resumir un poco[fn:10], y pasar directamente a que me encuentro en Mar de las Pampas, leyendo /Algo supuestamente divertido que nunca volveré a hacer/, maravillado específicamente con los ensayos sobre tenis, al punto que me dieron ganas de anotar algunas cosas, y así es como volví a la libretita claustrofóbica.
 
+(Si me fuera dado hablar de mí, empezaría recapitulando mis experiencias previas con David Foster Wallace, por ejemplo podría ir a revisar el blog de Martín Zariello, donde estoy casi seguro que leí de él por primera vez[fn:2], podría decir que me interesé en su obra después de ver su biopic durante un viaje en avión[fn:8], o hablar del libro de ensayos que me bajé y nunca tuve el coraje de empezar[fn:3] o del libro de cuentos que empecé y abandoné[fn:4], o contar que entró de nuevo en mi radar a raíz de un ensayo sobre David Lynch[fn:5] y porque casi al mismo tiempo asistí a un taller de ensayo en que era lectura obligatoria /E unibus puram/ [fn:6]).
 
-todos los ensayos de DFW entran en esa categoría "quién hubiera dicho que podría interesarme leer sobre esto"
-en todos transpira la brillantez del autor pero casi siempre es un constante poner a prueba la paciencia
+e unibus puram -> me llevo muchos intentos terminarlo -> inlcuido el que llevó al episodio y el de despues
+ensayo brillante pero (citando a Zariello hablando sobre Saer) inabordable
 
-pero hay algo con los de tenis que me los hizo fascinantes
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
+
+en el viaje decidí empezar por el principio, y me sorprendió
+
+la rural
+con un poco de practica me fui dando cuenta muchos de los ensayos de DFW entran en esa categoría "quién hubiera dicho que podría interesarme leer sobre esto" en todos transpira la brillantez del autor pero casi siempre es un constante poner a prueba la paciencia
+mas bien cronicas
+
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
+
+leo el de michael joyce y me fascina
+es tambien un reporteo pero por alguna razon el tema lo eleva para mi
+y se retroalimenta con el primero del libro, que hasta ahora era mi favorito
+
+hay algo con los de tenis que me los hace fascinantes
 hay algo en mi
 hay algo en el tenis como tema literario
 y hay algo en DFW hablando sobre tenis
@@ -39,8 +58,24 @@ hay algo muy yanqui en todo eso pero como estamos metidos en una cultura muy yan
 
 pero también hay algo en el hecho de que sea un deporte individual, solitario, que pasa largamente en la cabeza del jugador, que le da su atractivo narrativo
 
-¿Por qué, si me gusta menos el tenis que el fútbol, me fascina [[https://www.revistaanfibia.com/gaudio-coria-psicoanalisis-a-cielo-abierto/][lo que le pasa por la cabeza a Gaudio]] en la ola de París y no lo que le pasa a por la cabeza a Messi en Lusail? ¿Por qué, si nunca la vi jugar, [[https://archive.is/wMoEk][el arco narrativo de Gaby Sabatini]] me atrae más que el de Di María?
+¿Por qué, si me gusta menos el tenis que el fútbol, me fascina [[https://www.revistaanfibia.com/gaudio-coria-psicoanalisis-a-cielo-abierto/][lo que le pasa por la cabeza a Gaudio]][fn:12] en la ola de París y no lo que le pasa a por la cabeza a Messi en Lusail? ¿Por qué, si nunca la vi jugar, [[https://archive.is/wMoEk][el arco narrativo de Gaby Sabatini]] me atrae más que el de Di María?
 
+
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
+
+(vuelta en micro)
+algo supuestamente divertido -> pienso que el crucero que describe se parece a viajar en avion, así como pensé que viajar en avión se parece a estar internado
+
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
+
+me bajo y leo continuación el tenis sobre experiencia religiosa
+esos dos ensayos están de nuevo entre los que más me gustan
+aunque sigo prefiriendo los primeros dos
+acaso porque al amateurismo vivido desde adentro ofrece mucha más riqueza que lo apolíneo de ver al mejor Federer ganarle wimbledon a Nadal
 
 #+BEGIN_CENTER
 \lowast{}
@@ -61,17 +96,16 @@ fin hablando desde la propia experiencia[fn:9]
 
 
 *** Notas
+[fn:12] TODO FW habla de la necesaria estabilidad emocional  para llegar a tenista profesional, y yo pienso que no conocía todavía a los tenistas argentinos de la década siguiente
 
 [fn:11] Adjunto retroactivamente una cita de Verlyn Klinkenborg:
 #+begin_quote
 /A personal journal in our time comes to seem less like a valuable cache of perceptions than a naive recitation of symptoms that the writer lacks the authority to analyze. Many of the great journals are marked by a dogged absence of self-consciousness, a willingness to suspend judgment of the journal itself, if not of its author, in order to keep the enterpreise going. The value is in the world they depict and only incidentally the depiction of their authors/.
 #+end_quote
 
-[fn:10] Si me fuera dado hablar de mí, podría empezar recapitulando mis experiencias previas con David Foster Wallace, por ejemplo podría ir a revisar el blog de Martín Zariello, donde estoy casi seguro que leí de él por primera vez[fn:2], podría decir que me interesé por primera vez en su obra después de ver su biopic[fn:8], hablar del libro de ensayos que me bajé y nunca tuve el coraje de empezar[fn:3] o del libro de cuentos que empecé y abandoné[fn:4], o contar que entró de nuevo en mi radar a raíz de un ensayo sobre David Lynch[fn:5] y porque casi al mismo tiempo asistí a un taller de ensayo en que era lectura obligatoria[fn:6].
-
 [fn:9] <me acuerdo que Zariello acostumbraba encajar un embed de youtoube al final de sus posts, al que nunca le daba play pero que igual me servían de alguna manera para imprimirle una determinada melodía, un eco, al final del texto. Y pienso que si tuviera que elegir uno para este tendría que ser la canción de Manal /Si no hablo de mí, ¿de quién voy a hablar?/
 
-[fn:8] <protagonizada por Marshall de /How I Met Your Mother/ y Mark Zuckerberg, la vi en un avión, no me acuerdo de qué viaje, si estaba solo o acompañado, pero sí me acuerdo de, o en todo caso integro a mi recuerdo, la pantallita en el respaldo de los asiento---esa pantallita ominosa que se multiplica al volver del baño---, las sobras de pollo-o-pasta apilados sobre la bandeja desplegable, los auriculares descartables en los que se escucha mejor el murmullo aéreo que el diálogo de la película, los popups anticlimáticos cada vez que el piloto hace un anuncio.
+[fn:8] <protagonizada por Marshall de /How I Met Your Mother/ y Mark Zuckerberg, no me acuerdo en qué viaje la vi, si estaba solo o acompañado, pero sí me acuerdo de, o en todo caso integro a mi recuerdo, la pantallita en el respaldo de los asiento---esa pantallita ominosa que se multiplica al volver del baño---, las sobras de pollo-o-pasta apilados sobre la bandeja desplegable, los auriculares descartables en los que se escucha mejor el murmullo aéreo que el diálogo de la película, los popups anticlimáticos cada vez que el piloto hace un anuncio.
 
 [fn:6] <taller de tamara tenenbaum>. e unibus puram[fn:7]
 
