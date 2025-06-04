@@ -20,11 +20,12 @@ excerpt: all that glitters is not Enterprise JavaBeans
 
 ** Background
 
-Early in my career, when I was working at a Java shop, there was a lot of buzz about /enterprise applications/. You would use Java /Enterprise/ Edition to apply Patterns of /Enterprise/ Architecture, implemented through /Enterprise/ Java Beans. It wasn't clear to me what made some applications more /enterprise/ than others, or why following a specific set of ceremonies was supposed to yield more adequate solutions to their problems. I tended to dismiss these programming concepts that seemed to exist exclusively inside the Java +echo chamber+ ecosystem.
+I started my career at a Java shop. There was a lot of buzz there about /enterprise applications/. You would use Java /Enterprise/ Edition to apply Patterns of /Enterprise/ Architecture, implemented through /Enterprise/ Java Beans. It wasn't clear to me what made some applications more /enterprise/ than others, or why following a specific set of ceremonies was supposed to yield more adequate solutions to their problems.
+I found it suspicious that these programming concepts seemed to exist exclusively inside the Java +echo chamber+ ecosystem.
 
-I shortly moved away from that Java shop and from Java programming in general to work with other languages on a few web apps, a media outlet, an MTG online community, a SaaS provider, an ad tech company, a crypto startup, and then an AI one[fn:1]. Last year I took what I would call a less pretentious, more [[https://boringtechnology.club/][technologically boring]] job in the healthcare sector. The challenge in this new company comes not from scale or growth or sophisticated tools but from the complexity of the domain---from the need to design an organization, and consequentially a software architecture, that automates and eventually simplifies its business processes.
+I shortly moved away from that Java shop and from Java programming in general, and /enterprise/ recovered its place as an unremarkable English noun with mild trekkie undertones. I worked subsequently on consumer web apps, a media outlet, an MTG online community, a SaaS provider, an ad tech company, a crypto startup, then an AI one. (Which, read like that, kind of explains why I ended up needing a career break).
 
-This shift in focus is why I went back to the basics and have been reading about [[software-design-is-knowledge-building][knowledge building]] and [[unit-testing-principles/][testing-as-design]]. It was through the /Unit Testing/ book that I finally came to terms with the /enterprise application/ concept:
+Last year I took what I would call a less pretentious, more [[https://boringtechnology.club/][technologically boring]] job in the healthcare sector. The challenge in this new company comes not from scale or growth or sophisticated tools but from the complexity of the domain---from the need to design an organization, and consequentially a software architecture, that automates and eventually simplifies its business processes. This shift in focus made me want to go back to the basics, and so I have been reading and writing about [[software-design-is-knowledge-building][knowledge building]] and [[unit-testing-principles/][testing-as-design]]. It was through the /Unit Testing/ book from that last post that I finally came to terms with the /enterprise application/ concept:
 
 #+begin_quote
 An enterprise application is an application that aims at automating or assisting an organization’s inner processes. It can take many forms, but usually the characteristics of an enterprise software are
@@ -34,8 +35,8 @@ An enterprise application is an application that aims at automating or assisting
 -  Low or moderate performance requirements
 #+end_quote
 
-<This sounded like a pretty accurate description of what I work on at my current job,
-especially when contrasted with what I did before>. Given the kind of challenges I currently face---fleshing out business processes, reconciliating terminology, breaking apart the legacy monolith, figuring out what the domain entities are and who should own them, etc.---a natural next step for me was to take another look at Domain-Driven Design.
+This is a pretty accurate description of what I work on now, and how it differs from what I worked on before.
+Given the kind of challenges I currently face---fleshing out business processes, reconciliating terminology, breaking apart the legacy monolith, figuring out what the domain entities are and who should own them---a natural next step was to take another look at Domain-Driven Design.
 
 ** Summary
 
@@ -141,6 +142,5 @@ There is much more to the subject of complexity than simply attempting to minimi
 - /Learning Domain-Driven Design/ worked well as a refresher of the DDD core concepts and to familiarize with a few techniques I'd only knew by name. <I didn't get quite as much as I was expecting in terms of applicability to my day to day job, but the last few chapters convinced me that the author is onto something. I found out that he recently published a more principled book on software design, so I'll definitely be checking that one out.
 
 *** Notes
-[fn:1] Which, read like that, kind of explains why I ended up needing a career break.
 [fn:2] This is similar to the [[https://mcfunley.com/choose-boring-technology][innovation tokens]] concept.
 [fn:3] Understandably: more often than not, engineers are unwilling or unprepared to talk in non technical terms; more often than not, business people lack the patience of the time to deal with engineers.
