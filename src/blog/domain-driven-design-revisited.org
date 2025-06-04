@@ -100,10 +100,9 @@ I picked up Vlad Khononov's /Learning Domain-Driven Design/ as a modern alternat
   - companies tend to put intermediaries (product owners or software analysts) in between[fn:3].
   - lack an incentive to spend time on the software and to change their current language
 
-6. Some of the challenges are acknowledged in the book, but without offering satisfying solutions, perhaps because they involve organizational rather than software design. <The two ways I see this work in practice are:
+6. Some of the challenges are acknowledged in the book, but without offering satisfying solutions, perhaps because they involve organizational design and politics rather than software. <The two ways I see this work in practice are:
   - The company direction is already sold on DDD and can mandate the domain experts to collaborate: the organizational the supports this development strategy /by design/.
-  - The software designers are on their own, and need to do what the book calls /undercover DDD/. In this case, they can leverage the software itself as a tool to favor DDD.
-    using the ubiquitous language as example, designers can either chose to adopt terminology from experts as is, or push for consistency by changing it through the software they build (possibly at the expense of domain effectiveness).
+  - The software designers are on their own, and need to do what the book calls /undercover DDD/. In this case, they can leverage the software itself as a tool to favor DDD. Using the ubiquitous language as example, designers can either chose to adopt terminology from experts as is, or push for consistency by changing it through the software they build (at the risk of getting it wrong).
 
 ** Development
 - my least favorite part of the book is where it describes tactical design
@@ -126,8 +125,10 @@ As an example, the book discusses low level data modeling patterns like Transact
 ** Deployment
 
 The book starts to pick up again by the end of Part III when it tackles evolving design decisions and how to implement DDD in "brownfield" projects.
-  - TODO review topics: eg. how to sell DDD or how to do it undercover, or to partially.
-- I can't help but feel the ordering here is backwards. In 2025 (or, to be fair, 2021, when the book was published) I wish the literature would stop assuming greenfield projects by default.
+- It's telling that this topic is only addressed in a few pages of chapter 13. I can't help but feel this choice is backwards.
+  - In 2025 (or, to be fair, 2021, when the book was published) I wish the literature would stop assuming greenfield projects by default.
+  - again, at the end of the day, what makes or breaks DDD is not the application of specific programming techniques but the cultivation of an environment that favors knowledge transfer between business experts and software designers---letting the domain drive the design. There are no recipes for that, and it would hard to fill a programmer-oriented book on the topic.
+  - any business complex enough to warrant domain-specific software (that is, any /enterprise/) in 2025 will necessarily already exist in a jungle of overcomplicated legacy software. <Any useful software development methodlogy needs to be built around that assumption
   - maybe I'm looking for something like arch modernization
 
 - I unexpectedly found a lot of value in the last few chapters, when the DDD approach is integrated with other methodologies, even if I'm not using any of them.
