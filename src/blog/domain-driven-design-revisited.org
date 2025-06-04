@@ -38,15 +38,18 @@ An enterprise application is an application that aims at automating or assisting
 This is a pretty accurate description of what I work on now, and how it differs from what I worked on before.
 Given the kind of challenges I currently face---fleshing out business processes, reconciliating terminology, breaking apart the legacy monolith, figuring out what the domain entities are and who should own them---a natural next step was to take another look at Domain-Driven Design.
 
-** Summary
+I picked up Vlad Khononov's /Learning Domain-Driven Design/ as a modern alternative to the classic Eric Evan's blue book. It summarizes and updates the same ideas, and finally relates them to newer techniques like microservices, event-driven architecture, and data mesh.
 
-I picked up Vlad Khononov's /Learning Domain-Driven Design/ as a modern alternative to the classic Eric Evan's blue book. It summarizes and updates the same ideas, and finally relates them to newer techniques like microservices, event-driven architecture, and data mesh. The first part, /Strategic Design/, covering the core DDD concepts, was the most useful for my purposes.
+** Book Summary
 
-- A *business domain* defines a company’s main area of activity, the service the company provides to its customers. A company can operate on multiple domains or change them over time.
-- A *subdomain* is a fine-grained area of business activity. All of a company’s subdomains form its business domain. From a technical perspective, subdomains resemble sets of interrelated, coherent use cases. Such sets of use cases usually involve the same actor, the business entities, and they all manipulate a closely related set of data. Domain-driven design distinguishes between three types of subdomains:
+The first part, /Strategic Design/, covering the core DDD concepts, was the most useful for my purposes.
+
+- A *business domain* defines a company’s main area of activity, the service the company provides to its customers. A company can operate on multiple domains and change them over time.
+- A *subdomain* is a fine-grained area of business activity. All of a company’s subdomains form its business domain. From a technical perspective, subdomains resemble sets of interrelated, coherent use cases. These use cases usually involve the same actor, the same business entities, and they all manipulate closely related data.
+- Domain-driven design distinguishes between three types of subdomains:
   - A *core subdomain* is what a company does differently from its competitors. This may involve inventing new products or services or reducing costs by optimizing existing processes. A core subdomain that is simple to implement can only provide a short-lived competitive advantage. Therefore, core subdomains are naturally complex.
   - A *generic subdomain* is a business activity that all companies are performing in the same way. They are generally complex and hard to implement but battle-tested implementations are widely available.
-  - A *supporting subdomain* is one that supports the company's business without offering a competitive advantage. Supporting software has low business logic complexity and therefore, it's cheaper to implement.
+  - A *supporting subdomain* is one that supports the company's business without offering a competitive advantage. Supporting software has low business logic complexity and therefore is cheap to implement.
     #+begin_export html
 <br/>
 #+end_export
@@ -61,28 +64,27 @@ I picked up Vlad Khononov's /Learning Domain-Driven Design/ as a modern alternat
 <br/>
 #+end_export
 
-- *Domain experts* are knowledge authorities in the software’s business domain. They are either the people coming up with requirements or the software’s end users. The software is supposed to solve their problems. Systems analysts and engineers are transforming their mental models of the business domain into software requirements and source code.
+- *Domain experts* are knowledge authorities in the software’s business domain. They are either the people coming up with requirements or the software’s end users. The software is supposed to solve their problems. Analysts and engineers transform their mental models of the business domain into software requirements and source code.
   - A software project’s success depends on the effectiveness of knowledge sharing between domain experts and software engineers.
-- An *ubiquitous language* is the terminology that describes the business domain, shared between all project related stakeholders. It's intended as a means for communication between domain experts and the project team members, removing the need of translations and intermediaries (system analysts, product owners).
+- An *ubiquitous language* is the terminology that describes the business domain, shared between all project related stakeholders. It's intended as a means for communication between domain experts and the project team members, removing the need of translations and intermediaries.
   - It should consist of business domain-related terms, not technical jargon.
   - It should be consistent, without ambiguous or synonymous terms.
   - It should be constantly evolved and validated.
-  - It should be cocreated between domain experts and team members. The preexisting business language used by experts may not be effective for domain modeling.
-- Since the ubiquitous language needs to be consistent and reflect the domain expert's mental model, but different domain experts can have conflicting models, the language is divided into smaller languages with specific areas of application, called *bounded contexts*.
+  - It should be cocreated between domain experts and team members. (The preexisting business language used by experts may not be effective for domain modeling).
+- Since different domain experts can have conflicting models, the ubiquitous language is divided into smaller, internally consistent languages with specific areas of application called *bounded contexts*.
   - Defining the scope of a ubiquitous language---its bounded context---is a strategic design decision. The larger the boundary, the harder to keep it consistent; the smaller, the more integration overhead the design induces.
-  - each bounded context should be implemented as an individual service/project.
-  - each bounded context should be owned by one team only
-- A bounded context is different from a subdomain.
-  - both are ways of decomposing a business domain.
+  - Each bounded context should be implemented as an individual service/project.
+  - Each bounded context should be owned by a single team.
+- While they both are means to decompose the business domain, a bounded context is different from a subdomain:
   - Subdomains are /identified/ as part of the business domain analysis. They are a set of use cases that are discovered.
-  - Bounded contexts are /designed/ to model the business as smaller, more manageable problem domains.
-- Bounded context express different, internally-conflicting, views of the business domain, but they still need to interact with each other to build useful systems. There are a few approaches the owning teams can take on the integration:
-  - An ad hoc *partnership*, where changes are coordinated between the teams.
+  - Bounded contexts are /designed/ to model the business as smaller, more manageable problem scopes.
+- Bounded context express different, possibly conflicting views of the domain, but they still need to interact with each other to build useful systems. There are a few approaches to integrate them:
+  - An ad hoc *partnership*, where changes are coordinated between the owning teams.
   - A *shared kernel*, where a subset of both bounded contexts is shared and kept consistent.
-  - A *conformist* integration, when one of the bounded contexts (the consumer) inherits the <terminology> of the other (the supplier).
-  - *anti corruption layer*, where the consumer context adjusts to the supplier <terminology> through a separate translation layer, to "protect itself" from upstream changes.
-  - *open host service* where its the upstream bounded context that exposes a public interface to protect its consumers from internal changes.
-  - *separate ways*, where it's considered cheaper to duplicate logic and definitions to avoid the integration entirely.
+  - A *conformist* integration, where the consumer context inherits the model from the supplier.
+  - An *anticorruption layer*, where the consumer context adjusts to the supplier model through a separate translation layer, to "protect itself" from upstream changes.
+  - An *Open-Host service* where the upstream bounded context exposes a public interface to protect its consumers from its internal details.
+  - Going *separate ways*, if it's cheaper to duplicate logic and definitions to avoid the integration entirely.
 
 ** Commentary
 *** Design
