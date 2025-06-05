@@ -1,12 +1,11 @@
 ---
 title: Domain-Driven Design Revisited
 subtitle: Reading notes
-date: 2025-05-25 15:29:30
+date: 2025-06-06
 layout: post
 lang: en
 tags: [software, books, tldr]
 refs: [ddd]
-draft: true
 excerpt: All that glitters is not Enterprise JavaBeans.
 image: ddd.jpg
 ---
