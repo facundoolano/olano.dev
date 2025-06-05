@@ -8,6 +8,7 @@ tags: [software, books, tldr]
 refs: [ddd]
 draft: true
 excerpt: all that glitters is not Enterprise JavaBeans
+image: ddd.jpg
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en

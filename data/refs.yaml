@@ -489,3 +489,7 @@
   title: A Serious Man
   year: 2009
   author: Joel Coen, Ethan Coen
+- id: ddd
+  title: Learning Domain-Driven Design
+  author: Vlad Khononov
+  year: 2021
