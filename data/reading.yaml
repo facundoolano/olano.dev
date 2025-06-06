@@ -5,13 +5,6 @@
   rating: 0
   read_at: 2025-05-04
   title: The 3 A.M. Epiphany
-- author: David Foster Wallace
-  cover_file: david-foster-wallace-conversaciones-con-david-foster-wallace.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632409129l/59061269._SY475_.jpg
-  published_at: 2025-05-04
-  rating: 0
-  read_at: 2025-05-04
-  title: Conversaciones con David Foster Wallace
 - author: Juan José Saer
   cover_file: juan-jose-saer-el-concepto-de-ficcion.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1173947407l/348253._SY475_.jpg
@@ -19,11 +12,3 @@
   rating: 0
   read_at: 2025-04-04
   title: El concepto de ficción
-- author: Vladik Khononov
-  cover_file: vladik-khononov-learning-domain-driven-design.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635258056l/57573212.jpg
-  published_at: 2025-03-14
-  rating: 0
-  read_at: 2025-03-14
-  title: 'Learning Domain-Driven Design: Aligning Software Architecture and Business
-    Strategy'
