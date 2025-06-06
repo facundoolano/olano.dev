@@ -36,7 +36,7 @@ An enterprise application is an application that aims at automating or assisting
 #+end_quote
 
 This is a pretty accurate description of what I work on now, and how it differs from what I worked on before.
-Given the kind of challenges I currently face---fleshing out business processes, reconciling terminology, breaking apart the legacy monolith, figuring out what the domain entities are and who should own them---a natural next step was to take a fresh look at Domain-Driven Design.
+Given the kind of challenges I currently face---fleshing out business processes, reconciling terminology, modernizing the legacy monolith, figuring out what the domain entities are and who should own them---a natural next step was to take a fresh look at Domain-Driven Design.
 
 I picked up Vlad Khononov's /Learning Domain-Driven Design/ as a modern alternative to the classic Eric Evans' blue book. It summarizes and updates the same ideas, and finally relates them to newer techniques like Microservices, Event-Driven Architecture, and Data Mesh.
 
@@ -46,10 +46,10 @@ The first part, /Strategic Design/, covering the core DDD concepts, was the most
 
 - A *business domain* defines a company’s main area of activity, the service the company provides to its customers. A company can operate on multiple domains and change them over time.
 - A *subdomain* is a fine-grained area of business activity. All of a company’s subdomains form its business domain. From a technical perspective, subdomains resemble sets of interrelated, coherent use cases. These use cases usually involve the same actor and the same business entities, and they all manipulate closely related data.
-- Domain-driven design distinguishes between three types of subdomains:
+- There are three types of subdomains:
   - A *core subdomain* is what a company does differently from its competitors. This may involve inventing new products or services or reducing costs by optimizing existing processes. Core subdomains are naturally complex.
   - A *generic subdomain* is a business activity that all companies are performing in the same way. They are generally complex and hard to implement but battle-tested implementations are widely available.
-  - A *supporting subdomain* is one that supports the company's business without offering a competitive advantage. Supporting software has low business logic complexity and therefore is cheap to implement in-house.
+  - A *supporting subdomain* is an activity that's necessary to fulfill the company's business but doesn't provide a competitive advantage. Supporting software has low business logic complexity and therefore is cheap to implement in-house.
 
 | Subdomain Type | Competitive advantage | Complexity | Volatility | Implementation     | Problem     |
 |----------------+-----------------------+------------+------------+--------------------+-------------|
@@ -81,7 +81,7 @@ The first part, /Strategic Design/, covering the core DDD concepts, was the most
   - A *shared kernel*, where a subset of both bounded contexts is shared and kept consistent.
   - A *conformist* integration, where the consumer context inherits the model from the supplier.
   - An *anticorruption layer*, where the consumer context adjusts to the supplier model through a separate translation layer, to "protect itself" from upstream changes.
-  - An *Open-Host service* where the upstream bounded context exposes a public interface to protect its consumers from its internal details.
+  - An *Open-Host service* where the upstream bounded context exposes a public interface to protect its consumers from internal details.
   - Going *separate ways*, if it's cheaper to avoid coordination at the cost of some duplication of efforts.
 
 *** Commentary
@@ -94,7 +94,7 @@ The first part, /Strategic Design/, covering the core DDD concepts, was the most
 
 4. Beyond the co-creation of a shared language, I believe the best outcomes stem from a feedback loop between domain experts and software designers. Designers should constantly absorb business knowledge from experts, but also, [[a-note-on-essential-complexity][ideally]], become catalysts for change: not just modeling domain processes and capturing business rules but discovering opportunities to make them simpler.
 
-5. Much like the early Agile methodologies, Domain-Driven Design relies on a tight collaboration between software designers and their users---in this case, the domain experts. This can be challenging because most organizations aren't set up for such collaboration:
+5. Much like the early Agile methodologies, Domain-Driven Design relies on a tight collaboration between software designers and users---in this case, the domain experts. This can be challenging because most organizations aren't set up for such collaboration:
    - Domain experts may not have strong incentives to assist software development, adopt new terminology, or change their business processes.
    - There often are intermediaries between them[fn:3]---product owners and software analysts, acting as buffers or translators, hindering knowledge transfer.
 6. The book acknowledges some of the challenges but doesn't offer satisfying solutions, perhaps because they fall into organizational design and politics rather than software. There are two ways I can imagine Domain-Driven Design working in the real-world organizations I've known:
