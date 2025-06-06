@@ -1,0 +1,128 @@
+---
+title: Domain-Driven Design Revisited
+subtitle: Reading notes
+date: 2025-06-06
+layout: post
+lang: en
+tags: [software, books, tldr]
+refs: [ddd]
+excerpt: All that glitters is not Enterprise JavaBeans.
+image: ddd.jpg
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <a href="https://vladikk.com/page/books/#learning-domain-driven-design-o-reilly-2021"> <img src="{{site.config.static_root}}/img/ddd.jpg" width="320"></a>
+</div>
+#+END_EXPORT
+
+*** Background
+
+I started my career at a Java shop. There was a lot of buzz there about /enterprise applications/. You would use Java /Enterprise/ Edition to apply Patterns of /Enterprise/ Architecture, implemented through /Enterprise/ Java Beans. It wasn't clear to me what made some applications more /enterprise/ than others, or why following a specific set of ceremonies was supposed to yield more adequate solutions to their problems.
+I found it suspicious that these programming concepts seemed to exist exclusively inside the Java +echo chamber+ ecosystem.
+
+I soon moved away from that Java shop and from Java programming in general, and /enterprise/ recovered its place as an unremarkable English noun with mild trekkie undertones. I worked subsequently on consumer web apps, a media outlet, an MTG online community, a SaaS provider, an ad tech company, a crypto startup, then an AI one. (Which, read like that, kind of explains why I ended up needing a career break).
+
+Last year I took what I would call a less pretentious, more [[https://boringtechnology.club/][technologically boring]] job in the healthcare sector. The challenge in this new company comes not from scale or growth or sophisticated tools but from the complexity of the domain---from the need to design an organization, and consequently, a software architecture, that automates and eventually simplifies its business processes. This shift in focus made me want to go back to the basics, and so I have been reading and writing about [[software-design-is-knowledge-building][knowledge building]] and [[unit-testing-principles/][testing-as-design]]. It was through the /Unit Testing/ book from that last post that I finally came to terms with the /enterprise application/ concept:
+
+#+begin_quote
+An enterprise application is an application that aims at automating or assisting an organization’s inner processes. It can take many forms, but usually the characteristics of an enterprise software are
+-  High business logic complexity
+-  Long project lifespan
+-  Moderate amounts of data
+-  Low or moderate performance requirements
+#+end_quote
+
+This is a pretty accurate description of what I work on now, and how it differs from what I worked on before.
+Given the kind of challenges I currently face---fleshing out business processes, reconciling terminology, modernizing the legacy monolith, figuring out what the domain entities are and who should own them---a natural next step was to take a fresh look at Domain-Driven Design.
+
+I picked up Vlad Khononov's /Learning Domain-Driven Design/ as a modern alternative to the classic Eric Evans' blue book. It summarizes and updates the same ideas, and finally relates them to newer techniques like Microservices, Event-Driven Architecture, and Data Mesh.
+
+*** Summary
+
+The first part, /Strategic Design/, covering the core DDD concepts, was the most useful for my purposes. The rest of this section is a summary of its contents.
+
+- A *business domain* defines a company’s main area of activity, the service the company provides to its customers. A company can operate on multiple domains and change them over time.
+- A *subdomain* is a fine-grained area of business activity. All of a company’s subdomains form its business domain. From a technical perspective, subdomains resemble sets of interrelated, coherent use cases. These use cases usually involve the same actor and the same business entities, and they all manipulate closely related data.
+- There are three types of subdomains:
+  - A *core subdomain* is what a company does differently from its competitors. This may involve inventing new products or services or reducing costs by optimizing existing processes. Core subdomains are naturally complex.
+  - A *generic subdomain* is a business activity that all companies are performing in the same way. They are generally complex and hard to implement but battle-tested implementations are widely available.
+  - A *supporting subdomain* is an activity that's necessary to fulfill the company's business but doesn't provide a competitive advantage. Supporting software has low business logic complexity and therefore is cheap to implement in-house.
+
+| Subdomain Type | Competitive advantage | Complexity | Volatility | Implementation     | Problem     |
+|----------------+-----------------------+------------+------------+--------------------+-------------|
+| Core           | Yes                   | High       | High       | In-house           | Interesting |
+| Generic        | No                    | High       | Low        | Buy/adopt          | Solved      |
+| Supporting     | No                    | Low        | Low        | In-house/outsource | Obvious     |
+
+#+begin_export html
+<br/>
+#+end_export
+
+- *Domain experts* are knowledge authorities in the software’s business domain. They are either the people coming up with requirements or the software’s end users. The software is supposed to solve their problems.
+  - The job of analysts and engineers is to transform the expert's mental model into software requirements and source code.
+  - A software project’s success depends on the effectiveness of knowledge sharing between domain experts and software engineers.
+- A *ubiquitous language* is the terminology that describes the business domain, shared between all project-related stakeholders. It allows domain experts and team members to communicate without the need for translators or intermediaries.
+  - It should consist of business domain-related terms, not technical jargon.
+  - It should be consistent, without ambiguous or synonymous terms.
+  - It should be constantly validated and evolved.
+  - It should be co-created by domain experts and team members. (The pre-existing business language used by experts may not be effective for domain modeling).
+- Since different domain experts can hold conflicting views of the business, the ubiquitous language is divided into smaller, internally consistent languages with specific areas of application called *bounded contexts*.
+  - Defining the scope of a ubiquitous language---its bounded context---is a strategic design decision. The larger the boundary, the harder to keep it consistent; the smaller, the more integration overhead the design induces.
+  - Each bounded context should be implemented as an individual service/project.
+  - Each bounded context should be owned by a single team.
+- While they are both means to decompose the business domain, a bounded context is different from a subdomain:
+  - Subdomains are /identified/ as part of business domain analysis. They are a set of use cases that are discovered.
+  - Bounded contexts are /designed/ to model the business as smaller, more manageable problem scopes.
+- Bounded contexts express different, possibly conflicting views of the domain, but they still need to interact with each other to build useful systems. There are a few approaches to integrating them:
+  - An ad hoc *partnership*, where changes are coordinated between owning teams.
+  - A *shared kernel*, where a subset of both bounded contexts is shared and kept consistent.
+  - A *conformist* integration, where the consumer context inherits the model from the supplier.
+  - An *anticorruption layer*, where the consumer context adjusts to the supplier model through a separate translation layer, to "protect itself" from upstream changes.
+  - An *Open-Host service* where the upstream bounded context exposes a public interface to protect its consumers from internal details.
+  - Going *separate ways*, if it's cheaper to avoid coordination at the cost of some duplication of efforts.
+
+*** Commentary
+
+1. I find the distinction of core, generic, and supporting subdomains useful for decision-making heuristics, e.g. to decide where it's worth investing[fn:2]: if you're investing in sophisticated software development outside your core subdomain, you're probably doing it wrong. And if you don't know what your core subdomain is, then you are in trouble!
+
+2. I wholeheartedly sympathize with the need of a ubiquitous language. Having to stop and think because you don't know what a word means or how to best convey a concept to a particular audience adds a fatal amount of friction to design discussions. It's like daily collaboration with short-term memory loss. If you don't build language you can't build knowledge, and if you don't build knowledge you can't build software.
+
+3. Trying to push for a universal domain model across a large organization will fail like Esperanto. Even if such a universal model is possible, trying to jump directly into it won't work, just like big software rewrites don't work. It's better to set a direction, iterate, and recalculate, knowing what good enough looks like and when it's better to stop---tolerating imperfection. The bounded context is a great tool for that, since it reconciles conflicting domain views, shielding them from each other's imperfections, enabling useful and internally consistent (maintainable) software.
+
+4. Beyond the co-creation of a shared language, I believe the best outcomes stem from a feedback loop between domain experts and software designers. Designers should constantly absorb business knowledge from experts, but also, [[a-note-on-essential-complexity][ideally]], become catalysts for change: not just modeling domain processes and capturing business rules but discovering opportunities to make them simpler.
+
+5. Much like the early Agile methodologies, Domain-Driven Design relies on a tight collaboration between software designers and users---in this case, the domain experts. This can be challenging because most organizations aren't set up for such collaboration:
+   - Domain experts may not have strong incentives to assist software development, adopt new terminology, or change their business processes.
+   - There often are intermediaries between them[fn:3]---product owners and software analysts, acting as buffers or translators, hindering knowledge transfer.
+6. The book acknowledges some of the challenges but doesn't offer satisfying solutions, perhaps because they fall into organizational design and politics rather than software. There are two ways I can imagine Domain-Driven Design working in the real-world organizations I've known:
+   - The company direction is already sold on DDD and can instruct the domain experts to collaborate with software designers.
+   - The software designers are on their own and need to do what the book calls /undercover DDD/. In this case, the software itself can be leveraged as a tool to move towards DDD. For instance, software designers can push for language consistency through the systems they create---if the software offers tangible benefits, the experts will have an incentive to adopt it and the new terminology will catch on[fn:1].
+
+7. I was less interested in the middle section of the book, dedicated to Tactical Design. I found it too prescriptive, too pattern-y, perhaps out of a debt to the original formulation of DDD, that came associated with specific programming techniques and /enterprise/ architectural patterns. These few chapters build up a heuristics decision tree, where the subdomain type and a few other attributes cascade into each design decision of the development process (data modeling, application architecture, testing strategy):
+  #+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/heuristics.png">
+</div>
+#+END_EXPORT
+
+8. While the book stresses that these are just reference heuristics and not hard rules---that, as long as the domain drives the design, you are doing it right---, the emphasis is more on the implementation details than on the principles they derive from. As an example, the book dedicates a chapter to alternative data modeling patterns: Transaction Script, Active Record, Domain Model, and Event-Sourced Domain Model. I doubt that there's much to be gained by mixing and matching these patterns according to subdomain complexity; I'm more interested in the principles behind them, principles that I can apply to bend any particular tool to steer a project in the domain-driven direction.
+
+9. The book picks up again by the end of Part III, when it tackles evolving design decisions and how to implement DDD in "brownfield" projects. It's telling that real-world applicability is only covered on a few pages of chapter 13; I can't help but feel this is backward. Any business complex enough to warrant domain-specific software (that is, any /enterprise/) will necessarily already exist in a jungle of overcomplicated legacy software, so an effective discussion should take brownfield projects as the norm, not the exception. A book like [[https://www.manning.com/books/architecture-modernization][/Architecture Modernization/]]---which I haven't read yet---may be a better fit for this purpose[fn:4].
+
+10. I unexpectedly found a lot of value in the last few chapters, where the DDD approach is integrated with other methodologies. The chapter on microservices, in particular, is one of the best treatments I've seen of the subject[fn:5], placing it not only in the context of DDD but also of modular design, as explained by John Ousterhout, and of the work by a Glenford J. Myers, to whom we owe this gem:
+
+   #+begin_quote
+ There is much more to the subject of complexity than simply attempting to minimize the local complexity of each part of a program. A much more important type of complexity is global complexity: the complexity of the overall structure of a program or system (i.e., the degree of association or interdependence among the major pieces of a program).
+ #+end_quote
+
+11. /Learning Domain-Driven Design/ worked well as a refresher of the core concepts and to familiarize myself with a few techniques that I only knew by name. While I didn't get quite as much as I was expecting from the book in terms of applicability to my day-to-day job, the last few chapters convinced me that the author is onto something. I found out that he recently published a more principled [[https://coupling.dev/][book on software design]], so I'll definitely be checking that one out.
+
+*** Notes
+[fn:5] An earlier version of this discussion can be found in [[https://www.doit.com/untangling-microservices-or-balancing-complexity-in-distributed-systems/][this blog post]], although I preferred the book chapter.
+[fn:4] With the caveat that this book looks much more organizational designer than individual contributor-oriented.
+[fn:1] This, of course, runs the risk of designers getting the terminology wrong by their lack of business knowledge.
+[fn:2] This is similar to the [[https://mcfunley.com/choose-boring-technology][innovation tokens]] concept.
+[fn:3] Understandably: more often than not, engineers are unwilling or unprepared to talk in non technical terms; more often than not, business people lack the patience and the time to deal with engineers.

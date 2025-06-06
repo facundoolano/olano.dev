@@ -40,7 +40,7 @@ body {
 }
 
 .nav a:not(:last-child) {
-    margin-right: .75rem
+    margin-right: 0.75rem;
 }
 
 .nav a:hover {
@@ -48,10 +48,11 @@ body {
 }
 
 li:not(:last-child) {
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
 }
 
-a, a:visited {
+a,
+a:visited {
     text-decoration: none;
 }
 /*
@@ -59,38 +60,43 @@ Set visited links to the same color as regular ones.
 Hardcoding Firefox colors since I couldn't find a portable way of reusing the browser defaults.
  */
 a:visited {
-    color:rgb(0, 0, 238);
+    color: rgb(0, 0, 238);
 }
 @media (prefers-color-scheme: dark) {
-  a:visited {
-      color:rgb(140, 140, 255);
-  }
+    a:visited {
+        color: rgb(140, 140, 255);
+    }
 }
 a:hover {
-    text-decoration: underline
+    text-decoration: underline;
 }
 
-.date, .tags, .tags a {
+.date,
+.tags,
+.tags a {
     color: silver;
 }
 .date {
-    padding-right: .5rem;
+    padding-right: 0.5rem;
     white-space: nowrap;
 }
 .tags {
     display: inline-block;
 }
 
-article.post, article.project {
+article.post,
+article.project {
     display: flex;
 }
 
-.center-block, .org-center, .text-center {
+.center-block,
+.org-center,
+.text-center {
     text-align: center;
 }
 
 .project {
-    display: flex
+    display: flex;
 }
 
 .project-details * {
@@ -120,12 +126,12 @@ hr {
 }
 
 .projects-index article {
-    padding-bottom: .75rem;
+    padding-bottom: 0.75rem;
 }
 
 a.title {
     color: black;
-    padding-right: .25rem;
+    padding-right: 0.25rem;
 }
 @media (prefers-color-scheme: dark) {
     a.title {
@@ -141,11 +147,11 @@ a.title {
     -webkit-font-smoothing: antialiased !important;
     -moz-font-smoothing: antialiased !important;
     text-rendering: optimizelegibility !important;
-    letter-spacing: .03em;
+    letter-spacing: 0.03em;
 }
 
 .layout-post .title {
-    hyphens:none;
+    hyphens: none;
 }
 
 .layout-post header {
@@ -158,11 +164,11 @@ a.title {
 }
 
 .layout-post header .date-tags {
-    margin:-1rem 0 0.5rem 0 ;
+    margin: -1rem 0 0.5rem 0;
 }
 
 .layout-post p {
-    margin: 0 0 .4rem 0;
+    margin: 0 0 0.4rem 0;
 }
 
 .layout-post p + p {
@@ -173,38 +179,42 @@ a.title {
     text-indent: 0rem;
 }
 
-.outline-2 + .outline-2 h2{
+.outline-2 + .outline-2 h2 {
     padding-top: 1.5rem;
 }
 
-.layout-post .title, .layout-post .subtitle {
+.layout-post .title,
+.layout-post .subtitle {
 }
 
-.layout-post .org-center, .layout-post .text-center, .layout-post .center-block {
+.layout-post .org-center,
+.layout-post .text-center,
+.layout-post .center-block {
     margin: 2rem 0;
 }
 
 .pagination {
-    display:flex;
+    display: flex;
 }
 
 .pagination div {
-    display:flex;
+    display: flex;
     max-width: 40%;
     text-justify: none;
 }
 
 hr.footnotes-separatator {
-    display:none;
+    display: none;
 }
 
 /* makes footnote number and text display in the same line  */
 .footnote-definition {
     display: flex;
     vertical-align: top;
-    margin-bottom: .4rem;
+    margin-bottom: 0.4rem;
 }
-.footnote-body, .footnote-body p {
+.footnote-body,
+.footnote-body p {
     display: inline;
     margin-left: 0.25rem;
 }
@@ -213,7 +223,9 @@ hr.footnotes-separatator {
     text-align: right;
 }
 
-.verse-block p { white-space: pre; }
+.verse-block p {
+    white-space: pre;
+}
 
 .layout-post img {
     max-width: 75%;
@@ -223,7 +235,6 @@ hr.footnotes-separatator {
 .layout-post hr {
     border: 1px solid silver;
 }
-
 
 img.cover-img {
     width: 100%;
@@ -280,21 +291,22 @@ Need to decide between:
   with both preferences (as done below, assuming chroma's github theme)
 */
 .layout-post :not(pre) > code {
-    padding: .2em .4em;
-    background-color: unset!important;
+    padding: 0.2em 0.4em;
+    background-color: unset !important;
     color: black;
 }
 
 @media (prefers-color-scheme: dark) {
     .layout-post :not(pre) > code {
-        background-color: unset!important;
+        background-color: unset !important;
         color: white;
     }
 }
 
-.layout-post pre, .layout-post code {
+.layout-post pre,
+.layout-post code {
     border-radius: 6px;
-    background-color: whitesmoke!important;
+    background-color: whitesmoke !important;
     font-size: 0.9rem;
     hyphens: none;
     color: black;
@@ -309,8 +321,8 @@ blockquote {
 
 @media screen and (max-width: 480px) {
     blockquote {
-    margin-left: 1rem;
-    margin-right: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 }
 
@@ -327,7 +339,7 @@ details summary h3::after {
 }
 
 details[open] summary h3::after {
-    content: "[-]"
+    content: "[-]";
 }
 
 details summary *::after {
@@ -337,16 +349,14 @@ details summary *::after {
     vertical-align: middle;
 }
 
-
-
 details > summary::-webkit-details-marker {
     display: none;
 }
 
 @media screen and (max-width: 480px) {
-  .hidden-mobile {
-      display: none
-  }
+    .hidden-mobile {
+        display: none;
+    }
 }
 
 .resume h3 {
@@ -370,12 +380,13 @@ details > summary::-webkit-details-marker {
 }
 
 .resume ul {
-    margin-bottom:0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 @media print {
     /* tweak styles for pdf export of the resume */
-    .footer, .nav {
+    .footer,
+    .nav {
         display: none;
     }
 
@@ -383,4 +394,14 @@ details > summary::-webkit-details-marker {
         clear: both;
         page-break-after: always;
     }
+}
+
+.layout-post table {
+    font-size: 0.9em;
+    border-collapse: collapse;
+}
+.layout-post table td,
+.layout-post table th {
+    padding: 8px 15px; /* Increases cell padding */
+    border-bottom: 1px solid #ddd; /* Adds bottom borders */
 }
