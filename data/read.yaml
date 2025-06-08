@@ -1,3 +1,18 @@
+- author: David Foster Wallace
+  cover_file: david-foster-wallace-conversaciones-con-david-foster-wallace.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632409129l/59061269._SY475_.jpg
+  published_at: 2025-05-31
+  rating: 3
+  read_at: 2025-05-31
+  title: Conversaciones con David Foster Wallace
+- author: Vladik Khononov
+  cover_file: vladik-khononov-learning-domain-driven-design.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635258056l/57573212.jpg
+  published_at: 2025-05-25
+  rating: 3
+  read_at: 2025-05-25
+  title: 'Learning Domain-Driven Design: Aligning Software Architecture and Business
+    Strategy'
 - author: Maggie O'Farrell
   cover_file: maggie-o-farrell-tiene-que-ser-aqui.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484853849l/33855708._SY475_.jpg
@@ -1394,17 +1409,3 @@
   rating: 4
   read_at: 2020-04-23
   title: NBA Jam
-- author: César Aira
-  cover_file: cesar-aira-relatos-reunidos.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367603583l/17569591.jpg
-  published_at: 2020-04-18
-  rating: 1
-  read_at: 2020-04-18
-  title: Relatos reunidos
-- author: Alfred Hayes
-  cover_file: alfred-hayes-que-el-mundo-me-conozca.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340673097l/15722602.jpg
-  published_at: 2020-04-11
-  rating: 2
-  read_at: 2020-04-11
-  title: Que el mundo me conozca
