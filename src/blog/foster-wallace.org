@@ -1,6 +1,6 @@
 ---
 title: En realidad quería hablar de Foster Wallace
-date: 2025-05-31 10:26:31
+date: 2025-06-08
 layout: post
 lang: es
 tags: [literatura, memorias]
