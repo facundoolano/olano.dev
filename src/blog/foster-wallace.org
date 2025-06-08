@@ -1,5 +1,5 @@
 ---
-title: En realidad quería hablar de Foster Wallace
+title: En realidad quería hablar de David Foster Wallace
 date: 2025-06-08
 layout: post
 lang: es
@@ -9,19 +9,17 @@ draft: true
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
 
-18/4. Retomo esta libretita claustrofóbica porque al cuaderno que venía usando le quedan dos páginas y me vine de viaje a la costa y no tenía sentido traer ese cuaderno inconcluso ni traer uno totalmente nuevo, ni mucho menos los dos. Y menos que menos volver a ese otro cuaderno, el cuaderno japonés <B2> de mi /Diario de la Separación/, que quedó trunco tras El Episodio[fn:1].
+18/4. Retomo esta libretita claustrofóbica porque al cuaderno que venía usando le quedan dos páginas y me vine de viaje a la costa y no tenía sentido traer ese cuaderno inconcluso ni traer uno totalmente nuevo, ni mucho menos los dos. Y menos que menos volver a ese otro cuaderno, el cuaderno japonés <B2> de mi /Diario de la Separación/, que quedó trunco tras /El Episodio/[fn:1].
 
-Retomo, entonces, esta libreta, específicamente para consignar dos o tres ideas sobre lo que estoy leyendo, y no para usarla, como hacía antes, como diario. Porque tomé hace un tiempo la decisión de salir de ese círculo vicioso, de ese solipsismo autoficcional que siempre redunda en hablar de lo que hay adentro de la cabeza en vez de lo que hay afuera. Porque lo que hay adentro de la cabeza es, casi siempre, día tras día, alarmantemente lo mismo. Y porque lo único peor que alguien escribiendo /sobre sí mismo/ es alguien escribiendo /sobre sí mismo escribiendo/, con la excepción, claro está, de alguien escribiendo en un cuaderno /sobre sí mismo escribiendo en ese cuaderno/[fn:11].
-
-Así que basta de escribir sobre mí ---empezando... ya.
+Retomo, entonces, esta libreta, específicamente para consignar dos o tres ideas sobre lo que estoy leyendo, y no para usarla, como hacía antes, como diario. Porque tomé hace un tiempo la decisión de salir de ese círculo vicioso, de ese solipsismo autoficcional que siempre redunda en hablar de lo que hay adentro de la cabeza en vez de lo que hay afuera. Porque lo que hay adentro de la cabeza es, casi siempre, día tras día, alarmantemente lo mismo. Y porque lo único peor que alguien escribiendo /sobre sí mismo/ es alguien escribiendo /sobre sí mismo escribiendo/, con la excepción, claro está, de alguien escribiendo en un cuaderno /sobre sí mismo escribiendo en ese cuaderno/. Acá podría ir una cita de Verlyn Klinkenborg[fn:11]. Así que basta de escribir sobre mí ---empezando... ya.
 
 #+BEGIN_CENTER
 \lowast{}
 #+END_CENTER
 
-Como la idea es no hablar de mí puedo, como dice Calamaro, resumir un poco[fn:10], y pasar directamente a que me encuentro en Mar de las Pampas, leyendo /Algo supuestamente divertido que nunca volveré a hacer/, maravillado específicamente con los ensayos sobre tenis, al punto que me dieron ganas de anotar algunas cosas, y así es como volví a la libretita claustrofóbica.
+Como la idea es no hablar de mí puedo, como dice Calamaro, resumir un poco, y pasar directamente a que me encuentro en Mar de las Pampas, leyendo /Algo supuestamente divertido que nunca volveré a hacer/, maravillado específicamente con los ensayos sobre tenis, al punto que me dieron ganas de anotar algunas cosas, y aquí estoy, de vuelta en los confines de la libretita claustrofóbica.
 
-(Si me fuera dado hablar de mí, empezaría recapitulando mis experiencias previas con David Foster Wallace, por ejemplo podría ir a revisar el blog de Martín Zariello, donde estoy casi seguro que leí de él por primera vez[fn:2], podría decir que me interesé en su obra después de ver su biopic durante un viaje en avión[fn:8], o hablar del libro de ensayos que me bajé y nunca tuve el coraje de empezar[fn:3] o del libro de cuentos que empecé y abandoné[fn:4], o contar que entró de nuevo en mi radar a raíz de un ensayo sobre David Lynch[fn:5] y porque casi al mismo tiempo asistí a un taller de ensayo en que era lectura obligatoria /E unibus puram/ [fn:6]).
+(Si me fuera dado hablar de mí, en cambio, empezaría recapitulando mis experiencias previas con David Foster Wallace, por ejemplo podría ir a revisar el blog de Martín Zariello, donde estoy casi seguro que leí de él por primera vez[fn:2], podría decir que me interesé en su obra después de ver su biopic durante un viaje en avión[fn:8], o hablar del libro de ensayos que me bajé y nunca tuve el coraje de empezar[fn:3] o del libro de cuentos que empecé y abandoné[fn:4], o contar que entró de nuevo en mi radar a raíz de un ensayo sobre David Lynch[fn:5] y porque casi al mismo tiempo asistí a un taller de ensayo en que era lectura obligatoria /E unibus puram/ [fn:6]).
 
 e unibus puram -> me llevo muchos intentos terminarlo -> inlcuido el que llevó al episodio y el de despues
 ensayo brillante pero (citando a Zariello hablando sobre Saer) inabordable
@@ -98,10 +96,7 @@ fin hablando desde la propia experiencia[fn:9]
 *** Notas
 [fn:12] TODO FW habla de la necesaria estabilidad emocional  para llegar a tenista profesional, y yo pienso que no conocía todavía a los tenistas argentinos de la década siguiente
 
-[fn:11] Adjunto retroactivamente una cita de Verlyn Klinkenborg:
-#+begin_quote
-/A personal journal in our time comes to seem less like a valuable cache of perceptions than a naive recitation of symptoms that the writer lacks the authority to analyze. Many of the great journals are marked by a dogged absence of self-consciousness, a willingness to suspend judgment of the journal itself, if not of its author, in order to keep the enterpreise going. The value is in the world they depict and only incidentally the depiction of their authors/.
-#+end_quote
+[fn:11] /A personal journal in our time comes to seem less like a valuable cache of perceptions than a naive recitation of symptoms that the writer lacks the authority to analyze. Many of the great journals are marked by a dogged absence of self-consciousness, a willingness to suspend judgment of the journal itself, if not of its author, in order to keep the enterpreise going. The value is in the world they depict and only incidentally the depiction of their authors./
 
 [fn:9] <me acuerdo que Zariello acostumbraba encajar un embed de youtoube al final de sus posts, al que nunca le daba play pero que igual me servían de alguna manera para imprimirle una determinada melodía, un eco, al final del texto. Y pienso que si tuviera que elegir uno para este tendría que ser la canción de Manal /Si no hablo de mí, ¿de quién voy a hablar?/
 
