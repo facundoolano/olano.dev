@@ -41,11 +41,10 @@ mas bien cronicas
 leo el de michael joyce y me fascina
 es tambien un reporteo pero por alguna razon el tema lo eleva para mi
 y se retroalimenta con el primero del libro, que hasta ahora era mi favorito
-
-hay algo con los de tenis que me los hace fascinantes
-hay algo en mi
-hay algo en el tenis como tema literario
-y hay algo en DFW hablando sobre tenis
+Hay algo con los ensayos sobre tenis que los hace fascinantes
+- hay algo en mi
+- hay algo en el tenis como tema literario
+- y hay algo en DFW hablando sobre tenis
 
 pienso que bien me vendría la existencia de un libro de ensayos de DFW en el que solo hablara de tenis. Y me acuerdo haber visto un librito /El tenis como experiencia religiosa/ que podría haber sido eso, pero en realidad es una de esas estafas editoriales, dos ensayos de 15 y 60 páginas estirados a 120. Pero también descubro, buceando un poco, que sí existe, en inglés, ese libro que imaginaba.
 
@@ -57,7 +56,21 @@ hay algo muy yanqui en todo eso pero como estamos metidos en una cultura muy yan
 pero también hay algo en el hecho de que sea un deporte individual, solitario, que pasa largamente en la cabeza del jugador, que le da su atractivo narrativo
 
 ¿Por qué, si me gusta menos el tenis que el fútbol, me fascina [[https://www.revistaanfibia.com/gaudio-coria-psicoanalisis-a-cielo-abierto/][lo que le pasa por la cabeza a Gaudio]][fn:12] en la ola de París y no lo que le pasa a por la cabeza a Messi en Lusail? ¿Por qué, si nunca la vi jugar, [[https://archive.is/wMoEk][el arco narrativo de Gaby Sabatini]] me atrae más que el de Di María?
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
 
+#+begin_quote
+El estrés y la extraña soledad del tenis profesional: donde todos forman parte de una misma comunidad, la gente se ve todas las semanas pero todo el mundo está constantemente metido en una diáspora y es el rival de los demás, con grandes sumas de dinero en juego y una vida que es esencialmente un montaje de aeropuertos, hoteles baratos, comida no casera, lesiones molestas, facturas pasmosas enviadas a larga distancia y unas familias en casa que suelen estar chifladas, porque solamente los chiflados están dispuestos a sacrificar el dinero y el tiempo necesario para que sus hijos se vuelvan lo bastante buenos en algo como para dedicarse profesionalmente a ello.
+#+end_quote
+
+#+begin_quote
+Cuando Michael Joyce habla del tenis y de su carrera se le abren los ojos como platos, se le dilatan las pupilas y la mirada que adopta es de amor. Un amor que no es el amor que uno siente por un trabajo o por un amante ni por ninguno de los objetos de intensidad que la mayoría decimos amar. Es la clase de amor que se ve en la mirada de la gente mayor que han estado felizmente casados durante una eternidad, o en la gente religiosa que lo es tanto, que ha dedicado su vida entera a la religión: es la clase de amor cuya medida es lo que ha costado, aquello a lo que uno ha renunciado. Si ha habido alguna clase de «elección», en cierto punto, no importa… Porque es la misma renuncia a la elección y al yo lo que conforma ese amor.
+#+end_quote
+
+#+begin_quote
+Dejando de lado las cuestiones del sexo y las drogas, los atletas profesionales son en muchos sentidos los santos de nuestra cultura: se entregan a una meta, soportan privaciones y dolores tremendos para realizarse en ella, y disfrutan de una relación con la perfección que admiramos y premiamos, y nos encanta verla aunque no sintamos deseos de caminar en persona por esos caminos. En otras palabras, lo hacen por «nosotros», se sacrifican por nuestra redención (o eso imaginamos).
+#+end_quote
 
 #+BEGIN_CENTER
 \lowast{}
@@ -80,14 +93,27 @@ acaso porque al amateurismo vivido desde adentro ofrece mucha más riqueza que l
 #+END_CENTER
 
 # TODO ver donde engacha esto, quizas footnote
-Al final me bajé y leí el libro de entrevistas que había visto en Mar de las Pampas, y aunque empezó brillante [buscar alguna cita] e incluso clarificador de algunas de las lecturas anteriores---el entrevistador de alguna forma resultaba un dique de contención para DFW, que terminaba destilando brevemente algunas de las genialidades que en sus ensayos le demoraban 30 páginas de preparación, una especie de ensayitos fast food que seguramente al autor le parecería una manara espeluznante de acercarse a su obra---, terminé dándome cuenta que si bien en el pasado leí y disfruté libros de entrevistas e incluso libros de entrevistas a escritores, nunca había leído un libro de muchas entrevistas a un mismo escritor, a través de los años. Y el efecto termina siendo un poco resacoso, porque por muy creativos que se pongan los entrevistadores los preámbulos siempre se parecen un poco y crean un facsímil del personaje, de forma que la sensación es la de leer un resumen de la vida de DFW repetidamente, como si me preparara para dar un final. ¿Cuántas veces se puede leer que el autor estudió filosofía, <ahmerst>, y que su primera fue su tesis de doctorado, <que daba clases de escritura creativa en>, que se convirtió en celebridad con una novela de 1079 páginas, que su madre enseñaba inglés y que su padre fue alumno del último alumno de Wittgenstein? ¿de qué me sirve saber que su padre le leía el Ulises a su madre en la cama, y que DFW era adicto a la tele---antes de ser adicto a otras cosas---, que vivía con dos perros y usaba una bandana para taparle el sudor---.
+Ahora también leí el libro de entrevistas que había visto en Mar de las Pampas, y aunque empezó brillante [buscar alguna cita] e incluso clarificador de algunas de las lecturas anteriores---el entrevistador de alguna forma resultaba un dique de contención para DFW, que terminaba destilando brevemente algunas de las genialidades que en sus ensayos le demoraban 30 páginas de preparación, una especie de ensayitos fast food que seguramente al autor le parecería una manara espeluznante de acercarse a su obra---, terminé dándome cuenta que si bien en el pasado leí y disfruté libros de entrevistas e incluso libros de entrevistas a escritores, nunca había leído un libro de muchas entrevistas a un mismo escritor, a través de los años. Y el efecto termina siendo un poco resacoso, porque por muy creativos que se pongan los entrevistadores los preámbulos siempre se parecen un poco y crean un facsímil del personaje, de forma que la sensación es la de leer un resumen de la vida de DFW repetidamente, como si me preparara para dar un final. ¿Cuántas veces se puede leer que el autor estudió filosofía, <ahmerst>, y que su primera fue su tesis de doctorado, <que daba clases de escritura creativa en>, que se convirtió en celebridad con una novela de 1079 páginas, que su madre enseñaba inglés y que su padre fue alumno del último alumno de Wittgenstein? ¿de qué me sirve saber que su padre le leía el Ulises a su madre en la cama, y que DFW era adicto a la tele---antes de ser adicto a otras cosas---, que vivía con dos perros y usaba una bandana para taparle el sudor---.
 y en todos los casos, salvo en la nota final, saber que esos <facsímiles> tenían necesariamente que estar obviando algo, que no explicaban lo que sabemos por fuera del texto, que el autor sufría depresión crónica y se terminaba suicidando.
 
 <toda esa minucia biográfica en sí misma no sirve para nada, excepto, claro, cuando el propio autor la pone al servicio de su obra>
 
+#+begin_center
+\lowast{}
+#+end_center
+
+Además de los pequeños detalles biográficos, leer tantas introducciones a entrevistas me dio una idea más o menos clara de ciertos ejes argumentales de /La Broma Infinita/, entre ellos que el título refiere a una película o un documental, que mata a quienes lo ven. Y pienso que hay ciertos paralelos con:
+
+- El súper-chiste de Monty Python que los ingleses usaron contra los Nazis en la Segunda Guerra Mundial.
+- el personaje de una película de Josh Radnor---Ted Mosby en /How I Met Your Mother/--- que vi por estos días que lee la Broma infinita por segunda vez y tiene sendos episodios suicidas, como si el libro lo empujara indefectiblemente al suicidio
+- el ensayo infinitamente largo e intrincado que al terminar de ser leído le produce un /Episodio/ cardiovascular al lector
+- el cuento del escritor de obituarios que mata a todo aquel sobre quien escribe
+
 #+BEGIN_CENTER
 \lowast{}
 #+END_CENTER
+
+hay algo en DFW hablando sobre tenis, y es que a todo lo que ve y describe del fenómeno socioeconómico del US open y del tenis profesional lo puede contrastar con su experiencia, la deriva autobiográfica de su no-carrera en el tenis pero también una percepción aumentada por haber ejercido el deporte, por saber lo jodidamente difícil que es hacer lo que hacía el tenista fallido Michael Joyce, por no mencionar a Roger Federer en estado de gracia.
 
 fin hablando desde la propia experiencia[fn:9]
 
