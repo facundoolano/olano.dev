@@ -1,0 +1,143 @@
+---
+title: En realidad quería hablar de David Foster Wallace
+date: 2025-06-08
+layout: post
+lang: es
+tags: [literatura, memorias]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+18/4. Retomo esta libretita claustrofóbica porque al cuaderno que venía usando le quedan dos páginas y me vine de viaje a la costa y no tenía sentido traer ese cuaderno inconcluso ni traer uno totalmente nuevo, ni mucho menos los dos. Y menos que menos volver a ese otro cuaderno, el cuaderno japonés <B2> de mi /Diario de la Separación/, que quedó trunco tras /El Episodio/[fn:1].
+
+Retomo, entonces, esta libreta, específicamente para consignar dos o tres ideas sobre lo que estoy leyendo, y no para usarla, como hacía antes, como diario. Porque tomé hace un tiempo la decisión de salir de ese círculo vicioso, de ese solipsismo autoficcional que siempre redunda en hablar de lo que hay adentro de la cabeza en vez de lo que hay afuera. Porque lo que hay adentro de la cabeza es, casi siempre, día tras día, alarmantemente lo mismo. Y porque lo único peor que alguien escribiendo /sobre sí mismo/ es alguien escribiendo /sobre sí mismo escribiendo/, con la excepción, claro está, de alguien escribiendo en un cuaderno /sobre sí mismo escribiendo en ese cuaderno/. Acá podría ir una cita de Verlyn Klinkenborg[fn:11]. Así que basta de escribir sobre mí ---empezando... ya.
+
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
+
+Como la idea es no hablar de mí puedo, como dice Calamaro, resumir un poco, y pasar directamente a que me encuentro en Mar de las Pampas, leyendo /Algo supuestamente divertido que nunca volveré a hacer/, maravillado específicamente con los ensayos sobre tenis, al punto que me dieron ganas de anotar algunas cosas, y aquí estoy, de vuelta en los confines de la libretita claustrofóbica.
+
+(Si me fuera dado hablar de mí, en cambio, empezaría recapitulando mis experiencias previas con David Foster Wallace, por ejemplo podría ir a revisar el blog de Martín Zariello, donde estoy casi seguro que leí de él por primera vez[fn:2], podría decir que me interesé en su obra después de ver su biopic durante un viaje en avión[fn:8], o hablar del libro de ensayos que me bajé y nunca tuve el coraje de empezar[fn:3] o del libro de cuentos que empecé y abandoné[fn:4], o contar que entró de nuevo en mi radar a raíz de un ensayo sobre David Lynch[fn:5] y porque casi al mismo tiempo asistí a un taller de ensayo en que era lectura obligatoria /E unibus puram/ [fn:6]).
+
+e unibus puram -> me llevo muchos intentos terminarlo -> inlcuido el que llevó al episodio y el de despues
+ensayo brillante pero (citando a Zariello hablando sobre Saer) inabordable
+
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
+
+en el viaje decidí empezar por el principio, y me sorprendió
+
+la rural
+con un poco de practica me fui dando cuenta muchos de los ensayos de DFW entran en esa categoría "quién hubiera dicho que podría interesarme leer sobre esto" en todos transpira la brillantez del autor pero casi siempre es un constante poner a prueba la paciencia
+mas bien cronicas
+
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
+
+leo el de michael joyce y me fascina
+es tambien un reporteo pero por alguna razon el tema lo eleva para mi
+y se retroalimenta con el primero del libro, que hasta ahora era mi favorito
+Hay algo con los ensayos sobre tenis que los hace fascinantes
+- hay algo en mi
+- hay algo en el tenis como tema literario
+- y hay algo en DFW hablando sobre tenis
+
+pienso que bien me vendría la existencia de un libro de ensayos de DFW en el que solo hablara de tenis. Y me acuerdo haber visto un librito /El tenis como experiencia religiosa/ que podría haber sido eso, pero en realidad es una de esas estafas editoriales, dos ensayos de 15 y 60 páginas estirados a 120. Pero también descubro, buceando un poco, que sí existe, en inglés, ese libro que imaginaba.
+
+hay algo en mi, pero como la idea es no ahondar en el tema me apresuro a aclarar que yo nunca agarré una raqueta ni fui a un partido de tenis pero si que miraba mucho por la tele en la época de la legión argentina, que fui hincha de algunos de esos tenistas
+
+hay algo en el tenis. pienso (y me agarro de algunas cosas que escribe DFW) que hay algo en el hecho de que los tenistas sean seres humanos absolutamente entregados a una única actividad, a su profesion, que haya un ranking, una medida incontrastable de cuanto valen en esa actividad, cuanta levantaron,
+hay algo muy yanqui en todo eso pero como estamos metidos en una cultura muy yanqui nos entra la balubi
+
+pero también hay algo en el hecho de que sea un deporte individual, solitario, que pasa largamente en la cabeza del jugador, que le da su atractivo narrativo
+
+¿Por qué, si me gusta menos el tenis que el fútbol, me fascina [[https://www.revistaanfibia.com/gaudio-coria-psicoanalisis-a-cielo-abierto/][lo que le pasa por la cabeza a Gaudio]][fn:12] en la ola de París y no lo que le pasa a por la cabeza a Messi en Lusail? ¿Por qué, si nunca la vi jugar, [[https://archive.is/wMoEk][el arco narrativo de Gaby Sabatini]] me atrae más que el de Di María?
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
+
+#+begin_quote
+El estrés y la extraña soledad del tenis profesional: donde todos forman parte de una misma comunidad, la gente se ve todas las semanas pero todo el mundo está constantemente metido en una diáspora y es el rival de los demás, con grandes sumas de dinero en juego y una vida que es esencialmente un montaje de aeropuertos, hoteles baratos, comida no casera, lesiones molestas, facturas pasmosas enviadas a larga distancia y unas familias en casa que suelen estar chifladas, porque solamente los chiflados están dispuestos a sacrificar el dinero y el tiempo necesario para que sus hijos se vuelvan lo bastante buenos en algo como para dedicarse profesionalmente a ello.
+#+end_quote
+
+#+begin_quote
+Cuando Michael Joyce habla del tenis y de su carrera se le abren los ojos como platos, se le dilatan las pupilas y la mirada que adopta es de amor. Un amor que no es el amor que uno siente por un trabajo o por un amante ni por ninguno de los objetos de intensidad que la mayoría decimos amar. Es la clase de amor que se ve en la mirada de la gente mayor que han estado felizmente casados durante una eternidad, o en la gente religiosa que lo es tanto, que ha dedicado su vida entera a la religión: es la clase de amor cuya medida es lo que ha costado, aquello a lo que uno ha renunciado. Si ha habido alguna clase de «elección», en cierto punto, no importa… Porque es la misma renuncia a la elección y al yo lo que conforma ese amor.
+#+end_quote
+
+#+begin_quote
+Dejando de lado las cuestiones del sexo y las drogas, los atletas profesionales son en muchos sentidos los santos de nuestra cultura: se entregan a una meta, soportan privaciones y dolores tremendos para realizarse en ella, y disfrutan de una relación con la perfección que admiramos y premiamos, y nos encanta verla aunque no sintamos deseos de caminar en persona por esos caminos. En otras palabras, lo hacen por «nosotros», se sacrifican por nuestra redención (o eso imaginamos).
+#+end_quote
+
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
+
+(vuelta en micro)
+algo supuestamente divertido -> pienso que el crucero que describe se parece a viajar en avion, así como pensé que viajar en avión se parece a estar internado
+
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
+
+me bajo y leo continuación el tenis sobre experiencia religiosa
+esos dos ensayos están de nuevo entre los que más me gustan
+aunque sigo prefiriendo los primeros dos
+acaso porque al amateurismo vivido desde adentro ofrece mucha más riqueza que lo apolíneo de ver al mejor Federer ganarle wimbledon a Nadal
+
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
+
+# TODO ver donde engacha esto, quizas footnote
+Ahora también leí el libro de entrevistas que había visto en Mar de las Pampas, y aunque empezó brillante [buscar alguna cita] e incluso clarificador de algunas de las lecturas anteriores---el entrevistador de alguna forma resultaba un dique de contención para DFW, que terminaba destilando brevemente algunas de las genialidades que en sus ensayos le demoraban 30 páginas de preparación, una especie de ensayitos fast food que seguramente al autor le parecería una manara espeluznante de acercarse a su obra---, terminé dándome cuenta que si bien en el pasado leí y disfruté libros de entrevistas e incluso libros de entrevistas a escritores, nunca había leído un libro de muchas entrevistas a un mismo escritor, a través de los años. Y el efecto termina siendo un poco resacoso, porque por muy creativos que se pongan los entrevistadores los preámbulos siempre se parecen un poco y crean un facsímil del personaje, de forma que la sensación es la de leer un resumen de la vida de DFW repetidamente, como si me preparara para dar un final. ¿Cuántas veces se puede leer que el autor estudió filosofía, <ahmerst>, y que su primera fue su tesis de doctorado, <que daba clases de escritura creativa en>, que se convirtió en celebridad con una novela de 1079 páginas, que su madre enseñaba inglés y que su padre fue alumno del último alumno de Wittgenstein? ¿de qué me sirve saber que su padre le leía el Ulises a su madre en la cama, y que DFW era adicto a la tele---antes de ser adicto a otras cosas---, que vivía con dos perros y usaba una bandana para taparle el sudor---.
+y en todos los casos, salvo en la nota final, saber que esos <facsímiles> tenían necesariamente que estar obviando algo, que no explicaban lo que sabemos por fuera del texto, que el autor sufría depresión crónica y se terminaba suicidando.
+
+<toda esa minucia biográfica en sí misma no sirve para nada, excepto, claro, cuando el propio autor la pone al servicio de su obra>
+
+#+begin_center
+\lowast{}
+#+end_center
+
+Además de los pequeños detalles biográficos, leer tantas introducciones a entrevistas me dio una idea más o menos clara de ciertos ejes argumentales de /La Broma Infinita/, entre ellos que el título refiere a una película o un documental, que mata a quienes lo ven. Y pienso que hay ciertos paralelos con:
+
+- El súper-chiste de Monty Python que los ingleses usaron contra los Nazis en la Segunda Guerra Mundial.
+- el personaje de una película de Josh Radnor---Ted Mosby en /How I Met Your Mother/--- que vi por estos días que lee la Broma infinita por segunda vez y tiene sendos episodios suicidas, como si el libro lo empujara indefectiblemente al suicidio
+- el ensayo infinitamente largo e intrincado que al terminar de ser leído le produce un /Episodio/ cardiovascular al lector
+- el cuento del escritor de obituarios que mata a todo aquel sobre quien escribe
+
+#+BEGIN_CENTER
+\lowast{}
+#+END_CENTER
+
+hay algo en DFW hablando sobre tenis, y es que a todo lo que ve y describe del fenómeno socioeconómico del US open y del tenis profesional lo puede contrastar con su experiencia, la deriva autobiográfica de su no-carrera en el tenis pero también una percepción aumentada por haber ejercido el deporte, por saber lo jodidamente difícil que es hacer lo que hacía el tenista fallido Michael Joyce, por no mencionar a Roger Federer en estado de gracia.
+
+fin hablando desde la propia experiencia[fn:9]
+
+
+
+*** Notas
+[fn:12] TODO FW habla de la necesaria estabilidad emocional  para llegar a tenista profesional, y yo pienso que no conocía todavía a los tenistas argentinos de la década siguiente
+
+[fn:11] /A personal journal in our time comes to seem less like a valuable cache of perceptions than a naive recitation of symptoms that the writer lacks the authority to analyze. Many of the great journals are marked by a dogged absence of self-consciousness, a willingness to suspend judgment of the journal itself, if not of its author, in order to keep the enterpreise going. The value is in the world they depict and only incidentally the depiction of their authors./
+
+[fn:9] <me acuerdo que Zariello acostumbraba encajar un embed de youtoube al final de sus posts, al que nunca le daba play pero que igual me servían de alguna manera para imprimirle una determinada melodía, un eco, al final del texto. Y pienso que si tuviera que elegir uno para este tendría que ser la canción de Manal /Si no hablo de mí, ¿de quién voy a hablar?/
+
+[fn:8] <protagonizada por Marshall de /How I Met Your Mother/ y Mark Zuckerberg, no me acuerdo en qué viaje la vi, si estaba solo o acompañado, pero sí me acuerdo de, o en todo caso integro a mi recuerdo, la pantallita en el respaldo de los asiento---esa pantallita ominosa que se multiplica al volver del baño---, las sobras de pollo-o-pasta apilados sobre la bandeja desplegable, los auriculares descartables en los que se escucha mejor el murmullo aéreo que el diálogo de la película, los popups anticlimáticos cada vez que el piloto hace un anuncio.
+
+[fn:6] <taller de tamara tenenbaum>. e unibus puram[fn:7]
+
+[fn:7] e unibus puram -> libro completo, intentos fallidos de terminarlo
+
+[fn:5] TODO del que [[ese-chicle][hablé antes]], que en ese momento no sabía que era uno más en la serie de trabajos cuasi periodísticos que revistas de lo más variadas le encargaban, que resultaban en sus típicos mamotretos, que las revistas tenían que recortar y de todas formas terminaban constituyendo los artículos más largos de las respectivas revistas, y que el autor después recopilaba en modo /Director's Cut/ en sus colecciones de ensayos, en toda su gloria verborrágica y rebosantes de sus distintivas notas al pie ---aunque esto recién lo llegaría a identificar en lecturas subsiguientes[fn:7].
+
+[fn:4] TODO /La niña del pelo raro/, demasiado largos, demasiado yanquis, el conductor de jeopardy! alex trebek, el vicepresidente lyndon johnson
+
+[fn:3] Me pareció que empezar por ensayos podría ser más accesible que la narrativa, considerando que la obra más recomendada es un mamotreto de 1000 páginas, pero resulta que sus ensayos también son, a su manera, pequeños mamotretos, y solo atravesándolos uno se da cuenta que el mamotretismo es un feature no un bug de la escritura de Foster Wallace, algo que no estaba equipado para resolver en aquel primer intento cuando me vi que el primer ensayo de /Hablemos de Langostas/ era sobre una convención de cine porno y duraba 50 páginas.
+
+[fn:2] TODO corvino [fn:9]
+
+[fn:1] El plan original era que la Separación durase por lo menos lo que me llevara completar el cuaderno y hasta me tome el trabajo de numerar las páginas, hasta el <66>. Pero llegué hasta el <33>.
