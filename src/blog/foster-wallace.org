@@ -10,17 +10,25 @@ draft: true
 #+LANGUAGE: es
 
 # using a zero width space to prevent bullet treatmetn
-1.​ podría ir a revisar el blog de Martín Zariello, donde estoy casi seguro que leí de él por primera vez
+1.​ Mi primera noticia sobre David Foster Wallace la tuve por el blog de Martín Zariello, Il Corvino, blog que constituyó mi principal referencia literaria entre 2010 y 2014. El [[https://ilcorvino.blogspot.com/2013/07/hablemos-de-david-foster-wallace-y.html][post en cuestión]], de 2013, incluido en su antología /En realidad quería hablar de otra cosa/, se titula /Hablemos de David Foster Wallace (y probablemente haya alrededor de 57 notas con este mismo título, suponiendo que esto es una "nota")/, parafraseando al ensayo /Hablemos de Langostas/. Casi ni falta hace aclarar que el título de mi post (este) iba a ser /Hablemos de David Foster Wallace/, hasta que releí el de Zariello. Así que me siento justificado robándole a él en mi nuevo título.
+
+El post, que me parece brillante, hoy me interesa más por lo que dice sobre el blogging que por lo que tiene para decir sobre Foster Wallace. Zariello dice: "Con el auge de twitter, el blog se convirtió en un espacio anacrónico". (Lo dice en 2013. Si en 2013 escribir en un blog era nostálgico, en 2025 es el equivalente web de ese cosplay medieval que hacen ciertos ñoños yanquis). Improvisa un canon de ensayistas, no ensayistas menores, porque varios de ellos son largamente célebres, sino ensayistas /al corte/, de la nota al paso, del ensayo chiquito. Y dice que un bloguero que se precie debe leerlos y releerlos a todos. Habla del Borges de [[borges-cautivo][/Textos cautivos/]] y el de los prólogos, de las Aguafuertes de Arlt, del Saer de /El concepto de ficción/, del Fabián Casas de /Ensayos bonsái/ y secuelas, del Fogwill de /Los libros de la guerra/, del Bolaño /Entre Paréntesis/, del Feiling /Con toda intención/. (Me complace descubrir que en estos años fui leyendo fortuitamente cada uno de esos libros). (Yo pondría a Zariello en ese canon). (Pero no pondría ahí, como sí hace él, a David Foster Wallace). No solo debe leerlos, el bloguero, sino copiarlos, a todos, a la vez:
+
+#+begin_quote
+Un bloguero debe renunciar a la idea de que puede inventar algo: en ese caso, no estaría escribiendo en un blog. Un bloguero debe renunciar a la idea de que está haciendo literatura, periodismo, poesía. Está blogueando, o cómo mierda se llame lo que hace un bloguero. Lo demás, lo importante, lo hacen los otros. Y ésa es la mayor carencia y la mayor virtud de un bloguero. Si lo importante pasa en otro lado, si la legitimidad la da una página impresa en papel, si nadie te lee, si nadie te paga, entonces sos un imbécil, pero al mismo tiempo, no respondés a nadie, no tenés nada que perder, tenés libertad absoluta para escribir lo que se te cante.
+#+end_quote
+
+Así como Borges propuso que el escritor argentino, por no estar atado a ninguna tradición, abreva de todas, el bloguero argentino, por no ser escritor, por no deberle nada a nadie y no tener nada que perder, es libre de robar a todos. Lo cual es conveniente, porque nuestro procedimiento creativo por excelencia es el robo. Un argentino nunca es tan genial como cuando puede robar.
+
 #+BEGIN_EXPORT html
 <br/><br/>
 #+END_EXPORT
 
-2.​ <me interesé en su obra después de ver su biopic durante un viaje en avión. <protagonizada por Marshall de /How I Met Your Mother/ y Mark Zuckerberg, no me acuerdo en qué viaje la vi, si estaba solo o acompañado, pero sí me acuerdo de, o en todo caso integro a mi recuerdo, la pantallita en el respaldo de los asiento---esa pantallita ominosa que se multiplica al volver del baño---, las sobras de pollo-o-pasta apilados sobre la bandeja desplegable, los auriculares descartables en los que se escucha mejor el murmullo aéreo que el diálogo de la película, los popups anticlimáticos cada vez que el piloto hace un anuncio.
+2.​ Me enteré de Foster Wallace por aquel post, pero no lo leí. Como suele pasarme necesito un segundo incentivo para entrar en un autor o en una obra. En este caso fue una biopic que vi por descarte durante un viaje en avión. No me acuerdo el año, ni de dónde venía, ni con quién, pero sí me acuerdo---o el recuerdo se incorpora a otros parecidos, constituyendo una imagen---de las pantallitas ominosas
+[TODO completar con backup]
 
 #+BEGIN_EXPORT html
 <br/><br/>
 #+END_EXPORT
 
-3.​ hablar del libro de ensayos que me bajé y nunca tuve el coraje de empezar[fn:3] o del libro de cuentos que empecé y abandoné[fn:4].
- Me pareció que empezar por ensayos podría ser más accesible que la narrativa, considerando que la obra más recomendada es un mamotreto de 1000 páginas, pero resulta que sus ensayos también son, a su manera, pequeños mamotretos, y solo atravesándolos uno se da cuenta que el mamotretismo es un feature no un bug de la escritura de Foster Wallace, algo que no estaba equipado para resolver en aquel primer intento cuando me vi que el primer ensayo de /Hablemos de Langostas/ era sobre una convención de cine porno y duraba 50 páginas.
-TODO /La niña del pelo raro/, demasiado largos, demasiado yanquis, el conductor de jeopardy! alex trebek, el vicepresidente lyndon johnson
+3.​
