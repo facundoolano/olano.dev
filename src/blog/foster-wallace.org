@@ -25,7 +25,7 @@ Así como Borges propuso que el escritor argentino, por no estar atado a ninguna
 <br/><br/>
 #+END_EXPORT
 
-2.​ Me enteré de Foster Wallace por aquel post, pero no lo leí. Como suele pasarme necesito un segundo incentivo para entrar en un autor o en una obra. En este caso fue una biopic que vi por descarte durante un viaje en avión. No me acuerdo el año, ni de dónde venía, ni con quién, pero sí me acuerdo de, o en todo caso incorporo a recuerdos parecidos, la pantallita en el respaldo del asiento ---esa pantallita que uno ve multiplicarse ominosamente cuando vuelve del baño---, las sobras de pollo-o-pasta apiladas sobre la bandeja desplegable, los auriculares descartables en los que se escuchaba mejor el murmullo aéreo que el diálogo de la película, los popups anticlimáticos cada vez que el piloto irrumpía con un anuncio. El Foster Wallace de la película (Jason Segel (Marshall en /How I Met Your Mother/)) recibe a un periodista (Jesse Eisenberg (Zuckerberg en /Social Network/)), creo que de la Rolling Stone, para una entrevista en casa del escritor. Zuckerberg quedó fascinado con /La broma infinita/ y convence a su editor de que lo mande a entrevistar a Marshall. No me acuerdo de qué va la conversación. Sí me acuerdo de que Zuckerberg le pregunta qué onda con esa bandana que se pone, y que Marshall se ofende, aduciendo que la necesita porque transpira mucho; que Zuckerberg le ofrece hacerle gancho con Alanis Morissette y que le revisa los medicamentos del botiquín cuando pasa al baño. En retrospectiva me parece insólito que se las hayan arreglado para armar una película alrededor de una entrevista a un escritor oscuro de los '90, pero lo cierto es que a mi la peli me entretuvo y me dejó con ganas de leer algo de Foster Wallace.
+2.​ Me enteré de Foster Wallace por aquel post, pero no lo leí. Como suele pasarme necesito un segundo incentivo para entrar en un autor o en una obra. En este caso fue una biopic elegida al voleo durante un viaje en avión. No me acuerdo el año, ni de dónde venía, ni con quién, pero sí me acuerdo de, o en todo caso incorporo a recuerdos parecidos, la pantallita en el respaldo del asiento ---esa pantallita que uno ve multiplicarse ominosamente cuando vuelve del baño---, las sobras de pollo-o-pasta apiladas sobre la bandeja desplegable, los auriculares descartables en los que se escuchaba mejor el murmullo aéreo que el diálogo de la película, los popups anticlimáticos cada vez que el piloto irrumpía con un anuncio. El Foster Wallace de la película (Jason Segel (Marshall en /How I Met Your Mother/)) recibe a un periodista (Jesse Eisenberg (Zuckerberg en /Social Network/)), creo que de la Rolling Stone, para una entrevista en casa del escritor. Zuckerberg quedó fascinado con /La broma infinita/ y convence a su editor de que lo mande a entrevistar a Marshall. No me acuerdo de qué va la conversación. Sí me acuerdo de que Zuckerberg le pregunta qué onda con esa bandana que se pone, y que Marshall se ofende, aduciendo que la necesita porque transpira mucho; que Zuckerberg le ofrece hacerle gancho con Alanis Morissette y que le revisa los medicamentos del botiquín cuando pasa al baño. En retrospectiva me parece insólito que se las hayan arreglado para armar una película alrededor de una entrevista a un escritor oscuro de los '90, pero lo cierto es que a mi la peli me entretuvo y me dejó con ganas de leer algo de Foster Wallace.
 
 #+BEGIN_EXPORT html
 <br/><br/>
@@ -69,35 +69,39 @@ Esta tesis sobre la necesidad de una tesis en el ensayo no me gusta tanto, en pa
 #+END_EXPORT
 
 7.​ Nunca terminé /E unibus pluram/ pero sí proseguí la lectura del resto de los ensayos del libro que lo incluye, /Algo supuestamente divertido que nunca volveré a hacer/. Lo que encontré en ese libro me fascinó al punto de explicar la existencia de estas notas. Por un lado están dos de sus crónicas más famosas ---David Foster Wallace en un crucero y David Foster Wallace en La Rural---, mucho más entretenidas e interesantes como plataforma para las digresiones del autor que todo lo que había leído antes. Pero no fueron esos si no los dos ensayos sobre tenis los que inesperadamente me enamoraron. Algo pasa cuando David Foster Wallace escribe sobre tenis. Hay algo en el tenis como material literario y algo en mí que me predispone a leer sobre tenis, pero hay, más que nada, algo trascendental en la intersección entre tenis y David Foster Wallace que eleva a esos ensayos sobre todos los demás.
+TODO: resumir los dos?
 
 #+BEGIN_EXPORT html
 <br/><br/>
 #+END_EXPORT
 
-8.​ Lo que tiene el tenis como material literario: ...
+8.​ El primer partido de tenis que miré fue la final de Wimbledon 2002 entre Nalbandian y Hewitt. La vi con mi viejo, que no seguía tenis pero que estaba pendiente de cualquier evento deportivo importante en que un argentino se pudiera destacar. Mi viejo me explicó aproximativamente esas reglas rebuscadas , con su absurda serie de punteo 0-15-30-40. El segundo, tercer, cuarto, quinto y sexto partidos que vi corresponden a la semifinal de la Copa Davis contra Rusia. Semanas después, otra vez Nalbandian, otra vez derrota. Esta vez mi viejo tuvo que explicarme la absurda serie de partidos de fin de semana y las particularidades de los partidos de dobles. A partir de ahí empecé a seguir a los argentinos en el circuito, que en esa época eran muchos y estaban por ingresar en su etapa más <gloriosa>. Casi diría que me fanaticé con el tenis por un par de años, digamos entre 2003 y 2005, coincidiendo aproximadamente con mi paso por la secundaria y el paso de Guillermo Coria por la elite del tenis mundial. Después se me acabó el tiempo y a Coria y la mayoría de los otros argentinos se les acabó la nafta, con la excepción de los últimos coletazos de Nalbandian, en esas tres o cuatro semanas al año en que se acordaba de que era un tenista profesional, y de Del Potro, que era el más joven de todos y sería el último. No sé cual habrá sido el último partido de tenis que miré /emocionalmente/. Probablemente la segunda final de US Open de Del Potro, en 2018, contra Djokovic.
+<Todo esto para decir que: el tenis no me es para nada indiferente pero hace muchos años que dejo de importarme.
+¿Por qué, si me gusta menos el tenis que el fútbol, me fascina [[https://www.revistaanfibia.com/gaudio-coria-psicoanalisis-a-cielo-abierto/][lo que le pasa por la cabeza a Gaudio]] en la ola de París y no lo que le pasa a por la cabeza a Messi en Lusail? ¿Por qué, si nunca la vi jugar, [[https://archive.is/wMoEk][el arco narrativo de Gaby Sabatini]] me atrae más que el de Di María? <¿Por qué me pongo a leer las memorias de Agassi, quien, a decir de David Foster Wallace, tiene tanto encanto como una prostituta portuaria?
 
-#+BEGIN_EXPORT html
-<br/><br/>
-#+END_EXPORT
-
-9.​ El primer partido de tenis que miré fue la final de Wimbledon 2002 entre Nalbandian y Hewitt.
-[TODO seguir cuaderno]
-
-¿Por qué, si me gusta menos el tenis que el fútbol, me fascina [[https://www.revistaanfibia.com/gaudio-coria-psicoanalisis-a-cielo-abierto/][lo que le pasa por la cabeza a Gaudio]] en la ola de París y no lo que le pasa a por la cabeza a Messi en Lusail? ¿Por qué, si nunca la vi jugar, [[https://archive.is/wMoEk][el arco narrativo de Gaby Sabatini]] me atrae más que el de Di María?
-
+<A Messi lo veo como un extraterrestre, un ser de otra especie. Como tal vez lo haya sido Federer. Y Nadal, que más que extraterrestre parecía una engranaje. Y Djokovic, que más bien es un psicópata, un asesino serial.
+Gaudio y Coria, en cambio, poseen cierta humanidad aún cuando alcanzaron o estuvieron a punto de alcanzar la gloria.
+hay cierta cualidad universalmente humana, cierta forma de desamparo de esos dos tenistas psicológicamente destrozados en el momento para el que se prepararon toda su vida, que los acerca más al resto de los humanos
 <FW habla de la necesaria estabilidad emocional  para llegar a tenista profesional, y yo pienso que no conocía todavía a los tenistas argentinos de la década siguiente
+<Gaudio y coria estaban perdidos en un laberinto mental que a lo mejor se parezca a alguno de los laberintos mentales de david foster wallace
+
 
 #+BEGIN_EXPORT html
 <br/><br/>
 #+END_EXPORT
 
-10.​ Lo que tiene David Foster Wallace cuando habla de tenis: ...
+9.​ <despues lei los demas sobre tenis,
+<lo que tiene el tenis como material literario y lo que tiene dfw cuando habla de tenis
+
+**** TODO releer derivadas
+**** TODO releer noyce
+**** TODO releer federer
 
 #+BEGIN_EXPORT html
 <br/><br/>
 #+END_EXPORT
 
-11.​ Después de /Algo supuestamente divertido que nunca volveré a hacer/ y los ensayos sobre tenis, me puse a leer una colección de entrevistas a David Foster Wallace.
+10.​ Después de /Algo supuestamente divertido que nunca volveré a hacer/ y los ensayos sobre tenis, me puse a leer una colección de entrevistas a David Foster Wallace.
 
 TODO cleanup: <Ahora también leí el libro de entrevistas que había visto en Mar de las Pampas, y aunque empezó brillante [buscar alguna cita] e incluso clarificador de algunas de las lecturas anteriores---el entrevistador de alguna forma resultaba un dique de contención para DFW, que terminaba destilando brevemente algunas de las genialidades que en sus ensayos le demoraban 30 páginas de preparación, una especie de ensayitos fast food que seguramente al autor le parecería una manara espeluznante de acercarse a su obra---, terminé dándome cuenta que si bien en el pasado leí y disfruté libros de entrevistas e incluso libros de entrevistas a escritores, nunca había leído un libro de muchas entrevistas a un mismo escritor, a través de los años. Y el efecto termina siendo un poco resacoso, porque por muy creativos que se pongan los entrevistadores los preámbulos siempre se parecen un poco y crean un facsímil del personaje, de forma que la sensación es la de leer un resumen de la vida de DFW repetidamente, como si me preparara para dar un final. ¿Cuántas veces se puede leer que el autor estudió filosofía, <ahmerst>, y que su primera fue su tesis de doctorado, <que daba clases de escritura creativa en>, que se convirtió en celebridad con una novela de 1079 páginas, que su madre enseñaba inglés y que su padre fue alumno del último alumno de Wittgenstein? ¿de qué me sirve saber que su padre le leía el Ulises a su madre en la cama, y que DFW era adicto a la tele---antes de ser adicto a otras cosas---, que vivía con dos perros y usaba una bandana para taparle el sudor---.
 y en todos los casos, salvo en la nota final, saber que esos <facsímiles> tenían necesariamente que estar obviando algo, que no explicaban lo que sabemos por fuera del texto, que el autor sufría depresión crónica y se terminaba suicidando.
@@ -108,5 +112,7 @@ y en todos los casos, salvo en la nota final, saber que esos <facsímiles> tení
 <br/><br/>
 #+END_EXPORT
 
-12.​ Como esto no es un ensayo sino un ejercicio anacrónico ---como esto es un blog en 2025 y en un blog no hay nada para perder--- el texto bien puede pasar sin una tesis. O podría improvisar una al final, en el último párrafo, en lugar de conclusión, una posdata antojadiza difícilmente emparentada con el texto que remata, accesible a unos pocos valientes, a los tercos perseverantes que aguanten <hasta el final>.
+11.​ Como esto no es un ensayo sino un ejercicio anacrónico ---como esto es un blog en 2025 y en un blog no hay nada para perder--- el texto bien puede pasar sin una tesis. O podría improvisar una al final, en el último párrafo, en lugar de conclusión, una posdata antojadiza difícilmente emparentada con el texto que remata, accesible a unos pocos valientes, a los tercos perseverantes que aguanten <hasta el final>.
 De haberla, la tesis sería esta:
+
+TODO fill
