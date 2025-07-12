@@ -117,7 +117,5 @@ y en todos los casos, salvo en la nota final, saber que esos <facsímiles> tení
 <br/><br/>
 #+END_EXPORT
 
-11.​ Como esto no es un ensayo sino un ejercicio anacrónico ---como esto es un blog en 2025 y en un blog no hay nada para perder--- el texto bien puede pasar sin una tesis. O podría improvisar una al final, en el último párrafo, en lugar de conclusión, una posdata antojadiza difícilmente emparentada con el texto que remata, accesible a unos pocos valientes, a los tercos perseverantes que aguanten <hasta el final>.
-De haberla, la tesis sería esta:
-
-TODO fill
+11.​ Como esto no es un ensayo sino un ejercicio anacrónico ---como esto es un blog en 2025 y en un blog no hay nada para perder--- el texto bien puede pasar sin una tesis. O podría improvisar una al final, en el último párrafo, a modo de conclusión, una posdata antojadiza difícilmente emparentada con el texto que la precede, asequible para unos pocos valientes, para los tercos perseverantes que aguanten hasta el final.
+De haber una, acá, la tesis sería esta: un texto no funciona si es pura autoficción o biografía, ni funcionan las crónicas inteligentemente escritas por un observador desapegado; pero si el autor está atravesado por aquello de lo que habla ---si su experiencia transpira del texto sin necesidad de hablar sobre sí mismo---, si el autor o su voz o el personaje que se construye atraviesan la página o la pantalla, entonces el texto funciona, cualquiera sea el tema, no importa si hay tesis o si el lector sabe o quiere encontrarla.
