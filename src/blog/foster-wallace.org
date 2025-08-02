@@ -57,25 +57,30 @@ Esta tesis sobre la necesidad de una tesis en el ensayo no me gusta tanto, en pa
 <br/><br/>
 #+END_EXPORT
 
-6.​ Para David Foster Wallace el tenis está ligado a su adolescencia, a las matemáticas, al estado de Illinois donde creció ---a la geometría del territorio y las inclemencias del clima. Se destacó en torneos juveniles en base a un par de talentos improbables: su capacidad de cálculo ---que le permitía no solo considerar sus glopes y los del rival sino la inclinación del terreno, los baches en la pista, el calor y el viento--- y una paciencia casi zen para insistir con aburridos esperando el error del rival:
+6.​ Para David Foster Wallace el tenis está ligado a su adolescencia, a las matemáticas, al estado de Illinois donde creció ---a la geometría del territorio y a las inclemencias del clima. Se destacó en torneos juveniles en base a un par de talentos improbables: su capacidad de cálculo ---que le permitía no solo considerar sus glopes y los del rival sino la inclinación del terreno, los baches en la pista, el calor y el viento--- y una paciencia casi zen para insistir con golpes aburridos esperando el error del rival:
 #+begin_quote
 TODO MAYBE QUOTE
 #+end_quote
 
-Illinois tiene un clima famosamente ventoso y en particular la zona donde vivía y jugaba Foster Wallace se conocía como "el corredor de los tornados", fenómeno con el que los lugareños convivían como israelíes con las bombas. Todo el encanto tenístico de Foster Wallace se rompía cuando sus victorias le permitían competir en otros torneos fuera de ese, su hábitat natural, y lo llevaban a canchas con pistas impecables y aparatos para desviar el viento:
+Illinois tiene un clima famosamente ventoso y en particular la zona donde vivía y jugaba Foster Wallace se conocía como "el corredor de los tornados", fenómeno con el que los lugareños convivían como israelíes con las bombas. Todo el encanto tenístico de Foster Wallace se rompía cuando sus victorias lo llevaban a competir en mejores torneos fuera de ese, su hábitat natural, con pistas relucientes y aparatos antiviento:
 
 #+begin_quote
 MAYBE QUOTE
 #+end_quote
 
-Este recorrido adolescente por los campos de Illinois que David Foster Wallace traza en el primer ensayo del libro /Algo supuestamente divertido que nunca volveré a hacer/, prepara el terreno para la epifanía del final ---una escena bellísima en la que él y su amigo y rival Gil Antitoi entrenan absortos en la noche, tan concentrados que no se dan cuenta que quedaron metidos en un tornado hasta que literalmente levantan vuelo y van a parar los dos de cara contra el alambrado de la cancha--- nos sirve a nosotros para leer mejor todos los otros textos que escribió sobre tenis.
-TODO continue
+Este recorrido adolescente por los campos de Illinois del primer ensayo de /Algo supuestamente divertido que nunca volveré a hacer/, prepara el terreno para la epifanía del final ---una escena bellísima en la que Foster Wallace y su amigo y archirival Gil Antitoi entrenan en la noche, tan absortos en llegar a la otra esquina y devolver la pelota que no se enteran de que quedaron en el medio de un tornado hasta que literalmente levantan vuelo y van a parar los dos de cara al alambrado--- y nos sirve a nosotros para leer mejor todos los otros textos que el autor escribió sobre tenis.
 
 #+BEGIN_EXPORT html
 <br/><br/>
 #+END_EXPORT
 
 7.​ El primer partido de tenis que miré fue la final de Wimbledon 2002 entre Nalbandian y Hewitt. La vi con mi viejo, que no seguía tenis pero que estaba pendiente de cualquier evento deportivo importante en que un argentino se pudiera destacar. Mi viejo me explicó aproximativamente esas reglas rebuscadas , con su absurda serie de punteo 0-15-30-40. El segundo, tercer, cuarto, quinto y sexto partidos que vi corresponden a la semifinal de la Copa Davis contra Rusia. Semanas después, otra vez Nalbandian, otra vez derrota. Esta vez mi viejo tuvo que explicarme la absurda serie de partidos de fin de semana y las particularidades de los partidos de dobles. A partir de ahí empecé a seguir a los argentinos en el circuito, que en esa época eran muchos y estaban por ingresar en su etapa más <gloriosa>. Casi diría que me fanaticé con el tenis por un par de años, digamos entre 2003 y 2005, coincidiendo aproximadamente con mi paso por la secundaria y el paso de Guillermo Coria por la elite del tenis mundial. Después se me acabó el tiempo y a Coria y la mayoría de los otros argentinos se les acabó la nafta, con la excepción de los últimos coletazos de Nalbandian, en esas tres o cuatro semanas al año en que se acordaba de que era un tenista profesional, y de Del Potro, que era el más joven de todos y sería el último. No sé cual habrá sido el último partido de tenis que miré /emocionalmente/. Probablemente la segunda final de US Open de Del Potro, en 2018, contra Djokovic. Todo esto para decir que, si bien no me es para nada indiferente, hace muchos años que el tenis dejó de importarme. Pero, entonces, ¿por qué me fascina [[https://www.revistaanfibia.com/gaudio-coria-psicoanalisis-a-cielo-abierto/][lo que le pasa por la cabeza a Gaudio]] en la ola de París? ¿Por qué, si nunca la vi jugar, me interesa [[https://archive.is/wMoEk][el arco narrativo de Gaby Sabatini]] más que [[justicia-poetica][el de Messi]]? ¿Por qué hago el intento con las memorias de Agassi quien, a decir de David Foster Wallace, tiene los movimientos de un músico de heavy metal y el encanto de una puta portuaria? ¿Por qué prefiero leer a Foster Wallace hablando de Federer que a [[https://newrepublic.com/article/118270/2014-world-cup-tribute-angel-di-maria-karl-ove-knausgaard][Karl Ove Knausgaard hablando de Di María]]? ¿Y por qué lo prefiero aún hablando sobre Michael Joyce? Hay algo en el tenis que pide ser escrito, sí, y hay algo en mí que me predispone a querer leerlo, pero hay, sobre todo, algo en David Foster Wallace que lo convertía en el escritor ideal para contarnos el tenis, para contarnos el mundo a través del tenis, para contarnos la vida posmoderna a través del tenis.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+8.​ David Foster Wallace escribió sobre Tracy Austin, una estrella fugaz del tenis femenino, algo así como una Gaby Sabatini yanqui, escribió sobre el US Open, al que le dio el mismo tratamiento de zoológico consumista que a la feria de ganaderos y al crucero /all inclusive/; escribió sobre Federer en su mejor momento, ganándole la final de Wimbledon a Nadal, justo antes de que se diera vuelta la tortilla. Pero de todo lo que escribió me quedo con su ensayo sobre Michael Joyce, el mejor tenista del que nunca oíste hablar (salvo que seas lector de David Foster Wallace). TODO seguir
 
 #+BEGIN_EXPORT html
 <br/><br/>
