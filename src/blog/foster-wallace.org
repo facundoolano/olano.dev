@@ -57,8 +57,19 @@ Esta tesis sobre la necesidad de una tesis en el ensayo no me gusta tanto, en pa
 <br/><br/>
 #+END_EXPORT
 
-6.​ TODO: maybe summary of deporte de derivados
-TODO: maybe summary michael joyce
+6.​ Para David Foster Wallace el tenis está ligado a su adolescencia, a las matemáticas, al estado de Illinois donde creció ---a la geometría del territorio y las inclemencias del clima. Se destacó en torneos juveniles en base a un par de talentos improbables: su capacidad de cálculo ---que le permitía no solo considerar sus glopes y los del rival sino la inclinación del terreno, los baches en la pista, el calor y el viento--- y una paciencia casi zen para insistir con aburridos esperando el error del rival:
+#+begin_quote
+TODO MAYBE QUOTE
+#+end_quote
+
+Illinois tiene un clima famosamente ventoso y en particular la zona donde vivía y jugaba Foster Wallace se conocía como "el corredor de los tornados", fenómeno con el que los lugareños convivían como israelíes con las bombas. Todo el encanto tenístico de Foster Wallace se rompía cuando sus victorias le permitían competir en otros torneos fuera de ese, su hábitat natural, y lo llevaban a canchas con pistas impecables y aparatos para desviar el viento:
+
+#+begin_quote
+MAYBE QUOTE
+#+end_quote
+
+Este recorrido adolescente por los campos de Illinois que David Foster Wallace traza en el primer ensayo del libro /Algo supuestamente divertido que nunca volveré a hacer/, prepara el terreno para la epifanía del final ---una escena bellísima en la que él y su amigo y rival Gil Antitoi entrenan absortos en la noche, tan concentrados que no se dan cuenta que quedaron metidos en un tornado hasta que literalmente levantan vuelo y van a parar los dos de cara contra el alambrado de la cancha--- nos sirve a nosotros para leer mejor todos los otros textos que escribió sobre tenis.
+TODO continue
 
 #+BEGIN_EXPORT html
 <br/><br/>
