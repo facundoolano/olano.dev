@@ -1,10 +1,9 @@
 ---
 title: En realidad quería hablar de David Foster Wallace
-date: 2025-08-04
+date: 2025-08-03
 layout: post
 lang: es
 tags: [literatura, memorias, tenis]
-draft: true
 image: coria.jpg
 excerpt: "Hay algo en el tenis que pide ser escrito y hay algo que me predispone a leerlo, pero hay, sobre todo, algo en David Foster Wallace que lo hizo el mejor para contarnos el tenis, para contarnos el mundo a través del tenis, para contarnos la vida posmoderna a través del tenis."
 ---
