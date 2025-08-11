@@ -45,6 +45,15 @@ User-agent: *
 Allow: /
 Allow: /blog/
 Allow: /blog/*
+Allow: /log/
+Allow: /log/*
+Allow: /projects/
+Allow: /projects/*
+Allow: /reads/
+Allow: /reads/*
+Allow: /resume
+Allow: /feed.xml
+Allow: /book*
 Disallow: /*?
 Disallow: /*.tar.gz$
 Disallow: /metrics
