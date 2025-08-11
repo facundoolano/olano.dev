@@ -129,3 +129,5 @@ Disallow: /
 # Marketing/SEO
 User-agent: barkrowler
 Disallow: /
+
+Sitemap: https://olano.dev/sitemap.xml
