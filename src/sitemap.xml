@@ -1,0 +1,90 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>{{ "/" | absolute_url }}</loc>
+    <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Main sections -->
+  <url>
+    <loc>{{ "/blog" | absolute_url }}</loc>
+    <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>{{ "/log" | absolute_url }}</loc>
+    <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>{{ "/projects" | absolute_url }}</loc>
+    <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>{{ "/reads" | absolute_url }}</loc>
+    <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>{{ "/resume" | absolute_url }}</loc>
+    <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Blog tag and reference pages -->
+  <url>
+    <loc>{{ "/blog/tags" | absolute_url }}</loc>
+    <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>{{ "/blog/refs" | absolute_url }}</loc>
+    <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Language-specific blog pages if they exist as separate pages -->
+  <url>
+    <loc>{{ "/blog/en" | absolute_url }}</loc>
+    <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>{{ "/blog/es" | absolute_url }}</loc>
+    <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- All blog posts -->
+  {% for post in site.posts %}
+  <url>
+    <loc>{{ post.url | absolute_url }}</loc>
+    <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+  
+</urlset>
