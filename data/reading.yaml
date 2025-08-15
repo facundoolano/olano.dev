@@ -1,11 +1,10 @@
-- author: Nick Tune
-  cover_file: nick-tune-architecture-modernization-socio-technical-alignment-of-software-strategy-and-structure.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1715251167l/123260251._SX318_.jpg
-  published_at: 2025-06-12
+- author: Juan Forn
+  cover_file: juan-forn-la-tierra-elegida.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510378471l/36573770._SY475_.jpg
+  published_at: 2025-08-01
   rating: 0
-  read_at: 2025-06-12
-  title: Architecture Modernization - Socio-technical alignment of software, strategy,
-    and structure
+  read_at: 2025-08-01
+  title: La tierra elegida
 - author: Roberto Bolaño
   cover_file: roberto-bolano-2666.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347903322l/3137637.jpg
@@ -13,10 +12,3 @@
   rating: 4
   read_at: 2012-06-01
   title: '2666'
-- author: Brian Kiteley
-  cover_file: brian-kiteley-the-3-a-m-epiphany.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408308742l/263288.jpg
-  published_at: 2025-05-04
-  rating: 0
-  read_at: 2025-05-04
-  title: The 3 A.M. Epiphany

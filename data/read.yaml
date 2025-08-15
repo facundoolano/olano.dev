@@ -1,3 +1,24 @@
+- author: César Aira
+  cover_file: cesar-aira-en-el-pensamiento.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716373440l/206801591.jpg
+  published_at: 2025-08-15
+  rating: 2
+  read_at: 2025-08-15
+  title: En el pensamiento
+- author: Jimmy Maher
+  cover_file: jimmy-maher-the-digital-antiquarian-volume-8.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496295178l/35277757._SY475_.jpg
+  published_at: 2025-08-01
+  rating: 3
+  read_at: 2025-08-01
+  title: 'The Digital Antiquarian Volume 8: 1986'
+- author: Marina Mariasch
+  cover_file: marina-mariasch-el-libro-de-los-elogios.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1693096118l/179489183._SX318_.jpg
+  published_at: 2025-07-23
+  rating: 3
+  read_at: 2025-07-23
+  title: El libro de los elogios
 - author: David Foster Wallace
   cover_file: david-foster-wallace-conversaciones-con-david-foster-wallace.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632409129l/59061269._SY475_.jpg
@@ -64,7 +85,7 @@
   title: Un cuarto propio
 - author: Georges Perec
   cover_file: georges-perec-las-cosas.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1300122134l/629770.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1752884325l/629770._SY475_.jpg
   published_at: 2025-02-22
   rating: 4
   read_at: 2025-02-22
@@ -1388,24 +1409,3 @@
   rating: 3
   read_at: 2020-05-05
   title: Sumisión
-- author: Stephen        King
-  cover_file: stephen-king-mr-mercedes.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410236855l/23150727.jpg
-  published_at: 2020-04-30
-  rating: 3
-  read_at: 2020-04-30
-  title: Mr. Mercedes
-- author: Michael P. Williams
-  cover_file: michael-p-williams-chrono-trigger.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1392405323l/20809893.jpg
-  published_at: 2020-04-29
-  rating: 1
-  read_at: 2020-04-29
-  title: Chrono Trigger
-- author: Reyan Ali
-  cover_file: reyan-ali-nba-jam.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519454368l/36597600.jpg
-  published_at: 2020-04-23
-  rating: 4
-  read_at: 2020-04-23
-  title: NBA Jam
