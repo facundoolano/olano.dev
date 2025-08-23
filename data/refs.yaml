@@ -114,6 +114,10 @@
   author: Juan Forn
   title: "El hombre que fue viernes"
   year: 2012
+- id: forntierra
+  author: Juan Forn
+  title: "La tierra elegida"
+  year: 2017
 - id: ousterhout
   title: A Philosophy of Software Design
   author: John Ousterhout
