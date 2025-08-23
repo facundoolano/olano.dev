@@ -1,0 +1,19 @@
+---
+title: La tierra elegida
+subtitle: Posdata sobre Forn
+date: 2025-08-23 11:27:04
+layout: post
+lang: en
+tags: [literatura, libros]
+refs: [forntierra]
+draft: true
+img: maier.png
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/maier.png">
+</div>
+#+END_EXPORT
