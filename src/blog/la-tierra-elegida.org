@@ -6,7 +6,7 @@ layout: post
 lang: es
 tags: [literatura, libros]
 refs: [forntierra, fornuds]
-img: maier.png
+image: maier.png
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
