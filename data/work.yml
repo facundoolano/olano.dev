@@ -1,7 +1,7 @@
 - org: '<a href="https://marsie.io/">Marsie</a>'
   positions:
     - date: Sep 2024 - Present
-      title: Senior Software Engineer
+      title: Staff Software Engineer
       tech: Python, FastAPI, SqlAlchemy, Kubernetes, Helm, React, Temporal, Datadog
       description: >
         Design, development, and operations on the Billing Team of a genetic testing company.
