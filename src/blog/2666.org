@@ -1,0 +1,19 @@
+---
+title: 2666
+subtitle: Diario de lectura
+date: 2025-09-07
+layout: post
+lang: es
+tags: [libros, literatura]
+draft: true
+image: 2666.png
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/2666.png">
+</div>
+<br/>
+#+END_EXPORT
