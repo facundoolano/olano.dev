@@ -6,7 +6,8 @@ lang: es
 tags: [literatura, memorias, tenis]
 image: coria.jpg
 excerpt: "Hay algo en el tenis que pide ser escrito y hay algo que me predispone a leerlo, pero hay, sobre todo, algo en David Foster Wallace que lo hizo el mejor para contarnos el tenis, para contarnos el mundo a través del tenis, para contarnos la vida posmoderna a través del tenis."
-refs: [dfw]
+favorite: true
+refs: [dfw, corvino]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
