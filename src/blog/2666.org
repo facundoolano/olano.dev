@@ -19,7 +19,13 @@ image: 2666.png
 #+END_EXPORT
 
 
-8/6. lalala
+8/6. Este libro me hace reír en voz alta. En pasajes que ni siquiera se supone que sean humorísticos. Es que Bolaño escribe en un tono semi burlón, como si no se tomara muy en serio a sus personajes o, más bien, como si sui forma de ver el mundo fuera que, salvo en contadas ocasiones, ninguna persona mereciera ser tomada muy en serio. Entonces cuando saca a pasear a sus críticos europeos por México y los pone en ridículo entre mexicanos que conviven con la violencia y la muerta, es imposible no reírse.
+
+Otra cosa que noto es cuán exagerado y melodramático puede ser, cuán arbitrarias sus evocaciones poéticas fatalistas en lugares que no vienen a cuento. Y, sin embargo, cuán jodidamente entretenida se sostiene la lectura, es un /page turner/ para [ilegilbe] literarios. No debería engancharme, ¿a quién podría engancharle semejante cosa?, pero me engancha.
+
+También: cómo se caga en las convenciones ficcionales. Resume mucho, se mete en la cabeza de todos sus personajes según le viene la gana, y los trata por momentos como unidad, como un único personaje en los diálogos. Como si el estilo Bolaño fuera este resumen, esta nota rápida para una novela, el tratamiento sin desarrollo de una novela. Es decir, la forma de esta novela de 1123 páginas, que son cinco novelas en una, es en realidad el prototipo de cinco novelas mucho más largas que no van a ser escritas ---y me animo a pensar que tal era la intención, que esto no es un borrador inconcluso, truncado por la muerte del autor, como muchas de los otros libros que le publicaron póstumamente, sino que tal era el plan de Bolaño para 2666: construir una novela total mediante el apilamiento de novelas como capas de carne en el fierro de un shawarma.
+
+Otra cosa linda es cómo esta estructura le da rienda suelta para irse por las ramas e insertar cuentitos, pequeñas anécdotas o resúmenes de vida de personajes pasajeros ---que es también la forma que asumen sus cuentos publicados. Nos cuenta anécdotas, sueños, tramas de libros inexistentes y de películas que sus personajes miran en habitaciones de hotel perdidas en el desierto.
 
 #+BEGIN_EXPORT html
 <br/><br/>
