@@ -67,13 +67,51 @@ Acaso sea el episodio del boxeo el que me sugestiona, pero el libro adopta ciert
 <br/><br/>
 #+END_EXPORT
 
-28/6. lalala
+28/6. Hay que decir algunas cosas sobre la parte de los crímenes. Es la más larga (alrededor de 350 páginas) y avanza lentamente, no solo porque tiene muchos personajes y la narración es una panorámica o, más bien, vista aérea de Santa Teresa, sino porque está puntuada por las secciones que describen las apariciones de cadáveres de mujeres asesinadas.
+
+TODO sigue
 
 #+BEGIN_EXPORT html
 <br/><br/>
 #+END_EXPORT
 
-19/7. lalala
+19/7. Sigo leyendo la parte de los crímenes, que es la más larga, creo que ya lo dije, y la más inabarcable, porque es protagonizada por toda la ciudad, constituye el pulso macabro de una ciudad poblada por partícipes necesarios que se miran unos a otros tratando de identificar al asesino.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+Paso días sin leer pero sigo.
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+En la página 661 encuentro una frase que parece decir algo sobre todo el libro:
+#+begin_quote
+...los policías, con gesto cansado, como soldados atrapados en un /continuum/ temporal que acuden una y otra vez a la misma derrota, se pusieron a trabajar.
+#+end_quote"
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+En la página 686 encuentro un error de Bolaño o del editor, o acaso una pista o señal: la única sección de la parte de los crímenes que tiene puntos y aparte, tres párrafos para describir a cada uno de los tres médicos forenses de Santa Teresa.
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+En la página 723 encuentro una sección corta que ilustra muy bien esa hipérbole epifánica digresora de Bolaño que describí antes:
+
+#+begin_quote
+El nombre, dijo el periodista. Antonio Uribe, dijo Haas. Durante un instante los periodistas se miraron, por si a alguno de ellos le sonaba ese nombre, pero todas se encogieron de hombros. Antonio Uribe, dijo Haas, ése es el nombre del asesino de mujeres de Santa Teresa. Tras un silencio, agregó: y alrededores. ¿Y alrededores?, dijo uno de los periodistas. El asesino de Santa Teresa, dijo Haas, y también de las mujeres muertas que han aparecido por los alrededores de la ciudad. ¿Y tú conoces a ese tal Uribe?, dijo uno de los periodistas. Lo vi una vez, una sola vez, dijo Haas. Luego tomó aliento, como si se dispusiera a contar una larga historia y Chuy Pimentel aprovechó para sacarle una foto. En ella se ve a Haas, por efecto de la luz y de la postura, mucho más delgado, el cuello más largo, como el cuello de un guajolote, pero no un guajolote cualquiera sino un guajolote cantor o que en aquel momento se dispusiera a /elevar/ su canto, no simplemente a cantar, sino a /elevarlo/, un canto agudo, rechinante, un canto de vidrio molido pero con una fuerte reminiscencia de cristal, es decir de pureza, de entrega, de falta absoluta de dobleces.
+#+end_quote
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+Por esta parte de la parte de los crímenes, digamos las últimas 80 o 100 páginas, tres o cuatro hilos argumentales o más bien relatos entrecortados de algunos de los personajes empiezan a convergera ---aunque estoy casi seguro de que no van a encontrarse en ningún lado, de que están encaminados en una ruta que será interrumpida por un precipicio--- y, ahora sí, más que nunca, los asesinatos de mujeres intercalados, cada vez más juntos en el tiempo, constituyen separadores, elaborados firuletes sintácticos para marcar el paso del relato: leo dos o tres páginas más, hasta el próximo asesinato.
+
+Esta convergencia y el fechado de los cadáveres me recuerda que todas las partes anteriores, la de los críticos, la de Amalfitano y la de Fate, transcurren y a su vez convergen al 200x, el tiempo del que Bolaño es contemporáneo, y también allá vamos con los crímines, que arrancaron en 1993 y se acercaron minuciosamente al tiempo de los otros relatos, y sé que lo mismo va a pasar, pero con mucha más épica, con la parte de Archimboldi, que casi recorre todo el siglo XX y varios continentes para llegar a Santa Teresa.
 
 #+BEGIN_EXPORT html
 <br/><br/>
