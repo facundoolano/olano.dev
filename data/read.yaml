@@ -1,3 +1,17 @@
+- author: Roberto Bolaño
+  cover_file: roberto-bolano-2666.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347903322l/3137637.jpg
+  published_at: 2025-09-05
+  rating: 4
+  read_at: 2025-09-05
+  title: '2666'
+- author: Juan Forn
+  cover_file: juan-forn-la-tierra-elegida.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510378471l/36573770._SY475_.jpg
+  published_at: 2025-08-28
+  rating: 4
+  read_at: 2025-08-28
+  title: La tierra elegida
 - author: César Aira
   cover_file: cesar-aira-en-el-pensamiento.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716373440l/206801591.jpg
@@ -1289,7 +1303,7 @@
   rating: 4
   read_at: 2020-11-21
   title: Manual para mujeres de la limpieza
-- author: Charles   Williams
+- author: Charles    Williams
   cover_file: charles-williams-zona-caliente.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1478094388l/32858453._SY475_.jpg
   published_at: 2024-09-08
@@ -1395,17 +1409,3 @@
   rating: 4
   read_at: 2020-05-16
   title: Acá había un río
-- author: P.M. Hubbard
-  cover_file: p-m-hubbard-la-colmena-de-cristal.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464791634l/30330833._SY475_.jpg
-  published_at: 2020-05-10
-  rating: 4
-  read_at: 2020-05-10
-  title: La colmena de cristal
-- author: Michel Houellebecq
-  cover_file: michel-houellebecq-sumision.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1428173791l/25293873.jpg
-  published_at: 2020-05-05
-  rating: 3
-  read_at: 2020-05-05
-  title: Sumisión
