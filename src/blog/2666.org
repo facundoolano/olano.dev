@@ -156,4 +156,22 @@ De mi primera lectura recuerdo solo que al final Klaus Haas, el técnico de comp
 <br/><br/>
 #+END_EXPORT
 
-5/9. lalala
+5/9. Archimboldi publicó dos o tres novelas más, se murió su mujer, se murió su editor, se fue a vivir a Venecia y a unas islas griegas y volvió a Venecia. Se compró un 'ordenador portátil' (sic). Ahí perdí la noción del tiempo, creía que serían los años '50 o '60 a juzgar por el ritmo con el que iba publicando. Me pregunto qué sería un ordenador portátil para Bolaño, no me costa que haya tenido mucha idea sobre computadoras.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+Cuando empecé dije que agarrar este libro era como agarrar esos meses de mi vida en que lo había leído. El proceso de lectura, por otro lado, fue como una pérdida de memoria, fue ir despegando cada página de las circunstancias en que primero las había visitado, trayéndolas a mi departamento de Almagro, donde leí tantos libros que es imposible distinguir uno de otro, separando al libro del contexto, convirtiendo las imágenes que suscita la lectura en su único contexto.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+¿Qué habrá querido decir Bolaño al envolver el horror de la guerra, los campos de concentración y las carnicerías del desierto mexicano con las frivolidades de unos críticos europeos educados con el plan Marshall y los viajes de un escritor alemán excéntrico? ¿que de cualquier cosa se puede hacer literatura así como de cualquier cosa se puede hacer humor? ¿que la literatura es un chiste? ¿que la literatura lo atenúa todo? ¿que la literatura es casi lo único que hay o por lo menos lo único sobre lo que escribir? Lo más probable es que Bolaño no haya querido decir nada.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+Terminé.
