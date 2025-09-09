@@ -5,6 +5,7 @@ date: 2025-09-09
 layout: post
 lang: es
 tags: [libros, literatura, memorias]
+refs: [2666]
 draft: true
 image: 2666.png
 excerpt: historias apiladas como fetas de carne en el fierro de un shawarma
