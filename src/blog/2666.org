@@ -1,0 +1,174 @@
+---
+title: 2666
+subtitle: Diario de lectura
+date: 2025-09-09
+layout: post
+lang: es
+tags: [libros, literatura, memorias]
+refs: [2666]
+image: 2666.png
+excerpt: historias apiladas como fetas de carne en el fierro de un shawarma
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/2666.png">
+</div>
+<br/>
+#+END_EXPORT
+
+
+8/6. Este libro me hace reír en voz alta. En pasajes que ni siquiera se supone que sean humorísticos. Es que Bolaño escribe en un tono semi burlón, como si no se tomara muy en serio a sus personajes o, más bien, como si su forma de ver el mundo fuera que, salvo en contadas ocasiones, ninguna persona mereciera ser tomada muy en serio. Entonces cuando saca a pasear a sus críticos europeos por México y los pone en ridículo entre mexicanos que conviven con la violencia y la muerte, es imposible no reírse.
+
+Otra cosa que noto es cuán exagerado y melodramático se pone Bolaño, cuán arbitrarias sus evocaciones poéticas en lugares que no vienen a cuento. Y, a la vez, cuán jodidamente entretenida se sostiene la lectura, /2666/ es por momentos es un /page turner/ para adictos a la literatura. No debería engancharme, ¿a quién podría enganchar semejante cosa?, pero me engancha.
+
+También: cómo se caga en las convenciones ficcionales. Resume mucho, se mete en la cabeza de todos sus personajes según le viene la gana, funde sus voces en la voz única de la narración. Como si el estilo Bolaño fuera este resumen, esta nota rápida para una novela, el tratamiento sin desarrollo del proyecto de una novela. Es decir que la forma de /2666/, una novela de 1123 páginas que es a su vez cinco novelas en una, es la de cinco embriones de novelas mucho más largas que nunca van a ser escritas ---y me animo a pensar que tal era la intención, que esto no es un borrador inconcluso, truncado por la muerte del autor, como sí lo son la mayoría de los otros libros que le publicaron póstumamente, sino que tal era el plan de Bolaño: construir una novela total apilando historias como fetas de carne en el fierro de un shawarma.
+
+Una estructura que le da rienda suelta para irse por las ramas e insertar cuentitos, pequeñas anécdotas o historias de vida de personajes pasajeros ---que es también la forma que asumen sus cuentos publicados. Nos cuenta sueños, tramas de libros inexistentes y de películas que sus personajes miran en habitaciones de hotel al costado de la ruta. Pero, a diferencia de Marcel Schwob o Borges o el propio Bolaño en su /Literatura Nazi en América/, acá el autor no suelta esas vidas imaginarias en fríos catálogos sino que estas entran y salen discretamente de las tramas y los episodios de los proyectos de novela que componen /la/ novela.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+Mi libro es edición de Anagrama, tapa dura, color rojo, 7^{a} edición en compactos, enero de 2011. Lo compré quizás a fines de 2011 o principios del mismo 2012, antes del viaje de tres meses por Europa del que fue mi única lectura. Estoy casi seguro de que lo compré en la parte de atrás de la librería Losada de la calle Corrientes, que frecuentaba en esos años porque Losada publicaba a Roberto Arlt y a los existencialistas franceses. Recuerdo la duda sobre la compra porque era un ladrillo enorme, pocas veces mejor aplicada la expresión, con su tapa dura y su color rojo oscuro y su peso absurdo, dudaba porque era caro, incluso para ser un libro nuevo y para ser un libro nuevo de Anagrama, si bien sabía que a la larga iba a tener que comprarlo, no estaba seguro si era mejor idea hacerlo en ese momento o esperar. Era 2011 o 2012, no estaba trabajando o apenas volvía a trabajar, y todos mis ahorros estaban reservados para el viaje que iba a hacer en abril. Pero al final lo compré, evidentemente. Las hojas son finitas, casi como de biblia, casi como papel de arroz, o esa es la sensación que evocan aunque la verdad es que no sé a ciencia cierta cómo es ni como se siente el papel de arroz.
+
+Hasta entonces había leído /Los detectives salvajes/ (en 2010, tapa blanda, rojo eléctrico, hojas también finitas) y los cuentos en una edición impresa en argentina que incluía las tres antologías publicadas en vida por Bolaño (tapa blanda pero más resistente, con solapa, y hojas más gruesas). Vaya a saber qué estaban pensando los editores al tratar de vender los tres libros juntos. /Los detectives salvajes/ lo había pedido como regalo de cumpleaños después de escuchar mentar a Bolaño muchas veces en internet, en blogs y suplementos culturales, y lo leí hipnotizado ese invierno, en el living congelado de la casa de mis viejos. Leer a Bolaño fue como viajar al futuro, una patada en el orto que me mandó sin escalas del /Boom/ latinoamericano, con sus ediciones manoseadas y amarillentas del Parque Rivadavia, hasta el siglo XXI. Me acuerdo precisamente de la sensación de tener ese libro nuevo y caro en la mano, del olor y el sonido al pasar las páginas con dedos helados, de fondo el ruido blanco de la estufa. Ese libro era un artículo de lujo, una puerta que se abría, el comienzo de mi vida adulta como lector.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+Este volumen de /2666/ muestra marcas de uso que no veo en ningún otro de mis libros, ni de cerca, porque a ningún otro libro lo saque de viaje por tanto tiempo, y ningún otro viaje fue ni de cerca tan largo y movido como aquel. Las esquinas están gastadas y apelmazadas (?) y el cartón que asoma está a su vez gastado y sucio. El vértice de las páginas está negro de suciedad y el lateral sucio de transpiración y de unas manchas azules como de tinta, aunque el libro no está anotado ni llevaba yo lapiceras. La tapa aparece como manoseada bajo el reflejo de la luz y una parte del canto está aplastada, como si se me hubiera caído el libro o hubiera tirado la mochila que lo contenía contra el borde de un escalón. Como no soy de anotar mucho, y no lo hacía para nada en esa época, no estoy acostumbrado a encontrar este tipo de rastros de mi paso anterior por un libro. Y como este es tan largo y acumuló esos trajines y tengo tan claramente delimitado el periodo en que fue leído, digamos principios de abril a principios de junio de 2012, agarrar este libro, levantar este ladrillo rojo en el aire es un poco como asir con las manos aquellos dos meses de mi vida.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+13/6. La parte de los críticos la termino de un tirón. La de Amalfitano se me hace más trabajosa.
+
+Por primera vez noto que las secciones de la parte de los críticos tienen párrafos, delimitados por puntos y apartes, y rayas de diálogo, mientras que las secciones de la parte de Amalfitano son bloques de texto con sus diálogos  apiñados y referidos indirectamente, en ese estilo muy propio de algunos cuentos de Bolaño. Voy hacia adelante y veo que: la parte de Fate tiene puntos y aparte; la parte de los crímenes, bloques de texto; la parte de Archimboldi, puntos y aparte. Me pregunto si es una decisión intencional del diseño del texto, si la forma obedece a las necesidades de cada subnovela, o si esos bloques de texto serán un rastro de trabajo pendiente, interrumpido por la muerte del autor.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+18/6. Sigo leyendo. Terminé la parte de Amalfitano y un tercio de la parte de Fate. Fate es un negro de Nueva York, su apellido debería prounciarse 'feit', /destino/ en inglés, pero por alguna razón a mí siempre me sonó 'fate' en su pronunciación en español, como en aquella casaca noventosa de Boca Juniors.
+
+Me acuerdo haber leído, años después que este libro, un ensayito de Fabián Casas sobre Bolaño donde decía que /Los detectives salvajes/ era una mala novela y /2666/, en cambio, era una obra maestra. Siempre me pareció curioso ese juicio, porque /2666/ es para mí una exacerbación de /Los detectives salvajes/, que si se quiere podría ser una exacerbación de /Estrella distante/ ---en estilo, si no en tema--- que, a su vez, es literalmente una ampliación de uno de los capítulos de /La literatura nazi en América/. Me llama la atención, quiero decir, que a Casas le haya gustado tanto /2666/ y tan poco /Los detectives salvajes/, porque a mi juicio las dos se parecen en estilo y en ambiente, lo que hace genial a una parece estar emparentado con lo que hace genial a la otra. A mí me gustan las dos pero creo que me quedaría con /Los detectives/, tal vez porque la leí antes, pero más que nada porque es más redonda, un caos un poco más controlado, con personajes más entrañables, menos pasajeros.
+
+Aquel ensayo de Casas también decía que a una de las partes, no estoy seguro cuál, se le notaba que "le faltaba un golpe de horno". Yo no me acordaba casi nada de la historia de Fate, solo que transcurría parcialmente en Estados Unidos ---lo que constituye una rareza en este libro que por lo demás se mueve entre México y Europa--- en cambio sí me quedaban algunas imágenes patentes de la parte de Amalfitano, el tratado de geometría colgado en la soga de la ropa y la progresiva pérdida de la cordura del protagonista. Pero habiéndola releído creo que es esta, y no la de Fate, la parte que no termina de cuajar, aquella a la que le falta el golpe de horno. No casualmente es la más corta. Me pregunto cómo habría levado si Bolaño hubiera tenido otro año y qué efecto habría tenido sobre el conjunto. En resumen, que fue la parte de Amalfitano la que se me hizo más engorrosa y que ahora la de Fate me devuelve el entusiasmo; no sé bien a dónde va ---sé que va a Santa Teresa porque todo en este libro va a Santa Teresa--- pero ya se palpa como un relato acabado. Acaso sea el episodio de boxeo lo que me sugestiona, pero el libro adopta cierto aire de /Pulp Fiction/ exagerado, con Bolaño haciendo a todos orbitar su ciudad maldita como buscándose unos a otros, casi tocándose, pero nunca terminando de encontrarse.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+28/6. Hay que decir algunas cosas sobre la parte de los crímenes. Es la más larga (alrededor de 350 páginas) y avanza lentamente, no solo porque tiene muchos personajes y la narración es una panorámica o, más bien, vista aérea de Santa Teresa, sino porque está puntuada por las secciones que describen las apariciones de cadáveres de mujeres.
+
+Así es como Bolaño pinta Santa Teresa, sus barrios, sus parques y basurales, sus avenidas y sus maquiladoras: sembrándolos de cadáveres. Podría decirse que es valiente la decisión de no reducir a esas mujeres a una cifra, nombrarlas o si no se sabe el nombre describirlas, explicar las circunstancias de cada una de las muertes. Por otro lado, a fuerza de repetición en la lectura, reflejo de la repetición con la que conviven los personajes, reflejo a su vez de la repetición con la que convivieron (conviven?) los ciudadanos de Juárez, donde los asesinatos de veras pasaron (siguen pasando?), las muertes terminan por volverse abstractas, como si fueran separadores, tres asteriscos, una elipsis, otra muerta. ¿Cuántas veces podemos leer que una mujer fue violada vaginal y analmente, estrangulada y acuchillada, y su cuerpo descartado con la ropa puesta, antes de que pierda el significado?
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+Esta es una novela total, en el sentido de que puede contenerlo todo, aspira a contenerlo todo. En eso me recuerda /La vida: instrucciones de uso/, pero en vez de un edificio parisino lo que contiene todo es una ciudad mexicana llena de delincuentes y sus víctimas. A lo mejor si Bolaño vivía otra década la novela se habría publicado con mil páginas más, o se habrían publicado cinco novelas de mil páginas, de 2666 personajes.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+19/7. Sigo leyendo la parte de los crímenes, que es la más larga, creo que ya lo dije, y la más inabarcable, porque es protagonizada por toda la ciudad, constituye el pulso macabro de una ciudad poblada por partícipes necesarios que se miran unos a otros tratando de identificar al asesino.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+Paso días sin leer pero sigo.
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+En la página 661 encuentro una frase que parece decir algo sobre todo el libro:
+#+begin_quote
+...los policías, con gesto cansado, como soldados atrapados en un /continuum/ temporal que acuden una y otra vez a la misma derrota, se pusieron a trabajar.
+#+end_quote"
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+En la página 686 encuentro un error de Bolaño o del editor, o acaso una pista o señal: la única sección de la parte de los crímenes que tiene puntos y aparte, tres párrafos para describir a cada uno de los tres médicos forenses de Santa Teresa.
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+En la página 723 encuentro una sección corta que ilustra muy bien esa hipérbole epifánica digresora de Bolaño que describí antes:
+
+#+begin_quote
+El nombre, dijo el periodista. Antonio Uribe, dijo Haas. Durante un instante los periodistas se miraron, por si a alguno de ellos le sonaba ese nombre, pero todos se encogieron de hombros. Antonio Uribe, dijo Haas, ése es el nombre del asesino de mujeres de Santa Teresa. Tras un silencio, agregó: y alrededores. ¿Y alrededores?, dijo uno de los periodistas. El asesino de Santa Teresa, dijo Haas, y también de las mujeres muertas que han aparecido por los alrededores de la ciudad. ¿Y tú conoces a ese tal Uribe?, dijo uno de los periodistas. Lo vi una vez, una sola vez, dijo Haas. Luego tomó aliento, como si se dispusiera a contar una larga historia y Chuy Pimentel aprovechó para sacarle una foto. En ella se ve a Haas, por efecto de la luz y de la postura, mucho más delgado, el cuello más largo, como el cuello de un guajolote, pero no un guajolote cualquiera sino un guajolote cantor o que en aquel momento se dispusiera a /elevar/ su canto, no simplemente a cantar, sino a /elevarlo/, un canto agudo, rechinante, un canto de vidrio molido pero con una fuerte reminiscencia de cristal, es decir de pureza, de entrega, de falta absoluta de dobleces.
+#+end_quote
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+Por esta parte de la parte de los crímenes, digamos las últimas 80 o 100 páginas, tres o cuatro hilos argumentales o más bien relatos entrecortados de algunos de los personajes empiezan a converger ---aunque estoy casi seguro de que no van a encontrarse en ninguna parte, de que están encaminados en una ruta destinada a acabar en precipicio--- y, ahora sí, más que nunca, los asesinatos de mujeres intercalados, cada vez más juntos en el tiempo, constituyen separadores, elaborados firuletes sintácticos para marcar el paso del relato: leo dos o tres páginas más, hasta el próximo asesinato.
+
+Esta convergencia y el fechado de los cadáveres me recuerda que todas las partes anteriores, la de los críticos, la de Amalfitano y la de Fate, transcurren y a su vez convergen al 2000 y tantos, al tiempo del que Bolaño es contemporáneo, y también allá vamos con los crímines, que arrancaron en 1993 y se acercaron minuciosamente al transcurrir de los otros relatos, y sé que lo mismo va a pasar, pero a mayor escala, con la parte de Archimboldi, que casi recorre todo el siglo XX y varios continentes para desembocar en Santa Teresa.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+16/8. Tuve que tomarme unas semanas de descanso antes de empezar la última parte del libro. El final de la parte de los crímenes es un poco abrupto, y el salto anticlimático hacia la historia de Archimboldi es incluso mayor de lo que recordaba: no solo se va a la otra punta del mundo y del siglo, si no que por muchas páginas se dedica a la infancia de Hans Reiter y a su obsesión con el mundo submarino, lo que le da la oportunidad a Bolaño de probar nuestra paciencia con largos catálogos de algas y pescados que parecen transcriptos de una enciclopedia escolar.
+
+Ahora voy por la parte en que Reiter se va a la guerra.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+23/8. Me cuesta atravesar esta parte del libro, ya no me queda paciencia para más personajes accesorios e historias dentro de historias. Quizás influye negativamente que en paralelo esté leyendo un [[la-tierra-elegida][libro de Forn]] en el que los personajes son reales y recorren caminos parecidos a los rusos y los alemanes de Bolaño.
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+Pienso que este fue un libro importante en mi vida y que seguramente esta sea la última vez que vaya a leerlo.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+31/8. Terminó la guerra, Reiter escribió su primera novela, ahora es Archimboldi. En 10 días me voy de viaje, me quedan poco más de 100 páginas para terminar antes de irme.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+3/9. Sigo leyendo, Archimboldi ya publicó tres o cuatro novelas que no lee nadie, seguimos en Colonia, a unos buenos 40 años de que empiecen los asesinatos de mujeres en Santa Teresa. Me pregunto cómo hará Bolaño para salvar esa distancia en 80 páginas, cómo irá a cerrar esta novela imposible y, reverso de esa pregunta, cómo habré yo de cerrar estas notas.
+
+De mi primera lectura recuerdo solo que al final Klaus Haas, el técnico de computadoras medio-yanqui medio-alemán al que le endilgan los crímenes de Santa Teresa, era familiar, creo que sobrino, de Archimboldi, que por eso el escritor se termina trasladando a México y que por lo tanto los críticos de la primera parte estaban en lo cierto al aventurar que su ídolo estaba ahí, cerca de ellos, aunque nunca lo fueran a encontrar. Esa es toda la conexión entre las partes que recuerdo, y es probable que no haya mucho más que eso, como si el único legítimo hilo conductor de la novela fuera la interrupción, como si un autor cuya vida es interrumpida prematuramente hubiera escrito una novela compuesta por cinco novelas deliberadamente inconclusas, novelas de historias fractales de personajes que no van a ninguna parte, aunque se sobreentiende que van todos al infierno o que ya están, una serie infinita de primeros y segundos actos con pistolas que se muestran pero no se llegan a disparar.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+5/9. Archimboldi publicó dos o tres novelas más, se murió su mujer, se murió su editor, se fue a vivir a Venecia y a unas islas griegas y volvió a Venecia. Se compró un 'ordenador portátil' (sic). Ahí perdí la noción del tiempo, creía que serían los años '50 o '60 a juzgar por el ritmo con el que Archimboldi venía publicando sus novelas, cada uno o dos años. Me pregunto qué sería lo que Bolaño llamaba un ordenador portátil, no me consta que haya tenido mucha idea sobre computadoras.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+Cuando empecé dije que agarrar este libro era como sostener en la mano aquellos meses de mi vida en que lo había leído. El proceso de lectura, por otro lado, fue como una pérdida de memoria, fue un ir despegando cada página de las circunstancias en que la había visitado por primera vez, trayéndola a mi departamento de Almagro, donde leí tantos libros que es imposible distinguir uno de otro, donde los recuerdos se mezclan y se vuelven olvidos, separando así mi idea del libro de lo que le es externo, convirtiendo las imágenes que suscita la lectura en su único contexto.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+¿Qué habrá querido decir Bolaño al envolver el horror de la guerra, los campos de concentración y las carnicerías de Sonora con las frivolidades de unos críticos europeos educados por el plan Marshall y los viajes de un escritor alemán excéntrico? ¿Que de cualquier cosa se puede hacer literatura, así como de cualquier cosa se puede hacer humor? ¿Que la literatura es un chiste? ¿Que la literatura lo atenúa todo? ¿Que la literatura es casi lo único que hay o por lo menos lo único sobre lo que se puede escribir? Lo más probable es que Bolaño no haya querido decir ninguna de esas cosas.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+Terminé.
