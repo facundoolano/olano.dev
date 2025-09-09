@@ -7,7 +7,7 @@ lang: es
 tags: [libros, literatura, memorias]
 refs: [2666]
 image: 2666.png
-excerpt: historias apiladas como fetas de carne en el fierro de un shawarma
+excerpt: Historias apiladas como fetas de carne en el fierro de un shawarma.
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
