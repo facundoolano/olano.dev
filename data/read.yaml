@@ -1,14 +1,28 @@
+- author: Sally Rooney
+  cover_file: sally-rooney-conversations-with-friends.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638729263l/32187419._SY475_.jpg
+  published_at: 2025-09-27
+  rating: 3
+  read_at: 2025-09-27
+  title: Conversations with Friends
+- author: Sally Rooney
+  cover_file: sally-rooney-normal-people.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1571423190l/41057294._SY475_.jpg
+  published_at: 2025-09-20
+  rating: 4
+  read_at: 2025-09-20
+  title: Normal People
 - author: Roberto Bolaño
   cover_file: roberto-bolano-2666.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347903322l/3137637.jpg
-  published_at: 2025-09-05
+  published_at: 2025-09-09
   rating: 4
   read_at: 2025-09-05
   title: '2666'
 - author: Juan Forn
   cover_file: juan-forn-la-tierra-elegida.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510378471l/36573770._SY475_.jpg
-  published_at: 2025-08-28
+  published_at: 2025-09-09
   rating: 4
   read_at: 2025-08-28
   title: La tierra elegida
@@ -85,7 +99,7 @@
   title: El malogrado
 - author: Samanta Schweblin
   cover_file: samanta-schweblin-el-buen-mal.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1741363227l/228879035._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1759358202l/228879035._SY475_.jpg
   published_at: 2025-03-29
   rating: 3
   read_at: 2025-03-29
@@ -271,7 +285,7 @@
   published_at: 2024-03-20
   rating: 2
   read_at: 2024-03-20
-  title: Maniac
+  title: MANIAC
 - author: Ricardo Piglia
   cover_file: ricardo-piglia-las-tres-vanguardias.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460333244l/29873474._SY475_.jpg
@@ -1395,17 +1409,3 @@
   rating: 4
   read_at: 2020-05-31
   title: Final Fantasy V
-- author: Juan José Saer
-  cover_file: juan-jose-saer-el-entenado.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390917751l/730626.jpg
-  published_at: 2020-05-24
-  rating: 3
-  read_at: 2020-05-24
-  title: El entenado
-- author: Francisco Bitar
-  cover_file: francisco-bitar-aca-habia-un-rio.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1444903846l/27209676._SX318_.jpg
-  published_at: 2020-05-16
-  rating: 4
-  read_at: 2020-05-16
-  title: Acá había un río
