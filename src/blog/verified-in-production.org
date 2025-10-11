@@ -4,8 +4,7 @@ date: 2025-10-11
 layout: post
 lang: en
 tags: [software]
-draft: true
-refs: [solvers]
+refs: [solvers, charity]
 excerpt: Pining for the (Jira) fields.
 image: fjords.png
 ---
@@ -67,7 +66,7 @@ With this updated definition of /done/, the team velocity now suffers when work 
 
 The usefulness of the 'Awaiting deployment' column should come as no surprise, as it is common industry knowledge that [[https://charity.wtf/2019/05/01/friday-deploy-freezes-are-exactly-like-murdering-puppies/][deploys are the heartbeat of a company]]. The benefits of 'Needs to be verified in production' may be less obvious.
 
-To close a ticket, developers now need to ask themselves: /what is a reasonable way to prove that the code does what I think it does?/ How exactly this verification should be carried out is not strictly defined, and is best left as an exercise to the developer. If a user interface is not available, it may suffice to query a database, check logs and metrics, or probe a production server. This routine procedure is an incentive to improve the observability of the system.
+To close a ticket, developers now need to ask themselves: /what is a reasonable way to prove that the code does what I think it does?/ How exactly this verification should be carried out is not strictly defined, and is best left as an exercise to the developer. If a user interface is not available, it may suffice to query a database, check logs and metrics, or probe a production server. This routine procedure adds an incentive to improve the observability of the system.
 
 Hopefully it's not a big mental leap to go from /how do I prove this is working as expected/ to /does this meet the ticket requirements/ and then to /what problem was I trying to solve?/ That is: the process encourages mode 1 developers to switch---at least retroactively, at least temporarily---to mode 2.
 
