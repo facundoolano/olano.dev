@@ -1,0 +1,450 @@
+:PROPERTIES:
+:GPTEL_MODEL: claude-sonnet-4-5-20250929
+:GPTEL_BACKEND: Claude
+:GPTEL_SYSTEM: You are a large language model living in Emacs and a helpful assistant. Respond concisely.
+:GPTEL_BOUNDS: ((response (1827 3112) (3131 3163) (3164 4565) (4614 4646) (4662 5988) (6135 7270) (7951 9289) (9340 10220) (12027 13149) (14238 15129) (15130 15290) (16681 17967) (18056 18196) (19721 20789) (25774 26906) (26964 27543) (27835 28540)))
+:END:
+
+*** I'm writing a technical essay on software development, where I compare two "modes of operation" that developers can assume (depending on their inclinations, the organization and team context, and the nature of the specific tasks they need to tackle). one mode is thinking that their job is to complete tickets assigned to them, the other mode is to think their duty is to ship product features/business value, the tickets being just an auditability tool for project management purposes. the second mode would strive to understand what's the requirement/intent behind the ticket more than meeting the specific requirement expressed in the ticket description.
+
+now for the sake of the argument I'm naming those two modes of working as "mode 1" and "mode 2" developers. I'm interested first in seeing if the "mode 1/2" expression is loaded with meaning already, perhaps on different contexts, to decide which of the groups should be 1 and which 2, considering that my opinion is that the business value mode is better than the ticket completing mode (even though  all devs switch modes on different contexts, and there's nothing wrong about assuming either mode).
+
+secondly I'd like to hear ideas of nomenclature alternative to this mode 1/2 option, especially if there already exist known categories in similar discussions
+
+(please skip repeating back my statemets in your answer)
+
+
+* On "Mode 1/Mode 2" terminology
+
+This phrasing carries baggage from *Bimodal IT* (Gartner, ~2014), where Mode 1 = stable/traditional and Mode 2 = agile/exploratory. Mode 2 was positioned as "better" for innovation, so labeling your ticket-completers as Mode 1 would align with existing negative connotations, which may not serve your argument well.
+
+The terminology also evokes *Kahneman's System 1/System 2 thinking*, where System 1 = fast/intuitive and System 2 = slow/deliberate. This doesn't map cleanly to your distinction.
+
+* Alternative nomenclatures
+
+*Existing frameworks:*
+- *Tactical vs. Strategic* developers
+- *Task-oriented vs. Outcome-oriented*
+- *Ticket-driven vs. Value-driven*
+- *Scripted vs. Interpretive* (borrowing from theatrical performance)
+- *Transactional vs. Translational* (the latter "translates" business needs into solutions)
+
+*From related literature:*
+- *Hedgehog vs. Fox* (Berlin's essay - foxes know many things, hedgehogs one big thing; inverse of your meaning but evocative)
+- *Craft vs. Engineering* mindset
+- *Implementer vs. Problem-solver* role
+
+*My suggestion:* "*Ticket-Complete*" vs. "*Intent-Driven*" modes - descriptive, neutral about the developer, critical only of the mode itself, and acknowledges both as legitimate contextual choices.
+
+*** elaborate on *Implementer vs. Problem-solver*
+
+*Implementer mode:*
+- Takes requirements as specifications to be fulfilled
+- Success = meeting acceptance criteria as written
+- Asks "how do I build this?" and "does this match the spec?"
+- Operates within the frame provided by the ticket
+- Assumes others have done the problem-definition work
+- Efficient when requirements are well-understood and change is costly
+
+*Problem-solver mode:*
+- Takes requirements as hypotheses about user/business needs
+- Success = addressing the underlying problem
+- Asks "why are we building this?" and "what problem does this solve?"
+- May challenge or reframe the ticket
+- Takes ownership of the problem space, not just the solution space
+- Creates value when requirements are uncertain or when simpler solutions exist
+
+*Strengths of this nomenclature:*
+
+1. *Familiar in software discourse* - "problem-solving" is already valorized in tech culture
+2. *Describes the activity, not the person* - avoids labeling developers as "types"
+3. *Role-based framing* - acknowledges these as stances you adopt, not identities
+4. *Neutral about context* - implementation is genuinely appropriate when specs are solid (regulated industries, well-defined APIs, maintenance work)
+
+*Weakness:*
+"Implementer" might still sound pejorative. You could soften this with "Specification-focused" vs. "Problem-focused" or "Requirements-driven" vs. "Outcome-driven" if you want more symmetry.
+
+*** are there sources you can cite aboute this *Implementer vs. Problem-solver* nomenclature?
+
+I don't have specific citations for "Implementer vs. Problem-solver" as established nomenclature in this exact context.
+
+*What I can point to:*
+
+/Related frameworks with citations:/
+
+1. *Outcome vs. Output thinking* - extensively discussed in product management literature:
+   - Josh Seiden's /Outcomes Over Output/ (2019)
+   - Marty Cagan's work on empowered product teams vs. feature factories
+
+2. *Mercenary vs. Missionary* developers:
+   - John Doerr popularized this in /Measure What Matters/ (borrowed from military context)
+   - Missionaries care about the mission, mercenaries just execute orders
+
+3. *Order-taker vs. Partner* roles:
+   - Common framing in product/engineering collaboration discussions
+   - Appears in talks/writing by Melissa Perri, Teresa Torres
+
+4. *Requirements Engineering literature* discusses:
+   - /Problem space vs. Solution space/ thinking (Jackson, Zave)
+   - /Specification-driven vs. Goal-driven/ development
+
+*Honest assessment:* "Implementer vs. Problem-solver" is my synthesis rather than established terminology from a specific source. The concept exists across these frameworks, but this particular phrasing isn't standardized.
+
+If you need citeable authority, the *outcome/output distinction* from product management has the strongest literature base and maps well to your argument.
+
+*** I seem to recall an online essay/blog post about the implementer/solver/finder categories (proposed as an alternative to junior/ssr/senior)
+
+You're likely thinking of one of these:
+
+1. *"Implementers, Solvers, and Finders"* - This framework does circulate in engineering management circles, distinguishing:
+   - /Implementers/: execute on defined solutions
+   - /Solvers/: figure out how to solve defined problems
+   - /Finders/: identify which problems to solve
+
+   This maps to seniority as: junior → mid → senior/staff
+
+2. Possible sources:
+   - *Charity Majors* (Honeycomb CTO) has written about similar progression frameworks
+   - *Will Larson* (*Staff Engineer/ book, staffeng.com) discusses moving from "task execution" to "problem selection"
+   - *Pat Kua* has written about technical leadership progression with similar framing
+
+3. It might also be *"Makers, Multipliers, and Menders"* or variations in engineering ladder/career frameworks
+
+I can't pinpoint the exact essay you're remembering, but the Implementer/Solver/Finder trichotomy is definitely part of engineering level discussions. If you remember any other details (author, publication venue, approximate year), I could narrow it down.
+
+Does "Finder" being the highest level ring a bell with what you read?
+
+*** going back to the mode 1 / mode 2 nomenclature, I want to clarify that I do think that outcome-oriented/solver is preferable/more effective than task/ticket-oriented/implementor. I just don't want the tone of my article to be judgemental with those who are confortable with staying as implementors, and I acknowledge that for energy/health management it can be useful to switch modes. but I don't want to avoid the negative connotation at all costs necessarily. with that in mind, is mode 2 a reasonable assignment for the problem solver mindset, considering it requires a more deliberate effort on completing the tasks than just going through the motions/adhering to spec?
+
+/Yes, Mode 2 for problem-solver works well given your framing./
+
+Your reasoning aligns with System 1/System 2 thinking: Mode 1 (ticket-completion) is the /default, lower-cognitive-load/ state - you can execute without engaging deeply. Mode 2 (outcome-oriented) requires /deliberate activation/ - questioning assumptions, seeking context, challenging requirements.
+
+/This framing supports your argument:/
+
+- Mode 1 = the path of least resistance, autopilot-capable
+- Mode 2 = intentional engagement, requires mental energy
+- The numbering implies Mode 2 is an /upgrade/ or /evolution/ from Mode 1 without being harshly judgmental
+- Acknowledges Mode 1 as legitimate baseline (everyone starts there, returns there when depleted)
+
+/Additional benefit:/
+
+Calling it "modes" rather than "types" already does the work you want - it frames these as /states you occupy/ rather than /identities you have/. "I'm in Mode 1 today" vs. "I'm a Mode 1 developer" carries very different weight.
+
+/Potential concern:/
+
+The Gartner Bimodal IT baggage might still confuse readers familiar with that framework, but if your audience is primarily developers rather than IT management, this is minimal risk.
+
+*Recommendation:* Mode 1/Mode 2 works. Consider one clarifying sentence early: "Mode 2 requires deliberate cognitive effort that Mode 1 doesn't demand."
+
+***  is "sticking to the book" a common phrase?
+
+*"Sticking to the book" is not standard./
+
+/Common phrases:/
+
+- /"Going by the book"/ - following rules/procedures exactly
+- /"By the book"/ - in strict accordance with established rules
+- /"Sticking to the script"/ - following predetermined plan without deviation
+- /"Playing it by the book"/ - same as "going by the book"
+
+/Usage:/
+- "He's a by-the-book manager" ✓
+- "They went by the book" ✓
+- "Sticking to the book" ✗ (non-standard, but understandable)
+
+/For your context:/
+
+If describing Mode 1 developers who adhere strictly to ticket specs:
+- "going by the book"
+- "following the script"
+- "adhering to spec"
+- "letter of the law" (vs. spirit of the law)
+
+/Note:/ "Sticking to" works with other objects ("sticking to the plan," "sticking to procedures"), so your phrasing isn't /wrong/, just uncommon enough that it might read as non-native or slightly off to some readers.
+
+*** I will now share my article's text in segments. your job is to proofread (not rewriting) spotting typos, grammar and verb tense mistakes, misused or confusing expressions (considering I'm not a native english speaker). don't try to correct or endorse the style. the text is in org mode
+
+first section
+#+begin_verbatim
+---
+title: '“Needs to be verified in production”'
+date: 2025-10-11
+layout: post
+lang: en
+tags: [software]
+draft: true
+refs: [solvers]
+excerpt: Pining for the (Jira) fields.
+image: fjords.png
+---
+
+Some developers think that their job is to close Jira tickets, others that it's solving business problems.
+Let's call these mode 1 (process-oriented) and mode 2 (problem-oriented)[fn:1]. While I'm inclined to think that the second mode is more effective and makes my own work more enjoyable, both are valid and honest. What's more, most of us will switch modes based on our perceived relevance of the task at hand, our interest in it, our current level of energy, etc.
+
+Whether one mode of operation is preferable or even possible at a given organization depends on the prevailing culture and the business processes in place. A healthy organization will ideally be flexible enough to accommodate both types of work, but if it is to accept or encourage mode 1 development, it's necessary that the processes guarantee that a developer playing strictly by the book will arrive to desirable outcomes. For instance, there should be formal instances to disambiguate requirements and flesh out acceptance criteria before programming work begins.
+
+[fn:1] This framing roughly maps to the [[https://rkoutnik.com/2016/04/21/implementers-solvers-and-finders.html][problem solver vs solutions implementer]] categorization.
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
+#+end_verbatim
+
+
+**Proofread feedback:*
+
+1. *Date error:* =date: 2025-10-11= - This is a future date. Should likely be =2025-01-11= or =2024-10-11=?
+
+2. *"Pining for the (Jira) fields"* - This is a pun on "pining for the fjords" (Monty Python). Works if intentional, but verify the image filename matches (you have =fjords.png=).
+
+3. *"most of us will switch"* → *"most of us switch"* (simple present for habitual actions is more natural here)
+
+4. *"our perceived relevance"* → *"our perception of the relevance"* or *"how relevant we perceive"* (more idiomatic)
+
+5. *"both types of work"* - minor: you've called them "modes of operation" not "types of work." Consider "both modes" for consistency.
+
+6. *"if it is to accept"* → *"if it accepts"* or *"if it is to accommodate"* (parallel structure with "accommodate" later in sentence)
+
+7. *"playing strictly by the book"* ✓ (correct idiom)
+
+8. *"will arrive to"* → *"will arrive at"* (correct preposition)
+
+9. *Footnote:* The link text shows implementation vs. problem-solver order reversed from your Mode 1/Mode 2 assignment. Intentional?
+
+*Otherwise clean.* Style and argument flow well.
+
+*** next section
+
+#+begin_quote
+Most companies I worked for have a development process, specified as a ticket lifecycle on Jira or a similar app, that looks more or less like this:
+
+#+begin_center
+| Backlog | Selected for sprint | In progress | In review | Done |
+#+end_center
+
+For a mode 1 developer, the job is done when a pull-request is merged, so they move the associated ticket to the /Done/ column. If changes are necessary or there are bugs to be fixed, they will make their way into the backlog in the form of new tickets.
+
+But, especially when a bug is caught by a user or a stakeholder, someone may ask, perhaps during a retrospective or post-mortem meeting: /Why did we miss this during development? How could we prevent it in the future?/ I imagine there are as many answers to these questions as software teams in the world, but too often I see the conclusion boiling down to: /We missed this in our unit testing; we should work on better coverage next time/. I'm [[unit-testing-principles][all about automated testing]], but I find this framing unfortunate.
+#+end_quote
+
+
+**Proofread feedback:*
+
+1. /"Most companies I worked for"/ → /"Most companies I've worked for"/ or /"Most companies I have worked for"/ (present perfect for experiences up to now)
+
+2. /Table formatting/ - Org mode table syntax is correct, assuming it renders properly in your setup
+
+3. /"the job is done when a pull-request is merged"/ → /"pull request"/ (more commonly written as two words, though "pull-request" isn't wrong)
+
+4. /"they move"/ - subject ambiguity: does "they" refer to the developer or to changes/bugs? Suggest: /"so they [the developer] move"/ or rephrase for clarity
+
+5. /"especially when a bug is caught"/ ✓
+
+6. /"Why did we miss this during development?"/ ✓
+
+7. /"too often I see the conclusion boiling down to"/ → /"too often I see the conclusion boil down to"/ (no gerund after "see")
+
+8. /"I'm [[unit-testing-principles][all about automated testing]]"/ - link syntax
+ looks fine, assuming it resolves correctly
+
+9. /"but I find this framing unfortunate"/ ✓
+
+*Overall: Very clean.* Only real issue is #7 (verb form after "see").
+
+*** next
+
+#+begin_quote
+A particular team I worked on had a slightly refined workflow:
+
+#+begin_center
+| Backlog | Selected for sprint | In progress | In review | *Awaiting deployment* | *Needs to be verified in production* | Done |
+#+end_center
+
+While I'm firmly in the "individuals and interactions over processes and tools" camp, every now and then I find myself pining for +the fjords+ those two extra columns, wishing we had them (and the culture they represent) at my current project. Those two columns are loaded; there are many benefits to this little workflow adjustment.
+
+When a pull request gets merged, it's now the ticket assignee's responsibility to see the code deployed, which, if not fully automated, may mean taking over release duties themselves. The 'Awaiting deployment' column then acts as an indicator of project health: teams with bad release hygiene would struggle to ignore an ever-growing pile of tickets; asymptotic MVPs and kafkaesque legacy modernizations would have no place to hide.
+
+With this updated definition of /done/, the team velocity now suffers when work is not released, so a mode 1 project manager will also have an incentive to push for frequent deploys. Which is in their best interest, not least because the taller the 'Awaiting deployment' column gets, the more likely your mode 2 devs are interviewing for their next position.
+#+end_quote
+
+
+**Proofread feedback:*
+
+1. /"I worked on"/ → /"I worked with"/ or /"I was on"/ (more natural phrasing)
+
+2. /"+the fjords+"/ - strikethrough syntax - verify this renders as intended in your output format
+
+3. /"those two extra columns, wishing we had them"/ - slight redundancy but acceptable for emphasis
+
+4. /"at my current project"/ → /"on my current project"/ (standard preposition)
+
+5. /"Those two columns are loaded"/ ✓ (colloquial but effective)
+
+6. /"When a pull request gets merged"/ ✓
+
+7. /"it's now the ticket assignee's responsibility"/ ✓
+
+8. /"may mean taking over release duties themselves"/ - /"themselves"/ is slightly awkward here (singular assignee, reflexive plural). Consider /"may mean the assignee takes over release duties"/ or accept the conversational they/themselves
+
+9. /"teams with bad release hygiene"/ ✓
+
+10. /"asymptotic MVPs and kafkaesque legacy modernizations"/ - /"kafkaesque"/ typically lowercase (it's an adjective derived from proper noun, usually not capitalized in English)
+
+11. /"the team velocity now suffers"/ ✓
+
+12. /"Which is"/ - sentence fragment starting with "Which." Either connect with comma to previous sentence, or rephrase: /"This is in their best interest"/
+
+*Main issues:* #4 (at→on), #10 (kafkaesque capitalization), #12 (fragment).
+
+*** I'm already using lowercase for kafkaesque capitalization, what's the suggestion?
+
+My apologies - you're correct, you already have it lowercase. I misread it.
+
+/"kafkaesque"/ ✓ (correctly lowercase)
+
+No change needed there.
+
+*** last segment
+
+#+begin_quote
+The usefulness of the 'Awaiting deployment' column should come as no surprise, as it is common industry knowledge that [[https://charity.wtf/2019/05/01/friday-deploy-freezes-are-exactly-like-murdering-puppies/][deploys are the heartbeat of a company]]. The benefits of 'Needs to be verified in production' may be less obvious.
+
+To close a ticket, developers now need to ask themselves: /what is a reasonable way to prove that the code does what I think it does?/ How exactly this verification should be carried out is not strictly defined, and is best left as an exercise to the developer. If a user interface is not available, it may suffice to query a database, check logs and metrics, or probe a production server. The routine of this procedure is an incentive to improve the observability of the system.
+
+Hopefully it's not a big mental leap to go from /how do I prove this is working as expected/ to /does this meet the ticket requirements/ and then to /what problem was I trying to solve?/ That is: the process encourages mode 1 developers to switch---at least retroactively, at least temporarily---to mode 2.
+
+While ad hoc tests and probes lack the good reputation and protection against regressions of automated tests, I can't overstate how much value can be extracted from a few production checks, how many integration issues they catch, how much they contribute to a general sense of [[software-design-is-knowledge-building][confidence and ownership]] over a system.
+#+end_quote
+
+
+**Proofread feedback:/
+
+1. /"The usefulness of the 'Awaiting deployment' column should come as no surprise"/ ✓
+
+2. /"deploys are the heartbeat of a company"/ ✓
+
+3. /"may be less obvious"/ ✓
+
+4. /"developers now need to ask themselves"/ ✓
+
+5. /"what is a reasonable way to prove that the code does what I think it does?"/ ✓
+
+6. /"is best left as an exercise to the developer"/ ✓ (nice turn of phrase)
+
+7. /"it may suffice to query"/ ✓
+
+8. /"The routine of this procedure"/ - slightly awkward. Consider /"The regularity of this procedure"/ or /"Making this routine"/ or /"This routine procedure"/
+
+9. /"Hopefully it's not a big mental leap"/ ✓ (conversational tone works here)
+
+10. /"to switch---at least retroactively"/ - em dash spacing varies by style guide; yours is consistent
+
+11. /"ad hoc tests"/ ✓ (correctly not hyphenated as adjective phrase)
+
+12. /"I can't overstate"/ ✓
+
+13. /"how much they contribute to a general sense of confidence"/ ✓
+
+/Main issue:/ #8 ("The routine of this procedure" - awkward phrasing)
+
+/Otherwise excellent./ Clear, engaging writing.
+
+*** I will now share the entire text again, after applying corrections, copied from the already rendered html (so don't mind links and formatting, focus no the text). make sure to double check what you suggest
+
+#+begin_quote
+“Needs to be verified in production”
+2025-10-11 #software
+
+Some developers think that their job is to close Jira tickets, others that it’s solving business problems. Let’s call these mode 1 (process-oriented) and mode 2 (problem-oriented)1. While I’m inclined to think that the second mode is more effective and makes my own work more enjoyable, both are valid and honest. What’s more, most of us switch modes based on our perceived relevance of the task at hand, our interest in it, our current level of energy, etc.
+
+Whether one mode of operation is preferable or even possible at a given organization depends on the prevailing culture and the business processes in place. A healthy organization will ideally be flexible enough to accommodate both, but if it accepts or encourages mode 1 development, it’s necessary that the processes guarantee that a developer playing strictly by the book will arrive at desirable outcomes. For instance, there should be formal instances to disambiguate requirements and flesh out acceptance criteria before programming work begins.
+
+∗ ∗ ∗
+
+Most companies I’ve worked for have a development process, specified as a ticket lifecycle on Jira or a similar app, that looks more or less like this:
+Backlog 	Selected for sprint 	In progress 	In review 	Done
+
+For a mode 1 developer, the job is Done when a pull request is merged and the ticket closed. If changes are necessary or there are bugs to be fixed, they will make their way into the backlog in the form of new tickets.
+
+But, especially when a bug is caught by a user or a stakeholder, someone may ask, perhaps during a retrospective or post-mortem meeting: Why did we miss this during development? How could we prevent it in the future? I imagine there are as many answers to these questions as software teams in the world, but too often I see the conclusion boil down to: We missed this in our unit testing; we should work on better coverage next time. I’m all about automated testing, but I find this framing unfortunate.
+
+∗ ∗ ∗
+
+A particular team I worked with had a slightly refined workflow:
+Backlog 	Selected for sprint 	In progress 	In review 	Awaiting deployment 	Needs to be verified in production 	Done
+
+While I’m firmly in the “individuals and interactions over processes and tools” camp, every now and then I find myself pining for the fjords those two extra columns, wishing we had them (and the culture they represent) on my current project. Those two columns are loaded; there are many benefits to this little workflow adjustment.
+
+When a pull request gets merged, it’s now the ticket assignee’s responsibility to see the code deployed, which, if not fully automated, may mean taking over release duties. The ‘Awaiting deployment’ column then acts as an indicator of project health: teams with bad release hygiene would struggle to ignore an ever-growing pile of tickets; asymptotic MVPs and kafkaesque legacy modernizations would have no place to hide.
+
+With this updated definition of done, the team velocity now suffers when work is not released, so a mode 1 project manager will also have an incentive to push for frequent deploys. This is in their best interest, not least because the taller the ‘Awaiting deployment’ column gets, the more likely your mode 2 devs are interviewing for their next position.
+
+∗ ∗ ∗
+
+The usefulness of the ‘Awaiting deployment’ column should come as no surprise, as it is common industry knowledge that deploys are the heartbeat of a company. The benefits of ‘Needs to be verified in production’ may be less obvious.
+
+To close a ticket, developers now need to ask themselves: what is a reasonable way to prove that the code does what I think it does? How exactly this verification should be carried out is not strictly defined, and is best left as an exercise to the developer. If a user interface is not available, it may suffice to query a database, check logs and metrics, or probe a production server. This routine procedure is an incentive to improve the observability of the system.
+
+Hopefully it’s not a big mental leap to go from how do I prove this is working as expected to does this meet the ticket requirements and then to what problem was I trying to solve? That is: the process encourages mode 1 developers to switch—at least retroactively, at least temporarily—to mode 2.
+
+While ad hoc tests and probes lack the good reputation and protection against regressions of automated tests, I can’t overstate how much value can be extracted from a few production checks, how many integration issues they catch, how much they contribute to a general sense of confidence and ownership over a system.
+Notes
+1
+
+This framing roughly maps to the solutions implementer vs problem solver categorization.
+#+end_quote
+
+
+
+**Final proofread:*
+
+*Issues found:*
+
+1. *Date:* =2025-10-11= - Still shows future date (October 2025). Verify intended date.
+
+2. *"pining for the fjords those two extra columns"* - The strikethrough didn't render. This reads oddly without visual indication. Consider: "pining for ~~the fjords~~ those two extra columns" or just "pining for those two extra columns"
+
+3. *"may mean taking over release duties"* - You removed "themselves" which was my suggestion. Good fix. ✓
+
+4. *"This routine procedure"* - Good fix from "The routine of this procedure" ✓
+
+*Excellent corrections overall. Text is clean and ready.*
+
+*Minor style note (not an error):* In the last paragraph, you have three parallel "how much/how many" clauses. This creates nice rhythm, but the final one breaks pattern slightly:
+- "how much value can be extracted"
+- "how many integration issues they catch"
+- "how much they contribute to a general sense..."
+
+The last could be "how much *of* a sense of confidence..." for tighter parallelism, but your current version is perfectly grammatical and arguably more natural.
+
+*No other issues found.* Well-written piece.
+
+*** how is it that the last clause breaks the pattern?
+
+You're right to question me - it doesn't break the pattern.
+
+All three clauses follow the same structure:
+- "how much [noun phrase]"
+- "how many [noun phrase]"
+- "how much [noun phrase]"
+
+The pattern is consistent: /how much/many + [they do something]/
+
+I mistakenly thought there was awkwardness because the third clause is longer ("contribute to a general sense of confidence and ownership"), but length doesn't break parallelism. The grammatical structure is identical across all three.
+
+/My comment was wrong./ The parallelism is fine as written. Apologies for the confusion.
+
+*** final notes: the date is correct, you are probably assuming it's in the feature out of your old training data set. the pining for +the fjords+ is rendering correctly (just not copying over). it's intended as joke referencing the monty python sketch (I don't care if it's out of place)
+
+Understood on all points:
+
+1. *Date:* You're right - I don't have access to current date information and was incorrectly assuming 2025-10 was in the future. My apologies.
+
+2. *Strikethrough rendering:* Noted that it displays correctly in your output format, just didn't copy over to plain text. The Monty Python reference works well with your fjords.png image.
+
+3. *Overall assessment:* Your text is clean and ready to publish. No actual errors remaining.
+
+*Article is publication-ready.* Good piece - the Mode 1/Mode 2 framing works effectively, and the "Needs to be verified in production" column insight is valuable. The progression from process observation to cultural implications is well-structured.
+
+***

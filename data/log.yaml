@@ -1,3 +1,6 @@
+- date: 2025-10-11
+  txt: published [“Needs to be verified in production”](/blog/verified-in-production)
+  tags: [blog]
 - date: 2025-10-10
   txt: updated sources and links in [news.olano.dev](https://news.olano.dev)
   tags: [projects]
