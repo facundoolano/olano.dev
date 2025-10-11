@@ -1,0 +1,46 @@
+---
+title: "\"Needs to be verified in production\""
+date: 2025-10-11
+layout: post
+lang: en
+tags: [software]
+draft: true
+refs: [solvers]
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+Some developers think their job is to close Jira tickets, others that their job is to solve business problems.
+Let's call these mode 1 (task-oriented) and mode 2 (outcome-oriented)[fn:1]. While I'm inclined to think the first mode is more effective and makes my own work more enjoyable, I think both are valid and honest ways of working. What's more, most of us will switch modes based on our perceived relevance of the task at hand, our interest in it, our current level of energy, etc.
+
+Whether one mode of operation is preferable or even possible at a given organization depends on the prevailing culture and the business processes in place. A healthy organization will ideally be flexible enough to accommodate both types of work, but if it is to accept or encourage mode 1 development, it's necessary that the processes guarantee that a developer playing by the book will arrive to desirable outcomes. For instance, there should be formal instances to disambiguate requirements and flesh out the acceptance criteria of the tasks before work is started.
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
+
+Most companies I worked for had a process that looked more or less like this, specified as ticket lifecycle in Jira or a similar app:
+
+#+begin_center
+Backlog → Selected for sprint → In progress → In review → Done
+#+end_center
+
+For a mode 1 developer, the job is done when a pull-request is merged and its associated ticket is moved to the /Done/ column. If changes are necessary or there are bugs to be fixed, they will make their way into the backlog in the form of new tickets.
+
+But, especially when a bug is caught by a user or a stakeholder, someone may ask, perhaps in a retrospective or a post-mortem meeting: why did we miss this during development? how could we prevent it in the future? I imagine there are as many answers to these questions as software teams in the world, but too often I see the discussion boil down to: we missed this in our unit tests, we should work on better coverage from now on. I'm [[unit-testing-principles][all about automated testing]], but I find this framing is unfortunate.
+
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
+
+A particular team I worked on had refined their workflow:
+
+#+begin_center
+Backlog → Selected for sprint → In progress → In review → Awaiting deployment → Needs to be verified in production → Done
+#+end_center
+
+
+*** Notes
+
+[fn:1] This framing roughly maps to the [[https://rkoutnik.com/2016/04/21/implementers-solvers-and-finders.html][problem solver vs solutions implementer]] categorization.
