@@ -70,7 +70,7 @@ To close a ticket, developers now need to ask themselves: /what is a reasonable 
 
 Hopefully it's not a big mental leap to go from /how do I prove this is working as expected/ to /does this meet the ticket requirements/ and then to /what problem was I trying to solve?/ That is: the process encourages mode 1 developers to switch---at least retroactively, at least temporarily---to mode 2.
 
-While ad hoc tests and probes lack the good reputation and protection against regressions of automated tests, I can't overstate how much value can be extracted from a few production checks, how many integration issues they catch, how much they contribute to a general sense of [[software-design-is-knowledge-building][confidence and ownership]] over a system.
+While ad hoc tests and probes lack the good reputation and protection against regressions of automated tests, I can't overstate how much value can be extracted from a few production checks, how many integration issues they catch, how much they contribute to a general sense of [[software-design-is-knowledge-building][confidence and ownership]] over a software system.
 
 *** Notes
 
