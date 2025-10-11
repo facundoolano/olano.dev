@@ -1,11 +1,13 @@
 ---
-title: "\"Needs to be verified in production\""
+title: '“Needs to be verified in production”'
 date: 2025-10-11
 layout: post
 lang: en
 tags: [software]
 draft: true
 refs: [solvers]
+excerpt: Pining for the (Jira) fields.
+image: fjords.png
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
@@ -25,23 +27,23 @@ refs: [solvers]
 
 
 Some developers think their job is to close Jira tickets, others that their job is to solve business problems.
-Let's call these mode 1 (task-oriented) and mode 2 (outcome-oriented)[fn:1]. While I'm inclined to think the second mode is more effective and makes my own work more enjoyable, both are valid and honest ways of working. What's more, most of us will switch modes based on our perceived relevance of the task at hand, our interest in it, our current level of energy, etc.
+Let's call these mode 1 (ticket-oriented) and mode 2 (problem-oriented)[fn:1]. While I'm inclined to think the second mode is more effective and makes my own work more enjoyable, both are valid and honest ways of working. What's more, most of us will switch modes based on our perceived relevance of the task at hand, our interest in it, our current level of energy, etc.
 
-Whether one mode of operation is preferable or even possible at a given organization depends on the prevailing culture and the business processes in place. A healthy organization will ideally be flexible enough to accommodate both types of work, but if it is to accept or encourage mode 1 development, it's necessary that the processes guarantee that a developer playing by the book will arrive to desirable outcomes. For instance, there should be formal instances to disambiguate requirements and flesh out the acceptance criteria of the tasks before work is started.
+Whether one mode of operation is preferable or even possible at a given organization depends on the prevailing culture and the business processes in place. A healthy organization will ideally be flexible enough to accommodate both types of work, but if it is to accept or encourage mode 1 development, it's necessary that the processes guarantee that a developer playing by the book will arrive to desirable outcomes. For instance, there should be formal instances to disambiguate requirements and flesh out acceptance criteria before development begins.
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-Most companies I worked for had a process that looked more or less like this, specified as a ticket lifecycle in Jira or a similar app:
+Most companies I worked for had a process that looked more or less like this, specified as a ticket lifecycle on Jira or a similar app:
 
 #+begin_center
 | Backlog | Selected for sprint | In progress | In review | Done |
 #+end_center
 
-For a mode 1 developer, the job is done when a pull-request is merged and its associated ticket is moved to the /Done/ column. If changes are necessary or there are bugs to be fixed, they will make their way into the backlog in the form of new tickets.
+For a mode 1 developer, the job is done when a pull-request is merged so they move the associated ticket to the /Done/ column. If changes are necessary or there are bugs to be fixed, they will make their way into the backlog in the form of new tickets.
 
-But, especially when a bug is caught by a user or a stakeholder, someone may ask, perhaps during a retrospective or post-mortem meeting: why did we miss this during development? how could we prevent it in the future? I imagine there are as many answers to these questions as software teams in the world, but too often I see a conclusion boiling down to: we missed this in our unit testing, we should work on better coverage next time. I'm [[unit-testing-principles][all about automated testing]], but I find this framing unfortunate.
+But, especially when a bug is caught by a user or a stakeholder, someone may ask, perhaps during a retrospective or post-mortem meeting: why did we miss this during development? how could we prevent it in the future? I imagine there are as many answers to these questions as software teams in the world, but too often I see the conclusion boiling down to: we missed this in our unit testing, we should work on better coverage next time. I'm [[unit-testing-principles][all about automated testing]], but I find this framing unfortunate.
 
 
 #+BEGIN_CENTER
@@ -54,16 +56,23 @@ A particular team I worked on had a refined workflow:
 | Backlog | Selected for sprint | In progress | In review | *Awaiting deployment* | *Needs to be verified in production* | Done |
 #+end_center
 
-While I'm firmly in the "individuals and interactions over processes and tools" camp, every now and then I remember those extra columns and find myself wishing we had them (and the culture they represent) at my current project. Those two columns are loaded; there are many benefits to this little workflow adjustment.
+While I'm firmly in the "individuals and interactions over processes and tools" camp, every now and then I find myself pining for +the fjords+ those extra columns, wishing we had them (and the culture they represent) at my current project. Those two columns are loaded; there are many benefits to this little workflow adjustment.
 
 When a pull request gets merged, it's now the ticket assignee's responsibility to see the code deployed which, if not fully automated, may mean taking over release duties themselves. The 'Awaiting deployment' column acts as an indicator of project health: teams with bad release discipline would struggle to ignore an ever-growing pile of tickets; asymptotic MVPs and kafkaesque legacy modernizations would have no place to hide.
 
-<fixme missing bits
+With the definition of /done/ changed, the team velocity now suffers if work is not released, so the mode 1 project manager will also have an incentive to push for frequent deploys. Which is in their best interest not least because the taller the 'Awaiting deployment' column gets, the more likely your mode 2 devs are interviewing for their next position.
 
-It's no surprise that the 'Awaiting deployment' column is useful: it's common industry knowledge that
-[[https://charity.wtf/2019/05/01/friday-deploy-freezes-are-exactly-like-murdering-puppies/][deploys are the heartbeat of a company]].
-<The verified in production column may be less intuitive
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
 
+The usefulness of the 'Awaiting deployment' column should come as no surprise, as it is common industry knowledge that [[https://charity.wtf/2019/05/01/friday-deploy-freezes-are-exactly-like-murdering-puppies/][deploys are the heartbeat of a company]]. The benefits of 'Needs to be verified in production' may be less obvious.
+
+Developers now need to ask themselves: /what is a reasonable way to prove that the code does what I think it does?/ How exactly this verification should be carried out is not strictly defined, and is best left as an exercise to the developer. If a user interface is not available, querying a database, checking the logs, or probing a production server may suffice. The routine of this procedure is an incentive to improve the observability of the system.
+
+Hopefully it's not a big mental leap to go from /how do I prove this is working as expected/ to /does this meet the ticket requirements/ and then to /what problem was I trying to solve?/ That is: the process encourages mode 1 developers to switch---at least retroactively---to mode 2.
+
+While they lack the good reputation and protection against regressions of automated tests, I can't overstate how much value can be extracted from a few ad hoc smoke tests and probes in production, how many integration issues they catch, how much they contribute to a general sense of [[software-design-is-knowledge-building][confidence and ownership]] over a system.
 
 *** Notes
 
