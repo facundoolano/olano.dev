@@ -70,8 +70,10 @@ To close a ticket, developers now need to ask themselves: /what is a reasonable 
 
 Hopefully it's not a big mental leap to go from /how do I prove this is working as expected/ to /does this meet the ticket requirements/ and then to /what problem was I trying to solve?/ That is: the process encourages mode 1 developers to switch---at least retroactively, at least temporarily---to mode 2.
 
-While ad hoc tests and probes lack the good reputation and protection against regressions of automated tests, I can't overstate how much value can be extracted from a few production checks, how many integration issues they catch, how much they contribute to a general sense of [[software-design-is-knowledge-building][confidence and ownership]] over a software system.
+While ad hoc tests and probes lack the good reputation and protection against regressions of automated tests, I can't overstate how much value can be extracted from a few production checks, how many integration issues they catch, how much they contribute to a general sense of [[software-design-is-knowledge-building][confidence and ownership]] over a software system[fn:2].
 
 *** Notes
 
 [fn:1] This framing roughly maps to the [[https://rkoutnik.com/2016/04/21/implementers-solvers-and-finders.html][solutions implementer vs problem solver]] categorization.
+
+[fn:2] This post was proofread by an LLM, I uploaded the full conversation [[verified-in-production-llm-proofread.txt][here]].
