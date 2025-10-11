@@ -27,40 +27,39 @@ image: fjords.png
 
 
 Some developers think that their job is to close Jira tickets, others that it's solving business problems.
-Let's call these mode 1 (process-oriented) and mode 2 (problem-oriented)[fn:1]. While I'm inclined to think that the second mode is more effective and makes my own work more enjoyable, both are valid and honest. What's more, most of us will switch modes based on our perceived relevance of the task at hand, our interest in it, our current level of energy, etc.
+Let's call these mode 1 (process-oriented) and mode 2 (problem-oriented)[fn:1]. While I'm inclined to think that the second mode is more effective and makes my own work more enjoyable, both are valid and honest. What's more, most of us switch modes based on our perceived relevance of the task at hand, our interest in it, our current level of energy, etc.
 
-Whether one mode of operation is preferable or even possible at a given organization depends on the prevailing culture and the business processes in place. A healthy organization will ideally be flexible enough to accommodate both types of work, but if it is to accept or encourage mode 1 development, it's necessary that the processes guarantee that a developer playing strictly by the book will arrive to desirable outcomes. For instance, there should be formal instances to disambiguate requirements and flesh out acceptance criteria before programming work begins.
+Whether one mode of operation is preferable or even possible at a given organization depends on the prevailing culture and the business processes in place. A healthy organization will ideally be flexible enough to accommodate both, but if it accepts or encourages mode 1 development, it's necessary that the processes guarantee that a developer playing strictly by the book will arrive at desirable outcomes. For instance, there should be formal instances to disambiguate requirements and flesh out acceptance criteria before programming work begins.
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-Most companies I worked for have a development process, specified as a ticket lifecycle on Jira or a similar app, that looks more or less like this:
+Most companies I've worked for have a development process, specified as a ticket lifecycle on Jira or a similar app, that looks more or less like this:
 
 #+begin_center
 | Backlog | Selected for sprint | In progress | In review | Done |
 #+end_center
 
-For a mode 1 developer, the job is done when a pull-request is merged, so they move the associated ticket to the /Done/ column. If changes are necessary or there are bugs to be fixed, they will make their way into the backlog in the form of new tickets.
+For a mode 1 developer, the job is /Done/ when a pull request is merged and the ticket closed. If changes are necessary or there are bugs to be fixed, they will make their way into the backlog in the form of new tickets.
 
-But, especially when a bug is caught by a user or a stakeholder, someone may ask, perhaps during a retrospective or post-mortem meeting: /Why did we miss this during development? How could we prevent it in the future?/ I imagine there are as many answers to these questions as software teams in the world, but too often I see the conclusion boiling down to: /We missed this in our unit testing; we should work on better coverage next time/. I'm [[unit-testing-principles][all about automated testing]], but I find this framing unfortunate.
-
+But, especially when a bug is caught by a user or a stakeholder, someone may ask, perhaps during a retrospective or post-mortem meeting: /Why did we miss this during development? How could we prevent it in the future?/ I imagine there are as many answers to these questions as software teams in the world, but too often I see the conclusion boil down to: /We missed this in our unit testing; we should work on better coverage next time/. I'm [[unit-testing-principles][all about automated testing]], but I find this framing unfortunate.
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-A particular team I worked on had a slightly refined workflow:
+A particular team I worked with had a slightly refined workflow:
 
 #+begin_center
 | Backlog | Selected for sprint | In progress | In review | *Awaiting deployment* | *Needs to be verified in production* | Done |
 #+end_center
 
-While I'm firmly in the "individuals and interactions over processes and tools" camp, every now and then I find myself pining for +the fjords+ those two extra columns, wishing we had them (and the culture they represent) at my current project. Those two columns are loaded; there are many benefits to this little workflow adjustment.
+While I'm firmly in the "individuals and interactions over processes and tools" camp, every now and then I find myself pining for +the fjords+ those two extra columns, wishing we had them (and the culture they represent) on my current project. Those two columns are loaded; there are many benefits to this little workflow adjustment.
 
-When a pull request gets merged, it's now the ticket assignee's responsibility to see the code deployed, which, if not fully automated, may mean taking over release duties themselves. The 'Awaiting deployment' column then acts as an indicator of project health: teams with bad release hygiene would struggle to ignore an ever-growing pile of tickets; asymptotic MVPs and kafkaesque legacy modernizations would have no place to hide.
+When a pull request gets merged, it's now the ticket assignee's responsibility to see the code deployed, which, if not fully automated, may mean taking over release duties. The 'Awaiting deployment' column then acts as an indicator of project health: teams with bad release hygiene would struggle to ignore an ever-growing pile of tickets; asymptotic MVPs and kafkaesque legacy modernizations would have no place to hide.
 
-With this updated definition of /done/, the team velocity now suffers when work is not released, so a mode 1 project manager will also have an incentive to push for frequent deploys. Which is in their best interest, not least because the taller the 'Awaiting deployment' column gets, the more likely your mode 2 devs are interviewing for their next position.
+With this updated definition of /done/, the team velocity now suffers when work is not released, so a mode 1 project manager will also have an incentive to push for frequent deploys. This is in their best interest, not least because the taller the 'Awaiting deployment' column gets, the more likely your mode 2 devs are interviewing for their next position.
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
@@ -68,7 +67,7 @@ With this updated definition of /done/, the team velocity now suffers when work 
 
 The usefulness of the 'Awaiting deployment' column should come as no surprise, as it is common industry knowledge that [[https://charity.wtf/2019/05/01/friday-deploy-freezes-are-exactly-like-murdering-puppies/][deploys are the heartbeat of a company]]. The benefits of 'Needs to be verified in production' may be less obvious.
 
-To close a ticket, developers now need to ask themselves: /what is a reasonable way to prove that the code does what I think it does?/ How exactly this verification should be carried out is not strictly defined, and is best left as an exercise to the developer. If a user interface is not available, it may suffice to query a database, check logs and metrics, or probe a production server. The routine of this procedure is an incentive to improve the observability of the system.
+To close a ticket, developers now need to ask themselves: /what is a reasonable way to prove that the code does what I think it does?/ How exactly this verification should be carried out is not strictly defined, and is best left as an exercise to the developer. If a user interface is not available, it may suffice to query a database, check logs and metrics, or probe a production server. This routine procedure is an incentive to improve the observability of the system.
 
 Hopefully it's not a big mental leap to go from /how do I prove this is working as expected/ to /does this meet the ticket requirements/ and then to /what problem was I trying to solve?/ That is: the process encourages mode 1 developers to switch---at least retroactively, at least temporarily---to mode 2.
 
@@ -76,4 +75,4 @@ While ad hoc tests and probes lack the good reputation and protection against re
 
 *** Notes
 
-[fn:1] This framing roughly maps to the [[https://rkoutnik.com/2016/04/21/implementers-solvers-and-finders.html][problem solver vs solutions implementer]] categorization.
+[fn:1] This framing roughly maps to the [[https://rkoutnik.com/2016/04/21/implementers-solvers-and-finders.html][solutions implementer vs problem solver]] categorization.
