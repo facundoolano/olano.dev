@@ -20,5 +20,11 @@ image: coupling.jpg
 *** Commentary
 I got interested in this book after reading [[domain-driven-design-revisited][Learning Domain-Driven Design]] by the same author, specifically after seeing the historical perspective he applied when discussing modular design in the context of microservices. This new book didn't disappoint: it's well researched, building on the ideas of Parnas, Myers, Brooks, Conway, and Ousterhout to bring something new and applicable. Vlad Khononov does something that [[unit-testing-principles][I find is fundamental]]: to provide principled definitions that reduce our reliance on subjectivity and instinct when making software design decisions.
 
+That being said, while insightful, it's also a rather specialized book, one that I recommend to software design nerds but not necessarily to every programmer (as, say, /A Philosophy of Software Design/). (I may change this assessment if I find myself frequently using its heuristics to success).
+
+The thesis of the book is: coupling has a bad reputation, it's not something fundamentally bad that we need to remove but an attribute that we should manage strategically. Similarly to essential complexity, a useful software system can't exist without some form of coupling of it's components. An easy way to internalize this idea is remembering that /cohesion/ is sometimes defined as /good coupling/.
+
+
+
 
 *** Summary
