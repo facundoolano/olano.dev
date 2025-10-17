@@ -1,0 +1,22 @@
+---
+title: "[tl;dr] Balancing Coupling in Software Design"
+date: 2025-10-17 08:29:34
+layout: post
+lang: en
+tags: [software, books, tldr]
+refs: [coupling]
+draft: true
+image: coupling.jpg
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <a href="https://coupling.dev/" target="_blank"> <img src="{{site.config.static_root}}/img/coupling.jpg" width="320"></a>
+</div>
+#+END_EXPORT
+
+*** Commentary
+
+*** Summary
