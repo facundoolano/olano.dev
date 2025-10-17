@@ -18,5 +18,7 @@ image: coupling.jpg
 #+END_EXPORT
 
 *** Commentary
+I got interested in this book after reading [[domain-driven-design-revisited][Learning Domain-Driven Design]] by the same author, specifically after seeing the historical perspective he applied when discussing modular design in the context of microservices. This new book didn't disappoint: it's well researched, building on the ideas of Parnas, Myers, Brooks, Conway, and Ousterhout to bring something new and applicable. Vlad Khononov does something that [[unit-testing-principles][I find is fundamental]]: to provide principled definitions that reduce our reliance on subjectivity and instinct when making software design decisions.
+
 
 *** Summary
