@@ -33,11 +33,11 @@ But the balancing is not limited to "moving things around". Given that software 
 *** Summary
 
 - A *system* has components and purpose. The interaction between the components (coupling) are needed for the components to achieve the system's goal.
-  - System design is inherently about boundaries and about tradeoffs.
+  - <System design is inherently about boundaries and about tradeoffs.
   - On a smaller scale, a system's component is almost always a subsystem in its own right.
 - *Coupling* results from the components having to share knowledge, or lifecycles, or both.
   - Coupling defines not only what knowledge is allowed to flow between the components but also what knowledge should never leave their boundaries. This makes coupling a core tool for designing modular software systems.
-  - Coupling can be essential or accidental. Modular design requires eliminating accidental coupling while carefully managing the essential interrelationships.
+  - <Coupling can be essential or accidental. Modular design requires eliminating accidental coupling while carefully managing the essential interrelationships.
   - The higher the magnitude of coupling, the higher the likelihood of the coupled components having to change together.
 - *Complexity* reflects the cognitive load a person experience when interacting with a system. The greater the cognitive load, the more difficult the system is to understand, to control, to predict its behavior, and to change it.
   - *Global complexity* is the complexity of interactions between the system's components.
@@ -50,3 +50,12 @@ But the balancing is not limited to "moving things around". Given that software 
   - An effective module maximizes the knowledge it encapsulates, while sharing only the minimum that is required for other components to work with it.
 - A module following the information-hiding principle is an *abstraction*. Its public interface should focus on the functionality it provides, while hiding all the details that are not shared by all possible implementations of that functionality. The more general an abstraction is, the more stable it is.
 - A system's design should not be evaluated by examining individual modules in isolation, but the relationships between them: how they are coupled. Different ways of coupling components share different types and amounts of knowledge. Some will increase complexity, while other will contribute to modularity.
+- Coupling manifests across three dimensions: strength, space (distance), and time (volatility).
+- *Integration strength* models the type and extent of knowledge shared by coupled components. It differentiates between four levels of coupling strength:
+  - Intrusive coupling: integration through the upstream component's private interfaces or other implementation details. This makes the downstream component sensitive to all future changes in the upstream component.
+  - Functional coupling: components implement closely related business functionalities. A change in the business requirements are highly likely to affect all coupled components.
+  - Model coupling: components using a shared model of the business domain. The evolution of the model requires changes in all coupled models.
+  - Contract coupling: components using an integration-specific shared model: a contract. The integration contract abstracts the details of the model used internally in the upstream component.
+- *Distance*
+- *Volatility*
+- *Balance*
