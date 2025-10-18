@@ -32,12 +32,9 @@ But the balancing is not limited to "moving things around". Given that software 
 
 *** Summary
 
-- A *system* has components and purpose. The interaction between the components (coupling) are needed for the components to achieve the system's goal.
-  - <System design is inherently about boundaries and about tradeoffs.
-  - On a smaller scale, a system's component is almost always a subsystem in its own right.
+- A *system* has components and purpose. The interaction between the components (coupling) are needed for the components to achieve the system's goal. On a smaller scale, a system's component is almost always a subsystem in its own right.
 - *Coupling* results from the components having to share knowledge, or lifecycles, or both.
   - Coupling defines not only what knowledge is allowed to flow between the components but also what knowledge should never leave their boundaries. This makes coupling a core tool for designing modular software systems.
-  - <Coupling can be essential or accidental. Modular design requires eliminating accidental coupling while carefully managing the essential interrelationships.
   - The higher the magnitude of coupling, the higher the likelihood of the coupled components having to change together.
 - *Complexity* reflects the cognitive load a person experience when interacting with a system. The greater the cognitive load, the more difficult the system is to understand, to control, to predict its behavior, and to change it.
   - *Global complexity* is the complexity of interactions between the system's components.
