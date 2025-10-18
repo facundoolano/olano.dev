@@ -32,23 +32,24 @@ But the balancing is not limited to "moving things around". Given that software 
 
 *** Summary
 
-- A *system* has components and purpose. The interaction between the components (coupling) are needed for the components to achieve the system's goal. On a smaller scale, a system's component is almost always a subsystem in its own right.
+- A *system* has components and purpose. The interaction between the components (coupling) is necessary for the components to achieve the system's goal. On a smaller scale, a component is almost always a subsystem in its own right.
 - *Coupling* results from the components having to share knowledge, or lifecycles, or both.
-  - Coupling defines not only what knowledge is allowed to flow between the components but also what knowledge should never leave their boundaries. This makes coupling a core tool for designing modular software systems.
   - The higher the magnitude of coupling, the higher the likelihood of the coupled components having to change together.
-- *Complexity* reflects the cognitive load a person experience when interacting with a system. The greater the cognitive load, the more difficult the system is to understand, to control, to predict its behavior, and to change it.
+  - Coupling defines not only what knowledge is allowed to flow between the components but also what knowledge should never leave their boundaries. This makes coupling a core tool for designing modular software systems.
+- *Complexity* reflects the cognitive load a person experiences when interacting with a system. The greater the cognitive load, the more difficult it is to understand, control, predict, and change the behavior of the system.
   - *Global complexity* is the complexity of interactions between the system's components.
   - *Local complexity* is the complexity of a single component---the complexity of interactions happening inside it.
-  - This categorization is subjective and depends on perspective. global complexity turns into local when the system is observed from a higher level of abstraction.
+  - This categorization is subjective and depends on perspective. Global complexity turns into local when the system is observed from a higher level of abstraction.
   - The system complexity is not determined by size or amount of components but by the interactions between them.
 - A *module* is a type of component designed to improve the flexibility of a system, allowing it to evolve to support future goals.
-  - A *software module* is a boundary encompassing a well-defined functionality, which it exposes (through its public interface) for use by other parts of the system. It can represent any logical or physical boundary within a software system: a service, a namespace, an object, a function, etc.
-  - An effective module is one that hides decisions. If a decision has to be revisited, the change should only affect one module, the one that "hides" it.
+  - A software module is a boundary encompassing a well-defined functionality, which it exposes for use by other components through a public interface. Any logical or physical boundary within a software system can be thought as a module: a service, a namespace, an object, a function, etc.
+  - An effective module hides decisions. If a decision has to be revisited, the change should only affect one module, the one that "hides" it.
   - An effective module maximizes the knowledge it encapsulates, while sharing only the minimum that is required for other components to work with it.
-- A module following the information-hiding principle is an *abstraction*. Its public interface should focus on the functionality it provides, while hiding all the details that are not shared by all possible implementations of that functionality. The more general an abstraction is, the more stable it is.
+  - A module following the information-hiding principle is an *abstraction*. Its public interface should focus on the functionality it provides, while hiding all the details that are not shared by all possible implementations of that functionality.
 - A system's design should not be evaluated by examining individual modules in isolation, but the relationships between them: how they are coupled. Different ways of coupling components share different types and amounts of knowledge. Some will increase complexity, while other will contribute to modularity.
-- Coupling manifests across three dimensions: strength, space (distance), and time (volatility).
-  - The higher the integration strength (the more knowledge shared across their boundaries), the higher the likelihood that modules will need to change in unison. When such cascading changes occur, distance signifies the effort required to implement them. Volatility represents how frequently these changed are anticipated to happen.
+- Coupling manifests across three dimensions: integration strength, distance, and volatility.
+  - The higher the integration strength (the more knowledge shared across their boundaries), the higher the likelihood that modules will need to change in unison. When such cascading changes occur, distance signifies the effort required to implement them. Volatility represents how frequently these changes are anticipated to happen.
+  - When designing cross-component interactions, our goal is not to minimize the strength of coupling. The goal is a modular system: one that is simple to implement, evolve, and maintain. This can only be achieved by considering all three dimensions of coupling.
 - *Integration strength* models the type and extent of knowledge shared by coupled components. It differentiates between four levels of coupling strength:
   - Intrusive coupling: integration through the upstream component's private interfaces or other implementation details. This makes the downstream component sensitive to all future changes in the upstream component.
   - Functional coupling: components implement closely related business functionalities. A change in the business requirements are highly likely to affect all coupled components.
@@ -56,19 +57,18 @@ But the balancing is not limited to "moving things around". Given that software 
   - Contract coupling: components using an integration-specific shared model: a contract. The integration contract abstracts the details of the model used internally in the upstream component.
 - *Distance* refers to the space knowledge "travels" across coupled components. It affects the coordination and communication efforts needed to implement a change affecting the coupled components. Distance is influenced by several factors:
   - The physical location of the code: for example, it's easier to change coupled methods in a class, than coupled methods across distributed systems. On the other hand, collocating otherwise unrelated functionalities couples their lifecycles, introducing collateral changes that wouldn't be necessary if they were separate.
-  - Runtime coupling: for example, not having to introduce changes simultaneously across systems reduces coordination efforts.
-  - Organization structure: the greater the /ownership/ distance (whether components are mantained by the same person, team, department, or organization), the higher the coordination effort. Given Conway's law, over time, the ownership distances will influence the encapsulation distance of the system's modules.
+  - Organizational structure: the greater the /ownership/ distance (whether components are maintained by the same person, team, department, or organization), the higher the coordination effort.
 - *Volatility* is a component's expected rate of change.
   - One way to model volatility is through Domain-Drive Design's subdomain types: core subdomains are expected to change more frequently than supporting and generic subdomains.
-  - Investing in modularization (adjusting integration strength and distance to reduce maintenance cost) won't be as beneficial for components that are not expected to change frequently.
-- *Balance* refers to the optional state of the three dimensions of coupling, in which the design increases the modularity of the system's volatile components. An unbalanced combination of these dimensions results in increased cognitive load and, consequently, increased complexity.
-  - Not all of a large system will be well-designed, some components are more important business-wise than others.
-  - When designing cross-component interactions, our goal is not to minimize the strength of coupling. The goal is a modular system: one that is simple to implement, evolve, and maintain. This can only be achieved by considering all three dimensions of coupling.
+  - Investing in modularization won't be as beneficial for components that are not expected to change frequently.
+- *Balance* refers to the optimal state of the three dimensions of coupling, in which the design increases the modularity of the system's volatile components. An unbalanced combination of these dimensions results in increased cognitive load and, consequently, increased complexity.
 
-*** Formulas
+#+begin_export html
+<br/>
+#+end_export
 
 #+begin_src vhdl
--- there's global complexity when much knowledge
+-- there's global complexity when significant knowledge
 -- travels long distances
 global_complexity := strength() AND distance()
 
@@ -76,7 +76,7 @@ global_complexity := strength() AND distance()
 -- are collocated
 local_complexity := NOT strength() AND NOT distance()
 
--- there's modularity when there's no local nor global complexity
+-- modularity is the absence of local and global complexity
 complexity := local_complexity OR global_complexity
             = NOT (strength() XOR distance())
 modularity := NOT complexity
