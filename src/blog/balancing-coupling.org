@@ -53,6 +53,10 @@ But the balancing is not limited to "moving things around". Given that software 
   - Functional coupling: components implement closely related business functionalities. A change in the business requirements are highly likely to affect all coupled components.
   - Model coupling: components using a shared model of the business domain. The evolution of the model requires changes in all coupled models.
   - Contract coupling: components using an integration-specific shared model: a contract. The integration contract abstracts the details of the model used internally in the upstream component.
-- *Distance*
+- *Distance* refers to the space knowledge "travels" across coupled components. It affects the coordination and communication efforts needed to implement a change affecting the coupled components. Distance is influenced by several factors:
+  - The physical location of the code: for example, it's easier to change coupled methods in a class, than coupled methods across distributed systems. On the other hand, collocating otherwise unrelated functionalities couples their lifecycles, introducing collateral changes that wouldn't be necessary if they were separate.
+  - Runtime coupling: for example, not having to introduce changes simultaneously across systems reduces coordination efforts.
+  - Organization structure: the greater the /ownership/ distance (whether components are mantained by the same person, team, department, or organization), the higher the coordination effort. Given Conway's law, over time, the ownership distances will influence the encapsulation distance of the system's modules.
 - *Volatility*
+- The higher the integration strength (the more knowledge shared across their boundaries), the higher the likelihood that modules will need to change in unison. Volatility represents how frequently they are anticipated to change. When such cascading changes occur, distance signifies the effort required to implement them.
 - *Balance*
