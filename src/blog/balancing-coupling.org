@@ -66,3 +66,23 @@ But the balancing is not limited to "moving things around". Given that software 
   - When designing cross-component interactions, our goal is not to minimize the strength of coupling. The goal is a modular system: one that is simple to implement, evolve, and maintain. This can only be achieved by considering all three dimensions of coupling.
 
 *** Formulas
+
+#+begin_src vhdl
+-- there's global complexity when much knowledge
+-- travels long distances
+global_complexity := strength() AND distance()
+
+-- there's local complexity when unrelated components
+-- are collocated
+local_complexity := NOT strength() AND NOT distance()
+
+-- there's modularity when there's no local nor global complexity
+complexity := local_complexity OR global_complexity
+            = NOT (strength() XOR distance())
+modularity := NOT complexity
+            = strength() XOR distance()
+
+-- there's balance when the volatile components are modular
+balance := modularity OR NOT volatility()
+         = (strength() XOR distance()) OR NOT volatility()
+#+end_src
