@@ -30,7 +30,28 @@ To a large extent, the process can be summarized as: if modules are strongly int
 
 But the balancing is not limited to "moving things around". Given that software systems are fractal networks, one can introduce new levels of abstraction to allow them to grow beyond their structural limits---and the cognitive load its maintainers can support. This is one of the strengths of the theory presented by the book: the same principles apply at all levels of a system; there's no hard distinction between software design and architecture---not even between software systems and [[a-note-on-essential-complexity][the human systems they integrate]]---just different scales, different semantic levels: different perspectives.
 
-
-
-
 *** Summary
+
+- A *system* has components and purpose. The interaction between the components (coupling) are needed for the components to achieve the system's goal.
+  - System design is inherently about boundaries and about tradeoffs.
+  - On a smaller scale, a system's component is almost always a subsystem in its own right.
+- *Coupling* results from the components having to share knowledge, or lifecycles, or both.
+  - Coupling defines not only what knowledge is allowed to flow between the components but also what knowledge should never leave their boundaries. This makes coupling a core tool for designing modular software systems.
+  - Coupling can be essential or accidental. Modular design requires eliminating accidental coupling while carefully managing the essential interrelationships.
+  - The higher the magnitude of coupling, the higher the likelihood of the coupled components having to change together.
+- *Complexity* reflects the cognitive load a person experience when interacting with a system. The greater the cognitive load, the more difficult the system is to understand, to control, to predict its behavior, and to change it.
+  - The system complexity is not determined by size or amount of components but by the interactions between them.
+  - *Essential complexity* is inherent to the business domain for which they system is designed. Since this complexity is a fundamental part of the system's nature, it cannot be eliminated.
+  - *Accidental complexity* is not inherent to the business domain, it's a byproduct of suboptimal design decisions.
+  - It is our responsibility to manage essential complexity while avoiding accidental complexity.
+- System complexity is multidimensional:
+  - *Global complexity* is the complexity of interactions between the system's components.
+  - *Local complexity* is the complexity of a single component---the complexity of interactions happening inside it.
+  - This categorization is subjective and depends on perspective. global complexity turns into local when the system is observed from a higher level of abstraction.
+- A *module* is a type of component designed to improve the flexibility of a system, allowing it to evolve to support future goals.
+  - A module has: function (exposed to consumers through its public interface), logic (which implements its function and is hidden from consumers), and a context (requirements and assumptions) in which it should be used
+  - A software module is a boundary encompassing a well-defined functionality, which it exposes for use by other parts of the system. It can represent any logical or physical boundary within a software system: a service, a namespace, an object, a function, etc.
+  - An effective module is one that hides decisions. If a decision has to be revisited, the change should only affect one module, the one that "hides" it.
+  - In terms of knowledge sharing, an effective module maximizes the knowledge it encapsulates, while sharing only the minimum that is required for other components to work with it.
+- A module following the information-hiding principle is an *abstraction*. Its public interface should focus on the functionality it provides, while hiding all the details that are not shared by all possible implementations of that functionality. The more general an abstraction is, the more stable it is.
+- A system design should not be evaluated by examining individual modules in isolation, but the relationships between them: how they are coupled. Different ways of coupling components share different types and amounts of knowledge. Some will increase complexity, while other will contribute to modularity.
