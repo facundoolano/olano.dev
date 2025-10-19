@@ -6,7 +6,7 @@ lang: en
 tags: [software, books, tldr]
 refs: [coupling]
 draft: true
-image: formulas.png
+image: coupling.jpg
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
