@@ -40,14 +40,12 @@ But the balancing is not limited to "moving things around". Given that software 
   - *Global complexity* is the complexity of interactions between the system's components.
   - *Local complexity* is the complexity of a single component---the complexity of interactions happening inside it.
   - This categorization is subjective and depends on perspective. Global complexity turns into local when the system is observed from a higher level of abstraction.
-  - The system complexity is not determined by size or amount of components but by the interactions between them.
 - A *module* is a type of component designed to improve the flexibility of a system, allowing it to evolve to support future goals.
-  - A software module is a boundary encompassing a well-defined functionality, which it exposes for use by other components through a public interface. Any logical or physical boundary within a software system can be thought as a module: a service, a namespace, an object, a function, etc.
+  - A software module bounds a well-defined functionality, exposing it to other components through a public interface. Any logical or physical boundary within a software system can be designed as a module: a service, a namespace, an object, a function, etc.
   - An effective module hides decisions. If a decision has to be revisited, the change should only affect one module, the one that "hides" it.
   - An effective module maximizes the knowledge it encapsulates, while sharing only the minimum that is required for other components to work with it.
-  - A module following the information-hiding principle is an *abstraction*. Its public interface should focus on the functionality it provides, while hiding all the details that are not shared by all possible implementations of that functionality.
 - A system's design should not be evaluated by examining individual modules in isolation, but the relationships between them: how they are coupled. Different ways of coupling components share different types and amounts of knowledge. Some will increase complexity, while other will contribute to modularity.
-- Coupling manifests across three dimensions: integration strength, distance, and volatility.
+  - Coupling manifests across three dimensions: integration strength, distance, and volatility.
   - The higher the integration strength (the more knowledge shared across their boundaries), the higher the likelihood that modules will need to change in unison. When such cascading changes occur, distance signifies the effort required to implement them. Volatility represents how frequently these changes are anticipated to happen.
   - When designing cross-component interactions, our goal is not to minimize the strength of coupling. The goal is a modular system: one that is simple to implement, evolve, and maintain. This can only be achieved by considering all three dimensions of coupling.
 - *Integration strength* models the type and extent of knowledge shared by coupled components. It differentiates between four levels of coupling strength:
@@ -56,7 +54,7 @@ But the balancing is not limited to "moving things around". Given that software 
   - Model coupling: components using a shared model of the business domain. The evolution of the model requires changes in all coupled models.
   - Contract coupling: components using an integration-specific shared model: a contract. The integration contract abstracts the details of the model used internally in the upstream component.
 - *Distance* refers to the space knowledge "travels" across coupled components. It affects the coordination and communication efforts needed to implement a change affecting the coupled components. Distance is influenced by several factors:
-  - The physical location of the code: for example, it's easier to change coupled methods in a class, than coupled methods across distributed systems. On the other hand, collocating otherwise unrelated functionalities couples their lifecycles, introducing collateral changes that wouldn't be necessary if they were separate.
+  - The physical location of the code: for example, it's easier to change coupled methods in a class than coupled methods across distributed systems. On the other hand, collocating otherwise unrelated functionalities couples their lifecycles, introducing collateral changes that wouldn't be necessary if they were separate.
   - Organizational structure: the greater the /ownership/ distance (whether components are maintained by the same person, team, department, or organization), the higher the coordination effort.
 - *Volatility* is a component's expected rate of change.
   - One way to model volatility is through Domain-Drive Design's subdomain types: core subdomains are expected to change more frequently than supporting and generic subdomains.
