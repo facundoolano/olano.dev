@@ -1,3 +1,11 @@
+- author: Vladik Khononov
+  cover_file: vladik-khononov-balancing-coupling-in-software-design.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624639095l/56903647.jpg
+  published_at: 2025-10-16
+  rating: 4
+  read_at: 2025-10-16
+  title: 'Balancing Coupling in Software Design: Universal Design Principles for Architecting
+    Modular Software Systems'
 - author: Sally Rooney
   cover_file: sally-rooney-conversations-with-friends.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638729263l/32187419._SY475_.jpg
@@ -1402,10 +1410,3 @@
   rating: 4
   read_at: 2020-06-15
   title: El amigo
-- author: Chris Kohler
-  cover_file: chris-kohler-final-fantasy-v.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502837009l/34552804._SX318_.jpg
-  published_at: 2020-05-31
-  rating: 4
-  read_at: 2020-05-31
-  title: Final Fantasy V
