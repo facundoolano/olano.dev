@@ -22,23 +22,23 @@ I got interested in this after reading the [[domain-driven-design-revisited][Dom
 
 The thesis of the book: despite its reputation, coupling is not something fundamentally bad that we need to remove but an attribute that we should manage strategically. Similarly to essential complexity, a useful software system can't exist without some form of coupling of its components. An easy way to internalize this idea is remembering that /cohesion/ is sometimes defined as /good coupling/.
 
-Software has a fractal nature, one can reason about modularity at the system, service, namespace, class, and function level. At each level there are interfaces and implementation, module depth and complexity. Complexity is twofold: local and global. And since software is fractal, this level's local global complexity becomes a higher level's local one. Naively splitting modules into smaller ones just pushes local complexity up, making the overall system more complicated. Our job then is not chasing local minima but striking a balance: a good enough trade off that reduces the maintenance costs.
+Software has a fractal nature, one can reason about modularity at the system, service, namespace, class, and function level. At each level there are interfaces and implementation, module depth and complexity. Complexity is twofold: local and global. And since software is fractal, this level's local global complexity becomes a higher level's local one. Naively splitting modules into smaller ones just pushes local complexity up, making the overall system more complicated. Our job then is not chasing local minima but striking a balance: a good enough trade off that reduces total maintenance costs.
 
-The first half of the book is spent on definitions: the usual suspects (complexity, modularity, coupling), some historically relevant concepts (structured design's module coupling, connasence), and a few new ones introduced by the author (integration strength, distance, volatility). These are used to compose heuristics (represented as formulas) to asses the modularity and /balance/ of components in a system, to detect problems and hint at possible solutions. This activity is what the author calls balancing (and re-balancing) coupling.
+Two thirds of the book are spent on definitions: there are the usual suspects (complexity, modularity, coupling), some historically relevant concepts (structured design's module coupling, connasence), and a few new ones introduced by the author (integration strength, distance, volatility). These are used to compose heuristics (represented as formulas) to asses the modularity and /balance/ of components in a system, to detect problems and hint at possible solutions. This activity is what the author calls balancing (and re-balancing) coupling. The final chapters apply these heuristics on a series of cases studies, at all levels of abstraction.
 
 To a large extent, the process can be summarized as: if modules are strongly integrated (they share much knowledge), reduce their distance; if they are weakly integrated (they don't share much knowledge), increase their distance. Notice how this differs from the notion that smaller, more spread apart components necessarily yield simpler systems (a notion that leads to microservice hell and left-pad).
 
-But the balancing is not limited to "moving things around". Given that software systems are fractal networks, one can introduce new levels of abstraction to allow them to grow beyond their structural limits---and the cognitive load its maintainers can support. This is one of the strengths of the theory presented by the book: the same principles apply at all levels of a system; there's no hard distinction between software design and architecture---not even between software systems and [[a-note-on-essential-complexity][the human systems they integrate]]---just different scales, different semantic levels: different perspectives.
+But the balancing is not limited to "moving things around". Given that software systems are fractal networks, one can introduce new levels of abstraction to allow them to grow beyond their structural limits---and beyond the cognitive load its maintainers can support. This is one of the strengths of the theory presented by the book: the same principles apply at all levels of a system; there's no hard distinction between software design and architecture---not even between software systems and [[a-note-on-essential-complexity][the human systems they integrate]]---just different scales, different semantic levels: different perspectives.
 
 *** Summary
 
-- A *system* has components and purpose. The interaction between the components (coupling) is necessary for the components to achieve the system's goal. On a smaller scale, a component is almost always a subsystem in its own right.
+- A *system* has components and purpose. The interaction between the components (coupling) is necessary for the components to achieve the system's purpose. On a smaller scale, a component is almost always a subsystem in its own right.
 - *Coupling* results from the components having to share knowledge, or lifecycles, or both.
-  - The higher the magnitude of coupling, the higher the likelihood of the coupled components having to change together.
   - Coupling defines not only what knowledge is allowed to flow between the components but also what knowledge should never leave their boundaries. This makes coupling a core tool for designing modular software systems.
+  - The higher the magnitude of coupling, the higher the likelihood of the coupled components having to change together.
 - *Complexity* reflects the cognitive load a person experiences when interacting with a system. The greater the cognitive load, the more difficult it is to understand, control, predict, and change the behavior of the system.
-  - *Global complexity* is the complexity of interactions between the system's components.
   - *Local complexity* is the complexity of a single component---the complexity of interactions happening inside it.
+  - *Global complexity* is the complexity of interactions between the system's components.
   - This categorization is subjective and depends on perspective. Global complexity turns into local when the system is observed from a higher level of abstraction.
 - A *module* is a type of component designed to improve the flexibility of a system, allowing it to evolve to support future goals.
   - A software module bounds a well-defined functionality, exposing it to other components through a public interface. Any logical or physical boundary within a software system can be designed as a module: a service, a namespace, an object, a function, etc.
@@ -81,6 +81,7 @@ modularity := NOT complexity
             = strength() XOR distance()
 
 -- there's balance when the volatile components are modular
+-- and the complex components don't change
 balance := modularity OR NOT volatility()
          = (strength() XOR distance()) OR NOT volatility()
 #+end_src
