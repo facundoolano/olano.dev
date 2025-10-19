@@ -1,12 +1,12 @@
 ---
 title: "[tl;dr] Balancing Coupling in Software Design"
-date: 2025-10-17 08:29:34
+date: 2025-10-19 10:00:00
 layout: post
 lang: en
 tags: [software, books, tldr]
-refs: [coupling]
-draft: true
+refs: [coupling, ddd]
 image: coupling.jpg
+excerpt: "Vlad Khononov builds on the ideas of Parnas, Myers, Brooks, Conway, and Ousterhout, to produce something new and useful."
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
@@ -18,9 +18,9 @@ image: coupling.jpg
 #+END_EXPORT
 
 *** Commentary
-I got interested in this after reading the [[domain-driven-design-revisited][Domain-Driven Design book]] by the same author, because of the historical perspective he applied to his treatment of modular design. This new book sounded like it would expand on that, and it didn't disappoint: it's well researched, building on the ideas of Parnas, Myers, Brooks, Conway, and Ousterhout, to produce something new and useful. Vlad Khononov does something that [[unit-testing-principles][I find is fundamental]] to the software design discussion: he provides principled definitions to reduce our reliance on gut feeling when we make decisions. That being said, while insightful, it's also a rather specialized book, one that I recommend to software design nerds but not necessarily to every programmer (as, say, I do recommend /A Philosophy of Software Design/). I may change this assessment if I find myself frequently using its heuristics to success.
+I got interested in this after reading the [[domain-driven-design-revisited][Domain-Driven Design book]] by the same author, because of the historical perspective he applied to his treatment of modular design. This new book sounded like it would expand on that, and it didn't disappoint: it's well researched, building on the ideas of Parnas, Myers, Brooks, Conway, and Ousterhout, to produce something new and useful. Vlad Khononov does something that [[unit-testing-principles][I find is fundamental]] to the software design discussion: he provides principled definitions to reduce our reliance on gut feeling when making decisions. That being said, while insightful, it's also a rather specialized book, one that I recommend to software design nerds but not necessarily to every programmer (as, say, I do recommend /A Philosophy of Software Design/). I may change this assessment if I find myself frequently using its heuristics to success.
 
-The thesis of the book: despite it's reputation, coupling is not something fundamentally bad that we need to remove but an attribute that we should manage strategically. Similarly to essential complexity, a useful software system can't exist without some form of coupling of its components. An easy way to internalize this idea is remembering that /cohesion/ is sometimes defined as /good coupling/.
+The thesis of the book: despite its reputation, coupling is not something fundamentally bad that we need to remove but an attribute that we should manage strategically. Similarly to essential complexity, a useful software system can't exist without some form of coupling of its components. An easy way to internalize this idea is remembering that /cohesion/ is sometimes defined as /good coupling/.
 
 Software has a fractal nature, one can reason about modularity at the system, service, namespace, class, and function level. At each level there are interfaces and implementation, module depth and complexity. Complexity is twofold: local and global. And since software is fractal, this level's local global complexity becomes a higher level's local one. Naively splitting modules into smaller ones just pushes local complexity up, making the overall system more complicated. Our job then is not chasing local minima but striking a balance: a good enough trade off that reduces the maintenance costs.
 
