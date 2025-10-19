@@ -1,0 +1,87 @@
+---
+title: "[tl;dr] Balancing Coupling in Software Design"
+date: 2025-10-19 10:00:00
+layout: post
+lang: en
+tags: [software, books, tldr]
+refs: [coupling, ddd]
+image: coupling.jpg
+excerpt: "Vlad Khononov builds on the ideas of Parnas, Myers, Brooks, Conway, and Ousterhout, to produce something new and useful."
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <a href="https://coupling.dev/" target="_blank"> <img src="{{site.config.static_root}}/img/coupling.jpg" width="320"></a>
+</div>
+#+END_EXPORT
+
+*** Commentary
+I got interested in this after reading the [[domain-driven-design-revisited][Domain-Driven Design book]] by the same author, because of the historical perspective he applied to his treatment of modular design. This new book sounded like it would expand on that, and it didn't disappoint: it's well researched, building on the ideas of Parnas, Myers, Brooks, Conway, and Ousterhout, to produce something new and useful. Vlad Khononov does something that [[unit-testing-principles][I find is fundamental]] to the software design discussion: he provides principled definitions to reduce our reliance on gut feeling when making decisions. That being said, while insightful, it's also a rather specialized book, one that I recommend to software design nerds but not necessarily to every programmer (as, say, I do recommend /A Philosophy of Software Design/). I may change this assessment if I find myself frequently using its heuristics to success.
+
+The thesis of the book: despite its reputation, coupling is not something fundamentally bad that we need to remove but an attribute that we should manage strategically. Similar to essential complexity, a useful software system can't exist without some form of coupling of its components. An easy way to internalize this idea is remembering that /cohesion/ is sometimes defined as /good coupling/.
+
+Software has a fractal nature, one can reason about modularity at the system, service, namespace, class, and function levels. At each level there are interfaces and implementation, module depth and complexity. Complexity is twofold: local and global. And since software is fractal, this level's global complexity becomes a higher level's local one. Naively splitting modules into smaller ones just pushes local complexity up, making the overall system more complicated. Our job then is not chasing local minima but striking a balance: a good enough trade-off that reduces total maintenance cost.
+
+Two thirds of the book is spent on definitions: there are the usual suspects (complexity, modularity, coupling), some historically relevant concepts (structured design's module coupling, connasence), and a few new ones introduced by the author (integration strength, distance, volatility). These are used to compose heuristics (represented as formulas) to assess the modularity and /balance/ of components in a system, to detect problems and hint at possible solutions. This activity is what the author calls balancing (and re-balancing) coupling. The final chapters show concrete applications of these heuristics on a series of case studies.
+
+To a large extent, the process can be summarized as: if modules are strongly integrated (they share much knowledge), reduce their distance; if modules are weakly integrated (they don't share much knowledge), increase their distance. Notice how this differs from the notion that smaller, more spread out components necessarily yield simpler systems (a notion that leads to microservice hell and left-pad).
+
+But the balancing is not limited to "moving things around". Given that software systems are fractal networks, one can introduce new levels of abstraction to allow them to grow beyond their structural limits---and the cognitive load its maintainers can support. This is one of the strengths of the theory presented by the book: the same principles apply at all levels of a system; there's no hard distinction between software design and architecture---not even between software systems and [[a-note-on-essential-complexity][the human systems they integrate]]---just different scales, different semantic levels: different perspectives.
+
+*** Summary
+
+- A *system* has components and purpose. The interaction between the components (coupling) is necessary for the components to achieve the system's purpose. On a smaller scale, a component is almost always a subsystem in its own right.
+- *Coupling* results from the components having to share knowledge, or lifecycles, or both.
+  - Coupling defines not only what knowledge is allowed to flow between the components but also what knowledge should never leave their boundaries. This makes coupling a core tool for designing modular software systems.
+  - The higher the magnitude of coupling, the higher the likelihood of the coupled components having to change together.
+- *Complexity* reflects the cognitive load a person experiences when interacting with a system. The greater the cognitive load, the more difficult it is to understand, control, predict, and change the behavior of the system.
+  - *Local complexity* is the complexity of a single component---the complexity of interactions happening inside it.
+  - *Global complexity* is the complexity of interactions between the system's components.
+  - This distinction is subjective and depends on perspective. Global complexity turns into local when the system is observed from a higher level of abstraction.
+- A *module* is a type of component designed to improve the flexibility of a system, allowing it to evolve to support future goals.
+  - A software module bounds a well-defined functionality, exposing it to other components through a public interface. Any logical or physical boundary within a software system can be designed as a module: a service, a namespace, an object, a function, etc.
+  - An effective module hides decisions. If a decision has to be revisited, the change should only affect one module, the one that "hides" it.
+  - An effective module maximizes the knowledge it encapsulates, while sharing only the minimum that is required for other components to work with it.
+- A system's design should not be evaluated by examining individual modules in isolation, but the relationships between them: how they are coupled. Different ways of coupling components share different types and amounts of knowledge. Some will increase complexity, while others will contribute to modularity.
+  - Coupling manifests across three dimensions: integration strength, distance, and volatility.
+  - The higher the integration strength (the more knowledge shared across their boundaries), the higher the likelihood that modules will need to change in unison. When such cascading changes occur, distance signifies the effort required to implement them. Volatility represents how frequently these changes are anticipated to happen.
+  - When designing cross-component interactions, our goal is not to minimize the strength of coupling. The goal is a modular system: one that is simple to implement, evolve, and maintain. This can only be achieved by considering all three dimensions of coupling.
+- *Integration strength* models the type and extent of knowledge shared by coupled components. There are four levels of coupling strength:
+  - Intrusive coupling: integration through the upstream component's private interfaces or other implementation details. This makes the downstream component sensitive to all future changes in the upstream component.
+  - Functional coupling: components implement closely related business functionalities. A change in the business requirements is highly likely to affect all coupled components.
+  - Model coupling: components using a shared model of the business domain. The evolution of the model requires changes in all coupled modules.
+  - Contract coupling: components using an integration-specific shared model: a contract. The integration contract abstracts the details of the model used internally in the upstream component.
+- *Distance* refers to the space knowledge "travels" across coupled components. It affects the coordination and communication efforts needed to implement a change affecting the coupled components. Distance is influenced by several factors:
+  - The physical location of the code: for example, it's easier to change coupled methods in a class than coupled methods across distributed systems. On the other hand, collocating otherwise unrelated functionalities couples their lifecycles, introducing collateral changes that wouldn't be necessary if they were separated.
+  - Organizational structure: the greater the /ownership/ distance (whether components are maintained by the same person, team, department, or organization), the higher the coordination effort.
+- *Volatility* is a component's expected rate of change.
+  - One way to model volatility is through Domain-Drive Design's subdomain types: core subdomains are expected to change more frequently than supporting and generic subdomains.
+  - Investing in modularization isn't as beneficial for components that are not expected to change frequently.
+- *Balance* refers to the optimal state of the three dimensions of coupling, in which the design increases the modularity of the system's volatile components. An unbalanced combination of these dimensions results in increased cognitive load and, consequently, increased complexity.
+
+#+begin_export html
+<br/>
+#+end_export
+
+#+begin_src vhdl
+-- there's global complexity when significant knowledge
+-- travels long distances
+global_complexity := strength() AND distance()
+
+-- there's local complexity when unrelated components
+-- are collocated
+local_complexity := NOT strength() AND NOT distance()
+
+-- modularity is the absence of local and global complexity
+complexity := local_complexity OR global_complexity
+            = NOT (strength() XOR distance())
+modularity := NOT complexity
+            = strength() XOR distance()
+
+-- there's balance when the volatile components are modular
+-- and the complex components don't change
+balance := modularity OR NOT volatility()
+         = (strength() XOR distance()) OR NOT volatility()
+#+end_src

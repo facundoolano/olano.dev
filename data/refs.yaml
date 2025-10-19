@@ -501,6 +501,10 @@
   title: Learning Domain-Driven Design
   author: Vlad Khononov
   year: 2021
+- id: coupling
+  title: Balancing Coupling in Software Design
+  author: Vlad Khononov
+  year: 2024
 - id: corvino
   title: En realidad quería hablar de otra cosa
   author: Martín Zariello
