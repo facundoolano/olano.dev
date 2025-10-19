@@ -48,13 +48,13 @@ But the balancing is not limited to "moving things around". Given that software 
   - Coupling manifests across three dimensions: integration strength, distance, and volatility.
   - The higher the integration strength (the more knowledge shared across their boundaries), the higher the likelihood that modules will need to change in unison. When such cascading changes occur, distance signifies the effort required to implement them. Volatility represents how frequently these changes are anticipated to happen.
   - When designing cross-component interactions, our goal is not to minimize the strength of coupling. The goal is a modular system: one that is simple to implement, evolve, and maintain. This can only be achieved by considering all three dimensions of coupling.
-- *Integration strength* models the type and extent of knowledge shared by coupled components. It differentiates between four levels of coupling strength:
+- *Integration strength* models the type and extent of knowledge shared by coupled components. There are four levels of coupling strength:
   - Intrusive coupling: integration through the upstream component's private interfaces or other implementation details. This makes the downstream component sensitive to all future changes in the upstream component.
   - Functional coupling: components implement closely related business functionalities. A change in the business requirements are highly likely to affect all coupled components.
   - Model coupling: components using a shared model of the business domain. The evolution of the model requires changes in all coupled models.
   - Contract coupling: components using an integration-specific shared model: a contract. The integration contract abstracts the details of the model used internally in the upstream component.
 - *Distance* refers to the space knowledge "travels" across coupled components. It affects the coordination and communication efforts needed to implement a change affecting the coupled components. Distance is influenced by several factors:
-  - The physical location of the code: for example, it's easier to change coupled methods in a class than coupled methods across distributed systems. On the other hand, collocating otherwise unrelated functionalities couples their lifecycles, introducing collateral changes that wouldn't be necessary if they were separate.
+  - The physical location of the code: for example, it's easier to change coupled methods in a class than coupled methods across distributed systems. On the other hand, collocating otherwise unrelated functionalities couples their lifecycles, introducing collateral changes that wouldn't be necessary if they were separated.
   - Organizational structure: the greater the /ownership/ distance (whether components are maintained by the same person, team, department, or organization), the higher the coordination effort.
 - *Volatility* is a component's expected rate of change.
   - One way to model volatility is through Domain-Drive Design's subdomain types: core subdomains are expected to change more frequently than supporting and generic subdomains.
