@@ -1,6 +1,6 @@
 ---
 title: A Computing Magazine Anthology
-date: 2024-07-06
+date: 2024-07-06T10:00:00-03:00
 layout: post
 lang: en
 tags: [projects, ideas, books]

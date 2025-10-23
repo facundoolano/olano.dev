@@ -1,6 +1,6 @@
 ---
 title: En realidad quería hablar de David Foster Wallace
-date: 2025-08-03
+date: 2025-08-03T10:00:00-03:00
 layout: post
 lang: es
 tags: [literatura, memorias, tenis]

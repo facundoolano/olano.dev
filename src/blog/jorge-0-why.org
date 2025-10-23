@@ -1,6 +1,6 @@
 ---
 title: "jorge devlog #0: Why?"
-date: 2024-02-28
+date: 2024-02-28T10:00:00-03:00
 layout: post
 lang: en
 tags: [projects, software]

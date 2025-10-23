@@ -1,6 +1,6 @@
 ---
 title: Borges linkeado
-date: 2025-01-11
+date: 2025-01-11T10:00:00-03:00
 layout: post
 lang: es
 tags: [literatura, web, borges]

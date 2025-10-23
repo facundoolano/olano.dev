@@ -1,6 +1,6 @@
 ---
 title: Are We Living in a Simulation?
-date: 2024-09-05
+date: 2024-09-05T10:00:00-03:00
 layout: post
 lang: en
 tags: [software]

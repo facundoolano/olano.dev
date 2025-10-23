@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2022-02-02
+date: 2022-02-02T10:00:00-03:00
 title: "Rustenstein 3D: Game programming like it's 1992"
 external: "https://tech.nextroll.com/blog/dev/2022/02/02/rustenstein.html"
 lang: en

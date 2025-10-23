@@ -4,7 +4,7 @@ title: "Memoria videojueguística"
 subtitle: (Primera parte)
 thumbnail-img: memo/winning.jpg
 image: memo/winning.jpg
-date: 2020-09-29
+date: 2020-09-29T10:00:00-03:00
 tags: [videojuegos, programación, memorias]
 lang: es
 ---

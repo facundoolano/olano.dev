@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mi año con Juan Forn"
-date: 2022-02-07
+date: 2022-02-07T10:00:00-03:00
 tags: [literatura, libros, memorias]
 thumbnail-img: forn.jpg
 image: forn.jpg

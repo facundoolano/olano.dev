@@ -6,7 +6,7 @@ excerpt: Antes de los videojuegos RPG, estuvieron los juegos de rol de lápiz y 
 thumbnail-img: rpg/kriegsspiel.jpg
 share-img: rpg/kriegsspiel.jpg
 image: rpg/kriegsspiel.jpg
-date: 2023-04-27
+date: 2023-04-27T10:00:00-03:00
 tags: [videojuegos]
 lang: es
 book: "vol1"

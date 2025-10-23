@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Los sinsabores del software imaginario"
-date: 2023-05-19
+date: 2023-05-19T10:00:00-03:00
 tags: [software]
 thumbnail-img: imaginary.png
 share-img: imaginary2.png

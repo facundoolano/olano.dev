@@ -1,6 +1,6 @@
 ---
 title: "[tl;dr] Balancing Coupling in Software Design"
-date: 2025-10-19 10:00:00
+date: 2025-10-19T10:00:00-03:00
 layout: post
 lang: en
 tags: [software, books, tldr]

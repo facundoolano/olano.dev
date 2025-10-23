@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dr. von Neumann o: cómo aprendí a dejar de preocuparme y amar los papers"
-date: 2022-07-12
+date: 2022-07-12T10:00:00-03:00
 tags: [software, libros, projects]
 thumbnail-img: lewis.jpeg
 image: lewis.jpeg

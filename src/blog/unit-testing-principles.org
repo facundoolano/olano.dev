@@ -1,6 +1,6 @@
 ---
 title: "Unit Testing Principles"
-date: 2025-01-23
+date: 2025-01-23T10:00:00-03:00
 layout: post
 lang: en
 tags: [software, books, tldr]

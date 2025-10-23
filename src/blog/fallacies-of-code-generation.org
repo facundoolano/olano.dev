@@ -1,6 +1,6 @@
 ---
 title: Fallacies of Code Generation
-date: 2025-04-13
+date: 2025-04-13T10:00:00-03:00
 layout: post
 lang: en
 tags: [software, ai]

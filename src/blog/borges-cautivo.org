@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Borges cautivo"
-date: 2024-01-22
+date: 2024-01-22T10:00:00-03:00
 tags: [literatura, libros, borges]
 excerpt: "Hubo un Borges antes y otro después de Norah Lange, uno antes y otro después del accidente de 1938, uno antes y otro después de la ceguera. Además de esos, célebres, hubo un Borges marginal, colaborador de la revista El Hogar, el Borges de los Textos cautivos."
 image: rata.jpg

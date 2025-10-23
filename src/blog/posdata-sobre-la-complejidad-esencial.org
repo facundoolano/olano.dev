@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Posdata sobre la complejidad esencial"
-date: 2022-11-28
+date: 2022-11-28T10:00:00-03:00
 tags: [software]
 thumbnail-img: tarpit.png
 image: tarpit.png

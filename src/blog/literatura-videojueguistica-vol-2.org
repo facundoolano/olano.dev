@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Literatura videojueguística vol. 2"
-date: 2023-09-18
+date: 2023-09-18T10:00:00-03:00
 tags: [videojuegos, libros]
 image: vol2/tomorrow.webp
 excerpt: Un nuevo compendio de libros sobre videojuegos seguido de un comentario del último documental de DoubleFine.

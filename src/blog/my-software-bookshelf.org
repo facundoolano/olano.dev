@@ -1,6 +1,6 @@
 ---
 title: My Software Bookshelf
-date: 2024-08-30
+date: 2024-08-30T10:00:00-03:00
 layout: post
 lang: en
 excerpt: The easiest way to make a to-read pile grow is to read a book from it.

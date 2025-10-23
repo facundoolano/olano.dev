@@ -2,7 +2,7 @@
 layout: post
 title: "Apocalipsis"
 subtitle: "Notas de lectura"
-date: 2021-03-15
+date: 2021-03-15T10:00:00-03:00
 cover-img: thestand2.png
 thumbnail-img: thestand.jpg
 image: thestand.jpg

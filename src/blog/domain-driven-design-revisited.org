@@ -1,7 +1,7 @@
 ---
 title: Domain-Driven Design Revisited
 subtitle: Reading notes
-date: 2025-06-06
+date: 2025-06-06T10:00:00-03:00
 layout: post
 lang: en
 tags: [software, books, tldr]

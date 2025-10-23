@@ -1,7 +1,7 @@
 ---
 title: La tierra elegida
 subtitle: Posdata sobre Forn
-date: 2025-08-23
+date: 2025-08-23T10:00:00-03:00
 layout: post
 lang: es
 tags: [literatura, libros]

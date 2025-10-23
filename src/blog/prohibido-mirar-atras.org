@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prohibido mirar atrás"
-date: 2024-02-01
+date: 2024-02-01T10:00:00-03:00
 tags: [ficción]
 image: colonia.jpg
 lang: es

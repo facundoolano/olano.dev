@@ -1,6 +1,6 @@
 ---
 title: Ese chicle que te gusta va a volver a estar de moda
-date: 2025-03-25
+date: 2025-03-25T10:00:00-03:00
 layout: post
 lang: es
 tags: [cine, memorias]

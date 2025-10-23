@@ -1,6 +1,6 @@
 ---
 title: Augmentation / Replacement
-date: 2025-05-03
+date: 2025-05-03T10:00:00-03:00
 layout: post
 lang: en
 tags: [ai, software]

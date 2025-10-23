@@ -1,7 +1,7 @@
 ---
 title: From RSS to my Kindle
 subtitle: Building website EPUBs with Python
-date: 2024-06-07
+date: 2024-06-07T10:00:00-03:00
 layout: post
 lang: en
 tags: [web, projects, programming]

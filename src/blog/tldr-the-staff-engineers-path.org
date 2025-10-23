@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[tl;dr] The Staff Engineer's Path"
-date: 2023-01-16
+date: 2023-01-16T10:00:00-03:00
 tags: [software, libros, tldr]
 thumbnail-img: staff/cover.jpg
 image: staff/cover.jpg

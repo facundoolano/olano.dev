@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lugares para perderse"
-date: 2023-12-23 13:24:28
+date: 2023-12-23T13:24:28-03:00
 tags: [memorias, poesía]
 lang: es
 book: "vol1"

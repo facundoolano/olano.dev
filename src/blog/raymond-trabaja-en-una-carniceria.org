@@ -2,7 +2,7 @@
 layout: post
 title: "Raymond trabaja en una carnicería"
 subtitle: "Escritores en Hollywood"
-date: 2022-06-22
+date: 2022-06-22T10:00:00-03:00
 tags: [cine, literatura]
 favorite: true
 thumbnail-img: fink-thumb.png

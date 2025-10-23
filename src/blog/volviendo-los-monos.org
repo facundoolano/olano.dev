@@ -3,7 +3,7 @@ layout: post
 title: "Volviendo los monos"
 subtitle: "Notas sobre Return to Monkey Island"
 excerpt: "Así como algunos hinchas de Boca se volvieron con los años hinchas de Juan Román  Riquelme, los fanáticos de las aventuras gráficas somos hoy humildes coleccionistas de las artesanías de Ron Gilbert."
-date: 2022-11-22
+date: 2022-11-22T10:00:00-03:00
 tags: [videojuegos]
 thumbnail-img: return.jpg
 image: return.jpg

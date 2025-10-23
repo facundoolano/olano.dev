@@ -2,7 +2,7 @@
 layout: post
 title: "Esas boludeces de ciencia ficción que al final iban a ser ciertas"
 subtitle: Un poema
-date: 2023-05-02
+date: 2023-05-02T10:00:00-03:00
 tags: [poesía, distopías]
 excerpt: Fuimos escritos por Ted Chiang.
 thumbnail-img: exhalation.jpg

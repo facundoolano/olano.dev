@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "La era de la boludez"
-date: 2023-07-10
+date: 2023-07-10T10:00:00-03:00
 tags: [software, distopías, ai, literatura, borges]
 favorite: true
 share-img: tortoise.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Erlang: concurrencia y tolerancia a fallos"
-date: 2021-12-04
+date: 2021-12-04T10:00:00-03:00
 tags: [programación, software]
 thumbnail-img: erlang/erlang.png
 image: erlang/erlang.png

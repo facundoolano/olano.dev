@@ -2,7 +2,7 @@
 layout: post
 title: "Justicia poética"
 subtitle: Una historia millenial del fútbol argentino
-date: 2023-02-06
+date: 2023-02-06T10:00:00-03:00
 tags: [fútbol, literatura, memorias]
 favorite: true
 thumbnail-img: giggio2.jpg

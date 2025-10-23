@@ -1,7 +1,7 @@
 ---
 title: my blogging setup is my writing process
 subtitle: (my writing process is my blogging setup)
-date: 2024-11-24
+date: 2024-11-24T10:00:00-03:00
 layout: post
 lang: en
 tags: [meta]
@@ -67,7 +67,7 @@ With these contents:
 #+begin_src yaml
 ---
 title: My Blogging Setup is My Writing Process
-date: 2024-11-21 19:47:20
+date: 2024-11-21T19:47:20-03:00
 layout: post
 lang: en
 tags: []
@@ -159,7 +159,7 @@ When the post is ready I adjust the ~date~, remove the ~draft~, set an ~excerpt~
 ---
 title: my blogging setup is my writing process
 subtitle: (my writing process is my blogging setup)
-date: 2024-11-25
+date: 2024-11-25T10:00:00-03:00
 layout: post
 lang: en
 tags: [meta]
