@@ -2,22 +2,26 @@
 layout: default
 ---
 
-<div class="h-card">
+<div>
+  <h2><a href="#about" class="title" id="about">about</a></h2>
   <p class="p-note">
-    I'm <span class="p-name">Facundo Olano</span>, a
-    <span class="p-job-title">software engineer</span> from
-    <span class="p-locality">Buenos Aires</span>,
-    <span class="p-country-name">Argentina</span>.
+    Hi 👋 I'm <span class="p-name">Facundo Olano</span>, a software engineer from Buenos Aires, Argentina.
+  </p>
+  <p>
+    I use this place mostly to publish my <a href="/blog/">writing</a>, which I do in <a href="/blog/es">Spanish</a> and <a href="/blog/en">English</a>.
   </p>
 
-  <p class="p-note">
-    I use this place mostly to publish my <a href="/blog/">writing</a>. If you
-    want to know more, just click around.
-  </p>
+  <p>I like books, computers, games, and movies, and occasionally combine them in odd ways.</p>
+
+  <p>If you want to know more, check out my <a href="/projects/">projects</a> and <a href="/blog/tags#ideas">ideas</a>, my <a href="/reads/">reads</a>, and my <a href="/resume">resume</a>.</p>
+
+  <p>You can reach out via <a href="mailto:facundo.olano@gmail.com">email</a> or <a href="https://www.linkedin.com/in/facundoolano/">LinkedIn</a>.</p>
+
+<br/>
 
   <h2><a href="/log" class="title" id="log">log</a></h2>
   <div class="blog-index">
-    {% for entry in site.data.log limit:5 %}
+    {% for entry in site.data.log limit:10 %}
     <article class="post">
       <span class="date">{{ entry.date | date: "%Y-%m-%d" }}</span>
       <div>
@@ -28,25 +32,5 @@ layout: default
     {% endfor %}
   </div>
 
-  <h2><a href="#contact" class="title" id="contact">contact</a></h2>
-  <ul>
-    <li>
-      <a href="mailto:facundo.olano@gmail.com" rel="me" class="u-email"
-        >@gmail</a
-      >
-    </li>
-    <li><a href="https://github.com/facundoolano" rel="me">@github</a></li>
-    <li><a href="https://www.linkedin.com/in/facundoolano/" rel="me">@linkedin</a></li>
-  </ul>
 
-  <h2><a href="#etc" class="title" id="etc">etc</a></h2>
-  <ul>
-    <li><a href="/blog">blog</a></li>
-    <li><a href="/feed.xml">rss</a></li>
-    <li><a href="/log">log</a></li>
-    <li><a href="/projects">projects</a></li>
-    <li><a href="/reads">reads</a></li>
-    <li><a href="/resume">resume</a></li>
-    <li><a href="/blog/tags#ideas">ideas</a></li>
-  </ul>
 </div>
