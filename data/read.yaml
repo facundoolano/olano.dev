@@ -1,7 +1,14 @@
+- author: Uketsu
+  cover_file: uketsu-strange-houses.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1734077733l/218671839._SY475_.jpg
+  published_at: 2025-10-30
+  rating: 1
+  read_at: 2025-10-30
+  title: Strange Houses
 - author: Vladik Khononov
   cover_file: vladik-khononov-balancing-coupling-in-software-design.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624639095l/56903647.jpg
-  published_at: 2025-10-16
+  published_at: 2025-10-19
   rating: 4
   read_at: 2025-10-16
   title: 'Balancing Coupling in Software Design: Universal Design Principles for Architecting
@@ -121,7 +128,7 @@
   title: Un cuarto propio
 - author: Georges Perec
   cover_file: georges-perec-las-cosas.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1752884325l/629770._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1761753298l/629770._SY475_.jpg
   published_at: 2025-02-22
   rating: 4
   read_at: 2025-02-22
@@ -962,7 +969,7 @@
 - author: Marina Yuszczuk
   cover_file: marina-yuszczuk-la-sed.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603644718l/55781551._SX318_.jpg
-  published_at: 2021-11-30
+  published_at: 2025-10-23
   rating: 4
   read_at: 2021-11-30
   title: La sed
@@ -1403,10 +1410,3 @@
   rating: 5
   read_at: 2020-06-22
   title: A Little History of the World
-- author: Sigrid Nunez
-  cover_file: sigrid-nunez-el-amigo.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560932141l/45479295.jpg
-  published_at: 2020-07-10
-  rating: 4
-  read_at: 2020-06-15
-  title: El amigo
