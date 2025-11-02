@@ -1,0 +1,97 @@
+---
+title: What's different about my RSS reader
+date: 2025-11-02T17:27:12-03:00
+layout: post
+lang: en
+tags: [projects, web]
+image: feedinew.png
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+
+It's been over two years since I published and [[reclaiming-the-web-with-a-personal-reader][first wrote]] about [[https://github.com/facundoolano/feedi][feedi]], my personal feed reader. During that time I continued to use it as my primary source of information, I slowly dropped Mastodon, and never felt the need to go back to Twitter. I experimented with a few new features but, most importantly, became confident to just remove anything that didn't feel necessary.
+
+This post describes my current user experience, specifically what I think makes feedi unique.
+The app has plenty of rough edges that I doubt I'll ever be inclined to fix, and imposes the fundamental burden of self-hosting, so I don't expect it to appeal to most users, but I do sense an appetite out there for alternative online experiences, so perhaps this description can inspire others to experiment on better incarnations of similar ideas.
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+<img src="{{site.config.static_root}}/img/feedinew.png"></a>
+</div>
+#+END_EXPORT
+
+The underlying assumption of feedi's design is that a scrollable feed, as seen in social media apps like Twitter, is a very convenient way to present information to the user. It's not the interface but /what/ content, the /when/ and /how/ it gets placed in front of me that I want to change and get a better handle on. Most importantly, I don't want to have to actively manage an inbox---some daily backlog to clear. I want an app that automatically does the right thing by default, acknowledging that there's an infinite stream of potentially interesting information to read about every day.
+
+The first consequence of these assumptions is that the app should put all content into a single feed of entries; the first challenge, how to sort those entries. If a source feed is in my list, it's safe to assume I have some interest in it (otherwise I'd remove it), so the job is not to exclude unwanted content but to arrange effectively whatever is in there. The problem with RSS/Atom as a building block is that everything comes in reverse chronological order, so noisy media sites and link aggregators that push entries multiple times a day will flood the feed, hiding the more rare magazine features and casual blog posts I wouldn't want to miss. My solution is to use a "reverse frequency" ordering, distributing sources into buckets based on their publishing cadence[fn:2]:
+
+#+begin_src python
+def calc_frequency_bucket(entries):
+    dates = [e.sort_date for e in entries]
+    delta = max(dates) - min(dates)
+    days = max(1, delta.days)
+    posts_per_day = len(entries) / days
+
+    if posts_per_day <= 1 / 30:
+        return 0  # once a month or less
+    elif posts_per_day <= 1 / 7:
+        return 1  # once a week or less
+    elif posts_per_day <= 1:
+        return 2  # once a day or less
+    elif posts_per_day <= 5:
+        return 3  # 5 times a day or less
+    elif posts_per_day <= 20:
+        return 4  # 20 times a day or less
+    else:
+        return 5  # more
+#+end_src
+
+Then show entries from infrequent sources first:
+
+#+begin_src python
+select(Entry).join(Feed)
+  .order_by(Feed.frequency_bucket, Entry.sort_date.desc())
+#+end_src
+
+This alone would make entries from infrequent feeds stick at the top every time I open the app, so it needs to be complemented with some means to mark them as already seen:
+
+#+begin_src python
+select(Entry).join(Feed)
+    .where(viewed.is_(None))
+    .order_by(Feed.frequency_bucket, Entry.sort_date.desc())
+#+end_src
+
+As I want this to work automatically, I leverage the scrolling activity as a hint that I don't care anymore about the preceding content. Whenever I scroll down enough to load a new batch of entries, I mark all the previous ones as already seen.
+
+#+begin_src python
+entry_page = db.paginate(query, page_num, per_page=10)
+if entry_page.has_prev:
+    previous_ids = [e.id for e in entry_page.prev().items]
+    db.update(Entry)
+      .where(Entry.id.in_(previous_ids))
+      .values(viewed=utcnow())
+#+end_src
+
+Those already seen entries will still be there if I scroll up, but not the next time I open the app[fn:1]. A surprising emergent result of this feature is that, while I'm strongly compelled to continue scrolling down until the next page fetch, to mark everything as read, I'm equally compelled to just stop scrolling there and close the app as if to "save my progress".
+
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+<img src="{{site.config.static_root}}/img/feedinew2.png" style="box-shadow:0 20px 40px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 0.5px rgba(0, 0, 0, 0.1);border-radius: 4px;"></a>
+</div>
+<br/>
+#+END_EXPORT
+
+
+I've observed that I have two very distinct modes of engagement: sometimes I want to skim headlines and summaries to see what's new; sometimes I actually want to read full articles. So the scrolling is complemented with a few "save for later" features:
+
+- Pin entries so they stick at the top even after scrolling past them.
+- Favorite entries, kind of like bookmarking, so they are preserved from the periodical vacuum.
+- Send to Kindle for reading outside of the app (off the glossy screens of my other devices).
+
+And that's about it: scroll, pin for later, read, favorite, unpin. All other features, actual and planned, are to support this core loop.
+
+*** Notes
+[fn:2] I apologize to my few frequent readers, since I described this rather dull and possibly buggy technique many times already.
+
+[fn:1] There's also the option to tap on the app log to scroll to top and refresh the list, providing a pleasant "log compaction" feel.
