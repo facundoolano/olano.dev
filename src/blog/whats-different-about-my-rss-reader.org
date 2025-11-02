@@ -1,10 +1,9 @@
 ---
 title: What's different about my RSS reader
-date: 2025-11-01T21:27:12-03:00
+date: 2025-11-02T17:27:12-03:00
 layout: post
 lang: en
 tags: [projects, web]
-draft: true
 image: feedinew.png
 ---
 #+OPTIONS: toc:nil num:nil
