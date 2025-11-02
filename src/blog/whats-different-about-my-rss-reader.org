@@ -54,7 +54,26 @@ select(Entry).join(Feed)
   .order_by(Feed.frequency_bucket, Entry.sort_date.desc())
 #+end_src
 
-This alone would make entries from infrequent feeds stick at the top every time I open the app, so it needs to be complemented with some means to mark them as already seen. As I want this work automatically done for me, I leverage the scrolling activity as a hint that I don't care anymore about the preceding content. Whenever I scroll down enough to load a new batch of entries, I mark all the previous ones as already seen. Those entries will still be there if I scroll up, but not the next time I open the app[fn:1]. A surprising emergent result of this feature is that, while I'm strongly compelled to continue scrolling down until the next page fetch to mark everything as read, I'm equally compelled to just stop scrolling right there and close the app as if to "save my progress".
+This alone would make entries from infrequent feeds stick at the top every time I open the app, so it needs to be complemented with some means to mark them as already seen:
+
+#+begin_src python
+select(Entry).join(Feed)
+    .where(viewed.is_(None))
+    .order_by(Feed.frequency_bucket, Entry.sort_date.desc())
+#+end_src
+
+As I want this to work automatically, I leverage the scrolling activity as a hint that I don't care anymore about the preceding content. Whenever I scroll down enough to load a new batch of entries, I mark all the previous ones as already seen.
+
+#+begin_src python
+entry_page = db.paginate(query, page_num, per_page=10)
+if entry_page.has_prev:
+    previous_ids = [e.id for e in entry_page.prev().items]
+    db.update(Entry)
+      .where(Entry.id.in_(previous_ids))
+      .values(viewed=utcnow())
+#+end_src
+
+Those already seen entries will still be there if I scroll up, but not the next time I open the app[fn:1]. A surprising emergent result of this feature is that, while I'm strongly compelled to continue scrolling down until the next page fetch, to mark everything as read, I'm equally compelled to just stop scrolling there and close the app as if to "save my progress".
 
 
 #+BEGIN_EXPORT html
