@@ -10,7 +10,7 @@ draft: true
 #+LANGUAGE: en
 
 
-It's been over two years since I published and [[reclaiming-the-web-with-a-personal-reader][first wrote]] about [[https://github.com/facundoolano/feedi][feedi]], my personal feed reader. During that time I continued to use it as my primary source of information, I slowly dropped Mastodon, and never felt the need to go back to Twitter. I experimented with a few new features but, most importantly, was confident to just remove anything that didn't feel necessary.
+It's been over two years since I published and [[reclaiming-the-web-with-a-personal-reader][first wrote]] about [[https://github.com/facundoolano/feedi][feedi]], my personal feed reader. During that time I continued to use it as my primary source of information, I slowly dropped Mastodon, and never felt the need to go back to Twitter. I experimented with a few new features but, most importantly, became confident to just remove anything that didn't feel necessary.
 
 This post is a description of my current user experience, specifically what I think makes feedi unique.
 The app has plenty of rough edges that I doubt I'll ever be inclined to fix, and imposes the fundamental burden of self-hosting, so I don't expect it to be appealing to most users, but I do sense an appetite out there for alternative online experiences, so perhaps this description can inspire others to experiment on better incarnations of similar ideas.
@@ -20,23 +20,29 @@ The app has plenty of rough edges that I doubt I'll ever be inclined to fix, and
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-The underlying assumption of feedi's design is that a scrollable feed, as seen in social media apps like Twitter, is a very convenient way to present information to the user. It's not the interface but /what/ content, the /when/ and /how/ it gets placed in front of me that I want to change and get a better handle on. Most importantly, I don't want to actively work to achieve that goal, a daily backlog to clear; I want an app that automatically does the right thing by default, acknowledging that there's an infinite stream of potentially interesting information to read about every day.
+The underlying assumption of feedi's design is that a scrollable feed, as seen in social media apps like Twitter, is a very convenient way to present information to the user. It's not the interface but /what/ content, the /when/ and /how/ it gets placed in front of me that I want to change and get a better handle on. Most importantly, I don't want to have to actively work to achieve that goal---some daily backlog to clear. I want an app that automatically does the right thing by default, acknowledging that there's an infinite stream of potentially interesting information to read about every day.
 
-The first consequence of these assumptions is that the app should put all content into a single feed of entries; the first challenge, how to sort those entries. The problem of using RSS/Atom as a building block is that everything is in reverse chronological order, so noisy news feeds and link aggregators, that push entries multiple times a day, will consistently fill the feed, hiding magazine features and casual blog posts that follow a weekly or monthly schedule. My solution to this is a "reverse frequency" sorting[fn:2]: distribute sources into buckets based on their publishing frequency:
+The first consequence of these assumptions is that the app should put all content into a single feed of entries; the first challenge, how to sort those entries. The problem of using RSS/Atom as a building block is that everything is in reverse chronological order, so noisy news feeds and link aggregators, that push entries multiple times a day, will consistently fill the feed, hiding magazine features and casual blog posts that follow a weekly or monthly schedule. The assumption is that if a source feed is in my list, I have some interest in it (otherwise I'll eventually remove it), so the job is not to exclude content but to arrange it effectively. My solution is to use a "reverse frequency" sorting[fn:2], distributing sources into buckets based on their publishing cadence:
 
 #+begin_src python
-if posts_per_day <= 1 / 30:
-    return 0  # once a month or less
-elif posts_per_day <= 1 / 7:
-    return 1  # once a week or less
-elif posts_per_day <= 1:
-    return 2  # once a day or less
-elif posts_per_day <= 5:
-    return 3  # 5 times a day or less
-elif posts_per_day <= 20:
-    return 4  # 20 times a day or less
-else:
-    return 5  # more
+def calc_frequency_bucket(entries):
+    dates = [e.sort_date for e in entries]
+    delta = max(dates) - min(dates)
+    days = max(1, delta.days)
+    posts_per_day = len(entries) / days
+
+    if posts_per_day <= 1 / 30:
+        return 0  # once a month or less
+    elif posts_per_day <= 1 / 7:
+        return 1  # once a week or less
+    elif posts_per_day <= 1:
+        return 2  # once a day or less
+    elif posts_per_day <= 5:
+        return 3  # 5 times a day or less
+    elif posts_per_day <= 20:
+        return 4  # 20 times a day or less
+    else:
+        return 5  # more
 #+end_src
 
 Then show entries from infrequent sources first:
@@ -46,15 +52,17 @@ select(Entry).join(Feed)
   .order_by(Feed.frequency_bucket, Entry.sort_date.desc())
 #+end_src
 
-This alone would make entries from infrequent feeds stick at the top every time I open the app, so the feature needs to be complemented with some means to mark them as already seen. But, as I want this work automatically done for me, I leverage the scrolling activity as a hint that I don't care anymore about the preceding content. Whenever I scroll down enough to load a new batch of entries, I mark all the previous ones as already seen. Those entries will still be there if I scroll up, but not the next time I open the app[fn:1]. A surprising emergent result of this feature is that, while I'm strongly compelled to continue to scroll down until the next page fetch to mark everything as read, I'm also compelled to just stop scrolling right there and close the app as if to "save my progress".
+This alone would make entries from infrequent feeds stick at the top every time I open the app, so it needs to be complemented with some means to mark them as already seen. As I want this work automatically done for me, I leverage the scrolling activity as a hint that I don't care anymore about the preceding content. Whenever I scroll down enough to load a new batch of entries, I mark all the previous ones as already seen. Those entries will still be there if I scroll up, but not the next time I open the app[fn:1].
 
-What I've observed from using the app is that I have two very distinct modes of engagement with it: sometimes I want to skim headlines and summaries too see what's new in the feed; at other times, I'm inclined to spend some time reading full articles. So the basic feed scrolling is complemented by a few "read later" features:
+A surprising emergent result of this feature is that, while I'm strongly compelled to continue to scroll down until the next page fetch to mark everything as read, I'm also compelled to just stop scrolling right there and close the app as if to "save my progress".
 
-- Pin entries at the top so they remain at the top even after being marked as already seen.
-- Favorite entries, kind of like bookmarks, so they don't get removed by the periodical entry vacuum job.
-- Send to Kindle for reading outside of the app (and without the glossy screen of my other devices).
+What I've observed from using the app is that I have two very distinct modes of engagement: sometimes I want to skim headlines and summaries to see what's new; sometimes I actually want to read full articles. So the scrolling is complemented with a few "save for later" features:
 
-And that's about it: scroll for a while, pin for later, read, favorite, unpin. All other features, actual and planned, are to support this core loop.
+- Pin entries so they stick at the top even after scrolling past them.
+- Favorite entries, kind of like bookmarks, that are preserved from the periodical entry vacuum.
+- Send to Kindle for reading outside of the app (off the glossy screens of my other devices).
+
+And that's about it: scroll, pin for later, read, favorite, unpin. All other features, actual and planned, are to support this core loop.
 
 *** Notes
 [fn:2] I apologize to my few frequent readers, since I described this rather dull and possibly buggy technique many times already.
