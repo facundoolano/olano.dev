@@ -1,0 +1,13 @@
+---
+title: What's different about my RSS reader
+date: 2025-11-01T21:27:12-03:00
+layout: post
+lang: en
+tags: [projects, web]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+
+It's been over two years since I published and [[reclaiming-the-web-with-a-personal-reader][first wrote]] about [[https://github.com/facundoolano/feedi][feedi]], my personal feed reader. During that time I continued to use it as my primary source of information, I slowly dropped Mastodon, and never felt the need to go back to Twitter. I experimented with a few new features but, most importantly, was confident to just remove anything that didn't feel necessary.
