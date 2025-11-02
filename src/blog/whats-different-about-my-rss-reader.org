@@ -10,7 +10,7 @@ image: feedinew.png
 #+LANGUAGE: en
 
 
-It's been over two years since I published and [[reclaiming-the-web-with-a-personal-reader][first wrote]] about [[https://github.com/facundoolano/feedi][feedi]], my personal feed reader. During that time I continued to use it as my primary source of information, I slowly dropped Mastodon, and never felt the need to go back to Twitter. I experimented with a few new features but, most importantly, became confident to just remove anything that didn't feel necessary.
+It's been almost two years since I published and [[reclaiming-the-web-with-a-personal-reader][first wrote]] about [[https://github.com/facundoolano/feedi][feedi]], my personal feed reader. During that time I continued to use it as my primary source of information, I slowly dropped Mastodon, and never felt the need to go back to Twitter. I experimented with a few new features but, most importantly, became confident to just remove anything that didn't feel necessary.
 
 This post describes my current user experience, specifically what I think makes feedi unique.
 The app has plenty of rough edges that I doubt I'll ever be inclined to fix, and imposes the fundamental burden of self-hosting, so I don't expect it to appeal to most users, but I do sense an appetite out there for alternative online experiences, so perhaps this description can inspire others to experiment on better incarnations of similar ideas.
