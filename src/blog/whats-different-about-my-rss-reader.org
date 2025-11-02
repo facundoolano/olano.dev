@@ -68,7 +68,7 @@ This alone would make entries from infrequent feeds stick at the top every time 
 I've observed that I have two very distinct modes of engagement: sometimes I want to skim headlines and summaries to see what's new; sometimes I actually want to read full articles. So the scrolling is complemented with a few "save for later" features:
 
 - Pin entries so they stick at the top even after scrolling past them.
-- Favorite entries, kind of like bookmarks, that are preserved from the periodical entry vacuum.
+- Favorite entries, kind of like bookmarking, so they are preserved from the periodical vacuum.
 - Send to Kindle for reading outside of the app (off the glossy screens of my other devices).
 
 And that's about it: scroll, pin for later, read, favorite, unpin. All other features, actual and planned, are to support this core loop.
