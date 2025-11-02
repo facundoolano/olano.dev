@@ -13,7 +13,7 @@ image: feedinew.png
 
 It's been over two years since I published and [[reclaiming-the-web-with-a-personal-reader][first wrote]] about [[https://github.com/facundoolano/feedi][feedi]], my personal feed reader. During that time I continued to use it as my primary source of information, I slowly dropped Mastodon, and never felt the need to go back to Twitter. I experimented with a few new features but, most importantly, became confident to just remove anything that didn't feel necessary.
 
-This post is a description of my current user experience, specifically what I think makes feedi unique.
+This post describes my current user experience, specifically what I think makes feedi unique.
 The app has plenty of rough edges that I doubt I'll ever be inclined to fix, and imposes the fundamental burden of self-hosting, so I don't expect it to appeal to most users, but I do sense an appetite out there for alternative online experiences, so perhaps this description can inspire others to experiment on better incarnations of similar ideas.
 
 #+BEGIN_EXPORT html
@@ -24,7 +24,7 @@ The app has plenty of rough edges that I doubt I'll ever be inclined to fix, and
 
 The underlying assumption of feedi's design is that a scrollable feed, as seen in social media apps like Twitter, is a very convenient way to present information to the user. It's not the interface but /what/ content, the /when/ and /how/ it gets placed in front of me that I want to change and get a better handle on. Most importantly, I don't want to have to actively manage an inbox---some daily backlog to clear. I want an app that automatically does the right thing by default, acknowledging that there's an infinite stream of potentially interesting information to read about every day.
 
-The first consequence of these assumptions is that the app should put all content into a single feed of entries; the first challenge, how to sort those entries. If a source feed is in my list, it's safe to assume I have some interest in it (otherwise I'd remove it), so the job is not to exclude unwanted content but to arrange it effectively. The problem when using RSS/Atom as a building block is that everything comes in reverse chronological order, so noisy media sites and link aggregators, that push entries multiple times a day, will consistently fill the feed, hiding the more rare magazine features and casual blog posts I wouldn't want to miss. My solution is to use a "reverse frequency" sorting, distributing sources into buckets based on their publishing cadence[fn:2]:
+The first consequence of these assumptions is that the app should put all content into a single feed of entries; the first challenge, how to sort those entries. If a source feed is in my list, it's safe to assume I have some interest in it (otherwise I'd remove it), so the job is not to exclude unwanted content but to arrange effectively whatever is in there. The problem with RSS/Atom as a building block is that everything comes in reverse chronological order, so noisy media sites and link aggregators that push entries multiple times a day will flood the feed, hiding the more rare magazine features and casual blog posts I wouldn't want to miss. My solution is to use a "reverse frequency" ordering, distributing sources into buckets based on their publishing cadence[fn:2]:
 
 #+begin_src python
 def calc_frequency_bucket(entries):
