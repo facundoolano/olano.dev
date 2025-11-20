@@ -1,0 +1,31 @@
+---
+title: Nota sobre (hacia) Blue Prince
+date: 2025-11-18T20:25:30-03:00
+layout: post
+lang: es
+tags: [videojuegos, borges]
+draft: true
+refs: [blueprince, dinn, inquisiciones]
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+Si hay un lema de este blog es que a cualquier tema le podemos entrar por Borges.
+Para hablar de /Blue Prince/ traigo la introducción de su /Nota sobre (hacia) Bernard Shaw/:
+
+#+begin_quote
+A fines del siglo XIII, Raimundo Lulio (Ramon Llull) se aprestó a resolver todos los arcanos mediante una armazón de discos concéntricos, desiguales y giratorios, subdivididos en sectores con palabras latinas; John Stuart Mill, a principios del siglo XIX, temió que se agotara algún día el número de combinaciones musicales y no hubiera lugar en el porvenir para indefinidos Webers y Mozarts; Kurd Lasswitz, a fines del XIX, jugó con la abrumadora fantasía de una biblioteca universal, que registrara todas las variaciones de los veintitantos símbolos ortográficos, o sea, cuanto es dable expresar, en todas las lenguas. La máquina de Lulio, el temor de Mill y la caótica biblioteca de Lasswitz pueden ser materia de burlas, pero exageran una propensión que es común: hacer de la metafísica, y de las artes, una suerte de juego combinatorio. Quienes practica ese juego olvidan que un libro es más que una estructura verbal, o que una serie de estructuras verbales; es el diálogo que entabla con su lector y la entonación que impone a su voz y las cambiantes y durables imágenes que deja en su memoria. Ese diálogo es infinito; las palabras /amica silentia lunae/ significan ahora la luna íntima, silenciosa y luciente, y en la /Eneida/ significaron el interlunio, la oscuridad que permitió a los griegos entrar en la ciudadela de Troya... La literatura no es agotable, por la suficiente y simple razón de que un solo libro no lo es. El libro no es un ente incomunicado: es una relación, es un eje de innumerables relaciones. *Una literatura difiere de otra, ulterior o anterior, menos por el texto que por la manera de ser leída: si me fuera otorgado leer cualquier página actual ---ésta, por ejemplo--- como la leerán el año 2000, yo sabría cómo será la literatura del año 2000*. La concepción de la literatura como juego formal conduce, en el mejor de los casos, al buen trabajo del período y de la estrofa, a un decoro artesano, y en el peor a las incomodidades de una obra hecha de sorpresas dictadas por la vanidad y el azar.
+#+end_quote
+
+Después de este primer párrafo, Borges sigue con cosas que no entiendo sobre autores que no leí, pero yo elijo creer que no importa, que todo lo demás es un vehículo, una excusa de Borges para expresar esas dos o tres ideas a las que vuelvo todo el tiempo. La primera ---la más fácil--- es que una obra producida mecánicamente, por azar o combinación, aún si divertido ejercicio de escritura resulta casi siempre un incordio para el lector.
+
+La segunda idea es que la literatura se realiza en el acto de la lectura; tiene que ver menos con el contenido del texto que con la manera de leerlo, con lo que evoca en el lector. En particular, una misma obra es modificada por el paso del tiempo: no leemos hoy este ensayo de Borges como se lo leía en 1951. De este concepto, más bien de su extraordinaria formulación, [[https://youtu.be/_BxOE3bO6SM?si=rfV2ND5P4aI6Ve4M&t=438][Ricardo Piglia dice]] que "es un aerolito"; que, supongo, es su equivalente de "barrilete cósmico, ¿de qué planeta viniste?".
+
+Llevado ---un poco forzadamente, arrastrado por los pelos--- al terreno de los videojuegos, no jugamos hoy (no jugaríamos hoy, si los jugáramos) al /Colossal Cave Adventure/, al /Mystery House/, o al /Maniac Mansion/, como [[llegando-los-monos][se los jugaba]] en los '80. Ni nos funcionan tampoco sus clones modernos, las aventuras gráficas que se limitan a perpetuar fórmulas que ya estaban gastadas hace veinte años.
+
+Lo que, a veces, se toma por nostalgia es, en realidad, otra cosa. Cuando probamos y fallamos con una nueva aventura gráfica, cuando nos resignamos a revisar los clásicos, no es un intento de volver a aquellos veranos inabarcables de la adolescencia; se trata de recuperar algo de aquella conexión, de ese estímulo intelectual que habilitaban, [[del-videojuego-como-puzzle][ese diálogo]], seguir jugando en la cabeza, en el cuaderno, en clase o en la ducha. No es añoranza, señorita: es anhelo.
+
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
