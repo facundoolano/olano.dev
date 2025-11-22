@@ -6,6 +6,8 @@ lang: es
 tags: [videojuegos, borges]
 draft: true
 refs: [blueprince, dinn, inquisiciones]
+cover-img: blueprince.jpg
+image: blueprince.jpg
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
@@ -34,11 +36,20 @@ Se habla del /roguelike/ como si fuera un género pero más bien designa un conj
 
 La exploración geográfica está en el ADN de las aventuras. [[llegando-los-monos][Antes de fundar un género]], el /Colossal Cave/ era un simulador de exploración deportiva de cavernas. Puro texto en terminales setentosas, el movimiento era en las direcciones cardinales y la mayoría de la acción se repartía entre la cabeza y el cuaderno del jugador.
 
-[screenshot colossal cave]?
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/crowther.png" >
+</div>
+#+END_EXPORT
+
 
 Los dungeon crawlers como el /Wizardry/ o el /Bard's Tale/, primos de aquellas primeras aventuras, ponían [[https://x.com/felipepepe/status/1669933241732845568][tanto énfasis]] en la cartografía que algunos hasta traían hojas cuadriculadas en el paquete.
 
-[screenshot]
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/wizardry.jpg" >
+</div>
+#+END_EXPORT
 
 
 Para convertir al puzzle mystery en roguelike, /Blue Prince/ subvierte la fórmula: si antes mapeábamos lo que explorábamos, acá exploramos lo que mapeamos. El juego transcurre en una mansión cuyas habitaciones encajan en una grilla cuadriculada; cada vez que abrimos una puerta se nos presentan opciones, como si sacáramos cartas de un mazo:
@@ -64,18 +75,19 @@ No conozco otro juego que te obligue así a estar atento, que te persuada a leer
 - hay varias maneras de resolver los puzzles
 - no hay prácticamente ninguna ayuda por fuera del juego, lo que lo hace mucho más gratificante. todas los indicios, algunos más claros que otros, están perfectamente integrados, de forma que uno nunca se siente ayudado, simplemente necesita más o menos recursos para descular alguno de los acertijos
 - incluso en el caso de las mas directas aclaraciones sobre la mecanica del juego y de algunas de la habitaciones, la ayuda no se pide sino que se recibe donde la hayan puesto los diseñadores. Esta, en particular, fue mi favorita:
-  [screen use journal]
+
+[screen use journal]
+
 - la primera vez que la vi, todavía estaba abocado a descubrir las habitaciones y tratar de subir en la grilla. ni siquiera me había surgido la necesidad de anotar nada. Después de muchas horas y jornadas en el juego, ya complete unas 20 carillas en dos cuadernos.
 
-  [beautiful mind]
-  [crazy wall meme]
+[beautiful mind]
+[crazy wall meme]
 
   - el desafío inicial, el que hace correr los créditos si lo logramos, es trabajoso pero relativamente accesible. Los jugadores casuales tienen una buena excusa para cerrar ahí, pero para los hardcore es solo un capítulo inicial.
 
   el juego se puede estirar por muchas horas, con muchos hilos abiertos y ya sin un objetivo precisamente delimitado.
   creo que es un error perseguir en este caso el "completismo". debe ser difícil lograr todo sin ayuda, pero en mi caso prefiero dejar que el interés se vaya diluyendo naturalmente en vez de ponerme objetivos estrictos
   en este momento llevo dos listas: la de puzzles pendientes y la de ideas de cosas para probar. Cuando alguna de las dos se agote, daré /Blue Prince/ por terminado.
-
 
 
 #+BEGIN_CENTER
