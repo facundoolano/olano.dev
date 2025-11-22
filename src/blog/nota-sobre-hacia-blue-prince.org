@@ -32,9 +32,9 @@ Lo que, a veces, se toma por nostalgia es, en realidad, otra cosa. Cuando probam
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-Se habla del /roguelike/ como si fuera un género pero más bien designa un conjunto de mecánicas o patrones de diseño ---generación procedural, permadeath, etc--- aplicables a juegos de casi cualquier tipo. /Invisible, Inc./ es un stealth roguelike, /Hades/ es un action RPG roguelike, /Slay the Spire/ es un deckbuilder roguelike y /Balatro/ es falopa cortada con roguelike. A alguien se le tenía que ocurrir combinar esas mecánicas con un juego de puzzles. Ojalá hubiera sido yo. Quiero decir que /Blue Prince/ es un juego necesario: si no existiera, habría que inventarlo. El problema es que un puzzle bien hecho [[del-videojuego-como-puzzle][requiere]] que el diseñador se anticipe a cada movimiento del jugador; y los roguelike suelen ir en la dirección contraria, parecen tender forzosamente a las "sorpresas dictadas por la vanidad y el azar". ¿Cómo resolver ese conflicto? La solución de /Blue Prince/ está en el mapa.
+Se habla del /roguelike/ como si fuera un género pero más bien designa un conjunto de mecánicas o patrones de diseño ---generación procedural, permadeath, etc--- aplicables a juegos de casi cualquier tipo. /Invisible, Inc./ es un stealth roguelike, /Hades/ es un action RPG roguelike, /Slay the Spire/ es un deckbuilder roguelike y /Balatro/ es falopa cortada con roguelike. A alguien se le tenía que ocurrir combinar esas mecánicas con un juego de puzzles. Ojalá hubiera sido yo. Quiero decir que /Blue Prince/ es un juego necesario: si no existiera, habría que inventarlo. El problema es que un puzzle bien hecho [[del-videojuego-como-puzzle][requiere]] que el diseñador se anticipe a cada movimiento del jugador y los roguelike suelen ir en la dirección contraria, parecen tender forzosamente a las "sorpresas dictadas por la vanidad y el azar". ¿Cómo resolver ese conflicto? La solución de /Blue Prince/ está en el mapa.
 
-La exploración geográfica está en el ADN de las aventuras. [[llegando-los-monos][Antes de fundar un género]], el /Colossal Cave/ era un simulador de exploración deportiva de cavernas. Puro texto en terminales setentosas, el movimiento era en las direcciones cardinales y la mayoría de la acción se repartía entre la cabeza y el cuaderno del jugador.
+La exploración geográfica viene en el ADN de las aventuras. [[llegando-los-monos][Antes de fundar un género]], el /Colossal Cave/ era un simulador de exploración deportiva de cavernas. Puro texto en terminales setentosas, el movimiento era en las direcciones cardinales y la mayoría de la acción se repartía entre la cabeza y el cuaderno del jugador.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -43,7 +43,7 @@ La exploración geográfica está en el ADN de las aventuras. [[llegando-los-mon
 #+END_EXPORT
 
 
-Los dungeon crawlers como el /Wizardry/ o el /Bard's Tale/, primos de aquellas primeras aventuras, ponían [[https://x.com/felipepepe/status/1669933241732845568][tanto énfasis]] en la cartografía que algunos hasta traían hojas cuadriculadas en el paquete.
+Los dungeon crawlers como el /Wizardry/ o el /Bard's Tale/, primos de aquellas primeras aventuras, ponían [[https://x.com/felipepepe/status/1669933241732845568][tanto énfasis]] en la cartografía que algunos hasta traían una resma de hojas cuadriculadas en el paquete.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -60,21 +60,19 @@ Esta mecánica agrega al juego una capa de táctica (tenemos que intuir qué hab
 
 [screenshot grilla]
 
-Un juego así se expone a todas las frustraciones de las aventuras gráficas, multiplicadas por todas las tiranías del azar. ¿Qué pasa si ya no sé que hacer a continuación? Y, mucho peor, ¿qué pasa si se /exactamente/ lo que quiero hacer a continuación, pero generador de números aleatorios no me premia con la habitación que necesito?
+Un juego así se expone a todas las frustraciones de las aventuras gráficas, multiplicadas por todas las tiranías del azar. ¿Qué pasa si ya no sé qué hacer a continuación? Y, mucho peor, ¿qué pasa si sé /exactamente/ lo que quiero hacer a continuación, pero el generador de números aleatorios no me complace con la habitación que necesito?
 
-Si hay genialidad en la premisa, el mérito es mucho mayor en su ejecución. Aunque /Blue Prince/ nos plantea objetivos difíciles y nos obliga todo el tiempo a recomenzar cada día, los diseñadores se las arreglaron para que sea virtualmente imposible terminar una jornada sin algo que se perciba como progreso. Cada vez que accedemos a una habitación que no habíamos visto, aprendemos algo; cada vez que encontramos una pista o la releemos a la luz de nueva información que acumulamos; cada vez que sumamos una mejora persistente o un nuevo tipo de habitación al mazo; cada vez que leemos sobre la historia de algún personaje o de la región---en todos esos casos, estamos haciendo progresos.
+Si hay genialidad en la premisa, el mérito es mucho mayor en la ejecución. Aunque /Blue Prince/ nos plantea objetivos difíciles y nos obliga todo el tiempo a recomenzar, los diseñadores se las arreglaron para que sea virtualmente imposible terminar una jornada sin algo que se perciba como progreso. Cada vez que accedemos a una habitación que no habíamos visto o conseguimos un objeto que no conocíamos; cada vez que encontramos una pista o la releemos a la luz de nueva información; cada vez que sumamos una mejora persistente o un nuevo tipo de habitación al mazo; cada vez que leemos sobre la historia de algún personaje o de la región---en todos esos casos, estamos acercándonos a un objetivo.
 
-El argumento inicial del juego es a la vez trillado e inverosímil, pero suficientemente sencillo para que no cueste trabajo suspender el descreimiento: el protagonista hereda la mansión familiar pero para tomar posesión tiene que acceder a una misteriosa habitación en el otro extremo de la grilla, con la consabida dificultad de las habitaciones movedizas. Como en el realismo mágico, lo fantástico forma parte de la cotidianeidad de los personajes, que lo mismo siguen con sus vidas, con sus intrigas y sus dramas.
+<No conozco otro juego que te obligue así a estar atento, que te persuada a leer cada frase de cada documento y a entender el contexto bajo la sospecha de que todo vas a necesitarlo tarde o temprano. En un juego donde el terreno es aleatorio, nada parece gratuito, nada está librado al azar.
+
+El argumento inicial es a la vez trillado e inverosímil, pero suficientemente sencillo para que no cueste trabajo suspender el descreimiento: el protagonista hereda la mansión familiar pero para tomar posesión tiene que acceder a una misteriosa habitación en el otro extremo de la grilla, con la consabida dificultad de las habitaciones movedizas. Como en el realismo mágico, lo fantástico forma parte de la cotidianeidad de los personajes, que lo mismo siguen con sus vidas, con sus intrigas y sus dramas.
 <Aunque la historia (que todavía no dilucidé del todo) no vaya a ganar ningún premio, no es una mera excusa para desplegar el mecanismo, ni se siente el juego como un pasa-puzzles desalmado a lo /Myst/ o /The Witness/.
 
-<el diseño está lleno de aciertos que quizás no alcancen para evitar del todo los riesgos mecánicos, pero sí para posponer mucho su materialización.
-- hay varias maneras de resolver los puzzles
-- no hay prácticamente ninguna ayuda por fuera del juego, lo que lo hace mucho más gratificante. todas los indicios, algunos más claros que otros, están perfectamente integrados, de forma que uno nunca se siente ayudado, simplemente necesita más o menos recursos para descular alguno de los acertijos
-- incluso en el caso de las mas directas aclaraciones sobre la mecánica del juego y de algunas de la habitaciones, la ayuda no se pide sino que se recibe donde la hayan puesto los diseñadores. Esta, en particular, fue mi favorita:
+<hay varias maneras de resolver los puzzles y, aunque no podemos pedir ayuda, el juego suele darnosla antes de que la necesitemos
+<con la misma sutil elegancia con que nos provee información sobre los personajes e indicios para resolver los acertijos, el juego se explica a sí mismo y sus mecánicas mediante libros y algunos mensajes en las primeras habitaciones. Esta, en particular, fue mi favorita:
 
 [screen use journal]
-
-Esta sugerencia, que tal vez fastidie a algún zoomer, a este viejo jugador lo llena de placer: algunas de mis sesiones más gratificantes de /Blue Prince/ fueron a la mañana, con un mate, garabateando en un cuaderno, con la computadora cerrada en otra habitación.
 
 - la primera vez que la vi, todavía estaba abocado a descubrir las habitaciones y tratar de subir en la grilla. ni siquiera me había surgido la necesidad de anotar nada. Después de muchas horas y jornadas en el juego, ya complete unas 20 carillas en dos cuadernos.
 
@@ -84,13 +82,12 @@ Esta sugerencia, que tal vez fastidie a algún zoomer, a este viejo jugador lo l
 </div>
 #+END_EXPORT
 
+<Esta propuesta tal vez escandalice a algún zoomer, pero a este viejo jugador lo llena de placer: algunas de mis sesiones más gratificantes de /Blue Prince/ fueron a la mañana, con un mate, conectando notas en el cuaderno, con la computadora cerrada en otra habitación.
 
-- el desafío inicial, el que hace correr los créditos si lo logramos, es trabajoso pero relativamente accesible. Los jugadores casuales tienen una buena excusa para cerrar ahí, pero para los hardcore es solo un capítulo inicial.
+- el desafío inicial, el que hace correr los créditos si lo logramos, es trabajoso pero relativamente accesible. Los jugadores casuales tienen una buena excusa para cerrar ahí, pero para los veteranos apenas marca un primer capítulo del juego, que a partir de ahí se abre en muchas direcciones, ya sin un objetivo precisamente delimitado.
 
-No conozco otro juego que te obligue así a estar atento, que te persuada a leer cada frase de cada documento y a entender el contexto bajo la sospecha de que todo vas a necesitarlo tarde o temprano. En un juego donde el terreno es aleatorio, nada parece gratuito, nada está librado al azar.
-
-el juego se puede estirar por muchas horas, con muchos hilos abiertos y ya sin un objetivo precisamente delimitado.
-creo que es un error perseguir en este caso el "completismo". debe ser difícil lograr todo sin ayuda, pero en mi caso prefiero dejar que el interés se vaya diluyendo naturalmente en vez de ponerme objetivos estrictos
+<aunque los aciertos de diseño no puedan impedir el juego eventualmente nos acorrale, me sorprende cuán lejos se pude llegar sin que el juego se vuelva frustrante, y cuántas más capas de puzzles, de la mansión y de su historia, se pueden seguir descubriendo mucho después de esa primera meta.
+<Para mí sería un error perseguir tratar de "completar" el juego, sea lo que fuera que eso signifique. antes prefiero dejar que mi interés se vaya diluyendo naturalmente.
 en este momento llevo dos listas: la de puzzles pendientes y la de ideas de cosas para probar. Cuando alguna de las dos se agote, daré /Blue Prince/ por terminado.
 
 
