@@ -78,8 +78,12 @@ Esta sugerencia, que tal vez fastidie a algún zoomer, a este viejo jugador lo l
 
 - la primera vez que la vi, todavía estaba abocado a descubrir las habitaciones y tratar de subir en la grilla. ni siquiera me había surgido la necesidad de anotar nada. Después de muchas horas y jornadas en el juego, ya complete unas 20 carillas en dos cuadernos.
 
-[beautiful mind]
-[crazy wall meme]
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/beautifulmind.jpg" >
+</div>
+#+END_EXPORT
+
 
 - el desafío inicial, el que hace correr los créditos si lo logramos, es trabajoso pero relativamente accesible. Los jugadores casuales tienen una buena excusa para cerrar ahí, pero para los hardcore es solo un capítulo inicial.
 
