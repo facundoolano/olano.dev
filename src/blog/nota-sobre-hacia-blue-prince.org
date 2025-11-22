@@ -78,3 +78,8 @@ No conozco otro juego que te obligue así a estar atento, que te persuada a leer
 
 
 
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
+
+Hace unos años [[llegando-los-monos-2][me preguntaba]] si era todavía posible, para un millenial en el dos mil veinti-tantos, recuperar aquella conexión; si una aventura gráfica todavía podía funcionar. Mi respuesta [[notas-sobre-obra-dinn][empecé a enunciarla]] con /Return of the Obra Dinn/ y la termino con /Blue Prince/. Ese ciclo virtuoso ---exploración, deducción, descubrimiento--- todavía existe, si sabemos buscarlo. Está en un lugar al que se accede por caminos distintos que hace treinta años; un lugar que se va moviendo, unos caminos que no son dos veces iguales.
