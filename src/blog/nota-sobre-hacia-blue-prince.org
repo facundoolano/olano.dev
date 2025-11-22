@@ -29,3 +29,20 @@ Lo que, a veces, se toma por nostalgia es, en realidad, otra cosa. Cuando probam
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
+
+Se habla del /roguelike/ como si fuera un género pero más bien designa un conjunto de mecánicas o patrones de diseño ---generación procedural, permadeath, etc--- aplicables a juegos de casi cualquier tipo. /Invisible, Inc./ es un stealth roguelike, /Hades/ es un action RPG roguelike, /Slay the Spire/ es un deckbuilder roguelike y /Balatro/ es falopa cortada con roguelike. A alguien se le tenía que ocurrir combinar esas mecánicas con un juego de puzzles. Ojalá hubiera sido yo. Quiero decir que /Blue Prince/ es un juego necesario: si no existiera, habría que inventarlo. El problema es que un puzzle bien hecho [[del-videojuego-como-puzzle][requiere]] que el diseñador se anticipe a cada movimiento del jugador; y los roguelike suelen ir en la dirección contraria, parecen tender forzosamente a las "sorpresas dictadas por la vanidad y el azar". ¿Cómo resolver ese conflicto?
+
+La solución de /Blue Prince/ está en el mapa.
+
+La exploración geográfica está en el ADN de las aventuras. [[llegando-los-monos][Antes de fundar un género]], el /Colossal Cave/ era un simulador de exploración deportiva de cavernas. Puro texto en terminales setentosas, el movimiento era en direcciones cardinales y la mayoría de la acción se repartía entre la cabeza y el cuaderno del jugador.
+
+[screenshot colossal cave]?
+
+Los dungeon crawlers, primos de esas primeras aventuras, ponían [[https://x.com/felipepepe/status/1669933241732845568][tanto énfasis]] en la cartografía que algunos hasta incluían papel cuadriculado en el paquete.
+
+[screenshot]
+
+
+Para convertir un puzzle mystery en un roguelike, /Blue Prince/ subvierte la fórmula: si antes mapeábamos lo que explorábamos, en /Blue Prince/ exploramos lo que mapeamos. El juego transcurre en una mansión cuyas habitaciones encajan en una grilla cuadriculada; cada vez que abrimos una puerta se nos presentan opciones, como si sacáramos cartas de un mazo:
+
+[screenshot drafting]
