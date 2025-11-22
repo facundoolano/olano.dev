@@ -56,7 +56,7 @@ Para convertir al puzzle mystery en roguelike, /Blue Prince/ subvierte la fórmu
 
 [screenshot drafting]
 
-Esta mecánica agrega una capa de táctica (tenemos que intuir qué habitación puede salir y dónde van quedando las puertas, para no mapear un pasillo sin salida) y otra de manejo de recursos (tenemos una cantidad limitada de "pasos" para recorrer por día, necesitamos llaves para abrir las puertas y "gemas" para elegir habitaciones más sofisticadas). Si se nos acaban los pasos o nos quedamos encerrados, damos el día por terminado y empezamos otra vez al día siguiente, en la entrada de la mansión con un plano en blanco.
+Esta mecánica agrega al juego una capa de táctica (tenemos que intuir qué habitación puede salir y dónde van quedando las puertas, para no mapear un pasillo sin salida) y otra de manejo de recursos (tenemos una cantidad limitada de "pasos" para recorrer por día, necesitamos llaves para abrir las puertas y "gemas" para elegir habitaciones más sofisticadas). Si se nos acaban los pasos o nos quedamos encerrados, damos el día por terminado y empezamos otra vez al día siguiente, en la entrada de la mansión con un plano en blanco.
 
 [screenshot grilla]
 
@@ -64,34 +64,34 @@ Un juego así se expone a todas las frustraciones de las aventuras gráficas, mu
 
 Si hay genialidad en la premisa, el mérito es mucho mayor en su ejecución. Aunque /Blue Prince/ nos plantea objetivos difíciles y nos obliga todo el tiempo a recomenzar cada día, los diseñadores se las arreglaron para que sea virtualmente imposible terminar una jornada sin algo que se perciba como progreso. Cada vez que accedemos a una habitación que no habíamos visto, aprendemos algo; cada vez que encontramos una pista o la releemos a la luz de nueva información que acumulamos; cada vez que sumamos una mejora persistente o un nuevo tipo de habitación al mazo; cada vez que leemos sobre la historia de algún personaje o de la región---en todos esos casos, estamos haciendo progresos.
 
-El argumento del juego es a la vez trillado e inverosímil, pero suficientemente sencilla para que no cueste trabajo suspender el descreimiento: el protagonista al que controlamos hereda la mansión familiar pero para tomar posesión de ella tiene que acceder a una misteriosa habitación en el otro extremo de la grilla, <con la consabida dificultad de las habitaciones movedizas
-
-<aunque la historia (que todavía no dilucidé del todo) no va a ganar ningún premio, no se siente como una excusa, ni se siente el juego como un pasa puzzles desalmado o lo /Myst/ o /The Witness/.
-<como en el realismo mágico, lo inverosímil es cotidiano para los personajes, que se dedicaban a sus vidas, con sus intrigas y sus dramas.
-
-No conozco otro juego que te obligue así a estar atento, que te persuada a leer cada frase de cada documento y a entender el contexto bajo la sospecha de que todo vas a necesitarlo tarde o temprano. En un juego donde el terreno es aleatorio, nada parece gratuito, nada está librado al azar.
+El argumento inicial del juego es a la vez trillado e inverosímil, pero suficientemente sencillo para que no cueste trabajo suspender el descreimiento: el protagonista hereda la mansión familiar pero para tomar posesión tiene que acceder a una misteriosa habitación en el otro extremo de la grilla, con la consabida dificultad de las habitaciones movedizas. Como en el realismo mágico, lo fantástico forma parte de la cotidianeidad de los personajes, que lo mismo siguen con sus vidas, con sus intrigas y sus dramas.
+<Aunque la historia (que todavía no dilucidé del todo) no vaya a ganar ningún premio, no es una mera excusa para desplegar el mecanismo, ni se siente el juego como un pasa-puzzles desalmado a lo /Myst/ o /The Witness/.
 
 <el diseño está lleno de aciertos que quizás no alcancen para evitar del todo los riesgos mecánicos, pero sí para posponer mucho su materialización.
 - hay varias maneras de resolver los puzzles
 - no hay prácticamente ninguna ayuda por fuera del juego, lo que lo hace mucho más gratificante. todas los indicios, algunos más claros que otros, están perfectamente integrados, de forma que uno nunca se siente ayudado, simplemente necesita más o menos recursos para descular alguno de los acertijos
-- incluso en el caso de las mas directas aclaraciones sobre la mecanica del juego y de algunas de la habitaciones, la ayuda no se pide sino que se recibe donde la hayan puesto los diseñadores. Esta, en particular, fue mi favorita:
+- incluso en el caso de las mas directas aclaraciones sobre la mecánica del juego y de algunas de la habitaciones, la ayuda no se pide sino que se recibe donde la hayan puesto los diseñadores. Esta, en particular, fue mi favorita:
 
 [screen use journal]
+
+Esta sugerencia, que tal vez fastidie a algún zoomer, a este viejo jugador lo llena de placer: algunas de mis sesiones más gratificantes de /Blue Prince/ fueron a la mañana, con un mate, garabateando en un cuaderno, con la computadora cerrada en otra habitación.
 
 - la primera vez que la vi, todavía estaba abocado a descubrir las habitaciones y tratar de subir en la grilla. ni siquiera me había surgido la necesidad de anotar nada. Después de muchas horas y jornadas en el juego, ya complete unas 20 carillas en dos cuadernos.
 
 [beautiful mind]
 [crazy wall meme]
 
-  - el desafío inicial, el que hace correr los créditos si lo logramos, es trabajoso pero relativamente accesible. Los jugadores casuales tienen una buena excusa para cerrar ahí, pero para los hardcore es solo un capítulo inicial.
+- el desafío inicial, el que hace correr los créditos si lo logramos, es trabajoso pero relativamente accesible. Los jugadores casuales tienen una buena excusa para cerrar ahí, pero para los hardcore es solo un capítulo inicial.
 
-  el juego se puede estirar por muchas horas, con muchos hilos abiertos y ya sin un objetivo precisamente delimitado.
-  creo que es un error perseguir en este caso el "completismo". debe ser difícil lograr todo sin ayuda, pero en mi caso prefiero dejar que el interés se vaya diluyendo naturalmente en vez de ponerme objetivos estrictos
-  en este momento llevo dos listas: la de puzzles pendientes y la de ideas de cosas para probar. Cuando alguna de las dos se agote, daré /Blue Prince/ por terminado.
+No conozco otro juego que te obligue así a estar atento, que te persuada a leer cada frase de cada documento y a entender el contexto bajo la sospecha de que todo vas a necesitarlo tarde o temprano. En un juego donde el terreno es aleatorio, nada parece gratuito, nada está librado al azar.
+
+el juego se puede estirar por muchas horas, con muchos hilos abiertos y ya sin un objetivo precisamente delimitado.
+creo que es un error perseguir en este caso el "completismo". debe ser difícil lograr todo sin ayuda, pero en mi caso prefiero dejar que el interés se vaya diluyendo naturalmente en vez de ponerme objetivos estrictos
+en este momento llevo dos listas: la de puzzles pendientes y la de ideas de cosas para probar. Cuando alguna de las dos se agote, daré /Blue Prince/ por terminado.
 
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-Hace unos años [[llegando-los-monos-2][me preguntaba]] si era todavía posible, para un millenial en el dos mil veinti-tantos, recuperar aquella conexión; si una aventura gráfica todavía podía funcionar. Mi respuesta [[notas-sobre-obra-dinn][empecé a enunciarla]] con /Return of the Obra Dinn/ y la termino con /Blue Prince/. Ese ciclo virtuoso ---exploración, deducción, descubrimiento--- todavía existe, si sabemos buscarlo. Está en un lugar al que se accede por caminos distintos que hace treinta años; un lugar que se va moviendo, unos caminos que no son dos veces iguales.
+Hace unos años [[llegando-los-monos-2][me preguntaba]] si era todavía posible, para un millenial en el dos mil veinti-tantos, recuperar aquella conexión; si una aventura gráfica todavía podía funcionar. Mi respuesta [[notas-sobre-obra-dinn][empecé a enunciarla]] con /Return of the Obra Dinn/ y la termino ahora con /Blue Prince/. Ese ciclo virtuoso ---exploración, deducción, descubrimiento--- todavía existe, si sabemos buscarlo. Está en un lugar al que se accede por caminos distintos que hace treinta años; un lugar que se va moviendo, unos caminos que no son dos veces iguales.
