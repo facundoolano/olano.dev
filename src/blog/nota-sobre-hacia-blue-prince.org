@@ -82,7 +82,12 @@ Si hay genialidad en la premisa, el mérito es mucho mayor en la ejecución. Aun
 
 Con la misma elegancia con que nos suministra información sobre los personajes e indicios para resolver los acertijos, el juego se explica a sí mismo y sus mecánicas mediante libros y algunos mensajes en las primeras habitaciones. Este, en particular, es mi favorito:
 
-[screen use journal]
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/noteworthy.jpg" >
+</div>
+#+END_EXPORT
+
 
 La primera vez que lo leí, todavía estaba abocado a conocer las habitaciones y tratar de subir en la grilla; ni siquiera me había surgido la necesidad de anotar algo. Muchas horas y jornadas de juego después, ya complete unas 20 carillas. La propuesta de trabajar por fuera de la pantalla puede escandalizar a algún zoomer pero para mí es como volver a casa: más de una vez hice progresos con el primer mate de la mañana, revisando anotaciones del día anterior, con la computadora tranquilamente apagada en otra habitación.
 
