@@ -7,6 +7,7 @@ tags: [videojuegos, borges]
 draft: true
 refs: [blueprince, dinn, inquisiciones]
 image: blueprince.jpg
+excerpt: Reseña del juego, incluye gratis introducción pretenciosa y digresión histórica.
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
@@ -77,26 +78,20 @@ El argumento es a la vez trillado e inverosímil, pero suficientemente sencillo 
 
 Un juego así se expone a todas las frustraciones de las aventuras gráficas multiplicadas por todas las tiranías del azar. ¿Qué pasa si ya no sé qué hacer a continuación? Y, mucho peor, ¿qué pasa si sé /exactamente/ lo que quiero hacer a continuación, pero el generador de números aleatorios no me complace con la habitación que necesito?
 
-Si hay genialidad en la premisa, el mérito es mucho mayor en la ejecución. Aunque /Blue Prince/ nos plantea objetivos difíciles y nos obliga todo el tiempo a recomenzar, los diseñadores se las arreglaron para que sea virtualmente imposible terminar una jornada sin algo que se perciba como progreso. Cada vez que accedemos a una habitación que no habíamos visto o conseguimos un objeto que no conocíamos; cada vez que encontramos una pista o la releemos a la luz de nueva información; cada vez que sumamos una mejora persistente o un nuevo tipo de habitación al mazo; cada vez que leemos sobre la historia de algún personaje o de la región---en todos esos casos, estamos avanzando. La dinámica del juego te persuade a revisar cada rincón de las habitaciones, a leer cada frase de cada documento y tratar de entender el contexto, bajo la sospecha de que todo va a ser necesario, tarde o temprano. En un juego donde el escenario es aleatorio, nada es gratuito, nada parece librado al azar.
+Si hay genialidad en la premisa, el mérito es mucho mayor en la ejecución. Aunque /Blue Prince/ nos plantea objetivos difíciles y nos obliga todo el tiempo a recomenzar, los diseñadores se las arreglaron para que sea virtualmente imposible terminar una jornada sin algo que se perciba como progreso. Cada vez que accedemos a una habitación que no habíamos visto o conseguimos un objeto que no conocíamos; cada vez que encontramos una pista o la releemos a la luz de nueva información; cada vez que sumamos una mejora persistente o un nuevo tipo de habitación al mazo; cada vez que leemos sobre la historia de algún personaje o de la región---en todos esos casos, estamos avanzando. La dinámica del juego te persuade a revisar cada rincón de las habitaciones, a leer cada frase de cada documento y tratar de entenderla en contexto, bajo la sospecha de que todo, tarde o temprano, va a ser necesario. En un juego donde el escenario es aleatorio, nada es gratuito, nada parece librado al azar.
 
-Con la misma elegancia con que nos suministra información sobre los personajes e indicios para resolver los acertijos, el juego se explica a sí mismo y sus mecánicas mediante libros y algunos mensajes en las primeras habitaciones. Este, en particular, fue mi favorito:
+Con la misma elegancia con que nos suministra información sobre los personajes e indicios para resolver los acertijos, el juego se explica a sí mismo y sus mecánicas mediante libros y algunos mensajes en las primeras habitaciones. Este, en particular, es mi favorito:
 
 [screen use journal]
 
-La primera vez que lo leí, todavía estaba abocado a descubrir las habitaciones y tratar de subir en la grilla; ni siquiera me había surgido la necesidad de anotar algo. Muchas horas y jornadas de juego después, ya complete unas 20 carillas. La propuesta de trabajar por fuera de la pantalla puede escandalizar a algún zoomer pero para mí es como volver a casa: resolví más de un acertijo con el primer mate de la mañana, conectando anotaciones en el cuaderno, con la computadora tranquilamente cerrada en otra habitación.
+La primera vez que lo leí, todavía estaba abocado a conocer las habitaciones y tratar de subir en la grilla; ni siquiera me había surgido la necesidad de anotar algo. Muchas horas y jornadas de juego después, ya complete unas 20 carillas. La propuesta de trabajar por fuera de la pantalla puede escandalizar a algún zoomer pero para mí es como volver a casa: más de una vez hice progresos con el primer mate de la mañana, revisando anotaciones del día anterior, con la computadora tranquilamente apagada en otra habitación.
 
-#+BEGIN_EXPORT html
-<div class="text-center">
- <img src="{{site.config.static_root}}/img/beautifulmind.jpg" >
-</div>
-#+END_EXPORT
+El objetivo inicial, el que hace rodar los créditos si lo conseguimos, es trabajoso pero relativamente accesible. Los jugadores casuales tendrán ahí una buena oportunidad para cerrar, pero para los veteranos apenas marca un primer capítulo del juego, que a partir de ahí se abre en muchas direcciones, ya sin un objetivo precisamente definido. Aunque los aciertos del diseño no impidan que el juego finalmente nos acorrale, me sorprende cuán lejos se puede llegar sin que la experiencia se vuelva frustrante, y cuántas más capas de puzzles, cuántos nuevos escenarios y retazos de historia siguen surgiendo mucho después de aquel primer logro.
 
-El objetivo inicial, el que hace correr los créditos si lo conseguimos, es trabajoso pero relativamente accesible. Los jugadores casuales tienen una buena excusa para cerrar ahí, pero para los veteranos apenas marca un primer capítulo del juego, que a partir de ahí se abre en muchas direcciones, ya sin un objetivo precisamente definido. Aunque los aciertos del diseño no impidan que el juego eventualmente nos acorrale, me sorprende cuán lejos se puede llegar sin que la experiencia se vuelva frustrante, y cuántas más capas de puzzles, cuántos nuevos escenarios y retazos de historia siguen surgiendo mucho después de aquel primer logro.
-
-Ya con unas cincuenta horas de juego pienso que sería un error intentar "completar" el juego, sea lo que fuera que eso signifique. Antes prefiero dejar que el interés se vaya diluyendo naturalmente. Mientras tanto, voy llevando dos listas: los puzzles pendientes y mis próximos experimentos. Cuando alguna de las dos se agote, daré /Blue Prince/ por terminado.
+Ya con unas cincuenta horas de juego, pienso que sería un error intentar "completar" este juego, sea lo que fuera que eso signifique. Antes prefiero dejar que el interés se vaya diluyendo naturalmente. Mientras tanto, llevo dos listas: la de los puzzles que tengo pendientes y la de los próximos experimentos que quiero intentar. Cuando alguna de las dos se agote, daré mi juego por terminado.
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-Hace unos años [[llegando-los-monos-2][me preguntaba]] si era todavía posible, para un millenial en el dos mil veinti-tantos, recuperar aquella conexión; si una aventura gráfica todavía podía funcionar. Mi respuesta [[notas-sobre-obra-dinn][empecé a enunciarla]] con /Return of the Obra Dinn/ y la termino ahora con /Blue Prince/. Ese ciclo virtuoso ---exploración, deducción, descubrimiento--- todavía existe, si sabemos buscarlo. Está en un lugar al que se accede por caminos distintos que hace treinta años; un lugar que se va moviendo, unos caminos que no son dos veces iguales.
+Hace unos años [[llegando-los-monos-2][me preguntaba]] si era todavía posible, para un millenial en el dos mil veinti-tantos, recuperar aquella conexión; si una aventura gráfica todavía podía funcionar. Mi respuesta [[notas-sobre-obra-dinn][empecé a enunciarla]] con /Return of the Obra Dinn/ y la termino ahora con /Blue Prince/. Ese ciclo virtuoso ---exploración, deducción, descubrimiento--- todavía existe, si sabemos dónde buscarlo. Se llega por caminos distintos que hace treinta años; el destino se va moviendo, los caminos no son dos veces iguales.
