@@ -47,7 +47,7 @@ La exploración geográfica viene en el ADN de las aventuras. Antes de fundar un
 #+END_EXPORT
 
 
-En los años '80, los dungeon crawlers como el /Wizardry/ o el /Bard's Tale/, primos de aquellas primeras aventuras, ponían [[https://x.com/felipepepe/status/1669933241732845568][tanto énfasis]] en la cartografía que algunos hasta traían una resma de hojas cuadriculadas en el paquete.
+En los años '80, los dungeon crawlers como el /Wizardry/ o el /Bard's Tale/, primos de aquellas primeras aventuras, ponían [[https://archive.org/details/crpg-book-expanded-edition_3.1c_202203/page/n27/mode/2up][tanto énfasis]] en la cartografía que algunos hasta traían una resma de hojas cuadriculadas en el paquete.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
