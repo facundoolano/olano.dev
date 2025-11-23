@@ -6,7 +6,7 @@ lang: es
 tags: [videojuegos, borges]
 draft: true
 refs: [blueprince, dinn, inquisiciones]
-image: blueprince.jpg
+image: blueprince/blueprince.jpg
 excerpt: Reseña del juego, incluye gratis introducción pretenciosa y digresión histórica.
 ---
 #+OPTIONS: toc:nil num:nil
@@ -14,7 +14,7 @@ excerpt: Reseña del juego, incluye gratis introducción pretenciosa y digresió
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/blueprince.jpg" style="border-radius: 10px;">
+ <img src="{{site.config.static_root}}/img/blueprince/blueprince.jpg" style="border-radius: 10px;">
 </div>
 #+END_EXPORT
 
@@ -43,7 +43,7 @@ La exploración geográfica viene en el ADN de las aventuras. Antes de fundar un
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/crowther.png" >
+ <img src="{{site.config.static_root}}/img/blueprince/crowther.png" >
 </div>
 #+END_EXPORT
 
@@ -52,7 +52,7 @@ En los años '80, los dungeon crawlers como el /Wizardry/ o el /Bard's Tale/, pr
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/wizardry.jpg" >
+ <img src="{{site.config.static_root}}/img/blueprince/wizardry.jpg" >
 </div>
 #+END_EXPORT
 
@@ -61,7 +61,7 @@ Para convertir al puzzle mystery en roguelike, /Blue Prince/ subvierte la fórmu
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/blueprince3.jpg" >
+ <img src="{{site.config.static_root}}/img/blueprince/blueprince3.jpg" >
 </div>
 #+END_EXPORT
 
@@ -69,7 +69,7 @@ Esta mecánica le da al juego una capa de táctica (tenemos que intuir qué habi
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/blueprince2.png" >
+ <img src="{{site.config.static_root}}/img/blueprince/blueprince2.png" >
 </div>
 #+END_EXPORT
 
@@ -84,7 +84,7 @@ Con la misma elegancia con que nos suministra información sobre los personajes 
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/noteworthy.jpg" >
+ <img src="{{site.config.static_root}}/img/blueprince/noteworthy.jpg" >
 </div>
 #+END_EXPORT
 
