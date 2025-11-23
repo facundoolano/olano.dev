@@ -11,6 +11,12 @@ image: blueprince.jpg
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
 
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/blueprince.jpg" style="border-radius: 10px;">
+</div>
+#+END_EXPORT
+
 Si hay un lema de este blog es que a cualquier tema le podemos entrar por Borges.
 Para hablar de /Blue Prince/ traigo la introducción de su /Nota sobre (hacia) Bernard Shaw/:
 
@@ -20,23 +26,19 @@ A fines del siglo XIII, Raimundo Lulio (Ramon Llull) se aprestó a resolver todo
 
 Después de este primer párrafo, Borges sigue con cosas que no entiendo sobre autores que no leí, pero yo elijo creer que no importa, que todo lo demás es un vehículo, una excusa de Borges para expresar esas dos o tres ideas a las que vuelvo todo el tiempo. La primera ---la más fácil--- es que una obra producida mecánicamente, por azar o combinación, aún si divertido ejercicio de escritura, para el lector resulta casi siempre un incordio.
 
-La segunda idea es que la literatura se realiza en el acto de lectura; el libro es una relación, tiene que ver menos con el texto que con la manera de leerlo, con lo que evoca en el lector. En particular, una misma obra es modificada por el paso del tiempo: no leemos hoy este ensayo de Borges como se lo leía en 1951. De este concepto, más bien de su extraordinaria formulación, [[https://youtu.be/_BxOE3bO6SM?si=rfV2ND5P4aI6Ve4M&t=438][Ricardo Piglia dice]] que "es un aerolito". Que, supongo, es su equivalente de "barrilete cósmico, ¿de qué planeta viniste?".
+La segunda idea es que la literatura se realiza en el acto de lectura; el libro es una relación, tiene que ver menos con el texto que con la manera de leerlo, con lo que evoca en el lector. En particular, una misma obra es modificada por el paso del tiempo: no leemos hoy este ensayo de Borges como se lo leía en 1951. De este concepto, o más bien de su extraordinaria formulación, [[https://youtu.be/_BxOE3bO6SM?si=rfV2ND5P4aI6Ve4M&t=438][Ricardo Piglia dice]] que /es un aerolito/. Que, supongo, es su forma de decir: /barrilete cósmico, ¿de qué planeta viniste?/
 
-Llevado al terreno de los videojuegos ---un poco forzadamente: arrastrado por los pelos---, no jugamos hoy (no jugaríamos hoy, si los jugáramos) al /Colossal Cave Adventure/, al /Mystery House/, o al /Maniac Mansion/, como [[llegando-los-monos][se los jugaba]] en los '80. Ni nos funcionan tampoco sus clones modernos, las aventuras gráficas que se limitan a perpetuar fórmulas que ya estaban gastadas hace veinte años.
-
-Lo que, a veces, se toma por nostalgia es, en realidad, otra cosa. Cuando probamos y fallamos con una nueva aventura gráfica, cuando nos resignamos a revisar los clásicos, no es un intento de volver a aquellos veranos inabarcables de la adolescencia; se trata de recuperar algo de aquella conexión, de ese estímulo intelectual que habilitaban, [[del-videojuego-como-puzzle][ese diálogo]], ese seguir jugando en la cabeza, en el cuaderno, en clase o en la ducha. No es añoranza, señorita: es anhelo.
+Llevado al terreno de los videojuegos ---un poco forzadamente, sí: arrastrado por los pelos---, no jugamos hoy (no jugaríamos hoy, si todavía los jugáramos) al /Colossal Cave Adventure/, al /Mystery House/, o al /Maniac Mansion/, [[llegando-los-monos][como lo hacían]] en los '80. Ni nos sirven tampoco sus sucesores modernos, aventuras gráficas que se limitan a perpetuar fórmulas ya gastadas hace veinte años. Esta decepción, que a veces se toma por nostalgia, es, en realidad, otra cosa. Cuando probamos y fallamos con un juego /retro/, cuando nos resignamos a revisar los clásicos, no lo hacemos para volver a aquellos veranos inabarcables de la adolescencia; se trata más bien de recuperar cierta conexión, cierto estímulo intelectual que habilitaban esos juegos; un diálogo con el autor, una experiencia que transcendía la pantalla para seguir jugando en la cabeza, en el cuaderno, en el colegio o en la ducha. No es añoranza, señorita: es anhelo.
 
 
-#+BEGIN_EXPORT html
-<div class="text-center">
- <img src="{{site.config.static_root}}/img/blueprince.jpg" >
-</div>
-#+END_EXPORT
 
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
 
-Se habla del /roguelike/ como si fuera un género pero más bien designa un conjunto de mecánicas o patrones de diseño ---generación procedural, permadeath, etc--- aplicables a juegos de casi cualquier tipo. /Invisible, Inc./ es un stealth roguelike, /Hades/ es un action RPG roguelike, /Slay the Spire/ es un deckbuilder roguelike y /Balatro/ es falopa cortada con roguelike. A alguien se le tenía que ocurrir combinar esas mecánicas con un juego de puzzles. Ojalá hubiera sido yo. Quiero decir que /Blue Prince/ es un juego necesario: si no existiera, habría que inventarlo. El problema es que un puzzle bien hecho [[del-videojuego-como-puzzle][requiere]] que el diseñador se anticipe a cada movimiento del jugador y los roguelike suelen ir en la dirección contraria, parecen tender forzosamente a las "sorpresas dictadas por la vanidad y el azar". ¿Cómo resolver ese conflicto? La solución de /Blue Prince/ está en el mapa.
+Se habla del /roguelike/ como si fuera un género pero más bien designa un conjunto de mecánicas o patrones de diseño ---generación procedural, permadeath, etc--- aplicables a juegos de casi cualquier tipo. /Invisible, Inc./ es un stealth roguelike, /Hades/ es un action RPG roguelike, /Slay the Spire/ es un deckbuilder roguelike y /Balatro/ es falopa cortada con roguelike. A alguien se le tenía que ocurrir combinar esas mecánicas con un juego de puzzles. Ojalá hubiera sido yo. Quiero decir que /Blue Prince/ es un juego necesario: si no existiera, habría que inventarlo. El problema es que un puzzle bien hecho [[del-videojuego-como-puzzle][requiere]] que el diseñador se anticipe a cada movimiento del jugador y los roguelike suelen ir en la dirección contraria, parecen tender forzosamente a las /sorpresas dictadas por la vanidad y el azar/. ¿Cómo resolver ese conflicto? La solución de /Blue Prince/ está en el mapa.
 
-La exploración geográfica viene en el ADN de las aventuras. [[llegando-los-monos][Antes de fundar un género]], el /Colossal Cave/ era un simulador de exploración deportiva de cavernas. Puro texto en terminales setentosas, el movimiento era en las direcciones cardinales y la mayoría de la acción se repartía entre la cabeza y el cuaderno del jugador.
+La exploración geográfica viene en el ADN de las aventuras. Antes de fundar un género, el /Colossal Cave/ era un simulador de exploración deportiva de cavernas. Puro texto en terminales setentosas, el movimiento era en las direcciones cardinales y la mayoría de la acción se repartía entre la cabeza y el cuaderno del jugador.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -77,11 +79,11 @@ Si hay genialidad en la premisa, el mérito es mucho mayor en la ejecución. Aun
 
 El argumento inicial es a la vez trillado e inverosímil, pero suficientemente sencillo para que no cueste trabajo suspender el descreimiento: el protagonista hereda la mansión familiar pero para tomar posesión tiene que acceder a una misteriosa habitación en el otro extremo de la grilla, con la consabida dificultad de las habitaciones movedizas. Como en el realismo mágico, lo fantástico forma parte de la cotidianeidad de los personajes, que lo mismo siguen con sus vidas, con sus intrigas y sus dramas. Aunque la historia no vaya a ganar ningún premio, no es una mera excusa para desplegar el mecanismo, ni se siente el juego como un pasa-puzzles desalmado a lo /Myst/ o /The Witness/.
 
-<Hay varias maneras de resolver los puzzles y, aunque no podemos pedir ayuda, el juego suele dárnosla antes de que la necesitemos. <Con la misma sutil elegancia con que nos provee información sobre los personajes e indicios para resolver los acertijos, el juego se explica a sí mismo y sus mecánicas mediante libros y algunos mensajes en las primeras habitaciones. Esta, en particular, fue mi favorita:
+Con la misma elegancia con que nos suministra información sobre los personajes e indicios para resolver los acertijos, el juego se explica a sí mismo y sus mecánicas mediante libros y algunos mensajes en las primeras habitaciones. Este, en particular, fue mi favorito:
 
 [screen use journal]
 
-- la primera vez que la vi, todavía estaba abocado a descubrir las habitaciones y tratar de subir en la grilla. ni siquiera me había surgido la necesidad de anotar nada. Después de muchas horas y jornadas en el juego, ya complete unas 20 carillas en dos cuadernos.
+La primera vez que lo leí, todavía estaba abocado a descubrir las habitaciones y tratar de subir en la grilla; ni siquiera me había surgido la necesidad de anotar algo. Muchas horas y jornadas de juego después, ya complete unas 20 carillas. La propuesta de trabajar por fuera de la pantalla puede escandalizar a algún zoomer pero para mí es como volver a casa: resolví más de un acertijo con el primer mate de la mañana, conectando anotaciones en el cuaderno, con la computadora tranquilamente cerrada en otra habitación.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -89,14 +91,9 @@ El argumento inicial es a la vez trillado e inverosímil, pero suficientemente s
 </div>
 #+END_EXPORT
 
-<Esta propuesta tal vez escandalice a algún zoomer, pero a este viejo jugador lo llena de placer: algunas de mis sesiones más gratificantes de /Blue Prince/ fueron a la mañana, con un mate, conectando notas en el cuaderno, con la computadora cerrada en otra habitación.
+El objetivo inicial, el que hace correr los créditos si lo conseguimos, es trabajoso pero relativamente accesible. Los jugadores casuales tienen una buena excusa para cerrar ahí, pero para los veteranos apenas marca un primer capítulo del juego, que a partir de ahí se abre en muchas direcciones, ya sin un objetivo precisamente definido. Aunque los aciertos del diseño no impidan que el juego eventualmente nos acorrale, me sorprende cuán lejos se puede llegar sin que la experiencia se vuelva frustrante, y cuántas más capas de puzzles, cuántos nuevos escenarios y retazos de historia siguen surgiendo mucho después de aquel primer logro.
 
-<el desafío inicial, el que hace correr los créditos si lo logramos, es trabajoso pero relativamente accesible. Los jugadores casuales tienen una buena excusa para cerrar ahí, pero para los veteranos apenas marca un primer capítulo del juego, que a partir de ahí se abre en muchas direcciones, ya sin un objetivo precisamente delimitado.
-
-<aunque los aciertos de diseño no puedan impedir el juego eventualmente nos acorrale, me sorprende cuán lejos se pude llegar sin que el juego se vuelva frustrante, y cuántas más capas de puzzles, de la mansión y de su historia, se pueden seguir descubriendo mucho después de esa primera meta.
-<Para mí sería un error perseguir tratar de "completar" el juego, sea lo que fuera que eso signifique. antes prefiero dejar que mi interés se vaya diluyendo naturalmente.
-en este momento llevo dos listas: la de puzzles pendientes y la de ideas de cosas para probar. Cuando alguna de las dos se agote, daré /Blue Prince/ por terminado.
-
+Ya con unas cincuenta horas de juego pienso que sería un error intentar "completar" el juego, sea lo que fuera que eso signifique. Antes prefiero dejar que el interés se vaya diluyendo naturalmente. Mientras tanto, voy llevando dos listas: los puzzles pendientes y mis próximos experimentos. Cuando alguna de las dos se agote, daré /Blue Prince/ por terminado.
 
 #+BEGIN_CENTER
 \lowast{} \lowast{} \lowast{}
