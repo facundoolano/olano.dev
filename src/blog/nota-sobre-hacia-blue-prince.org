@@ -1,10 +1,9 @@
 ---
 title: Nota sobre (hacia) Blue Prince
-date: 2025-11-18T20:25:30-03:00
+date: 2025-11-24T10:25:30-03:00
 layout: post
 lang: es
 tags: [videojuegos, borges]
-draft: true
 refs: [blueprince, dinn, inquisiciones]
 image: blueprince/blueprince.jpg
 excerpt: Reseña del juego, incluye gratis introducción pretenciosa y digresión histórica.
