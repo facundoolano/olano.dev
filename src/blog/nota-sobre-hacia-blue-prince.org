@@ -64,7 +64,7 @@ Para convertir al puzzle mystery en roguelike, /Blue Prince/ subvierte la fórmu
 </div>
 #+END_EXPORT
 
-Esta mecánica le da al juego una capa de táctica (tenemos que intuir qué habitación puede salir y dónde vamos colocando las puertas, para quedarnos sin salidas) y otra de gestión de recursos (tenemos una cantidad limitada de "pasos" para dar por día, necesitamos llaves para abrir las puertas y "gemas" para elegir habitaciones más sofisticadas). Si se nos acaban los pasos o nos quedamos encerrados, damos el día por terminado y empezamos otra vez al día siguiente, de nuevo en el hall de la mansión con un plano en blanco.
+Esta mecánica le da al juego una capa de táctica (tenemos que intuir qué habitación puede salir y dónde vamos colocando las puertas, para quedarnos sin salidas) y otra de gestión de recursos (tenemos una cantidad limitada de "pasos" para dar por día, necesitamos llaves para abrir las puertas y "gemas" para elegir habitaciones más sofisticadas). En el interior de las habitaciones, encontramos lo esperable en un juego de puzzles: cajas fuertes, anotaciones en diarios, mensajes en código. Si se nos acaban los pasos o nos quedamos encerrados, damos el día por terminado y empezamos otra vez al día siguiente, de nuevo en el hall de la mansión con un plano en blanco.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -73,11 +73,11 @@ Esta mecánica le da al juego una capa de táctica (tenemos que intuir qué habi
 #+END_EXPORT
 
 
+El argumento es a la vez trillado e inverosímil, pero suficientemente sencillo para que no cueste trabajo suspender el descreimiento: el protagonista es heredero de la mansión familiar, pero para tomar posesión tiene que lograr acceder a una misteriosa habitación en el extremo norte del edificio, con la consabida dificultad de que las habitaciones van cambiando cada día. Como en el realismo mágico, lo fantástico forma parte de la cotidianeidad de los personajes, que lo mismo siguen con sus vidas, con sus intrigas y sus dramas. Aunque la historia no vaya a ganar ningún premio, no se percibe como una mera excusa para desplegar el mecanismo, ni se siente el juego como un pasa-puzzles desalmado a lo /Myst/ o /The Witness/.
+
 Un juego así se expone a todas las frustraciones de las aventuras gráficas multiplicadas por todas las tiranías del azar. ¿Qué pasa si ya no sé qué hacer a continuación? Y, mucho peor, ¿qué pasa si sé /exactamente/ lo que quiero hacer a continuación, pero el generador de números aleatorios no me complace con la habitación que necesito?
 
 Si hay genialidad en la premisa, el mérito es mucho mayor en la ejecución. Aunque /Blue Prince/ nos plantea objetivos difíciles y nos obliga todo el tiempo a recomenzar, los diseñadores se las arreglaron para que sea virtualmente imposible terminar una jornada sin algo que se perciba como progreso. Cada vez que accedemos a una habitación que no habíamos visto o conseguimos un objeto que no conocíamos; cada vez que encontramos una pista o la releemos a la luz de nueva información; cada vez que sumamos una mejora persistente o un nuevo tipo de habitación al mazo; cada vez que leemos sobre la historia de algún personaje o de la región---en todos esos casos, estamos avanzando. La dinámica del juego te persuade a revisar cada rincón de las habitaciones, a leer cada frase de cada documento y tratar de entender el contexto, bajo la sospecha de que todo va a ser necesario, tarde o temprano. En un juego donde el escenario es aleatorio, nada es gratuito, nada parece librado al azar.
-
-El argumento es a la vez trillado e inverosímil, pero suficientemente sencillo para que no cueste trabajo suspender el descreimiento: el protagonista es heredero de la mansión familiar, pero para tomar posesión tiene que lograr acceder a una misteriosa habitación en el extremo norte del edificio, con la consabida dificultad de que las habitaciones van cambiando cada día. Como en el realismo mágico, lo fantástico forma parte de la cotidianeidad de los personajes, que lo mismo siguen con sus vidas, con sus intrigas y sus dramas. Aunque la historia no vaya a ganar ningún premio, no se percibe como una mera excusa para desplegar el mecanismo, ni se siente el juego como un pasa-puzzles desalmado a lo /Myst/ o /The Witness/.
 
 Con la misma elegancia con que nos suministra información sobre los personajes e indicios para resolver los acertijos, el juego se explica a sí mismo y sus mecánicas mediante libros y algunos mensajes en las primeras habitaciones. Este, en particular, fue mi favorito:
 
