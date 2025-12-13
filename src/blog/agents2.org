@@ -1,0 +1,52 @@
+---
+title: Another round of building with agents
+date: 2025-12-13T11:59:38-03:00
+layout: post
+lang: en
+tags: [ai, projects]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+Previously on /Facundo's Adventures with LLMs/:
+
+- [[https://jorge.olano.dev/blog/on-ai-assistance/][On AI assistance]]
+- [[augmentation-replacement][Augmentation / Replacement]]
+- [[agentic-coding-experience][Quick notes on a brief agentic coding experience]]
+
+This time I will document a successful experience I had building a small web app almost exclusively with Claude Code. My previous attempt made me sick, this time I felt empowered. What changed?
+
+** Part 1: context
+*** The project
+*** Motivation
+*** Goals
+*** Non-goals
+*** Stack?
+*** Result
+
+** Part 2: process + lessons learned
+*** CHOP not vibe
+  - link to recent article
+  - link to earlier article about not letting AI near the tests
+- my own flavor of CHOP went like this:
+*** Agent customization
+  - don't invest on its tooling: no sophisticated CLAUDE.md, no MCP, no custom commands, no skills, no plugins. I'm not saying these aren't useful, but in my previous experience I found them to be unproductive rabbit holes: I ended up spending a lot of tokens trying to come up with an ideal workflow specification; this is especially problematic because the agent is not trained with knowledge about itself, so it's very ineffective at configuring itself. In that context, it would requires a lot mental effort on my side to tune the agent to my satisfcation, and in my opinion, spending mental effort in such meta-tasks defeats the purpose of using agents in the first place, at least in the context of such a short lived hobby project. Additionally, with these beasts any setup seems to go stale every few months, so my attitude was: see how far this can get me now with minimal tweaking; if that's not very far I'll just wait and try again in a few months.
+
+*** Working sessions
+- the only thing I found to be fundamental is to follow X advice to turn compaction off. If you reach compaction then that session is dead. And also if you near compaction you'll likely kill any remaining tokens you have in your current session. These constraints made me arrange my work to always be approachable in one session:
+  - don't try to do too much at once
+  - close and reopen claude as a sort of "checkpointing" when I'm done with a feature and want to start another one.
+  - do a plan-only session, with a detailed markdown plan as output for work that seems to complex work on start to finish before running out of context token or session usage limits.
+
+- I find that these restriction to work on self contained sessions, and the need to take breaks when reaching both session and weekly limit made me keep my work organized and avoid the agent subtly dragging me into its spirals of nonsensical coding sprees.
+
+- When I ran out of tokens, since there was still that barrier on familiarizing with the code, I opted to make progress on UX ideas, feature specifications, test stubs and server setup---all pieces that I didn't want the AI to touch. I found this context switching useful to make steady progress.
+
+In a more serious or time-constrained scenario, I would still opt for paying two 20 dollar pro plans instead of a 100 or 200 USD max plan. I haven't tried, but I suspect a combination of Claude Code Pro and Codex Plus is the ideal combination.
+
+*** Testing
+*** Debugging
+*** Refactoring
+
+** Conclusions
