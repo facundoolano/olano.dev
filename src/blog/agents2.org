@@ -15,14 +15,32 @@ Previously on /Facundo's Adventures with LLMs/:
 - [[augmentation-replacement][Augmentation / Replacement]]
 - [[agentic-coding-experience][Quick notes on a brief agentic coding experience]]
 
-This time I will document a successful experience I had building a small web app almost exclusively with Claude Code. My previous attempt made me sick, this time I felt empowered. What changed?
+This time I will document a successful experience I had building a small web app almost exclusively with Claude Code.
+
+My previous attempt had made me sick, this time I felt empowered. What changed?
 
 ** Part 1: context
 *** The project
+<GiraLibros.com is a small book trading web application for the Buenos Aires local area.
+- after signing up, users publish a list of books they offer for exchanging, and get to browse other user's offered books.
+- When a users sees a book they like, they send an exchange request to the owner
+- An exchange request is just an email notification with the list of books offered by the interested user.
+- If the user that receives the request is interested in any of the other user's book, they get in touch a their convenience and trade books. Most of this happens outside of the application (there are no incentives in keeping users inside the app, and email or WhatsApp work much better for coordinating an exchange)
+
 *** Motivation
+This wasn't an original idea, there is an app that works exactly like that in Argentina, which worked pretty well for a few years. Unfortunately the owners of that app recently imposed a very aggressive subscription where unsubscribed free users can barely use the app anymore.
+As a side effect, even if you pay the subscription, most of the other users don't so it's hard to make an exchange. This ultimately made the community stagnate.
+
+The idea of my project was to restore that community by guaranteeing an unlimited free experience. Since I'm not out to make money from this, it's implied that I wanted to design to minimize the cost of maintaining it if it takes off.
+
 *** Goals
 *** Non-goals
 *** Stack
+- django:
+  - used to be my bread and butter 10 years ago until I moved out of python and traditional web development.
+  - most recently, for one reason or another, I've been using flask and sqlalchemy, occassionally trying HTMX for fancier UIs
+  - but recently grew convinced that the simplicity of Django + vanilla js is hard to be beat for web apps with unpretentious interfaces. so while I think go makes my live easier to deploy and operate a system, I knew that django would maximize my productivity. for the deploy part I would just replicate I'd been doing with my other projects (linux vps, nginx, gunicorn, sqlite, bulma for css)
+
 *** Claude Code
 
 - the combination of goals, non goals, and tooling made this an ideal candidate for coding with agents.
@@ -30,6 +48,11 @@ This time I will document a successful experience I had building a small web app
 - I suppose CC got a lot better in the few months since I first tried, but truth be told the bigger factors were that:
   - I learn through colleagues about the 20usd suscription (as opposed of the 100/200usd one and the crazy spend of the API key alternative)
   - I kept reading experiences from other (often skeptical) devs which gave me ideas to approach the use of the tool differently
+
+- note that I used django intensively for 5 years... a decade ago. that made it an interesting fit, because I still have a good grasp of django concepts, a notion what's doable with it, what's builtin and what should be ad hoc, etc., but I completely forgot the syntax and the little details. I could instruct claude precisely what to do, saving me from a lot of documentation roundtrips, while still catching when it tried to bullshit me into getting creative ore reinventing the wheel
+- similarly I have an idea of what was supported by bulma, and I could delegate the HTML layout and css to claude
+- this will be a clear trade off, I'm a backend dev, I knew I wouldn't be as effective in catching the garbage early on when it came to CSS structure and javascript features, but to be honest I'm not very good at building maintainable interfaces on my own anyway, and it's by far the biggest burden on me for this kind of project, so I was more than willing to make sacrifices on this front.
+
 
 - I should note that using agents wasn't a fundamental factor in this project: I first made my mind about doing it, then decided to see how far I could go with CC. Had I had a first few unproductive sessions I would start from scratch writing all the code myself. (perhaps running a higher risk of dropping the project before completion)
 
@@ -74,3 +97,11 @@ In a more serious or time-constrained scenario, I would still opt for paying two
 *** Debugging
 
 ** Conclusions
+
+- previous attempt I qualified the feeling as "exhilarating recklessness" and compared the experience with going to the casino.
+- this time instead I felt like I was leveraging my experience: like I had been saving in experience for 15 years and Claude allowed me to "spend" some of that experience to get something that I wanted. This analogy works in more than one way:
+  - it felt rewarding to see how much I know about this stuff that I had not think about in a long while, how many little nuances about putting together a web app and trying different user interfaces I could think about, how many problems I could catch by just reviewing Claude's code. Even if wasn't writing the code, there was a lot I could bring to the table .
+  - I did feel like if I only coded this way my experience would give diminishing returns and my skills would atrophy
+
+- I'm sure there are many mistakes I made by letting claude do the work for me, but this was clearly a successful project given my goals and the results
+- I still don't think it would be wise to use this a lot in professional environments, other than for proof of concept-type of software. I don't think that trading short term productivity for long term ownership and knowledge building makes sense in most cases.
