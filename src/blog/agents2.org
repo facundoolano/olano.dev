@@ -22,14 +22,38 @@ This time I will document a successful experience I had building a small web app
 *** Motivation
 *** Goals
 *** Non-goals
-*** Stack?
+*** Stack
+*** Claude Code
+
+- the combination of goals, non goals, and tooling made this an ideal candidate for coding with agents.
+
+- I suppose CC got a lot better in the few months since I first tried, but truth be told the bigger factors were that:
+  - I learn through colleagues about the 20usd suscription (as opposed of the 100/200usd one and the crazy spend of the API key alternative)
+  - I kept reading experiences from other (often skeptical) devs which gave me ideas to approach the use of the tool differently
+
+- I should note that using agents wasn't a fundamental factor in this project: I first made my mind about doing it, then decided to see how far I could go with CC. Had I had a first few unproductive sessions I would start from scratch writing all the code myself. (perhaps running a higher risk of dropping the project before completion)
+
 *** Result
+- released working mvp in 1 (part time) week
+- added QoL improvements in another week
+- got ~70 users and ~300 books after promoting it
+- cost of running it is
+  X/month hetzner vps
+  X/year porkbun domain
+  X/6 months for zepto emails
+  ~ the cost a used book in Buenos Aires.
 
 ** Part 2: process + lessons learned
 *** CHOP not vibe
   - link to recent article
   - link to earlier article about not letting AI near the tests
 - my own flavor of CHOP went like this:
+  - not only claude doesn't get to do PRs or PR reviews: it doesn't even get to do commits.
+  - I typically either provide some product-level context upfront and then either provide or iterate with Claude on a succinct TODO list of the tasks to be done before letting it start coding. the idea is to minimize the opportunities for it to get creative.
+
+(as stated before, the goal here is not maximize velocity but to get a finished product with minimal effort and frustration on my side.
+I have a lot of training in high level task breakdown, superficial reviewing, foreseeing pitfalls, and building confidence through a test suite, so this approach turns out to be very effective for my purposes.)
+
 *** Agent customization
   - don't invest on its tooling: no sophisticated CLAUDE.md, no MCP, no custom commands, no skills, no plugins. I'm not saying these aren't useful, but in my previous experience I found them to be unproductive rabbit holes: I ended up spending a lot of tokens trying to come up with an ideal workflow specification; this is especially problematic because the agent is not trained with knowledge about itself, so it's very ineffective at configuring itself. In that context, it would requires a lot mental effort on my side to tune the agent to my satisfcation, and in my opinion, spending mental effort in such meta-tasks defeats the purpose of using agents in the first place, at least in the context of such a short lived hobby project. Additionally, with these beasts any setup seems to go stale every few months, so my attitude was: see how far this can get me now with minimal tweaking; if that's not very far I'll just wait and try again in a few months.
 
@@ -46,7 +70,7 @@ This time I will document a successful experience I had building a small web app
 In a more serious or time-constrained scenario, I would still opt for paying two 20 dollar pro plans instead of a 100 or 200 USD max plan. I haven't tried, but I suspect a combination of Claude Code Pro and Codex Plus is the ideal combination.
 
 *** Testing
+*** DRY
 *** Debugging
-*** Refactoring
 
 ** Conclusions
