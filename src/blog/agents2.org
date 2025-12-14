@@ -53,7 +53,6 @@ The idea of my project was to restore that community by guaranteeing an unlimite
 
 While all the things in this second list are desirable, I was willing to trade them off for those in the first list.
 
-
 *** Stack
 - django:
   - used to be my bread and butter 10 years ago until I moved out of python and traditional web development.
@@ -87,8 +86,10 @@ While all the things in this second list are desirable, I was willing to trade t
 
 ** Part 2: process + lessons learned
 *** CHOP not vibe
-  - link to recent article
-  - link to earlier article about not letting AI near the tests
+- link to recent article
+https://diwank.space/field-notes-from-shipping-real-code-with-claude
+
+
 - my own flavor of CHOP went like this:
   - not only claude doesn't get to do PRs or PR reviews: it doesn't even get to do commits.
   - I typically either provide some product-level context upfront and then either provide or iterate with Claude on a succinct TODO list of the tasks to be done before letting it start coding. the idea is to minimize the opportunities for it to get creative.
@@ -97,7 +98,7 @@ While all the things in this second list are desirable, I was willing to trade t
 I have a lot of training in high level task breakdown, superficial reviewing, foreseeing pitfalls, and building confidence through a test suite, so this approach turns out to be very effective for my purposes.)
 
 *** Agent customization
-  - don't invest on its tooling: no sophisticated CLAUDE.md, no MCP, no custom commands, no system prompts, no skills, no plugins. I'm not saying these aren't important, but in my previous experience I found them to be non-conducive rabbit holes: I ended up spending a lot of tokens trying to come up with an ideal workflow specification; this is especially problematic because the agent is not trained with knowledge about itself, so it's very ineffective at configuring itself. In that context, it would requires a lot mental effort on my side to tune the agent to my satisfcation, and in my opinion, spending mental effort in such meta-tasks defeats the purpose of using agents in the first place, at least in the context of such a short lived hobby project. Additionally, with these beasts any setup seems to go stale every few months, so my attitude was: see how far this can get me now with minimal tweaking; if that's not very far I'll just wait and try again in a few months.
+  - don't invest on its tooling: no sophisticated CLAUDE.md, no MCP, no custom commands, no system prompts, no skills, no plugins. I'm not saying these aren't important, but in my previous experience I found them to be non-conducive rabbit holes: I ended up spending a lot of tokens trying to come up with an ideal workflow specification; this is especially problematic because the agent is not trained with knowledge about itself, so it's very ineffective at configuring itself. In that context, it would requires a lot mental effort on my side to tune the agent to my satisfaction, and in my opinion, spending mental effort in such meta-tasks defeats the purpose of using agents in the first place, at least in the context of such a short lived hobby project. Additionally, with these beasts any setup seems to go stale every few months, so my attitude was: see how far this can get me now with minimal tweaking; if that's not very far I'll just wait and try again in a few months.
 
 *** Work sessions
 - the only thing I found to be fundamental is to follow X advice to turn compaction off. If you reach compaction then that session is dead. And also if you near compaction you'll likely kill any remaining tokens you have in your current session. These constraints made me arrange my work to always be approachable in one session:
@@ -112,6 +113,24 @@ I have a lot of training in high level task breakdown, superficial reviewing, fo
 In a more serious or time-constrained scenario, I would still opt for paying two 20 dollar pro plans instead of a 100 or 200 USD max plan. I haven't tried, but I suspect a combination of Claude Code Pro and Codex Plus is the ideal combination.
 
 *** Testing
+I mostly agree the sacred rule on this post
+https://diwank.space/field-notes-from-shipping-real-code-with-claude
+
+but I slightly adapted to reduce friction in adding new tests.
+- I don't let AI come up with their own tests
+- I have specific rules about what I look for in a test (which aren't different from non-ai driven projects). basically what I listed here and discussed in more length here: test units of behavior not units of code, don't couple to implementation details, prefer integration tests over smaller scale unit tests, don't mock intermediate layers (just the inputs and outputs of your system), don't access the DB directly. (I made claude read those and include the rules in its CLAUDE.md)
+
+This is one of the few areas where I hold my opinions strongly. Taking this approach helps me trust my codebase even when I don't fully understand it or there are pieces that I know need improvement. I find an explicit test exercising every relevant business rule beats documentation, comments and the overall design/architecture in providing guarantees that the system does what it needs to do and will continue to over time.
+
+This becomes even more important in the context of agentic coding, where I'm voluntarily resigning control and understanding of the implementation.
+
+- the slight adjustment is that I want to test as much as possible, and writing tests line by line is still burdensome. So I typically write outlines like:
+  [Example]
+then ask Claude to implement one at a time and I closely review to make sure it's following my rules and not overcomplicating the implementation. after a few are implemented then it's less likely to deviate from the sorrounding style.
+I don't let Claude add tests before adding my detailed outline first
+
+I also do a manual smoke testing after each feature is ready to merge. <I haven't experimented with something like playwright yet, but I suspect that would be a better approach to catch UI regressions, where a lot of the complexity of the app resides
+
 *** DRY
 *** Debugging
 
