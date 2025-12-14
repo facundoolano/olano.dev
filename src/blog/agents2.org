@@ -131,7 +131,18 @@ I don't let Claude add tests before adding my detailed outline first
 
 I also do a manual smoke testing after each feature is ready to merge. <I haven't experimented with something like playwright yet, but I suspect that would be a better approach to catch UI regressions, where a lot of the complexity of the app resides
 
-*** DRY
+*** Don't repeat yourself
+
+Code duplication is an interesting thing to reflect about in the context of working with agents. LLMs are paid (?) to output tokens, so unsurprisingly Claude Code indulges in all kinds of duplication, <not only pieces of code already defined elsewhere in the project (and possibly outside of its current context), but pieces defined right above the code its adding, or in a class its sub-classing, in the django built-ins already imported, etc.
+
+It's tempting to add rigid rules to CLAUDE.md to prevent code duplication, but as we collectively learned in the last decade, dogmatically removing all code duplication tends to do more harm than good.
+
+The anniversary edition of /The Pragmatic Programmer/ makes a useful distinction between duplication /of code/ and duplication /of knowledge/. The latter being what we need to strictly remove. <The situation compounds in the context of coding agents, where (re)writing code is effortless but scattered knowledge is the biggest system risk.
+
+So I found most of my reviews deal with strategically removing or allowing duplication: if it's knowledge it needs to be centralized and I need to think carefully how, if it's just code I can instruct how to extract and reuse, but more often than not it's OK just live with that duplication.
+
+[TODO better examples?]
+
 *** Debugging
 
 ** Conclusions
