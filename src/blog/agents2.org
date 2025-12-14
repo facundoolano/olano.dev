@@ -19,22 +19,15 @@ This time I will document a successful experience I had building a small web app
 
 My previous attempt had made me sick, this time I felt empowered. What changed?
 
-** Part 1: context
-
-These first few sections just provide context about the project; jump to the second part for a discussion and my take-aways of building with agents.
-
 *** The project
-<GiraLibros.com is a small book trading web application for the Buenos Aires local area.
-- after signing up, users publish a list of books they offer for exchanging, and get to browse other user's offered books.
-- When a users sees a book they like, they send an exchange request to the owner
-- An exchange request is just an email notification with the list of books offered by the interested user.
-- If the user that receives the request is interested in any of the other user's book, they get in touch a their convenience and trade books. Most of this happens outside of the application (there are no incentives in keeping users inside the app, and email or WhatsApp work much better for coordinating an exchange)
-
-*** Motivation
-This wasn't an original idea, there is an app that works exactly like that in Argentina, which worked pretty well for a few years. Unfortunately the owners of that app recently imposed a very aggressive subscription where unsubscribed free users can barely use the app anymore.
-As a side effect, even if you pay the subscription, most of the other users don't so it's hard to make an exchange. This ultimately made the community stagnate.
-
-The idea of my project was to restore that community by guaranteeing an unlimited free experience. Since I'm not out to make money from this, it's implied that I wanted to design to minimize the cost of maintaining it if it takes off.
+The project is a small book trading web application for the Buenos Aires local area[fn:1]:
+1. Users publish a list of books they offer for exchanging, and get to browse other user's offered books.
+   [Screenshot]
+2. When a users sees a book they like, they request to an exchange to the owner.
+   [Screenshot]
+3. The book owner receives an email with the exchange request.
+   [Screenshot]
+4. If the request book owner is interested in any of the other user's book, they get in touch a their convenience and trade books. Most of this happens outside of the application, e.g. via email. (There are no incentives to keep users inside the app; email or WhatsApp work much better for coordinating an exchange).
 
 *** Goals
 - Finishing the project, with the exact UX I was going for (which was very simple anyway)
@@ -76,17 +69,6 @@ While all the things in this second list are desirable, I was willing to trade t
 
 - I should note that using agents wasn't a fundamental factor in this project: I first made my mind about doing it, then decided to see how far I could go with CC. Had I had a first few unproductive sessions I would start from scratch writing all the code myself. (perhaps running a higher risk of dropping the project before completion)
 
-*** Result
-- released working mvp in 1 (part time) week
-- added QoL improvements in another week
-- got ~70 users and ~300 books after promoting it
-- cost of running it is
-  X/month hetzner vps
-  X/year porkbun domain
-  X/6 months for zepto emails
-  ~ the cost a used book in Buenos Aires.
-
-** Part 2: process + lessons learned
 *** CHOP not vibe
 - link to recent article
 https://diwank.space/field-notes-from-shipping-real-code-with-claude
@@ -157,7 +139,17 @@ The problem is the remaining 70%. I find that the LLM, even with the command lin
 
 So what worked for me is to give it one shot to figure out the issue autonomously and, when that fails, take over, not necessarily to implement the fix myself but to feed it plausible hypothesis to test and get it on track to a solution.
 
-** Conclusions
+*** Results
+- released working mvp in 1 (part time) week
+- added QoL improvements in another week
+- got ~70 users and ~300 books after promoting it
+- cost of running it is
+  X/month hetzner vps
+  X/year porkbun domain
+  X/6 months for zepto emails
+  ~ the cost a used book in Buenos Aires.
+
+*** Conclusions
 
 - previous attempt I qualified the feeling as "exhilarating recklessness" and compared the experience with going to the casino.
 - this time instead I felt like I was leveraging my experience: like I had been saving in experience for 15 years and Claude allowed me to "spend" some of that experience to get something that I wanted. This analogy works in more than one way:
@@ -166,3 +158,7 @@ So what worked for me is to give it one shot to figure out the issue autonomousl
 
 - I'm sure there are many mistakes I made by letting claude do the work for me, but this was clearly a successful project given my goals and the results
 - I still don't think it would be wise to use this a lot in professional environments, other than for proof of concept-type of software. I don't think that trading short term productivity for long term ownership and knowledge building makes sense in most cases.
+
+*** Notes
+
+[fn:1] This is not an original idea: there's already a similar application that worked pretty well for a few years, until they introduced an aggressive subscription model. This change stagnated the community---both for free and paid users---, so the idea of my project was to provide a free replacement.
