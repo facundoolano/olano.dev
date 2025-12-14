@@ -48,10 +48,9 @@ The project is a small book trading web application for the Buenos Aires local a
 While all the things in this second list are desirable, I was willing to trade them off for those in the first list.
 
 *** Stack
-- django:
-  - used to be my bread and butter 10 years ago until I moved out of python and traditional web development.
-  - most recently, for one reason or another, I've been using flask and sqlalchemy, occassionally trying HTMX for fancier UIs
-  - but recently grew convinced that the simplicity of Django + vanilla js is hard to be beat for web apps with unpretentious interfaces. so while I think go makes my live easier to deploy and operate a system, I knew that django would maximize my productivity. for the deploy part I would just replicate I'd been doing with my other projects (linux vps, nginx, gunicorn, sqlite, bulma for css)
+I decided to use Django for this project, with some vanilla JavaScript for a few client-side features. Django was my bread and butter 10 years ago until I moved out of Python and web development. I forgot most of its details but I have a good idea of the concepts and the built-in components, and I felt that using it would safely get most of the web boilerplate out of the way.
+
+For the rest of the components I would just replicate what I'd been using recently on my other projects: a Debian VPS running nginx and gunicorn, sqlite for the database, and Bulma for CSS.
 
 *** Claude Code
 
