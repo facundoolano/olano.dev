@@ -20,6 +20,9 @@ This time I will document a successful experience I had building a small web app
 My previous attempt had made me sick, this time I felt empowered. What changed?
 
 ** Part 1: context
+
+These first few sections just provide context about the project; jump to the second part for a discussion and my take-aways of building with agents.
+
 *** The project
 <GiraLibros.com is a small book trading web application for the Buenos Aires local area.
 - after signing up, users publish a list of books they offer for exchanging, and get to browse other user's offered books.
@@ -34,7 +37,23 @@ As a side effect, even if you pay the subscription, most of the other users don'
 The idea of my project was to restore that community by guaranteeing an unlimited free experience. Since I'm not out to make money from this, it's implied that I wanted to design to minimize the cost of maintaining it if it takes off.
 
 *** Goals
+- Finishing the project, with the exact UX I was going for (which was very simple anyway)
+- Minimizing my effort (including frustration and disgust with the tools)
+- Minimizing operational costs to run the system
+- Having a decent understanding of the codebase (at least the backend part)
+
 *** Non-goals
+- Learning
+- Having fun
+- Producing a flexible or extensible system
+- Maximizing maintainability
+- Strong ownership over the codebase
+- Making users happy (TODO explain)
+- Building a successful product (that is, I wouldn't consider the project a failure if I couldn't get people to use it)
+
+While all the things in this second list are desirable, I was willing to trade them off for those in the first list.
+
+
 *** Stack
 - django:
   - used to be my bread and butter 10 years ago until I moved out of python and traditional web development.
@@ -78,9 +97,9 @@ The idea of my project was to restore that community by guaranteeing an unlimite
 I have a lot of training in high level task breakdown, superficial reviewing, foreseeing pitfalls, and building confidence through a test suite, so this approach turns out to be very effective for my purposes.)
 
 *** Agent customization
-  - don't invest on its tooling: no sophisticated CLAUDE.md, no MCP, no custom commands, no skills, no plugins. I'm not saying these aren't useful, but in my previous experience I found them to be unproductive rabbit holes: I ended up spending a lot of tokens trying to come up with an ideal workflow specification; this is especially problematic because the agent is not trained with knowledge about itself, so it's very ineffective at configuring itself. In that context, it would requires a lot mental effort on my side to tune the agent to my satisfcation, and in my opinion, spending mental effort in such meta-tasks defeats the purpose of using agents in the first place, at least in the context of such a short lived hobby project. Additionally, with these beasts any setup seems to go stale every few months, so my attitude was: see how far this can get me now with minimal tweaking; if that's not very far I'll just wait and try again in a few months.
+  - don't invest on its tooling: no sophisticated CLAUDE.md, no MCP, no custom commands, no system prompts, no skills, no plugins. I'm not saying these aren't important, but in my previous experience I found them to be non-conducive rabbit holes: I ended up spending a lot of tokens trying to come up with an ideal workflow specification; this is especially problematic because the agent is not trained with knowledge about itself, so it's very ineffective at configuring itself. In that context, it would requires a lot mental effort on my side to tune the agent to my satisfcation, and in my opinion, spending mental effort in such meta-tasks defeats the purpose of using agents in the first place, at least in the context of such a short lived hobby project. Additionally, with these beasts any setup seems to go stale every few months, so my attitude was: see how far this can get me now with minimal tweaking; if that's not very far I'll just wait and try again in a few months.
 
-*** Working sessions
+*** Work sessions
 - the only thing I found to be fundamental is to follow X advice to turn compaction off. If you reach compaction then that session is dead. And also if you near compaction you'll likely kill any remaining tokens you have in your current session. These constraints made me arrange my work to always be approachable in one session:
   - don't try to do too much at once
   - close and reopen claude as a sort of "checkpointing" when I'm done with a feature and want to start another one.
