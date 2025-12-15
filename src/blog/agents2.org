@@ -12,53 +12,58 @@ excerpt: "I built a small web app almost exclusively with Claude Code. My previo
 
 Previously on /Facundo's Adventures with LLMs/:
 
-- [[https://jorge.olano.dev/blog/on-ai-assistance/][On AI assistance]]: I start to occasionally reach to ChatGPT during an open-source project development, especially for chores like "I wish there was a lib for this", "give me the Makefile incantation for this task". I see potential; the results are hit and miss. I make plans to better integrate the tech to my workflow.
-- [[augmentation-replacement][Augmentation / Replacement]]: I incorporated LLMs to my workflow through Emacs's [[https://github.com/karthink/gptel][gptel]], and see myself using it daily, as a rubber duck and Google's L1 Cache. I recognize the human augmentation potential of AI---not so much for what LLMs are today, but for the taste we get of what a better AI could be---, but trying to use them as human replacements is short-sighted and counter-productive.
-- [[agentic-coding-experience][Quick notes on a brief agentic coding experience]]: I naively try to use Claude Code to implement some planned features of a working web application, burn a lot of API tokens and get nothing much out of it.
+- [[https://jorge.olano.dev/blog/on-ai-assistance/][On AI assistance]]: I start to occasionally reach to ChatGPT while working on a new open-source project, especially for chores like "I wish there already was a lib for this", "I need a Makefile recipe for this". I see the potential; the results are hit-and-miss. I make plans to better integrate this tech to my workflow.
+- [[augmentation-replacement][Augmentation / Replacement]]: I incorporated LLMs to my workflow through Emacs's [[https://github.com/karthink/gptel][gptel]], and see myself using it daily, as a rubber duck and Google's L1 Cache. I recognize the human augmentation potential of AI---not so much for what LLMs are today, but for what they show us a better AI could be. Trying to push them as a human replacements is short-sighted and counter-productive.
+- [[agentic-coding-experience][Quick notes on a brief agentic coding experience]]: I naively try to use Claude Code to implement some planned features for an already working web application, burn a lot of API tokens in the process, and get nothing much out of it.
 
 This time I will document a successful experience I had building a small web app almost exclusively with Claude Code. My previous attempt at coding with agents had made me sick, but this time I felt empowered. What changed?
 
 *** The project
 The project is a small book trading web application for the Buenos Aires local area:
 1. Users publish a list of books they offer for trading, and browse other user's offered books.
-   [Screenshot]
-2. When they see a book they like, the sends an exchange request to the owner. The owner receives it as an email notification.
-   [Screenshot]
-4. If the owner is interested in any of the other user's books, they get in touch to meet and make the trade. This exchange takes place outside of the application, typically via email or WhatsApp. (There are no incentives to keep them inside the app).
 
-I wrote this application from scratch[fn:1] using Django, SQLite for the database, and Bulma for styles. It runs on a small Hetzner Debian VPS behind nginx.
+   [Screenshot]
+
+2. When they see a book they like, the sends an exchange request to the owner. The owner receives it as an email notification.
+
+   [Screenshot]
+
+3. If the owner is interested in any of the other user's books, they get in touch to meet and make the trade. This exchange takes place outside of the application, typically via email or WhatsApp. (There are no incentives to keep them inside the app).
+
+I wrote this application from scratch[fn:1] using Django, SQLite for the database, and Bulma for styles. It runs on a small Debian server behind nginx.
 
 *** Goals
-- Finishing the project, with the exact UX I was going for (which was very simple anyway)
-- Minimizing my effort (including frustration and disgust with Claude)
-- Minimizing operational costs to run the system
-- Having a decent understanding of the codebase (at least the backend part)
+- *Finishing the project*, with the exact UX I had in mind (which was very simple anyway).
+- *Minimizing the effort* that took me (counting the frustration and disgust with the tooling, e.g. Claude Code, as part of that effort).
+- *Minimizing operational costs* to run the system: if this is successful it will be a free community project, so I need to design it to be cheap to run and not take much time to maintain.
+- *Keeping a decent understanding* of the codebase (at least the backend part)
 
 *** Non-goals
-- Maximizing Speed
-- Learning
+There are a number of things I typically go for in personal projects, which I explicitly don't care about for this one:
+- Maximizing speed: as long as I get it finished with low effort, I'm in no rush.
 - Having fun
-- Producing a flexible or extensible system
-- Maximizing maintainability
-- Strong ownership over the codebase
-- Making users happy (TODO explain)
-- Building a successful product (that is, I wouldn't consider the project a failure if I couldn't get people to use it)
+- Learning
+- Ensuring maintainability, flexibility, or extensibility of the codebase: in a way this is a proof of concept. I want to get it out there and see if people like it. It's small enough that I can risk not having a strong hold of the codebase, because it wouldn't be hard to quickly rewrite it if necessary.
+- Building a successful product: I want this to succeed not least because I want to use it to trade books but, other than making the system free and accessible, it's out of my hands whether people choose to use it or not---I'm not going to go out of my way to promote it, either.
+- Keeping users happy: since this is not a business I can afford to miss features, ship bugs, lose data, etc. I got nothing to lose.
 
-While all the things in this second list are desirable, I was willing to trade them off for those in the first list.
+While all the things on this second list are desirable, I was willing to trade them off for those on the first one.
 
 *** Claude Code
-Even though my previous attempt at coding with agents didn't work out, the combination of goals of non-goals of this project made it a particularly good fit <for trying again>
+Given this specific mix of goals and non-goals, this seemed like a good fit for building the code with AI instead of coding it myself. I could take some of the risk I associate with delegating too much to the AI---shipping something I don't fully understand, that could take me an extra effort to fix when it breaks, or that turns out to be unmaintainable in the long run[fn:2].
+
+A few things were different, compared to my previous agents experiment:
+- <I learn through colleagues about the 20usd suscription (as opposed of the 100/200usd one and the crazy spend of the API key alternative)
+- <I kept reading experiences from other (often skeptical) devs which gave me ideas to approach the use of the tool differently
+- I suppose CC got a lot better in these few months
+- another critical difference is that this time I was working on a greenfield project as opposed to trying to update a preexisting one. the stack was more LLM friendly, I believe. The Django guardrails plus vanilla js are a better match to its training set than Flask, SQLAlchemy and my HTMX/hyperscript extravaganza.
+
 <- note that I used django intensively for 5 years... a decade ago. that made it an interesting fit, because I still have a good grasp of django concepts, a notion what's doable with it, what's builtin and what should be ad hoc, etc., but I completely forgot the syntax and the little details. I could instruct claude precisely what to do, saving me from a lot of documentation roundtrips, while still catching when it tried to bullshit me into getting creative ore reinventing the wheel
+
 - similarly I have an idea of what was supported by bulma, and I could delegate the HTML layout and css to claude
 - this will be a clear trade off, I'm a backend dev, I knew I wouldn't be as effective in catching the garbage early on when it came to CSS structure and javascript features, but to be honest I'm not very good at building maintainable interfaces on my own anyway, and it's by far the biggest burden on me for this kind of project, so I was more than willing to make sacrifices on this front.
 
-Beyond the particulars of this project, I had a few reasons to try again:
-- <I learn through colleagues about the 20usd suscription (as opposed of the 100/200usd one and the crazy spend of the API key alternative)
-- <I kept reading experiences from other (often skeptical) devs which gave me ideas to approach the use of the tool differently
-- another critical difference is that this time I was working on a greenfield project as opposed to trying to update a preexisting one
-- I suppose CC got a lot better in the few months since I first tried
-
-<using agents wasn't a fundamental factor in this project: I first made my mind about doing it, then decided to see how far I could go with CC. Had I had a first few unproductive sessions I would start from scratch writing all the code myself. (perhaps running a higher risk of dropping the project before completion)
+Using AI was not a goal in itself. I first made my mind about spending time on this project; once that was settled, I tried Claude Code as an experiment. Had I had a first few unproductive sessions I would have started over writing all the code myself (with higher risk of abandoning the project before down the line).
 
 *** CHOP not vibe
 - link to recent article
@@ -133,7 +138,7 @@ So what worked for me is to give it one shot to figure out the issue autonomousl
 *** Results
 - released working mvp in 1 (part time) week
 - added QoL improvements in another week
-- got ~70 users and ~300 books after promoting it
+- got ~70 users and ~300 books after promoting it with friends and people I exchange books with in the past. The app doesn't track this, but I know first hand that a few book exchanges already happened during the first week.
 - cost of running it is
   X/month hetzner vps
   X/year porkbun domain
@@ -151,5 +156,6 @@ So what worked for me is to give it one shot to figure out the issue autonomousl
 - I still don't think it would be wise to use this a lot in professional environments, other than for proof of concept-type of software. I don't think that trading short term productivity for long term ownership and knowledge building makes sense in most cases.
 
 *** Notes
+[fn:1] This is not an original idea: there's already a similar application that worked pretty well for a few years, until they introduced an aggressive subscription model. This change stagnated the community---both for free and paid users---, so the motivation for my project was to provide a free replacement to that community.
 
-[fn:1] This is not an original idea: there's already a similar application that worked pretty well for a few years, until they introduced an aggressive subscription model. This change stagnated the community---both for free and paid users---, so the idea of my project was to provide a free replacement.
+[fn:2] It's not that I planned to "vibe" carelessly; it's more like, once I let go a little, it's hard to keep track when the letting go becomes too much.
