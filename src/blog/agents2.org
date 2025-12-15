@@ -5,19 +5,18 @@ layout: post
 lang: en
 tags: [ai, projects]
 draft: true
+excerpt: "I built a small web app almost exclusively with Claude Code. My previous attempt at coding with agents had made me sick, but this time I felt empowered. What changed?"
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
 Previously on /Facundo's Adventures with LLMs/:
 
-- [[https://jorge.olano.dev/blog/on-ai-assistance/][On AI assistance]]
-- [[augmentation-replacement][Augmentation / Replacement]]
-- [[agentic-coding-experience][Quick notes on a brief agentic coding experience]]
+- [[https://jorge.olano.dev/blog/on-ai-assistance/][On AI assistance]]: I start to occasionally reach to ChatGPT during an open-source project development, especially for chores like "I wish there was a lib for this", "give me the Makefile incantation for this task". I see potential; the results are hit and miss. I make plans to better integrate the tech to my workflow.
+- [[augmentation-replacement][Augmentation / Replacement]]: I incorporated LLMs to my workflow through Emacs's [[https://github.com/karthink/gptel][gptel]], and see myself using it daily, as a rubber duck and Google's L1 Cache. I recognize the human augmentation potential of AI---not so much for what LLMs are today, but for the taste we get of what a better AI could be---, but trying to use them as human replacements is short-sighted and counter-productive.
+- [[agentic-coding-experience][Quick notes on a brief agentic coding experience]]: I naively try to use Claude Code to implement some planned features of a working web application, burn a lot of API tokens and get nothing much out of it.
 
-This time I will document a successful experience I had building a small web app almost exclusively with Claude Code.
-
-My previous attempt had made me sick, this time I felt empowered. What changed?
+This time I will document a successful experience I had building a small web app almost exclusively with Claude Code. My previous attempt at coding with agents had made me sick, but this time I felt empowered. What changed?
 
 *** The project
 The project is a small book trading web application for the Buenos Aires local area[fn:1]:
@@ -48,25 +47,23 @@ The project is a small book trading web application for the Buenos Aires local a
 While all the things in this second list are desirable, I was willing to trade them off for those in the first list.
 
 *** Stack
-I decided to use Django for this project, with some vanilla JavaScript for a few client-side features. Django was my bread and butter 10 years ago until I moved out of Python and web development. I forgot most of its details but I have a good idea of the concepts and the built-in components, and I felt that using it would safely get most of the web boilerplate out of the way.
+I decided to use Django for this project, with some vanilla JavaScript for a few client-side features. Django was my bread and butter until I moved out of Python and web development about 10 years ago. I forgot most of its details but I have a good idea of the concepts and the built-in components, and I felt that using it would safely get most of the web boilerplate out of the way.
 
 For the rest of the components I would just replicate what I'd been using recently on my other projects: a Debian VPS running nginx and gunicorn, sqlite for the database, and Bulma for CSS.
 
 *** Claude Code
-
-- the combination of goals, non goals, and tooling made this an ideal candidate for coding with agents.
-
-- I suppose CC got a lot better in the few months since I first tried, but truth be told the bigger factors were that:
-  - I learn through colleagues about the 20usd suscription (as opposed of the 100/200usd one and the crazy spend of the API key alternative)
-  - I kept reading experiences from other (often skeptical) devs which gave me ideas to approach the use of the tool differently
-- another critical difference is that this time I was working on a greenfield project as opposed to trying to update a preexisting one
-
-- note that I used django intensively for 5 years... a decade ago. that made it an interesting fit, because I still have a good grasp of django concepts, a notion what's doable with it, what's builtin and what should be ad hoc, etc., but I completely forgot the syntax and the little details. I could instruct claude precisely what to do, saving me from a lot of documentation roundtrips, while still catching when it tried to bullshit me into getting creative ore reinventing the wheel
+Even though my previous attempt at coding with agents didn't work out, the combination of goals of non-goals of this project made it a particularly good fit <for trying again>
+<- note that I used django intensively for 5 years... a decade ago. that made it an interesting fit, because I still have a good grasp of django concepts, a notion what's doable with it, what's builtin and what should be ad hoc, etc., but I completely forgot the syntax and the little details. I could instruct claude precisely what to do, saving me from a lot of documentation roundtrips, while still catching when it tried to bullshit me into getting creative ore reinventing the wheel
 - similarly I have an idea of what was supported by bulma, and I could delegate the HTML layout and css to claude
 - this will be a clear trade off, I'm a backend dev, I knew I wouldn't be as effective in catching the garbage early on when it came to CSS structure and javascript features, but to be honest I'm not very good at building maintainable interfaces on my own anyway, and it's by far the biggest burden on me for this kind of project, so I was more than willing to make sacrifices on this front.
 
+Beyond the particulars of this project, I had a few reasons to try again:
+- <I learn through colleagues about the 20usd suscription (as opposed of the 100/200usd one and the crazy spend of the API key alternative)
+- <I kept reading experiences from other (often skeptical) devs which gave me ideas to approach the use of the tool differently
+- another critical difference is that this time I was working on a greenfield project as opposed to trying to update a preexisting one
+- I suppose CC got a lot better in the few months since I first tried
 
-- I should note that using agents wasn't a fundamental factor in this project: I first made my mind about doing it, then decided to see how far I could go with CC. Had I had a first few unproductive sessions I would start from scratch writing all the code myself. (perhaps running a higher risk of dropping the project before completion)
+<using agents wasn't a fundamental factor in this project: I first made my mind about doing it, then decided to see how far I could go with CC. Had I had a first few unproductive sessions I would start from scratch writing all the code myself. (perhaps running a higher risk of dropping the project before completion)
 
 *** CHOP not vibe
 - link to recent article
