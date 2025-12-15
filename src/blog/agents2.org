@@ -12,9 +12,9 @@ excerpt: "I built a small web app almost exclusively with Claude Code. My previo
 
 Previously on /Facundo's Adventures with LLMs/:
 
-- [[https://jorge.olano.dev/blog/on-ai-assistance/][On AI assistance]]: I start to occasionally reach to ChatGPT while working on a new open-source project, especially for chores like "I wish there already was a lib for this", "I need a Makefile recipe for this". I see the potential; the results are hit-and-miss. I make plans to better integrate this tech to my workflow.
-- [[augmentation-replacement][Augmentation / Replacement]]: I incorporated LLMs to my workflow through Emacs's [[https://github.com/karthink/gptel][gptel]], and see myself using it daily, as a rubber duck and Google's L1 Cache. I recognize the human augmentation potential of AI---not so much for what LLMs are today, but for what they show us a better AI could be. Trying to push them as a human replacements is short-sighted and counter-productive.
-- [[agentic-coding-experience][Quick notes on a brief agentic coding experience]]: I naively try to use Claude Code to implement some planned features for an already working web application, burn a lot of API tokens in the process, and get nothing much out of it.
+- [[https://jorge.olano.dev/blog/on-ai-assistance/][On AI assistance]] (2024-03): I start to occasionally reach to ChatGPT while working on a new open-source project, especially for chores like "I wish there already was a lib for this", "I need a Makefile recipe for this". I see the potential; the results are hit-and-miss. I make plans to better integrate this tech to my workflow.
+- [[augmentation-replacement][Augmentation / Replacement]] (2025-03): I incorporated LLMs to my workflow through Emacs's [[https://github.com/karthink/gptel][gptel]], and see myself using it daily, as a rubber duck and Google's L1 Cache. I recognize the human augmentation potential of AI---not so much for what LLMs are today, but for what they show us a better AI could be. Trying to push them as a human replacements is short-sighted and counter-productive.
+- [[agentic-coding-experience][Quick notes on a brief agentic coding experience]] (2024-06): I naively try to use Claude Code to implement some planned features for an already working web application, burn a lot of API tokens in the process, and get nothing much out of it.
 
 This time I will document a successful experience I had building a small web app almost exclusively with Claude Code. My previous attempt at coding with agents had made me sick, but this time I felt empowered. What changed?
 
@@ -36,7 +36,7 @@ I wrote this application from scratch[fn:1] using Django, SQLite for the databas
 - *Finishing the project*, with the exact UX I had in mind (which was very simple anyway).
 - *Minimizing the effort* that took me (counting the frustration and disgust with the tooling, e.g. Claude Code, as part of that effort).
 - *Minimizing operational costs* to run the system: if this is successful it will be a free community project, so I need to design it to be cheap to run and not take much time to maintain.
-- *Keeping a decent understanding* of the codebase (at least the backend part)
+- *Keeping a decent understanding* of the codebase (at least of the backend part).
 
 *** Non-goals
 There are a number of things I typically go for in personal projects, which I explicitly don't care about for this one:
@@ -53,17 +53,16 @@ While all the things on this second list are desirable, I was willing to trade t
 Given this specific mix of goals and non-goals, this seemed like a good fit for building the code with AI instead of coding it myself. I could take some of the risk I associate with delegating too much to the AI---shipping something I don't fully understand, that could take me an extra effort to fix when it breaks, or that turns out to be unmaintainable in the long run[fn:2].
 
 A few things were different, compared to my previous agents experiment:
-- <I learn through colleagues about the 20usd suscription (as opposed of the 100/200usd one and the crazy spend of the API key alternative)
-- <I kept reading experiences from other (often skeptical) devs which gave me ideas to approach the use of the tool differently
-- I suppose CC got a lot better in these few months
-- another critical difference is that this time I was working on a greenfield project as opposed to trying to update a preexisting one. the stack was more LLM friendly, I believe. The Django guardrails plus vanilla js are a better match to its training set than Flask, SQLAlchemy and my HTMX/hyperscript extravaganza.
+- One of the reasons I didn't keep up experimenting with Claude Code is that a 100-200 USD/month subscription seemed too much for my occasional side projects, and the API key alternative could easily burn 30 bucks in a day. This time I switched to the more reasonable (for my purposes) 20 USD/month Pro plan, which wasn't available back then for Claude Code (or at least I wasn't aware of it).
+- During this time, I kept reading accounts of agent coding experiences from other (often skeptical) devs, which gave me new ideas and better context to work with the tool.
+- Probably the biggest difference, this was going to be a greenfield project, which is where agents shine. The stack was more LLM-friendly too, I believe: the Django guardrails plus vanilla JavaScript are a better match to their training set than Flask, SQLAlchemy and the HTMX/hyperscript extravaganza from my other project.
 
-<- note that I used django intensively for 5 years... a decade ago. that made it an interesting fit, because I still have a good grasp of django concepts, a notion what's doable with it, what's builtin and what should be ad hoc, etc., but I completely forgot the syntax and the little details. I could instruct claude precisely what to do, saving me from a lot of documentation roundtrips, while still catching when it tried to bullshit me into getting creative ore reinventing the wheel
+The Django was an ideal fit for me to leverage LLMs: I used Django intensively for 5 years... a decade ago. I still have a good grasp of its concepts, a notion of what's doable with it, what's built-in and what should be ad hoc, etc., but I completely forgot the ORM syntax, the class names, the little details. I could instruct Claude exactly what to do, saving me a lot of documentation roundtrips, while still catching whenever it tried to bullshit me into getting creative ore reinventing the wheel.
 
-- similarly I have an idea of what was supported by bulma, and I could delegate the HTML layout and css to claude
-- this will be a clear trade off, I'm a backend dev, I knew I wouldn't be as effective in catching the garbage early on when it came to CSS structure and javascript features, but to be honest I'm not very good at building maintainable interfaces on my own anyway, and it's by far the biggest burden on me for this kind of project, so I was more than willing to make sacrifices on this front.
+For the front-end the risk/reward was a bit higher. I've been officially a backend dev for a while now,
+and while I've used Bulma on a few projects and have a good idea of what it offers, I'm not trained to review HTML and CSS, so it's likelier that Claude would slip working, superficially good-looking front end code that would quickly degrade and become an unmaintainable mess. On the other hand, and for the same reasons, despite my best intentions the HTML and CSS I produce manually tends to be less maintainable anyway---Claude would just accelerate the process. This turned out to be a very good trade off, since Claude allowed me to iterate quickly in prototype mode, to arrive to the look-and-feel that felt like the best fit for the project, something that would have taken me a big effort.
 
-Using AI was not a goal in itself. I first made my mind about spending time on this project; once that was settled, I tried Claude Code as an experiment. Had I had a first few unproductive sessions I would have started over writing all the code myself (with higher risk of abandoning the project before down the line).
+I must stress that using AI was not a goal in itself. I first made my mind about spending time on this project; once that was settled, I tried Claude Code as an experiment. Had I had a first few unproductive sessions I would have started over writing all the code myself (perhaps running a higher risk of abandoning the project before down the line).
 
 *** CHOP not vibe
 - link to recent article
