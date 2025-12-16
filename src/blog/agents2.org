@@ -53,7 +53,7 @@ There are a number of things I typically go for in personal projects, which I ex
 While all the things on this second list are desirable, I was willing to trade them off for those on the first one.
 
 *** Claude Code
-Given this specific mix of goals and non-goals, this seemed like a good fit for building the code with AI instead of coding it myself. I could take some of the risk I associate with delegating too much to the AI---shipping something I don't fully understand, that could take me an extra effort to fix when it breaks, or that turns out to be unmaintainable in the long run[fn:2].
+Given this specific mix of goals and non-goals, this seemed like a good fit for building the code with AI instead of coding it myself[fn:3]. I could take some of the risk I associate with delegating too much to the AI---shipping something I don't fully understand, that could take me an extra effort to fix when it breaks, or that turns out to be unmaintainable in the long run[fn:2].
 
 A few things were different, compared to my previous agents experiment:
 - One of the reasons I didn't keep up experimenting with Claude Code is that a 100-200 USD/month subscription seemed too much for my occasional side projects, and the API key alternative could easily burn 30 bucks in a day. This time I switched to the more reasonable (for my purposes) 20 USD/month Pro plan, which wasn't available back then for Claude Code (or at least I wasn't aware of it).
@@ -64,8 +64,6 @@ The Django was an ideal fit for me to leverage LLMs: I used Django intensively f
 
 For the front-end the risk/reward was a bit higher. I've been officially a backend dev for a while now,
 and while I've used Bulma on a few projects and have a good idea of what it offers, I'm not trained to review HTML and CSS, so it's likelier that Claude would slip working, superficially good-looking front end code that would quickly degrade and become an unmaintainable mess. On the other hand, and for the same reasons, despite my best intentions the HTML and CSS I produce manually tends to be less maintainable anyway---Claude would just accelerate the process. This turned out to be a very good trade off, since Claude allowed me to iterate quickly in prototype mode, to arrive to the look-and-feel that felt like the best fit for the project, something that would have taken me a big effort.
-
-I must stress that using AI was not a goal in itself. I first made my mind about spending time on this project; once that was settled, I tried Claude Code as an experiment. Had I had a first few unproductive sessions I would have started over writing all the code myself (perhaps running a higher risk of abandoning the project before down the line).
 
 *** CHOP not vibe
 I borrowed some ideas from [[https://checkeagle.com/checklists/njr/a-month-of-chat-oriented-programming/][/A Month of Chat-Oriented Programming/]], a recent post that I liked a lot. I like the notion of chat-oriented programming, as opposed to vibe-coding. That's what I did for this project, although my own flavor of it:
@@ -165,6 +163,8 @@ So what worked for me is to give it one shot to figure out the issue autonomousl
 - I still don't think it would be wise to use this a lot in professional environments, other than for proof of concept-type of software. I don't think that trading short term productivity for long term ownership and knowledge building makes sense in most cases.
 
 *** Notes
+
+[fn:3] Using AI was not in itself a project goal. I first made my mind about spending time on this project; once that was settled, I tried Claude Code as an experiment. Had I had a first few unproductive sessions I would have started over writing all the code myself (perhaps running a higher risk of abandoning the project before down the line).
 [fn:1] This is not an original idea: there's already a similar application that worked pretty well for a few years, until they introduced an aggressive subscription model. This change stagnated the community---both for free and paid users---, so the motivation for my project was to provide a free replacement to that community.
 
 [fn:2] It's not that I planned to "vibe" carelessly; it's more like, once I let go a little, it's hard to keep track when the letting go becomes too much.
