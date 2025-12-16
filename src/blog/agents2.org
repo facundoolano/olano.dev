@@ -31,48 +31,49 @@ The project is a small book trading web application for the Buenos Aires local a
 
 1. Users publish a list of books they offer for trading, and browse other user's offered books.
 2. When they see a book they like, the user sends an exchange request to the owner. The owner receives it as an email notification.
-3. If the owner is interested in any of the other user's books, they get in touch to meet and make the trade. This exchange takes place outside of the application, typically via email or WhatsApp. (There are no incentives to keep them inside the app).
+3. If the owner is interested in any of the other user's books, they get in touch to meet and make the trade. This exchange takes place outside of the application (there are no incentives to keep them in, and email or WhatsApp are more convenient for the users).
 
 I wrote this application from scratch[fn:1] using Django, SQLite for the database, and Bulma for styles. It runs on a small Debian server behind nginx.
 
 *** Goals
-- *Finishing the project*, with the exact UX I had in mind (which was very simple anyway).
-- *Minimizing the effort* that took me (counting the frustration and disgust with the tooling, e.g. Claude Code, as part of that effort).
-- *Minimizing operational costs* to run the system: if this is successful it will be a free community project, so I need to design it to be cheap to run and not take much time to maintain.
-- *Keeping a decent understanding* of the codebase (at least of the backend part).
+- *Finishing the project*, with the exact UX I had in mind (which was very simple).
+- *Minimizing the effort* I had to make to implement it (counting the frustration and disgust with the tooling, e.g. Claude Code, as part of that effort).
+- *Minimizing operational costs* to run the system: if this was successful I would run it as a free community project, so I needed to design it to be cheap to run and not take much of my time.
+- *Keeping a decent understanding of the codebase* (at least of its backend).
 
 *** Non-goals
-There are a number of things I typically go for in personal projects, which I explicitly don't care about for this one:
-- Maximizing speed: as long as I get it finished with low effort, I'm in no rush.
-- Having fun
-- Learning
-- Ensuring maintainability, flexibility, or extensibility of the codebase: in a way this is a proof of concept. I want to get it out there and see if people like it. It's small enough that I can risk not having a strong hold of the codebase, because it wouldn't be hard to quickly rewrite it if necessary.
-- Building a successful product: I want this to succeed not least because I want to use it to trade books but, other than making the system free and accessible, it's out of my hands whether people choose to use it or not---I'm not going to go out of my way to promote it, either.
-- Keeping users happy: since this is not a business I can afford to miss features, ship bugs, lose data, etc. I got nothing to lose.
+There are a number of things I typically go for in personal projects, which I explicitly didn't care about for this one:
+- Maximizing speed: as long as I got it finished with low effort, I was in no rush.
+- Having fun.
+- Learning.
+- Ensuring long-term maintainability, flexibility, or extensibility of the codebase: in a way this was a proof of concept. I wanted to get it out there and see if people liked it. It's small enough that I can risk not having a strong hold of the codebase, because it wouldn't be hard to quickly rewrite it if necessary.
+- Building a successful product: I want this to succeed, not least because I want to use it to trade books but, other than making the application free and accessible, it's out of my hands whether people choose to use it or not---I'm not going to go out of my way to promote it, either.
+- Keeping users happy: since this is not a business, I can afford to miss features, ship bugs, lose data, etc. I got nothing to lose.
 
 While all the things on this second list are desirable, I was willing to trade them off for those on the first one.
 
 *** Claude Code
-Given this specific mix of goals and non-goals, this seemed like a good fit for building the code with AI instead of coding it myself[fn:3]. I could take some of the risk I associate with delegating too much to the AI---shipping something I don't fully understand, that could take me an extra effort to fix when it breaks, or that turns out to be unmaintainable in the long run[fn:2].
+Given the specific mix of goals and non-goals, this seemed like a opportunity to have another try at
+building with agents, instead of writing all the code myself[fn:3]. I could afford taking some of the risks I associate with delegating too much to the AI---shipping something I don't fully understand, that could take me an extra effort to fix when it breaks, or that turns out to be unmaintainable in the long run.
 
-A few things were different, compared to my previous agents experiment:
-- One of the reasons I didn't keep up experimenting with Claude Code is that a 100-200 USD/month subscription seemed too much for my occasional side projects, and the API key alternative could easily burn 30 bucks in a day. This time I switched to the more reasonable (for my purposes) 20 USD/month Pro plan, which wasn't available back then for Claude Code (or at least I wasn't aware of it).
-- During this time, I kept reading accounts of agent coding experiences from other (often skeptical) devs, which gave me new ideas and better context to work with the tool.
+A few things had changed since my previous previous experiment with Claude Code:
+- One of the reasons I didn't keep up with Claude Code was that a 100-200 USD/month subscription seemed too much for my occasional side projects, and the API key alternative could easily burn 30 bucks in a day. This time I switched to the more reasonable 20 USD/month Pro plan.
+- During this time, I kept reading accounts of agent coding experiences from other (often skeptical) devs, which gave me new ideas and better context to work with these tools.
 - Probably the biggest difference, this was going to be a greenfield project, which is where agents shine. The stack was more LLM-friendly too, I believe: the Django guardrails plus vanilla JavaScript are a better match to their training set than Flask, SQLAlchemy and the HTMX/hyperscript extravaganza from my other project.
 
-The Django was an ideal fit for me to leverage LLMs: I used Django intensively for 5 years... a decade ago. I still have a good grasp of its concepts, a notion of what's doable with it, what's built-in and what should be ad hoc, etc., but I completely forgot the ORM syntax, the class names, the little details. I could instruct Claude exactly what to do, saving me a lot of documentation roundtrips, while still catching whenever it tried to bullshit me into getting creative ore reinventing the wheel.
+Django was an ideal fit for me to leverage LLMs: I used Django intensively for 5 years... a decade ago. I still have a good grasp of its concepts, a notion of what's doable with it, what's built-in and what should be ad hoc, etc., but I completely forgot the ORM syntax, the class names, the little details. I could instruct Claude exactly what to do, saving me a lot of documentation roundtrips while still catching whenever it tried to bullshit me into getting creative or reinventing the wheel.
 
 For the front-end the risk/reward was a bit higher. I've been officially a backend dev for a while now,
-and while I've used Bulma on a few projects and have a good idea of what it offers, I'm not trained to review HTML and CSS, so it's likelier that Claude would slip working, superficially good-looking front end code that would quickly degrade and become an unmaintainable mess. On the other hand, and for the same reasons, despite my best intentions the HTML and CSS I produce manually tends to be less maintainable anyway---Claude would just accelerate the process. This turned out to be a very good trade off, since Claude allowed me to iterate quickly in prototype mode, to arrive to the look-and-feel that felt like the best fit for the project, something that would have taken me a big effort.
+and while I've used Bulma on a few projects and have a good idea of what it offers, I'm not trained to review HTML and CSS, so it's likelier that Claude would slip working, superficially good-looking front end code that would quickly degrade and become an unmaintainable mess. On the other hand, and for the same reasons, despite my best intentions the HTML and CSS I produce manually tends to be less maintainable anyway---Claude would just accelerate the process. This turned out to be a very good trade off, since Claude allowed me to iterate quickly in prototype mode, to arrive to the look-and-feel that worked well for the project, something that would have taken me a big effort if I was writing the HTML myself.
 
 *** CHOP not vibe
-I borrowed some ideas from [[https://checkeagle.com/checklists/njr/a-month-of-chat-oriented-programming/][/A Month of Chat-Oriented Programming/]], a recent post that I liked a lot. I like the notion of chat-oriented programming, as opposed to vibe-coding. That's what I did for this project, although my own flavor of it:
+I really liked the recent [[https://checkeagle.com/checklists/njr/a-month-of-chat-oriented-programming/][/A Month of Chat-Oriented Programming/]] post and I borrowed a few ideas from it. I like the notion of chat-oriented programming as opposed to vibe-coding. That's what I tried to do with this project, although my own variation of it:
 
-- *Claude writes all the code, but the never commits* (and much less open PRs). I reviewed all code before each commit, asking for refactors of the obvious mistakes, and again before merging the PR. A side-effect of this is that I tended to break the tasks down into obvious increments that would make good checkpoints for committing, keeping an eye in the console output and interrupting it when it looked like it was trying to do too much at once.
+- *Claude writes all the code, but never commits* (let alone open pull-requests). I reviewed all code before each commit, asking for refactors of the obvious mistakes, and again before merging the PR. This process pushed me to break the tasks down into obvious increments that would make good checkpoints for committing, which I made part of my instructions. When Claude was working, I kept an eye on the console output and interrupted it when it looked like it was trying to do too much at once.
 - *Switch tactically between default, plan, and edit mode*.
-  - For non trivial features I started the session with some product-level context of the requirement, and the subset of files relevant to the change. Then I bounced some ideas with it, sometimes providing a succinct TODO list of things that I wanted to see change. My goal was to minimize the opportunities for it to get creative or improvise, while still giving it room to catch weak spots in my reasoning.
-  - For the few more involved features I worked exclusively in plan mode, having Claude Code produce a markdown file as the output of the session, to be picked up later.
-- *The human decides what and how to test*. I tried to test any relevant "business rule" through HTTP-level integration tests. I did let Claude write test code but providing very specific instructions (more on this below).
+  - For non trivial features I started the session with some product-level context of the requirement, and the subset of files relevant to the implementation. Then I bounced some ideas with Claude, sometimes providing a succinct TODO list of things that I expected to change in the app or the code. My goal was to minimize the opportunities for it to get creative or improvise, while still giving it room to catch weak spots in my reasoning.
+  - For the few more involved features I worked exclusively in plan mode, having Claude Code produce a markdown file as the output of the session, to be picked up on a separate session.
+- *The human decides what and how to test*. I tried to test any relevant "business rule" through HTTP-level integration tests. I did let Claude write test code but providing step-by-step outlines (more on this below).
 
 The process just described may sound like a lot of work and hand-holding, and probably not what the "pros" are doing out there with agents, but as stated before, the goal here was not maximize velocity or throughput but to get a finished product with minimal effort and frustration on my side. I have a fair amount of experience in high-level task breakdown, writing tickets for others to work on, doing superficial code reviews, anticipating pitfalls, and building confidence on a shared codebase through a solid test suite. So this is playing my strengths, and mostly prevents the LLM from digging itself into a hole that I would have to get it out from.
 
@@ -164,7 +165,5 @@ So what worked for me is to give it one shot to figure out the issue autonomousl
 
 *** Notes
 
-[fn:3] Using AI was not in itself a project goal. I first made my mind about spending time on this project; once that was settled, I tried Claude Code as an experiment. Had I had a first few unproductive sessions I would have started over writing all the code myself (perhaps running a higher risk of abandoning the project before down the line).
+[fn:3] Using AI was not in itself a project goal, though. I first made my mind about spending time on this project; once that was settled, I tried Claude Code as an experiment. Had I had a first few unproductive sessions I would have started over writing all the code myself (perhaps running a higher risk of abandoning the project before down the line).
 [fn:1] This is not an original idea: there's already a similar application that worked pretty well for a few years, until they introduced an aggressive subscription model. This change stagnated the community---both for free and paid users---, so the motivation for my project was to provide a free replacement to that community.
-
-[fn:2] It's not that I planned to "vibe" carelessly; it's more like, once I let go a little, it's hard to keep track when the letting go becomes too much.
