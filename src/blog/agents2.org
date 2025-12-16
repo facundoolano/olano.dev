@@ -15,7 +15,7 @@ Previously on /Facundo's Adventures with LLMs/:
 
 - [[https://jorge.olano.dev/blog/on-ai-assistance/][On AI assistance]] (2024-03): I start to occasionally reach to ChatGPT while working on a new open-source project, especially for chores like "I wish there already was a lib for this", "I need a Makefile recipe for this", etc. I see the potential; the results are hit-and-miss. I make plans to better integrate this tech into my workflow.
 - [[augmentation-replacement][Augmentation / Replacement]] (2025-03): I added [[https://github.com/karthink/gptel][gptel]] to my Emacs setup and see myself using LLMs daily, as a rubber duck and Google's L1 Cache. I recognize the human augmentation potential of AI---not so much for what LLMs are today, but for the glimpse we get of what a better AI could be. On the other hand, the current push to use LLMs as human replacements seems short-sighted and counter-productive.
-- [[agentic-coding-experience][Quick notes on a brief agentic coding experience]] (2024-06): I naively try to use Claude Code to implement some features of an already working web application, burn some cash in the process, and get nothing much out of it.
+- [[agentic-coding-experience][Quick notes on a brief agentic coding experience]] (2025-06): I naively try to use Claude Code to implement some features of an already working web application, burn some cash in the process, and get nothing much out of it.
 
 This time I will document a successful experience I had building a small web app almost exclusively with Claude Code. My previous attempt at coding with agents had made me sick, but this time I felt empowered. What changed?
 
@@ -117,7 +117,7 @@ def mark_as_already_requested(self):
     pass
 #+end_src
 
-Then I carefully review the implementation to ensure it follows my testing preferences: don't couple to implementation details (test units of behavior, not units of code), don't mock intermediate layers (just the inputs and outputs of your system, i.e. its observable behavior), don't access the DB directly[fn:2]. Once a few tests are implemented, then Claude is less likely to deviate from the surrounding style.
+Then I carefully review the implementation to ensure it follows my testing preferences: don't couple to implementation details (test units of behavior, not units of code), don't mock intermediate layers (just the inputs and outputs of your system, i.e. its observable behavior), don't access the DB directly[fn:2]. Once a few tests are implemented, Claude is less likely to deviate from the surrounding style.
 
 I also do some smoke testing after each feature is ready to merge. I haven't experimented with something like playwright, but I suspect that would be a better approach to catch regressions in the UI, which is where most of the application complexity resides.
 
@@ -131,15 +131,10 @@ What worked for me is to give it one shot to figure out the issue autonomously a
 
 *** 6. Don't repeat yourself (but sometimes do)
 
-Code duplication is an interesting thing to reflect about in the context of working with agents. LLMs are paid (?) to output tokens, so unsurprisingly Claude Code indulges in all kinds of duplication, <not only pieces of code already defined elsewhere in the project (and possibly outside of its current context), but pieces defined right above the code its adding, or in a class its sub-classing, in the django built-ins already imported, etc.
+Code duplication is an interesting thing to reflect about in the context of working with agents. LLMs get paid (?) to output tokens, so unsurprisingly Claude Code indulges in all kinds of duplication, from repeating patterns found in the same module to reimplementing entire chunks of the Django built-ins its already importing. It would be tempting to add strict rules to CLAUDE.md to prevent all code duplication, but as we collectively learned in the last decade, dogmatically applying DRY tends to do more harm than good.
 
-It's tempting to add rigid rules to CLAUDE.md to prevent code duplication, but as we collectively learned in the last decade, dogmatically removing all code duplication tends to do more harm than good.
-
-The anniversary edition of /The Pragmatic Programmer/ makes a useful distinction between duplication /of code/ and duplication /of knowledge/. The latter being what we need to strictly remove. <The situation compounds in the context of coding agents, where (re)writing code is effortless but scattered knowledge is the biggest system risk.
-
-So I found most of my reviews deal with strategically removing or allowing duplication: if it's knowledge it needs to be centralized and I need to think carefully how, if it's just code I can instruct how to extract and reuse, but more often than not it's OK just live with that duplication.
-
-[TODO better examples?]
+The anniversary edition of /The Pragmatic Programmer/ makes a useful distinction between duplication /of code/ and duplication /of knowledge/, the latter being what we need to be more wary of. In the context of coding with LLMs, where (re)writing code is effortless but scattered knowledge is a threat to system survival,
+the distinction is fundamental. So I found most of my reviews deal with strategically removing or allowing duplication: if it's knowledge, it needs to be centralized and I need to think carefully how; if it's just code, I can instruct how to extract and reuse, but more often than not it's better just live with that duplication.
 
 *** 7. Plan around context window and usage limits
 - the only thing I found to be fundamental is to follow X advice to turn compaction off. If you reach compaction then that session is dead. And also if you near compaction you'll likely kill any remaining tokens you have in your current session. These constraints made me arrange my work to always be approachable in one session:
