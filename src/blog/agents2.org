@@ -14,7 +14,7 @@ image: giralibros.png
 Previously on /Facundo's Adventures with LLMs/:
 
 - [[https://jorge.olano.dev/blog/on-ai-assistance/][On AI assistance]] (2024-03): I start to occasionally reach to ChatGPT while working on a new open-source project, especially for chores like "I wish there already was a lib for this", "I need a Makefile recipe for this", etc. I see the potential; the results are hit-and-miss. I make plans to better integrate this tech into my workflow.
-- [[augmentation-replacement][Augmentation / Replacement]] (2025-03): I added [[https://github.com/karthink/gptel][gptel]] to my Emacs setup and see myself using LLMs daily, as a rubber duck and Google's L1 Cache. I recognize the human augmentation potential of AI---not so much for what LLMs are today, but for the glimpse we get of what a better AI could be. On the other hand, the current push to use LLMs as human replacements is short-sighted and counter-productive.
+- [[augmentation-replacement][Augmentation / Replacement]] (2025-03): I added [[https://github.com/karthink/gptel][gptel]] to my Emacs setup and see myself using LLMs daily, as a rubber duck and Google's L1 Cache. I recognize the human augmentation potential of AI---not so much for what LLMs are today, but for the glimpse we get of what a better AI could be. On the other hand, the current push to use LLMs as human replacements seems short-sighted and counter-productive.
 - [[agentic-coding-experience][Quick notes on a brief agentic coding experience]] (2024-06): I naively try to use Claude Code to implement some features of an already working web application, burn some cash in the process, and get nothing much out of it.
 
 This time I will document a successful experience I had building a small web app almost exclusively with Claude Code. My previous attempt at coding with agents had made me sick, but this time I felt empowered. What changed?
@@ -29,9 +29,9 @@ The project is a small book trading web application for the Buenos Aires local a
 #+END_EXPORT
 
 
-1. Users publish a list of books they offer for trading, and browse other user's offered books.
-2. When they see a book they like, the user sends an exchange request to the owner. The owner receives it as an email notification.
-3. If the owner is interested in any of the other user's books, they get in touch to meet and make the trade. This exchange takes place outside of the application (there are no incentives to keep them in, and email or WhatsApp are more convenient for the users).
+1. Users publish a list of books they offer for trading, and browse other user's books.
+2. When they see something they like, the user sends an exchange request to the book owner, who receives it as an email notification.
+3. If the owner is interested in any of the other user's books, they arrange to meet and make the trade. This exchange takes place outside of the application (there are no incentives to keep users in-app; email and WhatsApp are more convenient).
 
 I wrote this application from scratch[fn:1] using Django, SQLite for the database, and Bulma for styles. It runs on a small Debian server behind nginx.
 
@@ -67,14 +67,14 @@ For the front-end the risk/reward was a bit higher. I've been officially a backe
 and while I've used Bulma on a few projects and have a good idea of what it offers, I'm not trained to review HTML and CSS, so it's likelier that Claude would slip working, superficially good-looking front end code that would quickly degrade and become an unmaintainable mess. On the other hand, and for the same reasons, despite my best intentions the HTML and CSS I produce manually tends to be less maintainable anyway---Claude would just accelerate the process. This turned out to be a very good trade off, since Claude allowed me to iterate quickly in prototype mode, to arrive to the look-and-feel that worked well for the project, something that would have taken me a big effort if I was writing the HTML myself.
 
 *** Results
-- released working mvp in 1 (part time) week
-- added QoL improvements in another week
-- got ~70 users and ~300 books after promoting it with friends and people I exchange books with in the past. The app doesn't track this, but I know first hand that a few book exchanges already happened during the first week.
-- cost of running it is
-  X/month hetzner vps
-  X/year porkbun domain
-  X/6 months for zepto emails
-  ~ the cost a used book in Buenos Aires.
+I released an MVP after one week of part-time work, and a few extra nice to haves in another week. At the time of writing, there are ~80 registered users and ~400 offered books. The app doesn't track this, but I know first hand of a few book exchanges that already took place.
+
+The costs of running the app are:
+  - 6 USD/month on a Hetzner VPS
+  - 7 USD/year on a Porkbun domain
+  - 2.5 USD/every 6 months for ZeptoMail credits
+
+The 7 USD/month total is about the cost of a second hand book here.
 
 ** Part II: the process
 I really liked the recent [[https://checkeagle.com/checklists/njr/a-month-of-chat-oriented-programming/][/A Month of Chat-Oriented Programming/]] post and I borrowed a few ideas from it. I like the notion of chat-oriented programming as opposed to vibe-coding. That's what I tried to do with this project, although my own variation of it.
@@ -127,7 +127,7 @@ The problem is the remaining 70%. I find that the LLM, even with the command lin
 
 So what worked for me is to give it one shot to figure out the issue autonomously and, when that fails, take over, not necessarily to implement the fix myself but to feed it plausible hypothesis to test and get it on track to a solution.
 
-*** 6. Don't repeat yourself (selectively)
+*** 6. Don't repeat yourself (but sometimes do)
 
 Code duplication is an interesting thing to reflect about in the context of working with agents. LLMs are paid (?) to output tokens, so unsurprisingly Claude Code indulges in all kinds of duplication, <not only pieces of code already defined elsewhere in the project (and possibly outside of its current context), but pieces defined right above the code its adding, or in a class its sub-classing, in the django built-ins already imported, etc.
 
