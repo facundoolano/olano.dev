@@ -123,15 +123,11 @@ I also do some smoke testing after each feature is ready to merge. I haven't exp
 
 *** 5. Don't let Claude debug on its own
 
-Debugging is another interesting one.
+For an unsophisticated project like this, with good enough detail in the prompts, Claude tends to get the implementation right or almost right let's say 80% of the time.
 
-For an unsophisticated project like this, with good detail in the prompts, Claude tends to get the implementation right or almost right most of the time---let's say 80%.
+I noticed that, when something fails and the problem isn't obvious, Claude can figure out the problem on its own maybe 30% of the times. This can include very subtle or cryptic errors that could take me hours to resolve myself. The problem is that remaining 70%. I find that the LLM, even with the command line at its disposal, if left unchecked will  be both clueless and eager to try things at random, accumulating layers of useless changes, going in circles and very far from the actual problem.
 
-I noticed that, when something fails and the problem isn't obvious, Claude can figure out the problem on its own maybe 30% of the times. This can include very subtle or cryptic errors that could take me hours to resolve myself.
-
-The problem is the remaining 70%. I find that the LLM, even with the command line at its disposal, tends to be both clueless and eager to try random things, accumulating layers of useless changes if left unchecked, going in circles and very far from the actual problem.
-
-So what worked for me is to give it one shot to figure out the issue autonomously and, when that fails, take over, not necessarily to implement the fix myself but to feed it plausible hypothesis to test and get it on track to a solution.
+What worked for me is to give it one shot to figure out the issue autonomously and, when that fails, take over, not necessarily to do the full debugging and fix myself but to feed it plausible hypotheses and evidence, to put it back on track to a solution.
 
 *** 6. Don't repeat yourself (but sometimes do)
 
