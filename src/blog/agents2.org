@@ -1,5 +1,5 @@
 ---
-title: Another round of building with agents
+title: My first success building with agents
 date: 2025-12-13T11:59:38-03:00
 layout: post
 lang: en
@@ -12,9 +12,9 @@ excerpt: "I built a small web app almost exclusively with Claude Code. My previo
 
 Previously on /Facundo's Adventures with LLMs/:
 
-- [[https://jorge.olano.dev/blog/on-ai-assistance/][On AI assistance]] (2024-03): I start to occasionally reach to ChatGPT while working on a new open-source project, especially for chores like "I wish there already was a lib for this", "I need a Makefile recipe for this". I see the potential; the results are hit-and-miss. I make plans to better integrate this tech to my workflow.
-- [[augmentation-replacement][Augmentation / Replacement]] (2025-03): I incorporated LLMs to my workflow through Emacs's [[https://github.com/karthink/gptel][gptel]], and see myself using it daily, as a rubber duck and Google's L1 Cache. I recognize the human augmentation potential of AI---not so much for what LLMs are today, but for what they show us a better AI could be. Trying to push them as a human replacements is short-sighted and counter-productive.
-- [[agentic-coding-experience][Quick notes on a brief agentic coding experience]] (2024-06): I naively try to use Claude Code to implement some planned features for an already working web application, burn a lot of API tokens in the process, and get nothing much out of it.
+- [[https://jorge.olano.dev/blog/on-ai-assistance/][On AI assistance]] (2024-03): I start to occasionally reach to ChatGPT while working on a new open-source project, especially for chores like "I wish there already was a lib for this", "I need a Makefile recipe for this", etc. I see the potential; the results are hit-and-miss. I make plans to better integrate this tech into my workflow.
+- [[augmentation-replacement][Augmentation / Replacement]] (2025-03): I added [[https://github.com/karthink/gptel][gptel]] to my Emacs setup and see myself using LLMs daily, as a rubber duck and Google's L1 Cache. I recognize the human augmentation potential of AI---not so much for what LLMs are today, but for the glimpse we get of what a better AI could be. On the other hand, the current push to use LLMs as human replacements is short-sighted and counter-productive.
+- [[agentic-coding-experience][Quick notes on a brief agentic coding experience]] (2024-06): I naively try to use Claude Code to implement some features of an already working web application, burn some cash in the process, and get nothing much out of it.
 
 This time I will document a successful experience I had building a small web app almost exclusively with Claude Code. My previous attempt at coding with agents had made me sick, but this time I felt empowered. What changed?
 
@@ -79,7 +79,7 @@ I found this micromanaging approach to be very effective and low effort, at time
 
 *** Agent customization
 
-I made a very deliberate choice not to invest in agent customization and support tooling, or however that's called: no fancy CLAUDE.md instructions, no MCP servers, no custom commands, no system prompts, no skills, no plugins.
+Along the same lines, I made a very deliberate choice not to invest in agent customization and support tooling, or however that's called: no fancy CLAUDE.md instructions, no MCP servers, no custom commands, no system prompts, no skills, no plugins.
 
 I'm not saying these aren't important, but in my previous experience I found them to be non-conducive rabbit holes: I ended up spending a lot of tokens trying to come up with an ideal workflow specification, that CLAUDE would randomly forget or ignore;
 this is especially problematic because the agent is not trained with knowledge about itself, so it's very ineffective at configuring itself. In that context, it would requires a lot mental effort on my side to tune the agent to my satisfaction, and in my opinion, spending mental effort in such meta-tasks defeats the purpose of using agents in the first place, at least in the context of such a short lived hobby project.
