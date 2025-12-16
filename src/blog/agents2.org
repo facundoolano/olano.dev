@@ -19,7 +19,7 @@ Previously on /Facundo's Adventures with LLMs/:
 
 This time I will document a successful experience I had building a small web app almost exclusively with Claude Code. My previous attempt at coding with agents had made me sick, but this time I felt empowered. What changed?
 
-*** The project
+** Part I: the project
 The project is a small book trading web application for the Buenos Aires local area.
 
 #+BEGIN_EXPORT html
@@ -52,7 +52,7 @@ There are a number of things I typically go for in personal projects, which I ex
 
 While all the things on this second list are desirable, I was willing to trade them off for those on the first one.
 
-*** Claude Code
+*** Using agents
 Given the specific mix of goals and non-goals, this seemed like a opportunity to have another try at
 building with agents, instead of writing all the code myself[fn:3]. I could afford taking some of the risks I associate with delegating too much to the AI---shipping something I don't fully understand, that could take me an extra effort to fix when it breaks, or that turns out to be unmaintainable in the long run.
 
@@ -66,36 +66,37 @@ Django was an ideal fit for me to leverage LLMs: I used Django intensively for 5
 For the front-end the risk/reward was a bit higher. I've been officially a backend dev for a while now,
 and while I've used Bulma on a few projects and have a good idea of what it offers, I'm not trained to review HTML and CSS, so it's likelier that Claude would slip working, superficially good-looking front end code that would quickly degrade and become an unmaintainable mess. On the other hand, and for the same reasons, despite my best intentions the HTML and CSS I produce manually tends to be less maintainable anyway---Claude would just accelerate the process. This turned out to be a very good trade off, since Claude allowed me to iterate quickly in prototype mode, to arrive to the look-and-feel that worked well for the project, something that would have taken me a big effort if I was writing the HTML myself.
 
-*** CHOP not vibe
-I really liked the recent [[https://checkeagle.com/checklists/njr/a-month-of-chat-oriented-programming/][/A Month of Chat-Oriented Programming/]] post and I borrowed a few ideas from it. I like the notion of chat-oriented programming as opposed to vibe-coding. That's what I tried to do with this project, although my own variation of it:
+*** Results
+- released working mvp in 1 (part time) week
+- added QoL improvements in another week
+- got ~70 users and ~300 books after promoting it with friends and people I exchange books with in the past. The app doesn't track this, but I know first hand that a few book exchanges already happened during the first week.
+- cost of running it is
+  X/month hetzner vps
+  X/year porkbun domain
+  X/6 months for zepto emails
+  ~ the cost a used book in Buenos Aires.
 
-- *Switch tactically between default, plan, and edit mode*.
-  - For non trivial features I started the session with some product-level context of the requirement, and the subset of files relevant to the implementation. Then I bounced some ideas with Claude, sometimes providing a succinct TODO list of things that I expected to change in the app or the code. My goal was to minimize the opportunities for it to get creative or improvise, while still giving it room to catch weak spots in my reasoning.
-  - For the few more involved features I worked exclusively in plan mode, having Claude Code produce a markdown file as the output of the session, to be picked up on a separate session.
-- *Claude writes all the code, but never commits* (let alone open pull-requests). I reviewed all code before each commit, asking for refactors of the obvious mistakes, and again before merging the PR. This process pushed me to break the tasks down into obvious increments that would make good checkpoints for committing, which I made part of my instructions. When Claude was working, I kept an eye on the console output and interrupted it when it looked like it was trying to do too much at once.
-- *The human decides what and how to test*. I tried to test any relevant "business rule" through HTTP-level integration tests. I did let Claude write test code but providing step-by-step outlines (more on this below).
+** Part II: the process
+I really liked the recent [[https://checkeagle.com/checklists/njr/a-month-of-chat-oriented-programming/][/A Month of Chat-Oriented Programming/]] post and I borrowed a few ideas from it. I like the notion of chat-oriented programming as opposed to vibe-coding. That's what I tried to do with this project, although my own variation of it.
 
-The process just described may sound like a lot of work and hand-holding, and probably not what the "pros" are doing out there with agents but, as stated before, the goal here was not maximize velocity or throughput but to get a finished product with minimal effort and frustration on my side. I have a fair amount of experience in high-level task breakdown, writing tickets for others to work on, doing superficial code reviews, anticipating pitfalls, and building confidence on a shared codebase through a solid test suite. So this was playing my strengths, and mostly prevented the LLM from digging itself into a hole that I would have to get it out from. I found this micromanaging approach to be very effective and low effort, at times even rewarding---to see features that sounded complicated, and that I would have avoided, work out in a few shots, was stimulating. I occasionally surrendered to the illusion that I was wielding this powerful tool, one that extended my reach and abstracted unimportant details away.
-
-*** Agent customization
-
-Along the same lines, I made a very deliberate choice not to invest in agent customization and support tooling, or whatever that's called: no fancy CLAUDE.md instructions, no MCP servers, no custom commands, no system prompts, no skills, no plugins. I'm not saying these aren't useful, but I find them to be non-conducive rabbit holes: in my previous experiments I ended up spending a lot of tokens trying to come up with an ideal workflow specification, that CLAUDE would randomly forget or ignore.
+*** 1. Skip agent setup
+I made a very deliberate choice not to invest in agent customization and support tooling, or whatever that's called: no fancy CLAUDE.md instructions, no MCP servers, no custom commands, no system prompts, no skills, no plugins. I'm not saying these aren't useful, but I find them to be non-conducive rabbit holes: in my previous experiments I ended up spending a lot of tokens trying to come up with an ideal workflow specification, that CLAUDE would randomly forget or ignore.
 
 A fundamental problem is that the agent doesn't seem to have much knowledge about itself, its configuration, or its commands. When deep in conversational mode, one feels inclined to approach tweaking the tool in the same way, only to find it has no clue about how to do what you ask it too. In that context, tweaking the agent at will requires a big context switch and, in my opinion, spending mental effort in such meta-tasks defeats the purpose of coding with agents. To compound the problem, the knowledge in this space seems ephemeral, so it's hardly a long-term investment. My attitude then was: see how far this can get me today with minimal tweaking; if that's not very far I'll just wait and try again in a few months.
 
-*** Work sessions
-- the only thing I found to be fundamental is to follow X advice to turn compaction off. If you reach compaction then that session is dead. And also if you near compaction you'll likely kill any remaining tokens you have in your current session. These constraints made me arrange my work to always be approachable in one session:
-  - don't try to do too much at once
-  - close and reopen claude as a sort of "checkpointing" when I'm done with a feature and want to start another one.
-  - do a plan-only session, with a detailed markdown plan as output for work that seems to complex work on start to finish before running out of context token or session usage limits.
+*** 2. Switch tactically between default, plan, and edit mode
+For non trivial features I started the session with some product-level context of the requirement, and the subset of files relevant to the implementation. Then I bounced some ideas with Claude, sometimes providing a succinct TODO list of things that I expected to change in the app or the code. My goal was to minimize the opportunities for it to get creative or improvise, while still giving it room to catch weak spots in my reasoning.
 
-- I find that these restriction to work on self contained sessions, and the need to take breaks when reaching both session and weekly limit made me keep my work organized and avoid the agent subtly dragging me into its spirals of nonsensical coding sprees.
+For the few more involved features I worked exclusively in plan mode, having Claude Code produce a markdown file as the output of the session, to be picked up on a separate session.
 
-- When I ran out of tokens, since there was still that barrier on familiarizing with the code, I opted to make progress on UX ideas, feature specifications, test stubs and server setup---all pieces that I didn't want the AI to touch. I found this context switching useful to make steady progress.
+*** 3. Claude writes all the code, but never commits
+I reviewed all code before each commit, asking for refactors of the obvious mistakes, and again before merging the PR. This process pushed me to break the tasks down into obvious increments that would make good checkpoints for committing, which I made part of my instructions. When Claude was working, I kept an eye on the console output and interrupted it when it looked like it was trying to do too much at once.
 
-In a more serious or time-constrained scenario, I would still opt for paying two 20 dollar pro plans instead of a 100 or 200 USD max plan. I haven't tried, but I suspect a combination of Claude Code Pro and Codex Plus is the ideal combination.
+*** 4. The human decides what and how to test
+I tried to test any relevant "business rule" through HTTP-level integration tests. I did let Claude write test code but providing step-by-step outlines.
 
-*** Testing
+TODO cleanup below
+
 I mostly agree the sacred rule on this post
 https://diwank.space/field-notes-from-shipping-real-code-with-claude
 
@@ -114,19 +115,7 @@ I don't let Claude add tests before adding my detailed outline first
 
 I also do a manual smoke testing after each feature is ready to merge. <I haven't experimented with something like playwright yet, but I suspect that would be a better approach to catch UI regressions, where a lot of the complexity of the app resides
 
-*** Don't repeat yourself
-
-Code duplication is an interesting thing to reflect about in the context of working with agents. LLMs are paid (?) to output tokens, so unsurprisingly Claude Code indulges in all kinds of duplication, <not only pieces of code already defined elsewhere in the project (and possibly outside of its current context), but pieces defined right above the code its adding, or in a class its sub-classing, in the django built-ins already imported, etc.
-
-It's tempting to add rigid rules to CLAUDE.md to prevent code duplication, but as we collectively learned in the last decade, dogmatically removing all code duplication tends to do more harm than good.
-
-The anniversary edition of /The Pragmatic Programmer/ makes a useful distinction between duplication /of code/ and duplication /of knowledge/. The latter being what we need to strictly remove. <The situation compounds in the context of coding agents, where (re)writing code is effortless but scattered knowledge is the biggest system risk.
-
-So I found most of my reviews deal with strategically removing or allowing duplication: if it's knowledge it needs to be centralized and I need to think carefully how, if it's just code I can instruct how to extract and reuse, but more often than not it's OK just live with that duplication.
-
-[TODO better examples?]
-
-*** Debugging
+*** 5. Don't let Claude debug on its own
 
 Debugging is another interesting one.
 
@@ -138,17 +127,34 @@ The problem is the remaining 70%. I find that the LLM, even with the command lin
 
 So what worked for me is to give it one shot to figure out the issue autonomously and, when that fails, take over, not necessarily to implement the fix myself but to feed it plausible hypothesis to test and get it on track to a solution.
 
-*** Results
-- released working mvp in 1 (part time) week
-- added QoL improvements in another week
-- got ~70 users and ~300 books after promoting it with friends and people I exchange books with in the past. The app doesn't track this, but I know first hand that a few book exchanges already happened during the first week.
-- cost of running it is
-  X/month hetzner vps
-  X/year porkbun domain
-  X/6 months for zepto emails
-  ~ the cost a used book in Buenos Aires.
+*** 6. Don't repeat yourself (selectively)
+
+Code duplication is an interesting thing to reflect about in the context of working with agents. LLMs are paid (?) to output tokens, so unsurprisingly Claude Code indulges in all kinds of duplication, <not only pieces of code already defined elsewhere in the project (and possibly outside of its current context), but pieces defined right above the code its adding, or in a class its sub-classing, in the django built-ins already imported, etc.
+
+It's tempting to add rigid rules to CLAUDE.md to prevent code duplication, but as we collectively learned in the last decade, dogmatically removing all code duplication tends to do more harm than good.
+
+The anniversary edition of /The Pragmatic Programmer/ makes a useful distinction between duplication /of code/ and duplication /of knowledge/. The latter being what we need to strictly remove. <The situation compounds in the context of coding agents, where (re)writing code is effortless but scattered knowledge is the biggest system risk.
+
+So I found most of my reviews deal with strategically removing or allowing duplication: if it's knowledge it needs to be centralized and I need to think carefully how, if it's just code I can instruct how to extract and reuse, but more often than not it's OK just live with that duplication.
+
+[TODO better examples?]
+
+*** 7. Plan around context window and usage limits
+- the only thing I found to be fundamental is to follow X advice to turn compaction off. If you reach compaction then that session is dead. And also if you near compaction you'll likely kill any remaining tokens you have in your current session. These constraints made me arrange my work to always be approachable in one session:
+  - don't try to do too much at once
+  - close and reopen claude as a sort of "checkpointing" when I'm done with a feature and want to start another one.
+  - do a plan-only session, with a detailed markdown plan as output for work that seems to complex work on start to finish before running out of context token or session usage limits.
+
+- I find that these restriction to work on self contained sessions, and the need to take breaks when reaching both session and weekly limit made me keep my work organized and avoid the agent subtly dragging me into its spirals of nonsensical coding sprees.
+
+- When I ran out of tokens, since there was still that barrier on familiarizing with the code, I opted to make progress on UX ideas, feature specifications, test stubs and server setup---all pieces that I didn't want the AI to touch. I found this context switching useful to make steady progress.
+
+In a more serious or time-constrained scenario, I would still opt for paying two 20 dollar pro plans instead of a 100 or 200 USD max plan. I haven't tried, but I suspect a combination of Claude Code Pro and Codex Plus is the ideal combination.
 
 *** Conclusions
+
+The process just described may sound like a lot of work and hand-holding, and probably not what the "pros" are doing out there with agents but, as stated before, the goal here was not maximize velocity or throughput but to get a finished product with minimal effort and frustration on my side. I have a fair amount of experience in high-level task breakdown, writing tickets for others to work on, doing superficial code reviews, anticipating pitfalls, and building confidence on a shared codebase through a solid test suite. So this was playing my strengths, and mostly prevented the LLM from digging itself into a hole that I would have to get it out from. I found this micromanaging approach to be very effective and low effort, at times even rewarding---to see features that sounded complicated, and that I would have avoided, work out in a few shots, was stimulating. I occasionally surrendered to the illusion that I was wielding this powerful tool, one that extended my reach and abstracted unimportant details away.
+
 
 - previous attempt I qualified the feeling as "exhilarating recklessness" and compared the experience with going to the casino.
 - this time instead I felt like I was leveraging my experience: like I had been saving in experience for 15 years and Claude allowed me to "spend" some of that experience to get something that I wanted. This analogy works in more than one way:
