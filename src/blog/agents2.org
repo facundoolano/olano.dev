@@ -6,6 +6,7 @@ lang: en
 tags: [ai, projects]
 draft: true
 excerpt: "I built a small web app almost exclusively with Claude Code. My previous attempt at coding with agents had made me sick, but this time I felt empowered. What changed?"
+image: giralibros.png
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
@@ -19,15 +20,17 @@ Previously on /Facundo's Adventures with LLMs/:
 This time I will document a successful experience I had building a small web app almost exclusively with Claude Code. My previous attempt at coding with agents had made me sick, but this time I felt empowered. What changed?
 
 *** The project
-The project is a small book trading web application for the Buenos Aires local area:
+The project is a small book trading web application for the Buenos Aires local area.
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+<img src="{{site.config.static_root}}/img/giralibros.png"></a>
+</div>
+#+END_EXPORT
+
+
 1. Users publish a list of books they offer for trading, and browse other user's offered books.
-
-   [Screenshot]
-
-2. When they see a book they like, the sends an exchange request to the owner. The owner receives it as an email notification.
-
-   [Screenshot]
-
+2. When they see a book they like, the user sends an exchange request to the owner. The owner receives it as an email notification.
 3. If the owner is interested in any of the other user's books, they get in touch to meet and make the trade. This exchange takes place outside of the application, typically via email or WhatsApp. (There are no incentives to keep them inside the app).
 
 I wrote this application from scratch[fn:1] using Django, SQLite for the database, and Bulma for styles. It runs on a small Debian server behind nginx.
