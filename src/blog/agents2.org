@@ -80,9 +80,9 @@ The 7 USD/month total is about the cost of a second hand book here.
 I really liked the recent [[https://checkeagle.com/checklists/njr/a-month-of-chat-oriented-programming/][/A Month of Chat-Oriented Programming/]] post and I borrowed a few ideas from it. I like the notion of chat-oriented programming as opposed to vibe-coding. That's what I tried to do with this project, although my own variation of it.
 
 *** 1. Skip agent setup
-I made a very deliberate choice not to invest in agent customization and support tooling, or whatever that's called: no fancy CLAUDE.md instructions, no MCP servers, no custom commands, no system prompts, no skills, no plugins. I'm not saying these aren't useful, but I find them to be non-conducive rabbit holes: in my previous experiments I ended up spending a lot of tokens trying to come up with an ideal workflow specification, that CLAUDE would randomly forget or ignore.
+I made a very deliberate choice not to invest in agent customization and support tooling, or whatever that's called: no fancy CLAUDE.md instructions, no MCP servers, no custom commands, no system prompts, no skills, no plugins. I'm not saying these aren't useful, but I find them to be non-conducive rabbit holes: in my previous experiments I ended up spending a lot of tokens trying to come up with an ideal workflow specification, which claude would still randomly forget or ignore.
 
-A fundamental problem is that the agent doesn't seem to have much knowledge about itself, its configuration, or its commands. When deep in conversational mode, one feels inclined to approach tweaking the tool in the same way, only to find it has no clue about how to do what you ask it too. In that context, tweaking the agent at will requires a big context switch and, in my opinion, spending mental effort in such meta-tasks defeats the purpose of coding with agents. To compound the problem, the knowledge in this space seems ephemeral, so it's hardly a long-term investment. My attitude then was: see how far this can get me today with minimal tweaking; if that's not very far I'll just wait and try again in a few months.
+A fundamental problem is that the agent doesn't seem to have much knowledge about itself, its configuration, or its commands. When deep in conversational mode, one feels inclined to approach tweaking the tool in the same way, asking the tool to explain how to best use it or telling it to adjust a specific configuration, only to find it has no clue about how to do that. In that context, tweaking the agent at will requires a big context switch; in my opinion, spending mental cycles in such meta-tasks defeats the purpose of coding with agents. Since these tools are changing every month, I'm not compelled to make an investment unless it yields immediate results. My attitude then was: see how far this can get me today with minimal tweaking; if that's not very far, I'll just wait and try again in a few months.
 
 *** 2. Switch tactically between default, plan, and edit mode
 For non trivial features I started the session with some product-level context of the requirement, and the subset of files relevant to the implementation. Then I bounced some ideas with Claude, sometimes providing a succinct TODO list of things that I expected to change in the app or the code. My goal was to minimize the opportunities for it to get creative or improvise, while still giving it room to catch weak spots in my reasoning.
@@ -90,30 +90,36 @@ For non trivial features I started the session with some product-level context o
 For the few more involved features I worked exclusively in plan mode, having Claude Code produce a markdown file as the output of the session, to be picked up on a separate session.
 
 *** 3. Claude writes all the code, but never commits
-I reviewed all code before each commit, asking for refactors of the obvious mistakes, and again before merging the PR. This process pushed me to break the tasks down into obvious increments that would make good checkpoints for committing, which I made part of my instructions. When Claude was working, I kept an eye on the console output and interrupted it when it looked like it was trying to do too much at once.
+I reviewed all code before each commit, asking for refactors of the obvious mistakes, and again before merging the PR. This process pushed me to break the tasks down into obvious increments that would make good checkpoints for committing, which I made part of my instructions (this is about the same I do when I'm writing the code). When Claude was working, I kept an eye on the console output and interrupted it when it looked like it was trying to do too much at once.
 
 *** 4. The human decides what and how to test
-I tried to test any relevant "business rule" through HTTP-level integration tests. I did let Claude write test code but providing step-by-step outlines.
+I find that an explicit test exercising every relevant "business rule" is more effective than documentation, code comments, and the overall design/architecture in capturing the desired system behavior and guaranteeing that it  does what it is supposed to do. This is even more important in the context of agentic coding, where I'm voluntarily resigning some control over the implementation.
 
-TODO cleanup below
+I mostly agree the sacred rule in [[https://diwank.space/field-notes-from-shipping-real-code-with-claude][this post]]: /Never. Let. AI. Write. Your. Tests./ I was slightly less strict, though: instead of writing the tests myself, I provided a set of rules and step-by-step outlines of the integration tests I wanted:
 
-I mostly agree the sacred rule on this post
-https://diwank.space/field-notes-from-shipping-real-code-with-claude
+#+begin_src python
+def request_book_exchange(self):
+    # register two users
+    # first user with 3 books
+    # second user two books
+    # send request for second book
+    # check outgoing email
+    # check email content includes 2nd user contact details
+    # check email content lists user books
+    pass
 
-but I slightly adapted to reduce friction in adding new tests.
-- I don't let AI come up with their own tests
-- I have specific rules about what I look for in a test (which aren't different from non-ai driven projects). basically what I listed here and discussed in more length here: test units of behavior not units of code, don't couple to implementation details, prefer integration tests over smaller scale unit tests, don't mock intermediate layers (just the inputs and outputs of your system), don't access the DB directly. (I made claude read those and include the rules in its CLAUDE.md)
+def mark_as_already_requested(self):
+    # register two users
+    # first user with 3 books
+    # second user gets home, sees all three books and Change button
+    # send request for second book
+    # request list shows 2 Change, one already request
+    pass
+#+end_src
 
-This is one of the few areas where I hold my opinions strongly. Taking this approach helps me trust my codebase even when I don't fully understand it or there are pieces that I know need improvement. I find an explicit test exercising every relevant business rule beats documentation, comments and the overall design/architecture in providing guarantees that the system does what it needs to do and will continue to over time.
+Then I carefully review the implementation to ensure it follows my testing preferences: don't couple to implementation details (test units of behavior, not units of code), don't mock intermediate layers (just the inputs and outputs of your system, i.e. its observable behavior), don't access the DB directly[fn:2]. Once a few tests are implemented, then Claude is less likely to deviate from the surrounding style.
 
-This becomes even more important in the context of agentic coding, where I'm voluntarily resigning control and understanding of the implementation.
-
-- the slight adjustment is that I want to test as much as possible, and writing tests line by line is still burdensome. So I typically write outlines like:
-  [Example]
-then ask Claude to implement one at a time and I closely review to make sure it's following my rules and not overcomplicating the implementation. after a few are implemented then it's less likely to deviate from the sorrounding style.
-I don't let Claude add tests before adding my detailed outline first
-
-I also do a manual smoke testing after each feature is ready to merge. <I haven't experimented with something like playwright yet, but I suspect that would be a better approach to catch UI regressions, where a lot of the complexity of the app resides
+I also do some smoke testing after each feature is ready to merge. I haven't experimented with something like playwright, but I suspect that would be a better approach to catch regressions in the UI, which is where most of the application complexity resides.
 
 *** 5. Don't let Claude debug on its own
 
@@ -147,6 +153,8 @@ So I found most of my reviews deal with strategically removing or allowing dupli
 
 - I find that these restriction to work on self contained sessions, and the need to take breaks when reaching both session and weekly limit made me keep my work organized and avoid the agent subtly dragging me into its spirals of nonsensical coding sprees.
 
+- again, this is not different from what I do when I'm writing the code myself, I tend to split the tasks in self-containd PRs. the difference is that one day of work turns into a 0.5-2 hour session.
+
 - When I ran out of tokens, since there was still that barrier on familiarizing with the code, I opted to make progress on UX ideas, feature specifications, test stubs and server setup---all pieces that I didn't want the AI to touch. I found this context switching useful to make steady progress.
 
 In a more serious or time-constrained scenario, I would still opt for paying two 20 dollar pro plans instead of a 100 or 200 USD max plan. I haven't tried, but I suspect a combination of Claude Code Pro and Codex Plus is the ideal combination.
@@ -165,6 +173,7 @@ The process just described may sound like a lot of work and hand-holding, and pr
 - I still don't think it would be wise to use this a lot in professional environments, other than for proof of concept-type of software. I don't think that trading short term productivity for long term ownership and knowledge building makes sense in most cases.
 
 *** Notes
+[fn:2] My testing rules are listed in [LINK] and [LINK]. I asked claude to read them and dump a summary to CLAUDE.md, but I doubt that made much of a difference.
 
 [fn:3] Using AI was not in itself a project goal, though. I first made my mind about spending time on this project; once that was settled, I tried Claude Code as an experiment. Had I had a first few unproductive sessions I would have started over writing all the code myself (perhaps running a higher risk of abandoning the project before down the line).
 [fn:1] This is not an original idea: there's already a similar application that worked pretty well for a few years, until they introduced an aggressive subscription model. This change stagnated the community---both for free and paid users---, so the motivation for my project was to provide a free replacement to that community.
