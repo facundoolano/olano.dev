@@ -246,11 +246,11 @@ The anniversary edition of /The Pragmatic Programmer/ makes a useful distinction
 
 *** 7. Plan around token and session limits
 
-There are a few usage limits that need to be taken into account when working with Claude Code.
+There are some usage limits to take into account when working with Claude Code.
 
-The first is the size of the conversation context window. There is so much context the model can fit when processing a new message, and a long running session will eventually exhaust it. By default, CC will try to "compact" the context to keep it manageable but, as noted in the /Month of CHOP/ post, this degrades the quality of its output. I also found that the process of compaction itself spends a lot of tokens, which is problematic because of the Plan usage limits.
+The first is the size of the conversation context window. There is so much information the model can fit into its context when processing a message, and a long-running session will eventually exhaust it. By default, CC will try to "compact" the context to keep it manageable but, as noted in the /Month of CHOP/ post, this degrades the quality of its output. I also found that the process of compaction itself spends a lot of tokens, which is problematic because of the Plan usage limits.
 
-I followed /Month of CHOP/ post advice to turn off autocompaction in the settings, and kept an eye on its token consumption via the ~/context~ command, which looks like this:
+I followed the /Month of CHOP/ post advice to turn off autocompaction in the settings, and kept an eye on its token consumption via the ~/context~ command, which looks like this:
 #+begin_src
 > /context
   ⎿
@@ -275,7 +275,7 @@ I followed /Month of CHOP/ post advice to turn off autocompaction in the setting
   ⎿
 #+end_src
 
-In addition to the model context window, Claude Pro has limits on how much you can consume in session and weekly time windows, which can be monitored at [[claude.ai/settings/usage][https://claude.ai/settings/usage]].
+In addition to the model context window, Claude Pro has limits on how much you can consume in session and weekly time windows, which can be monitored at [[claude.ai/settings/usage][https://claude.ai/settings/usage]]:
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -284,17 +284,17 @@ In addition to the model context window, Claude Pro has limits on how much you c
 #+END_EXPORT
 
 
-I've observed that I exhaust the session limit after a couple of hours of steady work (having to wait 3-5 hours to resume), and a weekly plan limit if I work ~4-5 days in a row, so I learned to plan my work around these constraints.
+I've observed that I exhaust the session limit after a couple of hours of steady work (having to wait 3-5 hours to resume), and a weekly plan limit if I work ~4-5 days in a row, so I learned to plan my work around these constraints:
 
-- Much like I split coding tasks into commit-sized steps, I split features into PR-sized sessions.
+- Much like I split code changes into commit-sized steps, I split features into PR-sized sessions.
 - I tried to work on a single thing at a time, e.g. resisting the temptation to add extra/unrelated tasks as they popped to mind. Which was a good idea, anyway, both for project organization and to keep the agent focused on the task at hand.
 - I monitored the context window, restarting Claude to "checkpoint" when I was done with a feature and wanted to start on another.
-- For bigger tasks that I anticipated wouldn't fit in the context window or session limit, I would do one or more planning sessions first, with a detailed markdown plan as output that could be picked up on a subsequent implementation session.
+- For bigger tasks that I anticipated wouldn't fit in the context window or session limit, I would do one or more planning sessions first, with a detailed markdown plan as output, to be picked up on a subsequent implementation session.
 
-While it was very annoying to hit these limits at first, I think it eventually pushed me to stay methodical.
-If I ran out of tokens and I wanted to continue working in the project, I would switch to non-AI driven activities (plan, research, stub tests, server config, etc.). I find this was a healthy balance for me.
+While initially it was very annoying to hit these limits, I think it eventually pushed me to stay methodical.
+If I ran out of tokens and I still wanted to make progress, I would switch to non-AI driven activities (plan, research, stub tests, server config, etc.). I find this was a healthy balance for me, to avoid getting dragged into the slot machine.
 
-If this was my job and not a side project, and I wanted to improve my throughput, rather than switching to a 100 USD Max plan, I would combine this Pro plan with Codex Plus from OpenAI (also 20USD/month, and would give me exposure to a different model).
+If this was my job and not a side project, and I needed to increase my throughput, rather than switching to a 100 USD Max plan, I would combine this Pro plan with a Codex Plus from OpenAI (also 20USD/month, and would give me exposure to different models).
 
 *** Conclusions
 
