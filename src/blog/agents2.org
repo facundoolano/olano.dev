@@ -20,7 +20,7 @@ Previously on /Facundo's Adventures with LLMs/:
 This time I will document a successful experience I had building a small web app almost exclusively with Claude Code. My previous attempt at coding with agents had made me sick, but this time I felt empowered. What changed?
 
 ** Part I: the project
-The project is a small book trading web application for the Buenos Aires local area.
+The project is a book trading webapp for the Buenos Aires local area.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -30,13 +30,13 @@ The project is a small book trading web application for the Buenos Aires local a
 
 
 1. Users publish a list of books they offer for trading, and browse other user's books.
-2. When they see something they like, the user sends an exchange request to the book owner, who receives it as an email notification.
-3. If the owner is interested in any of the other user's books, they arrange to meet and make the trade. This exchange takes place outside of the application (there are no incentives to keep users in-app; email and WhatsApp are more convenient).
+2. When a user sees something they like, they send an exchange request to the book owner, who receives it as an email notification.
+3. If the owner is interested in any of the other user's books, they arrange to meet and make the trade. This exchange takes place outside of the application (there are no incentives to keep users in-app; email and WhatsApp are more convenient for messaging).
 
 I wrote this application from scratch[fn:1] using Django, SQLite for the database, and Bulma for styles. It runs on a small Debian server behind nginx.
 
 *** Goals
-- *Finishing the project*, with the exact UX I had in mind (which was very simple).
+- *Finishing the project*, with the specific UX I had in mind (which was very simple).
 - *Minimizing the effort* I had to make to implement it (counting the frustration and disgust with the tooling, e.g. Claude Code, as part of that effort).
 - *Minimizing operational costs* to run the system: if this was successful I would run it as a free community project, so I needed to design it to be cheap to run and not take much of my time.
 - *Keeping a decent understanding of the codebase* (at least of its backend).
@@ -47,37 +47,37 @@ There are a number of things I typically go for in personal projects, which I ex
 - Having fun.
 - Learning.
 - Ensuring long-term maintainability, flexibility, or extensibility of the codebase: in a way this was a proof of concept. I wanted to get it out there and see if people liked it. It's small enough that I can risk not having a strong hold of the codebase, because it wouldn't be hard to quickly rewrite it if necessary.
-- Building a successful product: I want this to succeed, not least because I want to use it to trade books but, other than making the application free and accessible, it's out of my hands whether people choose to use it or not---I'm not going to go out of my way to promote it, either.
-- Keeping users happy: since this is not a business, I can afford to miss features, ship bugs, lose data, etc. I got nothing to lose.
+- Building a successful product: I wanted this to succeed, not least because I wanted to use it to trade books but, other than making the application free and accessible, it was out of my hands whether people adopt it or not---I wouldn't go out of my way to promote it, either.
+- Keeping users happy: since this wasn't a business, I could afford to miss features, ship bugs, lose data, etc. I got nothing to lose.
 
 While all the things on this second list are desirable, I was willing to trade them off for those on the first one.
 
 *** Using agents
-Given the specific mix of goals and non-goals, this seemed like a opportunity to have another try at
-building with agents, instead of writing all the code myself[fn:3]. I could afford taking some of the risks I associate with delegating too much to the AI---shipping something I don't fully understand, that could take me an extra effort to fix when it breaks, or that turns out to be unmaintainable in the long run.
+Given the specific mix of goals and non-goals, this seemed like a good opportunity to have another try at
+building with agents, instead of writing all the code myself[fn:3]. I could afford some of the risks I associate with delegating too much to the AI---shipping something I don't fully understand, that could take me an extra effort to fix when it breaks, or that turns out to be unmaintainable in the long run.
 
 A few things had changed since my previous previous experiment with Claude Code:
-- One of the reasons I didn't keep up with Claude Code was that a 100-200 USD/month subscription seemed too much for my occasional side projects, and the API key alternative could easily burn 30 bucks in a day. This time I switched to the more reasonable 20 USD/month Pro plan.
-- During this time, I kept reading accounts of agent coding experiences from other (often skeptical) devs, which gave me new ideas and better context to work with these tools.
-- Probably the biggest difference, this was going to be a greenfield project, which is where agents shine. The stack was more LLM-friendly too, I believe: the Django guardrails plus vanilla JavaScript are a better match to their training set than Flask, SQLAlchemy and the HTMX/hyperscript extravaganza from my other project.
+- I learned about the 20USD/month Pro plan, which was more reasonable for personal projects than the Max plans or the API key alternative.
+- I kept reading accounts from other (often skeptical) developers, which gave me new ideas and better context to work with these tools.
+- This time I would work on a greenfield project, which is where agents shine. The stack was more LLM-friendly, too: the Django guardrails plus vanilla JavaScript are a better match to their training set than my previous Flask/SQLAlchemy/HTMX/hyperscript extravaganza.
 
 Django was an ideal fit for me to leverage LLMs: I used Django intensively for 5 years... a decade ago. I still have a good grasp of its concepts, a notion of what's doable with it, what's built-in and what should be ad hoc, etc., but I completely forgot the ORM syntax, the class names, the little details. I could instruct Claude exactly what to do, saving me a lot of documentation roundtrips while still catching whenever it tried to bullshit me into getting creative or reinventing the wheel.
 
 For the front-end the risk/reward was a bit higher. I've been officially a backend dev for a while now,
-and while I've used Bulma on a few projects and have a good idea of what it offers, I'm not trained to review HTML and CSS, so it's likelier that Claude would slip working, superficially good-looking front end code that would quickly degrade and become an unmaintainable mess. On the other hand, and for the same reasons, despite my best intentions the HTML and CSS I produce manually tends to be less maintainable anyway---Claude would just accelerate the process. This turned out to be a very good trade off, since Claude allowed me to iterate quickly in prototype mode, to arrive to the look-and-feel that worked well for the project, something that would have taken me a big effort if I was writing the HTML myself.
+and while I've used Bulma on a few projects and have a good idea of what it offers, I'm not trained to review HTML and CSS, so it was likelier that Claude would slip working, superficially good-looking front end code that would quickly degrade and become an unmaintainable mess. On the other hand, and for the same reasons, despite my best intentions the HTML and CSS I produce manually tends to be less maintainable anyway---Claude would just accelerate the cycle. This turned out to be a very good trade-off, since Claude allowed me to iterate quickly in prototype mode and arrive to a look-and-feel that fit the project, something that would have taken me a big effort if I was writing the HTML myself.
 
 *** Results
-I released an MVP after one week of part-time work, and a few extra nice to haves in another week. At the time of writing, there are ~80 registered users and ~400 offered books. The app doesn't track this, but I know first hand of a few book exchanges that already took place.
+I released an MVP after one week of part-time work, and a few extra nice to haves in another week. At the time of writing, there over 80 registered users and 400 offered books. The app doesn't track this, but I know first hand of a few book exchanges that already took place.
 
-The costs of running the app are:
+In terms of operational costs, which I tried to keep low:
   - 6 USD/month on a Hetzner VPS
   - 7 USD/year on a Porkbun domain
   - 2.5 USD/every 6 months for ZeptoMail credits
 
-The 7 USD/month total is about the cost of a second hand book here.
+This 7 USD/month total is less than what a second hand book costs here.
 
 ** Part II: the process
-I really liked the recent [[https://checkeagle.com/checklists/njr/a-month-of-chat-oriented-programming/][/A Month of Chat-Oriented Programming/]] post and I borrowed a few ideas from it. I like the notion of chat-oriented programming as opposed to vibe-coding. That's what I tried to do with this project, although my own variation of it.
+I really liked the recent [[https://checkeagle.com/checklists/njr/a-month-of-chat-oriented-programming/][/A Month of Chat-Oriented Programming/]] post and I borrowed a few ideas from it. I like the notion of chat-oriented programming as opposed to vibe-coding. That's what I tried to do with this project, although my own variation of it, which I describe below.
 
 *** 1. Skip agent setup
 I made a very deliberate choice not to invest in agent customization and support tooling, or whatever that's called: no fancy CLAUDE.md instructions, no MCP servers, no custom commands, no system prompts, no skills, no plugins. I'm not saying these aren't useful, but I find them to be non-conducive rabbit holes: in my previous experiments I ended up spending a lot of tokens trying to come up with an ideal workflow specification, which claude would still randomly forget or ignore.
@@ -201,4 +201,5 @@ I'm sure I made some mistakes by letting Claude do the coding for me, but this w
 and [[unit-testing-principles][/Unit Testing Principles/]]. I asked Claude to read those posts and dump a summary to CLAUDE.md, but I doubt that made much of a difference.
 
 [fn:3] Using AI was not in itself a project goal, though. I first made my mind about spending time on this project; once that was settled, I tried Claude Code as an experiment. Had I had a first few unproductive sessions I would have started over writing all the code myself (perhaps running a higher risk of abandoning the project before down the line).
-[fn:1] This is not an original idea: there's already a similar application that worked pretty well for a few years, until they introduced an aggressive subscription model. This change stagnated the community---both for free and paid users---, so the motivation for my project was to provide a free replacement to that community.
+
+[fn:1] This is not an original idea: there's a similar application that worked well for a few years, until its owners introduced a paid subscription model. This change stagnated the community---both for free and paid users---, so the motivation for my project was to offer a free replacement to that community.
