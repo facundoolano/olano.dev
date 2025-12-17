@@ -134,7 +134,7 @@ command; I don't want to add celery or something like that for background jobs--
 #+end_export
 
 
-*** 3. Claude writes the code, I commit
+*** 3. Claude writes the code, you commit
 I reviewed all code before each commit, asking for refactors of the obvious mistakes, and again before merging the PR. This process pushed me to break the tasks down into obvious increments that would make good checkpoints for committing, which I made part of my instructions (this is about the same I do when I'm writing the code). When Claude was working, I kept an eye on the console output and interrupted it when it looked like it was trying to do too much at once.
 
 
@@ -201,7 +201,7 @@ Date:   Mon Dec 1 08:37:39 2025 -0300
 <br/>
 #+end_export
 
-*** 4. I decide what and how to test
+*** 4. Define precisely what and how to test
 I find that an explicit test exercising every relevant "business rule" is more effective than documentation, code comments, and the overall design/architecture in capturing the desired system behavior and guaranteeing that it  does what it is supposed to do. This is even more important in the context of agentic coding, where I'm voluntarily resigning some control over the implementation.
 
 I mostly agree with the sacred rule in [[https://diwank.space/field-notes-from-shipping-real-code-with-claude][/Field Notes From Shipping Real Code With Claude/]]: /Never. Let. AI. Write. Your. Tests./ I was slightly less strict, though: instead of writing the tests myself, I provided a set of rules and step-by-step outlines of the integration tests I wanted:
@@ -230,20 +230,19 @@ Then I carefully reviewed the implementation to ensure it followed my testing pr
 
 I also did some smoke testing after each feature was ready to merge. I haven't experimented with something like Playwright, but I suspect that would be a good addition to prevent regressions in the UI, which is where most of the application complexity resides.
 
-*** 5. Don't let Claude debug on its own
+*** 5. Don't let Claude drive the debugging
 
 For an unsophisticated project like this, with good enough detail in the prompts, Claude tends to get the implementation right or almost right let's say 80% of the time.
 
-I noticed that, when something fails and the problem isn't obvious, Claude can figure out the problem on its own maybe 30% of the times. This can include very subtle or cryptic errors that could take me hours to resolve myself. The problem is that remaining 70%. I find that the LLM, even with the command line at its disposal, if left unchecked will  be both clueless and eager to try things at random, accumulating layers of useless changes, going in circles and very far from the actual problem.
+I noticed that, when something fails and the problem isn't obvious, Claude can quickly figure out the problem on its own maybe 30% of the time. This includes some subtle or cryptic errors that could take me hours to resolve myself. The problem is that remaining 70%. I find that the LLM, even with the command line and internet access at its disposal, if left unchecked will be both clueless and eager to try things at random, accumulating layers of failed fixes, going in circles and very far from the actual problem.
 
-What worked for me is to give it one shot to figure out the issue autonomously and, when that fails, take over, not necessarily to do the full debugging and fix myself but to feed it plausible hypotheses and evidence, to put it back on track to a solution.
+What worked for me is to give it one shot to figure out the issue autonomously and, when that fails, take over, not necessarily to do the whole debugging and fix myself but to feed it plausible hypotheses and evidence, to put it back on track to a solution.
 
 *** 6. Don't repeat yourself (but sometimes do)
 
-Code duplication is an interesting thing to reflect about in the context of working with agents. LLMs get paid (?) to output tokens, so unsurprisingly Claude Code indulges in all kinds of duplication, from repeating patterns found in the same module to reimplementing entire chunks of the Django built-ins its already importing. It would be tempting to add strict rules to CLAUDE.md to prevent all code duplication, but as we collectively learned in the last decade, dogmatically applying DRY tends to do more harm than good.
+Code duplication is an interesting thing to reflect about when working with agents. LLMs get paid (?) to output tokens, so unsurprisingly Claude Code indulges in all kinds of duplication, from repeating snippets found in the module it's editing to reimplementing entire chunks of the very Django built-ins it subclasses. It would be tempting to add strict rules to CLAUDE.md, rejecting all kinds of code duplication, but as we collectively learned in the last decade, dogmatically applying the DRY principle tends to do more harm than good.
 
-The anniversary edition of /The Pragmatic Programmer/ makes a useful distinction between duplication /of code/ and duplication /of knowledge/, the latter being what we need to be more wary of. In the context of coding with LLMs, where (re)writing code is effortless but scattered knowledge is a threat to system survival,
-the distinction is fundamental. So I found most of my reviews deal with strategically removing or allowing duplication: if it's knowledge, it needs to be centralized and I need to think carefully how; if it's just code, I can instruct how to extract and reuse, but more often than not it's better just live with that duplication.
+The anniversary edition of /The Pragmatic Programmer/ makes a useful distinction between duplication /of code/ and duplication /of knowledge/, the latter being what we need to be more wary of. In the context of coding with LLMs---where repeating text is free, inline code makes better use of the LLM context, but scattered knowledge is a threat to system survival---, this distinction is fundamental. I found a major part of my refactoring was to decide if I should allowing or remove duplication: if it's knowledge, it should be centralized and I need to think carefully how; if it's just code, I can consider extracting for reuse but, more often than not, it's better just live with that duplication.
 
 *** 7. Plan around token and session limits
 
@@ -306,8 +305,8 @@ A few months ago I qualified the feeling I got from building with agents as "exh
 I'm sure I made some mistakes by letting Claude do the coding for me, but this was clearly a successful project given my initial goals and the results I got. I still think it wouldn't be wise to use agents much at work, beyond proof-of-concept software---trading short-term productivity for long-term ownership is rarely a good bargain. As for low-stakes projects, I like that the barrier has lowered to ship good-enough software. It's great to cheaply try out different ideas, without prospects of turning them into reliable systems or marketable products.
 
 *** Notes
-[fn:2] My rules are listed in [[what-i-think-i-know-about-testing][/What I think I know about testing/]]
-and [[unit-testing-principles][/Unit Testing Principles/]]. I asked Claude to read those posts and dump a summary to CLAUDE.md, but I doubt that made much of a difference.
+[fn:2] My testing preferences are listed in [[what-i-think-i-know-about-testing][/What I think I know about testing/]]
+and discussed in [[unit-testing-principles][/Unit Testing Principles/]]. I asked Claude to read those posts and dump a summary to CLAUDE.md, but I doubt that made much of a difference.
 
 [fn:3] Using AI was not in itself a project goal, though. I first made my mind about spending time on this project; once that was settled, I tried Claude Code as an experiment. Had I had a first few unproductive sessions I would have started over writing all the code myself (perhaps running a higher risk of abandoning the project before down the line).
 
