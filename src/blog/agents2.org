@@ -137,6 +137,70 @@ command; I don't want to add celery or something like that for background jobs--
 *** 3. Claude writes the code, I commit
 I reviewed all code before each commit, asking for refactors of the obvious mistakes, and again before merging the PR. This process pushed me to break the tasks down into obvious increments that would make good checkpoints for committing, which I made part of my instructions (this is about the same I do when I'm writing the code). When Claude was working, I kept an eye on the console output and interrupted it when it looked like it was trying to do too much at once.
 
+
+#+begin_export html
+<br/>
+<details>
+<summary>Example commit log</summary>
+<pre>
+<code>commit 615ee01ff933ea48cc145bec4ccc946177d1a244
+Author: Facundo Olano <facundo.olano@gmail.com>
+Date:   Mon Dec 1 08:37:39 2025 -0300
+
+    send exchange request (#10)
+
+    * extract exchange button to template fragment
+
+    * stub exchange view
+
+    * first stab at button processing js
+
+    * refactor to reduce knowledge dup
+
+    * remove weird csrf setup
+
+    * improve modal style
+
+    * stub backend implementation
+
+    * email+request transaction
+
+    * remove delay
+
+    * fix error handling
+
+    * polish messages
+
+    * change subject
+
+    * flesh out email message
+
+    * stub more tests
+
+    * first stab at solving the test
+
+    * improve response management
+
+    * refactor helper
+
+    * add test
+
+    * add test
+
+    * add test
+
+    * add test
+
+    * more tests
+
+    * fix settings management
+
+    * fix response html</code>
+</pre>
+</details>
+<br/>
+#+end_export
+
 *** 4. I decide what and how to test
 I find that an explicit test exercising every relevant "business rule" is more effective than documentation, code comments, and the overall design/architecture in capturing the desired system behavior and guaranteeing that it  does what it is supposed to do. This is even more important in the context of agentic coding, where I'm voluntarily resigning some control over the implementation.
 
