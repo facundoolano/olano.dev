@@ -80,14 +80,59 @@ This 7 USD/month total is less than what a second hand book costs here.
 I really liked the recent [[https://checkeagle.com/checklists/njr/a-month-of-chat-oriented-programming/][/A Month of Chat-Oriented Programming/]] post and I borrowed a few ideas from it. I like the notion of chat-oriented programming as opposed to vibe-coding. That's what I tried to do with this project, although my own variation of it, which I describe below.
 
 *** 1. Skip agent setup
-I made a very deliberate choice not to invest in agent customization and support tooling, or whatever that's called: no fancy CLAUDE.md instructions, no MCP servers, no custom commands, no system prompts, no skills, no plugins. I'm not saying these aren't useful, but I find them to be non-conducive rabbit holes: in my previous experiments I ended up spending a lot of tokens trying to come up with an ideal workflow specification, which claude would still randomly forget or ignore.
+I made a very deliberate choice not to invest in agent customization and support tooling, or whatever that's called: no fancy CLAUDE.md instructions, no MCP servers, no custom commands, no system prompts, no skills, no plugins. I'm not saying these aren't useful, but I find them to be non-conducive rabbit holes: in my previous experiments I ended up spending a lot of tokens trying to come up with a robust workflow specification, which Claude would still randomly forget or ignore.
 
-A fundamental problem is that the agent doesn't seem to have much knowledge about itself, its configuration, or its commands. When deep in conversational mode, one feels inclined to approach tweaking the tool in the same way, asking the tool to explain how to best use it or telling it to adjust a specific configuration, only to find it has no clue about how to do that. In that context, tweaking the agent at will requires a big context switch; in my opinion, spending mental cycles in such meta-tasks defeats the purpose of coding with agents. Since these tools are changing every month, I'm not compelled to make an investment unless it yields immediate results. My attitude then was: see how far this can get me today with minimal tweaking; if that's not very far, I'll just wait and try again in a few months.
+A fundamental flaw with this mode of programming is that the agent doesn't seem to know much about itself, its configuration, or its commands. When deep in conversational mode, one feels inclined to approach tweaking the tool in the same way, asking it to explain itself or telling it to adjust its settings, only to find that's beyond its capabilities. In that context, tweaking the agent at will requires a big context switch for the user; in my opinion, spending mental cycles in such meta-tasks defeats the purpose of coding with agents. To compound the problem, since these tools seem to change every other month,
+it's hard to see fine-tuning as an investment. My attitude then was: see how far this can get me today with minimal tweaking; if that's not very far, I'll just wait and try again in a few months.
 
 *** 2. Switch tactically between default, edit, and plan mode
-For non trivial features I started the session with some product-level context of the requirement, and the subset of files relevant to the implementation. Then I bounced some ideas with Claude, sometimes providing a succinct TODO list of things that I expected to change in the app or the code. My goal was to minimize the opportunities for it to get creative or improvise, while still giving it room to catch weak spots in my reasoning.
+For non trivial features I started the session with some product-level context of the requirement and the subset of files relevant to the implementation. Then I bounced some ideas with Claude, sometimes providing a succinct TODO list of things that I expected to change in the app or the code. My goal was to minimize the opportunities for it to get creative or improvise, while still giving it room to catch weak spots in my reasoning.
+
+#+begin_export html
+<br/>
+<details>
+<summary>Example prompt transcript</summary>
+<blockquote>
+<p>we are going to work on setting up email handling in this django app. in preparation read first claude.md, then the models, the views and the test module.</p>
+
+<p>first I want to add the necessary file setup to have different configuration overrides per environment</p>
+
+<p>I will want to leverage django provided tools such that when testing, I'll use the memory email backend so we can check the outgoing emails in the tests (assuming that requires such backend)
+and I want the console email backend in development (the default) such that I can see eg the email verification code in the console while making tests</p>
+
+<p>the production env will use a proper setup, but I won't work on configuring the service quite yet.
+my goal is that the code run in the backend is the same regardless of the env, and that I can start leveraging in unit tests and new features, so that I can worry later about setting up the service without much rework.</p>
+
+<p>start with a proposal for the per env settings</p>
+</blockquote>
+</details>
+<br/>
+#+end_export
 
 For the few more involved features I worked exclusively in plan mode, having Claude Code produce a markdown file as the output of the session, to be picked up on a separate session.
+
+#+begin_export html
+<br/>
+<details>
+<summary>Example prompt transcript</summary>
+<blockquote>
+<p>this is a book exchange django application, which is intended to be minimalistic, extremely simple to use and cheap to run and operate on a small VPS server</p>
+
+<p>I already have the basics in place, and I'm exploring the feasibility of adding something that I consider a complex feature. But I want to analyze options in case I end up wanting to implement it. The feature is for the users to optionally upload a cover photo of their book (of their actual physical book, that reflects not only edition but condition of the book).</p>
+
+<p>The way I imagine this would be that they would continue to use current offered books form, which is designed for lean bulk addition of books, but after adding them they could upload or take a photo (if on the phone) via a link or button in their list of offered books in their profile.</p>
+
+<p>the cover images would then be displayed as thumbnails in the scrollable list of books in the home page. this would make the app more attractive to users and incentivize more exchanges (it's more tempting to request an exchange if you've seen the book than just reading a title you may not even not know about).</p>
+
+<p>I know that django has an ImageField for uploading data. I would want to store only small-ish thumbnails not the full photo, so I expect some post processing, I suppose using pillow. the server has a few available gigas of storage so I could make it so that media is stored in the server and just the most recent N image (e.g. 1k) are ever kept to prevent running out of space. (e.g. via a cronjob that runs a management
+command; I don't want to add celery or something like that for background jobs---this should be operationally simple above all).</p>
+
+<p>the main concern I have right now is how would that look in the front end side of things. I use bulma and do server side rendering of templates,  with inline vanilla js for some dynamicity. Is there a library or browser feature that would be a good fit for this? I imagine something where the user clicks the photo button and would allow either to upload a photo from disk or leverage the phone camera to take a picture.</p>
+</blockquote>
+</details>
+<br/>
+#+end_export
+
 
 *** 3. Claude writes the code, I commit
 I reviewed all code before each commit, asking for refactors of the obvious mistakes, and again before merging the PR. This process pushed me to break the tasks down into obvious increments that would make good checkpoints for committing, which I made part of my instructions (this is about the same I do when I'm writing the code). When Claude was working, I kept an eye on the console output and interrupted it when it looked like it was trying to do too much at once.
