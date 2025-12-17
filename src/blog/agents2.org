@@ -1,5 +1,5 @@
 ---
-title: My first success building with agents
+title: My first win with agents
 date: 2025-12-13T11:59:38-03:00
 layout: post
 lang: en
@@ -84,7 +84,7 @@ I made a very deliberate choice not to invest in agent customization and support
 
 A fundamental problem is that the agent doesn't seem to have much knowledge about itself, its configuration, or its commands. When deep in conversational mode, one feels inclined to approach tweaking the tool in the same way, asking the tool to explain how to best use it or telling it to adjust a specific configuration, only to find it has no clue about how to do that. In that context, tweaking the agent at will requires a big context switch; in my opinion, spending mental cycles in such meta-tasks defeats the purpose of coding with agents. Since these tools are changing every month, I'm not compelled to make an investment unless it yields immediate results. My attitude then was: see how far this can get me today with minimal tweaking; if that's not very far, I'll just wait and try again in a few months.
 
-*** 2. Switch tactically between default, plan, and edit mode
+*** 2. Switch tactically between default, edit, and plan mode
 For non trivial features I started the session with some product-level context of the requirement, and the subset of files relevant to the implementation. Then I bounced some ideas with Claude, sometimes providing a succinct TODO list of things that I expected to change in the app or the code. My goal was to minimize the opportunities for it to get creative or improvise, while still giving it room to catch weak spots in my reasoning.
 
 For the few more involved features I worked exclusively in plan mode, having Claude Code produce a markdown file as the output of the session, to be picked up on a separate session.
@@ -95,7 +95,7 @@ I reviewed all code before each commit, asking for refactors of the obvious mist
 *** 4. The human decides what and how to test
 I find that an explicit test exercising every relevant "business rule" is more effective than documentation, code comments, and the overall design/architecture in capturing the desired system behavior and guaranteeing that it  does what it is supposed to do. This is even more important in the context of agentic coding, where I'm voluntarily resigning some control over the implementation.
 
-I mostly agree the sacred rule in [[https://diwank.space/field-notes-from-shipping-real-code-with-claude][this post]]: /Never. Let. AI. Write. Your. Tests./ I was slightly less strict, though: instead of writing the tests myself, I provided a set of rules and step-by-step outlines of the integration tests I wanted:
+I mostly agree with the sacred rule in [[https://diwank.space/field-notes-from-shipping-real-code-with-claude][/Field Notes From Shipping Real Code With Claude/]]: /Never. Let. AI. Write. Your. Tests./ I was slightly less strict, though: instead of writing the tests myself, I provided a set of rules and step-by-step outlines of the integration tests I wanted:
 
 #+begin_src python
 def request_book_exchange(self):
@@ -117,9 +117,9 @@ def mark_as_already_requested(self):
     pass
 #+end_src
 
-Then I carefully review the implementation to ensure it follows my testing preferences: don't couple to implementation details (test units of behavior, not units of code), don't mock intermediate layers (just the inputs and outputs of your system, i.e. its observable behavior), don't access the DB directly[fn:2]. Once a few tests are implemented, Claude is less likely to deviate from the surrounding style.
+Then I carefully reviewed the implementation to ensure it followed my testing preferences: don't couple to implementation details (test units of behavior, not units of code), don't mock intermediate layers (just the inputs and outputs of your system, i.e. its observable behavior), don't access the DB directly[fn:2]. Once a few tests were in place, Claude was less likely to deviate from the surrounding style.
 
-I also do some smoke testing after each feature is ready to merge. I haven't experimented with something like playwright, but I suspect that would be a better approach to catch regressions in the UI, which is where most of the application complexity resides.
+I also did some smoke testing after each feature was ready to merge. I haven't experimented with something like Playwright, but I suspect that would be a good addition to prevent regressions in the UI, which is where most of the application complexity resides.
 
 *** 5. Don't let Claude debug on its own
 
@@ -136,19 +136,57 @@ Code duplication is an interesting thing to reflect about in the context of work
 The anniversary edition of /The Pragmatic Programmer/ makes a useful distinction between duplication /of code/ and duplication /of knowledge/, the latter being what we need to be more wary of. In the context of coding with LLMs, where (re)writing code is effortless but scattered knowledge is a threat to system survival,
 the distinction is fundamental. So I found most of my reviews deal with strategically removing or allowing duplication: if it's knowledge, it needs to be centralized and I need to think carefully how; if it's just code, I can instruct how to extract and reuse, but more often than not it's better just live with that duplication.
 
-*** 7. Plan around context window and usage limits
-- the only thing I found to be fundamental is to follow X advice to turn compaction off. If you reach compaction then that session is dead. And also if you near compaction you'll likely kill any remaining tokens you have in your current session. These constraints made me arrange my work to always be approachable in one session:
-  - don't try to do too much at once
-  - close and reopen claude as a sort of "checkpointing" when I'm done with a feature and want to start another one.
-  - do a plan-only session, with a detailed markdown plan as output for work that seems to complex work on start to finish before running out of context token or session usage limits.
+*** 7. Plan around token and session limits
 
-- I find that these restriction to work on self contained sessions, and the need to take breaks when reaching both session and weekly limit made me keep my work organized and avoid the agent subtly dragging me into its spirals of nonsensical coding sprees.
+There are a few usage limits that need to be taken into account when working with Claude Code.
 
-- again, this is not different from what I do when I'm writing the code myself, I tend to split the tasks in self-containd PRs. the difference is that one day of work turns into a 0.5-2 hour session.
+The first is the size of the conversation context window. There is so much context the model can fit when processing a new message, and a long running session will eventually exhaust it. By default, CC will try to "compact" the context to keep it manageable but, as noted in the /Month of CHOP/ post, this degrades the quality of its output. I also found that the process of compaction itself spends a lot of tokens, which is problematic because of the Plan usage limits.
 
-- When I ran out of tokens, since there was still that barrier on familiarizing with the code, I opted to make progress on UX ideas, feature specifications, test stubs and server setup---all pieces that I didn't want the AI to touch. I found this context switching useful to make steady progress.
+I followed /Month of CHOP/ post advice to turn off autocompaction in the settings, and kept an eye on its token consumption via the ~/context~ command, which looks like this:
+#+begin_src
+> /context
+  ⎿
+  ⎿   Context Usage
+  ⎿  ⛁ ⛀ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛀   claude-sonnet-4-5-20250929 · 80k/200k tokens (40%)
+  ⎿  ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁
+  ⎿  ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁   ⛁ System prompt: 3.1k tokens (1.6%)
+  ⎿  ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁   ⛁ System tools: 15.3k tokens (7.7%)
+  ⎿  ⛁ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶   ⛁ Memory files: 1.8k tokens (0.9%)
+  ⎿  ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶   ⛁ Messages: 60.0k tokens (30.0%)
+  ⎿  ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶   ⛶ Free space: 120k (59.8%)
+  ⎿  ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶
+  ⎿  ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶
+  ⎿  ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶
+  ⎿
+  ⎿  Memory files · /memory
+  ⎿  └ Project (/Users/facundo/dev/facundoolano/giralibros/CLAUDE.md): 1.8k tokens
+  ⎿
+  ⎿  SlashCommand Tool · 1 commands
+  ⎿  └ Total: 981 tokens
+  ⎿
+  ⎿
+#+end_src
 
-In a more serious or time-constrained scenario, I would still opt for paying two 20 dollar pro plans instead of a 100 or 200 USD max plan. I haven't tried, but I suspect a combination of Claude Code Pro and Codex Plus is the ideal combination.
+In addition to the model context window, Claude Pro has limits on how much you can consume in session and weekly time windows, which can be monitored at [[claude.ai/settings/usage][https://claude.ai/settings/usage]].
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+<img src="{{site.config.static_root}}/img/claudeplan.png"></a>
+</div>
+#+END_EXPORT
+
+
+I've observed that I exhaust the session limit after a couple of hours of steady work (having to wait 3-5 hours to resume), and a weekly plan limit if I work ~4-5 days in a row, so I learned to plan my work around these constraints.
+
+- Much like I split coding tasks into commit-sized steps, I split features into PR-sized sessions.
+- I tried to work on a single thing at a time, e.g. resisting the temptation to add extra/unrelated tasks as they popped to mind. Which was a good idea, anyway, both for project organization and to keep the agent focused on the task at hand.
+- I monitored the context window, restarting Claude to "checkpoint" when I was done with a feature and wanted to start on another.
+- For bigger tasks that I anticipated wouldn't fit in the context window or session limit, I would do one or more planning sessions first, with a detailed markdown plan as output that could be picked up on a subsequent implementation session.
+
+While it was very annoying to hit these limits at first, I think it eventually pushed me to stay methodical.
+If I ran out of tokens and I wanted to continue working in the project, I would switch to non-AI driven activities (plan, research, stub tests, server config, etc.). I find this was a healthy balance for me.
+
+If this was my job and not a side project, and I wanted to improve my throughput, rather than switching to a 100 USD Max plan, I would combine this Pro plan with Codex Plus from OpenAI (also 20USD/month, and would give me exposure to a different model).
 
 *** Conclusions
 
