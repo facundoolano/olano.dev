@@ -274,7 +274,7 @@ I followed the /Month of CHOP/ post advice to turn off autocompaction in the set
   ⎿
 #+end_src
 
-In addition to the conversation context, Claude Pro has limits on how much you can consume per week and per session, which can be monitored at [[claude.ai/settings/usage][https://claude.ai/settings/usage]]:
+In addition to the conversation context, Claude Pro has limits on how much you can consume per week and per session, which can be monitored at [[https://claude.ai/settings/usage][https://claude.ai/settings/usage]]:
 
 #+BEGIN_EXPORT html
 <div class="text-center">
