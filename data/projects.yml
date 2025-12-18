@@ -1,4 +1,9 @@
 - date: 2025
+  name: GiraLibros
+  url: https://github.com/facundoolano/giralibros
+  description: A book trading web application for the Buenos Aires local area. I wrote about this project [here](/blog/agents2).
+  lang: gleam
+- date: 2025
   name: news.olano.dev
   url: https://news.olano.dev
   description: A transient feed aggregator built with Gleam. I wrote about this project [here](/blog/gleam-coming-from-erlang).

@@ -4,7 +4,6 @@ date: 2025-12-19T10:00:00-03:00
 layout: post
 lang: en
 tags: [ai, projects]
-draft: true
 excerpt: "I built a small web app almost exclusively with Claude Code. My previous attempt at coding with agents had made me sick, but this time I felt empowered. What changed?"
 image: giralibros.png
 ---
