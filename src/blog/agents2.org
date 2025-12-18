@@ -1,0 +1,312 @@
+---
+title: My first win building with agents
+date: 2025-12-18T16:00:00-03:00
+layout: post
+lang: en
+tags: [ai, projects]
+excerpt: "I built a small web app almost exclusively with Claude Code. My previous attempt at coding with agents had made me sick, but this time I felt empowered. What changed?"
+image: giralibros.png
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+Previously on /Facundo's Adventures with LLMs/:
+
+- [[https://jorge.olano.dev/blog/on-ai-assistance/][On AI assistance]] (2024-03): I start to occasionally reach out to ChatGPT while working on a new open-source project, especially for chores like "I wish there already was a lib for this", "I need a Makefile recipe for this", etc. I see the potential; the results are hit-and-miss. I make plans to better integrate this tech into my workflow.
+- [[augmentation-replacement][Augmentation / Replacement]] (2025-03): I added [[https://github.com/karthink/gptel][gptel]] to my Emacs setup and see myself using LLMs daily, as a rubber duck and as Google's L1 Cache. I recognize the human augmentation potential of AI---not so much for what LLMs are today, but for the glimpse we get of what a better AI could be. On the other hand, the current push to use LLMs as human replacements seems short-sighted and counter-productive.
+- [[agentic-coding-experience][Quick notes on a brief agentic coding experience]] (2025-06): I naively try to use Claude Code to implement some features of an already working web application, burn some cash in the process, and get nothing much out of it.
+
+This time I will document a successful experience I had building a small web app almost exclusively with Claude Code. My previous attempt at coding with agents had made me sick, but this time I felt empowered. What changed?
+
+** Part I: the project
+The project is a book trading webapp for the Buenos Aires local area.
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+<img src="{{site.config.static_root}}/img/giralibros.png"></a>
+</div>
+#+END_EXPORT
+
+
+1. Users publish books they have for trading and browse through other users' offered books.
+2. When a user sees a book they like, they send an exchange request to the owner, who receives it as an email notification.
+3. If the owner is interested in any of the requester's books, they arrange to meet and make the trade. This exchange takes place outside of the application (there is no incentive to keep them in-app, email and WhatsApp work better).
+
+I wrote this application from scratch[fn:1] using Django, SQLite for the database, and Bulma for styles. It runs on a small Debian server behind nginx. The code is [[https://github.com/facundoolano/giralibros/][here]].
+
+*** Goals
+- *Finishing the project*, with the specific UX I had in mind (which was very simple).
+- *Minimizing the effort* I had to make to implement it (counting the frustration and disgust with the tooling, e.g. Claude Code, as part of that effort).
+- *Minimizing operational costs* to run the system: if this was successful I would run it as a free community project, so I needed to design it to run cheap and not take much of my time.
+- *Keeping a decent understanding of the codebase* (at least the backend portion of it).
+
+*** Non-goals
+There are a number of things I typically go for in personal projects, which I didn't care about for this one:
+- Maximizing speed: as long as I got it finished with low effort, I was in no rush.
+- Having fun.
+- Learning.
+- Ensuring long-term maintainability, flexibility, or extensibility of the codebase: in a way, this was a proof of concept. I wanted to get it out and see if people liked it. It's small enough that I can make some compromises, because it wouldn't be hard to quickly rewrite if necessary.
+- Building a successful product: I wanted this to succeed, not least because I wanted to use it to trade books but, other than making the application free and accessible, it was out of my hands whether people adopted it or not---I wouldn't go out of my way to promote it, either.
+- Making users happy: since this wasn't a business, I could afford to miss features, ship bugs, lose data, etc.
+
+While all the things on this second list are desirable, I was willing to trade them off for those on the first one.
+
+*** Using agents
+Given the specific mix of goals and non-goals, this seemed like a good opportunity to have another try at
+building with agents, instead of writing all the code myself[fn:3]. I could afford some of the risks I associate with delegating too much to AI---shipping something I don't fully understand, that could take me an extra effort to fix when it breaks, or that turns out to be unmaintainable in the long run.
+
+A few things had changed since my previous experiment with Claude Code:
+- I learned about the 20USD/month Pro plan, which was more reasonable for personal projects than the Max plans or the API key alternative.
+- I kept reading accounts from other (often skeptical) developers, which gave me new ideas and better context to work with these tools.
+- This was a greenfield project, where agents shine. The stack was more LLM-friendly, too: the Django guardrails plus vanilla JavaScript are a better match to their training set than my previous Flask/SQLAlchemy/HTMX/hyperscript extravaganza.
+
+Django was an ideal fit for me to leverage LLMs: I used Django intensively for 5 years... a decade ago. I still have a good grasp of its concepts, a notion of what's doable with it, what's built-in and what should be ad hoc, etc., but I completely forgot the ORM syntax, the class names, the little details. I could instruct Claude exactly what to do, saving me a lot of documentation roundtrips while still catching it whenever it tried to bullshit me into getting creative or reinventing the wheel.
+
+For the front-end, the risk/reward was a bit higher. I've been officially a backend dev for a while now,
+and while I've used Bulma on a few projects and have a good idea of what it offers, I'm not trained to review HTML and CSS, so it was likelier that Claude would slip working, superficially good-looking front end code that would quickly degrade and become an unmaintainable mess. On the other hand, and for the same reasons, despite my best intentions the HTML and CSS I produce manually tends to be less maintainable anyway---Claude would just accelerate this cycle. In the end, this turned out to be a good trade-off, since Claude allowed me to iterate quickly in prototype mode and arrive at a look-and-feel that fit the project, something that would have taken me much effort if I was writing the HTML myself.
+
+*** Results
+I released an MVP after one week of part-time work, and a few extra nice-to-haves a week later. At the time of writing, there are 80 registered users and 400 offered books. The app doesn't track this, but I know first hand of a few book exchanges that already took place.
+
+In terms of operational costs, which I tried to keep low:
+  - 6 USD/month on a Hetzner VPS
+  - 7 USD/year on a Porkbun domain
+  - 2.5 USD/every 6 months for ZeptoMail credits
+
+This 7 USD/month total is less than what a second hand book costs in my city.
+
+** Part II: the process
+I really liked the recent [[https://checkeagle.com/checklists/njr/a-month-of-chat-oriented-programming/][/A Month of Chat-Oriented Programming/]] post and I borrowed a few ideas from it. I like the notion of chat-oriented programming as opposed to vibe-coding. That's what I tried to do with this project, although my own variation of it, which I describe next.
+
+*** 1. Skip agent setup
+I made a very deliberate choice not to invest in agent customization, support tooling, or whatever that's called: no fancy CLAUDE.md instructions, no MCP servers, no custom commands, no system prompts, no skills, no plugins. I'm not saying these aren't useful, but I find them to be distracting rabbit holes: in my previous experiments I ended up spending a lot of tokens trying to come up with a robust workflow specification, only to have Claude randomly ignore or miss it.
+
+A fundamental flaw with this form of programming is that the agent doesn't seem to know much about itself, its configuration, or its commands. When deep in conversational mode, one feels inclined to approach tweaking the tool in the same way, asking it to explain itself or telling it to adjust its settings, only to find that's beyond its capabilities. In that context, tweaking the agent at will requires an onerous context switch for the user; in my opinion, spending mental cycles in such meta-tasks defeats the purpose of AI coding. To compound the problem, since these tools seem to change every other month,
+it's hard to see fine-tuning as a good investment. My attitude then was: see how far this can get me today with minimal setup; if that's not very far, I'll just wait and try again in a few months.
+
+*** 2. Switch tactically between default, edit, and plan mode
+For non trivial features I started the session with some product-level context of the requirement and the subset of files relevant to the implementation. Then I bounced some ideas with Claude, sometimes providing a succinct TODO list of things that I expected to see change in the app or the code. My goal was to minimize the opportunities for it to improvise or get creative, while still giving it room to catch weak spots in my reasoning.
+
+#+begin_export html
+<br/>
+<details>
+<summary>Example prompt transcript</summary>
+<blockquote>
+<p>we are going to work on setting up email handling in this django app. in preparation read first claude.md, then the models, the views and the test module.</p>
+
+<p>first I want to add the necessary file setup to have different configuration overrides per environment</p>
+
+<p>I will want to leverage django provided tools such that when testing, I'll use the memory email backend so we can check the outgoing emails in the tests (assuming that requires such backend)
+and I want the console email backend in development (the default) such that I can see eg the email verification code in the console while making tests</p>
+
+<p>the production env will use a proper setup, but I won't work on configuring the service quite yet.
+my goal is that the code run in the backend is the same regardless of the env, and that I can start leveraging in unit tests and new features, so that I can worry later about setting up the service without much rework.</p>
+
+<p>start with a proposal for the per env settings</p>
+</blockquote>
+</details>
+<br/>
+#+end_export
+
+For the few more involved features I worked exclusively in plan mode, having Claude Code produce a markdown file as output to be picked up on a separate session.
+
+#+begin_export html
+<br/>
+<details>
+<summary>Example prompt transcript</summary>
+<blockquote>
+<p>this is a book exchange django application, which is intended to be minimalistic, extremely simple to use and cheap to run and operate on a small VPS server</p>
+
+<p>I already have the basics in place, and I'm exploring the feasibility of adding something that I consider a complex feature. But I want to analyze options in case I end up wanting to implement it. The feature is for the users to optionally upload a cover photo of their book (of their actual physical book, that reflects not only edition but condition of the book).</p>
+
+<p>The way I imagine this would be that they would continue to use current offered books form, which is designed for lean bulk addition of books, but after adding them they could upload or take a photo (if on the phone) via a link or button in their list of offered books in their profile.</p>
+
+<p>the cover images would then be displayed as thumbnails in the scrollable list of books in the home page. this would make the app more attractive to users and incentivize more exchanges (it's more tempting to request an exchange if you've seen the book than just reading a title you may not even not know about).</p>
+
+<p>I know that django has an ImageField for uploading data. I would want to store only small-ish thumbnails not the full photo, so I expect some post processing, I suppose using pillow. the server has a few available gigas of storage so I could make it so that media is stored in the server and just the most recent N image (e.g. 1k) are ever kept to prevent running out of space. (e.g. via a cronjob that runs a management
+command; I don't want to add celery or something like that for background jobs---this should be operationally simple above all).</p>
+
+<p>the main concern I have right now is how would that look in the front end side of things. I use bulma and do server side rendering of templates,  with inline vanilla js for some dynamicity. Is there a library or browser feature that would be a good fit for this? I imagine something where the user clicks the photo button and would allow either to upload a photo from disk or leverage the phone camera to take a picture.</p>
+</blockquote>
+</details>
+<br/>
+#+end_export
+
+
+*** 3. Claude writes the code, you commit
+I reviewed all code before each commit, asking for fixes and refactors, and again before merging the PR. This process pushed me to break the tasks down into obvious increments that would make good commits, which I listed in my instructions (this isn't very different from the process I follow when I'm the one writing the code). When Claude was working, I kept an eye on the console output and interrupted it when it looked like it was trying to do too much at once.
+
+
+#+begin_export html
+<br/>
+<details>
+<summary>Example commit log</summary>
+<pre>
+<code>commit 615ee01ff933ea48cc145bec4ccc946177d1a244
+Author: Facundo Olano <facundo.olano@gmail.com>
+Date:   Mon Dec 1 08:37:39 2025 -0300
+
+    send exchange request (#10)
+
+    * extract exchange button to template fragment
+
+    * stub exchange view
+
+    * first stab at button processing js
+
+    * refactor to reduce knowledge dup
+
+    * remove weird csrf setup
+
+    * improve modal style
+
+    * stub backend implementation
+
+    * email+request transaction
+
+    * remove delay
+
+    * fix error handling
+
+    * polish messages
+
+    * change subject
+
+    * flesh out email message
+
+    * stub more tests
+
+    * first stab at solving the test
+
+    * improve response management
+
+    * refactor helper
+
+    * add test
+
+    * add test
+
+    * add test
+
+    * add test
+
+    * more tests
+
+    * fix settings management
+
+    * fix response html</code>
+</pre>
+</details>
+<br/>
+#+end_export
+
+*** 4. Define precisely what and how to test
+I find that an explicit test exercising every relevant "business rule" is more effective than documentation, code comments, and the overall design/architecture in capturing the desired system behavior and guaranteeing that it does what it is supposed to do. This is even more important in the context of agentic coding, where I'm voluntarily resigning some control over the implementation.
+
+I mostly agree with the sacred rule in [[https://diwank.space/field-notes-from-shipping-real-code-with-claude][/Field Notes From Shipping Real Code With Claude/]]: /Never. Let. AI. Write. Your. Tests./ I was slightly less strict, though: instead of writing test code myself, I provided a set of rules and step-by-step outlines of the integration tests I wanted:
+
+#+begin_src python
+def request_book_exchange(self):
+    # register two users
+    # first user with 3 books
+    # second user two books
+    # send request for second book
+    # check outgoing email
+    # check email content includes 2nd user contact details
+    # check email content lists user books
+    pass
+
+def mark_as_already_requested(self):
+    # register two users
+    # first user with 3 books
+    # second user gets home, sees all three books and Change button
+    # send request for second book
+    # request list shows 2 Change, one already request
+    pass
+#+end_src
+
+Then I carefully reviewed the implementation to ensure it followed my testing preferences: don't couple to implementation details (test units of behavior, not units of code), don't mock intermediate layers (just the inputs and outputs of your system, i.e. its observable behavior), don't access the DB directly[fn:2]. Once a few tests were in place, Claude was less likely to deviate from the surrounding style.
+
+I also did some smoke testing after each feature was ready to merge. I haven't experimented with something like Playwright, but I suspect that would be a good addition to prevent regressions in the UI, which is where most of the application complexity resides.
+
+*** 5. Don't let Claude drive while debugging
+
+For an unsophisticated project like this, with good enough detail in the prompts, Claude tends to get the implementation right or almost right, let's say, 80% of the time.
+
+I noticed that, when something fails and the problem isn't obvious, Claude can quickly figure out the problem on its own, maybe 30% of the time. This includes some subtle or cryptic errors that could take me hours to resolve myself. The problem is that remaining 70%. I find that the LLM, even with the command line and internet access at its disposal, if left unchecked will be both clueless and eager to try things at random, accumulating layers of failed fixes, going in circles and very far from discovering the problem.
+
+What worked for me is to give it one shot to figure out the issue autonomously and, when that fails, take over, not necessarily to do the whole debugging and fix myself but to feed it plausible hypotheses and evidence, to put it back on track to a solution.
+
+*** 6. Don't repeat yourself (but sometimes do)
+
+Code duplication is an interesting thing to reflect about when working with agents. LLMs get paid (?) to output tokens, so unsurprisingly Claude Code indulges in all kinds of duplication, from repeating snippets found in the module it's editing to reimplementing entire chunks of the very Django built-ins it subclasses. It would be tempting to add strict rules to CLAUDE.md, rejecting all kinds of code duplication, but as we collectively learned in the last decade, dogmatically applying the DRY principle tends to do more harm than good.
+
+The anniversary edition of /The Pragmatic Programmer/ makes a useful distinction between duplication /of code/ and duplication /of knowledge/, the latter being what we need to be more wary of. In the context of coding with LLMs---where reproducing text is free and inline code saves tokens, but scattered knowledge threatens system survival---, this distinction is fundamental. I found a major part of my refactoring was to decide if I should allow or remove duplication: if it's knowledge, it should be centralized and I need to carefully think how; if it's just code, I can consider extracting it for reuse but, more often than not, it's better just live with that duplication.
+
+*** 7. Plan around token and session limits
+
+There are some usage limits to take into account when working with Claude Code.
+
+The first is the size of the conversation context window. There is only so much information the model can fit into its context when processing a message, and a long-running session will eventually exhaust it. By default, CC will try to "compact" the context to keep it manageable but, as noted in the /Month of CHOP/ post, this degrades the quality of its output. I also found that the process of compaction itself spends a lot of tokens, which is problematic because of the Plan usage limits.
+
+I followed the /Month of CHOP/ post advice to turn off autocompaction in the settings, and kept an eye on token consumption via the ~/context~ command, which looks like this:
+#+begin_src
+> /context
+  ⎿
+  ⎿   Context Usage
+  ⎿  ⛁ ⛀ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛀   claude-sonnet-4-5-20250929 · 80k/200k tokens (40%)
+  ⎿  ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁
+  ⎿  ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁   ⛁ System prompt: 3.1k tokens (1.6%)
+  ⎿  ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁ ⛁   ⛁ System tools: 15.3k tokens (7.7%)
+  ⎿  ⛁ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶   ⛁ Memory files: 1.8k tokens (0.9%)
+  ⎿  ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶   ⛁ Messages: 60.0k tokens (30.0%)
+  ⎿  ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶   ⛶ Free space: 120k (59.8%)
+  ⎿  ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶
+  ⎿  ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶
+  ⎿  ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶
+  ⎿
+  ⎿  Memory files · /memory
+  ⎿  └ Project (/Users/facundo/dev/facundoolano/giralibros/CLAUDE.md): 1.8k tokens
+  ⎿
+  ⎿  SlashCommand Tool · 1 commands
+  ⎿  └ Total: 981 tokens
+  ⎿
+  ⎿
+#+end_src
+
+In addition to the conversation context, Claude Pro has limits on how much you can consume per week and per session, which can be monitored at [[claude.ai/settings/usage][https://claude.ai/settings/usage]]:
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+<img src="{{site.config.static_root}}/img/claudeplan.png"></a>
+</div>
+#+END_EXPORT
+
+
+I've observed that I exhaust the session limit after a couple of hours of steady work (having to wait 2-3 hours to resume), and a weekly plan limit if I work ~4-5 days in a row, so I learned to plan my work around these constraints:
+
+- Much like I split code changes into commit-sized steps, I split features into PR-sized sessions.
+- I tried to work on a single thing at a time, e.g. resisting the temptation to add extra/unrelated tasks as they popped to mind. Which was a good idea, anyway, both for project organization and to keep the agent focused on the task at hand.
+- I monitored the context window, restarting Claude to "checkpoint" when I was done with a feature and wanted to start on another.
+- For bigger tasks that I anticipated wouldn't fit in the context window or session limit, I would do one or more planning sessions first, followed by an implementation session.
+
+While I was very annoyed to discover these limits, I think they pushed me to stay methodical.
+If I ran out of tokens and I still wanted to make progress, I would switch to non-AI driven activities (plan, research, stub tests, server config, etc.). I find this was a healthy balance for me, as I avoided getting dragged into the slot machine.
+
+If this was my job and not a side project, and I needed to increase my throughput, rather than switching to a 100 USD Max plan, I would combine this Pro plan with a Codex Plus from OpenAI (also 20USD/month, getting exposure to another model).
+
+*** Conclusions
+
+The process just described may sound like heavy work and a lot of hand-holding, and it's probably not what the "pros" are doing out there with agents but, as stated before, the goal here was not to maximize velocity or throughput but to get a finished product with minimal effort and frustration. I have a fair amount of experience in high-level task breakdown, writing tickets for others to work on, doing superficial code reviews, anticipating pitfalls, and building confidence in a shared codebase through a solid test suite.  This played to my strengths and mostly prevented the LLM from digging itself into a hole that I'd have to get it out of. The micromanaging approach turned out to be very effective and low effort, at times even rewarding---to see features that sounded complicated at first, and that I would have postponed, work out in a few strokes, was stimulating. It highlighted how much more skill is at play in software building, beyond writing code. I occasionally fell into the illusion that I wielded this powerful tool, one that extended my reach and abstracted unimportant details away.
+
+A few months ago I qualified the feeling I got from building with agents as "exhilarating recklessness" and compared it with going to the casino. This time it felt as if, after accumulating 15 years of experience, I was "spending" some of it to get something I wanted. The analogy goes farther: I acknowledge that if I only worked like this, some of my skills would atrophy---I would run out of savings.
+
+I'm sure I made some mistakes by letting Claude do the coding for me, but this was clearly a successful project given my initial goals and the results I got. I still think it wouldn't be wise to use agents much at work, beyond proof-of-concept software---trading short-term productivity for long-term ownership is rarely a good bargain. As for low-stakes projects, I like that the barrier has lowered to ship good-enough software. It's great to cheaply try out different ideas, without prospects of turning them into reliable systems or marketable products.
+
+*** Notes
+[fn:2] My testing preferences are listed in [[what-i-think-i-know-about-testing][/What I think I know about testing/]]
+and discussed in [[unit-testing-principles][/Unit Testing Principles/]]. I asked Claude to read those posts and dump a summary to CLAUDE.md, but I doubt that made much of a difference.
+
+[fn:3] Using AI was not in itself a project goal, though. I first made my mind about spending time on this project; once that was settled, I tried Claude Code as an experiment. Had I had a few first unproductive sessions I would have started over writing all the code myself (perhaps running a higher risk of abandoning the project down the line).
+
+[fn:1] This is not an original idea: there's a similar application that worked well for a few years, until its owners introduced a paid subscription model. This change stagnated the community---both for free and paid users---so the motivation for my project was to offer a free replacement to that community.
