@@ -39,7 +39,7 @@ I wrote this application from scratch[fn:1] using Django, SQLite for the databas
 - *Finishing the project*, with the specific UX I had in mind (which was very simple).
 - *Minimizing the effort* I had to make to implement it (counting the frustration and disgust with the tooling, e.g. Claude Code, as part of that effort).
 - *Minimizing operational costs* to run the system: if this was successful I would run it as a free community project, so I needed to design it to run cheap and not take much of my time.
-- *Keeping a decent understanding of the codebase* (at least of the backend portion of it).
+- *Keeping a decent understanding of the codebase* (at least the backend portion of it).
 
 *** Non-goals
 There are a number of things I typically go for in personal projects, which I didn't care about for this one:
@@ -67,7 +67,7 @@ For the front-end, the risk/reward was a bit higher. I've been officially a back
 and while I've used Bulma on a few projects and have a good idea of what it offers, I'm not trained to review HTML and CSS, so it was likelier that Claude would slip working, superficially good-looking front end code that would quickly degrade and become an unmaintainable mess. On the other hand, and for the same reasons, despite my best intentions the HTML and CSS I produce manually tends to be less maintainable anyway---Claude would just accelerate this cycle. In the end, this turned out to be a good trade-off, since Claude allowed me to iterate quickly in prototype mode and arrive to a look-and-feel that fit the project, something that would have taken me a big effort if I was writing the HTML myself.
 
 *** Results
-I released an MVP after one week of part-time work, and a few extra nice-to-haves in another week. At the time of writing, there over 80 registered users and 400 offered books. The app doesn't track this, but I know first hand of a few book exchanges that already took place.
+I released an MVP after one week of part-time work, and a few extra nice-to-haves a week later. At the time of writing, there are 80 registered users and 400 offered books. The app doesn't track this, but I know first hand of a few book exchanges that already took place.
 
 In terms of operational costs, which I tried to keep low:
   - 6 USD/month on a Hetzner VPS
@@ -80,13 +80,13 @@ This 7 USD/month total is less than what a second hand book costs in my city.
 I really liked the recent [[https://checkeagle.com/checklists/njr/a-month-of-chat-oriented-programming/][/A Month of Chat-Oriented Programming/]] post and I borrowed a few ideas from it. I like the notion of chat-oriented programming as opposed to vibe-coding. That's what I tried to do with this project, although my own variation of it, which I describe next.
 
 *** 1. Skip agent setup
-I made a very deliberate choice not to invest in agent customization and support tooling, or whatever that's called: no fancy CLAUDE.md instructions, no MCP servers, no custom commands, no system prompts, no skills, no plugins. I'm not saying these aren't useful, but I find them to be non-conducive rabbit holes: in my previous experiments I ended up spending a lot of tokens trying to come up with a robust workflow specification, only to have Claude randomly ignore or miss it.
+I made a very deliberate choice not to invest in agent customization, support tooling, or whatever that's called: no fancy CLAUDE.md instructions, no MCP servers, no custom commands, no system prompts, no skills, no plugins. I'm not saying these aren't useful, but I find them to be non-conducive rabbit holes: in my previous experiments I ended up spending a lot of tokens trying to come up with a robust workflow specification, only to have Claude randomly ignore or miss it.
 
 A fundamental flaw with this form of programming is that the agent doesn't seem to know much about itself, its configuration, or its commands. When deep in conversational mode, one feels inclined to approach tweaking the tool in the same way, asking it to explain itself or telling it to adjust its settings, only to find that's beyond its capabilities. In that context, tweaking the agent at will requires an onerous context switch for the user; in my opinion, spending mental cycles in such meta-tasks defeats the purpose of AI coding. To compound the problem, since these tools seem to change every other month,
 it's hard to see fine-tuning as a good investment. My attitude then was: see how far this can get me today with minimal setup; if that's not very far, I'll just wait and try again in a few months.
 
 *** 2. Switch tactically between default, edit, and plan mode
-For non trivial features I started the session with some product-level context of the requirement and the subset of files relevant to the implementation. Then I bounced some ideas with Claude, sometimes providing a succinct TODO list of things that I expected to see change in the app or the code. My goal was to minimize the opportunities for it to improvise or get creative, still giving it room to catch weak spots in my reasoning.
+For non trivial features I started the session with some product-level context of the requirement and the subset of files relevant to the implementation. Then I bounced some ideas with Claude, sometimes providing a succinct TODO list of things that I expected to see change in the app or the code. My goal was to minimize the opportunities for it to improvise or get creative, while still giving it room to catch weak spots in my reasoning.
 
 #+begin_export html
 <br/>
@@ -135,7 +135,7 @@ command; I don't want to add celery or something like that for background jobs--
 
 
 *** 3. Claude writes the code, you commit
-I reviewed all code before each commit, asking for fixes and refactors, and again before merging the PR. This process pushed me to break the tasks down into obvious increments that would make good commits, which I made part of my instructions (this isn't very different the process I follow when I'm the one writing the code). When Claude was working, I kept an eye on the console output and interrupted it when it looked like it was trying to do too much at once.
+I reviewed all code before each commit, asking for fixes and refactors, and again before merging the PR. This process pushed me to break the tasks down into obvious increments that would make good commits, which I listed in my instructions (this isn't very different the process I follow when I'm the one writing the code). When Claude was working, I kept an eye on the console output and interrupted it when it looked like it was trying to do too much at once.
 
 
 #+begin_export html
@@ -250,7 +250,7 @@ There are some usage limits to take into account when working with Claude Code.
 
 The first is the size of the conversation context window. There is so much information the model can fit into its context when processing a message, and a long-running session will eventually exhaust it. By default, CC will try to "compact" the context to keep it manageable but, as noted in the /Month of CHOP/ post, this degrades the quality of its output. I also found that the process of compaction itself spends a lot of tokens, which is problematic because of the Plan usage limits.
 
-I followed the /Month of CHOP/ post advice to turn off autocompaction in the settings, and kept an eye on its token consumption via the ~/context~ command, which looks like this:
+I followed the /Month of CHOP/ post advice to turn off autocompaction in the settings, and kept an eye on token consumption via the ~/context~ command, which looks like this:
 #+begin_src
 > /context
   ⎿
@@ -275,7 +275,7 @@ I followed the /Month of CHOP/ post advice to turn off autocompaction in the set
   ⎿
 #+end_src
 
-In addition to the conversation context window, Claude Pro has limits on how much you can consume in session and weekly time windows, which can be monitored at [[claude.ai/settings/usage][https://claude.ai/settings/usage]]:
+In addition to the conversation context, Claude Pro has limits on how much you can consume per week and per session, which can be monitored at [[claude.ai/settings/usage][https://claude.ai/settings/usage]]:
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -284,23 +284,23 @@ In addition to the conversation context window, Claude Pro has limits on how muc
 #+END_EXPORT
 
 
-I've observed that I exhaust the session limit after a couple of hours of steady work (having to wait 3-5 hours to resume), and a weekly plan limit if I work ~4-5 days in a row, so I learned to plan my work around these constraints:
+I've observed that I exhaust the session limit after a couple of hours of steady work (having to wait 2-3 hours to resume), and a weekly plan limit if I work ~4-5 days in a row, so I learned to plan my work around these constraints:
 
 - Much like I split code changes into commit-sized steps, I split features into PR-sized sessions.
 - I tried to work on a single thing at a time, e.g. resisting the temptation to add extra/unrelated tasks as they popped to mind. Which was a good idea, anyway, both for project organization and to keep the agent focused on the task at hand.
 - I monitored the context window, restarting Claude to "checkpoint" when I was done with a feature and wanted to start on another.
-- For bigger tasks that I anticipated wouldn't fit in the context window or session limit, I would do one or more planning sessions first, and a follow-up implementation session.
+- For bigger tasks that I anticipated wouldn't fit in the context window or session limit, I would do one or more planning sessions first, followed by an implementation session.
 
-While at first I was very annoyed to hit these limits, I think they pushed me to stay methodical.
-If I ran out of tokens and I still wanted to make progress, I would switch to non-AI driven activities (plan, research, stub tests, server config, etc.). I find this was a healthy balance for me, to avoid getting dragged into the slot machine.
+While I was very annoyed to discover these limits, I think they pushed me to stay methodical.
+If I ran out of tokens and I still wanted to make progress, I would switch to non-AI driven activities (plan, research, stub tests, server config, etc.). I find this was a healthy balance for me, as I avoided getting dragged into the slot machine.
 
-If this was my job and not a side project, and I needed to increase my throughput, rather than switching to a 100 USD Max plan, I would combine this Pro plan with a Codex Plus from OpenAI (also 20USD/month, and would give me exposure to different models).
+If this was my job and not a side project, and I needed to increase my throughput, rather than switching to a 100 USD Max plan, I would combine this Pro plan with a Codex Plus from OpenAI (also 20USD/month, getting exposure to another model).
 
 *** Conclusions
 
 The process just described may sound like heavy work and a lot of hand-holding, and it's probably not what the "pros" are doing out there with agents but, as stated before, the goal here was not to maximize velocity or throughput but to get a finished product with minimal effort and frustration. I have a fair amount of experience in high-level task breakdown, writing tickets for others to work on, doing superficial code reviews, anticipating pitfalls, and building confidence on a shared codebase through a solid test suite.  This played to my strengths and mostly prevented the LLM from digging itself into a hole that I'd have to get it out of. The micromanaging approach turned out very effective and low effort, at times even rewarding---to see features that sounded complicated at first, and that I would have postponed, work out in a few strokes, was stimulating. It highlighted how much more skill is at play in software building, beyond writing code. I occasionally let myself fall into the illusion that I wielded this powerful tool, one that extended my reach and abstracted unimportant details away.
 
-A few months ago I qualified the feeling I got from building with agents as "exhilarating recklessness" and compared it with going to the casino. This time it felt as if, after accumulating 15 years of experience, I was "spending" it to get something I wanted. The analogy goes farther: I acknowledged that if I only worked like this, some of my skills would atrophy---I would run out of savings.
+A few months ago I qualified the feeling I got from building with agents as "exhilarating recklessness" and compared it with going to the casino. This time it felt as if, after accumulating 15 years of experience, I was "spending" some of it to get something I wanted. The analogy goes farther: I acknowledge that if I only worked like this, some of my skills would atrophy---I would run out of savings.
 
 I'm sure I made some mistakes by letting Claude do the coding for me, but this was clearly a successful project given my initial goals and the results I got. I still think it wouldn't be wise to use agents much at work, beyond proof-of-concept software---trading short-term productivity for long-term ownership is rarely a good bargain. As for low-stakes projects, I like that the barrier has lowered to ship good-enough software. It's great to cheaply try out different ideas, without prospects of turning them into reliable systems or marketable products.
 
