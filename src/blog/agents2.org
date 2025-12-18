@@ -1,6 +1,6 @@
 ---
 title: My first win building with agents
-date: 2025-12-19T10:00:00-03:00
+date: 2025-12-18T16:00:00-03:00
 layout: post
 lang: en
 tags: [ai, projects]
@@ -32,7 +32,7 @@ The project is a book trading webapp for the Buenos Aires local area.
 2. When a user sees a book they like, they send an exchange request to the owner, who receives it as an email notification.
 3. If the owner is interested in any of the requester's books, they arrange to meet and make the trade. This exchange takes place outside of the application (there is no incentive to keep them in-app, email and WhatsApp work better).
 
-I wrote this application from scratch[fn:1] using Django, SQLite for the database, and Bulma for styles. It runs on a small Debian server behind nginx.
+I wrote this application from scratch[fn:1] using Django, SQLite for the database, and Bulma for styles. It runs on a small Debian server behind nginx. The code is [[https://github.com/facundoolano/giralibros/][here]].
 
 *** Goals
 - *Finishing the project*, with the specific UX I had in mind (which was very simple).
