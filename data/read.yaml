@@ -1,3 +1,17 @@
+- author: Hernan Diaz
+  cover_file: hernan-diaz-a-lo-lejos.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574435076l/48914190._SY475_.jpg
+  published_at: 2025-12-28
+  rating: 2
+  read_at: 2025-12-28
+  title: A lo lejos
+- author: Lily King
+  cover_file: lily-king-writers-lovers.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580228175l/45289222._SY475_.jpg
+  published_at: 2025-12-14
+  rating: 4
+  read_at: 2025-12-14
+  title: Writers & Lovers
 - author: Jimmy Maher
   cover_file: jimmy-maher-the-digital-antiquarian-volume-9.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500520077l/35708987._SY475_.jpg
@@ -1206,7 +1220,7 @@
   rating: 4
   read_at: 2021-03-16
   title: The Catcher in the Rye
-- author: Stephen        King
+- author: Stephen  King
   cover_file: stephen-king-apocalipsis.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354381697l/5410.jpg
   published_at: 2021-03-15
@@ -1396,17 +1410,3 @@
   rating: 5
   read_at: 2020-07-25
   title: Al faro
-- author: The Paris Review
-  cover_file: the-paris-review-the-paris-review-interviews-ii.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438626463l/596060._SX318_.jpg
-  published_at: 2023-07-31
-  rating: 4
-  read_at: 2020-07-25
-  title: 'The Paris Review Interviews, II: Wisdom from the World''s Literary Masters'
-- author: Martín Kohan
-  cover_file: martin-kohan-fuera-de-lugar.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1461549916l/29992353._SY475_.jpg
-  published_at: 2020-07-18
-  rating: 3
-  read_at: 2020-07-18
-  title: Fuera de lugar
