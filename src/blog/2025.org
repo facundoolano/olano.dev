@@ -1,10 +1,9 @@
 ---
 title: 2025
-date: 2025-12-31T11:09:22-03:00
+date: 2025-12-31T12:30:00-03:00
 layout: post
 lang: es
 tags: [meta]
-draft: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
