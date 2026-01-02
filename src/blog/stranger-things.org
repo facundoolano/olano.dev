@@ -18,21 +18,25 @@ image: stranger.jpg
 
 Vale la pena dejar algo escrito sobre /Stranger Things/ antes de que sea tarde. Independientemente del regusto que a cada uno le deje la serie en su conjunto, sospecho que como tema de conversación y reflexión va a envejecer como los buenos lácteos.
 
-Por un lado, resulta difícil tratar un tema que todavía está pasando o acaba de pasar, sin tiempo para que las ideas decanten: mis respetos para los periodistas. Por otro lado, en el contexto desregulado de este blog, hablar de temas frescos tiene la ventaja de que hay más material dando vueltas, más ideas flotando en el aire para meter en la licuadora y sacar tres o cuatro observaciones que, atadas con alambre digital, puedo llegar a creer mías.
+Por un lado, resulta difícil tratar un tema que todavía está pasando o acaba de pasar, sin tiempo para que las ideas decanten: mis respetos para los periodistas. Por otro lado, en el contexto desregulado de este blog, hablar de temas frescos tiene la ventaja de que hay más material dando vueltas, más ideas flotando en el aire para meter en la licuadora y sacar tres o cuatro observaciones que, atadas con alambre digital, puedo llegar a creer propias.
 
 #+BEGIN_EXPORT html
 <br/>
 <div></div>
 #+END_EXPORT
 
-Leí a GenXers estadounidenses elogiar de /Stranger Things/ la fidelidad con la que recrea la década de los '80. Yo no viví esa época pero sí crecí consumiendo sus productos culturales y la estética de /Stranger Things/ me fascinó.
-Entre las cosas que leí este mes, me pareció significativo un [artículo de 2019] que propone que, detrás de esa precisa superficie ochentosa en realidad se esconde una nostalgia por los años noventa: los Duffer Brothers, que tienen un par de años más que yo, se parecen menos a los protagonistas de su serie que a los nerds que crecimos jugando al family y viendo hits sci-fi de la década anterior.
+Leí a GenXers estadounidenses elogiar de /Stranger Things/ la fidelidad con la que recreó la década de los '80. Yo no viví esa época pero sí crecí consumiendo sus productos culturales, y la estética de /Stranger Things/ me fascinó.
+Entre las cosas que leí este mes, me pareció significativo un [artículo de 2019] que propone que, detrás de esa precisa superficie ochentosa en realidad se esconde una nostalgia por los años noventa: los Duffer Brothers, que tienen un par de años más que yo, se parecen menos a los protagonistas de su serie que a los nerds que crecimos jugando al family y viendo hits sci-fi en la televisión por cable.
 
-Algo de ese olor a los noventa hay en la presencia de Winona Ryder, en la hija de Uma Thurman, en los demo-dogs jugando a los velociraptors, en la tardía inclusión de Laura Hamilton que, por más que haya estado en la primer /Terminator,/ para mi va a ser siempre esta:
+Algo de ese olor a los noventa hay en la presencia de Winona Ryder, en la hija de Uma Thurman, en los demo-dogs jugando a ser velociraptors, en la tardía inclusión de Laura Hamilton que, por más que haya estado en la primer /Terminator,/ para mi va a ser siempre esta:
 
-[TODO sarah connor]
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/sarahconnor.jpeg">
+</div>
+#+END_EXPORT
 
-También hay tufo noventoso en los peores momentos de acción berreta, con los personajes disfrazados de commandos y dándose a los tiros contra milicos corruptos, escenas que parecen sacadas de /Comodines/ o /Los Extermineitors/.
+También hay tufo noventoso en los peores momentos de acción berreta, con los personajes disfrazados de commandos,  dándose a los tiros contra milicos corruptos, escenas que parecen sacadas de /Comodines/ o /Los Extermineitors/.
 
 #+BEGIN_EXPORT html
 <br/>
