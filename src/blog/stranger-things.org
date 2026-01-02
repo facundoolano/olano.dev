@@ -41,7 +41,12 @@ El problema es que llegamos a esta quinta temporada con diez años encima de exp
 
 Demasiadas temporadas, demasiado años, demasiados personajes y demasiados días entre entregas contribuyeron a que la mayor parte de esta última temporada se haya vuelto insufrible. Ya no nos importa mucho el arco que improvisaron para darle un final feliz a cada uno de los muchos protagonistas, ni queremos escuchar las referencias a las que apelan para explicar sus teorías o los planes que idean para combatir a los malos. Imposible seguir los detalles y por lo tanto imposible no distraerse con los bíceps de Lucas, el presunto botox de Eleven y las muchas líneas rectas que componen el rostro de Mike. En otras palabras, a esta altura /Stranger Things/ nos remite mucho menos a los '80 o los '90 que a 2016. Resulta menos interesante entender cómo van a derrotar a Vecna que preguntarnos por qué este artefacto ficcional ya no funciona como antes, y de ahí enumerar todo lo que cambio en estos años. Por caso: La pandemia, la inteligencia artificial, el hecho de que en 2016 /Black Mirror/ era una serie distópica y ahora nos parece ficción naturalista. [Robando] un poco más: hoy en día empatizamos más con la cínica y alcohólica protagonista de /Pluribus/ que con estos ex-pibitos fantasiosos.
 
+#+BEGIN_EXPORT html
+<br/>
+<div></div>
+#+END_EXPORT
 
+Más allá del engorroso trayecto de esta última temporada, el capítulo final me gustó, me pareció a la altura de lo mejor que tuvo la serie---de lo que la serie [podría haber sido]. ¿Cómo no iba a encajar el golpe, con ese círculo cerrado, jugando /DnD/ en el sótano y después los personajes hechos viñeta, la portada en formato /Elige tu propia aventura/ y de fondo la más maravillosa música que para mí es la voz extraterrestre de David Bowie, la guitarra distorsionada de Robert Fripp?
 
 *** Referencias
 - [[https://medium.com/@aramsinn/stranger-things-isnt-80s-nostalgia-it-s-90s-nostalgia-and-it-s-all-about-2016-452d24d7a8c0][Stranger Things Isn’t ’80s Nostalgia — It’s ’90s Nostalgia (and it’s all about 2016)]].
