@@ -1,0 +1,22 @@
+---
+title: Contenido derivativo sobre Stranger Things
+date: 2026-01-02T13:34:42-03:00
+layout: post
+lang: es
+tags: [cine, series]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+Por un lado, resulta difícil hablar de los temas frescos, mientras todavía siguen pasando; mis respetos para los periodistas. Cortázar le atribuyó a ese trabajar contra reloj el resultado desparejo de su /Libro de Manuel/. Por otro lado, en el contexto desregulado de un blog, tiene la ventaja de que hay más material dando vueltas, más ideas flotando en el aire para "tomar prestadas", para meter en la licuadora y sacar tres o cuatro observaciones, atarlas con alambre digital y hasta creerme que son mías.
+
+Vale la pena dejar algo escrito sobre /Stranger Things/ antes de que sea tarde; independiente del regusto que nos deje la serie en su conjunto, sospecho que como tema de reflexión y conversación envejecerá como los buenos lácteos.
+
+
+*** Referencias
+- [[https://revistamecha.com.ar/stranger-things-nostalgia-devaluada/][Stranger Things: Nostalgia devaluada]].
+- [[https://www.micropsiacine.com/2025/12/series-critica-de-stranger-things-temporada-5-volumen-2-de-los-hermanos-duffer-netflix/][Crítica de «Stranger Things – Temporada 5 / Volumen 2», de los hermanos Duffer]].
+- [[https://www.micropsiacine.com/2026/01/series-critica-de-stranger-things-finale-de-los-hermanos-duffer-netflix/][Crítica de «Stranger Things – Finale», de los hermanos Duffer]].
+- [[https://www.theguardian.com/tv-and-radio/2025/nov/14/stranger-things-final-season-cast-interviews][‘It’s time for it to end’: the stars of Stranger Things open up about their final, epic season]].
+- [[https://www.theguardian.com/tv-and-radio/2025/dec/26/stranger-things-season-five-vol-2-review][Stranger Things season five vol 2 review – the fact that this isn’t unbearable is a miracle]].
