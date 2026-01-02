@@ -1,10 +1,11 @@
 ---
 title: Contenido derivativo sobre Stranger Things
-date: 2026-01-03T13:34:42-03:00
+date: 2026-01-02T19:24:42-03:00
 layout: post
 lang: es
 tags: [cine, series]
 image: stranger.jpg
+refs: [stranger, t2]
 excerpt: Stranger Things es un artefacto de su tiempo, nos habla menos de los ‘80 y los ‘90 que de la sensibilidad estética que teníamos en el 2016. El estertor de un orden que empezó con la caída del muro de Berlín y se terminó con el Covid.
 ---
 #+OPTIONS: toc:nil num:nil
