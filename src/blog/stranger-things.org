@@ -1,0 +1,72 @@
+---
+title: Contenido derivativo sobre Stranger Things
+date: 2026-01-02T19:24:42-03:00
+layout: post
+lang: es
+tags: [cine, series]
+image: stranger.jpg
+refs: [stranger, t2]
+excerpt: Stranger Things es un artefacto de su tiempo, nos habla menos de los ‘80 y los ‘90 que de la sensibilidad estética que teníamos en el 2016. El estertor de un orden que empezó con la caída del muro de Berlín y se terminó con el Covid.
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/stranger.jpg" style="max-width:100%">
+</div>
+#+END_EXPORT
+
+Vale la pena dejar algo escrito sobre /Stranger Things/ antes de que sea tarde. Independientemente del regusto que a cada uno le deje la serie en su conjunto, sospecho que como tema de conversación y reflexión va a envejecer como los buenos lácteos. Por un lado, resulta difícil tratar un tema que todavía está pasando o acaba de pasar, sin tiempo para que las ideas decanten: mis respetos para los periodistas. Por otro lado, en el contexto desregulado de este blog, hablar de temas frescos tiene la ventaja de que hay más material dando vueltas, más ideas flotando en el aire para meter en la licuadora y sacar tres o cuatro observaciones que, atadas con alambre digital, puedo llegar a creer propias.
+
+#+BEGIN_EXPORT html
+<br/>
+<br/>
+#+END_EXPORT
+
+Leí a GenXers estadounidenses elogiar de /Stranger Things/ la fidelidad con la que recreó la década de los '80. Yo no viví esa época pero sí crecí consumiendo sus productos culturales, y la estética de /Stranger Things/ me fascinó desde el momento en que corrieron los títulos. Entre las cosas que leí este mes, me pareció significativo un [[https://medium.com/@aramsinn/stranger-things-isnt-80s-nostalgia-it-s-90s-nostalgia-and-it-s-all-about-2016-452d24d7a8c0][artículo de 2019]] que propone que, detrás de esa precisa superficie ochentosa en realidad se esconde una nostalgia por los años noventa: los Duffer Brothers, que tienen un par de años más que yo, se parecen menos a los protagonistas de su serie que a los nerds que crecimos jugando al family y viendo hits sci-fi por cable y VHS. No es recreación de una época sino reproducción del imaginario de esa época.
+
+La veta noventosa se percibe en la presencia de Winona Ryder, en la hija de Uma Thurman, en los demo-dogs jugando a ser velociraptors, en la tardía inclusión de Laura Hamilton que, por más que haya estado en la primer /Terminator,/ para mí siempre va a ser esta:
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/sarahconnor.jpeg">
+</div>
+#+END_EXPORT
+
+También hay tufo noventoso en los peores momentos de acción berreta: en los personajes disfrazados de commandos,  dándose a los tiros contra milicos corruptos, escenas que parecen sacadas de /Comodines/ o /Los Extermineitors/.
+
+#+BEGIN_EXPORT html
+<br/>
+<br/>
+#+END_EXPORT
+
+Demasiadas temporadas, demasiados años, demasiados personajes y demasiados días entre entregas contribuyeron a que la mayor parte de esta última temporada se haya vuelto insufrible. Ya no nos importa mucho el arco que improvisaron para darle un final feliz a cada uno de los muchos protagonistas, ni queremos escuchar las referencias a las que apelan para explicar sus teorías o los planes que idean para combatir a los malos. Imposible seguir los detalles y por lo tanto imposible no distraerse con los bíceps de Lucas, el presunto botox de Eleven, la voz robot de Will o las muchas líneas rectas que ahora convergen en el rostro de Mike. Resulta menos interesante entender cómo van a derrotar a Vecna que preguntarnos por qué este artefacto ficcional ya no funciona como antes, y de ahí enumerar todo lo que cambió en estos años. Por caso: una década de explotación de la nostalgia, reboots de franquicias y romantización de la cultura nerd; la pandemia y el encierro, la inteligencia artificial y la amenaza existencial que supone, el hecho de que /Black Mirror/ haya pasado de distopía a ficción naturalista. [[https://revistamecha.com.ar/stranger-things-nostalgia-devaluada/][Robando]] otro poco: hoy en día empatizamos más con la cínica y alcohólica Carol Sturka de /Pluribus/ que con estos ex-pibitos fantasiosos.
+
+#+BEGIN_EXPORT html
+<br/>
+<br/>
+#+END_EXPORT
+
+Más allá del engorroso trayecto de esta última temporada, el capítulo final me gustó y me emocionó, me pareció a la altura de lo mejor que tuvo la serie---y de lo que la serie [[https://www.micropsiacine.com/2026/01/series-critica-de-stranger-things-finale-de-los-hermanos-duffer-netflix/][podría haber sido]]. ¿Cómo no iba a encajar el golpe, si el círculo se cerró con una última campaña de /DnD/ y los títulos corrieron con los héroes hechos viñeta, con el título en formato /Elige tu propia aventura,/ y en mis oídos la más maravillosa música, que para mí es la voz extraterrestre de David Bowie sobre la guitarra distorsionada de Robert Fripp?
+
+#+BEGIN_EXPORT html
+<br/>
+<br/>
+#+END_EXPORT
+
+Durante estos años /Stranger Things/ recibió tratamiento de obra de culto, pero sospecho que no va a poder sostener ese estatus, por lo menos no entre los espectadores de mi generación. Más bien me parece que la vamos a recordar como una suerte de homenaje y despedida de la cultura con la que crecimos. /Stranger Things/ es un artefacto de su tiempo, nos habla menos de los '80 y los '90 que de la sensibilidad estética que teníamos en el 2016. El estertor de un orden que empezó con la caída del muro y se terminó con el Covid.
+
+#+BEGIN_EXPORT html
+<br/>
+<br/>
+#+END_EXPORT
+
+
+*** Referencias
+- [[https://medium.com/@aramsinn/stranger-things-isnt-80s-nostalgia-it-s-90s-nostalgia-and-it-s-all-about-2016-452d24d7a8c0][Stranger Things Isn’t ’80s Nostalgia — It’s ’90s Nostalgia (and it’s all about 2016)]].
+- [[https://revistamecha.com.ar/stranger-things-nostalgia-devaluada/][Stranger Things: Nostalgia devaluada]].
+- [[https://www.micropsiacine.com/2025/12/series-critica-de-stranger-things-temporada-5-volumen-2-de-los-hermanos-duffer-netflix/][Crítica de «Stranger Things – Temporada 5 / Volumen 2», de los hermanos Duffer]].
+- [[https://www.micropsiacine.com/2026/01/series-critica-de-stranger-things-finale-de-los-hermanos-duffer-netflix/][Crítica de «Stranger Things – Finale», de los hermanos Duffer]].
+- [[https://www.theguardian.com/tv-and-radio/2025/nov/14/stranger-things-final-season-cast-interviews][‘It’s time for it to end’: the stars of Stranger Things open up about their final, epic season]].
+- [[https://www.theguardian.com/tv-and-radio/2025/dec/26/stranger-things-season-five-vol-2-review][Stranger Things season five vol 2 review – the fact that this isn’t unbearable is a miracle]].
