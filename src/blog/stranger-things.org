@@ -5,9 +5,16 @@ layout: post
 lang: es
 tags: [cine, series]
 draft: true
+image: stranger.jpg
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/stranger.jpg" style="max-width:100%">
+</div>
+#+END_EXPORT
 
 Por un lado, resulta difícil hablar de los temas frescos, mientras todavía siguen pasando; mis respetos para los periodistas. Cortázar le atribuyó a ese trabajar contra reloj el resultado desparejo de su /Libro de Manuel/. Por otro lado, en el contexto desregulado de un blog, tiene la ventaja de que hay más material dando vueltas, más ideas flotando en el aire para "tomar prestadas", para meter en la licuadora y sacar tres o cuatro observaciones, atarlas con alambre digital y hasta creerme que son mías.
 
