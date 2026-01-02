@@ -16,14 +16,40 @@ image: stranger.jpg
 </div>
 #+END_EXPORT
 
-Por un lado, resulta difícil hablar de los temas frescos, mientras todavía siguen pasando; mis respetos para los periodistas. Cortázar le atribuyó a ese trabajar contra reloj el resultado desparejo de su /Libro de Manuel/. Por otro lado, en el contexto desregulado de un blog, tiene la ventaja de que hay más material dando vueltas, más ideas flotando en el aire para "tomar prestadas", para meter en la licuadora y sacar tres o cuatro observaciones, atarlas con alambre digital y hasta creerme que son mías.
+Vale la pena dejar algo escrito sobre /Stranger Things/ antes de que sea tarde. Independientemente del regusto que a cada uno le deje la serie en su conjunto, sospecho que como tema de conversación y reflexión va a envejecer como los buenos lácteos.
 
-Vale la pena dejar algo escrito sobre /Stranger Things/ antes de que sea tarde; independiente del regusto que nos deje la serie en su conjunto, sospecho que como tema de reflexión y conversación envejecerá como los buenos lácteos.
+Por un lado, resulta difícil tratar un tema que todavía está pasando o acaba de pasar, sin tiempo para que las ideas decanten: mis respetos para los periodistas. Por otro lado, en el contexto desregulado de este blog, hablar de temas frescos tiene la ventaja de que hay más material dando vueltas, más ideas flotando en el aire para meter en la licuadora y sacar tres o cuatro observaciones que, atadas con alambre digital, puedo llegar a creer mías.
+
+#+BEGIN_EXPORT html
+<br/>
+<div></div>
+#+END_EXPORT
+
+Leí a GenXers estadounidenses elogiar de /Stranger Things/ la fidelidad con la que recrea la década de los '80. Yo no viví esa época pero sí crecí consumiendo sus productos culturales y la estética de /Stranger Things/ me fascinó.
+Entre las cosas que leí este mes, me pareció significativo un artículo de 2019 que propone que, detrás de esa precisa superficie ochentosa en realidad se esconde una nostalgia por los años noventa: los Duffer Brothers, que tienen un par de años más que yo, se parecen menos a los protagonistas de su serie que a los nerds que crecimos jugando al family y viendo scifi de la década anterior.
+
+Algo de ese olor a los noventa hay en la presencia de Winona Ryder, en el homenaje a /Jurassic Park/ con los demo-dogs haciendo de velociraptors, en la inclusión de Laura Hamilton, que por más que haya estado en la primer /Terminator/ para nosotros va a ser siempre esta:
+
+[TODO sarah connor]
+
+El problema es que llegamos a esta quinta temporada con diez años encima de explotación de la nostalgia, reboots de franquicias y romntaización de la cultura nerd. Cuando no están deshilando los embrollos argumentales que fueron necesarios para estirar la serie o desandando mamushkas de mundos paralelos, los personajes se dedican a tirarse contra militares en escenas de acción que remiten menos a /T2/ que a /Comodines/ o, dios nos libre, /Los Extermineitors/.
+
+#+BEGIN_EXPORT html
+<br/>
+<div></div>
+#+END_EXPORT
+
+Demasiadas temporadas, demasiado años, demasiados personajes y demasiados días entre entregas contribuyeron a que la mayor parte de esta última temporada se haya vuelto insufrible. Ya no nos importa mucho el arco que le improvisaron a cada uno de los demasiados personajes, ni queremos escuchar las referencias a las que apelan para explicar sus teorías o los planes que idean para combatir a los malos. Imposible seguir los detalles y por lo tanto imposible no distraerse con que a Lucas ya le da el cuero para hacer de Scottie Pippen, que Eleven tiene un aire a Andrea Rincón y que en el rostro de Mike podemos contar más líneas rectas que en un cuadro de Picasso. En otras palabras, a esta altura /Stranger Things/ nos remite mucho menos a los '80 o los '90 que a 2016. Resulta menos interesante entender cómo van a derrotar a Vecna que preguntarnos por qué este artefacto ficcional ya no funciona como antes, y de ahí enumerar todo lo que cambio en estos años. Por caso: La pandemia, la inteligencia artificial, el hecho de que en 2016 /Black Mirror/ era una serie distópica y ahora es ficción naturalista. [Robando] un poco más: hoy en día empatizamos más con la cínica y alcohólica protagonista de /Pluribus/ que con estos ex-pibitos fantasiosos.
+
 
 
 *** Referencias
+- [[https://medium.com/@aramsinn/stranger-things-isnt-80s-nostalgia-it-s-90s-nostalgia-and-it-s-all-about-2016-452d24d7a8c0][Stranger Things Isn’t ’80s Nostalgia — It’s ’90s Nostalgia (and it’s all about 2016)]].
 - [[https://revistamecha.com.ar/stranger-things-nostalgia-devaluada/][Stranger Things: Nostalgia devaluada]].
 - [[https://www.micropsiacine.com/2025/12/series-critica-de-stranger-things-temporada-5-volumen-2-de-los-hermanos-duffer-netflix/][Crítica de «Stranger Things – Temporada 5 / Volumen 2», de los hermanos Duffer]].
 - [[https://www.micropsiacine.com/2026/01/series-critica-de-stranger-things-finale-de-los-hermanos-duffer-netflix/][Crítica de «Stranger Things – Finale», de los hermanos Duffer]].
 - [[https://www.theguardian.com/tv-and-radio/2025/nov/14/stranger-things-final-season-cast-interviews][‘It’s time for it to end’: the stars of Stranger Things open up about their final, epic season]].
 - [[https://www.theguardian.com/tv-and-radio/2025/dec/26/stranger-things-season-five-vol-2-review][Stranger Things season five vol 2 review – the fact that this isn’t unbearable is a miracle]].
+
+
+<En los diez años que nos separan de aquella primera temporada, esa estética, así como la explotación de la nostalgia, los reboots de franquicias ochentosas y la romantización de la cultura nerd se volvieron lugar común, pero si /Stranger Things/ no inventó ese lugar, seguro que fue su mayor amplificador. Para tener una referencia, /Ready Player One/, la película de Spielberg que apela a las mismas sensibilidades, salió recién dos años después.
