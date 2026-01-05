@@ -17,14 +17,18 @@ excerpt: Stranger Things es un artefacto de su tiempo, nos habla menos de los �
 </div>
 #+END_EXPORT
 
-Vale la pena dejar algo escrito sobre /Stranger Things/ antes de que sea tarde. Independientemente del regusto que a cada uno le deje la serie en su conjunto, sospecho que como tema de conversación y reflexión va a envejecer como los buenos lácteos. Por un lado, resulta difícil tratar un tema que todavía está pasando o acaba de pasar, sin tiempo para que las ideas decanten: mis respetos para los periodistas. Por otro lado, en el contexto desregulado de este blog, hablar de temas frescos tiene la ventaja de que hay más material dando vueltas, más ideas flotando en el aire para meter en la licuadora y sacar tres o cuatro observaciones que, atadas con alambre digital, puedo llegar a creer propias.
+Vale la pena dejar algo escrito sobre /Stranger Things/ antes de que sea tarde. Independientemente del regusto que a cada uno le deje la serie en su conjunto, sospecho que como tema de conversación y reflexión va a envejecer como los buenos lácteos.
+
+Por un lado, resulta difícil tratar un tema que todavía está pasando o acaba de pasar, sin tiempo para que las ideas decanten: mis respetos para los periodistas. Por otro lado, en el contexto desregulado de este blog, hablar de temas frescos tiene la ventaja de que hay más material dando vueltas, más ideas flotando en el aire para meter en la licuadora y sacar tres o cuatro observaciones que, atadas con alambre digital, puedo llegar a creer propias.
 
 #+BEGIN_EXPORT html
 <br/>
 <br/>
 #+END_EXPORT
 
-Leí a GenXers estadounidenses elogiar de /Stranger Things/ la fidelidad con la que recreó la década de los '80. Yo no viví esa época pero sí crecí consumiendo sus productos culturales, y la estética de /Stranger Things/ me fascinó desde el momento en que corrieron los títulos. Entre las cosas que leí este mes, me pareció significativo un [[https://medium.com/@aramsinn/stranger-things-isnt-80s-nostalgia-it-s-90s-nostalgia-and-it-s-all-about-2016-452d24d7a8c0][artículo de 2019]] que propone que, detrás de esa precisa superficie ochentosa en realidad se esconde una nostalgia por los años noventa: los Duffer Brothers, que tienen un par de años más que yo, se parecen menos a los protagonistas de su serie que a los nerds que crecimos jugando al family y viendo hits sci-fi por cable y VHS. No es recreación de una época sino reproducción del imaginario de esa época.
+No creo que /Stanger Things/ haya iniciado la moda ---y subsecuente negocio--- de la nostalgia, pero seguramente fue uno de sus grandes amplificadores. Ciertamente es el primero que yo recuerdo. Como punto de referencia, la adaptación de /Ready Player One/ de Spielberg, que apela a la mismas sensibilidades, vino recién dos años después.
+
+Leí a GenXers estadounidenses elogiando de aquella primera temporada la fidelidad con la que recreó la década de los '80. Yo no viví esa época así que no puedo dar fe sobre la rigurosidad histórica de la serie, pero sí crecí consumiendo la producción cultural de ese tiempo y ese lugar, y puedo decir que compré la estética de /Stranger Things/ desde el momento en que corrieron los títulos. Entre las cosas que leí este mes, me pareció significativo un [[https://medium.com/@aramsinn/stranger-things-isnt-80s-nostalgia-it-s-90s-nostalgia-and-it-s-all-about-2016-452d24d7a8c0][artículo de 2019]] que propone que, detrás de esa precisa superficie ochentosa en realidad se esconde una nostalgia por los años noventa: los Duffer Brothers, que tienen apenas un par de años más que yo, se parecen menos a los protagonistas de su serie que a los nerds que crecimos jugando al family y viendo hits sci-fi por cable y VHS. No es recreación de una época sino reproducción del imaginario de esa época.
 
 La veta noventosa se percibe en la presencia de Winona Ryder, en la hija de Uma Thurman, en los demo-dogs jugando a ser velociraptors, en la tardía inclusión de Linda Hamilton que, por más que haya estado en la primer /Terminator,/ para mí siempre va a ser esta:
 
