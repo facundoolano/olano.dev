@@ -1,12 +1,12 @@
 ---
-title: Contenido derivativo sobre Stranger Things
+title: Ideas prestadas sobre Stranger Things
 date: 2026-01-02T19:24:42-03:00
 layout: post
 lang: es
 tags: [cine, series]
 image: stranger.jpg
 refs: [stranger, t2]
-excerpt: Stranger Things es un artefacto de su tiempo, nos habla menos de los ‘80 y los ‘90 que de la sensibilidad estética que teníamos en el 2016. El estertor de un orden que empezó con la caída del muro de Berlín y se terminó con el Covid.
+excerpt: Stranger Things es un artefacto de su tiempo, nos habla menos de los ‘80 y los ‘90 que de la sensibilidad estética que teníamos en el 2016. El estertor de un orden que empezó con la caída del muro y se terminó con el Covid.
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
@@ -17,16 +17,20 @@ excerpt: Stranger Things es un artefacto de su tiempo, nos habla menos de los �
 </div>
 #+END_EXPORT
 
-Vale la pena dejar algo escrito sobre /Stranger Things/ antes de que sea tarde. Independientemente del regusto que a cada uno le deje la serie en su conjunto, sospecho que como tema de conversación y reflexión va a envejecer como los buenos lácteos. Por un lado, resulta difícil tratar un tema que todavía está pasando o acaba de pasar, sin tiempo para que las ideas decanten: mis respetos para los periodistas. Por otro lado, en el contexto desregulado de este blog, hablar de temas frescos tiene la ventaja de que hay más material dando vueltas, más ideas flotando en el aire para meter en la licuadora y sacar tres o cuatro observaciones que, atadas con alambre digital, puedo llegar a creer propias.
+Vale la pena dejar algo escrito sobre /Stranger Things/ antes de que sea tarde. Independientemente del regusto que a cada uno le deje la serie en su conjunto, sospecho que como tema de conversación y reflexión va a envejecer como los buenos lácteos.
+
+Por un lado, resulta difícil tratar un tema que todavía está pasando o acaba de pasar, sin tiempo para que las ideas decanten: mis respetos para los periodistas. Por otro lado, en el contexto desregulado de este blog, hablar de temas frescos tiene la ventaja de que hay más material dando vueltas, más ideas flotando en el aire para meter en la licuadora y sacar tres o cuatro observaciones que, atadas con alambre digital, puedo llegar a creer propias.
 
 #+BEGIN_EXPORT html
 <br/>
 <br/>
 #+END_EXPORT
 
-Leí a GenXers estadounidenses elogiar de /Stranger Things/ la fidelidad con la que recreó la década de los '80. Yo no viví esa época pero sí crecí consumiendo sus productos culturales, y la estética de /Stranger Things/ me fascinó desde el momento en que corrieron los títulos. Entre las cosas que leí este mes, me pareció significativo un [[https://medium.com/@aramsinn/stranger-things-isnt-80s-nostalgia-it-s-90s-nostalgia-and-it-s-all-about-2016-452d24d7a8c0][artículo de 2019]] que propone que, detrás de esa precisa superficie ochentosa en realidad se esconde una nostalgia por los años noventa: los Duffer Brothers, que tienen un par de años más que yo, se parecen menos a los protagonistas de su serie que a los nerds que crecimos jugando al family y viendo hits sci-fi por cable y VHS. No es recreación de una época sino reproducción del imaginario de esa época.
+No creo que /Stanger Things/ haya iniciado la moda ---y subsecuente negocio--- de la nostalgia pop, pero seguramente fue uno de sus grandes amplificadores. Ciertamente es el primero que yo recuerdo. Como punto de referencia, la adaptación de /Ready Player One/ de Spielberg, que de alguna manera culmina ese ciclo, vino recién dos años después.
 
-La veta noventosa se percibe en la presencia de Winona Ryder, en la hija de Uma Thurman, en los demo-dogs jugando a ser velociraptors, en la tardía inclusión de Linda Hamilton que, por más que haya estado en la primer /Terminator,/ para mí siempre va a ser esta:
+Leí a GenXers estadounidenses elogiando de aquella primera temporada la fidelidad con la que recreó la década de los '80. Yo no viví esa época así que no puedo dar fe sobre la rigurosidad histórica, pero sí crecí consumiendo la producción cultural de ese tiempo y ese lugar, y puedo decir que compré la estética de /Stranger Things/ desde el momento en que corrieron los títulos. Entre las cosas que leí este mes, me pareció significativo un [[https://medium.com/@aramsinn/stranger-things-isnt-80s-nostalgia-it-s-90s-nostalgia-and-it-s-all-about-2016-452d24d7a8c0][artículo de 2019]] que propone que, detrás de esa preciso barniz ochentoso en realidad se esconde una nostalgia por los años noventa: los Duffer Brothers, que tienen apenas un par de años más que yo, se parecen menos a los protagonistas de su serie que a los nerds que crecimos jugando al family y viendo hits sci-fi por cable y VHS. Lo que vemos en /Stranger Things/ no es recreación de una época sino reproducción del imaginario de esa época.
+
+La veta noventosa la percibo en el casteo de Winona Ryder, en la hija de Uma Thurman, en los demo-dogs jugando a ser velociraptors, en la tardía inclusión de Linda Hamilton que, por más que ya haya estado en la primer /Terminator,/ para mí siempre va a ser esta:
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -34,7 +38,7 @@ La veta noventosa se percibe en la presencia de Winona Ryder, en la hija de Uma 
 </div>
 #+END_EXPORT
 
-También hay tufo noventoso en los peores momentos de acción berreta: en los personajes disfrazados de commandos,  dándose a los tiros contra milicos corruptos, escenas que parecen sacadas de /Comodines/ o /Los Extermineitors/.
+Pero también hay tufo noventoso en los peores momentos de acción berreta: con los personajes disfrazados de commandos, dándose a los tiros contra milicos corruptos, en escenas que parecen sacadas de /Comodines/ o /Los Extermineitors/.
 
 #+BEGIN_EXPORT html
 <br/>
@@ -48,7 +52,7 @@ Demasiadas temporadas, demasiados años, demasiados personajes y demasiados día
 <br/>
 #+END_EXPORT
 
-Más allá del engorroso trayecto de esta última temporada, el capítulo final me gustó y me emocionó, me pareció a la altura de lo mejor que tuvo la serie---y de lo que la serie [[https://www.micropsiacine.com/2026/01/series-critica-de-stranger-things-finale-de-los-hermanos-duffer-netflix/][podría haber sido]]. ¿Cómo no iba a encajar el golpe, si el círculo se cerró con una última campaña de /DnD/ y los títulos corrieron con los héroes hechos viñeta, con el título en formato /Elige tu propia aventura,/ y en mis oídos la más maravillosa música, que para mí es la voz extraterrestre de David Bowie sobre la guitarra distorsionada de Robert Fripp?
+Más allá del engorroso trayecto de esta última temporada, el capítulo final me gustó y me emocionó, me pareció a la altura de lo mejor que tuvo la serie---y de lo que la serie [[https://www.micropsiacine.com/2026/01/series-critica-de-stranger-things-finale-de-los-hermanos-duffer-netflix/][podría haber sido]]. ¿Cómo no iba a encajar el golpe si el círculo se cierra con una última campaña de /Calabozos y dragones/, si los héroes vuelven hechos viñeta, si la portada se despliega en formato /Elige tu propia aventura,/ si en mis oídos suena la más maravillosa música que para mí es la voz extraterrestre de David Bowie, sobre la guitarra distorsionada de Robert Fripp? La sola elección de la canción de los créditos justifica toda la serie.
 
 #+BEGIN_EXPORT html
 <br/>
