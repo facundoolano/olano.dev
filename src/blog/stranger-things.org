@@ -1,5 +1,5 @@
 ---
-title: Contenido derivativo sobre Stranger Things
+title: Ideas prestadas sobre Stranger Things
 date: 2026-01-02T19:24:42-03:00
 layout: post
 lang: es
