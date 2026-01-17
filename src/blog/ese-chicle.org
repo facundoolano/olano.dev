@@ -6,6 +6,7 @@ lang: es
 tags: [cine, memorias]
 refs: [losthighway, twinpeaks, dfw, seriousman, inquisiciones]
 image: lynch.png
+favorite: true
 excerpt: Sobre Lynch.
 ---
 #+OPTIONS: toc:nil num:nil
