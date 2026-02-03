@@ -2,7 +2,7 @@
 layout: post
 title: "Del videojuego como puzzle"
 date: 2023-06-16T10:00:00-03:00
-tags: [videojuegos, literatura, borges]
+tags: [videojuegos, literatura, borges, puzzles]
 favorite: true
 thumbnail-img: puzzle/prince.png
 share-img: puzzle/prince.png
