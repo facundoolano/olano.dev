@@ -1,11 +1,10 @@
 ---
 title: La pieza ausente
-date: 2026-02-03T14:32:17-03:00
+date: 2026-02-03T20:00:00-03:00
 layout: post
 lang: es
 tags: [libros, literatura, puzzles]
 image: piezaausente.jpeg
-draft: true
 refs: [missingpiece, parentesis, perec]
 ---
 #+OPTIONS: toc:nil num:nil
