@@ -1,3 +1,31 @@
+- author: Roberto Bolaño
+  cover_file: roberto-bolano-estrella-distante.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348578584l/59232.jpg
+  published_at: 2026-02-01
+  rating: 3
+  read_at: 2026-02-01
+  title: Estrella distante
+- author: Antoine Bello
+  cover_file: antoine-bello-elogio-de-la-pieza-ausente.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677800910l/10254210._SY475_.jpg
+  published_at: 2026-01-29
+  rating: 2
+  read_at: 2026-01-29
+  title: Elogio de la pieza ausente
+- author: Matías Aldaz
+  cover_file: matias-aldaz-algo-que-nadie-hizo.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1748021248l/222785910._SY475_.jpg
+  published_at: 2026-01-09
+  rating: 2
+  read_at: 2026-01-09
+  title: Algo que nadie hizo
+- author: Jordan Mechner
+  cover_file: jordan-mechner-the-making-of-prince-of-persia.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585588886l/52824295._SX318_.jpg
+  published_at: 2025-12-30
+  rating: 4
+  read_at: 2025-12-30
+  title: 'The Making of Prince of Persia: Journals 1985-1993'
 - author: Hernan Diaz
   cover_file: hernan-diaz-a-lo-lejos.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574435076l/48914190._SY475_.jpg
@@ -310,7 +338,7 @@
   title: De amor y de hambre
 - author: Juan José Saer
   cover_file: juan-jose-saer-el-limonero-real.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1461689288l/348249._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1767723487l/348249.jpg
   published_at: 2024-05-26
   rating: 2
   read_at: 2024-05-26
@@ -1276,7 +1304,7 @@
   rating: 5
   read_at: 2021-01-14
   title: Stories of Your Life and Others
-- author: Yan Lianke
+- author: Yan Lianke 阎连科
   cover_file: yan-lianke-dias-meses-anos.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567279600l/49394173._SX318_SY475_.jpg
   published_at: 2021-01-08
@@ -1381,32 +1409,3 @@
   rating: 4
   read_at: 2020-10-28
   title: 'The Digital Antiquarian Volume 1: 1966-1979'
-- author: Alejandro Zambra
-  cover_file: alejandro-zambra-poeta-chileno.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1578152767l/50272339._SY475_.jpg
-  published_at: 2020-08-25
-  rating: 4
-  read_at: 2020-08-25
-  title: Poeta chileno
-- author: Peter Orner
-  cover_file: peter-orner-hay-alguien-ahi.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590973059l/53716972._SY475_.jpg
-  published_at: 2021-02-17
-  rating: 3
-  read_at: 2020-08-15
-  title: '¿Hay alguien ahí?: Apuntes sobre vivir para leer y leer para vivir'
-- author: Richard Sennett
-  cover_file: richard-sennett-la-corrosion-del-caracter.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417883643l/1379789.jpg
-  published_at: 2020-08-07
-  rating: 2
-  read_at: 2020-08-07
-  title: 'La corrosión del carácter: Las consecuencias personales del trabajo en el
-    nuevo capitalismo'
-- author: Virginia Woolf
-  cover_file: virginia-woolf-al-faro.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1306752598l/1783060.jpg
-  published_at: 2020-07-25
-  rating: 5
-  read_at: 2020-07-25
-  title: Al faro
