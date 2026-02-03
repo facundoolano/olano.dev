@@ -6,7 +6,7 @@ date: 2022-08-09T10:00:00-03:00
 excerpt: "El primer jugador de aventuras fue un esclavo mulato de nombre Stephen Bishop, que vivió en Kentucky durante el siglo XIX."
 thumbnail-img: adventures/monkey.png
 image: adventures/monkey.png
-tags: [videojuegos, software, cine]
+tags: [videojuegos, software, cine, puzzles]
 favorite: true
 lang: es
 book: "vol1"
