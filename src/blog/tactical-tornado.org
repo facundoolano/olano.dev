@@ -1,12 +1,11 @@
 ---
 title: Tactical tornado is the new default
-date: 2026-02-04T08:17:18-03:00
+date: 2026-02-04T22:00:00-03:00
 layout: post
 lang: en
 tags: [software, ai]
 refs: [ousterhout]
 image: tornado.jpeg
-draft: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
