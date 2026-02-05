@@ -5,10 +5,18 @@ layout: post
 lang: en
 tags: [software, ai]
 refs: [ousterhout]
+image: tornado.jpeg
 draft: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/tornado.jpeg" style="max-width:100%">
+</div>
+#+END_EXPORT
+
 
 I'm a big fan of John Ousterhout's /A Philosophy of Software Design/ book. One of its valuable ideas is the distinction between the tactical and strategic approaches to programming:
 #+begin_quote
