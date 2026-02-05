@@ -6,6 +6,7 @@ lang: en
 tags: [software, ai]
 refs: [ousterhout]
 image: tornado.jpeg
+excerpt: The more work we delegate to LLMs, the closer we are to becoming tactical tornadoes ourselves.
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
