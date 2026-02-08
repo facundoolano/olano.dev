@@ -40,15 +40,21 @@ Cabría suponer que alguien como yo, a quien le gusta leer ficción y le gustan 
 
 Según quién lo entreviste, Ron Gilbert ofrece distintos mitos de origen para su /Secret of Monkey Island/. En uno de ellos dice que la idea se le ocurrió en el juego de /Piratas del Caribe/ en el parque Disney. A Gilbert lo fascinaba ese mundo entrevisto desde el bote de la atracción, pero en vez de que lo lleven de paseo a él le hubiera gustado detenerse y bajar, explorar esos escenarios, hablar con esos personajes ---algo así como lo que hacen los invitados VIP en la primer /Jurassic Park./ Fue esa experiencia exploratoria la que Gilbert se propuso construir en su aventura gráfica.
 
-Lo curioso es que algo parecido a lo que Gilbert experimentaba en Disney es lo que algunos experimentamos con sus juegos. Ya [[notas-sobre-obra-dinn][escribí]] [[diario-de-lechucks-revenge][varias]] [[blue-prince][veces]] sobre esa sensación que generan las buenas aventuras gráficas, de mundos que se nos abren como fractales a medida que avanzamos. Pero dadas las limitaciones técnicas, no teníamos realmente libre albedrío, se nos daba recorrer solo una parte de esos mundos, mucho había de estático, de librado a la imaginación, un espacio entrevisto y no habitable, como en la escenografía de las películas.
-
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/worldmap/grim20.jpg" style="max-width:100%; max-height:unset">
+ <img src="{{site.config.static_root}}/img/worldmap/woodtick.webp" style="max-width:100%">
 </div>
 #+END_EXPORT
 
+Lo curioso es que algo parecido a lo que Gilbert experimentaba en Disney es lo que a algunos nos pasaba con sus juegos. Ya [[notas-sobre-obra-dinn][escribí]] [[diario-de-lechucks-revenge][varias]] [[blue-prince][veces]] sobre esa sensación que generan las buenas aventuras gráficas, de mundos que se  abren como fractales a medida que avanzamos. Pero dadas las limitaciones técnicas, no teníamos realmente libre albedrío, se nos daba recorrer solo una parte de esos lugares, mucho había de estático, de librado a la imaginación, un espacio vislumbrado y no habitable, como la escenografía de las películas.
 
+Este efecto no es exclusivo de las aventuras gráficas, ni siquiera de los videojuegos. Hace poco conocí el arte de [[http://hiroshinagai.com/contents.html][Hiroshi Nagai]], un diseñador japonés que ilustraba álbumes en los 80, cuya estética de cielos altos, colores planos y palmeras, me recuerda los escenarios del /OutRun/. Hay algo muy evocativo y magnético en algunas escenas de Nagai, como si uno pudiera percibir el calor del sol al lado de la piscina, o el roce del pasto entre los dedos, o la brisa que agita las palmeras; una invitación a imaginarse lo que queda fuera del plano, los interiores de las casas, los jardines vecinos, la distancia hasta el próximo ser humano.
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/worldmap/hiroshi2.webp" style="max-width:100%">
+</div>
+#+END_EXPORT
 
 *** Notas
 
