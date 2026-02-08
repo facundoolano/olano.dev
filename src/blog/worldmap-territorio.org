@@ -10,8 +10,8 @@ draft: true
 #+LANGUAGE: es
 
 #+ATTR_HTML: :align right
-/Con el tiempo, estos Mapas Desmesurados no satisficieron/\\
-/y los Colegios de Cartógrafos levantaron un Mapa del Imperio,/\\
+/Con el tiempo, estos mapas desmesurados no satisficieron/\\
+/y los colegios de cartógrafos levantaron un mapa del Imperio,/\\
 /que tenía el tamaño del Imperio y coincidía puntualmente con él./
 
 #+begin_export html
@@ -19,7 +19,7 @@ draft: true
 #+end_export
 
 
-Durante los años '80, el género de /aventuras/ ---que era todavía sinónimo de aventuras /de texto/--- estuvo dominado por la empresa Infocom. Sus diseñadores se apropiaron, perfeccionaron y llevaron al límite [[llegando-los-monos][el modelo]] provisto por Crowther y Woods, y, montados en el boom de las computadoras personales, sacaron a esos juegos del nicho universitario del que habían surgido. Después de algunos hits de tema fantástico y policial, empezaron a ponerle la etiqueta de /ficción interactiva/ a su trabajo, a referirse a sí mismos como /autores/, incluso a reclutar escritores profesionales para que firmaran los juegos ---el más famoso de ellos Douglas Adams, con su /Guía para el autoestopista intergaláctico/. Durante todo ese período, los programadores de Infocom se mostraban orgullosos de no apelar a los gráficos digitales para ilustrar sus ficciones: con el texto les alcanzaba para lograr lo que se proponían, y lo hacían mejor que la competencia. Esa postura casi militante, que escondía ciertas limitaciones técnicas de su software, quedó famosamente cristalizada en uno de sus ads:
+Durante los años '80, el género de /aventuras/ ---que era todavía sinónimo de aventuras /de texto/--- estuvo dominado por la empresa Infocom. Sus diseñadores se apropiaron, perfeccionaron y llevaron al límite [[llegando-los-monos][el modelo]] provisto por Crowther y Woods; montados en el boom de las computadoras personales, sacaron a esos juegos del nicho universitario del que habían surgido. Después de algunos hits de tema fantástico y policial, empezaron a ponerle la etiqueta de /ficción interactiva/ a su trabajo, a referirse a sí mismos como /autores/, incluso a reclutar escritores profesionales para que firmaran los juegos ---el más famoso de ellos Douglas Adams, con su /Guía para el autoestopista intergaláctico/. Durante todo ese período, los programadores de Infocom se mostraban orgullosos de no apelar a los gráficos digitales para ilustrar sus ficciones: con el texto les alcanzaba para lograr lo que se proponían, y lo hacían mejor que la competencia. Esa postura casi militante, que escondía ciertas limitaciones tecnológicas, quedó famosamente cristalizada en uno de sus ads:
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -28,7 +28,7 @@ Durante los años '80, el género de /aventuras/ ---que era todavía sinónimo d
 #+END_EXPORT
 
 
-El desprecio por los gráficos tenía mucho de razonable en 1980, cuando la gente de Sierra On-Line hacía malabares para componer dibujos grotescos en la Apple II, pero era obstinado y un poco ridículo cinco años más tarde, en el mundo de la Macintosh, la Amiga y la Famicom. La ausencia de gráficos por computadora es solo una de las razones por las que Infocom desapareció poco tiempo después[fn:1].
+El desprecio por los gráficos tenía mucho de razonable en 1980, cuando la gente de Sierra On-Line vendía grafitis para la Apple II, pero era obstinado y un poco ridículo cinco años más tarde, en el mundo de la Macintosh, la Amiga y la Famicom. Ese rechazo es solo una de varias razones por las que Infocom desapareció poco tiempo después[fn:1].
 
 Cabría suponer que alguien como yo, a quien le gusta leer ficción y le gustan las aventuras gráficas, es el público ideal para las aventuras de texto. Sin embargo, aunque dediqué mucho tiempo a leer sobre su historia e incluso [[https://github.com/facundoolano/advenjure][estudiar su implementación]], nunca logré que me enganchen como jugador. La explicación que encuentro es que llegaron demasiado tarde a mi vida, que para entonces ya me había educado en otro lenguaje y no tenía suficiente incentivo para aprender uno anterior.
 
@@ -38,7 +38,9 @@ Cabría suponer que alguien como yo, a quien le gusta leer ficción y le gustan 
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-Según quién lo entreviste, Ron Gilbert ofrece distintos mitos de origen para su /Secret of Monkey Island/. En uno de ellos dice que la idea se le ocurrió en el juego de /Piratas del Caribe/ en el parque Disney. A Gilbert lo fascinaba ese mundo entrevisto desde el bote de la atracción, pero en vez de que lo lleven de paseo a él le hubiera gustado detenerse y bajar, explorar esos escenarios, hablar con esos personajes ---algo así como lo que hacen los invitados VIP en la primer /Jurassic Park./ Fue esa experiencia exploratoria la que Gilbert se propuso construir en su aventura gráfica.
+Según quién lo entreviste, Ron Gilbert ofrece distintos mitos de origen para su /Secret of Monkey Island/. En uno de ellos dice que la idea se la dio el juego de /Piratas del Caribe/ en el parque Disney. A Gilbert lo fascinaba ese mundo entrevisto fugazmente desde el bote, pero en vez de que lo lleven de paseo a él le hubiera gustado detenerse y bajar, explorar esos escenarios, hablar con esos personajes ---algo así como lo que hacen los invitados VIP en la primer /Jurassic Park./ Fue esa experiencia exploratoria la que Gilbert se propuso construir en su aventura gráfica.
+
+Lo curioso es que algo parecido a lo que Gilbert experimentaba en Disney es lo que a algunos nos pasaba con sus juegos. Ya [[notas-sobre-obra-dinn][escribí]] [[diario-de-lechucks-revenge][varias]] [[blue-prince][veces]] sobre esa sensación que generan las buenas aventuras gráficas, de mundos que se  abren como fractales a medida que avanzamos. Pero dadas las limitaciones técnicas, no teníamos realmente libre albedrío, se nos daba recorrer solo una parte de esos lugares, mucho había de estático, un espacio vislumbrado y no habitable, como la escenografía de las películas. El resto quedaba librado a la imaginación, que prolongaba lo que nos ofrecía la pantalla.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -46,9 +48,7 @@ Según quién lo entreviste, Ron Gilbert ofrece distintos mitos de origen para s
 </div>
 #+END_EXPORT
 
-Lo curioso es que algo parecido a lo que Gilbert experimentaba en Disney es lo que a algunos nos pasaba con sus juegos. Ya [[notas-sobre-obra-dinn][escribí]] [[diario-de-lechucks-revenge][varias]] [[blue-prince][veces]] sobre esa sensación que generan las buenas aventuras gráficas, de mundos que se  abren como fractales a medida que avanzamos. Pero dadas las limitaciones técnicas, no teníamos realmente libre albedrío, se nos daba recorrer solo una parte de esos lugares, mucho había de estático, de librado a la imaginación, un espacio vislumbrado y no habitable, como la escenografía de las películas.
-
-Este efecto no es exclusivo de las aventuras gráficas, ni siquiera de los videojuegos. Hace poco conocí el arte de [[http://hiroshinagai.com/contents.html][Hiroshi Nagai]], un diseñador japonés que ilustraba álbumes en los 80, cuya estética de cielos altos, colores planos y palmeras, me recuerda los escenarios del /OutRun/. Hay algo muy evocativo y magnético en algunas escenas de Nagai, como si uno pudiera percibir el calor del sol al lado de la piscina, o el roce del pasto entre los dedos, o la brisa que agita las palmeras; una invitación a imaginarse lo que queda fuera del plano, los interiores de las casas, los jardines vecinos, la distancia hasta el próximo ser humano.
+Este efecto no es exclusivo de las aventuras gráficas, ni siquiera de los videojuegos. Hace poco conocí el arte de [[http://hiroshinagai.com/contents.html][Hiroshi Nagai]], un diseñador japonés que ilustraba álbumes pop en los '80, cuya estética de cielos altos, colores planos y palmeras, me recuerda los escenarios del /OutRun/. Hay algo muy evocativo y magnético en algunas escenas de Nagai, como si uno pudiera percibir el calor del sol al lado de la piscina, o el roce del pasto entre los dedos, o la brisa que agita las palmeras; una invitación a imaginarse lo que queda fuera del plano, los interiores de las casas, los jardines vecinos, la distancia hasta el próximo ser humano.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -58,9 +58,13 @@ Este efecto no es exclusivo de las aventuras gráficas, ni siquiera de los video
 
 ¿Cómo se comparan esas experiencias con las de los juegos /open world/ de las últimas décadas como /Breath of the Wild/, /Death Stranding/, /The Witcher/, /Red Dead Redemption/? ¿Cómo describir la diferencia en los estímulos que suscitan, en particular el hecho de que a mí me resulten abrumadores y trabajosos más que entretenidos?
 
-En este punto podría ceder a la tentación, podría escudarme en alguna cita de Borges quejándose de la novela naturalista, alargada a fuerza de tediosos inventarios de lo cotidiano, y decir que en los /open world/ hay mucho que sobra y ponderar la elegante eficacia de los juegos indie. Pero lo cierto es que, tal y como me pasaba con las aventuras de Infocom, los juegos AAA no me gustan porque no hice el esfuerzo. No tengo dudas de que con suficientes horas y ganas (que probablemente nunca tenga), lograría que me cautiven como a los pibes del secundario.
+En este punto podría ceder a la tentación, podría escudarme en alguna cita de Borges quejándose de la novela naturalista, alargada a fuerza de tediosos inventarios de lo cotidiano, decir que en los /open world/ hay mucho que sobra y ponderar así la elegante eficacia de los juegos indie. Pero lo cierto es que, tal y como me pasaba con las aventuras de Infocom, los juegos AAA no me gustan porque no hice el esfuerzo. No tengo dudas de que con suficientes horas y ganas (que probablemente nunca vaya a tener), lograría que me cautiven como a un pibe del secundario.
 
-Pero hay otra cosa, que me interesa señalar. Hay un punto de quiebre en que la diferencia de escala se convierte en diferencia cualitativa, una inversión entre el mapa y el territorio.
+Pero hay otra cosa. Hay un punto de quiebre en que la diferencia de escala se convierte en diferencia cualitativa, deviene inversión entre mapa y territorio. Los juegos modernos nos exigen que /entremos/ en ellos, nuestro cerebro se ocupa de abstraer o "resumir" la vastedad de lo que vemos en la pantalla ---una operación no muy distinta a la que nos vemos obligados a realizar con el mundo real. En las viejas aventuras gráficas, en cambio, como en los RPG de 16 y 32 bits, las imágenes pixeladas funcionaban como abstracciones, símbolos que se proyectaban desde la pantalla para expandirse en nuestra imaginación ---la "tecnología gráfica más poderosa del mundo". No íbamos a visitar aquellos mundos: nos los llevábamos puestos. Y ahí están, todavía, multiplicándose en algún pasillo del recuerdo.
+
+#+begin_export html
+<br/><br/>
+#+end_export
 
 *** Notas
 
