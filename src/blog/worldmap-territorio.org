@@ -5,6 +5,8 @@ layout: post
 lang: es
 tags: [videojuegos]
 draft: true
+image: hiroshi.jpg
+excerpt: La tecnología gráfica más poderosa del mundo.
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
