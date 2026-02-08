@@ -56,6 +56,12 @@ Este efecto no es exclusivo de las aventuras gráficas, ni siquiera de los video
 </div>
 #+END_EXPORT
 
+¿Cómo se comparan esas experiencias con las de los juegos /open world/ de las últimas décadas como /Breath of the Wild/, /Death Stranding/, /The Witcher/, /Red Dead Redemption/? ¿Cómo describir la diferencia en los estímulos que suscitan, en particular el hecho de que a mí me resulten abrumadores y trabajosos más que entretenidos?
+
+En este punto podría ceder a la tentación, podría escudarme en alguna cita de Borges quejándose de la novela naturalista, alargada a fuerza de tediosos inventarios de lo cotidiano, y decir que en los /open world/ hay mucho que sobra y ponderar la elegante eficacia de los juegos indie. Pero lo cierto es que, tal y como me pasaba con las aventuras de Infocom, los juegos AAA no me gustan porque no hice el esfuerzo. No tengo dudas de que con suficientes horas y ganas (que probablemente nunca tenga), lograría que me cautiven como a los pibes del secundario.
+
+Pero hay otra cosa, que me interesa señalar. Hay un punto de quiebre en que la diferencia de escala se convierte en diferencia cualitativa, una inversión entre el mapa y el territorio.
+
 *** Notas
 
 [fn:1] La más curiosa de las otras razones del fracaso de Infocom, era la obstinación por parte de un segmento de la empresa en pivotear hacia el software de gestión, incluso cuando eran la primer empresa de videojuegos del mundo y entre sus filas se contaban los diseñadores más talentosos de la industria. Esa facción se las arregló para gastar lo que no tenían en desarrollar una [[https://en.wikipedia.org/wiki/Cornerstone_(software)][base de datos empresarial]], hundiendo a la empresa en el proceso, que terminó siendo adquirida por Activision.
