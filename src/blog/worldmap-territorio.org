@@ -9,7 +9,17 @@ draft: true
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
 
-Durante los años '80, el género de /aventuras/ ---que era todavía sinónimo de aventuras /de texto/--- estuvo dominado por la empresa Infocom. Sus diseñadores se apropiaron, perfeccionaron y llevaron al límite el modelo propuesto por /Colossal Cave Adventure/ de Crowther y Woods, y se montaron en el boom de las computadoras hogareñas para sacar a esos juegos del nicho universitario del que habían surgido. Después de algunos hits de tema fantástico y policial, empezaron a usar la etiqueta de /ficción interactiva/ para referirse a su trabajo, a llamarse referirse a sí mismos como /autores/, incluso a reclutar escritores profesionales para que firmaran los juegos ---el más famoso de ellos Douglas Adams, con su /Guía para el autoestopista intergaláctico. Durante todo ese período, los programadores de Infocom se mostraban orgullosos de no apelar a los gráficos digitales para ilustrar sus ficciones: con el texto les alcanzaba para lograr lo que se proponían, y lo hacían mejor que la competencia. Esa postura casi militante, que escondía ciertas limitaciones técnicas de su software, quedó famosamente cristalizada en uno de sus ads:
+#+ATTR_HTML: :align right
+/Con el tiempo, estos Mapas Desmesurados no satisficieron/\\
+/y los Colegios de Cartógrafos levantaron un Mapa del Imperio,/\\
+/que tenía el tamaño del Imperio y coincidía puntualmente con él./
+
+#+begin_export html
+<br/><br/><br/><br/>
+#+end_export
+
+
+Durante los años '80, el género de /aventuras/ ---que era todavía sinónimo de aventuras /de texto/--- estuvo dominado por la empresa Infocom. Sus diseñadores se apropiaron, perfeccionaron y llevaron al límite [[llegando-los-monos][el modelo]] provisto por Crowther y Woods, y, montados en el boom de las computadoras personales, sacaron a esos juegos del nicho universitario del que habían surgido. Después de algunos hits de tema fantástico y policial, empezaron a ponerle la etiqueta de /ficción interactiva/ a su trabajo, a referirse a sí mismos como /autores/, incluso a reclutar escritores profesionales para que firmaran los juegos ---el más famoso de ellos Douglas Adams, con su /Guía para el autoestopista intergaláctico/. Durante todo ese período, los programadores de Infocom se mostraban orgullosos de no apelar a los gráficos digitales para ilustrar sus ficciones: con el texto les alcanzaba para lograr lo que se proponían, y lo hacían mejor que la competencia. Esa postura casi militante, que escondía ciertas limitaciones técnicas de su software, quedó famosamente cristalizada en uno de sus ads:
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -20,7 +30,7 @@ Durante los años '80, el género de /aventuras/ ---que era todavía sinónimo d
 
 Este desprecio por los gráficos tenía mucho de razonable en 1980, cuando la gente de Sierra On-Line hacía malabares para componer dibujos grotescos en la Apple II, pero era obstinado y un poco ridículo cinco años más tarde, en el mundo de la Macintosh, la Amiga y la Famicom. La negación de los gráficos por computadora es solo una de las razones por las que Infocom desapareció poco tiempo después[fn:1].
 
-Cabría suponer que alguien como yo, a quien le gusta leer ficción y le gustan las aventuras gráficas, es el público ideal para las aventuras de texto. Sin embargo, aunque dediqué mucho tiempo a leer sobre su historia e incluso [[https://github.com/facundoolano/advenjure][estudiar su implementación]], nunca logré que me enganchen como jugador. La explicación que encuentro es que llegaron demasiado tarde a mi vida, que para entonces ya me había educado con otro lenguaje de entretenimiento digital y no tenía suficiente incentivo para aprender uno anterior.
+Cabría suponer que alguien como yo, a quien le gusta leer ficción y le gustan las aventuras gráficas, es el público ideal para las aventuras de texto. Sin embargo, aunque dediqué mucho tiempo a leer sobre su historia e incluso [[https://github.com/facundoolano/advenjure][estudiar su implementación]], nunca logré que me enganchen como jugador. La explicación que encuentro es que llegaron demasiado tarde a mi vida, que para entonces ya me había educado en otro lenguaje y no tenía suficiente incentivo para aprender uno anterior.
 
 
 
