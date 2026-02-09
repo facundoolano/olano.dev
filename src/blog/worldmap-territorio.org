@@ -4,7 +4,7 @@ date: 2026-02-09T08:09:39-03:00
 layout: post
 lang: es
 tags: [videojuegos]
-image: hiroshi.jpg
+image: worldmap/hiroshi2.jpeg
 excerpt: La tecnología gráfica más poderosa del mundo.
 refs: [monkey, colossal]
 ---
@@ -46,7 +46,7 @@ Este efecto no es exclusivo de las aventuras gráficas, ni siquiera de los video
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/worldmap/hiroshi2.webp" style="max-width:100%">
+ <img src="{{site.config.static_root}}/img/worldmap/hiroshi2.jpeg" style="max-width:100%">
 </div>
 #+END_EXPORT
 
