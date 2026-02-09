@@ -1,12 +1,12 @@
 ---
 title: El worldmap y el territorio
-date: 2026-02-08T13:09:39-03:00
+date: 2026-02-09T08:09:39-03:00
 layout: post
 lang: es
 tags: [videojuegos]
-draft: true
 image: hiroshi.jpg
 excerpt: La tecnología gráfica más poderosa del mundo.
+refs: [monkey, colossal]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
