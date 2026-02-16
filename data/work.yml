@@ -1,7 +1,12 @@
 - org: '<a href="https://marsie.io/">Marsie</a>'
   positions:
-    - date: Sep 2024 - Present
-      title: Staff Software Engineer
+    - date: Jan 2026 - Present
+      title: Software Engineer
+      tech: Python, FastAPI, SqlAlchemy, React, Temporal, LLMs
+      description: >
+        Full-Stack design and development for a startup aiming to automate scientific research through software, AI, and robotics.
+    - date: Sep 2024 - Dec 2025
+      title: Software Engineer
       tech: Python, FastAPI, SqlAlchemy, Kubernetes, Helm, React, Temporal, Datadog
       description: >
         Design, development, and operations on the Billing Team of a genetic testing company.
@@ -17,7 +22,7 @@
   positions:
     - date: Feb 2024 - Aug 2024
       title: Software Engineering Consultant
-      tech: Python, FastAPI, Open, LLMs, Celery
+      tech: Python, FastAPI, LLMs, Celery
       description: >
         Assisted an early-stage startup building a data extraction service around Large Language Models.
 
@@ -54,7 +59,6 @@
       tech: Erlang, Clojure, WebRTC, Cassandra, Riak
       description: >
         As one of the first engineers to join LambdaClass, I divided my time between open-source projects and contractor work for one of the clients.
-
 
 - date: 1 year 4 months
   org: '<a href="https://madmobile.com/">Mad Mobile</a>'
