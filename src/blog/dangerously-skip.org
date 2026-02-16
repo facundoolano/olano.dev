@@ -1,9 +1,9 @@
 ---
 title: "-​-dangerously-skip-reading-code"
-date: 2026-02-14T21:17:15-03:00
+date: 2026-02-16T16:00:00-03:00
 layout: post
 lang: en
-tags: [ai, software]
+tags: [ai, software, distopías]
 draft: true
 image: bird.png
 excerpt: What if we dutifully communicate the risks and trade-offs to our organizational leadership and they still want to take those risks
@@ -11,18 +11,18 @@ excerpt: What if we dutifully communicate the risks and trade-offs to our organi
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-I concluded my [[tactical-tornado][previous post]] saying that it was irresponsible to assume that we won't need to worry about reading and debugging our code anymore---to assume that whatever problem that pops up the LLMs will be able to fix for us. This felt irresponsible because, up until now, it has been the programmer's job to understand and maintain the source code, as a proxy to understanding and maintaining the sofware system. We are held accountable for the LLM's output.
+I concluded my [[tactical-tornado][previous post]] saying that it was irresponsible to assume that we won't need to worry about reading and debugging our code anymore---to assume that whatever problem that pops up the LLMs will be able to fix for us. This felt irresponsible because, up until now, it has been the programmer's job to understand and maintain the source code, as a proxy to understanding and maintaining the software system. We are held accountable for the LLMs' output.
 
 But what if this wasn't the case anymore? What if we dutifully communicate the risks and trade-offs to our organizational leadership and they still want to take those risks? This isn't unheard of: companies, and especially tech startups, regularly make short-term compromises to improve productivity, beat the competition to market, lure investors, etc.
 
-If there's an organizational mandate to leverage LLMs to minimize time spent coding, then that's a new constraint we can work with. We can figure out what good engineering looks like in that context. We can stop reading LLM-generated code just like we don't read assembly, or bytecode, or transpiled JavaScript; our high-level language source would now be another form of machine code.
+If there's an organizational mandate to leverage LLMs to minimize the time spent coding, then that's a new constraint we can work with. We can figure out what good engineering looks like in that context. We can stop reading LLM-generated code just like we don't read assembly, or bytecode, or transpiled JavaScript; our high-level language source would now be another form of machine code.
 
-This finally clicked for me after reading [[id:][Thougtworks' retreat report]]. The LLMs produce non-deterministic output and generate code much faster than we can read it, so we can't seriously expect to effectively review, understand, and approve every diff anymore. But that doesn't necessarily mean we stop being rigorous, it could mean we should move the rigor elsewhere.
+This finally clicked for me after reading [[id:][Thoughtworks' retreat report]]. The LLMs produce non-deterministic output and generate code much faster than we can read it, so we can't seriously expect to effectively review, understand, and approve every diff anymore. But that doesn't necessarily mean we stop being rigorous, it could mean we should move rigor elsewhere.
 
-It's fundamental to understand, though, that this is not an individual's or team's call: it has to be an organizational decision, and not just because of risk management and accountability: because of Amdahl's law. If we only maximize code generation speed without rearranging the organizational structures and processes in which our work is embedded, there won't be any tangible productivity gains.
+It's fundamental to understand, though, that this is not an individual's or team's call: it has to be an organizational decision, and not just because of risk management and accountability, but because of Amdahl's law. If we only maximize code generation speed without rearranging the organizational structures and processes in which our work is embedded, there won't be any tangible productivity gains.
 
-We can't have some devs pumping 20k lines of slop a day and expect the rest to still read and understand it, let alone approve it. We can't leverage agents if our unit of work is still "add a new endpoint to the RESTful API". We can't expect a Product Owner to stream enough work to keep a two-pizza team busy, when each engineer can take on four tasks at a time and keep agents running off-hours.
+We can't have some devs pumping 20k lines of slop a day and expect the rest to still read and understand it, let alone approve it. We can't leverage agents if our unit of work is still "add a new endpoint to the RESTful API". We can't expect a Product Owner to stream enough work to keep a two-pizza team busy if each engineer can take on four tasks at a time and keep agents running off-hours.
 
-Instead, we need to remove humans in the loop, reduce coordination, friction, bureaucracy, and gate-keeping. We need a virtually infinite supply of requirements, engineers acting as pseudo product designers, owning entire streams of work, with purview to make unconsulted decisions. Rework is almost free so we shouldn't make an effort to prevent incorrect work from happening.
+Instead, we need to remove humans-in-the-loop, reduce coordination, friction, bureaucracy, and gate-keeping. We need a virtually infinite supply of requirements, engineers acting as pseudo-product designers, owning entire streams of work, with the purview to make autonomous decisions. Rework is almost free so we shouldn't make an effort to prevent incorrect work from happening.
 
-Then where does the rigor go? Similar to the Thoughtworks report, my first bet would be on specifications (which is not the same as prompts) and tests (which is not the same as TDD). If I had to roll out such development process today, I'd make a standardized markdown specification the new unit of knowledge for the software project. Product owners and engineers could initially collaborate on this spec and in test cases to enforce business rules. Those should be checked into the project repositories along with the implementing code. There would need to be automated pull-request checks verifying not only that tests pass but that code conforms the spec. This specification, and not the code that materializes it, is what the team would need to understand, review, and be held accountable for.
+Then where does the rigor go? Similar to the Thoughtworks report, my first bet would be specifications (which is not the same as prompts) and tests (which is not the same as TDD). If I had to roll out such a development process today, I'd make a standardized Markdown specification the new unit of knowledge for the software project. Product owners and engineers could initially collaborate on this spec and on test cases to enforce business rules. Those should be checked into the project repositories along with the implementing code. There would need to be automated pull-request checks verifying not only that tests pass but that code conforms to the spec. This specification, and not the code that materializes it, is what the team would need to understand, review, and be held accountable for.
