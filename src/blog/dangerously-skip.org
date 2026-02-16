@@ -16,7 +16,7 @@ But what if this wasn't the case anymore? What if we dutifully communicate the r
 
 If there's an organizational mandate to leverage LLMs to minimize the time spent coding, then that's a new constraint we can work with. We can figure out what good engineering looks like in that context. We can stop reading LLM-generated code just like we don't read assembly, or bytecode, or transpiled JavaScript; our high-level language source would now be another form of machine code.
 
-This finally clicked for me after reading [[id:][Thoughtworks' retreat report]]. The LLMs produce non-deterministic output and generate code much faster than we can read it, so we can't seriously expect to effectively review, understand, and approve every diff anymore. But that doesn't necessarily mean we stop being rigorous, it could mean we should move rigor elsewhere.
+This finally clicked for me after reading [[https://www.thoughtworks.com/content/dam/thoughtworks/documents/report/tw_future%20_of_software_development_retreat_%20key_takeaways.pdf][Thoughtworks' retreat report]]. The LLMs produce non-deterministic output and generate code much faster than we can read it, so we can't seriously expect to effectively review, understand, and approve every diff anymore. But that doesn't necessarily mean we stop being rigorous, it could mean we should move rigor elsewhere.
 
 It's fundamental to understand, though, that this is not an individual's or team's call: it has to be an organizational decision, and not just because of risk management and accountability, but because of Amdahl's law. If we only maximize code generation speed without rearranging the organizational structures and processes in which our work is embedded, there won't be any tangible productivity gains.
 
