@@ -14,9 +14,10 @@ draft: true
 
 0. [@0] A few years ago, I setup a retro gaming console in a raspberry pi, with recalbox. Using that I cleared a lot of classics from my backlog: /A Link to the Past/, /Final Fantasy VI/, /Chrono Trigger/, /Suikoden II/, /Final Fantasy Tactics/. I started many others that I didn't stick with, and I upgraded the rapsberry pi, and I tried other emulation station distros, but eventually stopped using it. Mostly because it was a lot of hassle to plug into my old tv and pair the bluetooth controller when I ocassionally wanted to play.
 1. Months ago I learned a few interesting facts from a [[https://www.421.news/en/r36s-retro-handheld-taking-over-2025/][local magazine article]]:
-   - nowadays there are cheap chinese handheld consoles running the same kind of emulation linux distributions that I used in my raspberry pi.
+   - Now there are cheap chinese handheld consoles running the same kind of emulation linux distributions that I used in my raspberry pi.
    - The most common of these is the R36S.
    - Those can be bought online (through AliExpress) and sent over to my country (which is not always the case, depending on what year it is).
+   - In addition to traditional emulators, these handhelds support this amazing thing called [[https://portmaster.games/][portmaster]], which brings a bunch of linux ports of games, both classics and newer indie games
 2. I made my mind about buying one but didn't right away. Instead I started lurking subreddits like [[https://www.reddit.com/r/R36S/][r/R36S]], [[https://www.reddit.com/r/SBCGaming/][r/SBCGaming]], and [[https://www.reddit.com/r/BATLEXPG350/][r/BATLEXPG350]]. There I learned a new batch of facts:
    - Even though they already are a knockoff of a knockoff console, there are good and bad R36S depending on which seller you buy them from.
    - The pre-intalled OS, ROMS, and SD card suck and you should change all of these.
@@ -26,38 +27,37 @@ draft: true
    - After using it for a while I noticed the form factor can be a bit demanding on the hands, so it's probably a good idea to also buy or 3D-print a grip for it.
      - Also, since I'm enjoying this so much I might end up just buying another console with an horizontal form factor.
        - Currently on my radar: Anbernic's [[https://anbernic.com/products/rg40xx-h][RG40XX H]] and [[https://anbernic.com/products/rg353ps?variant=43876118528257][RG353PS]]
-   - This is high quality enough to also warrant a storage case. I didn't buy one buy I repurposed one I got with an 8BitDo controller.
+   - This is high quality enough to also warrant a storage case. I didn't buy one but I repurposed one I got with an 8BitDo controller.
+4. This is a very fun hobby that's completely orthogonal with the actual playing of video games. The fun comes from:
+   a. setting up the system
+   b. making plans or interesting games to try, and get them working on the console
+
+[TODO screenshot]
 
 ** setup
 
-- followed this video from this wiki
-  https://www.youtube.com/watch?v=eyih2i5bWYk
-  https://handhelds.wiki/BATLEXP_G350_Guides_Tutorials_HowTos
-- since I'm on MacOS I used balena etcher (brew install --cask balenaetcher)
-- downloaded arkos [exact file]
-- flashed it into a 128gb flashcard with etcher
-- downloaded the imp file provided in that video and copied it to the BOOT (replacing the preexisting one)
-- replaced the builtin sd card with it and started the console (it will do some work and eventually offer the arkos platform selection screen)
-- downloaded the 64gb version of tiny set go from internet archive
-- copied the files over to EASYROMS as explained in the video
-  - FIXME remove hidden files from macos
-- applied the recommended hotkey remappings from the video
-- cover images?
-- installed portmaster?
-  https://portmaster.games/installation.html
-   Install.Full.PortMaster.sh
+1. As with the R36S, I read recommendations of changing the stock OS and romset from the BATLEXP.
+   - I went with the ArkOS distribution; another popular one is Pan4Elec.
+   - I followed [[https://www.youtube.com/watch?v=eyih2i5bWYk][this]] setup video from the [[https://handhelds.wiki/BATLEXP_G350_Guides_Tutorials_HowTos][handhelds wiki]]
+   - Since I'm on MacOS I used Balena Etcher instead of Rufus (~brew install --cask balenaetcher~)
+   - I flashed the RG351MP image (from the [[Arkos image][ArkOS wiki]]) into a 128gb SD card
+   - I overrode the .dtb and Image files in the BOOT partition with those linked in the video
+     - Later I saw some issues with the right stick which I fixed by installing [[https://www.reddit.com/r/BATLEXPG350/comments/1kjjf13/arkos_right_analog_stick_fix/][these other files]]. Both look the same so maybe didn't copy it right the first time?
+     - Later later I had the console freeze on a black screen on boot, and I was able to fix this by overriding the dtb and Image files again.
+2. I downloaded the base and 64gb versions of the tiny tiny set go from the internet archive and manually distributed the roms to the corresponding dir in the EASYROMS partition of the SD card.
+   - This provided a good baseline of curated ROMS that includes most of what I'd like to play without cluttering the collection.
+3. On restart I noticed a bunch of ._ prefixed files in the collection. There's a handy builtin tool in the options menu to remove them.
+4. I Installed portmaster from [[https://portmaster.games/installation.html][this]] instructions.
+   - Since the BATLEXP has no wifi connection, I had to use the Install.Full.PortMaster.sh
+   - I cleared the preexisting portmaster files in EASYROMS/tools/
+   - Back in the console, I run the script from options / tools / Install.Full.PortMaster.sh
+   - After this I can add new ports by placing them in EASYROMS/tools/PortMaster/autoinstall
 
-- for xeno crisis -> remapping in quick menu to leverage right stick
-  - a similar solution for arcade smash tv, but this is already pre-configured in modern roms
-- for celeste
-  steam://open/console
-  download_depot 504230 504233 1505052356460012099
-
-- I must admit that for me a lot of the fun in these projects for me is to curate a list of games, find out the best platform for each one, and then figure out how get them running, even if I don't play them much in the end
-
-https://www.reddit.com/r/BATLEXPG350/comments/1kjjf13/arkos_right_analog_stick_fix/#:~:text=Tips%20%F0%9F%98%8E%20A%20while%20back%20I%20was,it%20all%20made%20a%20lot%20more%20sense.
-
-The right analog stick inputs will be off in RetroArch. You can remap them by going to RA Quick Menu > Controls > Port 1 Controls, adjusting the values to match the actual input of the stick, and then save it as a remap file.
+5. I applied some hotkey re-mappings as recommended in the setup video
+   - Also some extra ones to handle the save state slots
+   - Note that these only apply to retroarch managed ROMS, other emulators like the PSP one, use the default keybindings.
+6. Since the BATLEXP has no internet access, and the tiny tiny set go images would have to be configured manually in the gamelist.xml, I have no preview cover images in the menu.
+   - I've seen in the [[https://www.skraper.net/][Skraper tool]] recommended for this, but it doesn't run on MacOS and I couldn't be bothered to try it on my windows laptop, so no cover images for now.
 
 ** games
 
