@@ -1,0 +1,98 @@
+---
+title: My retrogaming handheld
+subtitle: BATLEXP G350 setup notes
+date: 2026-02-20T13:53:16-03:00
+layout: post
+lang: en
+tags: [games]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+** intro
+
+0. [@0] A few years ago, I setup a retro gaming console in a raspberry pi, with recalbox. Using that I cleared a lot of classics from my backlog: /A Link to the Past/, /Final Fantasy VI/, /Chrono Trigger/, /Suikoden II/, /Final Fantasy Tactics/. I started many others that I didn't stick with, and I upgraded the rapsberry pi, and I tried other emulation station distros, but eventually stopped using it. Mostly because it was a lot of hassle to plug into my old tv and pair the bluetooth controller when I ocassionally wanted to play.
+1. Months ago I learned a few interesting facts from a [[https://www.421.news/en/r36s-retro-handheld-taking-over-2025/][local magazine article]]:
+   - nowadays there are cheap chinese handheld consoles running the same kind of emulation linux distributions that I used in my raspberry pi.
+   - The most common of these is the R36S.
+   - Those can be bought online (through AliExpress) and sent over to my country (which is not always the case, depending on what year it is).
+2. I made my mind about buying one but didn't right away. Instead I started lurking subreddits like [[https://www.reddit.com/r/R36S/][r/R36S]], [[https://www.reddit.com/r/SBCGaming/][r/SBCGaming]], and [[https://www.reddit.com/r/BATLEXPG350/][r/BATLEXPG350]]. There I learned a new batch of facts:
+   - Even though they already are a knockoff of a knockoff console, there are good and bad R36S depending on which seller you buy them from.
+   - The pre-intalled OS, ROMS, and SD card suck and you should change all of these.
+   - There are actually better quality options in the same price range as the R36S.
+3. With all this info I decided to buy a BATLEXP G350 (yes batle with a single T) for 50 dollars, and it arrived about a month later.
+   - Buying guide [[https://handhelds.wiki/BATLEXP_G350_Buying_Guide][here]].
+   - After using it for a while I noticed the form factor can be a bit demanding on the hands, so it's probably a good idea to also buy or 3D-print a grip for it.
+     - Also, since I'm enjoying this so much I might end up just buying another console with an horizontal form factor.
+       - Currently on my radar: Anbernic's [[https://anbernic.com/products/rg40xx-h][RG40XX H]] and [[https://anbernic.com/products/rg353ps?variant=43876118528257][RG353PS]]
+   - This is high quality enough to also warrant a storage case. I didn't buy one buy I repurposed one I got with an 8BitDo controller.
+
+** setup
+
+- followed this video from this wiki
+  https://www.youtube.com/watch?v=eyih2i5bWYk
+  https://handhelds.wiki/BATLEXP_G350_Guides_Tutorials_HowTos
+- since I'm on MacOS I used balena etcher (brew install --cask balenaetcher)
+- downloaded arkos [exact file]
+- flashed it into a 128gb flashcard with etcher
+- downloaded the imp file provided in that video and copied it to the BOOT (replacing the preexisting one)
+- replaced the builtin sd card with it and started the console (it will do some work and eventually offer the arkos platform selection screen)
+- downloaded the 64gb version of tiny set go from internet archive
+- copied the files over to EASYROMS as explained in the video
+  - FIXME remove hidden files from macos
+- applied the recommended hotkey remappings from the video
+- cover images?
+- installed portmaster?
+  https://portmaster.games/installation.html
+   Install.Full.PortMaster.sh
+
+- for xeno crisis -> remapping in quick menu to leverage right stick
+  - a similar solution for arcade smash tv, but this is already pre-configured in modern roms
+- for celeste
+  steam://open/console
+  download_depot 504230 504233 1505052356460012099
+
+- I must admit that for me a lot of the fun in these projects for me is to curate a list of games, find out the best platform for each one, and then figure out how get them running, even if I don't play them much in the end
+
+https://www.reddit.com/r/BATLEXPG350/comments/1kjjf13/arkos_right_analog_stick_fix/#:~:text=Tips%20%F0%9F%98%8E%20A%20while%20back%20I%20was,it%20all%20made%20a%20lot%20more%20sense.
+
+The right analog stick inputs will be off in RetroArch. You can remap them by going to RA Quick Menu > Controls > Port 1 Controls, adjusting the values to match the actual input of the stick, and then save it as a remap file.
+
+** games
+
+- interesting games:
+  1. doom, obviously
+     - but also wolf and quake
+     - also doom 64 which I understand it's different enough, although I didn't get it running
+     - poom
+  2. prince of persia portmaster
+     - also its cousin flashback. it has a modern portmaster but couldn't get it to look good. the genesis one looks very slick though
+  3. winning 2002
+     - also PES 2004
+  4. mario tennis gba
+     - virtua tennis psp
+  5. xeno crisis. this one warrants some remapping to leverage the analog stick
+     - smash tv arcade
+  6. Shovel Knight
+  7. outrun portmaster.
+  8. Metroidvanias
+     - castlevania psx
+     - super metroid snes
+  9. rpgs
+     - earthbound -> maternal bound?, mother 3
+     - dragon quest III or V
+     - golden sun
+     - pokemon unbound, emerald
+     - tactics ogre
+  10. n64 classics: ports zelda and sm64
+  11. GTA (3/VC)
+  12. Aracde classics
+      - turtles in time (but SNES)
+      - Turtles 1 arcade
+      - also simpsons
+      - schredder's revenge
+      - metal slug (X and 3)
+      - sunset riders arcade
+
+- now that I set up my console and spent a couple of days choosing and configuring games, it's almost as if I'd already played them. I can safely move one to other activities.
