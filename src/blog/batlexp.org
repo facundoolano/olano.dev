@@ -16,17 +16,17 @@ draft: true
 
 0. [@0] A few years ago, I setup a retro gaming console in a raspberry pi with recalbox. Using that I cleared many classics from my backlog: /A Link to the Past/, /Final Fantasy VI/, /Chrono Trigger/, /Suikoden II/, /Final Fantasy Tactics/. I started many others that I didn't stick with, and I upgraded the rapsberry pi, and I tried other emulation station distros, but eventually stopped using it. Mostly because it was a hassle to plug it into my TV and pair the bluetooth controller every time I wanted to play.
 1. Recently I came across this [[https://www.421.news/en/r36s-retro-handheld-taking-over-2025/][local magazine article]] and learn a few interesting things:
-   - There are now cheap Chinese handheld consoles with a similar experience as those retrogaming distributions I used in my raspberry pi.
-   - Those can be bought online (through AliExpress) and sent over to my country (which is not always the case, depending on what year it is).
+   - There are now cheap Chinese handheld consoles that can similarly run as emulation stations.
+   - Those handhelds be bought online (through AliExpress) and sent over to my country (which is not always the case, depending on what year it is).
    - The most common of these consoles is the R36S (the subject of the article) but there are many more.
    - In addition to traditional emulators, these distributions also run something called [[https://portmaster.games/][portmaster]], which extends the support to many open source ports of console games, PC classics, and even recent indie games.
 2. I made my mind about buying one but didn't right away. Instead I started lurking subreddits like [[https://www.reddit.com/r/R36S/][r/R36S]] and [[https://www.reddit.com/r/SBCGaming/][r/SBCGaming]]. There I learned a new batch of facts:
    - Even though they already are a cheap knockoff of a cheap console, there are good and bad versions of the R36S depending on who you buy them from.
    - The pre-intalled OS, ROMS, and SD card suck and you should change all of these before they self-destruct.
    - There are better quality options in the same price range as the R36S.
-3. With all this info I settled on the BATLEXP G350 (yes batle with a single T), which I got for 50 dollars and arrived about a month later.
+3. With all this info I settled on the BATLEXP G350 (with a single 'T'), which I got for 50 dollars and that arrived about a month later.
    - There's a buying guide [[https://handhelds.wiki/BATLEXP_G350_Buying_Guide][here]].
-   - This is high quality enough to also warrant a storage case. I didn't buy one but I repurposed one I got with an 8BitDo controller.
+   - Its quality is good enough to warrant a storage case. I didn't buy one but I repurposed one I got with an 8BitDo controller.
    - After using it for a while I noticed the form factor can be a bit demanding on the hands, so it's probably a good idea to also buy or 3D-print a grip for it.
      - Also, since I'm having so much fun I might end up upgrading to an horizontal handheld.
        - Currently on my radar: Anbernic's [[https://anbernic.com/products/rg40xx-h][RG40XX H]] and [[https://anbernic.com/products/rg353ps?variant=43876118528257][RG353PS]]
@@ -38,55 +38,43 @@ draft: true
 
 1. As with the R36S, I read recommendations of changing the stock OS and romset from the BATLEXP.
    - I went with the ArkOS distribution; another popular one is Pan4Elec.
-   - I followed [[https://www.youtube.com/watch?v=eyih2i5bWYk][this]] setup video from the [[https://handhelds.wiki/BATLEXP_G350_Guides_Tutorials_HowTos][handhelds wiki]]
+   - I followed [[https://www.youtube.com/watch?v=eyih2i5bWYk][this]] setup video from the [[https://handhelds.wiki/BATLEXP_G350_Guides_Tutorials_HowTos][handhelds wiki]].
    - Since I'm on MacOS I used Balena Etcher instead of Rufus (~brew install --cask balenaetcher~)
    - I flashed the RG351MP image (from the [[Arkos image][ArkOS wiki]]) into a 128gb SD card
    - I overrode the .dtb and Image files in the BOOT partition with those linked in the video
-     - Later I saw some issues with the right stick which I fixed by installing [[https://www.reddit.com/r/BATLEXPG350/comments/1kjjf13/arkos_right_analog_stick_fix/][these other files]]. Both look the same so maybe didn't copy it right the first time?
-     - Later later I had the console freeze on a black screen on boot, and I was able to fix this by overriding the dtb and Image files again.
-2. I downloaded the base and 64gb versions of the tiny tiny set go from the internet archive and manually distributed the roms to the corresponding dir in the EASYROMS partition of the SD card.
-   - This provided a good baseline of curated ROMS that includes most of what I'd like to play without cluttering the collection.
+     - Later I saw some issues with the right stick which I fixed by installing [[https://www.reddit.com/r/BATLEXPG350/comments/1kjjf13/arkos_right_analog_stick_fix/][these other files]].
+       - Later later I realized those are the same file, so maybe didn't copy it right the first time or copying just resets broken things.
+        - Later later later the console froze to a black screen on boot which I was able to fix by overriding these files again, which would confirm that theory.
+2. Moving on with the setup, I downloaded the base and 64gb versions of the tiny tiny set go from the internet archive and manually distributed the roms into the corresponding system dirs in the EASYROMS partition of the SD card.
+   - This provided a nicely curated baseline of ROMS that includes most of what I'd like to play without cluttering the catalog.
 3. On restart I noticed a bunch of ._ prefixed files in the collection. There's a handy builtin tool in the options menu to remove them.
-4. I Installed portmaster from [[https://portmaster.games/installation.html][this]] instructions.
+4. I Installed portmaster from [[https://portmaster.games/installation.html][these]] instructions.
    - Since the BATLEXP has no wifi connection, I had to use the Install.Full.PortMaster.sh
    - I cleared the preexisting portmaster files in EASYROMS/tools/
-   - Back in the console, I run the script from options / tools / Install.Full.PortMaster.sh
-   - After this I can add new ports by placing them in EASYROMS/tools/PortMaster/autoinstall
-
-5. I applied some hotkey re-mappings as recommended in the setup video
-   - Also some extra ones to handle the save state slots
-   - Note that these only apply to retroarch managed ROMS, other emulators like the PSP one, use the default keybindings.
-6. Since the BATLEXP has no internet access, and the tiny tiny set go images would have to be configured manually in the gamelist.xml, I have no preview cover images in the menu.
+   - Back in the console, I ran the script from options / tools / Install.Full.PortMaster.sh
+   - After this I started adding new ports by placing them in EASYROMS/tools/PortMaster/autoinstall
+     - browsing the [[https://portmaster.games/games.html][portmaster catalog]] by "most downloaded" is a good way to get ideas on how to extend the tiny tiny set go.
+5. I applied some hotkey re-mappings as recommended in the setup video.
+   - Also some extra ones to handle the save state slots.
+   - Note that these only apply to retroarch managed ROMS, other emulators like the PSP one, use default keybindings.
+6. Since the BATLEXP has no internet access, and it's not enough to just drop a collection of images in the partition for them to be picked up by the system, I have no preview covers in the menu.
    - I've seen the [[https://www.skraper.net/][Skraper tool]] recommended for this, but it doesn't run on MacOS and I couldn't be bothered to switch to my windows laptop, so no cover images for now.
 
 ** games
 
-1. *Doom*, of course, a rite of passage to any gaming device.
-   - In ArkOS I can drop the wad files in the top-level doom folder, as if it was its own console.
-   - But I can also run them, as well as any mods, through the doomengines port. [TODO link]
-   - Other id games like Wolfenstein and Quake are good candidates for this console.
-   - But also Doom 64, which I never payed attention to but I hear has its very unique personality. Upon launching it I though the emulation was broken but it's just too damn dark. You need to bump the brightness to the max and play on a dark room to see anything at all.
-   - There's also the very interesting Poom [LINK] for the pico-8, theoretically supported by ArkOS, but which I couldn't get to work yet.
-2. *Prince of Persia*.
-   - very fond, been reading the book
-   - portmaster works great
-   - I like how PoP is really a puzzle game disguised as a platformer
-   - also its spiritual successor, *Flashback*. it has a modern portmaster but couldn't get it to look good. the genesis one looks very slick though
-   - *Another World* is another one of this kind that's been in my TODO list. the sega cd version looks to be the best bet
-3. Even though there are better ones, *Winning Eleven 2002* will always be the definitive soccer video game for me. The faster, more arcade-y feel of its mechanics seems like a better fit for this handheld too.
-4. *OutRun*. I was never much of a car person or a car game person, but then again OutRun is not so much about cars as it is about virtual wind blowing your hair, the proximity of a blonde, cool music on the radio, an endless row of palm tress, and perennial blue skies. There's a port for this one called CannonBall that plays great on the handheld.
-5. *Mario Tennis: Power Tour* was an oddly satisfying find. It has an RPG like story mode, which plays a bit like Pokemon, as well as plain matches  with the Mario crew. I was surprised by how good of a tennis simulator this is; immediately fun to pick up but with a non-trivial learning curve to master. For a more traditional tennis game, Virtua Tennis 3 for the PSP also works.
+1. Turing-completeness of an electronic device is not proven until it runs *Doom*. In ArkOS I can drop the WAD files into a top level doom folder, as if it was another emulated console. I can also run it as well as it mods, through the [[https://portmaster.games/detail.html?name=doomengines][doomengines port]]. There are likewise ports for Wolfenstein, Quake, and friends. There's the deadly cute Poom for the pico-8, which can also run on the BATLEXP. And then there's Doom64, which is not a port but its own game, one so dark that to play I need to bump the brightness to the max, and turn the lights off, and sit in a corner of the room, covered by a blanket.
+2. I have fond memories of *Prince of Persia*. I played it on an old CGA 286 PC I inherited from a cousin before I got my first real computer. The colors were ugly but the animations defied the limits of that machine; seeing the guy jump, and run, and hang was like watching a movie. All of those memories recently came back when I read [Jordan Mechner's journals]. And now I'm surprised to see how well the game fits this little handheld, when played through the SDLPoP port. With the timer turned off, Prince of Persia is as much an elegant puzzle as a cinematic platformer. More than any of the sequels, two of its spiritual successors are worth checking out: *Flashback*, on the Sega Genesis, and Another World, on the Sega CD.
+3. Even though there are better ones, *Winning Eleven 2002* will always be the definitive soccer video game for me. The faster, more arcade-y feel of its mechanics seems like a better fit for a handheld, too.
+4. I was never much of a car person or a car game person, but then again *OutRun* was never  much about cars as it was about cool music on the radio, virtual wind blowing your hair, the proximity of a blonde, an endless row of palm tress and perennial blue skies. There's a port for this one that plays better than the arcade.
+5. *Mario Tennis: Power Tour* was an oddly satisfying find. It has an RPG-like story mode, which plays a bit like Pokemon, as well as plain matches  with the Mario crew. I was surprised by how good of a tennis simulator this is; immediately fun to pick up but with a non-trivial learning curve to master. For a more traditional tennis game, Virtua Tennis 3 for the PSP also works.
 6. *Xeno Crisis* is the perfect game for this type of console.
    - <this one warrants some remapping to leverage the analog stick
    - I also learned about the game that inspired it, Smash TV for the arcade, which on a superficial look appears to be plenty of fun as well.
    - *Shovel Knight* is another true reproduction of a classic genre that I think could benefit from being played on the go.
-7. I'm long overdue getting into Metroidvanias, which I understand are best represented by *Super Metroid* on the SNES and *Castlevania: Symphony of the Night* on the PSX.
-8. I always have a long list of JRPGs to play next, even though not all of them are a good fit for a handheld.
-   - There's *Earthbound*, which I would play through the MaternalBound Redux [[https://www.romhacking.net/hacks/4964/][ROM hack]], and then the Mother 3 sequel.
-   - *Golden Sun*, for a game boy advance classic.
-   - I think the first generation of Pokemon games made the perfect casual RPGs. I've played the first generation in all of its forms (Red, Yellow, FireRed, even the Trading Card Game for the Game Boy). Rather than try with the newer generations, I more curious about the ROM Hacks, and after some investigation I landed on *Pokemon Unbound* as my candidate.
-   - After playing plenty of Final Fantasy games, it's time I try some Dragon Quest, which could be either III or V on the SNES.
-9. I never really looked into Nintendo 64 games: nobody I knew owned the console, it's always been hard to emulate (even to this day) and I never cared much for the blocky early 3D graphics (I always preferred the PSX brand of lowpoly). For historical reasons, though, I'm curious about games like Mario 64 and *Ocarina of time*, both of which conveniently have great ports that run smoother and look better than the originals.
-10. I have unfinished (or more like unstarted) business with open world games in general, and Grand Theft Auto in particular. Seeing that the BATLEXP emulates GTA III and *Vice City* decently, I could finally give those a try.
-11. A handheld is a good home for fast arcade games that I would otherwise not bother with in the desktop or the living room. I mean Beat'em ups like the Ninja Turtles ones---The original Arcade one, which has great graphics, or the *Turtles in Time* for the SNES which has the better gameplay, or the modern Schredder's Revenge, which apparently can run in these devices. And then there are the Run n' Guns, like Metal Slug (X and 3 are the best) and Sunset Riders.
-12. *Tony Hawk's Pro Skater 2.* Fun fact: when I was a kid I wanted to skate, inspired by personal heroes Bart Simpson and Marty McFly. I asked for a skateboard for Christmas and my parents indulged with this ridiculous longboard that was about as long as me. So that hobby really never took off. I hadn't played a Tony Hawk game before but I always appreciated the concept from a distance. It looks like the perfect way to mindlessly kill 10 minutes on this handheld so I better start practicing.
+7. <REWRITE I think the first generation of Pokemon games made the perfect casual RPGs. I've played the first generation in all of its forms (Red, Yellow, FireRed, even the Trading Card Game for the Game Boy). Rather than try with the newer generations, I more curious about the ROM Hacks, and after some investigation I landed on *Pokemon Unbound* as my candidate.
+8. I always have a long list of JRPGs to play next, even though not all of them are a good fit for a handheld. - There's *Earthbound*, which I would play through the MaternalBound Redux [[https://www.romhacking.net/hacks/4964/][ROM hack]], and then the Mother 3 sequel. - Other classic rpgs: *Golden Sun*, for a game boy advance classic. <After playing plenty of Final Fantasy games, it's time I try some Dragon Quest, which could be either III or V on the SNES. and Terranigma.
+9. I'm long overdue getting into Metroidvanias, which I understand are best represented by *Super Metroid* on the SNES and *Castlevania: Symphony of the Night* on the PSX.
+10. I never really looked into Nintendo 64 games: nobody I knew owned the console, it's always been hard to emulate (even to this day) and I never cared much for the blocky early 3D graphics (I always preferred the PSX brand of lowpoly). For historical reasons, though, I'm curious about games like Mario 64 and *Ocarina of time*, both of which conveniently have great ports that run smoother and look better than the originals.
+11. I have unfinished (or more like unstarted) business with open world games in general, and Grand Theft Auto in particular. Seeing that the BATLEXP emulates GTA III and *Vice City* decently, I could finally give those a try.
+12. A handheld is a good home for fast arcade games that I would otherwise not bother with in the desktop or the living room. I mean Beat'em ups like the Ninja Turtles ones---The original Arcade one, which has great graphics, or the *Turtles in Time* for the SNES which has the better gameplay, or the modern Schredder's Revenge, which apparently can run in these devices. And then there are the Run n' Guns, like Metal Slug (X and 3 are the best) and Sunset Riders.
+13. *Tony Hawk's Pro Skater 2.* Fun fact: when I was a kid I wanted to skate, inspired by personal heroes Bart Simpson and Marty McFly. I asked for a skateboard for Christmas and my parents indulged with this ridiculous longboard that was about as long as me. So that hobby really never took off. I hadn't played a Tony Hawk game before but I always appreciated the concept from a distance. It looks like the perfect way to mindlessly kill 10 minutes on this handheld so I better start practicing.
