@@ -1,13 +1,13 @@
 ---
 title: My retrogaming handheld
 subtitle: BATLEXP G350 setup notes
-date: 2026-02-22T18:53:16-03:00
+date: 2026-02-22T18:00:16-03:00
 layout: post
 lang: en
 tags: [videogames]
 refs: [prince, nbajam]
-draft: true
 image: batlexp.jpg
+excerpt: A very fun hobby that’s completely orthogonal to the actual playing of video games.
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
