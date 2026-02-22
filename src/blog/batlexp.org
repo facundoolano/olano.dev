@@ -5,7 +5,9 @@ date: 2026-02-20T13:53:16-03:00
 layout: post
 lang: en
 tags: [videogames]
+refs: [prince]
 draft: true
+image: batlexp.jpg
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
@@ -19,51 +21,50 @@ draft: true
 
 ** 0. intro
 
-0. [@0] A few years ago, I setup a retro gaming console in a raspberry pi with recalbox. Using that I cleared many classics from my backlog: /A Link to the Past/, /Final Fantasy VI/, /Chrono Trigger/, /Suikoden II/, /Final Fantasy Tactics/. I started many others that I didn't stick with, and I upgraded the rapsberry pi, and I tried other emulation station distros, but eventually stopped using it. Mostly because it was a hassle to plug it into my TV and pair the bluetooth controller every time I wanted to play.
-1. Recently I came across this [[https://www.421.news/en/r36s-retro-handheld-taking-over-2025/][local magazine article]] and learn a few interesting things:
-   - There are now cheap Chinese handheld consoles that can similarly run as emulation stations.
-   - Those handhelds be bought online (through AliExpress) and sent over to my country (which is not always the case, depending on what year it is).
-   - The most common of these consoles is the R36S (the subject of the article) but there are many more.
-   - In addition to traditional emulators, these distributions also run something called [[https://portmaster.games/][portmaster]], which extends the support to many open source ports of console games, PC classics, and even recent indie games.
-2. I made my mind about buying one but didn't right away. Instead I started lurking subreddits like [[https://www.reddit.com/r/R36S/][r/R36S]] and [[https://www.reddit.com/r/SBCGaming/][r/SBCGaming]]. There I learned a new batch of facts:
-   - Even though they already are a cheap knockoff of a cheap console, there are good and bad versions of the R36S depending on who you buy them from.
+0. [@0] A few years ago, I setup a retro gaming console on a raspberry pi using [[https://www.recalbox.com/][recalbox]]. I used it to clear many classics from my backlog: /A Link to the Past/, /Final Fantasy VI/, /Chrono Trigger/, /Suikoden II/, /Final Fantasy Tactics/. I started many others that I left unfinished, I upgraded the rapsberry pi, I tried other emulation distros, and eventually stopped using it. Mostly because it was a hassle to plug it into my TV and pair the bluetooth controller every time I wanted to play.
+1. I recently came across this [[https://www.421.news/en/r36s-retro-handheld-taking-over-2025/][magazine article]] and learned a few interesting things:
+   - There are now cheap Chinese portable consoles that can be run as emulation stations like the one in my raspberry pi.
+   - Those handhelds can be bought online (through AliExpress) and sent over to my country (which is not always the case, depending on what year it is).
+   - The R36S is the most common but there are many more, covering a wide price rang
+   - There's this beautiful thing called [[https://portmaster.games/][portmaster]], which extends the support on these devices to many open source ports of console games, PC classics, and even recent indie games.
+2. I made my mind about buying one but didn't right away. Instead I started lurking subreddits like [[https://www.reddit.com/r/R36S/][r/R36S]] and [[https://www.reddit.com/r/SBCGaming/][r/SBCGaming]]. There I learned some more:
+   - Even though they already are a cheap knockoff of a cheap console, you can get good and bad versions of the R36S depending on who you buy them from.
    - The pre-intalled OS, ROMS, and SD card suck and you should change all of these before they self-destruct.
    - There are better quality options in the same price range as the R36S.
-3. With all this info I settled on the BATLEXP G350 (with a single 'T'), which I got for 50 dollars and that arrived about a month later.
-   - There's a buying guide [[https://handhelds.wiki/BATLEXP_G350_Buying_Guide][here]].
-   - Its quality is good enough to warrant a storage case. I didn't buy one but I repurposed one I got with an 8BitDo controller.
-   - After using it for a while I noticed the form factor can be a bit demanding on the hands, so it's probably a good idea to also buy or 3D-print a grip for it.
-     - Also, since I'm having so much fun I might end up upgrading to an horizontal handheld.
+3. With all this info I settled on buying a BATLEXP G350 instead (BATLE with a single 'T').
+   - It costed me 50 dollars and arrived about a month later. Buying guide [[https://handhelds.wiki/BATLEXP_G350_Buying_Guide][here]].
+   - Its quality is good enough to warrant a storage case. I didn't buy one but I repurposed one I had from an 8BitDo controller.
+   - After using it for a while I noticed the form factor can be a bit straining on the hands, so it's probably a good idea to also buy or 3D-print a grip for it.
+     - Also, since I'm having so much fun with these things, I might end up upgrading to an horizontal handheld.
        - Currently on my radar: Anbernic's [[https://anbernic.com/products/rg40xx-h][RG40XX H]] and [[https://anbernic.com/products/rg353ps?variant=43876118528257][RG353PS]]
-4. This is a very fun hobby that's completely orthogonal with the actual playing of video games. The fun comes from:
+4. This is a very fun hobby that's completely orthogonal to the actual playing of video games. The fun comes from:
    a. setting up the system,
-   b. making plans or interesting games to try, and get them working on the console.
+   b. making plans of interesting games to try, and figure out how to best run them on the console.
 
 ** 1. setup
 
 1. As with the R36S, I read recommendations of changing the stock OS and romset from the BATLEXP.
    - I went with the ArkOS distribution; another popular one is Pan4Elec.
    - I followed [[https://www.youtube.com/watch?v=eyih2i5bWYk][this]] setup video from the [[https://handhelds.wiki/BATLEXP_G350_Guides_Tutorials_HowTos][handhelds wiki]].
-   - Since I'm on MacOS I used Balena Etcher instead of Rufus (~brew install --cask balenaetcher~)
+   - Since I'm on macOS I used Balena Etcher instead of Rufus (~brew install --cask balenaetcher~)
    - I flashed the RG351MP image (from the [[Arkos image][ArkOS wiki]]) into a 128gb SD card
    - I overrode the .dtb and Image files in the BOOT partition with those linked in the video
      - Later I saw some issues with the right stick which I fixed by installing [[https://www.reddit.com/r/BATLEXPG350/comments/1kjjf13/arkos_right_analog_stick_fix/][these other files]].
-       - Later later I realized those are the same file, so maybe didn't copy it right the first time or copying just resets broken things.
+       - Later later I realized the file provided in that post is the same I was already using, so maybe didn't copy it right the first time or overriding just resets broken things.
         - Later later later the console froze to a black screen on boot which I was able to fix by overriding these files again, which would confirm that theory.
-2. Moving on with the setup, I downloaded the base and 64gb versions of the tiny tiny set go from the internet archive and manually distributed the roms into the corresponding system dirs in the EASYROMS partition of the SD card.
-   - This provided a nicely curated baseline of ROMS that includes most of what I'd like to play without cluttering the catalog.
-3. On restart I noticed a bunch of ._ prefixed files in the collection. There's a handy builtin tool in the options menu to remove them.
-4. I Installed portmaster from [[https://portmaster.games/installation.html][these]] instructions.
+2. Moving on with the setup, I downloaded the base and 64gb versions of the tiny tiny set go from the internet archive and manually distributed the roms into the corresponding system dirs from the EASYROMS partition of the SD card.
+   - This provided a nicely curated baseline of games that includes most of what I'd like to play without cluttering the catalog too much.
+   - Upon restarting, I noticed a bunch of ._ prefixed files in the collection. There's a handy built-in tool in the options menu to remove them.
+4. Next, I Installed portmaster from [[https://portmaster.games/installation.html][these]] instructions.
    - Since the BATLEXP has no wifi connection, I had to use the Install.Full.PortMaster.sh
-   - I cleared the preexisting portmaster files in EASYROMS/tools/
-   - Back in the console, I ran the script from options / tools / Install.Full.PortMaster.sh
-   - After this I started adding new ports by placing them in EASYROMS/tools/PortMaster/autoinstall
-     - browsing the [[https://portmaster.games/games.html][portmaster catalog]] by "most downloaded" is a good way to get ideas on how to extend the tiny tiny set go.
-5. I applied some hotkey re-mappings as recommended in the setup video.
-   - Also some extra ones to handle the save state slots.
-   - Note that these only apply to retroarch managed ROMS, other emulators like the PSP one, use default keybindings.
-6. Since the BATLEXP has no internet access, and it's not enough to just drop a collection of images in the partition for them to be picked up by the system, I have no preview covers in the menu.
-   - I've seen the [[https://www.skraper.net/][Skraper tool]] recommended for this, but it doesn't run on MacOS and I couldn't be bothered to switch to my windows laptop, so no cover images for now.
+   - I cleared preexisting portmaster files from EASYROMS/tools/
+   - Back on the ArkOS menu, I ran the script from options -> tools
+   - After this I could add new ports by placing them in EASYROMS/tools/PortMaster/autoinstall and following any other port specific instructions. This typically means dropping some game assets at EASYROMS/ports/<gamename>/
+   - Browsing the [[https://portmaster.games/games.html][portmaster catalog]] by "most downloaded" is a good way to get ideas on how to spice up the tiny tiny set go catalog.
+5. I applied some hotkey re-mappings recommended by the setup video and some extra ones to handle the save state slots.
+   - Note that these mappings only apply to retroarch managed ROMS, other emulators like the PSP one, will stick with default keybindings.
+6. Since the BATLEXP has no internet access, and it's not straightforward to add them manually, I have no preview covers in the menu.
+   - I've seen the [[https://www.skraper.net/][Skraper tool]] recommended for this, but it doesn't run on macOS and I couldn't be bothered to switch to my windows laptop, so no cover images for now.
 
 ** 2. games
 
