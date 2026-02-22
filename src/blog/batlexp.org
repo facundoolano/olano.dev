@@ -10,9 +10,14 @@ draft: true
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-[TODO screenshot]
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/batlexp.jpg">
+</div>
+#+END_EXPORT
 
-** intro
+
+** 0. intro
 
 0. [@0] A few years ago, I setup a retro gaming console in a raspberry pi with recalbox. Using that I cleared many classics from my backlog: /A Link to the Past/, /Final Fantasy VI/, /Chrono Trigger/, /Suikoden II/, /Final Fantasy Tactics/. I started many others that I didn't stick with, and I upgraded the rapsberry pi, and I tried other emulation station distros, but eventually stopped using it. Mostly because it was a hassle to plug it into my TV and pair the bluetooth controller every time I wanted to play.
 1. Recently I came across this [[https://www.421.news/en/r36s-retro-handheld-taking-over-2025/][local magazine article]] and learn a few interesting things:
@@ -34,7 +39,7 @@ draft: true
    a. setting up the system,
    b. making plans or interesting games to try, and get them working on the console.
 
-** setup
+** 1. setup
 
 1. As with the R36S, I read recommendations of changing the stock OS and romset from the BATLEXP.
    - I went with the ArkOS distribution; another popular one is Pan4Elec.
@@ -60,7 +65,7 @@ draft: true
 6. Since the BATLEXP has no internet access, and it's not enough to just drop a collection of images in the partition for them to be picked up by the system, I have no preview covers in the menu.
    - I've seen the [[https://www.skraper.net/][Skraper tool]] recommended for this, but it doesn't run on MacOS and I couldn't be bothered to switch to my windows laptop, so no cover images for now.
 
-** games
+** 2. games
 
 1. Turing-completeness of an electronic device is not proven until it runs *Doom*. In ArkOS I can drop the WAD files into a top level doom folder, as if it was another emulated console. I can also run it, as well as its mods, through the [[https://portmaster.games/detail.html?name=doomengines][doomengines port]]. There are likewise ports for Wolfenstein, Quake, and friends. There's the deadly cute [[https://freds72.itch.io/poom][Poom]] for the pico-8, which can also run on the BATLEXP. And then there's Doom64, which is not a port but its own game, one so dark that to play it I need to bump the brightness to the max, turn the lights off, sit in a corner of the room, hide under a blanket.
 2. I have fond memories of *Prince of Persia*. I played it on an old CGA 286 PC that I inherited from a cousin before I got my first real computer. The colors were ugly but the animations defied the limitations of that machine; seeing the guy run, jump, and hang was like watching a movie. All of those memories came back recently while I read [[https://www.jordanmechner.com/en/books/journals/][Jordan Mechner's journals]]. And now I'm pleased to see how well the game fits this little handheld when played through the SDLPoP port. With the timer turned off, Prince of Persia is as much elegant puzzle as it is cinematic platformer. More than any of the sequels, two of its spiritual successors also feature in my imaginary plans: *Flashback*, on the Sega Genesis, and Another World, on the Sega CD.
