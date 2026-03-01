@@ -2,6 +2,7 @@ server {
     server_name blog.olano.dev;
     return 301 https://olano.dev/blog$request_uri;
 
+
     listen 443 ssl; # managed by Certbot
     ssl_certificate /etc/letsencrypt/live/blog.olano.dev/fullchain.pem; # managed by Certbot
     ssl_certificate_key /etc/letsencrypt/live/blog.olano.dev/privkey.pem; # managed by Certbot
@@ -16,15 +17,16 @@ map $uri $uri_no_trailing_slash {
     default $uri;
 }
 
+
 server {
 
-        charset utf-8;
+	charset utf-8;
 
 	root /var/www/olano.dev;
 
 	server_name olano.dev www.olano.dev;
 
-        # blocklist abusive hotlinkers
+	# blocklist abusive hotlinkers
         location ~ \.(jpg|jpeg|gif|png|ico)$ {
             valid_referers ~.*zoho.com;
             if ($invalid_referer = ''){
@@ -32,21 +34,19 @@ server {
             }
         }
 
+	# block abusive user agent
+	if ($http_user_agent ~* "Thinkbot") {
+          return 444;  # or 403
+        }
+
 	location / {
-	    # First attempt to serve request as file, then as directory.
-            # also handle the case where there's a file instead of a dir, but
-            # the request comes with trailing slash --we still want to serve the file in that case.
-            # otherwise respond 404.
-	    try_files $uri $uri.html $uri/ $uri_no_trailing_slash $uri_no_trailing_slash.html =404;
+		# try_files $uri $uri.html $uri/ $uri_no_trailing_slash $uri_no_trailing_slash.html =404;
+		try_files $uri $uri.html $uri/index.html =404;
 	}
-
-        # redirect old jekyll blog posts to new jorge locations
-        rewrite "^/\d{4}-\d{2}-\d{2}-(?<slug>.+?)/?$" /blog/$slug permanent;
-
-        # redirect old blog rss url to new one
-        rewrite ^/feed/$ https://olano.dev/feed.xml permanent;
-
-        # redirect standard paths to fragments where they are defined
+	# redirect old jekyll blog posts to new jorge locations
+	rewrite "^/\d{4}-\d{2}-\d{2}-(?<slug>.+?)/?$" /blog/$slug permanent;
+	rewrite ^/feed/?$ https://olano.dev/feed.xml permanent;
+	# redirect standard paths to fragments where they are defined
         rewrite ^/ideas/?$ /blog/tags#ideas redirect;
         rewrite ^/about/?$ /#about redirect;
 
@@ -58,7 +58,10 @@ server {
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
+
     expires 2h;
+
+
 }
 server {
     if ($host = olano.dev) {
@@ -83,6 +86,41 @@ server {
 
     server_name blog.olano.dev;
     listen 80;
+    return 404; # managed by Certbot
+
+
+}
+
+
+server {
+    if ($host = olano.dev) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+    server_name news.olano.dev; # managed by Certbot
+    return 404; # managed by Certbot
+
+
+
+
+    listen [::]:443 ssl; # managed by Certbot
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/olano.dev/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/olano.dev/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+}
+server {
+    if ($host = news.olano.dev) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+
+
+	listen 80 ;
+	listen [::]:80 ;
+    server_name news.olano.dev;
     return 404; # managed by Certbot
 
 
