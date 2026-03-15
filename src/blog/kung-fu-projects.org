@@ -1,0 +1,20 @@
+---
+title: "'I Know Kung-Fu' Projects"
+date: 2026-03-15T13:45:41-03:00
+layout: post
+lang: en
+tags: [projects, ai, ideas]
+draft: true
+image: kungfu2.jpg
+cover-img: kungfu.jpg
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+The hyperbolic time chamber, also known as the "room of spirit and time", is a dimension in the /Dragon Ball Universe/ where time is compressed such that a full year can be spent in the room while just a day passes in the external world. The /Dragon Ball/ characters typically use it for intensive training to level up before a big boss fight.
+
+Last year I goofed with the idea of [[hyperbolic-time-chamber-projects][hyperbolic time chamber projects]], those for which it wasn't enough to get loads of free time to get them started, but basically required that time stood still[fn:1] and all my worries, present and future, went away; projects that I'd liked to work on, in theory, but in practice would take a full disruption of time and space for me to gather the will to carry them out.
+
+*** Notes
+
+[fn:1] I also relate this to /The Secret Miracle/, a Borges story where a Jewish author prays for a chance to finish his masterpiece before the Nazis execute him, and God concedes by freezing time right at the 'fire' command, for him to finish the play in his mind.
