@@ -15,6 +15,16 @@ The hyperbolic time chamber, also known as the "room of spirit and time", is a d
 
 Last year I goofed with the idea of [[hyperbolic-time-chamber-projects][hyperbolic time chamber projects]], those for which it wasn't enough to get loads of free time to get them started, but basically required that time stood still[fn:1] and all my worries, present and future, went away; projects that I'd liked to work on, in theory, but in practice would take a full disruption of time and space for me to gather the will to carry them out.
 
+I've been thinking again about this concept and its relation to AI. I started to use newer models at work and I must admit that they are indeed getting less dumb at task execution; I have no reason to doubt [[https://minimaxir.com/2026/02/ai-agent-coding/][serious engineers]] that report success in throwing increasingly ambitious projects at LLM agents. If the trend continues, it's fair to say that these tools will enable a form of time compression: we will still need to put in the design and spec effort, but tasks that would otherwise take weeks or months could be carried out in mere hours of background work. Could Claude be my hyperbolic time chamber?
+
+So I went back and re-read my post from last year and saw the list of project examples I listed: a Game Boy emulator, a search engine, a little OS. All standard projects an LLM should be able to execute, with plenty of reference implementations and knowledge already baked into its training data, right? But then, why would I bother? All of those projects were about training and knowledge acquisition, they were about leveling up.
+These projects which were almost all execution, would get [[https://beej.us/blog/data/ai-making/][killed by delegation]]. No one needs a new Game Boy emulator (at least not one I could design), all the joy was in the ride.
+
+Another recent piece, [[https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/][Grief and the AI Split]], made me ask what exactly is that I like about software building. In the divide proposed by the author, I'm more make-it-go than craft-lover, but still I'm torn: I don't care for code in the abstract, unattached from whatever thing I'm building, but experience thought me that simplicity---which is not totally different from elegance and beauty---is the best way to make things happen. I'm one to take ugly shortcuts to get something on screen but the same person that spends inordinate amounts of time adding comments, renaming variables, and shuffling functions around.
+
+So I think there's less of a split and more like a set of different hats one gets to wear, each providing its own form of creative pleasure. There's the joy of hand crafting things no one needs or that won't even be finished; joy in designing an artifact and seeing it materialized, even if its implementation is largely delegated; and there's also joy in using good software, programs that /feel right/, that do precisely the thing we want them to do---perhaps because we built them ourselves.
+
+
 *** Notes
 
 [fn:1] I also relate this to /The Secret Miracle/, a Borges story where a Jewish author prays for a chance to finish his masterpiece before the Nazis execute him, and God concedes by freezing time right at the 'fire' command, for him to finish the play in his mind.
