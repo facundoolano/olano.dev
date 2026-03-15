@@ -1,5 +1,5 @@
 ---
-title: "'I Know Kung-Fu' Projects"
+title: "'I know kung-fu' Projects"
 date: 2026-03-15T13:45:41-03:00
 layout: post
 lang: en
@@ -24,6 +24,7 @@ Another recent piece, [[https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-s
 
 So I think there's less of a split and more like a set of different hats one gets to wear, each providing its own form of creative pleasure. There's the joy of hand crafting things no one needs or that won't even be finished; joy in designing an artifact and seeing it materialized, even if its implementation is largely delegated; and there's also joy in using good software, programs that /feel right/, that do precisely the thing we want them to do---perhaps because we built them ourselves.
 
+There are other projects I frequently think about, beside my /hyperbolic time chamber/ ones. Projects where I want the thing done, as a user, regardless of the process. I want a [[agents2][book trading webapp]], a TUI music album player, a golang port of [[https://github.com/facundoolano/feedi][my RSS reader]], a small-web alternative to GoodReads. These are not time chamber projects, not akin to Goku's intensitve training but more like the lazy-ass skill uploads Neo gets on /The Matrix/. I'll call these my 'I know kung-fu' projects.
 
 *** Notes
 
