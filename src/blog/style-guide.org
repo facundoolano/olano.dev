@@ -1,0 +1,17 @@
+---
+title: My programming style guide
+date: 2026-03-15T11:17:29-03:00
+layout: post
+lang: en
+tags: [programming, software, ai, projects]
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+I use LLMs a lot for coding these days, like most devs I know, but still feel a bit sick about crafting elaborate prompts and weird ~AGENTS.md~ files, as if I could somehow imbue these tools with personality or good sense. I've occasionally found myself sending Claude to read one of my blog posts before starting a task (e.g. for [[unit-testing-principles][testing conventions]] or to provide context about a project), so I thought why not focus on documenting more of my habits and preferences, for a human audience, for my own sake? If I make something human-readable enough then surely Claude should be able to handle it. So I started this [[https://github.com/facundoolano/style-guide][style guide repo]], for now a chaotic brain dump and summary of my favorite software design resources; it will likely require better organization and more examples to be useful.
+
+Why even bother with style if it looks like we won't be writing much code anymore? Maybe we won't, but at least for now we still have to read a lot of it, so I'd rather have LLMs output something that fits my preferences. If it does turn out that [[dangerously-skip][we won't need]] to even read the code anymore, then indulge me on this, my own personal farewell to that side of the craft. I also posit that better style makes better design, and better design leads to better software, LLM or not.
+
+You'll notice that much of the document is spent on software design concerns. I think that programming style is a spectrum that goes from trivial formatting choices (tabs vs spaces, max line length, etc) to software design, even architecture. The automatable aspects should be just automated away and need no discussion. It's the bits that spill into design that are worth being opinionated about: how we distribute code across files directly maps to system modularization; how we name things strongly influences how we understand, communicate about, and modify the system; and so on.
+
+More important than any prescriptive opinion is the ability to trace it back to some agreed upon principle. Opinions are made to be changed, and only by going back to common ground can we evolve our understanding and prevent dogmatism.
