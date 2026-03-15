@@ -1,3 +1,10 @@
+- author: Sally Rooney
+  cover_file: sally-rooney-intermezzo.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716387702l/209311051._SY475_.jpg
+  published_at: 2026-03-15
+  rating: 4
+  read_at: 2026-03-15
+  title: Intermezzo
 - author: Roberto Bolaño
   cover_file: roberto-bolano-estrella-distante.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348578584l/59232.jpg
@@ -1402,10 +1409,3 @@
   rating: 3
   read_at: 2020-11-12
   title: Zona caliente
-- author: Jimmy Maher
-  cover_file: jimmy-maher-the-digital-antiquarian-volume-1.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1452664699l/28530188.jpg
-  published_at: 2020-10-28
-  rating: 4
-  read_at: 2020-10-28
-  title: 'The Digital Antiquarian Volume 1: 1966-1979'
