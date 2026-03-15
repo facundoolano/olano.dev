@@ -1,4 +1,7 @@
 - date: 2026-03-15
+  txt: published ['I know kung-fu' Projects](/blog/kung-fu-projects)
+  tags: [blog]
+- date: 2026-03-15
   txt: published [My programming style guide](/blog/style-guide)
   tags: [blog]
 - date: 2026-02-22
