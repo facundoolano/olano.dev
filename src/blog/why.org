@@ -1,0 +1,24 @@
+---
+title: What is this and why is it here?
+subtitle: The Why Programming Language
+date: 2026-03-28T20:34:19-03:00
+layout: post
+lang: en
+tags: [programming, ideas]
+draft: true
+image: why.png
+refs: [ousterhout]
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+As I worked on my [[style-guide][programming style guide]], channeling my inner code reader, recalling what is it like to dive into an unfamiliar codebase, to look for clues in its components and effectively extract knowledge from them, a particular formulation came to mind: /what is this/ and /why is it here?/. I realized that looking for answers to those questions, and supplying them myself, makes a large part of my work on software artifacts of all sizes, from a simple function to an entire project, from the PR description to the user story that it (hopefully) comes from. So here's yet another hyperbolic definition of the software development process: to answer /what is this/ and /why is it here/, over and over.
+
+The /what is this and why is it here/ formula is just a specific instance of one of Ousterhout's principles: /code should be obvious/. The harder to find those answers---the further they are from the code at hand---the likelier that something's missing or something should be removed. Maybe that module needs a top-level docstring to explain its purpose, or a link to some relevant documentation; maybe engineers didn't ask enough questions to the product folks to clarify the goal of this user story; maybe this new function could be replaced or absorbed by a preexisting one; maybe we don't need this feature at all. When the artifact doesn't easily provide those answers, the engineer needs to make the extra effort to go looking for them (this is obscurity, a form of complexity). When those inquiries yield answers, it's the engineer's job to incorporate that found knowledge into the code, perhaps reorganizing it to (again in Ousterhout's parlance) /emphasize what matters/, making the questions easier to answer next time around.
+
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
+
+I began to think about a language designed to encourage programmers, perhaps even force them, to think about those questions and provide their answers as they write the code:
