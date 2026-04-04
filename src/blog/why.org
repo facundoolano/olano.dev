@@ -1,6 +1,5 @@
 ---
 title: What is this and Why is it here?
-subtitle: The Why Programming Language
 date: 2026-04-04T16:00:19-03:00
 layout: post
 lang: en
@@ -32,72 +31,13 @@ One way to emphasize what matters is to make it prominent, and the most prominen
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-Imagine a language designed to encourage programmers, perhaps even force them, to constantly think about and provide answers to those questions[fn:2].
 
-The core feature of this language would be the ~why:~ statement, a form of docstring required on all modules and module exports. If this sounds like an annoyance, it would be, but a useful one: hard to think about a reason to introduce this new module? Maybe there isn't a good one. Hard to explain why this function needs to be exported? Then maybe it shouldn't. Suddenly there's a force pushing you to build deeper modules.
+Now that we can [[kung-fu-projects][allegedly wish]] any software into existence, imagine we had the right tooling to encourage programmers, perhaps even force them, to constantly think about and provide answers to those questions.
 
-Much like in Erlang, modules would declare what they export, and these declarations would go at the top of the file, before imports, because exports make the interface, and imports are implementation details. Incidentally, each import statement should also be accompanied by its ~why:~. Are you sure you need to bring in that external piece of code? Are you sure it really needs to be external?
-
-We could even have some of those pesky LLM review bots check that the ~why:~ docs are actually giving plausible answers and not just lazily reiterating the code.
-
-
-#+BEGIN_CENTER
-\lowast{} \lowast{} \lowast{}
-#+END_CENTER
-
-What would that look like?
-#+begin_src rust
-export struct Game {
-    why: "Holds the entire game state, including the hero character and its current location.
-          Its methods implement rpg-cli's core gameplay: moving across directories and engaging in battles."
-
-    fn new() -> Self
-        why: "starts a game, rolling a new character."
-
-    fn reset(&mut self)
-        why: "resets the current game, rolling a new character."
-
-    fn go_to(mut self, dest: &Location)-> Result<(), character::Dead>
-        why: "core gameplay of the game: move the hero's location towards the given destination,
-              one directory at a time, with some chance of enemies appearing on each one."
-
-    player: Character      why: "tracks hero status and equipment."
-    location: Location     why: "tracks current hero location in the filesystem."
-    gold: i32              why: "tracks accumulated gold, usable to buy items."
-    inventory: Vec<Item>   why: "tracks collected and currently unequipped items."
-}
-
-impl Game {
-    import characters      why: "To define the hero and spawned enemies."
-    import location        why: "To track and update the hero location."
-    import items           why: "inventory, battle rewards, hero equipment."
-    import randomizer      why: "To randomly spawn enemies and yield battle rewards."
-    import json            why: "for game data serialization/deserialization."
-
-    fn new() -> Self
-    {
-        Self {
-            player: Character::player(),
-            location: Location::home(),
-            gold: 0,
-            inventory: HashMap::new()
-        }
-    }
-
-    // ...
-}
-#+end_src
-
-Problems:
-- When a module purpose is to hold a single struct, as in the example above, it's probably redundant to justify the module and the struct.
-- Some code is self explanatory, do we really need to always explicitly justify it? Isn't that like those old java shops that forced a docstring on getters and setters? Maybe we need an ~obvious~ keyword to bypass documentation.
-- Reading the code to understand the system is a different activity from scanning the code in order to update it. Maybe I just want to see a straight struct definition and not its documentation.
-- Public function declaration duplicates need to be reiterated in the implementation, which smells like C++ header files. That two-way syncing should be done by a machine.
-- Similarly, during development it's more convenient to inline the docstrings in the function definitions rather than their top-level declarations.
-
-Should we have separate reader/writer modes of modules? Reader mode being similar to what the Python shell shows upon ~help()~ invocations? Do we need smarter fmt tools to more heavily rearrange the code, optimizing it for readability? As machine generated code prevails, should we move towards interface-focused reviews and pay less attention to implementation? Is this [[http://www.literateprogramming.com/knuthweb.pdf][literate programming]]?
+Imagine a fmt tool that would push public declarations to the top and implementation details to the bottom; editor plugins to seamlessly switch between reader and writer modes on a file[fn:3]; a pesky LLM review bot that would scan modules and reject those that don't justify their purpose plausibly enough; a programming language that required a ~why:~ clause to allow a new module to be defined or a local function to be exported[fn:2].
 
 *** Notes
-[fn:2] It would be called the Why Programming Language, whylang; file extension ~.why~ if not just ~.y~.
 
+[fn:3] A reader mode yielding something similar to the ~help()~ invocation in a Python shell or a live markdown export of the docstrings of a file.
+[fn:2] It would be called the Why Programming Language, whylang; file extension ~.why~ if not just ~.y~. This ~why:~ clause would add friction to interface expansion, nudging programmers into building deeper modules.
 [fn:1] This is more or less the definition of obscurity, a source of complexity.
