@@ -5,7 +5,7 @@ layout: post
 lang: en
 tags: [programming, ideas]
 image: why.png
-refs: [ousterhout]
+refs: [ousterhout, literate]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
