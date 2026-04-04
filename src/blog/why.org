@@ -1,0 +1,44 @@
+---
+title: What is this and Why is it here?
+date: 2026-04-04T14:00:19-03:00
+layout: post
+lang: en
+tags: [programming, ideas]
+image: why.png
+refs: [ousterhout, literate]
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: en
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/why.png">
+</div>
+<br/>
+#+END_EXPORT
+
+
+As I worked on my [[style-guide][programming style guide]], channeling my inner code reader, recalling what it is like to dive into an unfamiliar codebase---to look for clues in its components and effectively extract knowledge from them---a particular formulation came to mind: /what is this and why is it here?/. I realized that looking for answers to those questions, and supplying them myself, makes up a large part of my work on software projects. These questions apply to artifacts of all sizes, from humble functions to entire projects, from a pull request description to the user story that it (hopefully) originated from. Behold yet another hyperbolic definition of the software development process: to answer /what is this/ and /why is it here/, over and over.
+
+The what and why formula is just a specific instance of one of Ousterhout's principles: /code should be obvious/. The harder it is to find answers---the further they are from the piece of code in question---the likelier that something's missing or something needs to be removed. Maybe that module needs a top-level docstring to explain its purpose, or a link to relevant documentation; maybe this new function could be replaced or absorbed by a preexisting one; maybe engineers didn't ask enough questions to the product folks to clarify the intent of this user story; maybe we don't need this feature at all.
+
+When an artifact doesn't readily provide the /what/ and the /why/, the engineer needs to make an extra effort to go somewhere else looking for answers[fn:1]. When those inquiries yield results, it's the engineer's job to incorporate that newly found knowledge into the project, perhaps reorganizing the code while at it, to (again using Ousterhout's parlance) /emphasize what matters/, making the questions easier to answer next time around.
+
+/Why is it here/ is not just about existence, it's also about place. One way to emphasize what matters is to make it prominent, and the most prominent things are those that come first, so I've been making efforts, when I write code, to make it readable top-to-bottom, placing important things---those that provide the /what/ and the /why/---at the top, pushing details below, assuming that most readers shouldn't need to go past the first few lines of a module to find what they are looking for.
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
+
+
+Now that we can [[kung-fu-projects][allegedly wish]] any software into existence, imagine we had the right tooling to encourage programmers, perhaps even to force them, to constantly think about and provide answers to the /what/ and /why/ questions.
+
+Imagine an editor plugin to seamlessly switch between reader and writer modes on a file[fn:3]; a fmt tool that would push public declarations to the top and implementation details to the bottom;  a programming language that required a ~why:~ clause to allow a new module to be defined or a private function to be exported[fn:2]; a pesky LLM linter to reject modules that don't justify their purpose plausibly enough; a code review application that emphasized interfaces over implementations.
+
+Would that be [[http://www.literateprogramming.com/knuthweb.pdf][literate programming]]?
+
+*** Notes
+
+[fn:3] A reader mode yielding something similar to the ~help()~ invocation in a Python shell or a live markdown export of the docstrings of a file.
+[fn:2] It would be called the Why Programming Language, whylang; file extension ~.why~ if not just ~.y~. This ~why:~ clause would add friction to interface expansion, nudging programmers into building deeper modules.
+[fn:1] This is more or less the definition of obscurity, a source of complexity.
