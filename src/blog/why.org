@@ -1,5 +1,6 @@
 ---
 title: What is this and Why is it here?
+subtitle: The Why Programming Language
 date: 2026-03-28T20:34:19-03:00
 layout: post
 lang: en
@@ -31,15 +32,15 @@ One way to emphasize what matters is to make it prominent, and the most prominen
 \lowast{} \lowast{} \lowast{}
 #+END_CENTER
 
-I began to imagine a language designed to encourage programmers, perhaps even force them, to constantly think about those questions and provide their answers as they write the code. It would be called the Why programming language, whylang; file extension ~.why~ or even ~.y~.
+Imagine a language designed to encourage programmers, perhaps even force them, to constantly think about and provide answers to those questions[fn:2].
 
-  - The most important thing about a module is the symbols it exports (the what) so those should go at the top.
-  -
+The core feature of this language would be the ~why:~ statement, a form of docstring required on all modules and module exports. If this sounds like an annoyance, it would be, but a useful one: hard to think about a reason to introduce this new module? Maybe there isn't a good one. Hard to explain why this function needs to be exported? Then maybe it shouldn't. Suddenly there's a force pushing you to build deeper modules.
 
-so I like to make my modules readable from top to bottom, putting what's important first.
+Much like in Erlang, modules would declare what they export, and these declarations would go at the top of the file, before imports, because exports make the interface, and imports are implementation details. Incidentally, each import statement should also be accompanied by its ~why:~. Are you sure you need to bring in that external piece of code? Are you sure it really needs to be external?
 
-  -
+We could even have some of those pesky LLM review bots check that the ~why:~ docs are actually giving plausible answers and not just lazily reiterating the code.
 
-* Notes
+*** Notes
+[fn:2] It would be called the Why Programming Language, whylang; file extension ~.why~ if not just ~.y~.
 
 [fn:1] This is more or less the definition of obscurity, a source of complexity.
