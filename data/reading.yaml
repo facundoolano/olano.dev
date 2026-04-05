@@ -1,3 +1,10 @@
+- author: Donald A. Norman
+  cover_file: donald-a-norman-the-design-of-everyday-things.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387147719l/18012365.jpg
+  published_at: 2026-03-28
+  rating: 0
+  read_at: 2026-03-28
+  title: The Design of Everyday Things
 - author: Herman Melville
   cover_file: herman-melville-moby-dick.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476908142l/32707761.jpg
@@ -5,10 +12,3 @@
   rating: 0
   read_at: 2026-03-06
   title: Moby-Dick
-- author: Roberto Bolaño
-  cover_file: roberto-bolano-a-la-intemperie.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549415731l/43853318.jpg
-  published_at: 2025-12-31
-  rating: 0
-  read_at: 2025-12-31
-  title: A la intemperie

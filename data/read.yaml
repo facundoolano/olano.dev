@@ -1,8 +1,15 @@
+- author: Roberto Bolaño
+  cover_file: roberto-bolano-a-la-intemperie.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549415731l/43853318.jpg
+  published_at: 2026-04-05
+  rating: 3
+  read_at: 2026-04-05
+  title: A la intemperie
 - author: Sally Rooney
   cover_file: sally-rooney-intermezzo.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716387702l/209311051._SY475_.jpg
   published_at: 2026-03-15
-  rating: 4
+  rating: 5
   read_at: 2026-03-15
   title: Intermezzo
 - author: Roberto Bolaño
@@ -1402,10 +1409,3 @@
   rating: 4
   read_at: 2020-11-21
   title: Manual para mujeres de la limpieza
-- author: Charles    Williams
-  cover_file: charles-williams-zona-caliente.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1478094388l/32858453._SY475_.jpg
-  published_at: 2024-09-08
-  rating: 3
-  read_at: 2020-11-12
-  title: Zona caliente
