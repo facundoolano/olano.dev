@@ -11,10 +11,24 @@ image: sims.jpg
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
 
-Tengo entendido que /The Sims/ fue furor en el 2000 pero yo lo compré al boleo, un año después, porque reconocía el logo de Maxis, pensando que me estaba llevando un /SimCity/ última generación. Lo que encontré, después de empujar la compactera y darle siguiente-siguiente al instalador, era distinto de todo lo que conocía y supongo que eso explica parte de mi fascinación. El /Sims/ era a la vez dos juegos marcadamente diferentes: uno de arquitectura y diseño de interiores, con fondo de bossa-nova y jazz contemplativo, y el otro un doll house medio tóxico, que estimulaba un voyeurismo de reality show. A mi los dos me gustaban a partes iguales, pero creo que en eso era la excepción: sé que para muchos jugadores el modo constructor era un fastidio, que apuraban alegremente a fuerza de cheat codes. Algo parecido me pasaba con otros juegos, por caso el /Age of Empires/, del que disfrutaba mucho más la etapa de acumulación y despliegue de murallas que del armado de ejércitos y las guerras que desbarataban todo lo anterior. Yo me quería quedar viviendo en ese reino y, a menor escala, a falta de algo mejor, era eso lo que ofrecía el /Sims/. Muchísimos años después me complació enterarme de que ese supuesto juego de arquitectura fue el punto de partida para Will Wright:
+1.​ Tengo entendido que /The Sims/ fue furor en el 2000 pero yo lo compré al boleo, un año después, porque reconocía el logo de Maxis, pensando que me estaba llevando un /SimCity/ última generación. Lo que encontré, después de empujar la compactera y darle siguiente-siguiente al instalador, era distinto de todo lo que conocía y supongo que eso explica parte de mi fascinación. El /Sims/ era a la vez dos juegos marcadamente diferentes: uno de arquitectura y diseño de interiores, con fondo de bossa-nova y jazz contemplativo, y el otro un doll house medio tóxico, que estimulaba un voyeurismo de reality show. A mi los dos me gustaban a partes iguales, pero creo que en eso era la excepción: sé que para muchos jugadores el modo constructor era un fastidio, que apuraban alegremente a fuerza de cheat codes. Algo parecido me pasaba con otros juegos, por caso el /Age of Empires/, del que disfrutaba mucho más la etapa de acumulación y despliegue de murallas que del armado de ejércitos y las guerras que desbarataban todo lo anterior. Yo me quería quedar viviendo en ese reino y, a menor escala, a falta de algo mejor, era eso lo que ofrecía el /Sims/. Muchísimos años después me complació enterarme de que ese supuesto juego de arquitectura fue el punto de partida para Will Wright:
 
 #+begin_quote
 I wanted /The Sims/ to be an architecture game that assesed what you did from a human point of view. The people in /The Sims/ were originally there to score the architecture.
 #+end_quote
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
 
-Will Wright se inspiró en /A Pattern Language/ de Christopher Alexander, una cita habitual en los libros de ingeniería de software que por una razón u otra nunca hice entrar en mi [[my-software-bookshelf][biblioteca personal]].
+2.​ Will Wright se inspiró en /A Pattern Language/ de Christopher Alexander, cita habitual en los libros de ingeniería de software que por una razón u otra nunca hice entrar en mi [[my-software-bookshelf][biblioteca personal]]. Acaso por su asociación directa con los patrones de diseño del /Gang of Four/, que tantos dolores de cabeza nos dieron, ejemplo de la costumbre en nuestra industria de adoptar buenas ideas y convertirlas en armas de destrucción masiva. La aparición recurrente del nombre de Alexander no es casual, sin embargo; este artículo reciente me convenció finalmente de darle una oportunidad, ahora que la tecnología parece obligarnos a dejar la materia prima, ahora que la arquitectura (de software) se proclama como el nuevo ámbito para los humanos y ahora que, para mi gusto, hace falta más diseño que nunca:
+
+#+begin_quote
+Architecture is making sure that doing something the quick and dirty way is also doing it the right way.
+#+end_quote
+
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+3.​ Hace más de 15 años que trabajo desde casa y más de 10 que vivo en este departamento, donde entre otras cosas atravesé la cuarentena. Supongo que me costaría mucho un hipotético regreso a la oficina tradicional pero, como contracara, tantas horas en el mismo espacio, la cama a tres pasos del escritorio, empiezan a pasarme factura. Bien me haría un rutinario cambio de aire, caminata o paseo en bici para empezar y cerrar el día, la ocasión de interactuar con otros terrícolas. En suma, que considero trasladar mi oficina, separarla de la vivienda, y ese proyecto implica imaginar un nuevo espacio, pensar como amueblarlo, como habitarlo. Un juego combinatorio de necesidades, presupuestos y preferencias no del todo extraño a los patrones de Christopher Alexander, no del todo distinto de aquellas sesiones iniciales en el /Sims/.
