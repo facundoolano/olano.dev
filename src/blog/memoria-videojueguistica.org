@@ -7,6 +7,7 @@ image: memo/winning.jpg
 date: 2020-09-29T10:00:00-03:00
 tags: [videojuegos, programación, memorias]
 lang: es
+refs: [sims]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

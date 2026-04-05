@@ -525,3 +525,11 @@
   title: Elogio de la pieza ausente
   author: Antoine Bello
   year: 1998
+- id: sims
+  title: The Sims
+  year: 2000
+  author: Will Wright
+- id: alexander
+  title: "A Pattern Language: Towns, Buildings, Construction"
+  author: Christopher Alexander
+  year: 1977

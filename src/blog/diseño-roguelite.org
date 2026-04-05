@@ -1,0 +1,20 @@
+---
+title: Diseño roguelite
+date: 2026-04-05T17:49:44-03:00
+layout: post
+lang: es
+tags: [videojuegos, software, ideas]
+refs: [replay, sims, alexander]
+draft: true
+image: sims.jpg
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+Tengo entendido que /The Sims/ fue furor en el 2000 pero yo lo compré al boleo, un año después, porque reconocía el logo de Maxis, pensando que me estaba llevando un /SimCity/ última generación. Lo que encontré, después de empujar la compactera y darle siguiente-siguiente al instalador, era distinto de todo lo que conocía y supongo que eso explica parte de mi fascinación. El /Sims/ era a la vez dos juegos marcadamente diferentes: uno de arquitectura y diseño de interiores, con fondo de bossa-nova y jazz contemplativo, y el otro un doll house medio tóxico, que estimulaba un voyeurismo de reality show. A mi los dos me gustaban a partes iguales, pero creo que en eso era la excepción: sé que para muchos jugadores el modo constructor era un fastidio, que apuraban alegremente a fuerza de cheat codes. Algo parecido me pasaba con otros juegos, por caso el /Age of Empires/, del que disfrutaba mucho más la etapa de acumulación y despliegue de murallas que del armado de ejércitos y las guerras que desbarataban todo lo anterior. Yo me quería quedar viviendo en ese reino y, a menor escala, a falta de algo mejor, era eso lo que ofrecía el /Sims/. Muchísimos años después me complació enterarme de que ese supuesto juego de arquitectura fue el punto de partida para Will Wright:
+
+#+begin_quote
+I wanted /The Sims/ to be an architecture game that assesed what you did from a human point of view. The people in /The Sims/ were originally there to score the architecture.
+#+end_quote
+
+Will Wright se inspiró en /A Pattern Language/ de Christopher Alexander, una cita habitual en los libros de ingeniería de software que por una razón u otra nunca hice entrar en mi [[my-software-bookshelf][biblioteca personal]].
