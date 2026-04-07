@@ -5,7 +5,6 @@ layout: post
 lang: es
 tags: [videojuegos, software, ideas]
 refs: [replay, sims, alexander]
-draft: true
 image: sims.jpg
 excerpt: Contra la opulencia del narco bonaerense, un minimalismo de artesano japonés.
 ---
