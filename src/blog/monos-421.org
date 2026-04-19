@@ -75,6 +75,20 @@ Como buen programador de sistemas que era, también, Gilbert fue demasiado ambic
 
 "Manténganse chicos, sean los mejores, no pierdan plata". Ese lacónico mensaje fue todo lo que George Lucas les dijo la única vez que se molestó en visitar su división de videojuegos. Lucas tenía poco interés en la computación y mucho menos en los juegos; la existencia de LucasFilm Games, así como su supervivencia, se debía a una serie de accidentes corporativos.
 
+- después de una traumática experiencia de producción y del éxito de SW, tratando de aliviar el trabajo para las secuelas, Lucas empezó a invertir fuerte en tecnología.
+
+- Acaso su mayor legado sea, antes que su franquicia o sus películas, el haber plantado las semillas de la revolución tecnológica que la industria del entretenimiento experimentó a principios de los años noventa. En Lucasfilm nacieron el audio de THX, las animaciones de Pixar, los efectos especiales de Industrial Light & Magic (sin los cuales no podríamos explicar Terminator 2 y Jurassic Park). Es simbólico que haya establecido su productora más cerca de Sillicon Valley que de Hollywood: Lucas fue un visionario, uno de los primeros en apostar al uso de las computadoras en el cine, aún si los frutos de su inversión llegaron muy después del final de su primera trilogía.
+
+- (Pixar que incubó cinco años de pérdidas para Lucas y otros tantos para Steve Jobs antes de encabezar el Renacimiento del cine animado)
+
+- hacia 198x, por la epoca en que Ron Gilbert se sumó a la empresa, los mudaron al idílico Skywalker Ranch, el "refugio del cineasta" que Lucas se mandó a armar---pese a que no dirigiría otra película en una década.
+
+- en oficinas disfrazadas de edificios de granja, entre animales pastando frente a un lago, comiendo en el mismo buffet en el que George Lucas almorzaba con Leonard Nimoy o los Rolling Stones
+- asistiendo a las premieres privadas de las películas de Spielberg en la sala de proyecciones <art deco>
+director que, dicho sea de paso, estaba mucho más interesado en la tecnología que el propio Lucas y aprovechaba cada oportunidad que tenbía para a probar lo último del grupo de juegos.
+
+- el edificio neovictoriano inspiró la mansión del juego de Gilbert, que además incluía una biblioteca con escalera de caracol igual a la de Skywalker Ranch
+
 #+BEGIN_EXPORT html
 <div class="text-center">
  <img src="{{site.config.static_root}}/img/421/islita.png">
