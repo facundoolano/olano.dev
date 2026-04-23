@@ -68,7 +68,7 @@ La marea empezó a cambiar hacia mediados de la década, sin embargo: Atari fall
 </div>
 #+END_EXPORT
 
-A sus 19 años, Ron Gilbert ya tenía cierto renombre en el ambiente de programadores Commodore 64 por implementar un paquete gráfico para el lenguaje BASIC que venía con la máquina. En LucasFilm Games conocían su trabajo y pensaron en él para convertir sus juegos Atari a la Commodore. Como la mayoría de los nerds que recibían el llamado de LucasFilm, Gilbert no tuvo mucho que pensar: abandonó la universidad y la casa paterna, metió sus bártulos en el auto y se fue para California.
+A sus 19 años, Ron Gilbert ya tenía cierto renombre en el ambiente de programadores Commodore 64 por implementar un paquete gráfico para el lenguaje BASIC que venía con la máquina. En LucasFilm Games conocían su trabajo y pensaron en él para convertir sus juegos Atari a la Commodore. Como la mayoría de los nerds que recibían el llamado de LucasFilm, Gilbert no tuvo mucho que pensar: abandonó la universidad y su casa paterna, metió sus bártulos en el auto y se fue para California.
 
 Por entonces la división de videojuegos se había trasladado al corazón de la productora en el Skywalker Ranch, un "refugio de cineasta" que Lucas se mandó a construir en el campo, con oficinas disfrazadas de edificios de granja, animales pastando, un viñedo, un lago artificial y hasta un observatorio astronómico. En el centro de la propiedad, una mansión neovictoriana con una sala de cine estilo art déco y una biblioteca de investigación coronada por un domo de cristal. Los empleados de LucasFilm Games no solo gozaban de acceso a tecnología hollywoodense para aplicar en sus juegos, sino que podían compartir el buffet donde Lucas almorzaba con Leonard Nimoy o los Rolling Stones, jugar al softball con Huey Lewis o asistir a proyecciones privadas de las películas de Spielberg---director que, dicho sea de paso, estaba mucho más interesado en la tecnología que Lucas y no perdía oportunidad de darse una vuelta para probar lo fuera que tuvieran en desarrollo.
 
@@ -103,6 +103,12 @@ Después de /Maniac Mansion/, Gilbert había co-dirigido /Indiana Jones and the 
 /The Secret of Monkey Island/ es el metro patrón, la unidad de medida de las aventuras gráficas por venir. A partir de su publicación, el sello de Lucasfilm Games (pronto a llamarse LucasArts) implicó una garantía de calidad, no ya por la asociación con George Lucas sino por un  historial de juegos en una categoría narrativa y de producción superior a la competencia. Al tiempo que el estudio producía una segunda aventura de Indiana Jones y se liberaban los derechos de Star Wars, Gilbert, Grossman y Schafer se pusieron a trabajar en la obligada secuela, /Monkey Island 2: Lechuck's Revenge/. Inmediatamente después, quizás previendo los cambios que se venían, Gilbert se fue a fundar su propia empresa, se refugió inexplicablemente en los juegos infantiles, dejando huérfanas dos franquicias y desentendiéndose del género que prácticamente había inventado.
 
 Ron Gilbert fue, en 1992, el primero en irse de LucasArts pero lo seguirían la mayoría de sus colegas. [[https://www.421.news/es/1998-videojuegos-musica-cine/][Hacia 1998]], después de un Grim Fandango de grandes críticas y pobres ventas, el género fue dado por muerto y empezó un invierno que duraría 15 años.
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/421/20bucks.png">
+</div>
+#+END_EXPORT
 
 -----------
 
