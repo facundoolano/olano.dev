@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 # Fetch goodreads RSS feeds and dump to data files
 
-from datetime import datetime
-import requests
 import re
 import unicodedata
+from datetime import datetime
 from pathlib import Path
 
-import yaml
 import feedparser
-
+import requests
+import yaml
 
 FEED_BASE_URL = "https://www.goodreads.com/review/list_rss/19714153"
 READING_FEED = f"{FEED_BASE_URL}?shelf=currently-reading"
@@ -99,4 +98,4 @@ def sluggify(title):
 
 if __name__ == "__main__":
     fetch_feeds(READING_FEED, "data/reading.yaml", with_images=True)
-    fetch_feeds(READ_FEED, "data/read.yaml", with_images=False, pages=2)
+    fetch_feeds(READ_FEED, "data/read.yaml", with_images=False, pages=5)
