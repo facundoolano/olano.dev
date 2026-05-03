@@ -1,3 +1,17 @@
+- author: Javier Cercas
+  cover_file: javier-cercas-soldados-de-salamina.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332715274l/24001.jpg
+  published_at: 2026-05-03
+  rating: 5
+  read_at: 2026-05-03
+  title: Soldados de Salamina
+- author: Eduardo Halfon
+  cover_file: eduardo-halfon-el-angel-literario.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1266573163l/4187147.jpg
+  published_at: 2026-04-22
+  rating: 2
+  read_at: 2026-04-22
+  title: El ángel literario
 - author: Roberto Bolaño
   cover_file: roberto-bolano-a-la-intemperie.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549415731l/43853318.jpg
@@ -1395,17 +1409,3 @@
   rating: 4
   read_at: 2020-11-28
   title: Camanchaca
-- author: Sergio Bizzio
-  cover_file: sergio-bizzio-el-dia-feliz-de-charlie-feiling.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335197167l/4078317.jpg
-  published_at: 2020-11-22
-  rating: 3
-  read_at: 2020-11-22
-  title: El día feliz de Charlie Feiling
-- author: Lucia Berlin
-  cover_file: lucia-berlin-manual-para-mujeres-de-la-limpieza.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483357720l/29862794._SY475_.jpg
-  published_at: 2022-05-09
-  rating: 4
-  read_at: 2020-11-21
-  title: Manual para mujeres de la limpieza
