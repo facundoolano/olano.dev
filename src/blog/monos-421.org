@@ -10,15 +10,32 @@ cover-img: 421/circus2.jpg
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
 
-Quién no se acuerda de aquellas joyitas noventosas para PC, mezcla de exploración pixelada con puzzles y choreo. Pero para que exista Monkey Island primero hizo falta un loco de las cuevas, una proto-internet anti soviética, el divorcio de Geroge Lucas y algunos accidentes empresariales.
+#+begin_src
+Estás frente a un edificio de ladrillo en el extremo de un camino.
+A tu alrededor hay un bosque. Un pequeño arroyo fluye del edificio
+y baja por un barranco.
+#+end_src
 
--------
+Algo así leían las letras verdes en la pantalla. Abajo, el cursor titilante del /prompt/ invitaba al usuario a escribir algo. /ENTRAR AL EDIFICIO/.
 
-Will Crowther había estudiado física y a principios de los ‘70 trabajaba con computadoras. Trabajaba, específicamente, en ARPANET, un proyecto del Departamento de Defensa para desarrollar infraestructura de comunicaciones capaz de sobrevivir un bombardeo ruso. Por entonces conectada a unas pocas universidades y empresas de investigación, ARPANET derivaría, un par de ajustes geopolíticos más tarde, en lo que conocemos como internet.
+#+begin_src
+Estás en un cobertizo, el pozo de agua de un gran manantial.
 
-Will, entonces, se pasaba sus días programando protocolos de red, pero los fines de semana y las vacaciones los dedicaba a lo que era su verdadera pasión y también la de su esposa Patricia: el “espeleísmo”, en inglés /spelunking/ o /caving/, la exploración recreativa de cuevas. Es decir, en criollo, que la pareja viajaba por el país junto a un grupo de entusiastas, metiéndose en cavernas y trazando mapas de posibles recorridos y conexiones. No hizo falta mucha imaginación para que Will hiciera lo mismo que tantos otros programadores: computarizar su hobby.
+Hay unas llaves en el suelo.
+Hay una reluciente lámpara de latón cerca.
+Hay comida acá.
+Hay una botella de agua acá.
+#+end_src
 
-En 1975, divorcio de por medio y con mucho tiempo libre, se puso a trabajar en una simulación de la caverna que mejor conocía, la /Mammoth Cave/ o /Cueva Colosal/ de Kentucky. Para el proyecto Crowther usó el mainframe PDP-10 de su empresa, una de esas computadoras enormes que ocupan toda una pared y se acceden por terminales remotas. Las terminales, desde ya, [[https://www.421.news/es/tetris-cia-arte-politica-espionaje/][solo podían mostrar texto]], así que la "simulación" de Crowther era puramente descriptiva:
+AGARRAR LÁMPARA. SALIR. IR AL NORTE.
+
+#+begin_src
+Estás en un bosque abierto, con un valle profundo a un lado.
+#+end_src
+
+La escena se repetía en varias universidades y empresas de investigación de de Estados Unidos, cualquier lugar con una computadora conectada a la red ARPANET. El programa, /ADVENT/, tenía obsesionado a todo el personal, se quedaban jugando después de hora, se distraían de sus tareas, desperdiciaban el preciosísimo tiempo de uso de la computadora. Cada mañana el administrador del sistema borraba el programa, y cada mañana lo volvía a encontrar otra vez, copiado por algún usuario de la red, como un virus imposible de erradicar.
+
+Era una experiencia era magnetizante. El usuario parecía entrar en un relato interactivo, como si la computadora fuera el maestro de ceremonias en una campaña de [[https://www.421.news/es/dungeons-dragons-historia-y-legado-lis/][Calabozos y Dragones]]. Nosotros, medio siglo más tarde, podríamos compararlo con [[https://www.421.news/es/los-modelos-de-lenguaje-suenan-con-ovejas-electricas/][chatear con una IA]] por primera vez.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -26,11 +43,11 @@ En 1975, divorcio de por medio y con mucho tiempo libre, se puso a trabajar en u
 </div>
 #+END_EXPORT
 
-#+begin_quote
-Estás frente a un edificio de ladrillo en el extremo de un camino. A tu alrededor hay un bosque. Un pequeño arroyo fluye del edificio y baja por un barranco.
-#+end_quote
+Will Crowther había estudiado física y a principios de los ‘70 trabajaba en el desarrollo de ARPANET. ARPANET era una red que el Departamento de Defensa financiaba con la idea de poder mantener comunicaciones en caso de un bombardeo ruso. Una red que, básicamente, les permitiera responder al ataque. La misma red que, un par de ajustes geopolíticos más tarde, se convertiría en internet.
 
-El programa le hablaba al usuario en segunda persona, le describía un lugar y esperaba instrucciones. El usuario escribía /AGARRAR LÁMPARA/ o /IR AL NORTE/ para así poner al mundo en movimiento. Para la época era una experiencia magnetizante, como protagonizar un relato interactivo o una campaña en un [[https://www.421.news/es/dungeons-dragons-historia-y-legado-lis/][juego de rol]], no del todo distinta a la de [[https://www.421.news/es/los-modelos-de-lenguaje-suenan-con-ovejas-electricas/][chatear con una IA]] por estos días. Para darse una idea, díganle a su ChatGPT o Claude amigo que quieren "jugar a la aventura de Crowther".
+Will, entonces, se pasaba sus días programando protocolos de red, pero los fines de semana y las vacaciones los dedicaba a lo que era su verdadera pasión y también la de su esposa Patricia: el “espeleísmo”, en inglés /spelunking/ o /caving/, la exploración recreativa de cuevas. Es decir, en criollo, que la pareja viajaba por el país junto a un grupo de entusiastas, metiéndose en cavernas y trazando mapas de posibles recorridos y conexiones. No hizo falta mucha imaginación para que Will hiciera lo mismo que tantos otros programadores: computarizar su hobby.
+
+En 1975, divorcio de por medio y con mucho tiempo libre, se puso a trabajar en una simulación de la caverna que mejor conocía, la /Mammoth Cave/ o /Cueva Colosal/ de Kentucky. Para el proyecto Crowther usó el mainframe PDP-10 de su empresa, una de esas computadoras enormes que ocupan toda una pared y se acceden por terminales remotas. Las terminales, desde ya, [[https://www.421.news/es/tetris-cia-arte-politica-espionaje/][solo podían mostrar texto]], así que la "simulación" de Crowther era puramente descriptiva.
 
 Como la PDP-10 de Crowther estaba conectada a ARPANET (una red pequeña y mayormente académica, es cierto, pero llena de entusiastas) y en ese ámbito la información fluía libremente, el archivo fuente del programa, /ADVENT/, se propagó como un virus. Otros programadores empezaron a "moddearlo", sumándole elementos de fantasía y búsqueda del tesoro, convirtiendo esa simulación espeleológica en uno de los primeros videojuegos de la historia, desde entonces conocido como /Colossal Cave Adventure/ o sencillamente /Adventure/.
 
@@ -114,9 +131,3 @@ Ron Gilbert fue, en 1992, el primero en irse de LucasArts pero lo seguirían la 
  <img src="{{site.config.static_root}}/img/421/20bucks.png">
 </div>
 #+END_EXPORT
-
------------
-
-Facundo Olano es ingeniero en informática y programador de software libre. En 2025 creó [[https://giralibros.com][giralibros.com]], una aplicación gratuita para cambiar libros en Buenos Aires. Escribe sobre software y ficción en [[https://olano.dev][olano.dev]].
-
-Soy ingeniero en informática y programador de software libre. En 2025 publiqué giralibros.com, una app gratuita para cambiar libros en persona. Escribo sobre software y ficción en olano.dev
