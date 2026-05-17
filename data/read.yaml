@@ -1,3 +1,17 @@
+- author: Sergio Bizzio
+  cover_file: sergio-bizzio-diez-dias-en-re.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519527658l/36863546._SY475_.jpg
+  published_at: 2026-05-17
+  rating: 2
+  read_at: 2026-05-17
+  title: Diez días en Re
+- author: Francisco Bitar
+  cover_file: francisco-bitar-la-preparacion-de-la-aventura-amorosa.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613500867l/57093072.jpg
+  published_at: 2026-05-10
+  rating: 2
+  read_at: 2026-05-10
+  title: La preparación de la aventura amorosa
 - author: Javier Cercas
   cover_file: javier-cercas-soldados-de-salamina.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332715274l/24001.jpg
@@ -914,7 +928,7 @@
   published_at: 2022-05-27
   rating: 5
   read_at: 2022-05-27
-  title: 'Where I''m Calling From: New and Selected Stories'
+  title: 'Where I''m Calling From: Selected Stories'
 - author: Jimmy Maher
   cover_file: jimmy-maher-the-digital-antiquarian-volume-5.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493132670l/34961599._SY475_.jpg
@@ -1845,12 +1859,12 @@
   read_at: 2019-07-13
   title: Novelas breves
 - author: The Paris Review
-  cover_file: the-paris-review-the-paris-review-interviews-1.jpg
+  cover_file: the-paris-review-the-paris-review-interviews-i.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388463237l/11473.jpg
   published_at: 2019-07-05
   rating: 4
   read_at: 2019-07-05
-  title: The Paris Review Interviews, 1
+  title: The Paris Review Interviews, I
 - author: Dolores Reyes
   cover_file: dolores-reyes-cometierra.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557192972l/45487462.jpg
@@ -3498,17 +3512,3 @@
   rating: 3
   read_at: 2014-05-21
   title: París
-- author: Alberto Laiseca
-  cover_file: alberto-laiseca-aventuras-de-un-novelista-atonal.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1515611731l/3232809._SY475_.jpg
-  published_at: 2015-08-16
-  rating: 1
-  read_at: 2014-05-18
-  title: Aventuras de un novelista atonal
-- author: Alejandro Zambra
-  cover_file: alejandro-zambra-bonsai.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470434457l/24181133.jpg
-  published_at: 2022-02-12
-  rating: 3
-  read_at: 2014-05-13
-  title: Bonsái
