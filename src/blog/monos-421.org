@@ -1,6 +1,6 @@
 ---
 title: De las cuevas de Kentucky al Skywalker Ranch
-subtitle: ¿De dónde salieron las aventuras gráficas?
+subtitle: Una historia de las aventuras gráficas
 date: 2026-04-18T11:35:45-03:00
 layout: post
 lang: es
@@ -16,7 +16,7 @@ A tu alrededor hay un bosque. Un pequeño arroyo fluye del edificio
 y baja por un barranco.
 #+end_src
 
-Algo así leían las letras verdes en la pantalla. Abajo, el cursor titilante del /prompt/ invitaba al usuario a escribir algo. /ENTRAR AL EDIFICIO/.
+Algo así leían las letras verdes en pantalla. Abajo, un cuadrado titilante invitaba a escribir una instrucción. /ENTRAR AL EDIFICIO/.
 
 #+begin_src
 Estás en un cobertizo, el pozo de agua de un gran manantial.
@@ -27,15 +27,17 @@ Hay comida acá.
 Hay una botella de agua acá.
 #+end_src
 
-AGARRAR LÁMPARA. SALIR. IR AL NORTE.
+AGARRAR LÁMPARA; SALIR; IR AL NORTE.
 
 #+begin_src
 Estás en un bosque abierto, con un valle profundo a un lado.
 #+end_src
 
-La escena se repetía en varias universidades y empresas de investigación de de Estados Unidos, cualquier lugar con una computadora conectada a la red ARPANET. El programa, /ADVENT/, tenía obsesionado a todo el personal, se quedaban jugando después de hora, se distraían de sus tareas, desperdiciaban el preciosísimo tiempo de uso de la computadora. Cada mañana el administrador del sistema borraba el programa, y cada mañana lo volvía a encontrar otra vez, copiado por algún usuario de la red, como un virus imposible de erradicar.
+La escena se repetía en varias universidades y empresas de investigación de los Estados Unidos, cualquier lugar con una computadora conectada a la red ARPANET.
 
-Era una experiencia era magnetizante. El usuario parecía entrar en un relato interactivo, como si la computadora fuera el maestro de ceremonias en una campaña de [[https://www.421.news/es/dungeons-dragons-historia-y-legado-lis/][Calabozos y Dragones]]. Nosotros, medio siglo más tarde, podríamos compararlo con [[https://www.421.news/es/los-modelos-de-lenguaje-suenan-con-ovejas-electricas/][chatear con una IA]] por primera vez.
+Era magnetizante. El usuario sentía protagonizar un relato, la computadora oficiando de maestro de ceremonias como en una campaña de rol. Hoy lo compararíamos con chatear por primera vez con una IA. El programa, /ADVENT/, tenía obsesionado al personal, se quedaban jugando después de hora, se distraían de sus tareas, desperdiciaban el preciosísimo tiempo de uso de la computadora. Cada mañana el administrador del sistema borraba el programa y cada mañana lo volvía a encontrarlo, copiado por algún usuario de la red, como un virus imposible de erradicar.
+
+
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -43,7 +45,7 @@ Era una experiencia era magnetizante. El usuario parecía entrar en un relato in
 </div>
 #+END_EXPORT
 
-Will Crowther había estudiado física y a principios de los ‘70 trabajaba en el desarrollo de ARPANET. ARPANET era una red que el Departamento de Defensa financiaba con la idea de poder mantener comunicaciones en caso de un bombardeo ruso. Una red que, básicamente, les permitiera responder al ataque. La misma red que, un par de ajustes geopolíticos más tarde, se convertiría en internet.
+Will Crowther había estudiado física y a principios de los ‘70 trabajaba en el desarrollo de ARPANET. ARPANET era la red que el Departamento de Defensa financiaba con el objetivo de mantener las comunicaciones en caso de un bombardeo ruso. Una red que, básicamente, les permitiera responder al ataque. La misma red que, un par de ajustes geopolíticos más tarde, se convertiría en internet.
 
 Will, entonces, se pasaba sus días programando protocolos de red, pero los fines de semana y las vacaciones los dedicaba a lo que era su verdadera pasión y también la de su esposa Patricia: el “espeleísmo”, en inglés /spelunking/ o /caving/, la exploración recreativa de cuevas. Es decir, en criollo, que la pareja viajaba por el país junto a un grupo de entusiastas, metiéndose en cavernas y trazando mapas de posibles recorridos y conexiones. No hizo falta mucha imaginación para que Will hiciera lo mismo que tantos otros programadores: computarizar su hobby.
 
