@@ -5,7 +5,6 @@ date: 2026-04-18T11:35:45-03:00
 layout: post
 lang: es
 draft: true
-cover-img: 421/circus2.jpg
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
@@ -37,11 +36,9 @@ La escena se repetía en varias universidades y empresas de investigación de lo
 
 Era magnetizante. El usuario sentía protagonizar un relato, la computadora oficiando de maestro de ceremonias como en una campaña de rol. Hoy lo compararíamos con chatear por primera vez con una IA. El programa, /ADVENT/, tenía obsesionado al personal, se quedaban jugando después de hora, se distraían de sus tareas, desperdiciaban el preciosísimo tiempo de uso de la computadora. Cada mañana el administrador del sistema borraba el programa y cada mañana lo volvía a encontrarlo, copiado por algún usuario de la red, como un virus imposible de erradicar.
 
-
-
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/421/pdp.jpg" style="width:100%">
+ <img src="{{site.config.static_root}}/img/421/pdp.jpg" class="wide">
 </div>
 #+END_EXPORT
 
@@ -49,15 +46,15 @@ Will Crowther había estudiado física y a principios de los ‘70 trabajaba en 
 
 Will, entonces, se pasaba sus días programando protocolos de red, pero los fines de semana y las vacaciones los dedicaba a lo que era su verdadera pasión y también la de su esposa Patricia: el “espeleísmo”, en inglés /spelunking/ o /caving/, la exploración recreativa de cuevas. Es decir, en criollo, que la pareja viajaba por el país junto a un grupo de entusiastas, metiéndose en cavernas y trazando mapas de posibles recorridos y conexiones. No hizo falta mucha imaginación para que Will hiciera lo mismo que tantos otros programadores: computarizar su hobby.
 
-En 1975, divorcio de por medio y con mucho tiempo libre, se puso a trabajar en una simulación de la caverna que mejor conocía, la /Mammoth Cave/ o /Cueva Colosal/ de Kentucky. Para el proyecto Crowther usó el mainframe PDP-10 de su empresa, una de esas computadoras enormes que ocupan toda una pared y se acceden por terminales remotas. Las terminales, desde ya, [[https://www.421.news/es/tetris-cia-arte-politica-espionaje/][solo podían mostrar texto]], así que la "simulación" de Crowther era puramente descriptiva.
+En 1975, divorcio de por medio y con mucho tiempo libre, se puso a trabajar en una simulación de la caverna que mejor conocía, la /Mammoth Cave/ o /Cueva Colosal/ de Kentucky. Para el proyecto Crowther usó el mainframe PDP-10 de su empresa, una de esas computadoras enormes que ocupan toda una pared y se acceden por terminales remotas. Las terminales, desde ya, [[https://www.421.news/es/tetris-cia-arte-politica-espionaje/][solo podían mostrar texto]], así que la "simulación" de Crowther era puramente descriptiva. Leer no era problema; lo que ofrecía el programa era una nueva forma de entretenimiento.
 
-Como la PDP-10 de Crowther estaba conectada a ARPANET (una red pequeña y mayormente académica, es cierto, pero llena de entusiastas) y en ese ámbito la información fluía libremente, el archivo fuente del programa, /ADVENT/, se propagó como un virus. Otros programadores empezaron a "moddearlo", sumándole elementos de fantasía y búsqueda del tesoro, convirtiendo esa simulación espeleológica en uno de los primeros videojuegos de la historia, desde entonces conocido como /Colossal Cave Adventure/ o sencillamente /Adventure/.
+Como la PDP-10 estaba conectada a ARPANET (una red pequeña y mayormente académica, es cierto, pero llena de entusiastas) y en ese ámbito la información fluía libremente, el archivo fuente, /ADVENT/, se propagó como un virus. Otros programadores empezaron a "moddearlo", sumándole elementos de fantasía y búsqueda del tesoro, convirtiendo esa simulación espeleológica en uno de los primeros videojuegos de la historia, desde entonces conocido como /Colossal Cave Adventure/ o sencillamente /Adventure/.
 
 Ese modesto auge del juego en universidades y oficinas coincidió con la comercialización de las primeras [[https://www.421.news/es/elogio-computadoras-escritorio/][computadoras personales]], la "trinidad" de 1977: TRS-80, Commodore PET, Apple II. Para esa primera generación de hackers con PC propia, imitar la aventura de Crowther era la forma obvia de poner a prueba su nuevo juguete. Mientras en el arcade la rompía el /Space Invaders/ y Atari trataba de meterlo en los hogares, los hackers de computadora jugaban a explorar calabozos y leer descripciones bucólicas, resolviendo puzzles y matando algún que otro orco. Mucho antes de que existiera una industria del software, Will Crowther había involuntariamente inaugurado un género. Las ramificaciones de /Adventure/ son muchas y muy interesantes ---la ficción interactiva de [[https://es.wikipedia.org/wiki/Infocom][Infocom]], la [[https://en.wikipedia.org/wiki/Adventure_(1980_video_game)][acción-aventura]] en consolas, esa [[https://www.421.news/es/balatro-videojuego-jokers/][fruta noble]] que son los [[https://en.wikipedia.org/wiki/Rogue_(video_game)][roguelikes]]. Pero acá vinimos a hablar de aventuras /gráficas/.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/421/misfortune.png">
+ <img src="{{site.config.static_root}}/img/421/kingquest.jpg" class="wide">
 </div>
 #+END_EXPORT
 
@@ -69,7 +66,7 @@ Así fue que la pequeña empresa matrimonial de los Williams (desde entonces On-
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/adventures/mlifsacul.png">
+ <img src="{{site.config.static_root}}/img/421/lucasfilm.png" class="wide">
 </div>
 #+END_EXPORT
 
@@ -88,7 +85,7 @@ La marea empezó a cambiar hacia mediados de la década, sin embargo: Atari fall
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/421/maniac.png">
+ <img src="{{site.config.static_root}}/img/421/maniac.png" class="wide">
 </div>
 #+END_EXPORT
 
@@ -104,7 +101,7 @@ Cuando su supervisor se acordó de Ron, el concepto del proyecto estaba aceptabl
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/421/library.jpg">
+ <img src="{{site.config.static_root}}/img/421/library.jpg" class="wide">
 </div>
 #+END_EXPORT
 
@@ -114,7 +111,7 @@ También como buen programador, Gilbert fue demasiado ambicioso y se impuso la i
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/421/islita.png">
+ <img src="{{site.config.static_root}}/img/421/islita.png" class="wide">
 </div>
 #+END_EXPORT
 
@@ -130,6 +127,6 @@ Ron Gilbert fue, en 1992, el primero en irse de LucasArts pero lo seguirían la 
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/421/20bucks.png">
+ <img src="{{site.config.static_root}}/img/421/20bucks.png" class="wide">
 </div>
 #+END_EXPORT

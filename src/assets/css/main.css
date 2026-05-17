@@ -232,6 +232,12 @@ hr.footnotes-separatator {
     max-height: 400px;
 }
 
+.layout-post img.wide {
+    width: 100%;
+    max-width: 100%;
+    max-height: none;
+}
+
 .layout-post hr {
     border: 1px solid silver;
 }
