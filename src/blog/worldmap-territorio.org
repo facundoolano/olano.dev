@@ -7,6 +7,7 @@ tags: [videojuegos]
 image: worldmap/hiroshi2.jpeg
 excerpt: La tecnología gráfica más poderosa del mundo.
 refs: [monkey, colossal]
+favorite: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

@@ -7,6 +7,7 @@ tags: [videojuegos, borges, literatura, puzzles]
 refs: [blueprince, dinn, inquisiciones, colossal]
 image: blueprince/blueprince.jpg
 excerpt: Reseña del juego, incluye gratis introducción pretenciosa y digresión histórica.
+favorite: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
