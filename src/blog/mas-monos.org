@@ -32,9 +32,9 @@ AGARRAR LÁMPARA; SALIR; IR AL NORTE.
 Estás en un bosque abierto, con un valle profundo a un lado.
 #+end_src
 
-La escena se repetía en varias universidades y empresas de investigación de los Estados Unidos, cualquier lugar con una computadora conectada a la red ARPANET.
+La escena se multiplicaba en universidades y empresas de investigación de los Estados Unidos, cualquier lugar conectado a la red ARPANET. El usuario sentía ingresar como protagonista en un relato interactivo, una suerte de campaña de rol en la que la computadora oficiaba de /Dungeon Master/. Hoy compararíamos la experiencia con la de chatear con una IA por primera vez.
 
-Era magnetizante. El usuario sentía protagonizar un relato, la computadora oficiando de maestro de ceremonias como en una campaña de rol. Hoy lo compararíamos con chatear por primera vez con una IA. El programa, /ADVENT/, tenía obsesionado al personal, se quedaban jugando después de hora, se distraían de sus tareas, desperdiciaban el preciosísimo tiempo de uso de la computadora. Cada mañana el administrador del sistema borraba el programa y cada mañana lo volvía a encontrarlo, copiado por algún usuario de la red, como un virus imposible de erradicar.
+El programa en cuestión, /ADVENT/, tenía obsesionado al personal, científicos e ingenieros se quedaban jugando después de hora, distraídos de sus tareas, desperdiciando el preciosísimo tiempo de acceso a la computadora. Cada mañana el administrador del sistema borraba el programa y cada mañana lo volvía a encontrarlo, copiado por algún usuario de la red, como un virus imposible de erradicar.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -46,7 +46,7 @@ Will Crowther había estudiado física y a principios de los ‘70 trabajaba en 
 
 Will, entonces, se pasaba sus días programando protocolos de red, pero los fines de semana y las vacaciones los dedicaba a lo que era su verdadera pasión y también la de su esposa Patricia: el “espeleísmo”, en inglés /spelunking/ o /caving/, la exploración recreativa de cuevas. Es decir, en criollo, que la pareja viajaba por el país junto a un grupo de entusiastas, metiéndose en cavernas y trazando mapas de posibles recorridos y conexiones. No hizo falta mucha imaginación para que Will hiciera lo mismo que tantos otros programadores: computarizar su hobby.
 
-En 1975, divorcio de por medio y con mucho tiempo libre, se puso a trabajar en una simulación de la caverna que mejor conocía, la /Mammoth Cave/ o /Cueva Colosal/ de Kentucky. Para el proyecto Crowther usó el mainframe PDP-10 de su empresa, una de esas computadoras enormes que ocupan toda una pared y se acceden por terminales remotas. Las terminales, desde ya, solo podían mostrar texto, así que la "simulación" de Crowther era puramente descriptiva. Leer no era problema; lo que ofrecía el programa era una nueva forma de entretenimiento.
+En 1975, divorcio de por medio y con mucho tiempo libre, Will se puso a trabajar en una simulación de la caverna que mejor conocía, la /Mammoth Cave/ o /Cueva Colosal/ de Kentucky. Para el proyecto usó el mainframe PDP-10 de su empresa, una de esas computadoras enormes que ocupan toda una pared y se acceden por terminales remotas. Las terminales, desde ya, solo podían mostrar texto, así que la "simulación" de Crowther era puramente descriptiva. Leer no era problema; lo que ofrecía el programa era una nueva forma de entretenimiento.
 
 Como la PDP-10 estaba conectada a ARPANET (una red pequeña y mayormente académica, es cierto, pero llena de entusiastas) y en ese ámbito la información fluía libremente, el archivo fuente, /ADVENT/, se propagó como un virus. Otros programadores empezaron a "moddearlo", sumándole elementos de fantasía y búsqueda del tesoro, convirtiendo esa simulación espeleológica en uno de los primeros videojuegos de la historia, desde entonces conocido como /Colossal Cave Adventure/ o sencillamente /Adventure/.
 
