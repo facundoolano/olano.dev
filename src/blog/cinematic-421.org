@@ -1,6 +1,6 @@
 ---
 title: "La experiencia cinemática"
-date: 2026-05-21T09:02:27-03:00
+date: 2026-05-28T09:02:27-03:00
 layout: post
 lang: es
 tags: []
@@ -16,7 +16,11 @@ Pero como Ken y Roberta Williams de Sierra probaron al sumarle gráficos a la ec
 ** Amiga y Cinemaware: vista previa al futuro
 Exagerando un poco, podemos separar a los usuarios de computadora de fines de los ochenta en dos grupos: los que usaban una IBM/PC en el trabajo y los que tenían una Apple Macintosh en casa. La división no difiere mucho de iPhone vs Android: la Mac era una elegante (y carísima) cajita cerrada, la experiencia de autor craneada por Steve Jobs para que la computadora se convierta en una bicicleta para la mente; la PC era un aparato burocrático, diseñado por comité en IBM y sobre el que Bill Gates montó Microsoft DOS para fundar su imperio.
 
-[IMAGEN MAC VS PC]
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/cinematic/ibm.webp" class="wide">
+</div>
+#+END_EXPORT
 
 Pero si hamos zoom había otra computadora personal que solo poseía un selecto grupo de iniciados, unos intensos
 convencidos de que el mundo vivía equivocado. La Commodore Amiga estaba armada alrededor del procesador de moda, el mismo Motorola 68000 que usaba la Macintosh, pero a este le sumaba un chip dedicado para memoria, otro para procesamiento de gráficos y otro para audio. Esa combinación de hardware, combinada con un diseño innovador, la convertían en la computadora personal más avanzada del mercado. La Amiga podía hacer todo lo que hacía Mac pero en estéreo y en colores; al lado de la Amiga, la IBM/PC parecía una calculadora. Así lo resumía la gente de Electronic Arts:
@@ -27,7 +31,12 @@ Creemos que las computadoras hogareñas van a ser tan importantes como la radio,
 
 Mientras los demás hacían edición de texto y planillas de cálculo, la Amiga habilitaba la producción de audio, fotografía y video. En un evento de presentación, Andy Warhol la usó para retratar digitalmente a Debbie Harry, cantante de Blondie; el Flaco Spinetta, en su trance tecnológico ochentoso, la usó para la tapa pixelada de /Don Lucero/. Incluso los estudios dedicados a videojuegos de PC/DOS preferían el /Deluxe Paint II/ de la Amiga para el diseño de escenarios y animaciones.
 
-[IMAGEN AMIGA warhol blondie]
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/cinematic/warhol2.jpg" class="wide">
+</div>
+#+END_EXPORT
+
 
 <Además de la producción audiovisual, el uso obvio para semejante aparato eran los videojuegos, un segmento que había quedado vacante con la obsolescencia de la Commodore 64. El problema ahí era el del huevo y la gallina: sin un impulso inicial por parte de Commodore, el mercado de usuarios era chico y pocos estudios se animaban a invertir en desarrollo de juegos exclusivos para la Amiga, por lo que no había incentivos para que más usuarios compararan la máquina.
 
