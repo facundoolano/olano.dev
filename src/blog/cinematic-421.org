@@ -1,5 +1,5 @@
 ---
-title: "Desde Monkey Island hasta Half-Life: cine multimedia en la PC"
+title: "La experiencia cinemática"
 date: 2026-05-21T09:02:27-03:00
 layout: post
 lang: es
@@ -9,7 +9,7 @@ draft: true
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
 
-Cada vez que la innovación tecnológica abrió el camino para nuevas formas de arte, ese medio naciente atravesó un período de búsqueda de identidad, de definirse por comparación con lo conocido, con aquello que vino antes. Los videojuegos no fueron la excepción. En el caso de los juegos de computadora, surgidos en terminales de texto a finales de los setenta, es normal que el primer espejo haya sido la literatura. Así explicamos que, ya probada la fórmula de /Colossal Cave Adventure/, empresas pioneras como Infocom hablaran de /ficción interactiva/, tildaran a sus programadores de /autores/, y convocaran a figuras como Ray Bradbury y Douglas Adams para ponerle la firma a sus juegos. Por unos años se habló del /bookware/ y parecía que cualquier editorial medía las posibilidades de meterse en el entretenimiento por computadora.
+Cada vez que la innovación tecnológica abrió el camino para una nueva forma de arte, el medio naciente atravesó un período de búsqueda de identidad, de definirse por comparación con lo conocido, con aquello que vino antes. Los videojuegos no fueron la excepción. Para los juegos de computadora, surgidos en terminales de texto a finales de los setenta, es normal que el primer espejo haya sido la literatura. Así se entiende que, ya probada la fórmula de /Colossal Cave Adventure/, empresas pioneras como Infocom hablaran de /ficción interactiva/, tildaran a sus programadores de /autores/, y convocaran a figuras como Ray Bradbury y Douglas Adams para ponerle la firma a sus juegos. Por unos años se habló del /bookware/ y parecía que cualquier editorial medía las posibilidades de meterse en el entretenimiento por computadora.
 
 Pero como Ken Williams probó al sumarle gráficos a la ecuación, los videojuegos estaban destinados a ser experiencias no meramente interactivas sino /audiovisuales/. La década que siguió a /King's Quest/ y /Maniac Mansion/ fue la década en que el entretenimiento por computadora buscó inspiración en las técnicas y las formas de producción de Hollywood. Esa pretensión de imitar al cine asumió muchas formas, según las capacidades del hardware de turno y el ingenio y la exuberancia con que los diseñadores supieron aprovecharlas. Revisemos algunos casos interesantes.
 
@@ -18,24 +18,49 @@ Exagerando un poco, podemos separar a los usuarios de computadora de fines de lo
 
 [IMAGEN MAC VS PC]
 
-Pero si miramos el asterisco y la nota al pie de página había una maquinita curiosa, una computadora personal que solo poseía un selecto grupo de iniciados, casi una secta de fanáticos convencidos de que el mundo estaba equivoca. La Commodore Amiga era un Frankenstein: tenía el mismo microprocesador que la Macintosh pero a este le sumaba un chip adicional para procesamiento de gráficos y otro para audio, una maravilla del diseño de hardware que permitía, por primera vez en la historia, hacer /multitasking/, el fundamento tecnológico de la cultura contemporánea, lo que hacen ahora todas las computadoras, incluída esta que tenés en la mano.
+Pero si hamos zoom había otra computadora personal que solo tenía un selecto grupo de iniciados, unos intensos
+convencidos de que el mundo vivía equivocado. La Commodore Amiga estaba armada alrededor del procesador de moda, el mismo Motorola 68000 que usaba la Macintosh, pero a este le sumaba un chip dedicado para memoria, otro para procesamiento de gráficos y otro para audio.
 
-Mientras que la Mac servía para escribir un libro o una presentación de diapositivas y la PC servía para escribir cartas documento y resúmenes contables, la Amiga permitía el diseño de audio y video analógico. Mientras que la Mac venía en blanco y negro y la PC tardaría varios años en alcanzar 16 colores, la Amiga arrancaba en 4096. La Amiga era un aerolito multimedia aterrizado en la década equivocada. El problema es que era una computadora despareja e inviable, a la que le faltaban dos o tres capas de pintura, que Commodore heredó mediante la adquisición de los restos de Atari y que nunca se molestó en promocionar o actualizar. Pero durante un tiempo, mientras no terminaba de definirse su suerte, fue una promesa de la industria de los videojuegos.
+Mientras que la Mac venía en blanco y negro y la PC tardaría varios años en alcanzar 16 colores, la Amiga arrancaba en 4096.
+ Pero durante un tiempo, mientras no terminaba de definirse su suerte, fue una promesa de la industria de los videojuegos.
 
-[IMAGEN AMIGA]
+andy warhol spinetta
+
+Mientras que la Mac servía para escribir un libro o una presentación de diapositivas y la PC servía para escribir cartas documento y resúmenes contables,
+la Amiga brillaba en la edición de audio, fotografía y video.
+En su presentación en sociedad, Andy usó una Amiga para retratar a Debbie Harry, cantante de Blondie; el Flaco Spinetta, en su trance ochentosa de fascinación por la tecnología, la usó para dibujar la tapa de /Don Lucero/.
+Incluso los estudios enfocados en PC/DOS usaban el /Deluxe Paint II/ de la Amiga para dibujar el pixel art de sus juegos. Así lo resumía la gente de Electronic Arts:
+
+#+begin_quote
+
+#+end_quote
+
+La Amiga era un aerolito multimedia aterrizado en la década equivocada.
+
+lo que la convertía en la computadora personal más avanzada del mercado... si lograbas conseguirla.
+
+<una maravilla del diseño de hardware que permitía, por primera vez en la historia, hacer /multitasking/, el fundamento tecnológico de la cultura contemporánea, lo que hacen ahora todas las computadoras, incluída esta que tenés en la mano.
+
+[IMAGEN AMIGA warhol blondie]
+
+Además de la producción audiovisual, el otro caso de uso obvio para semejante aparato eran los videojuegos, un segmento que había quedado vacante con la obsolecencia de la Commodore 64 y que ni la Mac ni la PC podían ocupar (por el momento). El problema era el del huevo y la gallina: sin una estrategia de lanzamiento y distribución sólida por parte de Commodore, el mercado de usuarios era chico, pocos estudios se animaban a invertir en desarrollo de juegos para Amiga, por lo que había pocos incentivos para que más usuarios compren la nueva consola.
+
+Bob Jacob estaba tan convencido de que el futuro de los videojuegos eran las películas que le puso a su empresa Cinemaware. Tan convencido que estaba dispuesto a apostar todo a esa computadora de nicho, la Amiga, porque era la única en el mercado capaz de materializar su visión.
 
 - la vision cinematografica de cinemaware
 - defender of the crown
 - it came from the dessert
 - muerte por falta de espacio
 
-** Prince of Persia y la experiencia cinemática
-- intro mechner: técnica en vez de tecnología
+** Jordan Mechner y la experiencia cinemática
+En el extremo opuesto de Cinemaware, estaban aquellos para quienes la experiencia cinematográfica había que realizarla no a fuerza de tecnología sino de técnica: de oficio. En esas filas podemos contar a Jordan Mechner, un pibe que soñaba con ser director de cine pero que se chocó con una carrera en la programación de videojuegos.
+
+- exito con karateka, duda
 - prince of persia, rotoscoping
 - secuela pero herederos: flashback, another world
 - también de francia: alone in the dark, lynch hitchcock, survival horror
 
-** Myst y la revolución multimedia
+** La revolución multimedia
 - vga y sonido: la pc se va poniendo al día con la amiga
 - el problema seguía siendo el espacio. todos sabían que lo que se venía era el CD, la pregunta era cuando. pusheado por la industria muscal
 - consolas dubitativas
@@ -45,7 +70,7 @@ Mientras que la Mac servía para escribir un libro o una presentación de diapos
   - (TODO como se decidieron a hacerlo cd?)
   - mundos interactivos no videojuegos, similar a adventure. historia.puzzles accessorios
 
-** Full-Motion Video: el espejismo del cine interactivo
+** El espejismo del cine interactivo
 - 7th guest: la otra killer app, mansion david lync, aplicaba la técnica de pasar videos entre puzzles
   - TODO revisar wing commander
 - x files, ripper, hollywood actors (christopher walken, chris lloyd, buscar más)
@@ -63,7 +88,7 @@ Mientras que la Mac servía para escribir un libro o una presentación de diapos
     en tiempo real, que también incluye un control para avanzar y retroceder el tiempo, para poder explorar lo que pasa en el tren en distintos lugares a la vez
   - ¿suena complicado? Lo es! el juego es genial pero dificilísimo. de más está decir que fue carísimo de producir y que la inversión no se recuperó. Solo el curioso estado de la industria a mediados de los 90 puede explicar que hayan intentado semejante empresa delirante. Mechner quedó en bancarrota, vendió el estudio que había creado específicamente para el juego y suspendió sus pretensiones de carrera en el cine. Pero qué juegazo, Jordan!
 
-** LucasArts y las aventuras animadas
+** Aventuras animadas
 - Ya con las licencias de Star Wars disponibles y aprovechando el boom del CD-ROM, LucasArts (antes conocida como LucasFilm Games) le dio el gusto a su público: Rebel Assault combinó acción con secuencias directamte extraídas de las películas, inaugurando una nueva dimensión para la franquicia.
 
 <por el lado de las aventuras el cine también estaba presente: con la presencia de Spielberg llamando por teléfono para pedir indicios, más juegos de indiana, y produciendo una aventura de exploración espacial (interesante pero que no está a la altura del resto de la producción del estudio)
@@ -83,7 +108,7 @@ DoTT puede bien entrar también en la categoría de "aventura perfecta" de Secre
 
 CoMI se ve y se juega como una película de disney, pero una de los 60 o de los 80. En los 90 Disney caía en picada y había sido destronado por Pixar. Como habían predicho sus directores, una década antes cuando todavía formaban parte de LucasFilm, la gente iba ahora al cine a ver películas generadas por computadora. Si hasta los dibujos animados eran ahora en 3D, ¿qué le quedaba a los videojuegos?
 
-** Grim Fandango y la amenaza 3D
+** La amenaza 3D
 
 - doom: antítesis
 - full throttle
