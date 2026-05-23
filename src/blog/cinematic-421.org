@@ -26,7 +26,7 @@ Pero si hamos zoom había otra computadora personal que solo poseía un selecto 
 convencidos de que el mundo vivía equivocado. La Commodore Amiga estaba armada alrededor del procesador de moda, el mismo Motorola 68000 que usaba la Macintosh, pero a este le sumaba un chip dedicado para memoria, otro para procesamiento de gráficos y otro para audio. Esa combinación de hardware, combinada con un diseño innovador, la convertían en la computadora personal más avanzada del mercado. La Amiga podía hacer todo lo que hacía Mac pero en estéreo y en colores; al lado de la Amiga, la IBM/PC parecía una calculadora. Así lo resumía la gente de Electronic Arts:
 
 #+begin_quote
-Creemos que las computadoras hogareñas van a ser tan importantes como la radio, el estéreo y la televisión lo son hoy en día. La Amiga avanza el medio en todos sus frentes. Por primera vez, una computadora ofrece la calidad audiovisual que nuestros ojos y oídos merecen. Comparadas con la Amiga, usar las otras computadoras es como mirar la tele en blanco y negro con el sonido apagado.
+Creemos que las computadoras hogareñas van a ser tan importantes como la radio, el estéreo y la televisión de hoy. La Amiga avanza el medio en todos sus frentes. Por primera vez, una computadora ofrece la calidad audiovisual que nuestros ojos y oídos merecen. Comparadas con la Amiga, usar las otras computadoras es como mirar la tele en blanco y negro con el sonido apagado.
 #+end_quote
 
 Mientras los demás hacían edición de texto y planillas de cálculo, la Amiga habilitaba la producción de audio, fotografía y video. En un evento de presentación, Andy Warhol la usó para retratar digitalmente a Debbie Harry, cantante de Blondie; el Flaco Spinetta, en su trance tecnológico ochentoso, la usó para la tapa pixelada de /Don Lucero/. Incluso los estudios dedicados a videojuegos de PC/DOS preferían el /Deluxe Paint II/ de la Amiga para el diseño de escenarios y animaciones.
@@ -38,16 +38,16 @@ Mientras los demás hacían edición de texto y planillas de cálculo, la Amiga 
 #+END_EXPORT
 
 
-<Además de la producción audiovisual, el uso obvio para semejante aparato eran los videojuegos, un segmento que había quedado vacante con la obsolescencia de la Commodore 64. El problema ahí era el del huevo y la gallina: sin un impulso inicial por parte de Commodore, el mercado de usuarios era chico y pocos estudios se animaban a invertir en desarrollo de juegos exclusivos para la Amiga, por lo que no había incentivos para que más usuarios compararan la máquina.
+Además de la producción audiovisual, el uso obvio para semejante máquina eran los videojuegos, un segmento vacante por la obsolescencia de la Commodore 64 y que ni la Mac ni la PC estaba en condiciones de ocupar (todavía). El problema ahí era el del huevo y la gallina: sin un impulso inicial por parte de Commodore, el mercado de usuarios era chico y pocos estudios se animaban a invertir en desarrollo de juegos exclusivos para la Amiga, desincentivando a su vez a que nuevos jugadores compraran la máquina. Pero había excepciones.
 
-Pero había excepciones. Bob Jacob estaba tan convencido de que el futuro de los videojuegos eran las películas que le puso a su empresa Cinemawarel; tan convencido, que apostó todo a esa computadora de nicho, la Amiga, porque era la única capaz de materializar su visión.
+Bob Jacob estaba tan convencido de que el futuro de los videojuegos eran las películas que le puso a su empresa Cinemaware. Tan convencido, que apostó todo a esa computadora de nicho, la Amiga, porque era la única capaz de materializar su visión.
 
 - la vision cinematografica de cinemaware
 - defender of the crown
 - it came from the dessert
 - muerte por falta de espacio
 
-<Y si era tan buena ¿por qué se murió? Commodore, que le había comprado el diseño del hardware a una startup al borde de la quiebra, ingresó por su parte en un periodo de problemas financieros. El desarrollo de la Amiga se demoró y la estrategia de marketing y distribución fue mala. Sin un segmento claro de mercado al que apuntar, le costó comercializarla fuera del pequeño círculo de los hackers con plata y los profesionales creativos. La Amiga fue un aerolito multimedia aterrizado en la década equivocada. A la PC/Windows le haría falta una década de mejoras y baja de costos de hardware para llevar esa experiencia a los hogares.
+<Y si era tan buena, ¿por qué se murió? Commodore, que le había comprado el diseño del hardware a una startup al borde de la quiebra, ingresó por su parte en un periodo de problemas financieros. El desarrollo de la Amiga se demoró y la estrategia de marketing y distribución fue mala. Sin un segmento claro de mercado al que apuntar, le costó comercializarla fuera del pequeño círculo de los hackers con plata y los profesionales creativos. La Amiga fue un aerolito multimedia aterrizado en la década equivocada. A la PC/Windows le haría falta una década de mejoras y baja de costos de hardware para llevar esa experiencia a los hogares.
 
 ** Jordan Mechner y la experiencia cinemática
 En el extremo opuesto de Cinemaware, estaban aquellos para quienes la experiencia cinematográfica había que realizarla no a fuerza de tecnología sino de técnica: de oficio. En esas filas podemos contar a Jordan Mechner, un pibe que soñaba con ser director de cine pero que se chocó con una carrera en la programación de videojuegos.
