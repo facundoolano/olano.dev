@@ -45,9 +45,10 @@ AGARRAR LÁMPARA; SALIR; IR AL NORTE.
 Estás en un bosque abierto, con un valle profundo a un lado.
 #+end_src
 
-La escena se multiplicaba en universidades y empresas de investigación de los Estados Unidos, cualquier lugar conectado a la red ARPANET. El usuario sentía ingresar como protagonista en un relato interactivo, una suerte de campaña de rol en la que la computadora oficiaba de /Dungeon Master/. Hoy compararíamos la experiencia con la de chatear con una IA por primera vez.
+El usuario así ingresaba, sin notarlo, en un relato interactivo, una suerte de campaña de rol en la que él era el protagonista y la computadora oficiaba como /Dungeon Master/. Hoy compararíamos la experiencia con la de chatear con una IA por primera vez.
 
-El programa en cuestión, /ADVENT/, tenía obsesionado al personal, científicos e ingenieros se quedaban jugando después de hora, distraídos de sus tareas, desperdiciando el preciosísimo tiempo de acceso a la computadora. Cada mañana el administrador del sistema borraba el programa y cada mañana lo volvía a encontrarlo, copiado por algún usuario de la red, como un virus imposible de erradicar.
+
+Esta escena se multiplicaba en universidades y empresas de investigación de los Estados Unidos, cualquier lugar conectado a la red ARPANET. El programa en cuestión, /ADVENT/, tenía obsesionado al personal; científicos e ingenieros se quedaban jugando después de hora, distraídos de sus tareas, desperdiciando el preciosísimo tiempo de acceso a la computadora. Cada mañana el administrador del sistema borraba el programa y cada mañana volvía a encontrarlo, copiado por algún usuario de la red, como un virus imposible de erradicar.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
