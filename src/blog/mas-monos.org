@@ -4,13 +4,23 @@ subtitle: Una historia de las aventuras gráficas
 date: 2026-05-25T11:35:45-03:00
 layout: post
 lang: es
-draft: true
 tags: [videojuegos, software, cine, puzzles]
 refs: [colossal, mysteryhouse, kings, maniac, monkey, whysuck]
 favorite: true
+image: mas-monos/20bucks.png
+excerpt: "Para que exista Monkey Island hizo falta un loco de las cuevas, una proto-internet anti soviética, el divorcio de Geroge Lucas y algunos accidentes empresariales."
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
+
+/NOTA: Una versión de este post salió hace poco en [[https://www.421.news/es/monkey-island-lucasarts-origen-videojuegos-aventura-grafica/][421.news]]. Una versión anterior la había publicado acá como [[llegando-los-monos][Llegando los monos]]. Prometo dejar de robar con LucasArts por lo menos por dos años./
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/mas-monos/monkey-cover.jpg" class="wide">
+</div>
+#+END_EXPORT
+
 
 #+begin_src
 Estás frente a un edificio de ladrillo en el extremo de un camino.
@@ -41,7 +51,7 @@ El programa en cuestión, /ADVENT/, tenía obsesionado al personal, científicos
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/421/pdp.jpg" class="wide">
+ <img src="{{site.config.static_root}}/img/mas-monos/pdp.jpg" class="wide">
 </div>
 #+END_EXPORT
 
@@ -57,7 +67,7 @@ Ese modesto auge del juego en universidades y oficinas coincidió con la comerci
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/421/kingquest.jpg" class="wide">
+ <img src="{{site.config.static_root}}/img/mas-monos/kingquest.jpg" class="wide">
 </div>
 #+END_EXPORT
 
@@ -69,7 +79,7 @@ Así fue que la pequeña empresa matrimonial de los Williams (desde entonces On-
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/421/lucasfilm.png" class="wide">
+ <img src="{{site.config.static_root}}/img/mas-monos/lucasfilm.png" class="wide">
 </div>
 #+END_EXPORT
 
@@ -88,7 +98,7 @@ La marea empezó a cambiar hacia mediados de la década, sin embargo: Atari fall
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/421/maniac.png" class="wide">
+ <img src="{{site.config.static_root}}/img/mas-monos/maniac.png" class="wide">
 </div>
 #+END_EXPORT
 
@@ -104,7 +114,7 @@ Cuando su supervisor se acordó de Ron, el concepto del proyecto estaba aceptabl
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/421/library.jpg" class="wide">
+ <img src="{{site.config.static_root}}/img/mas-monos/library.jpg" class="wide">
 </div>
 #+END_EXPORT
 
@@ -114,7 +124,7 @@ También como buen programador, Gilbert fue demasiado ambicioso y se impuso la i
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/421/islita.png" class="wide">
+ <img src="{{site.config.static_root}}/img/mas-monos/islita.png" class="wide">
 </div>
 #+END_EXPORT
 
@@ -130,8 +140,6 @@ Ron Gilbert fue, en 1992, el primero en irse de LucasArts pero lo seguirían la 
 
 #+BEGIN_EXPORT html
 <div class="text-center">
- <img src="{{site.config.static_root}}/img/421/20bucks.png" class="wide">
+ <img src="{{site.config.static_root}}/img/mas-monos/20bucks.png" class="wide">
 </div>
 #+END_EXPORT
-
-/NOTA: este artículo es una versión actualizada del que salió hace poco en 421.news. Años atrás había publicado un texto parecido en [[llegando-los-monos][Llegando los monos]]. Prometo dejar de robar con LucasArts por lo menos por dos años./
