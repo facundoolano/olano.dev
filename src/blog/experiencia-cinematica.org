@@ -140,8 +140,18 @@ CoMI se ve y se juega como una película de disney, pero una de los 60 o de los 
 
 ** La amenaza 3D
 
-- doom: antítesis
-- full throttle
+Mientras la mayoría de la industria de juegos de PC seguía en su cumpleaños de jugar a Hollywood, se gestaba una revolución en el under.
+- id software, dos johns, historia porno, juego en red, modding
+- lucas acusa el golpe: full throttle
+- placas de video, playstation y n64 -> el futuro es 3D
 - grim fandango
-- flop
-- half life: síntesis
+  - como en DotT las limitaciones de la tecnología informaron las decisiones estéticas: ese 3D cuadrado, como de paper maché, remitía a los muñecos del día de muertos mexicano que dio
+por una vez alguien fue un poquito menos literal y la influencia del cine fue estética: Tim Schaffer, que por entonces venía viendo mucho cine negro, copió para el primer capítulo el argumento de /Double Indemnity/ y para el segundo convirtió a su protagonista en el Rick de /Casablanca/; el jazz de fondo remite al Miles Davis de /Ascensor al Cadalso/, a /The Big Combo/ y a /Sweet Smell of Success/. Después se acabó el presupuesto y cerró la otra mitad del juego como pudo, pero el daño (?) ya estaba hecho: mejor aventura gráfica de la historia. Así lo pensó la crítica, que la regó de premios y elogios, y el público... no tanto.
+
+Aunque no fuera un Full-Motion Video con actores reales, un juego como /Grim Fandango/ era difícil y caro de producir, y parecía que ya no tenía perspectivas de megahit. El público parecía favorecer la acción en 3D, aunque eso no necesariamente tenía que limitarse al primitivo festival de violencia de /Doom/ o /Quake/.
+
+Pocos días después de /Grim Fandngo/ se publicó /Half-Life/, de valve. /Half-Life/ era formalmente un /first-person shooter/ pero le daba la bienvenida a sus jugadores con media hora de exposición argumental, una especie de cutscene interactiva, sin armas a la vista.
+<resumen?
+<estilo de escenas de acción, menos simulación/arena que una coreografía/guionada sincopada por el paso del jugador (una especie de truman show con disparos).
+
+Half-Life se la mitad de los premios de 1998 que le dejó /Grim Fandango/ y marcó la nueva dirección de la industria: una síntesis dialéctica entre /Monkey Island/ y /Doom/, la prueba que el /storytelling/ cinematográfico podía estar embebido en la acción autóctona de la PC. Los videojuegos ya no tenían nada que envidiarle Hollywood, se recibieron de medio artístico, un medio artístico para el siglo XXI.
