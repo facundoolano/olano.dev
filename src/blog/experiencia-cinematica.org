@@ -87,54 +87,50 @@ el único camino posible era apostar todo al cd rom, algo que todos coincidían 
 - la visión de Cinemaware en última instancia no se cumplió: los juegos por computadora se terminaría mezclado con las de la consola, y el resultado no fue cine interactivo sino una forma de entretenimiento con identidad propia. Pero aunque falló en las predicciones a largo plazo, no se puede negar que Bob Jacob fue un adelantado: así como la Amiga fue una vista previa a la computación multimedia, el tour de force de Cinemaware, sus logros y fracasos, fueron los mismos que atravesaría el resto de la industria en los años inmediatos.
 
 ** La revolución multimedia
+- TODO copiar libreta
 - vga y sonido: la pc se va poniendo al día con la amiga
+- wing commander
 - el problema seguía siendo el espacio. todos sabían que lo que se venía era el CD, la pregunta era cuando. pusheado por la industria muscal
-- consolas dubitativas
-- huevo y la gallina: algunos juegos con upgrades (sonido, talkies). empiezan a aparecer celebridades (tim curry mark hamill james earl jones.  exclusivo en CD era una apuesta demasiado arriesgada
-- consorcio microsoft sony y otod
 - myst, killer app
   - (TODO como se decidieron a hacerlo cd?)
   - mundos interactivos no videojuegos, similar a adventure. historia.puzzles accessorios
 
 ** El espejismo del cine interactivo
-- 7th guest: la otra killer app, mansion david lync, aplicaba la técnica de pasar videos entre puzzles
-  - TODO revisar wing commander
-- x files, ripper, hollywood actors (christopher walken, chris lloyd, buscar más)
+- 7th guest: la otra killer app, mansion david lynch, aplicaba la técnica de pasar videos entre puzzles
+- Wing commander III con actores profesionales: Mark Hamill (Luke Skywalker en /Star Wars/), Tom Wilson (Biff en /Volver al futuro/)
+- Sierra, inversion  en estudio, storyboards dirección artística
+  - phantasmagoria gabriel knight
+  - N cds
+- Dave Duchovny y Gillian Anderson con sus roles habituales para la película interactiva de /X-Files/; Christopher Walken hizo de Detective en /Ripper/; Dennis Hopper de asesino en /Black Dahlia/; Christopher Lloyd protagonizó, con la peor de las ondas, esa especie de /Roger Rabbit/ invertido que fue /Toonstruck/.
 - asi como a mediados de los 80 había apostado fuerte por la PC, Ken Williams había apostado fuerte por el CD-ROM. En ambos casos tuvo que esperar pero el tiempo le dio la razón.
-  mientras su Sierra seguía publicando un éxito atrás de otro, como siempre impresionantes desde el punto de vista audiovisual pero desparejos en jugabilidad, Williams ya se preparaba para lo que vendría una vez que el CD se <estableciera>
-  - inversion  en estudio, storyboards dirección artística
-- phantasmagoria gabriel knight
-- venden pero son juegos malos, pronto perdieron favor de la crítica
 
-- quizas justicia poética que el mejor exponente de este estilo haya venido de la mano de Jordan Mechner, que una década antes se había fundido tratando de exprimir la última gota de jugabilidad a su gastada apple 2
-  - pudo cumplir su sueño frutrado de director
-  - no cayó en la fácil de sierra de pasar videoclips entre puzzles. en vez de eso volvió a apelar su técnica favorita, el rotoscoping, pero esta vez con la tecnología a su favor. grabó a sus actores maquillados para aumentar el contraste y después los metió en las secuencias in game y en clips en los que parecen dibujos animados más que actores berreta.
+- Muchos de esos juegos, sobre todo los primeros, tuvieron buenas ventas. Pero pasada la novedad tecnológica inicial, lo que quedaba eran juegos mal diseñados, un poco aburridos y carísimos de producir. Ni siquiera eran lindos de ver: actores berreta o buenos actores sin ganas de estar ahí, siguiendo instrucciones de gente que no sabe dirigir, capturados a baja resolucion y pegados arriba de escenarios toscamente renderizados.
+
+La ventana en la que la industria se pudo permitir gastar fortunas filmando actores fue más bien corta, pero quizás fue justicia poética que alcanzara para que Jordan Mechner, que una década atrás se había fundido tratando de exprimir la última gota de arte a una máquina obsoleta, tuviera su oportunidad de dirigir una superproducción videojueguística.
+
+- no cayó en la fácil de sierra de pasar videoclips entre puzzles. en vez de eso volvió a apelar su técnica favorita, el rotoscoping, pero esta vez con la tecnología a su favor. grabó a sus actores maquillados para aumentar el contraste y después los metió en las secuencias in game y en clips en los que parecen dibujos animados más que actores berreta.
+
 #+begin_quote
 Just as theater is its own thing — with its own conventions, things that it does well, things it does badly — so is film, and so [are] computer games. And there is a way to borrow from one medium to another, and in fact that’s what an all-new medium does when it’s first starting out. Film, when it was new, looked like someone set up a camera front and center and filmed a staged play. Then the things that are specific to film — like the moving camera, close-ups, reaction shots, dissolves — all these kinds of things became part of the language of cinema. It’s the same with computer games. To take a long film sequence and to play that on your TV screen is the bad way to make a game cinematic. The computer game is not a VCR. But if you can borrow from the knowledge that we all carry inside our heads of how cuts work, how reaction shots work, what a low angle means dramatically, what it means when the camera suddenly pulls back… We’ve got this whole collective unconscious of the vocabulary of film, and that’s a tremendously valuable tool to bring into computer gaming.
 #+end_quote
 
-
-
-  - el juego es un murder mystery arriba del orient express (doble guiño a Agatha Christie y Hitchcock), situado en medio del caldo geopolítico de una europa al borde de la primera guerra mundial
+- el juego es un murder mystery arriba del orient express (doble guiño a Agatha Christie y Hitchcock), situado en medio del caldo geopolítico de una europa al borde de la primera guerra mundial
     una inusual aventura con perspectiva 3D que se parece en movimiento al myst
     en tiempo real, que también incluye un control para avanzar y retroceder el tiempo, para poder explorar lo que pasa en el tren en distintos lugares a la vez
   - ¿suena complicado? Lo es! el juego es genial pero dificilísimo. de más está decir que fue carísimo de producir y que la inversión no se recuperó. Solo el curioso estado de la industria a mediados de los 90 puede explicar que hayan intentado semejante empresa delirante. Mechner quedó en bancarrota, vendió el estudio que había creado específicamente para el juego y suspendió sus pretensiones de carrera en el cine. Pero qué juegazo, Jordan!
 
-
-
 ** Aventuras animadas
-- Ya con las licencias de Star Wars disponibles y aprovechando el boom del CD-ROM, LucasArts (antes conocida como LucasFilm Games) le dio el gusto a su público: Rebel Assault combinó acción con secuencias directamte extraídas de las películas, inaugurando una nueva dimensión para la franquicia.
+Ningún nombre en la industria estaba más fuertemente asociado con el cine que el de LucasArts.
+hubo aventuras de Indiana Jones, la presencia constante de Spielberg, que al principio era fan y playtester y al final hasta produjo su propia aventura. Y desde ya que la pata comercial del estudio no fue del todo inmune a la fiebre del video: ya con la licencia de /Star Wars/ a disposición y el CD-ROM instalado en la mayoría de las computadoras, hubo un poco de fan service con /Rebel Assault/, un clásico simulador de aviación intergaláctica regado de clips sacados directamente de las películas.
 
-<por el lado de las aventuras el cine también estaba presente: con la presencia de Spielberg llamando por teléfono para pedir indicios, más juegos de indiana, y produciendo una aventura de exploración espacial (interesante pero que no está a la altura del resto de la producción del estudio)
-
-Pero mucho más interesante que la búsqueda directa de conectar con el cine, (un poco burda en otros estudios), son las posibilidades que la evolución tecnológica abrió del estudio.
+Pero mucho más interesante es lo que pasó con las aventuras gráficas, el corazón creativo del estudio, según avanzaba la tecnología:
 - EGA: Indiana Jones, Loom, Monkey Island, pixel art a mano
 - Lechuck's revenge, arte escaneado. aprendizaje: muchos colores dan imágenes pixeladas
 - Day of the tentacle fue por los colores planos y esa elección artística dio la clave en el tono del juego: esta secuela de Maniac Mansion no miraría al cine de horror sino a los dibujos animados <los cartoons de X>.
 - situada en la misma mansión pero estructurada como una aventura de viajes en el tiempo, el jugador controla a tres protagonistas en tres épocas distintas. Los puzzles requieren colaboración a la distancia: talar un árbol en el siglo XIX para descolgar a un personaje en el siglo XXI.
 DoTT puede bien entrar también en la categoría de "aventura perfecta" de Secret of Monkey Island, un juego que ejecuta impecablemente todo lo que se propone y de alguna manera la culminación del estilo point-and-click, la exploración de los límites de la forma que ellos habían inventado. <En todo lo que vendría después estaría marcado por un mandato de innovar para no quedarse atrás antes que profundizar en formas establecidas>
 
-- Sierra seguía haciendo lo suyo, juegos peor diseñados pero más pochocleros que LucasArts, pero a esta altura la aventura gráfica era un género bien establecido y (por el momento) redituable, así que aparecían nuevos jugadores. Quizás el más meritorio sea <revolution games>, un estudio británico que con su /Broken Sword/ no solo dio un paso adelante en el estilo de animación 2D sino que con una interfaz reducida y las descripción en off del protagonista profundizaba la experiencia de película interactiva. Toda la personalidad de este juego queda a la vista en la secuencia inicial:
+- Sierra seguía haciendo lo suyo (KQ VII con gráficos Disney), juegos peor diseñados pero más pochocleros que LucasArts, pero a esta altura la aventura gráfica era un género bien establecido y (por el momento) redituable, así que aparecían nuevos jugadores. Quizás el más meritorio sea <revolution games>, un estudio británico que con su /Broken Sword/ no solo dio un paso adelante en el estilo de animación 2D sino que con una interfaz reducida y las descripción en off del protagonista profundizaba la experiencia de película interactiva. Toda la personalidad de este juego queda a la vista en la secuencia inicial:
 
 - Pero el ápice de este estilo de aventura vendría, cómo no podía ser de otra forma, de LucasArts y de Monkey Island. Para la tercera entrega de la franquicia, ya sin el autor intelectual Ron Gilbert ni su heredero Tim Schafer ---ocupado en otros proyectos--- pero con todo el presupuesto y el capital artístico del estudio puesto al servicio de una experiencia multimedia. Curse of Monkey Island ahora tiene escenarios de 256 colores ya sin artefactos del escanner, Guybrush y Lechuck ahora tienen voces, todo se ve y se siente como una película interactiva de Disney: [video]
 
