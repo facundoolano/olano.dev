@@ -13,6 +13,32 @@ Supongo que cada vez que emerge un nuevo medio de expresión artística, atravie
 
 Pero como Ken y Roberta Williams de Sierra probaron al sumarle gráficos a la ecuación, los videojuegos estaban destinados a ser experiencias no meramente interactivas sino /audiovisuales/. La década que siguió a /King's Quest/ y /Maniac Mansion/ fue la década en que el entretenimiento por computadora buscó inspiración en las técnicas y las formas de producción de Hollywood. Esa pretensión de imitar al cine asumió muchas formas, según las capacidades del hardware de turno y el ingenio y la exuberancia con que los diseñadores supieron aprovecharlas. Revisemos algunos casos interesantes.
 
+** Jordan Mechner y la experiencia cinemática
+<Si alguien representaba el diálogo entre cine y juegos de computadora ese era Jordan Mechner
+<era a la vez fanático del cine y de los videojuegos, y lo intrigaba la posibilidad de combinarlos. Pero, a diferencia de <otros en la industria>, para Mechner la solución no era esperar a que la /tecnología/ avanzara lo suficiente para mostrar filmaciones en pantalla; la clave estaba en aprovechar la /técnica/ del cine, la manera de mejorar la experiencia del videojuego mediante el lenguaje y la sensibilidad de las películas
+<Mechner era un aspirante a director, un artesano.
+
+- exito con karateka, rotoscoping blanca nieves
+- dudas vocacionales, prince of persia
+  cazadores del arca perdida, espadachines de error flynn
+
+<Primero, filmaba a su hermano en un playón de estacionamiento, actuando los movimientos del héroe: corriendo, saltando y colgando como Indiana Jones. Después, reproducía la filmación cuadro por cuadro en una habitación a oscuras, sacándole fotos al televisor con una cámara analógica. Mandaba a revelar las fotos, las pegaba una al lado de otra en una hoja, resaltaba con marcador y cinta borradora los contornos del cuerpo y fotocopiaba la hoja para obtener imágenes de mucho contraste. Colocaba la fotocopia sobre un soporte y volvía a filmar, esta vez con la cámara conectada a su Apple II: no existía hardware de video pero sí un aparato para capturar un cuadro estático en pantalla, que después podía “calcar”, pixel por pixel. Por último, reproducía la secuencia de imágenes digitalizadas, recreando los movimientos de su hermano, ahora introducido en su videojuego.
+
+[IMAGENES]
+
+#+begin_quote
+I still think this can work. The key is not to clean up the frames too much. The figure will be tiny and messy and look like crap… but I have faith that, when the frames are run in sequence at 15 fps, it’ll create an illusion of life that’s more amazing than anything that’s ever been seen on an Apple II screen. The little guy will be wiggling and jiggling like a Ralph Bakshi rotoscope job… but he’ll be alive. He’ll be this little shimmering beacon of life in the static Apple-graphics Persian world I’ll build for him to run around in.
+#+end_quote
+
+Aunque yo no lo vi en su hábitat natural de la Apple II, sí pasé muchas horas jugándolo en una precaria PC CGA de 4 colores (los peores cuatro colores que una mente macabra pudiera combinar) y doy fe: ese muñequito, corriendo y saltando fluidamente en una pantalla que me tenía acostumbrado a toscos espasmos pixelados, era como un /glitch/ en la Matrix, un holograma traído de otra clase de computadora---de una Commodore Amiga, por caso.
+
+<Prince of Persia envejeció sorprendentemente bien, mejor que cualquiera de los intentos de película interactiva de los años siguientes. Todavía se deja jugar, más como elegante juego de puzzles que como platformero, ya despojado de cualquier asociación cinematográfica.
+
+- demasiado tarde para apple II, lo salvaron los ports amiga en europa y después DOS
+
+Aunque hubo una secuela, en la que Mechner trabajó como consultor a distancia mientras intentaba retomar su carrera de director, los verdaderos herederos de /Prince of Persia/ vinieron de Delphine Software, una empresa francesa que adoptó el concepto de /cinematic platrofmer/ iniciado por Mechner.
+- tambien rotoscopica pero facilitado por el hardware de la amiga
+
 ** Amiga y Cinemaware: vista previa al futuro
 Exagerando un poco, podemos separar a los usuarios de computadora de fines de los ochenta en dos grupos: los que usaban una IBM/PC en el trabajo y los que tenían una Apple Macintosh en casa. La división no difiere mucho de iPhone vs Android: la Mac era una elegante (y carísima) cajita cerrada, la experiencia de autor craneada por Steve Jobs para que la computadora se convierta en una bicicleta para la mente; la PC era un aparato burocrático, diseñado por comité en IBM y sobre el que Bill Gates montó Microsoft DOS para fundar su imperio.
 
@@ -60,44 +86,6 @@ cada una seguía el mismo patrón: juego global de estrategia y mini games de ac
 el único camino posible era apostar todo al cd rom, algo que todos coincidían era el siguiente paso en la evolución de los videojuegos pero no quedaba claro qué plataforma lo materializaría. Jacob decidió empezar la producción. Jacob decidió apostar a todas a la vez hasta que surja el ganador: así fue que sacó una versión CD-ROM de Defender of the Crown para DOS, mucho antes de que los consumidores tuvieran lectoras de CD; así es que se embarcó en una extensión Full-Motion Video de /It Came from the Desert/ para una la oscura consola Turbografx-3D, una de las pocas plataformas que ya disponían de CD. Ninguna de los dos intentos funcionó; el costo de producir un juego carísimo para una plataforma que no tenía nadie se terminó llevando puesto a la empresa.
 - la visión de Cinemaware en última instancia no se cumplió: los juegos por computadora se terminaría mezclado con las de la consola, y el resultado no fue cine interactivo sino una forma de entretenimiento con identidad propia. Pero aunque falló en las predicciones a largo plazo, no se puede negar que Bob Jacob fue un adelantado: así como la Amiga fue una vista previa a la computación multimedia, el tour de force de Cinemaware, sus logros y fracasos, fueron los mismos que atravesaría el resto de la industria en los años inmediatos.
 
-** Jordan Mechner y la experiencia cinemática
-Al igual que Bob Jacob, Jordan Mechner era a la vez fanático del cine y de los videojuegos, y lo intrigaba la posibilidad de combinarlos. Pero, a diferencia de Jacob, para Mechner la solución no era esperar a que la /tecnología/ avanzara lo suficiente para mostrar filmaciones en pantalla; la clave estaba en aprovechar la /técnica/ del cine, la manera de mejorar la experiencia del videojuego mediante el lenguaje y la sensibilidad de las películas:
-
-#+begin_quote
-Just as theater is its own thing — with its own conventions, things that it does well, things it does badly — so is film, and so [are] computer games. And there is a way to borrow from one medium to another, and in fact that’s what an all-new medium does when it’s first starting out. Film, when it was new, looked like someone set up a camera front and center and filmed a staged play. Then the things that are specific to film — like the moving camera, close-ups, reaction shots, dissolves — all these kinds of things became part of the language of cinema. It’s the same with computer games. To take a long film sequence and to play that on your TV screen is the bad way to make a game cinematic. The computer game is not a VCR. But if you can borrow from the knowledge that we all carry inside our heads of how cuts work, how reaction shots work, what a low angle means dramatically, what it means when the camera suddenly pulls back… We’ve got this whole collective unconscious of the vocabulary of film, and that’s a tremendously valuable tool to bring into computer gaming.
-
-
-#+end_quote
-
-Jacob pensaba como hombre de negocios y como productor ejecutivo; Mechner era un aspirante a director, un artesano.
-
-- exito con karateka, rotoscoping blanca nieves
-- dudas vocacionales, prince of persia
-  cazadores del arca perdida, espadachines de error flynn
-
-<Primero, filmaba a su hermano en un playón de estacionamiento, actuando los movimientos del héroe: corriendo, saltando y colgando como Indiana Jones. Después, reproducía la filmación cuadro por cuadro en una habitación a oscuras, sacándole fotos al televisor con una cámara analógica. Mandaba a revelar las fotos, las pegaba una al lado de otra en una hoja, resaltaba con marcador y cinta borradora los contornos del cuerpo y fotocopiaba la hoja para obtener imágenes de mucho contraste. Colocaba la fotocopia sobre un soporte y volvía a filmar, esta vez con la cámara conectada a su Apple II: no existía hardware de video pero sí un aparato para capturar un cuadro estático en pantalla, que después podía “calcar”, pixel por pixel. Por último, reproducía la secuencia de imágenes digitalizadas, recreando los movimientos de su hermano, ahora introducido en su videojuego.
-
-[IMAGENES]
-
-#+begin_quote
-I still think this can work. The key is not to clean up the frames too much. The figure will be tiny and messy and look like crap… but I have faith that, when the frames are run in sequence at 15 fps, it’ll create an illusion of life that’s more amazing than anything that’s ever been seen on an Apple II screen. The little guy will be wiggling and jiggling like a Ralph Bakshi rotoscope job… but he’ll be alive. He’ll be this little shimmering beacon of life in the static Apple-graphics Persian world I’ll build for him to run around in.
-#+end_quote
-
-Aunque yo no lo vi en su hábitat natural de la Apple II, sí pasé muchas horas jugándolo en una precaria PC CGA de 4 colores (los peores cuatro colores que una mente macabra pudiera combinar) y doy fe: ese muñequito, corriendo y saltando fluidamente en una pantalla que me tenía acostumbrado a toscos espasmos pixelados, era como un /glitch/ en la Matrix, un holograma traído de otra clase de computadora---de una Commodore Amiga, por caso.
-
-<Prince of Persia envejeció sorprendentemente bien, mejor que cualquiera de los intentos de película interactiva de los años siguientes. Todavía se deja jugar, más como elegante juego de puzzles que como platformero, ya despojado de cualquier asociación cinematográfica.
-
-- demasiado tarde para apple II, lo salvaron los ports amiga en europa y después DOS
-
-Aunque hubo una secuela, en la que Mechner trabajó como consultor a distancia mientras intentaba retomar su carrera de director, los verdaderos herederos de /Prince of Persia/ vinieron de Delphine Software, una empresa francesa que adoptó el concepto de /cinematic platrofmer/ iniciado por Mechner.
-- tambien rotoscopica pero facilitado por el hardware de la amiga
-- animacion poligonal, favoreciendo figuras simples y colores planos pero que podían jugar con ángulos de cámara y desplazamientos nunca vistos en una computadora.
-  #+begin_quote
-quotear chahi
-  #+end_quote
-
-quizas el último título notable que salió de la Amiga, por entonces ya igualada por la PC, con perspectivas de seguir ampliando el ahrdware, y en proceso de reemplazo incluso en europa.
-
 ** La revolución multimedia
 - vga y sonido: la pc se va poniendo al día con la amiga
 - el problema seguía siendo el espacio. todos sabían que lo que se venía era el CD, la pregunta era cuando. pusheado por la industria muscal
@@ -121,10 +109,18 @@ quizas el último título notable que salió de la Amiga, por entonces ya iguala
 - quizas justicia poética que el mejor exponente de este estilo haya venido de la mano de Jordan Mechner, que una década antes se había fundido tratando de exprimir la última gota de jugabilidad a su gastada apple 2
   - pudo cumplir su sueño frutrado de director
   - no cayó en la fácil de sierra de pasar videoclips entre puzzles. en vez de eso volvió a apelar su técnica favorita, el rotoscoping, pero esta vez con la tecnología a su favor. grabó a sus actores maquillados para aumentar el contraste y después los metió en las secuencias in game y en clips en los que parecen dibujos animados más que actores berreta.
+#+begin_quote
+Just as theater is its own thing — with its own conventions, things that it does well, things it does badly — so is film, and so [are] computer games. And there is a way to borrow from one medium to another, and in fact that’s what an all-new medium does when it’s first starting out. Film, when it was new, looked like someone set up a camera front and center and filmed a staged play. Then the things that are specific to film — like the moving camera, close-ups, reaction shots, dissolves — all these kinds of things became part of the language of cinema. It’s the same with computer games. To take a long film sequence and to play that on your TV screen is the bad way to make a game cinematic. The computer game is not a VCR. But if you can borrow from the knowledge that we all carry inside our heads of how cuts work, how reaction shots work, what a low angle means dramatically, what it means when the camera suddenly pulls back… We’ve got this whole collective unconscious of the vocabulary of film, and that’s a tremendously valuable tool to bring into computer gaming.
+#+end_quote
+
+
+
   - el juego es un murder mystery arriba del orient express (doble guiño a Agatha Christie y Hitchcock), situado en medio del caldo geopolítico de una europa al borde de la primera guerra mundial
     una inusual aventura con perspectiva 3D que se parece en movimiento al myst
     en tiempo real, que también incluye un control para avanzar y retroceder el tiempo, para poder explorar lo que pasa en el tren en distintos lugares a la vez
   - ¿suena complicado? Lo es! el juego es genial pero dificilísimo. de más está decir que fue carísimo de producir y que la inversión no se recuperó. Solo el curioso estado de la industria a mediados de los 90 puede explicar que hayan intentado semejante empresa delirante. Mechner quedó en bancarrota, vendió el estudio que había creado específicamente para el juego y suspendió sus pretensiones de carrera en el cine. Pero qué juegazo, Jordan!
+
+
 
 ** Aventuras animadas
 - Ya con las licencias de Star Wars disponibles y aprovechando el boom del CD-ROM, LucasArts (antes conocida como LucasFilm Games) le dio el gusto a su público: Rebel Assault combinó acción con secuencias directamte extraídas de las películas, inaugurando una nueva dimensión para la franquicia.
