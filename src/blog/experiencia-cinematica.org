@@ -93,29 +93,39 @@ La PC fue la computadora más aburrida de las '80, pero tenía algunas cosas a s
 
 Una vez establecido el dominio de la PC con el comienzo de los '90, se generó un cambio de dinámica en el diseño de los videojuegos. Como la plataforma era configurable, a diferencia de lo que pasaba con una Apple II o una Commodore 64, no había unas especificaciones fijas de hardware a las que los estudios pudieran apuntar: no todos los usuarios tenían la misma generación de procesador ni la misma placa de video. Ahora los requerimientos de los juegos servían para motorizar las ventas de hardware: los usuarios mejoraban su máquina para poder correr los juegos más de punta. Los juegos Sierra Online, por ejemplo, no soportaban modernos sintetizadores Roland y tarjetas de sonido Adlib, sino que directamente vendían "kits multimedia" que incluían el /King Quest/ de turno con el hardware necesario para experimentarlo como correspondía.
 
-De esa lógica de apostar al último hardware surgió el primer gran blockbuster para PC.
+[IMAGEN wing commander]
+
+De esa lógica de apostar al último hardware surgió /Wing Commander/, el primer /blockbuster/ de la PC.
 <wing commander
 
 - ega -> scanners -> cartoons (monkey dott) -> talkie
-- el problema seguía siendo el espacio. todos sabían que lo que se venía era el CD, la pregunta era cuando. pusheado por la industria muscal
+
+- la nueva capacidad audiovisual abría un mundo de posibilidades para los juegos de PC, pero el problema seguía siendo el espacio de almacenamiento. A esta altura los juegos de Sierra Online venían en 6 diskettes, y tenían que hacer malabares para mantener los costos de producción. El espacio de almacenamiento era la variable que faltaba despejar en la ecuación multimedia. Y todos conocían la solución: el CD-ROM, una tecnología que se venía anunciando hacía años, que ya dominaba en la industria musical pero que no terminaba de entrar en la PC.
+
+[IMAGEN MYST]
+
+- TODO ver como myst hizo la eleccion
 - myst, killer app
-  - (TODO como se decidieron a hacerlo cd?)
   - mundos interactivos no videojuegos, similar a adventure. historia.puzzles accessorios
-- ya con cd: aventuras animadas
-  - kq vii
-  - full throttle
-  - the dig
-  - broken sword
+
+Ya con el CD-ROM en la mayoría de los hogares con PC, la aventura gráfica pudo desarrollar todo su esplendor multimedia que, como había insinuado Day of the Tentacle, se convirtieron en animaciones interactivas. King Quest VII maridó sus cuentos de hadas con la correspondiente estética de Disney; /Full Throttle/ nos puso al volante de una banda de motoqueros; /The Dig/ nos llevó al espacio con un guión de Steven Spielberg; /Broken Sword/ anticipó la intriga histórica del Código DaVinci. Probablemente la mejor aventura de esa etapa multimeda, quizás la mejor de todas las aventuras gráficas, tenía que ser, cómo no, /The Curse of Monkey Island/.
+
   - curse of MIO
+
+[INTRO FULL THROTTLE]
 
 ** El espejismo del cine interactivo
 - 7th guest: la otra killer app, mansion david lynch, aplicaba la técnica de pasar videos entre puzzles
+- abrió las compuertas para el periodo más bizarro de la industria de los videojuegos
 - Wing commander III con actores profesionales: Mark Hamill (Luke Skywalker en /Star Wars/), Tom Wilson (Biff en /Volver al futuro/)
 - Sierra, inversion  en estudio, storyboards dirección artística
-  - phantasmagoria gabriel knight
+  - phantasmagoria, gabriel knight.
+    suponían que el uso de actores reales le daría atractivo para el público adulto. el casting del elenco, la estética del juego y la calidad del guión, le daba al conjunto un aire de softporn (que poblimente explique por qué vendió tan bien a pesar de ser un juego terrible).
   - N cds
-- lucas arts no fue inmune, aunque afortunadamente lo limitó a los juegos de star wars (rebel assault)
+- tampoco lucas arts fue inmune, aunque afortunadamente lo limitó a los juegos de star wars (rebel assault)
 - Dave Duchovny y Gillian Anderson con sus roles habituales para la película interactiva de /X-Files/; Christopher Walken hizo de Detective en /Ripper/; Dennis Hopper de asesino en /Black Dahlia/; Christopher Lloyd protagonizó, con la peor de las ondas, esa especie de /Roger Rabbit/ invertido que fue /Toonstruck/.
+
+[agluna imagen de FMV]
 
 - Muchos de esos juegos, sobre todo los primeros, tuvieron buenas ventas. Pero pasada la novedad tecnológica inicial, lo que quedaba eran juegos mal diseñados, un poco aburridos y carísimos de producir. Ni siquiera eran lindos de ver: actores berreta o buenos actores sin ganas de estar ahí, siguiendo instrucciones de gente que no sabe dirigir, capturados a baja resolucion y pegados arriba de escenarios toscamente renderizados.
 
@@ -126,6 +136,8 @@ La ventana en la que la industria se pudo permitir gastar fortunas filmando acto
 #+begin_quote
 Just as theater is its own thing — with its own conventions, things that it does well, things it does badly — so is film, and so [are] computer games. And there is a way to borrow from one medium to another, and in fact that’s what an all-new medium does when it’s first starting out. Film, when it was new, looked like someone set up a camera front and center and filmed a staged play. Then the things that are specific to film — like the moving camera, close-ups, reaction shots, dissolves — all these kinds of things became part of the language of cinema. It’s the same with computer games. To take a long film sequence and to play that on your TV screen is the bad way to make a game cinematic. The computer game is not a VCR. But if you can borrow from the knowledge that we all carry inside our heads of how cuts work, how reaction shots work, what a low angle means dramatically, what it means when the camera suddenly pulls back… We’ve got this whole collective unconscious of the vocabulary of film, and that’s a tremendously valuable tool to bring into computer gaming.
 #+end_quote
+
+[imagen making of last express]
 
 - el juego es un murder mystery arriba del orient express (doble guiño a Agatha Christie y Hitchcock), situado en medio del caldo geopolítico de una europa al borde de la primera guerra mundial
     una inusual aventura con perspectiva 3D que se parece en movimiento al myst
@@ -138,6 +150,7 @@ Mientras la mayoría de la industria de juegos de PC seguía en su cumpleaños d
 - id software, dos johns, historia porno,
 - la tecnología de John Carmack y el estilo de John Romero no eran la única innovación. parecía que idSoftware, sin proponérselo, no hacía otra cosa que abrir nuevos caminos. distribución shareware, cultura de modding, competencias de juegos en red. En todo eso fueron pioneros los juegos de id, no solo por tecnología y diseño sino por la cultura de sus fans y el diálogo que entablaban con sus creadores, que liberaban sus herramientas e incorporaban el feedback de los usuarios en sus próximas creaciones
 
+[imagen los dos johns]
 id publicó un éxito tras otro.
 
 acaso el público que en 1991 pedía más historia al comprar wing commander ahora pedía la violencia sin compromisos de doom? Mucho más probablemente el público no quería una única cosa, ni había un sólo público uniforme. Pero todavía estabamos a décadas de la idea de segmentar el mercado; a mediados de los noventa lo único que contaba era el mainstream, y el mainstream quería acción en 3D.
@@ -150,6 +163,8 @@ En el cine, ese modelo a seguir hasta hacía poco, Pixar había destronado a Dis
   - Tim schafer, heredero de ron gilbert, MI 1 y 2, DoTT y el hit menor que fue Full Throttle. Le dieron carta blanca creativa, con la única condición de que el juego tenía que ser una aventura 3D.
     - como en DotT las limitaciones de la tecnología informaron las decisiones estéticas: ese 3D cuadrado, como de paper maché, remitía a los muñecos del día de muertos mexicano que dio
 por una vez alguien fue un poquito menos literal y la influencia del cine fue estética: Tim Schaffer, que por entonces venía viendo mucho cine negro, copió para el primer capítulo el argumento de /Double Indemnity/ y para el segundo convirtió a su protagonista en el Rick de /Casablanca/; el jazz de fondo remite al Miles Davis de /Ascensor al Cadalso/, a /The Big Combo/ y a /Sweet Smell of Success/. Después se acabó el presupuesto y cerró la otra mitad del juego como pudo, pero el daño (?) ya estaba hecho: mejor aventura gráfica de la historia. Así lo pensó la crítica, que la regó de premios y elogios, y el público... no tanto.
+
+[intro de grim fandango]
 
 Aunque no fuera un Full-Motion Video con actores reales, un juego como /Grim Fandango/ era difícil y caro de producir, y parecía que ya no tenía perspectivas de megahit. El público parecía favorecer la acción en 3D, aunque eso no necesariamente tenía que limitarse al primitivo festival de violencia de /Doom/ o /Quake/.
 
