@@ -14,30 +14,31 @@ Supongo que cada vez que emerge un nuevo medio de expresión artística, atravie
 Pero como Ken y Roberta Williams de Sierra probaron al sumarle gráficos a la ecuación, los videojuegos estaban destinados a ser experiencias no meramente interactivas sino /audiovisuales/. La década que siguió a /King's Quest/ y /Maniac Mansion/ fue la década en que el entretenimiento por computadora buscó inspiración en las técnicas y las formas de producción de Hollywood. Esa pretensión de imitar al cine asumió muchas formas, según las capacidades del hardware de turno y el ingenio y la exuberancia con que los diseñadores supieron aprovecharlas. Revisemos algunos casos interesantes.
 
 ** Jordan Mechner y la experiencia cinemática
-<Si alguien representaba el diálogo entre cine y juegos de computadora ese era Jordan Mechner
-<era a la vez fanático del cine y de los videojuegos, y lo intrigaba la posibilidad de combinarlos. Pero, a diferencia de <otros en la industria>, para Mechner la solución no era esperar a que la /tecnología/ avanzara lo suficiente para mostrar filmaciones en pantalla; la clave estaba en aprovechar la /técnica/ del cine, la manera de mejorar la experiencia del videojuego mediante el lenguaje y la sensibilidad de las películas
-<Mechner era un aspirante a director, un artesano.
 
-- exito con karateka, rotoscoping blanca nieves
-- dudas vocacionales, prince of persia
-  cazadores del arca perdida, espadachines de error flynn
+Nadie personificó ese diálogo entre cine y videojuegos como Jordan Mechner. Fanático del cine, Jordan soñaba con convertirse en director, hasta que la Apple II se cruzó en su camino y se encontró, sin proponérselo, con una carrera en el diseño de videojuegos.
+
+- TODO making of karateka, ver richard rouse
+  - intentaba, un poco lúdicamente, incorporar el lenguaje del cine en su pequeño y minimalista juego. por ejemplo, usando "The End" en vez de "Game Over".
+  - desempolvó una vieja técnica de animación: el [[https://es.wikipedia.org/wiki/Rotoscopio][rotoscopio]]. <la idea era filmar personas reales y después dibujar sobre sus siluetas para obtener una animación fluida y realista. Era la técnica que había usado Disney para /Blancanieves/. > Filmó a su profesor de karate con una cámara super 8, proyectó la filmación con una moviola y ??
+
+Ese juego minimalista que había empezado como una distracción de la facultad se convirtió de repente en un hit y lo puso en una disyuntiva vocacional. ¿Dejaba la facultad, que no le interesaba mucho, para dedicarse a los videojuegos? ¿Seguía intentando colocar ese guión en el que venía trabajando, para iniciar su carrera en el cine? ¿O empezaba con su próximo juego? Esas dudas no logró disiparlas nunca; en los años siguientes trataría de hacer las tres cosas, lo que en parte explica por qué tardó tanto en terminar su siguiente juego.
+
+Viendo que el público respondió a su enfoque "cinemático", decidió redoblar la apuesta.
+<cazadores del arca perdida, espadachines de error flynn
+<para Mechner la solución no era esperar a que la /tecnología/ avanzara lo suficiente para mostrar filmaciones en pantalla; la clave estaba en aprovechar la /técnica/ del cine, la manera de mejorar la experiencia del videojuego mediante el lenguaje y la sensibilidad de las películas
+<Mechner era un aspirante a director, un artesano.
 
 <Primero, filmaba a su hermano en un playón de estacionamiento, actuando los movimientos del héroe: corriendo, saltando y colgando como Indiana Jones. Después, reproducía la filmación cuadro por cuadro en una habitación a oscuras, sacándole fotos al televisor con una cámara analógica. Mandaba a revelar las fotos, las pegaba una al lado de otra en una hoja, resaltaba con marcador y cinta borradora los contornos del cuerpo y fotocopiaba la hoja para obtener imágenes de mucho contraste. Colocaba la fotocopia sobre un soporte y volvía a filmar, esta vez con la cámara conectada a su Apple II: no existía hardware de video pero sí un aparato para capturar un cuadro estático en pantalla, que después podía “calcar”, pixel por pixel. Por último, reproducía la secuencia de imágenes digitalizadas, recreando los movimientos de su hermano, ahora introducido en su videojuego.
 
-[IMAGENES]
+[VIDEO making of]
 
-#+begin_quote
-I still think this can work. The key is not to clean up the frames too much. The figure will be tiny and messy and look like crap… but I have faith that, when the frames are run in sequence at 15 fps, it’ll create an illusion of life that’s more amazing than anything that’s ever been seen on an Apple II screen. The little guy will be wiggling and jiggling like a Ralph Bakshi rotoscope job… but he’ll be alive. He’ll be this little shimmering beacon of life in the static Apple-graphics Persian world I’ll build for him to run around in.
-#+end_quote
-
-Aunque yo no lo vi en su hábitat natural de la Apple II, sí pasé muchas horas jugándolo en una precaria PC CGA de 4 colores (los peores cuatro colores que una mente macabra pudiera combinar) y doy fe: ese muñequito, corriendo y saltando fluidamente en una pantalla que me tenía acostumbrado a toscos espasmos pixelados, era como un /glitch/ en la Matrix, un holograma traído de otra clase de computadora---de una Commodore Amiga, por caso.
+Aunque yo no lo vi en su hábitat natural de la Apple II, sí pasé muchas horas jugándolo en una precaria PC CGA de 4 colores (los peores cuatro colores que una mente macabra pudiera combinar) y doy fe: ese muñequito, corriendo y saltando fluidamente en una pantalla que me tenía acostumbrado a toscos espasmos pixelados, era como un /glitch/ en la Matrix, un holograma traído de una computadora de otra generación.
 
 <Prince of Persia envejeció sorprendentemente bien, mejor que cualquiera de los intentos de película interactiva de los años siguientes. Todavía se deja jugar, más como elegante juego de puzzles que como platformero, ya despojado de cualquier asociación cinematográfica.
 
 - demasiado tarde para apple II, lo salvaron los ports amiga en europa y después DOS
 
-Aunque hubo una secuela, en la que Mechner trabajó como consultor a distancia mientras intentaba retomar su carrera de director, los verdaderos herederos de /Prince of Persia/ vinieron de Delphine Software, una empresa francesa que adoptó el concepto de /cinematic platrofmer/ iniciado por Mechner.
-- tambien rotoscopica pero facilitado por el hardware de la amiga
+Aunque hubo una secuela, en la que Mechner trabajó como consultor a distancia mientras intentaba retomar su carrera de director, los verdaderos herederos de /Prince of Persia/ vinieron de Delphine Software, una empresa francesa que adoptó el concepto de /cinematic platrofmer/ iniciado por Mechner y lo aplicó a juegos como /Flashback/ y /Another World/. <Pero para entonces los diseñadores ya no estaban atados de manos como Mechner; ya contaban con una computadora traída del futuro.
 
 ** Amiga y Cinemaware: vista previa al futuro
 Exagerando un poco, podemos separar a los usuarios de computadora de fines de los ochenta en dos grupos: los que usaban una IBM/PC en el trabajo y los que tenían una Apple Macintosh en casa. La división no difiere mucho de iPhone vs Android: la Mac era una elegante (y carísima) cajita cerrada, la experiencia de autor craneada por Steve Jobs para que la computadora se convierta en una bicicleta para la mente; la PC era un aparato burocrático, diseñado por comité en IBM y sobre el que Bill Gates montó Microsoft DOS para fundar su imperio.
@@ -108,7 +109,7 @@ el único camino posible era apostar todo al cd rom, algo que todos coincidían 
 - Sierra, inversion  en estudio, storyboards dirección artística
   - phantasmagoria gabriel knight
   - N cds
-- lucas arts no fue inmune, aunque afortunadamente lo limitó a losjuegos de star wars
+- lucas arts no fue inmune, aunque afortunadamente lo limitó a los juegos de star wars (rebel assault)
 - Dave Duchovny y Gillian Anderson con sus roles habituales para la película interactiva de /X-Files/; Christopher Walken hizo de Detective en /Ripper/; Dennis Hopper de asesino en /Black Dahlia/; Christopher Lloyd protagonizó, con la peor de las ondas, esa especie de /Roger Rabbit/ invertido que fue /Toonstruck/.
 
 - Muchos de esos juegos, sobre todo los primeros, tuvieron buenas ventas. Pero pasada la novedad tecnológica inicial, lo que quedaba eran juegos mal diseñados, un poco aburridos y carísimos de producir. Ni siquiera eran lindos de ver: actores berreta o buenos actores sin ganas de estar ahí, siguiendo instrucciones de gente que no sabe dirigir, capturados a baja resolucion y pegados arriba de escenarios toscamente renderizados.
