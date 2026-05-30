@@ -17,31 +17,32 @@ Pero como Ken y Roberta Williams de Sierra probaron al sumarle gráficos a la ec
 
 Nadie personificó ese diálogo entre cine y videojuegos como Jordan Mechner. Fanático del cine, Jordan soñaba con convertirse en director, hasta que la Apple II se cruzó en su camino y se encontró, sin proponérselo, con una carrera en el diseño de videojuegos.
 
-- TODO making of karateka, ver richard rouse
+- TODO making of karateka, ver richard rouse, citar
   - intentaba, un poco lúdicamente, incorporar el lenguaje del cine en su pequeño y minimalista juego. por ejemplo, usando "The End" en vez de "Game Over".
   - desempolvó una vieja técnica de animación: el [[https://es.wikipedia.org/wiki/Rotoscopio][rotoscopio]]. <la idea era filmar personas reales y después dibujar sobre sus siluetas para obtener una animación fluida y realista. Era la técnica que había usado Disney para /Blancanieves/. > Filmó a su profesor de karate con una cámara super 8, proyectó la filmación con una moviola y ??
 
 Ese juego minimalista que había empezado como una distracción de la facultad se convirtió de repente en un hit y lo puso en una disyuntiva vocacional. ¿Dejaba la facultad, que no le interesaba mucho, para dedicarse a los videojuegos? ¿Seguía intentando colocar ese guión en el que venía trabajando, para iniciar su carrera en el cine? ¿O empezaba con su próximo juego? Esas dudas no logró disiparlas nunca; en los años siguientes trataría de hacer las tres cosas, lo que en parte explica por qué tardó tanto en terminar su siguiente juego.
 
 Viendo que el público respondió a su enfoque "cinemático", decidió redoblar la apuesta.
-<cazadores del arca perdida, espadachines de error flynn
-<para Mechner la solución no era esperar a que la /tecnología/ avanzara lo suficiente para mostrar filmaciones en pantalla; la clave estaba en aprovechar la /técnica/ del cine, la manera de mejorar la experiencia del videojuego mediante el lenguaje y la sensibilidad de las películas
-<Mechner era un aspirante a director, un artesano.
+el patrón del juego sería parecido: héroe atraviesa pantallas y rescata princesa, esta vez en un escenario inspirado en /Las mil y una noches/. Pero el tono que buscaba Mechner era el de las películas de aventuras y espadachines; en particular, quería que su juego fuera una versión interactiva de esos primeros diez minutos de /Cazadores del arca perdida/, en que Indiana Jones corre, salta y esquiva trampas mortales con una mezcla de destreza física e ingenio.
 
 <Primero, filmaba a su hermano en un playón de estacionamiento, actuando los movimientos del héroe: corriendo, saltando y colgando como Indiana Jones. Después, reproducía la filmación cuadro por cuadro en una habitación a oscuras, sacándole fotos al televisor con una cámara analógica. Mandaba a revelar las fotos, las pegaba una al lado de otra en una hoja, resaltaba con marcador y cinta borradora los contornos del cuerpo y fotocopiaba la hoja para obtener imágenes de mucho contraste. Colocaba la fotocopia sobre un soporte y volvía a filmar, esta vez con la cámara conectada a su Apple II: no existía hardware de video pero sí un aparato para capturar un cuadro estático en pantalla, que después podía “calcar”, pixel por pixel. Por último, reproducía la secuencia de imágenes digitalizadas, recreando los movimientos de su hermano, ahora introducido en su videojuego.
 
-[VIDEO making of]
+[VIDEO making of PoP]
 
 Aunque yo no lo vi en su hábitat natural de la Apple II, sí pasé muchas horas jugándolo en una precaria PC CGA de 4 colores (los peores cuatro colores que una mente macabra pudiera combinar) y doy fe: ese muñequito, corriendo y saltando fluidamente en una pantalla que me tenía acostumbrado a toscos espasmos pixelados, era como un /glitch/ en la Matrix, un holograma traído de una computadora de otra generación.
 
+<para Mechner la solución no era esperar a que la /tecnología/ avanzara lo suficiente para mostrar filmaciones en pantalla; la clave estaba en aprovechar la /técnica/ del cine, la manera de mejorar la experiencia del videojuego mediante el lenguaje y la sensibilidad de las películas
+<Mechner era un aspirante a director, un artesano.
 <Prince of Persia envejeció sorprendentemente bien, mejor que cualquiera de los intentos de película interactiva de los años siguientes. Todavía se deja jugar, más como elegante juego de puzzles que como platformero, ya despojado de cualquier asociación cinematográfica.
+- a diferencia de Karateka, no fue un éxito instantáneo. demasiado tarde para apple II, lo salvaron los ports amiga en europa y después DOS
 
-- demasiado tarde para apple II, lo salvaron los ports amiga en europa y después DOS
+Aunque hubo una secuela, en la que Mechner trabajó como consultor a distancia mientras intentaba reactivar, ya sin presiones financieras, su carrera de cineasta. <Pero los verdaderos herederos de /Prince of Persia/ vinieron de Delphine Software, una empresa francesa que adoptó el concepto de /cinematic platrofmer/ iniciado por Mechner y lo mezclaron con al sensibilidad francesa juegos como /Flashback/ y /Another World/. <Pero para entonces los diseñadores ya no estaban atados de manos como Mechner; ya contaban con una computadora que se podía conectar a una reproductora de video; una rara computadora estadounidense, que parecía haber venido del futuro.
 
-Aunque hubo una secuela, en la que Mechner trabajó como consultor a distancia mientras intentaba retomar su carrera de director, los verdaderos herederos de /Prince of Persia/ vinieron de Delphine Software, una empresa francesa que adoptó el concepto de /cinematic platrofmer/ iniciado por Mechner y lo aplicó a juegos como /Flashback/ y /Another World/. <Pero para entonces los diseñadores ya no estaban atados de manos como Mechner; ya contaban con una computadora traída del futuro.
+[Video/animacion another world?]
 
 ** Amiga y Cinemaware: vista previa al futuro
-Exagerando un poco, podemos separar a los usuarios de computadora de fines de los ochenta en dos grupos: los que usaban una IBM/PC en el trabajo y los que tenían una Apple Macintosh en casa. La división no difiere mucho de iPhone vs Android: la Mac era una elegante (y carísima) cajita cerrada, la experiencia de autor craneada por Steve Jobs para que la computadora se convierta en una bicicleta para la mente; la PC era un aparato burocrático, diseñado por comité en IBM y sobre el que Bill Gates montó Microsoft DOS para fundar su imperio.
+Exagerando un poco, podemos separar a los usuarios de computadora de fines de los ochenta en dos grupos: los que usaban una IBM/PC en el trabajo y los que tenían una Apple Macintosh en casa. La división no difiere mucho de la que ahora es iPhone vs Android: la Mac era una elegante (y carísima) cajita cerrada, una experiencia de autor craneada por Steve Jobs para convertir a la computadora en "una bicicleta para la mente"; la PC era un bloque burocrático, un aparato que IBM diseñó por comité y sobre el que Bill Gates montó Microsoft DOS para fundar su imperio.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -53,10 +54,10 @@ Pero si hamos zoom había otra computadora personal que solo poseía un selecto 
 convencidos de que el mundo vivía equivocado. La Commodore Amiga estaba armada alrededor del procesador de moda, el mismo Motorola 68000 que usaba la Macintosh, pero a este le sumaba un chip dedicado para memoria, otro para procesamiento de gráficos y otro para audio. Esa combinación de hardware, combinada con un diseño innovador, la convertían en la computadora personal más avanzada del mercado. La Amiga podía hacer todo lo que hacía Mac pero en estéreo y en colores; al lado de la Amiga, la IBM/PC parecía una calculadora. Así lo resumía la gente de Electronic Arts:
 
 #+begin_quote
-Creemos que las computadoras hogareñas van a ser tan importantes como la radio, el estéreo y la televisión de hoy. La Amiga avanza el medio en todos sus frentes. Por primera vez, una computadora ofrece la calidad audiovisual que nuestros ojos y oídos merecen. Comparadas con la Amiga, usar las otras computadoras es como mirar la tele en blanco y negro con el sonido apagado.
+Creemos que las computadoras hogareñas van a ser tan importantes como la radio, el estéreo y la televisión de hoy. La Amiga avanza el medio en todos sus frentes. Por primera vez, una computadora ofrece la calidad audiovisual que nuestros ojos y oídos merecen. Comparadas con la Amiga, usar las otras computadoras es como mirar la tele en blanco y negro, con el sonido apagado.
 #+end_quote
 
-Mientras los demás hacían edición de texto y planillas de cálculo, la Amiga habilitaba la producción de audio, fotografía y video. En un evento de presentación, Andy Warhol la usó para retratar digitalmente a Debbie Harry, cantante de Blondie; el Flaco Spinetta, en su trance tecnológico ochentoso, la usó para la tapa pixelada de /Don Lucero/. Incluso los estudios dedicados a videojuegos de PC/DOS preferían el /Deluxe Paint II/ de la Amiga para el diseño de escenarios y animaciones.
+Mientras los demás hacían edición de texto y planillas de cálculo, la Amiga destacaba en la producción de audio, fotografía y video. Andy Warhol usó una Amiga para retratar digitalmente a Debbie Harry, cantante de Blondie; el Flaco Spinetta, en su trance tecnológico ochentoso, la usó para la tapa pixelada de /Don Lucero/. Incluso los estudios especializados en videojuegos para PC/DOS preferían el /Deluxe Paint II/ de la Amiga para ilustrar escenarios y animar personajes.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -65,7 +66,7 @@ Mientras los demás hacían edición de texto y planillas de cálculo, la Amiga 
 #+END_EXPORT
 
 
-Bob Jacob estaba tan convencido de que el futuro de los videojuegos eran las películas que le puso a su empresa Cinemaware. Tan convencido, que apostó todo a esa computadora de nicho, la Amiga, porque era la única capaz de materializar su visión.
+Bob Jacob estaba tan convencido de que el futuro de los videojuegos eran las películas que llamó a su empresa /Cinemaware/. Tan convencido estaba, que lo apostó todo a esa computadora de nicho, la Amiga, la única capaz de materializar su visión.
 
 - la vision cinematografica de cinemaware
 - defender of the crown
@@ -88,9 +89,13 @@ el único camino posible era apostar todo al cd rom, algo que todos coincidían 
 - la visión de Cinemaware en última instancia no se cumplió: los juegos por computadora se terminaría mezclado con las de la consola, y el resultado no fue cine interactivo sino una forma de entretenimiento con identidad propia. Pero aunque falló en las predicciones a largo plazo, no se puede negar que Bob Jacob fue un adelantado: así como la Amiga fue una vista previa a la computación multimedia, el tour de force de Cinemaware, sus logros y fracasos, fueron los mismos que atravesaría el resto de la industria en los años inmediatos.
 
 ** La revolución multimedia
-- TODO copiar libreta
-- sonido: sierra
-- 386 + vga + sonido: wing commander
+La PC fue la computadora más aburrida de las '80, pero tenía algunas cosas a su favor. IBM la había diseñado con una arquitectura abierta, es decir que otras manufactureras de hardware, como Compaq o Tandy, podían hacer clones "PC-compatible"; Bill Gates, en la jugada maestra sobre la que fundó su monopolio, le vendió a IBM una licencia no exclusiva de MS-DOS, es decir que los clones podían usar el mismo sistema operativo que la original; el diseño del hardware, por último, además de ser abierto era /modular/, es decir que sus componentes se podían ir cambiando por otros más avanzados, sin tener que reemplazar toda la máquina y sin perder compatibilidad con el software anterior. Por todo eso, a diferencia de lo que pasaba con Commodore y la Amiga, el destino de la plataforma no dependía exclusivamente de IBM sino que había todo un consorcio de empresas de hardware y software compitiendo por expandir el mercado y bajar los costos de producción. Así es que, aunque la PC de 1985 palidecía al lado una Amiga, la PC de 1991, que en el fondo era la misma, había achicado las distancias. Con una buena placa de video y una de sonido, la experiencia no era la misma pero se acercaba bastante y en cambio el catálogo de juegos para DOS era enorme y no paraba de crecer.
+
+Una vez establecido el dominio de la PC con el comienzo de los '90, se generó un cambio de dinámica en el diseño de los videojuegos. Como la plataforma era configurable, a diferencia de lo que pasaba con una Apple II o una Commodore 64, no había unas especificaciones fijas de hardware a las que los estudios pudieran apuntar: no todos los usuarios tenían la misma generación de procesador ni la misma placa de video. Ahora los requerimientos de los juegos servían para motorizar las ventas de hardware: los usuarios mejoraban su máquina para poder correr los juegos más de punta. Los juegos Sierra Online, por ejemplo, no soportaban modernos sintetizadores Roland y tarjetas de sonido Adlib, sino que directamente vendían "kits multimedia" que incluían el /King Quest/ de turno con el hardware necesario para experimentarlo como correspondía.
+
+De esa lógica de apostar al último hardware surgió el primer gran blockbuster para PC.
+<wing commander
+
 - ega -> scanners -> cartoons (monkey dott) -> talkie
 - el problema seguía siendo el espacio. todos sabían que lo que se venía era el CD, la pregunta era cuando. pusheado por la industria muscal
 - myst, killer app
