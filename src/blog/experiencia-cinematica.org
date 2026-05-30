@@ -108,11 +108,11 @@ De esa lógica de apostar al último hardware surgió /Wing Commander/, el prime
 - myst, killer app
   - mundos interactivos no videojuegos, similar a adventure. historia.puzzles accessorios
 
-Ya con el CD-ROM en la mayoría de los hogares con PC, la aventura gráfica pudo desarrollar todo su esplendor multimedia que, como había insinuado Day of the Tentacle, se convirtieron en animaciones interactivas. King Quest VII maridó sus cuentos de hadas con la correspondiente estética de Disney; /Full Throttle/ nos puso al volante de una banda de motoqueros; /The Dig/ nos llevó al espacio con un guión de Steven Spielberg; /Broken Sword/ anticipó la intriga histórica del Código DaVinci. Probablemente la mejor aventura de esa etapa multimeda, quizás la mejor de todas las aventuras gráficas, tenía que ser, cómo no, /The Curse of Monkey Island/.
-
-  - curse of MIO
+Ya con el CD-ROM en la mayoría de los hogares con PC, la aventura gráfica pudo desarrollar todo su esplendor multimedia que, como había insinuado Day of the Tentacle, se convirtieron en animaciones interactivas. King Quest VII maridó sus cuentos de hadas con la correspondiente estética de Disney; /Full Throttle/ nos puso al volante de una banda de motoqueros; /The Dig/ nos llevó al espacio con un guión de Steven Spielberg; /Broken Sword/ anticipó la intriga histórica del Código DaVinci.
 
 [INTRO FULL THROTTLE]
+
+Probablemente la mejor aventura de esa etapa multimeda, quizás la mejor de todas las aventuras gráficas, tenía que ser, cómo no, la nueva de Monkey Island. Ya sin el autor original Ron Gilbert pero con el mismo diseño pulido de las entregas anteriores, /The Curse of Monkey Island/ nos trae a un Guybrush Threepwood a todo color, con voz propia, animaciones estilo Disney y escenarios pintados a mano. Este Monkey 3 parecía mostrar la mejor manera posible de hacer una aventura gráfica a fines de los 90, pero la industria ya se estaba moviendo en otra dirección. En vez de hacer escuela como el primer juego de la saga, /The Curse of Monkey Island/ fue la última de su especie.
 
 ** El espejismo del cine interactivo
 - 7th guest: la otra killer app, mansion david lynch, aplicaba la técnica de pasar videos entre puzzles
