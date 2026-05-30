@@ -88,12 +88,19 @@ el único camino posible era apostar todo al cd rom, algo que todos coincidían 
 
 ** La revolución multimedia
 - TODO copiar libreta
-- vga y sonido: la pc se va poniendo al día con la amiga
-- wing commander
+- sonido: sierra
+- 386 + vga + sonido: wing commander
+- ega -> scanners -> cartoons (monkey dott) -> talkie
 - el problema seguía siendo el espacio. todos sabían que lo que se venía era el CD, la pregunta era cuando. pusheado por la industria muscal
 - myst, killer app
   - (TODO como se decidieron a hacerlo cd?)
   - mundos interactivos no videojuegos, similar a adventure. historia.puzzles accessorios
+- ya con cd: aventuras animadas
+  - kq vii
+  - full throttle
+  - the dig
+  - broken sword
+  - curse of MIO
 
 ** El espejismo del cine interactivo
 - 7th guest: la otra killer app, mansion david lynch, aplicaba la técnica de pasar videos entre puzzles
@@ -101,8 +108,8 @@ el único camino posible era apostar todo al cd rom, algo que todos coincidían 
 - Sierra, inversion  en estudio, storyboards dirección artística
   - phantasmagoria gabriel knight
   - N cds
+- lucas arts no fue inmune, aunque afortunadamente lo limitó a losjuegos de star wars
 - Dave Duchovny y Gillian Anderson con sus roles habituales para la película interactiva de /X-Files/; Christopher Walken hizo de Detective en /Ripper/; Dennis Hopper de asesino en /Black Dahlia/; Christopher Lloyd protagonizó, con la peor de las ondas, esa especie de /Roger Rabbit/ invertido que fue /Toonstruck/.
-- asi como a mediados de los 80 había apostado fuerte por la PC, Ken Williams había apostado fuerte por el CD-ROM. En ambos casos tuvo que esperar pero el tiempo le dio la razón.
 
 - Muchos de esos juegos, sobre todo los primeros, tuvieron buenas ventas. Pero pasada la novedad tecnológica inicial, lo que quedaba eran juegos mal diseñados, un poco aburridos y carísimos de producir. Ni siquiera eran lindos de ver: actores berreta o buenos actores sin ganas de estar ahí, siguiendo instrucciones de gente que no sabe dirigir, capturados a baja resolucion y pegados arriba de escenarios toscamente renderizados.
 
@@ -119,22 +126,10 @@ Just as theater is its own thing — with its own conventions, things that it do
     en tiempo real, que también incluye un control para avanzar y retroceder el tiempo, para poder explorar lo que pasa en el tren en distintos lugares a la vez
   - ¿suena complicado? Lo es! el juego es genial pero dificilísimo. de más está decir que fue carísimo de producir y que la inversión no se recuperó. Solo el curioso estado de la industria a mediados de los 90 puede explicar que hayan intentado semejante empresa delirante. Mechner quedó en bancarrota, vendió el estudio que había creado específicamente para el juego y suspendió sus pretensiones de carrera en el cine. Pero qué juegazo, Jordan!
 
-** Aventuras animadas
-Ningún nombre en la industria estaba más fuertemente asociado con el cine que el de LucasArts.
-hubo aventuras de Indiana Jones, la presencia constante de Spielberg, que al principio era fan y playtester y al final hasta produjo su propia aventura. Y desde ya que la pata comercial del estudio no fue del todo inmune a la fiebre del video: ya con la licencia de /Star Wars/ a disposición y el CD-ROM instalado en la mayoría de las computadoras, hubo un poco de fan service con /Rebel Assault/, un clásico simulador de aviación intergaláctica regado de clips sacados directamente de las películas.
-
-Pero mucho más interesante es lo que pasó con las aventuras gráficas, el corazón creativo del estudio, según avanzaba la tecnología:
 - EGA: Indiana Jones, Loom, Monkey Island, pixel art a mano
 - Lechuck's revenge, arte escaneado. aprendizaje: muchos colores dan imágenes pixeladas
 - Day of the tentacle fue por los colores planos y esa elección artística dio la clave en el tono del juego: esta secuela de Maniac Mansion no miraría al cine de horror sino a los dibujos animados <los cartoons de X>.
 - situada en la misma mansión pero estructurada como una aventura de viajes en el tiempo, el jugador controla a tres protagonistas en tres épocas distintas. Los puzzles requieren colaboración a la distancia: talar un árbol en el siglo XIX para descolgar a un personaje en el siglo XXI.
-DoTT puede bien entrar también en la categoría de "aventura perfecta" de Secret of Monkey Island, un juego que ejecuta impecablemente todo lo que se propone y de alguna manera la culminación del estilo point-and-click, la exploración de los límites de la forma que ellos habían inventado. <En todo lo que vendría después estaría marcado por un mandato de innovar para no quedarse atrás antes que profundizar en formas establecidas>
-
-- Sierra seguía haciendo lo suyo (KQ VII con gráficos Disney), juegos peor diseñados pero más pochocleros que LucasArts, pero a esta altura la aventura gráfica era un género bien establecido y (por el momento) redituable, así que aparecían nuevos jugadores. Quizás el más meritorio sea <revolution games>, un estudio británico que con su /Broken Sword/ no solo dio un paso adelante en el estilo de animación 2D sino que con una interfaz reducida y las descripción en off del protagonista profundizaba la experiencia de película interactiva. Toda la personalidad de este juego queda a la vista en la secuencia inicial:
-
-- Pero el ápice de este estilo de aventura vendría, cómo no podía ser de otra forma, de LucasArts y de Monkey Island. Para la tercera entrega de la franquicia, ya sin el autor intelectual Ron Gilbert ni su heredero Tim Schafer ---ocupado en otros proyectos--- pero con todo el presupuesto y el capital artístico del estudio puesto al servicio de una experiencia multimedia. Curse of Monkey Island ahora tiene escenarios de 256 colores ya sin artefactos del escanner, Guybrush y Lechuck ahora tienen voces, todo se ve y se siente como una película interactiva de Disney: [video]
-
-<Curse of Monkey Island es uno de los pocos, probablemente el último, seguramente el mejor, juego 2D AAA, la muestra de una dirección no tomada por la industria.
 
 CoMI se ve y se juega como una película de disney, pero una de los 60 o de los 80. En los 90 Disney caía en picada y había sido destronado por Pixar. Como habían predicho sus directores, una década antes cuando todavía formaban parte de LucasFilm, la gente iba ahora al cine a ver películas generadas por computadora. Si hasta los dibujos animados eran ahora en 3D, ¿qué le quedaba a los videojuegos?
 
