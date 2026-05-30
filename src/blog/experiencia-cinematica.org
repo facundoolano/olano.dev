@@ -126,21 +126,23 @@ Just as theater is its own thing — with its own conventions, things that it do
     en tiempo real, que también incluye un control para avanzar y retroceder el tiempo, para poder explorar lo que pasa en el tren en distintos lugares a la vez
   - ¿suena complicado? Lo es! el juego es genial pero dificilísimo. de más está decir que fue carísimo de producir y que la inversión no se recuperó. Solo el curioso estado de la industria a mediados de los 90 puede explicar que hayan intentado semejante empresa delirante. Mechner quedó en bancarrota, vendió el estudio que había creado específicamente para el juego y suspendió sus pretensiones de carrera en el cine. Pero qué juegazo, Jordan!
 
-- EGA: Indiana Jones, Loom, Monkey Island, pixel art a mano
-- Lechuck's revenge, arte escaneado. aprendizaje: muchos colores dan imágenes pixeladas
-- Day of the tentacle fue por los colores planos y esa elección artística dio la clave en el tono del juego: esta secuela de Maniac Mansion no miraría al cine de horror sino a los dibujos animados <los cartoons de X>.
-- situada en la misma mansión pero estructurada como una aventura de viajes en el tiempo, el jugador controla a tres protagonistas en tres épocas distintas. Los puzzles requieren colaboración a la distancia: talar un árbol en el siglo XIX para descolgar a un personaje en el siglo XXI.
-
-CoMI se ve y se juega como una película de disney, pero una de los 60 o de los 80. En los 90 Disney caía en picada y había sido destronado por Pixar. Como habían predicho sus directores, una década antes cuando todavía formaban parte de LucasFilm, la gente iba ahora al cine a ver películas generadas por computadora. Si hasta los dibujos animados eran ahora en 3D, ¿qué le quedaba a los videojuegos?
-
 ** La amenaza 3D
 
-Mientras la mayoría de la industria de juegos de PC seguía en su cumpleaños de jugar a Hollywood, se gestaba una revolución en el under.
-- id software, dos johns, historia porno, juego en red, modding
-- lucas acusa el golpe: full throttle
-- placas de video, playstation y n64 -> el futuro es 3D
+Mientras la mayoría de la industria de juegos de PC seguía en su cumpleaños de jugar a Hollywood, dos genios locos estaban rompiendo la industria desde abajo.
+- id software, dos johns, historia porno,
+- la tecnología de John Carmack y el estilo de John Romero no eran la única innovación. parecía que idSoftware, sin proponérselo, no hacía otra cosa que abrir nuevos caminos. distribución shareware, cultura de modding, competencias de juegos en red. En todo eso fueron pioneros los juegos de id, no solo por tecnología y diseño sino por la cultura de sus fans y el diálogo que entablaban con sus creadores, que liberaban sus herramientas e incorporaban el feedback de los usuarios en sus próximas creaciones
+
+id publicó un éxito tras otro.
+
+acaso el público que en 1991 pedía más historia al comprar wing commander ahora pedía la violencia sin compromisos de doom? Mucho más probablemente el público no quería una única cosa, ni había un sólo público uniforme. Pero todavía estabamos a décadas de la idea de segmentar el mercado; a mediados de los noventa lo único que contaba era el mainstream, y el mainstream quería acción en 3D.
+
+La PC ya no era la plataforma de avanzada en videojuegos como en los años anteriores, ahora circulaba la Nintendo 64 y sobre todo la Sony PlayStation, las dos, con sus particularidades, diseñadas para juegos en 3D. Para seguirles el ritmo, el upgrade de turno para computadoras eran las placas aceleradoras como la Voodoo de 3dfx.
+
+En el cine, ese modelo a seguir hasta hacía poco, Pixar había destronado a Disney y los blockbuster de acción se montaban en el CGI de Industrial Light & Magic. Por más feos que fueran los modelos polígonales, a empresas como Sierra y LucasArts no les quedaba otra que subirse a la ola. La próxima generación de aventuras gráficas sería en tres dimensiones. Y sería la última.
+
 - grim fandango
-  - como en DotT las limitaciones de la tecnología informaron las decisiones estéticas: ese 3D cuadrado, como de paper maché, remitía a los muñecos del día de muertos mexicano que dio
+  - Tim schafer, heredero de ron gilbert, MI 1 y 2, DoTT y el hit menor que fue Full Throttle. Le dieron carta blanca creativa, con la única condición de que el juego tenía que ser una aventura 3D.
+    - como en DotT las limitaciones de la tecnología informaron las decisiones estéticas: ese 3D cuadrado, como de paper maché, remitía a los muñecos del día de muertos mexicano que dio
 por una vez alguien fue un poquito menos literal y la influencia del cine fue estética: Tim Schaffer, que por entonces venía viendo mucho cine negro, copió para el primer capítulo el argumento de /Double Indemnity/ y para el segundo convirtió a su protagonista en el Rick de /Casablanca/; el jazz de fondo remite al Miles Davis de /Ascensor al Cadalso/, a /The Big Combo/ y a /Sweet Smell of Success/. Después se acabó el presupuesto y cerró la otra mitad del juego como pudo, pero el daño (?) ya estaba hecho: mejor aventura gráfica de la historia. Así lo pensó la crítica, que la regó de premios y elogios, y el público... no tanto.
 
 Aunque no fuera un Full-Motion Video con actores reales, un juego como /Grim Fandango/ era difícil y caro de producir, y parecía que ya no tenía perspectivas de megahit. El público parecía favorecer la acción en 3D, aunque eso no necesariamente tenía que limitarse al primitivo festival de violencia de /Doom/ o /Quake/.
