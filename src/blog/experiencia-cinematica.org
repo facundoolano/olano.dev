@@ -46,7 +46,7 @@ Hubo secuela, en la que Mechner trabajó como consultor a distancia mientras int
 [Video/animacion another world?]
 
 ** Amiga y Cinemaware: vista previa al futuro
-Exagerando un poco, podemos dividir a los usuarios de computadora de fines de los ochenta en dos grupos: los que usaban una IBM/PC en el trabajo y los que tenían una Apple Macintosh en casa. Esa categorización se parece un poco a la actual iPhone vs Android: la Mac era una elegante (y carísima) cajita cerrada, el diseño de Steve Jobs para hacer de la computadora personal una [[https://www.youtube.com/watch?v=NjIhmzU0Y8Y]["bicicleta para la mente"]]; la PC era un aparato burocrático, diseñó por comité en IBM y sobre el que Bill Gates montaría el imperio de Microsoft.
+Exagerando un poco, podemos dividir a los usuarios de computadora de fines de los ochenta en dos grupos: los que usaban una IBM/PC en el trabajo y los que tenían una Apple Macintosh en casa. Esa categorización se parece un poco a la actual iPhone vs Android: la Mac era una elegante (y carísima) cajita cerrada, el bebé de Steve Jobs para hacer de la computadora personal una [[https://www.youtube.com/watch?v=NjIhmzU0Y8Y]["bicicleta para la mente"]]; la PC era un aparato burocrático, diseñado por comité en IBM y sobre el que Bill Gates montaría el imperio de Microsoft.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -54,7 +54,7 @@ Exagerando un poco, podemos dividir a los usuarios de computadora de fines de lo
 </div>
 #+END_EXPORT
 
-Pero miramos más cerca, había una tercera posición, una computadora que solo tenía una selecta minoría de intensos, convencidos de que el mundo vivía equivocado, casi un culto religioso. La Commodore Amiga estaba armada alrededor del mismo procesador Motorola 68000 que la Macintosh, pero a este se le sumaba un chip dedicado para memoria, otro para procesamiento de gráficos y otro para audio. Esa combinación de procesadores y el innovador diseño de hardware que los integraba, hacían de la Amiga la computadora personal más sofisticada del mercado. Todo lo que hacía la Mac, la Amiga podía hacerlo en estéreo y en colores; al lado de la Amiga, la PC de IBM parecía una pesada calculadora. Así lo explicaba la gente de Electronic Arts:
+Pero si miramos más de cerca, había una tercera posición, una computadora que solo poseía una selecta minoría de intensos, convencidos estos de que el mundo vivía equivocado, casi como un culto religioso. La Commodore Amiga estaba armada alrededor del mismo procesador Motorola 68000 que la Macintosh, pero a este le sumaba un chip dedicado para memoria, otro para procesamiento de gráficos y otro para audio. Esa combinación de procesadores y el innovador diseño de hardware que los integraba, hacían de la Amiga la computadora personal más sofisticada del mercado. Todo lo que hacía la Mac, la Amiga podía hacerlo en estéreo y en colores; al lado de la Amiga, la PC de IBM parecía una pesada calculadora. Así lo explicaba la gente de Electronic Arts:
 
 #+begin_quote
 Creemos que las computadoras hogareñas van a ser tan importantes como la radio, el estéreo y la televisión de hoy. La Amiga avanza el medio en todos sus frentes. Por primera vez, una computadora ofrece la calidad audiovisual que nuestros ojos y oídos merecen. Comparadas con la Amiga, usar las otras computadoras es como mirar la tele en blanco y negro, con el sonido apagado.
