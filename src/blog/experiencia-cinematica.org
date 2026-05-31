@@ -10,9 +10,9 @@ excerpt: La Commodore Amiga fue un aerolito multimedia aterrizado en la década 
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
 
-Supongo que cada vez que emerge un nuevo medio de expresión artística, atraviesa un proceso de búsqueda de identidad, de definirse por comparación con lo conocido, con aquello que vino antes. Los videojuegos no fueron la excepción. En el caso específico de los juegos de computadora, salidos de terminales de texto a finales de los setenta, el primer espejo fue la literatura. Así se entiende que, ya probada la fórmula de /Colossal Cave Adventure/, empresas pioneras como Infocom hablaran de /ficción interactiva/, tildaran a sus programadores de /autores/, y convocaran a figuras como Ray Bradbury y Douglas Adams para ponerle la firma a sus juegos. Por unos años se habló del /bookware/ y parecía que cualquier editorial medía las posibilidades de meterse en el entretenimiento por computadora.
+Supongo que cada vez que emerge un nuevo medio de expresión artística, atraviesa un proceso de búsqueda de identidad, de definirse por comparación con lo conocido, con aquello que vino antes. Los videojuegos no fueron la excepción. En el caso específico de los juegos de computadora, salidos de terminales de texto a finales de los setenta, el primer espejo fue la literatura. Así se entiende que, ya probada la fórmula de /Colossal Cave Adventure/, empresas pioneras como Infocom hablaran de /ficción interactiva/, tildaran a sus programadores de /autores/, y convocaran a figuras como Ray Bradbury y Douglas Adams para ponerle la firma a sus juegos. Por unos años se habló del /bookware/ y parecía que cualquier editorial medía sus posibilidades de meterse en el entretenimiento digital.
 
-Pero como Ken y Roberta Williams de Sierra probaron al sumarle gráficos a la ecuación, los videojuegos estaban destinados a ser experiencias no meramente interactivas sino /audiovisuales/. La década que siguió a /King's Quest/ y /Maniac Mansion/ fue la década en que el entretenimiento por computadora buscó inspiración en las técnicas y las formas de producción de Hollywood. Esa pretensión de imitar al cine asumió muchas formas, según las capacidades del hardware de turno y el ingenio y la exuberancia con que los diseñadores supieron aprovecharlas. Revisemos algunos casos interesantes.
+Pero como Ken y Roberta Williams de Sierra probaron al sumarle gráficos a la ecuación, los videojuegos estaban destinados a ser experiencias no meramente interactivas sino también /audiovisuales/. La década que siguió a /King's Quest/ y /Maniac Mansion/ fue la década en que el entretenimiento por computadora buscó inspiración en el imaginario y las técnicas de producción de Hollywood. Esa pretensión de imitar al cine asumió muchas formas, según las capacidades del hardware de turno y el ingenio y la exuberancia con que los diseñadores supieron aprovecharlas. Revisemos algunos casos interesantes.
 
 ** Jordan Mechner y la experiencia cinemática
 
@@ -98,6 +98,7 @@ Estaba claro que el paso siguiente para convertir a los videojuegos en película
 Si la Amiga era tan buena, ¿por qué se murió? Commodore, que le había comprado el diseño a una startup, nunca supo aprovechar lo que tenía: falló con la publicidad y la distribución, y nunca actualizó el hardware, por ejemplo con el soporte para CD-ROM que tan bien le hubiera venido a Cinemaware. La Amiga fue un aerolito multimedia aterrizado en la década equivocada. A la PC/Windows le haría falta una década de mejoras y baja de costos de hardware para llevar una experiencia parecida a los hogares. Y en cuanto Cinemaware, su destino refleja aquel de la plataforma en la que nació. Aunque a la larga los videojuegos se convertirían en algo distinto de las películas, Bob Jacob resultó ser un adelantado: el /tour de force/ de Cinemaware, con sus logros y sus fracasos, terminó siendo el tráiler de lo que pasaría con el resto de la industria en los años inmediatamente posteriores.
 
 ** La revolución multimedia
+# La PC, cerca de la revolución
 La PC fue la computadora más aburrida de las '80, pero tenía algunas cosas a su favor. IBM la había diseñado con una arquitectura abierta, es decir que otras manufactureras de hardware, como Compaq o Tandy, podían hacer clones "PC-compatible"; Bill Gates, en la jugada maestra sobre la que fundó su monopolio, le vendió a IBM una licencia no exclusiva de MS-DOS, es decir que los clones podían usar el mismo sistema operativo que la original; el diseño del hardware, por último, además de ser abierto era /modular/, es decir que sus componentes se podían ir cambiando por otros más avanzados, sin tener que reemplazar toda la máquina y sin perder compatibilidad con el software anterior. Por todo eso, a diferencia de lo que pasaba con Commodore y la Amiga, el destino de la plataforma no dependía exclusivamente de IBM sino que había todo un consorcio de empresas de hardware y software compitiendo por expandir el mercado y bajar los costos de producción. Así es que, aunque la PC de 1985 palidecía al lado una Amiga, la PC de 1991, que en el fondo era la misma, había achicado las distancias. Con una buena placa de video y una de sonido, la experiencia no era la misma pero se acercaba bastante y en cambio el catálogo de juegos para DOS era enorme y no paraba de crecer.
 
 Una vez establecido el dominio de la PC con el comienzo de los '90, se generó un cambio de dinámica en el diseño de los videojuegos. Como la plataforma era configurable, a diferencia de lo que pasaba con una Apple II o una Commodore 64, no había unas especificaciones fijas de hardware a las que los estudios pudieran apuntar: no todos los usuarios tenían la misma generación de procesador ni la misma placa de video. Ahora los requerimientos de los juegos servían para motorizar las ventas de hardware: los usuarios mejoraban su máquina para poder correr los juegos más de punta. Los juegos Sierra Online, por ejemplo, no soportaban modernos sintetizadores Roland y tarjetas de sonido Adlib, sino que directamente vendían "kits multimedia" que incluían el /King Quest/ de turno con el hardware necesario para experimentarlo como correspondía.
@@ -105,13 +106,22 @@ Una vez establecido el dominio de la PC con el comienzo de los '90, se generó u
 [IMAGEN wing commander]
 
 De esa lógica de apostar al último hardware surgió /Wing Commander/, el primer /blockbuster/ de la PC.
-<TODO: wing commander
-- (tal vez): conclusión similar a la de Bob Jacob, tiene que haber un arco narrativo que una el gameplay; la diferencia es que en lugar de los mini juegos berreta de cinemaware, con mentalidad de programador lo que ponía en el centro era un pulido simulador de vuelo. Lo interesante es que, como quería crear ante todo una experiencia ficcional, Roberts no dudaba esconder detalles o torcer el realismo para que su simulador de vuelo favorezca sus fines dramáticos y de entretenimiento.
-con eso le daba a un segmento importante de la audiencia lo que estaba esperando: un simulador de vuelo embebido en una ópera espacial (en una época donde LucasArts todavía tenía vedado el uso de su franquicia insignia)
+<chris roberts
+- todo chequear subrayados
+- (tal vez): conclusión similar a la de Bob Jacob,
+la acción tiene que tienen que tener un sentido y eso se traduce en una historia, un arco narrativo que une el gameplay. Pero mientras que Cinemaware burdamente /insertaba/ minijuegos en su historia, Chris Roberts hizo algo más sofisticado: puso un pulido simulador de vuelo espacial al servicio de su historia.
+Lo interesante es que, como quería crear ante todo una experiencia ficcional, Roberts no dudaba simplificar detalles o sacrificar realismo en la simulación con fines dramáticos.
+El hecho de que la historia fuera básica, un poco confusa e incluso ridícula (el enemigo es una raza de gatos antropomorfos en traje espacial), poco importaba: la diferencia la hacía que había /una/ historia y que estaba bien integrada con el juego para constituir una experiencia entretenida. Sumado a eso el hecho de que los efectos audiovisuales eran lo mejor de la industria y que Chris Roberts le ofrecía al público protagonizar una ópera espacial en tiempos en que LucasArts todavía tenía prohibido usar su licencia estrella, y se entiende cómo es que /Wing Commander/ se convirtió en un éxito absoluto y perdurable (y obligó a todo el mundo a upgradear su máquina).
 
+# TODO -> considerar cortar acá
+
+# TODO considerar enganchar con referencia a star wars arriba?
 - lucasarts: ega -> scanners -> cartoons (monkey dott) -> talkie
 
-La nueva capacidad audiovisual abría un mundo de posibilidades para los juegos de PC, pero el problema seguía siendo el espacio de almacenamiento. A esta altura los juegos de Sierra Online venían en 6 diskettes, y tenían que hacer malabares para mantener los costos de producción. El espacio de almacenamiento era la variable que faltaba despejar en la ecuación multimedia. Y todos conocían la solución: el CD-ROM, una tecnología que se venía anunciando hacía años, que ya dominaba en la industria musical pero que no terminaba de entrar en la PC.
+Con la nueva capacidad audiovisual y de procesamiento de las PCs, se abría un mundo de posibilidades para los videojuegos, pero en la ecuación multimedia todavía faltaba despejar la variable del espacio de almacenamiento. A esta altura los juegos de Sierra Online ocupaban hasta 10 diskettes,
+disparando costos de producción y degradando la experiencia de los usuarios, que se la pasaban cambiando discos. La solución era conocida por todos, la misma que ya sabía Bob Jacob en el 89: el CD-ROM. Los discos compactos ya se habían establecido como el nuevo estándar para la industria musical y hacía años que se daba por sentado que serían el próximo medio de almacenamiento de datos para las computadoras, pero el momento parecía no llegar nunca.
+
+# TODO -> considerar cortar acá
 
 [IMAGEN MYST]
 
@@ -128,7 +138,7 @@ Probablemente la mejor aventura de esa etapa multimeda, quizás la mejor de toda
 ** El espejismo del cine interactivo
 - 7th guest: la otra killer app, mansion david lynch, aplicaba la técnica de pasar videos entre puzzles
 - abrió las compuertas para el periodo más bizarro de la industria de los videojuegos
-- Wing commander III con actores profesionales: Mark Hamill (Luke Skywalker en /Star Wars/), Tom Wilson (Biff en /Volver al futuro/)
+- Wing commander III con actores profesionales: Mark Hamill (Luke Skywalker en /Star Wars/), Malcolm McDowell  (Alex en /La naranja mecánica/), Tom Wilson (Biff en /Volver al futuro/), John Rhys-Davies (Sallah en Indiana Jones y Gimli en El Señor de los Anillos)
 - Sierra, inversion  en estudio, storyboards dirección artística
   - phantasmagoria, gabriel knight.
     suponían que el uso de actores reales le daría atractivo para el público adulto. el casting del elenco, la estética del juego y la calidad del guión, le daba al conjunto un aire de softporn (que poblimente explique por qué vendió tan bien a pesar de ser un juego terrible).
