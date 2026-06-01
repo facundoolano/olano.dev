@@ -1,0 +1,86 @@
+---
+title: cine-y-computadoras-2
+date: 2026-05-31T21:49:00-03:00
+layout: post
+lang: es
+tags: []
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+** Del pixel art a las aventuras animadas
+- lucasarts: ega -> scanners -> cartoons (monkey dott) -> talkie
+  - indiana jones?
+
+[IMAGEN MYST]
+
+- TODO ver como myst hizo la eleccion
+- myst, killer app
+  - mundos interactivos no videojuegos, similar a adventure. historia.puzzles accessorios
+
+Ya con el CD-ROM en la mayoría de los hogares con PC, la aventura gráfica pudo desarrollar todo su esplendor multimedia que, como había insinuado Day of the Tentacle, se convirtieron en animaciones interactivas. King Quest VII maridó sus cuentos de hadas con la correspondiente estética de Disney; /Full Throttle/ nos puso al volante de una banda de motoqueros; /The Dig/ nos llevó al espacio con un guión de Steven Spielberg; /Broken Sword/ anticipó la intriga histórica del Código DaVinci.
+
+[INTRO FULL THROTTLE]
+
+Probablemente la mejor aventura de esa etapa multimeda, quizás la mejor de todas las aventuras gráficas, tenía que ser, cómo no, la nueva de Monkey Island. Ya sin el autor original Ron Gilbert pero con el mismo diseño pulido de las entregas anteriores, /The Curse of Monkey Island/ nos trae a un Guybrush Threepwood a todo color, con voz propia, animaciones estilo Disney y escenarios pintados a mano. Este Monkey 3 parecía mostrar la mejor manera posible de hacer una aventura gráfica a fines de los 90, pero la industria ya se estaba moviendo en otra dirección. En vez de hacer escuela como el primer juego de la saga, /The Curse of Monkey Island/ fue la última de su especie.
+
+** El espejismo del cine interactivo
+- 7th guest: la otra killer app, mansion david lynch, aplicaba la técnica de pasar videos entre puzzles
+- abrió las compuertas para el periodo más bizarro de la industria de los videojuegos
+- Wing commander III con actores profesionales: Mark Hamill (Luke Skywalker en /Star Wars/), Malcolm McDowell  (Alex en /La naranja mecánica/), Tom Wilson (Biff en /Volver al futuro/), John Rhys-Davies (Sallah en Indiana Jones y Gimli en El Señor de los Anillos)
+- Sierra, inversion  en estudio, storyboards dirección artística
+  - phantasmagoria, gabriel knight.
+    suponían que el uso de actores reales le daría atractivo para el público adulto. el casting del elenco, la estética del juego y la calidad del guión, le daba al conjunto un aire de softporn (que poblimente explique por qué vendió tan bien a pesar de ser un juego terrible).
+  - N cds
+- tampoco lucas arts fue inmune, aunque afortunadamente lo limitó a los juegos de star wars (rebel assault)
+- Dave Duchovny y Gillian Anderson con sus roles habituales para la película interactiva de /X-Files/; Christopher Walken hizo de Detective en /Ripper/; Dennis Hopper de asesino en /Black Dahlia/; Christopher Lloyd protagonizó, con la peor de las ondas, esa especie de /Roger Rabbit/ invertido que fue /Toonstruck/.
+
+[agluna imagen de FMV]
+
+- Muchos de esos juegos, sobre todo los primeros, tuvieron buenas ventas. Pero pasada la novedad tecnológica inicial, lo que quedaba eran juegos mal diseñados, un poco aburridos y carísimos de producir. Ni siquiera eran lindos de ver: actores berreta o buenos actores sin ganas de estar ahí, siguiendo instrucciones de gente que no sabe dirigir, capturados a baja resolucion y pegados arriba de escenarios toscamente renderizados.
+
+La ventana en la que la industria se pudo permitir gastar fortunas filmando actores fue más bien corta, pero quizás fue justicia poética que alcanzara para que Jordan Mechner, que una década atrás se había fundido tratando de exprimir la última gota de arte a una máquina obsoleta, tuviera su oportunidad de dirigir una superproducción videojueguística.
+
+- no cayó en la fácil de sierra de pasar videoclips entre puzzles. en vez de eso volvió a apelar su técnica favorita, el rotoscoping, pero esta vez con la tecnología a su favor. grabó a sus actores maquillados para aumentar el contraste y después los metió en las secuencias in game y en clips en los que parecen dibujos animados más que actores berreta.
+
+#+begin_quote
+Just as theater is its own thing — with its own conventions, things that it does well, things it does badly — so is film, and so [are] computer games. And there is a way to borrow from one medium to another, and in fact that’s what an all-new medium does when it’s first starting out. Film, when it was new, looked like someone set up a camera front and center and filmed a staged play. Then the things that are specific to film — like the moving camera, close-ups, reaction shots, dissolves — all these kinds of things became part of the language of cinema. It’s the same with computer games. To take a long film sequence and to play that on your TV screen is the bad way to make a game cinematic. The computer game is not a VCR. But if you can borrow from the knowledge that we all carry inside our heads of how cuts work, how reaction shots work, what a low angle means dramatically, what it means when the camera suddenly pulls back… We’ve got this whole collective unconscious of the vocabulary of film, and that’s a tremendously valuable tool to bring into computer gaming.
+#+end_quote
+
+[imagen making of last express]
+
+- el juego es un murder mystery arriba del orient express (doble guiño a Agatha Christie y Hitchcock), situado en medio del caldo geopolítico de una europa al borde de la primera guerra mundial
+    una inusual aventura con perspectiva 3D que se parece en movimiento al myst
+    en tiempo real, que también incluye un control para avanzar y retroceder el tiempo, para poder explorar lo que pasa en el tren en distintos lugares a la vez
+  - ¿suena complicado? Lo es! el juego es genial pero dificilísimo. de más está decir que fue carísimo de producir y que la inversión no se recuperó. Solo el curioso estado de la industria a mediados de los 90 puede explicar que hayan intentado semejante empresa delirante. Mechner quedó en bancarrota, vendió el estudio que había creado específicamente para el juego y suspendió sus pretensiones de carrera en el cine. Pero qué juegazo, Jordan!
+
+** La amenaza 3D
+
+Mientras la mayoría de la industria de juegos de PC seguía en su cumpleaños de jugar a Hollywood, dos genios locos estaban rompiendo la industria desde abajo.
+- id software, dos johns, historia porno,
+- la tecnología de John Carmack y el estilo de John Romero no eran la única innovación. parecía que idSoftware, sin proponérselo, no hacía otra cosa que abrir nuevos caminos. distribución shareware, cultura de modding, competencias de juegos en red. En todo eso fueron pioneros los juegos de id, no solo por tecnología y diseño sino por la cultura de sus fans y el diálogo que entablaban con sus creadores, que liberaban sus herramientas e incorporaban el feedback de los usuarios en sus próximas creaciones
+
+[imagen los dos johns]
+id publicó un éxito tras otro.
+
+acaso el público que en 1991 pedía más historia al comprar wing commander ahora pedía la violencia sin compromisos de doom? Mucho más probablemente el público no quería una única cosa, ni había un sólo público uniforme. Pero todavía estabamos a décadas de la idea de segmentar el mercado; a mediados de los noventa lo único que contaba era el mainstream, y el mainstream quería acción en 3D.
+
+La PC ya no era la plataforma de avanzada en videojuegos como en los años anteriores, ahora circulaba la Nintendo 64 y sobre todo la Sony PlayStation, las dos, con sus particularidades, diseñadas para juegos en 3D. Para seguirles el ritmo, el upgrade de turno para computadoras eran las placas aceleradoras como la Voodoo de 3dfx.
+
+En el cine, ese modelo a seguir hasta hacía poco, Pixar había destronado a Disney y los blockbuster de acción se montaban en el CGI de Industrial Light & Magic. Por más feos que fueran los modelos polígonales, a empresas como Sierra y LucasArts no les quedaba otra que subirse a la ola. La próxima generación de aventuras gráficas sería en tres dimensiones. Y sería la última.
+
+- grim fandango
+  - Tim schafer, heredero de ron gilbert, MI 1 y 2, DoTT y el hit menor que fue Full Throttle. Le dieron carta blanca creativa, con la única condición de que el juego tenía que ser una aventura 3D.
+    - como en DotT las limitaciones de la tecnología informaron las decisiones estéticas: ese 3D cuadrado, como de paper maché, remitía a los muñecos del día de muertos mexicano que dio
+por una vez alguien fue un poquito menos literal y la influencia del cine fue estética: Tim Schaffer, que por entonces venía viendo mucho cine negro, copió para el primer capítulo el argumento de /Double Indemnity/ y para el segundo convirtió a su protagonista en el Rick de /Casablanca/; el jazz de fondo remite al Miles Davis de /Ascensor al Cadalso/, a /The Big Combo/ y a /Sweet Smell of Success/. Después se acabó el presupuesto y cerró la otra mitad del juego como pudo, pero el daño (?) ya estaba hecho: mejor aventura gráfica de la historia. Así lo pensó la crítica, que la regó de premios y elogios, y el público... no tanto.
+
+[intro de grim fandango]
+
+Aunque no fuera un Full-Motion Video con actores reales, un juego como /Grim Fandango/ era difícil y caro de producir, y parecía que ya no tenía perspectivas de megahit. El público parecía favorecer la acción en 3D, aunque eso no necesariamente tenía que limitarse al primitivo festival de violencia de /Doom/ o /Quake/.
+
+Pocos días después de /Grim Fandngo/ se publicó /Half-Life/, de valve. /Half-Life/ era formalmente un /first-person shooter/ pero le daba la bienvenida a sus jugadores con media hora de exposición argumental, una especie de cutscene interactiva, sin armas a la vista.
+<resumen?
+<estilo de escenas de acción, menos simulación/arena que una coreografía/guionada sincopada por el paso del jugador (una especie de truman show con disparos).
+
+Half-Life se la mitad de los premios de 1998 que le dejó /Grim Fandango/ y marcó la nueva dirección de la industria: una síntesis dialéctica entre /Monkey Island/ y /Doom/, la prueba que el /storytelling/ cinematográfico podía estar embebido en la acción autóctona de la PC. Los videojuegos ya no tenían nada que envidiarle Hollywood, se recibieron de medio artístico, un medio artístico para el siglo XXI.
