@@ -97,8 +97,7 @@ Estaba claro que el paso siguiente para convertir a los videojuegos en película
 
 Si la Amiga era tan buena, ¿por qué se murió? Commodore, que le había comprado el diseño a una startup, nunca supo aprovechar lo que tenía: falló con la publicidad y la distribución, y nunca actualizó el hardware, por ejemplo con el soporte para CD-ROM que tan bien le hubiera venido a Cinemaware. La Amiga fue un aerolito multimedia aterrizado en la década equivocada. A la PC/Windows le haría falta una década de mejoras y baja de costos de hardware para llevar una experiencia parecida a los hogares. Y en cuanto Cinemaware, su destino refleja aquel de la plataforma en la que nació. Aunque a la larga los videojuegos se convertirían en algo distinto de las películas, Bob Jacob resultó ser un adelantado: el /tour de force/ de Cinemaware, con sus logros y sus fracasos, terminó siendo el tráiler de lo que pasaría con el resto de la industria en los años inmediatamente posteriores.
 
-** La revolución multimedia
-# La PC, cerca de la revolución
+** La PC, cerca de la revolución
 La PC fue la computadora más aburrida de las '80, pero tenía algunas cosas a su favor. IBM la había diseñado con una arquitectura abierta, es decir que otras manufactureras de hardware, como Compaq o Tandy, podían hacer clones "PC-compatible"; Bill Gates, en la jugada maestra sobre la que fundó su monopolio, le vendió a IBM una licencia no exclusiva de MS-DOS, es decir que los clones podían usar el mismo sistema operativo que la original; el diseño del hardware, por último, además de ser abierto era /modular/, es decir que sus componentes se podían ir cambiando por otros más avanzados, sin tener que reemplazar toda la máquina y sin perder compatibilidad con el software anterior. Por todo eso, a diferencia de lo que pasaba con Commodore y la Amiga, el destino de la plataforma no dependía exclusivamente de IBM sino que había todo un consorcio de empresas de hardware y software compitiendo por expandir el mercado y bajar los costos de producción. Así es que, aunque la PC de 1985 palidecía al lado una Amiga, la PC de 1991, que en el fondo era la misma, había achicado las distancias. Con una buena placa de video y una de sonido, la experiencia no era la misma pero se acercaba bastante y en cambio el catálogo de juegos para DOS era enorme y no paraba de crecer.
 
 Una vez establecido el dominio de la PC con el comienzo de los '90, se generó un cambio de dinámica en el diseño de los videojuegos. Como la plataforma era configurable, a diferencia de lo que pasaba con una Apple II o una Commodore 64, no había unas especificaciones fijas de hardware a las que los estudios pudieran apuntar: no todos los usuarios tenían la misma generación de procesador ni la misma placa de video. Ahora los requerimientos de los juegos servían para motorizar las ventas de hardware: los usuarios mejoraban su máquina para poder correr los juegos más de punta. Los juegos Sierra Online, por ejemplo, no soportaban modernos sintetizadores Roland y tarjetas de sonido Adlib, sino que directamente vendían "kits multimedia" que incluían el /King Quest/ de turno con el hardware necesario para experimentarlo como correspondía.
@@ -113,15 +112,16 @@ la acción tiene que tienen que tener un sentido y eso se traduce en una histori
 Lo interesante es que, como quería crear ante todo una experiencia ficcional, Roberts no dudaba simplificar detalles o sacrificar realismo en la simulación con fines dramáticos.
 El hecho de que la historia fuera básica, un poco confusa e incluso ridícula (el enemigo es una raza de gatos antropomorfos en traje espacial), poco importaba: la diferencia la hacía que había /una/ historia y que estaba bien integrada con el juego para constituir una experiencia entretenida. Sumado a eso el hecho de que los efectos audiovisuales eran lo mejor de la industria y que Chris Roberts le ofrecía al público protagonizar una ópera espacial en tiempos en que LucasArts todavía tenía prohibido usar su licencia estrella, y se entiende cómo es que /Wing Commander/ se convirtió en un éxito absoluto y perdurable (y obligó a todo el mundo a upgradear su máquina).
 
-# TODO -> considerar cortar acá
+[otra IMAGEN wing commander]
 
-# TODO considerar enganchar con referencia a star wars arriba?
+Con la nueva capacidad audiovisual y de procesamiento de las PCs, se abría un mundo de posibilidades para los videojuegos, pero en la ecuación multimedia todavía faltaba despejar la variable del espacio de almacenamiento. Juegos como /Wing Commander II/ o /King's Quest/ ocupaban hasta 10 diskettes, disparando costos de producción y degradando la experiencia de los usuarios, que se la pasaban poniendo y sacando discos. La solución era conocida por todos, la misma que ya sabía Bob Jacob en el '89: el CD-ROM. Los discos compactos ya se habían establecido como el nuevo estándar para la industria musical y hacía años que se daba por sentado que serían el próximo medio de almacenamiento de datos para las computadoras, pero el momento parecía no llegar nunca.
+
+En 1993 el CD-ROM tendría no una si no dos [[https://en.wikipedia.org/wiki/Killer_application][killer apps]], un par de curiosas aventuras gráficas que finalmente pondrían compacteras en la mayoría de las computadoras estadounidenses. Con todo ese espacio disponible se terminó de realizar el potencial multimedia de la PC, al que le debemos los mejores juegos de la década. Pero, también de la mano del CD, los actores menos imaginativos de la industria, obstinados en llevar el cine a la PC, se abrirían las compuertas de la etapa más bizarra de la historia de los videojuegos.
+
+---------
+*** Del pixel art a las aventuras animadas
 - lucasarts: ega -> scanners -> cartoons (monkey dott) -> talkie
   - indiana jones?
-
-Con la nueva capacidad audiovisual y de procesamiento de las PCs, se abría un mundo de posibilidades para los videojuegos, pero en la ecuación multimedia todavía faltaba despejar la variable del espacio de almacenamiento. A esta altura los juegos de Sierra Online ocupaban hasta 10 diskettes, disparando costos de producción y degradando la experiencia de los usuarios, que se la pasaban cambiando discos. La solución era conocida por todos, la misma que ya sabía Bob Jacob en el 89: el CD-ROM. Los discos compactos ya se habían establecido como el nuevo estándar para la industria musical y hacía años que se daba por sentado que serían el próximo medio de almacenamiento de datos para las computadoras, pero el momento parecía no llegar nunca.
-
-# TODO -> considerar cortar acá
 
 [IMAGEN MYST]
 
