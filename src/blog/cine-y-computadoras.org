@@ -1,6 +1,5 @@
 ---
 title: "Cuando los videojuegos miraban a Hollywood"
-subtitle: Cine y computadoras en los años 80
 date: 2026-05-28T09:02:27-03:00
 layout: post
 lang: es
@@ -133,7 +132,11 @@ La PC fue la computadora más aburrida de las '80, pero tenía algunas cosas a s
 
 Una vez establecido el dominio de la PC con el comienzo de los '90, se generó un cambio de dinámica en el diseño de los videojuegos. Como la plataforma era configurable, a diferencia de lo que pasaba con una Apple II o una Commodore 64, no había unas especificaciones fijas de hardware a las que los estudios pudieran apuntar: no todos los usuarios tenían la misma generación de procesador ni la misma placa de video. Ahora los requerimientos de los juegos servían para motorizar las ventas de hardware: los usuarios mejoraban su máquina para poder correr los juegos más de punta. Los juegos Sierra Online, por ejemplo, no soportaban modernos sintetizadores Roland y tarjetas de sonido Adlib, sino que directamente vendían "kits multimedia" que incluían el /King Quest/ de turno con el hardware necesario para experimentarlo como correspondía.
 
-[IMAGEN wing commander]
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/cinematic/wing.png" class="wide">
+</div>
+#+END_EXPORT
 
 Esa lógica, llevada al extremo, le dio a la PC /Wing Commander/, su primer /blockbuster/. El juego de Chris Roberts no estaba pensado para correr en el hardware promedio sino en la mejor computadora que el dinero podía comprar en 1990: procesador 386, gráficos VGA, placa de sonido y memoria expandida. Inspirado por los juegos de Cinemaware, Roberts rodeó a su simulador de vuelo espacial con una historia que lo sostenía, una ópera espacial al estilo /Star Wars/. El resultado de las misiones afectaba el curso de una guerra a mayor escala y, entre batalla y batalla, el jugador interactuaba y competía con sus compañeros, en un formato narrativo parecido al de una aventura gráfica.
 
@@ -153,6 +156,8 @@ Hal Barwood era un veterano de Hollywood, colaborador en los primeros años de L
 
 TODO citar barwood/entrevista
 
+[conclusion libreta]
+
 ** El espejismo del cine interactivo
 
 Con la nueva capacidad audiovisual y de procesamiento de las PCs, se abría un mundo de posibilidades para los videojuegos, pero en la ecuación multimedia todavía faltaba despejar la variable del espacio de almacenamiento. Juegos como /Wing Commander II/ o /King's Quest/ ocupaban hasta 10 diskettes, disparando costos de producción y degradando la experiencia de los usuarios, que se la pasaban poniendo y sacando discos. La solución era conocida por todos, la misma que ya sabía Bob Jacob en el '89: el CD-ROM. Los discos compactos ya se habían establecido como el nuevo estándar para la industria musical y hacía años que amagaba con dar el salto a las computadoras, pero el momento parecía no llegar nunca.
@@ -163,10 +168,8 @@ El otro juego que ayudo a vender el CD-ROM fue también una aventura gráfica, t
 
 [video phantasmagoria]
 
-El FMV era exactamente lo que quería hacer Bob Jacob en Cinemaware pero no pudo por la falta de CDs
 (técnicamente lo había hecho con /It Came from the Desert/, solo que nadie tenía una TurboGrafx-CD para comprobarlo).
-
-hay que entender el momento de la industria
+<hay que entender el momento de la industria
   el estado del arte seguían siendo las consolas de 16 bits, Sega Genesis y Super Nintendo.
   las consolas lo venian intentado sin exito: a la turbografx-cd podemos sumar la segacd, la atari jaguar y la 3do. Un intento de colaboración frustrado entre Nintendo y Sony daría lugar a la PlayStation, pero para eso todavía faltaba.
   Por unos años la PC fue la mejor plataforma para jugar videojuegos, y gracias a megahits como /Wing Commander,  /Myst/ y /The 7th Guest/ era también donde estaba la plata.
@@ -177,20 +180,34 @@ Por esas incongruencias del mercado del entretenimiento, ese dominio de la PC y 
 
 [alguna imagen/video de wing commander?]
 
-Pero pasada la novedad tecnológica inicial, lo que quedaba eran juegos mal diseñados, un poco aburridos y carísimos de producir. Ni siquiera eran lindos de ver: actores berreta o actores famosos con la peor de las ondas, siguiendo instrucciones de gente que no sabe dirigir, capturados a baja resolucion y pegados arriba de escenarios toscamente renderizados. La ventana en la que la industria se pudo permitir gastar fortunas filmando actores fue más bien corta, pero quizás fue justicia poética que alcanzara para que Jordan Mechner, que una década atrás se había fundido tratando de exprimir la última gota de arte a una máquina obsoleta, tuviera su oportunidad de dirigir una superproducción videojueguística.
+Pero pasada la novedad tecnológica inicial, lo que quedaba eran juegos mal diseñados, un poco aburridos y carísimos de producir. Ni siquiera eran lindos: actores berreta o actores famosos con la peor de las ondas, siguiendo instrucciones de gente que no sabe dirigir, capturados a baja resolucion y pegados arriba de escenarios toscamente renderizados.
 
-- no cayó en la fácil de sierra de pasar videoclips entre puzzles. en vez de eso volvió a apelar su técnica favorita, el rotoscoping, pero esta vez con la tecnología a su favor. grabó a sus actores maquillados para aumentar el contraste y después los metió en las secuencias in game y en clips en los que parecen dibujos animados más que actores berreta.
+La ventana de tiempo en que estudios e inversores permanecieron convencidos de las películas interactivas eran un buen negocio duró más bien poco, un par de años, pero fue justicia poética que alcanzara para que Jordan Mechner ---que una década antes se había fundido exprimiendo hasta la última gota de arte a una máquina obsoleta--- tuviera su oportunidad de dirigir una superproducción videojueguística. Fiel a su mirada de cineasta y su sensibilidad estética, no se iba a conformar con hacer lo mismo que venían haciendo los demás:
 
 #+begin_quote
-Just as theater is its own thing — with its own conventions, things that it does well, things it does badly — so is film, and so [are] computer games. And there is a way to borrow from one medium to another, and in fact that’s what an all-new medium does when it’s first starting out. Film, when it was new, looked like someone set up a camera front and center and filmed a staged play. Then the things that are specific to film — like the moving camera, close-ups, reaction shots, dissolves — all these kinds of things became part of the language of cinema. It’s the same with computer games. To take a long film sequence and to play that on your TV screen is the bad way to make a game cinematic. The computer game is not a VCR. But if you can borrow from the knowledge that we all carry inside our heads of how cuts work, how reaction shots work, what a low angle means dramatically, what it means when the camera suddenly pulls back… We’ve got this whole collective unconscious of the vocabulary of film, and that’s a tremendously valuable tool to bring into computer gaming.
+Así como el teatro tiene su identidad---sus convenciones, lo que queda bien, lo que queda mal---así también los tiene el cine, y los videojuegos. Y hay formas de copiar de un medio a otro, y de hecho eso es lo que hace un medio nuevo cuando recién empieza. Cuando empezó, el cine lucía como si alguien hubiera puesto una cámara de frente a un escenario para filmar una obra de teatro. Pero entonces las técnicas específicas del medio---el movimiento de cámara, los acercamientos, los planos, los fundidos---se volvieron parte del lenguaje del cine. Pasa lo mismo con los videojuegos. Filmar una secuencia larga y reproducirla en pantalla es la manera mala de hacer un juego cinematográfico. La computadora no es una videocasetera. Pero si podés aprovechar el conocimiento que todos tenemos sobre cómo funcionan los cortes, como funcionan los planos, el efecto dramático de un ángulo bajo o de la cámara retrocediendo de golpe… Hay un inconsciente colectivo sobre el vocabulario cinematográfico y eso es tremendamente valioso para incorporar en un juego.
 #+end_quote
 
+Así que aunque para su juego filmaría actores, no sería otra grasada de /Full-Motion Video/; para aprovechar el material volvería a su técnica predilecta: la animación rotoscópica. Esta vez con el hardware de su lado y presupuesto para contratar profesionales y desarrollar software dedicado,
+
+<maquilló a sus actores para producir imágenes con alto contraste que su equipo digitalizó en forma de animaciones al estilo /Blancanieves/.
+, para interactuar con el protagonista del juego, y de viñetas, para las secuencias narrativas.
+
+<filmó a sus actores maquillados y disfrazados con pocos colores de alto contraste, produciendo secuencias para incorporar directamente en el juego, donde
+
+secuencias durante el transcurso del juego y en viñetas
+donde aparecen como dibujos animados.
+
 [imagen making of last express]
+https://www.youtube.com/watch?v=DygVxOWd_9o
 
 - el juego es un murder mystery arriba del orient express (doble guiño a Agatha Christie y Hitchcock), situado en medio del caldo geopolítico de una europa al borde de la primera guerra mundial
     una inusual aventura con perspectiva 3D que se parece en movimiento al myst
     en tiempo real, que también incluye un control para avanzar y retroceder el tiempo, para poder explorar lo que pasa en el tren en distintos lugares a la vez
-  - ¿suena complicado? Lo es! el juego es genial pero dificilísimo. de más está decir que fue carísimo de producir y que la inversión no se recuperó. Solo el curioso estado de la industria a mediados de los 90 puede explicar que hayan intentado semejante empresa delirante. Mechner quedó en bancarrota, vendió el estudio que había creado específicamente para el juego y suspendió sus pretensiones de carrera en el cine. Pero qué juegazo, Jordan!
+¿Suena complicado? Lo es! el juego es genial pero totalmente /hardcore/. Tardó cinco años y costó cinco millones para convertirse finalmente en el mejor juego que no jugó nadie.
+Mechner quedó en bancarrota, vendió el estudio que había creado específicamente para el juego y enterró definitivamente cualquier pretensión de cineasta. Pero qué juegazo te echaste, Jordan!
+
+
 
 ** La amenaza 3D
 
