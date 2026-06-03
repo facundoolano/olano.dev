@@ -26,6 +26,16 @@ Mechner, que por esa época practicaba Karate, filmó a su profesor y a sus padr
 /Karateka/ "no era un juego de pelea sino un juego narrativo, cuya mecánica de juego era la pelea". La historia la contó con un mínimo de elementos visuales, evocando el lenguaje del cine: copió el barrido de las películas de Kurosawa, intercaló secuencias no interactivas del antagonista y la "damisela en apuros" para construir tensión. Cuando el juego terminaba, la pantalla rezaba /THE END/ en lugar del acostumbrado /GAME OVER/.
 
 [making of karateka?]
+#+begin_export html
+<br/>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+src="https://www.youtube-nocookie.com/embed/3Nqp6U1GYI8?si=ObU-BfAIkBY65KiH"
+    frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+<br/>
+#+end_export
 
 Ese juego minimalista que había empezado como una distracción de la facultad se convirtió en hit para la Apple II y después también para la Commodore 64, poniendo a Jordan Mechner en una disyuntiva vocacional. ¿Dejaba la facultad, que no le interesaba mucho, para dedicarse a los videojuegos? ¿Seguía intentando colocar ese guión en el que venía trabajando para empezar en serio su carrera en el cine? ¿O se ponía con el próximo juego para el que ya le ofrecían adelantos? Nunca terminó de disipar esas dudas; en los años siguientes trataría de hacer las tres cosas a la vez, lo que en parte explica por qué tardó tanto en terminar el próximo juego.
 
@@ -37,15 +47,33 @@ Para lograr ese dinamismo de Indiana Jones que se había imaginado, otra vez ape
 Esta vez el modelo del protagonista fue su hermano. Fueron a un playón de estacionamiento y Mechner lo filmó con una cámara VHS, haciendo las piruetas que necesitaba para su héroe. Ya en su casa, reproducía la filmación en la videocasetera, cuadro por cuadro, sacándole fotos al televisor con su cámara analógica.
 Después de revelar las fotos, las pegaba una al lado de otra en una hoja, resaltaba con marcador y cinta borradora los contornos del cuerpo y fotocopiaba la hoja para obtener imágenes de mayor contraste. Colocaba la fotocopia sobre un soporte y volvía a filmar, esta vez con la cámara conectada a su Apple II: no había hardware de video pero sí un aparato para capturar un cuadro estático en pantalla, que después podía “calcar”, pixel por pixel. Por último, reproducía la secuencia de imágenes digitalizadas, recreando los movimientos de su hermano, ya convertido en héroe persa. Este proceso engorroso y legendario duró meses.
 
-[VIDEO making of PoP]
+#+begin_export html
+<br/>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+src="https://www.youtube.com/embed/ZW_eExHpTZI?si=b-kX-8n7_mpXz_hW"
+    frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+<br/>
+#+end_export
 
 Aunque yo no lo vi en su hábitat natural de la Apple II, sí pasé muchas horas jugándolo en una precaria PC CGA de 4 colores (los peores cuatro colores que una mente macabra pudiera combinar) y doy fe: ese muñequito, corriendo y saltando fluidamente en una pantalla que me tenía acostumbrado a toscos espasmos pixelados, era como un /glitch/ en la Matrix, un holograma traído de una computadora de otra generación. El juego envejeció sorprendentemente bien, mejor que cualquiera de los intentos de película interactiva de los años siguientes. Todavía se deja jugar, más como elegante juego de puzzles que como platformero, ya despojado de cualquier asociación cinematográfica.
 
 A diferencia de Karateka, cuando se publicó en el 89, /Prince of Persia/ no fue un éxito instantáneo. Mechner se había demorado demasiado y para entonces la Apple II, cuya primera versión tenía más de 10 años, estaba completamente muerta. Hubo que esperar a que salieran las versiones para PC/DOS al año siguiente, con mejores gráficos pero las mismas animaciones artesanales, para que el juego se convirtiera en el éxito que todos esperaban.
 
 Hubo secuela, en la que Mechner trabajó como consultor a distancia mientras intentaba reactivar, ya sin presiones financieras, su carrera de cineasta. Pero los verdaderos herederos de /Prince of Persia/ fueron dos juegos franceses, /Another World/ y /Flashback/, que llevaron al próximo nivel el concepto de /cinematic platrofmer/. El proceso de animación rotoscópica de esos juegos fue mucho menos engorroso que el de Mechner. Para entonces, los franceses tenían accesso a la computadora del futuro.
+#+begin_export html
+<br/>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+src="https://www.youtube.com/embed/G1EGP2EyWe0?si=cKLPtn7lqa6A57vJ"
+    frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+<br/>
+#+end_export
 
-[Video/animacion another world?]
 
 ** Vista previa al futuro
 # Amiga y Cinemaware: vista previa al futuro
