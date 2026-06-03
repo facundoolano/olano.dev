@@ -157,31 +157,27 @@ TODO citar barwood/entrevista
 
 Con la nueva capacidad audiovisual y de procesamiento de las PCs, se abría un mundo de posibilidades para los videojuegos, pero en la ecuación multimedia todavía faltaba despejar la variable del espacio de almacenamiento. Juegos como /Wing Commander II/ o /King's Quest/ ocupaban hasta 10 diskettes, disparando costos de producción y degradando la experiencia de los usuarios, que se la pasaban poniendo y sacando discos. La solución era conocida por todos, la misma que ya sabía Bob Jacob en el '89: el CD-ROM. Los discos compactos ya se habían establecido como el nuevo estándar para la industria musical y hacía años que amagaba con dar el salto a las computadoras, pero el momento parecía no llegar nunca.
 
-[IMAGEN MYST]
+Hicieron falta no una sino dos [[https://en.wikipedia.org/wiki/Killer_application][/killer apps/]], para romper el mercado en 1993 y poner una compactara en (casi) todos los hogares. La primera de ellas fue /Myst/, que en la prensa era etiquetada como aventura gráfica pero cuyos autores insistían en que no era un juego sino un "mundo interactivo": te dejaba recorrer una isla 3D en primera persona. Aunque había puzzles y algún esbozo de historia, estos eran más bien una excusa para mover al jugador; en ese sentido /Myst/ parece más un heredero directo de la simulación de /Colossal Cave Adventure/ que de /Monkey Island/.
 
-- TODO ver como myst hizo la eleccion
-- myst, killer app
-  - mundos interactivos no videojuegos, similar a adventure. historia.puzzles accessorios
+El otro juego que ayudo a vender el CD-ROM fue también una aventura gráfica, también con escenarios 3D, también en primera persona. En este caso /The 7th Guest/ ponía al usuario en una mansión embrujada con algunos toques de /Twin Peaks/. Pero lo que lo hacía especial y lo que empujó a todo el mundo a comprarlo (junto con la compactera), fue que cuando entrabas en una habitación o resolvías un puzzle, el juego te premiaba con una secuencia de filmación de actores reales, dando el puntapié inicial al /Full-Motion Video/ (FMV) y abriendo así las compuertas para el periodo más bizarro de la industria de los videojuegos.
 
-Ya con el CD-ROM en la mayoría de los hogares con PC, la aventura gráfica pudo desarrollar todo su esplendor multimedia que, como había insinuado Day of the Tentacle, se convirtieron en animaciones interactivas. King Quest VII maridó sus cuentos de hadas con la correspondiente estética de Disney; /Full Throttle/ nos puso al volante de una banda de motoqueros; /The Dig/ nos llevó al espacio con un guión de Steven Spielberg; /Broken Sword/ anticipó la intriga histórica del Código DaVinci. Quizás la mejor de todas, /The Curse of Monkey Island/, nos devolvía a un Guybrush Threepwood a todo color, con voz propia, navegando sobre mares pintados a mano.
+[video phantasmagoria]
 
-[INTRO FULL THROTTLE]
+El FMV era exactamente lo que quería hacer Bob Jacob en Cinemaware pero no pudo por la falta de CDs
+(técnicamente lo había hecho con /It Came from the Desert/, solo que nadie tenía una TurboGrafx-CD para comprobarlo).
 
-- 7th guest: la otra killer app, mansion david lynch, aplicaba la técnica de pasar videos entre puzzles
-- abrió las compuertas para el periodo más bizarro de la industria de los videojuegos
-- Wing commander III con actores profesionales: Mark Hamill (Luke Skywalker en /Star Wars/), Malcolm McDowell  (Alex en /La naranja mecánica/), Tom Wilson (Biff en /Volver al futuro/), John Rhys-Davies (Sallah en Indiana Jones y Gimli en El Señor de los Anillos)
-- Sierra, inversion  en estudio, storyboards dirección artística
-  - phantasmagoria, gabriel knight.
-    suponían que el uso de actores reales le daría atractivo para el público adulto. el casting del elenco, la estética del juego y la calidad del guión, le daba al conjunto un aire de softporn (que poblimente explique por qué vendió tan bien a pesar de ser un juego terrible).
-  - N cds
-- tampoco lucas arts fue inmune, aunque afortunadamente lo limitó a los juegos de star wars (rebel assault)
-- Dave Duchovny y Gillian Anderson con sus roles habituales para la película interactiva de /X-Files/; Christopher Walken hizo de Detective en /Ripper/; Dennis Hopper de asesino en /Black Dahlia/; Christopher Lloyd protagonizó, con la peor de las ondas, esa especie de /Roger Rabbit/ invertido que fue /Toonstruck/.
+hay que entender el momento de la industria
+  el estado del arte seguían siendo las consolas de 16 bits, Sega Genesis y Super Nintendo.
+  las consolas lo venian intentado sin exito: a la turbografx-cd podemos sumar la segacd, la atari jaguar y la 3do. Un intento de colaboración frustrado entre Nintendo y Sony daría lugar a la PlayStation, pero para eso todavía faltaba.
+  Por unos años la PC fue la mejor plataforma para jugar videojuegos, y gracias a megahits como /Wing Commander,  /Myst/ y /The 7th Guest/ era también donde estaba la plata.
 
-[agluna imagen de FMV]
+Ken Williams de Sierra Online venía invirtiendo en un estudio de filmación y sonido para cuando la tecnología estuviera disponible; ya con CD cortó el desarrollo de sus aventuras animadas y empezó con dos megaproducciones. Su nueva generación de aventuras gráficas seguiría el camino de /7th Guest/: terror /Full-Motion Video/. La hipótesis es que la presencia de actores reales desarmaría la mirada de los videojuegos como entretenimiento para niños y se ganaría el interés del público adultos. En la práctica, la elección de los actores, la estética de los juegos y la calidad del guión, le daba al conjunto menos un aire de Hollywood que de porno soft en I.Sat el viernes a la noche. Lo que quizás explique por qué esa primera camada de juegos vendieron tan bien a pesar de ser tan malos.
 
-- Muchos de esos juegos, sobre todo los primeros, tuvieron buenas ventas. Pero pasada la novedad tecnológica inicial, lo que quedaba eran juegos mal diseñados, un poco aburridos y carísimos de producir. Ni siquiera eran lindos de ver: actores berreta o buenos actores sin ganas de estar ahí, siguiendo instrucciones de gente que no sabe dirigir, capturados a baja resolucion y pegados arriba de escenarios toscamente renderizados.
+Por esas incongruencias del mercado del entretenimiento, ese dominio de la PC y los éxitos de ventas de los primeros juegos FMV, invitaron a actores de verdad a suponer que esto de los juegos podía convertirse en una nueva fuente de pagos residuales parecida al VHS: Dave Duchovny y Gillian Anderson hicieron sus roles habituales para la película interactiva de /X-Files/; Christopher Walken hizo de Detective en /Ripper/; Dennis Hopper de asesino en /Black Dahlia/; Christopher Lloyd fue un dibujante frustrando en una especie de /Roger Rabbit/ invertido llamado /Toonstruck/. El record de apariciones sin duda se lo lleva /Wing commander III/: Mark Hamill (Luke Skywalker en /Star Wars/), Malcolm McDowell  (Alex en /La naranja mecánica/), Tom Wilson (Biff en /Volver al futuro/), John Rhys-Davies (Sallah en Indiana Jones y Gimli en El Señor de los Anillos). Bingo!
 
-La ventana en la que la industria se pudo permitir gastar fortunas filmando actores fue más bien corta, pero quizás fue justicia poética que alcanzara para que Jordan Mechner, que una década atrás se había fundido tratando de exprimir la última gota de arte a una máquina obsoleta, tuviera su oportunidad de dirigir una superproducción videojueguística.
+[alguna imagen/video de wing commander?]
+
+Pero pasada la novedad tecnológica inicial, lo que quedaba eran juegos mal diseñados, un poco aburridos y carísimos de producir. Ni siquiera eran lindos de ver: actores berreta o actores famosos con la peor de las ondas, siguiendo instrucciones de gente que no sabe dirigir, capturados a baja resolucion y pegados arriba de escenarios toscamente renderizados. La ventana en la que la industria se pudo permitir gastar fortunas filmando actores fue más bien corta, pero quizás fue justicia poética que alcanzara para que Jordan Mechner, que una década atrás se había fundido tratando de exprimir la última gota de arte a una máquina obsoleta, tuviera su oportunidad de dirigir una superproducción videojueguística.
 
 - no cayó en la fácil de sierra de pasar videoclips entre puzzles. en vez de eso volvió a apelar su técnica favorita, el rotoscoping, pero esta vez con la tecnología a su favor. grabó a sus actores maquillados para aumentar el contraste y después los metió en las secuencias in game y en clips en los que parecen dibujos animados más que actores berreta.
 

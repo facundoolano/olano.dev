@@ -9,6 +9,13 @@ draft: true
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
 
+descarte
+
+Ya con el CD-ROM en la mayoría de los hogares con PC, la aventura gráfica pudo desarrollar todo su esplendor multimedia que, como había insinuado Day of the Tentacle, se convirtieron en animaciones interactivas. King Quest VII maridó sus cuentos de hadas con la correspondiente estética de Disney; /Full Throttle/ nos puso al volante de una banda de motoqueros; /The Dig/ nos llevó al espacio con un guión de Steven Spielberg; /Broken Sword/ anticipó la intriga histórica del Código DaVinci. Quizás la mejor de todas, /The Curse of Monkey Island/, nos devolvía a un Guybrush Threepwood a todo color, con voz propia, navegando sobre mares pintados a mano.
+
+[INTRO FULL THROTTLE]
+
+
 ** Del pixel art a las aventuras animadas
 - lucasarts: ega -> scanners -> cartoons (monkey dott) -> talkie
   - indiana jones?
