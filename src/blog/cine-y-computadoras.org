@@ -13,19 +13,21 @@ excerpt: La Commodore Amiga fue un aerolito multimedia aterrizado en la década 
 
 Supongo que cada vez que emerge un nuevo medio de expresión artística, atraviesa un proceso de búsqueda de identidad, de definirse por comparación con lo conocido, con aquello que vino antes. Los videojuegos no fueron la excepción. En el caso específico de los juegos de computadora, salidos de terminales de texto a finales de los setenta, el primer espejo fue la literatura. Así se entiende que, ya probada la fórmula de /Colossal Cave Adventure/, empresas pioneras como Infocom hablaran de /ficción interactiva/, tildaran a sus programadores de /autores/, y convocaran a figuras como Ray Bradbury y Douglas Adams para ponerle la firma a sus juegos. Por unos años se habló del /bookware/ y parecía que cualquier editorial medía sus posibilidades de meterse en el entretenimiento digital.
 
-Pero como Ken y Roberta Williams de Sierra probaron al sumarle gráficos a la ecuación, los videojuegos estaban destinados a ser experiencias no meramente interactivas sino también /audiovisuales/. La década que siguió a /King's Quest/ y /Maniac Mansion/ fue la década en que el entretenimiento por computadora buscó inspiración en el imaginario y las técnicas de producción de Hollywood. Esa pretensión de imitar al cine asumió muchas formas, según las capacidades del hardware de turno y el ingenio y la exuberancia con que los diseñadores supieron aprovecharlas. Revisemos algunos casos interesantes.
+Pero como Ken y Roberta Williams de Sierra Online probaron al sumarle gráficos a la ecuación, los videojuegos estaban destinados a ser experiencias no meramente interactivas sino también /audiovisuales/. La década que siguió a /King's Quest/ y /Maniac Mansion/ fue la década en que el entretenimiento por computadora buscó inspiración en el imaginario y las técnicas de producción de Hollywood. Esa pretensión de imitar al cine asumió muchas formas, según las capacidades del hardware de turno y el ingenio y la exuberancia con que los diseñadores supieron aprovecharlas. Revisemos algunos casos interesantes.
 
 ** La experiencia cinemática
 # Jordan Mechner y la experiencia cinemática
-Nadie personificó ese diálogo entre cine y videojuegos como Jordan Mechner. Fanático del cine, Jordan soñaba con convertirse en director o guionista. Hasta que la Apple II se cruzó en su camino y se encontró, sin proponérselo, con una carrera de diseñador de videojuegos.
+Nadie personificó ese diálogo entre cine y videojuegos como Jordan Mechner. Fanático del cine, Jordan soñaba con convertirse en director, hasta que la Apple II se cruzó en su camino y se encontró, sin proponérselo, con una carrera de diseñador de videojuegos.
 
-Lo que menos hizo en sus años de universidad fue ir a clase: se repartía mirando películas y programando juegos, y desde luego que una actividad terminó influyendo a la otra. El golpe de genio que marcaría el resto de su carrera fue usar una vieja técnica de animación, el rotoscopio: usar filmaciones de personas reales y calcar sus siluetas para obtener una animación fluida y realista. Mechner, que por esa época practicaba Karate, filmó a su profesor con una cámara super-8, proyectó la imagen con una moviola y la calcó en su Apple II para convertirlo su protagonista.
+Lo que menos hizo en sus años de universidad fue ir a clase: se repartía el tiempo mirando películas y programando juegos, y desde luego que una actividad terminó influyendo a la otra. Razonando que el estado del arte de los videojuegos era comparable a los inicios del cine, buscó inspiración en el cine mudo, que se las arreglaba para transmitir una historia con pocos elementos visuales, prescindiendo del sonido y del texto. Su otra gran inspiración fue la animación clásica: el golpe de genio que lo acompañaría el resto de su carrera fue recrear en la computadora el "rotoscopio" que Disney usó para /Blancanieves/: en vez de animar dibujos, la idea era filmar a personas y después calcar sus siluetas para obtener una animación fluida y realista. Claro que lo hizo rebuscándosela, sin ayuda del hardware.
 
-Para Mechner, /Karateka/ "no era un juego de pelea sino un juego narrativo, cuya mecánica de juego era la pelea". Razonando que el estado del arte de los videojuegos era comparable a los inicios del cine, buscó inspiración en el cine mudo, que se las arreglaba para contar una historia a partir de unos pocos elementos visuales, sin texto y sin sonido. Copió el barrido de las películas de Kurosawa e intercaló secuencias del antagonista y la "damisela en apuros" para construir tensión. Cuando el juego terminaba, la pantalla rezaba /THE END/ en lugar del usual /GAME OVER/.
+Mechner, que por esa época practicaba Karate, filmó a su profesor y a sus padres con una cámara super-8, proyectó las imágenes con una moviola y calcó algunos fotogramas con uno de los pocos periféricos disponibles para la Apple II, una especie de paleta electrónico para trazar cuadrículas llamado VesaWriter. Aunque las animaciones eran crudas, los movimientos y las posturas de sus actores aparecían personificadas en el héroe en pantalla.
+
+/Karateka/ "no era un juego de pelea sino un juego narrativo, cuya mecánica de juego era la pelea". La historia la contó con un mínimo de elementos visuales, evocando el lenguaje del cine: copió el barrido de las películas de Kurosawa, intercaló secuencias no interactivas del antagonista y la "damisela en apuros" para construir tensión. Cuando el juego terminaba, la pantalla rezaba /THE END/ en lugar del acostumbrado /GAME OVER/.
 
 [making of karateka?]
 
-Ese juego minimalista que había empezado como una distracción de la facultad se convirtió en un hit de la Apple II y después de la Commodore 64, poniendo a Jordan Mechner en una disyuntiva vocacional. ¿Dejaba la facultad, que no le interesaba mucho, para dedicarse a los videojuegos? ¿Seguía intentando colocar ese guión en el que venía trabajando para empezar en serio su carrera en el cine? ¿O se ponía con el próximo juego para el que ya le ofrecían adelantos? Nunca terminó de disipar esas dudas; en los años siguientes trataría de hacer las tres cosas a la vez, lo que en parte explica por qué tardó tanto en terminar el próximo juego.
+Ese juego minimalista que había empezado como una distracción de la facultad se convirtió en hit para la Apple II y después también para la Commodore 64, poniendo a Jordan Mechner en una disyuntiva vocacional. ¿Dejaba la facultad, que no le interesaba mucho, para dedicarse a los videojuegos? ¿Seguía intentando colocar ese guión en el que venía trabajando para empezar en serio su carrera en el cine? ¿O se ponía con el próximo juego para el que ya le ofrecían adelantos? Nunca terminó de disipar esas dudas; en los años siguientes trataría de hacer las tres cosas a la vez, lo que en parte explica por qué tardó tanto en terminar el próximo juego.
 
 Viendo que el público respondía a su enfoque "cinemático", para /Prince of Persia/ decidió redoblar la apuesta.
 El argumento del juego es el mismo, pero el sombrero es nuevo: héroe atraviesa pantallas y rescata a princesa, esta vez en un escenario de /Las mil y una noches/ en lugar del dojo japonés. El tono que buscaba Mechner era el de las películas de aventuras y espadachines; en particular, quería que su juego fuera una versión interactiva de esos primeros diez minutos de /Cazadores del arca perdida/, en que Indiana Jones corre, salta y esquiva trampas mortales con una mezcla de destreza física e ingenio.
@@ -107,14 +109,93 @@ Una vez establecido el dominio de la PC con el comienzo de los '90, se generó u
 
 [IMAGEN wing commander]
 
-<De esa lógica de apostar al último hardware surgió /Wing Commander/, el primer /blockbuster/ de la PC.
-- TODO chequear subrayados
-<conclusión similar a la de Bob Jacob, la acción tiene que tienen que tener un sentido y eso se traduce en una historia, un arco narrativo que une el gameplay. Pero mientras que Cinemaware burdamente /insertaba/ minijuegos en su historia, Chris Roberts hizo algo más sofisticado: puso un pulido simulador de vuelo espacial al servicio de su historia.
-Lo interesante es que, como quería crear ante todo una experiencia ficcional, Roberts no dudaba simplificar detalles o sacrificar realismo en la simulación con fines dramáticos.
-El hecho de que la historia fuera básica, un poco confusa e incluso ridícula (el enemigo es una raza de gatos antropomorfos en traje espacial), poco importaba: la diferencia la hacía que había /una/ historia y que estaba bien integrada con el juego para constituir una experiencia entretenida. Sumado a eso el hecho de que los efectos audiovisuales eran lo mejor de la industria y que Chris Roberts le ofrecía al público protagonizar una ópera espacial en tiempos en que LucasArts todavía tenía prohibido usar su licencia estrella, y se entiende cómo es que /Wing Commander/ se convirtió en un éxito absoluto y perdurable (y obligó a todo el mundo a upgradear su máquina).
+Esa lógica, llevada al extremo, le dio a la PC /Wing Commander/, su primer /blockbuster/. El juego de Chris Roberts no estaba pensado para correr en el hardware promedio sino en la mejor computadora que el dinero podía comprar en 1990: procesador 386, gráficos VGA, placa de sonido y memoria expandida. Inspirado por los juegos de Cinemaware, Roberts rodeó a su simulador de vuelo espacial con una historia que lo sostenía, una ópera espacial al estilo /Star Wars/. El resultado de las misiones afectaba el curso de una guerra a mayor escala y, entre batalla y batalla, el jugador interactuaba y competía con sus compañeros, en un formato narrativo parecido al de una aventura gráfica.
+
+#+begin_quote
+Me encanta la historia y la narrativa y pienso que sirven para estructurar la acción, que le dan a la acción sentido y contexto en el juego. Esa era la idea que me guiaba.
+#+end_quote
+
+Pero mientras que Cinemaware partía de una historia y la sembraba de minijuegos berreta, partió de un buen simulador de vuelo, un gameplay pulido y entretenido y lo puso al servicio de un arco ficcional. Como quería crear ante todo una /experiencia/, no dudaba simplificar detalles de la cabina del avión o sacrificar realismo en la física de la simulación para ayudar a sus fines dramáticos. Poco importaba que el argumento en sí mismo fuera básico, un poco confuso y hasta ridículo (el "enemigo" es una raza de gatos antropomorfos en traje espacial), bastaba con que hubiera /cualquier/ historia para motivar al jugador y constituir una experiencia.
+
+El éxito rotundo y perdurable de /Wing Commander/ mostraba que el público quería historia. Hubo quienes leyeron esto como prueba de que las predicciones de Bob Jacob, que los juegos estaban convergiendo a películas interactivas. Pero, retrospectivamente, podemos hacer una lectura más sutil: /Wing Commander/ mostró que un juego cuya mecánica principal era no-narrativa, se podía beneficiar incorporando elementos de los juegos narrativos como la aventura gráfica. En esto, /Wing Commander/ fue el primer indicio del /end-game/ de la industria.
 
 [otra IMAGEN wing commander]
 
+No poco del éxito de /Wing Commander/ es atribuible a que le dio al público el juego de /Star Wars/ que LucasArts todavía no estaba en condiciones de darle. Un par de años más adelante, ya con las licencias recuperadas por el estudio de videojuegos de Lucas, bastaría con copiar la fórmula de /Wing Commander/ para obtener un éxito atrás de otro. Pero por el momento, en 1991 el estudio se tenía que conformar con las aventuras gráficas y el ocasional juego de Indiana Jones. Habiendo ya publicado uno para acompañar el lanzamiento /La última cruzada/ y con la trilogía de Spielberg terminada, la próxima aventura de Indy en la computadora tendría que ser una historia original. Para cuidar la propiedad del estudio, decidieron traer a un profesional para que se hiciera cargo del proyecto.
+
+Hal Barwood era un veterano de Hollywood, colaborador en los primeros años de Lucas y Spielberg, que no había logrado sostener una carrera propia como guionista y director. Su experiencia en <CITA> prometía poner al juego en otra liga comparado con lo que hacían Sierra o Cinemaware, o con la simplona historia que le había alcanzado a /Wing Commander/. Lo curioso es cómo Barwood, que venía del cine, rápidamente detectó cuán problemático era el intento de asimilar las dos disciplinas.
+
+TODO citar barwood/entrevista
+
+** El espejismo del cine interactivo
+
 Con la nueva capacidad audiovisual y de procesamiento de las PCs, se abría un mundo de posibilidades para los videojuegos, pero en la ecuación multimedia todavía faltaba despejar la variable del espacio de almacenamiento. Juegos como /Wing Commander II/ o /King's Quest/ ocupaban hasta 10 diskettes, disparando costos de producción y degradando la experiencia de los usuarios, que se la pasaban poniendo y sacando discos. La solución era conocida por todos, la misma que ya sabía Bob Jacob en el '89: el CD-ROM. Los discos compactos ya se habían establecido como el nuevo estándar para la industria musical y hacía años que amagaba con dar el salto a las computadoras, pero el momento parecía no llegar nunca.
 
-En 1993 el CD-ROM tendría no una si no dos [[https://en.wikipedia.org/wiki/Killer_application][killer apps]], un par de curiosas aventuras gráficas que finalmente pondrían compacteras en la mayoría de las computadoras estadounidenses. Con todo ese espacio disponible se terminó de realizar el potencial multimedia de la PC, al que le debemos los mejores juegos de la década. Pero, también de la mano del CD, los actores menos imaginativos de la industria, obstinados en llevar el cine a la PC, se abrirían las compuertas de la etapa más bizarra de la historia de los videojuegos.
+[IMAGEN MYST]
+
+- TODO ver como myst hizo la eleccion
+- myst, killer app
+  - mundos interactivos no videojuegos, similar a adventure. historia.puzzles accessorios
+
+Ya con el CD-ROM en la mayoría de los hogares con PC, la aventura gráfica pudo desarrollar todo su esplendor multimedia que, como había insinuado Day of the Tentacle, se convirtieron en animaciones interactivas. King Quest VII maridó sus cuentos de hadas con la correspondiente estética de Disney; /Full Throttle/ nos puso al volante de una banda de motoqueros; /The Dig/ nos llevó al espacio con un guión de Steven Spielberg; /Broken Sword/ anticipó la intriga histórica del Código DaVinci. Quizás la mejor de todas, /The Curse of Monkey Island/, nos devolvía a un Guybrush Threepwood a todo color, con voz propia, navegando sobre mares pintados a mano.
+
+[INTRO FULL THROTTLE]
+
+- 7th guest: la otra killer app, mansion david lynch, aplicaba la técnica de pasar videos entre puzzles
+- abrió las compuertas para el periodo más bizarro de la industria de los videojuegos
+- Wing commander III con actores profesionales: Mark Hamill (Luke Skywalker en /Star Wars/), Malcolm McDowell  (Alex en /La naranja mecánica/), Tom Wilson (Biff en /Volver al futuro/), John Rhys-Davies (Sallah en Indiana Jones y Gimli en El Señor de los Anillos)
+- Sierra, inversion  en estudio, storyboards dirección artística
+  - phantasmagoria, gabriel knight.
+    suponían que el uso de actores reales le daría atractivo para el público adulto. el casting del elenco, la estética del juego y la calidad del guión, le daba al conjunto un aire de softporn (que poblimente explique por qué vendió tan bien a pesar de ser un juego terrible).
+  - N cds
+- tampoco lucas arts fue inmune, aunque afortunadamente lo limitó a los juegos de star wars (rebel assault)
+- Dave Duchovny y Gillian Anderson con sus roles habituales para la película interactiva de /X-Files/; Christopher Walken hizo de Detective en /Ripper/; Dennis Hopper de asesino en /Black Dahlia/; Christopher Lloyd protagonizó, con la peor de las ondas, esa especie de /Roger Rabbit/ invertido que fue /Toonstruck/.
+
+[agluna imagen de FMV]
+
+- Muchos de esos juegos, sobre todo los primeros, tuvieron buenas ventas. Pero pasada la novedad tecnológica inicial, lo que quedaba eran juegos mal diseñados, un poco aburridos y carísimos de producir. Ni siquiera eran lindos de ver: actores berreta o buenos actores sin ganas de estar ahí, siguiendo instrucciones de gente que no sabe dirigir, capturados a baja resolucion y pegados arriba de escenarios toscamente renderizados.
+
+La ventana en la que la industria se pudo permitir gastar fortunas filmando actores fue más bien corta, pero quizás fue justicia poética que alcanzara para que Jordan Mechner, que una década atrás se había fundido tratando de exprimir la última gota de arte a una máquina obsoleta, tuviera su oportunidad de dirigir una superproducción videojueguística.
+
+- no cayó en la fácil de sierra de pasar videoclips entre puzzles. en vez de eso volvió a apelar su técnica favorita, el rotoscoping, pero esta vez con la tecnología a su favor. grabó a sus actores maquillados para aumentar el contraste y después los metió en las secuencias in game y en clips en los que parecen dibujos animados más que actores berreta.
+
+#+begin_quote
+Just as theater is its own thing — with its own conventions, things that it does well, things it does badly — so is film, and so [are] computer games. And there is a way to borrow from one medium to another, and in fact that’s what an all-new medium does when it’s first starting out. Film, when it was new, looked like someone set up a camera front and center and filmed a staged play. Then the things that are specific to film — like the moving camera, close-ups, reaction shots, dissolves — all these kinds of things became part of the language of cinema. It’s the same with computer games. To take a long film sequence and to play that on your TV screen is the bad way to make a game cinematic. The computer game is not a VCR. But if you can borrow from the knowledge that we all carry inside our heads of how cuts work, how reaction shots work, what a low angle means dramatically, what it means when the camera suddenly pulls back… We’ve got this whole collective unconscious of the vocabulary of film, and that’s a tremendously valuable tool to bring into computer gaming.
+#+end_quote
+
+[imagen making of last express]
+
+- el juego es un murder mystery arriba del orient express (doble guiño a Agatha Christie y Hitchcock), situado en medio del caldo geopolítico de una europa al borde de la primera guerra mundial
+    una inusual aventura con perspectiva 3D que se parece en movimiento al myst
+    en tiempo real, que también incluye un control para avanzar y retroceder el tiempo, para poder explorar lo que pasa en el tren en distintos lugares a la vez
+  - ¿suena complicado? Lo es! el juego es genial pero dificilísimo. de más está decir que fue carísimo de producir y que la inversión no se recuperó. Solo el curioso estado de la industria a mediados de los 90 puede explicar que hayan intentado semejante empresa delirante. Mechner quedó en bancarrota, vendió el estudio que había creado específicamente para el juego y suspendió sus pretensiones de carrera en el cine. Pero qué juegazo, Jordan!
+
+** La amenaza 3D
+
+Mientras la mayoría de la industria de juegos de PC seguía en su cumpleaños de jugar a Hollywood, dos genios locos estaban rompiendo la industria desde abajo.
+- id software, dos johns, historia porno,
+- la tecnología de John Carmack y el estilo de John Romero no eran la única innovación. parecía que idSoftware, sin proponérselo, no hacía otra cosa que abrir nuevos caminos. distribución shareware, cultura de modding, competencias de juegos en red. En todo eso fueron pioneros los juegos de id, no solo por tecnología y diseño sino por la cultura de sus fans y el diálogo que entablaban con sus creadores, que liberaban sus herramientas e incorporaban el feedback de los usuarios en sus próximas creaciones
+
+[imagen los dos johns]
+id publicó un éxito tras otro.
+
+acaso el público que en 1991 pedía más historia al comprar wing commander ahora pedía la violencia sin compromisos de doom? Mucho más probablemente el público no quería una única cosa, ni había un sólo público uniforme. Pero todavía estabamos a décadas de la idea de segmentar el mercado; a mediados de los noventa lo único que contaba era el mainstream, y el mainstream quería acción en 3D.
+
+La PC ya no era la plataforma de avanzada en videojuegos como en los años anteriores, ahora circulaba la Nintendo 64 y sobre todo la Sony PlayStation, las dos, con sus particularidades, diseñadas para juegos en 3D. Para seguirles el ritmo, el upgrade de turno para computadoras eran las placas aceleradoras como la Voodoo de 3dfx.
+
+En el cine, ese modelo a seguir hasta hacía poco, Pixar había destronado a Disney y los blockbuster de acción se montaban en el CGI de Industrial Light & Magic. Por más feos que fueran los modelos polígonales, a empresas como Sierra y LucasArts no les quedaba otra que subirse a la ola. La próxima generación de aventuras gráficas sería en tres dimensiones. Y sería la última.
+
+- grim fandango
+  - Tim schafer, heredero de ron gilbert, MI 1 y 2, DoTT y el hit menor que fue Full Throttle. Le dieron carta blanca creativa, con la única condición de que el juego tenía que ser una aventura 3D.
+    - como en DotT las limitaciones de la tecnología informaron las decisiones estéticas: ese 3D cuadrado, como de paper maché, remitía a los muñecos del día de muertos mexicano que dio
+por una vez alguien fue un poquito menos literal y la influencia del cine fue estética: Tim Schaffer, que por entonces venía viendo mucho cine negro, copió para el primer capítulo el argumento de /Double Indemnity/ y para el segundo convirtió a su protagonista en el Rick de /Casablanca/; el jazz de fondo remite al Miles Davis de /Ascensor al Cadalso/, a /The Big Combo/ y a /Sweet Smell of Success/. Después se acabó el presupuesto y cerró la otra mitad del juego como pudo, pero el daño (?) ya estaba hecho: mejor aventura gráfica de la historia. Así lo pensó la crítica, que la regó de premios y elogios, y el público... no tanto.
+
+[intro de grim fandango]
+
+Aunque no fuera un Full-Motion Video con actores reales, un juego como /Grim Fandango/ era difícil y caro de producir, y parecía que ya no tenía perspectivas de megahit. El público parecía favorecer la acción en 3D, aunque eso no necesariamente tenía que limitarse al primitivo festival de violencia de /Doom/ o /Quake/.
+
+Pocos días después de /Grim Fandngo/ se publicó /Half-Life/, de valve. /Half-Life/ era formalmente un /first-person shooter/ pero le daba la bienvenida a sus jugadores con media hora de exposición argumental, una especie de cutscene interactiva, sin armas a la vista.
+<resumen?
+<estilo de escenas de acción, menos simulación/arena que una coreografía/guionada sincopada por el paso del jugador (una especie de truman show con disparos).
+
+Half-Life se la mitad de los premios de 1998 que le dejó /Grim Fandango/ y marcó la nueva dirección de la industria: una síntesis dialéctica entre /Monkey Island/ y /Doom/, la prueba que el /storytelling/ cinematográfico podía estar embebido en la acción autóctona de la PC. Los videojuegos ya no tenían nada que envidiarle Hollywood, se recibieron de medio artístico, un medio artístico para el siglo XXI.
