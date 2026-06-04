@@ -148,15 +148,31 @@ Pero mientras que Cinemaware partía de una historia y la sembraba de minijuegos
 
 El éxito rotundo y perdurable de /Wing Commander/ mostraba que el público quería historia. Hubo quienes leyeron esto como prueba de que las predicciones de Bob Jacob, que los juegos estaban convergiendo a películas interactivas. Pero, retrospectivamente, podemos hacer una lectura más sutil: /Wing Commander/ mostró que un juego cuya mecánica principal era no-narrativa, se podía beneficiar incorporando elementos de los juegos narrativos como la aventura gráfica. En esto, /Wing Commander/ fue el primer indicio del /end-game/ de la industria.
 
-[otra IMAGEN wing commander]
+#+begin_export html
+<br/>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+src="https://www.youtube-nocookie.com/embed/EJkJbUbvYJA?si=iU7u2VysNkjHBvrd"
+    frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+<br/>
+#+end_export
 
-No poco del éxito de /Wing Commander/ es atribuible a que le dio al público el juego de /Star Wars/ que LucasArts todavía no estaba en condiciones de darle. Un par de años más adelante, ya con las licencias recuperadas por el estudio de videojuegos de Lucas, bastaría con copiar la fórmula de /Wing Commander/ para obtener un éxito atrás de otro. Pero por el momento, en 1991 el estudio se tenía que conformar con las aventuras gráficas y el ocasional juego de Indiana Jones. Habiendo ya publicado uno para acompañar el lanzamiento /La última cruzada/ y con la trilogía de Spielberg terminada, la próxima aventura de Indy en la computadora tendría que ser una historia original. Para cuidar la propiedad del estudio, decidieron traer a un profesional para que se hiciera cargo del proyecto.
+No poco del éxito de /Wing Commander/ es atribuible a que llenó un espacio que LucasArts seguía dejando vacante.
+Un par de años más adelante, ya con las licencias de /Star Wars/ disponibles, al estudio de Lucas le bastaría con copiar la fórmula de /Wing Commander/ para obtener un éxito atrás de otro. Pero por el momento, en 1991 el LucasArts se tenía que conformar con las aventuras y el ocasional juego de Indiana Jones. Habiendo ya publicado uno para acompañar el lanzamiento /La última cruzada/ y con la trilogía de Spielberg terminada, la próxima aventura de Indy en la computadora tendría que ser una historia original. Para cuidar la propiedad intelectual del estudio, decidieron que un profesional se hiciera cargo del proyecto.
 
-Hal Barwood era un veterano de Hollywood, colaborador en los primeros años de Lucas y Spielberg, que no había logrado sostener una carrera propia como guionista y director. Su experiencia en <CITA> prometía poner al juego en otra liga comparado con lo que hacían Sierra o Cinemaware, o con la simplona historia que le había alcanzado a /Wing Commander/. Lo curioso es cómo Barwood, que venía del cine, rápidamente detectó cuán problemático era el intento de asimilar las dos disciplinas.
+Hal Barwood era un veterano de Hollywood, colaborador en los primeros años de Lucas y Spielberg, que no había logrado sostener una carrera propia como guionista y director. Su experiencia en <CITA> prometía poner al juego en otra liga comparado con lo que venían haciendo Sierra o Cinemaware, o con la historia simplona que de /Wing Commander/. Lo curioso es cómo Barwood, que venía del cine, rápidamente detectó cuán problemático era ese intento de asimilar las dos disciplinas. El tema salió en conversación con Orson Scott Card, un autor de ciencia ficción que también escribía para LucasArts:
 
-TODO citar barwood/entrevista
+#+begin_quote
+"Las empresas haciendo juegos animados se la pasan hablando como si los juegos se parecieran a las películas", dijo Barwood. "Pero la verdad que no se parecen tanto. A lo que sí se parecen es a obras de teatro". ¿Por qué? Porque como en una obra, hay pocas locaciones a disposición, y usualmente están vistas desde un solo ángulo. No se pueden hacer acercamientos y la acción es tan difusa que hace falta diálogo para explicarla. En el cine es al revés: controlás el ritmo cortando y moviendo la acción de un lugar a otro. La cámara nunca se queda quieta mucho tiempo.
 
-[conclusion libreta]
+Pero la observación de Barwood decía algo más profundo: los diseñadores ponen demasiada fe en la analogía de /juegos-como-películas/. Están comparando sus juegos con un arte tan diferente que las técnicas que funcionan con uno van a fallar con el otro. Lo que Barwood había descubierto ---y lo que todo buen autor de videojuegos va a tener que aprender--- es que las computadoras son un medio completamente distinto, y las grandes obras de arte de ese medio recién van a llegar cuando dejemos de juzgarlas con los estándares de otros medios.
+
+Hay una lección ahí. Cuando las películas intentaban ser obras de teatro, no podían ser buenas películas. Cuando la televisión intentaba ser cine o teatro, no teníamos idea lo que era la buena televisión. Y cuando las obras de teatro intentan hacer lo que el cine o la tele hacen mejor, también fallan. Los autores de juegos van a hacer su mejor trabajo cuando se dediquen a lo que las computadoras hacen bien, en vez de perder el tiempo tratando de hacer películas en una pantalla VGA. El arte de contar historias con una computadora tiene que ser inventado, no copiado.
+#+end_quote
+
+Esa lección, clara para gente como Scott Card, Hal Barwood y Jordan Mechner, la industria en su conjunto tardaría un poco más en aprenderla.
 
 ** El espejismo del cine interactivo
 
@@ -188,12 +204,11 @@ La ventana de tiempo en que estudios e inversores permanecieron convencidos de l
 Así como el teatro tiene su identidad---sus convenciones, lo que queda bien, lo que queda mal---así también los tiene el cine, y los videojuegos. Y hay formas de copiar de un medio a otro, y de hecho eso es lo que hace un medio nuevo cuando recién empieza. Cuando empezó, el cine lucía como si alguien hubiera puesto una cámara de frente a un escenario para filmar una obra de teatro. Pero entonces las técnicas específicas del medio---el movimiento de cámara, los acercamientos, los planos, los fundidos---se volvieron parte del lenguaje del cine. Pasa lo mismo con los videojuegos. Filmar una secuencia larga y reproducirla en pantalla es la manera mala de hacer un juego cinematográfico. La computadora no es una videocasetera. Pero si podés aprovechar el conocimiento que todos tenemos sobre cómo funcionan los cortes, como funcionan los planos, el efecto dramático de un ángulo bajo o de la cámara retrocediendo de golpe… Hay un inconsciente colectivo sobre el vocabulario cinematográfico y eso es tremendamente valioso para incorporar en un juego.
 #+end_quote
 
-Así que aunque para su juego filmaría actores, no sería otra grasada de /Full-Motion Video/; para aprovechar el material volvería a su técnica predilecta: la animación rotoscópica. Esta vez con el hardware de su lado y presupuesto para contratar profesionales y desarrollar software dedicado,
+Iba a filmar a actores, sí, pero no iba a tirar los videos intercalados con el juego como en las otras aventuras /Full-Motion Video/ sino que iba a recurrir otra vez a su técnica predilecta: la animación rotoscópica. Ahora con el hardware y el presupuesto a su favor, pudo contratar actores profesionales y desarrollar software propio para procesar las filmaciones. En el set los actores aparecían maquillados y con disfraces de colores fuertes, para aumentar el contraste; las imágenes resultantes eran digitalizadas y convertidas en animaciones y viñetas que eran insertadas en medio del juego.
 
-<maquilló a sus actores para producir imágenes con alto contraste que su equipo digitalizó en forma de animaciones al estilo /Blancanieves/.
-, para interactuar con el protagonista del juego, y de viñetas, para las secuencias narrativas.
-
-<filmó a sus actores maquillados y disfrazados con pocos colores de alto contraste, produciendo secuencias para incorporar directamente en el juego, donde
+La historia, deudora de Agatha Christie y Alfred Hitchcock, era un /murder mystery/ arriba del Orient Express: del último viaje, de París a Constantinopla, justo antes de que estalle la Gran Guerra. El jugador atraviesa en primera persona los vagones renderizados en 3D, a partir de fotos de los originales, en una dinámica parecida a la de /Myst/; pero en vez de la isla desolada acá el escenario está lleno de vida, te cruzás con personajes
+de todo el mundo haciendo su día a día en el tren, cada uno hablando en su propia lengua, con el ruido del tren y el paisaje <surcando> en la ventana.
+esa atención al detalle lo convierte en un juego más inmersivo que otros juegos más sofisticados de esa época (o de esta).
 
 secuencias durante el transcurso del juego y en viñetas
 donde aparecen como dibujos animados.
