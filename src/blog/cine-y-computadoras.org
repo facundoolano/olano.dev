@@ -110,7 +110,11 @@ La vara estaba tan baja que no haría falta ser muy creativo: bastaba con traer 
 
 Por si quedaban dudas de lo que tenía en mente, a su empresa la nombró /Cinemaware/. El plan que trazó consistía en visitar un género o universo ficcional diferente en cada juego, escribir una historia sencilla y contratar programadores y artistas externos para que la implementaran. Así como Jordan Mechner pensaba como director, Bob Jacob operaba como productor ejecutivo.
 
-[ imagen defender of the crown ]
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/cinematic/defender.png" class="wide">
+</div>
+#+END_EXPORT
 
 Para el primer juego, /Defender of the Crown/, Jacob eligió una historia de caballeros a lo /Robin Hood/ o /Ivanhoe/. Siguiendo su premisa de "acción con sentido", el argumento de reconquista de Inglaterra se traduce en un juego global de estrategia estilo /Risk/, en el que cada enfrentamiento sobre el tablero se decide mediante alguno de varios mini-juegos de acción: duelos de lanzas, asedio a castillos, etc. Había también un mini-juego de rescatar a la princesa; el interés romántico era otro de los ingredientes en la receta de Jacob, excusa para un poco de /fan service/ pixelado.
 
@@ -118,7 +122,17 @@ Lo cierto es que ni la historia ni el gameplay estaban en el centro de la experi
 
 Tras el éxito inaugural, Jacob se dedicó a proseguir con el plan que había trazado, visitando cada género clásico del cine: películas de gángsters, samuráis en el Japón feudal, aventuras en la Segunda Guerra Mundial, incluso un juego de los Tres Chiflados. Cada entrega seguía la misma fórmula: juego global de estrategia y mini-juegos de acción, todo sembrado del mejor pixel art que la industria tenía para ofrecer. Todos, también, sufrían de las mismas limitaciones: gameplay superficial y con un balance que pecaba alternativamente de muy fácil o muy difícil. Después de una sucesión de críticas negativas y un declive en las ventas, Jacob decidió recalibrar el proceso, otra vez siguiendo el modelo de Hollywood, ya no solo en el concepto de las películas sino en los métodos de producción: designó un director creativo, contrató a escritores para que diseñaran los juegos mediante storyboards, sin la necesidad de que los programadores intervengan directamente en el proceso. Fue con su décima película interactiva, el juego de terror clase B /It Came from the Desert,/ que Cinemaware alcanzó el equilibrio perfecto entre jugabilidad, calidad gráfica e historial.
 
-[video it came from the dessert]
+#+begin_export html
+<br/>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+src="https://www.youtube-nocookie.com/embed/qTL-D3AX6H4?si=C4w6YAKnbjRz0g0x"
+    frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+<br/>
+#+end_export
+
 
 La buena recepción de la que gozó /It Came from the Desert/ convenció a Jacob de que estaba bien encaminado: el mercado estaba listo para que las películas interactivas se convirtieran en el próximo medio masivo de entretenimiento. Pero había dos grandes problemas que le impedían capitalizar lo que parecía haber sido su gran acierto inicial: 1. hacia 1989 ya estaba claro que la revolución de la Amiga no iba a suceder; 2. Ni la Amiga, ni la PC, ni ninguna otra plataforma podía manejar el tipo de juego que Bob Jacob planeaba para profundizar su proyecto.
 
@@ -183,7 +197,16 @@ Hicieron falta no una sino dos [[https://en.wikipedia.org/wiki/Killer_applicatio
 
 El otro juego que ayudo a vender el CD-ROM fue también una aventura gráfica, también con escenarios 3D, también en primera persona. En este caso /The 7th Guest/ ponía al usuario en una mansión embrujada con algunos toques de /Twin Peaks/. Pero lo que lo hacía especial y lo que empujó a todo el mundo a comprarlo (junto con la compactera), fue que cuando entrabas en una habitación o resolvías un puzzle, el juego te premiaba con una secuencia de filmación de actores reales, dando el puntapié inicial al /Full-Motion Video/ (FMV) y abriendo así las compuertas para el periodo más bizarro de la industria de los videojuegos.
 
-[video phantasmagoria]
+#+begin_export html
+<br/>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+src="https://www.youtube-nocookie.com/embed/LnlGs0EqN5w?si=xPnkGe9uUAg5L-EQ"
+    frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+<br/>
+#+end_export
 
 (técnicamente lo había hecho con /It Came from the Desert/, solo que nadie tenía una TurboGrafx-CD para comprobarlo).
 <hay que entender el momento de la industria
@@ -195,7 +218,16 @@ Ken Williams de Sierra Online venía invirtiendo en un estudio de filmación y s
 
 Por esas incongruencias del mercado del entretenimiento, ese dominio de la PC y los éxitos de ventas de los primeros juegos FMV, invitaron a actores de verdad a suponer que esto de los juegos podía convertirse en una nueva fuente de pagos residuales parecida al VHS: Dave Duchovny y Gillian Anderson hicieron sus roles habituales para la película interactiva de /X-Files/; Christopher Walken hizo de Detective en /Ripper/; Dennis Hopper de asesino en /Black Dahlia/; Christopher Lloyd fue un dibujante frustrando en una especie de /Roger Rabbit/ invertido llamado /Toonstruck/. El record de apariciones sin duda se lo lleva /Wing commander III/: Mark Hamill (Luke Skywalker en /Star Wars/), Malcolm McDowell  (Alex en /La naranja mecánica/), Tom Wilson (Biff en /Volver al futuro/), John Rhys-Davies (Sallah en Indiana Jones y Gimli en El Señor de los Anillos). Bingo!
 
-[alguna imagen/video de wing commander?]
+#+begin_export html
+<br/>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+src="https://www.youtube-nocookie.com/embed/RpxItq_r7to?si=JMfI853SNGkkl8x1"
+    frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+<br/>
+#+end_export
 
 Pero pasada la novedad tecnológica inicial, lo que quedaba eran juegos mal diseñados, un poco aburridos y carísimos de producir. Ni siquiera eran lindos: actores berreta o actores famosos con la peor de las ondas, siguiendo instrucciones de gente que no sabe dirigir, capturados a baja resolucion y pegados arriba de escenarios toscamente renderizados.
 
@@ -207,22 +239,32 @@ Así como el teatro tiene su identidad---sus convenciones, lo que queda bien, lo
 
 Iba a filmar a actores, sí, pero no iba a tirar los videos intercalados con el juego como en las otras aventuras /Full-Motion Video/ sino que iba a recurrir otra vez a su técnica predilecta: la animación rotoscópica. Ahora con el hardware y el presupuesto a su favor, pudo contratar actores profesionales y desarrollar software propio para procesar las filmaciones. En el set los actores aparecían maquillados y con disfraces de colores fuertes, para aumentar el contraste; las imágenes resultantes eran digitalizadas y convertidas en animaciones y viñetas que eran insertadas en medio del juego.
 
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/cinematic/express1.jpg" class="wide">
+</div>
+#+END_EXPORT
+
 La historia, deudora de Agatha Christie y Alfred Hitchcock, era un /murder mystery/ arriba del Orient Express: del último viaje, de París a Constantinopla, justo antes de que estalle la Gran Guerra. El jugador atraviesa en primera persona los vagones renderizados en 3D, a partir de fotos de los originales, en una dinámica parecida a la de /Myst/; pero en vez de la isla desolada acá el escenario está lleno de vida, te cruzás con personajes
 de todo el mundo haciendo su día a día en el tren, cada uno hablando en su propia lengua, con el ruido del tren y el paisaje <surcando> en la ventana.
+<nadie que jugara tle en 1997 (si alguien lo hubiera jugado) habría pensado que estaba viendo una película o un dibujo animada, y /eso era algo bueno/. la inmersión ... era una experiencia diferente, una experiencia propia de la compuitadora, (con una historia seria, una buena obra de ficción)
 esa atención al detalle lo convierte en un juego más inmersivo que otros juegos más sofisticados de esa época (o de esta).
 
 secuencias durante el transcurso del juego y en viñetas
 donde aparecen como dibujos animados.
 
-[imagen making of last express]
-https://www.youtube.com/watch?v=DygVxOWd_9o
-
 - el juego es un murder mystery arriba del orient express (doble guiño a Agatha Christie y Hitchcock), situado en medio del caldo geopolítico de una europa al borde de la primera guerra mundial
     una inusual aventura con perspectiva 3D que se parece en movimiento al myst
     en tiempo real, que también incluye un control para avanzar y retroceder el tiempo, para poder explorar lo que pasa en el tren en distintos lugares a la vez
+
 ¿Suena complicado? Lo es! el juego es genial pero totalmente /hardcore/. Tardó cinco años y costó cinco millones para convertirse finalmente en el mejor juego que no jugó nadie.
 Mechner quedó en bancarrota, vendió el estudio que había creado específicamente para el juego y enterró definitivamente cualquier pretensión de cineasta. Pero qué juegazo te echaste, Jordan!
 
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/cinematic/express3.png" class="wide">
+</div>
+#+END_EXPORT
 
 
 ** La amenaza 3D
@@ -230,6 +272,12 @@ Mechner quedó en bancarrota, vendió el estudio que había creado específicame
 Mientras la mayoría de la industria de juegos de PC seguía en su cumpleaños de jugar a Hollywood, dos genios locos estaban rompiendo la industria desde abajo.
 - id software, dos johns, historia porno,
 - la tecnología de John Carmack y el estilo de John Romero no eran la única innovación. parecía que idSoftware, sin proponérselo, no hacía otra cosa que abrir nuevos caminos. distribución shareware, cultura de modding, competencias de juegos en red. En todo eso fueron pioneros los juegos de id, no solo por tecnología y diseño sino por la cultura de sus fans y el diálogo que entablaban con sus creadores, que liberaban sus herramientas e incorporaban el feedback de los usuarios en sus próximas creaciones
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/cinematic/doom.webp" class="wide">
+</div>
+#+END_EXPORT
 
 [imagen los dos johns]
 id publicó un éxito tras otro.
@@ -245,7 +293,16 @@ En el cine, ese modelo a seguir hasta hacía poco, Pixar había destronado a Dis
     - como en DotT las limitaciones de la tecnología informaron las decisiones estéticas: ese 3D cuadrado, como de paper maché, remitía a los muñecos del día de muertos mexicano que dio
 por una vez alguien fue un poquito menos literal y la influencia del cine fue estética: Tim Schaffer, que por entonces venía viendo mucho cine negro, copió para el primer capítulo el argumento de /Double Indemnity/ y para el segundo convirtió a su protagonista en el Rick de /Casablanca/; el jazz de fondo remite al Miles Davis de /Ascensor al Cadalso/, a /The Big Combo/ y a /Sweet Smell of Success/. Después se acabó el presupuesto y cerró la otra mitad del juego como pudo, pero el daño (?) ya estaba hecho: mejor aventura gráfica de la historia. Así lo pensó la crítica, que la regó de premios y elogios, y el público... no tanto.
 
-[intro de grim fandango]
+#+begin_export html
+<br/>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+src="https://www.youtube-nocookie.com/embed/2oiF1Eo_z7g?si=6UxpWNL8PE-5aQP5"
+    frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+<br/>
+#+end_export
 
 Aunque no fuera un Full-Motion Video con actores reales, un juego como /Grim Fandango/ era difícil y caro de producir, y parecía que ya no tenía perspectivas de megahit. El público parecía favorecer la acción en 3D, aunque eso no necesariamente tenía que limitarse al primitivo festival de violencia de /Doom/ o /Quake/.
 
