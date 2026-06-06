@@ -218,7 +218,7 @@ Por esas curiosidades del mercado del entretenimiento, el dominio de la PC y las
 <br/>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-src="https://www.youtube-nocookie.com/embed/RpxItq_r7to?si=JMfI853SNGkkl8x1"
+src="https://www.youtube-nocookie.com/embed/Db0pnRzwby8?si=mYNy0tLWngOaKD6U"
     frameborder="0" allowfullscreen>
   </iframe>
 </div>
@@ -227,13 +227,13 @@ src="https://www.youtube-nocookie.com/embed/RpxItq_r7to?si=JMfI853SNGkkl8x1"
 
 Pero pasada la novedad tecnológica inicial, lo que quedaba eran juegos mal diseñados, un poco aburridos y carísimos de producir. Ni siquiera eran lindos de ver: actores malos o actores famosos pero con la peor de las ondas, siguiendo instrucciones de gente que no sabe dirigir, capturados a baja resolucion y pegados arriba de escenarios kitsch pre-renderizados.
 
-La ventana de tiempo en que estudios e inversores permanecieron convencidos de las películas interactivas eran un buen negocio duró más bien poco, un par de años, pero fue justicia poética que alcanzara para que Jordan Mechner ---que una década antes se había fundido exprimiendo hasta la última gota de arte a una máquina obsoleta--- tuviera su oportunidad de dirigir una superproducción videojueguística. Fiel a su mirada de cineasta y su sensibilidad estética, no se iba a conformar con hacer lo mismo que venían haciendo los demás:
+La ventana de tiempo en que estudios e inversores permanecieron convencidos de que las películas interactivas podían ser un buen negocio duró más bien poco, un par de años, pero fue justicia poética que alcanzara para que Jordan Mechner---que una década antes se había fundido exprimiendo hasta la última gota de arte a una máquina obsoleta---tuviera su oportunidad de dirigir una superproducción videojueguística. Fiel a su ojo de cineasta y su sensibilidad estética, no se iba a conformar con hacer lo mismo que venían haciendo los demás:
 
 #+begin_quote
-Así como el teatro tiene su identidad---sus convenciones, lo que queda bien, lo que queda mal---así también los tiene el cine, y los videojuegos. Y hay formas de copiar de un medio a otro, y de hecho eso es lo que hace un medio nuevo cuando recién empieza. Cuando empezó, el cine lucía como si alguien hubiera puesto una cámara de frente a un escenario para filmar una obra de teatro. Pero entonces las técnicas específicas del medio---el movimiento de cámara, los acercamientos, los planos, los fundidos---se volvieron parte del lenguaje del cine. Pasa lo mismo con los videojuegos. Filmar una secuencia larga y reproducirla en pantalla es la manera mala de hacer un juego cinematográfico. La computadora no es una videocasetera. Pero si podés aprovechar el conocimiento que todos tenemos sobre cómo funcionan los cortes, como funcionan los planos, el efecto dramático de un ángulo bajo o de la cámara retrocediendo de golpe… Hay un inconsciente colectivo sobre el vocabulario cinematográfico y eso es tremendamente valioso para incorporar en un juego.
+Así como el teatro tiene su identidad---sus convenciones, lo que queda bien, lo que queda mal---así también los tiene el cine, y los videojuegos. Y hay formas de copiar de un medio a otro, y de hecho eso es lo que hace un medio nuevo cuando recién empieza. Cuando empezó, el cine lucía como si alguien hubiera puesto una cámara de frente a un escenario para filmar una obra de teatro. Pero entonces las técnicas específicas del medio---el movimiento de cámara, los acercamientos, los planos, los fundidos---se volvieron parte del lenguaje del cine. Pasa lo mismo con los videojuegos. Filmar una secuencia larga y reproducirla en pantalla es la manera equivocada de hacer un juego cinemático. La computadora no es una videocasetera. Pero si podés aprovechar el conocimiento que todos tenemos sobre cómo funcionan los cortes, como funcionan los planos, el efecto dramático de un ángulo bajo o de la cámara retrocediendo de golpe… Hay todo un inconsciente colectivo sobre el vocabulario cinematográfico y eso es tremendamente valioso de incorporar en un juego.
 #+end_quote
 
-Iba a filmar a actores, sí, pero no iba a tirar los videos intercalados con el juego como en las otras aventuras /Full-Motion Video/ sino que iba a recurrir otra vez a su técnica predilecta: la animación rotoscópica. Ahora con el hardware y el presupuesto a su favor, pudo contratar actores profesionales y desarrollar software propio para procesar las filmaciones. En el set los actores aparecían maquillados y con disfraces de colores fuertes, para aumentar el contraste; las imágenes resultantes eran digitalizadas y convertidas en animaciones y viñetas que eran insertadas en medio del juego.
+Mechner planeaba filmar actores, sí, pero no para después insertar videos en su juego como hacían las aventuras Full-Motion Video, sino que iba usar el material, una vez más, para producir una animación rotoscópica, la misma técnica que le había valido en /Karateka/ y /Prince of Persia/. Ahora con el hardware y el presupuesto a su favor, pudo contratar actores profesionales y desarrollar software propio para digitalizar las filmaciones. En el set los actores aparecían maquillados y con disfraces de colores fuertes, para aumentar el contraste; el resultado eran animaciones y viñetas estilo art nouveau listas para integrar directamente en la acción.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -241,27 +241,11 @@ Iba a filmar a actores, sí, pero no iba a tirar los videos intercalados con el 
 </div>
 #+END_EXPORT
 
-La historia, deudora de Agatha Christie y Alfred Hitchcock, era un /murder mystery/ arriba del Orient Express: del último viaje, de París a Constantinopla, justo antes de que estalle la Gran Guerra. El jugador atraviesa en primera persona los vagones renderizados en 3D, a partir de fotos de los originales, en una dinámica parecida a la de /Myst/; pero en vez de la isla desolada acá el escenario está lleno de vida, te cruzás con personajes
-de todo el mundo haciendo su día a día en el tren, cada uno hablando en su propia lengua, con el ruido del tren y el paisaje <surcando> en la ventana.
-<nadie que jugara tle en 1997 (si alguien lo hubiera jugado) habría pensado que estaba viendo una película o un dibujo animada, y /eso era algo bueno/. la inmersión ... era una experiencia diferente, una experiencia propia de la compuitadora, (con una historia seria, una buena obra de ficción)
-esa atención al detalle lo convierte en un juego más inmersivo que otros juegos más sofisticados de esa época (o de esta).
+El juego iba a ser una aventura gráfica cinemática, deudora de Agatha Christie y Alfred Hitchcock: un /murder mystery/ arriba del Orient Express, durante el último viaje de París a Constantinopla, justo antes de que estalle la Gran Guerra. El tren se puede recorrer en 3D con la misma dinámica del /Myst/; los vagones y las cabinas están diseñadas en base a los originales y aparecen poblados de pasajeros de toda Europa y el resto del mundo, cada uno hablando su idioma y haciendo su vida y sus rutinas en el día a día sobre el tren. El tiempo y el espacio juegan un papel importante: el viaje avanza en tiempo real, y el jugador tiene que decidir estratégicamente cómo moverse para estar en el lugar correcto a la hora correcta. ¿Suena complicado? !Lo es! El juego es genial pero absolutamente /hardcore/.
 
-secuencias durante el transcurso del juego y en viñetas
-donde aparecen como dibujos animados.
+Nadie que jugara /The Last Express/ en 1997 (si alguien lo hubiera jugado) lo hubiera asociado con ver una película o mirar un dibujo animado. Y eso era algo bueno. Esto era una experiencia diferente, propia de la computadora, una obra seria de ficción que se podía /habitar/. La atención al detalle, el sonido del tren sobre la vías, el paisaje en movimiento en la ventana, los distintos idiomas que suenan al pasar junto a cada puerta, la tensión del paso de las horas y la búsqueda del asesino, todo contribuye a una experiencia única, a un nivel de /suspensión del descreimiento/ pocas veces visto en un videojuego.
 
-- el juego es un murder mystery arriba del orient express (doble guiño a Agatha Christie y Hitchcock), situado en medio del caldo geopolítico de una europa al borde de la primera guerra mundial
-    una inusual aventura con perspectiva 3D que se parece en movimiento al myst
-    en tiempo real, que también incluye un control para avanzar y retroceder el tiempo, para poder explorar lo que pasa en el tren en distintos lugares a la vez
-
-¿Suena complicado? Lo es! el juego es genial pero totalmente /hardcore/. Tardó cinco años y costó cinco millones para convertirse finalmente en el mejor juego que no jugó nadie.
-Mechner quedó en bancarrota, vendió el estudio que había creado específicamente para el juego y enterró definitivamente cualquier pretensión de cineasta. Pero qué juegazo te echaste, Jordan!
-
-#+BEGIN_EXPORT html
-<div class="text-center">
- <img src="{{site.config.static_root}}/img/cinematic/express3.png" class="wide">
-</div>
-#+END_EXPORT
-
+/The Last Express/ costó cinco años y cinco millones para finalmente convertirse en 1997 en el mejor juego que nunca nadie jugó. Mechner quedó en bancarrota, vendió el estudio que había creado específicamente para el juego y enterró definitivamente cualquier pretensión de cineasta. Pero qué juegazo te echaste, Jordan!
 
 ** La amenaza 3D
 
