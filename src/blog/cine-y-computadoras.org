@@ -269,9 +269,7 @@ Mechner quedó en bancarrota, vendió el estudio que había creado específicame
 
 ** La amenaza 3D
 
-Mientras la mayoría de la industria de juegos de PC seguía en su cumpleaños de jugar a Hollywood, dos genios locos estaban rompiendo la industria desde abajo.
-- id software, dos johns, historia porno,
-- la tecnología de John Carmack y el estilo de John Romero no eran la única innovación. parecía que idSoftware, sin proponérselo, no hacía otra cosa que abrir nuevos caminos. distribución shareware, cultura de modding, competencias de juegos en red. En todo eso fueron pioneros los juegos de id, no solo por tecnología y diseño sino por la cultura de sus fans y el diálogo que entablaban con sus creadores, que liberaban sus herramientas e incorporaban el feedback de los usuarios en sus próximas creaciones
+[TODO doom libreta]
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -279,19 +277,9 @@ Mientras la mayoría de la industria de juegos de PC seguía en su cumpleaños d
 </div>
 #+END_EXPORT
 
-[imagen los dos johns]
-id publicó un éxito tras otro.
+¿Puede ser que el público que en 1991 pedía más historia al comprar /Wing Commander/ apenas dos años después reclamaba la violencia sin compromisos del Doom? Mucho más probable es que el público no quisiera una sola cosa, ni que hubiera un sólo y uniforme público. Pero todavía estabamos a décadas de la idea de segmentar el mercado; a mediados de los noventa lo único que contaba era el mainstream, y el mainstream quería acción en 3D. La PC ya no era la plataforma de avanzada en videojuegos como en los años precendetes, ahora circulaba la Nintendo 64 y sobre todo la Sony PlayStation, las dos, con sus particularidades, diseñadas para juegos en 3D. Para seguirles el ritmo, el upgrade de turno para computadoras eran las placas aceleradoras como la Voodoo de 3dfx. Por el lado del cine, hasta hacía poco el modelo a seguir, Pixar había destronado a Disney y los blockbuster de acción se fundaban en el CGI de Industrial Light & Magic. Por más feos que fueran los modelos polígonales de la PC, a empresas como Sierra y LucasArts no les quedaba otra que subirse a la ola. La próxima generación de aventuras gráficas sería en tres dimensiones o no sería. Y sería la última.
 
-acaso el público que en 1991 pedía más historia al comprar wing commander ahora pedía la violencia sin compromisos de doom? Mucho más probablemente el público no quería una única cosa, ni había un sólo público uniforme. Pero todavía estabamos a décadas de la idea de segmentar el mercado; a mediados de los noventa lo único que contaba era el mainstream, y el mainstream quería acción en 3D.
-
-La PC ya no era la plataforma de avanzada en videojuegos como en los años anteriores, ahora circulaba la Nintendo 64 y sobre todo la Sony PlayStation, las dos, con sus particularidades, diseñadas para juegos en 3D. Para seguirles el ritmo, el upgrade de turno para computadoras eran las placas aceleradoras como la Voodoo de 3dfx.
-
-En el cine, ese modelo a seguir hasta hacía poco, Pixar había destronado a Disney y los blockbuster de acción se montaban en el CGI de Industrial Light & Magic. Por más feos que fueran los modelos polígonales, a empresas como Sierra y LucasArts no les quedaba otra que subirse a la ola. La próxima generación de aventuras gráficas sería en tres dimensiones. Y sería la última.
-
-- grim fandango
-  - Tim schafer, heredero de ron gilbert, MI 1 y 2, DoTT y el hit menor que fue Full Throttle. Le dieron carta blanca creativa, con la única condición de que el juego tenía que ser una aventura 3D.
-    - como en DotT las limitaciones de la tecnología informaron las decisiones estéticas: ese 3D cuadrado, como de paper maché, remitía a los muñecos del día de muertos mexicano que dio
-por una vez alguien fue un poquito menos literal y la influencia del cine fue estética: Tim Schaffer, que por entonces venía viendo mucho cine negro, copió para el primer capítulo el argumento de /Double Indemnity/ y para el segundo convirtió a su protagonista en el Rick de /Casablanca/; el jazz de fondo remite al Miles Davis de /Ascensor al Cadalso/, a /The Big Combo/ y a /Sweet Smell of Success/. Después se acabó el presupuesto y cerró la otra mitad del juego como pudo, pero el daño (?) ya estaba hecho: mejor aventura gráfica de la historia. Así lo pensó la crítica, que la regó de premios y elogios, y el público... no tanto.
+Tim Schafer había trabajado con Ron Gilbert en los dos juegos de Monkey Island, había co-dirigido /Day of the Tentacle/ (secuela de /Maniac Mansion/ que superó al original), había tenido un modesto éxito con /Full Throttle/, su aventura de motoqueros y rock and roll. Para su próximo le dieron carta blanca creativa y de presupuesto, con la única condición de que el juego fuera en 3D. Fue esa restricción la que le dio la clave del juego: aunqe estaba de moda, por esa época los modelos 3D eran bastante burdos, mucho más limitados que los dibujos animados de la generación anterior; necesitaba un concepto que no sufriera con el limitado rango de lo que parecían figuras de cartón; pensó en las máscaras de papel maché que los mexicanos usan en su Día de Muertos; imagino en un juego protagonizado por esqueletos de paso por el purgatorio, en tránsito hacia el más allá. Manuel Calavera sería su agente de viajes, una parca que le vendía pasajes a los recién muertos como medio para él mismo purgar sus deudas y salir de ahí.
 
 #+begin_export html
 <br/>
@@ -304,10 +292,16 @@ src="https://www.youtube-nocookie.com/embed/2oiF1Eo_z7g?si=6UxpWNL8PE-5aQP5"
 <br/>
 #+end_export
 
-Aunque no fuera un Full-Motion Video con actores reales, un juego como /Grim Fandango/ era difícil y caro de producir, y parecía que ya no tenía perspectivas de megahit. El público parecía favorecer la acción en 3D, aunque eso no necesariamente tenía que limitarse al primitivo festival de violencia de /Doom/ o /Quake/.
+Por una vez alguien fue un poquito menos literal y la influencia del cine fue mayormente estética: Tim Schaffer, que por entonces venía mirando mucho cine negro, copió para el primer capítulo el argumento de /Double Indemnity/ y para el segundo disfrazó a Manny del Rick de /Casablanca/; el jazz de fondo remitía al Miles Davis de /Ascensor al Cadalso/, a /The Big Combo/ y a /Sweet Smell of Success/.
 
-Pocos días después de /Grim Fandngo/ se publicó /Half-Life/, de valve. /Half-Life/ era formalmente un /first-person shooter/ pero le daba la bienvenida a sus jugadores con media hora de exposición argumental, una especie de cutscene interactiva, sin armas a la vista.
+<Después se acabó el presupuesto y cerró la otra mitad del juego como pudo, pero el daño (?) ya estaba hecho: mejor aventura gráfica de la historia.
+
+Así lo pensó la crítica, que la regó de premios y elogios, y el público... no tanto.
+
+[separador?]
+
+Aunque no fuera un Full-Motion Video con actores reales, un juego como /Grim Fandango/ era difícil y caro de producir, y parecía que ya no tenía perspectivas de megahit. El público parecía favorecer la acción en 3D, aunque eso no necesariamente tenía que limitarse al primitivo festival de violencia de /Doom/ o /Quake/. Pocos días después de /Grim Fandngo/ se publicó /Half-Life/, de valve. /Half-Life/ era formalmente un /first-person shooter/ pero le daba la bienvenida a sus jugadores con media hora de exposición argumental, una especie de cutscene interactiva, sin armas a la vista.
 <resumen?
-<estilo de escenas de acción, menos simulación/arena que una coreografía/guionada sincopada por el paso del jugador (una especie de truman show con disparos).
+Incluso la acción del juego tenía su costado cinematográfico: más que enemigos sueltos en un nivel, lo que había ahí era una especie de coreografía sincopada por el paso del jugador; la acción no era emergente sino que estaba guionada para garantizar la espectacularidad de la experiecia.
 
 Half-Life se la mitad de los premios de 1998 que le dejó /Grim Fandango/ y marcó la nueva dirección de la industria: una síntesis dialéctica entre /Monkey Island/ y /Doom/, la prueba que el /storytelling/ cinematográfico podía estar embebido en la acción autóctona de la PC. Los videojuegos ya no tenían nada que envidiarle Hollywood, se recibieron de medio artístico, un medio artístico para el siglo XXI.
