@@ -29,7 +29,29 @@ El nombre se me cruzó de vuelta unos meses después. Había leído una reseña 
 Y después, el otro libro de Lily King, el de Margaret Mead, me lo encontré en una librería de saldos en enfrente de Güerrín. Un poco por nostalgia, porque hacía años que no encontraba algo prometedor en Corrientes, un poco porque no estaba en mis planes leerlo pero la improvisación refresca la lectura, me lo compré.
 
 #+BEGIN_EXPORT html
-<br/><br/>
+<br/>
 #+END_EXPORT
 
-Y claro que tenía que comprarlo. Independientemente de lo que me parezca el libro, que todavía no terminé, tenía que comprarlo por lo que dije antes, porque la vida de alguien entregado a su oficio me parece intrínsecamente interesante y me parece, a su vez, que siempre se puede convertir en una buena historia si el autor sabe cómo entrarle. Pienso en [[la-tierra-elegida][los textos de Juan Forn]], que sabe engancharme con la vida de un matemático húngaro o un paisajista japonés, aunque ni la matemática ni el paisajismo sean mi materia, aunque no formaran parte de mi mundo antes de que terminara el primer párrafo. Admiro esa capacidad de saber hacer de una vida un buen relato; y si bien toda entrega sea un relato esperando a ser contado, pienso que, bien mirada, cualquier vida se puede llegar a contar bien. Pienso que el saber contar así constituye, en sí mismo, un oficio, y que esa sí es mi materia, una materia a la que me podría entregar.
+#+begin_quote
+Ese momento, a los dos meses, más o menos, cuando crees que por fin le encontraste la vuelta al lugar. De pronto te da la impresión de que dominas el terreno. Es una falsa ilusión (solo llevas ahí ocho semanas), y justo después pierdes cualquier esperanza de entender nada. Pero en ese momento tienes la impresión de que el lugar es todo tuyo. Es un momento de euforia, brevísima y pura.
+#+end_quote
+
+#+BEGIN_EXPORT html
+<br/>
+#+END_EXPORT
+
+Claro que tenía que comprarlo. Tenía que comprarlo por lo que dije antes, porque la vida de alguien entregado a su oficio me parece intrínsecamente interesante y me parece, a su vez, que siempre se puede convertir en una buena historia si el autor sabe cómo entrarle. Pienso en [[la-tierra-elegida][los textos de Juan Forn]], que sabe engancharme con la vida de un matemático húngaro o un paisajista japonés, aunque ni la matemática ni el paisajismo sean mi materia, aunque no formaran parte de mi mundo antes de que terminara el primer párrafo. Admiro esa capacidad de saber hacer de una vida un buen relato; y si bien toda entrega sea un relato esperando a ser contado, pienso que, bien mirada, cualquier vida se puede llegar a contar bien. Pienso que el saber contar así constituye, en sí mismo, un oficio, y que esa sí podría ser mi materia, esa sí es una materia a la que yo me quisiera entregar.
+
+#+BEGIN_EXPORT html
+<br/>
+#+END_EXPORT
+
+#+begin_quote
+Antes de dejarlos, me había metido un ejemplar de su libro en la bolsa sin que se dieran cuenta. Lo leí en cuanto volví, sin parar. Y lo mismo el día siguiente. Era el tratado de etnografía menos académico que había leído nunca, con abundantes descripciones, grandes conclusiones y poco análisis metódico. Ella escribía con una premura que la mayoría sentíamos pero que ninguno teníamos el valor de revelar porque estábamos demasiado comprometidos con las tradiciones de las viejas ciencias. Yo siempre había tenido la sensación de que lo que me habían enseñado a hacer a la hora de escribir textos académicos era olisquear con la trompa bien pegada al suelo, y ahí estaba ella, Nell Stone, con la cabeza bien alta, agitándola en todas las direcciones. Era vivificante y exasperante a un tiempo,  y necesitaba volver a verla.
+#+end_quote
+
+#+BEGIN_EXPORT html
+<br/>
+#+END_EXPORT
+
+<Después, como la información cada vez vale menos, como la rigurosidad cada vez me importa menos, me parece menos igual a la verdad, dejo a mi mente hacer lo que hace con las novelas históricas y la ficción inspirada en personajes reales, que haga un pastiche entre el personaje histórico (del que sé casi nada) y el personaje del libro (que para mí es más real---más verdadero). Así que me llevo de esto la historia de Nell Stone/Margaret Mead y poco me importa donde termina una y empieza la otra.
