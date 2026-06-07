@@ -1,0 +1,18 @@
+---
+title: Euforia
+date: 2026-06-07T13:23:29-03:00
+layout: post
+lang: es
+tags: [libros]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+Los museos no se me dan bien. No últimamente. Antes, sí: hubo un tiempo un poco triste en que hacía excursiones insólitas desde Ciudadela hasta el museo de Bellas Artes y pasaba un par de horas mirando un puñado de cuadros que por alguna razón u otra me llamaban la atención. Me gustaba acercarme hasta notar el trazo del pincel y el relieve de la pintura, y alejarme hasta que las pinceladas configuraban un mosaico, y alejarme un poco más hasta que el mosaico reconfiguraba un rostro. Cuando empecé a viajar disfruté así algunos museos con cuadros de Rembrandt y Van Gogh. Pero los grandes museos, los museos famosos, el Louvre, el Prado, me aburrieron---me aburren.  Puede que la actitud contemplativa que exige el museo sea difícil de conciliar con el trance turístico. Me pasó lo mismo en el Museo de Historia Natural, en Nueva York. Las ciencias naturales me interesan mucho menos que el arte, pero me parecía importante ver qué me pasaba ahí adentro; supongo que quería darme una oportunidad de tener una epifanía como la del personaje de Jesse Eisengberg en /The Squid and the Whale/. No pasó. Imposible pasar del universo a las capas geológicas a los dinosaurios a la agricultura mesopotámica. Como mirar cuatro películas seguidas, de géneros distintos, en 2x. De todas las secciones de ese tipo de museos, la más me aburre, por lejos, es la de antropología; los cacharros de los incas, los hábitos de los nativos oceánicas, esas cosas. Ahí suelo apurar el paso. Pero en una de esas muestras, en el museo de Ciencias Naturales, algo me llamó fugazmente la atención. Había un sector dedicado a Margaret Mead, una antropóloga que había hecho grandes contribuciones a la que sea que fuera la materia de esa muestra, el estudio de culturas aborígenes (o como sea que se diga) en el siglo XX. Había una biografía, alguna foto de Mead sentada en su oficina en ese mismo museo, una documental pasando en loop por una pantalla. Aparentemente Mead no solo había sido una pionera por ser una mujer académica sino que prácticamente había inventado el método de la antropología moderna. En la pantalla, colegas y alumnos la describían como una mujer encantadoramente excéntrica y obsesionada con su trabajo.
+
+Eso sí que despertaba mi curiosidad, me intriga cualquier tipo de nerd, cualquier persona fascinada por su disciplina, aunque la disciplina en sí me resulte indiferente o, como en este caso, francamente aburrida, me siento hermanado con cualquiera que viva a través de un oficio, un área de estudio, una forma de arte, no importa si es escritor, director de cine, programador de videojuegos o antropólogo(a). Todo esto, claro, lo digo retrospectivamente, tratando de explicarme por qué me detuve en ese rincón de la muestra; en ese momento solo paré cinco o diez minutos, lo suficiente para llevarme un nombre guardado, y seguí.
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
