@@ -18,7 +18,14 @@ draft: true
 
 Los museos no se me dan bien. No últimamente. Antes, sí: hubo un tiempo un poco triste en que hacía excursiones insólitas desde Ciudadela hasta el museo de Bellas Artes y pasaba un par de horas mirando un puñado de cuadros que por alguna razón u otra me llamaban la atención. Me gustaba acercarme hasta notar el trazo del pincel y el relieve de la pintura, y alejarme hasta que las pinceladas configuraban un mosaico, y alejarme un poco más hasta que el mosaico reconfiguraba un rostro. Cuando empecé a viajar disfruté así algunos museos con cuadros de Rembrandt y Van Gogh. Pero los grandes museos, los museos famosos, el Louvre, el Prado, me aburrieron---me aburren.  Puede que la actitud contemplativa que exige el museo sea difícil de conciliar con el trance turístico. Me pasó lo mismo en el Museo de Historia Natural, en Nueva York. Las ciencias naturales me interesan mucho menos que el arte, pero me parecía importante ver qué me pasaba ahí adentro; supongo que quería darme una oportunidad de tener una epifanía como la del personaje de Jesse Eisengberg en /The Squid and the Whale/. No pasó. Imposible pasar del universo a las capas geológicas a los dinosaurios a la agricultura mesopotámica. Como mirar cuatro películas seguidas, de géneros distintos, en 2x. De todas las secciones de ese tipo de museos, la que más me aburre, por lejos, es la de antropología; los cacharros de los incas, los hábitos de los pueblos oceánicos, esas cosas. Ahí suelo apurar el paso. Pero en una de esas muestras, en el museo de Ciencias Naturales, algo me llamó fugazmente la atención. Había un sector dedicado a Margaret Mead, una antropóloga que había hecho grandes contribuciones a la que sea que fuera la materia de esa sala, el estudio de culturas aborígenes (o como sea que se diga) en el siglo XX. Había una biografía, alguna foto de Mead sentada en su oficina en ese mismo museo, un documental en loop por una pantalla. Aparentemente Mead no solo había sido una pionera por ser una mujer en la academia sino que prácticamente había inventado el método de la antropología moderna. En la pantalla, colegas y alumnos la describían como una mujer encantadoramente excéntrica y obsesionada con su trabajo.
 
-Eso sí que despertaba mi curiosidad, me intriga lo nerd en todas sus formas, cualquier persona fascinada por su disciplina, aunque la disciplina en sí me resulte indiferente o, como en este caso, francamente aburrida; me siento hermanado con cualquiera que viva a través de un oficio, un área de estudio, una forma de arte, no importa si es escritor, director de cine, programador de videojuegos o antropólogo(a). Todo esto, claro, lo digo retrospectivamente, tratando de explicarme por qué me detuve en ese rincón de la muestra; en ese momento solo paré cinco o diez minutos, lo suficiente para llevarme un nombre guardado, y seguí.
+Eso sí que despertaba mi curiosidad, me intriga lo nerd en todas sus formas, cualquier persona fascinada por su disciplina, aunque la disciplina en sí me resulte indiferente o, como en este caso, francamente aburrida; me siento hermanado con cualquiera que viva a través de un oficio, un área de estudio, una forma de arte, no importa si es escritor, director de cine, programador de videojuegos o antropólogo(a).
+
+<ese hiperfoco, esa simbiosis con la actividad, ese volcarse sobre la materia,
+me parece una forma de plenitud, una forma genuina de estar vivo
+seguramente no la única ni la más saludable, pero austera y resistente
+y el producto de tal actividad, bueno o malo, queda imbuido de esa vida que el artesano le vuelca
+
+Todo esto, claro, lo digo retrospectivamente, tratando de explicarme por qué me detuve en ese rincón de la muestra; en ese momento solo paré cinco o diez minutos, lo suficiente para llevarme un nombre guardado, y seguí.
 
 #+BEGIN_EXPORT html
 <br/><br/>
@@ -33,20 +40,6 @@ Y después, el otro libro de Lily King, el de Margaret Mead, me lo encontré en 
 #+END_EXPORT
 
 #+begin_quote
-Ese momento, a los dos meses, más o menos, cuando creés que por fin le encontraste la vuelta al lugar. De pronto te da la impresión de que dominás el territorio. Es una falsa ilusión (solo llevás ahí ocho semanas), y justo después perdés cualquier esperanza de entender nada. Pero en ese momento tenés la impresión de que el lugar es todo tuyo. Es un momento de euforia, brevísima y pura.
-#+end_quote
-
-#+BEGIN_EXPORT html
-<br/>
-#+END_EXPORT
-
-Claro que tenía que comprarlo. Tenía que comprarlo porque la vida de alguien entregado a su oficio me parece interesante en sí misma y me parece, a su vez, que siempre es una historia esperando a ser contada, si el autor sabe entrarle. Pienso en [[la-tierra-elegida][los textos de Juan Forn]], que me engancha con la vida de un matemático húngaro o un paisajista japonés, aunque ni la matemática ni el paisajismo sean mi materia, aunque no sepa nada del tema antes de terminar el primer párrafo. <Admiro esa capacidad de saber hacer de una vida un buen relato; pienso que el saber contar así constituye, en sí mismo, un oficio, y que esa sí es mi materia, esa sí es una materia a la que yo me podría entregar.
-
-#+BEGIN_EXPORT html
-<br/>
-#+END_EXPORT
-
-#+begin_quote
 Antes de dejarlos, me había metido un ejemplar de su libro en la bolsa sin que se dieran cuenta. Lo leí en cuanto volví, sin parar. Y lo mismo el día siguiente. Era el tratado de etnografía menos académico que había leído nunca, con abundantes descripciones, grandes conclusiones y poco análisis metódico. Ella escribía con una premura que la mayoría sentíamos pero que ninguno teníamos el valor de revelar porque estábamos demasiado comprometidos con las tradiciones de las viejas ciencias. Yo siempre había tenido la sensación de que lo que me habían enseñado a hacer a la hora de escribir textos académicos era olisquear con la trompa bien pegada al suelo, y ahí estaba ella, Nell Stone, con la cabeza bien alta, agitándola en todas las direcciones. Era vivificante y exasperante a un tiempo,  y necesitaba volver a verla.
 #+end_quote
 
@@ -54,9 +47,15 @@ Antes de dejarlos, me había metido un ejemplar de su libro en la bolsa sin que 
 <br/>
 #+END_EXPORT
 
+
+Claro que tenía que comprarlo. Tenía que comprarlo porque la vida de alguien entregado a su oficio me parece interesante en sí misma y me parece, a su vez, que siempre es una historia esperando a ser contada, si el autor sabe entrarle. Pienso en [[la-tierra-elegida][los textos de Juan Forn]], que me engancha con la vida de un matemático húngaro o un paisajista japonés, aunque ni la matemática ni el paisajismo sean mi materia, aunque no sepa nada del tema antes de terminar el primer párrafo.
+
+<Admiro esa capacidad de saber hacer de una vida un buen relato; pienso que el saber contar así constituye, en sí mismo, un oficio, y que esa sí es mi materia, esa sí es una materia a la que yo me podría entregar.
+
 <Después, como la información cada vez vale menos, como la rigurosidad cada vez me importa menos, me parece menos igual a la verdad, dejo a mi mente hacer lo que hace con las novelas históricas y la ficción inspirada en personajes reales, que haga un pastiche entre el personaje histórico (del que sé casi nada) y el personaje del libro (que para mí es más real---más verdadero). Así que me llevo de esto la historia de Nell Stone/Margaret Mead y poco me importa donde termina una y empieza la otra.
 
 <La información está en la punta de los dedos, pero ¿de qué sirve?
+
 <Lo que vale ahora no es la veracidad sino saber la humanidad de otra persona organizando/curando/contando del otro lado.
 
 Forn le puso a su libro /Yo recordaré por ustedes/ pero bien podría haberse llamado /Yo leeré por ustedes/. Porque eso es lo que hace falta ahora más que nunca, lectores profesionales, investigadores, curadores que vayan a las fuentes no para traernos /factos/ sino para contarnos algo nuevo, cargado de su propia humanidad.
