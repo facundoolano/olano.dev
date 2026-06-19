@@ -22,37 +22,33 @@ Los museos no se me dan bien. No últimamente. Antes, sí: hubo un tiempo un poc
 <br/><br/>
 #+END_EXPORT
 
-
-Eso sí que despertaba mi curiosidad, me intriga lo nerd en todas sus formas, cualquier persona fascinada por su disciplina, aunque la disciplina en sí me resulte indiferente o, como en este caso, francamente aburrida; me siento hermanado con cualquiera que viva a través de un oficio, un área de estudio, una forma de arte, no importa si es escritor, director de cine, programador de videojuegos o antropólogo(a).
-<ese hiperfoco, esa simbiosis con la actividad, ese volcarse sobre la materia,
-me parece una forma de plenitud, una forma genuina de estar vivo
-seguramente no la única ni la más saludable, pero austera y resistente
-y el producto de tal actividad, bueno o malo, queda imbuido de esa vida que el artesano le vuelca
-Todo esto, claro, lo digo retrospectivamente, tratando de explicarme por qué me detuve en ese rincón de la muestra; en ese momento solo paré cinco o diez minutos, lo suficiente para llevarme un nombre guardado, y seguí.
+Eso sí que despertaba mi curiosidad, me intriga lo nerd en todas sus formas, cualquier persona fascinada por su disciplina, aunque la disciplina en sí me resulte indiferente o, como en este caso, francamente aburrida; me siento hermanado con cualquiera que viva a través de un oficio, un área de estudio, una forma de arte, no importa si es escritor, director de cine, programador de videojuegos o antropólogo(a). Ese hiperfoco, esa simbiosis con la actividad, ese volcarse sobre la materia, me parece una plenitud, una forma genuina de estar vivo, seguramente no la única ni la más recomendable, pero una austera y resistente: genuina, y el producto de tal actividad, bueno o malo, queda imbuido de esa vida que el artesano le volcó. Todo esto, claro, lo digo retrospectivamente, tratando de explicarme por qué me detuve en ese rincón de la muestra; en ese momento solo paré cinco o diez minutos, lo suficiente para guardar en alguna parte un nombre, y seguí.
 
 #+BEGIN_EXPORT html
 <br/><br/>
 #+END_EXPORT
 
-El nombre se me cruzó de vuelta unos meses después. Había leído una reseña de una novela de Lily King y estaba curioseando su bibliografía, y resulta que en uno de sus libros la protagonista es una antropóloga inspirada en Margaret Mead. Pero no busqué ese libro, supongo que porque el escenario "selvático" que describía la sinopsis no me resultaba evocativo, y yo estaba buscando una lectura ligera con la que me fuera fácil conectar. Así que me puse a leer otra de sus novelas, /Writers and lovers/, cuyo argumento navegaba la zona de confort de escritora que no logra encauzar su vida profesional ni su vida amorosa después de la universidad. Pero ese cliché lo navegaba con elegancia: la protagonista tiene una edad en la que ya probablemente su carrera no vaya a suceder; la mayoría de sus amigos, antes artistas, se dieron por vencidos y ahora tienen prósperos trabajos "serios", y ella sigue de moza y paseando perros para sostenerse mientras intenta escribir. Lo que me gustó del libro es que en vez de chapotear en lo difícil de la escritura, entra mucho más en detalle sobre lo difícil y sacrificado del oficio de moza. Estuvo bien.
+El nombre se me cruzó de vuelta unos meses después. Había leído una reseña de una novela de Lily King y estaba curioseando su bibliografía, y resulta que en uno de sus libros la protagonista es una antropóloga inspirada en Margaret Mead. Pero no busqué ese libro, supongo que porque el escenario "selvático" que describía la sinopsis no me resultaba evocativo, y yo estaba buscando una lectura ligera con la que me fuera fácil conectar. Así que me puse a leer otra de sus novelas, /Writers and lovers/, cuyo argumento navegaba la zona de confort de escritora que no logra encauzar su vida profesional ni su vida amorosa después de la universidad. Pero ese cliché lo navegaba con elegancia: la protagonista tiene una edad en la que ya probablemente su carrera no vaya a suceder; la mayoría de sus amigos, antes artistas, se dieron por vencidos y ahora tienen prósperos trabajos "serios", y ella sigue de moza y paseando perros para pagar el alquiler. Lo que me gustó del libro es que en vez de revolcarse en lo difícil de la escritura, entra mucho más en detalle sobre lo difícil y sacrificado del oficio de moza. Estuvo bien.
 
 #+BEGIN_EXPORT html
 <br/><br/>
 #+END_EXPORT
 
 
-Y después, el otro libro de Lily King, el de Margaret Mead, me lo encontré en una librería de saldos en enfrente de Güerrín. Un poco por nostalgia, porque hacía años que no encontraba algo prometedor en Corrientes, un poco porque no estaba en mis planes leerlo pero la improvisación refresca la lectura, me lo compré. Claro que tenía que comprarlo. Tenía que comprarlo porque la vida de alguien entregado a su oficio me parece interesante en sí misma y me parece, a su vez, que siempre es una historia esperando a ser contada, si el autor sabe entrarle. Pienso en [[la-tierra-elegida][los textos de Juan Forn]], que me engancha con la vida de un matemático húngaro o un paisajista japonés, aunque ni la matemática ni el paisajismo sean mi materia, aunque no sepa nada del tema antes de terminar el primer párrafo. <Admiro esa capacidad de saber hacer de una vida un buen relato; pienso que el saber contar así constituye, en sí mismo, un oficio, y que esa sí es mi materia, esa sí es una materia a la que yo me podría entregar.
+Y después, el otro libro de Lily King, el de Margaret Mead, me lo encontré en una librería de la calle Corrientes, enfrente de Güerrín. Un poco por nostalgia, porque hacía años que no encontraba algo prometedor en las mesas de saldos, un poco porque no estaba en mis planes leerlo pero la improvisación refresca la lectura, me lo compré. Claro que tenía que comprarlo. Tenía que comprarlo porque la vida de alguien entregado a su oficio me parece interesante en sí misma y me parece, a su vez, que siempre es una historia esperando a ser contada, si el autor sabe cómo entrar. Pienso en [[la-tierra-elegida][los textos de Juan Forn]], que me enganchan con la vida de un matemático húngaro o un paisajista japonés, aunque ni la matemática ni el paisajismo sean mi materia, aunque no sepa nada del tema antes de terminar el primer párrafo. Admiro esa capacidad de saber hacer de una vida un buen relato; pienso que el saber contar así constituye, en sí mismo, un oficio, un motivo de hiperfoco, uno que, a diferencia de las matemáticas o el paisajismo o la antropología, sí considero, me gustaría considerar, propio.
+
+
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+<Después, como la información cada vez vale menos, como la rigurosidad cada vez me importa menos, me parece menos igual a la verdad, dejo a mi mente hacer lo que hace con las novelas históricas y la ficción inspirada en personajes reales, que haga un pastiche entre el personaje histórico (del que sé casi nada) y el personaje del libro (que para mí es más real---más verdadero).
 
 <La información está en la punta de los dedos, pero ¿de qué sirve?
 <Lo que vale ahora no es la veracidad sino saber la humanidad de otra persona organizando/curando/contando del otro lado.
-<Forn le puso a su libro /Yo recordaré por ustedes/ pero bien podría haberse llamado /Yo leeré por ustedes/. Porque eso es lo que hace falta ahora más que nunca, lectores profesionales, investigadores, curadores que vayan a las fuentes no para traernos /factos/ sino para contarnos algo nuevo, cargado de su propia humanidad.
+<Forn le puso a su libro /Yo recordaré por ustedes/ pero bien podría haberse llamado /Yo leeré por ustedes/. Porque eso hace falta, lectores profesionales, investigadores, curadores que vayan a las fuentes no para traernos /factos/ sino para entregarnos algo nuevo, cargado de su propia humanidad.
 
-#+BEGIN_EXPORT html
-<br/><br/>
-#+END_EXPORT
-
-<Después, como la información cada vez vale menos, como la rigurosidad cada vez me importa menos, me parece menos igual a la verdad, dejo a mi mente hacer lo que hace con las novelas históricas y la ficción inspirada en personajes reales, que haga un pastiche entre el personaje histórico (del que sé casi nada) y el personaje del libro (que para mí es más real---más verdadero). Así que me llevo de esto la historia de Nell Stone/Margaret Mead y poco me importa donde termina una y empieza la otra.
-
+Así que me llevo de esto la historia de Nell Stone/Margaret Mead y poco me importa donde termina una y empieza la otra.
 <RESUMEN de hechos del libro/personalidad de Mead
 especie de novelista
 y por eso bestseller
