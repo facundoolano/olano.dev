@@ -1,11 +1,12 @@
 ---
-title: "Cuando los videojuegos miraban a Hollywood"
+title: "El aerolito multimedia y la aplanadora 3D"
+subtitle: "Cuando los videojuegos miraban a Hollywood"
 date: 2026-06-06T09:02:27-03:00
 layout: post
 lang: es
 tags: [videojuegos, cine]
 draft: true
-excerpt: La Commodore Amiga fue un aerolito multimedia aterrizado en la década equivocada.
+excerpt: La década que va siguió a Maniac Mansion fue la década en que el entretenimiento por computadora buscó inspiración en el imaginario y las técnicas de producción hollywoodense.
 image: cinematic/grimcover.jpg
 ---
 #+OPTIONS: toc:nil num:nil
