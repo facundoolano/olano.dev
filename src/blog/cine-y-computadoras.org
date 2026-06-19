@@ -6,9 +6,16 @@ lang: es
 tags: [videojuegos, cine]
 draft: true
 excerpt: La Commodore Amiga fue un aerolito multimedia aterrizado en la década equivocada.
+image: cinematic/grimcover.jpg
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/cinematic/grimcover.jpg" class="wide">
+</div>
+#+END_EXPORT
 
 Supongo que cada vez que emerge un nuevo medio de expresión artística, atraviesa un proceso de búsqueda de identidad, de definirse por comparación con lo conocido, con aquello que vino antes. Con los videojuegos pasó eso. Para los juegos de computadora, nacidos en terminales de texto a finales de los setenta, el primer espejo fue la literatura. De ahí que, ya probada la fórmula de /Colossal Cave Adventure/, empresas pioneras como Infocom hablaran de /ficción interactiva/, tildaran a sus programadores de /autores/, y convocaran a figuras como Ray Bradbury y Douglas Adams para ponerle la firma a sus juegos. Por unos años se habló del /bookware/ y parecía que cualquier editorial medía sus posibilidades de meterse en el entretenimiento digital.
 
