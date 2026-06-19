@@ -244,7 +244,14 @@ Nadie que jugara /The Last Express/ en 1997 (si alguien lo hubiera jugado) lo ha
 
 ** La amenaza 3D
 
-Mientras media industria seguía en un cumpleaños jugando a ser Hollywood, un grupo de rebeldes la rompía desde abajo. id Software estaba liderado por "los dos Johns", una especie de Lennon/McCartney de los videojuegos: John Carmack era un genio de la programación capaz de hacer maravillas con el hardware de la PC; John Romero era un talentoso diseñador con la predisposición (y la melena) de una estrella de rock. Juntos publicaron un éxito atrás de otro: /Commander Keen/, /Wolfenstein 3D/, /Doom/, /Quake/, cada uno con sus secuelas y spin-offs, cada uno más popular que el anterior.  Cada paso que daban parecía abrir nuevo territorio para los videojuegos: gráficos 3D, /first-person shooter/, distribución /shareware/, /modding/, juegos en red, esports. Ante todo, militaban contra una industria obstinada en ahogar al jugador en relato y secuencias no-interactivas. Para Carmack "la historia en un juego es como la historia en una película porno: se espera que haya una pero no es importante". En efecto, los shooters de id te soltaban en un escenario con un arma y un poco de heavy metal de fondo y arreglatelás; sin introducción, sin contexto: a matar monstruos o nazis (o monstruos nazis). Una reivindicación de la vieja adrenalina del arcade, empaquetada en un formato que solo podía existir en la computadora. id Software fue una topadora que partió a la industria en dos; todo lo que quedó del otro lado de la grieta tenía fecha de vencimiento.
+Mientras media industria seguía en un cumpleaños jugando a ser Hollywood, un grupo de rebeldes la rompía desde abajo. id Software estaba liderado por "los dos Johns", una especie de Lennon/McCartney de los videojuegos: John Carmack era un genio de la programación capaz de hacer maravillas con el hardware de la PC; John Romero era un talentoso diseñador con la predisposición (y la melena) de una estrella de rock. Juntos publicaron un éxito atrás de otro: /Commander Keen/, /Wolfenstein 3D/, /Doom/, /Quake/, cada uno con sus secuelas y spin-offs, cada uno más popular que el anterior.  Cada paso que daban parecía abrir nuevo territorio para los videojuegos: gráficos 3D, /first-person shooter/, distribución /shareware/, /modding/, juegos en red, esports. Ante todo, militaban contra una industria obstinada en ahogar al jugador en relato y secuencias no-interactivas. Para Carmack "la historia en un juego es como la historia en una película porno: se espera que haya una pero no es importante". En efecto, los shooters de id te soltaban en un escenario con un arma y un poco de heavy metal de fondo y arreglatelás; sin introducción, sin contexto: a matar monstruos o nazis (o monstruos nazis):
+
+#+begin_quote
+Uno de los problemas de la industria es el sobrediseño. Los programadores no saben qué quieren lograr.
+A mí me gusta ponerle al diseño exactamente lo que necesita para cumplir su objetivo y nada más. Por eso nuestros juegos pegan a nivel biológico. Es programación elegante: cada elemento tiene que estar justificado. Si no suma a la experiencia, se va.
+#+end_quote
+
+Una reivindicación de la vieja adrenalina del arcade, empaquetada en un formato que solo podía existir en la computadora. id Software fue una topadora que partió a la industria en dos; todo lo que quedó del otro lado de la grieta tenía fecha de vencimiento.
 
 #+BEGIN_EXPORT html
 <div class="text-center">
@@ -256,9 +263,21 @@ Mientras media industria seguía en un cumpleaños jugando a ser Hollywood, un g
 
 A esa altura la PC ya no era la plataforma líder como en años precedentes; ahora circulaban la Nintendo 64 y la PlayStation, dos consolas, cada una con su estilo, diseñadas para juegos en 3D. Para ponerse a la altura, a los usuarios de computadora les tocaba comprar una placa aceleradora como la Voodoo de 3dfx. Incluso en el cine, hasta hacía poco entendido como un modelo a seguir, los blockbusters de acción se fundaban en los efectos CGI de Industrial Light & Magic, y la animación 3D de Pixar había destronado a Disney. A empresas como Sierra y LucasArts no les quedaba otra más que subirse a la ola: la siguiente generación de aventuras gráficas sería en tres dimensiones o no sería. Y sería la última.
 
+#+begin_export html
+<br/>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+src="https://www.youtube-nocookie.com/embed/Dih7toPsows?si=YcvYZ81YTkrIxyi6"
+    frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+<br/>
+#+end_export
 Tim Schafer había trabajado con Ron Gilbert en los dos juegos de Monkey Island, había co-dirigido /Day of the Tentacle/ (secuela de /Maniac Mansion/ que superó al original), había tenido un modesto éxito con /Full Throttle/, su aventura de motoqueros y rocanrol. Para su próximo proyecto le dieron carta blanca creativa y de presupuesto, con la única condición de que fuera en 3D. Fue esa restricción la que le dio la clave: aunque estaban de moda, por esa época los modelos poligonales eran bastante burdos, mucho menos atractivos que los dibujos animados de la generación anterior; Schafer necesitaba un concepto que no sufriera con el rango limitado de eso que parecían marionetas de cartón; pensó en las máscaras de papel maché que los mejicanos usan en su Día de Muertos; imaginó un juego protagonizado por esqueletos de paso por el purgatorio, en tránsito hacia el más allá. Manuel Calavera, Manny, sería su agente de viajes, una parca que le vendía pasajes a los recién llegados como medio para él mismo pagar su deuda y salir de la tierra de los muertos.
 
 Por una vez alguien fue un poquito menos literal y canalizó orgánicamente la influencia del cine: Tim Schaffer, que por entonces venía consumiendo mucho /film noir/, copió para el primer capítulo el argumento de /Double Indemnity/ y para el segundo vistió a Manny como Rick en /Casablanca/; la banda de sonido jazzera remitía al Miles Davis de /Ascensor al Cadalso/, a /The Big Combo/ y a /Sweet Smell of Success/, todo cruzado con folklore mejicano. Pese a los polígonos grotescos, las escenas 3D daban cierto margen para jugar con el ángulo de la cámara, la iluminación, los primeros planos. Sumado esto a un uso juicioso de la música y el sonido ---los zapatos de Manny sobre la alfombra de la oficina y el tecleo de la secretaria al fondo del pasillo; los zapatos de Manny sobre los adoquines húmedos de Rubacava y a lo lejos la música del Calavera Café--- el resultado era, sin pretender ser una película, cinematográfico.
+
+El juego estaba lejos de ser perfecto: había puzzles rebuscados y tediosos, los controles eran polémicos, la mecánica de aventura gráfica no terminaba de cuajar con ese nuevo mundo tridimensional. La segunda mitad del juego, apurada por falta de presupuesto, se desinflaba un poco. Pero en los buenos momentos, los momentos de los que nos acordamos, /Grim Fandango/ era una experiencia estética incomparable, sobrada de estilo, evidencia de las alturas que podía alcanzar un juego narrativo con presupuesto triple-A. Así lo entendió la crítica, que lo regó de elogios y premios, y el público... no tanto.
 
 #+begin_export html
 <br/>
@@ -270,8 +289,6 @@ src="https://www.youtube-nocookie.com/embed/2oiF1Eo_z7g?si=6UxpWNL8PE-5aQP5"
 </div>
 <br/>
 #+end_export
-
-El juego estaba lejos de ser perfecto: había puzzles rebuscados y tediosos, los controles eran polémicos, la mecánica de aventura gráfica no terminaba de cuajar con ese nuevo mundo tridimensional. La segunda mitad del juego, apurada por falta de presupuesto, se desinflaba un poco. Pero en los buenos momentos, los momentos de los que nos acordamos, /Grim Fandango/ era una experiencia estética incomparable, sobrada de estilo, evidencia de las alturas que podía alcanzar un juego narrativo con presupuesto triple-A. Así lo entendió la crítica, que lo regó de elogios y premios, y el público... no tanto.
 
 Aunque no involucraba filmar actores reales ni requería un presupuesto de película, un juego como /Grim Fandango/ seguía siendo difícil y caro de producir. Y aunque no vendió mal, no fue un hit comparable a otros juegos de la época, que se completaban más rápido y con menos incertidumbre. Más allá de cualquier mérito artístico, juegos narrativos como /Grim Fandango/ o /The Last Express/ dejaron de ser una propuesta tentadora para estudios e inversores convencidos de que la mayoría del público quería otra cosa.
 
