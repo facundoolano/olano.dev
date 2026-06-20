@@ -7,7 +7,7 @@ lang: es
 tags: [videojuegos, cine]
 draft: true
 refs: [maher, replay, prince, modoom, grim, wing, crusade, starwars]
-excerpt: La década que va siguió a Maniac Mansion fue la década en que el entretenimiento por computadora buscó inspiración en el imaginario y las técnicas de producción hollywoodenses.
+excerpt: Por más de una década, el entretenimiento por computadora se inspiró en el imaginario y la técnica de Hollywood. Esa pretensión de imitar al cine asumió distintas formas según las capacidades del hardware de turno, y el ingenio y la exuberancia con que los diseñadores las supieron aprovechar.
 image: cinematic/grimcover.jpg
 ---
 #+OPTIONS: toc:nil num:nil
@@ -230,12 +230,12 @@ src="https://www.youtube-nocookie.com/embed/Db0pnRzwby8?si=mYNy0tLWngOaKD6U"
 #+end_export
 
 Pasada la novedad tecnológica inicial, sin embargo, lo que quedaba eran juegos mal diseñados, un poco aburridos y carísimos de producir. Ni siquiera eran lindos de ver: actores malos o actores famosos con la peor de las ondas, siguiendo instrucciones de gente que no sabía dirigir, capturados en baja resolución y recortados sobre unos renders kitsch.
-Ni el /Wing Commander III/ ni el /IV/, por caso, lograron cubrir sus costos de producción, lo que no impidió que Chris Roberts, que consumía de la que vendía, consiguiera financiación para dirigir una película de la saga, con los [[https://www.imdb.com/title/tt0131646/][resultados esperables]].
+Ni el /Wing Commander III/ ni el /IV/, por caso, lograron cubrir sus costos de producción, lo que no impidió que Chris Roberts, que consumía de la que vendía, consiguiera financiación para dirigir una película de la saga, con los [[https://www.rottentomatoes.com/m/wing_commander][resultados esperables]].
 
 La ventana de tiempo en que estudios, inversores y actores permanecieron convencidos de que las películas interactivas podían ser un buen negocio duró más bien poco, un par de años, pero fue justicia poética que alcanzara para que Jordan Mechner---que una década antes se había fundido exprimiéndole arte a una máquina obsoleta---tuviera su oportunidad de dirigir una superproducción. Fiel a su ojo de cineasta y su sensibilidad estética, no se iba a conformar con hacer lo mismo que venían haciendo los demás:
 
 #+begin_quote
-Así como el teatro tiene su identidad---sus convenciones, lo que queda bien, lo que queda mal---así también la tienen el cine y los videojuegos. Y hay formas de copiar de un medio a otro, y de hecho eso es lo que hace un medio nuevo cuando recién empieza. Cuando empezó, el cine lucía como si alguien hubiera puesto una cámara frente al escenario de una obra de teatro. Pero entonces las técnicas específicas del medio---el movimiento de cámara, los acercamientos, los planos, los fundidos---se volvieron parte del lenguaje del cine. Pasa lo mismo con los videojuegos. Filmar una secuencia larga y reproducirla en pantalla es la manera equivocada de hacer un juego cinemático. La computadora no es una videocasetera. Pero si podés aprovechar el conocimiento que todos tenemos sobre cómo funcionan los cortes, cómo funcionan los planos, el efecto dramático de un ángulo bajo o de la cámara retrocediendo de golpe… Hay todo un inconsciente colectivo sobre el vocabulario cinematográfico y eso es tremendamente valioso para aprovechar en un juego.
+Cuando empezó, el cine lucía como si alguien hubiera puesto una cámara frente al escenario de una obra de teatro. Pero entonces las técnicas específicas del medio---el movimiento de cámara, los acercamientos, los planos, los fundidos---se volvieron parte del lenguaje del cine. Pasa lo mismo con los videojuegos. Filmar una secuencia larga y reproducirla en pantalla es la manera equivocada de hacer un juego cinemático. La computadora no es una videocasetera. Pero si podés aprovechar el conocimiento que todos tenemos sobre cómo funcionan los cortes, cómo funcionan los planos, el efecto dramático de un ángulo bajo o de la cámara retrocediendo de golpe… Hay todo un inconsciente colectivo sobre el vocabulario cinematográfico y eso es tremendamente valioso para aprovechar en un juego.
 #+end_quote
 
 Mechner planeaba filmar actores, sí, pero no para después insertar los videos directamente en su juego, sino que iba usar el material, una vez más, para producir una animación rotoscópica, la misma técnica que le había valido en /Karateka/ y /Prince of Persia/. Ahora con el hardware y el presupuesto a su favor, pudo contratar actores profesionales y desarrollar software dedicado para digitalizar las filmaciones. En el set los actores aparecían maquillados y con disfraces de colores fuertes para aumentar el contraste; el resultado eran animaciones y viñetas art nouveau listas para ser integradas en la acción.
