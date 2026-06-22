@@ -38,8 +38,11 @@ layout: base
     <a href="{{page.external}}">at an external site</a>. {% else %} {{ content
     }} {% endif %}
 
-    <br />
-    <br />
+    <br/><br/>
+    <div style="margin-left: auto; text-align: right; display: block" class="tags">
+      <a href="mailto:facundo.olano@gmail.com?subject=Re:+{{ page.title | url_encode }}">{% if page.lang == 'es' %}comentar por mail{% else %}reply via email{% endif %}</a>
+      </div>
+    <hr/>
 
     <div class="pagination">
       {% if page.next %}
