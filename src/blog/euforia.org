@@ -43,11 +43,11 @@ Y después, el otro libro de Lily King, el de Margaret Mead, me lo encontré en 
 #+END_EXPORT
 
 
-<Después, como la información cada vez vale menos, como la rigurosidad ya no me importa, dejo que mi mente haga su pastiche entre el personaje histórico (del que sé casi nada) y el personaje del libro (que para mí es más real---más verdadero).
-<Me llevo de esto la historia de Nell Stone/Margaret Mead y poco me importa donde termina una y empieza la otra.
-
-Mientras que sus colegas observaban a la distancia, recolectaban datos, le medían el cráneo a los nativos, Mead se mezclaba con ellos, se ganaba su confianza, les sonsacaba información. No le preocupaba que su presencia distorsionara aquello que pretendía observara; la cercanía era necesaria para acceder al tipo de verdad que ella buscaba. Durante meses juntaba notas de campo pero no tenía idea de qué libro estaba escribiendo hasta que volvía a su oficina en el museo y minaba sentido de todo ese material. Lo que resultaba de ese proceso no eran tratados científicos sino unos libros de divulgación un poco volados y escandalosos que se convertían en best sellers. Mead hablaba de los pueblos del Pacífico pero estaba hablando de occidente, de ella misma, de todos.
+Mientras que sus colegas observaban a la distancia, componían estadísticas, le medían el cráneo a los nativos, Mead se mezclaba con ellos, se ganaba su confianza, les sonsacaba información. No le preocupaba que su presencia distorsionara eso mismo que pretendía observar; la cercanía era necesaria para acceder al tipo de verdad que estaba buscando. Por meses acumulaba notas de campo pero no sabía qué libro estaba escribiendo hasta volver a su oficina en el museo y minarle sentido al material. Lo que resultaba del proceso no eran tratados científicos sino unos libros de divulgación un poco volados y escandalosos que se convertían en best sellers. Mead hablaba de los pueblos del Pacífico pero estaba hablando de occidente, de ella misma, de todos.
 
 
-<¿me gustó el libro? no se si me gustó, me llevó un tiempo terminarlo, pero eso poco importa.
-me lleve un personaje, una historia, que no es la historia real ni la que cuenta Lily King; no es solo el libro sino es el libro mas lo que de él hizo mi lectura, mi breve paso por el museo de nueva york, y wikipedia y las fotos joven y vieja de Margaret Mead; mi recuerdo de esos días y de la lectura del libro y de la escritura de esto, estirándose como un chicle hacia el futuro.
+#+BEGIN_EXPORT html
+<br/><br/>
+#+END_EXPORT
+
+Como la rigurosidad ya no me importa, como la información va valiendo cada vez menos, dejo a mi mente hacer su pastiche entre el personaje histórico (del que sé casi nada) y el personaje del libro (que para mí es más real---más verdadero). ¿Me gustó el libro? No sé si me gustó, me costó un poco terminarlo, me preocupaban más los personajes que el argumento, pero eso no es lo que importa. Lo que importa es esta historia que me llevo, un relato que no es el histórico pero tampoco es exactamente el de Lily King. Me llevo algo que no es una novela sino lo que de ella hizo mi lectura; mi paso por el libro y mi breve paso por el Museo de Nueva York; Wikipedia y Margaret Mead joven y Margaret Mead vieja; un recuerdo de esos días, días de viaje y días de lectura, días de escribir esto, estirándose todo como un chicle hacia el futuro.
