@@ -1,3 +1,17 @@
+- author: David Foster Wallace
+  cover_file: david-foster-wallace-both-flesh-and-not.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1338050573l/13528351.jpg
+  published_at: 2026-07-12
+  rating: 4
+  read_at: 2026-07-12
+  title: 'Both Flesh and Not: Essays'
+- author: Hervé Le Tellier
+  cover_file: herve-le-tellier-la-anomalia.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613561367l/57106040.jpg
+  published_at: 2026-06-29
+  rating: 3
+  read_at: 2026-06-29
+  title: La anomalía
 - author: Lily King
   cover_file: lily-king-euforia.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1456928540l/29359989._SY475_.jpg
@@ -181,8 +195,8 @@
   rating: 3
   read_at: 2025-05-31
   title: Conversaciones con David Foster Wallace
-- author: Vladik Khononov
-  cover_file: vladik-khononov-learning-domain-driven-design.jpg
+- author: Vlad Khononov
+  cover_file: vlad-khononov-learning-domain-driven-design.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1635258056l/57573212.jpg
   published_at: 2025-05-25
   rating: 3
@@ -522,7 +536,7 @@
 - author: Ágota Kristóf
   cover_file: agota-kristof-claus-y-lucas.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633385474l/43687282._SY475_.jpg
-  published_at: 2023-12-24
+  published_at: 2026-07-12
   rating: 4
   read_at: 2023-12-24
   title: Claus y Lucas
@@ -1187,8 +1201,8 @@
   title: Primera luz
 - author: Juan Forn
   cover_file: juan-forn-el-hombre-que-fue-viernes.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1343236596l/15727314.jpg
-  published_at: 2021-07-22
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563677463l/49854608._SX318_SY475_.jpg
+  published_at: 2026-07-19
   rating: 5
   read_at: 2021-07-22
   title: El hombre que fue viernes
@@ -3498,17 +3512,3 @@
   rating: 1
   read_at: 2014-06-02
   title: La subasta del lote 49
-- author: César Aira
-  cover_file: cesar-aira-varamo.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427551872l/25235622.jpg
-  published_at: 2015-08-16
-  rating: 1
-  read_at: 2014-05-26
-  title: Varamo
-- author: Sergio Bizzio
-  cover_file: sergio-bizzio-un-amor-para-toda-la-vida.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332634733l/13559540.jpg
-  published_at: 2014-05-26
-  rating: 3
-  read_at: 2014-05-26
-  title: Un amor para toda la vida
