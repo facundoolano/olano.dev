@@ -1,3 +1,17 @@
+- author: Juan José Saer
+  cover_file: juan-jose-saer-concepto-de-ficcion.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634154077l/59343971._SY475_.jpg
+  published_at: 2026-08-08
+  rating: 0
+  read_at: 2026-08-08
+  title: Concepto de ficción
+- author: Juan José Saer
+  cover_file: juan-jose-saer-nadie-nada-nunca.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746034206l/232472158._SY475_.jpg
+  published_at: 2026-08-01
+  rating: 0
+  read_at: 2026-08-01
+  title: Nadie nada nunca
 - author: Rodolfo Enrique Fogwill
   cover_file: rodolfo-enrique-fogwill-cuentos-completos.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1402067923l/6980503.jpg
@@ -5,17 +19,3 @@
   rating: 4
   read_at: 2013-09-02
   title: Cuentos completos
-- author: Christopher W. Alexander
-  cover_file: christopher-w-alexander-the-timeless-way-of-building.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348093712l/106728.jpg
-  published_at: 2026-04-11
-  rating: 0
-  read_at: 2026-04-11
-  title: The Timeless Way of Building
-- author: Herman Melville
-  cover_file: herman-melville-moby-dick.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476908142l/32707761.jpg
-  published_at: 2026-03-06
-  rating: 0
-  read_at: 2026-03-06
-  title: Moby-Dick

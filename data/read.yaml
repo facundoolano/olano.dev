@@ -1,3 +1,17 @@
+- author: William Faulkner
+  cover_file: william-faulkner-mientras-agonizo.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400869722l/22305183.jpg
+  published_at: 2026-07-31
+  rating: 4
+  read_at: 2026-07-31
+  title: Mientras agonizo
+- author: Herman Melville
+  cover_file: herman-melville-moby-dick.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476908142l/32707761.jpg
+  published_at: 2026-07-27
+  rating: 3
+  read_at: 2026-07-27
+  title: Moby-Dick
 - author: David Foster Wallace
   cover_file: david-foster-wallace-both-flesh-and-not.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1338050573l/13528351.jpg
@@ -3498,17 +3512,3 @@
   rating: 4
   read_at: 2014-06-08
   title: El discurso vacío
-- author: César Aira
-  cover_file: cesar-aira-el-cerebro-musical.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1379276080l/18491710.jpg
-  published_at: 2016-06-20
-  rating: 3
-  read_at: 2014-06-08
-  title: El cerebro musical
-- author: Thomas Pynchon
-  cover_file: thomas-pynchon-la-subasta-del-lote-49.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1735647068l/9821325._SY475_.jpg
-  published_at: 2015-08-16
-  rating: 1
-  read_at: 2014-06-02
-  title: La subasta del lote 49
