@@ -1,10 +1,9 @@
 ---
 title: Simulador discófilo
-date: 2026-08-08T14:08:20-03:00
+date: 2026-08-22T19:08:20-03:00
 layout: post
 lang: es
 tags: [ideas, software, música]
-draft: true
 cover-img: musica.jpg
 image: musica.jpg
 ---
