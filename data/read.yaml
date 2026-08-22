@@ -1,3 +1,24 @@
+- author: Juan José Saer
+  cover_file: juan-jose-saer-el-concepto-de-ficcion.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1173947407l/348253._SY475_.jpg
+  published_at: 2026-08-17
+  rating: 2
+  read_at: 2026-08-17
+  title: El concepto de ficción
+- author: Beatriz Sarlo
+  cover_file: beatriz-sarlo-zona-saer.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683405602l/33875611._SX318_.jpg
+  published_at: 2026-08-15
+  rating: 3
+  read_at: 2026-08-15
+  title: Zona Saer
+- author: Juan José Saer
+  cover_file: juan-jose-saer-nadie-nada-nunca.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373582435l/348250.jpg
+  published_at: 2026-08-09
+  rating: 4
+  read_at: 2026-08-09
+  title: Nadie nada nunca
 - author: William Faulkner
   cover_file: william-faulkner-mientras-agonizo.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400869722l/22305183.jpg
@@ -2917,13 +2938,6 @@
   rating: 3
   read_at: 2015-10-31
   title: Changing Places
-- author: James Joyce
-  cover_file: james-joyce-dublineses.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407536240l/3342682.jpg
-  published_at: 2015-10-17
-  rating: 1
-  read_at: 2015-10-17
-  title: Dublineses
 - author: Mempo Giardinelli
   cover_file: mempo-giardinelli-el-decimo-infierno.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377509519l/1053851.jpg
@@ -3498,17 +3512,3 @@
   rating: 4
   read_at: 2014-06-26
   title: The Innocence of Father Brown
-- author: Ernest Hemingway
-  cover_file: ernest-hemingway-the-old-man-and-the-sea.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329189714l/2165._SY475_.jpg
-  published_at: 2025-03-02
-  rating: 3
-  read_at: 2014-06-11
-  title: The Old Man and the Sea
-- author: Mario Levrero
-  cover_file: mario-levrero-el-discurso-vacio.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325304140l/13345490.jpg
-  published_at: 2015-08-16
-  rating: 4
-  read_at: 2014-06-08
-  title: El discurso vacío
