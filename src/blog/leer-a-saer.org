@@ -1,0 +1,22 @@
+---
+title: Leer a Saer
+date: 2026-08-29T18:56:55-03:00
+layout: post
+lang: es
+tags: [literatura, libros]
+draft: true
+---
+#+OPTIONS: toc:nil num:nil
+#+LANGUAGE: es
+
+En un principio la literatura era un tren en el que yo viajaba colgado. Para no soltarme, participaba de supersticiones como la de leer un solo libro a la vez y terminar todos los libros que empezaba. Después aprendí a dejarme llevar por el impulso y el placer, a ignorar las recomendaciones, las instrucciones, las opiniones preestablecidas. Con esa actitud intento encarar la mayoría de mis lecturas ahora y así también lo intenté cuando intenté leer /Cicatrices/... y me choqué con una pared. El libro me resultó impenetrable ---en palabras de Martín Zariello: [[https://ilcorvino.blogspot.com/2013/10/el-mundo-se-divide-entre-las-personas_31.html][inabordable]]--- y como yo ya no era religioso, lo abandoné.
+
+Unos años después, durante la primera cuarentena, ese tiempo en que, un poco como, supe un poco después, Saer hace en sus novelas, el tiempo parecía detenerse o estirarse hasta que perdíamos su noción (la del tiempo), lo que nos llevaba a ocupaciones exóticas como amasar pan o mirar la bundesliga, hice otro intento, a saber, con /El entenado/. Y esta vez, sí, pude terminar el libro, e incluso disfrutarlo por momentos, aunque la operación en su conjunto tuvo menos de placer que de hazaña, un ejercicio de destreza y resistencia, como amasar pan o hacer flexiones de brazos o extraerle entretenimiento a un desolado partido de fútbol alemán. La del /Entenado/ fue una lectura que no floreció en nada, que se cerró sobre sí misma.
+
+Más años más tarde, en 2024, siguiendo un nuevo impulso pero ya mucho más consciente de eso en lo que me metía, me llevé a un viaje /La pesquisa/. Y porque estaba mejor preparado y era otro momento y yo era, en cierta medida, una persona distinta (si bien, en cierta otra medida, ¿no?, la misma), y por determinadas características particulares de ese libro a elaborar más luego, no solo lo terminé y lo disfruté sino que inicié un proceso de lectura en el que Saer pasó de /inabordable/ o /de difícil abordaje/ a ser uno de mis escritores favoritos y el que más leí desde entonces.
+
+Resulta que no solo Saer "escribe difícil", no solo exige trabajo y paciencia, sino que hay que saber por dónde entrarle. La obra de Saer no es una para ir a ciegas. Quiero vindicar entonces a /La pesquisa/ como puerta de entrada a la obra de Saer.
+
+#+BEGIN_CENTER
+\lowast{} \lowast{} \lowast{}
+#+END_CENTER
