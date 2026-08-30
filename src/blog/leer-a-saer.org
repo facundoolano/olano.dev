@@ -5,9 +5,17 @@ layout: post
 lang: es
 tags: [literatura, libros]
 draft: true
+image: saer2.jpg
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
+
+#+BEGIN_EXPORT html
+<div class="text-center">
+ <img src="{{site.config.static_root}}/img/saer2.jpg" class="wide">
+</div>
+#+END_EXPORT
+
 
 En un principio, la literatura era un tren en el que yo viajaba colgado. Para no soltarme, participaba de supersticiones como la de leer un solo libro a la vez y terminar todos los libros que empezaba. Después aprendí a relajarme y a ignorar las recomendaciones, las instrucciones, las opiniones preestablecidas y a dejarme llevar por el impulso y el placer. Con esa actitud intento encarar la mayoría de mis lecturas ahora y así también lo intenté cuando, hace muchos años, intenté leer /Cicatrices/... y me choqué con una pared.
 
@@ -62,11 +70,11 @@ De ahí abría que seguir con el anterior libro de cuentos /La mayor/, cuyo /A m
 Otros, ellos, antes, podían. Mojaban, despacio, en la cocina, en el atardecer, en invierno, la galletita, sopando, y subían, después, la mano, de un solo movimiento, a la boca, mordían y dejaban, durante un momento, la pasta azucarada sobre la punta de la lengua, para que subiese, desde ella, de su disolución, como un relente, el recuerdo, masticaban despacio y estaban, de golpe ahora, fuera de sí, en otro lugar, conservado mientras hubiese, en primer lugar, la lengua, la galletita, el té que humea, los años: mojaban, en la cocina, en invierno, la galletita en la taza de té, y sabían, inmediatamente, al probar, que estaban llenos, dentro de algo y trayendo, dentro, algo, que habían, en otros años, porque había años, dejado, fuera, en el mundo, algo, que se podía, de una u otra manera, por decir así, recuperar, y que había, por lo tanto, en alguna parte, lo que llamaban o lo que creían que debía ser, ¿no es cierto?, un mundo. Y yo ahora, me llevo a la boca, por segunda vez, la galletita empapada en el té y no saco, al probarla, nada, lo que se dice nada. Sopo la galletita en la taza de té, en la cocina, en invierno, y alzo, rápido, la mano, hacia la boca, dejo la pasta azucarada, tibia, en la punta de la lengua, por un momento, y empiezo a masticar, despacio, y ahora que trago, ahora que no queda ni rastro de sabor, sé, decididamente, que no saco nada, pero nada, lo que se dice nada. Ahora no hay nada, ni rastro, ni recuerdo, de sabor: nada.
 #+end_quote
 
-Después se puede seguir en orden la secuencia de la zona en orden de publicación: /Cicatrices/ (la más madura de las novelas tempranas o la más temprana de las novelas maduras), /El limonero real/ (la más experimental y para mí la más engorrosa), /Nadie nada nunca/ (que relata los últimos días del Gato Garay, en los que no parece pasar nada), /Glosa/ (algo así como el clímax de la serie, que resignifica toda la obra), /Lo imborrable/ (done Tomatis toma la posta de lo que dejó el libro anterior), /La grande/ (novela póstuma y levemente inconclusa donde Saer junta por última vez ---en un último asado--- a sus personajes).
+Después se puede seguir en orden la secuencia de la zona en orden de publicación: /Cicatrices/ (la más madura de las novelas tempranas o la más temprana de las novelas maduras), /El limonero real/ (la más experimental y para mí la más engorrosa), /Nadie nada nunca/ (que relata los últimos días del Gato Garay, en los que no parece pasar nada), /Glosa/ (algo así como el clímax de la serie, que resignifica toda la obra), /Lo imborrable/ (donde Tomatis toma la posta de lo que dejó el libro anterior), /La grande/ (novela póstuma y levemente inconclusa donde Saer junta por última vez ---en un último asado--- a sus personajes).
 
 Después están las novelas "históricas" esas que aparecen desconectadas sino del lugar sí del tiempo y de los personajes de la zona: /El entenado/, /La ocasión/, /Las nubes/. Esas se pueden leer en cualquier orden pero es de especial interés para este recorrido /Las nubes/, otro relato dentro del relato cuya breve introducción prosigue el encuentro de /La pesquisa/.
 
-Y aunque yo no soy de leer crítica si disfruté intercalar algo de eso con estas lecturas: /Las tres vanguardias/ de Kohan (después de /La mayor/), /Zona Saer/ (después de /Glosa/) y el capítulo sobre Saer en /Escritos sobre literatura argentina/, también de Sarlo (después de /La grande/).
+Y aunque yo no soy de leer crítica sí disfruté intercalarla con estas lecturas: /Las tres vanguardias/ de Kohan (después de /La mayor/), /Zona Saer/ (después de /Glosa/) y el capítulo sobre Saer en /Escritos sobre literatura argentina/, también de Sarlo (después de /La grande/).
 
 Para cerrar el ciclo correspondería, me parece, volver a /La pesquisa/, ya con total contexto de lo que vino antes y lo que va a venir, ya no con esa mirada incipiente de Pinocho Soldi sino con la de Pichón Garay, la mirada de quien vuelve, después de muchos años, a ese territorio mitológico que tan bien conoció.
 
