@@ -1,11 +1,11 @@
 ---
 title: Leer a Saer
-date: 2026-08-29T18:56:55-03:00
+date: 2026-09-02T18:56:55-03:00
 layout: post
 lang: es
 tags: [literatura, libros]
-draft: true
 image: saer2.jpg
+refs: [cicatrices, lamayor, glosa, pesquisa]
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
