@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "El método psicoanalítico"
+title: "El método psicoanalítico (2015)"
 date: 2023-11-28T10:00:00-03:00
 tags: [ficción]
 favorite: true
@@ -199,10 +199,3 @@ Cruzan una puerta y están de vuelta en el consultorio.
 Gutiérrez consulta su reloj antes de contestar:
 
 —Ahora se nos acabó el tiempo. Nos vemos la semana que viene.
-
-
-#+begin_export html
-<br/>
-<div align="right">(2015)</div>
-<br/>
-#+end_export

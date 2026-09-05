@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Prohibido mirar atrás"
+title: "Prohibido mirar atrás (2019)"
 date: 2024-02-01T10:00:00-03:00
 tags: [ficción]
 image: colonia.jpg
@@ -109,9 +109,3 @@ El temblor me quedó toda la tarde, aunque ya me había secado y abrigado y en e
 
 
 Al otro día estaba soleado. Subí corriendo al micro y me senté con el Mono que por primera vez parecía que no tenía nada para decir. Fui contando una por una las casas, que me sabía de memoria. Los remolones tardaron más que nunca. Cuando quedaba una sola casa me confundieron unas esquinas extrañas y unas cuadras de pasto que no conocía; de golpe estábamos en la ruta. Le dije al Mono Riscossa que me dejara pasar. Fui hasta la parte de adelante, donde iban sentados los profes —pero en realidad quería que me escuchara el chofer—, y les dije que nos habíamos pasado, que todavía faltaba la casa de Gabi. La casa de Juanchi y Gabi. Al lado de la puerta estaba el balde de agua moviéndose como el micro, salpicando, siempre a punto de volcar. El profe Luis me pareció que se reía. Dijo que no nos habíamos pasado, que esa mañana había llamado la mamá de Gabi y había avisado que no iban a venir.
-
-#+begin_export html
-<br/>
-<div align="right">(2019)</div>
-<br/>
-#+end_export
