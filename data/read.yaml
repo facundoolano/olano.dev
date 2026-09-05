@@ -2945,6 +2945,13 @@
   rating: 3
   read_at: 2015-10-31
   title: Changing Places
+- author: James Joyce
+  cover_file: james-joyce-dubliners.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603299445l/55756361._SY475_.jpg
+  published_at: 2026-09-03
+  rating: 1
+  read_at: 2015-10-17
+  title: Dubliners
 - author: Mempo Giardinelli
   cover_file: mempo-giardinelli-el-decimo-infierno.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377509519l/1053851.jpg
@@ -3505,10 +3512,3 @@
   rating: 5
   read_at: 2014-07-07
   title: Nueve cuentos
-- author: Juan Carlos Onetti
-  cover_file: juan-carlos-onetti-a-brief-life.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328705097l/172228.jpg
-  published_at: 2014-07-03
-  rating: 3
-  read_at: 2014-07-03
-  title: A Brief Life
