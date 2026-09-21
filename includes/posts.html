@@ -7,7 +7,7 @@
 <article class="post">
 
   <span class="date">{{ post.date | date: "%Y-%m-%d" }}
-    <small class="tags">
+    <small class="lang-{{post.lang}}">
       {% if post.lang =='es' %}
       <a href="/blog/es">[es]
       {% else %}

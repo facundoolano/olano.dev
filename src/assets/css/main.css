@@ -76,6 +76,12 @@ a:hover {
 .tags a {
     color: silver;
 }
+.lang-es a {
+    color: lightskyblue;
+}
+.lang-en a {
+    color: lightcoral;
+}
 .date {
     padding-right: 0.5rem;
     white-space: nowrap;
