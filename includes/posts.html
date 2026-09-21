@@ -6,9 +6,18 @@
 {% for post in year.items %}
 <article class="post">
 
-    <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+  <span class="date">{{ post.date | date: "%Y-%m-%d" }}
+    <small class="tags">
+      {% if post.lang =='es' %}
+      <a href="/blog/es">[es]
+      {% else %}
+      <a href="/blog/en">[en]
+      {% endif %}
+    </small>
+  </span>
 
     <div>
+
         <a class="title {% if post.favorite %}favorite{%endif%}" href="{{ post.external | default:post.url }}">{{ post.title }}</a>
         <small>
         <span class="tags hidden-mobile">
