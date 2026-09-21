@@ -8,6 +8,7 @@ excerpt: Mi magdalena es un diskette.
 cover-img: wally.png
 image: wally.png
 refs: [monkey]
+favorite: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

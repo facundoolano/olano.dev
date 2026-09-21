@@ -8,6 +8,7 @@ excerpt: Linux y Wikipedia demostraron, durante lo que posiblemente haya sido el
 lang: es
 book: "vol1"
 refs: [bazaar, hackerethic, varoufakis, makohill]
+favorite: true
 ---
 #+OPTIONS: toc:nil num:nil ^:{}
 #+LANGUAGE: es

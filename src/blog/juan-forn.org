@@ -8,6 +8,7 @@ image: forn.jpg
 lang: es
 book: "vol1"
 refs: [parentesis, fornaires, fornuds, nadar, fornviernes]
+favorite: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

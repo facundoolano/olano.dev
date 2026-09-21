@@ -11,6 +11,7 @@ excerpt: Pienso que, si hubiera nacido en otra época o en otro lugar, Mario Lev
 lang: es
 book: "vol1"
 refs: [luminosa, discurso]
+favorite: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

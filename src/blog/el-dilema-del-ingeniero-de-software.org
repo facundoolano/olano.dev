@@ -4,7 +4,6 @@ title: "El dilema del ingeniero de software"
 date: 2022-04-11T10:00:00-03:00
 tags: [software]
 lang: es
-favorite: true
 book: "vol1"
 refs: [killfire, releaseit,ousterhout]
 ---

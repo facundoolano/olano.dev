@@ -9,6 +9,7 @@ image: satriales2.png
 cover-img: satriales1.png
 lang: es
 refs: [worse, ousterhout, chiusano, painters, bazaar]
+favorite: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

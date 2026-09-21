@@ -9,6 +9,7 @@ thumbnail-img: obradinn.jpg
 lang: es
 book: "vol1"
 refs: [dinn]
+favorite: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es
