@@ -14,11 +14,10 @@
       <a href="/blog/en">[en]
       {% endif %}
     </small>
+      <a style="text-decoration:none; {% if post.favorite %}color: goldenrod{%else%}visibility:hidden{%endif%}">∗</a>
   </span>
-
     <div>
-
-        <a class="title {% if post.favorite %}favorite{%endif%}" href="{{ post.external | default:post.url }}">{{ post.title }}</a>
+      <a class="title" href="{{ post.external | default:post.url }}">{{ post.title }}</a>
         <small>
         <span class="tags hidden-mobile">
             {% for tag in post.tags %}
