@@ -133,6 +133,9 @@ a.title {
     color: black;
     padding-right: 0.25rem;
 }
+a.title.favorite {
+    font-weight: bold;
+}
 @media (prefers-color-scheme: dark) {
     a.title {
         color: white;
