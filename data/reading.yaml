@@ -1,7 +1,21 @@
+- author: Albert Camus
+  cover_file: albert-camus-el-extranjero.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504301541l/1836303._SX318_.jpg
+  published_at: 2026-09-20
+  rating: 5
+  read_at: 2026-09-20
+  title: El extranjero
 - author: J.G. Ballard
-  cover_file: j-g-ballard-la-isla-de-cemento.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360378808l/884662.jpg
-  published_at: 2026-09-05
+  cover_file: j-g-ballard-the-best-short-stories-of-j-g-ballard.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1412480830l/23307264.jpg
+  published_at: 2026-09-20
   rating: 0
-  read_at: 2026-09-05
-  title: La isla de cemento
+  read_at: 2026-09-20
+  title: The Best Short Stories of J. G. Ballard
+- author: Mr Keith Johnstone
+  cover_file: mr-keith-johnstone-impro.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1482102994l/33412616._SY475_.jpg
+  published_at: 2026-09-19
+  rating: 0
+  read_at: 2026-09-19
+  title: 'Impro: Improvisation and the Theatre'
