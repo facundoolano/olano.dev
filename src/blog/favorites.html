@@ -5,6 +5,6 @@ head_title: Blog
 ---
 
 <div class="blog-index">
-  {% assign posts = site.posts|where_exp:"post", "post.lang == nil or post.lang == 'es'" %}
+  {% assign posts = site.posts|where_exp:"post", "post.favorite" %}
   {% include posts.html %}
 </div>

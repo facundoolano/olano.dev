@@ -14,14 +14,18 @@
       <a href="/blog/en">[en]
       {% endif %}
     </small>
-      <a style="text-decoration:none; {% if post.favorite %}color: goldenrod{%else%}visibility:hidden{%endif%}">∗</a>
+    {% if post.favorite %}
+      <a href="/blog/favorites" style="text-decoration:none; color: goldenrod">∗</a>
+    {% else %}
+      <a style="text-decoration:none; visibility:hidden">∗</a>
+    {% endif %}
   </span>
     <div>
       <a class="title" href="{{ post.external | default:post.url }}">{{ post.title }}</a>
         <small>
         <span class="tags hidden-mobile">
             {% for tag in post.tags %}
-            <a href="/blog/tags#{{tag}}">#{{tag}}</a>
+            <a href="/blog/tags/{{tag}}">#{{tag}}</a>
             {% endfor %}
         </span>
         </small>
