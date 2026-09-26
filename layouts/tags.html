@@ -1,0 +1,10 @@
+---
+layout: default
+submenu: [["rss", "/feed.xml"], ["refs", "/blog/refs"]]
+head_title: Blog
+---
+
+<div class="blog-index">
+  {% assign posts = site.tags[page.tag] %}
+  {% include posts.html %}
+</div>

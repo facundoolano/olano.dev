@@ -17,3 +17,4 @@ venv
 __pycache__
 
 src/assets/img/reads/
+src/blog/tags/*.html

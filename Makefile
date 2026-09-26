@@ -6,11 +6,23 @@ venv:
 	python -m venv venv
 	$(venv) pip install pyyaml feedparser ipython requests
 
-serve:
+serve: tags
 	jorge serve
 
-build:
+build: tags
 	jorge build
+
+.PHONY: tags
+tags:
+	@rm -rf src/blog/tags/*.html
+	@for tag in $$(jorge meta 'site.tags|keys|join:" "' | tr -d '"'); do \
+		{ echo "---"; \
+		  echo "layout: tags"; \
+		  echo "tag: $$tag"; \
+		  echo "---"; \
+		} > "src/blog/tags/$$tag.html"; \
+		echo "src/blog/tags/$$tag.html"; \
+	done
 
 push: build
 	rsync -vPrz --delete target/ root@olano.dev:/var/www/olano.dev
