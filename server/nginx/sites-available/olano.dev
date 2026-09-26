@@ -49,6 +49,7 @@ server {
 	# redirect standard paths to fragments where they are defined
         rewrite ^/ideas/?$ /blog/tags/ideas redirect;
         rewrite ^/about/?$ /#about redirect;
+        rewrite ^/blog/tags/?$ /blog/ redirect;
 
 
     listen [::]:443 ssl ipv6only=on; # managed by Certbot
