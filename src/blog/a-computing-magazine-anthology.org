@@ -11,7 +11,7 @@ refs: [innovators, ideasfuture]
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-/Over the last few years, I've accumulated many project ideas ---things that I've spent a couple of hours or a couple of days thinking about but that I don't want to tackle anytime soon (or ever). I figured writing down notes for some of those projects would make good blogging material (and hopefully chase the stuff out of my head), so I'll start dumping them under the [[/blog/tags#ideas][#ideas]] tag./
+/Over the last few years, I've accumulated many project ideas ---things that I've spent a couple of hours or a couple of days thinking about but that I don't want to tackle anytime soon (or ever). I figured writing down notes for some of those projects would make good blogging material (and hopefully chase the stuff out of my head), so I'll start dumping them under the [[/blog/tags/ideas][#ideas]] tag./
 
 *** Papers for Software Engineers
 

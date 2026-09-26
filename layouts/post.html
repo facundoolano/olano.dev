@@ -22,7 +22,7 @@ layout: base
         <span class="tags">
           {% if page.favorite %} <a href="/blog/tags#⭐" style="text-decoration:none">⭐</a> {% endif %}
           {% for tag in page.tags %}
-          <a class="p-category" href="/blog/tags#{{tag}}">#{{tag}}</a>
+          <a class="p-category" href="/blog/tags/{{tag}}">#{{tag}}</a>
           {% endfor %}
         </span>
       </div>
