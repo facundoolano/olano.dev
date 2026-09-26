@@ -1,3 +1,17 @@
+- author: Albert Camus
+  cover_file: albert-camus-el-extranjero.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504301541l/1836303._SX318_.jpg
+  published_at: 2026-09-23
+  rating: 0
+  read_at: 2026-09-23
+  title: El extranjero
+- author: J.G. Ballard
+  cover_file: j-g-ballard-la-isla-de-cemento.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360378808l/884662.jpg
+  published_at: 2026-09-13
+  rating: 3
+  read_at: 2026-09-13
+  title: La isla de cemento
 - author: Juan José Saer
   cover_file: juan-jose-saer-glosa.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1775572770l/250754575._SY475_.jpg
@@ -2945,6 +2959,13 @@
   rating: 3
   read_at: 2015-10-31
   title: Changing Places
+- author: James Joyce
+  cover_file: james-joyce-dubliners.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603299445l/55756361._SY475_.jpg
+  published_at: 2026-09-03
+  rating: 1
+  read_at: 2015-10-17
+  title: Dubliners
 - author: Mempo Giardinelli
   cover_file: mempo-giardinelli-el-decimo-infierno.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377509519l/1053851.jpg
@@ -3491,24 +3512,3 @@
   rating: 5
   read_at: 2014-07-21
   title: Pájaros en la boca
-- author: Dashiell Hammett
-  cover_file: dashiell-hammett-the-maltese-falcon.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1689040081l/29999._SY475_.jpg
-  published_at: 2014-07-15
-  rating: 4
-  read_at: 2014-07-15
-  title: The Maltese Falcon
-- author: J.D. Salinger
-  cover_file: j-d-salinger-nueve-cuentos.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1426916445l/6961378.jpg
-  published_at: 2015-08-16
-  rating: 5
-  read_at: 2014-07-07
-  title: Nueve cuentos
-- author: Juan Carlos Onetti
-  cover_file: juan-carlos-onetti-a-brief-life.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328705097l/172228.jpg
-  published_at: 2014-07-03
-  rating: 3
-  read_at: 2014-07-03
-  title: A Brief Life

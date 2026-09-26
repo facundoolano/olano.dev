@@ -8,6 +8,7 @@ tags: [videojuegos, cine]
 refs: [maher, replay, prince, modoom, grim, wing, crusade, starwars]
 excerpt: Por más de una década, el entretenimiento por computadora se inspiró en el imaginario y la técnica de Hollywood. Esa pretensión de imitar al cine asumió distintas formas según las capacidades del hardware de turno, y el ingenio y la exuberancia con que los diseñadores las supieron aprovechar.
 image: cinematic/grimcover.jpg
+favorite: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

@@ -7,6 +7,7 @@ tags: [programación, software, literatura]
 lang: es
 book: "vol1"
 refs: [literate, parisreview]
+favorite: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

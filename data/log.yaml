@@ -1,3 +1,6 @@
+- date: 2026-09-26
+  txt: redesigned blog and tags index
+  tags: [site]
 - date: 2026-09-02
   txt: published [Leer a Saer](/blog/leer-a-saer)
   tags: [blog]
@@ -113,7 +116,7 @@
   txt: published [Hyperbolic Time Chamber Projects](/blog/hyperbolic-time-chamber-projects)
   tags: [blog]
 - date: 2025-01-01
-  txt: published [Borges linkeado](/blog/borges-linkeado); added the [#borges](/blog/tags#borges) tag
+  txt: published [Borges linkeado](/blog/borges-linkeado); added the [#borges](/blog/tags/borges) tag
   tags: [blog]
 - date: 2025-01-05
   txt: added this site log

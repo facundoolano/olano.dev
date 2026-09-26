@@ -6,6 +6,7 @@ lang: es
 tags: [literatura, libros]
 image: saer2.jpg
 refs: [cicatrices, lamayor, glosa, pesquisa]
+favorite: true
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: es

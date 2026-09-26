@@ -76,6 +76,12 @@ a:hover {
 .tags a {
     color: silver;
 }
+.lang-es a {
+    color: lightskyblue;
+}
+.lang-en a {
+    color: darksalmon;
+}
 .date {
     padding-right: 0.5rem;
     white-space: nowrap;
@@ -132,6 +138,9 @@ hr {
 a.title {
     color: black;
     padding-right: 0.25rem;
+}
+a.title.favorite {
+    font-weight: bold;
 }
 @media (prefers-color-scheme: dark) {
     a.title {

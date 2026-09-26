@@ -47,8 +47,9 @@ server {
 	rewrite "^/\d{4}-\d{2}-\d{2}-(?<slug>.+?)/?$" /blog/$slug permanent;
 	rewrite ^/feed/?$ https://olano.dev/feed.xml permanent;
 	# redirect standard paths to fragments where they are defined
-        rewrite ^/ideas/?$ /blog/tags#ideas redirect;
+        rewrite ^/ideas/?$ /blog/tags/ideas redirect;
         rewrite ^/about/?$ /#about redirect;
+        rewrite ^/blog/tags/?$ /blog/ redirect;
 
 
     listen [::]:443 ssl ipv6only=on; # managed by Certbot

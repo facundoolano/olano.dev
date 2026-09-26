@@ -9,6 +9,7 @@ tags: [videojuegos, software, libros, memorias]
 lang: es
 book: "vol1"
 refs: [modoom]
+favorite: true
 ---
 #+OPTIONS: toc:nil num:nil
 

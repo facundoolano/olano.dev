@@ -1,14 +1,21 @@
-- author: James Joyce
-  cover_file: james-joyce-dubliners.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603299445l/55756361._SY475_.jpg
-  published_at: 2026-08-20
-  rating: 1
-  read_at: 2015-10-17
-  title: Dubliners
-- author: Rodolfo Enrique Fogwill
-  cover_file: rodolfo-enrique-fogwill-cuentos-completos.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1402067923l/6980503.jpg
-  published_at: 2026-07-08
-  rating: 4
-  read_at: 2013-09-02
-  title: Cuentos completos
+- author: Juan José Saer
+  cover_file: juan-jose-saer-las-nubes.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400853968l/6603577.jpg
+  published_at: 2026-09-26
+  rating: 0
+  read_at: 2026-09-26
+  title: Las nubes
+- author: J.G. Ballard
+  cover_file: j-g-ballard-the-best-short-stories-of-j-g-ballard.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1412480830l/23307264.jpg
+  published_at: 2026-09-20
+  rating: 0
+  read_at: 2026-09-20
+  title: The Best Short Stories of J. G. Ballard
+- author: Mr Keith Johnstone
+  cover_file: mr-keith-johnstone-impro.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1482102994l/33412616._SY475_.jpg
+  published_at: 2026-09-19
+  rating: 0
+  read_at: 2026-09-19
+  title: 'Impro: Improvisation and the Theatre'

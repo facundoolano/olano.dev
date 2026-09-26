@@ -1,14 +1,14 @@
 ---
 layout: base
 ---
+{% assign section = page.path|split:"/" | first  %}
 
 <nav class="nav">
-  <a href="/">olano.dev</a>
-  <a href="/blog/">blog</a>
-
-  <div class="nav-right hidden-mobile">
+  <a {% if page.path == 'index.html' %} style="font-weight:bold"{% endif %} href="/">olano.dev</a>
+  <a {% if page.path contains 'blog' %} style="font-weight:bold"{% endif %} href="/blog">blog</a>
+  <div class="nav-right ">
     {% assign sections = page.submenu %} {% for section in sections %}
-    <a href="{{section[1]}}">{{section[0]}}</a>
+    <a {% if page.path contains section[0] %}style="font-weight:bold"{% endif %} href="{{section[1]}}">{{section[0]}}</a>
     {% endfor %}
   </div>
 </nav>
