@@ -1,26 +1,26 @@
 ---
-layout: default
+layout: base
 ---
 
 <div>
 
-<div style="font-family: monospace; white-space: pre;"><a href="/">olano.dev</a>
+<div style="font-family: monospace; white-space: pre;">
+<b><a href="/">olano.dev</a></b>
 ├── <a href="/blog">blog/</a>
 │   ├── <a href="/blog/favorites">favorites</a>
 │   ├── <a href="/blog/feed.xml">rss</a>
 │   └── <a href="/blog/refs">refs</a>
-├── <a href="/projects">projects/</a>
-├── <a href="/blog/tags/ideas">ideas/</a>
-├── <a href="/reads">reads/</a>
-├── <a href="/resume">resume/</a>
-└── <a href="/log">log/</a>
+├── <a href="/projects">projects</a>
+├── <a href="/blog/tags/ideas">ideas</a>
+├── <a href="/reads">reads</a>
+├── <a href="/resume">resume</a>
+└── <a href="/log">log</a>
 </div>
-<br/>
+  <hr/>
 
 
-  <p class="p-note" id="about">
-    Hi 👋 I'm <span class="p-name">Facundo Olano</span>, a software engineer from Buenos Aires, Argentina.
-  </p>
+<p id="about">Hi 👋 </p>
+<p>I'm Facundo Olano, a software engineer from Buenos Aires, Argentina.</p>
   <p>I like books, computers, games, and movies, and occasionally combine them in odd ways.</p>
   <p>
     I use this place mostly to publish my <a href="/blog/">writing</a>, which I do in <a href="/blog/es">Spanish</a> and <a href="/blog/en">English</a>.
@@ -28,9 +28,8 @@ layout: default
 
   <p>You can reach out via <a href="mailto:facundo.olano@gmail.com">email</a> or <a href="https://www.linkedin.com/in/facundoolano/">LinkedIn</a>.</p>
 
-  <br/>
+  <hr/>
 
-  <h2><a href="/log" class="title" id="log">log</a></h2>
   <div class="blog-index">
     {% for entry in site.data.log limit:10 %}
     <article class="post">
