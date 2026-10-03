@@ -29,11 +29,16 @@ body {
     margin-top: auto;
 }
 
+.nav-tree {
+    margin: 1rem 0 2rem;
+    font-family: monospace;
+    white-space: pre;
+}
 .nav {
     margin: 1rem 0 2rem;
-    line-height: 1.8;
     border-bottom: 1px solid;
     display: flex;
+    font-family: monospace;
 }
 .nav-right {
     margin-left: auto;
