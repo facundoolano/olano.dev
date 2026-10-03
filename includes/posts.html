@@ -6,19 +6,21 @@
 {% for post in year.items %}
 <article class="post">
 
-  <span class="date">{{ post.date | date: "%Y-%m-%d" }}
-    <small class="lang-{{post.lang}}">
+  <span class="date">
+    {% if post.favorite %}
+      <a href="/blog/favorites" style="text-decoration:none; color: goldenrod">∗</a>
+    {% else %}
+      <a style="text-decoration:none; visibility:hidden">∗</a>
+    {% endif %}
+    <span class="hidden-mobile">{{ post.date | date: "%Y-%m-%d" }}</span>
+    <span class="hidden-desktop">{{ post.date | date: "%y-%m-%d" }}</span>
+<small class="lang-{{post.lang}}">
       {% if post.lang =='es' %}
       <a href="/blog/es">[es]
       {% else %}
       <a href="/blog/en">[en]
       {% endif %}
     </small>
-    {% if post.favorite %}
-      <a href="/blog/favorites" style="text-decoration:none; color: goldenrod">∗</a>
-    {% else %}
-      <a style="text-decoration:none; visibility:hidden">∗</a>
-    {% endif %}
   </span>
     <div>
       <a class="title" href="{{ post.external | default:post.url }}">{{ post.title }}</a>

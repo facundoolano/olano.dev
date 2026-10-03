@@ -379,6 +379,11 @@ details > summary::-webkit-details-marker {
         display: none;
     }
 }
+@media screen and (min-width: 481px) {
+    .hidden-desktop {
+        display: none;
+    }
+}
 
 .resume h3 {
     text-decoration: underline;
