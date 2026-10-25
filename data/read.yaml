@@ -1,3 +1,17 @@
+- author: Juan José Saer
+  cover_file: juan-jose-saer-lo-imborrable.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327993012l/3256289.jpg
+  published_at: 2026-10-24
+  rating: 3
+  read_at: 2026-10-24
+  title: Lo imborrable
+- author: Juan José Saer
+  cover_file: juan-jose-saer-las-nubes.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400853968l/6603577.jpg
+  published_at: 2026-10-04
+  rating: 2
+  read_at: 2026-10-04
+  title: Las nubes
 - author: Albert Camus
   cover_file: albert-camus-el-extranjero.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504301541l/1836303._SX318_.jpg
@@ -2085,7 +2099,7 @@
 - author: Mariana Enriquez
   cover_file: mariana-enriquez-las-cosas-que-perdimos-en-el-fuego.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612309224l/28787166._SY475_.jpg
-  published_at: 2018-12-13
+  published_at: 2026-10-04
   rating: 1
   read_at: 2018-12-13
   title: Las cosas que perdimos en el fuego
@@ -3318,7 +3332,7 @@
   title: Sostiene Pereira
 - author: Herman Melville
   cover_file: herman-melville-bartleby-the-scrivener.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320404048l/114230.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1792935215l/114230._SX318_.jpg
   published_at: 2014-11-21
   rating: 3
   read_at: 2014-11-14
@@ -3498,17 +3512,3 @@
   rating: 3
   read_at: 2014-07-27
   title: Robinson Crusoe
-- author: Michel Houellebecq
-  cover_file: michel-houellebecq-ampliacion-del-campo-de-batalla.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1291639618l/106901.jpg
-  published_at: 2015-08-16
-  rating: 3
-  read_at: 2014-07-23
-  title: Ampliación del campo de batalla
-- author: Samanta Schweblin
-  cover_file: samanta-schweblin-pajaros-en-la-boca.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1245624161l/6560594.jpg
-  published_at: 2019-05-31
-  rating: 5
-  read_at: 2014-07-21
-  title: Pájaros en la boca
