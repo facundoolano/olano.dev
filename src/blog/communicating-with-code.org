@@ -5,13 +5,14 @@ layout: post
 lang: en
 tags: [software, ai]
 draft: true
+image: lull.jpg
 ---
 #+OPTIONS: toc:nil num:nil
 #+LANGUAGE: en
 
-** Writing with (out) LLMs
+** Writing with LLMs
 
-I occasionally get a piece on my feed about why using LLMs for writing is not such a good idea. The first one that caught my attention was an Oxide's [[https://rfd.shared.oxide.computer/rfd/0576][document on LLM usage]] that circulated last year. They focus on the "social contract" underlying written communication, and how signs of LLMs usage will undermine the reader's trust:
+I occasionally get a piece in my feed on why using LLMs for writing is not such a good idea. The first one that caught my attention was an Oxide's [[https://rfd.shared.oxide.computer/rfd/0576][document on LLM usage]] that circulated last year. They focus on the "social contract" underlying written communication, and how signs of LLMs usage will undermine the reader's trust:
 
 #+begin_quote
 If prose is LLM-generated this social contract becomes ripped up: a reader cannot assume that the writer understands their ideas because they might not so much have read the product of the LLM that they tasked to write it. If one is lucky, these are LLM hallucinations: obviously wrong and quickly discarded. If one is unlucky, however, it will be a kind of LLM-induced cognitive dissonance: a puzzle in which pieces don’t fit because there is in fact no puzzle at all. This can leave a reader frustrated: why should they spend more time reading prose than the writer spent writing it?
@@ -43,28 +44,23 @@ Those who practice this game forget that a book is more than a verbal structure 
 
 ** Code for humans
 
-#+begin_quote
-Code relies on formal logic and test-driven feedback. An LLM can generate functional code because compilers, unit tests, and model checkers can instantly catch errors. Verification is largely mechanical.  Unlike coding, which is a single-mind interaction with a deterministic compiler, prose (...) requires the ability to continuously simulate a reader's internal mental state in real time. To write simply and persuasively, you must track what the reader already knows, manage their cognitive load sentence by sentence, and predict how an argument will land.
-#+end_quote
+I've noticed this pattern, though: those pieces that critique the use of LLMs, when they come from technical people, will contrast prose writing with programming, an activity that is particularly well suited for text generation. From the same Murat's post:
 
 #+begin_quote
-LLMs are amazingly good at writing code — so much so that there is borderline mass hysteria about LLMs entirely eliminating software engineering as a craft. As with using an LLM to write prose, there is obvious peril here! Unlike prose, however (which really should be handed in a polished form to an LLM to maximize the LLM’s efficacy), LLMs can be quite effective writing code de novo.
+Code relies on formal logic and test-driven feedback. An LLM can generate functional code because compilers, unit tests, and model checkers can instantly catch errors. Verification is largely mechanical. Unlike coding, which is a single-mind interaction with a deterministic compiler, prose (...) requires the ability to continuously simulate a reader's internal mental state in real time. To write simply and persuasively, you must track what the reader already knows, manage their cognitive load sentence by sentence, and predict how an argument will land.
 #+end_quote
 
+This makes sense, but also makes me very sad inside. It wasn't that long ago that [[code-is-run-more-than-read]["code is read more than written"]] was folk knowledge. Harold Abelson famously wrote that "Programs must be written for people to read, and only incidentally for machines to execute", and Donald Knuth proposed that "Instead of imagining that our main task is to instruct a /computer/ what to do, let us concentrate rather on explaining to /human beings/ what we want a computer to do". In this view, every one of the issues quoted above translates directly to programming: a social contract is broken when generating code takes less than reviewing it; there's cognitive dissonance when code works but it's not quite clear why or how; there's something lost when the naming, commenting, and modularization were passively accepted instead of guided by intuitive expertise---something off when no mental model of another human is informing those decisions.
 
-Abelson & Sussman:
-#+begin_quote
-Programs must be written for people to read, and only incidentally for machines to execute.
-#+end_quote
+The code-for-humans assumption may sound idealistic, or too academic, even pretentious---an attempt to elevate a mundane task to something more sophisticated, art-like. It could arguably be obsolete: code was for humans because it needed to be understood in order to be changed, but if we can use LLMs to explain it to us, and to change it for us, does it still matter?
 
-Donald Knuth:
-#+begin_quote
-Instead of imagining that our main task is to instruct a /computer/ what to do, let us concentrate rather on explaining to /human beings/ what we want a computer to do.
-#+end_quote
+<The thing is that by communicating with code we didn't just produce working software: we were also [[software-design-is-knowledge-building][building knowledge]]. Even in the most worse-is-better, get-the-job-done enterprise environments, <code was the best means we programmers had for explaining the system---and, through it, the business---to ourselves. Similarly, the software development process, with all of its useful friction, was how we aligned our understanding and our modeling of the domain.
 
-<This approach to programming sometimes comes across as pretentious, an attempt to elevate a mundane task to something more sophisticated, art-like. But I have found that even in very worse-is-better, get-the-job-done enterprise settings, [[do-programmers-dream-of-electronic-poems][keeping readers in mind]], making the code self-explanatory---from docstrings and comments to module layout and directory structure---is the best tool programmers have for explaining the system---and, through it, the business---to themselves. Likewise, the software development process, with all of its useful friction, is the best we have for aligning on how we understand and model the domain.
+<Real-world software systems represent, even determine, business processes and human interactions. The system is often the best way to understand those processes, a better source-of-truth than what documentation or any one expert can provide. And the code was the way to learn and communicate about the systems; making it self-explanatory and augmenting it with domain context was the best shot programmers had at collaboratively building a mental model of the problem they were trying to solve.
 
-** Code for machines
+TODO alternativa libreta
+
+** <Code for machines
 
 Up until recently, we didn't strongly need to agree on this, though. I could go about my programming work keeping this writer/reader tension as a fundamental concern, and successfully collaborate with programmers that didn't care for it and instead had a more pass/fail conception of quality. I could make my best effort to communicate through my code, and occasionally spend one or two patience tokens <by asking my colleagues to relocate this helper function or add that module docstring, and more or less be happy with the overall shape of the codebase.
 
@@ -82,10 +78,12 @@ Moreover, the code writing itself is mostly spent reviewing specs and LLM genera
 <This was perhaps to be expected, a natural move from an artisanal to an industrial discipline. We are moving to a world where text is content, source code is an asset, quality is a github CI status.
 LLM generated source code may be consistently worse than that handcrafted by experts, but it's likely better than that handcrafted by the average developer, cheaper, and can be produce at scale.
 
+<perhaps code was never a great tool for the communication job.
+
 ** The human communication business
 
 #+begin_quote
-QUOTE peopleware
+The major problems of our work are not so much technological as sociological in nature. The researchers who made fundamental breakthroughs are in a high-tech business. The rest of us are appliers of their work. We use computers and other new technology components to develop our products or to organize our affairs. *Because we go about this work in teams and projects and other tightly knit working groups, we are mostly in the human communication business*. Our successes stem from good human interactions by all participants in the effort, and our failures stem from poor human interactions. The main reason we tend to focus on the technical rather than the human side of the work is not because it's more crucial, but because it's easier to do.
 #+end_quote
 
 <and while LLM is worse as a mean of human communication, perhaps that's not a problem in economical terms.
