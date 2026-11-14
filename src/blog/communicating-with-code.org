@@ -56,25 +56,15 @@ The code-for-humans assumption may sound idealistic, or too academic, even prete
 
 The thing is that by communicating with code we didn't just produce working software: we were also [[software-design-is-knowledge-building][building knowledge]]. Real-world software systems represent, even determine business processes and human interactions. The system is often the best way to understand those processes, a better source-of-truth than what documentation or any one expert can provide. Even in the most worse-is-better, get-the-job-done enterprise environments, code was the best means we programmers had to learn and communicate about the system---and, through it, the business; making it self-explanatory and augmenting it with domain context was the best shot programmers had at collaboratively building a mental model of the problem they were trying to solve.
 
-** <Code for machines
+** Code for machines
 
-Up until recently, we didn't strongly need to agree on this, though. I could go about my programming work keeping this writer/reader tension as a fundamental concern, and successfully collaborate with programmers that didn't care for it and instead had a more pass/fail conception of quality. I could make my best effort to communicate through my code, and occasionally spend one or two patience tokens <by asking my colleagues to relocate this helper function or add that module docstring, and more or less be happy with the overall shape of the codebase.
+Not everyone shared this code-for-humans view. Some programmers, equally invested in doing a good job, would nevertheless prefer to define software quality in terms of objective pass/fail checks: code coverage, linter rules, cyclomatic complexity. In this view, if the system apparently does what it's supposed to do, and automated checks pass, then it must be good software. And if it turns out not to be so good, then there's surely another automation we could introduce to do better next time.
 
-<but this balance obviously breaks as soon as agents enter the picture
-<This tension was a latent form of the "great ai split">, and of course it broke as soon as we started letting LLM produced code into our codebase.
-https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/
-https://zanlib.dev/blog/do-you-still-read-the-code/
+<Up until recently <the code-for-humans and code-for-machines type of programmers> could coexist in a team and collaborate effectively. I could  always take the extra time polishing the human readability of my code and occasionally request for the extra comment or the better modularization when I reviewed other people's work. I would similarly adhere to the automation and structured checks that so contributed with my coworkers' peace of mind. But this balance broke with the introduction of coding agents. For the reasons discussed above, LLMs are terrible at coding for humans (knowledge building and conceptual integrity) but they are very efficient at coding for machines (working code that passes CI). Given the speed and volume of their production, no amount of human effort can counter the effects of LLMs on a codebase. Intentionally or not, teams adopting them turns their projects into code-for-machines only.
 
-For one, everyone picked up the pace. Nobody can keep up with the pace and the volume of code changes, and the patience tokens are running low. At the rate we go, focusing on file layout seems like a rude annoyance.
-Moreover, the code writing itself is mostly spent reviewing specs and LLM generated code. Who has the cognitive capacity to stay on top of all their coworker's PRs. The only way to steer the style of a project is to set up the patterns that we want LLMs to replicate and to enforce specific rules through metrics and linters. Nuanced, subjective ---humane--- notions like "readability" or simplicity, which cannot be automated are impossible to reach and maintain.
-<the same process described above operates at the source code level: the agent replaces the human in making hundreds of micro decisions, some perhaps the author wouldn't have noticed they were making. the signal sent and received is different and with each iteration further apart from it source human intent
-<But the problem is, then, communication. Despite any measured quality markers, despite reviewing discipline and where developers fall in the accelerator/viber spectrum, I'm convinced that every time an LLM-assisted PR gets merged, the human presence is further blurred from the codebase.
-<And with it any possibility using the system as a means to shape a common understanding of the system and the domain it supports.
-
-<This was perhaps to be expected, a natural move from an artisanal to an industrial discipline. We are moving to a world where text is content, source code is an asset, quality is a github CI status.
-LLM generated source code may be consistently worse than that handcrafted by experts, but it's likely better than that handcrafted by the average developer, cheaper, and can be produce at scale.
-
-<perhaps code was never a great tool for the communication job.
+We are moving to a world where text is content, source code is an asset, and software quality is a github CI status. LLM generated source code may be consistently worse than that handcrafted by experts, but it's likely better than that handcrafted by the average developer, cheaper, and can be produced at scale.
+<The superiority of code-for-humans is founded on folklore and anecdotal evidence; as long as it appears to be more economically viable at producing working software, code-for-machines will prevail.
+<This was perhaps to be expected, the typical transition from an artisanal to an industrial form of production.
 
 ** The human communication business
 
@@ -82,12 +72,14 @@ LLM generated source code may be consistently worse than that handcrafted by exp
 The major problems of our work are not so much technological as sociological in nature. The researchers who made fundamental breakthroughs are in a high-tech business. The rest of us are appliers of their work. We use computers and other new technology components to develop our products or to organize our affairs. *Because we go about this work in teams and projects and other tightly knit working groups, we are mostly in the human communication business*. Our successes stem from good human interactions by all participants in the effort, and our failures stem from poor human interactions. The main reason we tend to focus on the technical rather than the human side of the work is not because it's more crucial, but because it's easier to do.
 #+end_quote
 
-<and while LLM is worse as a mean of human communication, perhaps that's not a problem in economical terms.
-maybe the communication doesn't need to happen in code, and happens elsewhere
-maybe the communication doens't need to happen at all, for this to still be an economically viable activity
+<it would be fair to ask if we are still in the human communication business. for the purposes of this post, at least, I choose to believe we are.
+<the problem is that software development need to still go about their job, and they now lack their main tool for communication and knowledge building
 
-LLM driven software, <Software that's not understood by its maintainers will probably be more fragile and more annoying to use, but not necessarily less economically viable.
+Maybe the communication doens't need to happen at all. <Software that's not understood by its maintainers will probably be more fragile and more annoying for its uses, but not necessarily less economically viable.
+<Maybe we can move it elsewhere, if only to preserve some of that joy of a human endeavor
+<code was not an especially good tool for the communication job, just the best we had in the context of artisanal software development
+
+<we can pretend/decide that's not a problem anymore and proceed in isolation to build systems as inescrutable towers of babel
 <refer: https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/
-<There are plenty of software projects that can largely operate as proof of concepts, convincing investors or stockholders, keeping their users captive or exploiting them.
-
-<Are we still the human communication business?
+or we can step back and ask ourselves
+if not in the code, and not in the code generation process, where does human communication fit in this brave new software development lifecycle
