@@ -64,7 +64,7 @@ Not everyone shared this code-for-humans view. Some programmers, equally investe
 
 We are moving to a world where text is content, source code is an asset, and software quality is a github CI status. LLM generated source code may be consistently worse than that handcrafted by experts, but it's likely better than that handcrafted by the average developer, cheaper, and can be produced at scale.
 <The superiority of code-for-humans is founded on folklore and anecdotal evidence; as long as it appears to be more economically viable at producing working software, code-for-machines will prevail.
-<This was perhaps to be expected, the typical transition from an artisanal to an industrial form of production.
+<This was perhaps to be expected, the typical transition from an artisanal to an industrial form of software production.
 
 ** The human communication business
 
@@ -72,14 +72,8 @@ We are moving to a world where text is content, source code is an asset, and sof
 The major problems of our work are not so much technological as sociological in nature. The researchers who made fundamental breakthroughs are in a high-tech business. The rest of us are appliers of their work. We use computers and other new technology components to develop our products or to organize our affairs. *Because we go about this work in teams and projects and other tightly knit working groups, we are mostly in the human communication business*. Our successes stem from good human interactions by all participants in the effort, and our failures stem from poor human interactions. The main reason we tend to focus on the technical rather than the human side of the work is not because it's more crucial, but because it's easier to do.
 #+end_quote
 
-<it would be fair to ask if we are still in the human communication business. for the purposes of this post, at least, I choose to believe we are.
-<the problem is that software development need to still go about their job, and they now lack their main tool for communication and knowledge building
+That's my favorite quote from Peopleware, a book that first came out in 1987. Tech and capital changed enough since then that it would be fair to question if we are still in such a human communication business.
 
-Maybe the communication doens't need to happen at all. <Software that's not understood by its maintainers will probably be more fragile and more annoying for its uses, but not necessarily less economically viable.
-<Maybe we can move it elsewhere, if only to preserve some of that joy of a human endeavor
-<code was not an especially good tool for the communication job, just the best we had in the context of artisanal software development
+Maybe communication doesn't need to happen at all. Software that's not understood by its maintainers will probably be more fragile and more annoying to use, but not necessarily less economically viable. We can decide that understanding is not a problem anymore and proceed in isolation to build systems as [[https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/][inescrutable towers of babel]]. Or maybe we can bring back communication, try to place it elsewhere in the process. Code was never an especially good tool for the job, just the best we had in the context of handcrafted software.
 
-<we can pretend/decide that's not a problem anymore and proceed in isolation to build systems as inescrutable towers of babel
-<refer: https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/
-or we can step back and ask ourselves
-if not in the code, and not in the code generation process, where does human communication fit in this brave new software development lifecycle
+If only to recover some of that builder joy, to preserve some of the humanity that risks getting lost, we could step back and ask ourselves: if not in the code, and not in the code generation process, where do people go in this brave new software development lifecycle?
