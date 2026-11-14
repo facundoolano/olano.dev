@@ -54,11 +54,7 @@ This makes sense, but also makes me very sad inside. It wasn't that long ago tha
 
 The code-for-humans assumption may sound idealistic, or too academic, even pretentious---an attempt to elevate a mundane task to something more sophisticated, art-like. It could arguably be obsolete: code was for humans because it needed to be understood in order to be changed, but if we can use LLMs to explain it to us, and to change it for us, does it still matter?
 
-<The thing is that by communicating with code we didn't just produce working software: we were also [[software-design-is-knowledge-building][building knowledge]]. Even in the most worse-is-better, get-the-job-done enterprise environments, <code was the best means we programmers had for explaining the system---and, through it, the business---to ourselves. Similarly, the software development process, with all of its useful friction, was how we aligned our understanding and our modeling of the domain.
-
-<Real-world software systems represent, even determine, business processes and human interactions. The system is often the best way to understand those processes, a better source-of-truth than what documentation or any one expert can provide. And the code was the way to learn and communicate about the systems; making it self-explanatory and augmenting it with domain context was the best shot programmers had at collaboratively building a mental model of the problem they were trying to solve.
-
-TODO alternativa libreta
+The thing is that by communicating with code we didn't just produce working software: we were also [[software-design-is-knowledge-building][building knowledge]]. Real-world software systems represent, even determine business processes and human interactions. The system is often the best way to understand those processes, a better source-of-truth than what documentation or any one expert can provide. Even in the most worse-is-better, get-the-job-done enterprise environments, code was the best means we programmers had to learn and communicate about the system---and, through it, the business; making it self-explanatory and augmenting it with domain context was the best shot programmers had at collaboratively building a mental model of the problem they were trying to solve.
 
 ** <Code for machines
 
