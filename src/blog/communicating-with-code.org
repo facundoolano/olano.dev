@@ -68,9 +68,9 @@ The major problems of our work are not so much technological as sociological in 
 
 That's my favorite quote from Peopleware, a book that first came out in 1987. Tech and capital changed enough since then that it would be fair to question if we are still in such a human communication business.
 
-Maybe communication doesn't need to happen at all. Software that's not understood by its maintainers will probably be more fragile and more annoying to use, but not necessarily less economically viable. We can decide that understanding is not a problem anymore and proceed in isolation to build systems as [[https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/][inescrutable towers of babel]]. Or maybe we can bring back communication, try to place it elsewhere in the process. Code was never an especially good tool for the job, just the best we had in the context of handcrafted software.
+Maybe communication doesn't need to happen at all. Software that's not understood by its maintainers will probably be more fragile and more annoying to use, but not necessarily less economically viable. We can decide that understanding is not a problem anymore and proceed in isolation to build systems as [[https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/][inescrutable towers of Babel]].
 
-If only to recover some of that builder joy, to preserve some of the humanity that risks getting lost, we could step back and ask ourselves: if not in the code, and not in the code generation process, where do people go in this brave new software development lifecycle?
+Or maybe we can bring communication back, try to place it somewhere else in the process. Code was never a particularly good communication tool, anyway, just the best we had in the context of handcrafted software. Maybe we could step back, if only to recover some of that builder joy, to preserve some of the humanity, and ask ourselves: if not in the code, and not in the code generation process, where do people go in this brave new software development world?
 
 #+begin_export html
 <br/>
