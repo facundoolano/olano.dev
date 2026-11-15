@@ -1,10 +1,9 @@
 ---
 title: Communicating with (out) code
-date: 2026-10-04T14:03:46-03:00
+date: 2026-11-15T12:03:46-03:00
 layout: post
 lang: en
 tags: [software, ai]
-draft: true
 image: lull.jpg
 ---
 #+OPTIONS: toc:nil num:nil
