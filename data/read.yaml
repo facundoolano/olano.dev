@@ -1,9 +1,24 @@
+- author: Jorge Luis Borges
+  cover_file: jorge-luis-borges-historia-universal-de-la-infamia.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327540015l/6522752.jpg
+  rating: 3
+  read_at: &id001 2026-11-15
+  review_id: '1010130179'
+  title: Historia universal de la infamia
+- author: J.G. Ballard
+  cover_file: j-g-ballard-the-best-short-stories-of-j-g-ballard.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1412480830l/23307264.jpg
+  rating: 3
+  read_at: *id001
+  review_id: '8881333362'
+  title: The Best Short Stories of J. G. Ballard
 - author: Juan José Saer
   cover_file: juan-jose-saer-lo-imborrable.jpg
   cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327993012l/3256289.jpg
   published_at: 2026-10-24
   rating: 3
   read_at: 2026-10-24
+  review_id: '8812722450'
   title: Lo imborrable
 - author: Juan José Saer
   cover_file: juan-jose-saer-las-nubes.jpg
@@ -11,13 +26,15 @@
   published_at: 2026-10-04
   rating: 2
   read_at: 2026-10-04
+  review_id: '8975856924'
   title: Las nubes
 - author: Albert Camus
   cover_file: albert-camus-el-extranjero.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504301541l/1836303._SX318_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504301541l/1836303.jpg
   published_at: 2026-09-23
   rating: 0
   read_at: 2026-09-23
+  review_id: '598232721'
   title: El extranjero
 - author: J.G. Ballard
   cover_file: j-g-ballard-la-isla-de-cemento.jpg
@@ -25,27 +42,31 @@
   published_at: 2026-09-13
   rating: 3
   read_at: 2026-09-13
+  review_id: '8881332090'
   title: La isla de cemento
 - author: Juan José Saer
   cover_file: juan-jose-saer-glosa.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1775572770l/250754575._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1775572770l/250754575.jpg
   published_at: 2026-08-29
   rating: 5
   read_at: 2026-08-29
+  review_id: '8812720455'
   title: Glosa
 - author: Juan José Saer
   cover_file: juan-jose-saer-el-concepto-de-ficcion.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1173947407l/348253._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1173947407l/348253.jpg
   published_at: 2026-08-17
   rating: 2
   read_at: 2026-08-17
+  review_id: '8812750653'
   title: El concepto de ficción
 - author: Beatriz Sarlo
   cover_file: beatriz-sarlo-zona-saer.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683405602l/33875611._SX318_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683405602l/33875611.jpg
   published_at: 2026-08-15
   rating: 3
   read_at: 2026-08-15
+  review_id: '8842595341'
   title: Zona Saer
 - author: Juan José Saer
   cover_file: juan-jose-saer-nadie-nada-nunca.jpg
@@ -53,6 +74,7 @@
   published_at: 2026-08-09
   rating: 4
   read_at: 2026-08-09
+  review_id: '6841383969'
   title: Nadie nada nunca
 - author: William Faulkner
   cover_file: william-faulkner-mientras-agonizo.jpg
@@ -60,6 +82,7 @@
   published_at: 2026-07-31
   rating: 4
   read_at: 2026-07-31
+  review_id: '6191630763'
   title: Mientras agonizo
 - author: Herman Melville
   cover_file: herman-melville-moby-dick.jpg
@@ -67,6 +90,7 @@
   published_at: 2026-07-27
   rating: 3
   read_at: 2026-07-27
+  review_id: '8416072544'
   title: Moby-Dick
 - author: David Foster Wallace
   cover_file: david-foster-wallace-both-flesh-and-not.jpg
@@ -74,6 +98,7 @@
   published_at: 2026-07-12
   rating: 4
   read_at: 2026-07-12
+  review_id: '8530739136'
   title: 'Both Flesh and Not: Essays'
 - author: Hervé Le Tellier
   cover_file: herve-le-tellier-la-anomalia.jpg
@@ -81,20 +106,23 @@
   published_at: 2026-06-29
   rating: 3
   read_at: 2026-06-29
+  review_id: '6903365448'
   title: La anomalía
 - author: Lily King
   cover_file: lily-king-euforia.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1456928540l/29359989._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1456928540l/29359989.jpg
   published_at: 2026-06-13
   rating: 4
   read_at: 2026-06-13
+  review_id: '8631454064'
   title: Euforia
 - author: Sergio Bizzio
   cover_file: sergio-bizzio-diez-dias-en-re.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519527658l/36863546._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519527658l/36863546.jpg
   published_at: 2026-05-17
   rating: 2
   read_at: 2026-05-17
+  review_id: '8606093710'
   title: Diez días en Re
 - author: Francisco Bitar
   cover_file: francisco-bitar-la-preparacion-de-la-aventura-amorosa.jpg
@@ -102,6 +130,7 @@
   published_at: 2026-05-10
   rating: 2
   read_at: 2026-05-10
+  review_id: '8573353674'
   title: La preparación de la aventura amorosa
 - author: Javier Cercas
   cover_file: javier-cercas-soldados-de-salamina.jpg
@@ -109,6 +138,7 @@
   published_at: 2026-05-03
   rating: 5
   read_at: 2026-05-03
+  review_id: '8360721734'
   title: Soldados de Salamina
 - author: Eduardo Halfon
   cover_file: eduardo-halfon-el-angel-literario.jpg
@@ -116,6 +146,7 @@
   published_at: 2026-04-22
   rating: 2
   read_at: 2026-04-22
+  review_id: '8513514753'
   title: El ángel literario
 - author: Roberto Bolaño
   cover_file: roberto-bolano-a-la-intemperie.jpg
@@ -123,13 +154,15 @@
   published_at: 2026-04-05
   rating: 3
   read_at: 2026-04-05
+  review_id: '8199785469'
   title: A la intemperie
 - author: Sally Rooney
   cover_file: sally-rooney-intermezzo.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716387702l/209311051._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716387702l/209311051.jpg
   published_at: 2026-03-15
   rating: 5
   read_at: 2026-03-15
+  review_id: '8352518394'
   title: Intermezzo
 - author: Roberto Bolaño
   cover_file: roberto-bolano-estrella-distante.jpg
@@ -137,55 +170,63 @@
   published_at: 2026-02-01
   rating: 3
   read_at: 2026-02-01
+  review_id: '779225583'
   title: Estrella distante
 - author: Antoine Bello
   cover_file: antoine-bello-elogio-de-la-pieza-ausente.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677800910l/10254210._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677800910l/10254210.jpg
   published_at: 2026-02-03
   rating: 2
   read_at: 2026-01-29
+  review_id: '8283417171'
   title: Elogio de la pieza ausente
 - author: Matías Aldaz
   cover_file: matias-aldaz-algo-que-nadie-hizo.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1748021248l/222785910._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1748021248l/222785910.jpg
   published_at: 2026-01-09
   rating: 2
   read_at: 2026-01-09
+  review_id: '8194355524'
   title: Algo que nadie hizo
 - author: Jordan Mechner
   cover_file: jordan-mechner-the-making-of-prince-of-persia.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585588886l/52824295._SX318_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585588886l/52824295.jpg
   published_at: 2025-12-30
   rating: 4
   read_at: 2025-12-30
+  review_id: '8104942567'
   title: 'The Making of Prince of Persia: Journals 1985-1993'
 - author: Hernan Diaz
   cover_file: hernan-diaz-a-lo-lejos.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574435076l/48914190._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574435076l/48914190.jpg
   published_at: 2025-12-28
   rating: 2
   read_at: 2025-12-28
+  review_id: '6992801533'
   title: A lo lejos
 - author: Lily King
   cover_file: lily-king-writers-lovers.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580228175l/45289222._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580228175l/45289222.jpg
   published_at: 2025-12-14
   rating: 4
   read_at: 2025-12-14
+  review_id: '8128216283'
   title: Writers & Lovers
 - author: Jimmy Maher
   cover_file: jimmy-maher-the-digital-antiquarian-volume-9.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500520077l/35708987._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500520077l/35708987.jpg
   published_at: 2025-11-30
   rating: 4
   read_at: 2025-11-30
+  review_id: '7896701088'
   title: 'The Digital Antiquarian Volume 9: 1987'
 - author: Andrew  Porter
   cover_file: andrew-porter-desapariciones.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1760055473l/242588929._SX318_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1760055473l/242588929.jpg
   published_at: 2025-11-13
   rating: 3
   read_at: 2025-11-13
+  review_id: '8014594404'
   title: Desapariciones
 - author: Maggie O'Farrell
   cover_file: maggie-o-farrell-la-primera-mano-que-sostuvo-la-mia.jpg
@@ -193,13 +234,15 @@
   published_at: 2025-11-06
   rating: 2
   read_at: 2025-11-06
+  review_id: '7639126173'
   title: La primera mano que sostuvo la mía
 - author: Uketsu
   cover_file: uketsu-strange-houses.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1734077733l/218671839._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1734077733l/218671839.jpg
   published_at: 2025-10-30
   rating: 1
   read_at: 2025-10-30
+  review_id: '7931464327'
   title: Strange Houses
 - author: Vladik Khononov
   cover_file: vladik-khononov-balancing-coupling-in-software-design.jpg
@@ -207,35 +250,40 @@
   published_at: 2025-10-19
   rating: 4
   read_at: 2025-10-16
+  review_id: '7595545358'
   title: 'Balancing Coupling in Software Design: Universal Design Principles for Architecting
     Modular Software Systems'
 - author: Sally Rooney
   cover_file: sally-rooney-conversations-with-friends.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638729263l/32187419._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638729263l/32187419.jpg
   published_at: 2025-09-27
   rating: 3
   read_at: 2025-09-27
+  review_id: '7936785283'
   title: Conversations with Friends
 - author: Sally Rooney
   cover_file: sally-rooney-normal-people.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1571423190l/41057294._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1571423190l/41057294.jpg
   published_at: 2025-09-20
   rating: 4
   read_at: 2025-09-20
+  review_id: '7161902286'
   title: Normal People
 - author: Roberto Bolaño
   cover_file: roberto-bolano-2666.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1781542267l/3137637._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1781542267l/3137637.jpg
   published_at: 2025-09-09
   rating: 4
   read_at: 2025-09-05
+  review_id: '598243367'
   title: '2666'
 - author: Juan Forn
   cover_file: juan-forn-la-tierra-elegida.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510378471l/36573770._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510378471l/36573770.jpg
   published_at: 2025-09-09
   rating: 4
   read_at: 2025-08-28
+  review_id: '4112421837'
   title: La tierra elegida
 - author: César Aira
   cover_file: cesar-aira-en-el-pensamiento.jpg
@@ -243,27 +291,31 @@
   published_at: 2025-08-15
   rating: 2
   read_at: 2025-08-15
+  review_id: '7774107808'
   title: En el pensamiento
 - author: Jimmy Maher
   cover_file: jimmy-maher-the-digital-antiquarian-volume-8.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496295178l/35277757._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496295178l/35277757.jpg
   published_at: 2025-08-01
   rating: 3
   read_at: 2025-08-01
+  review_id: '7712737343'
   title: 'The Digital Antiquarian Volume 8: 1986'
 - author: Marina Mariasch
   cover_file: marina-mariasch-el-libro-de-los-elogios.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1693096118l/179489183._SX318_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1693096118l/179489183.jpg
   published_at: 2025-07-23
   rating: 3
   read_at: 2025-07-23
+  review_id: '7764303556'
   title: El libro de los elogios
 - author: David Foster Wallace
   cover_file: david-foster-wallace-conversaciones-con-david-foster-wallace.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632409129l/59061269._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632409129l/59061269.jpg
   published_at: 2025-05-31
   rating: 3
   read_at: 2025-05-31
+  review_id: '7497465168'
   title: Conversaciones con David Foster Wallace
 - author: Vlad Khononov
   cover_file: vlad-khononov-learning-domain-driven-design.jpg
@@ -271,28 +323,32 @@
   published_at: 2025-05-25
   rating: 3
   read_at: 2025-05-25
+  review_id: '6964928623'
   title: 'Learning Domain-Driven Design: Aligning Software Architecture and Business
     Strategy'
 - author: Maggie O'Farrell
   cover_file: maggie-o-farrell-tiene-que-ser-aqui.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484853849l/33855708._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1484853849l/33855708.jpg
   published_at: 2025-05-22
   rating: 5
   read_at: 2025-05-22
+  review_id: '7551247524'
   title: Tiene que ser aquí
 - author: Tomás Downey
   cover_file: tomas-downey-lopez-lopez.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1741046910l/223905891._SX318_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1741046910l/223905891.jpg
   published_at: 2025-05-03
   rating: 3
   read_at: 2025-05-03
+  review_id: '7381810802'
   title: López López
 - author: David Foster Wallace
   cover_file: david-foster-wallace-el-tenis-como-experiencia-religiosa.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471208140l/30119429._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471208140l/30119429.jpg
   published_at: 2025-04-25
   rating: 3
   read_at: 2025-04-25
+  review_id: '7514727929'
   title: El tenis como experiencia religiosa
 - author: David Foster Wallace
   cover_file: david-foster-wallace-algo-supuestamente-divertido-que-nunca-volvere-a-hacer.jpg
@@ -300,6 +356,7 @@
   published_at: 2025-04-20
   rating: 4
   read_at: 2025-04-20
+  review_id: '7344641770'
   title: Algo supuestamente divertido que nunca volveré a hacer
 - author: Thomas Bernhard
   cover_file: thomas-bernhard-el-malogrado.jpg
@@ -307,34 +364,39 @@
   published_at: 2025-04-02
   rating: 2
   read_at: 2025-04-02
+  review_id: '7350774630'
   title: El malogrado
 - author: Samanta Schweblin
   cover_file: samanta-schweblin-el-buen-mal.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1759358202l/228879035._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1759358202l/228879035.jpg
   published_at: 2025-03-29
   rating: 3
   read_at: 2025-03-29
+  review_id: '7291265581'
   title: El buen mal
 - author: Virginia Woolf
   cover_file: virginia-woolf-un-cuarto-propio.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171047682l/83843._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171047682l/83843.jpg
   published_at: 2025-03-04
   rating: 4
   read_at: 2025-03-04
+  review_id: '7372787813'
   title: Un cuarto propio
 - author: Georges Perec
   cover_file: georges-perec-las-cosas.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1761753298l/629770._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1761753298l/629770.jpg
   published_at: 2025-02-22
   rating: 4
   read_at: 2025-02-22
+  review_id: '1464457834'
   title: Las cosas
 - author: Vladimir Khorikov
   cover_file: vladimir-khorikov-unit-testing.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596211471l/48927138._SX318_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596211471l/48927138.jpg
   published_at: 2025-01-16
   rating: 4
   read_at: 2025-01-16
+  review_id: '6934784618'
   title: 'Unit Testing: Principles, Practices, and Patterns'
 - author: Michael Cunningham
   cover_file: michael-cunningham-las-horas.jpg
@@ -342,20 +404,23 @@
   published_at: 2024-12-31
   rating: 4
   read_at: 2024-12-31
+  review_id: '6959460974'
   title: Las horas
 - author: Seichō Matsumoto
   cover_file: seicho-matsumoto-un-lugar-desconocido.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626950997l/58606773._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626950997l/58606773.jpg
   published_at: 2024-12-06
   rating: 1
   read_at: 2024-12-06
+  review_id: '5280583407'
   title: Un lugar desconocido
 - author: Michael Cunningham
   cover_file: michael-cunningham-el-libro-de-los-dias.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597363240l/54915291._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1597363240l/54915291.jpg
   published_at: 2024-11-25
   rating: 3
   read_at: 2024-11-25
+  review_id: '6971643034'
   title: El libro de los días
 - author: Richard Hugo
   cover_file: richard-hugo-the-triggering-town.jpg
@@ -363,55 +428,63 @@
   published_at: 2024-10-28
   rating: 3
   read_at: 2024-10-28
+  review_id: '6867910814'
   title: 'The Triggering Town: Lectures and Essays on Poetry and Writing'
 - author: Bob Mackey
   cover_file: bob-mackey-day-of-the-tentacle.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677602124l/123029070._SX318_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677602124l/123029070.jpg
   published_at: 2024-10-13
   rating: 3
   read_at: 2024-10-13
+  review_id: '5836474131'
   title: Day of the Tentacle
 - author: Satoshi Yagisawa
   cover_file: satoshi-yagisawa-mis-dias-en-la-libreria-morisaki.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1670958091l/66421161._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1670958091l/66421161.jpg
   published_at: 2024-10-10
   rating: 2
   read_at: 2024-10-10
+  review_id: '6903147320'
   title: Mis días en la librería Morisaki
 - author: Michel Houellebecq
   cover_file: michel-houellebecq-serotonina.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551539064l/44173772._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551539064l/44173772.jpg
   published_at: 2024-09-26
   rating: 1
   read_at: 2024-09-26
+  review_id: '6826860816'
   title: Serotonina
 - author: Matt   Bell
   cover_file: matt-bell-baldur-s-gate-ii.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433470273l/25667759._SX318_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433470273l/25667759.jpg
   published_at: 2024-09-21
   rating: 3
   read_at: 2024-09-21
+  review_id: '6826941816'
   title: Baldur's Gate II
 - author: Maggie O'Farrell
   cover_file: maggie-o-farrell-hamnet.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610434329l/56644361._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610434329l/56644361.jpg
   published_at: 2024-09-18
   rating: 5
   read_at: 2024-09-18
+  review_id: '6835980826'
   title: Hamnet
 - author: Brian  Ward
   cover_file: brian-ward-how-linux-works.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618301356l/57727508._SX318_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618301356l/57727508.jpg
   published_at: 2024-09-11
   rating: 4
   read_at: 2024-09-11
+  review_id: '6681096060'
   title: How Linux Works
 - author: Amélie Nothomb
   cover_file: amelie-nothomb-estupor-y-temblores.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1739057584l/75526._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1739057584l/75526.jpg
   published_at: 2024-09-08
   rating: 3
   read_at: 2024-09-08
+  review_id: '6594987841'
   title: Estupor y temblores
 - author: Matt   Bell
   cover_file: matt-bell-refuse-to-be-done.jpg
@@ -419,6 +492,7 @@
   published_at: 2024-09-07
   rating: 4
   read_at: 2024-09-07
+  review_id: '6659256493'
   title: 'Refuse to Be Done: How to Write and Rewrite a Novel in Three Drafts'
 - author: David Lodge
   cover_file: david-lodge-terapia.jpg
@@ -426,13 +500,15 @@
   published_at: 2024-09-03
   rating: 4
   read_at: 2024-09-03
+  review_id: '6724341773'
   title: Terapia
 - author: Emmanuel Carrère
   cover_file: emmanuel-carrere-yoga.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610093907l/56591437._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610093907l/56591437.jpg
   published_at: 2024-08-11
   rating: 4
   read_at: 2024-08-11
+  review_id: '6703747981'
   title: Yoga
 - author: Matthew    Skelton
   cover_file: matthew-skelton-team-topologies.jpg
@@ -440,13 +516,15 @@
   published_at: 2024-08-03
   rating: 3
   read_at: 2024-08-03
+  review_id: '5145222022'
   title: 'Team Topologies: Organizing Business and Technology Teams for Fast Flow'
 - author: Giuliano da Empoli
   cover_file: giuliano-da-empoli-el-mago-del-kremlin.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1678047503l/123045115._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1678047503l/123045115.jpg
   published_at: 2024-07-30
   rating: 4
   read_at: 2024-07-30
+  review_id: '6675052818'
   title: El mago del Kremlin
 - author: Verlyn Klinkenborg
   cover_file: verlyn-klinkenborg-several-short-sentences-about-writing.jpg
@@ -454,20 +532,23 @@
   published_at: 2024-07-26
   rating: 5
   read_at: 2024-07-26
+  review_id: '6659260055'
   title: Several Short Sentences About Writing
 - author: Tove Jansson
   cover_file: tove-jansson-la-verdad-increible.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1605993142l/55976597._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1605993142l/55976597.jpg
   published_at: 2024-06-23
   rating: 3
   read_at: 2024-06-23
+  review_id: '6243015586'
   title: La verdad increíble
 - author: Julian Maclaren-Ross
   cover_file: julian-maclaren-ross-de-amor-y-de-hambre.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536018627l/41692062._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536018627l/41692062.jpg
   published_at: 2024-06-10
   rating: 2
   read_at: 2024-06-10
+  review_id: '5506994441'
   title: De amor y de hambre
 - author: Juan José Saer
   cover_file: juan-jose-saer-el-limonero-real.jpg
@@ -475,6 +556,7 @@
   published_at: 2024-05-26
   rating: 2
   read_at: 2024-05-26
+  review_id: '6396744312'
   title: El limonero real
 - author: Juan José Saer
   cover_file: juan-jose-saer-cicatrices.jpg
@@ -482,27 +564,31 @@
   published_at: 2025-11-07
   rating: 4
   read_at: 2024-04-06
+  review_id: '998045544'
   title: Cicatrices
 - author: Carmen Maria Machado
   cover_file: carmen-maria-machado-en-la-casa-de-los-suenos.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617175210l/57587075._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617175210l/57587075.jpg
   published_at: 2024-03-28
   rating: 3
   read_at: 2024-03-28
+  review_id: '6363316360'
   title: En la casa de los sueños
 - author: Benjamín Labatut
   cover_file: benjamin-labatut-maniac.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697623215l/199066748._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697623215l/199066748.jpg
   published_at: 2024-03-20
   rating: 2
   read_at: 2024-03-20
+  review_id: '5885330903'
   title: MANIAC
 - author: Ricardo Piglia
   cover_file: ricardo-piglia-las-tres-vanguardias.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460333244l/29873474._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460333244l/29873474.jpg
   published_at: 2024-03-16
   rating: 3
   read_at: 2024-03-16
+  review_id: '6209466334'
   title: 'Las tres vanguardias: Saer, Puig, Walsh'
 - author: Juan José Saer
   cover_file: juan-jose-saer-unidad-de-lugar.jpg
@@ -510,20 +596,23 @@
   published_at: 2024-03-14
   rating: 0
   read_at: 2024-03-14
+  review_id: '6307857952'
   title: Unidad de lugar
 - author: Juan José Saer
   cover_file: juan-jose-saer-la-mayor.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1173947407l/348252._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1173947407l/348252.jpg
   published_at: 2024-03-01
   rating: 3
   read_at: 2024-03-01
+  review_id: '6170362871'
   title: La mayor
 - author: May Sarton
   cover_file: may-sarton-anhelo-de-raices.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602969343l/55703895._SX318_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602969343l/55703895.jpg
   published_at: 2024-02-18
   rating: 3
   read_at: 2024-02-18
+  review_id: '6243015917'
   title: Anhelo de raíces
 - author: Juan José Saer
   cover_file: juan-jose-saer-lugar.jpg
@@ -531,20 +620,23 @@
   published_at: 2024-02-17
   rating: 3
   read_at: 2024-02-17
+  review_id: '6197737412'
   title: Lugar
 - author: Emmanuel Carrère
   cover_file: emmanuel-carrere-el-adversario.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617482470l/57617909._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617482470l/57617909.jpg
   published_at: 2024-07-31
   rating: 4
   read_at: 2024-02-01
+  review_id: '6716089392'
   title: El adversario
 - author: Ricardo Piglia
   cover_file: ricardo-piglia-plata-quemada.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525159821l/8452820._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525159821l/8452820.jpg
   published_at: 2024-01-30
   rating: 1
   read_at: 2024-01-30
+  review_id: '6206883948'
   title: Plata quemada
 - author: Estela Canto
   cover_file: estela-canto-borges-a-contraluz.jpg
@@ -552,6 +644,7 @@
   published_at: 2024-01-19
   rating: 3
   read_at: 2024-01-19
+  review_id: '6172520341'
   title: Borges a contraluz
 - author: Rachel Cusk
   cover_file: rachel-cusk-a-contraluz.jpg
@@ -559,6 +652,7 @@
   published_at: 2024-01-18
   rating: 1
   read_at: 2024-01-18
+  review_id: '6156496945'
   title: A contraluz
 - author: Alessandro Baricco
   cover_file: alessandro-baricco-seda.jpg
@@ -566,13 +660,15 @@
   published_at: 2024-01-17
   rating: 2
   read_at: 2024-01-17
+  review_id: '5341179556'
   title: Seda
 - author: Juan José Saer
   cover_file: juan-jose-saer-la-pesquisa.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496858021l/35384526._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496858021l/35384526.jpg
   published_at: 2024-01-16
   rating: 4
   read_at: 2024-01-16
+  review_id: '1084491978'
   title: La pesquisa
 - author: Jorge Luis Borges
   cover_file: jorge-luis-borges-textos-cautivos.jpg
@@ -580,6 +676,7 @@
   published_at: 2024-01-22
   rating: 4
   read_at: 2024-01-13
+  review_id: '3684248606'
   title: Textos cautivos
 - author: Maurice Renard
   cover_file: maurice-renard-el-senor-de-la-luz.jpg
@@ -587,28 +684,32 @@
   published_at: 2024-01-09
   rating: 3
   read_at: 2024-01-09
+  review_id: '6108268647'
   title: El señor de la luz
 - author: William Kotzwinkle
   cover_file: william-kotzwinkle-el-nadador-en-el-mar-secreto.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551242488l/44149917._SX318_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551242488l/44149917.jpg
   published_at: 2023-12-30
   rating: 4
   read_at: 2023-12-30
+  review_id: '6052319297'
   title: El nadador en el mar secreto
 - author: Georges Charbonnier
   cover_file: georges-charbonnier-el-escritor-y-su-obra-entrevistas-de-georges-charbonnier-con-jorge-luis-borges.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1467854536l/30954974._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1467854536l/30954974.jpg
   published_at: 2023-12-27
   rating: 2
   read_at: 2023-12-27
+  review_id: '6078594462'
   title: El escritor y su obra. Entrevistas de Georges Charbonnier con Jorge Luis
     Borges
 - author: Ágota Kristóf
   cover_file: agota-kristof-claus-y-lucas.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633385474l/43687282._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633385474l/43687282.jpg
   published_at: 2026-07-12
   rating: 4
   read_at: 2023-12-24
+  review_id: '3980950498'
   title: Claus y Lucas
 - author: Jorge Luis Borges
   cover_file: jorge-luis-borges-ficciones.jpg
@@ -616,6 +717,7 @@
   published_at: 2023-12-10
   rating: 5
   read_at: 2023-12-10
+  review_id: '1801271212'
   title: Ficciones
 - author: Guillermo Martínez
   cover_file: guillermo-martinez-crimenes-imperceptibles.jpg
@@ -623,6 +725,7 @@
   published_at: 2023-11-30
   rating: 2
   read_at: 2023-11-30
+  review_id: '6006182742'
   title: Crímenes imperceptibles
 - author: Juan Forn
   cover_file: juan-forn-puras-mentiras.jpg
@@ -630,62 +733,71 @@
   published_at: 2023-11-26
   rating: 4
   read_at: 2023-11-26
+  review_id: '5999846605'
   title: Puras mentiras
 - author: Richard Yates
   cover_file: richard-yates-once-tipos-de-soledad.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517266865l/38235687._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517266865l/38235687.jpg
   published_at: 2023-11-17
   rating: 2
   read_at: 2023-11-17
+  review_id: '5345966630'
   title: Once Tipos de Soledad
 - author: Jimmy Maher
   cover_file: jimmy-maher-the-digital-antiquarian-volume-7.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495312164l/35178767._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495312164l/35178767.jpg
   published_at: 2023-11-16
   rating: 4
   read_at: 2023-11-16
+  review_id: '5886297559'
   title: 'The Digital Antiquarian Volume 7: 1985'
 - author: Hernan Diaz
   cover_file: hernan-diaz-fortuna.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1676714454l/97142243._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1676714454l/97142243.jpg
   published_at: 2023-11-11
   rating: 4
   read_at: 2023-11-11
+  review_id: '5562494772'
   title: Fortuna
 - author: Yanis Varoufakis
   cover_file: yanis-varoufakis-technofeudalism.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684846614l/75560036._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684846614l/75560036.jpg
   published_at: 2023-11-02
   rating: 4
   read_at: 2023-11-02
+  review_id: '5874213412'
   title: 'Technofeudalism: What Killed Capitalism'
 - author: Werner Herzog
   cover_file: werner-herzog-el-crepusculo-del-mundo.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644597645l/60393084._SX318_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644597645l/60393084.jpg
   published_at: 2023-10-15
   rating: 4
   read_at: 2023-10-15
+  review_id: '5893282167'
   title: El crepúsculo del mundo
 - author: Cory Doctorow
   cover_file: cory-doctorow-the-internet-con.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1693887440l/195583719._SX318_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1693887440l/195583719.jpg
   published_at: 2023-09-24
   rating: 3
   read_at: 2023-09-24
+  review_id: '5709552160'
   title: 'The Internet Con: How To Seize the Means of Computation'
 - author: Gabrielle Zevin
   cover_file: gabrielle-zevin-tomorrow-and-tomorrow-and-tomorrow.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636978687l/58784475._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636978687l/58784475.jpg
   published_at: 2023-09-23
   rating: 4
   read_at: 2023-09-19
+  review_id: '5799724368'
   title: Tomorrow, and Tomorrow, and Tomorrow
 - author: Pablo Natale
   cover_file: pablo-natale-antes-de-que-te-vayas-de-casa.jpg
-  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1693799568l/198496977._SY475_.jpg
+  cover_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1693799568l/198496977.jpg
   published_at: 2023-09-04
   rating: 3
   read_at: 2023-09-01
+  review_id: '5818563035'
   title: Antes de que te vayas de casa
 - author: Virginia Woolf
   cover_file: virginia-woolf-mrs-dalloway.jpg
